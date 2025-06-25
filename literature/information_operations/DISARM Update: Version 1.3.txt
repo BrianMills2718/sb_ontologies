@@ -1,0 +1,230 @@
+DISARM Update: Version 1.3
+Adam
+Adam
+14 min read
+·
+Sep 18, 2023
+
+Overview
+
+We’re updating the Red Framework to provide a wider range of Objectives for analysts to pick from when categorising their campaigns, along with introducing some consistency updates, and changes requested by the community.
+
+We’re also introducing the DISARM Navigator and Tagger; two new tools which should help analysts more efficiently benefit from DISARM’s Frameworks.
+
+Finally, we’re revealing plans for upcoming updates to the DISARM Red Framework.
+Improvements to Objective Tracking in DISARM Red
+
+Here we’re going to explain why we felt it was important to make these changes. Check out the “Full Patch Notes” at the bottom of the post if you’re just interested in what’s new.
+
+Previously, analysts had the following options under TA02: Plan Objectives:
+
+    T0002: Facilitate State Propaganda
+    T0066: Degrade Adversary
+    T0075: Dismiss
+    — T0075.001: Discredit Credible Sources
+    T0076: Distort
+    T0077: Distract
+    T0078: Dismay
+    T0079: Divide
+
+The 5 Ds work great for documenting narrative devices, but don’t give us much insight into what actors’s Objectives are; they’re too abstract and not pragmatic enough to describe the goals of influence operations (actors don’t Distort for the sake of Distorting, they do it to achieve an ulterior motive), and in a future update we’ll move the 5 Ds to live under a more appropriate Tactic. This leaves only a few Techniques remaining, which aren’t enough to enable analysts to benefit from tagging actors’ objectives.
+
+To fix this problem, we’re adding the following Tactics to TA02: Plan Objectives:
+
+    Cultivate Support
+    Make Money
+    Undermine
+    Cause Harm
+    Motivate to Act
+    Dissuade from Acting
+
+Each Technique has their own Sub-Techniques to allow analysts to further delineate between campaigns’ perceived objectives. For example, Cultivate Support contains the following Sub-Techniques:
+
+    Recruit Members
+    Energise Supporters
+    Boost Reputation
+    Defend Reputation
+    Justify Action
+    Increase Prestige
+    Cultivate Support for Ally
+    Cultivate Support for Policy
+
+We identified these Techniques and Sub-Techniques by reviewing literature on common objectives of Influence Operations, and associating them with real-world campaigns.
+Community Requests
+
+We’re introducing our first updates based on feedback from the community! We had requests to fix issues with existing Framework items under TA07: Select Channels and Affordances:
+
+    T0104.002: Dating Apps mistakenly displayed the Summary intended for T0103.001: Video Livestream.
+    T0104.003: Private/Closed Social Networks mistakenly displayed the Summary intended for T0103.002: Audio Livestream.
+
+These issues have been resolved, and the Summaries have been updated to include example platforms. To ensure that the Techniques were mutually exclusive, LinkedIn was redefined to a Private/Closed Social Network from its previous categorisation as a Mainstream Social Network.
+
+We were also asked to expand the scope of T0128: Conceal People under TA11: Persist in the Information Environment so that the Technique can be used to catalogue concealment of a wider variety of operational assets:
+
+    T0128: Conceal People has been updated to T0128: Conceal Information Assets
+    T0128.005: Change Names of Accounts has been updated to T0128.005: Change Names of Information Assets
+    T0128.004: Launder Accounts has been updated to T0128.004: Launder Information Assets
+
+Please reach out to us with any suggestions you have for updates to DISARM’s Frameworks; we love to hear from the community and know the path to the best possible Framework is one where we work together to build something great.
+Other Framework Updates
+
+We’re standardising the Framework to use British English, and title case in items’ names. We’re also adding Sub-Techniques to T0074: Determine Strategic Ends:
+
+    Domestic Political Advantage
+    Geopolitical Advantage
+    Economic Advantage
+    Ideological Advantage
+
+These Sub-Techniques were initially designed to be classified as Objectives, but felt better suited to Strategic Ends after review. We plan to make further improvements to TA01: Plan Strategy, including moving T0073: Determine Target Audiences to live under TA13: Target Audience Analysis.
+Future Framework Updates
+
+We have lots of plans for improvements to DISARM’s Frameworks, including:
+
+    More community driven change requests
+    The addition of more Incidents to the Frameworks, with detailed explanations of how they match each Technique (with the goal of supporting a shared understanding with practical examples)
+    Further improvements to TA01: Plan Strategy, and TA13: Target Audience Analysis to enhance the granularity of techniques and enable more tailored defensive actions
+    Further changes to the DISARM Red Framework with the goal of making it less initially overwhelming, while also encompassing more actor behaviours through a focus on increasing the number of Sub-Techniques while paring back the top-level Techniques.
+
+If you have any changes which you think would be valuable to include in our upcoming updates, please reach out to us!
+The DISARM Navigator
+
+We have modified the ATT&CK Navigator to allow for viewing DISARM’s Red Framework, which you can access here.
+The DISARM Navigator
+
+To view the Framework in the Navigator, select Create a new empty layer and click DISARM.
+Create a new empty layer > DISARM
+
+By default all Sub-Techniques are hidden behind their parent Techniques, which we hope provides a more manageable experience when first accessing the Framework (Sub-Techniques can be drawn out using the Layer Controls toolbar in the top right of the page). The Navigator also introduces the ability to search across Framework Items’ names and descriptions, which makes finding the Technique you’re looking for a LOT easier.
+The search feature and Layer Controls toolbar
+
+You can also easily identify which behaviours you’ve already tagged by adding scoring or colouration to selected Techniques. For advanced users scoring also enables comparison of different campaigns, to help identification of behaviours common across influence operations.
+
+All of these features combined should make for a much more approachable and user-friendly experience for navigating the Framework, while also helping analysts produce valuable insights for selecting efficient strategic defender actions. The Navigator is available for use now, but we will also be producing tutorials in the near future if you’d prefer to wait for guided help before diving in.
+The DISARM Tagger
+
+A tool developed in-house to support tagging of reports with DISARM Techniques is being made publicly available on DISARM’s GitHub repository. The Tagger adds an embedded toolbar to Microsoft Word’s ribbon, enabling analysts to search for Techniques to tag highlighted text in their reports, while also generating a summary table displaying all tagged Techniques and associated evidence at the end of the document.
+
+We hope this tool enables analysts to spend more time analysing and less time tagging. In future releases we will update the Tagger to enable its usage in other software used by analysts.
+Full Patch Notes
+
+3 Updated Techniques, 7 Updated Sub-Techniques, 5 New Techniques, 36 New Sub-Techniques
+
+TA01: Plan Strategy
+1 Updated Technique, 4 New Sub-Techniques
+
+T0074: Determine Strategic Ends: (Updated Summary) These are the long-term end-states the campaign aims to bring about. They typically involve an advantageous position vis-a-vis competitors in terms of power or influence. The strategic goal may be to improve or simply to hold one’s position. Competition occurs in the public sphere in the domains of war, diplomacy, politics, economics, and ideology, and can play out between armed groups, nation-states, political parties, corporations, interest groups, or individuals.
+
+(New Sub-Technique) Domestic Political Advantage: Favourable position vis-à-vis national or sub-national political opponents such as political parties, interest groups, politicians, candidates.
+
+(New Sub-Technique) Geopolitical Advantage: Favourable position on the international stage in terms of great power politics or regional rivalry. Geopolitics plays out in the realms of foreign policy, national security, diplomacy, and intelligence. It involves nation-state governments, heads of state, foreign ministers, intergovernmental organisations, and regional security alliances.
+
+(New Sub-Technique) Economic Advantage: Favourable position domestically or internationally in the realms of commerce, trade, finance, industry. Economics involves nation-states, corporations, banks, trade blocs, industry associations, cartels.
+
+(New Sub-Technique) Ideological Advantage: Favourable position domestically or internationally in the market for ideas, beliefs, and world views. Competition plays out among faith systems, political systems, and value systems. It can involve sub-national, national or supra-national movements.
+
+—
+
+TA02: Plan Objectives
+1 Updated Technique, 5 New Techniques, 26 New Sub-Techniques
+
+(New Technique) Cultivate Support: Grow or maintain the base of support for the actor, ally, or action. This includes hard core recruitment, managing alliances, and generating or maintaining sympathy among a wider audience, including reputation management and public relations. Sub-techniques assume support for actor (self) unless otherwise specified.
+
+(New Sub-Technique) Cultivate Support: Motivate followers to join or subscribe as members of the team. Organisations may mount recruitment drives that use propaganda to entice sympathisers to sign up.
+
+(New Sub-Technique) Energise Supporters: Raise the morale of those who support the organization or group. Invigorate constituents with zeal for the mission or activity. Terrorist groups, political movements, and cults may indoctrinate their supporters with ideologies that are based on warped versions of religion or cause harm to others.
+
+(New Sub-Technique) Boost Reputation: Elevate the estimation of the actor in the public’s mind. Improve their image or standing. Public relations professionals use persuasive overt communications to achieve this goal; manipulators use covert disinformation.
+
+(New Sub-Technique) Defend Reputation: Preserve a positive perception in the public’s mind following an accusation or adverse event. When accused of a wrongful act, an actor may engage in denial, counter accusations, whataboutism, or conspiracy theories to distract public attention and attempt to maintain a positive image.
+
+(New Sub-Technique) Justify Action: To convince others to exonerate you of a perceived wrongdoing. When an actor finds it untenable to deny doing something, they may attempt to exonerate themselves with disinformation which claims the action was reasonable. To be vindicated is a special case of the objective “Defend Reputation”.
+
+(New Sub-Technique) Increase Prestige: Improve personal standing within a community. Gain fame, approbation, or notoriety. Conspiracy theorists, those with special access, and ideologues can gain prominence in a community by propagating disinformation, leaking confidential documents, or spreading hate.
+
+(New Sub-Technique) Cultivate Support for Ally: Elevate or fortify the public backing for a partner. Governments may interfere in other countries’ elections by covertly favoring a party or candidate aligned with their interests. They may also mount an influence operation to bolster the reputation of an ally under attack.
+
+(New Sub-Technique) Cultivate Support for Initiative: Elevate or fortify the public backing for a policy, operation, or idea. Domestic and foreign actors can use artificial means to fabricate or amplify public support for a proposal or action.
+
+—
+
+(New Technique) Make Money: Profit from disinformation, conspiracy theories, or online harm. In some cases, the sole objective is financial gain, in other cases the objective is both financial and political. Making money may also be a way to sustain a political campaign.
+
+(New Sub-Technique) Extort: Coerce money or favors from a target by threatening to expose or corrupt information. Ransomware criminals typically demand money. Intelligence agencies demand national secrets. Sexual predators demand favors. The leverage may be critical, sensitive, or embarrassing information.
+
+(New Sub-Technique) Raise Funds: Solicit donations for a cause. Popular conspiracy theorists can attract financial contributions from their followers. Fighting back against the establishment is a popular crowdfunding narrative.
+
+(New Sub-Technique) Generate Ad Revenue: Earn income from digital advertisements published alongside inauthentic content. Conspiratorial, false, or provocative content drives internet traffic. Content owners earn money from impressions of or clicks on or conversions of ads published on their websites, social media profiles, or streaming services, or ads published when their content appears in search engine results. Fraudsters simulate impressions, clicks, and conversions, or they spin up inauthentic sites or social media profiles just to generate ad revenue. Conspiracy theorists and political operators generate ad revenue as a byproduct of their operation or as a means of sustaining their campaign.
+
+(New Sub-Technique) Scam: Defraud a target or trick a target into doing something that benefits the attacker. A typical scam is where a fraudster convinces a target to pay for something without the intention of ever delivering anything in return. Alternatively, the fraudster may promise benefits which never materialize, such as a fake cure. Criminals often exploit a fear or crisis or generate a sense of urgency. They may use deepfakes to impersonate authority figures or individuals in distress.
+
+(New Sub-Technique) Sell Items under False Pretences: Offer products for sale under false pretenses. Campaigns may hijack or create causes built on disinformation to sell promotional merchandise. Or charlatans may amplify victims’ unfounded fears to sell them items of questionable utility such as supplements or survival gear.
+
+(New Sub-Technique) Manipulate Stocks: Artificially inflate or deflate the price of stocks or other financial instruments and then trade on these to make profit. The most common securities fraud schemes are called “pump and dump” and “poop and scoop”.
+
+—
+
+(New Technique) Undermine: Weaken, debilitate, or subvert a target or their actions. An influence operation may be designed to disparage an opponent; sabotage an opponent’s systems or processes; compromise an opponent’s relationships or support system; impair an opponent’s capability; or thwart an opponent’s initiative.
+
+(New Sub-Technique) Thwart: Prevent the successful outcome of a policy, operation, or initiative. Actors conduct influence operations to stymie or foil proposals, plans, or courses of action which are not in their interest.
+
+(New Sub-Technique) Smear: Denigrate, disparage, or discredit an opponent. This is a common tactical objective in political campaigns with a larger strategic goal. It differs from efforts to harm a target through defamation.
+
+(New Sub-Technique) Subvert: Sabotage, destroy, or damage a system, process, or relationship. The classic example is the Soviet strategy of “active measures” involving deniable covert activities such as political influence, the use of front organizations, the orchestration of domestic unrest, and the spread of disinformation.
+
+(New Sub-Technique) Polarise: To cause a target audience to divide into two completely opposing groups. This is a special case of subversion. To divide and conquer is an age old approach to subverting and overcoming an enemy.
+
+—
+
+(New Technique) Cause Harm: Persecute, malign, or inflict pain upon a target. The objective of a campaign may be to cause fear or emotional distress in a target. In some cases, harm is instrumental to achieving a primary objective, as in coercion, repression, or intimidation. In other cases, harm may be inflicted for the satisfaction of the perpetrator, as in revenge or sadistic cruelty.
+
+(New Sub-Technique) Spread Hate: Publish and/or propagate demeaning, derisive, or humiliating content targeting an individual or group of individuals with the intent to cause emotional, psychological, or physical distress. Hate speech can cause harm directly or incite others to harm the target. It often aims to stigmatize the target by singling out immutable characteristics such as color, race, religion, national or ethnic origin, gender, gender identity, sexual orientation, age, disease, or mental or physical disability. Thus, promoting hatred online may involve racism, antisemitism, Islamophobia, xenophobia, sexism, misogyny, homophobia, transphobia, ageism, ableism, or any combination thereof. Motivations for hate speech range from group preservation to ideological superiority to the unbridled infliction of suffering.
+
+(New Sub-Technique) Defame: Attempt to damage the target’s personal reputation by impugning their character. This can range from subtle attempts to misrepresent or insinuate, to obvious attempts to denigrate or disparage, to blatant attempts to malign or vilify. Slander applies to oral expression. Libel applies to written or pictorial material. Defamation is often carried out by online trolls.
+
+(New Sub-Technique) Intimidate: Coerce, bully, or frighten the target. An influence operation may use intimidation to compel the target to act against their will. Or the goal may be to frighten or even terrify the target into silence or submission. In some cases, the goal is simply to make the victim suffer.
+
+—
+
+(New Technique) Motivate to Act: Persuade, impel, or provoke the target to behave in a specific manner favorable to the attacker. Some common behaviors are joining, subscribing, voting, buying, demonstrating, fighting, retreating, resigning, boycotting.
+
+(New Sub-Technique) Compel: Force target to take an action or to stop taking an action it has already started. Actors can use the threat of reputational damage alongside military or economic threats to compel a target
+
+(New Sub-Technique) Provoke: Instigate, incite, or arouse a target to act. Social media manipulators exploit moral outrage to propel targets to spread hate, take to the streets to protest, or engage in acts of violence.
+
+(New Sub-Technique) Encourage: Inspire, animate, or exhort a target to act. An actor can use propaganda, disinformation, or conspiracy theories to stimulate a target to act in its interest.
+
+—
+
+(New Technique) Dissuade from Acting: Discourage, deter, or inhibit the target from actions which would be unfavourable to the attacker. The actor may want the target to refrain from voting, buying, fighting, or supplying.
+
+(New Sub-Technique) Deter: Prevent target from taking an action for fear of the consequences. Deterrence occurs in the mind of the target, who fears they will be worse off if they take an action than if they don’t. When making threats, aggressors may bluff, feign irrationality, or engage in brinksmanship.
+
+(New Sub-Technique) Silence: Intimidate or incentivise target into remaining silent or prevent target from speaking out. A threat actor may cow a target into silence as a special case of deterrence. Or they may buy the target’s silence. Or they may repress or restrict the target’s speech.
+
+(New Sub-Technique) Discourage: To make a target disinclined or reluctant to act. Manipulators use disinformation to cause targets to question the utility, legality, or morality of taking an action.
+
+—
+
+TA07: Select Channels and Affordances
+5 Updated Sub-Techniques
+
+T0103.002: Dating Apps: (Updated Summary) Examples include Tinder, Bumble, Tantan, Badoo, Plenty of Fish, hinge, LOVOO, OkCupid, happn, Mamba.
+
+T0103.001: Video Livestream: (Updated Summary) A video livestream refers to an online video broadcast capability that allows for real-time communication to closed or open networks. Generic examples include Facebook Live, YouTube Live, TikTok Live, Instagram Live, Douyu, 17LIVE. Video game streaming examples include Twitch, Facebook Gaming, YouTube Gaming.
+
+T0103.002: Audio Livestream: (Updated Summary) An audio livestream refers to an online audio broadcast capability that allows for real-time communication to closed or open networks. This includes internet radio stations such as TuneIn Radio, iHeartRadio, Sirius XM; podcasts available on music streaming platforms such as Spotify, Pandora, Apple Podcasts, Google Podcasts, and Amazon Music; and social audio services such as Twitter (X) Spaces, Clubhouse, Reddit Talk, Facebook Live Audio Rooms, LinkedIn Live Rooms, and Fireside
+
+T0104.003: Private/Closed Social Networks: (Updated Summary) Social networks that are not open to people outside of family, friends, neighbors, or co-workers. Non-work-related examples include Couple, FamilyWall, 23snaps, and Nextdoor. Some of the larger social network platforms enable closed communities: examples are Instagram Close Friends and Twitter (X) Circle. Work-related examples of private social networks include LinkedIn, Facebook Workplace, and enterprise communication platforms such as Slack or Microsoft Teams
+
+T0104.001: Mainstream Social Networks: (Updated Summary) Examples include Facebook, Twitter (X), Weibo, VKontakte (VK), Odnoklassniki
+
+—
+
+TA11: Persist in the Information Environment
+1 Updated Technique, 2 Updated Sub-Techniques
+
+(Updated Name) T0128: Conceal Information Assets: (Updated Summary) Conceal the identity or provenance of campaign information assets such as accounts, channels, pages etc. to avoid takedown and attribution.
+
+(Updated Name) T0128.005: Change Names of Information Assets: (Updated Summary) Changing names or brand names of information assets such as accounts, channels, pages etc. An operation may change the names or brand names of its assets throughout an operation to avoid detection or alter the names of newly acquired or repurposed assets to fit operational narratives.
+
+(Updated Name) T0128.004: Launder Information Assets: (Updated Summary) Laundering occurs when an influence operation acquires control of previously legitimate information assets such as accounts, channels, pages etc. from third parties through sale or exchange and often in contravention of terms of use. Influence operations use laundered assets to reach target audience members from within an existing information community and to complicate attribution.

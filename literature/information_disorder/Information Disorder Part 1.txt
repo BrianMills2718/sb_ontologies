@@ -1,0 +1,290 @@
+42
+who develop the new products, tools and platforms have been provided ethical training on
+the unintended consequences of the algorithms they write.
+Upon whom are the messages focused?
+While agents have particular audiences in mind when they create dis-information, the
+targeted subject of the message will be different. Dis-information often deliberately highlights
+differences and divisions, whether they be between supporters of different political parties,
+nationalities, races, ethnicities, religious groups, socio-economic classes or castes. As
+Greenhill argues, these types of messages enable discriminatory and inflammatory ideas to
+enter public discourse and to be treated as fact. Once embedded, such ideas can in turn be
+used to create scapegoats, normalize prejudices, harden us-versus-them mentalities and, in
+extreme cases, even catalyze and justify violence.95
+Most discussion around dis-information in the US and European contexts has focused on
+political messages, which, while worrying from a democratic perspective, tend not to incite
+violence. However, in other parts of the world, dis-information directed toward people due to
+their religious, ethnic or racial identities has led to violence. As Samantha Stanley explained,
+“perhaps the most obvious example of how mis-information can lead to violent offline action
+is the two-day riots in Myanmar’s second largest city, Mandalay, in July 2014. Following an
+unsubstantiated rumor posted on Facebook that a Muslim tea shop owner raped a Buddhist
+employee, a mob of almost 500 people wreaked havoc on the city and incited lingering fear
+amongst its Muslim citizens. Two people were killed during the riot, one Buddhist and one
+Muslim.”96
+3) Interpreters: How do they make sense of the messages?
+As Stuart Hall explained in his seminal work on reception theory97, messages are encoded by
+the producer, but then decoded by individual audience members in one of three ways:
+1. Hegemonic. Accepting the message as it was encoded.
+2. Negotiated. Accepting aspects of the message, but not all of it.
+3. Oppositional. Declining the way the message was encoded.
+95 Greenhill, K. M. (forthcoming). Whispers of War, Mongers of Fear: Extra-factual Sources of Threat Conception
+and Proliferation and Greenhill, K. M., & Oppenheim B. (forthcoming). Rumor Has It: The Adoption of Unverified
+Information in Conflict Zones. International Studies Quarterly.
+96 Stanley, S. (May 16, 2017) Mis-information and hate speech in Myanmar, First Draft,
+https://firstdraftnews.com/mis-information-myanmar/
+97 Hall, S. (1973). Encoding and Decoding in the Television Discourse. Birmingham: Centre for Contemporary
+Cultural Studies
+43
+In this section, we outline the work of key cultural and social theorists who have attempted to
+explain how audiences make sense of messages.
+George Lakoff sees rationality and emotions as being tied together to the extent that, as
+human beings, we cannot think without emotions. The emotions in our brains are structured
+around certain metaphors, narratives and frames. They help us make sense of things, and,
+without them, we would become disoriented. We would not know what or how to think.
+Lakoff distinguishes two different kinds of reason: ‘False reason’ and ‘real reason.’98 False
+reason, he says, ‘sees reason as fully conscious, as literal, disembodied, yet somehow fitting
+the world directly, and working not via frame-based, metaphorical, narrative and emotional
+logic, but via the logic of logicians alone.’ Real reason, alternatively, is an unconscious thought
+that ‘arises from embodied metaphors.’99 He argues that false reason does not work in
+contemporary politics, as we’ve become increasingly emotional about our political affiliations.
+Understanding how our brains make sense of language is also relevant here. Every word is
+neurally connected to a particular frame, which is in turn linked together with other frames in
+a moral system. These ‘moral systems’ are subconscious, automatic and acquired through
+repetition. As the language of conservative morality, for example, is repeated, frames and in
+turn the conservative system of thought are activated and strengthened unconsciously and
+automatically. Thus, conservative media and Republican messaging work unconsciously to
+activate and reinforce the conservative moral system, making it harder for fact-checks to
+penetrate.100
+Considering Trump’s success, D’Ancona recently argued, “He communicated a brutal empathy
+to [his supporters], rooted not in statistics, empiricism or meticulously acquired information,
+but an uninhibited talent for rage, impatience and the attribution of blame.”101 Ultimately,
+news consumers “face a tradeoff: they have a private incentive to consume precise and
+unbiased news, but they also receive psychological utility from confirmatory news.”102
+As we will discuss in Part Two, the emotional allure of situating ourselves within our filter
+bubbles and having our worldviews supported and reinforced by ‘confirmatory news’ is
+98 Lakoff, George (1997). Metaphors We Live By. University of Chicago Press and Moral Politics: What
+Conservatives Know That Liberals Don't. University of Chicago Press
+99 Lakoff, G. (2010) “Why "Rational Reason" Doesn't Work in Contemporary Politics”, http://www.truth-
+out.org/buzzflash/commentary/george-lakoff-why-rational-reason-doesnt-work-in-contemporary-politics/8893-
+george-lakoff-why-rational-reason-doesnt-work-in-contemporary-politics
+100 Lakoff, G. (2010)
+101 D’Ancona, M. (2017) Post-Truth, Ebury Press.
+102 Allcott, H. and M. Gentzkow, (2017) Social Media and Fake News in the 2016 Election, Journal of Economic
+Perspectives, 31:2, p.218
+44
+incredibly powerful. Finding solutions to this is going to require a mixture of technological and
+educational solutions and, ultimately, a psychological shift whereby one-sided media diets are
+deemed socially unacceptable.
+Communication as Ritual
+When town criers announced news to crowds, runners read newspapers aloud in
+coffeehouses and families listened to or watched the evening news together, news
+consumption was largely a collective experience. However, news consumption has slowly
+evolved into an individual behavior with the emergence of portable radios and television and,
+more recently, the ubiquitous adoption of laptops, tablets and smartphones.
+But while we might physically consume the news alone, what we choose to consume is
+increasingly visible because of social media. The posts that we like or comment on and the
+articles, videos or podcast episodes we share are all public. Borrowing from Erving Goffman’s
+metaphor of life as theatre, invariably, when we use social media to share news, we become
+performers.103 Whatever we like or share is often visible to our network of friends, family and
+acquaintances, and it affects their perceptions of us.104
+If social media is a stage, our behaviour is a performance and our circle of friends or followers
+are our audience. Goffman thinks our goal for this performance is to manage our audience’s
+perception of us.105 Therefore, we tend to like or share things on social media that our friends
+or followers would expect us to like or share—or, in other words, what we would normally
+like or share.106
+Similarly, as Maffesoli argued in his 1996 book The Time of the Tribes107, to understand
+someone’s behavior, one must consider the sociological implications of the many different,
+small and temporary groups that he or she is a member of at any given time of day.
+Maffesoli’s writings aptly describe the realities of users who have to navigate different online
+groups throughout the day, deciding what information to post or share to different ‘tribes’
+online and off.
+103 Goffman, E, (1956) The Presentation of Self in Everyday Life. Random House.
+104 Karlova, N. A., & Fisher, K. E. (2013). Plz RT: a social diffusion model of mis-information and dis-information
+for understanding human information behaviour. Information Research, 18(1), 1-17.
+105 Goffman defines impression management as a conscious or unconscious process in which people try to
+influence the perceptions of other people about a person, object or event by regulating and controlling
+information in our daily social interaction.
+106 Picone, I. (2015) Impression Management in Social Media, Published Online: 11 FEB 2015
+http://onlinelibrary.wiley.com/doi/10.1002/9781118767771.wbiedcs071/abstract
+107 Maffesoli, M. (1996) The time of the tribes, London:Sage.
+45
+This tribal mentality partly explains why many social media users distribute dis-information
+when they don’t necessarily trust the veracity of the information they are sharing: they would
+like to conform and belong to a group, and they ‘perform’ accordingly.108 The pressure to
+conform can become particularly strong when algorithms on social platforms suppress views
+opposing those of the user. Even if a user has a politically diverse circle of friends or followers,
+what she sees in her newsfeed or timeline does not necessarily reflect that diversity.
+This connects with the theory of motivated cognition, which refers to the unconscious
+tendency of individuals to process information to fit conclusions that suit some internal goal.
+The classic example comes from the 1950s, when psychologists asked students from two Ivy
+League colleges to watch a film of a football game between their schools that featured a set
+of controversial officiating calls. The students from each school were more likely to see the
+referees’ calls as correct when it favored their school than when it favored their rival. The
+researchers concluded that the emotional stake the students had in affirming their loyalty to
+their respective institutions shaped what they saw on the tape.109
+Yale University’s Dan Kahan and colleagues demonstrated motivated cognition in a political
+context. They found that, on issues such as a gun control or climate change, participants
+would do mathematical somersaults with available data to ‘prove’ the point of view
+supported by their own politics.110 Kahan argues that while it’s tempting to fixate on the ‘lazy
+brain’ theory – that humans rely heavily on mental shortcuts to compensate for the vast
+amount of information they encounter every day – humans are instead making decisions
+about what position is most appropriate to publicly support. He concludes: “Work on
+motivated cognition and political conflict tends to focus more on the need for maintaining a
+valued identity, particularly as a member of a group… But the seeming inability of economic
+interests to explain who believes what on issues such as climate change, the HPV vaccine,
+economic policies that include tax cuts or social welfare spending and the like is in fact the
+motivation for examining the contribution that identity-protective forms of motivated
+cognition make.”111
+108 Social platforms that do not allow anonymity are more prone to this twisted aspect of impression
+management, whereas on platforms which permit anonymity, other problems such as trolling and harassment
+can arise.
+109 Kahan, D. (2011) What is Motivated Reasoning and How Does It Work? Science and Religion Today,
+http://www.scienceandreligiontoday.com/2011/05/04/what-is-motivated-reasoning-and-how-does-it-work/
+110 Kahan, D. et al (2013) Motivated Numeracy and Enlightened Self-Government, Behavioural Public Policy, 1,
+54-86
+111 Kahan, D. (2011) What is Motivated Reasoning and How Does It Work? Science and Religion Today,
+http://www.scienceandreligiontoday.com/2011/05/04/what-is-motivated-reasoning-and-how-does-it-work/
+46
+Communication as Transmission
+In a study by Van Dammes and Smets in 2014, they remind us that the “human memory is not
+a recording device, but rather a process of (re)construction that is vulnerable to both internal
+and external influences.”112
+The challenge for the human brain today is how these influences work in the context of social
+networks that are bombarding us with information, pinging us repeatedly via the
+smartphones in our pockets. As WikiMedia testified to the UK Parliament, “Our minds have
+always been a battleground for various social forces, but the sheer number of agents and
+institutions vying for control of our thoughts and feelings today is so large that it is confusing
+and destabilising for many.”113
+Filippo Menczer’s114 most recent research highlights the challenges of our brains to make
+decisions about credibility when the streams of information are overwhelming. In other
+words, normal people are too distracted by a deluge of information to find the most accurate
+stories: “There are a hundred more stories you’re not seeing that are much better than those
+five that you thought were good.” So, according to this research, irrespective of echo
+chambers and confirmation bias, people are not sharing verified stories in part because they
+never see them.
+According to research115 116 conducted before the heavy use of social media that we take for
+granted today, people used a set of key heuristics, or mental shortcuts, when evaluating the
+credibility of a source or message:
+1. Reputation. Based on recognition and familiarity
+2. Endorsement. Whether others find it credible
+3. Consistency. Whether the message is echoed by multiple sites
+4. Expectancy violation. Whether a website looks and behaves in the expected
+manner
+5. Self-confirmation. Whether a message confirms one’s beliefs
+6. Persuasive intent. The intent of the source in creating the message
+112 Van Damme, I. & K. Smets, 2014, p. 310. The power of emotion versus the power of suggestion: Memory for
+emotional events in the mis-information paradigm. Emotion. 14 (2): 310
+113 Evidence Provided to the UK Parliamentary Inquiry on Fake News by WIkiMedia UK,
+http://data.parliament.uk/writtenevidence/committeeevidence.svc/evidencedocument/culture-media-and-
+sport-committee/fake-news/written/48122.html
+114 Qiu, X. et al. (2017) Limited individual attention and online virality of low-quality information, Nature Human
+Behaviour, Vol 1.
+115 Metzger, M. and A. J. Flanagin (2013) Credibility and trust of information in online environments: The use of
+cognitive heuristics, Journal of Pragmatics, 59 pp. 210-220
+116 Lewandowsky, S. et al. (2012) Mis-information and Its Correction: Continued Influence and Successful
+Debiasing, Psychological Science in the Public Interest, 13(3), pp. 106–131
+47
+When we consider these heuristics in the context of our heavy reliance on social media as a
+source of information, the issues we see in this current age of mis- and dis-information
+become less surprising.
+A very recent meta-analysis117 of the psychological efficacy of messages countering mis-
+information provides an excellent overview of the research literature pertaining to debunks
+and how they impact people’s perceptions of mis-information. The review of the literature
+underlined that the effects of a debunking effect were weaker when audiences generated
+reasons in support of the initial mis-information, supporting what we know about the power
+of confirmation bias and motivated reasoning.
+People are not incentivised to click out of social media to view an article in its original form.
+As such, the cue of ‘expectancy violation’ (whether the site behaves as expected) and
+‘consistency’ (whether the information is supported by multiple sites) are unlikely to be
+utilized.
+A most troubling finding from social media studies is how powerful ‘familiarity’ is as a
+persuasive factor.118 As Paul and Matthews discuss in their 2016 paper on the methods by
+which Russia effectively creates a ‘firehose of falsehood’, repetition is one of the most
+effective techniques for getting people to accept mal- and dis-information.
+The repetition component is particularly problematic on social media due to people trying to
+manipulate the platforms through bots that automatically “like” or “share” stories or ‘click
+farms’. These techniques can create false sense of popularity about content, and, by tagging
+influential people like celebrities, politicians or even journalists, impact the news cycle. A
+disturbing recent report by Trend Micro119 outlines the varied ways that influence is being
+bought, and the ways in which click farms are being used to boost hashtags, game online
+petitions, skew online comment and create fake accounts.
+Cues like ‘endorsement’ also become more salient on social media. Our ability to immediately
+see whether friends and family have liked, shared, commented or retweeted a piece of
+content becomes a powerful influence on our credibility judgments. As researchers have
+shown 120, if you find out your friends like a song, you’ll be more likely to like it too. Human
+117 Chan, M.S., C. R.Jones, K.H. Jamieson, D. Albarracín (2017) Debunking: A Meta-Analysis of the Psychological
+Efficacy of Messages Countering Mis-information, Psychological Science, 1-16.
+118 Pennycook, G. et al (July 5, 2017) Prior Exposure Increases Perceived Accuracy of Fake News, Available at
+SSRN: https://ssrn.com/abstract=2958246
+119 Gu, L., V. Kropotov & F. Yarochkin, (June 2017), How Propagandists Abuse the Internet and Manipulate the
+Public. Trend Micro, https://documents.trendmicro.com/assets/white_papers/wp-fake-news-machine-how-
+propagandists-abuse-the-internet.pdf
+120 Salganik, M. et al. (2006) Experimental Study of Inequality and Unpredictability in an Artificial Cultural
+Market, Science, Vol. 311, pp.854-856
+48
+beings are drawn to follow the masses, particularly when the mass is shown to include your
+closest friends and family. As Jonathan Stray explains, “messages received in greater volume
+and from more sources will be more persuasive. Quantity does indeed have a quality all its
+own… [R]eceiving a message via multiple modes and from multiple sources increases the
+message’s perceived credibility, especially if a disseminating source is one with which an
+audience member identifies.”121
+The heuristic of self-confirmation now is also especially powerful, now that social networks
+are the dominant form of information dissemination. Back in 2006, research by Taber and
+Lodge122 showed the powerful effect of prior attitudes upon reasoning. Attitudinally
+congruent arguments are evaluated as stronger than attitudinally incongruent arguments.
+The algorithmic filtering that makes us much less likely to come across information that
+challenges us (see the section below on filter bubbles and echo chambers) means that the
+selective exposure that humans tend toward (as it requires less cognitive ‘work’) is done for
+us automatically.
+In addition to self-confirmation bias, humans are also affected by motivated reasoning and a
+desire to be vindicated. As Sunstein et al.123 found, people who believed in man-made climate
+change updated their beliefs more in response to bad news (e.g. temperatures are going up
+more than expected), whereas those who disbelieved man-made climate change were more
+responsive to good news. Therefore, beliefs were only changed in ways that cemented what
+they already thought to be true.
+This is linked to recent research trying to replicate the so-called backfire effect, which was
+first proposed in 2010124 to account for fact-checks that appeared to harden people’s beliefs
+about false information. The researchers were unable to replicate the backfire effect and
+found that corrections and fact-checks do nudge people toward the truth.
+Specifically, their research found that, while Trump supporters were more resistant to
+nudging, they were nudged all the same. And there was another clear pattern of Trump
+supporters: corrections didn’t change participants’ feelings about Trump. As one of the
+researchers, Brendan Nyhan, explained, “People were willing to say Trump was wrong, but it
+121 Stray, J. (Feb 27, 2017), Defense Against the Dark Arts: Networked Propaganda and Counter-Propaganda,
+Tow Center for Digital Journalism, Medium. https://medium.com/tow-center/defense-against-the-dark-arts-
+networked-propaganda-and-counter-propaganda-deb7145aa76a
+122 Taber, C. and M. Lodge, (2006) Motivated Skepticism in the Evaluation of Political Beliefs, American Journal
+of Political Science, Vol. 50, No. 3 (Jul., 2006), pp. 755-769
+123 Sunstein, C. R., et al. (2016). How People Update Beliefs about Climate Change: Good News and Bad News
+(SSRN Scholarly Paper No. ID 2821919). Rochester, NY: Social Science Research Network.
+124 Nyhan, Brendan, and Jason Reifler. 2010. “When Corrections Fail: The persistence of political misperceptions.”
+Political Behavior 32 (2): 303–330.
+49
+didn’t have much of an effect on what they felt about him.”125 The takeaway is that, while
+facts make an impression, they just don’t matter for our decision-making—a conclusion that
+has a great deal of support in the psychological sciences.126
+The research on how best to word and visualise fact-checks and debunks is varied and at
+times contradictory.127 Much of this research is US-focused, concerned with political fact-
+checks and mostly carried out on American undergraduate students. It’s vital that more
+studies are replicated in different geographical settings, using mis-information in other
+areas—particularly health and science.
+There is currently a great deal of discussion about increasing funding for individual news
+literacy programs, as well as integrating core elements into national curricula. We would
+argue those programs and curricula should include discussions of how to override the human
+tendency to seek out information that supports our worldview and ‘tribal identifications’,
+how to beat confirmation bias and how to be skeptical of information which produces an
+emotional response.
+In this first section, we introduced new conceptual frameworks for discussing and researching
+information disorder, outlining the three types, elements and phases of information disorder:
+i) The three types: mis-, dis- and mal-information
+ii) The three elements: agents, messages and interpreters
+iii) The three phases: creation, production and dissemination
+We need to be much more precise about the definitions we use to describe the phenomenon
+of information disorder, if we are to begin understanding how and why it is created, the forms
+that it takes, and its impact. We also need to understand how characteristics change as
+information flows through the different phases, and how the person who interprets a
+particular message can become an agent in their own right as they go on to re-share that
+message with their own networks. In the following section, we discuss the challenges of filter
+bubbles and echo chambers, underlining the importance of considering how people discover
+information and share it with their own networks, and the need to study the wider
+implications for public discourse.
+125 Resnick, B. (July 10, 2017) “Trump supporters know 

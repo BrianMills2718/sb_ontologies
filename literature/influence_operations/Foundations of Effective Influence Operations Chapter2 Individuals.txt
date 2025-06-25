@@ -1,0 +1,567 @@
+ChaptEr twO
+Influencing Individuals
+In some cases, such as crisis management, influence operations plan-
+ners will seek to influence the attitudes, beliefs, behaviors, and deci-
+sions of specific individuals—for example, political leaders—while in
+other cases, such as counterinsurgency, planners will focus on the other
+extreme and seek to influence large segments of mass publics to sup-
+port the U.S. side or to withhold support from U.S. adversaries. In
+either case, an understanding of attitudes, beliefs, and how individu-
+als respond to messages and actions is essential for effective influence
+operations; in other words, one of the microfoundations of influence
+can be found in individual-level considerations. This chapter provides
+essential background on what we view as some of the theoretical and
+empirical microfoundations of effective influence at the individual level
+of cognition, attitudes, and behavior.
+A recent review of scholarship related to the conceptualization
+of attitudes, attitude formation and activation, attitude structure and
+function, and the attitude-behavior relation summarized a number of
+basic points about individual-level attitudes:1
+There is general agreement that an attitude represents a summary•
+evaluation of a psychological object (or attitude object—e.g., a
+person, thing, place, or event) captured in attribute dimensions,
+1 The following summary of research findings is paraphrased from Ajzen, 2001.
+12 Foundations of Effective Influence Operations
+such as good or bad, harmful or beneficial, pleasant or unpleas-
+ant, and likable or dislikable. 2
+Attitude evaluations appear to be composed of multiple compo-•
+nents, engendering both a cognitive dimension and an affective
+one, but the contributions of affect and cognition to overall evalu-
+ations can vary with the attitude object and as a function of indi-
+vidual differences.
+Chronically accessible beliefs (i.e., those most easily retrieved from•
+memory) provide the foundation for current, relatively stable atti-
+tudes, but various contextual factors can temporarily make cer-
+tain beliefs more readily accessible and salient.
+There is some research suggesting that stronger attitudes are more•
+stable over time, more resistant to persuasion, and more predictive
+of manifest behavior.
+There is some evidence linking attitudes to values (favorable•
+valences associated with abstract concepts such as freedom and
+equality) and ample evidence linking attitudes to subjective
+norms.
+Much of the recent research related to the attitude-behavior•
+connection has focused on the theories of reasoned action and
+planned behavior (described below) and has sought to elaborate
+on the relationship of attitudes and intentions to overt actions.
+2 A recent review of attitudes and persuasion research described attitudes thusly:
+Today, most accept the view that an attitude represents an evaluative integration of
+cognitions and affects experience in relation to an object. Attitudes are evaluative judg-
+ments that integrate and summarize these cognitive/affective reactions. These evaluative
+abstractions vary in strength, which in turn has implications for persistence, resistance,
+and attitude-behavior consistency (Crano and Prislin, 2006, p. 347).
+In a similar vein, Tourangeau and Rasinski (1988) state:
+Within social psychology, there is an emerging consensus that attitudes are best under-
+stood as structures that reside in long-term memory and are activated when the issue or
+object of the attitude is encountered. . . . In our own work, we have found it useful to
+represent attitudes as networks of interrelated beliefs. Although we refer to the constitu-
+ents of attitudes as beliefs, we use this term loosely to encompass memories of specific
+experiences, general propositions, images, and feelings.
+Influencing Individuals 13
+There are a great many individual-level academic theories about
+cognitive processing, attitude formation and change, attitude-behavior
+consistency, social influence, and persuasion that compete for our atten-
+tion in understanding the mechanisms by which individuals’ attitudes,
+beliefs, or behaviors can be influenced.
+As will be described, these theories differ in the variables they
+emphasize in explaining attitudes and persuasion, each tends to find
+some empirical support in experimental work, and each can help to
+explain the conditions under which inertia in attitudes and behaviors
+can be overcome and attitude change can take place. 3 Moreover, their
+generally modest explanatory and predictive power highlights just how
+situationally dependent the influence enterprise is; as will be seen, most
+of these models fall far short of living up to the present-day frequently
+used DoD slogan “perception management.”4 The literature is vast,
+and the following does not discuss all of the various theories related
+to influence and persuasion, but it aims to cover some of the more rel-
+evant and influential theories and models that have implications for the
+influence enterprise:5
+Expectancy-Value Model.• The most popular conceptualization of
+attitude—the expectancy-value model of Fishbein, Ajzen, and
+Feather—suggests that evaluative meaning arises spontaneously
+and inevitably as individuals form beliefs about an object. Fur-
+3 For a good review of various characteristics associated with attitude formation and change,
+see Crano and Prislin, 2006.
+4 The DoD definition of perception management (DoD, 2007) actually is somewhat more
+measured in tone than the term itself:
+Actions to convey and/or deny selected information and indicators to foreign audiences
+to influence their emotions, motives, and objective reasoning as well as to intelligence
+systems and leaders at all levels to influence official estimates, ultimately resulting in
+foreign behaviors and official actions favorable to the originator’s objectives. In various
+ways, perception management combines truth projection, operations security, cover and
+deception, and psychological operations.
+See also the Wikipedia (n.d.[b]) definition of perception management.
+5 For excellent reviews of attitude change and social influence, see Petty, Wegener, and
+Fabrigar, 1997; Wood, 2000; Cialdini and Goldstein, 2004; Crano and Prislin, 2006.
+14 Foundations of Effective Influence Operations
+thermore, each belief associates the attitude object with a certain
+attitude, and the individual’s overall attitude toward the object
+is determined by the subjective value of the object’s attributes in
+interaction with the strength of the associations. This approach
+also provides a theoretical framework for examining resistance
+to persuasion that focuses on message acceptance, second-order
+impacts on attitudes not directly addressed in messages, and the
+evaluation of message attributes (see Fishbein, 1963; Fishbein and
+Ajzen, 1975; and Feather, 1982). 6
+Elaboration Likelihood Model (ELM).• Petty and Cacioppo’s ELM
+is a dual-process model. It argues that attitudes guide decisions
+and other behaviors and that there are both central and peripheral
+routes to persuasion.7 According to the ELM, the ability and will-
+ingness of an individual to actually think about an argument and
+its supporting evidence explain the likely efficacy of each route
+in a given situation: When individuals are involved in trying to
+understand an argument and its supporting evidence (i.e., elabo-
+ration is high), the central route is more efficacious, whereas when
+individuals are not involved (i.e., elaboration is low), the periph-
+eral route is a more effective approach. 8
+The Semantic Differential and Evaluation, Potency, Activity (EPA)•
+Model. Osgood’s semantic differential and EPA model of com-
+munications and attitudes aimed to serve as a bridge between the
+communication of messages regarding attitude objects and the
+meaning that individuals assign to these attitude objects in larger
+attitude structures. Respondents evaluated different concepts and
+objects using ordinal scales, the results of which were factor ana-
+6 For an application of this framework to resistance to persuasion, see Ahluwalia, 2000, pp.
+217–232.
+7 Dual-process models are in a family of models that hold that if receivers are able and
+properly motivated, they will elaborate, or systematically analyze, persuasive messages. If the
+messages are well reasoned, data based, and logical, they will persuade; if they are not, they
+will fail (Crano and Prislin, 2006, p. 348). Another example of a dual-process model is the
+heuristic/systematic model, which is described in Chaiken, Liberman, and Eagly, 1989.
+8 See Petty and Cacioppo, 1996; TCW, 2004. Chaiken’s heuristic system model also is a
+dual-source model (Chaiken, 1980).
+Influencing Individuals 15
+lyzed, generally reducing to three underlying principal compo-
+nents: a component Osgood described as “evaluative” (e.g., good
+versus bad), one described as “potency” (e.g., assessing strength or
+weakness), and one described as “activity” (e.g., assessing activity
+versus passivity)—or, taken together, the EPA model. As docu-
+mented in his books and papers, Osgood’s ambitious research
+program resulted in a set of results demonstrating the underly-
+ing robustness of the EPA model as a tool for characterizing atti-
+tude structures and the applicability of the model across cultural
+milieus (Osgood, Suci, and Tannenbaum, 1961; Osgood, 1964).
+Perhaps more important, Osgood’s path-breaking work also con-
+stituted a seminal early effort to represent attitude objects spa-
+tially in a larger, multidimensional attitude space.9
+Cognitive Dissonance Theory.• Because of its historical import, we
+also note Festinger’s cognitive dissonance theory.10 In its origi-
+nal form, the theory argued that individuals who hold discrep-
+ant cognitions are motivated to reduce or eliminate the tension
+between these cognitions by trying to bring them back into align-
+ment (see Festinger, 1957, 1964).11 This can be accomplished, for
+example, by changing one or more cognitions, adding new cog-
+nitions, or altering the relative importance (e.g., discounting) of
+certain cognitions. Subsequent research has suggested that the
+concept of cognitive dissonance does not explain dissonant gen-
+eralized cognitions (e.g., political views) so much as cognitions
+that challenge one’s generally favorable views of oneself: Individu-
+als may be motivated to realign their self-concept or engage in
+9 In particular, this work was highly influential in the development of Woelfel’s Galileo
+theory and method, discussed later in this chapter.
+10 For a discussion of the four versions of dissonance theory that recently have generated
+research interest, see Petty, Wegener, and Fabrigar, 1997, especially pp. 619–622. See also
+Osgood’s model of attitude congruity (Osgood, 1960).
+11 A number of factors affect the perceived magnitude of the dissonance and motivation to
+address it, including the degree of discrepancy among cognitions, the number of discrep-
+ant cognitions, the number of consonant cognitions held by an individual, and the relative
+weights given to the consonant and dissonant cognitions, which may be adjusted by their
+importance in the mind of the individual (Stephenson, n.d.).
+16 Foundations of Effective Influence Operations
+bolstering behavior when, for example, a freely chosen behavior
+results in some foreseeable negative consequence or if dissonance
+arises from the violation of self-integrity.12
+Also of some interest are areas of study that seek to explain changes
+in attitudes and behaviors that are based on rational cognition and on
+systematic departures from strict rationality:
+Bounded Rationality.• Traditional economic theories of decision-
+making assumed that man was a rational, utility-maximizing,
+self-interested actor with perfect information. Herbert Simon’s
+theory of bounded rationality argues instead that people are
+partly rational but that, given the vast complexity of the world
+and practical constraints on time and other resources for gather-
+ing information and making decisions, human rationality is nec-
+essarily bounded.13
+Judgment Under Uncertainty.• Research by a number of psycholo-
+gists has aimed to enrich Simon’s intuition about bounded ratio-
+nality by exploring exceptions to strict rationality. Experiments
+conducted by psychologists Daniel Kahneman, Amos Tversky,
+and Paul Slovic (1982), for example, have shown that individuals’
+use of heuristics and biases lead to departures from strict rational-
+ity in the form of expected utility calculations, but that many of
+these departures occur in systematic and predictable ways.14
+12 See, for example, Aronson, 1969; Cooper and Fazio, 1984; Aronson, 1992; Wood, 2000,
+especially pp. 546–548.
+13 Simon (1957, p. 198) argued that bounded rationality arose from the fact that “the capac-
+ity of the human mind for formulating and solving complex problems is very small compared
+with the size of the problems whose solution is required for objectively rational behavior in
+the real world—or even for a reasonable approximation to such objective rationality.” For a
+review of Simon’s contributions to political science and an analysis of his intended meaning
+for bounded rationality, see Bendor, 2003.
+14 A popular example is the tendency of individuals to be risk seeking in prospects involving
+sure losses and risk averse in gambles involving sure gains (see Kahneman and Tversky, 1979;
+Levy, 1997. The work of the psychologist Philip Tetlock also is apposite.
+Influencing Individuals 17
+Among the more prominent theories that address the issue of
+attitude-behavior consistency are two theories associated with psy-
+chologist Icek Ajzen: the theory of reasoned action and the theory of
+planned behavior.15 The theory of reasoned action says that individuals’
+intentions are the best guides to their behavior and that their inten-
+tions are, in turn, guided by their attitudes toward the behavior and
+the subjective norm related to that behavior. The theory of planned
+behavior is an extension of the theory of reasoned action and adds a
+third variable—perceived behavioral control—as an additional predic-
+tor of behavior.16
+A number of other theories seek to account for social influences
+on attitude formation and changes in behavior:
+Social Learning Theory.• Miller and Dollard’s social learning theory
+(1941) argues that behavioral change incorporates the principles
+of learning, which include reinforcement, punishment, extinc-
+tion, and imitation of models (see also Bandura, 1977). Current
+variants of the theory generally hold that (1) response conse-
+quences (e.g., reward and punishment) influence the likelihood
+that a person will perform a particular behavior again in a given
+situation; (2) humans can learn by observing others; and (3) indi-
+viduals are most likely to model behavior of others with whom
+they identify (see “Social Cognitive Theory,” n.d.).
+Social Cognitive Theory.• Albert Bandura’s social cognitive theory
+(1973; 1986) holds that individuals learn by observing and mod-
+eling others’ behavior. Bandura posits four conditions for learning
+by modeling others’ behavior: (1) the individual must be paying
+attention to the model, (2) the individual must be able to remem-
+ber the behavior that has been observed, (3) the individual must
+be able to replicate the behavior, and (4) the individual must be
+motivated to demonstrate the learned behavior (Ormrod, 1998).
+15 For a review of recent research in this area, see Ajzen, 2001.
+16 For a discussion of the theory of reasoned action, see Fishbein and Ajzen, 1975; Ajzen and
+Fishbein, 1980. The theory of planned behavior is described in Ajzen, 1985.
+18 Foundations of Effective Influence Operations
+Also, likely to be of interest to some readers is a small literature deal-
+ing with a related set of factors that are associated with resistance to
+persuasive efforts.17
+Engineering Attitude Change
+While some general theories do stand out—the expectancy-value
+model, the elaboration likelihood method, social power theory, and
+the theory of planned behavior, for example—readers of the foregoing
+might well conclude that understanding individual- or group-level atti-
+tudes will require an ensemble of different theories, tools, and analytic
+activities to ascertain and foster desired shifts in attitudes and behav-
+iors through appropriately tailored messages and policies. They would
+be largely correct in reaching this conclusion; as described above, the
+influence enterprise is vastly complicated and requires substantial anal-
+ysis and testing to avoid the most obvious mistakes and pitfalls that
+have been identified by various research programs. There has, how-
+ever, also been some effort to put forth analytic approaches that, like
+Osgood’s EPA model, might provide a more general and systematic
+basis for mapping attitudes—and for planning communications that
+can shift these attitudes in desired ways.
+One of the more interesting approaches to communication and
+attitude change we found was Joseph Woelfel’s metric multidimen-
+sional scaling approach, which is called Galileo.18 In many ways,
+17 Beyond Fishbein and Ajzen (1980), see for example, McGuire and Papageorgis, 1962;
+Anderson and McGuire, 1965; Voghs and Garrett, 1968; Ahluwalia, 2000.
+18 See, for example, Woelfel and Fink, 1980; Woelfel et al., n.d.(a); Barnett, Serota, and
+Taylor, 1976; Barnett and Woelfel, 1979; Woelfel et al., n.d.(b); Woelfel, Hernandez, and
+Allen, n.d.; Woelfel, 1981; Danes, Hunter, and Woelfel, 1984. Most of these works are avail-
+able from the Galileo Web site (n.d.).
+Another approach worth mentioning was developed by Bud Whiteman of Booz Allen Ham-
+ilton. It includes a framework for assessing PSYOP mission effectiveness that systematically
+addresses the sorts of challenges that must be overcome for successful influence efforts to
+occur. That framework strongly resembles the simple model presented here. In brief, White-
+man provides a top-down methodology for quantifying PSYOP mission effectiveness based
+on PSYOP objectives, supporting PSYOP objectives, and appeals to target audiences. White-
+Influencing Individuals 19
+Woelfel’s theory was the closest that any social science approach came
+to providing the basis for an end-to-end engineering solution for plan-
+ning, conducting, and assessing the impact of communications on
+attitudes and behaviors.19 This theory appears to provide a generalized
+framework for
+measuring attitudes, beliefs, cultural factors, and other psycholog-•
+ical or cognitive phenomena through the use of paired compari-
+sons of distances between objects using a standardized metric
+visualizing attitude structures in a multidimensional space in•
+which the distance between attitude objects connotes their simi-
+larity or dissimilarity, with attitude objects that are judged to be
+similar closer together and those judged to be dissimilar farther
+apart
+assessing the degree of similarity in attitude structure within sub-•
+groups based on the dispersion around the average positions of
+attitude objects in multidimensional space
+assessing the level of crystallization, stability, or inertia in atti-•
+tudes by comparing the average position of attitude objects in
+space at different time intervals and ascertaining whether differ-
+ences are accountable to a lack of crystallization in beliefs about
+the objects or whether they actually reflect the movement of these
+objects in response to persuasive messages or other factors
+identifying the most effective and efficient campaign themes and•
+messages for changing attitudes in a target audience by identify-
+ing where in multidimensional space an attitude object (e.g., “the
+United States”) is relative to other concepts, such as “good” and
+man treats the influence process in much the same way as we describe our influence model,
+and he computes separate probabilities for receipt, acceptance, and attitudinal or behavior
+change in accordance with a message. Target audiences can be divided into subgroups that
+differ in terms of their preconditioning to accept or reject a message, such that the intensity
+of messages required to change attitudes and behaviors can vary by group. Whiteman, 2004,
+represents a very useful contribution to thinking about the influence process in an end-to-
+end way. Whiteman’s model builds on Kerchner, Deckro, and Kloeber, 1999.
+19 A great number of Galileo theory–related papers are available at the Galileo Web site
+(n.d.).
+20 Foundations of Effective Influence Operations
+“evil,” and what other attitude objects (e.g., “England”) might be
+associated with “the United States” to move it to a more favorable
+position.
+Galileo theory conceives of attitudes, beliefs, cultures, and other
+ideational phenomena as attitude objects in multidimensional space
+(Woelfel and Fink, 1980, p. x.):
+[Galileo] defines cognitive and cultural processes as changes in
+the relations among sets of cultural “objects” or concepts. The
+interrelationships among these objects are themselves measured
+by magnitude estimation pair comparisons, and the resulting dis-
+similarities matrices are entered into metric multidimensional
+scaling programs. The result of this work is that each of the cul-
+tural objects is represented as a point in a multidimensional Rie-
+mann space. Cognitive and cultural processes may be defined
+within this framework as motions of these objects relative to the
+other objects within the space. 20
+The Galileo metric multidimensional system’s conversion of
+distances between objects to multidimensional maps of an attitude
+“space” can perhaps be best understood using a simple example. If we
+constructed a table of all pair-wise distances between major cities in
+the United States, conducted a factor analysis of these data, and then
+plotted the first two principal components of the factor analytic solu-
+tion, the relative position of each city would be essentially identical to
+its relative position on a physical map. 21 In a similar way, the distances
+between attitude objects can be used to construct a “map” of attitude
+objects in an individual’s attitude space, on which the distance between
+attitude objects connotes their similarity or dissimilarity.
+20 To clarify, researchers obtain similarity ratio judgments of the distances between
+objects.
+21 Because the United States is wider than it is tall, the first component of a factor analysis
+of the distances between all U.S. cities would be expected to correspond to longitude, the
+second to latitude.
+Influencing Individuals 21
+To illustrate, Figure 2.1 presents, in a three-dimensional form,
+the results from a Galileo survey instrument that asked respondents for
+their judgments about a number of attitude objects related to the 1988
+presidential contest between then-Vice President George H.W. Bush
+and then-governor of Massachusetts Michael Dukakis. In the figure, a
+variety of attitude objects related to the presidential campaign are pro-
+jected in the same space, including
+evaluative criteria, such as conservative and liberal, pro-choice,•
+honest, likeable, experienced, and evil
+people, including Bush, Reagan, Dukakis, and• you (the
+respondent)
+Figure 2.1
+Attitude Objects in Multidimensional Space
+SOURCE: Galileo Web site, n.d.
+RAND MG654-2.1
+Taxes
+President
+Liberal
+Foreign
+policies
+Dukakis
+Middle
+class
+Pro-choice
+Honest
+Good
+Evil
+Likeable
+You
+Bush
+Reagan
+Conservative
+Galileo
+Experience
+Total Capital District
+22 Foundations of Effective Influence Operations
+other attitude objects, such as president, taxes, foreign policies,•
+and middle class.
+The figure shows that certain concepts cluster in natural ways.
+For example, Dukakis, Liberal, and pro-choice are all clustered together
+toward the right of the figure, suggesting that respondents generally
+viewed Governor Dukakis as embracing traditional liberal positions.
+By comparison, Bush, Reagan, and conservative are clustered toward
+the left side, suggesting that Bush was linked to his predecessor and
+traditional conservative positions. Finally, you (the respondent), like-
+able, honest, and good are all clustered together at the front of the figure,
+connoting that respondents to the survey generally viewed themselves
+in highly favorable terms.
+As described above, the distances between objects in the figure
+connotes shared attributes: for example, Reagan appears to be closer to
+president (i.e., he was, after all, president at the time) than either Bush
+or Dukakis; Dukakis is more liberal and pro-choice than Bush is; and so
+on.
+Procedurally, Galileo theory requires respondents to estimate the
+distance between pairs of attitude objects using a standard ratio-level
+metric of distances between attitude objects. For example, the survey
+instrument might state that the distance between good and evil is 100
+and then ask the respondent to estimate the distance between other
+pairs of attitude objects (e.g., between bin Laden and evil, bin Laden
+and good, and so on) using that first metric between good and evil as a
+standard-length rod. The matrix of paired distances creates a coordi-
+nate system that can be transformed to principal axes using the eigen-
+vectors associated with the matrix and yielding the sort of multidimen-
+sional “map” of the objects portrayed in Figure 2.1. 22
+In this framework, efforts to influence change amount to forc-
+ing objects to move in this multidimensional space by seeking to
+strengthen or weaken the connections (distances) between them. Thus,
+campaign strategies to move Bush or Dukakis closer to the respondent
+22 Woelfel and Fink (1980, pp. 58–65) demonstrate how a matrix of distances between cities
+can be transformed into a two-dimensional map using this approach.
+Influencing Individuals 23
+(you)—and thereby improve the prospects for gaining the respondent’s
+vote—could include trying to more closely associate one or the other
+candidate with honesty, likeability, or goodness, characteristics that the
+respondent associates with him- or herself. Another strategy might be to
+more closely associate the candidate with being presidential (president),
+an attitude object that appears to be closer to the respondent than does
+either candidate. Galileo theory actually provides formal mathemati-
+cal procedures for identifying the themes and messages that are most
+likely to move a candidate or other object in the desired direction. 23 To
+summarize, Galileo theory appears to us to be a potentially promising
+approach for mapping attitudes and reasoning about how best to tailor
+messages to shift key attitudes.
+Influencing Individuals: Conclusions
+This chapter has reviewed a number of individual-level theories about
+cognition, attitude formation, and attitude change that offer important
+insights into the processes that can lead to the persuasion of individu-
+als to change relevant attitudes and behaviors. These theories provide
+a microfoundation for influence efforts at the individual, group, and
+mass level and, when used as diagnostic tools or frameworks for devel-
+oping communications, may help planners of influence operations by
+focusing attention on the key variables that regulate the efficacy of per-
+suasive communications.
+Although some of the models just described are somewhat general
+in nature, the poverty of riches created by these competing models sug-
+gests the absence of a larger meta-theory or model that integrates and
+harmonizes these various perspectives—and their empirical support—
+in a coherent and operational way (Raven, 1990). Such a meta-theory,
+if it integrated and harmonized the most robust theoretical and empiri-
+cal findings, would seem to be exceedingly useful to planners.
+23 See, for example, Joseph Woelfel et al., n.d.(a); Barnett, Serota, and Taylor, 1976; Woelfel
+et al., n.d.(b).
+24 Foundations of Effective Influence Operations
+Although such a larger meta-theory is beyond the scope of our
+study, it may be fruitful to step back from the details of the various
+theories and to conceive of each of these theories as generally falling
+into one of three main approaches, focusing on (1) emotions, values,
+and “hot” cognitive processes and the results of “targeting the heart”;
+(2) rational, cognitive, or “cool” processes and the results of “targeting
+the head”; and (3) pressures for social conformity (see Figure 2.2 and
+Wood, 2000). 24
+The figure suggests the following:
+In broad terms, a pure messaging strategy (e.g., appealing to1.
+emotions) or various mixes of emotional, cognitive, and social
+appeals can be relied upon to accomplish influence aims.
+Figure 2.2
+Alternative Domains for Persuasive Appeals
+RAND MG654-2.2
+Emotions/values
+(hot) Social/conformity
+Rational/cognitive
+(cool)
+24 Kazuo Yamaguchi (2000) provides a “non-expected” utility-based analysis of collective
+action. For a review of the literature on social influence and conformity, see Moscovici, 1985.
+For a relatively recent review of the social influence literature, see Cialdini and Goldstein,
+2004.
+Influencing Individuals 25
+The efficacy of these appeals will depend heavily on factors that2.
+are under the control of the planner and many situational fac-
+tors that are completely outside of the planner’s control.
+There is, as a result, likely to be an inherent trial-and-error qual-3.
+ity to influence efforts. This quality dictates the need for a robust
+capacity for assessing effects and adapting influence activities as
+feedback becomes available.
+Given the heterogeneous nature of many target audiences and the
+substantial uncertainties regarding whether appeals to emotions and
+values, rational calculations, or social conformity will be most influen-
+tial, influence campaign planners and message developers accordingly
+may wish to “hedge,” through campaigns that utilize a mix of message
+types that test the efficacy of various communications approaches and
+by embracing a trial-and-error approach that tests the relative potency
+of each type of appeal and adapts the campaign based on the results. 25
+And given the innumerable ways that influence campaigns can go
+awry, an adaptive approach to planning, execution, and assessment
+could offer planners the best chance for success.
+Looking at the glass as half full, then, planners may expect that
+these various theories and models may be useful as diagnostic tools
+that can be used to help avoid some of the more obvious mistakes and
+pitfalls. And in some cases, planners may even find some useful con-
+cepts in the ensemble of available research theories that can strengthen
+the empirical basis for the development of persuasive communications
+underwriting influence strategies.
+Perhaps even more challenging still is the fact that scholars and
+other practitioners have pretty consistently pointed to the dominance
+of situational factors that confound the ability of individual academic
+theories of attitude and persuasion to actually explain and predict
+25 Obviously, to keep them simple, planners might construct messages to target audiences
+that accent emotional, rational, or social conformity, but it would be possible to direct sepa-
+rate messages utilizing different appeal types to the same target audience—or to mix the
+nature of the appeals in these messages.
+26 Foundations of Effective Influence Operations
+observed behaviors. 26 “We will not find a high correlation between
+attitude and behavior if situational pressures substantially contribute
+to the observed behavior—and they almost always do” (Kiesler, Col-
+lins, and Miller, 1969, pp. 29–30). This view has not fundamentally
+changed since then (Upmeyer and Six, 1989, p. 16):
+In terms of cost considerations, an incredible amount of money is
+being spent in applied psychology, marketing, and survey research
+that can hardly be justified by the strength of the covariation
+presently found in attitude-behavior relationships.
+“I know I’m wasting half of my advertising budget. I just don’t
+know which half . . . .”27
+This finding also is echoed in J.A.C. Brown’s (1963, pp. 103, 148)
+analysis of propaganda in World Wars I and II,28 which concludes
+that situational factors were the dominant ones in determining the
+success or failure of wartime propaganda efforts:
+[P]ropaganda is successful only when directed at those who are
+willing to listen, absorb the information, and if possible act on
+it, and this happens only when the other side is in a condition of
+lowered morale and is already losing the campaign. . . . War pro-
+paganda can often change attitudes but, unless the real situation
+is catastrophic, it rarely changes behavior; and propaganda which
+does not lead to action has very largely failed.
+26 For example, Crano and Prislin (2006) reported that Armitage and Conner’s (2001)
+review of meta-analyses of the theory of planned behavior found that the constitutive ele-
+ments of the theory explained 18 percent of the variance in intentions and 13 percent of
+the variation in subsequent behaviors, while Sheeran’s (2002) review found that intentions
+explained 28 percent of the variance in subsequent behavior.
+27 Attributed to department store founder John Wanamaker (1838–1922), who was a pio-
+neer in the use of newspaper advertising to promote his department stores.
+28 We are grateful to Ren Stelloh of PhaseOne Communications for bringing this analysis
+to our attention. Appendix C contains two case studies of influence in public diplomacy.
+Influencing Individuals 27
+Moreover, despite the availability of sophisticated theoretical and
+empirical work, present-day businesses appear to be no better served by
+their advertising and marketing spending than those who were involved
+in wartime propaganda efforts. In fact, recent estimates suggest that
+business continues to waste about half of its spending on advertising. 29
+Given the greater difficulties of “selling America” than selling soap,
+beer, and running shoes, it should, therefore, be little surprise that
+recent U.S. government public diplomacy initiatives that naïvely place
+their faith in “the magic of Madison Avenue” have yielded such modest
+results.30
+Put simply—and at the risk of appearing overly pessimistic about
+the overall prospects for influence operations—there are many reasons
+to believe that the scholarly literature, for the level of the individual,
+contains more lessons about specific factors that account for a failure
+to influence, many of which are outside the control of planners, than
+general rules that can guide successful influence efforts. 31
+29 A trade association called the Interactive Advertising Bureau estimates that advertisers
+send messages that reach the wrong audience or none at all about half of the time, thereby
+wasting $112 billion a year in America and $220 billion worldwide, or just over half of the
+total estimated spending on advertising of $428 billion per year. See “Special Report,” 2006.
+For additional evidence that about half of advertising dollars are wasted, see Appendix A.
+Relevant theoretical work includes Dorfman and Steiner, 1954; Weber, 1975; Sasieni, 1989.
+An interesting empirical effort to relate brand awareness to advertising efforts can be found
+in Brown, 1986.
+30 The appointment of Madison Avenue advertising executive Charlotte Beers to run the
+U.S. State Department’s public diplomacy effort was perhaps the most famous example, but
+the naïve view that an understanding of advertising techniques alone will be sufficient to
+influence foreign audiences persists in some circles. See “From Uncle Ben’s to Uncle Sam,”
+2002; “Business: Selling the Flag; Face Value,” 2004. Appendix A contains a detailed case
+study of commercial advertising and marketing approaches to influence.
+31 A good example is the result that an individual’s mood can affect the likelihood of mes-
+sage acceptance. See Wegener, Petty, and Klein, 1997.

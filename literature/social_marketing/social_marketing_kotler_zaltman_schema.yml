@@ -1,0 +1,582 @@
+citation: 'Naganandini, S., et al. ''Social Marketing: An Approach to Planned Social
+  Change.'' Journal of the Indian Association of Public Health Dentistry, vol. 2011,
+  no. 18, suppl. II, 2011, pp. 815-821.'
+annotation: Comprehensive review of social marketing theory and applications, tracing
+  evolution from Kotler-Zaltman 1971 origins through contemporary health behavior
+  change programs.
+model_type: property_graph
+rationale: Social marketing involves complex networks of stakeholders, behaviors,
+  interventions, and outcomes best represented through interconnected nodes and relationships.
+schema_blueprint:
+  title: Social Marketing Theory and Practice Schema
+  description: A comprehensive model of social marketing frameworks, processes, stakeholder
+    relationships, and behavioral change mechanisms.
+  root_properties:
+    nodes:
+      description: Concepts, stakeholders, behaviors, interventions, outcomes, and
+        theoretical constructs in social marketing systems.
+      item_type: Entity
+    edges:
+      description: Relationships, processes, influences, and causal connections between
+        social marketing elements.
+      item_type: NaryTuple
+  definitions:
+  - name: social_marketing
+    category: core-construct
+    description: The systematic application of marketing, along with other concepts
+      and techniques, to achieve specific behavioral goals for a social good.
+  - name: consumer_orientation
+    category: core-principle
+    description: A strong customer orientation focused on understanding target audience
+      knowledge, beliefs, and social context.
+  - name: voluntary_exchange
+    category: core-principle
+    description: Emphasis on voluntary exchanges of goods and services between providers
+      and consumers.
+  - name: behavioral_goals
+    category: core-construct
+    description: Clear focus on understanding existing behavior and developing specific,
+      actionable, measurable behavioral objectives.
+  - name: target_audience
+    category: stakeholder
+    description: The primary group whose behavior the social marketing program aims
+      to influence.
+  - name: secondary_audience
+    category: stakeholder
+    description: Groups that indirectly influence or are affected by the target audience's
+      behavior change.
+  - name: policymakers
+    category: stakeholder
+    description: Decision-makers who can create supportive policy environments for
+      behavior change.
+  - name: gatekeepers
+    category: stakeholder
+    description: Individuals or organizations that control access to target audiences
+      or resources.
+  - name: internal_publics
+    category: stakeholder
+    description: Groups involved in program approval or implementation within the
+      organization.
+  - name: external_publics
+    category: stakeholder
+    description: Groups outside the organization that affect program success including
+      target and secondary audiences.
+  - name: audience_segmentation
+    category: process
+    description: The practice of dividing target populations into distinct groups
+      based on characteristics, needs, or behaviors.
+  - name: formative_research
+    category: process
+    description: Research conducted in product and message design and pretesting of
+      materials before implementation.
+  - name: audience_analysis
+    category: process
+    description: Systematic study of target audience characteristics, motivations,
+      beliefs, and environmental factors.
+  - name: product
+    category: marketing-mix-element
+    description: The behavior, service, or tangible item being promoted, ranging from
+      physical products to practices and ideas.
+    range:
+    - Behavior
+    - Service
+    - Tangible_Product
+    - Practice
+    - Idea
+  - name: price
+    category: marketing-mix-element
+    description: What the consumer must give up to obtain the social marketing product,
+      including monetary, time, effort, or social costs.
+  - name: place
+    category: marketing-mix-element
+    description: The distribution system and channels through which the product reaches
+      consumers or information is delivered.
+  - name: promotion
+    category: marketing-mix-element
+    description: Integrated use of advertising, public relations, media advocacy,
+      and communication vehicles to create demand.
+  - name: publics
+    category: marketing-mix-element
+    description: The multiple audiences that a social marketing program must address
+      for success.
+  - name: partnership
+    category: marketing-mix-element
+    description: Collaboration with other organizations to address complex social
+      and health issues effectively.
+  - name: policy
+    category: marketing-mix-element
+    description: Environmental and regulatory changes needed to support and sustain
+      individual behavior change.
+  - name: purse_strings
+    category: marketing-mix-element
+    description: Funding strategies and resource mobilization for program implementation
+      and sustainability.
+  - name: intervention_mix
+    category: strategic-approach
+    description: Strategic-level combination of different interventions to achieve
+      particular behavioral goals.
+  - name: marketing_mix
+    category: strategic-approach
+    description: Operational-level blending of product, price, place, and promotion
+      characteristics in implementation.
+  - name: exchange_concept
+    category: theoretical-framework
+    description: Understanding what is expected from people and the real costs they
+      must bear for behavior change.
+  - name: competition_concept
+    category: theoretical-framework
+    description: Understanding factors that compete for target audience attention,
+      time, and behavioral choices.
+  - name: process_tracking
+    category: process
+    description: Monitoring system with both integrative and control functions throughout
+      program implementation.
+  - name: scoping_stage
+    category: planning-stage
+    description: Front-end planning phase establishing clear actionable and measurable
+      behavior goals.
+  - name: development_stage
+    category: planning-stage
+    description: Program design phase incorporating research findings and strategic
+      decisions.
+  - name: implementation_stage
+    category: planning-stage
+    description: Program execution phase delivering interventions to target audiences.
+  - name: evaluation_stage
+    category: planning-stage
+    description: Assessment phase measuring behavioral outcomes and program effectiveness.
+  - name: behavioral_change
+    category: outcome
+    description: Measurable modification in target audience actions, practices, or
+      decision-making patterns.
+  - name: merit_goods
+    category: social-product
+    description: Beneficial products or behaviors that social marketing promotes for
+      societal wellbeing.
+  - name: demerit_goods
+    category: social-product
+    description: Harmful products or behaviors that social marketing seeks to reduce
+      or eliminate.
+  - name: health_communication
+    category: intervention-type
+    description: Communication strategies and channels used to deliver health-related
+      social marketing messages.
+  - name: mass_media
+    category: communication-channel
+    description: Broadcast and print media channels for reaching large audiences with
+      social marketing messages.
+  - name: community_based_programs
+    category: intervention-type
+    description: Locally implemented interventions targeting specific geographic or
+      demographic communities.
+  - name: distribution_channels
+    category: delivery-mechanism
+    description: Systems and pathways through which products, services, or information
+      reach target audiences.
+  - name: message_design
+    category: process
+    description: Development of persuasive communications tailored to target audience
+      characteristics and needs.
+  - name: pretesting
+    category: process
+    description: Evaluation of materials and messages with target audience samples
+      before full implementation.
+  - name: needs_assessment
+    category: process
+    description: Systematic evaluation of target population problems, resources, and
+      intervention requirements.
+  - name: monitoring_process
+    category: process
+    description: Ongoing tracking of program activities, reach, and intermediate outcomes
+      during implementation.
+  - name: formal_evaluation
+    category: process
+    description: Systematic assessment of program effectiveness, impact, and lessons
+      learned upon completion.
+  - name: campaign_effectiveness
+    category: outcome
+    description: Measured success of social marketing interventions in achieving behavioral
+      and social goals.
+  - name: social_good
+    category: outcome
+    description: Beneficial outcomes for society achieved through successful social
+      marketing interventions.
+  - name: health_inequalities
+    category: social-problem
+    description: Disparities in health outcomes that social marketing programs aim
+      to reduce.
+  - name: risk_behaviors
+    category: target-behavior
+    description: Actions that increase likelihood of negative health or social outcomes.
+  - name: protective_behaviors
+    category: target-behavior
+    description: Actions that reduce risk and promote positive health and social outcomes.
+  - name: contraceptive_use
+    category: target-behavior
+    description: Family planning behaviors promoted through social marketing programs.
+  - name: immunization
+    category: target-behavior
+    description: Vaccination behaviors promoted to prevent disease transmission.
+  - name: smoking_cessation
+    category: target-behavior
+    description: Tobacco use reduction behaviors targeted by social marketing interventions.
+  - name: physical_activity
+    category: target-behavior
+    description: Exercise and movement behaviors promoted for health benefits.
+  - name: dietary_change
+    category: target-behavior
+    description: Nutritional behavior modifications promoted through social marketing.
+  - name: breastfeeding
+    category: target-behavior
+    description: Infant feeding practices promoted through maternal health programs.
+  - name: oral_health_practices
+    category: target-behavior
+    description: Dental hygiene and care behaviors promoted through oral health campaigns.
+  - name: screening_behaviors
+    category: target-behavior
+    description: Preventive health service utilization promoted through social marketing.
+  - name: safe_sexual_practices
+    category: target-behavior
+    description: HIV/AIDS prevention behaviors promoted through health campaigns.
+  - name: alcohol_reduction
+    category: target-behavior
+    description: Decreased alcohol consumption behaviors targeted by social marketing
+      programs.
+  - name: influences
+    category: relationship
+    description: Factors that affect target audience behavioral choices and decision-making.
+    domain:
+    - Factor
+    - Intervention
+    - Environment
+    range:
+    - Behavior
+    - Decision
+    - Outcome
+  - name: promotes
+    category: relationship
+    description: Social marketing programs that encourage adoption of beneficial behaviors.
+    domain:
+    - Program
+    - Intervention
+    range:
+    - Behavior
+    - Product
+    - Service
+  - name: targets
+    category: relationship
+    description: Specific audiences or behaviors that programs aim to reach or change.
+    domain:
+    - Program
+    - Intervention
+    range:
+    - Audience
+    - Behavior
+    - Population
+  - name: implements
+    category: relationship
+    description: Organizations or agencies that carry out social marketing programs.
+    domain:
+    - Organization
+    - Agency
+    range:
+    - Program
+    - Intervention
+    - Strategy
+  - name: evaluates
+    category: relationship
+    description: Assessment activities that measure program effectiveness and outcomes.
+    domain:
+    - Evaluator
+    - Organization
+    range:
+    - Program
+    - Outcome
+    - Impact
+  - name: supports
+    category: relationship
+    description: Environmental, policy, or organizational factors that facilitate
+      behavior change.
+    domain:
+    - Environment
+    - Policy
+    - Organization
+    range:
+    - Behavior
+    - Program
+    - Change
+  - name: competes_with
+    category: relationship
+    description: Factors that compete for target audience attention and behavioral
+      choices.
+    domain:
+    - Factor
+    - Behavior
+    - Message
+    range:
+    - Attention
+    - Behavior
+    - Choice
+  - name: segments
+    category: relationship
+    description: Division of target populations into distinct groups for tailored
+      interventions.
+    domain:
+    - Strategy
+    - Approach
+    range:
+    - Population
+    - Audience
+    - Market
+  - name: delivers
+    category: relationship
+    description: Channels and systems that provide products, services, or information
+      to audiences.
+    domain:
+    - Channel
+    - System
+    - Organization
+    range:
+    - Product
+    - Service
+    - Information
+  - name: measures
+    category: relationship
+    description: Assessment tools and methods that quantify program processes and
+      outcomes.
+    domain:
+    - Tool
+    - Method
+    - System
+    range:
+    - Process
+    - Outcome
+    - Impact
+  schema:
+    $schema: http://json-schema.org/draft-07/schema#
+    title: Social Marketing Theory and Practice Schema
+    description: A comprehensive model of social marketing frameworks, processes,
+      stakeholder relationships, and behavioral change mechanisms.
+    type: object
+    required:
+    - nodes
+    - edges
+    properties:
+      nodes:
+        type: array
+        items:
+          $ref: '#/$defs/Entity'
+        description: Concepts, stakeholders, behaviors, interventions, outcomes, and
+          theoretical constructs in social marketing systems.
+      edges:
+        type: array
+        items:
+          $ref: '#/$defs/NaryTuple'
+        description: Relationships, processes, influences, and causal connections
+          between social marketing elements.
+    $defs:
+      SocialMarketing_CoreConstructs:
+        type: string
+        enum:
+        - social_marketing
+        - consumer_orientation
+        - voluntary_exchange
+        - behavioral_goals
+        - exchange_concept
+        - competition_concept
+      SocialMarketing_Stakeholders:
+        type: string
+        enum:
+        - target_audience
+        - secondary_audience
+        - policymakers
+        - gatekeepers
+        - internal_publics
+        - external_publics
+      SocialMarketing_Processes:
+        type: string
+        enum:
+        - audience_segmentation
+        - formative_research
+        - audience_analysis
+        - process_tracking
+        - message_design
+        - pretesting
+        - needs_assessment
+        - monitoring_process
+        - formal_evaluation
+      SocialMarketing_MarketingMix:
+        type: string
+        enum:
+        - product
+        - price
+        - place
+        - promotion
+        - publics
+        - partnership
+        - policy
+        - purse_strings
+      SocialMarketing_PlanningStages:
+        type: string
+        enum:
+        - scoping_stage
+        - development_stage
+        - implementation_stage
+        - evaluation_stage
+      SocialMarketing_InterventionTypes:
+        type: string
+        enum:
+        - health_communication
+        - community_based_programs
+        - intervention_mix
+        - marketing_mix
+      SocialMarketing_CommunicationChannels:
+        type: string
+        enum:
+        - mass_media
+        - distribution_channels
+        - delivery_mechanism
+      SocialMarketing_TargetBehaviors:
+        type: string
+        enum:
+        - contraceptive_use
+        - immunization
+        - smoking_cessation
+        - physical_activity
+        - dietary_change
+        - breastfeeding
+        - oral_health_practices
+        - screening_behaviors
+        - safe_sexual_practices
+        - alcohol_reduction
+        - risk_behaviors
+        - protective_behaviors
+      SocialMarketing_SocialProducts:
+        type: string
+        enum:
+        - merit_goods
+        - demerit_goods
+      SocialMarketing_Outcomes:
+        type: string
+        enum:
+        - behavioral_change
+        - campaign_effectiveness
+        - social_good
+      SocialMarketing_SocialProblems:
+        type: string
+        enum:
+        - health_inequalities
+      SocialMarketing_Relationships:
+        type: string
+        enum:
+        - influences
+        - promotes
+        - targets
+        - implements
+        - evaluates
+        - supports
+        - competes_with
+        - segments
+        - delivers
+        - measures
+      Entity:
+        type: object
+        additionalProperties: false
+        required:
+        - id
+        - label
+        - entityType
+        properties:
+          id:
+            type: string
+          label:
+            type: string
+          entityType:
+            type: string
+            description: Concept | Actor | Event | Statement | Class | Property |
+              Individual | Rule
+          props:
+            type: object
+      Role:
+        type: string
+        enum:
+        - subject
+        - object
+        - attribute
+        - owner
+        - class
+        - property
+        - subClass
+        - superClass
+        - left
+        - right
+        - instance
+        - verb
+        - pattern
+        - rule
+        - warrant
+        - justification
+      NaryTuple:
+        type: object
+        additionalProperties: false
+        required:
+        - id
+        - relation
+        - arguments
+        properties:
+          id:
+            type: string
+          relation:
+            type: string
+          arguments:
+            type: array
+            minItems: 1
+            items:
+              $ref: '#/$defs/Argument'
+          props:
+            type: object
+          representsStatementId:
+            type: string
+            description: Links an edge to the Statement node that reifies it.
+      Argument:
+        type: object
+        additionalProperties: false
+        required:
+        - role
+        - entityId
+        properties:
+          role:
+            $ref: '#/$defs/Role'
+          entityId:
+            type: string
+      sharedProps:
+        type: object
+        additionalProperties: true
+        properties:
+          truthValue:
+            enum:
+            - 'true'
+            - 'false'
+            - partial
+            - possible
+            - impossible
+          modifier:
+            enum:
+            - past
+            - present
+            - future
+            - goal
+            - hypothetical
+            - normative
+          salience:
+            type: integer
+            minimum: 0
+          temporal:
+            type: object
+            properties:
+              startTime:
+                type: string
+                format: date-time
+              endTime:
+                type: string
+                format: date-time

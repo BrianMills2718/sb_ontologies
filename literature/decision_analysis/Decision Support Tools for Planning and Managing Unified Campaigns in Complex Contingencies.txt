@@ -1,0 +1,361 @@
+Integrated Battle Command Program
+Decision Support Tools for
+Planning and Managing Unified Campaigns
+in Complex Contingencies
+Approved for Public Release, Distribution Unlimited
+John G. Allen, PhD
+Program Manager
++01 703.509.5153
+John.Allen@darpa.mil
+2
+Capability to explore
+options and
+consequences
+Capability to explore
+options and
+consequences
+Capability to plan the
+integration of efforts
+Capability to plan the
+integration of efforts
+Goal: Enable US Commanders to Design and
+Manage Future Intervention Campaigns
+Tool Box for unified campaign planning in complex contingenciesTool Box for unified campaign planning in complex contingencies
+This chart and accompanying notes are Approved for Public Release, Distribution Unlimited
+Capability to visualize plans and options
+For
+ Commanders
+ Planners
+ Analysts
+At the Operational Level
+Social/ Religious Model
+Regular Military Force Model
+Insurgents Model
+Economic/Infrastructure Model
+Social Information Model
+Political/Economic Model
+Terrain Model
+Conflict
+Environment
+Model
+TimeD-Day
+Political/Diplomatic Efforts
+Military Operations
+And so forth-
+Pre Post
+Plan Model Stimuli
+Insights
+3
+Diplomatic
+Information
+Military
+Economic
+Other
+Political
+Military
+Economic
+Social
+Information
+Infrastructure
+Other
+Problem: How to get from the theory to a workable plan?Problem: How to get from the theory to a workable plan?
+PMESII EffectsDIME Actions
+Theory being developed by
+JFCOM/DARPA Mentors
+Theory being developed by
+JFCOM/DARPA Mentors
+Integrated
+Effects
+Designing Intervention Campaigns
+Power
+Legitimate Institutions
+Transformation Plan
+Time
+Obstructionist
+Integrated Campaign Plan
+TimeD-Day
+Political-Diplomatic Effort
+Political-Economy Effort
+Military Effort
+Rule of Law Effort
+Pre-Conflict Security, Stability,
+Transition, Reconstruction
+Integrated and
+Interdependent Synergistic and
+Reinforcing
+Intervention is not about totally defeating
+the opponent (a Nation-State or
+Decentralized Networked Threat)
+Its about transferring power from a
+hostile regime to a friendly and
+democratic regime using all forms of
+national power available
+. . . while minimizing the undesired
+consequences and effects
+Achievement of multiple
+integrated and
+interdependent/mutually
+supporting objectives to
+shape the environment
+Major Military
+Operations
+End State
+And so forth
+Sources
+The Quest for Viable Peace: International Intervention and
+Strategies for Conflict Transformation, Jock Covey, Michael
+Dziedzic and Leonard Hawley, editors, United States Institute
+of Peace Press, May 2005
+Capstone Concept for Joint Operations, DoD, August 2005
+Unified
+Actions
+This chart and accompanying notes are Approved for Public Release, Distribution Unlimited
+Whole of government approach to interventions
+4
+Purpose: manage
+n Objectives
+m Activities/Actions
+⇒~O(n•m factorial)
+Interdependencies
++ i Decisions
++ j Alternatives
++ k Assumptions
++ l Dependencies
+Purpose: manage
+n Objectives
+m Activities/Actions
+⇒~O(n•m factorial)
+Interdependencies
++ i Decisions
++ j Alternatives
++ k Assumptions
++ l Dependencies
+Campaign Planning Tool
+ Supports authoring of multiple lines of effort
+ Automatically detects and manages
+interdependencies and dependencies
+ Allows user to “cut and paste” plan elements and
+rapidly repair plans
+ Supports user in monitoring success
+InterdependencyInterdependency
+ObjectiveObjective
+Integrated planning requires tools to synchronize and deconflict actionsIntegrated planning requires tools to synchronize and deconflict actions
+Effect<Node<Action<Resource
+This chart and accompanying notes are Approved for Public Release, Distribution Unlimited
+AlternativeAlternativeActivityActivity
+StatusStatus
+DependencyDependency
+DecisionDecision
+AssumptionAssumption
+5
+Integrated planning requires tools to explore all options and consequencesIntegrated planning requires tools to explore all options and consequences
+Option Exploration Tool
+Possible
+Actions
+Desired
+Effect
+What if?
+Desired
+Action
+Possible
+Effects
+Political/Religious Model
+Regular Military Force Model
+Social/Culture Model
+Insurgents Model
+Economic/Infrastructure Model
+Social Information Model
+Political/Economic Model
+What if?
+ Provides a family of models spanning the relevant
+DIME/PMESII domain
+ Automatically forces models to interact to suggest
+plausible activities and outcomes
+ Allows bi directional and multi sided analysis
+Purpose: generate the
+“distribution of all
+plausible outcomes,”
+not a precise prediction
+Purpose: generate the
+“distribution of all
+plausible outcomes,”
+not a precise prediction
+aka “SimCountry”
+aka “What If? Engine”
+This chart and accompanying notes are Approved for Public Release, Distribution Unlimited
+6
+The Space of DIME-PMESII Interactions
+DIME Dimensions
+PMESII Dimensions
+ No single model or modeling paradigm can
+completely describe the entire domain
+ A family of models is needed!
+ No single model or modeling paradigm can
+completely describe the entire domain
+ A family of models is needed!
+Modeling Post Modern Conflicts
+This chart and accompanying notes are Approved for Public Release, Distribution Unlimited
+Models must:
+ Span the DIME/PMESII domain
+ Be selectable/tailorable
+ Be sufficiently detailed
+ Be modifiable on the fly
+ Be adaptable to the adversary
+Models must:
+ Span the DIME/PMESII domain
+ Be selectable/tailorable
+ Be sufficiently detailed
+ Be modifiable on the fly
+ Be adaptable to the adversary
+Unexpected
+Outcome
+What if?
+Outcome
+Conceptual Models
+Modeling Paradigm
+Object Models
+Causal Models
+Statistical Models
+Concept Map
+Differential
+Equations
+Bayesian Network
+Petri Net
+Multi-Attribute Analysis
+National Model
+Causal Model
+Semantic Network
+Social/Information Model
+Rule of Law Model
+Agent Based Simulation
+Event-based Simulation
+Military Engagement Model
+Political/Religious Model
+Dynamic System Model
+Influence
+Diagram
+Social/Culture Model
+Each model should provide surprising, yet legitimate and plausible outcomes
+The family of models should provide astonishing, yet legitimate and plausible outcomes
+Each model should provide surprising, yet legitimate and plausible outcomes
+The family of models should provide astonishing, yet legitimate and plausible outcomes
+7
+ Graphically describes the plan with all of its
+dependencies and interdependencies
+ Graphically displays the modeled view of the
+conflict environment (past/present) and suggested
+future views and the model connections
+Special Challenge:
+Power
+Station
+“Baghdad
+Shiia” Muqtada al Sadr
+Al Mahdi
+Army
+Sadr
+City
+Mohammad
+Sadeq al-Sadr
+Imam Ali
+mosque
+Most
+Sacred
+Najaf
+Past/Present Future
+This chart and accompanying notes are Approved for Public Release, Distribution Unlimited
+Decision aids require exquisite visualization of the interactions and reasonsDecision aids require exquisite visualization of the interactions and reasons
+Purpose: provide a
+comprehensible,
+shared view of the
+plan and options
+Purpose: provide a
+comprehensible,
+shared view of the
+plan and options
+8
+A new Tool Box, not a New System
+SIPRNet/NIPRNet/Internet
+Advanced Tool Box for Effects Based Campaign
+Planning and Execution
+Advanced Tool Box for Effects Based Campaign
+Planning and Execution
+Existing C4ISR
+infrastructure
+1
+Example: Standing Joint Force
+HQ at each Regional
+Combatant Command
+Existing C2
+tool set
+2
+Data, Information and
+Knowledge
+Operational Net
+Assessment data base
+Example: Collaborative
+Information Environment at
+each Standing Joint Force HQ
+GIG Services, C2
+Constellation, LandWarNet,
+FORCEnet, Other agencies,
+non-government agencies
+This chart and accompanying notes are Approved for Public Release, Distribution Unlimited
+Software
+Interface Tools
+Software
+Interface Tools
+DARPA Tool
+Box
+DARPA Tool
+Box
+3
+Decision Support Tools for
+Planning and Managing
+Unified Campaigns
+in Complex Contingencies
+Decision Support Tools for
+Planning and Managing
+Unified Campaigns
+in Complex Contingencies
+Other tools and
+models can be
+imported as needed
+9
+Technical Campaign Plan
+2005 2006 2007 2008
+JJ F M A M J J A S O N D J F M A M J J A S O N D J F M A M J J A S O N D F M A M J
+Campaigning Framework
+Framework Development
+Technology Development
+Phase 1 Phase 2
+Phase 1 Go/No-Go Phase 2 Go/No-Go
+Experimentation Experimentation
+Basal Capability
+Basal Capability Comprehensive Capability
+Experimentation
+Two phase, experiments based programTwo phase, experiments based program
+Approved for Public Release, Distribution Unlimited
+10
+Phase 1 Results
+• Human-machine interfaces, particularly the visualization capabilities, must
+be able to be tailored to the role of the user
+• Extant technologies for modeling PMESII systems are abundant and
+sufficient
+• A hierarchy of models is needed
+• Generic models provide users with insight into trends but not specific
+guidance
+• Detailed, in-depth models, instantiated to portray real people, places,
+organizations etc., are preferred to develop plans
+• The family of interacting models produces large numbers of suggested,
+plausible outcomes which is often difficult to understand
+• A suite of loosely coupled models is difficult to employ - when the
+environment is partitioned, the interactions between partitions are difficult
+for the human to determine
+ Visualization techniques which reduce the dimensionality of data are
+essential for understanding the complexity of the outcomes that can be
+generated by models.
+DARPA and JFCOM are working closely and will rapidly transition
+the technologies to the combatant commands
+DARPA and JFCOM are working closely and will rapidly transition
+the technologies to the combatant commands
+Approved for Public Release, Distribution Unlimited

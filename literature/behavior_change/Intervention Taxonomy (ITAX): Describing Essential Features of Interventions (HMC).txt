@@ -1,0 +1,632 @@
+Intervention Taxonomy (ITAX): Describing Essential Features of
+Interventions (HMC)
+Richard Schulz, PhD,
+Professor of Department of Psychiatry and Director of University Center for Social and Urban
+Research, University of Pittsburgh, 121 University Place, 6th Floor, Pittsburgh, PA 15260. Tele:
+412-624-5442. Fax: 412-624-4810. schulz@pitt.edu
+Sara J. Czaja, PhD,
+Professor of Psychiatry & Behavioral Sciences and Co-Director of Center on Aging, University of
+Miami, 1695 NW 9th Avenue, Suite 3208G, Miami, FL 33136. Tele: 305-355-9068. Fax:
+305-355-9076. sczaja@med.miami.edu
+James R. McKay, PhD,
+Professor of Psychiatry, Treatment Research Center, University of Pennsylvania, 3900 Chestnut
+Street, Philadelphia, PA 19104. Tele: 215-746-7704. Fax: 215-746-7733.
+mckay_j@mail.trc.upenn.edu
+Marcia G Ory, PhD, MPH, and
+Professor of Social and Behavioral Health and Director of Active Life National Program Office,
+School of Rural Public Health, The Texas A & M University System, 1103 University Drive, Suite100,
+College Station, TX 77840. Tele: 979-845-1620. Fax: 979-845-1620. mory@srph.tamu.edu
+Steven H Belle, PhD
+Professor of Epidemiology and Co-Director of Epidemiology Data Center, Graduate School of Public
+Health, University of Pittsburgh, 504 Parran Hall, Pittsburgh, PA 15261. Tele: 412-624-3758. Fax:
+412-624-3120. belle@edc.pitt.edu
+Abstract
+Objectives—To identify key features of interventions that need to be considered in the design,
+execution, and reporting of interventions.
+Methods—Based on prior work on decomposing psychosocial and clinical interventions, current
+guidelines for describing interventions, and a review of a broad range of intervention studies, we
+developed a comprehensive intervention taxonomy.
+Results—Specific recommendations, rationales, and definitions of intervention delivery and
+content characteristics including mode, materials, location, schedule, scripting, and sensitivity to
+participant characteristics, interventionist characteristics, adaptability, implementation, content
+strategies, and mechanisms of action are provided.
+Conclusions—Applying this taxonomy will advance intervention science by (a) improving
+intervention designs, (b) enhancing replication and follow-up of intervention studies, (c) facilitating
+systematic exploration of the efficacy and effectiveness of intervention components through cross-
+study analysis, and (d) informing decisions about the feasibility of implementation in broader
+community settings.
+Correspondence to: Richard Schulz.
+NIH Public Access
+Author Manuscript
+Am J Health Behav. Author manuscript; available in PMC 2010 November 1.
+Published in final edited form as:
+Am J Health Behav. 2010 ; 34(6): 811–821.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+Keywords
+randomized trials; intervention taxonomy; intervention delivery; intervention content
+Introduction
+The scientific community has long endorsed transparency in the conduct of research, insisting
+on clear rationales for why a study was conducted, concise descriptions of how a study was
+carried out and how the data were analyzed. Published guidelines and checklists have been
+developed for both randomized and nonrandomized intervention studies to improve the quality
+of what is reported so that readers can accurately assess the strength of evidence supporting a
+particular conclusion of an intervention study.1–4 These guidelines, which have been endorsed
+by many of the major journals that report intervention studies, cover a broad range of design
+components and implementation processes. For example, Consolidated Standards of Reporting
+Trials (CONSORT) recommend that researchers provide “precise details of the intervention
+intended for each group and how and when they were actually administered” (p. 1989).1 These
+recommendations were subsequently elaborated to include information on what was given
+(content), how it was given (delivery), where the intervention was delivered (setting), and how
+much was given (dose).4 Although useful, these guidelines have gaps that limit the ability of
+researchers to faithfully replicate studies, and they omit completely some aspects of
+interventions that may be important to understanding links between treatment and outcomes
+such as cultural sensitivity, adaptability, and strategies for treatment implementation.
+In this paper we present a taxonomy for describing intervention protocols that expands existing
+guidelines and standards. This taxonomy is designed to help researchers conceptualize needed
+elements of intervention protocols and to enhance both the internal (eg, understanding the
+active ingredients of intervention components) and external validity (eg, replicating studies in
+real world settings) of intervention research.5,6 An expanded taxonomy for more fully
+describing interventions is needed to assure accurate replication and extension of published
+research and facilitate the translation of controlled efficacy studies into real-world applications
+to diverse populations and settings.5 Providing standardized and detailed descriptions of
+interventions also expands opportunities for theory testing by enabling researchers to assess
+the effects of intervention attributes across studies and in different target populations.
+Ultimately this will facilitate the development of evidence-based guidelines for intervention
+designers and decrease the risk and inefficiencies of ineffective interventions being adopted.
+METHODS
+Our interest in developing a taxonomy for characterizing interventions grew out of experience
+with the Resources for Enhancing Alzheimer’s Caregiver Health (REACH) I,7–10 a series of
+multicomponent randomized trials aimed at enhancing the health and well-being of family
+caregivers of persons with Alzheimer’s disease. The basic challenge was to develop a common
+language that could characterize the several complex, diverse interventions that were being
+tested across the 6 REACH sites. We sought a strategy that would take full advantage of the
+diversity and complexity of the various treatment strategies while allowing us to examine
+relationships between outcomes and intervention components. Initially, we decomposed the
+REACH I interventions using task analysis.9 This analysis revealed that interventions could
+be described according to 3 dimensions: (a) entity, or entities, targeted by the intervention,
+which included the caregiver, the care recipient, and the social or physical environment; (b)
+functional domains targeted by the intervention, which included knowledge, cognitive skills,
+behavior, and affect; and (c) delivery system characteristics including method of delivery,
+frequency, duration, and ability to adapt the treatment to the needs of the caregiver.9 Using
+Schulz et al. Page 2
+Am J Health Behav. Author manuscript; available in PMC 2010 November 1.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+this taxonomy, each of 12 different multicomponent interventions was characterized using a
+common language that enabled us to assess relationships between outcomes and intervention
+components.10 This approach identified caregiver behavioral-skills training as critical to
+achieving reductions in caregiver depression,10 a finding not revealed in the individual study-
+level meta-analyses.8 This finding led to the development of a new intervention that was found
+to be highly successful in improving caregiver well-being.11 Overall, the success of this
+approach underlined the importance and utility of having detailed information about the
+content, structure, and delivery methods of interventions and a common language for
+describing intervention components.
+Expansion of the REACH Taxonomy
+To generalize to intervention studies beyond one set of clinical trials, we chose the Health
+Maintenance Consortium (HMC) studies as they represented a wide range of intervention
+approaches and target behaviors. The goal of HMC, a trans-NIH collaborative effort initially
+funded in 2004, is to conduct both process and intervention studies to test different theoretical
+models for achieving long-term health-related behavioral change.13 The behaviors targeted in
+the HMC studies include lifestyle behaviors associated with chronic illness (eg, tobacco
+cessation, exercise, nutrition) as well as the prevention of more risky behaviors (eg, substance
+abuse, HIV-related sexual behaviors).
+Using a consensus process, we (RS, SC, JM, SB) reviewed the protocols of the 18 HMC
+intervention studies to capture elements of the interventions, not captured in our original
+taxonomy, which were important to subsequent replication efforts. On the basis of this review,
+the taxonomy was revised to include expanded operational definitions of treatment delivery
+characteristics, treatment content strategies, and mechanisms of treatment action.
+Pilot Testing and Refinement
+The expanded taxonomy was pilot tested by having 4 HMC investigators not involved in the
+taxonomy development process evaluate and apply the taxonomy to their studies. A detailed
+structured survey instrument, which included the categories in the taxonomy, was used to rate
+the interventions. Based on feedback from the pilot testing, the taxonomy was further refined.
+The refinement included clarification of instructions and expansion of options for mode of
+treatment delivery (eg, Internet contact), treatment strategies, target behaviors, and location of
+treatment delivery.
+Testing the Taxonomy
+The refined intervention taxonomy was then tested by having 18 HMC investigators not
+involved in the previous pilot test each apply the taxonomy to their interventions being tested
+in the HMC consortium. Investigators were given a structured survey instrument to assess each
+study. The investigators concurred that the taxonomy comprehensively captured key
+intervention components of all studies.
+To further establish the generalizability of the taxonomy to studies not included in the HMC,
+we asked 3 additional non-HMC researchers at the University of Pittsburgh and the University
+of Miami to apply the taxonomy to diverse studies ranging from clinical medical trials
+(pharmacologic and psychotherapeutic intervention for lower back pain) to psychosocial/
+behavioral interventions (treatments for chronic fatigue syndrome and for depressed caregivers
+of persons with spinal cord injury). These researchers concurred that use of the taxonomy was
+feasible and that it adequately captured components of their heterogeneous intervention
+approaches.
+Schulz et al. Page 3
+Am J Health Behav. Author manuscript; available in PMC 2010 November 1.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+RESULTS
+Components of this final taxonomy, their definitions, and the rationale for including them are
+presented below. Our discussion is organized into 2 broad categories: delivery characteristics
+(Table 1) and intervention content (Table 2).
+Treatment Delivery Characteristics
+How a treatment is delivered has multiple dimensions, such as mode of delivery, materials
+used, location, and dose, many of which are routinely reported in descriptions of intervention
+studies. For example, across the HMC interventions the most common mode of delivery was
+face to face (84%); the most common locations for delivering interventions were clinical
+research space (41%), participant’s home (31%), and participant’s work site (25%). These
+delivery characteristics are included in the taxonomy along with less commonly described
+delivery attributes, including sensitivity to participant characteristics, intervention adaptability
+(ie, the extent to which the intervention can be modified), interventionist selection and training,
+and treatment implementation. Our discussion focuses on these additional attributes because
+they have received little attention in the literature and represent important elements of an
+intervention protocol.3
+Sensitivity to Participant Characteristics
+The attitudes, behaviors, and cultural competence of health care providers, who are
+predominantly white, have been identified as possible contributing factors to health disparities
+between blacks and whites and other racial/ethnic groups. For example, research suggests that
+African Americans prefer to receive health care from physicians of the same race13–17 and
+report receiving better health care from physicians of the same race.16,18 Although there are
+no randomized trials that systematically test the effects of racial matching in intervention
+studies, there is some evidence that such matching may be important. For example, a study on
+youth and their families in multisystematic therapy found that adherence ratings were higher
+when caregiver and therapist were ethnically matched.19 A post hoc analysis of the REACH I
+trials, which included white, Hispanic, and African American family caregivers of dementia
+patients, showed that African American caregivers with an interventionist of the same race had
+greater decreases in depression than did African American caregivers with interventionists of
+a different race or ethnicity.20 These data suggest that one should consider issues of racial
+concordance in designing and reporting studies including interventionists.
+Other important issues to consider include whether (a) interventionists and assessors were
+knowledgeable about and received special training in the perspectives and values of the target
+population, (b) the design of treatment strategies included layperson or community input, and
+(c) the intervention was delivered in the participant’s preferred language. Related issues include
+the extent to which the interventions were adapted to accommodate other participant
+characteristics, such as literacy or vision and hearing impairments.21 (Table 1). In the context
+of medical treatment trials, participant characteristics such as weight or concomitant medical
+conditions could affect dosage.
+Adaptability
+Adapting or tailoring an intervention to the unique needs and preferences of each participant
+has become a commonplace strategy for many interventions22–25 and is increasingly becoming
+a feature of health care delivery in general.26 The rationale underlying this approach is that
+adherence and effectiveness will be greater if the intervention accommodates to individual
+variability in needs, preferences, and response to treatment. There is substantial range in the
+degree to which and how an intervention can be adapted.
+Schulz et al. Page 4
+Am J Health Behav. Author manuscript; available in PMC 2010 November 1.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+A key distinction in the context of intervention studies is between adaptability within
+interventions (ie, variability in treatment as the treatment is being delivered) versus adaptive
+designs that focus on decision rules for assigning participants to treatments. We do not discuss
+further adaptive designs (eg, sequential, enrichment) 22–25,27 but rather focus on adaptability
+as an intervention characteristic as described below.
+Our taxonomy (Table 1) includes 3 dimensions of adaptability: (a) what aspects of the
+intervention can be adapted, (b) who or what determines that an adaptation should be made,
+and (c) when in the course of the intervention such adaptations can be made. With respect to
+what can be adapted, this could potentially be any aspect of intervention delivery and content.
+For example, it might include flexibility in the number of sessions devoted to a particular
+treatment module28 or the specific content of a treatment module or patient support aid.29,
+30 The intervention may also allow changes in the number, duration, or scheduling of sessions
+(eg, across the HMC treatment conditions, 28% allowed changes in the number of session,
+23% in the scheduling of sessions, and 19% in the duration of sessions), the dosage intensity
+(eg, due to side effects), or the treatment delivery mode (eg, in person vs telephone). It is
+important, for the purposes of replication and translation, to have precise decision rules about
+what can and cannot be changed and to carefully record what was altered.
+The second dimension of adaptability concerns the decision rules for making changes and
+requires defining who makes decisions and the criteria used to make them. An intervention
+may be adapted in response to a spontaneous request from a participant or on the basis of formal
+decision rules specified as part of the intervention protocol.23
+The third dimension of adaptability relates to when, in the course of treatment, an adaptation
+can be made. An intervention may include a baseline needs or risk assessment of the participant
+that is used to guide the content of the intervention such that high need or risk areas receive
+more attention than low need/risk areas as was the case in the REACH II trial.11 Interventions
+can also be adapted to the participants’ progress or status during treatment on the basis of
+clinical judgments. The degree of latitude varies substantially, ranging from, for example,
+“standard of care” to a detailed algorithm that must be followed for any treatment change. For
+example, in one of the HMC studies, a brief assessment of current risk and protective factors
+for alcohol relapse was done at the start of every clinical contact and used to determine whether
+treatment should be intensified, stepped down, or kept at the same level. Additionally,
+intervention studies must be responsive to unanticipated secular events that might affect
+intervention response and outcomes, and ethics of continuation. These events may include
+reports of promising new treatments related to the goals of an intervention or new knowledge
+about adverse effects of treatment.
+Treatment Implementation
+It is important to measure the extent to which treatment was implemented as intended, which,
+if low, could threaten internal validity31 and ultimately external validity. Multiple measurement
+strategies are available to assess treatment implementation, and there is broad consensus that
+there are 3 key components of treatment implementation: (a) treatment delivery, the extent to
+which the appropriate quantity and content of intervention was delivered as intended; (b)
+treatment receipt, the degree to which the participant received and understood the intended
+treatment, as indicated by mastery of concepts or skills targeted by the intervention; and (c)
+treatment enactment, the degree to which the participant demonstrates changes in behaviors
+related to the intervention beyond the intervention context.32,33
+With respect to treatment delivery, a minimum requirement is an accurate record of the
+frequency, duration, and types of contact between interventionist and participant. A more
+challenging task is monitoring the content of interventions, particularly those with multiple
+Schulz et al. Page 5
+Am J Health Behav. Author manuscript; available in PMC 2010 November 1.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+components. This can be achieved by using highly scripted intervention protocols and
+reviewing intervention sessions through notes or audio-recordings.
+Treatment receipt is designed to assess the extent to which the participant “gets” or “buys into”
+the intervention. This might include increased knowledge, skills, and motivation, enhanced
+self-efficacy, greater social integration, or changes in pathophysiology. From an intervention-
+design perspective, it is important to both articulate what these mechanisms are and develop a
+measurement strategy for capturing them.
+Treatment enactment involves the generalization of processes and goals to situations outside
+the therapeutic session. To what extent is the client able and motivated to appropriately use
+newly acquired knowledge or skills in his or her everyday environments?34 Strategies for
+assessing enactment might include directly observing the participant or obtaining self-reports
+from the participant or reports from other observers of the participant. It is important to note
+that enactment is not the same as outcome. Enactment focuses on the application of skills and
+knowledge imparted by the intervention, not whether or not the desired outcome is attained.
+Intervention Content
+There is no standard taxonomy for describing the content of interventions, even though there
+is strong consensus that one is needed.35–37 With the exception of one study specifically
+designed to develop a taxonomy of behavior change techniques,35 most efforts in this arena
+are implicit rather than explicit. Meta-analyses of intervention studies typically involve
+characterizing intervention content along one or several dimensions that are thought to be
+related to outcomes. For example, a recent meta-analysis of behavioral interventions to prevent
+childhood obesity assessed the efficacy of 4 different strategies for interventions aimed at
+changing lifestyle behaviors—increased physical activity, decreased sedentary activity,
+increased healthy dietary habits, and decreased unhealthy dietary habits.38 Another common
+approach is to evaluate the efficacy of a specific strategy such as computer technology-based
+HIV prevention interventions.39 However, combining information across studies without a
+standard taxonomy has a number of limitations. First, interventions included in meta-analyses
+are typically tailored to the content area of the intervention and may not easily be generalized
+to other research domains. Second, because meta-analyses are based on completed studies,
+they reflect what has been done as opposed to what might be done. Third, the extent to which
+multicomponent interventions can be decomposed into subcategories is constrained by the
+competing demand to maximize the number of studies that can be included in a meta-analysis.
+These limitations argue for a taxonomic system that is generic enough to apply to a wide range
+of studies, yet specific enough to generate meaningful categories of intervention content.
+The taxonomy presented here distinguishes between strategies and mechanisms of action
+(Table 2), related aspects that address how intervention is delivered to the client and how it
+works. Examples of intervention strategies found in the behavioral change literature include
+providing information, using incentives or reinforcements for desired behaviors, tracking and
+monitoring behavior, teaching problem solving, skill building, using stress-management
+techniques, and providing social support.
+Strategies of delivering interventions can affect outcomes through multiple actions. For
+example, information provision is thought to enhance knowledge, the ability to assess risks/
+goals, as well as improve behavioral and problem-solving skills. Problem solving and skill-
+building strategies are thought to enhance not only specific skills but also self-efficacy and
+motivation.
+Although most intervention studies identify the treatment strategies used, not all studies specify
+the mechanisms thought to affect treatment outcomes, and even fewer studies collect data
+Schulz et al. Page 6
+Am J Health Behav. Author manuscript; available in PMC 2010 November 1.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+assessing mediators of treatment effect. We emphasize mechanisms of action because of their
+importance in theory development and testing. Understanding mechanisms of action also helps
+elucidate pathways through which the content of interventions affect desired changes in
+behavior. This helps to identify aspects of an intervention that are successful and those that
+need to be eliminated or modified.
+CONCLUSION
+Our goal is to expand existing taxonomies for characterizing interventions by identifying
+elements that might be related to outcomes and thus are crucial for replication and extension
+of intervention science. To be sure, our taxonomy is likely to be most useful for characterizing
+complex, multicomponent behavioral studies of the type carried out by the Health Maintenance
+consortium, but the taxonomy has utility as well for simpler randomized clinical trials. Having
+comprehensive and standardized taxonomies for characterizing interventions is important for
+several reasons.
+First, taxonomies serve as useful tools in developing interventions and alerting the researcher
+to elements of interventions that should be addressed prior to study implementation. Our
+taxonomy goes beyond existing classification systems by including issues such as cultural
+sensitivity; intervention adaptability; measures of treatment delivery, receipt, and enactment;
+treatment content strategies; and mechanisms of action. A good taxonomy should lead to
+improved intervention design and execution and foster cross-study similarities.
+Second, consistent and comprehensive descriptions of interventions facilitate systematic
+exploration of the efficacy of intervention components through post hoc and cross-study
+analyses. The availability of comprehensive standardized descriptions of intervention studies
+expands the range of questions that might be tested through meta-analysis. For example, one
+reason hypotheses such as the effects of racial matching have not been extensively explored
+in the literature is the lack of attention paid to this variable in both the design and description
+of studies. In addition, the availability of information on dose, delivery method, content
+strategy, and participant characteristics enables researchers to explore complex interactions
+among these attributes. Although various categories of these attributes and their combinations
+could be systematically tested in randomized trials, this is not feasible. The cost and time to
+evaluate the efficacy of individual components of complex interventions would be prohibitive.
+An alternative strategy is to articulate clearly a detailed conceptual framework and explore the
+role of variables defining that framework across multiple studies. This strategy, successfully
+implemented in REACH,10 can help to identify critical components of interventions for future
+studies. Detailed descriptions of intervention studies can also facilitate decisions about the
+feasibility of implementing an intervention in broader community settings.40
+Another benefit of a good intervention taxonomy is that it can improve the quality of
+intervention science. There is broad consensus in the scientific community about what
+constitutes a good study.41 For example, well-implemented randomized experiments are better
+than well-implemented studies using matching strategies to equate groups. Other quality
+criteria include fit between concepts and operations (eg, treatment delivered vs treatment
+intended); validity of comparisons (eg, the extent to which participants in multiple treatment
+arms were comparable); generality of findings (eg, representativeness of participants, ability
+to replicate treatments in various settings); and accuracy, precision, and relevance of outcome
+estimation (eg, whether the outcomes are appropriate to the intervention and the extent to which
+they can be measured in a general setting). Knowing the delivery characteristics and content
+of an intervention is critical to making judgments about the quality of a study.
+Schulz et al. Page 7
+Am J Health Behav. Author manuscript; available in PMC 2010 November 1.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+The stimulus to develop this taxonomy was to shed light on how interventions are thought
+about and described in the research literature. The added value is to aid in intervention design,
+replication, and cross-study evaluations. We provide specific recommendations about key
+features of interventions that need to be considered in the design, execution, and reporting of
+intervention studies. Although it may not be feasible to include this level of detail in published
+manuscripts, the level of detail may be more practically posted on Web sites linked to the
+published article. Although trying to be exhaustive in generating this taxonomy, we anticipate
+that additional attributes may come to light as this taxonomy is applied to future studies. When
+carefully considered to avoid redundancy or overcomplication, such additions would serve to
+further expand the utility and applicability of this system.
+Acknowledgments
+Preparation of this manuscript was supported in part by grants from NIH R01 NR009573, R01 HD047143. P30
+MH071944, R24 HL076852, R24 HL076858, the Alzheimer’s Association IIRG-07-59784, and NSF 0540856, and
+R24.
+REFERENCES
+1. Moher D, Schulz KF, Altman D. The CONSORT statement: revised recommendations for improving
+the quality of reports of parallel-group randomized trials. JAMA 2001;285(15):1987–1991. [PubMed:
+11308435]
+2. Moher D, Jones A, Lepage L. Use of the CONSORT statement and quality of reports of randomized
+trials: A comparative before-and-after evaluation. JAMA 2001;295(15):1992–1995. [PubMed:
+11308436]
+3. Davidson KW, Goldstein M, Kaplan RM, et al. Evidence-Based Behavioral Medicine: What is it and
+how do we achieve it? Ann Behav Med 2003;26(30):161–171. [PubMed: 14644692]
+4. Des Jarlais DC, Lyles C, Crepaz N. (TREND Group). Improving the reporting quality of
+nonrandomized evaluations of behavioral and public health interventions: the TREND statement. Am
+J Public Health 2004;94(3):361–366. [PubMed: 14998794]
+5. Green LW, Glasgow RE. Evaluating the relevance, generalization, and applicability of research: Issues
+in external validation and translation methodology. Eval Health Prof 2006;29(1):126–153. [PubMed:
+16510882]
+6. Steckler A, McLeroy KR. The importance of external validity. Am J Public Health 2008;98:9–10.
+[PubMed: 18048772]
+7. Schulz R, Belle SH, Czaja SJ, et al. Introduction to the special section on Resources for Enhancing
+Alzheimer’s Caregiver Health (REACH). Psychol Aging 2003;18(3):357–360. [PubMed: 14518799]
+8. Gitlin L, Belle SH, Burgio L, et al. Effect of multicomponent interventions on caregiver burden and
+depression: The REACH multisite initiative at 6-month follow-up. Psychol Aging 2003;18(3):361–
+374. [PubMed: 14518800]
+9. Czaja SJ, Schulz R, Lee CC, Belle SH. A methodology for describing and decomposing complex
+psychosocial and behavioral interventions. Psychol Aging 2003;18(3):385–395. [PubMed: 14518802]
+10. Belle SH, Czaja SJ, Schulz R, et al. Using a new taxonomy to combine the uncombinable: Integrating
+results across diverse caregiving interventions. Psychol Aging 2003;18(3):396–405. [PubMed:
+14518803]
+11. Belle SH, Burgio L, Burns R, et al. (REACH II investigators). Enhancing the quality of life of dementia
+caregivers from different ethnic or racial groups. Ann Intern Med 2006;145(10):727–738. [PubMed:
+17116917]
+12. Ory MG, Jordan PJ, Bazzarre T. The Behavior Change Consortium: setting the stage for a new century
+of health behavior. Health Educ Res 2002;17(6):691–695. [PubMed: 12507344]
+13. Cooper LA, Roter DL, Johnson RL, et al. Patient-centered communication, ratings of care, and
+concordance of patient and physician race. Ann Intern Med 2003;139(11):907–915. [PubMed:
+14644893]
+Schulz et al. Page 8
+Am J Health Behav. Author manuscript; available in PMC 2010 November 1.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+14. Garcia JA, Paterniti DA, Romano PS, Kravitz RL. Patient preferences for physician characteristics
+in university-based primary care clinics. Ethn Dis 2003;13(2):259–267. [PubMed: 12785424]
+15. Saha S, Arbelaez JJ, Cooper LA. Patient-physician relationships and racial disparities in the quality
+of health care. Am J Public Health 2003;93(10):1713–1719. [PubMed: 14534227]
+16. Saha S, Komaromy M, Koepsell TD, Bindman AB. Patient-physician racial concordance and the
+perceived quality and use of health care. Arch Intern Med 1999;159(9):997–1004. [PubMed:
+10326942]
+17. Saha S, Taggart SH, Komaromy M, Bindman AB. Do patients choose physicians of their own race?
+Health Aff 2000;19(4):76–83.
+18. Laveist TA, Nuru-Jeter A. Is doctor-patient race concordance associated with greater satisfaction with
+care? J Health Soc Behav 2002;43(3):296–306. [PubMed: 12467254]
+19. Schoenwald SK, Halliday-Boykins CA, Henggeler SW. Participant-level predictors of adherence to
+MST in community service settings. Fam Process 2003;42(3):345–359. [PubMed: 14606199]
+20. McGinnis KA, Schulz R, Stone RA, et al. Concordance of race or ethnicity of interventionists and
+caregivers of dementia patients: relationship to attrition and treatment outcomes in the REACH study.
+Gerontologist 2006;46(4):449–455. [PubMed: 16920998]
+21. Hill-Briggs F, Lazo M, Renosky R, Ewing C. Usability of a diabetes and cardiovascular education
+module in an African American diabetic sample with physical, visual and cognitive impairment.
+Rehabilitation Psychology 2008;53(1):1–8.
+22. McKay JR. Continuing care research: what we have learned and where we are going. J Subst Abuse
+Treat 2009a;36(2):131–145. [PubMed: 19161894]
+23. McKay, JR. Treating Substance Use Disorders with Adaptive Continuing Care. Washington DC:
+American Psychological Association Press; 2009b.
+24. Murphy SA, Lynch KG, McKay JR, et al. Developing adaptive treatment strategies in substance abuse
+research. Drug Alcohol Depend 2007;88:S24–S30. [PubMed: 17056207]
+25. Rakowski W, Lipkus IM, Clark MA, et al. Reminder letter, tailored stepped-care, and self-choice
+comparison for repeat mammography. Am J Prev Med 2003;25:308–314. [PubMed: 14580632]
+26. Audet AM, Davis K, Schoenbaum SC. Adoption of patient-centered care practices by physicians:
+Results from a national survey. Arch Intern Med 2006;166(7):754–759. [PubMed: 16606812]
+27. Mehta C, Gao P, Bhatt DL, et al. Optimizing trial design, sequential, adaptive, and enrichment
+strategies. Circulation 2009;119(4):597–605. [PubMed: 19188520]
+28. Safren SA, O’Cleirigh C, Tan JY, et al. A randomized controlled trial of cognitive behavioral therapy
+for adherence (CBT-AD) in HIV-Infected Individuals. Health Psychol 2009;28(1):1–10. [PubMed:
+19210012]
+29. Schulz R, Czaja SJ, Lustig A, et al. Improving the quality of life of caregivers of persons with spinal
+cord injury: A randomized controlled Trial. Rehabilitation Psychology 2009;54(1):1–15. [PubMed:
+19618698]
+30. Schwartz MD, Valdimarsdottir TA, DeMarco BN, et al. Randomized trial of a brief decision aid for
+BRCX1/BRCA2 mutation carriers: impact of measures of decision making and satisfaction. Health
+Psychol 2009;26(1):11–19. [PubMed: 19210013]
+31. Burgio L, Lichstein KL, Nichols L, et al. (REACH Investigators). Judging outcomes in psychosocial
+interventions for dementia caregivers: the problem of treatment implementation. Gerontologist
+2001;41(4):481–489. [PubMed: 11490046]
+32. Lichstein KL, Riedel BW, Grieve R. Fair tests of clinical trials: a treatment implementation model.
+Advances in Behaviour Research and Therapy 1994;16:1–29.
+33. Egan M, Bambra C, Petticrew M, Whitehead M. Reviewing evidence on complex social interventions:
+appraising implementation in systematic reviews of the health effects of organisational-level
+workplace interventions. J Epidemiol Community Health 2009;63(1):4–11. [PubMed: 18718981]
+34. Frank JC, Coviak CP, Healy TC, et al. Addressing fidelity in evidence-based health promotion
+programs for older adults. Journal of Applied Gerontology 2008;27(1):4–33.
+35. Abraham C, Michie S. A taxonomy of behavior change techniques used in interventions. Health
+Psychol 2008;27(3):379–387. [PubMed: 18624603]
+Schulz et al. Page 9
+Am J Health Behav. Author manuscript; available in PMC 2010 November 1.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+36. Neumann MS, Johnson WD, Semaan S, et al. Review and meta-analysis of HIV prevention
+intervention research for heterosexual adult populations in the United States. J Acquir Immune Defic
+Syndr 2002;30 Suppl 1:S106–S117. [PubMed: 12107364]
+37. Semaan S, Des Jarlais DC, Sogolow E, et al. A meta-analysis of the effect of HIV prevention
+interventions on the sex behaviors of drug users in the United States. J Acquir Immune Defic Syndr
+2002;30 Suppl 1:S73–S93. [PubMed: 12107362]
+38. Kamath CC, Vickers KS, Ehrlich A, et al. Behavioral interventions to prevent childhood obesity: a
+systematic review and meta-analyses of randomized trials. J Clin Endocrinol Metab 2008;93(12):
+4606–4615. [PubMed: 18782880]
+39. Noar S, Black HG, Pierce LB. Efficacy of computer technology-based HIV prevention interventions:
+A meta-analysis. AIDS 2009;23(1):107–115. [PubMed: 19050392]
+40. Rychetnik L, Frommer M, Hawe P, Shiell A. Criteria for evaluating evidence on public health
+interventions. J Epidemiol Community Health 2002;56(2):119–127. [PubMed: 11812811]
+41. Valentine JC, Cooper H. A systematic and transparent approach for assessing the methodological
+quality of intervention effectiveness research: The Study Design and Implementation Assessment
+Device (Study DIAD). Psychol Methods 2008;13(2):130–149. [PubMed: 18557682]
+Schulz et al. Page 10
+Am J Health Behav. Author manuscript; available in PMC 2010 November 1.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+Schulz et al. Page 11
+Table 1
+Taxonomy for Delivery Characteristics
+Dimension Definition Options Checklist
+Mode Method of contact between
+interventionist and
+participant
+• Face to face (individual or group)
+• Telephone (individual or group)
+• Internet (individual or group)
+• Video/CD instruction
+• Telephone contact with computer
+• Mailing of written material
+• Personal digital assistant (PDA), cell phone
+Materials Materials used in the
+delivery of the intervention
+• Manuals/workbooks
+• Information sheets/checklists
+• Pamphlets
+• Videotapes
+• Audiotapes
+• CDs/DVDs
+• Assistive devices
+• Internet
+Location Where the intervention is
+delivered
+• Participant’s home
+• Classroom
+• Health care provider’s office
+• Hospital, clinic, operating room
+• Work site
+• Community center
+• Nursing home
+• Group residence facility
+• Research facility
+Schedule Duration and intensity of
+intervention
+• Overall duration of the intervention
+• Number of sessions
+• Minutes of contact per session
+• Distribution of sessions over time
+Scripting Level of detail guiding
+interaction between the
+interventionist and the
+participant
+• Exact script/protocol provided
+• Specific language provided with elaboration allowed/not allowed
+• Goals/tasks specified but no further scripting
+• General guidelines provided
+Sensitivity to
+participant
+characteristics
+Extent to which participant
+background, experience
+and abilities are
+incorporated in the delivery
+of intervention
+• Intervention materials and delivery in language preferred by
+participant
+• Materials written for specific reading or health literacy level
+• Visual supplements, augmentative communication devices for
+hearing impaired
+Am J Health Behav. Author manuscript; available in PMC 2010 November 1.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+Schulz et al. Page 12
+Dimension Definition Options Checklist
+• Oral supplements and visual enhancements for vision impaired
+Interventionist
+characteristics
+Qualifications and training,
+concordance with
+participant characteristics
+• Required disciplinary/professional expertise for interventionists
+• Licensing/certification requirements
+• Type and quantity of training provided
+• Proficiency tests passed
+• Race/ethnicity/age/gender matching of interventionist to participant
+• Intervention staff recruited from participant community
+• Interventionist knowledgeable of cultural views and values of
+participants
+Adaptability Extent to which intervention can be
+modified.
+• What can be modified
+• On what basis modifications
+are made
+• When in the course of the study
+modifications can be made
+What:
+• number/schedule/duration of sessions
+• location
+• mode of delivery
+• content/target
+• dosage
+On what basis:
+• participant assessment
+• participant progress
+• spontaneous request
+• secular event
+• clinical judgment
+• checklist/lab test results, performance outcomes
+When:
+• intake
+• baseline
+• specified intervals during intervention
+Treatment
+implementation
+Treatment Delivery:
+Documentation of
+interventionist compliance
+to intended treatment and
+modifications
+Treatment Receipt:
+Extent to which processes
+are implemented by
+participant and/or goals are
+met
+Treatment Enactment:
+Extent to which knowledge
+and skills acquired during
+treatment are applied in
+real world settings outside
+of treatment
+• Number and duration of sessions
+• Content delivered
+• Knowledge, skills, motivation, self-efficacy, social support/
+integration, changes in pathophysiology assessed in participant
+• Direct observation, self-report, observer report of participant
+Am J Health Behav. Author manuscript; available in PMC 2010 November 1.
+NIH-PA Author Manuscript NIH-PA Author Manuscript NIH-PA Author Manuscript
+Schulz et al. Page 13
+Table 2
+Content and Goals of Intervention
+Dimension Definition Options Checklist
+Treatment
+content
+strategies
+Specific strategies aimed at
+improving outcomes
+• Provision of feedback to participant through tracking and monitoring
+• Provision of information
+• Behavioral incentives/reinforcements
+• Didactic instruction
+• Skill-Building techniques
+• Problem-Solving techniques
+• Stress-Management techniques
+• Facilitation of social support
+• Biologic interventions (surgery, medications, radiation)
+• Structure /process modifications (eg, staffing, scheduling, communications)
+Mechanisms of
+action
+Key processes, goals, or
+mediators of desired
+treatment outcomes
+• Ability to assess risks/goals
+• Knowledge
+• Behavioral skills
+• Problem-Solving skills
+• Motivation
+• Self-efficacy
+• Social support
+• Social engagement
+• Environmental motivation
+• Change in policies/regulations
+• Biologic pathways
+Am J Health Behav. Author manuscript; available in PMC 2010 November 1.

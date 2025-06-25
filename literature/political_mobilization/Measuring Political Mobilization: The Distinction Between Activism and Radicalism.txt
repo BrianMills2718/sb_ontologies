@@ -1,0 +1,1072 @@
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=ftpv20
+Terrorism and Political Violence
+ISSN: 0954-6553 (Print) 1556-1836 (Online) Journal homepage: https://www.tandfonline.com/loi/ftpv20
+Measuring Political Mobilization: The Distinction
+Between Activism and Radicalism
+Sophia Moskalenko & Clark McCauley
+To cite this article: Sophia Moskalenko & Clark McCauley (2009) Measuring Political Mobilization:
+The Distinction Between Activism and Radicalism, Terrorism and Political Violence, 21:2, 239-260,
+DOI: 10.1080/09546550902765508
+To link to this article: https://doi.org/10.1080/09546550902765508
+Published online: 30 Mar 2009.
+Submit your article to this journal
+Article views: 6235
+View related articles
+Citing articles: 84 View citing articles
+Measuring Political Mobilization: The Distinction
+Between Activism and Radicalism
+SOPHIA MOSKALENKO
+Department of Homeland Security, USA
+CLARK M C CAULEY
+Psychology Department, Bryn Mawr College, Bryn Mawr, Pennsylvania,
+USA
+In this paper we review and extend measures of political mobilization: the increasing
+extremity of beliefs, feelings, and behaviors in support of inter-group conflict. Build-
+ing on previous research, we introduce the Activism and Radicalism Intention Scales
+(ARIS). The Activism Intention Scale assesses readiness to participate in legal and
+non-violent political action, whereas the Radicalism Intention Scale assesses readi-
+ness to participate in illegal or violent political action. In ad-hoc samples of U.S. and
+Ukrainian undergraduates, and in an Internet panel survey representative of the U.S.
+population, Activism and Radicalism intentions formed two correlated but distin-
+guishable dimensions. The popular ‘‘conveyor belt’’ metaphor of radicalization
+(implying that activism leads easily to radicalism and that most radicals emerge
+from activism) found only mixed support in our results. Discussion suggests
+the potential usefulness of the ARIS for learning about how individuals move from
+political attitudes and beliefs to political action, including political violence and
+terrorism.
+Keywords activism, group identification, radicalism, terrorism
+Terrorist attacks in Europe and in North America have brought new urgency to the
+study of political radicalization. From a social science perspective, the problem is to
+understand how psychologically normal individuals, 1 often born and educated in the
+country they attack, are moved to risk-taking and violence for a political cause. A
+literature burgeoning over decades has focused on the last step of this trajectory:
+Sophia Moskalenko received her Ph.D. in Social Psychology from the University of
+Pennsylvania in 2004. She is a postdoctoral fellow at the Department of Homeland Security
+and a research fellow at the National Consortium for Study of Terrorism and Responses to
+Terrorism (NC-START). Clark McCauley is Professor of Psychology and a director of the
+Solomon Asch Center for Study of Ethnopolitical Conflict at Bryn Mawr College, and a
+co-director of the National Consortium for Study of Terrorism and Responses to Terrorism
+(NC-START).
+This research was supported by the United States Department of Homeland Security
+through the National Consortium for the Study of Terrorism and Responses to Terrorism
+(START), grant number N00140510629. However, any opinions, findings, conclusions, or
+recommendations in this document are those of the authors and do not necessarily reflect
+views of the U.S. Department of Homeland Security.
+Address correspondence to Sophia Moskalenko, Department of Psychology, Bryn Mawr
+College 101 N. Merion Ave. Bryn Mawr, PA 19010, USA. E-mail: smoskale@gmail.com
+Terrorism and Political Violence, 21:239–260, 2009
+Copyright # Taylor & Francis Group, LLC
+ISSN: 0954-6553 print=1556-1836 online
+DOI: 10.1080/09546550902765508
+239
+the transition to terrorism. 2,3 Since the terrorist attacks of 9=11, however, increasing
+attention has been given to less extreme forms of activism that may precede involve-
+ment in political violence.4
+A common perspective in seeking the more distal origins of terrorism is that the
+trajectory to terrorism is a dimension that begins in grievance and ends in violence.
+According to U.S. Department of State Country Reports on Terrorism, ‘‘terrorists
+seek to manipulate grievances in order to radicalize others by pulling them further
+and further into illegal activities. This is best represented as a ‘conveyor belt’ through
+which terrorists seek to convert alienated or aggrieved populations, convert them to
+extremist viewpoints, and turn them, by stages, into sympathizers, supporters, and,
+ultimately, members of terrorist networks.’’ 5 The mass media 6,7 and the U.S. intelli-
+gence community 8 have also described political radicalization of jihadist terrorists as
+a ‘‘conveyor belt.’’
+This is a powerful metaphor. The implication of a ‘‘conveyor belt’’ to terrorism
+is that Muslim activist groups that focus on Muslim grievances, especially Muslim
+groups in Western countries that focus on Muslim grievances against Western gov-
+ernments, are proximate sources of terrorism. For example, Hizb ut-Tahrir empha-
+sizes Muslim suffering at the hands of Western countries and publicly argues for the
+same future that Osama Bin Laden seeks: restoration of a global caliphate that
+encompasses all Muslims. 9 From a conveyor-belt perspective, Hizb and other radical
+Muslim groups are dangerous contributors to violence; they require close surveil-
+lance and perhaps should be legally banned.
+Another perspective, however, is that non-violent activist groups are competing
+for members against violent and terrorist groups that claim to represent the same
+cause. Thus Hizb ut-Tahrir, which agrees with the long-term goals of Al-Qaeda
+but not its violent means, may be more a competitor than a conveyor-belt for Al-
+Qaeda. 10 Generally, in this view, ‘‘violence is not a quantitative degree of conflict
+but a qualitative form of conflict, with its own dynamics.’’11 This possibility suggests
+the importance of learning more about the relation between legal and illegal political
+action.
+There is no doubt that some activists become terrorists. In the U.S., the Weather
+Underground emerged out of the 1960s anti-war movement, Students for a Demo-
+cratic Society.12 The existence of such cases does not, however, give much indication
+of how many peaceful activists move to terrorism, or how many terrorists were peace-
+ful activists before moving to violence. So far as we are aware, there is little systematic
+evidence linking peaceful political action to political violence. Indeed a recent survey
+study that included members of U.S. activist groups found that intentions for legal
+activism were little related to intentions for illegal and violent political action. 13
+In this paper we aim to expand understanding of political mobilization by mea-
+suring readiness to engage in legal and non-violent political action (activism) as well
+as readiness to engage in illegal and violent political action (radicalism). That is, we
+aim to learn more about the link between activism and radicalism that is at issue in
+concerns about a conveyor belt to terrorism. It is important to note that radicalism is
+not the same as terrorism: terrorists are the subset of radicals who use violence
+against civilian targets. The relation between radicalism and terrorism is an impor-
+tant issue, but the likelihood of moving from violence against military or government
+targets to violence against civilians is not accessible in studies of mostly non-violent
+respondents. Thus, we here focus on the more easily tapped distinction between
+activism and radicalism, between legal and illegal political action.
+240 S. Moskalenko and C. McCauley
+We will test the validity of the conveyor belt metaphor by performing
+correlational analyses on measures of intended and past activism and radicalism.
+If the conveyor belt metaphor is accurate we expect to see a similar pattern of
+correlations between activism and radicalism and measures of group identification:
+stronger identification should be associated with higher levels of both activism
+and radicalism. Additionally, there should be a strong correlation between radical
+intention and past activism. On the other hand, a divergent pattern of correlations
+between group identification and activism and radicalism, and radical intentions
+unrelated to past activism, would indicate that radicalism and activism are motivated
+by different relationships with the group and are not simply different stages of the
+same psychological progression.
+These issues are examined in three surveys that use new measures of political
+activism and radicalism based on measures first offered by Corning and Myers; 14
+results include initial evidence of discriminant validity for the new measures.
+Conceptualizing Political Mobilization
+We understand political mobilization as an increasing extremity of beliefs, feelings,
+and actions in support of intergroup conflict. 15 This dimension is relevant for under-
+standing not just those actively involved in conflict, but as well the much larger num-
+ber who sympathize with or support the combatants. Activists of a social movement,
+soldiers of a national army, and perpetrators of terrorism—each of these groups can
+be seen as the apex of a much larger pyramid of sympathizers and supporters. To
+understand the behavior and persistence of the apex requires understanding the
+larger pyramid on which the apex depends for moral and material support, including
+new recruits. 16
+The conveyor-belt metaphor is part of a stage-theory interpretation of the
+pyramid model of radicalization. In this interpretation, the levels of the pyramid
+are discrete stages with different levels of political commitment: the base of
+sympathizers with a cause, a higher level of those who justify the actions of the radi-
+cals, still higher levels of action in support of the cause (including activists), and the
+radicals as an apex of illegal and violent political actors. Individuals are assumed to
+move toward radicalism through ascending stages of radicalization. The transition
+from activist to radical is then the transition to the apex, and it is activists—the stage
+below radicals—who make the transition.
+We prefer an interpretation of the pyramid that is not a stage theory and does
+not require that each level of the pyramid is attained by passing through the level
+or levels below it. Among the mechanisms of radicalization so far identified are
+personal grievance, group grievance, and love. 17 An inert sympathizer can be
+moved directly from the base of the pyramid to the apex by experiencing personal
+loss or affront, by identification with a new and vivid example of loss or affront to
+the cause, or simply by invitation from a loved one who is already radicalized.
+Thus we understand that an individual can move to the apex of radicalization from
+any level, even from a base of unpoliticized sympathizers. This understanding of
+the pyramid model leads us to suspect that there are many activists who never
+become radicals, and, more important, that there are many radicals without a his-
+tory of activism.
+Whether via gradual stages or saltation from the base, political mobilization in
+the pyramid model means increasing support for intergroup conflict. Non-state
+Activism-Radicalism Intention Scales 241
+groups that lose the support of their base must eventually give up or die out. For
+terrorist groups, in particular, loss of support often means fast desistence, as
+occurred in the case of the Armenian Secret Army for the Liberation of Armenia. 18
+Although mobilization of beliefs and feelings is an important part of increasing
+support for conflict, mobilization of action is crucial, and in this paper we focus on
+readiness for political action. For obvious reasons it is difficult to observe radical
+behaviors directly. However, research in social psychology indicates that studying
+behavioral intentions can often provide a useful proxy for understanding the
+corresponding behaviors (see endnote 22 for limitations of the predictive power of
+intentions).19–22
+A close relationship between intentions and behaviors has been demonstrated in
+a variety of contexts, such as health-maintenance behaviors,23 sexual behaviors, 24
+driving, 25 and pro-environmental behaviors. 26, 27 For example, Boldero 28 found that
+intentions to recycle newspapers significantly predicted actual paper recycling during
+a two-week observation period. Similarly, Black and Babrow29 demonstrated that
+whether or not a male student was going to wear a condom at his next sexual
+encounter was well predicted by his stated intention to do so days or weeks in
+advance. Studying intentions for political action may be similarly helpful in under-
+standing and predicting activist and radical behavior.
+As the first step toward understanding intention for political action, we reviewed
+research in psychology and political science in search of measures that would assess
+intentions for action in support of a political cause. Particularly we sought a scale
+that focused on political action with a generality that could support translation
+for use in multiple countries and cultures.
+Measuring Political Mobilization
+Deaux, Reid, Martin & Bikman 30 measured readiness for collective action on behalf
+of one’s ethnic group by using a scale adapted from Lalonde & Cameron. 31 The
+15-item scale includes questions about one’s beliefs (e.g., ‘‘I think that my ethnic
+group members can better their social position if they organize and work together’’),
+feelings (e.g., ‘‘I feel there should be a stronger representation of my ethnic group in
+the political sector’’), and behavior (e.g., ‘‘I help organize events for my ethnic com-
+munity’’). Although radicalization of beliefs and feelings is often a factor in radica-
+lization of behavior, combining all three in one scale weakens the scale’s usefulness
+for understanding the transition from opinion to action. Additionally, none of the
+items in this scale addressed violent or illegal behaviors.
+A number of scales measuring political activism have focused on a particular
+political interest or cause, and cannot easily be extended to other issues. For
+instance, a measure of collective action for women’s rights 32 would be inapplicable
+for measurement of radicalization for ethnic or religious causes (e.g., ‘‘If a man acts
+differently when I’m around because I’m a woman, I assure him that it is not
+necessary’’). Similarly, a measure of political radicalism that targets gays and
+lesbians 33 is not easily translatable to other groups (e.g., ‘‘It is important for gay
+and lesbian people to fight for their rights to marry’’).
+In a more general approach, Corning and Myers 34 developed a scale of inten-
+tions for political action that is adaptable to different political groups and causes.
+The Activism Orientation Scale asks about 35 forms of future political action
+(e.g., ‘‘How likely is it that you will engage in this activity in the future: Attend
+242 S. Moskalenko and C. McCauley
+an informational meeting of a political group?’’). This scale was determined to have a
+two-factor structure, with legal behaviors loading on one factor (Legal Activism;
+e.g., ‘‘How likely is it that you will engage in this activity in the future: Donate
+money to a political candidate?’’), and illegal behaviors loading on the second factor
+(Illegal Activism; e.g., ‘‘How likely is it that you will engage in this activity in the
+future: Engage in any political activity in which you fear for your personal safety?’’).
+A limitation of this scale, however, is that it is rooted in U.S. culture in ways that
+make it difficult to use in other countries. For example, ‘‘Keep track of the views of
+members of Congress regarding an issue important to you’’ is only relevant in a
+Western-style democracy, and ‘‘Display a poster or bumper sticker with a political
+message’’ is less relevant in parts of the world where few own cars. Additionally,
+the scale is long—35 items—and so is difficult to use in conjunction with other
+measures in survey research where number of items is limited. Thus, our review of
+the literature led us to develop a new scale measuring willingness to sacrifice for a
+group or cause. Our ten original items (see Table 2) range from less costly behaviors
+(volunteering time for an organization that fights for political rights of a group) to
+more risky or costly behaviors (breaking the law, assaulting members of police
+force). Following Corning and Myers, 35 we predicted that the ten items would show
+a two-component structure, one component roughly corresponding to Legal
+Activism (Activism), and the other to Illegal Activism (Radicalism).
+The next section considers some possible correlates of political mobilization.
+Mobilization and Group Identification
+Group identification is caring about the outcomes of a group,36 and identification
+with a group or cause implies positive feelings when the group or cause is advancing
+and succeeding, as well as negative feelings if the group or cause is losing or failing.
+Group identification has been identified as a significant force in determining a vari-
+ety of behaviors, from consumer choices 37,38 to decisions to go to war.39,40
+The strength of group identification can vary depending on circumstances of
+intergroup relations. For instance, when the group is threatened, as was the case with
+Americans in the aftermath of the terrorist attacks of 9=11, group identification
+increases. 41 Paradoxically, identification with the group may also increase when
+the group is doing particularly well. 42
+Individual circumstances can also affect group identification. When individual
+self-esteem is threatened,43,44 or when an individual is made to think about death, 45
+or made to experience uncertainty in the face of an unfamiliar task, 46,47 group
+identification is likely to increase. In view of the evidence linking group identification
+with threats to self-esteem, we included a self-esteem measure.
+According to Social Movement theorists, group identification—the extent of
+common identity and unifying structure among the individuals—is related to mobi-
+lization of action in support of the group. 48,49 In a classic contribution to Social
+Movement Theory, Gamson 50 argued that political mobilization is an extension of
+group identification, and is on the same continuum as voting and other lower-cost
+manifestations of group affiliation. In this view, the more identified one is with
+a group, the more one should be ready to make sacrifices for the group: ‘‘To
+reap the rewards of such identification requires commitment. The greater the
+sacrifice and effort involved, the greater is then investment of self, and, hence,
+Activism-Radicalism Intention Scales 243
+the greater the personal satisfaction (or disappointment) with the achievements of
+the collective actor.’’ 51
+As an individual can be a member of, and identify with, multiple groups at the
+same time, we were interested to explore the relation of activism and radicalism
+intentions to directions of group identification that would likely be salient for stu-
+dent respondents in our first study. To this end, Study 1 included one-item measures
+of strength of identification with five groups: country, ethnic group, religious group,
+university, and family. 52
+Study 1
+Methods
+Participants
+Students in a Social Psychology class (Fall 2005) recruited 140 fellow students
+who were U.S. citizens to complete a questionnaire entitled ‘‘Students’ lives in
+context’’ for a class research project. Participants were 140 students from Bryn
+Mawr College (104, 73%) and Haverford College (32, 23%); four participants
+did not identify their school. One hundred twenty-two of the participants (86%)
+were women, and 18 (13%) were men. Their ages ranged from 17 to 33, with a
+mean of 19.6 (SD ¼ 1.78). One hundred and six participants (75%) were Cauca-
+sian, 11 (8%) were East Asian, 7 (5%) were African American and 9 (6%) were
+of mixed ethnicity. Forty-one participants (29%) were atheists; 34 (24%) were
+Protestant, 29 (20%) were Catholic, 10 (7%) were Jewish, and 25 (17%) were of
+other religions. Most participants (84, 60%) reported themselves to be Democrats,
+14 (10%) were Republican, 11 (8%) were Independent, and the rest reported other
+political affiliations.
+Questionnaire and Procedure
+The questionnaire was explicitly anonymous and instructed participants ‘‘not to put
+down any identifying information.’’ Participants were solicited in cafeterias,
+libraries, and at the Campus Center at Bryn Mawr College; they completed the ques-
+tionnaire while the student researcher was waiting, without skipping ahead or flip-
+ping through the pages. The student researcher discussed the ideas in the study
+with each participant on completion of the survey, and the results of the survey were
+analyzed and presented in class.
+The questionnaire began with ratings of Importance of five different groups:
+Country, Family, Ethnic group, Religious group, and College (rated in this order from
+1 ¼ not at all important to 7 ¼ extremely important with intermediate values not
+labeled). Then participants were asked to think of ‘‘the Group You Feel Closest to,
+such as religious group, ethnic group, or any other group that is important to
+you’’ and write the name of that group down in the space provided. They were
+instructed that the subsequent questions were about the group they just named.
+Following was a newly constructed 10-item Activism-Radicalism Intentions Scale
+(ARIS), with each item rated on a 7-point Likert scale ranging from 1 ¼ disagree
+completely to 4 ¼ neutral to 7 ¼ agree completely (intermediate values not labeled).
+Then participants completed a one-item Self-Esteem measure.53 Finally, participants
+answered demographic questions.
+244 S. Moskalenko and C. McCauley
+Results
+The means and standard deviations of group importance ratings are reported in
+Table 1. Group importance ratings were highest for family, followed by college,
+country, ethnic group, and religious group.
+The correlations among ratings of group importance and the scale of group
+identification with country were all positive and ranged from .23 (between impor-
+tance of country and importance of university) to .02 (between importance of
+college and importance of religion). These correlations (not tabled but available from
+the authors) were similar to those reported in Moskalenko, McCauley, Rozin.54
+For the Activism-Radicalism Intention Scale (ARIS), participants were asked to
+write down the group that was most important to them. They listed a total of 21
+groups; the most common choice was ‘‘women’’ (11 participants, 8%). Other groups
+included religious (Catholics, 6), ethnic (Taiwanese, 1), athletic (runners, 1), political
+(environmentally-conscious, 1) and academic (gifted students, 1). The range of group
+types was too wide to allow for a meaningful analysis by group.
+Structure of Activism and Radicalism Intention Scale
+Exploratory Principal Component Analysis using SPSS produced three components
+with eigenvalues greater than 1.0 (4.38, 1.71, and 1.01) which accounted for 44%,
+17%, and 10% of the total variance, respectively. Oblimin rotation of two compo-
+nents produced interpretable dimensions (50% and 20% of the total variance) that
+correlated .36 (see Table 2). The first component showed high loadings for the items
+pertaining to legal and non-violent political activism (Activism), and the second
+component showed high loadings for the items pertaining to illegal and violent
+activism (Radicalism).
+We constructed two corresponding scales, the Activism Intention Scale (AIS) and
+the Radicalism Intention Scale (RIS) by averaging across the four items loading high-
+est on each factor. AIS (M ¼ 5.31, SD ¼ 1.31, alpha .86) correlated .42 with RIS
+(M ¼ 2.91, SD ¼ 1.49, alpha .83). Not surprisingly, the mean for AIS was signifi-
+cantly higher than the mean for RIS (t(139) ¼ 19.03, p < .01). While 66% of partici-
+pants expressed activist intentions (score of 5 or above on AIS with 4 ¼ neutral), only
+12% expressed radical intentions (score of 5 or above on RIS). Sixteen participants
+Table 1. Mean (SD) of ratings of group importance for
+Studies 1 and 2
+Importance of Study 1 Study 2
+Country 4.76 (1.65) 5.86 (1.19)
+Family 6.59 (0.86) 6.80 (0.76)
+Ethnicity 4.20 (1.85) 5.59 (1.30)
+Religion 3.47 (2.36) 5.09 (1.61)
+w=o Atheists 4.37 (1.96) 5.23 (1.40)
+College 4.97 (2.36) 5.84 (1.16)
+Party N=A 3.19 (2.01)
+Note. Ratings from 1 ¼ not at all important to 7 ¼ extremely
+important.
+Activism-Radicalism Intention Scales 245
+scored 5 or above on both AIS and RIS (these 16 individuals represented 17% of
+those scoring 5 or above on AIS and 94% of those scoring 5 or above on RIS).
+Predictors of Activism and Radicalism Intentions
+Table III reports correlations between AIS and RIS and ratings of importance of
+five groups.
+Rated importance of country correlated positively with AIS (r(140) ¼ .20,
+p ¼ .02); higher rating on importance of country was associated with greater willing-
+ness to participate in non-violent actions to benefit one’s group), but country impor-
+tance was not correlated with RIS (r ¼ .10, ns). Additionally, importance of ethnic
+group correlated positively with RIS (r ¼ .25, p < .01), but was not significantly
+related to AIS (r ¼ .13, ns). Ratings of importance of family, religion, and university
+showed no correlations with either AIS or RIS.
+Table 2. Study 1 (Study 3) item loadings for Activism Intentions Scale (AIS) and
+Radicalism Intentions Scale (RIS)
+AIS RIS
+1. I would join=belong to an organization that fights
+for my group’s political and legal rights
+.84 (.89) .00 (.00)
+2. I would donate money to an organization that
+fights for my group’s political and legal rights
+.86 (88) .00 (.00)
+3. I would volunteer my time working (i.e. write
+petitions, distribute flyers, recruit people, etc.) for
+an organization that fights for my group’s
+political and legal rights
+.90 (.88) .00 (.00)
+4. I would travel for one hour to join in a public
+rally, protest, or demonstration in support of my
+group
+.76 (.81) .15 (.38)
+5. I would continue to support an organization that
+fights for my group’s political and legal rights
+even if the organization sometimes breaks the law
+.24 (.44) .67 (.73)
+6. I would continue to support an organization that
+fights for my group’s political and legal rights
+even if the organization sometimes resorts to
+violence
+.00 (.00) .85 (.82)
+7. I would participate in a public protest against
+oppression of my group even if I thought the
+protest might turn violent
+.12 (.43) .78 (.86)
+8. I would attack police or security forces if I saw
+them beating members of my group
+.21 (.00) .83 (.88)
+9. I would go to war to protect the rights of my
+group
+.00 .48
+10. I would retaliate against members of a group that
+had attacked my group, even if I couldn’t be sure
+I was retaliating against the guilty partie
+.00 .39
+Note. Bold items averaged in AIS and RIS scales.
+246 S. Moskalenko and C. McCauley
+AIS and RIS were uncorrelated with self-esteem, Age or Family Income. Gender
+was related to AIS (r(140) ¼ .20, p ¼ .02), such that women reported more intention
+than men to engage in legal and non-violent actions to promote their self-nominated
+group.
+Study 1 Discussion
+Study 1 introduced the Activism and Radicalism Intentions Scales (ARIS), a brief
+measure of intentions relating to political behavior. As expected, a two-component
+structure was uncovered, with the first component representing Activism (intentions
+to participate in legal non-violent acts on behalf of a group important to partici-
+pants), and the second component representing Radicalism (intentions to participate
+in illegal=violent acts on behalf of the same group). Two corresponding four-item
+scales were constructed, Activism Intention Scale (AIS) and Radicalism Intention
+Scale (RIS), each with good alpha reliability.
+AIS and RIS showed some evidence of discriminant validity in that they corre-
+lated differently with measures of importance of country and ethnic group. Thus,
+AIS but not RIS was positively correlated with importance of country, whereas
+RIS but not AIS was positively correlated with importance of ethnic group. These
+results were unpredicted but make some sense. U.S. citizens more strongly identified
+with country are more ready for political action that is normative for citizens: legal
+and non-violent protest activities. But citizens more strongly identified with an eth-
+nic group can imagine the interests of this group running counter to the authority of
+the state and so may be more ready to undertake illegal and violent action in defense
+of ethnic comrades.
+We observed slightly higher radicalism among women than among men in our
+student sample. However, given the small proportion of male participants (13%)
+and the possibly atypical political characteristics of female participants from an
+all-women’s college, the gender difference in Study 1 cannot be taken seriously with-
+out replication.
+Most generally, the results of Study 1 support the distinction between Activism
+and Radicalism as forms of political mobilization. Although significantly correlated,
+AIS and RIS are related to different directions of group identification (country vs.
+ethnicity).
+Study 2
+Study 2 had two aims. First, we wanted to try the AIS and RIS with participants
+outside the U.S. in order to test whether the new scales have the kind of cross-
+cultural applicability that was one of our original goals. We hoped to replicate the
+two-factor scale structure observed in Study 1, as well as the differential correlations
+between AIS and RIS and measures of group identification. Second, we wanted
+respondents to complete the ARIS scales with more than one target group in order
+to test whether Activism and Radicalism are general dispositions or specific to
+particular political groups or causes.
+With these aims in mind, we designed a survey to be used with university
+students in Ukraine, where lifestyle and culture are sufficiently different from the
+U.S. or Western Europe to provide a meaningful test of scale generalizability. In
+addition, the legacy of the 2004 Ukrainian ‘‘Orange Revolution,’’ accomplished to
+Activism-Radicalism Intention Scales 247
+a large degree by student activists, provides a student population with a recent
+history of political mobilization. The survey asked about Activism and Radicalism
+in relation to three groups: Country, Ethnic Group, and Political Party. Political
+party was included as a target because the ‘‘Orange Revolution’’ was a result of a
+presidential election widely perceived as unfair, and the subsequent conflict between
+a coalition of opposition political parties and the government made political party
+affiliation especially salient for Ukrainian students. We also included ratings of
+importance for the same five groups (country, ethnic group, family, religious group,
+and university) as in Study 1.
+Methods
+Participants
+Participants were 146 students at Kiev Economic University and Kiev Polytechnic
+University. One hundred and seven (72%) of participants were women, and 39
+(26%) were men. Their age ranged from 16 to 28, with a mean of 17.5 (SD ¼ 1.2).
+All participants were Ukrainian citizens, and 143 (98%) were also ethnic Ukrainians
+(2 people reported their ethnicity as Russian, and 1 as Chinese). One hundred twelve
+of our participants (80%) said they were Orthodox Christian; 19 (14%) were Atheists;
+the remaining 9 (6%) reported mixed religious affiliations (e.g., Buddist, Muslim,
+Pagan).
+Procedure
+Students were approached in hallways and cafeterias of Kiev Economic University
+and Kiev Polytechnic University in January 2005 and asked to complete an anon-
+ymous questionnaire about ‘‘the complexity of students’ social and public lives’’ in
+return for 15 Hryvnas (about three US Dollars). They were instructed to answer
+the questions in one sitting, in the order in which they were presented, without skip-
+ping ahead or taking a long break. Upon returning the questionnaire, participants
+were paid, and student researchers explained the goals of the study.
+Questionnaire
+The questionnaire was in Ukrainian (translated and back-translated from English by
+two independent interpreters who agreed on the final translation). Participants were
+first asked to write down their country of citizenship, ethnicity, and political party
+affiliation. Then they were asked to rate on a 7-point Likert scale (as in Study 1)
+the importance of six groups: Country, Political Party, Family, Religion, Ethnicity,
+and University (in this order).
+Participants then completed the AIS and RIS (eight items total). Each item was
+asked three times: first, targeting country (e.g., ‘‘I would travel for one hour to join
+in a public rally, protest, or demonstration in support of my country’’), then target-
+ing ethnic group (e.g., ‘‘I would travel for one hour . . . in support of my ethnic
+group’’), and finally targeting political party (e.g., ‘‘I would travel for one hour . . . in
+in support of my political party’’). Each three-questions block was separated from
+the next block by space so as to alert participants to the shift to a new question.
+Owing to the highly homogenous ethnic make-up of our participants (98%
+percent reported themselves as ethnic Ukrainians), results for ARIS targeting
+country and for ARIS targeting ethnic group were very similar. AIS for country
+and for ethnic group were highly correlated (r(144) ¼ .82, p < .01), as were RIS for
+248 S. Moskalenko and C. McCauley
+country and ethnic group (r(144) ¼ .84, p < .01). What’s more, AIS and RIS
+targeting country showed the same pattern of results with other measures as AIS
+and RIS targeting ethnic group. Given the redundancy of ethnicity and country
+for Ukrainian participants, we report here only the results for country. Finally,
+participants’ responded to the single-item Self-Esteem measure 55 and demographic
+questions.
+Results
+Most participants (109; 76%) did not list a party with which they aligned themselves,
+although 59 of the 109 nevertheless proceeded to rate the importance of their
+political party as higher than 1 ¼ not at all important or not applicable. Indeed 22
+of the 109 rated importance of their political party above 4 on the 7-point scale.
+Our interpretation of this paradox is that, in the light of the recent political events,
+including the ‘‘Orange Revolution,’’ some students felt uneasy or unsafe in reporting
+their political party affiliation. Those 37 participants who listed a party affiliation
+belonged to 15 different political parties, with the most often listed party (Block Ulia
+Timoshenko) listed by only 8 students.
+Importance Ratings
+The means and standard deviations of importance ratings of the six groups are
+reported in Table 1. Highest rated was importance of family, approaching the ceiling
+on the 7-point scale. Next highest rated was importance of country, followed by
+importance of university, ethnicity, and religion, and finally importance of political
+party. Correlations among importance ratings (not tabled, available from authors)
+were positive with one exception: importance of party correlated .16, p ¼ .06, with
+importance of family. Remaining correlations ranged from .04 between importance
+of religion and importance of country to .43 between importance of family and
+importance of the university.
+AIS and RIS
+Exploratory Principal Component Analysis with Oblimin Rotation was conducted
+for the eight ARIS items for both country and political party. Results were the same
+for both target groups and the same as in Study 1. Non-violent and legal behaviors
+loaded on the first component and violent and illegal behaviors loaded on the second
+(loadings were similar to those reported in Table 2 of Study 1). For country, the two
+components (eigenvalues 2.84 and 1.64) accounted for 35% and 20% of the total
+variance (r ¼ .23). For political party, the two components (eigenvalues 4.26 and
+1.29) accounted for 47% and 14% of the variance (r ¼ .46). Thus four-item means
+of AIS and RIS were calculated for each participant for the two targets: country
+and political party.
+With country as the target group, AIS (M ¼ 4.09, SD ¼ 1.43, alpha .72) corre-
+lated .37 (p < .01) with RIS (M ¼ 2.87, SD ¼ 1.32, alpha.70). With political party
+as the target group, AIS (M ¼ 2.94, SD ¼ 1.50, alpha .64) correlated .57 (p < .01)
+with RIS (M ¼ 2.49, SD ¼ 1.33, alpha .60).
+The correlations among AIS and RIS scales targeting different groups were all
+positive and significant (N of correlations 141 – 146, p < .05): AIS country with AIS
+Activism-Radicalism Intention Scales 249
+party r ¼ .47 and with RIS party r ¼ .28; RIS country with AIS party r ¼ .47 and with
+RIS party r ¼ .81.
+The notable result here is the .81 correlation between RIS for country and RIS
+for party. This correlation exceeds the level of the alpha reliabilities of these scales
+(.70 and .60) and indicates that students ready for illegal and violent political action
+for their country are also ready for such action for their political party. The corre-
+sponding correlation of .47, between AIS for country and AIS for party, is signifi-
+cantly smaller (Fisher’s Z ¼ 5.25, p < .01). Thus readiness for activism is
+discriminating, whereas readiness for radicalism is more general. Whether the gener-
+ality of activism is better understood in terms of personality or in terms of political
+development will be considered in the discussion that follows.
+As in Study 1, AIS averaged higher than RIS: for country, t(145) ¼ 9.62,
+p < .01; for political party, t(145) ¼ 3.68, p < .01. Thus, while 46 participants
+(31%) expressed activist intentions for country (score of 5 or above on AIS), only
+12 (8%) expressed radical intentions for country (score of 5 or above on RIS).
+Similarly, 15 (10%) participants expressed activist intentions for party, but only
+8 (5%) expressed radical intentions for party. Five participants scored 5 or above
+on both country AIS and country RIS (representing 11% of 46 with activist inten-
+tions and 42% of 12 with radical intentions). Five participants scored 5 or above
+on both party AIS and party RIS (representing 33% of 15 with activist intentions
+and 63% of 8 with radical intentions).
+Correlates of AIS and RIS
+Table 3 reports correlations between AIS and RIS and measures of group impor-
+tance for six groups. Country AIS was positively correlated with importance of:
+country, party, religion, and ethnicity. As noted earlier, country, party, religion,
+and ethnicity are closely linked for Ukrainian students. Party AIS was positively cor-
+related with importance of country and party. Country RIS and party RIS, as might
+be expected from their high correlation, showed the same pattern: both were
+associated only with importance of party. It is worth noting that the significant
+correlations in Table 3 all involved identification with politically salient groups;
+Table 3. Study 1 and Study 2 correlations between Activism and Radicalism
+Intention Scales and rated importance of groups
+Study 1 Study 2
+Importance
+of
+AIS chosen
+group1
+RIS chosen
+group1
+AIS
+Ukraine
+RIS
+Ukraine
+AIS
+party
+RIS
+party
+Country .20 .10 .28 .06 .22 .01
+Family .12 .07 .09 .03 .11 .07
+Ethnicity .13 .25 .29 .18 .16 .15
+Religion .09 .11 .22 .06 .03 .02
+College .08 .15 .05 .11 .05 .11
+Party NA NA .21 .25 .43 .32
+Note. N of correlations: 141–146. p < .05; p < .01. 1 See text.
+250 S. Moskalenko and C. McCauley
+importance of family and importance of university did not correlate with any AIS or
+RIS scale in either Study 1 or Study 2.
+There was a consistent small positive correlation between self-esteem and RIS
+for both country (r(142) ¼ .17, p ¼ .04) and political party (r(142) ¼ .19, p ¼ .02).
+Self-esteem was not correlated with AIS targeting country (r(142) ¼ .02, ns), but
+was positively correlated with AIS for party (r(142) ¼ .20, p ¼ .02).
+Age was related to AIS for political party, so that younger participants reported
+more intention toward party activism (r(144) ¼ .22, p ¼ .01). Neither age nor
+Gender related to any other scale.
+Study 2 Discussion
+Our first aim in Study 2 was to test the usefulness of the AIS and RIS with a non-
+U.S. population. This aim was accomplished insofar as Ukrainian participants had
+no difficulty answering the eight items that make up the AIS and RIS; there were few
+missing values in our data. More specifically, the two-factor structure of ARIS found
+in Study 1 with U.S. students was replicated in Study 2 with Ukrainian students for
+both target groups (country and political party). Study 2 also supported Study 1 in
+showing that AIS and RIS correlated differently with identification with country. As
+with the U.S. students, Ukrainian students who identify more with country are
+intending more legal and non-violent political action but not more illegal and violent
+action.
+Our second aim was to have the same respondents complete AIS and RIS for
+different target groups to determine whether activism and radicalism are general per-
+sonality orientations or specific to certain groups or political causes. We found,
+notably, that Ukrainian students distinguished activism for country and activism
+for party (correlation .47), but did not distinguish radicalism for country and party
+(correlation .81). One possible interpretation of this pattern is that there is some gen-
+eral personality disposition that makes an individual more or less ready for illegal
+and violent political action—no matter the group or cause. Eric Hoffer’s 56 ‘‘true
+believer’’ might represent one instantiation of such a disposition.
+A more nuanced interpretation, consistent with social psychology’s emphasis on
+the power of the situation, 57 is that radicals are not born but made. In particular,
+individuals may be radicalized by state response to their own or others’ actions
+for their cause. 58 In this interpretation, there may be a threshold for illegal and vio-
+lent political action, which, once crossed, leaves an individual ready for radical
+action for any cause with which the individual identifies. Distinguishing these possi-
+bilities will require further research.
+One interesting finding in Ukraine was with respect to importance of political
+party. This was the only identification measure that predicted both Activism and
+Radicalism for both party and country. A possible explanation is that political party
+membership is already a measure of activism because, unlike the ascribed values of
+citizenship, ethnicity, and, in many cases, religion, political party membership is
+freely chosen. Political party membership may also already be a measure of radical-
+ism, as students giving high importance to political party may have recently partici-
+pated in the ‘‘Orange Revolution.’’ Their experience of illegal political behavior in
+the streets of Kiev, however small or accidental, could lead them to see themselves
+as activists and radicals for both country and party.
+Activism-Radicalism Intention Scales 251
+Study 3
+In Study 3 our goal was to replicate the two-component structure of the ARIS that
+we observed in student samples in Studies 1 and 2 in a sample representative of U.S.
+adults. Additionally, we wanted to explore the relationship between the ARIS scales
+of intentions for future activism and radicalism, and history of past activist or radi-
+cal behavior. In many samples, including samples from some foreign countries, ask-
+ing about personal history of activism or radicalism is counter-productive, as it may
+leave people worried about researchers’ motivation, and unlikely to answer truth-
+fully. However, with American respondents who are not usually suspicious of social
+scientists we thought it might be possible to include questions about past activism
+and radicalism and thereby further test validity of ARIS.
+Past behavior is generally predictive of future behavior of the same kind, 59 In
+particular, a history of consistent patterns of behavior may contribute to an
+action-specific self-concept, or ‘‘self-perception.’’ 60 The more an act has been inte-
+grated into an individual’s self-perception, the more likely the individual is to repeat
+this and related acts. 61 Consistency pressures may also contribute to the relation
+between past and future behavior, as when someone suffering more to join a group
+then comes to like the group better.62
+The relation between past and future behavior need not be linear, however.
+Ferguson and Bibby, 63 for instance, found that the relationship between past
+blood donations and likelihood of future donations was an inverted parabola,
+such that the most frequent donors of the past were less likely to donate
+in the future than those with medium-frequency of past donations. Another
+qualification is that past behavior may be a better predictor for habitual and
+well-practiced acts, such as brushing teeth after each meal, than for rare and
+more deliberate ones, such as the acts of activism or radicalism that are the focus
+of this paper. 64
+Thus, in Study 3 we included questions addressing past activist and radical beha-
+viors in order to explore how past behavior relates to future intentions for activism
+and radicalism. In light of the empirical literature indicating complex relations
+between past behaviors and future intentions in other social domains, we expected
+moderate positive correlations between past activism and radicalism and future
+intentions for activist and radical intentions.
+Methods
+Participants
+Participants were recruited by a professional polling company, Knowledge
+Networks. Using Random Digit Dialing (RDD), KN recruited individuals to take
+part in internet-based surveys from Time-sharing Experiments for Social Sciences
+(TESS; http:==www.experimentcentral.org). In return those without a computer
+and=or without an internet connection received WebTV and free internet access;
+those with an active internet connection received cash-redeemable points.
+Of the 596 solicited individuals, 72% agreed to participate in the internet survey
+in December 2006. The resulting 429 participants resided all across the United
+States, represented levels of education from less than high school (3%) to doctoral
+degree (2%), and came from a variety of ethnic categories (White 70%, Black
+Non-Hispanic 11%, Hispanic 12%, Other non-Hispanic 5%, and Mixed 2%). There
+252 S. Moskalenko and C. McCauley
+were 223 (52%) males and 206 (48%) females, ages ranging from 18 to 92 with a mean
+of 46 (SD ¼ 17).
+Questionnaire
+The AIS and RIS questions were preceded by a section that asserted: ‘‘people
+care about many different kinds of groups, including the following: Religious (e.g.
+Catholics, Muslims); Single-Issue (e.g. environmental, human rights, abortion);
+Economic (e.g. union, farmers, unemployed); Political (e.g. Democrats, Republicans,
+Libertarian); Ethnic=Racial (e.g. African–Americans, Native Americans, Irish); and
+Gender=Lifestyle (e.g. Gay=Lesbian, women, Goths).’’ Respondents were then asked
+to write down the name of the particular group most important to them and
+instructed that ‘‘my group’’ in the next eight questions (AIS and RIS) referred to
+the group they just wrote down. The AIS and RIS questions were on a 4-point Likert
+scale, with 1 ¼ very unlikely, 2 ¼ unlikely, 3 ¼ likely, and 4 ¼ very likely.
+Following AIS and RIS items were four items about history of Past Activist
+behavior and two items about history of Past Radical behaviors. These questions
+were based on the highest-loading items from Corning and Myers 65 Legal Activism
+and Illegal Activism Dimensions, adapted here to ask about past history rather than
+future intention (i.e., attended a talk on a particular group’s social or political con-
+cerns?). Participants were asked ‘‘At any time in the past have you ever engaged
+in the activity described below (for ANY group or cause, not just the group you
+identified earlier),’’ with no coded 1 and yes coded 2. The last section of the question-
+naire asked about demographic information.
+Results
+In response to the question about which group they care most about, 113 partici-
+pants (26%) chose a religious group, 109 (25%) chose a single-issue group (e.g., envir-
+onmental, human rights, abortion), 61 (14%) chose an economic group (e.g., union,
+farmers, unemployed), 48 (11%) did not have a group affiliation, 32 (8%) gave an
+inappropriate answer (e.g., ‘‘Medicare Drug Program’’ or ‘‘all of the above’’ or
+‘‘not sure’’), 23 (5%) chose a political group (e.g., Democrats, Republicans,
+Libertarians), 22 (5%) listed an ethnic=racial group, and 21 (5%) listed a
+gender=lifestyle group (e.g., gay=lesbian, women, Goths). Because Activism and
+Radicalism measures were targeted to the group each participant chose as most
+cared about, participants who either did not have a group preference (N ¼ 48) or
+listed something that was not a group (N ¼ 32) were dropped from the analyses
+(remaining N ¼ 349).
+Activism-Radicalism Scales
+A Principal Component Analysis with Oblimin rotation on the eight items in the
+Activism-Radicalism Intention Scale uncovered two components with eigenvalues
+greater than 1.0 (4.00 and 1.84). The first component included the four items pertain-
+ing to activist intentions, and the second component included the four items pertain-
+ing to radical intentions (see Table 1). The two components correlated r ¼ .33
+(p < .01). The four-item Activism Intention Scale (AIS) had good reliability
+(alpha ¼ .89), as did the four-item Radicalism Intention Scale (alpha ¼ .84). Further
+analyses were conducted with averages of the four items within each scale (AIS
+Activism-Radicalism Intention Scales 253
+M ¼ 2.46, SD ¼ .80; RIS M ¼ 1.70, SD ¼ .68). As in Studies 1 and 2, AIS averaged
+higher than RIS, t(348) ¼ 21.77, p < .01.
+The correlation of AIS and RIS was .39. Thirty participants (7%) scored 3
+(‘‘Likely’’) or above on the RIS scale, and 137 (31%) scored 3 or above on the
+AIS. Twenty-two participants scored 3 or above on both AIS and RIS (representing
+16% of 137 with activist intentions and 73% of 30 with radical intentions).
+A Principal Component Analysis with Oblimin rotation was also conducted on
+the six questions about past activist and radical actions. Two components emerged
+with eigenvalues greater than 1.0 (2.77,1.25) and these components correlated
+r ¼ .33. The first component included the four items pertaining to past activist activ-
+ity (Legal Activism); the second component included the two items pertaining to past
+radical activity (Illegal Activism), and one item from the first component (organized
+a political event). This item was dropped and PCA repeated, resulting in two compo-
+nents (eigenvalues 2.41 and 1.22), where the first component included only the three
+items pertaining to past activism, and the second component included only the two
+items pertaining to past radical activity. The two components correlated at r ¼ .28.
+Scales were computed by averaging across items within each component (Past Acti-
+vism M ¼ 1.33, SD ¼ .38, alpha ¼ .78; Past Radicalism M ¼ 1.04, SD ¼ .17,
+alpha ¼ .67).
+Table 4 presents correlations among Past Activism, Past Radicalism, Activism
+Intention Scale (AIS), and Radical Intention Scale (RIS). Notice that, although Acti-
+vist Intention is best predicted by Past Activism, the best predictor for Radical Inten-
+tion is not Past Radicalism, but rather Activism Intention.
+Almost half of all participants (209 or 49%) reported some history of activist
+behavior by saying ‘‘yes’’ to at least one of the four past activism items, whereas only
+26 (6%) reported some history of radical behavior by saying ‘‘yes’’ to at least one of
+the two past radicalism items. Twenty-six participants reported some history of both
+activist and radical behavior (these participants represented 12% of the 209 who
+reported past activist behavior and 100% of those who reported past radical beha-
+vior). These responses indicate that, as we hoped, our participants were trustful of
+the anonymity of the survey and the integrity of the researchers, revealing informa-
+tion about past activism and radicalism that would be more difficult to solicit outside
+the U.S.
+Demographics
+Gender, Age, Race and household Income were not significantly related to either past
+or future, activism or radicalism. Education level was positively correlated with AIS
+(r(347) ¼ .18, p < .01), and there was a trend for a similar correlation with Past
+Table 4. Study 3 correlations among Past Activism and Past Radicalism Scales and
+Activism and Radicalism Intention Scales (AIS and RIS)
+Past Radicalism AIS RIS
+Past Activism .30 .50 .23
+Past Radicalism – .18 .22
+AIS – .39
+Note. p < .01 N of correlations 429.
+254 S. Moskalenko and C. McCauley
+Activism (r(349) ¼ .09, p ¼ .09); those with higher education reported higher activist
+intentions and slightly more past activism. But education was not correlated with
+Past Radicalism (r(349) ¼ .07, ns) or with RIS (r(349) ¼ .07, ns).
+Study 3 Discussion
+In Study 3 our respondents were representative of the U.S. adult population on a
+variety of demographic dimensions. Results showed the same two-component struc-
+ture of ARIS seen in Studies 1 and 2 with student participants, with Activism and
+Radicalism Intentions loading on two distinct dimensions. A similar two-component
+structure was observed in the questions about past behaviors, with legal and illegal
+behaviors loading on different components.
+As expected, past activism predicted intended activism (r ¼ .50) and past radic-
+alism predicted intended radicalism (r ¼ .22). These correlations are consistent with
+research that links past behaviors with behavioral intentions in a number of social
+domains. 66,67 In addition, past activism was related to past radicalism (r ¼ .30)
+and activist intentions were related to radical intentions (r ¼ .39). These correlations
+are consistent with the ‘‘conveyor belt’’ idea that links activism with radicalism, and
+so is the finding that 100% of panel respondents who report past radicalism also
+report past activism. Less consistent with the conveyor belt idea is the finding that
+only 12% of panel respondents who report past activism also report past radicalism.
+General Discussion
+This report introduces the Activism and Radicalism Intention Scales (ARIS) Com-
+pared with existing scales, 68–71 ARIS is shorter and more easily applied to a broad
+variety of political identity groups in and outside of the U.S. For both U.S. and
+Ukrainian respondents, ARIS produced a two-component structure, with four items
+pertaining to non-violent and legal behaviors comprising the Activism Intention
+Scale (AIS), and four items pertaining to illegal and violent behaviors comprising
+the Radicalism Intention Scale (RIS).
+The two subscales showed adequate alpha reliability and initial evidence of dis-
+criminant validity: for both U.S. and Ukrainian students, identification with country
+was positively related to Activism, but not to Radicalism. This result suggests that
+activist intentions may be an expression of high identification with country along
+with motivation to improve it. On the other hand, radical intentions may express loss
+of identification with country or loss of identification with the government currently
+leading the country.
+As described in the introduction, there are two views of the relation between
+activism and radicalism. In one view, there is a single dimension of political action
+that runs from passivity to activism to radicalism. In this view, represented in the
+‘‘conveyor belt’’ metaphor, individuals who are not succeeding with legal and non-
+violent political action will, if they care enough about their cause, escalate to illegal
+and violent political action. Thus the difference between activism and radicalism is
+only a difference in intensity of commitment. 72
+In the second view, radicalism is more than an extreme form of activism. Rather
+radicalism is a different appraisal of the political situation, an appraisal that justifies
+or even requires political violence as the only possible path to political change. In the
+second view, activism and radicalism can be competing responses to a perceived need
+Activism-Radicalism Intention Scales 255
+for political change. Radicals may or may not want change more than activists, but
+radicals disagree with activists about how best to bring the desired change.
+Our results in general support the second view and infirm the ‘‘conveyor belt’’
+perspective. If radicalism differs from activism only in being a more extreme form
+of political commitment, then our eight items should have formed a single
+dimension. Instead results of principle component analyses in three studies show
+activism and radicalism to be distinguishable dimensions. The same studies show
+that AIS and RIS scales formed to represent these two dimensions are empirically
+distinguishable, with alphas ranging from .60 to .89 that are consistently higher than
+scale correlations ranging from .37 to .57.
+Perhaps most revealing are the percentages of those with activist intentions who
+also have radical intentions, and the percentages of those with radical intentions who
+also have activist intentions.
+In our three studies, consistently only a small minority of those with activist
+intentions have also radical intentions: 17% for U.S. students thinking about group
+they care most about, 11% for Ukrainian students thinking about country, 33% for
+Ukrainian students thinking about party; 16% for TESS-panel U.S. adults thinking
+about group they care most about. Thus one implication of the conveyor-belt meta-
+phor appears to be seriously misleading. Only a fraction of those with activist inten-
+tions have radical intentions, suggesting that the transition from activism to
+radicalism is far from the ineluctable trajectory of a conveyor belt.
+The evidence in relation to the other implication of the conveyor-belt meta-
+phor is mixed. Those with radical intentions are indeed more likely to have also
+activist intentions: 94% for U.S. students, 42% for Ukrainian students thinking
+about country, 63% for Ukrainian students thinking about party, and 73% of
+U.S. adults in the TESS sample. Most extreme are the results for the TESS panel
+in relation to past behavior; 100% of respondents reporting past radical behavior
+also report past activist behavior. At the other extreme, however, only 42% of
+Ukrainian students with radical intentions for their country also have activist
+intentions for their country.
+For Ukrainian patriots, there are evidently paths to radical intentions that do
+not include activist intentions. In contrast, U.S. respondents scoring high on Radic-
+alism also score high on Activism, as might be expected if radicalism is an extreme
+form of activism. Further research will be required to test this idea, but we tenta-
+tively suggest that the degree to which radicals come out of legal and nonviolent acti-
+vism may differ importantly in different times and places. In particular, it is possible
+that in repressive regimes where activism is persecuted with the same fervor as radic-
+alism, the conveyor belt metaphor is an appropriate description of the common tra-
+jectory to radicalism and terrorism. This hypothesis cannot be verified with our
+samples from one democratic and one fledgling-democratic country.
+Thus the Ukrainian results suggest a mild qualification of the conveyor belt
+metaphor. Popular as well as academic discourse73–75 frequently assumes that the
+path to political radicalism lies through political activism. In this ‘‘conveyor belt’’
+model, all or most terrorists have graduated to radical violence from previous experi-
+ence of non-violent activism. But the results for Ukrainian students suggest that indi-
+viduals may come to radicalism without engaging in activism first.
+The Ukrainian results are consistent at least with what is publicly known about
+the individuals implicated in the 7=7 terrorist attacks on the London underground.
+These individuals appear to have come to radicalization with at most a history of
+256 S. Moskalenko and C. McCauley
+brief and inconsequential associations with Muslim activist groups. 76 This pattern
+suggests that what contact the bombers had with activist organizations, such as
+Hizb-Ut-Tahrir, led them to realize that the activist agenda was incongruent with
+their own more radical motivations.
+A more important qualification of the conveyor belt model has to do with its
+implication that the way from activism to radicalism is easy or even irresistible.
+Whoever gets onto the conveyor belt with activism is on the way to radicalism.
+About this implication, our data are completely consistent: as already noted, only
+a minority with activist intentions have radical intentions. TESS results for past
+behavior tell the same story: only a minority reporting past activism also report past
+radicalism (12%).
+To the extent that the way from activism to radicalism is not easy and auto-
+matic, the conveyor belt must be an unhelpful metaphor. If only a small minority
+graduate from peaceful activism to violent radicalism, then suppressing groups with
+radical ideas can be counterproductive. 77,78 The transition from activism to radical-
+ism is often a response to perceived injustice inflicted by state security forces. 79 Ban-
+ning a group that advocates radical ideas but has not engaged in illegal political
+action may be seen as injustice thereby increasing group identification, and moving
+more individuals from activism to radicalism.
+Conclusion
+The perpetrators of political violence, including terrorist violence, are the apex of a
+pyramid of sympathizers and supporters. The beliefs, feelings, and even the intentions
+of the pyramid can be tracked with public opinion polls. For example, a poll of U.K.
+Muslims 80 after the July 7, 2005, suicide bombings in the London Underground,
+asked, ‘‘Do you think any further attacks by British suicide bombers in the UK are
+justified or unjustified?’’ Five percent of respondents said ‘‘justified,’’ that is, about
+50,000 of the million adult U.K. Muslims thought the bombings were justified in
+defense of Islam. But thus far only a few hundreds of U.K. Muslims have been
+arrested for suspected terrorist activities. It is clear in this example that the great
+majority of those who justify political violence will never engage in political violence.
+Thus we have undertaken direct assessment of intentions for political action,
+both non-violent legal action (Activism) and illegal and violent action (Radicalism).
+If deployed in repeated polls focusing on the same group or cause, ARIS may be able
+to track changes in activist and radical intent in the broad base of sympathizers and
+supporters where radicals seek forum, funding, and recruits. Change in readiness for
+action may then be useful as an index of success and failure in the war of ideas that
+aims to cut mass support for perpetrators of political violence.
+Notes
+1. John Horgan, The Psychology of Terrorism (London: Routledge, 2005).
+2. Clark McCauley and Mary Segal, ‘‘Social Psychology of Terrorist Groups,’’ in Clyde
+Hendrick, ed., Review of Personality and Social Psychology, Vol. 9 (Beverly Hills, CA: Sage,
+1987), 231–256.
+3. Marc Sageman, Understanding Terror Networks (Philadelphia, PA: University of
+Pennsylvania Press, 2004).
+4. Annette Linden and Bert Klandermans, ‘‘Stigmatization and repression of extreme-
+right activism in the Netherlands,’’ Mobilization: An International Journal 11 (2006): 213–228.
+Activism-Radicalism Intention Scales 257
+5. U.S. Department of State Country Reports on Terrorism. Chapter 1: Strategic
+Assessment (2006). Accessed August 8, 2008 at http://www.globalsecurity.org/security/
+library/report/2007/c-rprt-terrorism_2006-01.htm
+6. Michael Elliot, ‘‘They Had a Plan,’’ Time Magazine, 12 August, 2002.
+7. Zeyno Baran, Hizb ut-Tahrir: Islam’s Political Insurgency (Washington, D.C.: The
+Nixon Center, DOI, December 2004).
+8. National Intelligence Council, National Intelligence Estimate: The Terrorist Threat to
+the US Homeland (Washington, DC: Office of the Director of National Intelligence, 2007): 7.
+9. Shiv Malik, ‘‘Hizb ut Tahrir and the conveyor belt of extremism—MIM archives
+Hizb ut Tahrir,’’ Militant Islam Monitor (London, England: New Statesman, Ltd, 2005).
+10. Manos Karagiannis and Clark McCauley, ‘‘Hizb ut-Tahrir al-Islami: Evaluating the
+Threat Posed by a Radical Islamic Group that Remains Nonviolent,’’ Terrorism and Political
+Violence 18, no. 2 (2006): 315–334.
+11. Rogers Brubaker and David Laitin, ‘‘Ethnic and Nationalist Violence,’’ Annual
+Review of Sociology 24 (1998): 426.
+12. Ehud Sprinzak, ‘‘The process of delegitimation: Toward a linkage theory of political
+terrorism,’’ in Clark McCauley, ed., Terrorism and public policy (London: Frank Cass, 1991),
+50–68.
+13. Alexandra F. Corning and Daniel J. Myers, ‘‘Individual orientation toward engage-
+ment in social action,’’ Political Psychology 23 (2002): 703–729.
+14. Ibid.
+15. Clark McCauley and Sophia Moskalenko, ‘‘Mechanisms of Political Radicalization:
+Pathways Toward Terrorism,’’ Terrorism and Political Violence 20 (2008): 415–433.
+16. Clark McCauley, ‘‘Terrorism Research and Public Policy: An Overview,’’Journal of
+Terrorism and Political Violence 3 (1991): 126–144.
+17. McCauley and Moskalenko (see note 15 above).
+18. Anat Kurz and Ariel Merari, Asala: Irrational terror or political tool (Jerusalem:
+Jerusalem Post=Westview Press, 1985).
+19. Martin Fishbein and Icek Ajzen, Belief, attitude, intention, and behavior: An introduc-
+tion to theory and research (Reading, MA: Addison-Wesley, 1975).
+20. Icak Ajzen and Martin Fishbein, Understanding attitudes and predicting social beha-
+vior (Englewood Cliffs, NJ: Prentice Hall, 1980).
+21. Icek Ajzen, ‘‘From intentions to actions: A theory of planned behavior,’’ in J. Kuhl &
+J. Beckmann, eds., Action control: From cognition to behavior (New York: Springer-Verlag,
+1985), 11–39.
+22. Paschal Sheeran, Sheina Orbell and David Trafimow, ‘‘Does the Temporal Stability
+of Behavioral Intentions Moderate Intention-Behavior and Past Behavior-Future Behavior
+Relations?’’ Personality and Social Psychology Bulletin 25 (1999): 724–732.
+23. David R. Black and Austin S. Babrow, ‘‘Identification of campaign recruitment stra-
+tegies for a stepped smoking cessation intervention for a college campus,’’ Health Education
+Quarterly 18 (1991): 235–247.
+24. Jennifer Boldero, S. Moore and D. Rosenthal, ‘‘Intention, context, and safe sex:
+Australian adolescents’ responses to aids,’’ Journal of Applied Social Psychology 22 (1992):
+1374–1396.
+25. Deanne Parker, ‘‘Intention to commit driving violations: An application of the theory
+of planned behavior,’’ Journal of Applied Psychology 77 (1992): 94–101.
+26. Shu Fai Cheung, Darius K-S. Chan, and Zoe S.-Y. Wong, ‘‘Re-examining the theory
+of planned behavior in understanding wastepaper recycling,’’ Environment and Behavior 31
+(1999): 587–612.
+27. Jennifer Boldero, ‘‘The prediction of household recycling of newspapers: The role of
+attitudes, intentions, and situational factors,’’ Journal of Applied Social Psychology 25 (1995):
+440–462.
+28. Ibid.
+29. Black and Babrow (see note 23 above).
+30. Kay Deaux, Ann Reid, Daniella Martin, and Nida Bikmen, ‘‘Ideologies of diversity
+and inequality: predicting collective action in groups varying in ethnicity and immigrant
+status,’’ Political Psychology 27 (2006): 123–146.
+258 S. Moskalenko and C. McCauley
+31. Richard N. Lalonde and James E. Cameron, ‘‘An intergroup perspective on immi-
+grant acculturation with a focus on collective strategies,’’ International Journal of Psychology
+28 (1993): 57–74.
+32. Mindy D. Foster and Kimberly Matheson, ‘‘Double relative deprivation: Combining
+the personal and political,’’ Personality and Social Psychology Bulletin 21 (1995): 1167–1177.
+33. Joe N. Rollins and Harry N. Hirsch, ‘‘Sexual Identities and Political Engagements: A
+Queer Survey,’’ Social Politics: International Studies in Gender, State and Society 10 (2003):
+290–313.
+34. Corning and Myers (see note 13 above).
+35. Ibid.
+36. Clark McCauley, ‘‘The psychology of group identification and the power of ethnic
+nationalism,’’ in Daniel Chirot and Martin Seligman, eds., Ethnopolitical warfare: causes,
+consequences, and possible solutions (Washington, DC: APA Books, 2001), 343–362.
+37. Robert J. Fisher and Kirk Wakefield, ‘‘Factors leading to group identification: A
+field study of winners and losers,’’ Psychology and Marketing 15 (1998): 23–40.
+38. Eithel M. Simpson, Thelma Snuggs, Tim Christiansen, and Kelli E. Simples, ‘‘Race,
+homophily, and purchase intentions and the Black consumer,’’ Psychology and Marketing 17
+(2000): 877–889.
+39. Jameth Griffith, ‘‘Multilevel analysis of cohesion’s relation to stress, well-being, iden-
+tification, disintegration, and perceived combat readiness,’’ Military Psychology 14 (2002):
+217–239.
+40. John Eighmey, ‘‘Why do youth enlist? Identification of underlying themes,’’ Armed
+Forces and Society, 32 (2006): 307–328.
+41. Sophia Moskalenko, Clark R. McCauley and Paul Rozin, ‘‘Group identification
+under conditions of threat: college students’ attachment to country, family, ethnicity, religion
+and college before and after September 11, 2001,’’ Political Psychology 2 (2006): 77–98.
+42. Robert B. Cialdini, Alan Levy, Peter Herman, Lynn T. Koslowski, and Richard E.
+Petty, ‘‘Elastic shifts of opinion: Determinants of direction and durability,’’ Journal of Person-
+ality and Social Psychology 34 (1976): 663–672.
+43. Robert B. Cialdini and Kenneth D. Richardson, ‘‘Two indirect tactics of image
+management: Basking and Blasting,’’ Journal of Personality and Social Psychology 39
+(1980): 406–415.
+44. Robert B. Cialdini and Maralou E. De Nicholas, ‘‘Self-presentation by association,’’
+Journal of Personality and Social Psychology 57 (1989): 626–631.
+45. Jeff Greenberg, Tom Pyszczynski, and Sheldon Solomon, ‘‘The Causes and Conse-
+quences of a Need for Self-Esteem: A Terror Management Theory,’’ in Roy F. Baumeister,
+ed., Public Self and Private Self (New York: Springer-Verlag, 1986).
+46. Barbara A. Mullin and Michael A. Hogg, ‘‘Dimensions of subjective uncertainty in
+social identification and minimal group discrimination,’’ British Journal of Social Psychology
+37 (1998): 345–365.
+47. Michael A. Hogg and Barbara A. Mullin, ‘‘Joining Groups to Reduce Uncertainty:
+Subjective Uncertainty Reduction and Group Identification,’’ in Dominic Abrams and
+Michael A. Hogg, eds., Social Identity and Social Cognition (Blackwell, 1999).
+48. Charles Tilly, From Mobilization to Revolution (Reading, MA: Addison-Wesley,
+1978).
+49. Doug McAdam, Sidney Tarrow, and Charles Tilly, Dynamics of Contention
+(Cambridge, UK: Cambridge University Press, 2001).
+50. William A. Gamson, The strategy of social protest (Homewood, IL: Dorsey, 1975).
+51. Ibid. (p. 58).
+52. Moskalenko et al. (see note 41 above).
+53. Richard W. Robins, Holly M. Hendin, and Kali H. Trzesniewski, ‘‘Measuring global
+self-esteem: Construct validation of a single-item measure and the Rosenberg Self-Esteem
+Scale,’’ Personality and Social Psychology Bulletin 27 (2001): 151–161.
+54. Moskalenko et al. (see note 41 above).
+55. Robins et al. (see note 53 above).
+56. Eric Hoffer, The True Believer (New York: Harper and Row, 1951).
+57. John Sabini, Social Psychology (New York: Norton & Co, 1992).
+Activism-Radicalism Intention Scales 259
+58. Donatella Della Porta, Social movements, political violence, and the state: A compara-
+tive analysis of Italy and Germany (Cambridge, England: Cambridge University Press, 1995).
+59. Harry C. Triandis, Interpersonal behavior (Monterey, CA: Brooks=Cole, 1977).
+60. Darryl J. Bem,. ‘‘Self-perception theory,’’ in Leon Berkowitz, ed., Advances in Experi-
+mental Social Psychology, Vol. 6 (New York: Academic Press, 1972), 1–62.
+61. Robert B. Cialdini and David A. Schroeder, ‘‘Increasing contributions by legitimizing
+paltry contributions,’’ Journal of Personality and Social Psychology 34 (1976): 599–604.
+62. Elliott Aronson and Judson Mills, ‘‘The effect of severity of initiation on liking for a
+group,’’ Journal of Abnormal and Social Psychology 59 (1959): 177–181.
+63. Eamonn Ferguson and Peter I. Bibby, ‘‘Predicting future blood donor returns: Past
+behavior, intentions, and observer effects,’’ Health Psychology 21 (2002): 513–518.
+64. Judith A. Ouellette and Wendy Wood, ‘‘Habit and intention in everyday life: The
+multiple processes by which past behavior predicts future behavior,’’ Psychological Bulletin
+124 (1998): 54–74.
+65. Corning and Myers (see note 13 above).
+66. Ouellette and Wood (see note 64 above).
+67. Ferguson and Bibby (see note 63 above).
+68. Corning and Myers (see note 13 above).
+69. Deaux et al. (see note 30 above).
+70. Foster and Matheson (see note 32 above).
+71. Rollins and Hirsch (see note 33 above).
+72. Gamson (see note 50 above).
+73. Elliot (see note 6 above).
+74. Baran (see note 7 above).
+75. Ministerie van Binnenlandse Zaken en Koninkrijksrelaties, ‘‘From dawa to jihad - the
+various threats from radical Islam to the democratic legal order,’’ (translated from Dutch).
+Publications (2007). Retrieved 1=24=08 from http://www.minbzk.nl/bzk2006uk/subjects/
+public-safety/publications?ActI.
+76. MI5 Security Service, ‘‘Countering International Terrorism: Tackling Radicalization,’’
+(2007). Retrieved 1=24=08 from http://www.mi5.gov.uk/output/Page31.html.
+77. Ronald A. Francisco, ‘‘After the Massacre: Mobilization in the Wake of Harsh
+Repression,’’ Mobilization: An International Quarterly 9 (2004): 107–126.
+78. Karen Rasler, ‘‘Concessions, Repression, and Political Protest in the Iranian Revolu-
+tion,’’ American Sociological Review 61 (1996): 132–152.
+79. Della Porta (see note 58 above).
+80. ICM, ‘‘Muslims Poll July 2005’’ (2005). Retrieved March 5, 2006, from http://
+www.icmresearch.co.uk/reviews/2005/Guardian%20%20muslims%20july05/Guardian%
+20Muslims%20jul05.asp
+260 S. Moskalenko and C. McCauley

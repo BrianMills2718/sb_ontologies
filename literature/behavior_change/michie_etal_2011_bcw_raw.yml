@@ -1,0 +1,374 @@
+citation: "Michie, S., van Stralen, M. M., & West, R. (2011). The behaviour change wheel: A new method for characterising and designing behaviour change interventions. Implementation Science, 6(1), Article 42."
+
+annotation: "Presents the Behaviour Change Wheel (BCW) framework comprising the COM-B system (Capability, Opportunity, Motivation-Behavior) at the hub, surrounded by nine intervention functions and seven policy categories for systematic behavior change intervention design."
+
+model_type: "property_graph"
+
+rationale: "The BCW represents a multi-layered system where behavioral components (COM-B) connect to intervention functions which connect to policy categories, forming a network of theoretical relationships, causal pathways, and systematic design processes best captured as interconnected nodes and edges."
+
+schema_blueprint:
+  title: "Behaviour Change Wheel Framework Schema"
+  description: "Comprehensive schema for the Behaviour Change Wheel framework including the COM-B behavioral system, intervention functions, policy categories, and systematic design methodology"
+  root_properties:
+    nodes:
+      description: "Behavioral components, intervention functions, policy categories, design processes, and theoretical constructs within the BCW framework"
+      item_type: "Entity"
+    edges:
+      description: "Relationships between behavioral components, linkages between intervention functions and behavior change mechanisms, policy-intervention connections, and systematic design pathways"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core COM-B System Components
+    - name: "capability"
+      category: "core-construct"
+      description: "Individual's psychological and physical capacity to engage in the activity concerned, including necessary knowledge and skills"
+      
+    - name: "physical-capability"
+      category: "core-construct"
+      description: "Physical capacity and skills necessary to perform the behavior"
+      subTypeOf: "capability"
+      
+    - name: "psychological-capability"
+      category: "core-construct"
+      description: "Capacity to engage in necessary thought processes including comprehension, reasoning, and cognitive skills"
+      subTypeOf: "capability"
+      
+    - name: "opportunity"
+      category: "core-construct"
+      description: "All factors outside the individual that make the behavior possible or prompt it"
+      
+    - name: "physical-opportunity"
+      category: "core-construct"
+      description: "Environmental factors that afford opportunities for behavior performance"
+      subTypeOf: "opportunity"
+      
+    - name: "social-opportunity"
+      category: "core-construct"
+      description: "Cultural milieu and social environment that dictates behavioral thinking, including language and concepts"
+      subTypeOf: "opportunity"
+      
+    - name: "motivation"
+      category: "core-construct"
+      description: "All brain processes that energize and direct behavior, including goals, conscious decision-making, habitual processes, and emotional responding"
+      
+    - name: "reflective-motivation"
+      category: "core-construct"
+      description: "Motivation involving evaluations, plans, conscious decision-making, and analytical processes"
+      subTypeOf: "motivation"
+      
+    - name: "automatic-motivation"
+      category: "core-construct"
+      description: "Motivation involving emotions, impulses, habits, and processes arising from associative learning or innate dispositions"
+      subTypeOf: "motivation"
+      
+    - name: "behavior"
+      category: "core-construct"
+      description: "Target behavior that emerges from the interaction of capability, opportunity, and motivation"
+      
+    - name: "behavior-system"
+      category: "theoretical-framework"
+      description: "Interactive system where capability, opportunity, and motivation generate behavior which in turn influences these components"
+      
+    # Intervention Functions
+    - name: "education"
+      category: "intervention-function"
+      description: "Increasing knowledge or understanding by imparting knowledge and developing understanding"
+      
+    - name: "persuasion"
+      category: "intervention-function"
+      description: "Using communication to induce positive or negative feelings or stimulate action through reasoning, argument, or inducement"
+      
+    - name: "incentivisation"
+      category: "intervention-function"
+      description: "Creating expectation of reward to motivate behavior change"
+      
+    - name: "coercion"
+      category: "intervention-function"
+      description: "Creating expectation of punishment or cost to deter unwanted behavior"
+      
+    - name: "training"
+      category: "intervention-function"
+      description: "Imparting skills through repeated practice and feedback to develop competence"
+      
+    - name: "restriction"
+      category: "intervention-function"
+      description: "Using rules to reduce opportunity to engage in target behavior"
+      
+    - name: "environmental-restructuring"
+      category: "intervention-function"
+      description: "Changing physical or social context to facilitate desired behavior or hinder undesired behavior"
+      
+    - name: "modelling"
+      category: "intervention-function"
+      description: "Providing example for people to aspire to or imitate through demonstration of behavior"
+      
+    - name: "enablement"
+      category: "intervention-function"
+      description: "Increasing means or reducing barriers to enable or facilitate behavior through behavioral support, pharmacological interventions, or other encompassing approaches"
+      
+    # Policy Categories
+    - name: "communication-marketing"
+      category: "policy-category"
+      description: "Using print, electronic, telephonic, or broadcast media to communicate information and promote behavior change"
+      
+    - name: "guidelines"
+      category: "policy-category"
+      description: "Creating documents that recommend or mandate practice including protocols and standards"
+      
+    - name: "fiscal-measures"
+      category: "policy-category"
+      description: "Using taxation, subsidies, or other financial methods to influence behavior"
+      
+    - name: "regulation"
+      category: "policy-category"
+      description: "Establishing rules or principles of behavior or practice through non-legislative means"
+      
+    - name: "legislation"
+      category: "policy-category"
+      description: "Making or changing laws to influence behavior"
+      
+    - name: "environmental-social-planning"
+      category: "policy-category"
+      description: "Designing and controlling physical or social environments to promote desired behaviors"
+      
+    - name: "service-provision"
+      category: "policy-category"
+      description: "Delivering services to enable behavior change"
+      
+    # Framework Components and Processes
+    - name: "behavior-change-wheel"
+      category: "theoretical-framework"
+      description: "Three-layer framework with behavior system at hub, surrounded by intervention functions, then policy categories"
+      
+    - name: "intervention-design-process"
+      category: "design-process"
+      description: "Systematic method for designing behavior change interventions using BCW framework"
+      
+    - name: "behavior-analysis"
+      category: "design-process"
+      description: "Analysis of target behavior using COM-B system to identify what needs to change"
+      
+    - name: "intervention-selection"
+      category: "design-process"
+      description: "Selection of appropriate intervention functions based on behavior analysis"
+      
+    - name: "policy-selection"
+      category: "design-process"
+      description: "Selection of policy categories to enable and support chosen intervention functions"
+      
+    # Evaluation Criteria
+    - name: "comprehensiveness"
+      category: "evaluation-criterion"
+      description: "Framework criterion requiring coverage of every intervention that has been or could be developed"
+      
+    - name: "coherence"
+      category: "evaluation-criterion"
+      description: "Framework criterion requiring categories to be exemplars of same type and specificity of entity"
+      
+    - name: "behavioral-linkage"
+      category: "evaluation-criterion"
+      description: "Framework criterion requiring links to an overarching model of behavior"
+      
+    # Behavior Change Mechanisms
+    - name: "behavior-change-technique"
+      category: "intervention-component"
+      description: "Specific, fine-grained techniques that comprise intervention functions"
+      
+    - name: "mechanism-of-action"
+      category: "process"
+      description: "Theoretical pathway through which intervention functions produce behavior change"
+      
+    - name: "target-behavior"
+      category: "intervention-target"
+      description: "Specific behavior pattern that intervention aims to change"
+      
+    - name: "behavioral-target"
+      category: "intervention-target"
+      description: "Specific behavioral outcome or goal of intervention"
+      
+    - name: "target-population"
+      category: "intervention-context"
+      description: "Population group for whom behavior change intervention is designed"
+      
+    - name: "intervention-context"
+      category: "intervention-context"
+      description: "Setting, circumstances, and environmental factors where intervention is delivered"
+      
+    # System Relationships and Dynamics
+    - name: "reciprocal-causation"
+      category: "relationship"
+      description: "Bidirectional influence between behavior and COM-B components"
+      domain: ["behavior", "capability", "opportunity", "motivation"]
+      range: ["behavior", "capability", "opportunity", "motivation"]
+      
+    - name: "component-interaction"
+      category: "relationship"
+      description: "Interactive relationships between capability, opportunity, and motivation components"
+      domain: ["capability", "opportunity", "motivation"]
+      range: ["capability", "opportunity", "motivation"]
+      
+    - name: "intervention-targets"
+      category: "relationship"
+      description: "Linkage between intervention functions and COM-B components they address"
+      domain: ["education", "persuasion", "incentivisation", "coercion", "training", "restriction", "environmental-restructuring", "modelling", "enablement"]
+      range: ["capability", "opportunity", "motivation"]
+      
+    - name: "policy-enables"
+      category: "relationship"
+      description: "Relationship where policy categories enable or support intervention functions"
+      domain: ["communication-marketing", "guidelines", "fiscal-measures", "regulation", "legislation", "environmental-social-planning", "service-provision"]
+      range: ["education", "persuasion", "incentivisation", "coercion", "training", "restriction", "environmental-restructuring", "modelling", "enablement"]
+      
+    - name: "generates"
+      category: "relationship"
+      description: "Causal relationship where COM-B components generate behavior"
+      domain: ["capability", "opportunity", "motivation"]
+      range: ["behavior"]
+      
+    - name: "influences"
+      category: "relationship"
+      description: "General influence relationship between framework components"
+      domain: ["capability", "opportunity", "motivation", "behavior", "intervention-function", "policy-category"]
+      range: ["capability", "opportunity", "motivation", "behavior"]
+      
+    # Design and Implementation Concepts
+    - name: "systematic-analysis"
+      category: "design-process"
+      description: "Comprehensive analysis of behavior using BCW framework components"
+      
+    - name: "intervention-characterization"
+      category: "design-process"
+      description: "Classification and description of interventions using BCW categories"
+      
+    - name: "evidence-based-design"
+      category: "design-process"
+      description: "Intervention design based on theoretical understanding and empirical evidence"
+      
+    - name: "implementation-strategy"
+      category: "design-process"
+      description: "Plan for putting behavior change interventions into practice"
+      
+    - name: "intervention-effectiveness"
+      category: "measurement-concept"
+      description: "Degree to which intervention achieves intended behavior change outcomes"
+      
+    - name: "reliability"
+      category: "measurement-concept"
+      description: "Consistency with which framework can be applied to characterize interventions"
+      
+    - name: "inter-rater-agreement"
+      category: "measurement-concept"
+      description: "Level of agreement between different raters using the framework"
+      
+    # Theoretical Foundations
+    - name: "volitional-behavior"
+      category: "theoretical-construct"
+      description: "Behavior that involves conscious choice and intention"
+      
+    - name: "non-volitional-behavior"
+      category: "theoretical-construct"
+      description: "Behavior involving automatic, habitual, or unconscious processes"
+      
+    - name: "behavioral-determinant"
+      category: "theoretical-construct"
+      description: "Factor that determines or influences behavioral outcomes"
+      
+    - name: "motivational-system"
+      category: "theoretical-construct"
+      description: "System of brain processes that energize and direct behavior"
+      
+    - name: "environmental-factor"
+      category: "theoretical-construct"
+      description: "External factor that influences behavior performance"
+      
+    - name: "individual-factor"
+      category: "theoretical-construct"
+      description: "Internal factor within individual that influences behavior"
+      
+    # Application Domains
+    - name: "public-health"
+      category: "application-domain"
+      description: "Domain of applying BCW to population health behavior change"
+      
+    - name: "clinical-practice"
+      category: "application-domain"
+      description: "Domain of applying BCW to healthcare provider behavior change"
+      
+    - name: "health-promotion"
+      category: "application-domain"
+      description: "Domain of applying BCW to promote healthy behaviors"
+      
+    - name: "implementation-science"
+      category: "application-domain"
+      description: "Domain of applying BCW to implement evidence-based practices"
+      
+    - name: "tobacco-control"
+      category: "application-domain"
+      description: "Specific application domain for smoking cessation and tobacco use prevention"
+      
+    - name: "obesity-prevention"
+      category: "application-domain"
+      description: "Specific application domain for weight management and obesity reduction"
+
+  json_schema:
+    capability_types:
+      - "physical-capability"
+      - "psychological-capability"
+    
+    opportunity_types:
+      - "physical-opportunity"
+      - "social-opportunity"
+    
+    motivation_types:
+      - "reflective-motivation"
+      - "automatic-motivation"
+    
+    intervention_functions:
+      - "education"
+      - "persuasion"
+      - "incentivisation"
+      - "coercion"
+      - "training"
+      - "restriction"
+      - "environmental-restructuring"
+      - "modelling"
+      - "enablement"
+    
+    policy_categories:
+      - "communication-marketing"
+      - "guidelines"
+      - "fiscal-measures"
+      - "regulation"
+      - "legislation"
+      - "environmental-social-planning"
+      - "service-provision"
+    
+    evaluation_criteria:
+      - "comprehensiveness"
+      - "coherence"
+      - "behavioral-linkage"
+    
+    design_processes:
+      - "behavior-analysis"
+      - "intervention-selection"
+      - "policy-selection"
+      - "systematic-analysis"
+      - "intervention-characterization"
+      - "evidence-based-design"
+      - "implementation-strategy"
+    
+    relationships:
+      - "reciprocal-causation"
+      - "component-interaction"
+      - "intervention-targets"
+      - "policy-enables"
+      - "generates"
+      - "influences"
+    
+    application_domains:
+      - "public-health"
+      - "clinical-practice"
+      - "health-promotion"
+      - "implementation-science"
+      - "tobacco-control"
+      - "obesity-prevention"

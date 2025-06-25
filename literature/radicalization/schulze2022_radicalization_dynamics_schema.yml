@@ -1,0 +1,454 @@
+citation: "Schulze, H., Hohner, J., Greipl, S., Girgnhuber, M., Desta, I., & Rieger, D. (2022). Far-right conspiracy groups on fringe platforms: a longitudinal analysis of radicalization dynamics on Telegram. Convergence, 28(4), 1103-1126."
+
+annotation: "Longitudinal study examining radicalization dynamics in far-right movements on Telegram through quantitative content analysis of conspiracy narratives, anti-elitism, political activism, and violence indicators across QAnon, Identitarian Movement, and Querdenken channels from March 2020 to February 2021."
+
+model_type: "property_graph"
+
+rationale: "Property graph model is most appropriate as this study examines radicalization as a dynamic process involving relationships between actors (movements, platforms, elites), concepts (conspiracy narratives, ideologies), behaviors (activism, violence), and temporal patterns. The theoretical framework maps complex interactions between psychological factors, platform affordances, communication behaviors, and radicalization outcomes that are best represented as interconnected nodes and edges."
+
+schema_blueprint:
+  title: "Radicalization Dynamics in Far-Right Fringe Platform Communication"
+  description: "Schema modeling radicalization processes, indicators, and dynamics in far-right online discourse through longitudinal analysis of conspiracy narratives, anti-elitism, political activism, and violence on fringe platforms"
+  
+  root_properties:
+    nodes:
+      description: "Represents movements, platforms, actors, concepts, behaviors, indicators, and temporal periods in the radicalization ecosystem"
+      item_type: "Entity"
+    edges:
+      description: "Represents relationships, processes, influences, trends, and dynamics between radicalization elements"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Theoretical Constructs
+    - name: "radicalization"
+      category: "core-construct"
+      description: "The increasing challenge to the legitimacy of a normative order and/or the increasing willingness to fight the institutional structure of this order"
+      
+    - name: "radicalization-dynamics"
+      category: "core-construct"
+      description: "Relative changes within indicators of online radicalization that capture the complexity of different types of processes involved in radicalization"
+      
+    - name: "online-radicalization"
+      category: "core-construct"
+      description: "Complex reciprocal process that unfolds from a mixture of online and offline communication and interactions in digital environments"
+      
+    - name: "conspiracy-mentality"
+      category: "core-construct"
+      description: "Individual tendency to perceive the world as a place full of conspiracies, leading to higher distrust in democracy and support for violence"
+      
+    - name: "anti-elitism"
+      category: "core-construct"
+      description: "Expression of criticism and discontent toward actors perceived to be part of the elite, challenging legitimacy of normative order"
+      
+    - name: "political-activism"
+      category: "core-construct"
+      description: "Calls for and expressions of political participation and activism as expression of willingness to fight institutional structures"
+      
+    - name: "violence-support"
+      category: "core-construct"
+      description: "Expressions of support for violence as strongest manifestation of radicalization dynamics and extremist tendencies"
+      
+    # Movement Types
+    - name: "far-right-movement"
+      category: "actor-type"
+      description: "Radical and extremist movements that view people and state as single entity and foreigners as threat to community"
+      
+    - name: "qanon"
+      category: "movement"
+      description: "Meta-conspiratorial narrative movement deeply rooted in variety of conspiracy narratives, evolved into extremist violent movement"
+      subTypeOf: "far-right-movement"
+      
+    - name: "identitarian-movement"
+      category: "movement"
+      description: "Far-right extremist movement fundamentally built on Great Replacement conspiracy narrative"
+      subTypeOf: "far-right-movement"
+      
+    - name: "querdenken"
+      category: "movement"
+      description: "Protest movement formed in reaction to COVID-19 regulations, allegedly radicalized to extremist movement throughout 2020"
+      subTypeOf: "far-right-movement"
+      
+    # Platform Types
+    - name: "fringe-platform"
+      category: "platform-type"
+      description: "Social media platforms built to facilitate extremist communication or used by radical actors, accepting limited reach for undisturbed discourse"
+      
+    - name: "telegram"
+      category: "platform"
+      description: "Instant messaging platform that became center of COVID-19 conspiracy narratives and far-right communication, facilitating radicalization dynamics"
+      subTypeOf: "fringe-platform"
+      
+    - name: "mainstream-platform"
+      category: "platform-type"
+      description: "Traditional large social media platforms with extensive moderation policies, contrasted with fringe platforms"
+      
+    # Conspiracy Types
+    - name: "conspiracy-narrative"
+      category: "content-type"
+      description: "Attempt to explain events on suspicion that institutions, groups, or individuals secretly cooperate to achieve insidious goals"
+      
+    - name: "general-conspiracy"
+      category: "conspiracy-type"
+      description: "Broad conspiracy narratives such as Flat Earth that are not specific to particular ideologies"
+      subTypeOf: "conspiracy-narrative"
+      
+    - name: "far-right-conspiracy"
+      category: "conspiracy-type"
+      description: "Conspiracy narratives specific to far-right ideology such as Great Replacement"
+      subTypeOf: "conspiracy-narrative"
+      
+    - name: "covid-conspiracy"
+      category: "conspiracy-type"
+      description: "Conspiracy narratives specifically related to COVID-19 pandemic such as vaccination chip implantation"
+      subTypeOf: "conspiracy-narrative"
+      
+    - name: "great-replacement"
+      category: "conspiracy-narrative"
+      description: "Conspiracy narrative claiming elites secretly plan to replace white population in Western countries with Muslims"
+      subTypeOf: "far-right-conspiracy"
+      
+    # Ideological Components
+    - name: "far-right-ideology"
+      category: "ideological-construct"
+      description: "Ideology characterized by authoritarianism, anti-democracy, nationalism, xenophobia, racism, and populism"
+      
+    - name: "authoritarianism"
+      category: "ideological-component"
+      description: "Defining property of right-wing extremism involving preference for authoritarian governance"
+      subTypeOf: "far-right-ideology"
+      
+    - name: "anti-democracy"
+      category: "ideological-component"
+      description: "Defining property of right-wing extremism involving opposition to democratic institutions"
+      subTypeOf: "far-right-ideology"
+      
+    - name: "nationalism"
+      category: "ideological-component"
+      description: "Defining property of right-wing extremism involving extreme national identity and superiority"
+      subTypeOf: "far-right-ideology"
+      
+    - name: "xenophobia"
+      category: "ideological-component"
+      description: "Accompanying characteristic of right-wing extremism involving fear and hatred of foreigners"
+      subTypeOf: "far-right-ideology"
+      
+    - name: "racism"
+      category: "ideological-component"
+      description: "Accompanying characteristic of right-wing extremism involving racial prejudice and discrimination"
+      subTypeOf: "far-right-ideology"
+      
+    - name: "populism"
+      category: "ideological-component"
+      description: "Accompanying characteristic of right-wing extremism involving people versus elite dichotomy"
+      subTypeOf: "far-right-ideology"
+      
+    # Elite Target Categories
+    - name: "elite-target"
+      category: "target-type"
+      description: "Groups targeted by anti-elite sentiment in radicalization discourse"
+      
+    - name: "political-elite"
+      category: "elite-target"
+      description: "Politicians, mainstream parties, and government officials targeted by anti-elite sentiment"
+      subTypeOf: "elite-target"
+      
+    - name: "media-elite"
+      category: "elite-target"
+      description: "Mainstream news media and public broadcasting system targeted by anti-elite sentiment"
+      subTypeOf: "elite-target"
+      
+    - name: "scientific-elite"
+      category: "elite-target"
+      description: "Scientists, universities, and research institutions targeted by anti-elite sentiment"
+      subTypeOf: "elite-target"
+      
+    - name: "corporate-elite"
+      category: "elite-target"
+      description: "Social media companies and corporations targeted by anti-elite sentiment"
+      subTypeOf: "elite-target"
+      
+    # Activism Types
+    - name: "online-activism"
+      category: "participation-type"
+      description: "Digital forms of political participation including social media engagement and fringe platform activity"
+      subTypeOf: "political-activism"
+      
+    - name: "offline-activism"
+      category: "participation-type"
+      description: "Physical forms of political participation including demonstrations and protests"
+      subTypeOf: "political-activism"
+      
+    - name: "demonstration-participation"
+      category: "offline-activity"
+      description: "Calls for participation in physical demonstrations and protests"
+      subTypeOf: "offline-activism"
+      
+    - name: "social-media-engagement"
+      category: "online-activity"
+      description: "Engagement with content on social media platforms as form of activism"
+      subTypeOf: "online-activism"
+      
+    - name: "fringe-platform-activity"
+      category: "online-activity"
+      description: "Activity on fringe platforms as form of online activism"
+      subTypeOf: "online-activism"
+      
+    # Violence Categories
+    - name: "violence-approval"
+      category: "violence-type"
+      description: "Explicit approval of violent actions as manifestation of extremist tendencies"
+      subTypeOf: "violence-support"
+      
+    - name: "violence-propensity"
+      category: "violence-type"
+      description: "Indication of propensity toward violent behavior"
+      subTypeOf: "violence-support"
+      
+    - name: "violence-call"
+      category: "violence-type"
+      description: "Explicit or implicit calls for violent action"
+      subTypeOf: "violence-support"
+      
+    - name: "armament-call"
+      category: "violence-type"
+      description: "Calls for armament as preparation for violence"
+      subTypeOf: "violence-support"
+      
+    - name: "violence-rejection"
+      category: "counter-violence"
+      description: "Expressions rejecting violent behavior, including personal demarcation and condemnation"
+      
+    # Measurement and Methods
+    - name: "longitudinal-analysis"
+      category: "measurement-method"
+      description: "Research design allowing for accounting of temporal dynamics in radicalization processes"
+      
+    - name: "content-analysis"
+      category: "measurement-method"
+      description: "Quantitative analysis method for systematically examining communication content"
+      
+    - name: "trend-analysis"
+      category: "measurement-method"
+      description: "Statistical analysis of changes over time using robust nonparametric difference-based estimators"
+      
+    - name: "intercoder-reliability"
+      category: "measurement-quality"
+      description: "Measure of agreement between coders in content analysis, assessed using Holsti coefficient"
+      
+    # Platform Affordances
+    - name: "platform-affordance"
+      category: "structural-feature"
+      description: "Technical and social features of platforms that may facilitate or constrain radicalization processes"
+      
+    - name: "anonymity"
+      category: "platform-affordance"
+      description: "Platform feature allowing anonymous communication that may promote radical thoughts"
+      
+    - name: "limited-moderation"
+      category: "platform-affordance"
+      description: "Lack of or flexible application of content moderation policies on fringe platforms"
+      
+    - name: "echo-chamber-effect"
+      category: "platform-affordance"
+      description: "Reinforcement of radical attitudes in homogeneous online environments"
+      
+    - name: "deplatforming"
+      category: "platform-process"
+      description: "Removal of accounts from mainstream platforms, leading to migration to fringe platforms"
+      
+    # Contextual Factors
+    - name: "societal-crisis"
+      category: "contextual-factor"
+      description: "Societal instability that creates fertile ground for radicalization and extremism"
+      
+    - name: "covid-pandemic"
+      category: "crisis-event"
+      description: "Global health crisis that amplified uncertainty, distrust, and provided context for radicalization"
+      subTypeOf: "societal-crisis"
+      
+    - name: "uncertainty"
+      category: "psychological-factor"
+      description: "Psychological state that increases receptivity to radical voices and conspiratorial thinking"
+      
+    - name: "existential-fear"
+      category: "psychological-factor"
+      description: "Deep-seated fear that makes individuals more susceptible to extremist narratives"
+      
+    - name: "loss-of-control"
+      category: "psychological-factor"
+      description: "Perceived lack of control that drives belief in conspiracy narratives as coping mechanism"
+      
+    # Communication Patterns
+    - name: "strategic-communication"
+      category: "communication-type"
+      description: "Deliberate communication strategies employed by extremist movements for mobilization and recruitment"
+      
+    - name: "propaganda-dissemination"
+      category: "communication-activity"
+      description: "Distribution of propaganda content through various platforms and channels"
+      subTypeOf: "strategic-communication"
+      
+    - name: "recruitment-activity"
+      category: "communication-activity"
+      description: "Efforts to recruit new activists and supporters to extremist movements"
+      subTypeOf: "strategic-communication"
+      
+    - name: "mobilization-call"
+      category: "communication-activity"
+      description: "Calls to action for offline activities and demonstrations"
+      subTypeOf: "strategic-communication"
+      
+    # Temporal Dynamics
+    - name: "temporal-trend"
+      category: "temporal-pattern"
+      description: "Statistical pattern of change over time in radicalization indicators"
+      
+    - name: "linear-trend"
+      category: "temporal-pattern"
+      description: "Consistent directional change over time in radicalization indicators"
+      subTypeOf: "temporal-trend"
+      
+    - name: "non-linear-trend"
+      category: "temporal-pattern"
+      description: "Volatile or non-monotonic pattern of change indicating complexity in radicalization dynamics"
+      subTypeOf: "temporal-trend"
+      
+    - name: "increasing-prevalence"
+      category: "change-pattern"
+      description: "Significant positive trend indicating growth in radicalization indicators over time"
+      
+    # Processes and Relationships
+    - name: "amplifies"
+      category: "relationship"
+      description: "Process by which one factor increases the intensity or effect of another"
+      domain: ["societal-crisis", "conspiracy-narrative", "platform-affordance"]
+      range: ["radicalization-dynamics", "uncertainty", "extremist-communication"]
+      
+    - name: "facilitates"
+      category: "relationship"
+      description: "Process by which structural features enable or support radicalization processes"
+      domain: ["fringe-platform", "platform-affordance"]
+      range: ["radicalization-dynamics", "extremist-communication"]
+      
+    - name: "indicates"
+      category: "relationship"
+      description: "Relationship where one element serves as evidence or signal of another"
+      domain: ["conspiracy-narrative", "anti-elitism", "political-activism", "violence-support"]
+      range: ["radicalization-dynamics"]
+      
+    - name: "increases-over-time"
+      category: "temporal-relationship"
+      description: "Relationship showing growth or escalation in radicalization indicators"
+      domain: ["conspiracy-narrative", "anti-elitism", "political-activism", "violence-support"]
+      range: ["temporal-trend"]
+      
+    - name: "challenges"
+      category: "relationship"
+      description: "Process by which radicalization elements oppose or undermine normative order"
+      domain: ["anti-elitism", "conspiracy-narrative"]
+      range: ["normative-order", "democratic-institutions"]
+      
+    - name: "mobilizes"
+      category: "relationship"
+      description: "Process of activating and organizing supporters for political action"
+      domain: ["political-activism", "strategic-communication"]
+      range: ["offline-activism", "demonstration-participation"]
+      
+    - name: "migrates-to"
+      category: "platform-relationship"
+      description: "Movement of actors from mainstream to fringe platforms following deplatforming"
+      domain: ["far-right-movement"]
+      range: ["fringe-platform"]
+      
+    - name: "correlates-with"
+      category: "statistical-relationship"
+      description: "Statistical association between variables in radicalization analysis"
+      domain: ["conspiracy-mentality", "violence-support"]
+      range: ["anti-democratic-sentiment", "extremist-behavior"]
+
+  json_schema:
+    type: "object"
+    properties:
+      radicalization_indicators:
+        type: "array"
+        items:
+          type: "string"
+          enum: ["conspiracy-narratives", "anti-elitism", "political-activism", "violence-support"]
+      
+      conspiracy_categories:
+        type: "array"
+        items:
+          type: "string"
+          enum: ["general-conspiracy", "far-right-conspiracy", "covid-conspiracy"]
+      
+      far_right_movements:
+        type: "array"
+        items:
+          type: "string"
+          enum: ["qanon", "identitarian-movement", "querdenken"]
+      
+      platform_types:
+        type: "array"
+        items:
+          type: "string"
+          enum: ["fringe-platform", "mainstream-platform", "telegram"]
+      
+      ideological_components:
+        type: "array"
+        items:
+          type: "string"
+          enum: ["authoritarianism", "anti-democracy", "nationalism", "xenophobia", "racism", "populism"]
+      
+      elite_targets:
+        type: "array"
+        items:
+          type: "string"
+          enum: ["political-elite", "media-elite", "scientific-elite", "corporate-elite"]
+      
+      activism_types:
+        type: "array"
+        items:
+          type: "string"
+          enum: ["online-activism", "offline-activism", "demonstration-participation", "social-media-engagement"]
+      
+      violence_categories:
+        type: "array"
+        items:
+          type: "string"
+          enum: ["violence-approval", "violence-propensity", "violence-call", "armament-call", "violence-rejection"]
+      
+      temporal_patterns:
+        type: "array"
+        items:
+          type: "string"
+          enum: ["linear-trend", "non-linear-trend", "increasing-prevalence", "volatile-pattern"]
+      
+      measurement_methods:
+        type: "array"
+        items:
+          type: "string"
+          enum: ["longitudinal-analysis", "content-analysis", "trend-analysis", "intercoder-reliability"]
+      
+      platform_affordances:
+        type: "array"
+        items:
+          type: "string"
+          enum: ["anonymity", "limited-moderation", "echo-chamber-effect", "deplatforming"]
+      
+      psychological_factors:
+        type: "array"
+        items:
+          type: "string"
+          enum: ["uncertainty", "existential-fear", "loss-of-control", "conspiracy-mentality"]
+      
+      communication_activities:
+        type: "array"
+        items:
+          type: "string"
+          enum: ["propaganda-dissemination", "recruitment-activity", "mobilization-call", "strategic-communication"]
+      
+      relationship_types:
+        type: "array"
+        items:
+          type: "string"
+          enum: ["amplifies", "facilitates", "indicates", "increases-over-time", "challenges", "mobilizes", "migrates-to", "correlates-with"]

@@ -1,0 +1,364 @@
+citation: "Unconventional Weapons and Technology Division (UWT) of the National Consortium for the Study of Terrorism and Responses to Terrorism (START). (2022). Influence-to-Action Model Development: Model Development_Introduction_ModelDevelopment_FinalizedIAM_AppendixE. University of Maryland."
+
+annotation: "Development of the Influence-to-Action Model (I-AM) - a theoretically grounded framework for assessing the relative likelihood of impact of influence operations on target audiences, based on social movement theory and validated through case studies and surveys."
+
+model_type: "property_graph"
+
+rationale: "The I-AM represents a complex theoretical framework with interconnected components (individual/internal factors, societal/structural factors, delivery mechanisms, and triggers) that influence behavioral outcomes. A property graph model best captures the relationships between theoretical constructs, measurement variables, validation processes, and impact pathways, including the Influence-to-Action Chain Template (I-ACT) escalation pathway."
+
+schema_blueprint:
+  title: "Influence-to-Action Model Development Schema"
+  description: "Schema modeling the development, validation, and application of the Influence-to-Action Model (I-AM) for assessing influence operation effectiveness"
+  
+  root_properties:
+    nodes:
+      description: "Theoretical constructs, model variables, validation methods, measurement approaches, and assessment tools in the I-AM framework"
+      item_type: "Entity"
+    edges:
+      description: "Relationships between model components, validation processes, theoretical foundations, and impact pathways"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Model Framework
+    - name: "influence-to-action-model"
+      category: "core-construct"
+      description: "Theoretically grounded model to assess relative likelihood of impact of influence operations on target audiences compared to other operations"
+      
+    - name: "influence-operation"
+      category: "core-construct"
+      description: "Collection of tactical information about an adversary and dissemination of propaganda in pursuit of competitive advantage over an opponent"
+      
+    - name: "impact-of-influence-operation"
+      category: "measurement-concept"
+      description: "Degree to which an influence operation engenders behavioral changes in the form of action in the target audience"
+      
+    - name: "action-mobilization"
+      category: "behavioral-outcome"
+      description: "Outwardly observable act in direct/indirect response to influence conveyance tools, conceptualized on continuum from low-intensity online participation to high-intensity physical violence"
+      
+    - name: "target-audience"
+      category: "core-construct"
+      description: "Predetermined set of individuals or groups that influence operations are designed to impact"
+      
+    # Model Components (Initial Framework)
+    - name: "payload-component"
+      category: "model-component"
+      description: "Content designed to entice and elicit target audience to act, including variables relevant to threats and opportunities"
+      
+    - name: "delivery-system-component"
+      category: "model-component"
+      description: "Mechanism to deliver message content, including variables relevant to message acceptance and propagation"
+      
+    - name: "trigger-component"
+      category: "model-component"
+      description: "Control mechanism included in influence operation messages designed to stimulate target audience behavioral change"
+      
+    # Individual (Internal) Level Variables
+    - name: "emotional-appeal"
+      category: "individual-variable"
+      description: "Message attempts to appeal to emotions of target audience through familiar perspectives and relatable hardships"
+      
+    - name: "threat-to-identity"
+      category: "individual-variable"
+      description: "Message identifies explicit threats to commonly perceived/accepted identity of target audience"
+      
+    - name: "threat-to-culture"
+      category: "individual-variable"
+      description: "Message identifies explicit threats to commonly perceived/accepted culture or way of life of target audience"
+      
+    - name: "identity-affirmation"
+      category: "individual-variable"
+      description: "Message explicitly or implicitly states target audience is of certain identity and should be proud of that identity"
+      
+    - name: "victim-affirmation"
+      category: "individual-variable"
+      description: "Message states target audience is being victimized due to identity, social status, economic status, race, or ethnicity"
+      
+    - name: "victimization"
+      category: "individual-variable"
+      description: "Message states need to 'right the wrong' or 'fight against injustice', justifying actions against those who have made audience victims"
+      
+    # Societal (Structural) Level Variables
+    - name: "persistent-increasing-threat"
+      category: "societal-variable"
+      description: "Message conveys explicitly or implicitly stated threats are persistent and/or increasing over time"
+      
+    - name: "clear-alternative-future"
+      category: "societal-variable"
+      description: "Message explicitly identifies that taking action will create alternative future where threats diminish or are eliminated"
+      
+    - name: "purported-lack-of-response"
+      category: "societal-variable"
+      description: "Message explicitly identifies that no one is doing anything to stop and/or reverse threats against target audience"
+      
+    - name: "clearly-identified-in-out-group"
+      category: "societal-variable"
+      description: "Message clearly identifies exclusive in-group (target audience) and out-group culprits who can be blamed for threats"
+      
+    - name: "social-validation"
+      category: "societal-variable"
+      description: "Message explicitly states that doing something about identified injustice is correct, justified, and/or legitimate"
+      
+    # Delivery System Variables (Removed from Final Model)
+    - name: "intensity"
+      category: "delivery-variable"
+      description: "Forcefulness of message delivery - how forcefully and explicitly message conveys threats and opportunities"
+      
+    - name: "duration"
+      category: "delivery-variable"
+      description: "Length of time target audience stays to learn about message being delivered"
+      
+    - name: "frequency"
+      category: "delivery-variable"
+      description: "Length of time between release of new messages and/or between in-person meetings"
+      
+    - name: "delivery-method"
+      category: "delivery-variable"
+      description: "Types of delivery method employed (in-person, online synchronous/asynchronous, print media, etc.)"
+      
+    # Trigger Variables
+    - name: "call-to-action"
+      category: "trigger-variable"
+      description: "Explicit or implicit control mechanism included in influence operation messages designed to stimulate behavioral change"
+      
+    # Theoretical Foundations
+    - name: "social-movement-theory"
+      category: "theoretical-foundation"
+      description: "Interdisciplinary social science framework explaining why and how social mobilization occurs and their consequences"
+      
+    - name: "social-movement-diffusion"
+      category: "theoretical-foundation"
+      description: "Process by which social movements spread within and beyond boundaries through various mechanisms and tools"
+      
+    - name: "threat-in-social-movements"
+      category: "theoretical-foundation"
+      description: "Role of threats as catalysts to stimulate and diffuse social movement activities at micro and macro levels"
+      
+    - name: "political-process-theory"
+      category: "theoretical-foundation"
+      description: "Framework examining political opportunities and threats as motivations for individual and collective action"
+      
+    - name: "cognitive-dissonance-theory"
+      category: "psychological-theory"
+      description: "Psychological theory explaining discomfort from holding contradictory beliefs, values, or attitudes simultaneously"
+      
+    - name: "choice-certainty-theory"
+      category: "psychological-theory"
+      description: "Theory examining how certainty in decision-making affects information processing and behavior"
+      
+    - name: "signal-detection-theory"
+      category: "psychological-theory"
+      description: "Framework for understanding decision-making under uncertainty and distinguishing signal from noise"
+      
+    - name: "dual-process-theory"
+      category: "psychological-theory"
+      description: "Theory describing two distinct modes of information processing: automatic/intuitive vs. controlled/deliberative"
+      
+    - name: "mere-exposure-effect"
+      category: "psychological-theory"
+      description: "Psychological phenomenon where people develop preference for things merely because they are familiar with them"
+      
+    - name: "primacy-recency-effects"
+      category: "psychological-theory"
+      description: "Memory effects where people better remember information presented first (primacy) or last (recency)"
+      
+    # Information Types
+    - name: "misinformation"
+      category: "information-type"
+      description: "Wrong or misleading information that is usually intended to deliberately deceive, though intent is not central"
+      
+    - name: "disinformation"
+      category: "information-type"
+      description: "Dissemination of deliberately false information with intention of influencing policies or opinions of recipients"
+      
+    # Model Development Process
+    - name: "literature-review"
+      category: "methodology"
+      description: "Systematic review of psychology, sociology, marketing, and communications literature to extract relevant variables"
+      
+    - name: "case-study-validation"
+      category: "validation-method"
+      description: "Testing model against historical and present-day Chinese and Russian influence operations across different time periods"
+      
+    - name: "survey-validation"
+      category: "validation-method"
+      description: "Two surveys of U.S. adult population to determine relative importance and weights of model variables"
+      
+    - name: "model-refinement"
+      category: "methodology"
+      description: "Process of adjusting model components and variables based on validation results"
+      
+    # Assessment Tools
+    - name: "influence-to-action-chain-template"
+      category: "assessment-tool"
+      description: "Visual representation of how I-AM maps onto generalized influence-to-action escalation pathway"
+      
+    - name: "influence-to-action-impact-assessment-tool"
+      category: "assessment-tool"
+      description: "Tool to be developed with measurement metrics and variable weights for systematic analysis of influence operations"
+      
+    # Model Evolution
+    - name: "initial-model"
+      category: "model-version"
+      description: "Preliminary I-AM with three components (payload, delivery system, trigger) and 16 variables"
+      
+    - name: "finalized-model"
+      category: "model-version"
+      description: "Simplified I-AM with only individual and societal level factors, eliminating three initial components"
+      
+    # Variable Importance (From Survey Results)
+    - name: "high-impact-individual-variables"
+      category: "measurement-finding"
+      description: "Most important individual variables: victimization, identity affirmation, threat to culture"
+      
+    - name: "high-impact-societal-variables"
+      category: "measurement-finding"
+      description: "Most important societal variables: clear alternative future, clearly identified in/out group"
+      
+    - name: "demographic-consistency"
+      category: "measurement-finding"
+      description: "Variable weights remain consistent across different demographic groups despite some nuance"
+      
+    # Applications
+    - name: "systematic-analysis-framework"
+      category: "application"
+      description: "Framework enabling systematic analysis of ongoing foreign influence operations and assessment of likely impact"
+      
+    - name: "comparative-analysis-tool"
+      category: "application"
+      description: "Tool for comparing multiple foreign influence operations across time, space, and actors"
+      
+    - name: "analyst-methodology"
+      category: "application"
+      description: "Systematic methodology for analysis of influence operations across multiple media types and platforms"
+      
+    # Relationships
+    - name: "variable-correlation"
+      category: "relationship"
+      description: "Potential relationships among Identity Affirmation, Threat to Identity, and Emotional Appeal requiring further research"
+      
+    - name: "threatens"
+      category: "relationship"
+      description: "Relationship where one entity poses a threat to another"
+      
+    - name: "influences"
+      category: "relationship"
+      description: "Relationship where one entity affects or shapes another"
+      
+    - name: "validates"
+      category: "relationship"
+      description: "Relationship where one method or process confirms the validity of another"
+      
+    - name: "predicts"
+      category: "relationship"
+      description: "Relationship where one variable or model forecasts outcomes of another"
+      
+    - name: "escalates-to"
+      category: "relationship"
+      description: "Relationship showing progression from one level of action to another in escalation pathway"
+      
+    - name: "composed-of"
+      category: "relationship"
+      description: "Relationship showing component parts of a larger construct or model"
+      
+    - name: "grounded-in"
+      category: "relationship"
+      description: "Relationship showing theoretical foundation or basis for a construct or model"
+
+  json_schema:
+    relationships:
+      enum:
+        - "threatens"
+        - "influences"
+        - "validates"
+        - "predicts"
+        - "escalates-to"
+        - "composed-of"
+        - "grounded-in"
+        - "correlates-with"
+        - "measures"
+        - "targets"
+        - "delivers"
+        - "triggers"
+        - "affirms"
+        - "victimizes"
+        - "mobilizes"
+    
+    model_components:
+      enum:
+        - "payload-component"
+        - "delivery-system-component"
+        - "trigger-component"
+        - "individual-factors"
+        - "societal-factors"
+    
+    variable_types:
+      enum:
+        - "individual-variable"
+        - "societal-variable"
+        - "delivery-variable"
+        - "trigger-variable"
+    
+    theoretical_foundations:
+      enum:
+        - "social-movement-theory"
+        - "social-movement-diffusion"
+        - "threat-in-social-movements"
+        - "political-process-theory"
+        - "cognitive-dissonance-theory"
+        - "choice-certainty-theory"
+        - "signal-detection-theory"
+        - "dual-process-theory"
+        - "mere-exposure-effect"
+        - "primacy-recency-effects"
+    
+    validation_methods:
+      enum:
+        - "literature-review"
+        - "case-study-validation"
+        - "survey-validation"
+        - "model-refinement"
+    
+    assessment_tools:
+      enum:
+        - "influence-to-action-chain-template"
+        - "influence-to-action-impact-assessment-tool"
+        - "systematic-analysis-framework"
+        - "comparative-analysis-tool"
+        - "analyst-methodology"
+    
+    action_levels:
+      enum:
+        - "low-intensity-online"
+        - "moderate-offline-participation"
+        - "high-intensity-physical-violence"
+    
+    information_types:
+      enum:
+        - "misinformation"
+        - "disinformation"
+        - "propaganda"
+    
+    delivery_methods:
+      enum:
+        - "in-person"
+        - "online-synchronous"
+        - "online-asynchronous"
+        - "print-media"
+        - "social-media"
+        - "traditional-media"
+    
+    threat_levels:
+      enum:
+        - "micro-individual"
+        - "macro-structural"
+        - "persistent"
+        - "increasing"
+        - "immediate"
+    
+    model_versions:
+      enum:
+        - "initial-model"
+        - "finalized-model"
+        - "preliminary-framework"
+        - "validated-framework"

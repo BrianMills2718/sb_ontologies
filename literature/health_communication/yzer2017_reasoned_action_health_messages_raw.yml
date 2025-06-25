@@ -1,0 +1,265 @@
+citation: "Yzer, M. (2017). Reasoned Action As an Approach to Understanding and Predicting Health Message Outcomes. Oxford Research Encyclopedia of Communication. https://doi.org/10.1093/acrefore/9780190228613.013.255"
+
+annotation: "Comprehensive review of the reasoned action approach to understanding health message effects, tracing the theory's evolution from 1960s attitude-behavior research through four major formulations (theory of reasoned action, theory of planned behavior, integrative model, and current reasoned action approach) and explaining how the theory identifies optimal message content through belief-based behavioral processes."
+
+model_type: "property_graph"
+
+rationale: "The reasoned action approach represents a complex theoretical framework with multiple interconnected constructs, processes, and relationships. A property graph model best captures the hierarchical relationships between beliefs, attitudes, norms, control perceptions, intentions, and behaviors, as well as the feedback loops and moderating factors. The theory's emphasis on belief-based processes and the systematic relationships between psychological variables makes it ideal for network representation."
+
+schema_blueprint:
+  title: "Reasoned Action Approach for Health Message Outcomes Schema"
+  description: "Schema representing the reasoned action approach as applied to understanding and predicting health message effectiveness, including all theoretical constructs, measurement approaches, and belief-based behavioral processes."
+  
+  root_properties:
+    nodes:
+      description: "Theoretical constructs, psychological variables, message components, beliefs, and behavioral outcomes in the reasoned action framework"
+      item_type: "Entity"
+    edges:
+      description: "Relationships between constructs, causal pathways, measurement relationships, and process flows in the reasoned action approach"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Theoretical Constructs
+    - name: "behavioral-intention"
+      category: "core-construct"
+      description: "The probability that a person will perform a particular behavior; conceptualized as how probable people think it is that they will perform a specific behavior"
+      
+    - name: "attitude-toward-behavior"
+      category: "core-construct"
+      description: "Overall evaluation of performing a specific behavior, comprising both instrumental (wise/foolish) and experiential (pleasant/unpleasant) aspects"
+      
+    - name: "subjective-norm"
+      category: "core-construct"
+      description: "Perceived social pressure to perform or not perform a behavior, including both injunctive norms (approval/disapproval) and descriptive norms (what others do)"
+      
+    - name: "perceived-behavioral-control"
+      category: "core-construct"
+      description: "Perceived ease or difficulty of performing a behavior, comprising perceived capacity (ability) and perceived autonomy (personal control over decision)"
+      
+    - name: "behavioral-beliefs"
+      category: "belief-construct"
+      description: "Beliefs about the likelihood that performing a behavior will result in certain outcomes or consequences"
+      
+    - name: "normative-beliefs"
+      category: "belief-construct"
+      description: "Beliefs about whether specific individuals or groups approve or disapprove of performing the behavior"
+      
+    - name: "control-beliefs"
+      category: "belief-construct"
+      description: "Beliefs about the presence of factors that may facilitate or impede behavioral performance"
+      
+    # Dual Aspect Components
+    - name: "instrumental-attitude"
+      category: "attitude-component"
+      description: "Evaluation of behavior in terms of positive or negative attributes (e.g., harmful/beneficial, foolish/wise)"
+      
+    - name: "experiential-attitude"
+      category: "attitude-component" 
+      description: "Evaluation of behavior in terms of positive or negative experiences (e.g., pleasant/unpleasant, enjoyable/boring)"
+      
+    - name: "injunctive-norm"
+      category: "normative-component"
+      description: "Perceived social pressure regarding what one should or ought to do; approval or disapproval from important others"
+      
+    - name: "descriptive-norm"
+      category: "normative-component"
+      description: "Perceived prevalence of the behavior among relevant others; what most people actually do"
+      
+    - name: "perceived-capacity"
+      category: "control-component"
+      description: "Perceived ability to perform the behavior; confidence in one's capability to execute the behavior"
+      subTypeOf: "self-efficacy"
+      
+    - name: "perceived-autonomy"
+      category: "control-component"
+      description: "Perceived personal control over the decision to engage in the behavior; extent to which the decision is up to oneself"
+      
+    # Theory Evolution Components
+    - name: "theory-of-reasoned-action"
+      category: "theoretical-framework"
+      description: "Original formulation (1975) proposing behavior as function of intention, which is determined by attitude and subjective norm"
+      
+    - name: "theory-of-planned-behavior"
+      category: "theoretical-framework"
+      description: "Extension adding perceived behavioral control as third determinant of intention and direct predictor of behavior"
+      
+    - name: "integrative-model"
+      category: "theoretical-framework"
+      description: "Formulation distinguishing injunctive/descriptive norms, emphasizing skills and environmental barriers, and clarifying background factors"
+      
+    - name: "reasoned-action-approach"
+      category: "theoretical-framework"
+      description: "Current formulation with dual-aspect conceptualization of attitude, norms, and control"
+      
+    # Belief Formation and Change
+    - name: "belief-elicitation"
+      category: "research-method"
+      description: "Qualitative research method using open-ended questions to identify salient beliefs about a behavior in a population"
+      
+    - name: "outcome-evaluation"
+      category: "belief-component"
+      description: "Evaluation of behavioral consequences as positive or negative, good or bad"
+      
+    - name: "motivation-to-comply"
+      category: "belief-component"
+      description: "Extent to which person is motivated to comply with expectations of specific referent individuals or groups"
+      
+    - name: "power-belief"
+      category: "belief-component"
+      description: "Perceived influence of facilitating or inhibiting factors on behavioral performance"
+      
+    # Message Design and Content
+    - name: "message-strategy-development"
+      category: "message-design"
+      description: "Process of determining what should be conveyed in health messages based on understanding of health issue and target audience"
+      
+    - name: "message-creative-development"
+      category: "message-design"
+      description: "Process of determining how message content should be presented, including appeal, framing, source, and modality decisions"
+      
+    - name: "determinant-belief"
+      category: "message-content"
+      description: "Beliefs that most strongly correlate with behavioral intention and thus represent optimal targets for message content"
+      
+    - name: "belief-based-message"
+      category: "message-type"
+      description: "Health message designed to address specific beliefs that guide behavioral decisions"
+      
+    # Behavioral Specification
+    - name: "behavioral-definition"
+      category: "methodological-principle"
+      description: "Specification of behavior in terms of action, target, context, and time elements for precise measurement and intervention"
+      
+    - name: "correspondence-principle"
+      category: "methodological-principle"
+      description: "Requirement that all measures correspond to the same behavioral definition to maximize predictive accuracy"
+      
+    - name: "action-element"
+      category: "behavior-component"
+      description: "The specific action component of a behavioral definition (e.g., walking, exercising)"
+      
+    - name: "target-element"
+      category: "behavior-component"
+      description: "The target or object component of behavioral definition (e.g., two miles, five servings)"
+      
+    - name: "context-element"
+      category: "behavior-component"
+      description: "The situational context component of behavioral definition (e.g., at work, at home)"
+      
+    - name: "time-element"
+      category: "behavior-component"
+      description: "The temporal component of behavioral definition (e.g., daily, during lunch breaks)"
+      
+    # Background and External Factors
+    - name: "background-factors"
+      category: "external-influence"
+      description: "Variables that influence beliefs through learning processes, including demographic, cultural, personality, and media variables"
+      
+    - name: "environmental-barriers"
+      category: "implementation-factor"
+      description: "External obstacles that prevent acting on positive intentions to perform a behavior"
+      
+    - name: "required-skills"
+      category: "implementation-factor"
+      description: "Necessary abilities and competencies needed to translate intention into behavior"
+      
+    - name: "competing-information"
+      category: "contextual-factor"
+      description: "Alternative messages and information sources that may counteract health message effects"
+      
+    # Measurement and Analysis
+    - name: "semantic-differential-scale"
+      category: "measurement-method"
+      description: "Bipolar rating scale recommended for measuring attitudes, norms, and control perceptions"
+      
+    - name: "regression-analysis"
+      category: "analytical-method"
+      description: "Statistical method used to determine relative importance of attitude, norms, and control in predicting intention"
+      
+    - name: "mediation-analysis"
+      category: "analytical-method"
+      description: "Statistical approach to test belief effects on attitude/norms/control and subsequent effects on intention and behavior"
+      
+    - name: "belief-behavior-correlation"
+      category: "analytical-method"
+      description: "Statistical analysis to identify beliefs most strongly associated with behavioral intention"
+      
+    # Process and Relationship Types
+    - name: "belief-formation-process"
+      category: "process"
+      description: "Process by which specific beliefs learned over time inform generalized attitudes, norms, and control perceptions"
+      
+    - name: "intention-behavior-gap"
+      category: "process" 
+      description: "Phenomenon where positive behavioral intentions do not translate to actual behavior due to skills or environmental barriers"
+      
+    - name: "automatic-attitude-activation"
+      category: "process"
+      description: "Spontaneous retrieval of generalized attitude toward behavior without conscious review of specific beliefs"
+      
+    # Meta-theoretical Concepts
+    - name: "sufficiency-assumption"
+      category: "theoretical-principle"
+      description: "Proposition that attitude, norms, and control are sufficient to predict intention; additional variables should not improve prediction"
+      
+    - name: "reasoned-behavior-assumption"
+      category: "theoretical-principle"
+      description: "Proposition that behavior follows logically from beliefs, regardless of whether others deem those beliefs rational"
+      
+    - name: "proximal-determinant"
+      category: "theoretical-principle"
+      description: "Variables (attitude, norms, control, intention) that directly influence behavior in the causal chain"
+      
+    - name: "distal-determinant"
+      category: "theoretical-principle"
+      description: "Background variables that influence behavior indirectly through their effects on beliefs"
+
+  json_schema:
+    definitions:
+      NodeCategory:
+        enum:
+          - "core-construct"
+          - "belief-construct"
+          - "attitude-component"
+          - "normative-component"
+          - "control-component"
+          - "theoretical-framework"
+          - "research-method"
+          - "belief-component"
+          - "message-design"
+          - "message-content"
+          - "message-type"
+          - "methodological-principle"
+          - "behavior-component"
+          - "external-influence"
+          - "implementation-factor"
+          - "contextual-factor"
+          - "measurement-method"
+          - "analytical-method"
+          - "process"
+          - "theoretical-principle"
+          
+      RelationshipType:
+        enum:
+          - "determines"
+          - "influences"
+          - "mediates"
+          - "moderates"
+          - "correlates-with"
+          - "predicts"
+          - "facilitates"
+          - "inhibits"
+          - "comprises"
+          - "measures"
+          - "targets"
+          - "leads-to"
+          - "shapes"
+          - "informs"
+          - "addresses"
+          - "operationalizes"
+          - "specifies"
+          - "requires"
+          - "competes-with"
+          - "evolves-from"
+          - "extends"
+          - "builds-on"

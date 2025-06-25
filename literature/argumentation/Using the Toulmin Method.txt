@@ -1,0 +1,559 @@
+
+[Welcome to the WAC Clearinghouse]
+
+    Home
+    Books
+    Journals
+    Media
+    Repository
+    CompPile
+    TCBib
+    Community
+    News
+    About
+
+Powered by Google TranslateTranslate
+Support the Clearinghouse 
+
+    Home
+    Repository
+    Writing Resources
+    Writing Guides
+    Current Guide
+
+WAC Clearinghouse Writing Guide
+Using the Toulmin Method
+
+When learning written argument, it is always helpful to observe how others argue effectively or ineffectively. The Toulmin method, based on the work of philosopher Stephen Toulmin, is one way of analyzing a text that we read, with an eye toward responding to that particular argument (as in a writing assignment that asks us to respond) and, ultimately, toward analyzing and improving the arguments we ourselves make.
+Definition of the Toulmin Method
+
+Thorough analysis requires us to go beyond the kinds of "gut-level" responses we undergo when reading. To respond analytically to an argument is to do much more than state a basic agreement or disagreement with it; it is to determine the basis of our agreement or disagreement. In other words, analysis is a process of discovering how the argumentative strategies an author employs (the how and why levels of an argument) lead us to respond to the content (the what level) of that argument in the way that we do. Sometimes, too, such analysis can cause us to change our minds about our judgment of how effective or ineffective an argument is.
+
+The Toulmin method, in short, is an effective way of getting to the how and why levels of the arguments we read. It is a type of textual "dissection" that allows us to break an argument into its different parts (such as claim, reasons, and evidence) so that we can make judgments on how well the different parts work together.
+Why Use the Toulmin Method?
+
+The Toulmin Method is a way of doing very detailed analysis, in which we break an argument into its various parts and decide how effectively those parts participate in the overall whole. When we use this method, we identify the argument's claim, reasons, and evidence, and evaluate the effectiveness of each.
+
+However, it can be said that Toulmin works somewhat like a formula to be applied to arguments, and that as such it exhibits some limitations. It is often not very well applied, for example, to arguments that are not themselves organized in a linear way and written in the tradition of Western rhetoric. And, as Timothy Crusius and Carolyn E. Channell point out in The Aims of Argument, this method is limited to logical analysis, and therefore excludes other types of evaluation/analysis which are equally important (such as the Critical Reading strategies mentioned elsewhere in the Writing Center.) But Toulmin proves for many to be a good starting point.
+Parts of an Argument
+
+Using the Toulmin method requires that we take an argument apart and examine its various elements. This "dissection" allows us to understand the argument more fully, summarize it more accurately, and discuss its effectiveness or ineffectiveness more intelligently than we would have otherwise.
+
+It might be helpful to envision writing the parts of an argument like building a house of cards, in which you work backwards, beginning with the uppermost level (the claim). Each level is balanced precariously on the level beneath it. And in order for an argument to hold up under careful scrutiny, each level must be strong enough to support what is placed on top of it.
+The Claim
+
+Think of the claim in an argument as the most general statement in that argument. It may not be a particularly general statement all by itself, and some for arguments are very narrow indeed. But the claim is like the umbrella statement that all other parts of an argument have to fall under. It is the uppermost level of our "house of cards."
+
+After you have identified an argument's claim, it is important to determine how far the author intends to carry that claim. The next step in this process, in other words, is the identification of any qualifiers or exceptions the author makes to the argument's claim.
+Identifying Qualifiers
+
+Qualifiers are words like some, most, many, in general, usually, typically and so on--little words whose value to an argument is immeasurable.
+
+Example of a qualified claim:
+
+    Many books by Charles Dickens are fun to read.
+
+Example of an unqualified claim:
+
+    Books by Charles Dickens are fun to read.
+
+Without qualifying words like some or many, a claim like this can be interpreted (by the careful analytical eye) as All books by Charles Dickens are always fun for everyone to read.
+
+Although unqualified claims like these are not necessarily a bad argumentation strategy, they do allow ample room for challenges to be made to an argument. An appropriately qualified claim is much easier to defend.
+Identifying Exceptions
+
+Oftentimes, an author will specifically exclude from an argument certain cases or situations. Such exceptions serve to restrict a claim, so that it is understood to apply in some situations but not in others.
+
+A claim like
+
+    Most books by Charles Dickens are fun to read.
+
+might be limited by the following exception:
+
+    Having labored over David Copperfield in high school, I would not rank that book among them.
+
+Exceptions like this one are important, because without them, readers who would like to challenge a claim may begin to concoct exceptions of their own.
+Distinguishing Between Qualifiers and Exceptions
+
+Qualifiers and exceptions are similar in that they both put limits on how far a claim may be carried. A qualifier, however, is merely a word (like some or usually) which serves to limit a claim, while an exception is an e xample of a case or situation in which the claim does not apply.
+
+An example of a qualifier would be the word most in the following claim:
+
+    Most books by Charles Dickens are fun to read.
+
+An exception would be an example, usually appearing after the claim, of a situation in which that claim would not apply:
+
+    Having labored over David Copperfield in high school, I would not rank that book among them.
+
+The Reasons
+
+Why does a writer believe the claim s/he makes? The reasons a writer gives are the first line of development of any argument. To use our "house of cards" image again, reasons comprise the second level of an argument, without which the uppermost level (the claim) cannot remain balanced (or, in the language of argument, "effective").
+
+How can we tell if reasons are strong? In other words, how can we determine whether or not they are sturdy enough to support the claim? Using the Toulmin method, we ask two main questions: Is the reason relevant to the claim it supports? and Is the reason effective?
+Determining the Relevance of the Reasons
+
+In order to evaluate the effectiveness of reasons used in an argument, we must first determine whether or not they are relevant to the claim they mean to support.
+Determining the Effectiveness of the Reasons
+
+If a reason is effective (or "good"), it invokes a value we can believe in and agree with. Value judgments, because they are by necessity somewhat subjective, are often the most difficult to make in arguments. It is, therefore, always a good idea to restate the value being invoked as clearly as possible in your own terms. Then you'll be able to evaluate whether or not the value is good in itself or worth pursuing.
+
+If an argument's claim is
+
+    Argumentation is an important skill to learn,
+
+the reason,
+
+    No other type of writing requires a great deal of thought.
+
+is arguably not very effective, since many people would not agree with or value this idea. (Notice, too, how qualification might help this reason.) On the other hand, a reason like
+
+    If you look at writing assignments given in various disciplines of the university, you will find that many of them include elements that are related in some way to argument
+
+would be likely to give the impression of being effective (and supportable).
+The Evidence
+
+We would all probably like to believe that the people we argue with will accept our claims and reasons as perfect and complete by themselves, but most readers are unlikely to do that. They want evidence of some sort--facts, examples, statistics, expert testimony, among others--to back up our reasons. If this level of the house of cards is either unstable or absent, neither of the two levels it supports (the reasons and claim) can be effective.
+
+To be believable and convincing, evidence should satisfy three conditions. It should be sufficient, credible , and accurate.
+Determining the Sufficiency of Evidence
+
+As you look at the evidence supporting a reason, ask yourself if the author makes use of enough evidence to convince a reasonable reader.
+
+If one reason given in an argument is
+
+    If you look at writing assignments given in various disciplines of the university, you will find that many of them include elements that are related in some way to argument.
+
+An example from one Engineering assignment would most likely be insufficient, where several such examples would provide a more varied range of situations in which the stated reason holds true.
+Determining the Credibility of Evidence
+
+It is important to decide how credible (believable and authoritative) a piece of evidence is within an argument. As you look at the evidence supporting a reason, ask yourself whether or not this evidence matches with readers' experience of the world. If it doesn't, does the evidence come from a source that readers would accept as more knowledgeable or authoritative than they are?
+
+If one reason given in an argument is
+
+    On the university level, argument is valued by professors of various disciplines who say that they would like for their students to be able to take a strong position and support it with ample reasons and evidence, statistics taken from The National Inquirer and given in support of this reason will typically be much less credible than ones taken from The Journal of Higher Education.
+
+Determining the Accuracy of Evidence
+
+As you look at the evidence supporting a reason, ask yourself if this evidence "tells the truth." Are statistics gathered in verifiable ways from good sources? Are the quotations complete and fair (not out of context)? Are the facts verifiable from other sources?
+
+Sometimes it is difficult to determine accuracy without having the writer's sources in front of you, but there are oftentimes cases in which you will be suspicious of a piece of evidence for one reason or another.
+
+If, in support of a reason like
+
+    College students are very enthusiastic about learning argumentation skills
+
+a writer uses this piece of evidence:
+
+    In a survey conducted in my residence hall, 92% of the respondents asserted that they enjoyed writing arguments more than any other activity listed on the questionnaire,
+
+you might be led to ask questions like "Who conducted this survey?" "Who were these respondents?" or "What were the other activities listed on the questionnaire?"
+Anticipated Objections and Rebuttal
+
+When we analyze an argument using the Toulmin method, we look for potential objections to the argument's reasons, objections which the writer expects his or her opponents to make. Usually, these are included in arguments as opportunities for the writer to present her or his own reasons as refutations/rebuttals.
+Example of an Anticipated Objection
+
+If one reason in an argument is:
+
+    On the university level, argument is valued by professors of various disciplines who say that they would like for their students to be able to take a strong position and support it with ample reasons and evidence,
+
+the writer might hold up the following objection:
+
+    Many students argue that fields like Engineering and Math have no use for argumentation skills.
+
+Once a writer identifies counter-arguments opponents might make, it would be self-defeating to announce those counter-arguments and not argue against them. Therefore, after stating the objections of opponents, most writers will refute or rebut the objections. Good rebuttal usually requires evidence, so don't forget to look for support for the rebuttal position in that part of an argument. Like all evidence, rebuttal evidence should be sufficient, accurate, and credible.
+Example of a Rebuttal
+
+To the anticipated objection:
+
+    Many students argue that fields like Engineering and Math have no use for argumentation skills,
+
+a writer might offer the following rebuttal evidence,
+
+    However, a recent study appearing in journal, Language and Learning Across the Disciplines indicates that...(fill in the blank)
+
+Drawing Conclusions from a Toulmin Analysis
+
+Once you have completed a Toulmin analysis of an argument, your task is to collect your "results" into an overall, coherent statement about the effectiveness of that argument. In other words, if you are attempting to respond to that argument--whether in a formal response essay or in an arguing essay where you are using the argument as evidence or as opposing evidence--you will need to shape your Toulmin results into a coherent, defensible, narrow claim of your own. To see an example of how you would do this, you might go to the relevant part of the Toulmin demonstration.
+Toulmin Worksheet
+
+Click below to access a copy of a Toulmin Worksheet, so that you may practice using the Toulmin Method of analysis on your own, using an argument in a text of your own choice. Remember, as you use this worksheet, that not all elements of an argument are nearly as formulaic as the sheet might suggest. The argument you use might, for instance, use more than three reasons, or it might use only one. Think of this worksheet as a starting point, and feel free to make whatever changes are necessary to incorporate the elements you identify in the argument you are examining.
+Example Worksheet
+
+A Toulmin Model for Analyzing Arguments
+(modified from Timothy W. Crusius and Carolyn E. Channell, The Aims of Argument, p. 34)
+
+Claim:
+
+Qualifier?
+
+Exceptions?
+
+***************
+Reason 1
+
+What makes this reason relevant?
+
+What makes this reason effective?
+
+What evidence supports this reason?
+
+Is this evidence sufficient?
+
+Is this evidence credible?
+
+Is this evidence accurate?
+
+Reason 2
+
+What makes this reason relevant?
+
+What makes this reason effective?
+
+What evidence supports this reason?
+
+Is this evidence sufficient?
+
+Is this evidence credible?
+
+Is this evidence accurate?
+
+Reason 3
+
+What makes this reason relevant?
+
+What makes this reason effective?
+
+What evidence supports this reason?
+
+Is this evidence sufficient?
+
+Is this evidence credible?
+
+Is this evidence accurate?
+
+***************************************************************
+
+Objection:
+
+Rebuttal:
+
+
+Objection:
+
+Rebuttal:
+
+
+Objection:
+
+Rebuttal:
+
+
+ 
+Toulmin Demonstration
+
+What follows is a sample student argument, analyzed by way of the Toulmin Method. It offers an example of how this method might be implemented as a way of breaking an argument into its parts, then examining those parts to see how they contribute to the overall effectiveness or ineffectiveness of the argument.
+
+Landscaping that Makes Sense for the West
+
+ 
+	
+
+When I moved here from Ohio twelve years ago, I cared for my lawn the way I did in Ohio--rather the way I didn't care for my lawn in Ohio. In southern Ohio, I never had to water my half acre of Kentucky bluegrass. And although I never sprayed my lawn with herbicide (weed killers), the neighbors all did and the grass grew so thick that I had very few weeds. What I did do was mow, and mow constantly! There was never a summer evening or weekend when I couldn't hear the roar of a lawn mower somewhere in the neighborhood. When I practiced this level of lawn care on my bluegrass here in Fort Collins, I ended up with a sorry-looking, balding brown patch of weed-infested turf. You see, southern Ohio borders Kentucky and that is where Kentucky bluegrass grows. It and other high-maintenance turf varieties are not meant to be grown in northern Colorado. In spite of this, we in Fort Collins persist in our quest to have these traditional lawns.
+  	
+
+It is time for us to rethink our landscaping practices. In our arid Western climate and poor soil, the traditional lawn takes too much water, time, and harmful chemicals to maintain. We can measure the cost not only in time and money but also in risk to our health and to the health of the environment.
+  	
+
+In Fort Collins, we must use herbicides when growing these foreign turfs. The local weeds are much hardier and there are city ordinances and homeowners' covenants against noxious weeds. But the chemicals we use to eradicate them run off into the water supply where they cause problems. Americans dump over 70 million pounds of herbicides and pesticides onto our lawns each year. This does not even include the amount of chemical fertilizers we use. Most of these chemicals run off into the water supply, where contamination causes problems for our health and safety (Bormann, Balmori, and Geballe 208).
+  	
+
+Concern grows over the effects these expensive chemicals are having on our health and the health of children, pets, and lawn care workers. In my Ohio neighborhood, chemicals were sprayed in a lawn somewhere almost daily. I remember their distinct smell and the irritation they caused when the wind blew them into my children's eyes as they played outdoors. In response to concern about the safety of these irritating chemicals, little yellow warning flags now dot Fort Collins lawns after spraying. These flags picture cross marks through silhouettes of children and pets. What do these warnings mean? Don't walk across the lawn? Don't let kids and pets play here? For how long? It does not make sense to continue using varieties of plants that require so many risky chemicals to keep them weed and bug free.
+  	
+
+Varieties of grass that are more resistant to pests, disease, and weeds and are better suited to the West make this risk unnecessary. Buffalo grass is one example. Terry Riordan, Ph.D., professor of horticulture at the University of Nebraska, said this about buffalo grass: "Buffalo grass is pretty new and just starting to be used, but people who try it like it because it requires less maintenance than those other two species [Kentucky bluegrass and turf-type tall fescue]" (qtd. in Bucks 40). Turf species such as buffalo grass and crested wheatgrass tolerate the poor soil and dry conditions of the West and stay green with little or no irrigation (Meyer 60). These grasses are prairie grasses meant for our area. They are low growing and require little mowing. Riordon reported that some people only mowed their buffalo grass once during the season (qtd. in Bucks 40). We only have to water them a little to keep them green and not at all to keep them alive.
+  	
+
+Choosing a variety that requires little or no watering also saves Fort Collins homeowners money. Water in the West is scarce and becoming more expensive. My summertime water usage increases by over 100 percent, from around 4,500 gallons per month to between 10,000 and 12,000 gallons per month. The average water use in Fort Collins rises by almost 150 percent to 14,500 gallons. Even with only one watering per week, 33 percent of my total yearly water usage is for my lawn. Most Fort Collins residents water more often, reflected in the higher average water usage of 55 to 58 percent. (See the chart on the following page.) In the West, 60 percent of urban water goes to watering lawns (Bormann, Balmori, and Geballe 107). In a telephone interview conducted March 24, 1997, Laura D'Audni of the Fort Collins City Water Utilities reported the yearly outdoor water use of Fort Collins residents is between 50 and 55 percent. If we choose turf varieties that require little or no watering, we could cut our water bills by this percentage.
+  	Graph
+
+ 
+  	
+
+More appropriate species of grass would save time and money by making fertilizers and amendments obsolete. Our soil is not suited to bluegrass. It is poor, arid, and alkaline and must constantly be boosted with chemical fertilizers and amendments. Lawn care experts recommend that fertilizer be applied to bluegrass three to four times per growing season. They say we should aerate and thatch as well. I spend much more time and money to maintain a lawn in Fort Collins than I did in Ohio--and my lawn here is only one-third of my Ohio lawn.
+  	
+
+If I could afford it, I could hire this service done. There are companies who would come to my home four times a season to spray my lawn with "liquid fertilizer and weed control" for only $43.97 per application, plus $50.60 for yearly aeration. So let's add that up: the chemical pesticides and herbicides; the fertilizer; the water; the cost of a mower, gas, and its maintenance; and hoses which constantly sprout leaks, get chewed up by the dog, or run over by the mower (or factor in the more expensive irrigation system). Consider this:
+  	
+
+Basic Cost per Season for Care of Bluegrass
+Four chemical applications 	$175.88
+Aeration 	$50.60
+55-58 percent of yearly water bill 	$183.60
+Mower maintenance and gas 	$35.00
+Total 	$445.08
+
+ 
+  	
+
+Time Spent per Season in Basic Lawn Care
+Hours mowing and trimming
+(2 hours per week x 5 months) 	
+
+43.3 hours
+
+Hours monitoring and moving hoses *
+(6 hours per week x 5 months)
+	
+
+129.6 hours
+
+Total
+	
+
+172.9 hours
+*This time could be cut down with multiple hoses going at the same time.
+
+ 
+  	
+
+I can think of plenty of other things I'd rather do with this money and time. I am probably not alone in thinking there has to be a better way. It is well past time that Coloradoans gave up their old-fashioned Eastern lawns for landscaping that makes sense in the West. So why aren't we hearing about alternatives from the lawn care industry? Because they have a lot to lose--billions of our dollars.
+  	
+
+Since the cost of maintaining an alternative is so low, lawn care experts have no stake in keeping us informed about more appropriate species or in making them easy to obtain. We get most of our information about lawn care and gardening from the lawn care industry itself. This is a conflict of interest. Most of the varieties of plants stocked in local nurseries require a lot of care and water to thrive. However, low-maintenance varieties are available and we can get the information we need to make good choices. We would do better to call our county extension office for information on species suitable to our area. In Fort Collins, an agent, referred to as a master gardener, can be reached at (970) 498-7400. They have been advocating alternative landscaping for some time.
+  	
+
+The most impartial information comes from sources that do not stand to gain monetarily from our choice. The Coloradoan's real estate section reprinted an article on landscaping from Popular Mechanics that stated, "Turf grasses are the foundation of every landscape plan, even when part of the plan is to reduce the percentage of grass in your yard. The only worthwhile suggestion here is to avoid traditional, short-root bluegrass varieties. These traditional turf grasses are notorious for their susceptibility to diseases and their reliance on huge quantities of water." It went on to describe a new variety of zoysia, Meyer Z-52, which was low maintenance, deep-rooted, less cold-sensitive, and stayed green longer (F1).
+  	
+
+If Fort Collins nurseries do not stock alternative types of seeds, they can be ordered and are comparable in price to other lawn seeds. (Buffalo grass is about $8 per pound.) To spare the expense of putting in a whole new lawn, these seeds can be used to overseed and to repair bare patches. In this way, they will gradually fill in and reseed themselves.
+  	
+
+Hardy trees, shrubs, groundcovers, and flowers that require almost no attention once they are established can be a beautiful alternative to turf, or a lovely compliment to smaller areas of an appropriate variety of turf. Flowers and shrubs that thrive in desertlike conditions and still produce beautiful foliage and blooms are available in local garden stores. The key is to plan, get good information, and choose plants appropriate to our region. A hardy groundcover like Snow-on-the-Mountain will take over an area in a season or two and requires no maintenance to achieve a carpet of variegated green foliage. Flowers like cosmos and dianthus thrive on poor soil and dry conditions to produce their delicate and colorful blooms throughout the spring and summer growing season. There are many beautiful wildflower mixes that do well in the Rocky Mountain West.
+  	
+
+The cost of switching to less hungry and thirsty landscaping can quickly be made up in the cost saved on water and maintenance. Initial costs can be kept to a minimum by overseeding with these new types of grass seeds, seeding bare patches with them, and letting them take hold gradually. Lawn space can gradually be shrunk and given over to heat and drought-resistant varieties of flowers, trees, shrubs, and groundcovers. These new plants can be bought with the money saved from not having to buy chemicals and water. Choosing varieties that are perennial or that reseed themselves will also keep cost and maintenance to a minimum.
+  	
+
+With a little thought, planning, and creativity, we who live in Fort Collins can have beautiful landscapes that serve as restful retreats for ourselves and our families without the cost and the effort of trying to maintain an Eastern water-hungry lawn in the arid West.
+  	
+
+Works Cited
+
+Bormann, Herbert F., Diana Balmori, and Gordon T. Geballe. Redesigning the American Lawn. new Haven and London: Yale U P, 1993.
+
+Bucks, Christine. "The Right Grass = A Great Lawn." Organic Gardening May/Jun. 1995: 38-42.
+
+D'Audni, Laurie. Phone interview. 24 Mar. 1997.
+
+Meyer, Scott. "10 Common Lawn-Care Questions." Organic Gardening Feb. 1996: 58-61.
+
+Wasowski, Andy. "Cutting the Grass." Sierra Oct. 1996: 18-19.
+
+"Year-round Interest Important in Landscaping." Fort Collins Coloradoan 30 Mar. 1997: F1.
+Analyze The Claim
+Identifying the Claim
+
+Our first step in the Toulmin Method is to identify the claim. In the case of this argument, the claim is stated in a very general way, then is elaborated on throughout the essay. (Therefore, there is no particular point in the essay where the writer states her claim in full.) However, the general statement of the claim could be said to come at the beginning of paragraph 2, where the writer argues, "It is time for us to rethink our landscaping practices." She elaborates on this somewhat in the sentence that follows: " In our arid Western climate and poor soil, the traditional lawn takes too much water, time, and harmful chemicals to maintain." The argument proceeds to prove that this is true, then offers alternatives to "the traditional lawn."
+Examining the Claim for Qualifiers
+
+Having identified and paraphrased the claim in paragraph 2 as, "It is time for us to rethink our landscaping practices," the next step in the Toulmin Method is to examine this claim to see if the writer uses any qualifiers--words like "some," "many," "most of the time," etc. In this case, there are no such qualifiers. It can sometimes be damaging to an argument to omit qualifiers, particularly if there are also no exceptions provided. It is up to you as a reader to determine whether the writer's unqualified claim is damaging to this particular argument.
+Examining the Claim for Exceptions
+
+After looking for qualifying words in the claim, the next step is to determine what the writer considers to be the situations in which her claim doesn't apply. In other words, it is necessary to identify any exceptions she makes to her claim. In her argument, although she does not mention explicitly any exceptional situations, her claim implies one.
+
+If we look at the writer's claim in paragraph 2, "It is time for us to rethink our landscaping practices," the first thing we should ask is "Who does she refer to when she uses the word `us'?" Clearly, this writer is addressing an audience like herself: homeowners in the West (in Ft. Collins, Colorado perhaps) who are interested in landscaping. Then if we look at the introductory paragraph of the essay, we see that she has described two landscaping situations: one in her home state of Ohio, and one in Fort Collins, Colorado, where she now lives. From all of this, we can assume that the writer intends for her argument to apply primarily to lawns in the West, and that (by implication) she excludes from her argument lawns in other parts of the country, where conditions are different.
+Analyze the Reasons
+Identifying All the Reasons
+
+Once you have identified and examined the claim (for qualifiers and exceptions), the next step in the Toulmin Method is to identify and examine the reasons which support this claim. In the case of this essay, two of the reasons are given in the same breath as the general claim ("It is time for us to rethink our landscaping practices") in the second paragraph. The sentence which follows this claim is, "In our arid Western climate and poor soil, the traditional lawn takes too much water, time, and harmful chemicals to maintain," and it implies two of the three reasons that the writer will address in the essay. The third reason the writer will address is this: Maintaining the traditional lawn is unnecessary, since varieties of grass that are more appropriate to the West (and "less hungry and thirsty," as the writer says in paragraph 14) are readily available. Click on the reasons below to see where they occur in the example argument.
+
+Maintaining the traditional lawn is:
+
+    In paragraph 2: Harmful (because of the chemicals used)
+    In paragraph 2: Expensive in terms of time (time spent maintaining one's lawn) and money (water usage and cost of chemicals)
+    In paragraph 11: Maintaining the traditional lawn is unnecessary, since varieties of grass that are more appropriate to the West are readily available.
+
+Identifying and Examining Reason One
+
+In reading on from paragraph 2 to paragraph 3 of the essay, we see that the first reason the writer addresses is the question of harm. At the beginning of paragraph 3, she broaches this question in the following way: "In Fort Collins, we must use herbicides when growing these foreign turfs." The assumption here, of course, is that these herbicides are harmful and undesirable, and the writer shows how this is so by providing evidence of the threats they pose to the environment and to humans.
+
+We have identified Reason One as "In Fort Collins, we must use herbicides [which, by implication, are harmful] when growing these foreign turfs [like Kentucky bluegrass]." Our next step is to determine whether or not this reason is (1) relevant and (2) effective.
+Determining the Relevance of Reason One
+
+When examining this reason, it is first necessary to ask the question, "Is it relevant to the claim it attempts to support?" When we look at the claim and this first reason side by side, we see that there is a clear connection between the two.
+
+    Reason: "In Fort Collins, we must use herbicides [which, by implication, are harmful] when growing these foreign turfs [like Kentucky bluegrass]."
+
+For this reason...
+
+    Claim: "It is time for us to rethink our landscaping practices."
+
+Determining the Effectiveness of Reason One
+
+After determining that Reason One is indeed relevant to the argument's claim, we may go on to determine whether or not it is effective (or "good"). In other words, does the reason invoke a value that most people (most importantly, you as a reader) can believe in and accept?
+
+In this case, the reason, having to do with the danger of herbicides to the environment and to people, invokes the reader's fear and distaste of such harm. This may or may not seem like an effective reason to you, and if it doesn't, then this is something to remember when you complete your analysis of this argument. However, we might predict that most readers would probably feel some kind of fear or distaste for the kinds of harm that the writer refers to, thus making this an effective reason.
+Moving from Reason One to Reason Two
+
+In providing a bridge from Reason One to Reason Two, the writer draws on what we will here call Reason Three, paraphrasable as follows: Maintaining the traditional lawn is unnecessary, since varieties of grass that are more appropriate to the West are readily available. After she demonstrates that herbicides are dangerous, the writer shows that this danger is unnecessary, given the existence of buffalo grass and other varieties "that are more resistant to pests, disease, and weeds and better suited to the West" (paragraph 5). She then lists some of the merits of buffalo grass, which are (1) its appropriateness to our region and (2) the fact that it is almost maintenance-free, and therefore economical. This leads the writer directly into her second reason, which has to do with cost.
+Identifying and Examining Reason Two
+
+The writer's second reason, having to do with the cost of traditional landscaping in terms of money and time, is developed in paragraphs 6-9. (For the sake of simplicity, we will paraphrase Reason Two in the following way: "Traditional landscaping is costly in terms of both time and money.") Looking back at the essay, this reason can be most easily and clearly identified in two specific sentences:
+
+    Paragraph 6: "Choosing a variety that requires little or no watering also saves Fort Collins homeowners money."
+    Paragraph 7: "More appropriate species of grass would save time and money by making fertilizers and amendments obsolete."
+
+With the exception of these two sentences, the majority of the argument in paragraphs 6-9 is given to providing evidence to support these statements, as well as (in paragraph 8) mentioning the cost of having one's lawn professionally cared for.
+
+We have identified Reason Two as (in paraphrased form) "Traditional landscaping is costly in terms of both time and money." Our next step is to determine whether or not this reason is (1) relevant and (2) effective.
+Determining the Relevance of Reason Two
+
+When examining this reason, it is first necessary to ask the question, "Is it relevant to the claim it attempts to support?" When we look at the claim and this first reason side by side, we see that there is a clear connection between the two.
+
+    Reason: "Traditional landscaping is costly in terms of both time and money."
+
+For this reason...
+
+    Claim: "It is time for us to rethink our landscaping practices."
+
+Determining the Effectiveness of Reason Two
+
+After determining that Reason Two is indeed relevant to the argument's claim, we may go on to determine whether or not it is effective (or "good"). In other words, does the reason invoke a value that most people (most importantly, you as a reader) can believe in and accept?
+
+In this case, the reason, having to do with the cost (in terms of both money and time) of maintaining traditional landscaping, invokes the value the reader places on money and time. This may or may not seem like an effective reason to you, and if it doesn't, then this is something to remember when you complete your analysis of this argument. However, we might predict that most readers would probably be compelled by an argument that proposes economy of both money and time. We could argue, therefore, that this is an effective reason.
+Moving from Reason Two to Reason Three
+
+In providing a bridge from Reason Two(having to do with various costs of traditional landscaping) to Reason Three(having to do with the availability of alternative varieties of grasses which are more suited to the West), the writer decides to deal with an objection she anticipates from her audience: "So how come we never hear about these alternative varieties of grasses and their benefits?" In paragraphs 10-12, the writer responds to this hypothetical objection, pointing out the biases of the lawn care industry and directing her audience toward less biased sources of information (or rather, those which are likely to give information about alternative varieties of grasses and means of landscaping).
+Identifying and Examining Reason Three
+
+As mentioned previously, we might paraphrase the writer's third reason in the following way: Maintaining the traditional lawn is unnecessary, since varieties of grass that are more appropriate to the West are readily available. Although she directly addresses the "availability" question only toward the end of her essay (in paragraphs 10-13), she refers to alternative varieties of grasses in several areas of the essay. For example,
+In Paragraph 5: "Varieties of grass that are more resistant to pests, disease, and weeds and better suited to the West make this risk unnecessary."
+In Paragraph 6: "Choosing a variety that requires little or no watering also saves Fort Collins homeowners money."
+In Paragraph 7: "More appropriate species of grass would save time and money by making fertilizers and amendments obsolete."
+In Paragraph 10: "Since the cost of maintaining an alternative lawn is so low, lawn care experts have no stake in keeping us informed about more appropriate species or in making them easy to obtain."
+
+In paragraphs 11-13, however, the writer claims that these alternative varieties do exist and are available to Fort Collins residents, and she offers evidence to back this up.
+
+We have identified Reason Three as (in paraphrased form) "Maintaining the traditional lawn is unnecessary, since varieties of grass that are more appropriate to the West are readily available." Our next step is to determine whether or not this reason is (1) relevant and (2) effective.
+Determining the Relevance of Reason Three
+
+When examining this reason, it is first necessary to ask the question, "Is it relevant to the claim it attempts to support?" When we look at the claim and this first reason side by side, we see that there is a clear connection between the two.
+
+    Reason: "Maintaining the traditional lawn is unnecessary, since varieties of grass that are more appropriate to the West are readily available."
+
+For this reason...
+
+    Claim: "It is time for us to rethink our landscaping practices."
+
+Determining the Effectiveness of Reason Three
+
+After determining that Reason Three is indeed relevant to the argument's claim, we may go on to determine whether or not it is effective (or "good"). In other words, does the reason invoke a value that most people (most importantly, you as a reader) can believe in and accept?
+
+In this case, the reason, which challenges the necessity of traditional landscaping methods and grasses when alternative ones (more appropriate to the West) are readily available, invokes the value the reader places on convenience and common sense. This may or may not seem like an effective reason to you, and if it doesn't, then this is something to remember when you complete your analysis of this argument. However, we might predict that most readers would probably be motivated by a desire to do something that "makes sense" if it is convenient to do so. Therefore, we might judge this to be an effective reason.
+Identifying and Examining Evidence
+
+Once you have identified and examined the reasons supporting the claim in an argument, your next step is to examine the evidence which, in turn, supports those reasons.
+Identifying and Examining Evidence for Reason One
+
+The writer's first reason has to do with the danger of using herbicides. In support of this reason (in paragraphs 3 and 4), she offers several pieces of evidence:
+
+Identifying the Evidence:
+
+    In paragraph 3, a statistic (from her source, Bormann, Balmori, and Geballe) indicating how many pounds of herbicides and pesticides Americans use each year.
+    In paragraph 4, her experience with the prevalence of lawn chemical use in Ohio.
+    In paragraph 4, her reference to the yellow warning flags now used in Ft. Collins when lawns are being sprayed.
+
+Examining the Evidence:
+
+We must first ask ourselves, "Is this evidence sufficient?" That is, we must determine whether or not there is enough evidence offered to support the reason the writer is attempting to use. In this case, given the fact that the writer uses three different pieces of evidence (one from an "official" source and two from personal experience/observation), we could argue that she uses sufficient evidence.
+
+Our second step is to ask ourselves, "Is this evidence credible?" In other words, can we trust the evidence the writer offers us? In this case, where the writer uses what seems to be a credible source (Bormann, Balmori, and Geballe's Redesigning the American Lawn), as well as fairly commonplace, believable personal experience, we could argue that she uses credible evidence.
+
+Our third step is to ask ourselves, "Is this evidence accurate?" This is perhaps the most difficult step in examining the evidence, simply because we can't always be sure of accuracy without having the writer's sources in front of us or without having experienced what she has experienced. In this case, there seems to be no reason to question the accuracy of the evidence given, simply because it doesn't appear unrealistic or outlandish, and it has already been shown to be reasonably credible. Sometimes, however, you might suspect that the evidence offered in support of a reason is inaccurate, and that can be an excellent way to challenge an argument.
+Identifying and Examining Evidence for Reason Two
+
+The writer's second reason has to do with the cost of traditional landscaping in terms of money and time, and it is supported (in paragraphs 6-9) with several pieces of evidence:
+
+Identifying the Evidence:
+
+    In paragraph 6, statistics representing water usage (the writer's own and the average) in Fort Collins, along with information given in a phone interview with Laurie D'Audni of the Fort Collins Water Utilities.
+    In paragraph 6, a statistic from her source (Bormann, Balmori, and Geballe) representing water usage in the West.
+    After paragraph 6, the chart showing levels of water usage (the writer's own and the average) in Fort Collins throughout the year.
+    In paragraph 7, lawn care experts' recommendation on how often fertilizer should be applied, and on how we "should aerate and thatch as well."
+    In paragraph 7, personal experience--comparison of time and money spent in Fort Collins as opposed to Ohio.
+    In paragraph 8: Cost of having lawn care professionally done.
+    After paragraph 8, statistics on "Basic Cost per Season for Care of Bluegrass" and "Time Spent per Season in Basic Lawn Care"
+
+Identifying and Examining Evidence for Reason Three
+
+The writer's third reason has to do with the availability of alternative varieties of grasses which are more suited to the West. As mentioned previously, this reason is referred to throughout the essay, but it is treated most directly in paragraphs 10-13. Here is some of the evidence, given in different parts of the essay in support of the availability of alternative grasses:
+
+Identifying the Evidence:
+
+    In paragraph 5, testimony from two sources (Bucks and Meyer) as to the merits of buffalo grass and wheatgrass.
+    In paragraph 10, the phone number of the county extension office, where readers can get information on species of grass suitable to our area.
+    In paragraph 11, quotes from an article in the Coloradoan about the difficulties of traditional turf grasses and the availability of "a new variety of zoysia, Meyer Z-52).
+    In paragraph 12, a claim that alternative types of seed may be ordered (and the approximate cost of the seeds).
+    paragraph 13, suggestions of plants, shrubs, and flowers that thrive in the West.
+
+Analyze the Anticipated Objections and Rebuttal
+
+When writing an argument, writers must anticipate any objections their audience might use to challenge that argument. In other words, they have to make sure, to the best of their ability, that they don't leave room for their audience to pull a card out of one of the levels of their "house of cards" (thereby causing the whole structure of the argument to tumble down). In this argument, the writer has addressed two possible oppositional arguments, one having to do with availability of information on alternative grasses, and one having to do with the cost of switching to alternative landscaping.
+Identifying Objection One
+
+In providing a bridge from Reason Two (having to do with various costs of traditional landscaping) to Reason Three (having to do with the availability of alternative varieties of grasses which are more suited to the West), the writer decides to deal with an objection she anticipates from her audience: "So how come we never hear about these alternative varieties of grasses and their benefits?"
+Identifying & Examining Rebuttal of Objection One
+
+In paragraphs 10-12, the writer responds to this hypothetical objection, pointing out the biases of the lawn care industry and directing her audience toward less biased sources of information (or rather, those which are likely to give information about alternative varieties of grasses and means of landscaping).
+
+Remember, too, that rebuttal evidence must be examined just like any other evidence. In other words, we have to judge whether or not the evidence offered in the rebuttal is valid in terms of sufficiency, credibility, and accuracy. In this case, we might notice that the writer gives no real evidence that the lawn care industry is biased, but we might also decide that such a thing is common sense, and therefore is well-argued. However, if we were looking for a way to call this reasoning into question, we might want to point out that the writer lacks evidence in this area.
+Identifying Objection Two
+
+In paragraph 14, the writer anticipates that her audience might be concerned about the expense of switching from traditional to alternative landscaping.
+Identifying & Examining Rebuttal of Objection Two
+
+In forming her rebuttal to this second objection, the writer refers back to arguments she made in paragraph 6 about "the cost saved on water and maintenance." She also mentions in paragraph 14 the possibilities of shrinking lawn space and "giv[ing it] over to heat and drought-resistant varieties of flowers, trees, shrubs, and groundcovers." Finally, she mentions the ways that people can save money by "choosing varieties that are perennial or reseed themselves."
+
+Remember, too, that rebuttal evidence must be examined just like any other evidence. In other words, we have to judge whether or not the evidence offered in the rebuttal is valid in terms of sufficiency, credibility, and accuracy. In this case, we will remember that she has already supported her argument about "the cost saved on water and maintenance." And we might consider that her arguments about shrinking lawn space and about "choosing varieties that are perennial or reseed themselves" to be self-evident (common-sensical), and therefore well-argued. However, if we were looking for a way to call her reasoning into question, we might want to point out that the writer lacks evidence on these last two points.
+Draw Conclusions from a Toulmin Analysis
+
+After completing this Toulmin Analysis of the essay, "Landscaping that Makes Sense for the West," it is our task to determine how to "interpret" the results. In other words, how do we take what we have discovered about the argument through analysis and translate it into a formal response to that argument?
+Collecting Results
+
+The first step in drawing conclusions is to collect the results of our analysis. To do this, we go back to our responses on the different levels of our "house of cards": claim, reasons, evidence, and anticipated objections/rebuttal. In the case of our sample argument, we have determined that the writer's reasons and much of her evidence are quite strong. Some of her evidence is not as documentable as other evidence, and we could examine her claim (for lack of qualifications) and her rebuttal evidence more closely, but for the most part, our responses at the various levels of this analysis have been positive.
+Is the Argument Compelling to You?
+
+The first question you might ask yourself when "interpreting" the results of your analysis is a very general (and emotionally-based) question: Does this argument appeal to me? If it does appeal, then why and how does it appeal? In other words, how do the responses we made about the claim, reasons, evidence, etc. reinforce (or contradict) our "gut-level" response to the argument we have read? In the case of our example argument, we might say that the essay seems immediately compelling for a number of reasons (style, use of examples, the attractive color photo, etc.); then we might note that our overall response to and analysis of the parts of the argument supports this gut-level response.
+What is the Overall Effectiveness/Ineffectiveness of the Argument?
+
+In looking at the results of your analysis, it is important to notice how effective or ineffective the argument is based on the strengths or weaknesses you have noticed in the different parts of that argument. This is the part of interpretation which demands that you go beyond your gut-level responses to acknowledge (as "objectively" and as truthfully as possible) the parts of the argument which achieve their purpose effectively, and the parts which do this less effectively. Again, looking at our sample essay, we could argue that most of the parts of the argument (like the claim, reasons, and most evidence) are structured, supported, and expressed effectively, while there are very few areas of possible ineffectiveness (in credibility of evidence, thoroughness of rebuttal, or qualification of claim, for instance).
+
+Overall, though, this argument would probably be considered a strong and well-supported one by most readers, and it is a bit of a stretch even to discuss these few areas of possible ineffectiveness.
+Writing a Claim
+
+The last stage of your analysis (and the first stage of writing a response to the essay) is to formulate a claim of your own, based on your analytical reading of the argument. In the case of our sample argument, our claim might read as follows: "Although this writer's argument has elements that might be slightly better qualified, supported, or documented, overall her argument for alternative landscaping is compelling and effective." (Of course, if as a reader you were inclined to disagree with her argument or to be critical of some of the reasons or evidence she offers, your claim would look quite different from this one.)
+Citation: Please adapt for your documentation style.
+
+Nesbitt, Laurel. (2001). Using the Toulmin Method. The WAC Clearinghouse. https://wac.colostate.edu/repository/writing/guides/guide.cfm?guideid=58
+
+Note: Our writing guides, which are similar to online textbooks, provide information about topics ranging from narrowing your focus to writing in the disciplines and professions. Originally developed for presentation on the Writing@CSU website (https://writing.colostate.edu), they moved to the WAC Clearinghouse in 2024.
+About the Clearinghouse
+
+The WAC Clearinghouse is an open-access, educational website supported by more than 150 charitable contributors, institutional sponsors, and more than 200 volunteer editors, editorial staff members, reviewers, and editorial board members. Copyright on the materials on this site is held by the authors and editors who have contributed content to it (© 1997-2025). This site is published using the Masa CMS and the Lucee open-source CFML platform.
+Our Sponsors
+
+    Colorado State University Department of English
+    The Association for Writing Across the Curriculum
+
+Contact Info
+
+    mike.palmquist@colostate.edu
+
+Social Media
+Facebook LogoFind us on Facebook
+LinkedIn LogoVisit us on LinkedIn
+Share This Site
+[Privacy Badger has replaced this LinkedIn button]
+Support Open-Access Publishing
+
+Our books, journals, and resources are made available through the dedicated volunteer efforts of the large group of scholars involved with the Clearinghouse. Nonetheless, we still incur costs, such as payments to copy editors and designers, software and server costs, and fees associated with obtaining ISBN numbers and DOIs. Please consider supporting our efforts through donations and sponsorships.

@@ -1,0 +1,592 @@
+citation: "Heylighen, F., & Chielens, K. (2009). Cultural Evolution and Memetics. In R. A. Meyers (Ed.), Encyclopedia of Complexity and Systems Science (pp. 1-24). Springer."
+
+annotation: "Comprehensive theoretical framework for understanding cultural evolution through memetic theory, examining how cultural information (memes) replicates, spreads, and evolves through mechanisms analogous to biological evolution, including analysis of transmission dynamics, selection criteria, and empirical testing approaches."
+
+model_type: "property_graph"
+
+rationale: "Property graph model best captures the complex network of relationships between memes, carriers, transmission processes, and environmental factors. The framework involves multiple interconnected entities (memes, individuals, groups, mediotypes) with diverse relationship types (replication, selection, transmission, interaction) that form dynamic networks of cultural evolution."
+
+schema_blueprint:
+  title: "Cultural Evolution and Memetics Theoretical Framework"
+  description: "Comprehensive model of cultural evolution based on memetic theory showing how cultural information patterns replicate, spread, and evolve through population networks"
+  
+  root_properties:
+    nodes:
+      description: "Cultural entities including memes, individuals, groups, and cultural artifacts that participate in evolutionary processes"
+      item_type: "Entity"
+    edges:
+      description: "Evolutionary processes, transmission mechanisms, selection forces, and interactions between cultural entities"  
+      item_type: "NaryTuple"
+
+  definitions:
+    # Core theoretical constructs
+    - name: "meme"
+      category: "core-construct"
+      description: "A cultural replicator; an information pattern held in memory that can be copied to another individual's memory"
+      
+    - name: "memeplex"
+      category: "core-construct"  
+      description: "A collection of mutually supporting memes that tend to replicate together as a coherent unit"
+      
+    - name: "replicator"
+      category: "core-construct"
+      description: "An information pattern capable of making copies of itself, typically with help of another system"
+      
+    - name: "culture"
+      category: "core-construct"
+      description: "The attitudes, beliefs, and behaviors that define a group's way of life and are transmitted between individuals"
+      
+    - name: "cultural-evolution"
+      category: "theoretical-framework"
+      description: "Development of culture over time through mechanisms of variation and natural selection of cultural elements"
+      
+    - name: "memetics" 
+      category: "theoretical-framework"
+      description: "Theoretical and empirical science studying replication, spread and evolution of memes"
+      
+    # Meme manifestation levels
+    - name: "memotype"
+      category: "manifestation-level"
+      description: "Information form of meme held in individual's memory"
+      
+    - name: "mediotype"
+      category: "manifestation-level" 
+      description: "Meme as expressed in external medium such as text, artifact, song, or behavior"
+      
+    - name: "sociotype"
+      category: "manifestation-level"
+      description: "Group or community of individuals who hold particular meme in their memory"
+      
+    # Fitness characteristics
+    - name: "fitness"
+      category: "measurement-concept"
+      description: "Overall success rate of replicator determined by adaptation to environment and longevity, fecundity, copying-fidelity"
+      
+    - name: "longevity"
+      category: "fitness-component"
+      description: "Duration that individual replicator survives in memory or external form"
+      
+    - name: "fecundity"
+      category: "fitness-component"
+      description: "Speed of reproduction measured by number of copies made per time unit"
+      
+    - name: "copying-fidelity"
+      category: "fitness-component"
+      description: "Degree to which replicator is accurately reproduced during transmission"
+      
+    # Transmission types
+    - name: "vertical-transmission"
+      category: "transmission-type"
+      description: "Transmission of cultural traits from parents to offspring across generations"
+      
+    - name: "horizontal-transmission"
+      category: "transmission-type"
+      description: "Transmission of cultural traits between individuals of same generation"
+      
+    # Replication stages
+    - name: "assimilation"
+      category: "replication-stage"
+      description: "Process by which meme enters individual's memory and becomes memotype"
+      
+    - name: "retention"
+      category: "replication-stage"
+      description: "Storage and maintenance of meme in individual's memory over time"
+      
+    - name: "expression"
+      category: "replication-stage"
+      description: "Conversion of memotype to mediotype for external perception by others"
+      
+    - name: "transmission"
+      category: "replication-stage"
+      description: "Physical transfer of mediotype through communication channels to reach other individuals"
+      
+    # Selection criteria categories
+    - name: "objective-criteria"
+      category: "selection-criteria-category"
+      description: "Selection factors based on properties of information's referent object"
+      
+    - name: "subjective-criteria"
+      category: "selection-criteria-category"
+      description: "Selection factors based on cognitive and emotional characteristics of information recipient"
+      
+    - name: "intersubjective-criteria"
+      category: "selection-criteria-category"
+      description: "Selection factors based on social communication and cultural transmission processes"
+      
+    # Specific objective criteria
+    - name: "distinctiveness"
+      category: "objective-criterion"
+      description: "Information referring to something precise, distinct or detailed that can be confirmed by observation"
+      subTypeOf: "objective-criteria"
+      
+    - name: "invariance"
+      category: "objective-criterion"
+      description: "Information remaining valid over wide range of contexts or situations"
+      subTypeOf: "objective-criteria"
+      
+    - name: "evidence"
+      category: "objective-criterion"
+      description: "Information supported by independent observations increasing reliability"
+      subTypeOf: "objective-criteria"
+      
+    # Specific subjective criteria
+    - name: "utility"
+      category: "subjective-criterion"
+      description: "Information valuable or useful to carrier, increasing likelihood of retention and transmission"
+      subTypeOf: "subjective-criteria"
+      
+    - name: "affectivity"
+      category: "subjective-criterion"
+      description: "Information provoking strong emotions like fear, desire or disgust"
+      subTypeOf: "subjective-criteria"
+      
+    - name: "coherence"
+      category: "subjective-criterion"
+      description: "Degree to which information fits with recipient's existing knowledge"
+      subTypeOf: "subjective-criteria"
+      
+    - name: "simplicity"
+      category: "subjective-criterion"
+      description: "Short, simple messages easier to assimilate, remember and transmit"
+      subTypeOf: "subjective-criteria"
+      
+    - name: "novelty"
+      category: "subjective-criterion"
+      description: "Unexpected information attracting more attention"
+      subTypeOf: "subjective-criteria"
+      
+    - name: "repetition"
+      category: "subjective-criterion"
+      description: "Repeated exposure helping assimilation and retention"
+      subTypeOf: "subjective-criteria"
+      
+    # Specific intersubjective criteria
+    - name: "publicity"
+      category: "intersubjective-criterion"
+      description: "Effort individual puts into spreading message affecting reach"
+      subTypeOf: "intersubjective-criteria"
+      
+    - name: "formality"
+      category: "intersubjective-criterion"
+      description: "Explicit and unambiguous message formulation reducing misinterpretation"
+      subTypeOf: "intersubjective-criteria"
+      
+    - name: "expressivity"
+      category: "intersubjective-criterion"
+      description: "Ease of expressing information in given language or medium"
+      subTypeOf: "intersubjective-criteria"
+      
+    - name: "authority"
+      category: "intersubjective-criterion"
+      description: "Authoritative, trustworthy source increasing acceptance likelihood"
+      subTypeOf: "intersubjective-criteria"
+      
+    - name: "conformity"
+      category: "intersubjective-criterion"
+      description: "Information confirmed by many people being more easily accepted"
+      subTypeOf: "intersubjective-criteria"
+      
+    - name: "collective-utility"
+      category: "intersubjective-criterion"
+      description: "Information helping group function better when adopted collectively"
+      subTypeOf: "intersubjective-criteria"
+      
+    # Meme interaction types
+    - name: "mutualism"
+      category: "meme-interaction"
+      description: "Positive reciprocal relationship where memes help each other spread"
+      
+    - name: "competition"
+      category: "meme-interaction"
+      description: "Negative reciprocal relationship where increase in one meme decreases another"
+      
+    - name: "predator-prey"
+      category: "meme-interaction"
+      description: "Asymmetric relationship where one meme grows at expense of another"
+      
+    # Parasitic meme characteristics
+    - name: "parasitic-meme"
+      category: "meme-type"
+      description: "Meme that propagates well without delivering benefit to carriers"
+      
+    - name: "self-justification"
+      category: "parasitic-strategy"
+      description: "Memeplex components mutually justify each other without independent support"
+      
+    - name: "self-reinforcement"
+      category: "parasitic-strategy"
+      description: "Meme stimulates host to rehearse itself through study, meditation, prayer"
+      
+    - name: "intolerance"
+      category: "parasitic-strategy"
+      description: "Meme indoctrinates host to reject competing memes a priori"
+      
+    - name: "proselytism"
+      category: "parasitic-strategy"
+      description: "Meme urges host to maximally spread meme to other hosts"
+      
+    - name: "baiting"
+      category: "parasitic-strategy"
+      description: "Meme promises carriers reward for accepting and spreading the meme"
+      
+    # Social structure concepts
+    - name: "scale-free-network"
+      category: "social-structure"
+      description: "Network where few agents have many connections while most have few links"
+      
+    - name: "hub-agent"
+      category: "social-role"
+      description: "Network node with disproportionately large number of social connections"
+      
+    - name: "opinion-leader"
+      category: "social-role"
+      description: "Central individual that many know and tend to imitate in community"
+      
+    - name: "winner-takes-all"
+      category: "cultural-dynamic"
+      description: "Initially most frequent variant comes to dominate all others through conformist pressure"
+      
+    - name: "conformist-pressure"
+      category: "social-force"
+      description: "Social pressure causing individuals to adopt majority version of meme"
+      
+    # Evolutionary dynamics
+    - name: "natural-selection"
+      category: "evolutionary-process"
+      description: "Process retaining fittest memes through differential replication success"
+      
+    - name: "variation"
+      category: "evolutionary-process"
+      description: "Creation of new meme variants through mutation and recombination"
+      
+    - name: "lamarckian-evolution"
+      category: "evolutionary-process"
+      description: "Cultural evolution where acquired characteristics can be transmitted to later carriers"
+      
+    - name: "vicarious-selection"
+      category: "selection-mechanism"
+      description: "Meme carrier can eliminate inadequate meme by witnessing troubles of others"
+      
+    # Measurement and modeling concepts
+    - name: "meme-fitness-formula"
+      category: "mathematical-model"
+      description: "F(m) = A(m) × R(m) × E(m) × T(m) measuring expected replication success"
+      
+    - name: "logistic-growth"
+      category: "mathematical-model"
+      description: "S-shaped growth curve accounting for finite population carrying capacity"
+      
+    - name: "verhulst-equation"
+      category: "mathematical-model"
+      description: "Differential equation modeling population growth with environmental limits"
+      
+    - name: "production-rule"
+      category: "cognitive-model"
+      description: "If-then rule representing knowledge connections in cognitive systems"
+      
+    - name: "classifier-system"
+      category: "computational-model"
+      description: "Binary representation of production rules for genetic algorithm simulations"
+      
+    # Empirical research concepts
+    - name: "chain-transmission"
+      category: "experimental-method"
+      description: "Laboratory method passing information person-to-person like telephone game"
+      
+    - name: "selection-correlation"
+      category: "measurement-method"
+      description: "Examining correlation between meme success and fulfillment of selection criteria"
+      
+    - name: "communicability-measurement"
+      category: "measurement-method"
+      description: "Probability that subjects will communicate particular information or trait"
+      
+    - name: "text-analysis"
+      category: "measurement-method"
+      description: "Automatic analysis measuring frequency of discussion subjects in digital forums"
+      
+    # Application domains
+    - name: "viral-marketing"
+      category: "application-domain"
+      description: "Marketing approach creating buzz through word-of-mouth propagation"
+      
+    - name: "public-education-campaign"
+      category: "application-domain"
+      description: "Government efforts to spread beneficial information using memetic principles"
+      
+    - name: "immunization-education"
+      category: "application-domain"
+      description: "Teaching memetic principles to help people recognize and resist mind viruses"
+      
+    - name: "cultural-diversity-preservation"
+      category: "application-domain"
+      description: "Using memetic theory to maintain cultural diversity without exacerbating conflicts"
+      
+    # Relationships
+    - name: "replicates"
+      category: "relationship"
+      description: "Process by which meme creates copies of itself"
+      domain: ["meme"]
+      range: ["meme"]
+      
+    - name: "transmits-to"
+      category: "relationship" 
+      description: "Process of meme moving from one carrier to another"
+      domain: ["individual", "mediotype"]
+      range: ["individual"]
+      
+    - name: "expresses"
+      category: "relationship"
+      description: "Individual converts memotype to perceivable mediotype"
+      domain: ["individual"]
+      range: ["mediotype"]
+      
+    - name: "assimilates"
+      category: "relationship"
+      description: "Individual incorporates meme into memory"
+      domain: ["individual"]
+      range: ["meme"]
+      
+    - name: "retains"
+      category: "relationship"
+      description: "Individual stores meme in memory over time"
+      domain: ["individual"]
+      range: ["meme"]
+      
+    - name: "competes-with"
+      category: "relationship"
+      description: "Memes in negative interaction where one's growth reduces other's"
+      domain: ["meme"]
+      range: ["meme"]
+      
+    - name: "cooperates-with"
+      category: "relationship"
+      description: "Memes in positive interaction helping each other spread"
+      domain: ["meme"]
+      range: ["meme"]
+      
+    - name: "selects-for"
+      category: "relationship"
+      description: "Environmental or cognitive factors favoring certain memes"
+      domain: ["environment", "selection-criterion"]
+      range: ["meme"]
+      
+    - name: "belongs-to"
+      category: "relationship"
+      description: "Meme is component of larger memeplex"
+      domain: ["meme"]
+      range: ["memeplex"]
+      
+    - name: "influences"
+      category: "relationship"
+      description: "One entity affects the state or behavior of another"
+      domain: ["Entity"]
+      range: ["Entity"]
+
+  json_schema:
+    properties:
+      # Core entities
+      entities:
+        type: object
+        properties:
+          memes:
+            type: array
+            items:
+              type: object
+              properties:
+                id: {type: string}
+                content: {type: string}
+                fitness_score: {type: number}
+                manifestation_level: 
+                  type: string
+                  enum: ["memotype", "mediotype", "sociotype"]
+                meme_type:
+                  type: string
+                  enum: ["beneficial", "parasitic", "neutral"]
+                replication_stages:
+                  type: array
+                  items:
+                    type: string
+                    enum: ["assimilation", "retention", "expression", "transmission"]
+                
+          individuals:
+            type: array
+            items:
+              type: object
+              properties:
+                id: {type: string}
+                cognitive_capacity: {type: number}
+                social_connections: {type: integer}
+                role:
+                  type: string
+                  enum: ["carrier", "hub-agent", "opinion-leader", "ordinary-member"]
+                carried_memes: 
+                  type: array
+                  items: {type: string}
+                  
+          groups:
+            type: array
+            items:
+              type: object
+              properties:
+                id: {type: string}
+                size: {type: integer}
+                cultural_traits: 
+                  type: array
+                  items: {type: string}
+                transmission_type:
+                  type: string
+                  enum: ["vertical", "horizontal", "mixed"]
+                cohesion_level: {type: number}
+                
+          memeplexes:
+            type: array
+            items:
+              type: object
+              properties:
+                id: {type: string}
+                component_memes:
+                  type: array
+                  items: {type: string}
+                coherence_level: {type: number}
+                replication_success: {type: number}
+                
+      # Processes and relationships  
+      processes:
+        type: object
+        properties:
+          replication_events:
+            type: array
+            items:
+              type: object  
+              properties:
+                source_carrier: {type: string}
+                target_carrier: {type: string}
+                meme_id: {type: string}
+                transmission_type:
+                  type: string
+                  enum: ["vertical-transmission", "horizontal-transmission"]
+                success_probability: {type: number}
+                mutation_occurred: {type: boolean}
+                
+          selection_pressures:
+            type: array
+            items:
+              type: object
+              properties:
+                criterion_type:
+                  type: string
+                  enum: ["objective-criteria", "subjective-criteria", "intersubjective-criteria"]
+                specific_criterion:
+                  type: string
+                  enum: ["distinctiveness", "invariance", "evidence", "utility", "affectivity", 
+                         "coherence", "simplicity", "novelty", "repetition", "publicity", 
+                         "formality", "expressivity", "authority", "conformity", "collective-utility"]
+                strength: {type: number}
+                affected_memes:
+                  type: array
+                  items: {type: string}
+                  
+          meme_interactions:
+            type: array
+            items:
+              type: object
+              properties:
+                meme1_id: {type: string}
+                meme2_id: {type: string}
+                interaction_type:
+                  type: string
+                  enum: ["mutualism", "competition", "predator-prey", "neutral"]
+                interaction_strength: {type: number}
+                
+          evolutionary_dynamics:
+            type: array
+            items:
+              type: object
+              properties:
+                process_type:
+                  type: string
+                  enum: ["natural-selection", "variation", "lamarckian-evolution", "vicarious-selection"]
+                affected_population: {type: string}
+                time_scale: {type: string}
+                outcome_measure: {type: number}
+                
+      # Environmental and contextual factors
+      environment:
+        type: object
+        properties:
+          social_structures:
+            type: array
+            items:
+              type: object
+              properties:
+                structure_type:
+                  type: string
+                  enum: ["scale-free-network", "random-network", "clustered-network", "hierarchical"]
+                connectivity_level: {type: number}
+                information_flow_rate: {type: number}
+                
+          cultural_factors:
+            type: array
+            items:
+              type: object
+              properties:
+                factor_type:
+                  type: string
+                  enum: ["conformist-pressure", "winner-takes-all", "cultural-diversity", "polarization"]
+                strength: {type: number}
+                scope: {type: string}
+                
+          technological_mediators:
+            type: array
+            items:
+              type: object
+              properties:
+                medium_type:
+                  type: string
+                  enum: ["speech", "text", "digital-media", "mass-media", "artifacts", "behavior"]
+                transmission_fidelity: {type: number}
+                reach_capacity: {type: integer}
+                
+      # Measurement and analysis
+      metrics:
+        type: object
+        properties:
+          fitness_measurements:
+            type: array
+            items:
+              type: object
+              properties:
+                meme_id: {type: string}
+                assimilation_rate: {type: number}
+                retention_rate: {type: number}
+                expression_frequency: {type: number}
+                transmission_reach: {type: number}
+                overall_fitness: {type: number}
+                
+          empirical_studies:
+            type: array
+            items:
+              type: object
+            properties:
+              study_type:
+                type: string
+                enum: ["chain-transmission", "selection-correlation", "communicability-measurement", 
+                       "text-analysis", "field-observation"]
+              methodology: {type: string}
+              findings: {type: string}
+              statistical_significance: {type: number}
+              
+          predictive_models:
+            type: array
+            items:
+              type: object
+              properties:
+                model_type:
+                  type: string
+                  enum: ["meme-fitness-formula", "logistic-growth", "verhulst-equation", 
+                         "classifier-system", "neural-network"]
+                parameters:
+                  type: object
+                  additionalProperties: {type: number}
+                accuracy_metrics: {type: number}

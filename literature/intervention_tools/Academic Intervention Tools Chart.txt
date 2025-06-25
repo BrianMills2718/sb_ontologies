@@ -1,0 +1,304 @@
+
+Skip to main content
+Home
+Search
+
+    About DBI
+    Tools
+    Charts
+    Implementation &
+    Intervention
+    Training
+    Special
+    Topics
+    Resource
+    by Audience
+    News
+    & Events
+
+View Other Charts
+Academic Intervention Tools Chart
+
+This tools chart presents information about academic intervention programs. The following four tabs include information and ratings on the technical rigor of the studies: (a) Quality of Design & Results, (b) Quality of Other Indicators, (c) Intensity, and (d) Additional Research
+
+The chart includes information and ratings on the quality of research studies about different interventions, not ratings on the interventions themselves. The ratings are about study quality only. Additional columns on the chart describe the effect sizes, or results, for those studies. Users are expected to review the study quality ratings and effect size information together when interpreting the chart.
+
+The presence of a particular tool on the chart does not constitute endorsement and should not be viewed as a recommendation. All tools that meet the criteria for review are posted on the chart, regardless of results. The chart represents all tools that were reviewed, not those that were “approved.”
+
+Last updated: September 2021. Click here for a brief summary of the new and improved studies we've released.
+
+Interested in evaluating the appropriateness listed below for a specific student or students who require intervention? Click here to view our Academic Intervention Taxonomy Briefs.
+
+
+
+Legend
+Full BubbleConvincing evidence
+Half BubblePartially convincing evidence
+Empty BubbleUnconvincing evidence
+Null BubbleData unavailable
+NA   Not applicable
+Average ES
+*
+The average effect size includes at least one statistically significant individual effect size
+†
+An average effect size could not be reported because at least one individual effect size could not be calculated
+--
+No targeted (T) or broader (B) measures were submitted for this study
+
+FILTER RESULTS
+Subject
+Reading
+Mathematics
+Grade
+Pre-K
+Elementary (K-5)
+Middle School (6-8)
+High School (9-12)
+
+
+
+All
+	Title 	Study 	Study Type 	Study Design 	Average ES
+(Targeted)
+(Broader) 	Disaggregated ES
+Data Available 	Visual Analysis
+	Achieve Intervention 	Tracey & Young (2004) 	Group Design 	Unconvincing evidence 	0.09 (T)
+-- (B) 	None 	NA
+	Burst:Reading 	Dubal et al. (2012) 	Group Design 	Unconvincing evidence 	0.11* (T)
+-- (B) 	Demographic 	NA
+	Burst:Reading 	Pappas et al. (2015) 	Group Design 	Unconvincing evidence 	0.02 (T)
+0.10* (B) 	≤20th Percentile, Demographic 	NA
+	Classworks Individualized Learning Path Intervention for Language Arts 	McCollum (2022) 	Group Design 	Partially convincing evidence 	-- (T)
+-- (B) 	None 	NA
+	Cover Copy Compare 	Becker et al. (2009) 	Single Case 	Unconvincing evidence 	NA 	None 	Unconvincing evidence
+	Cover Copy Compare 	Cieslar et al. (2008) 	Single Case 	Partially convincing evidence 	NA 	None 	Partially convincing evidence
+	Cover Copy Compare 	Codding et al. (2007) 	Single Case 	Convincing evidence 	NA 	None 	Unconvincing evidence
+	Cover Copy Compare 	Cressey & Ezbicki (2008) 	Group Design 	Unconvincing evidence 	-0.27 (T)
+-- (B) 	None 	NA
+	Cover Copy Compare 	Poff et al. (2012) 	Single Case 	Unconvincing evidence 	NA 	None 	Unconvincing evidence
+	Cover Copy Compare 	Poncy et al. (2007) 	Single Case 	Partially convincing evidence 	NA 	None 	Partially convincing evidence
+	Early Numeracy Intervention Grade 1 	Bryant et al. (2011) 	Group Design 	Convincing evidence 	0.46* (T)
+0.23* (B) 	None 	NA
+	Enhanced Core Reading Instruction 	Fien et al. (2015); Smith et al. (2016) 	Group Design 	Convincing evidence 	0.43* (T)
+0.44* (B) 	≤20th Percentile 	NA
+	Failure Free Reading 	Torgesen et al. (2006) 	Group Design 	Partially convincing evidence 	0.08 (T)
+-0.03 (B) 	≤20th Percentile 	NA
+	Fast ForWord Language Series 	Miller et al. (1999) 	Group Design 	Convincing evidence 	0.59* (T)
+† (B) 	≤20th Percentile, Demographic 	NA
+	Fast ForWord Language Series 	Scientific Learning Corporation (2004) 	Group Design 	Unconvincing evidence 	0.44 (T)
+0.59 (B) 	None 	NA
+	Fast ForWord Language Series 	Slattery (2003) 	Group Design 	Partially convincing evidence 	† (T)
+† (B) 	None 	NA
+	focusMATH Intensive Intervention 	Styers & Baird-Wilkerson (2011) 	Group Design 	Convincing evidence 	0.23* (T)
+-- (B) 	None 	NA
+	Fraction Face-Off! (previously Fraction Challenge) 	Fuchs et al. (2012) 	Group Design 	Convincing evidence 	1.81* (T)
+0.92* (B) 	≤20th Percentile 	NA
+	Fusion (Whole Number Foundations Level 1) 	Clarke et al. (2013) 	Group Design 	Convincing evidence 	0.84* (T)
+0.14 (B) 	None 	NA
+	Headsprout 	Huffstetter et al. (2010) 	Group Design 	Partially convincing evidence 	† (T)
+0.90* (B) 	None 	NA
+	Headsprout 	Tyler et al. (2015) 	Group Design 	Unconvincing evidence 	† (T)
+-- (B) 	None 	NA
+	Hot Math Tutoring 	Fuchs et al. (2008) 	Group Design 	Convincing evidence 	1.15* (T)
+0.60* (B) 	None 	NA
+	Incremental Rehearsal 	Burns (2005) 	Single Case 	Partially convincing evidence 	NA 	None 	Convincing evidence
+	Incremental Rehearsal 	Burns (2007) 	Group Design 	Convincing evidence 	1.45* (T)
+-- (B) 	None 	NA
+	Incremental Rehearsal 	Codding et al. (2010) 	Single Case 	Partially convincing evidence 	NA 	None 	Convincing evidence
+	Incremental Rehearsal 	Matchett & Burns (2009) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Incremental Rehearsal 	Peterson et al. (2014) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	iRead 	Hamilton et al. (2016) 	Group Design 	Unconvincing evidence 	† (T)
+0.28 (B) 	Demographic 	NA
+	i-Ready Personalized Instruction for Mathematics 	Randal et al. (2020) 	Group Design 	Partially convincing evidence 	-- (T)
+-- (B) 	≤20th Percentile 	NA
+	i-Ready Personalized Instruction for Reading 	Randal et al. (2020) 	Group Design 	Partially convincing evidence 	-- (T)
+-- (B) 	≤20th Percentile 	NA
+	Learning Strategies Curriculum: Assignment Completion Strategy 	Hughes et al. (2002) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Learning Strategies Curriculum: Commas Strategies Program 	Schumaker, Walsh, & Deshler (2019) 	Group Design 	Convincing evidence 	-- (T)
+-- (B) 	None 	NA
+	Learning Strategies Curriculum: Essay Test-Taking Strategy 	Therrien et al. (2009) 	Group Design 	Convincing evidence 	1.64* (T)
+† (B) 	None 	NA
+	Learning Strategies Curriculum: Fundamentals in the Sentence Writing Strategy 	Bui, Schumaker, & Deshler (2006) 	Group Design 	Convincing evidence 	-- (T)
+-- (B) 	None 	NA
+	Learning Strategies Curriculum: Inference Strategy 	Fritschmann, Deshler, & Shumaker (2007) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Learning Strategies Curriculum: LINCS Vocabulary Strategy 	Harris, Schumaker, & Deshler (2011) 	Group Design 	Partially convincing evidence 	† (T)
+0.51* (B) 	None 	NA
+	Learning Strategies Curriculum: Punctuation Strategies Program 	Schumaker, Fisher, & Walsh (2019) 	Group Design 	Convincing evidence 	-- (T)
+-- (B) 	None 	NA
+	Learning Strategies Curriculum: Test-Taking Strategy 	Hughes & Schumaker (1991) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Learning Strategies Curriculum: The Word Identification Strategy 	Lenz & Hughes (1990) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Learning Strategies Curriculum: Word Mapping Strategy 	Harris, Schumaker, & Deshler (2011) 	Group Design 	Partially convincing evidence 	† (T)
+2.48* (B) 	None 	NA
+	Leveled Literacy Intervention System 	Ransford-Kaldon et al. (2010) 	Group Design 	Convincing evidence 	0.74* (T)
+0.22* (B) 	None 	NA
+	Lexia Core5 Reading 	Macaruso & Rodman (2011) 	Group Design 	Unconvincing evidence 	-- (T)
+-- (B) 	≤20th Percentile 	NA
+	Lexia Core5 Reading 	Macaruso & Walker (2008) 	Group Design 	Partially convincing evidence 	-0.11 (T)
+0.31* (B) 	None 	NA
+	Lexia Core5 Reading 	Macaruso et al. (2006) 	Group Design 	Partially convincing evidence 	-- (T)
+0.16 (B) 	≤20th Percentile, Demographic 	NA
+	Lexia Core5 Reading 	Macaruso et al. (2020) 	Group Design 	Unconvincing evidence 	0.08* (T)
+-- (B) 	≤20th Percentile 	NA
+	Lexia Core5 Reading 	O'Callaghan et al. (2016) 	Group Design 	Convincing evidence 	-- (T)
+-- (B) 	None 	NA
+	Lexia Core5 Reading 	Schechter et al. (2015) 	Group Design 	Partially convincing evidence 	0.29 (T)
+-- (B) 	≤20th Percentile, Demographic 	NA
+	Lexia Core5 Reading 	Wilkes et al. (2016) 	Group Design 	Partially convincing evidence 	-- (T)
+-- (B) 	≤20th Percentile 	NA
+	Lexia® PowerUp Literacy® 	Hurwitz (2020) 	Group Design 	Partially convincing evidence 	-- (T)
+0.20 (B) 	≤20th Percentile 	NA
+	MATH 180 	HMH (2014) 	Group Design 	Unconvincing evidence 	-- (T)
+-- (B) 	Demographic 	NA
+	Math Interactive Learning Experience (MILE) 	Kable et al. (2007); Bertrand (2009); Coles et al. (2009) 	Group Design 	Partially convincing evidence 	-- (T)
+-- (B) 	≤20th Percentile 	NA
+	Math Recovery 	Smith et al. (2007) 	Group Design 	Partially convincing evidence 	-- (T)
+-- (B) 	None 	NA
+	MindPlay Virtual Reading Coach 	Crews (2004) 	Group Design 	Unconvincing evidence 	-- (T)
+† (B) 	None 	NA
+	MindPlay Virtual Reading Coach 	Serido & Wilhelm (2006) 	Group Design 	Partially convincing evidence 	-- (T)
+0.26* (B) 	None 	NA
+	MindPlay Virtual Reading Coach 	Serido & Wilhelm (2008) 	Group Design 	Partially convincing evidence 	-- (T)
+0.04 (B) 	None 	NA
+	Number Rockets 	Fuchs et al. (2005) 	Group Design 	Convincing evidence 	0.45* (T)
+0.11 (B) 	None 	NA
+	NumberShire Level 1 	Fien et al. (2015); Smith et al. (2016) 	Group Design 	Convincing evidence 	0.17* (T)
+0.01 (B) 	None 	NA
+	Pirate Math Equation Quest 	Powell et al. (2020) 	Group Design 	Partially convincing evidence 	0.99* (T)
+-- (B) 	None 	NA
+	Pirate Math Individual Tutoring 	Fuchs et al. (2009) 	Group Design 	Convincing evidence 	4.85* (T)
+3.16* (B) 	None 	NA
+	Promoting Acceleration of Comprehension and Content Through Text (PACT) 	Swanson et al. (2017) 	Group Design 	Partially convincing evidence 	† (T)
+† (B) 	None 	NA
+	QuickReads 	Vadasy & Sanders (2008) 	Group Design 	Convincing evidence 	0.22 (T)
+0.21* (B) 	None 	NA
+	READ 180 Universal 	Hamilton et al. (2011) 	Group Design 	Convincing evidence 	-- (T)
+0.07* (B) 	None 	NA
+	READ 180 Universal 	Kim et al. (2011) 	Group Design 	Convincing evidence 	-- (T)
+† (B) 	None 	NA
+	READ 180 Universal 	Lang et al. (2009) 	Group Design 	Convincing evidence 	-- (T)
+0.03* (B) 	None 	NA
+	READ 180 Universal 	Scholastic Research (2008); White & Haslam (2005a); White & Haslam (2005b) 	Group Design 	Partially convincing evidence 	-- (T)
+† (B) 	Demographic 	NA
+	READ 180 Universal 	Sprague et al. (2011) 	Group Design 	Convincing evidence 	-- (T)
+0.20* (B) 	None 	NA
+	Read Aloud Small-Group Curriculum 	Fien et al. (2011) 	Group Design 	Convincing evidence 	† (T)
+† (B) 	None 	NA
+	Read Naturally 	Christ & Davie (2009) 	Group Design 	Partially convincing evidence 	† (T)
+-0.07 (B) 	None 	NA
+	Read Naturally 	Heistad (2005) 	Group Design 	Partially convincing evidence 	† (T)
+-- (B) 	None 	NA
+	Read Naturally 	Tucker & Jones (2010) 	Group Design 	Unconvincing evidence 	0.71 (T)
+-- (B) 	None 	NA
+	Read Right 	Scott et al. (2010) 	Group Design 	Convincing evidence 	-- (T)
+0.20* (B) 	None 	NA
+	Reading for All Learners 	Callow-Heusser & Sanborn (2016) 	Group Design 	Convincing evidence 	0.26 (T)
+-- (B) 	None 	NA
+	Reading Plus 	Reutzel et al. (2012) 	Group Design 	Unconvincing evidence 	-- (T)
+0.68* (B) 	None 	NA
+	Reading Recovery 	Center et al. (1995) 	Group Design 	Unconvincing evidence 	1.45* (T)
+0.90* (B) 	None 	NA
+	Reading Recovery 	Iversen & Tunmer (1993) 	Group Design 	Unconvincing evidence 	4.11* (T)
+† (B) 	None 	NA
+	Reading Recovery 	May et al. (2016) 	Group Design 	Convincing evidence 	† (T)
+† (B) 	None 	NA
+	Reading Recovery 	Schwartz (2005) 	Group Design 	Convincing evidence 	1.13* (T)
+† (B) 	None 	NA
+	Reflex 	Rudel (2016) 	Group Design 	Convincing evidence 	0.84* (T)
+-- (B) 	Demographic 	NA
+	Reflex 	Sarrell (2014) 	Group Design 	Partially convincing evidence 	0.58* (T)
+-- (B) 	None 	NA
+	Responsive Reading Instruction 	Denton et al. (2010) 	Group Design 	Partially convincing evidence 	† (T)
+0.40* (B) 	None 	NA
+	Responsive Reading Instruction 	Mathes et al. (2005) 	Group Design 	Partially convincing evidence 	† (T)
+† (B) 	None 	NA
+	ROOTS (Whole Number Foundations Level K) 	Clarke et al. (2011) 	Group Design 	Partially convincing evidence 	-- (T)
+0.21 (B) 	None 	NA
+	ROOTS (Whole Number Foundations Level K) 	Clarke et al. (2015) 	Group Design 	Convincing evidence 	0.75* (T)
+0.34* (B) 	None 	NA
+	ROOTS (Whole Number Foundations Level K) 	Clarke et al. (2020) 	Group Design 	Convincing evidence 	0.81* (T)
+0.25* (B) 	≤20th Percentile 	NA
+	Seeing Stars: Symbol Imagery for Phonological and Orthographic Processing in Reading and Spelling  	Bell, Hungerford et al. (n.d) 	Group Design 	Partially convincing evidence 	0.49* (T)
+0.19* (B) 	None 	NA
+	Seeing Stars: Symbol Imagery for Phonological and Orthographic Processing in Reading and Spelling  	Bell, Worthington, et al. (n.d) 	Group Design 	Unconvincing evidence 	0.54* (T)
+0.03 (B) 	None 	NA
+	Seeing Stars: Symbol Imagery for Phonological and Orthographic Processing in Reading and Spelling  	Christodoulou et al. (2017) 	Group Design 	Partially convincing evidence 	-- (T)
+-- (B) 	None 	NA
+	Seeing Stars: Symbol Imagery for Phonological and Orthographic Processing in Reading and Spelling  	Huber et al. (2018) 	Group Design 	Unconvincing evidence 	† (T)
+-- (B) 	None 	NA
+	Seeing Stars: Symbol Imagery for Phonological and Orthographic Processing in Reading and Spelling  	Romeo et al. (2017) 	Group Design 	Partially convincing evidence 	† (T)
+† (B) 	Demographic 	NA
+	Sound Partners (1-3) 	Vadasy et al. (2005) 	Group Design 	Partially convincing evidence 	0.80* (T)
+-- (B) 	None 	NA
+	Sound Partners Kindergarten 	Vadasy & Sanders (2008) 	Group Design 	Partially convincing evidence 	0.22* (T)
+0.39 (B) 	None 	NA
+	Sound Partners Kindergarten 	Vadasy & Sanders (2010) 	Group Design 	Convincing evidence 	0.76* (T)
+0.40* (B) 	None 	NA
+	Sound Partners Kindergarten 	Vadasy et al. (2006) 	Group Design 	Convincing evidence 	-- (T)
+-- (B) 	≤20th Percentile 	NA
+	Spring Math 	Codding et al. (2016) 	Group Design 	Partially convincing evidence 	0.52 (T)
+0.14 (B) 	≤20th Percentile 	NA
+	Spring Math 	VanDerHeyden et al. (2015) 	Group Design 	Convincing evidence 	0.68* (T)
+0.10 (B) 	≤20th Percentile, Demographic 	NA
+	SRSD for Writing Strategies 	Graham et al. (2005) 	Group Design 	Partially convincing evidence 	† (T)
+-- (B) 	None 	NA
+	SRSD for Writing Strategies 	Harris et al. (2006) 	Group Design 	Partially convincing evidence 	† (T)
+-- (B) 	None 	NA
+	SRSD for Writing Strategies 	Lane et al. (2011) 	Group Design 	Convincing evidence 	0.72* (T)
+0.80* (B) 	None 	NA
+	Stepping Stones to Literacy 	Nelson et al. (2010) 	Group Design 	Convincing evidence 	† (T)
+0.20 (B) 	None 	NA
+	Stepping Stones to Literacy 	Nelson, Benner, & Gonzalez (2005) 	Group Design 	Convincing evidence 	† (T)
+† (B) 	None 	NA
+	Stepping Stones to Literacy 	Nelson, Stage, Epstein, & Pierce (2005) 	Group Design 	Convincing evidence 	0.82* (T)
+† (B) 	None 	NA
+	Strategic Math Series: Partial Products 	Flores & Milton (2020) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Strategic Math Series: Standard Algorithm 	Flores & Hinton (2019) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Strategic Math Series: Standard Algorithm 	Flores, Hinton, & Schweck (2014) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Strategic Math Series: Standard Algorithm 	Flores, Hinton, & Strozier (2014) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Structured Supplemental Spelling Instruction 	Graham et al. (2002) 	Group Design 	Partially convincing evidence 	† (T)
+† (B) 	None 	NA
+	System 44 Next Generation 	Beam et al. (2011) 	Group Design 	Partially convincing evidence 	0.14* (T)
+0.02 (B) 	None 	NA
+	System 44 Next Generation 	Beam et al. (2012) 	Group Design 	Convincing evidence 	† (T)
+0.18* (B) 	None 	NA
+	Taped Problems 	Bliss et al. (2010) 	Single Case 	Convincing evidence 	NA 	None 	Partially convincing evidence
+	Taped Problems 	Cressey & Ezbicki (2008) 	Group Design 	Unconvincing evidence 	0.03 (T)
+-- (B) 	None 	NA
+	Taped Problems 	Krohn et al. (2012) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Taped Problems 	McCallum & Schmitt (2011) 	Single Case 	Convincing evidence 	NA 	None 	Partially convincing evidence
+	Taped Problems 	McCallum et al. (2004) 	Single Case 	Convincing evidence 	NA 	None 	Partially convincing evidence
+	Taped Problems 	Poncy et al. (2007) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Tutoring Buddy 	DuBois et al. (2014) 	Group Design 	Partially convincing evidence 	0.74* (T)
+0.87* (B) 	None 	NA
+	Tutoring Buddy 	DuBois et al. (2016) 	Single Case 	Partially convincing evidence 	NA 	None 	Convincing evidence
+	Tutoring Buddy 	Volpe et al. (2011) 	Single Case 	Partially convincing evidence 	NA 	None 	Partially convincing evidence
+	Visualizing and Verbalizing for Language Comprehension and Thinking 	Burke et al. (2005) 	Group Design 	Unconvincing evidence 	0.56* (T)
+0.51* (B) 	None 	NA
+	Words Their Way: Word Study In Action Developmental Model 	Eddy et al. (2011) 	Group Design 	Convincing evidence 	0.11 (T)
+0.00 (B) 	None 	NA
+
+The National Center on Intensive Intervention publishes this chart to assist educators and families in becoming informed consumers who can select intervention programs that best meet their individual needs.
+
+The Center's Technical Review Committee (TRC) on Academic Intervention independently established a set of criteria for evaluating the scientific rigor of studies demonstrating the efficacy of instructional intervention programs. The TRC rated each submitted study against these criteria but did not compare it to other studies on the chart. The presence of a particular program on the chart does not constitute endorsement and should not be viewed as a recommendation from either the TRC on Academic Intervention or the National Center on Intensive Intervention.
+
+Follow Us
+
+American Instutites for Research
+
+1400 Crystal Drive, 10th Floor
+Arlington, VA 22202
+Supported by U.S. Department of Education
+Office of Special Education Programs
+
+Ideas That Word
+IDEAs that Work
+
+About Us
+
+Contact Us
+
+Disclaimer
+
+Accessibility
+
+Privacy Policy

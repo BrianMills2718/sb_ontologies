@@ -1,0 +1,346 @@
+citation: "Fernandez, M. E., Ruiter, R. A. C., Markham, C. M., & Kok, G. (2019). Intervention Mapping: Theory- and Evidence-Based Health Promotion Program Planning: Perspective and Examples. Frontiers in Public Health, 7, 209. doi: 10.3389/fpubh.2019.00209"
+
+annotation: "Intervention Mapping (IM) is a systematic, theory- and evidence-based framework for health promotion program planning that provides a step-by-step protocol for intervention development, implementation, and evaluation. The framework incorporates participatory planning, eclectic use of theory, and ecological/systems approaches to address health problems at multiple levels through community-based participatory research methods."
+
+model_type: "property_graph"
+
+rationale: "The Intervention Mapping framework is best represented as a property graph model because it describes a complex system of interconnected processes, stakeholders, determinants, methods, and outcomes. The framework involves relationships between multiple entities (behaviors, environmental conditions, determinants, methods, applications, stakeholders) that form a network of causal and procedural connections across six sequential but iterative steps."
+
+schema_blueprint:
+  title: "Intervention Mapping Framework Schema"
+  description: "A comprehensive schema modeling the Intervention Mapping framework for theory- and evidence-based health promotion program planning, including all six steps, core processes, theoretical foundations, and implementation components."
+  
+  root_properties:
+    nodes:
+      description: "Represents core entities in the Intervention Mapping framework including steps, processes, stakeholders, determinants, methods, theories, and outcomes"
+      item_type: "Entity"
+    edges:
+      description: "Represents relationships between IM entities including sequential processes, causal relationships, method-determinant linkages, and stakeholder interactions"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Framework Components
+    - name: "intervention-mapping"
+      category: "theoretical-framework"
+      description: "A systematic framework for theory- and evidence-based health promotion program planning that provides step-by-step guidance for intervention development, implementation, and evaluation"
+      
+    - name: "logic-model-problem"
+      category: "core-construct"
+      description: "Step 1 of IM: Detailed understanding of health problem, population at risk, behavioral and environmental causes, and determinants of these conditions"
+      
+    - name: "logic-model-change"
+      category: "core-construct"
+      description: "Step 2 of IM: Description of desired behavioral and environmental outcomes, performance objectives, and change objectives through matrix creation"
+      
+    - name: "program-design"
+      category: "core-construct"
+      description: "Step 3 of IM: Selection of theory- and evidence-based behavior change methods and translation into practical applications"
+      
+    - name: "program-production"
+      category: "core-construct"
+      description: "Step 4 of IM: Organization and production of intervention components, materials design, and pilot testing"
+      
+    - name: "implementation-plan"
+      category: "core-construct"
+      description: "Step 5 of IM: Development of strategies for program adoption, implementation, and maintenance"
+      
+    - name: "evaluation-plan"
+      category: "core-construct"
+      description: "Step 6 of IM: Planning of process and outcome evaluation to assess program implementation and effectiveness"
+      
+    # Core Processes
+    - name: "core-process-brainstorming"
+      category: "process"
+      description: "Involving representatives from target population, stakeholders, and implementers in collaborative planning"
+      
+    - name: "core-process-literature-review"
+      category: "process"
+      description: "Searching empirical literature for determinants of behavior or environmental conditions"
+      
+    - name: "core-process-theory-application"
+      category: "process"
+      description: "Identifying and applying pertinent theories on determinants that influence behaviors and environments"
+      
+    - name: "core-process-research"
+      category: "process"
+      description: "Conducting qualitative and quantitative research to explore unanswered questions"
+      
+    # Foundational Perspectives
+    - name: "participatory-planning"
+      category: "theoretical-perspective"
+      description: "Emphasis on equity in decision-making and community/stakeholder engagement in all phases of planning"
+      
+    - name: "eclectic-theory-use"
+      category: "theoretical-perspective"
+      description: "Framework for incorporating multiple theories during intervention planning to provide comprehensive explanations"
+      
+    - name: "ecological-systems-approach"
+      category: "theoretical-perspective"
+      description: "Recognition that environmental conditions may have stronger impact on behaviors than individual factors"
+      
+    # Key Constructs
+    - name: "performance-objective"
+      category: "core-construct"
+      description: "Sub-behaviors that specify what target population or environmental agents need to do to accomplish desired behaviors or environmental changes"
+      
+    - name: "change-objective"
+      category: "core-construct"
+      description: "Specific learning and change outcomes that result from combining performance objectives with determinants in a matrix"
+      
+    - name: "determinant"
+      category: "core-construct"
+      description: "Factors that influence risk behaviors and problematic environmental conditions contributing to health problems"
+      
+    - name: "behavior-change-method"
+      category: "core-construct"
+      description: "Technique for changing a behavioral determinant of an individual or environmental agent, with specific parameters for effectiveness"
+      
+    - name: "practical-application"
+      category: "core-construct"
+      description: "Specific strategy that delivers a theoretical method in a way that fits the needs of the priority group and program setting"
+      
+    - name: "environmental-condition"
+      category: "core-construct"
+      description: "Social and physical environmental factors that influence individual behaviors and health outcomes"
+      
+    # Stakeholder Categories
+    - name: "priority-population"
+      category: "stakeholder-type"
+      description: "Target group for intervention who experience the health problem or engage in risk behaviors"
+      
+    - name: "program-implementer"
+      category: "stakeholder-type"
+      description: "People responsible for program delivery including organizational leaders and direct service providers"
+      
+    - name: "environmental-agent"
+      category: "stakeholder-type"
+      description: "Individuals or organizations responsible for making changes in environmental conditions"
+      
+    - name: "planning-group"
+      category: "stakeholder-type"
+      description: "Collaborative team including community members, stakeholders, experts, and practitioners involved in intervention development"
+      
+    # Theoretical Foundations
+    - name: "social-cognitive-theory"
+      category: "theoretical-framework"
+      description: "Theory emphasizing reciprocal interaction between behavior, personal factors, and environment, including constructs like self-efficacy"
+      domain: ["behavior-change-method"]
+      range: ["determinant"]
+      
+    - name: "precede-proceed-model"
+      category: "theoretical-framework"
+      description: "Planning model for health promotion that forms the foundation for IM Step 1 logic model development"
+      
+    - name: "social-determination-theory"
+      category: "theoretical-framework"
+      description: "Theory focusing on how social context influences individual behavior and health outcomes"
+      
+    - name: "social-comparison-theory"
+      category: "theoretical-framework"
+      description: "Theory explaining how individuals evaluate themselves relative to others in their social environment"
+      
+    # Implementation Science Components
+    - name: "adoption"
+      category: "implementation-stage"
+      description: "Initial decision and commitment to use an intervention program"
+      
+    - name: "implementation"
+      category: "implementation-stage"
+      description: "Active delivery and execution of intervention program components"
+      
+    - name: "maintenance"
+      category: "implementation-stage"
+      description: "Sustained use and continuation of intervention program over time"
+      
+    - name: "implementation-strategy"
+      category: "core-construct"
+      description: "Systematic approach to facilitate program adoption, implementation, and maintenance in specific contexts"
+      
+    # Methods and Applications
+    - name: "modeling"
+      category: "behavior-change-method"
+      description: "Method effective when reinforced and observers have adequate self-efficacy, identify with model, and observe coping rather than mastery model"
+      
+    - name: "goal-setting"
+      category: "behavior-change-method"
+      description: "Method effective when selected goal is challenging but attainable"
+      
+    - name: "fear-arousal"
+      category: "behavior-change-method"
+      description: "Method requiring high self-efficacy expectations about behavior for effectiveness"
+      
+    - name: "persuasive-communication"
+      category: "behavior-change-method"
+      description: "Method for addressing personal determinants like outcome expectations and self-efficacy"
+      
+    - name: "tailoring"
+      category: "behavior-change-method"
+      description: "Method for customizing intervention content to individual characteristics and needs"
+      
+    - name: "entertainment-education"
+      category: "practical-application"
+      description: "Strategy combining entertainment with educational content to deliver behavior change methods"
+      
+    - name: "behavioral-journalism"
+      category: "practical-application"
+      description: "Strategy using journalistic approaches to deliver health behavior change content"
+      
+    # Evaluation Components
+    - name: "process-evaluation"
+      category: "evaluation-type"
+      description: "Assessment of program implementation including reach, dose, fidelity, and participant satisfaction"
+      
+    - name: "outcome-evaluation"
+      category: "evaluation-type"
+      description: "Assessment of program efficacy or effectiveness in achieving behavioral and health outcomes"
+      
+    - name: "pretesting"
+      category: "evaluation-method"
+      description: "Assessment of comprehension, attractiveness, acceptance, believability, motivation, and preliminary effectiveness of intervention materials"
+      
+    # Multilevel Intervention Levels
+    - name: "individual-level"
+      category: "intervention-level"
+      description: "Targeting personal determinants, knowledge, attitudes, skills, and self-efficacy of individuals"
+      
+    - name: "interpersonal-level"
+      category: "intervention-level"
+      description: "Targeting social relationships, family, friends, and peer influences on behavior"
+      
+    - name: "organizational-level"
+      category: "intervention-level"
+      description: "Targeting institutional factors, policies, and organizational culture that influence behavior"
+      
+    - name: "community-level"
+      category: "intervention-level"
+      description: "Targeting community norms, social capital, and environmental factors that influence health"
+      
+    # Quality Assurance
+    - name: "cultural-relevance"
+      category: "quality-criterion"
+      description: "Ensuring intervention materials and approaches are appropriate for target population's cultural context"
+      
+    - name: "theory-fidelity"
+      category: "quality-criterion"
+      description: "Maintaining adherence to theoretical method parameters when translating to practical applications"
+      
+    - name: "stakeholder-engagement"
+      category: "quality-criterion"
+      description: "Meaningful involvement of community members and stakeholders throughout planning process"
+      
+    # Methodological Innovations
+    - name: "ciber-approach"
+      category: "methodological-tool"
+      description: "Confidence Interval-Based Estimation of Relevance approach for selecting determinants using diamond plot visualization"
+      
+    - name: "implementation-mapping"
+      category: "methodological-extension"
+      description: "Application of IM specifically for developing implementation strategies for evidence-based programs"
+      
+    - name: "health-promotion-interweaving"
+      category: "methodological-approach"
+      description: "Integration of environmental context considerations into intervention design through indigenous development approaches"
+      
+    # Relationships
+    - name: "sequential-relationship"
+      category: "relationship"
+      description: "Ordered progression from one IM step to the next, though process is iterative"
+      domain: ["logic-model-problem", "logic-model-change", "program-design", "program-production", "implementation-plan", "evaluation-plan"]
+      range: ["logic-model-problem", "logic-model-change", "program-design", "program-production", "implementation-plan", "evaluation-plan"]
+      
+    - name: "method-determinant-link"
+      category: "relationship"
+      description: "Matching theoretical behavior change methods to specific determinants they are designed to influence"
+      domain: ["behavior-change-method"]
+      range: ["determinant"]
+      
+    - name: "theory-method-connection"
+      category: "relationship"
+      description: "Connection between theoretical frameworks and specific behavior change methods derived from them"
+      domain: ["theoretical-framework"]
+      range: ["behavior-change-method"]
+      
+    - name: "stakeholder-engagement-relationship"
+      category: "relationship"
+      description: "Active involvement of different stakeholder types in planning process activities"
+      domain: ["planning-group"]
+      range: ["priority-population", "program-implementer", "environmental-agent"]
+
+  json_schema:
+    $schema: "http://json-schema.org/draft-07/schema#"
+    title: "Intervention Mapping Framework Model"
+    type: "object"
+    properties:
+      nodes:
+        type: "array"
+        items:
+          $ref: "#/$defs/Entity"
+      edges:
+        type: "array"
+        items:
+          $ref: "#/$defs/NaryTuple"
+    $defs:
+      categories:
+        enum: [
+          "theoretical-framework", "core-construct", "process", "theoretical-perspective",
+          "stakeholder-type", "implementation-stage", "behavior-change-method", 
+          "practical-application", "evaluation-type", "evaluation-method", 
+          "intervention-level", "quality-criterion", "methodological-tool", 
+          "methodological-extension", "methodological-approach", "relationship"
+        ]
+      theoretical_frameworks:
+        enum: [
+          "intervention-mapping", "social-cognitive-theory", "precede-proceed-model",
+          "social-determination-theory", "social-comparison-theory"
+        ]
+      im_steps:
+        enum: [
+          "logic-model-problem", "logic-model-change", "program-design",
+          "program-production", "implementation-plan", "evaluation-plan"
+        ]
+      core_processes:
+        enum: [
+          "core-process-brainstorming", "core-process-literature-review",
+          "core-process-theory-application", "core-process-research"
+        ]
+      foundational_perspectives:
+        enum: [
+          "participatory-planning", "eclectic-theory-use", "ecological-systems-approach"
+        ]
+      key_constructs:
+        enum: [
+          "performance-objective", "change-objective", "determinant",
+          "behavior-change-method", "practical-application", "environmental-condition",
+          "implementation-strategy"
+        ]
+      stakeholder_types:
+        enum: [
+          "priority-population", "program-implementer", "environmental-agent", "planning-group"
+        ]
+      implementation_stages:
+        enum: ["adoption", "implementation", "maintenance"]
+      behavior_change_methods:
+        enum: [
+          "modeling", "goal-setting", "fear-arousal", "persuasive-communication", "tailoring"
+        ]
+      practical_applications:
+        enum: ["entertainment-education", "behavioral-journalism"]
+      evaluation_types:
+        enum: ["process-evaluation", "outcome-evaluation"]
+      evaluation_methods:
+        enum: ["pretesting"]
+      intervention_levels:
+        enum: [
+          "individual-level", "interpersonal-level", "organizational-level", "community-level"
+        ]
+      quality_criteria:
+        enum: ["cultural-relevance", "theory-fidelity", "stakeholder-engagement"]
+      methodological_tools:
+        enum: [
+          "ciber-approach", "implementation-mapping", "health-promotion-interweaving"
+        ]
+      relationships:
+        enum: [
+          "sequential-relationship", "method-determinant-link", "theory-method-connection",
+          "stakeholder-engagement-relationship"
+        ]

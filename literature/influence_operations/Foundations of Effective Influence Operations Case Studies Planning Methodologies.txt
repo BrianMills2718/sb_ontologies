@@ -1,0 +1,825 @@
+A Review of Planning Methodologies for
+Influence Operations1
+Introduction
+The U.S. Army’s extensive involvement in counterinsurgency and
+counterterrorism operations in Iraq and Afghanistan has stimulated an
+increasing interest in the service in the field of influence operations. In
+theaters where operational success is heavily dependent on acquiring a
+measure of support from the civilian population, influence operations
+can increase the chances of mission success while at the same time
+reducing both casualties and the size of the U.S. force required. In this
+study, we have defined influence operations as
+the integrated and synchronized application of national dip-
+lomatic, informational, military, and economic capabilities in
+peacetime, crisis, conflict, and postconflict to foster attitudes,
+behaviors, or decisions by foreign target audiences that support
+U.S. objectives.
+If influence operations are to be used by the U.S. Army success-
+fully across a range of opponents and contingencies, effective and estab-
+lished tools and methodologies will be needed to ensure that influence
+operations planning and execution takes into account the campaign’s
+1 This appendix was written by Brian Nichiporuk.
+156 Foundations of Effective Influence Operations
+objectives, the enemy’s capabilities, the means available for delivering
+messages, and the cultural context. These tools also must anticipate
+the possible “cascading consequences” of the various messages sent to a
+specific target audience.
+This appendix explores the suitability of four planning approaches
+for influence operations. We first describe the strategies-to-tasks (STT)
+planning approach, which is in wide use within the U.S. Army. Next,
+we describe effects-based operations (EBOs), an approach that is cur-
+rently the subject of a great deal of interest in the world of joint opera-
+tions. We next describe assumption-based planning (ABP), a strategic
+planning approach developed at RAND. Next, we present a metrics-
+based approach that was developed by RAND in the course of its work
+for the Army on IO in Operation Iraqi Freedom that combines ele-
+ments of capabilities-based planning (CBP), STT-based planning, and
+EBOs into a new methodology that, like EBOs, focuses on outcomes
+and that we believe could improve planning and assessment in influ-
+ence operations in all phases and levels of war. Finally, we describe
+CBP, which does not address military campaign planning, per se, but
+can be used for longer-term capability development planning.
+STT-Based Planning
+STT-based planning is well suited to the Army’s planning processes. It
+allows for broad dissemination of a commander’s strategy and objec-
+tives, and it directs planners to execute tasks in support of them. The
+Army has developed extensive doctrine and distinct capabilities to sup-
+port top-down planning and tasking processes of the kind that STT-
+based planning requires. Although the Army might prefer an exclusively
+STT-based planning cycle, especially for traditional combat operations
+defined in terms of fire and maneuver, this top-down approach is not
+particularly well suited to influence operations. Such operations must
+span various phases of war—peacetime, crisis, major combat, postcon-
+flict; and they are often conducted, simultaneously, at multiple levels of
+war—strategic, operational, tactical, and technical. STT-based plan-
+ning can be improved by making it less rigid and more flexible in envi-
+a review of planning Methodologies for Influence Operations 157
+sioning or responding to alternative outcomes not originally planned
+or intended.
+A capabilities-based approach such as that of STT-based plan-
+ning, however, falters when systems are asked to accomplish tasks for
+which they were not designed. In the context of IO, for example, spe-
+cific capabilities are housed in specific disciplines, which tends to limit
+the tasking and use of both the capabilities and the disciplines. Take a
+look at PSYOP. It is a discipline within the arsenal of IO capabilities.
+It is also generally associated with the production and dissemination
+of leaflets, but in reality, anyone can print and drop leaflets. Moreover,
+other disciplines also “own” specific message-sending capabilities: spe-
+cial technical operations, electronic warfare, PA, CA, to name several.
+Properly understood and defined, PSYOP’s true “capability” inheres
+in the purposeful, informed, even expert crafting of targeted messages
+and the selection, among a wide range of media, of the best way to
+deliver those messages.
+When developing a military plan on the basis of STT planning,
+planners seem prone to—i.e., they tend to think in terms of—assign-
+ing specific tasks to particular disciplines first and associating capa-
+bilities with those disciplines second, rather than thinking in terms of
+capabilities per se first, much less combined arms and joint approaches
+to achieving overall campaign objectives. In contrast, planners could
+be encouraged to focus on overarching capabilities and suites of dis-
+ciplines that can work together to achieve commonly desired objec-
+tives—e.g., overall campaign objectives. EBOs, for example, are based,
+in part, on envisioning specific outcomes that are supposed to result
+from achieving such objectives—i.e., on defining intended results in
+advance. Hence, they seem well suited to helping planners think from
+the outset in terms of outcomes and alternative means of reaching those
+outcomes.
+Effects-Based Operations
+Although both the concept and the terminology of EBOs have been
+widely disseminated throughout the Air Force and the joint commu-
+158 Foundations of Effective Influence Operations
+nity, the Army has been less eager to embrace this planning meth-
+odology. Comfortable with its existing STT-based approach to plan-
+ning, and ever mindful of the unpredictability of the battlefield, the
+Army is understandably wary of a process that enthusiasts claim will
+resolve all war planning issues for the commander. However, as more
+and more organizations began adopting EBO methods and adapt-
+ing some EBO concepts to existing planning processes, the Army has
+begun to reexamine the approach and investigate its utility in planning
+for the employment of various Army capabilities, including for influ-
+ence operations. Not much has been written specifically about EBOs
+and influence operations, but some work can be found on EBOs and
+IO. In addition, more-general documents make it possible to suggest a
+potential EBO approach to influence operations.
+As demonstrated in Iraq, combat operations do not necessarily
+have a definite beginning (e.g., Operation Southern Watch evolved into
+what was virtually an all-out air campaign) and a clear-cut end (e.g.,
+the continuing insurgency in Iraq). Likewise, peace operations, or other
+“noncombat” operations, including transitional or nation-building
+operations, require constant reassessment of the effects of simultane-
+ous, on-going, and targeted operations on a “battlefield” that includes
+civilian and military objectives. EBOs certainly seem to address situ-
+ations common to such fluid battlefields—to deal with circumstances
+in which commanders operating in an adversary’s environment seek to
+achieve multiple objectives by employing a wide array of capabilities. A
+process such as EBOs, which are based on intended effects or desired
+outcomes, also makes sense for conducting influence operations, which
+are conducted in all phases and at all levels of war (from peacetime
+through postconflict and from the strategic through the operational
+and tactical to the technical levels).
+EBOs add an important element to the traditional precombat
+planning phase common to STT approaches by associating specif-
+ically desired effects or expected outcomes with each of the mili-
+tary objectives to be achieved. This approach is somewhat similar to
+the development of multiple enemy courses of action in the Army’s
+military-decisionmaking planning process. How the EBO approach
+differs from military-decisionmaking planning-process treatment of
+a review of planning Methodologies for Influence Operations 159
+enemy courses of action is in envisioning and prescribing the behavior
+that blue forces want red forces to exhibit. For example, if a military
+objective seeks to “compel capitulation of enemy forces,” EBOs would
+require an expected outcome to be stipulated, such as “40% of enemy
+commanders capitulate with their units intact.” EBOs then attempt to
+outline the different possible effects needed to reach that stated goal.
+Each effect is analyzed against available capabilities and resources;
+plans for achieving the effects intended are developed accordingly. So
+instead of starting with the objective and assigning tasks to specific
+capabilities based on a commander’s understanding of enemy options,
+EBOs start with the objective, outline desired enemy behavior, develop
+several options for inducing the behavior effects intended, and then
+assign suites of resources to accomplish those effects.
+Table D.1 seeks to illustrate the EBOs’ basic approach by apply-
+ing it to the military objective “defeat or compel capitulation of
+enemy forces” in the context of influence operations and information
+operations.
+The table shows possible main effects for Tier 1 targets and possi-
+ble indirect effects for Tier 2 targets. Specific actions and their possible
+intended and unintended effects could include the following:
+Target: commanders•
+Action 1: PSYOP message to commander—surrender by– x time
+(or y event) or be attacked
+Desired effect: Commander surrenders unitï
+Undesired effect: Commander does not surrenderï
+Action– 2: Physical attack of commanders, units, logistics, infra-
+structure, C2
+Desired effect: Commander surrenders unitï
+Undesired effects: Commander does not surrender; physicalï
+attack causes others to fight
+Repeat actions 1 and 2.•
+160 Foundations of Effective Influence Operations
+Table D.1
+EBOs and Influence and Information Operations Applied to a Specific
+Military Objective: Defeat or Compel Capitulation of Enemy Forces
+Tier Targets Targets Capabilities Desired Effects
+1. Main effects Commanders pSYOp Commander surrenders
+unit
+Military units physical attack Individuals surrender
+2. Indirect
+effects
+Command and
+control nodes
+physical attack attacks on these
+targets help convince
+commanders and
+individuals to
+surrender
+Intelligence assets pSYOp
+Logistics physical attack
+Infrastructure physical attack
+radio broadcasts Electronic warfare
+radio facilities physical attack
+nOtE: the capabilities are those needed to produce the desired effect.
+Figure D.1 presents the Air Force’s view of the basic principles of
+EBOs. Instead of a linear, top-down, planning process, EBOs approach
+planning as a continuous, cyclical process of planning, execution, and
+assessment.
+As for the STT-based approach, the EBO approach calls for pre-
+combat planning and planning during operations. Where EBOs differ
+from STT-based planning is in their emphasis on outcomes and on
+progress during operations, as opposed to STT-based planning’s tradi-
+tional practice of conducting postcombat assessments. The following
+are the two main drawbacks to EBO planning: (1) many effects are
+not easy to anticipate and (2) resources are limited; hence, planners
+often have to fall back on those capabilities that happen to be avail-
+able. EBOs also require military objectives that are clear, well defined,
+and logical; in an uncertain political environment, such objectives can
+sometimes prove hard to obtain.
+a review of planning Methodologies for Influence Operations 161
+Figure D.1
+Air Force View of EBOs’ Basic Principles
+RAND MG654-D.1
+The Effects-Based Approach—Basic Principles
+Plan—Employ—Assess
+Intelligence/battlespace
+awareness feeds the
+entire process
+Anticipatory assessment
+for further planning
+• Predictive evaluation
+of operations
+• “Where are we going?”
+• “Where do we need
+to go?”
+Integrity—Service—Excellence
+Evaluation of
+outcomes and
+progress
+• Tactical
+• Operational
+– JFC
+– Component
+• Strategic (national)
+Planning before operations begin
+• Objectives
+• Courses of action
+• Schemes of maneuver
+• Specific effects
+• Plans (OPLANs, JAOPs, etc.)
+Planning during
+operations
+• Branch and sequel planning
+• Campaign phase transitions
+• Strategy redirection
+Planning execution
+and ongoing battle
+rhythm
+• AOD, MAAP, ATO
+• Execution (unit level)
+• Actions and effects
+Intelligence/
+battlespace
+awareness
+Planning
+Assessment Employment
+The main strength of EBOs, however, lie in their assignment of
+specifically defined outcomes to particular military objectives. This
+emphasis draws planners away from STT-based planning’s more tradi-
+tional emphasis on performing tasks and moves them in the direction
+of working together to accomplish a shared set of specific goals. Instead
+of thinking of influence or information operations from a purely STT
+point of view (based on traditional disciplines and their associated
+assumptions of effectiveness against particular targets), EBOs turn the
+planning process around to focus first on what influences the red force
+decisionmaking; then they envision a set of undesirable effects that
+red forces are seeking to avoid. Second, EBOs focus on creating an
+operational environment through coordinated kinetic and nonkinetic
+“events” that will put red forces into the most disadvantageous position
+possible. Events are then sequenced to create an “effect.”
+For example, blue operations may land forces on the battlefield.
+Coordinated with this landing would be an information operations
+162 Foundations of Effective Influence Operations
+campaign announcing the landing, discrediting the leadership, and
+offering safe passage to enemy commanders. These messages could also
+be sequenced and coordinated with blue force maneuver operations.
+Indicators can be developed for use by blue forces, such as “red forces
+are leaving their positions,” or “red forces are abandoning arms,” to
+help provide evidence that either red forces have accepted conditions
+for surrender or they have deserted. Evidence for each indicator can
+be analyzed as it is collected. Such evidence provides data for assess-
+ing the effectiveness of the actions of blue forces. Assessment involves
+a combination of indicators—indicators of performance and indicators
+of effectiveness—in addition to an overall assessment of how long it
+will take to achieve the military objectives being pursued.
+Assumption-Based Planning
+Introduction
+One tool that has been used for more than a decade in long-range
+Army programmatic planning is ABP. 2 Developed at RAND in the
+early 1990s, ABP was originally geared toward assisting the Army as
+it shaped itself to meet the massive uncertainties in the external envi-
+ronment created by the end of the Cold War. Below we discuss if and
+how ABP can help the Army to better plan and prepare for influence
+operations.
+The discussion is organized into four parts. Each part, in sequence,
+attempts to answer an important question about ABP and influence
+operations. The four questions we will explore are as follows:
+What are the basic precepts of ABP?•
+Who should use ABP as a planning tool for influence•
+operations?
+When should ABP be used to support the planning of influence•
+operations?
+How should ABP be employed to support influence operations?•
+2 The basic primer on assumption based planning is Dewar et al., 1993.
+a review of planning Methodologies for Influence Operations 163
+What Are the Basic Precepts of ABP?
+ABP differs from other planning methodologies in that it does not seek
+to build a completely new plan for an organization or to develop a set
+of future environments with associated probabilities to guide organi-
+zational planning. ABP is a high-level tool that tries to help military
+organizations make necessary modifications to their existing strate-
+gic plan by carefully drawing out, examining, and critiquing the key
+assumptions that underlie the strategic plan. If some of these assump-
+tions prove to be vulnerable, the plan is modified to take into account
+the possibility that some assumptions may fail, which would expose
+the organization to external factors for which it is not prepared. ABP
+is directed toward “ends-uncertain” planning as opposed to “means-
+uncertain” planning. In other words, it is most helpful when redefining
+or confirming the goals and objectives of an organization as opposed
+to modifying the mechanisms an organization should use to achieve a
+set of fixed goals and objectives. Also, ABP is of limited usefulness in
+doing planning with unconstrained resources; if an organization wants
+to use ABP, it needs to provide some estimate of the resource levels
+allocated to each given strategic goal or objective.
+The end product of ABP is a modification of the existing strate-
+gic plan through the employment of hedging and shaping actions. The
+former are actions that seek to buffer the organization against the pros-
+pect of failed critical assumptions, while the latter seek to proactively
+change the organization or the external environment so that neither is
+exposed to vulnerable assumptions about the future.
+In specific terms, ABP as a complete process unfolds in five stages
+(Dewar et al., 1993, pp. xii–xv). First, the critical assumptions that
+underlie an organization’s plans have to be determined and explic-
+itly stated. This is not a trivial process: Most complex organizations,
+including the Army, do not lay out the assumptions that undergird
+their modernization, mission, and campaign plans because so many of
+the assumptions are implicitly understood by the senior and middle-
+ranking echelons and are not perceived as needing enunciation. Other
+assumptions are not stated because most of those in the rest of the orga-
+nization are unaware that they support major plans and objectives; no
+one takes the time to dig deeply enough to reach those assumptions.
+164 Foundations of Effective Influence Operations
+Second, ABP requires that the analyst identify which of the criti-
+cal assumptions are vulnerable. An assumption is deemed to be vul-
+nerable if an element of change in the external environment is deemed
+to be both significant and working in conflict with the assumption. A
+vulnerable assumption is one that, should it fail, would force the orga-
+nization to rework itself and its goals. An assumption can be violated
+in more than one way.
+After the analyst identifies vulnerable assumptions, the third
+phase of ABP is the definition of “signposts.” Signposts are indicators
+that tell the organization how a vulnerable assumption is faring as time
+passes. Is it moving closer to being violated or is it holding up? Sign-
+posts need to be written clearly because any element of vagueness in a
+signpost could cause an organization to realize too late that the associ-
+ated assumption is failing.
+The fourth and fifth phases of ABP are dedicated to the formu-
+lation of shaping and hedging actions, respectively. As noted earlier,
+shaping actions are those designed to proactively influence the envi-
+ronment so that an assumption will not fail or, if it does, the organiza-
+tion will not be affected by it. In some cases, shaping actions may even
+work to cause a vulnerable assumption to fail so that the organization
+can minimize uncertainty and rework itself so that this assumption is
+removed from its planning. Hedging actions, on the other hand, are
+more reactive. They accept that the organization does not have the
+power or will to influence the vulnerability of certain assumptions, so
+the organization must take action to insulate itself as best as possible to
+minimize the impact that an assumption’s failure will have on its goals
+and objectives.
+Although ABP should ideally unfold in the above sequence, it
+does not have to. The creators of ABP allow that only steps 1 and 2
+absolutely have to occur in sequence. Steps 3, 4, and 5 may occur in
+parallel or in a different sequence if necessary.
+Who Should Use ABP As a Planning Tool for Influence Operations?
+In the U.S. military, there are many planning staffs and headquarters
+involved in every military operation. If influence operations are deter-
+mined to be an important part of a prospective or ongoing contin-
+a review of planning Methodologies for Influence Operations 165
+gency, which level(s) in the military hierarchy should be conducting
+the planning for them?
+Clearly, since ABP deals with ends-uncertain planning, it is best
+employed at the most senior levels of an organization. The middle and
+lower echelons of a complex organization are almost always focused
+on means-uncertain planning and thus would have great difficulty
+in using ABP for their purposes. Thus, when using ABP to test and
+modify the Army’s modernization plan, for example, ABP should be
+the province of the Army Chief of Staff and his three-star deputies for
+operations, intelligence, personnel, etc. However, influence operations
+take place in active military theaters, so the set of people who should
+lead planning efforts for influence operations is different.
+In planning for the use of influence operations in an ongoing
+or prospective contingency, the two staffs most appropriate for the
+role are likely the Joint Staff’s J-3/J-5 sections and the J-3/J-5 sections
+of the unified command responsible for the theater in question (e.g.,
+CENTCOM, the Pacific Command, etc.) These two staffs could work
+together to use ABP to determine what the desired effects of influence
+operations in a given contingency ought to be. Should influence oper-
+ations be used merely to increase good will toward American forces
+among local civilians or should they be used more aggressively to turn
+enemy decisionmakers, military units, or insurgent factions against one
+another through the use of disinformation and deception? The Joint
+Staff would take the lead in determining what fraction of the U.S. mili-
+tary’s global PSYOP, information warfare, and civil affairs resources
+should be applied to a given influence operation campaign, while the
+unified command planners would take the lead on the specific selection
+of target audiences, or “centers of gravity,” (COGs) for the influence
+operations campaign. This process would involve intensive interaction
+with the intelligence community as well as the J-2 division of the uni-
+fied command. The unified command would also work to determine
+the regional political implications (good or bad) of a given influence
+operations campaign.
+ABP for influence operations should not be done at the numbered
+army, joint task force, corps, or brigade level. The planners at these
+echelons should be focused on determining the means appropriate to
+166 Foundations of Effective Influence Operations
+execute the influence operations plan that has been crafted by the Joint
+Staff and the unified command headquarters. These echelons should
+focus on such elements as appropriate message delivery mechanisms
+and specific message content. If the operational and tactical echelons
+of a deployed force start using ABP to prepare influence operations,
+the result will be great confusion over goals and objectives, and U.S.
+forces will likely find themselves in a situation in which individual
+units undertake influence operations that are at cross-purposes with
+one another.
+When Should ABP Be Used to Support the Planning of Influence
+Operations?
+Figure D.2 suggests that ABP is most useful at the strategic planning
+level. What the figure adds to the discussion is a portrait of which
+phases of conflict are most appropriate to the use of ABP for support-
+ing influence operations. The figure lays out four phases of a contin-
+gency: peacetime, crisis, conflict, and postconflict. As we can see from
+the figure, only two of the boxes are filled in as being appropriate for
+the use of ABP: peacetime and postconflict.
+The reason for this coding is straightforward. ABP is not a short-
+time-cycle process; it requires a fair amount of time and thought to
+complete an ABP cycle. In fact, the authors of ABP themselves argue
+that ABP is more useful the longer the time horizon of the planner is.
+ABP is too cumbersome for employment in the crisis action planning
+atmosphere that characterizes crisis and major combat (Phases 2 and 3).
+In contrast, Phase 1 offers more time in which to deeply reflect on an
+existing influence operations plan and pinpoint its vulnerable assump-
+tions. During peacetime, analysts working for the relevant high-level
+staffs can do interviews and carefully examine the influence opera-
+tions parts of existing operational plans (OPLANs) for the purpose of
+identifying critical assumptions. They can look for elements of change
+a review of planning Methodologies for Influence Operations 167
+Figure D.2
+Matrix of Levels of Planning Versus Conflict Phases
+RAND MG654-D.2
+Operational
+Levels of
+planning
+Conflict phases
+Tactical
+Strategic
+PostconflictPeacetime ConflictCrisis
+Technical
+= ABP relevance
+in the given area of operation that would make certain assumptions
+vulnerable and interact with intelligence analysts and area specialists
+to prepare a list of signposts for the vulnerable assumptions. Finally,
+once hedging and shaping actions are developed by analysts in peace-
+time, there will be an opportunity to meet with the senior leadership of
+the Joint Staff and the unified command to prepare an action plan to
+modify the influence operations parts of the main OPLANs. This com-
+plete process would likely take at least a few months, time that simply
+would not be available in crisis or wartime.
+ABP can be used in stability and support operations, but only
+under certain conditions. ABP would be suitable to influence opera-
+tions at this time only when trends are starting to emerge that indicate
+that the postconflict period in a given country is not going as the U.S.
+national leadership envisioned. ABP is not necessary if the postconflict
+period is proceeding just as planned. ABP would also not be useful if
+the unexpected trends have proceeded to the point at which they are
+generating a crisis (e.g., a major spike in guerrilla attacks), because at
+that point those senior planners who have the authority to make ABP
+168 Foundations of Effective Influence Operations
+work will be distracted and unavailable. For example, to take a con-
+crete historical case, ABP would have been useful in support of sta-
+bility and support operations in Iraq in the July–October 2003 time
+period, when the insurgency was beginning to develop as a persistent
+feature of the situation and it became clear that the rank-and-file Iraqi
+government bureaucracy had disintegrated and could not be put back
+together for the purpose of restoring basic public services. Before July,
+it simply would have been too early to see these trends. After October
+2003, insurgent violence began reaching a level at which senior plan-
+ners at CENTCOM probably became fully absorbed in crisis action
+planning and would not have had the time to support a serious ABP
+exercise.
+In the event that ABP is desired during the sort of situation the
+United States faced in Iraq in late 2003, the planning sequence would
+have to be done by a special outside cell with full authority from the
+Joint Chiefs of Staff to make and implement its hedging and shaping
+actions at the unified command in question.
+How Should ABP Be Employed to Support Influence Operations?
+Now that we have seen which actors should use ABP to support influ-
+ence operations during certain conflict phases, we must examine how
+ABP should actually be used to support the “nuts and bolts” of influ-
+ence operations.
+Our research suggests that effective influence operations seem to
+share six common elements. They
+are aimed at specific desired effects•
+are directed against key target audiences•
+are mindful of the characteristics of those audiences•
+use an effective combination of information channels (i.e., pam-•
+phlets, Web sites, satellite TV, billboards, text messaging, etc.)
+have compelling message characteristics•
+provide timely feedback on effects.•
+In our view, ABP would be most useful in modifying the first two
+elements in influence operations plans. It may have some limited util-
+a review of planning Methodologies for Influence Operations 169
+ity in modifying elements three and four and it will have virtually no
+ability to provide help with elements five and six.
+Since ABP is a tool for modifying strategic influence operations
+plans in peacetime and in certain parts of stability and support opera-
+tions, it really has to focus on the desired effects and the key macro
+audiences to be targeted. After all, ABP is a tool for ends-uncertain
+planning, and the last four elements have to do more with the means
+of an influence operations campaign than the ends.
+As far as effects are concerned, ABP can help to improve an influ-
+ence operations plan by uncovering assumptions about desired effects
+that are vulnerable and could cause unintended consequences. For
+example, if the United States is targeting a multiethnic country that is
+effectively ruled by one minority ethnic group, an influence operations
+plan may focus on turning key members of the dominant ethnic group
+against the current regime by promising them certain positions of polit-
+ical power after they help overthrow the current regime. The assump-
+tion underlying this plan is that the other ethnic groups in the country
+will be quiet and accept this change of regime passively. However, an
+ABP cycle may show that the other ethnic groups would be angered by
+this U.S. focus on the politically dominant group and would perceive
+Washington as being biased against them. Thus, the disenfranchised
+ethnic groups might turn against U.S. troops when they enter the
+country. ABP could produce a modified influence operations module
+that would extend political carrots to leaders of the politically excluded
+ethnic groups as well. ABP can show that certain desired effects are
+based on narrow thinking that may omit key variables, or even that
+certain effects might actually be counterproductive. An example of the
+latter case might be a situation in which an influence operations plan
+seeks to foment fighting among different units in an enemy’s army.
+This plan might have short-term benefits during the combat phase, but
+if the result of this plan is the destruction of the enemy army, then there
+may be problems in stability and support operations since some parts of
+the enemy army might be useful in helping U.S. troops restore order in
+the immediate aftermath of the conflict. The complete collapse of the
+enemy army might force the United States to keep more troops than
+170 Foundations of Effective Influence Operations
+anticipated in the country during stability and support operations, thus
+weakening our ability to respond to other contingencies.
+In terms of key target audiences, ABP can help to modify influ-
+ence operations plans to take into account the most recent intelligence
+information on the political situation in the target country. In opaque
+authoritarian regimes, such as those in Iran or North Korea, purges and
+shifts in lines of authority are common, with the dictator or the dicta-
+tor’s circle constantly seeking to remove any potential threats. These
+realignments need to be taken into account when influence operations
+planners select key COGs for their OPLAN modules. Not only could
+the influence of certain established COGs rise and decline, but some
+altogether new COGs could arise in these kinds of political systems.
+ABP is a tool that could be helpful in modifying influence operations
+plans because these new COGs will probably increase the vulnerability
+of certain assumptions in the current influence operations plans. In
+semiauthoritarian states, the role of the mass public as a COG could
+wax and wane as elections are variously held, cancelled, and/or nulli-
+fied over time.
+Conclusions
+ABP appears to have some potential utility in supporting strategic-level
+influence operations, especially during peacetime and stability and sup-
+port operations. It is most useful to influence operations when used at
+strategic command staff levels during peacetime and “tipping points”
+in the postconflict period. It could not support influence operations
+planning during crisis or wartime, nor would it be helpful at the opera-
+tional or tactical echelons of command. In terms of actual application
+to theater influence operations planning, ABP would be most valuable
+to the U.S. military if it were focused on modifying those elements of
+influence operations that have to do with determining ends as opposed
+to means—i.e., determining desired effects and picking the key target
+audiences or COGs—that exist in a target state or nonstate actors.
+ABP would have little to no value in helping to modify those elements
+of an influence operations plan that deal with audience characteristics,
+appropriate information channels, correct message characteristics, and
+day-to-day feedback.
+a review of planning Methodologies for Influence Operations 171
+A Metrics-Based Approach to Planning Influence
+Operations
+In work for the U.S. Army’s Combined Arms Center, RAND devel-
+oped a planning approach that builds upon STT-based planning and
+EBOs and links the development of influence and information opera-
+tions tasks and their assessment to overall military campaign objectives
+by developing measures of performance, measures of effectiveness, and
+measures for expected outcomes. Larson et al. discuss this topic in a
+forthcoming monograph.
+Capabilities-Based Planning for Influence Operations
+Capability Development
+Although it does not address campaign planning, one tool that could
+have some relevance in influencing operations capability development
+is CBP.3 CBP as a formal methodology gained favor with the Office
+of the Secretary of Defense early in the tenure of Defense Secretary
+Donald Rumsfeld and has been a strong force in both of the Qua-
+drennial Defense Reviews conducted during the Rumsfeld era. The
+Secretary and his aides saw CBP as a mechanism that could accelerate
+the transformation of the American military into a leaner, more agile,
+and more rapidly deployable force in the post-9/11 and post–Operation
+Iraqi Freedom security environment. We are seeking to determine if
+and how CBP can help the Army to better prepare for and execute
+influence operations in a range of diverse future contingencies that
+involve conventional, irregular, disruptive, and catastrophic threats.
+This section is organized into four parts. Each part, in sequence,
+attempts to answer an important question about CBP and influence
+operations. The four questions to be investigated are as follows:
+What are the basic precepts of CBP?•
+3 The basic primer for CBP is Davis, 2002.
+172 Foundations of Effective Influence Operations
+When should CBP be used to support the planning and/or execu-•
+tion of influence operations?
+Who should use CBP as a planning tool or execution aid for influ-•
+ence operations?
+How exactly should CBP be employed to support the application•
+of influence operations?
+What Are the Basic Precepts of CBP?
+Unlike the previously examined tool of assumption-based planning,
+CBP does not seek to modify an already existing organizational plan.
+Instead, it seeks to develop from scratch a set of new, high-priority capa-
+bilities that will enable a military organization to meet the demands of
+an uncertain security environment by positioning it to perform accept-
+ably across a whole portfolio of different plausible scenarios. CBP is
+“planning under uncertainty to provide capabilities suitable for a wide
+range of modern day challenges and circumstances while working
+within an economic framework that necessitates choice” (Davis, 2002,
+p. xi).
+CBP can be contrasted to the “bounded threat” approach that
+dominated Pentagon planning from 1960 until the Bottom Up Review
+of the early 1990s. The bounded threat approach set up a single, detailed
+scenario with clear assumptions about timelines and the identity of
+the enemy (e.g., nearly simultaneous major theater wars with Iraq and
+North Korea) and built a force made up of divisions, air wings, and
+carrier battle groups to deal with that threat. Other scenarios that
+might emerge were treated as lesser included cases that could be dealt
+with by subsets of the large force that was developed to handle the
+clear, bounded threat scenario. CBP sees this approach as myopic and
+obsolete in the environment of the 21st century. Instead of using mili-
+tary units as building blocks, CBP employs capability modules. And,
+instead of using complete wars as benchmarks for generating forces, it
+uses specific operational challenges that could exist within several dif-
+ferent conflict scenarios. CBP is based on the principle that the only
+thing we know for sure is that we will not be able to predict where our
+forces will be deployed next, so it is not fruitful to stake our force pos-
+ture on any single scenario, no matter how demanding it may be.
+a review of planning Methodologies for Influence Operations 173
+CBP as a formal methodology unfolds in three major steps. First,
+there is a survey of capability needs. The analyst begins this phase by
+positing a wide range of scenarios that the U.S. military might have to
+confront in the next 5–15 years. This list could include scenarios such
+as the following: “defeat a North Korean invasion of South Korea,”
+“use early entry forces to halt an ethnic cleansing campaign in Central
+Africa,” or “seize a WMD stockpile from a terrorist group in South
+Asia.” There does not seem to be any formalized method for generat-
+ing this list nor any upper or lower limit on the number of scenarios
+that can be included. One concludes the first phase by developing a
+list of capability “outputs” or “modules” that would be needed to give
+the U.S. military the capability to perform acceptably across the port-
+folio of listed scenarios. Examples of such outputs would be the fol-
+lowing: “be able to immediately destroy critical mobile targets with
+WMD capability,” “attack and destroy terrorist strongholds,” or “halt
+an armored invasion force within 100 km of its jump-off point.” It
+is important to note that one major difference between CBP and the
+bounded threat approach is the injection of time as a variable into CBP
+modules. A number of CBP capability modules are distinguished by
+their emphasis on accomplishing a certain task early in a contingency
+because it is believed that accomplishing this mission later on would
+have only a marginally positive effect on the outcome.
+The second formal phase of CBP involves the use of mission-system
+analysis to assess the robustness of a variety of capability options across
+a given mission. The missions in this case are derived from the capabil-
+ity outputs in the previous step. The options are actually descriptions
+of system types that could be used to accomplish the mission, such
+as forces, weapons, C2, logistics, doctrine, plans, skills, readiness, etc.
+(Davis, 2002, p. xix). In order for this part of the analysis to work cor-
+rectly, the analyst needs to have good metrics for evaluating mission
+success or failure; without such metrics, it will be difficult to assess the
+capability options.
+Phase 2 of formalized CBP actually evaluates capability options
+through the use of exploratory analysis. Ideally, exploratory modeling
+tools are used to examine how mission accomplishment is influenced
+by a large number of parameters, each of which can be driven by a dif-
+174 Foundations of Effective Influence Operations
+ferent capability option. For example, to use a textbook case, the ability
+of a blue force to halt a red force armored invasion before it penetrates
+100 km into the territory of a friendly nation could be influenced by
+any of the following:
+the speed of deployment of blue tactical air forces•
+the speed of deployment of blue forces’ command, control, com-•
+munications, and computers, intelligence, surveillance, and recon-
+naissance packages
+the ability of blue forces to keep red forces from advancing at•
+more than a certain speed
+the rate at which red forces’ armored vehicles can be destroyed.•
+A number of other variables can be presented as well for this mis-
+sion. New exploratory modeling tools can tell us which of the above
+“levers” is most important in halting the invasion. We might find that,
+for a certain quality of red forces on desert terrain, the speed of deploy-
+ment of blue tactical air forces and the rate of red force attrition domi-
+nate all other variables. This result then causes the analyst to weight
+the capability options that influence those two parameters very highly
+for the part of the scenario portfolio that has to do with conventional
+warfare against armored forces.
+As one aggregates all the results across the scenario portfolio, one
+can generate a set of “panel charts” that show regions of success and
+failure for U.S. forces in each mission area. By reviewing the results of
+exploratory modeling, the analyst can find those capability options that
+do the most to shrink the area of failure in each mission area. Where
+the shrinkage is especially dramatic, a capability option can be said to
+be truly transformational and worthy of being labeled as a high-value
+item. CBP thus has a more systematic way of identifying transforma-
+tional capability packages than the old bounded threat approach did.
+Phase 3 of CBP attempts to establish funding priorities for the
+various capability options that have been tested across the scenario
+portfolio, recognizing that the budgetary environment will usually be
+constrained and force hard choices to be made among many promising
+options. CBP developers have proposed using a weighted scorecard to
+a review of planning Methodologies for Influence Operations 175
+deal with the resource scarcity problem. All of the capability options
+that are funding candidates are listed and then given an effectiveness
+score based on their performance over several categories—e.g., major
+combat operations, stability and support operations (SASO), deter-
+rence, etc. Each of these categories is weighted based on the analysts’
+view of their importance in the time frame at hand. The cost in dollars
+of purchasing the full capability option is then calculated, and a ratio
+of effectiveness per unit cost is produced for each option. The higher
+the ratio, the more valuable the given option ought to be. The valid-
+ity of these ratios of course is dependent on how accurate the analysts’
+weighting factors are.
+When Should CBP Be Used to Support the Planning and/or
+Execution of Influence Operations?
+CBP is mainly useful for planning Army-wide influence operations
+capabilities over the long term, say, 5–20 years into the future. It would
+have no utility for planning for or helping execute influence operations
+use in any specific near- or far-term contingency. In this respect, it dif-
+fers from ABP, which does have some utility for individual scenario
+planning.
+CBP would potentially be useful in supporting Army contribu-
+tions to a Quadrennial Defense Review or U.S. Army strategic plan-
+ning guidance development exercise. It could lay out a list of desired
+influence operations capabilities that the Army would like to have to
+cover the scenario space provided to the service by OSD. Streamlined
+versions of CBP could also be used to help shape the focus of the influ-
+ence operations modules in some of the strategic war games that are
+run by TRADOC or the Army War College and in some of the future
+technological requirements studies that are done by the Army’s various
+analytical organizations. Another possibility is that CBP could be used
+to inform influence operations mission area inputs that may be pro-
+vided to a regional combatant commander by the Army service com-
+ponent command.
+176 Foundations of Effective Influence Operations
+Who Should Use CBP As a Planning Tool or Execution Aid for
+Influence Operations?
+CBP would be an appropriate long-range influence operations planning
+tool for senior programmers and force developers on the Army Staff
+who have responsibility for preparing the Army program out beyond
+the immediate Program Objective Memorandum cycle. It would seem
+that the G-8 division of the Army Staff would be the lead agency in
+any effort to use CBP to help determine the influence operations capa-
+bility modules required by the service in that time frame. G-8 could
+be ably assisted by the G-2 and G-3 directorates of the Army Staff in
+any such exercise. G-2 could furnish intelligence estimates on a spec-
+trum of future threats that would help G-8 to better understand and
+pinpoint the vulnerability, or lack thereof, of those threats to an Ameri-
+can use of influence operations. G-3 officers could contribute expertise
+on how influence operations might be integrated into more standard
+kinetic operations in the distant future. Elements of TRADOC, like
+the Futures Center, could also participate in a long-range exercise to
+build a cohesive Army IO program.
+Because it focuses on longer-term capability development, CBP
+would be of no real use to the Army’s operational units in their employ-
+ment of influence operations in the context of a campaign. CBP is a
+long-range capabilities development tool that does not have relevance
+to the challenges faced by operational units, either at their home bases
+or in a theater of operations. CBP does not have any real operational
+or tactical-level applications. Nevertheless, it may have some utility in
+helping the U.S. Army identify ways to improve doctrine, organiza-
+tions, training, systems, or other aspects of its Title X train-and-equip
+responsibilities, to better prepare the Army for conducting influence
+operations.
+How Exactly Should CBP Be Employed to Support the Application of
+Influence Operations?
+As hinted at above, CBP is best suited to develop the Army’s set of
+influence operations capabilities beyond the current program objective
+memorandum. In this capacity, the tool would have some utility for
+the service. However, the effect of CBP on influence operations plan-
+a review of planning Methodologies for Influence Operations 177
+ning and programming is limited by the fact that the exploratory mod-
+eling tools we now have are not very effective in assessing the battlefield
+effectiveness of influence operations in the context of a multifaceted
+campaign.
+Ideally, a comprehensive CBP exercise for the Army would include
+a mission area that was titled “Employing Influence Operations to
+Weaken Enemy Will,” and Army planners could evaluate a range of
+capability options against that mission to determine which parameters
+are most significant to mission success across a portfolio of scenarios.
+Although influence operations tends to depend heavily on software as
+opposed to hardware for successful employment, there are a number of
+physical systems for supporting influence operations that would fit well
+into standard Army “rack and stack” prioritizing exercises. Items such
+as advanced Web site and email dissemination systems, advanced satel-
+lite phones and text messaging devices, Internet telephony, and rapidly
+deployable, lightweight TV and radio transmitters are all important to
+influence operations and could easily be costed out over time by Army
+programmers. Advanced databases for gathering and fusing cultural
+intelligence and computerized SNA tools also represent a capability set
+that the Army could procure.
+The problem, as noted above, will lie in the use of exploratory
+modeling tools to determine the effectiveness of influence operations
+across a portfolio of scenarios, both conventional and irregular in nature.
+Metrics for success in influence operations are often difficult to express
+in the form of a simple number, trend, or ratio that can be produced
+readily by our available modeling tools. The inability of current combat
+models to clearly describe and evaluate the effect of different influence
+operations hardware is certainly a long pole in the tent that limits the
+utility of CBP. Some newer models that have been developed more for
+SASO than for conventional combat, such as the United Kingdom’s
+Diplomatic and Military Operations in Non-Warfighting Domain
+(Diamond) model (see Bailey, 2001), are beginning to come to grips
+with the influence operations area, but they are still in the formative
+phase. Thus, the exploratory modeling exercise that lies at the heart of
+CBP is problematic for the application of influence operations. In order
+to be run through CBP completely, an influence operations module
+178 Foundations of Effective Influence Operations
+will have to be subject to a considerable amount of expert opinion and
+subjective judgment. Perhaps lessons from influence operations in pre-
+vious campaigns could be used to inform this kind of expert opinion.
+Finally, when it comes to assessing the cost-effectiveness of differ-
+ent influence operations systems in the final phase of CBP, much will
+depend on the weight analysts accord to different types of contingen-
+cies when evaluating candidate future influence operations systems. If
+a high weight is accorded to standard major combat operations and a
+lower weight to SASO or irregular contingencies, it may be very difficult
+for most influence operations systems to achieve an effectiveness/cost
+ratio that could be regarded as having “transformational” potential.

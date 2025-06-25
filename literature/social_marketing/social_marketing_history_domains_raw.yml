@@ -1,0 +1,358 @@
+citation: "Lee, N. R., & Kotler, P. (2016). Social Marketing and Social Change: Chapter 1 - The History and Domains of Social Marketing. In Social Marketing: Changing Behaviors for Good (5th ed., pp. 2-32). Sage Publications."
+
+annotation: "This foundational chapter traces the evolution of social marketing from its dual origins in developing countries (contraceptive social marketing) and developed countries (academic marketing extension), establishing it as a systematic approach to addressing wicked problems through marketing principles applied to social change."
+
+model_type: "property_graph"
+
+rationale: "A property graph model best captures the complex network of theoretical constructs, historical developments, stakeholder relationships, problem-solving approaches, and methodological frameworks presented in this comprehensive overview of social marketing domains and evolution."
+
+schema_blueprint:
+  title: "Social Marketing History and Domains Schema"
+  description: "Comprehensive schema modeling the theoretical foundations, historical evolution, and domain applications of social marketing as presented in this foundational chapter"
+  root_properties:
+    nodes:
+      description: "Concepts, theories, methodologies, actors, problems, and domain applications in social marketing"
+      item_type: "Entity"
+    edges:
+      description: "Relationships between constructs including evolution, application, influence, and problem-solution connections"
+      item_type: "NaryTuple"
+  definitions:
+    # Core Social Marketing Constructs
+    - name: "social-marketing"
+      category: "core-construct"
+      description: "The application of marketing principles and techniques to foster social change or improvement, addressing wicked problems through systematic approaches"
+      domain: ["Social Change", "Marketing", "Public Health"]
+      
+    - name: "wicked-problem"
+      category: "core-construct"
+      description: "Complex problems that defy complete definition, have multiple stakeholders with different problem views, no final solution, and generate further issues through any attempted solution"
+      domain: ["Problem Solving", "Social Issues"]
+      
+    - name: "tame-problem"
+      category: "core-construct"
+      description: "Problems with clear causes and solutions achievable through deductive approaches, contrasted with wicked problems"
+      domain: ["Problem Solving"]
+      
+    - name: "marketing-orientation"
+      category: "core-construct"
+      description: "Systematic approach using market information generation, customer and competitor focus, and coordination across organizational functions"
+      domain: ["Marketing", "Organizational Strategy"]
+      
+    - name: "value-creation"
+      category: "core-construct"
+      description: "Process by which value is co-created through collaboration between organizations and customers rather than embedded in products"
+      domain: ["Marketing", "Service Logic"]
+      
+    - name: "service-dominant-logic"
+      category: "theoretical-framework"
+      description: "Marketing paradigm where service is the fundamental basis of exchange, value is co-created with customers, and offerings are value propositions"
+      domain: ["Marketing Theory", "Service Marketing"]
+      
+    # Historical Development Paths
+    - name: "contraceptive-social-marketing"
+      category: "historical-development"
+      description: "Early social marketing practice originating in developing countries, focusing on family planning products through commercial distribution networks"
+      domain: ["Social Marketing History", "Public Health"]
+      
+    - name: "academic-marketing-extension"
+      category: "historical-development"
+      description: "Social marketing development in developed countries through academic exploration of marketing applications to nonprofit and social issues"
+      domain: ["Social Marketing History", "Academic Development"]
+      
+    - name: "kotler-zaltman-definition"
+      category: "historical-development"
+      description: "Foundational 1971 definition: 'design, implementation, and control of programs calculated to influence the acceptability of social ideas'"
+      domain: ["Social Marketing History", "Definitional Evolution"]
+      
+    # Problem-Solving Approaches
+    - name: "authoritative-strategy"
+      category: "problem-solving-approach"
+      description: "Top-down approach where expert or authority takes on problem and others abide by decisions"
+      domain: ["Problem Solving", "Governance"]
+      
+    - name: "competitive-strategy"
+      category: "problem-solving-approach"
+      description: "Win-lose approach where stakeholders compete for power, influence, and market share"
+      domain: ["Problem Solving", "Competition"]
+      
+    - name: "collaborative-strategy"
+      category: "problem-solving-approach"
+      description: "Win-win approach with dispersed power, stakeholder behavior change, and comprehensive solutions with broad support"
+      domain: ["Problem Solving", "Collaboration"]
+      
+    - name: "abductive-reasoning"
+      category: "cognitive-process"
+      description: "Reasoning skill of imagining what could be and taking steps to make that vision reality, essential for solving puzzle-like problems"
+      domain: ["Problem Solving", "Cognition"]
+      
+    # Marketing Concepts and Strategies
+    - name: "environmental-scanning"
+      category: "marketing-method"
+      description: "Understanding the nature and extent of problems and external influences affecting intervention viability and effectiveness"
+      domain: ["Market Research", "Strategic Planning"]
+      
+    - name: "audience-segmentation"
+      category: "marketing-method"
+      description: "Identifying subgroups sharing specific characteristics useful for designing program offerings"
+      domain: ["Marketing Strategy", "Target Marketing"]
+      
+    - name: "marketing-mix"
+      category: "marketing-method"
+      description: "4Ps approach: Product (offerings), Price (costs/incentives), Place (distribution/access), Promotion (communication)"
+      domain: ["Marketing Strategy", "Program Design"]
+      
+    - name: "formative-evaluation"
+      category: "evaluation-method"
+      description: "Systematic analysis of program offerings before final development and implementation"
+      domain: ["Program Evaluation", "Research Methods"]
+      
+    - name: "process-evaluation"
+      category: "evaluation-method"
+      description: "Analysis of distribution and uptake by priority groups of program offerings"
+      domain: ["Program Evaluation", "Implementation"]
+      
+    - name: "outcome-evaluation"
+      category: "evaluation-method"
+      description: "Assessment of effects on targeted behavioral outcomes, disease, or mortality"
+      domain: ["Program Evaluation", "Impact Assessment"]
+      
+    # Marketing Schools and Influences
+    - name: "marketing-management-school"
+      category: "academic-influence"
+      description: "1950s-60s marketing discipline focusing on consumer orientation, segmentation, and marketing mix from seller's perspective"
+      domain: ["Marketing History", "Academic Development"]
+      
+    - name: "consumer-behavior-school"
+      category: "academic-influence"
+      description: "Marketing approach emphasizing psychological theories and models to understand and influence consumer decisions"
+      domain: ["Marketing Theory", "Psychology"]
+      
+    - name: "marketing-systems-school"
+      category: "academic-influence"
+      description: "Systems-based orientation to marketing issues, relevant for addressing complex public health and social issues"
+      domain: ["Marketing Theory", "Systems Thinking"]
+      
+    - name: "macromarketing"
+      category: "academic-influence"
+      description: "Analysis of how marketing systems affect society and how society affects marketing systems, beyond individual transactions"
+      domain: ["Marketing Theory", "Social Impact"]
+      
+    - name: "transformative-consumer-research"
+      category: "academic-influence"
+      description: "Research movement to benefit quality of life through understanding consumption trends and applying knowledge to solve problems"
+      domain: ["Consumer Research", "Social Impact"]
+      
+    # Exchange and Value Concepts
+    - name: "exchange-concept"
+      category: "theoretical-construct"
+      description: "Marketing foundation of value exchange between parties, debated in social marketing for intangible benefits"
+      domain: ["Marketing Theory", "Exchange Theory"]
+      
+    - name: "value-proposition"
+      category: "theoretical-construct"
+      description: "Organization's suggestion of potential value rather than delivered value, validated through customer experience"
+      domain: ["Marketing Strategy", "Value Creation"]
+      
+    - name: "value-in-use"
+      category: "theoretical-construct"
+      description: "Value created when customer uses offering, contrasted with value-in-exchange"
+      domain: ["Marketing Theory", "Service Logic"]
+      
+    - name: "co-creation"
+      category: "process"
+      description: "Collaborative value creation between organizations and customers through shared knowledge and resources"
+      domain: ["Marketing Process", "Collaboration"]
+      
+    # Organizational Types and Actors
+    - name: "ngo"
+      category: "organizational-actor"
+      description: "Non-governmental organizations including not-for-profit, civic society, voluntary groups not controlled by corporate or government interests"
+      domain: ["Organizations", "Civil Society"]
+      
+    - name: "public-sector-organization"
+      category: "organizational-actor"
+      description: "Governmental organizations involved in social marketing and public health initiatives"
+      domain: ["Organizations", "Government"]
+      
+    - name: "commercial-organization"
+      category: "organizational-actor"
+      description: "Private sector entities that may adopt marketing orientation for social good or compete with social marketing efforts"
+      domain: ["Organizations", "Private Sector"]
+      
+    # Application Domains
+    - name: "public-health-domain"
+      category: "application-domain"
+      description: "Primary application area including disease prevention, health promotion, and health behavior change"
+      domain: ["Public Health", "Health Promotion"]
+      
+    - name: "environmental-domain"
+      category: "application-domain"
+      description: "Environmental sustainability, conservation, and ecosystem protection applications"
+      domain: ["Environment", "Sustainability"]
+      
+    - name: "social-justice-domain"
+      category: "application-domain"
+      description: "Social equity, poverty alleviation, and human rights applications"
+      domain: ["Social Justice", "Human Rights"]
+      
+    - name: "financial-literacy-domain"
+      category: "application-domain"
+      description: "Education and behavior change related to financial decision-making and economic well-being"
+      domain: ["Financial Education", "Economic Behavior"]
+      
+    # Theoretical Perspectives and Criticisms
+    - name: "victim-blaming-criticism"
+      category: "theoretical-criticism"
+      description: "Charge that social marketing focuses on individual behavior change while neglecting social determinants and structural factors"
+      domain: ["Social Theory", "Criticism"]
+      
+    - name: "mass-media-fantasy"
+      category: "theoretical-criticism"
+      description: "Belief that social problems can be addressed through right message to right people at right time, criticized as oversimplified"
+      domain: ["Communication Theory", "Media Effects"]
+      
+    - name: "social-determinants-approach"
+      category: "theoretical-framework"
+      description: "Focus on broader social and environmental factors that influence health and behavior beyond individual choice"
+      domain: ["Public Health", "Social Theory"]
+      
+    - name: "social-profits"
+      category: "outcome-measure"
+      description: "Social returns and benefits achieved through social marketing programs, contrasted with commercial profits"
+      domain: ["Program Outcomes", "Social Impact"]
+      
+    # Problem Characteristics
+    - name: "multi-causality"
+      category: "problem-characteristic"
+      description: "Wicked problems having many interdependencies and multiple causal factors"
+      domain: ["Problem Analysis", "Complexity"]
+      
+    - name: "stakeholder-disagreement"
+      category: "problem-characteristic"
+      description: "Different ideas among stakeholders about what the real problem is and what the solution should be"
+      domain: ["Stakeholder Analysis", "Conflict"]
+      
+    - name: "unintended-consequences"
+      category: "problem-characteristic"
+      description: "Attempts to address wicked problems often leading to unforeseen consequences"
+      domain: ["Problem Solving", "Systems Effects"]
+      
+    - name: "chronic-policy-failure"
+      category: "problem-characteristic"
+      description: "Problems that continue despite many attempts to address them over decades"
+      domain: ["Policy Analysis", "Implementation"]
+      
+    # Success Factors and Strategies
+    - name: "shared-vision"
+      category: "success-factor"
+      description: "Common ingredient of collaboration success - ability of participants to create shared vision of future scenarios"
+      domain: ["Collaboration", "Strategic Planning"]
+      
+    - name: "eyes-wide-open-approach"
+      category: "success-factor"
+      description: "Effective program development through comprehensive data gathering and environmental scanning"
+      domain: ["Program Planning", "Research"]
+      
+    - name: "scalable-change"
+      category: "strategic-goal"
+      description: "Facilitating change across multiple levels: individuals, organizations, social networks, communities, businesses, markets, public policy"
+      domain: ["Social Change", "Systems Change"]
+      
+    # Measurement and Evaluation
+    - name: "couple-years-protection"
+      category: "outcome-measure"
+      description: "Measurement unit for contraceptive social marketing effectiveness"
+      domain: ["Public Health Metrics", "Family Planning"]
+      
+    - name: "cost-effectiveness"
+      category: "evaluation-measure"
+      description: "Comparison of program costs relative to outcomes achieved"
+      domain: ["Program Evaluation", "Economic Analysis"]
+      
+    - name: "utilization-rate"
+      category: "process-measure"
+      description: "Measure of how much program offerings are being used by target populations"
+      domain: ["Program Monitoring", "Usage Metrics"]
+      
+    # Geographic and Cultural Contexts
+    - name: "developing-country-context"
+      category: "geographic-context"
+      description: "Settings with underdeveloped commercial markets requiring innovative distribution and marketing approaches"
+      domain: ["Global Health", "Development"]
+      
+    - name: "developed-country-context"
+      category: "geographic-context"
+      description: "Settings with established commercial markets and academic institutions driving theoretical development"
+      domain: ["Social Marketing", "Academic Development"]
+      
+    # Relationships
+    - name: "evolved-from"
+      category: "relationship"
+      description: "Historical development relationship showing how one concept or practice developed from another"
+      
+    - name: "applies-to"
+      category: "relationship"
+      description: "Application relationship between methods, theories, or approaches and their target domains"
+      
+    - name: "influences"
+      category: "relationship"
+      description: "Causal relationship where one factor affects or shapes another"
+      
+    - name: "contrasts-with"
+      category: "relationship"
+      description: "Comparative relationship highlighting differences between concepts or approaches"
+      
+    - name: "addresses"
+      category: "relationship"
+      description: "Problem-solution relationship where approaches target specific issues"
+      
+    - name: "requires"
+      category: "relationship"
+      description: "Dependency relationship where one element needs another"
+      
+    - name: "leads-to"
+      category: "relationship"
+      description: "Causal sequence relationship showing consequences or outcomes"
+      
+    - name: "co-creates"
+      category: "relationship"
+      description: "Collaborative relationship in value creation processes"
+      
+    - name: "criticizes"
+      category: "relationship"
+      description: "Critical evaluation relationship between perspectives or approaches"
+      
+    - name: "supports"
+      category: "relationship"
+      description: "Endorsement or reinforcement relationship between concepts or evidence"
+
+  json_schema:
+    type: "object"
+    properties:
+      nodes:
+        type: "array"
+        items:
+          allOf:
+            - $ref: "#/$defs/Entity"
+          properties:
+            category:
+              enum: [
+                "core-construct", "theoretical-framework", "historical-development", 
+                "problem-solving-approach", "cognitive-process", "marketing-method", 
+                "evaluation-method", "academic-influence", "theoretical-construct", 
+                "process", "organizational-actor", "application-domain", 
+                "theoretical-criticism", "outcome-measure", "problem-characteristic", 
+                "success-factor", "strategic-goal", "evaluation-measure", 
+                "process-measure", "geographic-context"
+              ]
+      edges:
+        type: "array"
+        items:
+          allOf:
+            - $ref: "#/$defs/NaryTuple"
+          properties:
+            relationship_type:
+              enum: [
+                "evolved-from", "applies-to", "influences", "contrasts-with", 
+                "addresses", "requires", "leads-to", "co-creates", "criticizes", "supports"
+              ]

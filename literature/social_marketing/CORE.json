@@ -1,0 +1,48 @@
+{
+  "Entity": { 
+    "type": "object", 
+    "additionalProperties": false, 
+    "required": ["id", "label", "entityType"], 
+    "properties": { 
+      "id": { "type": "string" }, 
+      "label": { "type": "string" }, 
+      "entityType": { 
+        "type": "string", 
+        "description": "Concept | Actor | Event | Statement | Class | Property | Individual | Rule" 
+      }, 
+      "props": { "type": "object" } 
+    } 
+  },
+  "Role": { 
+    "type": "string", 
+    "enum": ["subject", "object", "attribute", "owner", "class", "property", "subClass", "superClass", "left", "right", "instance", "verb", "pattern", "rule", "warrant", "justification"] 
+  },
+  "NaryTuple": { 
+    "type": "object", 
+    "additionalProperties": false, 
+    "required": ["id", "relation", "arguments"], 
+    "properties": { 
+      "id": { "type": "string" }, 
+      "relation": { "type": "string" }, 
+      "arguments": { 
+        "type": "array", 
+        "minItems": 1, 
+        "items": { "$ref": "#/$defs/Argument" } 
+      }, 
+      "props": { "type": "object" }, 
+      "representsStatementId": { 
+        "type": "string", 
+        "description": "Links an edge to the Statement node that reifies it." 
+      } 
+    } 
+  },
+  "Argument": { 
+    "type": "object", 
+    "additionalProperties": false, 
+    "required": ["role", "entityId"], 
+    "properties": { 
+      "role": {"$ref": "#/$defs/Role"}, 
+      "entityId": {"type": "string"} 
+    } 
+  }
+}

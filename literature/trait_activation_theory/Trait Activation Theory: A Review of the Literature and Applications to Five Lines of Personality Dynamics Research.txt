@@ -1,0 +1,1392 @@
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33Annual Review of Organizational Psychology and
+Organizational Behavior
+Trait Activation Theory: A
+Review of the Literature and
+Applications to Five Lines of
+Personality Dynamics Research
+Robert P. Tett, Margaret J. Toich, and S. Burak Ozkum
+Department of Psychology, University of Tulsa, Tulsa, Oklahoma 74104, USA;
+email: robert-tett@utulsa.edu
+Annu. Rev. Organ. Psychol. Organ. Behav. 2021.
+8:199–233
+The Annual Review of Organizational Psychology and
+Organizational Behavior is online at
+orgpsych.annualreviews.org
+https://doi.org/10.1146/annurev-orgpsych-012420-
+062228
+Copyright © 2021 by Annual Reviews.
+All rights reserved
+Keywords
+trait activation, personality dynamics, situational specificity, interactionism,
+PE fit
+Abstract
+Extending interactionist principles and targeting situational specificity of
+trait–performance linkages, trait activation theory (TAT) posits personal-
+ity traits are expressed as valued work behavior in response to trait-relevant
+situational cues, subject to constraints and other factors, all operating at
+the task, social, and organizational levels. Review of 99 key sources citing
+TAT spanning 2011–2019 reveals diverse applications (e.g., bidirectional-
+ity, trait specificity, team building) and an overall 60% significance rate for
+262 TAT-based moderator effects reported in 60 of 75 empirical studies.
+Applying five key aspects of TAT (e.g., behavior/performance distinction,
+need-based motivation) to five lines of personality dynamics research (e.g.,
+personality states, self-regulation models of motivation) supports TAT as a
+vehicle for advancing understanding of within-person variability over brief
+and extended timelines. Critical research needs include personality-oriented
+work analysis, longitudinal study of trait-situation processes, trait activation
+in teams, within-job bidirectionality, and situation relevance as a unifying
+principle in advancing person–workplace fit.
+199
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33INTRODUCTION
+In the middle of the past century, as the field of psychology was coming to terms with the
+inadequacies of black-box behaviorism, it struggled to determine whether traits or situations are
+the primary sources of behavioral variance. The person–situation debate resolved in the 1970s
+in the form of person–situation interactionism (e.g., Bowers 1973, Ekehammar 1974, Endler &
+Magnusson 1976). The answer was that traits and situations, like two sides of a coin (Eysenck &
+Eysenck 1985), are inseparable: One cannot talk meaningfully about one without invoking the
+other. The debate was resolved by realizing it was fundamentally untenable.
+Years before that resolution, Guion & Gottier (1965) had summarized approximately a decade
+of personality applications in the workplace, concluding personality tests could not be recom-
+mended for predicting valued organizational outcomes. The low rates of significant effects might
+have supported a situationist position; however, anticipating the forthcoming reconciliation,
+Guion & Gottier (1965) cautioned that a trait’s value depends on the situation:
+In short, it must be concluded (as always) that the validity of any personality measure must be specifically
+and competently determined for the specific situation in which it is to be used and for the specific
+purpose or criterion within that situation. (p. 160)
+The advent of psychometric meta-analysis in the 1970s (e.g., Schmidt et al. 1979), together
+with the discovery of a relatively robust taxonomy of five major personality dimensions [the five-
+factor model (FFM): neuroticism, extraversion, openness, agreeableness, and conscientiousness
+(e.g., Tupes & Christal 1958)], permitted refined assessment of the value of personality in pre-
+dicting work outcomes. Barrick & Mount (1991) identified conscientiousness as the best overall
+predictor and the one most consistently predictive across multiple job families; extraversion was
+found to be predictive in management and sales. Notable variability in the strength and, in some
+cases, the direction of validity estimates within broad trait–job family pairings suggested untapped
+situational specificity.
+Soon afterward, Tett et al. (1991) published a meta-analysis on personality–job performance
+linkages focusing on situational specificity operationalized in terms of confirmatory versus ex-
+ploratory research strategies. Confirmatory strategies target particular trait–outcome relations
+based on job analysis, a rationale, and/or prior research, whereas exploratory cases offer no such
+foundation (essentially crap shoots). In support of situational specificity, mean validity estimates
+from the confirmatory cases were twice as strong as those from exploratory cases. Moreover, as
+expected, validity strengthened when confirmatory designs were driven by job analysis. Tett et al.
+(1999) largely replicated the original results using refined methods.
+Given personality validity estimates vary systematically within broad trait–job family and trait–
+criterion pairings (e.g., Barrick & Mount 1991) and validity is stronger where traits are selected a
+priori in light of local situational contingencies (Tett et al. 1991, 1999), it begs the question as to
+how this occurs, and, further, whether the process might be leveraged to improve the predictive
+yields from personality in work settings.
+Introduced as a principle for answering those questions, trait activation has been used fre-
+quently since publication of two introductory articles. Tett & Guterman (2000) showed trait ex-
+pressions as intentions are more consistent across situations more similarly trait relevant, and Tett
+& Burnett (2003) fleshed out a broader conceptual model. Tett et al. (2013) summarized applica-
+tions up to 2011 and expanded the model in key respects. Extending those efforts, our primary
+aims here are to (a) articulate the key features of trait activation theory (TAT) and its applications,
+(b) summarize how TAT has been used in the literature from 2011 to 2019 and its effectiveness as a
+basis for trait–outcome moderation, and (c) apply TAT in advancing dynamic personality processes
+in the workplace. We begin with a brief introduction to personality.
+200 Tett • Toich • Ozkum
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33PERSONALITY: A VERY BRIEF INTRODUCTION
+Personality captures people’s characteristic thoughts, feelings, and behaviors, allowing distinctions
+among individuals and, to varying degrees, prediction of how they will think, feel, and behave in
+the future. Individuation and prediction are critical for human survival and reproductive success.
+Who can be trusted? Who would make a good mate? They are also important in work settings
+where some job applicants, coworkers, and teammates are chosen over others as likely to perform
+well. Personality covers a broad range of individuating proclivities potentially relevant to valued
+organizational outcomes. Given increasing competition for human capital (e.g., Gardner 2005,
+Shaw et al. 2013), it is hardly surprising personality has become a popular target of organizational
+research (e.g., LePine et al. 2011, Rothstein & Goffin 2006).
+At least implicit in any understanding of personality is consideration of the situations in which
+personality plays out. Whenever people think, feel, and behave, they do so in reaction to salient
+features of their environment. Individuation and prediction, accordingly, are best framed in con-
+text: We identify people as distinct when we see them react differently to the same cues (one person
+avoids danger while another approaches it; one eagerly takes up an invitation to socialize while
+another turns it down), and our prediction of an individual’s behavior depends on the similarity of
+past and future cues. Figures are visible only against a background—so too with personality and
+situations.
+TRAIT ACTIVATION THEORY: MAIN FEATURES
+Situation Trait Relevance
+Building on early interactionist thinking (e.g., Allport 1951, Lewin 1936, Murray 1938), TAT
+considers personality traits as latent potentials to behave (think, feel 1 ) in identifiable ways (i.e., as
+indicative of one trait versus another) in response to trait-relevant situational cues. As with tools
+on a tool belt, traits are engaged when called on by the right type of situation. Someone high in
+sociability behaves sociably only when other people are available with whom to engage. In TAT
+terms, this triggering feature of situations is situation trait relevance: 2 A situation is relevant to
+a trait to the degree it offers opportunity for that trait to be expressed. Trait-relevant situations
+often have a main effect on behavior (e.g., socially engaging situations tend to increase sociable
+behavior in everyone present). Equally importantly, however, they expose individual differences
+on relevant traits: Social gatherings, better than any other type of situation, reveal who is and is
+not sociable.
+Trait relevance is a key situational feature that makes a trait observable as an individual differ-
+ence variable. Thus, when examining a given trait and its relationships with targeted outcomes,
+it is important to do so in trait-relevant situations. TAT builds on this fundamental principle in
+several key respects.
+Functional Situational Features
+Unique to TAT is its articulation of six types of trait-relevant situational features, distinguished
+by how they moderate trait–outcome relationships. Tett & Burnett (2003) identified the first five;
+Tett et al. (2013) identified the sixth.
+1 Trait expressions can include thoughts, feelings, and overt behaviors. We focus primarily on the latter because
+they are directly observable, permitting translation into work performance rated by others.
+2 Murray (1938) referred to this as press; Haaland & Christiansen (2002) call it trait activation potential, when
+operating in weak situations.
+www.annualreviews.org • Trait Activation Theory 201
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33Demands are cues, responses to which are positively valued: Meeting a demand is a good thing.
+Conversely, distracters are cues, responses to which are valued negatively. An informal gathering
+of coworkers might distract those high on sociability from completing their assigned tasks. Both
+demands and distracters are trait activators; responses to a demand yield a positive relationship
+between the activated trait and a positively valued outcome, whereas responses to a distracter yield
+a negative relationship.3
+Constraints are situational features rendering a given trait less relevant, thereby weakening the
+trait–outcome relationship. Physical distance separating a manager from subordinates constrains
+the relevance of sociability as a predictor of performance. Releasers counter constraints, operating
+as intermittent trait activators. For a physically isolated manager, a company retreat in Las Vegas
+might serve as a releaser of sociability, allowing it to correlate with relevant outcomes. A facilitator
+is uniquely multiplicative in that it enhances the salience or potency of trait-relevant cues already
+present. An ad extolling the playful opportunities in Las Vegas would amplify the sociability cues
+afforded by the retreat.
+Discretionary cues account for trait effects untethered to valued outcomes. They are related
+to the general factor of work autonomy, which itself is tied to (low) situation strength. Discre-
+tionary cues are distinct from work autonomy (and weak situations) by their alignment to specific
+traits. A production supervisor position may not require creativity for effective performance but
+might nonetheless offer opportunity for creative expression (e.g., in developing training games).
+A sales job might offer cues for altruism (e.g., to assist peers) despite altruism not being expected,
+rewarded, or punished in any way. The key here is motivation: The creative supervisor and the
+altruistic salesperson will be more engaged in meeting their respective work demands when their
+jobs offer opportunity to engage those discretionary traits. Such cues are not definitive of the job,
+yet they offer unique contributions to trait-based fit (Tett et al. 2013).
+Operational Levels
+In the workplace, the primary situational features affecting trait expression are task-level features,
+including all the day-to-day demands identified in a job description (e.g., budget preparation, fork-
+lift operation) and less overt demands (e.g., prompt attendance, rule-following), distracters, con-
+straints, etc. Social-level (alternatively, group-level or team-level) features include the behaviors
+of peers, subordinates, and superiors, as well as norms and team culture/climate. Organization-
+level features operate within organizational culture and climate (e.g., policies, reward systems).
+Notably, the levels overlap. Management, leadership, and customer service jobs, for example, in-
+clude task-level social demands. Team-based organizational cultures are similarly boundary span-
+ning. Despite the overlaps, the three levels are well recognized in other workplace literatures
+[e.g., person–environment (PE) fit (Kristof-Brown & Guay 2010)]. Personality applications in the
+workplace often target task-level effects in the context of personnel selection, where meeting job-
+specific task demands is the primary predictive aim. Social- and organization-level demands are
+increasingly targeted in personality research, expanding bases for improving personality-based fit
+in the workplace.
+Trait Expression as (Valued) Performance
+In addressing the noted bidirectionality of personality–performance relationships, TAT proposes
+that positive and negative correlations involving a given trait are distinguished by the value of the
+3 Where the outcome is negatively valued [e.g., counterproductive work behaviors (CWBs)], a distracter yields
+a positive relationship.
+202 Tett • Toich • Ozkum
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33resulting trait expression. Meta-analyses (e.g., Barrick & Mount 1991, Hough et al. 1998) have
+shown, for example, that agreeableness is positively related to performance in some managerial
+jobs and negatively related in other managerial jobs.4 Agreeableness may be activated by similar
+trait-relevant cues; what varies is whether meeting demands is facilitated or hindered by managers’
+expressed agreeableness. The behavior/performance distinction thus separates the processes of
+trait activation and performance judgment. Observers (e.g., supervisors, peers) are active players
+in trait–performance linkages, converting behavioral observations into performance evaluations
+in light of how well a given behavior meets work demands. Accordingly, demands are both key
+trait activators and reference points for performance judgment.
+Motivation
+TAT articulates four sources of trait-based work motivation. (a) Trait expression is intrinsically
+motivating as need satisfaction, akin to how drinking satiates thirst (Murray 1938). Extroverts
+seek out and respond to sociability cues because they derive pleasure from engaging others (Smillie
+2013). (b) Knowledge of performance results is motivating to the degree the worker is achieve-
+ment oriented: Performance feedback informs level of actual achievement, which is particularly
+salient to those higher on achievement need. (c) Per behaviorist reinforcement principles, trait ex-
+pressions judged by others (e.g., as job performance) confer extrinsically motivating outcomes:
+salary, praise, etc., for positive evaluations; demotion, shunning, etc., for negative evaluations.
+(d) Extrinsic motivation is elevated in workers whose traits are aligned with valued outcomes (i.e.,
+differential reward preference). The chance to be employee of the month, for example, may be
+especially motivating to an extrovert and shunning to a worker high on need for approval.
+TRAIT ACTIVATION THEORY APPLICATIONS
+TAT offers an integrated framework for investigating critical issues involving personality at work.
+The model was developed explicitly to account for the following applications.
+Proximate applications:
+1. Explicitly proposed to account for variability in personality–job performance relationships
+across situations (i.e., situational specificity), TAT promotes situation trait relevance as a
+general moderating principle (Tett & Burnett 2003; Tett et al. 1991, 1994, 1999).
+2. Bidirectionality occurs when a given trait is positively or negatively related to job perfor-
+mance depending on the work setting (Tett & Burnett 2003; Tett et al. 1991, 1994, 1999).
+Although often ignored, this special case of situational specificity is a critical consideration
+in meta-analyses of trait–outcome relations, as averaging positive and negative population
+estimates can grossly underestimate validity strength and hence the predictive value of per-
+sonality (Tett et al. 1999, Tett & Christiansen 2007).
+3. Cross-situational consistency in behavior, an elusive hallmark of stable traits, is understood
+in TAT to be a function of similarity in situation trait relevance (Tett & Guterman 2000).
+4. Work autonomy is represented in TAT in terms of trait-specific discretionary cues (Tett et al.
+2013), offering a unique basis for trait-based motivation independent of extrinsic outcomes.
+4 Meta-analyses showing this do not identify which managerial jobs yield positive versus negative correlations;
+the evidence derives from 80% credibility intervals extending in both directions. Such intervals, with weak
+mean correlations, are common for agreeableness in management (see Tett & Christiansen 2007).
+www.annualreviews.org • Trait Activation Theory 203
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:335. Dynamic interaction denotes reciprocal causation between traits and situations (Magnusson
+& Endler 1977, Weiss & Adler 1984). TAT proposes corresponding mechanisms by which
+trait expressions (as behavior) can (a) increase trait-relevant situational cues (positive feed-
+back loop) or (b) decrease them (negative feedback loop).
+Intermediate applications:
+6. Offering a trait-based approach to person–workplace fit, TAT holds that people are happier
+and perform best in jobs, groups, and organizations where they are intrinsically and extrinsi-
+cally rewarded for being themselves. By the same token, organizations prefer and are more
+successful with workers whose traits are motivating by their alignment with extant work
+demands and reward contingencies (Tett et al. 2013).
+7. Personality-oriented work analysis is a natural extension of TAT: Trait-based personnel se-
+lection should be enhanced by targeting identification of situational features (e.g., demands,
+distracters) operating at multiple levels (task, group, organization) relevant to particular
+traits and rewards (O’Neill et al. 2013).
+8. Situational taxonomies, frequently invited but rarely delivered (Rauthmann et al. 2014), are
+derivable with TAT by identifying classes of similarly trait-relevant situations (e.g., Ho &
+Gupta 2012, Parrigon et al. 2017).
+9. Construct specificity offers key predictive advantages (e.g., Kholin et al. 2016, Rojon et al.
+2015, Rothstein & Goffin 2006). TAT holds that trait-based predictions of work outcomes
+should improve with greater trait and criterion specificity because it feeds confirmatory
+precision in trait–situation linkages.
+Distal applications:
+10. TAT offers an interactionist basis for team-building: Teams should be more viable when
+members have what it takes not only to meet team task and role demands, but also to bring
+out the best work in one another via mutual trait activation [i.e., chemistry (Tett & Murphy
+2002)].
+11. Traits have been shown to play out in complex trait-by-trait interactions (e.g., Witt
+2002, Witt et al. 2004). TAT can frame those effects in light of trait-relevant situational
+complexities.
+12. TAT offers a unique approach to understanding halo bias in performance appraisal: Per-
+son A will rate person B positively on diverse dimensions to the degree B provides A the
+opportunity to express traits in positively valued ways (intrinsically and extrinsically), po-
+tentially overpowering evaluation of B’s true performance and differential assessment on
+distinct performance dimensions.
+13. Although centered on personality traits, TAT readily extends to activation of knowledge,
+skills, and abilities (KSAs),5 with the key distinction that only personality traits carry intrin-
+sic motivational force as need satisfaction (Tett et al. 2013).
+14. Finally, TAT can augment and expand application of other theories, including social-
+cognitive mechanisms involving dispositions (e.g., conscientiousness, impulsivity), social ex-
+change principles (e.g., LMX theory), as well as personality states, self-regulation (SR), and
+other processes in the context of dynamic person–situation systems.
+5 Even general cognitive ability shows situational specificity as a function of job complexity (Hunter et al.
+1990).
+204 Tett • Toich • Ozkum
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33Primary explicit
+Secondary explicit
+Minor reference
+2002
+0
+10
+20
+30
+Frequency 40
+50
+60
+2004 2006 2008 2010
+Year
+2012 2014 2016 2018
+Figure 1
+Frequencies of primary, secondary, and tertiary sources citing key trait activation theory sources by year
+since 2002.
+SUMMARY OF THE TRAIT ACTIVATION THEORY LITERATURE
+(2011–2019)
+As with Tett et al.’s (2013) review, sources for the current review were identified by tracking ci-
+tations of Tett & Guterman (2000) and Tett & Burnett (2003) in the PsycInfo database. We also
+tracked citations of Tett et al. (2013). Sources were mined independently by the three authors,
+targeting TAT’s features and applications presented above. We also tracked whether or not TAT
+is cited in direct reference to the given issue in clarifying reliance on TAT within sources citing
+it.6 Ambiguous cases in all aspects of the mining were resolved by consensus.
+The earlier search, covering 2002–2011, yielded 189 published sources citing the introductory
+articles. Of the 184 available sources, 23 (13%) targeted TAT as a main focus and another 88 (48%),
+as a secondary but explicit focus. Corresponding counts for the current search period are 389 in
+total,7 34 (9%) targeting TAT as a main focus and 65 (16%) as a secondary but explicit focus.
+Figure 1 tracks the frequencies of primary, secondary, and tertiary sources by year since 2002.
+Empirical sources outpaced conceptual sources in the earlier review by 121 (66%) to 63 (34%),
+compared to 293 (75%) versus 90 (25%) in the current review. Figure 2 shows corresponding
+frequencies by year.
+This birds-eye view suggests (a) the 2:1 ratio of empirical to conceptual applications evident up
+to 2011 (i.e., 66:34) has shifted to a 3:1 ratio more recently (i.e., 75:25); (b) the 12/48/40 propor-
+tional split in primary/secondary/tertiary citations evident up to 2011 has become a 9/16/75 split,
+showing a relative drop in primary and especially secondary applications offset by an increase in
+tertiary, mostly empirical applications; and (c) TAT citations continued an upward trajectory from
+the first review until 2015, at which point the trend reversed.8 As in the 2013 review, only those
+sources relying primarily and secondarily on TAT are summarized in detail here.
+6 Sources citing TAT directly for some issues often address other relevant issues independently of TAT.
+7 PsycInfo captures a subset of sources citing the noted articles. An April 2020 search in Google Scholar, for
+example, yielded more than 1,600 citations of Tett & Burnett (2003) for the same review period. Reliance on
+PsycInfo provided a manageable number of peer-reviewed sources and comparability to the earlier review.
+8 Google Scholar does not show a corresponding drop. The reason for the discrepancy is unclear.
+www.annualreviews.org • Trait Activation Theory 205
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33Conceptual/review
+Empirical
+2002
+0
+10
+20
+30
+Frequency 40
+50
+60
+2004 2006 2008 2010
+Year
+2012 2014 2016 2018
+Figure 2
+Frequency of source type by year since 2002.
+Situation Trait Relevance and Situational Specificity
+Sources citing TAT with respect to situational specificity of personality-outcome relations do so
+in terms of situation trait relevance. Accordingly, those concepts are combined here. Of the 99
+primary or secondary sources, 90 9 targeted situational specificity, 84 with direct ties to TAT. The
+high rate of reliance on TAT for this purpose is not surprising, given the theory’s emphasis on
+situation trait relevance. Most cases involve FFM linkages with performance in particular jobs.
+Others extend to job stages (Woods et al. 2013), assessment centers (ACs) (e.g., Melchers et al.
+2012), team settings (e.g., Heidemeier & Bittner 2012), virtual versus real-life settings (McLeod
+et al. 2014), and nonwork settings (e.g., De Fruyt & De Clercq 2014) as well as to relations in-
+volving nonperformance outcomes, such as values and work attitudes (e.g., Bergman et al. 2013),
+motivation (e.g., Woods et al. 2013), and affect (e.g., Dimotakis et al. 2012). Such breadth of ap-
+plication supports the generalizability of situation relevance as a key variable in understanding
+person–outcome linkages.
+Functional Situational Features
+Of the 99 reviewed sources, 49 identified situational features related to trait expression (e.g., de-
+mands, distracters), 42 making specific reference to TAT. Debusscher et al. (2016), for example,
+examined work pressure and task complexity as distracters for state neuroticism in predicting mo-
+mentary task performance. Bouckenooghe et al. (2013) examined job satisfaction 10 as a facilitator
+of positive affectivity relating to job performance and turnover intentions. Other studies invoked
+situational features consistent with the TAT taxonomy but without explicitly identifying it. For ex-
+ample, Chen et al. (2013) presented rule-oriented organizational culture as a mitigator of negative
+affect expression as CWB, the culture operating as a TAT constraint on negative affect.
+9 Percentages of the 99 reviewed sources are omitted because they are virtually identical to the raw frequencies.
+10 According to the researchers, more satisfied workers attend more closely to situational cues, thereby amplify-
+ing their effects. TAT, as originally proposed, does not specify psychological moderators. Below, we document
+this and other extensions of TAT separately.
+206 Tett • Toich • Ozkum
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33The 2013 review revealed reference to distinct situational features in 8% of sources. The rise
+to 50% in the current effort reflects increasing recognition of the variety of ways situations can
+affect trait expression and trait–outcome linkages. No moderator effects were observed outside
+the TAT taxonomy, suggesting the framework is comprehensive in organizing interactions by
+functional type.
+Operational Levels
+Of the 74 empirical articles, 44 (59%) applied TAT at the task level, 28 (38%) at the social level,
+and 10 (14%) at the organization level. Across all 99 reviewed sources, 40 explicitly discussed inter-
+actions as operating at one or more levels, 35 with direct reference to TAT. Fourteen targeted two
+or more levels, mostly combining task and social levels. Schmidt et al. (2012), for example, exam-
+ined the influence of team-level dissimilarity in extraversion and conscientiousness on task-level
+FFM relations with individual performance and CWBs. These studies underscore the importance
+of understanding the multi-level influence of trait expression. Choi et al. (2015) and De Fruyt &
+Wille (2013) extended trait activation to national culture, adding a fourth level.
+Separation of Behavior and Performance
+Twenty sources explicitly or implicitly distinguished performance as valued behavior, four drawing
+directly from TAT. Blickle et al. (2013), for example, articulate the trait expression/performance
+distinction in showing conscientiousness predicts task performance when professional roles trig-
+ger both learning orientation and political skill. Ten sources make the distinction implicitly, most
+in the context of bidirectionality. Most sources ignore the behavior/performance distinction, at-
+tributing value to the trait itself. Linking conscientiousness to detailed task performance does not
+require separate evaluation of conscientious behavior. Trait evaluation is a convenient heuristic
+for the trait–behavior–performance chain. Studies of bidirectionality and the active role of perfor-
+mance judges invite clearer separation under TAT.
+Bidirectionality
+Thirteen papers discussed moderation of the direction of predictor–outcomes linkages, eight tying
+such effects directly to TAT. Simonet et al. (2017), for example, reported bidirectional effects of
+dark-side traits as a function of managerial level: Reactive narcissists performing poorly as “loose
+cannons” at lower levels may be effective as “tough talkers” at upper levels (p. 245). All but one
+case of bidirectionality was reported between work settings. Xu et al. (2014) discuss bidirection-
+ality in leadership in the context of dynamic personality processes. Evidence for bidirectionality,
+whether between or within jobs, underscores concerns that meta-analyses ignoring it (e.g., Barrick
+& Mount 1991, Hurtz & Donovan 2000) underestimate the predictive power of personality due
+to cancellation of positive and negative effects (Tett et al. 1991, 1994, 1999, Tett & Christiansen
+2007).
+Trait-Based Motivation
+Intrinsic motivation from trait expression was discussed in 19 sources, 15 with direct ties to TAT.
+For example, Hirst et al. (2011) argued people high on learning goal orientation are intrinsically
+motivated to face new challenges, especially when unimpeded by bureaucracy. Fifteen sources
+cited TAT explicitly with respect to extrinsic motivation. Van Hoye & Turban (2015), for instance,
+hypothesized applicants are attracted to organizations rewarding traits they possess. Extrinsic re-
+wards can also restrict trait effects. For example, Liguori et al. (2013) suggested conscientiousness
+www.annualreviews.org • Trait Activation Theory 207
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33predicts organizational citizenship behaviors (OCBs) only where rewards are weak. No source tar-
+geted differential reward preference (Tett et al. 2013), whereby traits affect the motivational force
+of different outcomes. This remains a mostly open question from a TAT perspective.
+Cross-Situational Consistency
+Four sources cited cross-situational consistency. Christiansen et al. (2013), for example, describe
+how TAT can be used to address this in ACs, (see also Lievens et al. 2006) and Campion &
+Ployhart (2013) make a similar point with respect to situational judgment tests (SJTs). TAT
+may help address long-standing concerns regarding construct validity in ACs by holding that
+consistency across exercises (e.g., in-basket, leaderless group discussion) occurs only to the
+degree those methods activate the same traits with similar value (e.g., Haaland & Christiansen
+2002, Lievens et al. 2015). Applications of TAT to modeling behavioral consistency in other
+multi-situation assessments await empirical investigation.
+Situation Strength and Autonomy
+Situation strength was noted in 46 of the reviewed sources, making it the third most commonly
+raised issue, behind only situation trait relevance (90) and functional cue types (50). In 32 cases,
+strength was linked closely to TAT, mostly hand-in-hand with situation trait-relevance effects.
+Fulmer & Walker (2015), for example, found extroverted and less conscientious workers per-
+formed better under a piece-rate reward contingency in a weaker, unstructured task but not a
+stronger, structured task. Judge & Zapata (2015) meta-analytically compared situation trait rele-
+vance and situation strength as moderators of personality–performance linkages. Such direct com-
+parisons are not surprising, given both factors have been identified as important in understanding
+trait–situation interactions.
+Dynamic Interaction
+Six sources discuss behavioral effects of traits on situations, in three cases as part of the targeted
+trait. Proactive personality, for example, entails efforts to modify one’s environment (e.g., Li
+et al. 2011). Two sources tie dynamic interaction directly to TAT. Sung et al. (2014), for ex-
+ample, do so in terms of mutual trait activation (Tett & Murphy 2002). This process can be
+understood as involving positive and negative feedback loops (Tett & Burnett 2003) as particular
+forms of dynamic interaction; otherwise, such mechanisms have not received attention to date.
+Judge & Zapata (2015) identify trait effects on situations as targets for future meta-analytic
+research.
+Person–Workplace Fit
+Seventeen sources discussed person–workplace fit in terms of traits, eight specifically in TAT
+terms. As evident in the fit literature generally, fit was considered most often at the organizational
+level and secondarily at the social (team, group) level. Klehe et al. (2014), for example, discuss the
+evaluative implications of fit between individuals, teams, and organizations, and Dimotakis et al.
+(2012) found that negotiators high versus low on agreeableness were a better fit in integrative
+versus distributive exchanges, respectively. Notably, TAT integrates fit between the individual and
+their job, supervisor, team, and organization. Further insights into TAT’s role in person–workplace
+fit are offered by Tett et al. (2013) and at the end of this article.
+208 Tett • Toich • Ozkum
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33Personality-Oriented Work Analysis
+Two sources suggested application of TAT to personality-oriented work analysis (O’Neill et al.
+2013, generally, and Simonet et al. 2017, more specifically) to identify conditions affecting the
+expression and impact of dark personality traits in work settings. Despite the availability of relevant
+instruments (e.g., Raymark et al. 1997), researchers continue to rely on traditional work analysis,
+job descriptions, ONET, and, in many cases, job titles in identifying locally relevant traits. This
+seems a missed opportunity to capitalize on the advantages of trait-specific analyses as a refined
+confirmatory strategy (Aguinis et al. 2009; Goffin et al. 2011; O’Neill et al. 2013; Tett et al. 1991,
+1994, 1999).
+Situational Taxonomies
+TAT was cited with respect to situational taxonomies in two sources. In their meta-analysis of
+situation trait relevance and situation strength effects, Judge & Zapata (2015) identified several
+prominent situational factors based on TAT (e.g., attention to detail, independence), although the
+list is far from complete. Connelly et al. (2017) suggested situational taxonomies would promote
+trait–situation interactionist research. Such efforts are consistent with Tett & Burnett’s (2003)
+suggestion that situation trait relevance offers a promising basis for organizing diverse situational
+factors in ways directly germane to trait–situation interactions (see Parrigon et al. 2017).
+Trait Specificity
+Twelve sources considered trait specificity in trait–situation interactions, four with direct refer-
+ence to TAT. Greenbaum et al. (2017), for example, found Machiavellianism facets (e.g., amoral
+manipulation, desire for control) are differentially activated by abusive supervision in predicting
+unethical conduct and, more specifically, social undermining. The major theme in all such sources
+is that, consistent with prior reviews (e.g., Rojon et al. 2015, Rothstein & Goffin 2006), trait–
+outcome linkages are stronger and more interpretable when based on narrow trait and criterion
+pairings. Reliance on TAT for this purpose supports its use for advancing confirmatory strategies.
+Team Building
+Only two sources addressed issues relating to team building. Sung et al. (2014) used TAT to assess
+how asymmetric dissimilarities in group members’ personality traits affect OCB and task per-
+formance and how such effects vary over time. Hirst et al. (2011) urge organizations to exclude
+avoidance-oriented workers from creative teams and to decentralize and deformalize team set-
+tings, allowing learning-oriented and prove-oriented team members to flourish. Teams are com-
+posed of multiple, typically interdependent members, each with their own personality traits and
+KSAs varying in relevance to team tasks, roles, and norms. Accordingly, teamwork seems especially
+rich in opportunities for trait–situation interactions. Whether TAT or some other interactionist
+model might help frame such complexities remains largely unexplored (see Driskell & Salas 2013).
+Complex Interactions
+Seventeen sources considered interactions among multiple traits, eight relying closely on TAT
+in modeling situational moderation. Schmidt et al. (2012), for example, found conscientiousness
+predicts performance positively and CWBs negatively in groups with high core-group evaluations
+and/or mean conscientiousness, whereas extraversion predicts CWBs positively in groups with
+high mean extraversion. Simonet et al. (2017) report the interactive combination of narcissism
+www.annualreviews.org • Trait Activation Theory 209
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33and adjustment facets of dark-side personality is negatively linked to leader performance only in
+lower-level positions.
+Performance Appraisal
+Two sources used TAT to investigate the performance appraisal process. Harari et al. (2015) meta-
+analyzed relations between evaluators’ FFM traits and performance ratings under various condi-
+tions (e.g., field versus lab settings). Agreeableness proved the strongest predictor (mean ρ = 0.25
+overall, 0.33 in field settings). Such efforts are beginning to explore the performance appraisal pro-
+cess from an interactionist standpoint, but much remains unknown in this area. Halo bias seems
+a particularly worthwhile target for TAT (Tett & Burnett 2003) as a function of mutual trait acti-
+vation between raters and ratees.
+Knowledge, Skills, and Abilities Activation
+Seven sources cited TAT in support of KSA activation. For example, knowledge sharing was acti-
+vated by coworker support (Lee et al. 2015) and extrinsic reward perceptions (Wang et al. 2012).
+Farh et al. (2012) identified emotional displays in emotional labor situations as activators of emo-
+tion perception skill. Extension of TAT to activation of KSAs and other variables (e.g., motives,
+values) supports the generalizability of situation relevance beyond its application to mainstream
+personality domains.
+Complementary Theories
+Of the 99 reviewed sources, 35 combined TAT with a total of 26 other theories in framing em-
+pirical hypotheses and/or conceptual models. The three theories most commonly paired with
+TAT (each in four studies) were those of leader–member exchange (LMX), social exchange theory
+(SET), and PE fit. LMX theory (e.g., Dansereau et al. 1975) holds that leaders prefer followers of-
+fering more favorable inputs (e.g., skills, motivation) to the exchange process. Runhaar et al. (2013)
+used TAT to show how high LMX relationships constrain cues for work engagement expressed
+as organizational citizenship behavior at the organizational level. As a foundation for LMX the-
+ory, SET (e.g., Blau 1964, Gouldner 1960) holds that individuals engage others when the benefits
+exceed the costs and reciprocate when receiving desirable exchanges (e.g., norm of reciprocity).
+Haynie (2012) showed that exchange ideology (i.e., team–member exchange) activates core self-
+evaluations in predicting team performance.
+That the two theories most commonly paired with TAT focus on interpersonal exchanges
+invites more formal integration along those lines. A possible link is mutual trait activation (Sung
+et al. 2014, Tett & Murphy 2002), whereby one person’s trait expressions activate another’s traits.
+Compatibility is expected when exchange partners bring out the best in one another and avoid
+pushing one another’s buttons. The key units of exchange in this process are trait-based need
+satisfaction, driving intrinsic motivation, and valued outcomes, driving extrinsic motivation. A
+TAT rendering of LMX theory along those lines seems especially opportune.
+PE fit theory (e.g., Kristof 1996, Kristof-Brown & Guay 2010) holds that workers are matched
+to their work situations to the degree their skills and abilities meet work demands (demands–
+abilities fit) and the organization meets the worker’s needs (needs–supplies fit). Bergman et al.
+(2013) combined TAT with PE fit theory in proposing fit-driven organizational commitment de-
+rives from activation of workers’ values by relevant work events. As noted by Tett et al. (2013), per-
+sonality traits, unlike KSAs and values, contribute to fit via both needs–supplies and trait–demands
+mechanisms, making them uniquely important constructs in PE fit.
+210 Tett • Toich • Ozkum
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33Theories paired with TAT in two sources include Locke & Latham’s (1990) goal-setting theory,
+Mischel & Shoda’s (1995) cognitive–affective personality system, Holland’s (1997) vocational the-
+ory, Kelley & Thibaut’s (1978) interdependence theory, Deci & Ryan’s (2008) self-determination
+theory, and Bass’s (1985) transformational leadership theory.
+The noted 35% of reviewed sources pairing TAT with companion theories is a marked in-
+crease over the corresponding 7% of papers Tett et al. (2013) identified. This jump in theoretical
+complementarity supports the flexibility of TAT as an integrative framework.
+Trait Activation Theory Extensions
+Several sources proposed construct- or process-focused TAT extensions. Regarding constructs,
+several studies considered the situational relevance of predictors and criteria beyond the usual
+personality and performance domains. Jung & Takeuchi (2014), for example, assessed LMX mod-
+eration effects on relations between person–organization fit and work attitudes. Similarly, Neal
+et al. (2012) considered differential trait activation effects on distinct performance facets (e.g.,
+task proficiency versus adaptivity). Two studies examined situational moderators operating at the
+level of national culture (Choi et al. 2015, Holtschlag et al. 2013), above the three levels origi-
+nally proposed. Other studies examined psychological moderators, extending TAT principles be-
+yond strictly situational moderation. Oh et al. (2014), for example, describe how self-monitoring
+suppresses (i.e., constrains) expression of low agreeableness as individual-level counterproductive
+work behavior.11 This type of effect is distinct from moderation by perceived situational factors
+(e.g., judged LMX quality), which are psychologically mediated.
+Expanding on TAT processes, a few sources (e.g., Bipp & Klienbeck 2011, Debusscher et al.
+2016) advance states as short-term mediators of trait effects. Harris et al. (2016) add implicit trait
+policies and job knowledge as moderators of situational effects on trait–performance linkages in
+SJTs, further conditioning trait–outcome relationships. Building on the behavior/performance
+distinction, Lievens et al. (2015) merge TAT with Funder’s (2012) realistic accuracy model in
+showing AC construct validation requires recognition of elicited traits. Woods et al. (2013) sum-
+marize findings suggesting habitual trait activation (over years) causes shifts in population trait
+means, such that behavior affects trait standing. Similarly, Xu et al. (2014) offer case studies of
+how leader traits “evolve” by experience throughout life (e.g., mischievousness in childhood be-
+comes spirituality in later adulthood).
+The noted expansions of TAT promote insight into how personality and related variables play
+out in work settings as a function of situational and extended moderation. None challenges TAT
+in any fundamental respect, and further research will determine their theoretical efficacy.
+Personality Dynamics
+Eight sources addressed personality–situation interactions in the context of dynamic personality
+systems, six with explicit ties to TAT. Xu et al. (2014), for example, rely on TAT in advancing
+a dynamic, “evolutionary” process of leader personality change, whereby “intrinsic” traits vary
+in intensity and “extrinsic” traits are replaced based on the leader’s exposure to key situations and
+events throughout the lifetime. Several papers apply TAT to personality states (e.g., Heidemeier &
+Bittner 2012). More detailed analysis of how TAT might advance the study of personality dynamics
+is offered in the second half of the current article, following review of empirical tests of TAT-
+inspired moderation effects in work settings.
+11 Such effects might be configured as trait-by-trait interactions. Classification by moderator type (constraint
+in this case) captures the researcher’s portrayal in TAT terms.
+www.annualreviews.org • Trait Activation Theory 211
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33SUMMARY OF EMPIRICALLY TESTED TRAIT ACTIVATION THEORY
+MODERATOR EFFECTS
+Of the 75 empirical articles explicitly grounded in TAT over the current review period, 60 (80%)
+reported a total of 262 moderator effects. Results bear consideration in terms of (a) test frequen-
+cies, showing how TAT has been applied in assessing moderators, and (b) percentages of those
+tests that are statistically significant, showing where TAT has been successful. Regarding TAT
+applications, Table 1 presents test frequency percentages and corresponding interpretations for
+predictor categories (e.g., FFM traits), functional cues (i.e., moderator types), and operational
+levels. Overall, TAT has been applied (a) at all three proposed levels and further to the broader
+cultural level; (b) in terms of all six moderator types (most often demands, rarely releasers), and
+(c) to a broad variety of predictors, including not only mainstream FFM traits but also KSAs and
+other variables outside the core personality domain.
+Speaking to the success of TAT moderation effects, Table 2 presents test frequencies and per-
+centages significant per predictor category and functional cue, crossed with operational level.12
+Frequencies for moderator types other than demands were too small in many cells to permit mean-
+ingful interpretations. Accordingly, frequencies are provided per operational level for (a) demands
+only (distracters in the case of neuroticism), (b) predictor categories collapsing across moderator
+types, and (c) moderator types collapsing across predictor categories. Results are notable in several
+respects.
+First, the overall 60% significance rate is far above the nominal 5% Type I error rate, in support
+of TAT-driven moderation of predictor–outcome linkages. Second, significance rates vary across
+predictor categories (p < 0.05), ranging from 40% for compounds to 79% for emotional stability/
+neuroticism. Corresponding rates based only on demands are similarly variable, ranging from
+38% for compounds to 93% for emotional stability/neuroticism. At the task level, significance
+rates are relatively high for openness: 74% collapsing across moderator types and 81% based on
+demand effects alone. These results suggest emotional stability/neuroticism and openness may
+be particularly sensitive to situational moderation. The most relevant moderator of emotional
+stability/neuroticism relations is work stress. Stressors may be an especially salient and potent trait
+activator. Demands for creativity may be similarly evocative of openness. Among the strongest
+moderator effects in Judge & Zapata’s (2015) meta-analysis was that of demand for innovation
+on openness–performance linkages. Differential range restriction and situation strength across
+predictor classes is another possibility. Further study is needed to compare situational moderators
+regarding their trait activation potential (Haaland & Christiansen 2002).
+Third, significance rates are similar across operational levels (p > 0.50), ranging from 53% to
+65%, in support of the multi-level structure of TAT and its noted expansion to national culture
+(Choi et al. 2015, Holtschlag et al. 2013). Fourth, collapsing across operational levels and omitting
+the two releaser cases, significance rates are similar across moderator types (p > 0.20). Thus, no
+moderator type is more effective overall. However, for the 154 nonreleaser cases at the task level
+(60% of all cases), significance rates do vary across moderator types (p < 0.05), ranging from 45%
+for discretionary cues to 100% for distracters. As discretionary cues represent (trait-specific) weak
+12 All significant cases reported here are in the direction predicted by the researchers. Few, if any, of these
+hypothesized effects were assessed using one-tailed tests. Accordingly, reported hit rates may underestimate
+moderation effects. Other factors to consider are the relatively low power of moderation tests (Aguinis et al.
+2017) and possible inflation of significance rates due to publication bias. The latter factor may be counteracting
+the first two to some degree.
+212 Tett • Toich • Ozkum
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33Table 1 How has trait activation theory (TAT) been applied? Percentages of empirical tests of TAT moderator effects
+per predictor category, moderator feature, and operational level in 60 empirical studies (2011–2019)
+Targeted predictors and
+TAT features % of tests Interpretation
+Predictors
+Conscientiousness 16% The distribution of tested effects across the FFM dimensions is fairly
+even (10–16%); not surprisingly, conscientiousness was the most
+commonly targeted attribute. Frequent targeting of KSAs and
+motivational variables (21% combined) suggests situation relevance
+generalizes beyond application to personality traits alone.
+Agreeableness 11%
+Extraversion/PA 12%
+Neuroticism/NA/emotional
+stability
+10%
+Openness 11%
+Compounds 6%
+Miscellaneous personality 14%
+KSAs 6%
+Motivation 15%
+Functional cue types
+Demands 60% The commonality of demands reflects their close connection to
+performance. Combining demands and distracters yields a large
+majority (71%), consistent with TAT’s primary focus on trait
+activators. Discretionary cues account for 13% of task-level cases,
+suggesting notable reliance on TAT in modeling trait-specific work
+autonomy. Releasers are rarely assessed, understandably given their
+definition as temporary factors.
+Distracters 11%
+Constraints 13%
+Releasers 1%
+Facilitators 8%
+Discretionary cues
+(autonomy)
+8%
+Operational levels
+Task 60% Not surprisingly, most moderator effects were operationalized at the
+task level, followed by the social level. Organization-level
+moderators were relatively rare. Ten cases from two sources were
+assessed at the national culture level, expanding TAT application
+beyond the three levels originally described.
+Social 30%
+Organizational 6%
+National (new) 4%
+Predictor by operational level
+Motivation 28% (task), 59% (social) Consistent with social–cognitive models emphasizing the social nature
+of work motivation (e.g., Farmer & Van Dyne 2010), motivational
+variables were the only predictor type more commonly targeted at
+the social level than the task level (χ2= 20.63, df = 1, p < 0.0001).
+Remaining predictors 65% (task), 30% (social)
+Cue type by operational level
+Demands 64% (task), 25% (social) Test frequencies for the six moderator types vary proportionately
+between the task and social levels (χ2 = 38.42, df = 4, p < 0.0001).
+Demands, facilitators, and discretionary cues (autonomy) were more
+commonly targeted at the task level. Distracters and constraints
+tended to be modeled more distally in the social context of work.
+Distracters 38% (task), 52% (social)
+Constraints 23% (task), 57% (social)
+Facilitators 75% (task), 25% (social)
+Discretionary cues 100% (task), 0% (social)
+Abbreviations: FFM, five-factor model; KSAs, knowledge, skills, and abilities; PA, positive affectivity; NA, negative affectivity.
+situations, the lower hit rate for this moderator class supports Judge & Zapata’s (2015) meta-
+analytic results favoring situation trait relevance over situation strength.
+The main take-away is that the predictive and explanatory advantages of a given personal-
+ity trait are conditional on conceptually relevant situational and psychological factors. The value
+of personality traits, accordingly, should be assessed under trait-relevant conditions and will be
+underestimated to the degree effects are undifferentiated on trait relevance (Tett & Christiansen
+www.annualreviews.org • Trait Activation Theory 213
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33Table 2 How successful is trait activation theory (TAT) as a moderator framework? Frequencies of empirical tests of
+TAT moderator effects and percent significant by predictor category and moderator feature per operational level in
+60 empirical studies (2011–2019) a
+Predictor/situational feature
+Task level Social level
+Organizational
+level Cultural level Totals
+f % sig. f % sig. f % sig. f % sig. f % sig.
+Predictor categories collapsing across moderator features
+Conscientiousness 29 34.5% 8 87.5% 3 0.0% 2 100.0% 42 45.2%
+Agreeableness 16 37.5% 10 80.0% 1 100.0% 2 100.0% 29 58.6%
+Extraversion/PA 20 65.0% 12 33.3% 0 0 32 53.1%
+Neuroticism/NA 10 90.0% 0 3 66.7% 1 0.0% 14 78.6%
+Emotional stability 5 100.0% 5 80.0% 0 1 0.0% 11 81.8%
+Openness 23 73.9% 3 0.0% 3 33.3% 0 29 58.6%
+Compounds 11 45.5% 4 25.0% 0 0 15 40.0%
+Miscellaneous personality 24 62.5% 12 58.3% 0 0 36 61.1%
+KSAs 7 42.9% 2 100.0% 2 100.0% 4 50.0% 15 60.0%
+Motivation 11 72.7% 23 78.3% 5 80.0% 0 39 76.9%
+Predictor categories: demands only b
+Conscientiousness 20 35.0% 8 87.5% 3 0.0% 2 100.0% 33 48.5%
+Agreeableness 12 41.7% 7 85.7% 1 100.0% 2 100.0% 22 63.6%
+Extraversion/PA 13 61.5% 10 40.0% 0 0 23 52.2%
+Neuroticism/NA b 5 100.0% 0 1 100.0% 0 6 100.0%
+Emotional stability 5 100.0% 4 100.0% 0 1 0.0% 10 90.0%
+Openness 16 81.3% 1 0.0% 1 0.0% 0 18 72.2%
+Compounds 8 37.5% 0 0 0 8 37.5%
+Miscellaneous personality 18 50.0% 2 0.0% 0 0 20 45.0%
+KSAs 7 42.9% 1 100.0% 2 100.0% 2 50.0% 12 58.3%
+Motivation 1 100.0% 6 83.3% 2 100.0% 0 9 88.9%
+Moderator features collapsing across predictor categories
+Demand 100 54.0% 39 69.2% 9 55.6% 8 62.5% 156 58.3%
+Distracter 11 100.0% 15 53.3% 3 66.7% 0 29 72.4%
+Constraint 8 62.5% 20 65.0% 5 40.0% 2 50.0% 35 60.0%
+Releaser 2 100.0% 0 0 0 2 100.0%
+Facilitator 15 66.7% 5 60.0% 0 0 20 65.0%
+Discretionary cue 20 45.0% 0 0 0 20 45.0%
+Grand total 156 58.3% 79 64.6% 17 52.9% 10 60.0% 262 59.9%
+Abbreviations: KSA, knowledge, skills, and abilities; NA, negative affectivity; PA, positive affectivity.
+a All effects contributing to % sig. are in the predicted direction; 5.7% of the 262 total effects are significant in the opposite direction. % sig. likely
+underestimates true hit rates owing to reliance on two-tailed tests instead of one-tailed tests in most source studies.
+b Neuroticism effects are for distracters; the only demand case for neuroticism was non-significant at the national culture level.
+2007). Aggregating effects by broad job families and outcome classes (e.g., Barrick & Mount 1991,
+Hurtz & Donovan 2000) are steps in the right direction, but situation trait relevance further dif-
+ferentiates effects within those classes, affording greater precision in understanding how and why
+personality is linked to valued outcomes. The effects of any trait, including conscientiousness, can
+be differentially activated, constrained, released, and facilitated by situational factors operating at
+multiple levels and may be further subject to trait-specific discretionary cues. Having shown the
+214 Tett • Toich • Ozkum
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33value of TAT in advancing the role of personality in work settings, we now consider how it might
+advance the study of personality dynamics.
+TRAIT ACTIVATION THEORY AND PERSONALITY DYNAMICS
+Researchers are increasingly turning their attention to within-person variability in understanding
+personality as a dynamic system (Wille & De Fruyt 2014). Personality dynamics may be under-
+stood as “theory based, testable processes mediating changes in an individual’s thoughts, feelings,
+and behaviors in response to internal and external demands” (Tett & Fisher 2020). Focusing on
+change over time adds complexity to the study of personality, beyond that conferred by trait–
+situation interactions. Modeling such change is important in fully rendering personality effects in
+work settings as dynamic systems.
+Tett & Fisher (2020) identify five distinct but interrelated research lines on personality dy-
+namics at work: (a) dispositional change (e.g., self-monitoring), (b) person–situation interactions
+(i.e., situational specificity), (c) personality states, (d) personality and career development, and (e)
+self-regulation (SR) approaches to work motivation. They also identify five key issues framed by
+TAT relevant to within-person variability: (a) cross-situational consistency versus variability; (b)
+the behavior/performance distinction; (c) interpersonal compatibility as a function of mutual trait
+activation; (d) dynamic interaction, per positive and negative feedback loops; and (e) a need-based
+motivational system (i.e., primary intrinsic reward from trait expression, secondary intrinsic
+reward from knowledge of performance results, and differential preference for extrinsic rewards).
+Below, each research stream is considered in light of each TAT issue as a 5 × 5 matrix, summarized
+in Table 3.13 Mapping personality dynamics domains to TAT issues offers both an integration
+of diverse lines of inquiry within a parsimonious theoretical framework and identification of
+promising lines of research.
+Trait Activation Theory and Dispositional Change
+Tett & Fisher (2020) offer three examples of change-related dispositions. Neuroticism entails
+volatility in negative emotions and reactivity to threats; adaptability entails modifying one’s be-
+havior and maintaining composure in meeting variable, stressful demands; and self-monitoring
+entails deliberate manipulation of one’s observable behavior in interpersonal encounters. Other
+intrapersonal, change-related traits include functional flexibility (Lievens et al. 2018) and adven-
+turousness. Traits targeting changes to one’s environment include charisma (changing others) and
+proactive personality (changing work situations). Below, we detail how TAT might help advance
+personality dynamics involving change-related traits.
+TAT holds that behavior is consistent across situations only to the degree those situations are
+similarly trait relevant (Haaland & Christiansen 2002, Tett & Guterman 2000). Change-related
+dispositions should, accordingly, be evident over multiple change-related situations: Someone who
+repeatedly modifies their actions to meet changing demands will be identified as adaptable or flex-
+ible; one who routinely accommodates the interaction styles of diverse others will be seen as high
+on self-monitoring. Because change is the target of observation, variable surface behaviors must be
+distinguished from deeper dispositional consistencies (Dalal et al. 2020, Mischel & Shoda 1995).
+Personality dynamics deals with more than surface-level variability; however, where characteristic
+patterns of change are evident across similar situations, surface-level variability marks underlying
+consistency in dispositional change.
+13 Although Tett & Fisher (2020) set out both the five lines of personality dynamics research and the five TAT
+issues, they did not discuss their intersection as offered here.
+www.annualreviews.org • Trait Activation Theory 215
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33Table 3 Advancing personality dynamics through trait activation theory (TAT): applying five TAT topics (columns) to
+five personality dynamics subdomains (rows)
+Personality
+dynamics
+subdomain CSC versus CSV
+Behavior/performance
+distinction
+Interpersonal
+compatibility
+Dynamic interaction
+(positive and
+negative feedback
+loops)
+Three-part
+trait-based
+motivational system
+Dispositional
+change
+Surface CSV, deep
+CSC
+Change-related traits
+are especially reliant
+on outcomes.
+Change-related traits
+are especially
+relevant to
+interpersonal
+compatibility.
+Change-related traits
+are especially
+generative of
+feedback loops.
+Change-related traits
+are more
+motivational in
+dynamic
+environments.
+Person–situation
+interactions,
+situational
+specificity
+Tracking CSV
+requires tracking
+of changes in
+situation trait
+relevance.
+Bidirectionality within
+jobs, dissatisfaction
+from opposing
+trait-relevant
+demands
+Fit with team
+members
+(chemistry)
+beyond fit with
+teamwork (per se),
+team tasks, and/or
+team role
+Cross-trait activation
+chains: Trait A →
+Trait B
+Dynamic trait
+activation = dynamic
+motivation
+Personality states States as proximate
+mediators of
+short-term trait
+effects
+Momentary
+performance,
+bidirectionality of
+state effects
+Fluidity of
+interpersonal
+interactions and
+the agility of states
+versus traits
+Emotional contagion
+as a positive
+feedback loop
+States are motivational
+in the short term.
+Personality and
+career
+development
+Social investment,
+promotions,
+turnover,
+vocational
+interests
+Employment stages, the
+Peter principle
+Political skill and
+career success
+People make the
+place.
+Organizational life
+cycles
+Person–workplace fit,
+theory of work
+adjustment,
+RIASEC, ASA
+Self-regulation
+(SR)
+Traits as moderators
+of change
+mechanisms in SR
+processes
+Both SR and TAT rely
+on the behavior/
+performance
+distinction.
+Self in context, trait
+as process, process
+as trait expression
+Feedback loops
+distinct but
+compatible in SR
+and TAT
+Traits as needs
+SR and TAT share
+reliance on affect as
+the fundamental
+motivator.
+Abbreviations: ASA, attraction–selection–attrition; CSC, cross-situational consistency (in behavior); CSV, cross-situational variability; RIASEC, realistic,
+investigative, artistic, social, enterprising, conventional; SR, self-regulation.
+TAT separates behavior and performance for two reasons. First, it configures bidirectional
+(i.e., positive versus negative) trait–performance linkages as trait-expressive behavior yielding op-
+positely valued outcomes depending on work demands. Second, it isolates the role of observers
+whose evaluations convert one to the other. Change-related traits play into those processes like
+other traits: Flexibility may be positively or negatively related to observers’ evaluations of perfor-
+mance per local demands (Lievens et al. 2018). More so than other traits, however, those focusing
+on change have stronger intrinsic ties to outcomes. Self-monitoring, for example, entails adjusting
+one’s own behavioral style to accommodate others’ styles, requiring active monitoring of the ex-
+change partner as a source of feedback guiding adjustments. Flexibility similarly relies on feedback
+as a basis for adjusting to changing demands. Understanding dynamic traits is especially reliant
+on the behavior/performance distinction.
+TAT suggests people are compatible when they provide one another opportunities to express
+their traits in positively valued ways. Change-related traits lend themselves readily to this inter-
+actional process. Over brief or lengthy periods, two neurotic coworkers might reciprocate in ele-
+vating their negative affect, undermining work engagement and possibly their performance (each
+serving, in TAT terms, as a distracter for the other). The two might prefer the calming (i.e., con-
+straining) influence of a more emotionally stable teammate. And, where the neurotics heighten the
+demand for stability, the preference may be mutual. The self-monitor feeds on change, each new
+social encounter offering a fresh opportunity for accommodation. Change-oriented dispositions
+add dynamic complexity to social interactions, and TAT can help model that complexity.
+216 Tett • Toich • Ozkum
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33Behavioral effects on situations are advanced in TAT in terms of positive and negative feed-
+back loops. Two neurotics recursively triggering one another’s negative affect is understandable as
+a positive feedback loop (with typically negative outcomes); positive feedback can also occur with
+extraverts whose trait expressions invite further social engagement. Social interactions are prime
+settings for feedback loops: Arguments escalate, negotiations settle, and brainstorming sessions
+peak and subside. At a broader level, a Machiavellian leader might capitalize on organizational pol-
+itics, promoting a culture with further opportunities for selfish manipulation. Proactive workers,
+offering suggestions in a suitably supportive environment (C. Brown, unpublished information),
+can stimulate further opportunity for change. Expressing any trait can alter future trait-expression
+opportunities; change-based traits are especially generative in this respect.
+TAT holds that trait expression is intrinsically motivational. Change-based dispositions, ac-
+cordingly, should be especially motivating in dynamic jobs, groups, and cultures where cues for
+change are abundant. TAT posits further motivation from extrinsic rewards contingent on trait
+expression, especially when outcomes are trait aligned. Thus, the adventurous worker might be es-
+pecially motivated by an opportunity for an overseas placement or extended travel. Other extrinsic
+motivators relevant to those with change-related traits include increased learning opportunities
+(i.e., through training) and new assignments, coworkers, and technology. Organizations are dy-
+namic systems. Where jobs, teams, and cultures are especially dynamic, change-focused traits are
+likely to play a more prominent role in worker motivation.
+Trait Activation Theory and Person–Situation Interactions
+Person–situation interactions are the main focus of TAT, making TAT applications to personality
+dynamics in this respect somewhat redundant with earlier coverage. Going beyond the main thrust
+of TAT, however, is recognition that, as situations change over time, so too does the relevance of
+personality traits (Woods et al. 2013).
+Behavioral variability across situations is, in part, a function of changing trait-relevant cues. At
+one moment, a situation might call for attention to detail as an expression of conscientiousness,
+and at the next, for creativity as an expression of openness. Tracking changes in behavior across
+situations from a personality dynamics perspective calls for tracking of corresponding changes in
+situational features affecting trait expression and its value.
+Bidirectionality in personality–outcome linkages, evident between jobs (see Tett et al. 1999,
+Tett & Christiansen 2007), can also occur within jobs. An agreeable team leader, for example,
+might shine one minute in helping a deserving team member, but falter in the next, too easily
+accommodating an unproductive loafer. Trait expression in this case remains constant, but the
+value of that expression has changed. Should the agreeable leader manage an appropriately tough
+response to the loafer, TAT predicts they will experience dissatisfaction (Christiansen et al. 2014).
+Furthermore, if the demand for toughness becomes routine, the agreeable leader might seek a
+more agreeable job (in both senses of that term). Behavioral consistency yielding variable per-
+formance and behavioral variability yielding consistent but possibly dissatisfying performance are
+predictable only by separating trait-expressive behavior from its value as performance.
+Interpersonal relationships are fluid: The nature of a given dyad, group, or team evolves over
+very brief to extended intervals. TAT offers to clarify the role of personality traits in team pro-
+cesses by focusing on team chemistry in terms of mutual trait activation. A well-functioning team,
+from a TAT perspective, is one where each member’s traits are aligned not only with being a
+“team player” (Driskell et al. 2006) and with the team’s mission (e.g., task type) and their particu-
+lar role on the team (e.g., leader, gate keeper, devil’s advocate), but also with their teammates’ traits
+such that each member brings out the best in one another in contributing to the team’s success.
+www.annualreviews.org • Trait Activation Theory 217
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33Lykourentzou et al. (2016) found teams balanced in dominant and submissive members outper-
+formed and were more satisfied than teams overloaded with dominant members. Humphrey et al.
+(2007) report similar complementarity involving extraversion broadly. Change was not a key focus
+in either study, but team outcomes seem likely to vary with changes in team member personal-
+ity composition. Even with static team membership, evolving task demands can trigger different
+traits, each creating demands, distracters, constraints, etc., for other members in a cascade of trait
+activation, potentially affecting a variety of team processes and outcomes (see Driskell & Salas
+2013).
+Behavioral effects on situations are an especially dynamic part of TAT. Research on the pro-
+posed positive (cue-increasing) and negative (cue-decreasing) feedback loops is only beginning
+(Liguori et al. 2013, Sung et al. 2014). Operating in dynamic personality systems, such trait–
+behavior–situation–trait loops can be extended between traits. For example, conscientiousness
+successfully expressed as high performance may prompt recognition and social obligations rel-
+evant to extraversion. Openness expressed as war correspondence could increase demands for
+emotional stability. The possibilities for such cross-trait activation, especially at the facet level,
+seem endless. Whether some chains are more common than others and under what conditions
+(e.g., operational level) they emerge are questions for programmatic, longitudinal investigation.14
+Need-based motivation can contribute to personality dynamics in light of situational complex-
+ities in trait-relevant cues. Consider, for example, two friends competing for the same promotion
+such that one’s personal success risks estrangement from the other. Here, the needs for achieve-
+ment and power might be pitted against the needs for affiliation and approval. Further motiva-
+tional input derives from trait-influenced perceptions of extrinsic rewards (e.g., increased pay).
+How hard each friend competes for the promotion will be based, in part, on the net motivational
+force each derives from need fulfillment if one versus the other is promoted. Now consider that
+friend A offers B a hint of permission, partially satisfying B’s affiliative need, favoring the com-
+petitive option. Alternatively, A might threaten B with the loss of friendship, thereby heightening
+B’s affiliative need, favoring acquiescence. Other traits could be activated as well (e.g., aggres-
+sion, autonomy), each contributing its own motivational force, depending on the individual’s trait
+standings. Traits, as needs, are rudimentary motivational constructs, and motivational dynamics
+calls for their consideration in light of the flux of trait-relevant cues.
+Trait Activation Theory and Personality States
+A key target of personality dynamics is personality states (e.g., Debusscher et al. 2016), which are
+relatively brief thoughts and feelings giving rise to behavior in response to particular situations or
+occasions. TAT was intended to model situational effects on trait expression, but it readily extends
+to personality states. Whole-trait theory (Fleeson 2012, Fleeson & Jayawickreme 2015) models
+relatively short-term fluctuations in personality states as density distributions of underlying dis-
+positions. How might TAT advance such models?
+TAT proposes that behavior is consistent across situations to the degree those situations are
+similarly trait relevant and trait expressions yield similarly valued outcomes. Because states are
+typically taken as indicators of intrapersonal variability, consistency in states across occasions is
+14 The overall independence of the FFM dimensions suggests cross-activation may be equivocal at the broad
+level; by the same token, correlated facets within broad dimensions may reflect cross-activation at the facet
+level, e.g., detail orientation and achievement under conscientiousness, dominance and sociability under ex-
+traversion, and empathy and nurturance under agreeableness.
+218 Tett • Toich • Ozkum
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33rarely the subject of investigation (see Fleeson & Law 2015 for an exception).15 Extending the
+trait-relevance principle, states might be expected to recur to the degree occasions are similarly
+state relevant. Thus, states may be subject to the same basic activation processes involving traits,
+but on shorter timelines, with traits setting stochastic limits on state variability (Fleeson &
+Jayawickreme 2015).
+TAT’s taxonomy of situational features seems applicable as well, as situations can include mo-
+mentary demands, distracters, constraints, releasers, facilitators, and discretionary cues, each af-
+fecting the generation and/or value of relevant states. States may be induced independently of
+traits (e.g., Minbashian et al. 2010), but underlying dispositions increase the likelihood of corre-
+sponding states. Thus, states are, to some degree, proximate mediators of trait effects that help
+explain short-term within-person variability (Debusscher et al. 2016).
+The separation of behavior and performance frames bidirectionality and performance judg-
+ment relating to traits. It is of similar import in the context of states. Just as situational demands
+triggering traits over longer durations help frame performance judgments (in terms of how well
+demands are met), shorter-term demands eliciting states can frame judgments of momentary per-
+formance (Debusscher et al. 2016). Bidirectionality, accordingly, is possible with states as with
+traits (Heidemeier & Bittner 2012).
+States offer considerable advantage in exploring the dynamics of interpersonal relationships.
+Two people can be getting along until one triggers an insecurity in the other, which might then be
+smoothed over by an apology or a vote of confidence. Such momentary shifts in behavior, affect,
+and cognition require constructs more nimble than trait dispositions, whose effects are evident
+across relatively long intervals where aggregation serves reliability and longer-term prediction
+(Epstein 1979, Fleeson 2004). States offer the needed agility for dealing with moment-to-moment
+variability in the quality of interpersonal exchanges, as short-term trait proxies.
+The shortened timeline on which states vary lends itself to consideration of behavioral effects
+on situations over brief intervals. Emotional contagion has been linked to emotional stability/
+neuroticism: Those higher on neuroticism are more susceptible to negative emotion transfer and
+those higher on emotional stability, to positive emotion transfer (see Barsade et al. 2018). These
+effects can be understood as positive feedback loops in emotional stability/neuroticism activation,
+leading to negative versus positive mood states (Sy & Choi 2013). Variables preventing or extin-
+guishing contagion permit configuration in terms of negative feedback loops (e.g., positive affect
+defusing negative affect contagion). Trait-based motivational states (Bipp & Kleinbeck 2011) also
+permit configuration as feedback loops in dynamic interaction.
+States, more so than traits, have affective content (Seo et al. 2004). Some states are pleasur-
+able, others noxious. People willingly engage with situations and other people that evoke more
+positive states and avoid those evoking more negative states. Also, behavior that expresses a given
+state might be expected to be intrinsically motivating (i.e., cathartic), and expectations of positive
+outcomes (e.g., a favorable reaction from a friend, a negative reaction from a rival) are also likely
+to drive whether or not a state is acted on. Motivational processes involving states seem largely
+parallel to those involving traits modeled under TAT, albeit operating on shorter timelines.
+Trait Activation Theory and Personality and Career Development
+Whereas personality states play out over very brief intervals, dynamic personality processes are
+also evident on the scale of years, decades, and lifespans. TAT was not intended for application
+15 We thank Filip Lievens for bringing this to our attention.
+www.annualreviews.org • Trait Activation Theory 219
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33over such intervals. Here, we explore some possibilities regarding career dynamics, promotion,
+and turnover, which occur over relatively extended timelines.
+Consistent with evolutionary processes promoting survival and reproductive success, aging
+brings with it increasing demands for ambition, responsibility, and leadership. Roberts et al.’s
+(2005) social investment principle holds that age-dependent social norms drive upward popu-
+lation shifts on conscientiousness, dominance, emotional stability, and agreeableness. Similarly,
+Wille et al. (2012) reported normative trait shifts relating to career roles adopted over 15 post-
+college years. Mean neuroticism, for example, decreased in those serving in director, presenter,
+or inspirator roles. Woods et al. (2013) suggest such shifts may reflect habitual trait activation,
+relevant to personality dynamics on the scale of populations spanning decades.
+Targeting individual-level variability, Ng et al. (2005) report meta-analytic mean ρs for linkages
+between promotion frequency and neuroticism (–0.11), extraversion (0.18), and proactive per-
+sonality (0.16). From an interactionist perspective, these results suggest promotion opportunities
+trigger avoidance in neurotic workers versus engagement in extroverted and proactive workers.
+Zimmerman (2008) reports meta-analytic estimates of linkages between turnover and the FFM.
+The strongest relationships are with agreeableness (mean ρ = –0.27), conscientiousness (–0.22),
+and emotional stability (–0.20),16 suggesting workers are more likely to quit, in general, when
+prone to fitting poorly with coworkers, work standards, and work stressors, respectively. Results
+of both studies show a role for personality in within-person job change at a general level, but they
+ignore effects involving individuals’ particular trait-based vocational preferences.
+Holland’s (1997) RIASEC (realistic, investigative, artistic, social, enterprising, conventional)
+model holds that job and career choices are an extension of personality: “people tend to act on
+their dominant interests and seek occupations in which their interests can be expressed” (Holland
+1996, p. 400). Consistent with this gravitational hypothesis, Judge et al. (1999) reported people
+tend to work in jobs aligned with their personality traits (e.g., r between childhood extraversion
+and social job employment = 0.20). Similarly, De Fruyt & Mervielde (1999) found college stu-
+dents’ RIASEC interests and FFM traits predicted RIASEC-aligned job employment a year after
+graduation. Extraversion, for example, correlated 0.35 with employment in enterprising jobs and
+0.25 in social jobs. People take jobs for other reasons, most notably, to pay for life’s necessities,
+and for other practical reasons (e.g., location, work schedule). Personality–job incongruence feeds
+career instability (Holland 1996, 1997). As skills and fit opportunities improve over the lifespan,
+stability increases (Gottfredson 1977). Holland’s interactionist model readily accommodates trait
+activation in accounting for the dynamics of individual career trajectories.
+Considering personality–performance relationships over time raises key issues regarding
+separation of trait-expressive behavior and its value. Woods et al. (2013) note how performance
+follows a learning curve, plateaus, then gradually declines (Zyphur et al. 2008) and how different
+personality traits predict performance at different employment stages (Murphy 1989). Thoresen
+et al. (2004) found openness and agreeableness predict sales performance improvement in the
+early transition stage, when learning and networking are important, whereas conscientiousness
+predicts in the later maintenance stage, when task goals matter more. Similarly, Lievens et al.
+(2009) report bidirectional trait effects in a medical school setting, where extraversion predicted
+early performance negatively and later performance positively. TAT offers two sources for such
+16 These point-biserial correlations are corrected for range restriction, unreliability, and uneven splits on
+turnover; they are not corrected for dichotomization per se. Accordingly, upper and lower limits are +/–
+0.80. Estimates on the full +/– 1.00 correlation range may be derived by dividing reported estimates by 0.80
+(e.g., –0.27/0.80 = –0.34).
+220 Tett • Toich • Ozkum
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33stage-specific effects: differences in (a) trait-expression opportunities and/or (b) the value of a
+given trait’s expression. Longitudinal study distinguishing those two mechanisms could shed light
+on the dynamics of personality–performance linkages as a function of employment stage.
+The Peter principle (Peter & Hull 1969) describes how top performers are promoted to posi-
+tions where they fail. Success as a mid-level software engineer, for example, favors independence,
+introversion, and detail orientation (Cruz et al. 2015). Management, in contrast, calls for coopera-
+tion, assertiveness, and big-picture thinking (Acuna et al. 2006; see Smith et al. 1985). Transition-
+ing from one to the next challenges fit. Benson et al. (2019) showed recently that companies tend
+to promote their most productive salespeople to management and suffer net losses when they do.
+Organizations fare better when promoting candidates with collaboration experience relevant to
+managerial demands. Although not expressly about personality, this study shows how promotion
+can turn strengths into liabilities. From a TAT perspective, the two jobs vary in opportunities for
+trait expression and/or the value of those expressions (i.e., demands in one may be distracters in
+the other). Separating trait expression from its value as performance offers insight into the Peter
+principle from an interactionist standpoint.
+Research on the role of interpersonal compatibility in career advancement is limited. Munyon
+et al. (2015) reported meta-analytic linkages between political skill, defined as “interpersonal savvy
+and style” (p. 144), and the FFM and various work outcomes. Notable mean ρs were obtained with
+extraversion (0.48), agreeableness (0.28), conscientiousness (0.24), emotional stability (0.23), and
+career success (i.e., income and position level; mean ρ = 0.27). Extraversion, the strongest corre-
+late of political skill, is a driver for advancement (e.g., Costa & McCrae 1988). The other three,
+agreeableness, conscientiousness, and emotional stability, identify Digman’s (1997) “socialization”
+factor, labeled “stability” by DeYoung (2006). Putting all this together from a TAT perspective, ad-
+vancement opportunities are cues for extraversion, and being high, in addition, on agreeableness,
+conscientiousness, and emotional stability contributes to political skill fostering a favorable rep-
+utation as a socialized, stable, and humbly ambitious promotion candidate (Munyon et al. 2015).
+Zimmerman’s (2008) mean ρ of –0.27 between agreeableness and turnover, noted above, affords
+a comparable interpretation in the direction opposite promotion. More direct tests of trait-based
+interpersonal compatibility in career dynamics await investigation.
+Countering situationist claims that behavior is dictated by situations, Schneider (1987) argued,
+“the people make the place.” A leader’s disposition, for example, can drive organizational culture,
+which, in turn, influences worker behavior via company policies and reward structure. This is
+consistent with dynamic interaction in TAT, whereby trait expression affects the availability of
+further trait-relevant cues.
+Changes in leadership demands across the business life cycle offer an extension of such feed-
+back loops. Lippitt & Schmidt (1967) describe three stages of an organization’s life cycle, each
+with its own concerns: birth (creation, viability), youth (stability, reputation), and maturity (adapt-
+ability, societal contribution). The relevance of leader personality traits might be expected to
+change as the organization grows. From a TAT perspective, traits operating successfully in ear-
+lier stages could decrease demands for those traits later on. Zhao & Seibert (2006) report meta-
+analytic standardized mean differences between entrepreneurs and managers on several traits,
+including achievement (δ = 0.59), openness (0.36), and neuroticism (–0.37). To the degree the
+entrepreneur/manager distinction tracks transitions along the organization life cycle, these dif-
+ferences support dynamic interaction: Achievement, openness, and emotional stability (i.e., low
+neuroticism) successfully engaged during start-up move the organization to a stage with reduced
+demands for those qualities. Longitudinal tracking of leaders’ trait-relevant demands (distracters,
+constraints, etc.) operating at different levels across organizational life cycles would more directly
+illuminate dynamic personality effects in the workplace.
+www.annualreviews.org • Trait Activation Theory 221
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33Trait-based work motivation spanning careers and lifespans is most readily consolidated in
+terms of person–workplace fit. The theory of work adjustment (Dawis & Lofquist 1976, 1984)
+identifies adjustment as “the continuous and dynamic process by which the individual seeks to
+achieve and maintain correspondence with his or her work environment” (Dawis & Lofquist 1976,
+p. 55). Work situations are differentiated by their “occupational reinforcers,” which are conditions
+that satisfy the worker’s needs (Dawis & Lofquist 1975). Holland’s (1997) RIASEC model similarly
+suggests individuals are drawn to and motivated by occupations that align with their personality
+and interests (Sullivan & Hansen 2004). Schneider’s (1987; Schneider et al. 1995, 1998) attraction–
+selection–attrition (ASA) model holds that people are attracted to, selected into, and stay with or
+leave an organization based on personality similarity. All those models, like TAT, frame worker
+motivation based on fit. TAT expands on this idea in several ways.
+First, TAT emphasizes traits as needs (Murray 1938). The theory of work adjustment (Dawis
+& Lofquist 1984) considers needs as bases for work values more so than traits (Hansen 2013).
+Satisfying needs through trait expression, per TAT, is intrinsically rewarding (i.e., pleasurable;
+see, e.g., Smillie 2013). Second, adopting basic behaviorist principles, TAT adds motivational force
+from extrinsic rewards contingent on performance and further conditions that motivation on the
+degree to which reward type is relevant to the worker’s traits (differential reward preference).
+Distinguishing intrinsic and extrinsic motivation sets up the possibility of conflict between them:
+Fit is especially poor where cues abound for negatively valued traits. Third, TAT identifies three
+levels of situational features offering opportunity for fit: task, group, and organizational. Finally,
+TAT suggests performance feedback should be especially motivating to those high on achievement
+striving. All told, TAT holds that career dynamics, punctuated by turnover and promotions, are
+a function of the individual’s long-term pursuit of a job in which they are rewarded for being
+themselves.
+Trait Activation Theory and Self-Regulation
+SR denotes “processes involved in attaining and maintaining (i.e., keeping regular) goals, where
+goals are internally represented (i.e., within the self ) desired states” (Vancouver & Day 2005,
+p. 158). Motivation derives from the gap between targeted and current selves, operationalized
+by the goal–performance discrepancy (Lord et al. 2010). Similar to traits, goals are activated by
+situational input, but through schema-driven processes (Carver & Scheier 1990).
+Dispositions are secondary to cognitive mechanisms in SR models, albeit important in some.
+They are invoked most often in terms of goal orientation [i.e., mastery, performance approach, per-
+formance avoidance (VandeWalle 1997; see Donovan et al. 2013)], but other traits, too, including
+conscientiousness (e.g., Diefendorff et al. 1998, Roberts et al. 2005), anxiety (Kanfer & Heggestad
+1997), and impulsivity (Shah et al. 2002). Promoting a broad interface between personality traits
+and SR processes, DeYoung’s (2015) cybernetic Big Five theory identifies the FFM dimensions
+specifically in terms of their relevance to goal-driven motivation. Conscientiousness, for example,
+drives prioritization of long-term goals over immediate gratification, extraversion drives sensitiv-
+ity to rewards, and neuroticism, sensitivity to threats. Given this cursory introduction to SR and
+relevant traits, let us explore how TAT might be incorporated into SR theory.
+SR theory targets variability in two main respects: Changes in task demands trigger SR pro-
+cesses by introducing or altering goals; furthermore, the individual adjusts effort, attention, and
+direction of behavior to close the gap between targeted and current selves (Lord et al. 2010). Over-
+laying this essentially universal process (i.e., applicable to everyone), dispositional tendencies (i.e.,
+personality traits) can affect the trajectory of that process (DeYoung 2015, Hooker & McAdams
+2003). Achievement-oriented people tend to set harder performance goals (Seijts et al. 2004) and
+try harder to meet goals (Barrick et al. 1993), impulsive individuals are more easily distracted
+222 Tett • Toich • Ozkum
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33from their goals (Shah et al. 2002), and anxious workers tend to orient performance away from
+the task, toward the self (Simpson et al. 2001, Vancouver & Tischner 2004). Given (a) SR is fo-
+cused on variability in situational inputs, behavioral outputs, and cognitive–affective mediators and
+(b) personality traits predispose behaviors affecting relations among those variables, then (c) un-
+derstanding what activates, constrains, releases, and facilitates relevant dispositions and the levels
+at which such factors operate (task, group, organization) advances understanding of within-person
+variability in work motivation through a SR lens (Donovan et al. 2013).
+SR theory, as with TAT, clearly distinguishes behavior from performance, offering several
+points of comparison between the two theories. First, performance in SR is goal attainment,
+whereas in TAT it is behavior that meets work demands. Goals, although similar to demands,
+are cognitive constructs, whereas demands are external work features. Second, performance feed-
+back is fundamental to SR (e.g., DeShon et al. 2004); in TAT, it is expected to be especially salient
+to those higher on achievement striving. Third, the distinction offered in TAT as a basis for ex-
+plaining bidirectional trait–performance relationships has similar application in SR. Hoyle (2006)
+notes impulsivity tends to undermine goal processes but is sometimes beneficial (Dickman 1990).
+SR models expand opportunity for bidirectionality by articulating mediated pathways to perfor-
+mance. Bipp & Kleinbeck (2011), for example, found participants higher in neuroticism had lower
+expectancy but higher goal commitment on a difficult task. Fourth, TAT also separates behavior
+and performance to invite consideration of the active role of performance judges. To our knowl-
+edge, SR models neither consider this [as distinct from the active role of supervisors in the goal-
+setting process (e.g., Lord & Brown 2004)] nor preclude it. All told, TAT and SR are compatible
+by their separation of behavior and performance, albeit with different emphases and applications
+of that distinction.
+Morf (2006) noted in the context of SR that “the self is completely contextualized in the so-
+cial environment with which it is constantly engaged” (pp. 1530–32). Narcissists devalue others
+whose higher performance is perceived as threatening (Morf & Rhodewalt 1993), and workers
+higher on dependency anxiously reject well-meaning attempts by others to promote their auton-
+omy (Bornstein 2005). In TAT terms, others’ successes are a distracter for narcissism, and with-
+drawal of support is a distracter for dependency. As with TAT, SR has rarely been applied to the
+study of workplace relationships [as distinct from SR understood as operating in a social context—
+e.g., goal contagion (Aarts et al. 2008)—see Liu et al. 2015 for an exception]. Hoyle (2006) sug-
+gests such SR applications “require the thoughtful integration of temperament, personality, and
+information-processing constructs in such a way that traits can be understood in terms of pro-
+cess and processes can be understood as expressions of traits” (p. 1516). TAT is well positioned to
+advance SR approaches to understanding interpersonal relationships along those lines.
+Lord et al. (2010) describe SR as a negative feedback loop in which goal-directed behavior nar-
+rows the goal–performance discrepancy, decreasing motivation. Conversely, in a positive feedback
+loop, a widening gap increases motivation. This is similar to the negative and positive feedback
+loops in TAT, whereby a given trait’s expression reduces or increases further activation. The dif-
+ference is that the gap in Lord et al.’s model is cognitive and self-based, whereas in TAT, cues are
+aspects of the situation. The two pairs of feedback loops are not interchangeable, but neither are
+they incompatible. Dispositions operating on SR pathways might promote or inhibit further trait
+expression. Unchecked impulsivity, for example, could create a cycle of distraction, each rabbit
+hole leading to another. Narcissists, ironically, create conditions that hamper their future success,
+triggering further self-embellishment (Morf 2006). Generalized self-efficacy might also operate
+on a positive loop, but with more favorable outcomes. Achievement striving serving goal comple-
+tion may be on a negative loop in the short run but on a positive loop over longer intervals if early
+www.annualreviews.org • Trait Activation Theory 223
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33successes invite new achievement opportunities. As dynamic systems, SR models incorporating
+dispositions seem primed to accommodate dynamic trait–situation interactions framed by TAT.
+Motivation is the raison d’être of SR, whereas in TAT, it is a driver of trait-based situational
+engagement as a foundation for person–workplace fit (Tett et al. 2013). The theories differ further
+in the nature of motivation they prescribe. In SR, motivation derives from the current–ideal-self
+discrepancy. Positive affect (i.e., satisfaction) ensues from closing the gap, and negative affect, from
+corresponding threats. Motivation in TAT derives primarily from need satisfaction (Christiansen
+et al. 2014, Murray 1938), whereby trait expression is inherently satisfying.17 Further satisfaction
+may derive from knowledge of results, especially where success satisfies the need for achievement,
+and from extrinsic outcomes, especially those aligned with relevant traits.
+Notably, affect is the fundamental common denominator of motivation in both theories. SR
+theories positing dispositions as moderators (including DeYoung’s cybernetic theory) offer no ra-
+tionale for why such dispositions are engaged except in service to reducing the goal–performance
+discrepancy. Traits such as impulsivity impede discrepancy reduction, and it is unclear what mo-
+tivational mechanism might derive from SR to explain its engagement. From a TAT perspective,
+responding impulsively to opportunities for distraction provides the impulsive worker intrinsic
+satisfaction from need fulfillment.18 To the degree impulsivity undermines performance, satisfac-
+tion from trait expression will conflict with others’ negative reactions and associated outcomes.
+Thus, a job with many distractions offers an especially poor fit to someone high on impulsivity.
+By the same basic process, jobs with clear, challenging goals offer good fit to workers high on
+conscientiousness; those with goals requiring positive, active social engagement offer good fit to
+those high on extraversion, and so forth.
+There is no reason in principle why cognitive, self-based discrepancies and trait-based needs
+cannot coexist in a hybrid SR–TAT motivational system. Each motivational process contributes
+uniquely to work motivation. Furthermore, both reduce to affect, driving approach and avoidance
+responses to the environment, in turn, serving fit in the immediate timeframe and, ultimately,
+survival and reproductive success.
+SUMMARY AND FUTURE DIRECTIONS
+Trait activation theory was offered as a call to action in furthering predictive gains from personal-
+ity in light of identifiable complexities in trait–situation interactions, and this aim, on the whole,
+appears to have been met. Our review of the TAT literature spanning 2011 to 2019, extending
+Tett et al.’s (2013) review, suggests person–situation interactions, situational specificity, and situa-
+tion trait relevance are increasingly recognized as critical in understanding the role of personality
+at work. Further recognized are the ideas that such interactions play out at multiple levels (task,
+group, organization, and, recently, national culture), through mechanisms involving trait-specific
+work demands, distracters, constraints, releasers, and discretionary cues, and, in some cases, with
+motivational impact of traits as needs. The theory has been used to advance understanding of
+those and various related topics, including person–workplace fit, personality-oriented work anal-
+ysis, team-building, performance appraisal, trait-specific work autonomy, trait and criterion speci-
+ficity, behavioral effects on situations (i.e., dynamic interaction), complex interactions involving
+17 Neuroticism works a little differently than other traits (Costa & McCrae 1988) by motivating threat avoid-
+ance (e.g., DeYoung 2015). Neurotics do not enjoy feeling worried, angry, and depressed, but they enjoy re-
+ductions in those feelings when neuroticism-driven avoidance diminishes precipitating cues.
+18 Notwithstanding any negative consequences, impulsive people enjoy jumping from one thing to the next.
+224 Tett • Toich • Ozkum
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33multiple traits and situational factors, situational taxonomies, the role of nontrait predictors (e.g.,
+KSAs, motives, values), and complementary theories. Significance rates for theory-driven mod-
+erator tests provide overall support for situation trait relevance and for TAT as a generative and
+integrative framework.
+Mapping TAT onto the personality dynamics literature shows opportunity to extend applica-
+tion of TAT-framed interactionist principles in advancing understanding of within-person vari-
+ability in terms of change-focused dispositions, person–situation interactions, personality states,
+career paths, and SR motivation models. Corresponding literatures offer varying support for such
+applications (e.g., emotional contagion, the Peter principle, ASA), but much more is possible. We
+close our review by highlighting five synergistic research vectors where TAT seems most likely to
+yield predictive and theoretic gains.
+Personality-Oriented Work Analysis
+It is approaching 30 years since Tett et al. (1991) reported notably stronger personality validity
+estimates based on job analysis as a refined confirmatory strategy. Personality-oriented work anal-
+ysis has been advanced (e.g., Raymark et al. 1997) with overall success (e.g., Aguinis et al. 2009,
+O’Neill et al. 2013), and most prominent personality tests have companion work analysis instru-
+ments. Yet, relatively few empirical studies have leveraged such tools to identify traits especially
+likely to predict under local conditions (Goffin et al. 2011). The call for trait-based work analysis is
+a timely one, not only in support of local validation (e.g., for selection) but also programmatically
+in studies of personality dynamics, where trait-relevant cues shift over varying timescales, acti-
+vating and deactivating traits within and among individuals, and affecting complex motivational
+processes with diverse behavioral and affective outcomes. Now, more than ever, we need measures
+to track the cues, constraints, and facilitators operating at multiple levels as conditions affecting
+when and how targeted traits (and states) are expressed in valued ways.19
+Longitudinal Studies of Personality Processes
+Increased reliance on personality-oriented work analysis complements the need for longitudinal
+investigation of the person–situation relationship as a two-way street (Wille et al. 2014): Situ-
+ations trigger traits affecting situations relevant to the actor and others over minutes (e.g., ne-
+gotiations) to decades (career paths). Time introduces unique situational factors, including cue
+stability, modulation (e.g., daily routines, seasonal markets), and density (e.g., cues per minute). It
+elevates the importance of states and time-related traits, such as endurance, impulsivity, and con-
+servatism, and offers points of comparison among task, social, organizational, and national levels,
+operating on successively extended timelines. Recognizing time-linked factors on both sides of
+the person–situation linkage creates unique opportunities for interactions from a dynamic, longi-
+tudinal perspective.
+Within-Job Bidirectionality
+Bidirectionality of trait–outcome linkages between jobs is well established (Tett & Christiansen
+2007). Its occurrence within jobs is less clear, but few traits have universally positive or negative
+expressions even within jobs. People are hired to meet dominant work demands, but how do they
+deal with the distracters? Can a positive predictor of one performance dimension (e.g., budget
+19 Meyer et al. (2014) introduced a measure of situational strength, showing moderation of personality rela-
+tionships with OCB and CWB due to differential situational strength, independently of trait relevance.
+www.annualreviews.org • Trait Activation Theory 225
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33management) be a negative predictor of another (e.g., charismatic leadership)? Are such traits
+weakly related to overall performance (due to cancelation of positive and negative effects), and
+is this practically equivalent to where trait-relevant cues are lacking altogether? Are curvilinear
+relationships more likely where strong demands operate at both poles of the trait? How do workers
+navigate conflicting demands operating at different levels (task, group, etc.)? Do traits such as
+self-monitoring and functional flexibility help in this respect? Is job crafting the active promotion
+of demands and reduction of distracters relevant to one’s traits, moderated perhaps by proactive
+personality? TAT provides a suitably articulated frame for viewing these and related questions
+through an interactionist lens.
+Trait Activation in Teams
+Teams are dynamic systems (e.g., Salas et al. 1992). TAT identifies four distinct opportunities for
+differential trait effects in team settings: (a) team orientation (being a “team player”) in meeting
+overall team-driven demands to engage and help teammates (extraversion, agreeableness), meet
+commitments (conscientiousness), and adapt to change (emotional stability, openness); (b) team
+task types (e.g., interdependence increasing demands for cooperation and agreeableness; a think
+tank, for creative thinking); (c) team member roles (e.g., leadership increasing demands for
+dominance; devil’s advocate, for assertiveness); and (d) team member relationships as mutual
+trait activation serving both complementary (e.g., dominance/submissiveness) and supplementary
+(e.g., sociability/sociability) fit. Traits activated in one respect may affect trait expressions and their
+value in another. TAT can help manage such complexities in teamwork involving dispositions,
+related states, and other variables (e.g., KSAs, values) by reliance on a common set of principles,
+including situational relevance, dynamic interaction, and need-based motivation.
+Person–Workplace Fit and Situational Relevance
+The common target of all major strategies in work psychology is person–workplace fit, yielding
+both performance and worker well-being (Tett et al. 2013). Applying TAT to traits, KSAs, and
+values operating at multiple levels promotes integration of fit under common principles. KSAs
+meet task demands as complementary fit serving performance and operate similarly at the social/
+team level. Conversely, values are targets of supplementary fit with culture and climate at the
+organizational level serving positive work attitudes (e.g., job satisfaction) and operate similarly at
+the social/team level. Personality traits operate at all three levels: Meeting task demands in com-
+plementary fit serves performance, matching organizational characteristics in supplementary fit
+serves positive work attitudes, and both complementary and supplementary fit at the social/team
+level serve performance and positive attitudes. Tying together all those fit variants is the principle
+of situational relevance, the heart of TAT. TAT-based personality-oriented work analysis tuned
+to trait-specific demands, distracters, etc., operating at multiple levels (task, social, etc.) and
+engaged over time in longitudinal designs promises to improve trait-based prediction of valued
+outcomes, set boundary conditions on generalizability inferences, and expand our understanding
+of personality and companion constructs in the workplace and beyond.
+EPILOGUE
+Such is the state of the trait activation literature spanning 2011–2019, with a view to new appli-
+cations in the emerging domain of personality dynamics and some especially promising projec-
+tions of the situation trait-relevance principle. At the broadest level, this review confirms what
+226 Tett • Toich • Ozkum
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:06:33most industrial–organizational psychologists already know: Situations matter. Why and how they
+matter, particularly regarding the role of personality at work, is less straightforward. TAT, so far,
+appears to offer both an integrative and generative framework for advancing programmatic re-
+search into person–situation interactions serving both practical and theoretic aims. Its future seems
+bright; time will tell.
+DISCLOSURE STATEMENT
+The authors are not aware of any affiliations, memberships, funding, or financial holdings that
+might be perceived as affecting the objectivity of this review.
+ACKNOWLEDGMENTS
+The authors gratefully acknowledge Annual Review of Organizational Psychology and Organizational
+Behavior Editorial Committee Member Dr. Filip Lievens and the Annual Reviews Production staff
+for their constructive feedback on earlier drafts.

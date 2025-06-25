@@ -1,0 +1,653 @@
+citation: "Druckman, J. N. (2022). A Framework for the Study of Persuasion. Annual Review of Political Science, 25, 65-88. https://doi.org/10.1146/annurev-polisci-051120-110428"
+
+annotation: "Presents the Generalizing Persuasion (GP) Framework, a comprehensive theoretical structure for understanding political persuasion through five key dimensions: actors (speakers and receivers), treatments (topics, content, media), outcomes (attitudes, behaviors, emotions, identities), and settings (competition, space, time, process, culture). The framework aims to unify fragmented persuasion research and explain contradictory findings by systematically accounting for variation across these dimensions."
+
+model_type: "property_graph"
+
+rationale: "The GP Framework is best represented as a property graph because it describes a complex network of interacting components where persuasion outcomes depend on relationships between actors, treatments, outcomes, and settings. The framework emphasizes how different combinations of these elements produce different persuasion effects, making it inherently relational and requiring representation of both entities (framework components) and their dynamic interactions."
+
+schema_blueprint:
+  title: "Generalizing Persuasion (GP) Framework Schema"
+  description: "A comprehensive theoretical framework for understanding political persuasion through systematic analysis of actors, treatments, outcomes, and settings"
+  
+  root_properties:
+    nodes:
+      description: "Framework components including actors, treatments, outcomes, settings, and their constituent elements"
+      item_type: "Entity"
+    edges:
+      description: "Relationships, processes, effects, and interactions between framework components"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Framework Structure
+    - name: "generalizing-persuasion-framework"
+      category: "theoretical-framework"
+      description: "Comprehensive framework organizing persuasion research across actors, treatments, outcomes, and settings dimensions"
+      
+    - name: "external-validity"
+      category: "methodological-concept"
+      description: "Confidence that a relationship holds over variation in actors, treatments, outcomes, and settings"
+      
+    # ACTORS DIMENSION
+    - name: "actors"
+      category: "core-construct"
+      description: "Participants in persuasion processes, including speakers who craft and deliver messages and receivers who process them"
+      
+    - name: "speaker"
+      category: "core-construct"
+      description: "Individual or entity that crafts and delivers persuasive messages"
+      subTypeOf: "actors"
+      
+    - name: "receiver"
+      category: "core-construct"
+      description: "Individual or entity that processes and responds to persuasive messages"
+      subTypeOf: "actors"
+      
+    # Speaker Types
+    - name: "elite-speaker"
+      category: "actor-type"
+      description: "Political figures, elected officials, and other political elites who engage in persuasion"
+      subTypeOf: "speaker"
+      
+    - name: "media-speaker"
+      category: "actor-type"
+      description: "Media outlets, journalists, and media organizations that deliver persuasive content"
+      subTypeOf: "speaker"
+      
+    - name: "opinion-leader"
+      category: "actor-type"
+      description: "Individuals to whom others delegate political discussion and who influence opinions within networks"
+      subTypeOf: "speaker"
+      
+    - name: "interpersonal-speaker"
+      category: "actor-type"
+      description: "Friends, family members, and personal contacts who engage in persuasive communication"
+      subTypeOf: "speaker"
+      
+    - name: "prosumer"
+      category: "actor-type"
+      description: "Social media users who both consume and produce persuasive content"
+      subTypeOf: "speaker"
+      
+    # Speaker Motivations
+    - name: "speaker-motivation"
+      category: "psychological-construct"
+      description: "Goals and intentions driving speakers to craft and deliver persuasive messages"
+      
+    - name: "objective-informing"
+      category: "motivation-type"
+      description: "Motivation to provide accurate, unbiased information to receivers"
+      subTypeOf: "speaker-motivation"
+      
+    - name: "persuasion-advocacy"
+      category: "motivation-type"
+      description: "Motivation to change receivers' attitudes or behaviors toward a specific position"
+      subTypeOf: "speaker-motivation"
+      
+    - name: "self-expression"
+      category: "motivation-type"
+      description: "Motivation to express one's own views and opinions"
+      subTypeOf: "speaker-motivation"
+      
+    - name: "self-presentation"
+      category: "motivation-type"
+      description: "Motivation to manage how one appears to others"
+      subTypeOf: "speaker-motivation"
+      
+    - name: "mutual-understanding"
+      category: "motivation-type"
+      description: "Motivation to achieve shared comprehension and dialogue"
+      subTypeOf: "speaker-motivation"
+      
+    # Receiver Characteristics
+    - name: "summative-model"
+      category: "theoretical-model"
+      description: "Expectancy-value model where attitude equals the weighted sum of evaluative beliefs about an object"
+      
+    - name: "receiver-effort"
+      category: "psychological-construct"
+      description: "Amount of cognitive effort receivers invest in processing persuasive messages"
+      
+    - name: "high-effort-processing"
+      category: "processing-type"
+      description: "Careful scrutiny of message content and arguments"
+      subTypeOf: "receiver-effort"
+      
+    - name: "low-effort-processing"
+      category: "processing-type"
+      description: "Reliance on cognitive shortcuts and peripheral cues like source credibility"
+      subTypeOf: "receiver-effort"
+      
+    - name: "receiver-motivation"
+      category: "psychological-construct"
+      description: "Cognitive representation of desired endpoints that impact how receivers evaluate persuasive messages"
+      
+    - name: "nondirectional-motivation"
+      category: "motivation-type"
+      description: "Goal to form accurate opinions based on evidence, independent of specific conclusions"
+      subTypeOf: "receiver-motivation"
+      
+    - name: "directional-motivation"
+      category: "motivation-type"
+      description: "Goal to confirm specific desired conclusions"
+      subTypeOf: "receiver-motivation"
+      
+    - name: "accuracy-motivation"
+      category: "motivation-type"
+      description: "Goal to arrive at correct or truthful conclusions"
+      subTypeOf: "nondirectional-motivation"
+      
+    - name: "belief-consistency-motivation"
+      category: "motivation-type"
+      description: "Goal to maintain existing beliefs regardless of argument strength"
+      subTypeOf: "directional-motivation"
+      
+    - name: "social-identity-protection"
+      category: "motivation-type"
+      description: "Goal to maintain identity or status within a social group"
+      subTypeOf: "directional-motivation"
+      
+    - name: "value-affirmation"
+      category: "motivation-type"
+      description: "Goal to affirm cherished values and moral principles"
+      subTypeOf: "directional-motivation"
+      
+    - name: "prior-attitude-strength"
+      category: "psychological-construct"
+      description: "Degree of certainty, confidence, importance, or extremity with which attitudes are held"
+      
+    # TREATMENTS DIMENSION
+    - name: "treatments"
+      category: "core-construct"
+      description: "Persuasive interventions including topics, message content, and medium of delivery"
+      
+    - name: "topic"
+      category: "core-construct"
+      description: "Subject matter or domain of persuasive communication"
+      subTypeOf: "treatments"
+      
+    - name: "message-content"
+      category: "core-construct"
+      description: "Substantive elements, arguments, and information contained in persuasive messages"
+      subTypeOf: "treatments"
+      
+    - name: "medium"
+      category: "core-construct"
+      description: "Channel or format through which persuasive messages are delivered"
+      subTypeOf: "treatments"
+      
+    # Topic Types
+    - name: "person-group-topic"
+      category: "topic-type"
+      description: "Persuasive communication about individuals or groups such as candidates, officials, parties"
+      subTypeOf: "topic"
+      
+    - name: "policy-issue-topic"
+      category: "topic-type"
+      description: "Persuasive communication about public policy matters"
+      subTypeOf: "topic"
+      
+    - name: "institutional-topic"
+      category: "topic-type"
+      description: "Persuasive communication about norms, rules, or organizations"
+      subTypeOf: "topic"
+      
+    - name: "product-topic"
+      category: "topic-type"
+      description: "Persuasive communication about businesses and consumer products in political contexts"
+      subTypeOf: "topic"
+      
+    # Message Content Elements
+    - name: "argument-quality"
+      category: "message-characteristic"
+      description: "Perceived strength, cogency, and persuasiveness of message arguments"
+      
+    - name: "framing"
+      category: "message-strategy"
+      description: "Altering the dimensions under consideration or weights applied to evaluative criteria"
+      
+    - name: "priming"
+      category: "message-strategy"
+      description: "Making certain considerations more salient in evaluation"
+      
+    - name: "agenda-setting"
+      category: "message-strategy"
+      description: "Influencing what issues receive attention and consideration"
+      
+    - name: "targeted-messaging"
+      category: "message-strategy"
+      description: "Crafting messages to match specific audience characteristics or motivations"
+      
+    - name: "narrative-persuasion"
+      category: "message-strategy"
+      description: "Using chronological stories with characters and actions to transport receivers into the narrative"
+      
+    - name: "transportation"
+      category: "psychological-process"
+      description: "Process by which receivers become focused on and absorbed in a narrative world"
+      
+    - name: "retrospective-reflection"
+      category: "psychological-process"
+      description: "Recall of relevant memories to validate and extend narrative content"
+      
+    # Medium Types
+    - name: "print-medium"
+      category: "medium-type"
+      description: "Newspapers, magazines, and other printed materials"
+      subTypeOf: "medium"
+      
+    - name: "television-medium"
+      category: "medium-type"
+      description: "Television broadcasts and video content"
+      subTypeOf: "medium"
+      
+    - name: "online-medium"
+      category: "medium-type"
+      description: "Internet-based communication platforms"
+      subTypeOf: "medium"
+      
+    - name: "social-media-medium"
+      category: "medium-type"
+      description: "Social networking and user-generated content platforms"
+      subTypeOf: "medium"
+      
+    - name: "interpersonal-medium"
+      category: "medium-type"
+      description: "Face-to-face conversations and personal interactions"
+      subTypeOf: "medium"
+      
+    # OUTCOMES DIMENSION
+    - name: "outcomes"
+      category: "core-construct"
+      description: "Results and effects of persuasive attempts including attitudes, behaviors, emotions, and identities"
+      
+    - name: "attitude"
+      category: "outcome-type"
+      description: "General evaluation of an object, broadly construed"
+      subTypeOf: "outcomes"
+      
+    - name: "behavior"
+      category: "outcome-type"
+      description: "Actions and behaviors that may or may not follow from attitude change"
+      subTypeOf: "outcomes"
+      
+    - name: "emotion"
+      category: "outcome-type"
+      description: "Instinctive states that inform attitudes or override conscious considerations"
+      subTypeOf: "outcomes"
+      
+    - name: "identity"
+      category: "outcome-type"
+      description: "Aspects of self-concept and group membership that influence evaluation"
+      subTypeOf: "outcomes"
+      
+    # Attitude Components
+    - name: "evaluative-belief"
+      category: "attitude-component"
+      description: "Specific evaluation of an object on a particular attribute or dimension"
+      
+    - name: "salience-weight"
+      category: "attitude-component"
+      description: "Importance assigned to different evaluative dimensions"
+      
+    - name: "attitude-strength"
+      category: "attitude-attribute"
+      description: "Certainty, confidence, importance, or extremity with which attitudes are held"
+      
+    # Behavioral Predictors
+    - name: "behavioral-intention"
+      category: "behavioral-construct"
+      description: "Intention to engage in a specific behavior"
+      
+    - name: "injunctive-norm"
+      category: "behavioral-predictor"
+      description: "Perception that others desire or expect the behavior"
+      
+    - name: "descriptive-norm"
+      category: "behavioral-predictor"
+      description: "Perception that others perform the behavior"
+      
+    - name: "perceived-behavioral-control"
+      category: "behavioral-predictor"
+      description: "Perception of ease or difficulty of performing the behavior"
+      
+    # Emotional States
+    - name: "anxiety"
+      category: "emotion-type"
+      description: "Emotional state that prompts information seeking"
+      subTypeOf: "emotion"
+      
+    - name: "disgust"
+      category: "emotion-type"
+      description: "Emotional state that reduces information seeking"
+      subTypeOf: "emotion"
+      
+    - name: "anger"
+      category: "emotion-type"
+      description: "Emotional state that stimulates political action"
+      subTypeOf: "emotion"
+      
+    - name: "enthusiasm"
+      category: "emotion-type"
+      description: "Positive emotional state that stimulates participation"
+      subTypeOf: "emotion"
+      
+    # Identity Types
+    - name: "partisan-identity"
+      category: "identity-type"
+      description: "Identification with political parties or ideological groups"
+      subTypeOf: "identity"
+      
+    - name: "social-identity"
+      category: "identity-type"
+      description: "Identification with social groups based on demographics or shared characteristics"
+      subTypeOf: "identity"
+      
+    - name: "national-identity"
+      category: "identity-type"
+      description: "Identification with the nation or country"
+      subTypeOf: "identity"
+      
+    - name: "role-identity"
+      category: "identity-type"
+      description: "Identification with social roles such as parent, professional, etc."
+      subTypeOf: "identity"
+      
+    # SETTINGS DIMENSION
+    - name: "settings"
+      category: "core-construct"
+      description: "Contextual factors that influence persuasion including competition, space, time, process, and culture"
+      
+    - name: "competition"
+      category: "setting-dimension"
+      description: "Presence of multiple speakers, receivers, and observers in persuasive contexts"
+      subTypeOf: "settings"
+      
+    - name: "space"
+      category: "setting-dimension"
+      description: "Physical and social contexts where persuasion occurs"
+      subTypeOf: "settings"
+      
+    - name: "time"
+      category: "setting-dimension"
+      description: "Temporal aspects including pretreatment effects, duration, and timing of measurement"
+      subTypeOf: "settings"
+      
+    - name: "process"
+      category: "setting-dimension"
+      description: "Decision-making processes and environmental characteristics"
+      subTypeOf: "settings"
+      
+    - name: "culture"
+      category: "setting-dimension"
+      description: "Cultural factors that shape understanding and processing of persuasive messages"
+      subTypeOf: "settings"
+      
+    # Competition Elements
+    - name: "multiple-speakers"
+      category: "competition-type"
+      description: "Presence of competing persuasive sources"
+      subTypeOf: "competition"
+      
+    - name: "multiple-receivers"
+      category: "competition-type"
+      description: "Presence of multiple audience members who can influence each other"
+      subTypeOf: "competition"
+      
+    - name: "observers"
+      category: "competition-type"
+      description: "Presence of third parties who witness persuasive exchanges"
+      subTypeOf: "competition"
+      
+    - name: "competitive-framing"
+      category: "persuasion-process"
+      description: "Situation where opposing frames compete for influence"
+      
+    - name: "observer-effect"
+      category: "persuasion-process"
+      description: "Learning about argument applicability by observing persuasive attempts directed at others"
+      
+    # Spatial Contexts
+    - name: "proximal-context"
+      category: "spatial-context"
+      description: "Immediate, concrete settings where persuasion occurs"
+      subTypeOf: "space"
+      
+    - name: "distal-context"
+      category: "spatial-context"
+      description: "Distant, abstract settings where persuasion effects may not generalize"
+      subTypeOf: "space"
+      
+    - name: "construal-theory"
+      category: "theoretical-concept"
+      description: "Theory that people construe psychologically proximal targets in more concrete terms"
+      
+    # Temporal Dimensions
+    - name: "pretreatment-effects"
+      category: "temporal-factor"
+      description: "Impact of prior communications and experiences on persuasion outcomes"
+      subTypeOf: "time"
+      
+    - name: "posttreatment-duration"
+      category: "temporal-factor"
+      description: "How long persuasive effects persist after exposure"
+      subTypeOf: "time"
+      
+    - name: "measurement-timing"
+      category: "temporal-factor"
+      description: "Time elapsed between exposure and outcome measurement"
+      subTypeOf: "time"
+      
+    - name: "sleeper-effect"
+      category: "temporal-phenomenon"
+      description: "Initial discounting of messages due to source credibility followed by later attitude adjustment"
+      
+    # Process Types
+    - name: "threatening-process"
+      category: "process-type"
+      description: "Decision-making contexts involving personal threats or risks"
+      subTypeOf: "process"
+      
+    - name: "political-process"
+      category: "process-type"
+      description: "Conflictual, individualistic political environments"
+      subTypeOf: "process"
+      
+    - name: "deliberative-process"
+      category: "process-type"
+      description: "Open-minded, public-oriented decision-making environments"
+      subTypeOf: "process"
+      
+    # Cultural Factors
+    - name: "individualist-culture"
+      category: "cultural-type"
+      description: "Cultural emphasis on individual rights and personal achievement"
+      subTypeOf: "culture"
+      
+    - name: "collectivist-culture"
+      category: "cultural-type"
+      description: "Cultural emphasis on group harmony and collective goals"
+      subTypeOf: "culture"
+      
+    - name: "evenhandedness"
+      category: "cultural-value"
+      description: "Cultural norm of fair and balanced evaluation"
+      
+    # THEORETICAL MODELS AND PROCESSES
+    - name: "elaboration-likelihood-model"
+      category: "theoretical-model"
+      description: "Dual-process model distinguishing central and peripheral routes to persuasion"
+      
+    - name: "heuristic-systematic-model"
+      category: "theoretical-model"
+      description: "Dual-process model distinguishing systematic and heuristic processing"
+      
+    - name: "central-route-processing"
+      category: "processing-route"
+      description: "Careful evaluation of message arguments and content"
+      
+    - name: "peripheral-route-processing"
+      category: "processing-route"
+      description: "Reliance on cues such as source credibility"
+      
+    - name: "systematic-processing"
+      category: "processing-route"
+      description: "Comprehensive analysis of persuasive information"
+      
+    - name: "heuristic-processing"
+      category: "processing-route"
+      description: "Use of cognitive shortcuts and simple decision rules"
+      
+    # MEASUREMENT AND RESEARCH CONCEPTS
+    - name: "argument-strength-tautology"
+      category: "methodological-critique"
+      description: "Problem of identifying persuasive messages merely as those that persuade"
+      
+    - name: "observational-equivalence"
+      category: "methodological-problem"
+      description: "Difficulty distinguishing between alternative explanations for persuasion failure"
+      
+    - name: "external-validity-framework"
+      category: "methodological-approach"
+      description: "Systematic consideration of variation across actors, treatments, outcomes, and settings"
+      
+    # RELATIONSHIPS AND PROCESSES
+    - name: "shapes"
+      category: "relationship"
+      description: "One element influences the form or nature of another"
+      domain: ["actors", "treatments", "settings"]
+      range: ["outcomes", "persuasion-process"]
+      
+    - name: "moderates"
+      category: "relationship"
+      description: "One factor affects the strength or direction of relationship between other factors"
+      domain: ["setting-dimension", "actor-characteristic"]
+      range: ["persuasion-effect"]
+      
+    - name: "mediates"
+      category: "relationship"
+      description: "One factor explains the mechanism through which another factor has its effect"
+      domain: ["psychological-process"]
+      range: ["persuasion-outcome"]
+      
+    - name: "interacts-with"
+      category: "relationship"
+      description: "Combined effect of factors differs from sum of individual effects"
+      domain: ["framework-component"]
+      range: ["framework-component"]
+      
+    - name: "determines"
+      category: "relationship"
+      description: "One factor causally influences another"
+      domain: ["framework-component"]
+      range: ["persuasion-outcome"]
+      
+    - name: "activates"
+      category: "process"
+      description: "Makes salient or brings into conscious consideration"
+      domain: ["message-strategy", "contextual-factor"]
+      range: ["identity", "motivation", "consideration"]
+      
+    - name: "transports"
+      category: "process"
+      description: "Engages receiver in narrative world, reducing defensive processing"
+      domain: ["narrative-persuasion"]
+      range: ["receiver"]
+      
+    - name: "primes"
+      category: "process"
+      description: "Increases accessibility of concepts or considerations"
+      domain: ["message-content", "contextual-cue"]
+      range: ["evaluative-dimension", "identity"]
+      
+    - name: "frames"
+      category: "process"
+      description: "Alters the dimensions or weights applied in evaluation"
+      domain: ["message-content"]
+      range: ["attitude-formation"]
+      
+    - name: "persuades"
+      category: "process"
+      description: "Successfully influences mental state through communication"
+      domain: ["speaker"]
+      range: ["receiver"]
+      
+    - name: "counterargues"
+      category: "process"
+      description: "Generates mental arguments against persuasive messages"
+      domain: ["receiver"]
+      range: ["message-content"]
+      
+    - name: "generalizes"
+      category: "process"
+      description: "Effect in one context applies to other contexts"
+      domain: ["persuasion-outcome"]
+      range: ["spatial-context", "temporal-context"]
+      
+    - name: "decays"
+      category: "process"
+      description: "Persuasive effects diminish over time"
+      domain: ["persuasion-outcome"]
+      range: ["time"]
+      
+json_schema:
+  title: "Generalizing Persuasion Framework Schema"
+  type: "object"
+  properties:
+    nodes:
+      type: "array"
+      items:
+        type: "object"
+        properties:
+          id:
+            type: "string"
+          type:
+            type: "string"
+            enum: ["Entity"]
+          category:
+            type: "string"
+            enum: [
+              "theoretical-framework", "core-construct", "methodological-concept",
+              "actor-type", "psychological-construct", "motivation-type", "processing-type",
+              "theoretical-model", "topic-type", "message-characteristic", "message-strategy",
+              "psychological-process", "medium-type", "outcome-type", "attitude-component",
+              "attitude-attribute", "behavioral-construct", "behavioral-predictor", "emotion-type",
+              "identity-type", "setting-dimension", "competition-type", "persuasion-process",
+              "spatial-context", "theoretical-concept", "temporal-factor", "temporal-phenomenon",
+              "process-type", "cultural-type", "cultural-value", "processing-route",
+              "methodological-critique", "methodological-problem", "methodological-approach"
+            ]
+          name:
+            type: "string"
+          description:
+            type: "string"
+          subTypeOf:
+            type: "string"
+        required: ["id", "type", "category", "name", "description"]
+    
+    edges:
+      type: "array"
+      items:
+        type: "object"
+        properties:
+          id:
+            type: "string"
+          type:
+            type: "string"
+            enum: ["NaryTuple"]
+          category:
+            type: "string"
+            enum: ["relationship", "process"]
+          name:
+            type: "string"
+          description:
+            type: "string"
+          domain:
+            type: "array"
+            items:
+              type: "string"
+          range:
+            type: "array"
+            items:
+              type: "string"
+        required: ["id", "type", "category", "name", "description"]

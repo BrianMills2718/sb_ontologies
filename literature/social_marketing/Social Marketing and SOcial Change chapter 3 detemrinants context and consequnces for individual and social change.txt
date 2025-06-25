@@ -1,0 +1,1624 @@
+Chapter 3
+Determinants, Context, and
+Consequences for Individual
+and Social Change
+Effective solutions must take a variety of concerns into account; just like this Cartagena,
+Columbia, intersection, which must accommodate public transportation, taxis, outdoor
+vendors, and pedestrians. (Image courtesy of the author.)
+Learning Objectives
+ Discuss five ways in which theories can influence the design and imple-
+mentation of a social marketing program.
+ Describe how concepts such as vital behaviors and advocacy can be incor-
+porated into social marketing programs.
+ Understand how the micro-macro problem presents unique challenges in
+developing social change programs.
+ Identify social theories and strategies that can guide social marketing and
+social change efforts.
+ Recognize how social marketing can be used to address larger issues of the
+role of marketing in society.
+Social marketing has been presented and understood as an approach
+to individual behavior change in which psychological stage models, such as
+the transtheoretical model (Prochaska & DiClemente, 1983), are used to
+segment audiences, and the marketing mix is used to identify and reduce barriers
+or costs and increase benefits for behavior change (Andreasen, 1995; Kotler &
+Lee, 2008; Lee & Kotler, 2011). This theory has guided many marketers’
+approach to discovering what the desired behavior might be, its possible deter-
+minants, the context in which it occurs—or not—and the consequences that
+people and society incur. I offer that to fully develop the discipline of social
+marketing and its promise to be a positive force for social change, we must think
+about change as it occurs among groups of people (segments, social networks)
+and at different levels of society (organizations, communities, physical environ-
+ments, markets, and public policies). This perspective builds on the discussion of
+macromarketing in chapter 2 and helps us to use the micro-macro dilemma as a
+framework for building scale into our efforts. Overall, this chapter looks at the
+ways in which social marketing has been incorporating theories of social capital,
+community development, social diffusion, and social networks to develop change
+strategies that are well suited to the wicked problems we need to address.
+This discussion of theories for change presumes that all marketing involves
+the reciprocal influence of the behaviors of a variety of actors who are known by
+such labels as audiences, influencers, stakeholders, consumers, suppliers, partners,
+and policymakers. Depending on the actor and the objective of the program,
+76  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+marketers may be trying to increase some behaviors (healthy eating, physical
+activity, recycling), decrease other behaviors (tobacco use, risky sexual behaviors,
+energy use), encourage participation in social change activities (citizen engagement,
+social mobilization), or gain support for environmental change (adopt policies,
+redesign such physical entities as automobile safety features or entertainment
+content). The people who are the focus of these activities and the changes they are
+asked to make are largely a function of the framework (or theory of change) that
+marketers bring to the task. In the following section, I review some of the common
+frameworks employed by social marketers for many different puzzles.
+WHY USE THEORY?
+Everyone has assumptions and explanations about how and why people think and
+behave the way they do; these are often referred to as naive or commonsense
+theories (Heider, 1958; Nisbett & Bellows, 1977; Reisenzein & Rudolph, 2008;
+Watts, 2011). These theories are often rooted in an individual’s culture and might,
+for example, present themselves in discussions of whether people will accept
+voluntary counseling and testing and the provision of antiretroviral therapies for
+HIV/AIDS (Roura et al., 2009), the types of foods people will eat—or not—
+(Kumanyika, 2008), or the ways in which people will conserve energy (Nolan,
+Schultz, Cialdini, Goldstein & Griskevicius, 2008).
+Many social change agents are familiar with the difficulties of addressing other
+people’s cultural beliefs as they relate to health and social behaviors; we need to
+remind ourselves that we are just as susceptible to the influence of our own
+commonsense theories as we design social marketing programs. This is why many
+social marketers stress the need to base programs on empirically validated models
+and theories in order to understand and influence the many variables that affect
+human behavior (Blair-Stevens, Reynolds & Christopoulos, 2010; Donovan &
+Henley, 2010; Hastings, 2007; Lefebvre, 2001; Novelli, 1990). Theories, whether
+based on common sense, past experience, or empirical evidence, create frameworks
+for our work. Specifically, they serve to
+ Explain how or why things are related
+ Guide us in identifying what we ought to focus on
+ Suggest what questions we should ask
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  77
+ Lead us to assumptions about what we should do about the problem
+ Suggest the types of outcomes we should set
+ Determine how we measure success
+Some people brush aside discussions of theory as something best left to
+academics. Yet using the wrong theory to understand a problem and develop
+strategies to address it is one of the primary sources of program failures (Hornik,
+1998). As a planning system, social marketing can incorporate and blend into
+program development an understanding of, or theory about, individual and group
+behaviors (cf. DiClemente, Crosby & Kegler, 2009; Glanz, Rimer & Viswanath,
+2008; Kahneman, 2011), social systems and policy development (cf. Stone, 1997),
+and healthy environments (cf. Jackson, 2012).
+SOCIAL MARKETING DECISION POINTS WHERE
+THEORY CAN MAKE A DIFFERENCE
+Theory can help you choose appropriately when you are deciding
+ What problem to tackle—and how
+ How to segment populations
+ What the program objectives should be
+ Which priority audiences to choose, and how to characterize them
+ What questions to ask in formative research
+ What program strategies and tactics to use
+ How to develop and test these strategies and tactics
+ Which messages may best resonate with specific groups of people
+ Which benefits and barriers are most in need of attention
+ How to best promote behaviors, messages, products, and services
+Source: Adapted from Lefebvre, 2001.
+78  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+Among the more popular theories and models used in social marketing pro-
+grams are the stages of change model (Prochaska & DiClemente, 1983), health belief
+model (Rosenstock, Strecher & Becker, 1988), social-cognitive theory (Bandura,
+1986), and diffusion of innovations theory (Rogers, 1995). Table 3.1 presents some
+of the key variables of each of these theories that are used to explain and change
+behavior, and illustrative strategies for each one.
+All of these theories stress attention to internal processes such as cognitions
+(what people think and perceive), appraisals of costs and benefits, and expectations
+of consequences for maintaining or changing behavior. Skills development is also
+explicitly part of the learning of new behaviors, whether that is done by observing
+others or through direct experience. As noted earlier, these are the most commonly
+cited theories that guide social marketing efforts (Lefebvre, 2001). We should not be
+surprised then that most social marketing programs focus almost exclusively on
+individual behavior change. It is only when we switch to social-cognitive and diffusion
+theories that we begin to consider aspects of a person’s “outside world,” or environ-
+ment, in solving the puzzles that are presented to us. Each of these theories offers
+certain perspectives on change that are important for some social marketing efforts;
+certainly tactics such as providing reminders to act, correcting misperceptions about
+threats, and increasing the salience of benefits or positive consequences for change
+should not be tossed out of the social marketing toolbox just because the theory they
+come from is not the primary one being used in our program. Rather, I recommend
+that you consider the benefits of eclectic theorizing—using the parts of theories that
+best fit the people and puzzle you are faced with, rather than forcing people and
+context into one understanding and approach and ignoring other alternatives.
+In the next sections, I look at models that integrate research from a variety of
+perspectives to guide social change efforts and establish new fronts in solving
+puzzles of human behavior and social change.
+Vital Behaviors and Sources of Influence
+Patterson, Grenny, Maxfield, McMillan, and Switzler (2008) take the essentials of
+the social-cognitive approach and focus on the idea of identifying vital behaviors
+that will drive a big change or lead to a cascade of changes. These vital behaviors
+can be identified through research and by observing what the people who already
+engage in the desired behavior (the positive deviants) do; the ways in which people
+who once practiced the behavior, relapsed and then returned to it, managed this
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  79
+TABLE 3.1 Key explanatory variables and sample actions of theories often used
+in social marketing programs
+Theory or
+model
+Variable Description
+Stages of
+change
+Precontemplation People are not aware of risk and/or not thinking about
+changing their behavior. (Need to raise their awareness
+and recommend a solution.)
+Contemplation People are aware of risk and concerned and
+knowledgeable about alternative behaviors and choices.
+(Help them to identify perceived barriers and see the
+benefits of adopting new behaviors, making other choices.)
+Preparation People are motivated to change and may be making plans to
+do so—often measured as intention to change in next
+6 months. (Provide information to increase perceived
+benefits of action; provide information and support to make
+change; use social groups to model and motivate action.)
+Action People are engaging in new behaviors and making new
+choices. (Provide opportunities to reinforce and improve
+skills; emphasize benefits of new behavior; reduce
+barriers through problem solving; create environmental
+and social supports for continuing new behaviors and
+choices.)
+Maintenance People continue to engage in new behaviors for at least
+6 months. (Remind them of the benefits of new behavior;
+increase their confidence that they can sustain it; increase
+or maintain environmental and social supports.)
+Health
+belief model
+Susceptibility People perceive vulnerability to threat or harm from
+behaviors and choices. (Use information and emotional
+appeals to increase their sense of personal susceptibility.)
+Severity People perceive the negative consequences of engaging in
+behaviors or making choices. (Use information and
+imagery to make the consequences more immediate and
+harmful.)
+Threat People perceive a combination of perceived susceptibility
+and threat. (Increase both perceived susceptibility and
+severity to motivate action while not overwhelming people
+to the point where denial or fatalism results in inaction and
+withdrawal.)
+80  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+TABLE 3.1 (Continued)
+Theory or
+model
+Variable Description
+Perceived
+benefits
+Beliefs that various actions can reduce personal
+susceptibility to a threat or to the consequences (severity).
+(Provide information and social models for experiencing
+the benefits of new behaviors and choices.)
+Perceived
+barriers
+Beliefs about the tangible, psychological, and social costs
+for changing behaviors and choices. (Use reassurance;
+correct misinformation about threat; provide incentives
+and social and environmental supports for action.)
+Cues to action Prompts and reminders to take new actions or make other
+choices. (Use point-of-choice programs and reminder
+systems of various types.)
+Social-
+cognitive
+theory
+Reciprocal
+determinism
+Behavior changes result from interaction between person
+and environment; change is bidirectional. (Involve the
+individual and relevant others; work to change the
+environment, if warranted.)
+Behavioral
+capability
+Knowledge and skills to perform or engage in the desired
+behavior. (Provide information and training about action.)
+Expectations Beliefs about the likely results of actions and choices.
+(Incorporate information about the likely results of action
+in advice.)
+Self-efficacy Confidence in ability to take action and persist in it. (Point
+out strengths; use persuasion and encouragement;
+approach behavior change in small steps to maximize
+opportunities for success; increase confidence.)
+Observational
+learning
+Observing others who are like oneself engaging in desired
+behavior and/or seeing the results they have from
+engaging in new behaviors or making different choices.
+(Point out others’ experience; make positive consequences
+[incentives] visible; identify role models to emulate.)
+Reinforcement Responses to a person’s behavior that increase or decrease
+the chances of recurrence. (Provide incentives and
+rewards; encourage self-rewards; decrease the possibility
+of negative social and environmental responses that may
+deter new behaviors and choices.)
+(Continued )
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  81
+recovery; and the best practices of people who consistently engage in the desired
+behavior. Patterson et al. describe some of the vital behaviors that have been
+identified. For example, for people with diabetes the key behaviors are to test their
+blood sugar four times a day and adjust their insulin appropriately to keep blood
+glucose under tight control. For improving customer satisfaction in health care
+settings, it is vital for staff to smile, make eye contact, identify themselves, let
+people know what they are doing and why, and end each interaction with a patient
+or family member by asking, “Is there anything else that you need?” For successful
+weight loss, research shows that exercising on home equipment, eating breakfast,
+and weighing oneself daily are the significant predictors of long-term maintenance
+TABLE 3.1 Key explanatory variables and sample actions of theories often used
+in social marketing programs (Continued)
+Theory or
+model
+Variable Description
+Diffusion of
+innovations
+Relative
+advantage
+New behaviors (ideas, products, services, or programs) will
+be adopted only if they are seen as offering economic,
+social, utilitarian, or other advantages over current ones.
+(Focus on personal or organizational benefits and compare
+them with current outcomes of choices and behaviors.)
+Compatibility New choices and behaviors must be relevant and fit into
+everyday routines, self-perceptions, and values. (Design
+new behaviors, products, and services to serve user needs
+and lifestyles; allow adopters to alter or modify offerings to
+fit their own needs and context.)
+Complexity New behaviors and choices that are seen as easy to do and
+make are more likely to be successfully adopted.
+(Approach change in incremental steps; tailor offerings to
+unique personal and social characteristics.)
+Trialability People adopt behaviors, products, and services they can
+try out first. (Offer people opportunities to try new
+products, services, and behaviors without explicit long-
+term commitments; run pilot projects.)
+Observability Benefits of new behaviors and choices need to be easily
+identified and visible to others. (Promote new behaviors
+via storytelling and case studies; create short-term,
+tangible benefits.)
+82  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+of weight loss. It is the vital behaviors that should become the targets of social
+marketing programs, not the at-risk behaviors that dominate much of the practice.
+Patterson et al. (2008) also look at the sources of influences on people’s behavior.
+As shown in figure 3.1, the ability and motivation to engage in any behavior is
+influenced by personal, structural, and social variables. A person’s perception of
+his or her own ability comes down to the question of self-efficacy: Can I do it?
+Patterson et al. propose that to influence self-efficacy, we must create experiences
+that encourage people to surpass their limits (personal), change their environment
+(structural), and find strength in numbers (social). With respect to motivation, the
+question becomes, Is it worth it? To influence motivation, we must focus on
+making the behavior desirable, designing rewards and accountability to encourage
+and support new behaviors, and mobilizing positive peer influence.
+This approach to behavior change admittedly simplifies the process. And
+although many change agents will present elaborate theories to use when designing
+a behavior change program, I suggest that the heuristic depicted in table 3.2 can be
+used to judge the potential of a program to influence changes in people’s behavior.
+Learning New Behaviors Versus Changing Them
+Many social marketers and change agents assume that they should approach the
+task of improving personal and social well-being as a process of behavior
+FIGURE 3.1 Sources of influence on behavior
+Personal
+Ability and
+Motivation
+SocialStructural
+Source: Patterson et al., 2008.
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  83
+change—of somehow influencing, persuading, cajoling, or forcing people to do
+something differently. Yet how would we feel if someone approached us and asked
+us to change? The questions and resistance would be immediate. Yet somehow
+our common sense (our personal set of theories) dictates that we do it this way.
+However, what would happen if we approached it from the point of view of
+the person we would like to help? We might ask that person, “Can I help you
+learn something new that might help you solve a problem better than what
+you are doing now?” The response might be very different and positive.
+As it happens there is good science behind learning, much of it incorporated
+into the social-cognitive approach of Bandura (1986). The basic process of learning
+is outlined in figure 3.2. It includes (1) experiencing models that are appealing and
+relevant to our engaging in the desired behavior (whether these models are observed
+directly or vicariously through audiovisual and print media), (2) paying attention,
+(3) remembering the behavior, (4) believing we can do the same thing, (5) wanting
+to do it, and (6) then matching our performance of the new behavior with the
+model—but not having to try for perfection, at least at the beginning.
+Table 3.3 displays some of the key research findings that can guide our
+programs through each stage of the learning process. Once we have decided on
+the desired or vital behavior to target, the table provides a framework for assessing
+and refining program design and implementation at the tactical level. As you can
+see, many of the elements reflect what this chapter has already discussed in
+relation to other theories of behavior change and diffusion.
+TABLE 3.2 Heuristic for judging approaches to changing behavior
+Sources of
+influence
+Ability (Can I do it?) Motivation (Is it worth it?)
+Personal Are we encouraging people to
+surpass their limits?
+Are we making the new behavior or
+choice desirable?
+Structural How are we changing the
+environment to increase confidence
+in being able to do new behavior?
+What rewards, self-monitoring, and
+feedback do we have in our program to
+encourage and support new behavior?
+Social How are we finding and using
+strength in numbers to build
+confidence in abilities and positive
+outcomes?
+How are we mobilizing and harnessing
+peer pressure to encourage and support
+behavior change?
+84  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+An Integrative Model of Behavior Prediction
+The integrative theory proposed by Fishbein and Yzer (2003) illustrates the idea
+of eclectic theorizing though its incorporation of three theories: the health belief
+model, social-cognitive theory, and the theory of reasoned action. Fishbein and
+Yzer developed this integrative theory for change agents to use to guide their decision
+making when developing interventions and determining who the priority groups
+will be, what the objectives should be, and what will make the program most suc-
+cessful. In this model (see figure 3.3), whether a specific behavior is performed
+depends upon (1) the person’s intention to engage in that behavior, (2) whether the
+person has the requisite skills and abilities to perform the behavior, and (3) whether
+there are environmental constraints on performing the behavior.
+To take an example from a family-planning project I was involved with, the
+stated objective was to improve the likelihood that young adult women would
+engage in family-planning behaviors and use appropriate products and services.
+FIGURE 3.2 How people learn most of the time
+Modeled
+behavior
+Pay attention
+Remember it
+Can do it
+Want to do it
+Match it
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  85
+TABLE 3.3 Tactical steps to increase learning of new behaviors
+Learning requirement Tactics
+Paying attention to the
+behavior
+Make the behavior important to people at the moment (it fits
+preconceptions, interests).
+Let it move them emotionally.
+Make sure it’s not too complicated.
+Make it ubiquitous or frequent.
+Show how it’s useful to solve a problem (cope with the
+environment).
+Remembering the behavior Convert information to images and easily used words,
+phrases, and slogans.
+Create “rules” (“do this when . . . ”) or a prototype behavior
+(“eat five a day”).
+Help people learn to talk themselves through situations,
+feelings, and so forth.
+Have them rehearse the behavior—mentally (cognitively) or
+in actual practice.
+Having the ability to enact
+the behavior
+Let people see themselves doing it.
+Support opportunities to practice it (get better at it).
+Enable the necessary component skills to do it (within
+biological and physical constraints).
+Give or provide feedback (intrinsic and extrinsic); make the
+unobservable observable (performance feedback).
+Wanting to do the behavior Help people see that the new behavior has greater functional
+value or carries a lower risk of negative consequences than
+the current one.
+Understand that performing a new behavior results from
+three types of incentives:
+The allure of direct, tangible rewards
+Observed or vicarious rewards (experience though others)
+Self-produced rewards
+Comparing oneself with the
+modeled or desired
+behavior
+Help people understand the difference between the desirable
+or aspirational behavior and what’s relevant and possible in
+their lives.
+Create a context for their behaviors.
+Let them gradually learn the rules and shape the behavior in
+small steps rather than try to master it all at once.
+Make observable features for them to pay attention to
+(self-monitoring tools).
+86  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+Using the integrative model to understand how we might influence the use of
+family-planning products and services, my colleagues and I first looked at what
+environmental constraints might be preventing our priority group from accessing
+the services or using the products. Second, we assessed through interviews and
+focus groups whether women from the priority group had the necessary skills to
+purchase and effectively use family-planning methods. Expecting from the theory
+that these women might not have strong intentions to perform the behavior, we
+also used these interviews and groups to explore their (1) attitudes toward per-
+forming the behaviors, (2) perceived norms about performing the behaviors, and
+(3) perceived self-efficacy, or confidence, in being able to perform the behaviors
+(including scheduling appointments at a family-planning clinic, keeping the
+appointments, purchasing or receiving free pregnancy prevention products, and
+then using them consistently). The theory suggests that attitudes, norms, and self-
+efficacy are affected by a host of possible determinants that will vary by each specific
+behavior, by the characteristics of the women (or subgroups of them), and by the
+context (especially the environmental constraints) in which each behavior is to be
+performed. Among the major determinants of these expectations are culture,
+FIGURE 3.3 An integrative model of behavior prediction
+Distal variables
+Demographics
+Culture
+Attitudes toward
+them
+(stereotypes,
+stigma)
+Personality and
+emotions
+Other individual
+variables
+(perceived risk,
+sensation seeking)
+Exposure to
+media and other
+interventions
+Behavioral
+beliefs and
+outcome
+valuations
+Attitude
+Normative
+beliefs and
+motivation
+to comply
+Efficacy
+beliefs Self-efficacy
+Environmental
+constraints
+Intention
+Perceived
+norm
+*Injunctive
+*Subjective
+Behavior
+Skills
+Source: Fishbein & Yzer, 2003.
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  87
+attitudes of others toward the women or the behavior of using family-planning
+methods (for example, stigmatization or stereotypes), emotional state, other factors
+such as perceived risk and susceptibility, and exposure to communication and other
+messages (mass media, social network, and interpersonal) about the behavior.
+Considering all these possibilities helped us create the questions and probes we
+then used in our formative research studies.
+When we applied this approach to the formative research for the family-
+planning project, some of our theory-driven research found the following:
+ To improve the likelihood of engaging in family-planning behaviors, first
+we needed to look at what environmental constraints might be preventing the
+women in our priority population from engaging in them, and then design
+intervention strategies and tactics to help women overcome these constraints.
+Women in our studies identified these constraints: only a few facilities
+available in rural counties; busy clinic staff, making local outreach and pro-
+motion efforts difficult; finding time in their busy schedules for setting clinic
+appointments; and difficulties using the centralized referral service.
+ We needed to assess whether the women had the necessary skills to access and
+effectively use family-planning services and methods over time.
+Here we found that not understanding the eligibility criteria (due to
+confusing messaging and low literacy skills), nonadherence to birth control
+methods over time (discontinuing pills or missing doses), and also reports of
+broken condoms leading to unwanted pregnancies were the most common
+problems reported by these women.
+ When the women did not have strong intentions to perform the behavior, we
+needed to look at changing (1) attitudes toward performing the behavior,
+(2) perceived norms about performing the behavior, and (3) perceived self-
+efficacy, or confidence in being able to perform the behavior.
+Among the determinants of these intentions we found that conservative
+community values played an important role in reducing conversations and
+public education activities around family planning. We heard few comments
+related to negative personal, peer, or social attitudes toward these women’s
+personally using birth control. Indeed, there were generally favorable attitudes
+about delaying pregnancy until a woman had graduated from school, had a
+steady job and boyfriend, and was otherwise “ready” to raise a child. We did
+88  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+not hear much about women believing that they were not susceptible to
+becoming pregnant (though research by other investigators reported in the
+literature informs us that this is the most common reason for women to
+discontinue using contraceptives). There was also evidence that these women
+did talk with each other about birth control, though no common times or
+places for these conversations were discovered that might guide a commu-
+nication strategy.
+This example demonstrates how theory can guide research or inquiry into a
+problem and ascertain how relevant the theoretical variables related to deter-
+minants, context, and consequences are in real life. In this example, theory
+gave my colleagues and me a set of hypotheses to test among the women who
+participated in our focus groups. It did not lead us to conclusions that were
+statistically reliable and generalizable to all women of that age, but that was not
+our intention. Our intention was to develop insights into how to solve the
+puzzle of increasing the number of women engaging in regular family-planning
+behaviors. And given that objective, the results suggested a number of options
+and opportunities. I will continue this story, but now through a different the-
+oretical lens.
+The Process of Behavior Change Framework
+The process of behavior change framework (Piotrow, Kincaid, Rimon & Rinehart,
+1997) proposes that people seeking or using family-planning and reproductive
+health services move through a variety of intermediate steps, or stages, in the
+behavior change process. These stages are
+ Preknowledgeable: they are unaware of the problem or their personal risk.
+ Knowledgeable: they are aware of the problem and understand what the
+desired behaviors are (in this example, use of modern contraceptive methods).
+ Approving: they are personally in favor of the desired behaviors.
+ Intending: they personally express the desire to take the desired actions.
+ Practicing: they are actively engaged in the desired behaviors (such as regularly
+using contraceptive methods).
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  89
+ Advocating: they are not only practicing the behaviors (such as family-
+planning methods) but advocating them to others. Once people reach this
+stage they become effective change agents among their peers and within their
+social networks.
+At a glance this model resembles the stages of change approach with its phases
+of precontemplation, contemplation, preparation, action, and maintenance in the
+behavior change process (Prochaska & DiClemente, 1983). However, there is
+one vital distinction: advocating. What Piotrow et al. (1997) found in their
+research on improving family-planning practices in developing countries was that
+women (and men) who became advocates for family planning were more likely to
+sustain these practices than people who practiced but did not preach.
+In the world of social media and technologies, the idea that social marketers
+should be providing opportunities for people to pass along messages has become
+common strategic advice (Lefebvre, 2007; Li & Bernoff, 2008). The insight from
+the process of behavior change framework is that we should pay attention to the
+advocacy stage and its related behaviors, especially in the context of family
+planning. The importance of advocacy as a behavior maintenance strategy pro-
+vides us with the theoretical grounding to think about and use social processes in
+our social change activities—whether they are digitally mediated (through social
+media and mobile technologies) or use other interpersonal channels. Indeed, the
+empirically based benefit attached to the advocacy stage offers a rationale for using
+social media to address family-planning issues.
+Returning to the family-planning project, this model gave me and my col-
+leagues a theoretical rationale for segmenting and prioritizing groups (or selecting
+and concentrating on certain ones first). As we reviewed the framework, it was
+clear that women in each of these stages would be thinking (or not) and acting (or
+not) differently with respect to family-planning practices. Each group of women
+would have different decisions and behaviors to engage in relevant to the stage
+they were in. What became noteworthy to us was that advocacy behaviors within
+a person’s social network could serve not just as a behavioral maintenance strategy
+but as a recruitment and social media strategy as well. Our strategic insight was
+generated by exploring the question of how we could work with users so that they
+would become advocates for family planning through their social network sites
+(such as Facebook and MySpace in this example), text messaging (SMS), and
+other interpersonal networks. A substantial portion of our formative research with
+users of family-planning methods (as opposed to the nonusers we had focused on
+90  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+earlier) focused on discovering how appealing the idea of recruiting and sup-
+porting others would be, as well as identifying the women’s vital behaviors in
+maintaining long-term use of family-planning methods. We discovered that the
+ideas had a lot of resonance with these women and led to many suggestions for
+how they could do it and what tools and materials they would need, things that
+subsequently found their way into the program implementation plan.
+FROM INDIVIDUAL TO SYSTEM LEVELS OF ANALYSIS:
+CHANGING SCALES OF REALITY
+This chapter now switches its focus from the individual level of analysis of
+determinants, context, and consequences of behavior to a further problem: the
+analysis of these elements at a higher level of organization. This problem is
+revealed in social ecological models (see figure 3.4) that identify behavioral
+FIGURE 3.4 Multiple levels of influence on health behaviors
+Individual/
+population
+health
+Pathophysiological
+pathways
+Genetic factors
+Individual risk factors
+Environment
+Life course
+Social relationships
+Living conditions
+Neighborhoods and
+communities
+Institutions
+Social and economic policies
+Source: Gielen & Sleet, 2003.
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  91
+determinants as ranging from genetic and physiological processes to neighbor-
+hood and community conditions to social and economic policies. I start with
+Duncan Watts, a physicist and sociologist, who presents two problems that
+bedevil people faced with the challenges of large and complex puzzles. He
+calls these the frame problem and the micro-macro problem (Watts, 2011). Both
+of these problems highlight the need for social change programs to adopt theo-
+retical perspectives that are broader than individual determinants. The frame
+problem proposes that it is impossible to know all the potentially relevant facts
+and determinants of a puzzle, given the overwhelming number of possibilities and
+combinations of variables. Consequently, it is then difficult to focus selectively on
+only certain ones and ignore the others; for example, to look at only psychological
+determinants or to consider only solutions that employ persuasive communica-
+tions. What the frame problem poses to social marketers is that we cannot know
+for certain whether we have selected the right set of variables when we choose a
+theory, or frame, to guide us in thinking about our puzzle.
+The second problem Watts (2011) discusses is the micro-macro problem: one
+that goes to the heart of the social marketing dilemma. This dilemma emanates from
+our desire to achieve macro outcomes, ones that involve changes among large
+numbers of people, among population segments, or in society as a whole. Yet these
+outcomes are driven by the micro actions of individuals (for example, it is individuals
+whose voting behavior determines the outcome of policy options, individuals’
+behavior that sets the tone for an organizational culture, and individuals who connect
+through social network sites to organize and plan social action). This problem is
+embedded in definitions of social marketing as changing individual behaviors in
+order to achieve social good. Although the intentions are commendable, the actual
+process of moving from individual behavior change to changes at the societal level is
+ignored, as if this transition will occur automatically—that it is simply a matter of
+increasing the numbers of people practicing the behavior. As Watts (2011) notes,
+how micro behaviors become macro solutions is a puzzle in search of an explanation
+in many disciplines, and this puzzle cannot be simply dismissed or explained away as
+inconsequential. Moreover, this process does not occur in a simple linear manner,
+as is suggested by phrases such as “increasing the numbers.”
+An analogy from biology helps to illustrate the problem. What if we were to
+consider the entire span of human existence? How do atoms become molecules?
+How do molecules form amino acids? How do amino acids and other chemicals
+interact to create a living cell? How do some of these cells organize and specialize
+92  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+to become the brain? And how does this brain develop consciousness and con-
+template its eternal existence? The point Watts is making is that many disciplines
+work with many different scales of reality and they are difficult to integrate. For
+example, how can we explain consciousness by the chemical activity of a single
+neuron? The short answer is that we do not. Instead, biologists and other scientists
+invoke the idea of emergence to describe the shifting from one scale of reality to
+the next, and use ideas such as complexity, interactions, and systems to consider
+more than one scale at a time (an atomic scale versus a biochemical or physiological
+one). To bring this problem back into the social marketing world, believing that
+social change will happen “one person at a time” does not conform to what we know
+about emergence in many other disciplines. It is analogous to believing that con-
+sciousness can be explained by the action of a neuron or even many neurons; it may
+be convenient to think like this, but throughout his book, Watts (2011) takes on
+these logical fictions with data. Changes in complex social systems involve inter-
+actions between people and systems, just as neurons must be connected and interact
+with each other in systematic ways to create what we refer to as consciousness. This
+means that social change programs need to consider more than one scale of reality at
+a time, including scales relating to individuals, social networks, formal and informal
+organizations, markets, and government regulations and policies. The remainder of
+this chapter brings together some ways of thinking about these scales.
+Behavioral Economics
+Behavioral economics has captured the imagination of business leaders, policy-
+makers, and the general public with the publication of several popular books
+(Ariely, 2008; Kahneman, 2011; Levitt & Dubner, 2005; Thaler & Sunstein,
+2008). Behavioral economics is particularly important to social marketers as it has
+successfully unseated the model of the rational man (or rational person in the more
+recent discussions)—the idea of the individual who consciously and deliberately
+weighs pros and cons in making choices and acting in certain ways—that
+underlies much economic and marketing thought (cf. Andreasen, 1995; Zaltman,
+2003). Behavioral economics research, as well as work in related disciplines,
+has now given primacy to the view that automatic (or unconscious) and social
+reasons explain a large part of why people behave the way they do. The emerging
+consensus is that in daily life the rational weighing of pros and cons for making
+decisions and engaging in behaviors is the exception rather than the rule. This
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  93
+shift in our understanding undermines the traditional notion of social marketing
+as activities directed toward increasing pros, or benefits, and reducing cons, or
+barriers, as described by Andreasen (1995), Kotler and Lee (2008), and
+McKenzie-Mohr, Lee, Schultz, and Kotler (2012), among others.
+The rational person model holds that people are motivated primarily by
+material incentives and make decisions in a rational manner based on their
+consideration and unbiased weighting of the benefits and costs of making certain
+decisions or engaging in specific behaviors, ranging from what companies to
+invest in to how much they will pay for branded versus unbranded soft drinks.
+However, as Zaltman (2003, p. 9) notes, the recent empirical evidence also brings
+into question an assumption that is an extension of the rational person model: the
+assumption that people can readily explain their thinking and behavior (such as in
+focus groups and in-depth interviews).
+Lefebvre and Kotler (2011) discuss a number of concepts from the behavioral
+economics literature that are useful for social marketing program planners to
+consider (see table 3.4). The primary idea is that people use heuristics, or
+approximate rules of thumb, rather than strictly rational analyses to make most
+decisions. For instance, the use of the 4Ps for planning programs is an example of
+a heuristic—marketers of all types have found that using this four-element
+heuristic leads to better program outcomes than approaches based on using only
+communication strategies or on just adjusting prices or distribution. A second
+idea is that the way a problem is presented (or framed) to a decision maker will
+affect his or her action. Although this idea is not newsworthy to people familiar
+with the tactics of media advocacy or political communication (Lakoff, 2004;
+Wallack, 1990), it further weakens the notion that people are always making
+rational judgments about how to go about their daily lives, let alone using rational
+processes to make far-reaching public policy decisions (cf. Stone, 1997). A third
+category of behavioral economics relates to market inefficiencies—specifically,
+how markets fail to evolve to a theoretical state of equilibrium where buyers and
+sellers and also price and costs are balanced. Rather, many market outcomes of
+particular concern to social change agents are often contrary to rational expec-
+tations, such as inequities in health status and social justice, insufficient supplies
+of condoms, and concentrations of health services among the wealthier areas of a
+community or in the urban areas of a country.
+There has been little published work explicitly incorporating behavioral eco-
+nomics principles into social marketing programs. However, many projects now
+94  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+TABLE 3.4 Concepts and questions posed by behavioral economics
+Loss aversion People are more averse to losing things than they are inclined
+toward gaining things. Why should someone give something up in
+order to experience new (and uncertain) benefits? How do we make
+these benefits tangible and immediate?
+Status quo bias People are most likely to choose to do things that require the least
+amount of effort. The best predictor of future behavior is current
+behavior. Why should people or organizations change if what they
+are currently doing is still working for them? How do we help people
+to become uncomfortable or dissatisfied with their current
+condition?
+Dual self People do not have a consistent “personality”; instead their
+behavior is largely contingent on the circumstances they find
+themselves in. Why should we expect people to act consistently?
+How do we help people apply what they learn in one situation
+(for example, sexual negotiation skills practiced in a clinic) to
+another situation (such as being with another person in a bar
+or a car)?
+Attention constraints People get distracted, often despite their best intentions. Why do
+people lose attention over time and in many different situations,
+such as saving regularly for retirement or adhering to treatment
+regimens? How do we remind them or cue the appropriate
+behaviors to regain their attention?
+Defaults People make passive choices based on how the choices are
+presented to them. Why are certain choices presented to people in
+the way they are now? How can we redesign these choices (a
+process also known as choice architecture) to make the more
+beneficial ones for the person or society the easier ones (that is, how
+can we engage people in signing up for retirement plans, becoming
+an organ donor, or choosing privacy settings on social network
+sites)?
+Resource slack When planning into the future, people realistically assume resources
+will be tight but expect time to magically materialize. Why do
+people (including program planners, I will add) overlook the time it
+will take to adopt or sustain new behaviors? How can we create
+opportunities for people to test their assumptions about the time it
+will take to do and maintain certain behaviors?
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  95
+being done within a behavioral economics framework are relevant to social mar-
+keting literature and practice. In the next section, on MINDSPACE, there are
+several examples where the overlap between the two approaches is evident. I leave
+this section with one very important example of how behavioral economics findings
+and social marketing can be combined in improving economic decision making
+among the poor.
+Bertrand, Mullainathan, and Shafir (2006) note that the poor have much nar-
+rower margins for error in making economic decisions than more affluent people do.
+In their analysis, these authors propose that behavioral economics and social mar-
+keting principles should be combined in programs to improve economic decision
+making among the poor and thus reduce their chance of experiencing potentially
+calamitous outcomes. Bertrand et al. suggest that such integrated programs might
+1. Improve the ease of access to products, services, and information whose
+availability is too often taken for granted by policymakers and program plan-
+ners (a process these authors label “creating the right channel factors”).
+2. Develop messages and programs that appeal to the right identity, recognizing
+that people may in effect have multiple selves because they think about them-
+selves in different ways in different situations, such as identifying and interacting
+with others in various social groups.
+3. Create opportunities to improve people’s ability to process information when it
+offers too many choices or is complex. Bertrand et al. note that when behavioral
+recommendations are presented to people in small groups they are more likely to
+adopt them because the group interaction allows social norms to be addressed
+as well.
+4. Incorporate time management and planning into change programs to address
+the resource slack bias many people bring to these challenges (the “I’ll do it
+later when I have more time” objection).
+5. Focus on the nuances of policy and program design, including having clear
+incentives that are offered in the right context; offering natural and desirable
+defaults and not too many options; framing options as gains or losses and as
+injunctive or popular norms; selecting the right format for communication to
+enhance its persuasiveness; and appealing to people’s right identity, the one
+likely to adopt the program purpose or behavior.
+96  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+MINDSPACE
+Behavioral economics has achieved a high level of visibility in the United
+Kingdom owing to the creation of the Behavioral Insights Team in the Cabinet
+Office. This unit (also known as the “nudge unit”) supports a philosophical shift
+in the UK government from relying on laws and regulations to manage behavior
+to using market incentives. Its origins lie in a series of interviews conducted with
+senior civil servants, academics, and behavior change experts to identify the key
+behavioral drivers that could be influenced by the development of specific policy
+proposals in areas such as crime, obesity, and environmental sustainability. The
+result of this work was a checklist for policymakers (see table 3.5), identified by
+the acronym MINDSPACE (Dolan, Hallsworth, Halpern, King & Vlaev, 2010).
+MINDSPACE incorporates some ideas from theories this chapter has already
+reviewed and other ideas drawn from the behavioral economics literature (notably
+ideas about incentives, defaults, and priming).
+Dolan et al. (2010) suggest that the MINDSPACE model can help policy-
+makers understand how to improve current efforts to change behaviors through
+the use of incentives. The model also highlights what types of information are
+most important to people and how that information should be presented to them.
+MINDSPACE reminds change agents to use social norms and commitment
+strategies, and how to recognize when their programs may lead to inadvertent
+consequences (for example, if they develop programs with messengers who are
+not trusted by the priority audiences and whose messages go against widely shared
+popular beliefs). While arguments can be made for the inclusion of other
+TABLE 3.5 The MINDSPACE checklist
+Messenger We are heavily influenced by who communicates with us.
+Incentives Our responses to incentives are shaped by predictable mental shortcuts, such
+as strongly avoiding losses.
+Norms We are strongly influenced by what other people do.
+Defaults We tend to “go with the flow” of preset options.
+Salience Our attention is drawn to what is novel and seems relevant for us.
+Priming Our actions are often influenced by subconscious clues.
+Affect Our emotional associations can powerfully shape our actions.
+Commitment We seek to be consistent with our public promises, and reciprocate acts.
+Ego We act in ways that make us feel better about ourselves.
+Source: Dolan et al., 2010.
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  97
+behavior change constructs in this model, it shows a useful parsimony, especially
+given the people for whom it is designed, in offering major ideas from a variety of
+disciplines in a compact form.
+The implications of MINDSPACE for health programs were elaborated on in
+the report Applying Behavioural Insight to Health (Cabinet Office, Behavioural
+Insight Team, 2010), which described a number of initiatives, including these:
+ Using commitment and incentives to have smokers sign a contract under
+which they lose or keep rewards based on whether they pass regular tests to
+demonstrate that they remain abstinent.
+ Implementing prompted choice at motor vehicle registration centers to
+encourage people to become organ donors when applying for a driving license.
+ Increasing the salience of social norms about alcohol consumption in order to
+reduce alcohol use on university campuses.
+ Developing a reciprocal time-credit program (CareBank) to encourage more
+voluntary activity that supports older citizens in the community.
+While there are as yet few data on the effectiveness of these and other initiatives
+stimulated by the MINDSPACE model, it offers social marketers a working model
+of how to present alternative scenarios for behavior and social change programs to
+policymakers. The categories the MINDSPACE acronym represents can also be
+useful for program designers who wish to incorporate principles of behavior change
+from behavioral economics and communication theory into their work.
+Diffusion of Innovations
+In a review of the most popular theories and models being used in social marketing
+programs a decade ago (Lefebvre, 2001), I found that the diffusion of innovations
+theory offered one of the most robust theories for taking innovations in ideas,
+behaviors, and practice to scale. Though the calls for scaling up successful behavioral
+interventions for such things as HIV prevention, chronic disease prevention,
+and tuberculosis control are reverberating around the globe, there has been little
+discussion or application of the ways in which social marketing might respond to
+these challenges (cf. Elzinga, Raviglione & Maher, 2004; Gaziano, Galea & Reddy,
+2007; Global HIV Prevention Working Group, 2007). As Dees, Anderson, and
+Wei-Skillern (2004) have said: “If we are serious about tackling social problems on a
+98  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+large scale, we need to develop more effective tools to address this challenge” (p. 26).
+Scaling of behavior change interventions—for example, trying to scale up intensive,
+clinic-based, behavioral counseling sessions to a community or countrywide effort—
+may be one of the most formidable micro-macro problems our society faces.
+Social marketing needs to focus on pushing the curve of adoption of health
+practices among individuals, the adoption of effective interventions among
+THE NEED TO SCALE UP HIV INTERVENTIONS
+In 2007, the Global HIV Prevention Working Group laid out the facts about what
+is known about preventing HIV infections and also the facts about what is
+actually happening. The challenges are stark.
+ Condoms. Only 9 percent of risky sex acts worldwide involve the use of a con-
+dom, and the global supply of condoms is millions short of what is needed.
+ HIV testing. In the most heavily affected countries of sub-Saharan Africa,
+only 12 percent of men and 10 percent of women know their HIV status.
+ Treatment for sexually transmitted infections. It is estimated that fewer than
+20 percent of people with a sexually transmitted infection are able to
+obtain treatment, even though untreated STIs increase the risk of HIV
+acquisition and transmission by several orders of magnitude.
+ Prevention of mother-to-child transmission. Years after clinical trials dem-
+onstrated that a brief, inexpensive antiretroviral regimen could reduce the
+risk of mother-to-child HIV transmission by 50 percent, only 11 percent of
+HIV-infected pregnant women in low- and middle-income countries receive
+antiretroviral prophylaxis.
+ Prevention for vulnerable populations. Prevention services reach only 9 per-
+cent of men who have sex with men, 8 percent of injection drug users, and
+under 20 percent of sex workers.
+ Prevention in health care settings. An estimated six million units of
+unscreened blood are transfused yearly in developing countries, and
+40 percent of injections administered in health care settings are unsafe.
+Source: Adapted from Global HIV Prevention Working Group, 2007.
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  99
+practitioners, and the adoption of health-promoting and supportive policies
+among policymakers. It can become a powerful tool for scaling up programs if we
+think about that challenge as not getting bigger numbers but developing methods
+to expand impacts from small studies to larger social systems—that is, to bridge
+the micro-macro gap. We need to adopt a variety of scales of reality to make this
+micro-macro shift in problem solving. Adopting diffusion of innovations theory
+helps us understand how and why groups of people adopt (or fail to adopt)
+healthier, environmentally conscious, or socially beneficial behaviors. These
+reasons include, in addition to the variables identified in table 3.1, (1) the
+contextual factors that surround the adoption of new practices and policies,
+(2) people’s perception of an innovation as a normative behavior among their
+reference group or peers (which studies suggest accounts for 50 to 86 percent of
+the variance in the rate of diffusion of new behaviors), and (3) a risk-benefit
+analysis that accepts certainty of outcomes and familiarity with the new behavior
+over the costs and benefits of changing current behavior (Rogers, 1995).
+In addition to understanding the variables surrounding products, services, and
+practices that are more likely to be broadly adopted, marketing for behavior
+and social change at scale also needs to explore segments of priority groups who
+may help to speed or to impede broad adoption. The categories used to segment
+people by how likely they are to adopt innovations of many different types include
+Innovators: people who have a high tolerance of risk; are fascinated with novelty;
+are usually viewed by others in their community as mavericks, not opinion
+leaders; and whose social networks transcend geographical boundaries.
+Early adopters: people who are the community opinion leaders and well
+connected socially and locally, have the resources and risk tolerance to try
+new things, and are watched by others—and they know it.
+Early majority: people who are very engaged in local peer networks, rely on
+personal familiarity before adoption, and continually ask, How does this
+new behavior [or product or service] help me?
+Late majority: people who are most sensitive to peer pressure and norms, yet
+very cautious about change of any kind; and who seek to minimize
+uncertainty of outcomes and want to see the proof of relative advantage
+locally—not read about it on websites or see it on television.
+100  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+Traditionalists: people who believe in the tried and true; who are near isolates
+in their social networks, which explains why they can be so difficult to
+reach and influence; who are often suspicious of innovation and change
+agents; and who are seeking assurances that adoption of new behaviors
+(such as stopping smoking or driving a low carbon emission vehicle) will
+not fail.
+One area for applying diffusion models in social marketing that should not be
+overlooked is in meeting social goals for increasing the use of evidence-based
+practices in such areas as education, housing, public health, and medicine (Elias,
+Zins, Graczyk & Weissberg, 2003; Gaziano et al., 2007; Harris et al., 2012).
+Maibach, Van Duyn, and Bloodgood (2006) suggest three social marketing
+approaches for increasing the adoption of evidence-based practices: (1) conduct
+consumer research with prospective adopters to identify their perspectives on how
+evidence-based prevention programs can advance their organization’s mission,
+(2) build sustainable distribution channels to promote and deliver evidence-
+based programs to prospective adopters, and (3) improve access to easily imple-
+mented programs that are consistent with evidence-based guidelines. To these
+suggested approaches I would add three more: (4) conduct segmentation studies
+with organizations that can be arrayed along a traditionalist-innovator continuum,
+(5) generate pricing studies that address relative advantage as well as the goodness
+of fit of new practices to existing organizational processes and work flow, and
+(6) develop service models that allow customization and adaptation of evidence-
+based practices without sacrificing effectiveness, equity of effects, and impact.
+However, it is also true that many constraints to scaling up exist (Dandona
+et al., 2008; Global HIV Prevention Working Group, 2007; Hanson, Ranson,
+Oliveira & Mills, 2003; Rogers, 1995; also see the accompanying list of challenges).
+There are also people who caution against a pro-innovation bias—which occurs
+when diffusion agents are so supportive of the innovation they are promoting that
+they overlook or ignore data contrary to its reputed effectiveness—and these
+arguments must be considered and not treated simply as the expected cries of
+traditionalists.
+There are lessons social marketers have learned that can be used when
+designing social marketing strategy to promote diffusion of products and services
+as well as adoption of new behaviors.
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  101
+1. Find sound innovations and solutions, ones that meet the criteria noted
+earlier and are relevant to people’s everyday lives.
+2. Provide opportunities for innovators to discover innovations and solutions.
+3. Engage the curiosity of the early adopters who must first test and validate the
+innovation.
+4. Target the weak ties between innovators and early adopters through iden-
+tifying the boundary spanners who interact with multiple networks. These
+boundary spanners are critical agents for introducing new ideas into com-
+munities (whether these communities are geographical, professional, virtual,
+and so forth).
+5. Promote the work of early adopters, especially among the early majority.
+Successfully traversing the gap between these two segments is the critical
+distinction between innovations and practices that go in and out of fashion
+quickly on the one hand and those that are embraced and sustained by a
+majority of a population on the other hand.
+CHALLENGES IN SCALING UP SOCIAL INNOVATIONS
+ Lack of demand
+ Potential for stigma or discrimination
+ Lack of trained personnel
+ Inadequate financial resources to meet changing demand
+ Incompatibility with existing structures or work flow
+ Misallocation of resources due to poor information and monitoring systems
+ Potential undesirable, indirect, and unanticipated consequences of adoption
+ Nonsupportive policies at the organizational or government levels
+ Weak or fragmented product and service delivery systems
+ Need for collective action
+102  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+6. Create spannable social distances between groups through various means,
+including using social media such as social network sites and blogs and
+convening meetings of the unlike, rather than the usual host of agents.
+7. Enhance the salience and attractiveness of the positive deviants—the people
+who are already practicing the target behavior or using the product and
+service; put the practitioners of new desired behaviors in contexts and
+situations that attract imitation or modeling.
+8. If you can’t imitate them, don’t copy them. Expect and encourage reinvention.
+9. Support time and energy for discovery, testing, networking, adapting,
+monitoring, and also preserving the past. Do not write off the traditionalists,
+especially when encouraging organizational change.
+10. It starts with you and your partners.
+With respect to this last point, research has found that highly linked and
+centralized coalitions are less likely to adopt new evidence-based public health
+programs for drug-abuse prevention in schools than are ones that are less dense
+and have more decentralized structures (Valente, Chou & Pentz, 2007). This
+finding goes against the commonsense idea that the better developed and tightly
+knit coalitions will be more efficient and productive in their work. Yet a moment
+of reflection with these data, and we can quickly come up with reasons why more
+tightly linked groups may resist new ways of doing things that upset their care-
+fully crafted status quo. The people who are important for adopting new practices
+and programs are the boundary spanners, individuals who are not tightly bound to
+a social clique (or usual cast of characters), to a shared worldview, or to groupthink
+or the standard operating procedures in their organization. These are the people
+more likely to be open to innovation; the traditionalists often have their own,
+seemingly immutable point of view. And bound together they become even more
+strongly set against change—even when the data suggest they should and could be
+more effective in meeting their objectives. Irrationality is not confined to indivi-
+duals; marketers should understand that when working toward scalable change.
+Design Thinking
+Design is often thought of as the tasks associated with creating posters, print
+materials, and websites. Other people think of design aesthetically and in
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  103
+association with what they see in fashion magazines, home decorating catalogues,
+high-end department stores, and various technology products (Apple’s products
+being a prime example). Less obvious might be the application of design principles
+(cf. Lidwell, Holder & Butler, 2003) in such areas as creating systemic change in
+the National Health Service, developing approaches to patient-centered health
+care, and developing campaigns to modify eating patterns (Lefebvre & Kotler,
+2011). Tim Brown (2008) describes these efforts as design thinking: “a human-
+centered design ethos . . . [by which] innovation is powered by a thorough
+understanding, through direct observation, of what people want and need in their
+lives and what they like or dislike about the way particular products are made,
+packaged, marketed, sold, and supported” (p. 86). If we extend this definition to
+include the services and behavioral alternatives that are offered to people to facil-
+itate improvements in their lives, design thinking offers a number of ideas and
+practices that can complement, and deepen, the approach social change agents take
+in their work.
+Design thinking involves more than making products pretty and appealing; it
+means developing ideas that are desirable to people, technically feasible, and
+viable for the organization to do (Brown, 2008). Designers apply the design
+process to practical, creative resolution of problems or issues that might lead to a
+new or improved product or service, new processes or experiences for consumers
+or users, or new social and organizational systems. Businesses are incorporating
+design thinking as a way to stimulate more innovation in the products and ser-
+vices they offer. And as Brown and Wyatt (2010) note, many nonprofit orga-
+nizations are also adopting design thinking for developing social innovations in
+the face of chronic, ongoing social problems. Roger Martin (2009), dean of the
+Rotman School of Management at the University of Toronto, views design
+thinking as leading a movement that looks at such wicked problems, or social
+mysteries, as how to make health care systems work or why some cities seem to
+function better than others, in order to come up with new heuristics or guidelines
+for an organized exploration of the possibilities.
+Design thinking shares a similar value with social marketing in being driven
+by a people-centered perspective. Indeed, designers are among the most vocal
+advocates for involving the people we formerly called our audience in the process—
+not just participating in it but being co-creators of and tactics. Designers strive
+to develop an empathy for the people they wish to serve—to understand their lives
+beyond the numbers from surveys or the comments from focus groups. They
+104  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+employ a number of research techniques to establish this empathy and to gain
+insight into ways to frame and solve problems from these people’s point of view (a
+topic this book will explore in chapters 5 and 6). The value of design research is
+judged by its “world-changing” impact on the designers, or social marketers, in
+terms of inspiring them and in the results that follow (cf. Laurel, 2003a).
+WHAT IS DESIGN THINKING?
+Victor Lombardi (2005) describes the design thinking process as
+ Collaborative—especially in working with others having different and
+complementary experiences in order to generate better work and achieve
+agreement
+ Abductive—inventing new options to find new and better solutions to new
+problems
+ Experimental—building prototypes and posing hypotheses, testing them,
+and iterating this activity to find what works and what doesn’t work to
+manage risk
+ Personal—considering the unique context of each problem and the people
+involved
+ Integrative—perceiving an entire system and its linkages
+ Interpretive—devising how to frame the problem and judge the possible
+solutions
+The design approach embraces the ideals of transdisciplinary approaches
+(in which we jump out of our silos) to problem definition and solution; stops to
+value and appreciate what might be before jumping into the process; sees
+experimentation as a never-ending process of prototyping, with the motto
+“learn fast” (not as conducting fully formed experiments with rigid protocols
+and high resource costs); is sensitive to the context of problems (and does not
+bring a cookie-cutter approach to the issue); looks at problems as occurring in
+systems (not as due simply to individual determinants and consequences); and
+explores how different frames, or points of view, change the way a problem can
+be perceived and addressed.
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  105
+Service Design
+The related field of service design has grown out of the design discipline and
+incorporates many of the same principles (Lunenfeld, 2003). Service designers
+apply design principles to services of all kinds, from community-based approaches
+to crime prevention to hotel experiences. One definition of services in this
+approach is “time-based processes that consist of sequences of operations targeted
+to deliver a solution to the customer’s problems and needs” (Koivisto, 2009,
+p. 137). Disentangling these processes from a user’s point of view is the core of
+the approach. That means having a thorough understanding of service touch-
+points (when and where a service reaches, or affects, people) and of how these
+points are connected together over time to form the customer journey, and then
+redesigning and reengineering the process, not for the ease and convenience of
+providers but to make it more suitable for people who choose to use the service.
+When we consider all the services that make up social marketers’ efforts to
+improve society—tobacco cessation efforts, breast-feeding programs, health ser-
+vices, consultations to reduce energy or water consumption in homes or busi-
+nesses, and consumer information systems, to name a handful—the work we do to
+integrate the marketing of socially beneficial services with service design principles
+is one of the more fertile areas for research and practice.
+I have briefly introduced design thinking and service design ideas and ele-
+ments here because they are incorporated throughout this book. To close the
+present discussion, table 3.6 presents definitions of service design terms that will
+be useful in later chapters.
+Social Networks
+With many social marketers having gained experience in using a variety of the-
+ories and models that focus on individuals and their behaviors, there has been a
+growing recognition that social theories of behavior change are needed to address
+some of the more compelling puzzles of our time. For instance, Dholakia and
+Dholakia (2001) noted that many organizations that use social marketing ignore
+the fundamental processes of social control and social change. These authors
+called for social marketing to be integrated with the broad scope of social change
+theories, techniques, and practices. From a practical standpoint, the research
+demonstrating how HIV/AIDS, tobacco use, loneliness, and obesity spread
+106  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+through social networks (Adimora, Schoenbach & Doherty, 2007; Cacioppo,
+Fowler & Christakis, 2009; Christakis & Fowler, 2007, 2008; Epstein, 2007;
+Helleringer & Kohler, 2007; Mah & Halperin, 2008) presents us with an urgent
+need to reconsider our frameworks.
+The role of social networks in disease transmission and network effects on the
+prevalence of risk behaviors challenge us to focus on social units of analysis, change,
+and outcome. For example, concurrent sexual partnerships, that is, having two or
+more stable sexual partners over time, is now seen as a previously hidden driver of
+the HIV epidemic (Epstein, 2007). Concurrency, especially when the partners are
+sexually active with others in a small social network such as is found in villages and
+towns, heightens the risk of HIV transmission because these relationships are not
+casual or one-off sexual encounters. Instead, these multiple relationships are
+maintained over time and a level of trust can develop that diminishes their per-
+ceived riskiness. Thus when one partner becomes infected, he or she is highly likely
+to have unprotected sex with one or more other partners during the window of
+TABLE 3.6 Service design terms and definitions
+Service design The process of addressing how useful, usable, and desirable service
+interfaces are from the client’s point of view and how effective,
+efficient, and distinctive they are from the supplier’s point of view. It is
+used both to restructure existing services and to develop new ones.
+Service ecology The system in which a service is embedded. The system may include
+politics, the economy, client demand and needs, employees, law,
+societal trends, and technology developments. Understanding and
+analyzing service ecologies can reveal opportunities for new actors,
+new relationships among existing actors, and the development of
+sustainable new services.
+Customer journey The customer’s perception and experience of the complete service
+interface over time. Determining when and where the journey begins
+and ends is a first step in developing a complete picture of this process.
+Service touchpoints The tangible manifestations of the service, including the spaces,
+objects, people, and interactions that make up the entire experience or
+journey. Touchpoints can take many forms, including advertising and
+direct solicitations; web, mobile, and PC interfaces; physical spaces such
+as waiting rooms and examination areas; call service representatives or
+counselors; and print and audiovisual materials.
+Source: Adapted from Miettinen, 2009.
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  107
+greatest HIV infectivity and before he or she is diagnosed as having HIV.
+Developing interventions to address the network effects of sexual activity are only
+just beginning. Similarly, the work of Christakis and Fowler (2007, 2008) provides
+evidence that the likelihood of becoming obese rises as close members in one’s
+social network become overweight and obese and that the likelihood of stopping
+smoking is highly susceptible to the smoking status of others in one’s network. It is
+clear that trying to alter individual determinants of these conditions in any type of
+risk reduction program is too narrow a focus.
+Coincident with the increasing recognition of the role of social networks in
+various public health puzzles, the scientific study of social networks has also
+grown (cf. Goyal, 2007; Valente, 2010; Watts, 2011), as have the efforts by
+commercial marketing, public health, and nonprofit organizations to make use of
+strategies that tap into social networks (cf. Abroms, Schiavo & Lefebvre, 2008;
+Li & Bernoff, 2008; Waters, Burnett, Lamm & Lucas, 2009). The field of social
+marketing has been slow to respond to this shift in perspective. Donovan and
+Henley (2010) have been leaders in calling for social marketing to incorporate
+concepts such as social determinants, social capital, social ecology, and advocacy
+into the planning, implementation, and evaluation of programs. Yet when these
+authors offer theoretical models for social marketing, they fall back upon ones
+that focus only on individual behavior change.
+Glenane-Antoniadis, Whitwell, Bell, and Menguc (2003) may have been
+among the first to bring social concepts into the social marketing literature. They
+view the idea of social capital as offering a bridge and focal point for social
+marketers who want to influence social determinants through the application of
+social diffusion and social networks theory. Putnam’s identification of the ele-
+ments that constitute social capital is commonly accepted (Putnam, 2000):
+ Community networks
+ Civic engagement (participation in these community networks)
+ Local identity and a sense of solidarity and equality with other community
+members
+ Norms of trust and reciprocal help and support
+For social change agents, building community engagement, strengthening
+social networks and local solidarity, and enhancing norms of trust and support in
+108  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+villages, neighborhoods, and communities are valued processes and outcomes.
+However, for many traditional social marketers, social capital seems too far
+removed from individual behavior changes to benefit society. I suggest that the
+role of social capital depends on the behaviors one is trying to change. For
+example, Kotler & Lee (2009) set out to provide a social marketing “toolkit” for
+policymakers, entrepreneurs, and governments to use in efforts to alleviate pov-
+erty. Yet the toolkit focused only on using social marketing methods to influence
+individual behaviors that affect health, safety, the food supply, financial man-
+agement, and gender equality. While there was some recognition that poverty is
+linked to more than unwise individual behaviors, this attempt to address a
+complex puzzle was limited by its inability to move beyond the individual frame
+of reference. This approach portrays the issue I started the chapter with: if your
+theory leads you to ask the wrong questions, you will not come up with improved
+solutions.
+In looking at health disparities—just one part of the poverty puzzle—Wallack
+(2000) notes that the existence of such disparities is more than a problem of
+people who are poor having fewer positive health behaviors than more affluent
+people. Rather, it is a puzzle in which the research demonstrates that social capital
+plays a crucial role. Wallack presents a review of the research linking social capital
+to health and the pathways through which low social capital may contribute to
+poor health status and health disparities. These pathways include (1) systematic
+underinvestments in health and social infrastructure; (2) inhibition of the flow of,
+and access to, health information (remember the discussion of the health infor-
+mation marketplace in the last chapter); (3) an increase in individuals’ sense of
+isolation; and (4) lowered individual (and collective) efficacy. In proposing how
+we might develop interventions to increase social capital, he suggests these
+questions for us to consider when selecting strategies:
+ Does the approach increase the capacity of individuals or small groups
+to participate in collective action by
+ providing participatory skills, and
+ creating a structure or network through which individuals, groups
+and organizations can act?
+ Does the approach connect the problems or issues to broader social
+forces?
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  109
+ Does the approach increase the community’s capacity to collaborate
+and cooperate by strengthening existing groups (create bonding
+capital) and connecting various groups (create bridging capital)?
+ Does the approach reflect a social justice orientation—the idea that
+“each member of the community owes something to all the rest, and
+the community owes something to each of its members”? (Etzioni,
+1993, p. 263) [Wallack, 2000, pp. 358–359].
+These are certainly much different objectives than reducing people’s tobacco
+use, increasing physical activity levels, having more women using family-planning
+methods, or having more recycling in neighborhoods. But there is also nothing
+(except theoretical blinders) standing in the way of approaching tobacco use,
+obesity, unwanted pregnancies, or more sustainable environments through pro-
+grams with ideas of social capital and social networks embedded in them. Whether
+these “social” approaches will lead to more effective, equitable, and sustainable
+solutions to these puzzles than “individual” approaches awaits empirical tests.
+Moving from the more abstract idea of social capital back to the social net-
+works that constitute that capital, we know that people learn about and choose
+among behavioral options not only by directly observing others in their social
+circle and the consequences they experience but also indirectly when their friends
+and associates connect with people outside that proximal network and then bring
+additional information or practices back to the network. In reviewing the
+research, Goyal (2007) concluded that variations in behaviors among individuals
+are related not only to the connections people have within the same social group
+but also to their being members of different groups as well. The implication of
+this work for social marketers seems clear: people with whom the priority group
+members associate, or are otherwise connected to, must be considered and addressed
+by intervention efforts. These social network intervention strategies include
+Focusing on people who have a high degree of connectedness within a
+network (who might be called connectors, influentials, or opinion leaders)
+to spread information and model behaviors for others in the network
+Reducing the density of a network in which risk behaviors are concentrated
+by introducing more boundary spanners or by increasing network
+members’ connections with groups outside their immediate network
+110  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+Identifying which members of a network are most attentive and responsive to
+the behaviors of others and then enhancing the salience and attractiveness
+of out-group members (the positive deviants) by positioning these prac-
+titioners of desired behaviors in a light that attracts imitation or modeling
+SOCIAL STRATEGIES FOR SOCIAL MARKETING
+In discussing the emergence and impact of social and mobile technologies,
+Lefebvre (2007) noted five implications of adopting a social networking per-
+spective on social marketing practice. They are adapted here as questions to
+guide the embedding of social theories into social marketing programs:
+ Do we enhance linkages among people, organizations, and communities to
+allow them to access, exchange, utilize, and leverage each other’s knowl-
+edge and resources to co-create value with each other?
+ Are we developing, nurturing, and sustaining new linkages among like-
+minded people, organizations, and communities to address common
+puzzles and achieve positive health and social change?
+ How are we identifying, encouraging, and enabling the many different
+types of indigenous helpers who are found in social networks and com-
+munities, so that they can be more effective in promoting positive health,
+environmental, and social behaviors and policies?
+ What do we need to do better to engage communities in monitoring,
+problem analysis, and problem solving; striving for health and social equity;
+and increasing social capital?
+ How do we go about weaving together existing social networks of indivi-
+duals, organizations, and communities to create new sources of power and
+inspiration to address health and social issues?
+These questions provide a useful measure of whether your social marketing
+program is stuck in the myopia of individual change theories. The key test
+comes with these questions: How does a networked view of the world disrupt
+our usual ways of thinking about and engaging with the people, organizations,
+and communities with which we usually work? What are the insights we can
+gain from this perspective?
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  111
+Building Communities
+For many years communities were inextricably linked with social marketing.
+Lefebvre and Flora (1988) laid out the defining features of the social marketing
+approach in public health based on experiences they shared directing community
+interventions aimed at reducing cardiovascular diseases. Yet there has been a
+marked separation between social marketers and community change agents ever
+since, with many social marketing programs becoming not much more than mass
+media education and communication campaigns. Social marketing in these con-
+texts became a shorthand term designating “new” health communication cam-
+paigns that segmented their audience, pretested materials, focused on changing
+behaviors and not just knowledge and attitudes, and considered the 4Ps in the
+context of communication planning (that is, in the messages of the campaign, the
+format of the communication products, the “prices” people would pay to change
+behaviors, the barriers to changing behavior, and the distribution of the com-
+munication products). In contrast, community development and mobilization
+projects rejected any mention of segmentation, formative research, or distribution
+and price (cf. McKee, 1992).
+Differences in the practice of social marketing became even more pronounced
+in developing countries, where social marketing became synonymous with the
+marketing of products for family planning, maternal and child health, HIV
+prevention, and malaria control, while other development organizations formed
+themselves around concepts such as behavior change communication, develop-
+ment communication, and community mobilization. Responding to this frac-
+turing of resources and talent, McKee (1992) presented an approach intended to
+bridge the unnecessary gulfs that had opened between advocates of social mar-
+keting and advocates of social mobilization with a model that blended the
+strengths of each: marketing research methods, alliance building, and advocacy.
+Few practitioners seem to have or heeded his call.
+An effort to bring social marketing to communities that were struggling to
+address environmental puzzles was called community-based social marketing
+(CBSM) (McKenzie-Mohr, 2000). McKenzie-Mohr and Smith (1999, p. 3)
+described CBSM as a process of identifying the barriers to and benefits of
+engaging in behaviors, and then organizing the public into groups with shared
+characteristics in order to more efficiently deliver programs. Bryant et al. (2000)
+112  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+used the term community-based prevention marketing to refer to public health
+programs that combined community participation methods with social marketing
+approaches. Chapter 11 presents a fuller discussion of these two approaches.
+The community-based approach as a context for implementing social mar-
+keting programs has much to commend it. It can result in
+ Gaining community insight into problems and community support for
+proposed solutions
+ Ensuring the use of indigenous knowledge and expertise
+ Mobilizing and employing local communication channels, including local
+mass media and local social and interpersonal communication networks
+ Localizing distribution of products and services, and improving access and
+opportunities to engage in new behaviors
+ Building more sustainable solutions
+Engaging the community is not without its drawbacks. McKee (1992) notes
+that “community participation” can range from full engagement of the com-
+munity in a dialogue about problems and solutions to a cursory consultation
+consisting of interviewing a few leaders or conducting community focus groups.
+Participation from the community can result in the development of a partici-
+pating elite, who may, or may not, represent broader community viewpoints.
+Program planners can fail to recognize the opportunity costs that will be
+incurred by people who participate in the development and oversight of the
+program and that may limit participation. Open participation can also lead
+to manipulation and conflict by and among different stakeholders. And local
+agendas may not match those of the donor or lead agency. Finally, there is a
+need for partnership development and advocacy to gain strong public and
+political commitment and create a culture in which to embed and support
+social goals.
+One other perspective on communities that requires more appreciation in the
+social marketing approach is the asset-based model. Kretzmann and McKnight
+(1993) list several arguments against relying on needs assessments and the
+mapping of deficits in community projects:
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  113
+ Taking this approach results in a nearly endless list of problems and needs,
+and that leads to a fragmentation of efforts to provide solutions.
+ Using the results of a needs assessment to target resources directs funding to
+service providers rather than residents, a consequence not always either
+planned for or effective.
+ Making resources available on the basis of a needs assessment can have
+negative effects on the nature of local community leadership by forcing
+communities to highlight their problems and deficiencies and ignore their
+capacities and strengths.
+ Providing resources on the basis of a needs assessment underlines the per-
+ception that only outside experts can provide real help.
+Kretzmann and McKnight (1993) argue that a needs-based strategy will
+inevitably focus on community survival rather than supporting a shift to serious
+change or community development. An alternative approach they propose is
+asset-based community development, which has three interrelated characteristics:
+ The strategy starts with the capacities of community residents and workers
+and the assets that local organizations and associations possess, not with what
+is absent or problematic or what the community needs.
+ The focus is on the agenda-building and problem-solving capacities of local
+residents, associations, and institutions to stress the primacy of local direction,
+investment, creativity, and ownership.
+ Implementation of the strategy will be driven by the challenge to constantly
+build and rebuild the relationships between and among local residents, local
+associations, and local institutions.
+The asset-based model is intended to reinforce the need for social mar-
+keters, particularly those who work in resource-constrained contexts and with
+disadvantaged populations, to view their work in communities as needing to
+expand to working with communities. It also, ideally, awakens the idea that
+decisions and strategies based on needs and barriers may be inferior approaches
+to program development. Community strengths and competencies should
+receive at least equal attention in marketing plans. Indeed, one of the potential
+114  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+unintended effects of well-done community-based programs could be that they
+result in lowered levels of social capital and self- and collective efficacy, and
+increased dependency on experts among citizens. An asset-based approach also
+reinforces two core values of the social marketing approach: a person- or
+community-centered orientation and a commitment to engaging people in the
+process, rather than treating them as only passive consumers of messages and
+programs.
+SHIFTING FROM INDIVIDUALS TO MARKETS
+Shifting from a focus on individuals as the exclusive unit of analysis and inter-
+vention to a focus that includes markets is a radical idea for many people. It does
+elicit almost primal fears that “the market”—which many equate with ruthless
+corporate barons and financial masters of the universe—will be the determinant
+of how people live and whether they will do so safely. As we witnessed in the years
+following 2008, left to its own devices the financial marketplace could lead whole
+nations to diminished health, safety, and massive degradation of the environ-
+ment. Social marketers need to become more engaged in shaping markets rather
+than just accepting the consequences for their activities (cf. Hastings, 2012). The
+shift from an exclusive focus on individuals to one that includes markets is a
+micro to macro shift that parallels the shift in public health from considerations of
+individual determinants of health and behavior change to a social ecological
+perspective (Marmot, 2005; Sallis, Owen & Fisher, 2008). It defines an emergent
+moment (cf. Watts, 2011) in which connectedness, systems, and the complexity
+of the marketplace begin to supersede the individual level of analysis.
+Markets and their place in society constitute a key issue that most social
+marketers have simply ignored, despite their intention of using marketing to
+improve society in some way. Wilkie and Moore (2003) describe the aggregate
+marketing system as an organizing framework for considering the role of marketing
+in societies: “The Aggregate Marketing System is recognized as different in each
+society, as an adaptive human and technological institution reflecting the idio-
+syncrasies of the people and their culture, geography, economic opportunities and
+constraints, and sociopolitical decisions. The three primary sets of actors within
+the system are (1) consumers, (2) marketers, and (3) government entities, whose
+public policy decisions are meant to facilitate the maximal operations of the
+system for the benefit of the host society” (p. 118).
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  115
+Therefore markets can be thought of in a variety of ways. Each market might
+have its own system, actors (producers, buyers, intermediaries), institutions,
+procedures, social relations, and infrastructure designed around the specific types
+of goods and services that are exchanged. For example, the market system for
+bananas, from growing them to delivering them to your table, is quite different
+from the market for primary care physicians and how they are selected and
+trained and where they ultimately practice. Markets might vary in size, range,
+geographical scale, location, types, and varieties of human communities, as well as
+in what is traded or exchanged. They include local farmers’ markets and shopping
+malls, fashion and music offerings, markets for pollution and carbon offset per-
+mits, and even illegal markets, such as the ones for illicit drugs and trafficking in
+women and children. As social marketers we also need to think about market-
+places of ideas and behaviors and the actors in these social marketplaces: family
+and peer groups, nongovernmental organizations (NGOs) and civil societies
+(schools and universities, community and neighborhood organizations), faith
+communities, the voluntary sector (such as advocates for certain groups of
+patients or funding for research on certain diseases), associations that set and
+govern rules for professional conduct (physician and health care membership
+associations for example), the commercial sector, and government. How is the
+marketplace supporting or discouraging youths’ tobacco use? Why are certain
+behaviors associated with spreading levels of obesity being “bought” (adopted) by
+so many different consumer segments? How can citizens become more involved
+with the process of governing? How do we create a marketplace in which socially
+responsible corporate behavior is normative, not simply worthy of press releases?
+The Essence of Markets
+In mainstream economics a market is any structure that allows buyers and sellers
+to exchange any type of goods, services, and information. The exchange of goods
+or services for money is a transaction. Market participants consist of all the buyers
+and sellers of a good who influence its price (think of this influence also in terms
+of the normative positive and negative influences that shape decisions about
+behaviors—acceptance or rejection by a valued social network being a bottom
+line). This influence is a major study of economics and has given rise to theories
+concerning the basic market forces of supply and demand. The market itself
+facilitates trade and enables the distribution and allocation of resources in a
+116  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+society. Markets allow any tradable item to be evaluated and priced. A market
+may emerge more or less spontaneously or may be constructed deliberately by
+human interaction in order to enable the exchange of services and goods. Markets
+for ideas are well regulated in some respects (think of patents and trademarks)
+whereas regulation of behaviors has been left in large part to legal, regulatory,
+normative, and educational influences in free societies. The important part of
+markets is that while the concepts surrounding markets may be abstract, markets
+are composed of people. One consequence of this fact is that people can change
+markets (Hastings, 2012). Indeed, they do it every day by the decisions they
+make about whether and what to purchase and, I submit, how they will behave.
+Markets and Society
+In many of the textbooks of the 1930s, marketing was presented as a way to
+accomplish socially beneficial objectives and to move products where they were
+needed with as little time and effort as was feasible (Wilkie & Moore, 2003).
+There would be adequate incentives in place so that the distribution processes
+could always be improved, and innovation would become part of the social
+benefit of marketing. Unfortunately, this perspective on marketing was lost to
+more pressing issues of the times, such as whether advertising was worth the
+money, pricing practices by manufacturers and retailers (and whether government
+regulation of pricing was necessary), and debates over the effectiveness of fear
+appeals in advertising (a conversation that continues today with no end in sight).
+By the late 1950s and 1960s, modern marketing thought and practice as we
+recognize it came into its own. Key to this transition was viewing marketing from
+the vantage point of the managers who were responsible for making the mar-
+keting decisions in businesses (Wilkie & Moore, 2003). Many of the concepts we
+use in social marketing came out of this effort to fashion marketing as a mana-
+gerial or practice endeavor: market segmentation, the marketing mix, brand
+image, marketing management, and marketing myopia (a condition diagnosed
+and then treated by asking and then answering the question, What business are
+we really in?). These concepts reinforce the heritage of viewing social marketing as
+a management process, not just a blueprint from which to build programs and
+campaigns (cf. Kotler, 1988).
+It was shortly after this shift from an academic perspective of marketing to a
+managerial one that behavioral sciences became more central to marketing
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  117
+thought, notably through research and the development of various theories to
+explain and influence consumer behavior. Theories that consumer marketers use
+to explain purchase decisions on fast-moving consumer goods such as detergents
+and condoms may not be familiar to readers who come from outside the business
+and marketing field, but they may still be applicable to social marketing issues (see,
+for example, Bagozzi & Lee, 1999; Petty, Barden & Wheeler, 2009).
+Attention to, and concern about, the interface of marketing and society has
+continued to grow (Bloom & Gundlach, 2001b; Hastings, 2012). Questions
+about marketing and advertising and their impacts on social and public health
+issues have received intensive scrutiny in the public health debates about tobacco
+control, alcohol abuse, and food consumption, but leadership from social mar-
+keters has been noticeably lacking. The consumerism movement and its off-
+shoots, including the consumer and e-patient communities enabled by social and
+mobile technologies (cf. Ahonen & Moore, 2005), are areas in which social
+marketers have much to offer but that they, again, have largely ignored to now.
+Corporate social responsibility activities have drawn the interest of some social
+marketers, but usually either to tag these activities as not being social marketing
+(Donovan & Henley, 2010) or to encourage companies to adopt behavior change
+(aka social marketing) practices and bottom lines, not just reputational and sales
+ones (Kotler & Lee, 2004).
+Public policy has drawn the attention of marketing scholars for several dec-
+ades but, again, has been an arena that social marketers have been slow to enter.
+For many years social marketers viewed public policy as an upstream issue, after
+Wallach (1980) had framed social marketing as a downstream approach, meaning
+one that focused on individuals needing help (struggling in the water) and
+changing their behaviors. The upstream approach, in contrast, focuses on moving
+up the allegorical river to prevent people from falling into the water in the first
+place (that is, experiencing market, health, or social vulnerabilities) and is more
+concerned with the systemic or social determinants that are outside an indivi-
+dual’s control and require more than behavior change solutions. Though social
+marketers have worked to understand the difference and now speak of policy or
+upstream approaches to social change (see, for example, Andreasen, 2006;
+Donovan & Henley, 2010), their upstream approach tends to be to try to change
+the behavior of policymakers (so they will adopt desired policies) rather than to
+create changes in environments, markets, and public policies that lead to healthier
+and more sustainable behaviors.
+118  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+Framing social marketing in terms of upstream or downstream approaches
+to behavior change has not benefited larger social policy debates or contributed
+much to them. Only in the discussion of critical marketing by Hastings and
+Saren (2003) has the idea been raised of applying social marketing expertise to
+tobacco, food, and alcohol marketing practices and the public policies that
+regulate them (or not). For example, social marketing can be a way of improving
+marketing knowledge and using it to inform public policy development as
+countries try to reduce tobacco use and the incidence of obesity and chronic
+diseases related to overconsumption and underactivity. Understanding how
+consumers perceive, appraise, and act on risk information—whether it is for a
+potential public health emergency or taking their prescription medication
+properly and safely—is a social marketing issue. And indeed, entire arrays of
+issues considered under the rubric of consumer protection are social marketing
+issues as well (for example, consumers searching for health or product infor-
+mation, ethnic targeting, consumer satisfaction, quality of life, socially conscious
+consumers, and health and digital privacy).
+Wilkie and Moore (2003) close their review of the history of scholarly
+research in marketing by calling for the inclusion of marketing and its relation-
+ship to society as “an intrinsic part of mainstream marketing thought” (p. 140). I
+submit that we need to make marketing and society more integral to social
+marketing thought and practice as well.
+SUMMARY
+There is no shortage of theories that can be useful in thinking about the deter-
+minants, context, and consequences of social puzzles and in guiding the devel-
+opment of their possible solutions. What is clear is that models and theories of
+individual behavior change are insufficient to deal with most of the puzzles we face
+and at the scale at which we need to improve social conditions. Understanding that
+social networks, community assets, policy and environmental influences, and
+market forces can and should be considered in the analysis of social puzzles and
+development of potential solutions is a step forward in improving social marketing
+practice and research.
+Because individuals can hold a variety of assumptions and beliefs about a
+social puzzle and the people a program serves, social marketers must provide a
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  119
+careful articulation of the theory of change that a program uses to understand and
+describe the relationship between its actions and the outcomes it hopes to
+achieve. This theory of change may be different for different puzzles, populations,
+and purposes; it may also vary with the perspectives of the actors and stakeholders
+involved in program planning and development. I believe that in practice there is
+no reason why a theory of change should adhere rigidly to one theory over others;
+that is better left to the hypothesis-testing and theory-building activities of aca-
+demicians. What practitioners require are hybrid theories of change that blend
+what is needed from various theories and models to identify the critical variables
+for programs to focus on, explain why these variables are more important than
+others, and give a clear direction for strategy development and implementation.
+Such a model provides a blueprint for each step on the implementation journey
+and offers a coherent framework for evaluation.
+KEY TERMS
+advocates
+aggregate marketing system
+asset-based community development
+behavioral economics
+boundary spanner
+design thinking
+diffusion of innovations
+eclectic theorizing
+emergence
+frame problem
+framing
+health belief model
+heuristics
+integrative model of behavior prediction
+micro-macro dilemma
+MINDSPACE
+participating elite
+processes of behavior change
+pro-innovation bias
+rational person model
+self-efficacy
+service design
+social capital
+social-cognitive theory
+stages of change model
+theory of change
+touchpoint
+vital behavior
+120  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+DISCUSSION QUESTIONS
+1. How does a social network view of the world disrupt a traditional (individual-
+oriented) approach to thinking about a public health or social puzzle? For
+example, what would a network point of view suggest we do in order to respond
+to signs of depression among teenagers or older adults, and how would this be
+different from our response if we were focused on individual behavior?
+2. Think about people you know who are boundary spanners. How have they
+helped to solve a problem? Have they ever created a new one? How can we
+recognize boundary spanners? How are they different from and similar to
+innovators?
+3. Select a specific behavior that is popular among a specific segment of the
+population, and describe one or more of the markets related to it. Describe
+the roles of consumers, marketers (private industry), NGOs (voluntary sector
+or civil society organizations), and government entities in these markets.
+What are these markets doing to facilitate or to impede the expression of the
+behavior among the group? What could they do to increase or decrease it?
+Who would be involved in making these decisions? How might these deci-
+sions come about?
+C H A P T E R 3 : D E T E R M I N A N T S , C O N T E X T , A N D C O N S E Q U E N C E S  121

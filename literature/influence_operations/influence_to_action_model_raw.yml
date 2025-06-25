@@ -1,0 +1,405 @@
+citation: "Sin, Steve, Megan Rutter, and Rhyner Washburn. 'Influence-to-Action Model and Campaign/Narrative Impact Assessment Tool.' Addendum to the Final Report (Year 2) for the Laboratory for Analytic Sciences. College Park, MD: START, May 2022."
+
+annotation: "The Influence-to-Action Model (I-AM) is a systematic framework for measuring and assessing the impact and effectiveness of influence operations on target audiences. Grounded in social movement theory and drawing from psychological, sociological, marketing, and communications literature, the model identifies 11 narrative variables that enhance people's propensity to take action rather than passively receive information. The model includes both individual (internal) and societal (structural) level variables and provides a comprehensive assessment tool for analyzing influence operation artifacts across multiple media platforms."
+
+model_type: "property_graph"
+
+rationale: "A property graph model is most appropriate for this theoretical framework because it captures the complex relationships between influence operations, narrative variables, demographic characteristics, and behavioral outcomes. The model represents nodes (influence operations, narrative variables, audience segments, artifacts) connected by edges (causal relationships, assessment processes, demographic effects, behavioral responses). This structure effectively models the multi-level nature of influence operations and the interconnected factors that contribute to their effectiveness."
+
+schema_blueprint:
+  title: "Influence-to-Action Model and Campaign/Narrative Impact Assessment Tool Schema"
+  description: "A comprehensive schema for modeling influence operations, narrative variables, assessment processes, and their effects on target audiences based on the Influence-to-Action Model framework"
+  
+  root_properties:
+    nodes:
+      description: "Represents influence operations, narrative variables, audience segments, artifacts, assessment processes, and demographic characteristics"
+      item_type: "Entity"
+    edges:
+      description: "Represents causal relationships, assessment processes, demographic effects, behavioral outcomes, and variable interactions"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Theoretical Constructs
+    - name: "influence-operation"
+      category: "core-construct"
+      description: "The collection of tactical information about an adversary as well as the dissemination of propaganda in pursuit of a competitive advantage over an opponent"
+    
+    - name: "influence-campaign"
+      category: "core-construct"
+      description: "Systematic effort to shape perceptions, attitudes, and behaviors of target audiences through coordinated messaging and narrative deployment"
+    
+    - name: "influence-to-action-model"
+      category: "theoretical-framework"
+      description: "A systematic framework for assessing the relative likelihood of impact an influence operation would have on target audiences compared to other influence operations"
+    
+    - name: "narrative-variable"
+      category: "core-construct"
+      description: "Specific messaging elements or characteristics that enhance people's propensity to participate in action rather than simply receive information passively"
+    
+    - name: "artifact"
+      category: "core-construct"
+      description: "Individual pieces of influence operation content including images, memes, tweets, articles, videos, audio, and mixed media"
+    
+    - name: "target-audience"
+      category: "core-construct"
+      description: "The specific population or demographic group that an influence operation is designed to impact"
+    
+    # Individual (Internal) Level Variables
+    - name: "emotional-appeal"
+      category: "individual-variable"
+      description: "Message explicitly or implicitly includes an attempt to appeal to the emotions of the target audience"
+    
+    - name: "threats-to-identity"
+      category: "individual-variable"
+      description: "Message explicitly or implicitly identifies threats to the commonly perceived/accepted identity of the target audience"
+    
+    - name: "threats-to-culture"
+      category: "individual-variable"
+      description: "Message explicitly or implicitly identifies threats to the commonly perceived/accepted culture or way of life of the target audience"
+    
+    - name: "identity-affirmation"
+      category: "individual-variable"
+      description: "Message explicitly or implicitly conveys that the target audience is of a certain identity and should be proud of that identity"
+    
+    - name: "victim-affirmation"
+      category: "individual-variable"
+      description: "Message explicitly or implicitly conveys that the target audience is being victimized due to aspects of their identity, social status, economic status, race, or ethnicity"
+    
+    - name: "victimization"
+      category: "individual-variable"
+      description: "Message explicitly or implicitly conveys need to 'right the wrong' or 'fight against injustice' justifying actions against those who have made them victims"
+    
+    # Societal (Structural) Level Variables
+    - name: "persistent-increasing-threats"
+      category: "societal-variable"
+      description: "Message explicitly or implicitly conveys persistent and worsening conditions if something is not done to reverse the course"
+    
+    - name: "clear-alternative-future"
+      category: "societal-variable"
+      description: "Message explicitly or implicitly identifies that by taking action, there is an alternative future where threats will diminish or be eliminated"
+    
+    - name: "purported-lack-of-response"
+      category: "societal-variable"
+      description: "Message explicitly or implicitly identifies that no one is doing anything to stop and/or reverse the threat against the target audience"
+    
+    - name: "clearly-identified-in-out-group"
+      category: "societal-variable"
+      description: "Message explicitly or implicitly identifies an in-group (target audience belongs to) and out-groups, emphasizing need to act for the 'team'"
+    
+    - name: "social-validation"
+      category: "societal-variable"
+      description: "Message explicitly or implicitly states that acting is correct, justified, legitimate, or that 'everyone is doing it' and those who act will be recognized"
+    
+    # Assessment Framework Components
+    - name: "campaign-narrative-impact-assessment-tool"
+      category: "assessment-framework"
+      description: "Systematic methodology for analyzing and assessing artifacts collected from multiple media types and platforms to determine their potential impact"
+    
+    - name: "variable-scoring-scale"
+      category: "measurement-method"
+      description: "0-3 numerical scale for rating each narrative variable: 0=not present, 1=may be present, 2=indirect identification, 3=direct statement"
+    
+    - name: "campaign-narrative-impact-index"
+      category: "measurement-method"
+      description: "Aggregate score calculated using weighted narrative variables to assess artifact's potential impact, ranging from 0-21.45"
+    
+    - name: "impact-tier-classification"
+      category: "measurement-method"
+      description: "Three-tier system for categorizing impact potential: Tier 1 (14.301-21.45), Tier 2 (7.151-14.30), Tier 3 (0-7.15)"
+    
+    # Theoretical Foundations
+    - name: "social-movement-theory"
+      category: "theoretical-foundation"
+      description: "Theoretical grounding focusing on social movement diffusion and the role of threat in social movements"
+    
+    - name: "political-process-theory"
+      category: "theoretical-foundation"
+      description: "Framework conceptualizing threats and identities as individual level variables and opportunities as societal level variables"
+    
+    - name: "cognitive-dissonance-theory"
+      category: "theoretical-foundation"
+      description: "Psychological theory explaining how inconsistencies between beliefs and behaviors create motivation for action"
+    
+    - name: "choice-certainty-theory"
+      category: "theoretical-foundation"
+      description: "Theory explaining how confidence in decision-making affects behavioral outcomes"
+    
+    - name: "signal-detection-theory"
+      category: "theoretical-foundation"
+      description: "Framework for understanding how individuals detect and respond to meaningful signals in information environments"
+    
+    - name: "dual-process-theory"
+      category: "theoretical-foundation"
+      description: "Cognitive framework distinguishing between automatic and controlled information processing"
+    
+    - name: "mere-exposure-effect"
+      category: "theoretical-foundation"
+      description: "Psychological phenomenon where repeated exposure to stimuli increases likelihood of positive response"
+    
+    - name: "primacy-recency-effects"
+      category: "theoretical-foundation"
+      description: "Memory principles explaining how position of information affects recall and influence"
+    
+    # Demographic Characteristics
+    - name: "demographic-characteristic"
+      category: "audience-factor"
+      description: "Individual characteristics that influence susceptibility to different narrative variables"
+    
+    - name: "age-group"
+      category: "demographic-factor"
+      description: "Age-based segmentation affecting response to emotional appeals and social validation"
+    
+    - name: "gender-identity"
+      category: "demographic-factor"
+      description: "Gender identification affecting response to emotional appeals, alternative futures, and social validation"
+    
+    - name: "racial-ethnic-identity"
+      category: "demographic-factor"
+      description: "Racial or ethnic group membership affecting response to identity-related and validation narratives"
+    
+    - name: "geographic-region"
+      category: "demographic-factor"
+      description: "Regional residence affecting response to cultural threat narratives"
+    
+    - name: "education-level"
+      category: "demographic-factor"
+      description: "Educational attainment affecting response to lack-of-response narratives"
+    
+    - name: "employment-status"
+      category: "demographic-factor"
+      description: "Employment situation affecting response to social validation narratives"
+    
+    - name: "financial-experience"
+      category: "demographic-factor"
+      description: "History of financial difficulties affecting response to alternative future and validation narratives"
+    
+    - name: "religious-inclination"
+      category: "demographic-factor"
+      description: "Religious identity affecting response to identity, victim affirmation, and in-group narratives"
+    
+    - name: "political-ideology"
+      category: "demographic-factor"
+      description: "Political orientation affecting response to various narrative variables with systematic directional effects"
+    
+    - name: "identity-fusion-index"
+      category: "demographic-factor"
+      description: "Measure of connection with groups affecting response to identity affirmation and victimization narratives"
+    
+    # Behavioral Outcomes
+    - name: "behavioral-response"
+      category: "outcome-variable"
+      description: "Actions taken by target audience in response to influence operation exposure"
+    
+    - name: "donation-behavior"
+      category: "behavioral-outcome"
+      description: "Willingness to donate time and/or money to causes or movements based on messaging"
+    
+    - name: "sharing-behavior"
+      category: "behavioral-outcome"
+      description: "Propensity to share, repost, or forward influence operation content"
+    
+    - name: "engagement-behavior"
+      category: "behavioral-outcome"
+      description: "Likelihood to comment, respond, or actively engage with influence operation content"
+    
+    - name: "like-behavior"
+      category: "behavioral-outcome"
+      description: "Tendency to express approval or agreement with influence operation content"
+    
+    - name: "offline-discussion"
+      category: "behavioral-outcome"
+      description: "Propensity to discuss influence operation content in face-to-face interactions"
+    
+    # Media and Platform Types
+    - name: "media-artifact-type"
+      category: "content-classification"
+      description: "Classification of influence operation content by format and medium"
+    
+    - name: "image-artifact"
+      category: "media-type"
+      description: "Visual content including memes, screenshots, and static images"
+    
+    - name: "short-form-text"
+      category: "media-type"
+      description: "Brief written content including tweets, comments, and social media posts"
+    
+    - name: "long-form-text"
+      category: "media-type"
+      description: "Extended written content including blogs, news articles, journal articles, and books"
+    
+    - name: "audio-artifact"
+      category: "media-type"
+      description: "Sound-based content including podcasts, recordings, and audio messages"
+    
+    - name: "video-artifact"
+      category: "media-type"
+      description: "Moving visual content including videos, animations, and multimedia presentations"
+    
+    - name: "mixed-media-artifact"
+      category: "media-type"
+      description: "Combined format content including videos with comments, chat interactions, and multi-format presentations"
+    
+    # Assessment Processes
+    - name: "variable-importance-ranking"
+      category: "assessment-process"
+      description: "Method for determining which narrative variables are most important to target audiences"
+    
+    - name: "likert-scale-assessment"
+      category: "assessment-process"
+      description: "Five-point scale evaluation of narrative variable impact on behavioral likelihood"
+    
+    - name: "pairwise-comparison"
+      category: "assessment-process"
+      description: "Contingent valuation method for comparing relative importance of narrative variables"
+    
+    - name: "multivariate-analysis"
+      category: "assessment-process"
+      description: "Statistical method using MANOVA to analyze narrative variable effects across demographic characteristics"
+    
+    - name: "artifact-coding"
+      category: "assessment-process"
+      description: "Systematic process of evaluating artifacts against narrative variable criteria using 0-3 scoring scale"
+    
+    # Validation and Testing
+    - name: "case-study-validation"
+      category: "validation-method"
+      description: "Testing of I-AM framework against historical and contemporary influence operations"
+    
+    - name: "survey-validation"
+      category: "validation-method"
+      description: "Empirical testing with U.S. general population to determine variable weights and effects"
+    
+    - name: "prototype-testing"
+      category: "validation-method"
+      description: "Internal and external testing of assessment tool with diverse artifact types and narratives"
+    
+    # Relationships and Interactions
+    - name: "causes-behavioral-response"
+      category: "relationship"
+      description: "Causal relationship between narrative variables and audience behavioral outcomes"
+    
+    - name: "moderates-effect"
+      category: "relationship"
+      description: "Demographic characteristics that modify the strength or direction of narrative variable effects"
+    
+    - name: "weights-variable"
+      category: "relationship"
+      description: "Quantitative weighting of narrative variables based on empirical survey data"
+    
+    - name: "categorizes-into-tier"
+      category: "relationship"
+      description: "Classification of artifacts into impact tiers based on aggregate scores"
+    
+    - name: "targets-audience"
+      category: "relationship"
+      description: "Influence operations designed to impact specific demographic groups"
+    
+    - name: "contains-variable"
+      category: "relationship"
+      description: "Artifacts containing or expressing specific narrative variables"
+    
+    - name: "aggregates-to-index"
+      category: "relationship"
+      description: "Weighted combination of variable scores to produce overall impact index"
+    
+    # Measurement Scales and Metrics
+    - name: "variable-weight"
+      category: "measurement-metric"
+      description: "Quantitative weights assigned to narrative variables based on empirical research"
+    
+    - name: "statistical-significance"
+      category: "measurement-metric"
+      description: "Statistical measure of narrative variable effects on different demographic groups"
+    
+    - name: "coefficient-value"
+      category: "measurement-metric"
+      description: "Numerical coefficient indicating strength and direction of narrative variable effects"
+    
+    - name: "confidence-interval"
+      category: "measurement-metric"
+      description: "Statistical range indicating reliability of survey results and measurements"
+    
+    - name: "margin-of-error"
+      category: "measurement-metric"
+      description: "Statistical measure of precision for survey-based findings and generalizations"
+
+  json_schema:
+    individual_variables:
+      - emotional_appeal
+      - threats_to_identity
+      - threats_to_culture
+      - identity_affirmation
+      - victim_affirmation
+      - victimization
+    
+    societal_variables:
+      - persistent_increasing_threats
+      - clear_alternative_future
+      - purported_lack_of_response
+      - clearly_identified_in_out_group
+      - social_validation
+    
+    demographic_characteristics:
+      - age_group
+      - gender_identity
+      - racial_ethnic_identity
+      - geographic_region
+      - education_level
+      - employment_status
+      - financial_experience
+      - religious_inclination
+      - political_ideology
+      - identity_fusion_index
+    
+    behavioral_outcomes:
+      - donation_behavior
+      - sharing_behavior
+      - engagement_behavior
+      - like_behavior
+      - offline_discussion
+    
+    media_types:
+      - image_artifact
+      - short_form_text
+      - long_form_text
+      - audio_artifact
+      - video_artifact
+      - mixed_media_artifact
+    
+    assessment_processes:
+      - variable_importance_ranking
+      - likert_scale_assessment
+      - pairwise_comparison
+      - multivariate_analysis
+      - artifact_coding
+    
+    measurement_scales:
+      - variable_scoring_scale
+      - campaign_narrative_impact_index
+      - impact_tier_classification
+      - variable_weight
+      - statistical_significance
+    
+    theoretical_foundations:
+      - social_movement_theory
+      - political_process_theory
+      - cognitive_dissonance_theory
+      - choice_certainty_theory
+      - signal_detection_theory
+      - dual_process_theory
+      - mere_exposure_effect
+      - primacy_recency_effects
+    
+    validation_methods:
+      - case_study_validation
+      - survey_validation
+      - prototype_testing
+    
+    relationships:
+      - causes_behavioral_response
+      - moderates_effect
+      - weights_variable
+      - categorizes_into_tier
+      - targets_audience
+      - contains_variable
+      - aggregates_to_index

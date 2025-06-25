@@ -1,0 +1,341 @@
+citation: "Paul, Christopher. Foundations of Effective Influence Operations: A Framework for Enhancing Army Capabilities. Chapter 2: Influencing Individuals. Santa Monica: RAND Corporation, 2008."
+
+annotation: "This chapter provides theoretical and empirical foundations for individual-level influence operations, examining attitude formation, change mechanisms, cognitive processing models, and systematic approaches to engineering attitude change through various persuasive appeals."
+
+model_type: "property_graph"
+
+rationale: "The individual-level influence domain is best represented as a property graph because it involves complex interconnected relationships between cognitive constructs (attitudes, beliefs, values), psychological processes (elaboration, dissonance reduction, social learning), theoretical models, and influence mechanisms. The nodes represent key constructs and entities, while edges capture causal relationships, influence pathways, and theoretical connections between different elements of the influence process."
+
+schema_blueprint:
+  title: "Individual-Level Influence Operations Theoretical Framework"
+  description: "A comprehensive schema modeling the theoretical foundations for influencing individuals, including attitude formation, cognitive processing, persuasion mechanisms, and systematic approaches to attitude change."
+  
+  root_properties:
+    nodes:
+      description: "Represents key constructs, theories, processes, measurement approaches, and entities in individual-level influence operations"
+      item_type: "Entity"
+    edges:
+      description: "Represents theoretical relationships, causal mechanisms, influence pathways, and process connections between individual-level influence concepts"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Theoretical Constructs
+    - name: "attitude"
+      category: "core-construct"
+      description: "A summary evaluation of a psychological object captured in attribute dimensions such as good/bad, harmful/beneficial, pleasant/unpleasant, and likable/dislikable"
+    - name: "attitude-object"
+      category: "core-construct"
+      description: "A person, thing, place, or event that serves as the target of evaluative judgment in attitude formation"
+    - name: "belief"
+      category: "core-construct"
+      description: "Chronically accessible cognitions that provide the foundation for attitudes, including memories of experiences, general propositions, images, and feelings"
+    - name: "intention"
+      category: "core-construct"
+      description: "The best predictor of behavior according to reasoned action theory, formed by attitudes toward behavior and subjective norms"
+    - name: "subjective-norm"
+      category: "core-construct"
+      description: "Perceived social pressure to perform or not perform a particular behavior, influencing behavioral intentions"
+    - name: "perceived-behavioral-control"
+      category: "core-construct"
+      description: "Individual's perception of ease or difficulty in performing a behavior, added as third predictor in theory of planned behavior"
+    - name: "value"
+      category: "core-construct"
+      description: "Favorable valences associated with abstract concepts such as freedom and equality, linked to attitude formation"
+    - name: "cognitive-dissonance"
+      category: "core-construct"
+      description: "Psychological tension arising from holding discrepant cognitions, motivating individuals to reduce inconsistency"
+    
+    # Attitude Components and Dimensions
+    - name: "cognitive-component"
+      category: "attitude-dimension"
+      description: "The knowledge, beliefs, and thoughts that contribute to attitude evaluation"
+    - name: "affective-component"
+      category: "attitude-dimension"
+      description: "The emotional and feeling responses that contribute to attitude evaluation"
+    - name: "evaluative-dimension"
+      category: "attitude-dimension"
+      description: "Assessment on good versus bad continuum in Osgood's EPA model"
+    - name: "potency-dimension"
+      category: "attitude-dimension"
+      description: "Assessment of strength versus weakness in Osgood's EPA model"
+    - name: "activity-dimension"
+      category: "attitude-dimension"
+      description: "Assessment of activity versus passivity in Osgood's EPA model"
+    
+    # Theoretical Models and Frameworks
+    - name: "expectancy-value-model"
+      category: "theoretical-framework"
+      description: "Fishbein-Ajzen model suggesting evaluative meaning arises as individuals form beliefs about objects, with overall attitude determined by attribute values and association strengths"
+    - name: "elaboration-likelihood-model"
+      category: "theoretical-framework"
+      description: "Petty-Cacioppo dual-process model with central and peripheral routes to persuasion based on individual's ability and willingness to elaborate on arguments"
+    - name: "semantic-differential-model"
+      category: "theoretical-framework"
+      description: "Osgood's EPA model using ordinal scales to measure attitude objects on evaluation, potency, and activity dimensions"
+    - name: "cognitive-dissonance-theory"
+      category: "theoretical-framework"
+      description: "Festinger's theory that individuals are motivated to reduce tension between discrepant cognitions through cognitive realignment"
+    - name: "theory-of-reasoned-action"
+      category: "theoretical-framework"
+      description: "Ajzen theory that intentions predict behavior, with intentions guided by attitudes toward behavior and subjective norms"
+    - name: "theory-of-planned-behavior"
+      category: "theoretical-framework"
+      description: "Extension of reasoned action adding perceived behavioral control as third predictor of behavioral intentions"
+    - name: "social-learning-theory"
+      category: "theoretical-framework"
+      description: "Miller-Dollard theory that behavioral change incorporates learning principles including reinforcement, punishment, extinction, and imitation"
+    - name: "social-cognitive-theory"
+      category: "theoretical-framework"
+      description: "Bandura's theory that individuals learn by observing and modeling others' behavior under specific conditions"
+    - name: "bounded-rationality-theory"
+      category: "theoretical-framework"
+      description: "Simon's theory that human rationality is constrained by complexity, time, and resource limitations rather than being purely utility-maximizing"
+    - name: "galileo-theory"
+      category: "theoretical-framework"
+      description: "Woelfel's metric multidimensional scaling approach for mapping attitudes in multidimensional space and engineering attitude change"
+    
+    # Cognitive Processes
+    - name: "central-route-processing"
+      category: "cognitive-process"
+      description: "Systematic, effortful processing of persuasive messages when elaboration likelihood is high"
+    - name: "peripheral-route-processing"
+      category: "cognitive-process"
+      description: "Heuristic, low-effort processing relying on peripheral cues when elaboration likelihood is low"
+    - name: "elaboration"
+      category: "cognitive-process"
+      description: "The extent to which individuals think about and scrutinize argument quality and supporting evidence"
+    - name: "dissonance-reduction"
+      category: "cognitive-process"
+      description: "Process of reducing psychological tension through changing cognitions, adding new cognitions, or altering importance weights"
+    - name: "attitude-accessibility"
+      category: "cognitive-process"
+      description: "The ease with which attitudes can be retrieved from memory, affecting attitude-behavior consistency"
+    - name: "belief-salience"
+      category: "cognitive-process"
+      description: "The degree to which beliefs are temporarily made more readily accessible through contextual factors"
+    - name: "social-modeling"
+      category: "cognitive-process"
+      description: "Learning process through observation and imitation of others' behavior under specific attention, retention, reproduction, and motivation conditions"
+    
+    # Influence Mechanisms and Strategies
+    - name: "persuasive-appeal"
+      category: "influence-mechanism"
+      description: "Strategic communication designed to change attitudes, beliefs, or behaviors through various routes and appeals"
+    - name: "emotional-appeal"
+      category: "influence-mechanism"
+      description: "Persuasive strategy targeting emotions, values, and 'hot' cognitive processes"
+    - name: "rational-appeal"
+      category: "influence-mechanism"
+      description: "Persuasive strategy targeting rational, cognitive, or 'cool' processes through logical arguments"
+    - name: "social-conformity-appeal"
+      category: "influence-mechanism"
+      description: "Persuasive strategy leveraging pressures for social conformity and normative influence"
+    - name: "message-acceptance"
+      category: "influence-mechanism"
+      description: "Process by which individuals accept or reject persuasive message content"
+    - name: "resistance-to-persuasion"
+      category: "influence-mechanism"
+      description: "Psychological processes that maintain existing attitudes against persuasive attempts"
+    - name: "attitude-change"
+      category: "influence-mechanism"
+      description: "Modification of evaluative judgments toward attitude objects through various influence processes"
+    - name: "behavioral-change"
+      category: "influence-mechanism"
+      description: "Modification of overt actions and behaviors through attitude change and other influence mechanisms"
+    
+    # Measurement and Assessment Approaches
+    - name: "paired-comparison-method"
+      category: "measurement-method"
+      description: "Galileo theory technique using standardized metric to assess distances between attitude objects"
+    - name: "semantic-differential-scale"
+      category: "measurement-method"
+      description: "Osgood measurement technique using ordinal scales to evaluate concepts on EPA dimensions"
+    - name: "attitude-strength-assessment"
+      category: "measurement-method"
+      description: "Measurement of attitude stability, resistance to persuasion, and predictive power of behavior"
+    - name: "multidimensional-scaling"
+      category: "measurement-method"
+      description: "Statistical technique for representing attitude objects as points in multidimensional space based on similarity judgments"
+    - name: "attitude-crystallization-measure"
+      category: "measurement-method"
+      description: "Assessment of stability and inertia in attitudes by comparing positions across time intervals"
+    
+    # Contextual and Situational Factors
+    - name: "situational-factor"
+      category: "contextual-factor"
+      description: "Environmental and circumstantual variables that substantially influence attitude-behavior relationships"
+    - name: "target-audience-heterogeneity"
+      category: "contextual-factor"
+      description: "Diversity within target populations requiring different persuasive approaches and message strategies"
+    - name: "cultural-context"
+      category: "contextual-factor"
+      description: "Cultural and social environment affecting attitude formation and change processes"
+    - name: "temporal-context"
+      category: "contextual-factor"
+      description: "Time-related factors affecting the stability and change of attitudes and behaviors"
+    - name: "individual-differences"
+      category: "contextual-factor"
+      description: "Person-specific variables affecting susceptibility to influence and persuasion"
+    
+    # Applied Frameworks and Strategies
+    - name: "campaign-theme"
+      category: "applied-strategy"
+      description: "Overarching message strategy designed to move attitude objects in desired directions within multidimensional space"
+    - name: "message-tailoring"
+      category: "applied-strategy"
+      description: "Customization of persuasive communications to specific audience characteristics and situational factors"
+    - name: "mixed-appeal-strategy"
+      category: "applied-strategy"
+      description: "Hedging approach utilizing combination of emotional, rational, and social conformity appeals"
+    - name: "trial-and-error-approach"
+      category: "applied-strategy"
+      description: "Adaptive strategy testing various communication approaches and adjusting based on feedback"
+    - name: "effect-assessment"
+      category: "applied-strategy"
+      description: "Systematic evaluation of influence campaign outcomes and attitude change effectiveness"
+    - name: "campaign-adaptation"
+      category: "applied-strategy"
+      description: "Modification of influence strategies based on assessment results and changing conditions"
+    
+    # Relationships and Connections
+    - name: "attitude-behavior-consistency"
+      category: "relationship"
+      description: "The degree to which attitudes predict and align with manifest behaviors"
+      domain: ["attitude", "behavior"]
+      range: ["consistency-level"]
+    - name: "cognitive-affective-integration"
+      category: "relationship"
+      description: "The combination of cognitive and affective components in overall attitude evaluation"
+      domain: ["cognitive-component", "affective-component"]
+      range: ["attitude"]
+    - name: "intention-behavior-link"
+      category: "relationship"
+      description: "The predictive relationship between behavioral intentions and actual behavior performance"
+      domain: ["intention"]
+      range: ["behavior"]
+    - name: "belief-attitude-formation"
+      category: "relationship"
+      description: "The process by which beliefs contribute to overall attitude development"
+      domain: ["belief"]
+      range: ["attitude"]
+    - name: "value-attitude-connection"
+      category: "relationship"
+      description: "The linking of abstract values to specific attitude objects and evaluations"
+      domain: ["value"]
+      range: ["attitude"]
+    - name: "social-norm-influence"
+      category: "relationship"
+      description: "The impact of perceived social expectations on individual attitudes and behaviors"
+      domain: ["subjective-norm"]
+      range: ["intention", "behavior"]
+    - name: "message-elaboration-processing"
+      category: "relationship"
+      description: "The relationship between message characteristics and depth of cognitive processing"
+      domain: ["persuasive-message"]
+      range: ["elaboration-level"]
+    - name: "situational-moderation"
+      category: "relationship"
+      description: "The moderating effect of situational factors on attitude-behavior relationships"
+      domain: ["situational-factor"]
+      range: ["attitude-behavior-consistency"]
+    
+    # Meta-Theoretical Concepts
+    - name: "microfoundation"
+      category: "meta-concept"
+      description: "Individual-level considerations that provide foundational understanding for broader influence operations"
+    - name: "meta-theory-integration"
+      category: "meta-concept"
+      description: "Unified framework harmonizing various competing theories and empirical findings in coherent operational way"
+    - name: "diagnostic-application"
+      category: "meta-concept"
+      description: "Use of theoretical models as tools to identify key variables and avoid common influence mistakes"
+    - name: "predictive-limitation"
+      category: "meta-concept"
+      description: "Inherent constraints on theoretical models' ability to explain and predict behavior due to situational dominance"
+    
+    # JSON Schema Categories
+    core_constructs:
+      - "attitude"
+      - "attitude-object"
+      - "belief"
+      - "intention"
+      - "subjective-norm"
+      - "perceived-behavioral-control"
+      - "value"
+      - "cognitive-dissonance"
+    
+    attitude_dimensions:
+      - "cognitive-component"
+      - "affective-component"
+      - "evaluative-dimension"
+      - "potency-dimension"
+      - "activity-dimension"
+    
+    theoretical_frameworks:
+      - "expectancy-value-model"
+      - "elaboration-likelihood-model"
+      - "semantic-differential-model"
+      - "cognitive-dissonance-theory"
+      - "theory-of-reasoned-action"
+      - "theory-of-planned-behavior"
+      - "social-learning-theory"
+      - "social-cognitive-theory"
+      - "bounded-rationality-theory"
+      - "galileo-theory"
+    
+    cognitive_processes:
+      - "central-route-processing"
+      - "peripheral-route-processing"
+      - "elaboration"
+      - "dissonance-reduction"
+      - "attitude-accessibility"
+      - "belief-salience"
+      - "social-modeling"
+    
+    influence_mechanisms:
+      - "persuasive-appeal"
+      - "emotional-appeal"
+      - "rational-appeal"
+      - "social-conformity-appeal"
+      - "message-acceptance"
+      - "resistance-to-persuasion"
+      - "attitude-change"
+      - "behavioral-change"
+    
+    measurement_methods:
+      - "paired-comparison-method"
+      - "semantic-differential-scale"
+      - "attitude-strength-assessment"
+      - "multidimensional-scaling"
+      - "attitude-crystallization-measure"
+    
+    contextual_factors:
+      - "situational-factor"
+      - "target-audience-heterogeneity"
+      - "cultural-context"
+      - "temporal-context"
+      - "individual-differences"
+    
+    applied_strategies:
+      - "campaign-theme"
+      - "message-tailoring"
+      - "mixed-appeal-strategy"
+      - "trial-and-error-approach"
+      - "effect-assessment"
+      - "campaign-adaptation"
+    
+    relationships:
+      - "attitude-behavior-consistency"
+      - "cognitive-affective-integration"
+      - "intention-behavior-link"
+      - "belief-attitude-formation"
+      - "value-attitude-connection"
+      - "social-norm-influence"
+      - "message-elaboration-processing"
+      - "situational-moderation"
+    
+    meta_concepts:
+      - "microfoundation"
+      - "meta-theory-integration"
+      - "diagnostic-application"
+      - "predictive-limitation"

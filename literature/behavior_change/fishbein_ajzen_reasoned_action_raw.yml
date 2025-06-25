@@ -1,0 +1,298 @@
+citation: "Fishbein, M., & Ajzen, I. (2010). Predicting and changing behavior: The reasoned action approach. Psychology Press."
+
+annotation: "Comprehensive theoretical framework explaining how behavioral beliefs, normative beliefs, and control beliefs determine attitudes, perceived norms, and perceived behavioral control, which in turn influence behavioral intentions and actual behavior performance."
+
+model_type: "property_graph"
+
+rationale: "The Reasoned Action Approach represents a clear property graph structure with distinct conceptual nodes (beliefs, attitudes, norms, control perceptions, intentions, behaviors) connected through well-defined causal relationships and moderating effects. The theory explicitly describes how background factors influence beliefs, how beliefs determine proximal constructs, and how these constructs combine to predict intentions and behavior."
+
+schema_blueprint:
+  title: "Reasoned Action Approach Schema"
+  description: "Formal representation of the Reasoned Action Approach theory for predicting and changing human social behavior through systematic analysis of belief structures and their determinants"
+  
+  root_properties:
+    nodes:
+      description: "Theoretical constructs, belief types, background factors, and behavioral outcomes in the reasoned action framework"
+      item_type: "Entity"
+    edges:
+      description: "Causal relationships, influences, and moderating effects between constructs in the behavioral prediction model"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Theoretical Constructs
+    - name: "behavioral-intention"
+      category: "core-construct"
+      description: "A person's readiness to perform a particular behavior; the proximal determinant of behavior"
+      
+    - name: "attitude-toward-behavior"
+      category: "core-construct"
+      description: "A person's positive or negative evaluation of performing a specific behavior"
+      
+    - name: "perceived-norm"
+      category: "core-construct"
+      description: "Perceived social pressure to engage or not engage in a behavior, derived from injunctive and descriptive normative beliefs"
+      
+    - name: "perceived-behavioral-control"
+      category: "core-construct"
+      description: "Person's perception of their ability to perform a behavior, serving as a proxy for actual behavioral control"
+      
+    - name: "actual-behavioral-control"
+      category: "core-construct"
+      description: "A person's actual ability to perform a behavior based on requisite skills, abilities, and absence of environmental constraints"
+      
+    # Belief Types
+    - name: "behavioral-beliefs"
+      category: "belief-type"
+      description: "Beliefs about the positive or negative consequences of performing a behavior; outcome expectancies"
+      
+    - name: "normative-beliefs"
+      category: "belief-type"
+      description: "Beliefs about approval/disapproval and behavioral patterns of important referent individuals or groups"
+      
+    - name: "injunctive-normative-beliefs"
+      category: "belief-type"
+      description: "Beliefs that important referents approve or disapprove of performing the behavior"
+      subTypeOf: "normative-beliefs"
+      
+    - name: "descriptive-normative-beliefs"
+      category: "belief-type"
+      description: "Beliefs that important referents themselves perform or don't perform the behavior"
+      subTypeOf: "normative-beliefs"
+      
+    - name: "control-beliefs"
+      category: "belief-type"
+      description: "Beliefs about personal and environmental factors that can facilitate or impede behavioral performance"
+      
+    # Background Factors
+    - name: "demographic-characteristics"
+      category: "background-factor"
+      description: "Personal characteristics including age, gender, education, income, religion, race, ethnicity, culture"
+      
+    - name: "personality-traits"
+      category: "background-factor"
+      description: "Individual differences in personality that may influence belief formation and information processing"
+      
+    - name: "past-behavior"
+      category: "background-factor"
+      description: "Previous experience with the behavior that may influence current beliefs and behavioral patterns"
+      
+    - name: "general-attitudes"
+      category: "background-factor"
+      description: "Broad evaluative dispositions toward objects, issues, or events that may influence specific behavioral beliefs"
+      
+    - name: "values-stereotypes"
+      category: "background-factor"
+      description: "Fundamental values and stereotypical beliefs that may shape interpretation of behavioral information"
+      
+    - name: "mood-emotion"
+      category: "background-factor"
+      description: "Affective states that may influence belief formation and behavioral decision-making"
+      
+    - name: "perceived-risk"
+      category: "background-factor"
+      description: "General risk perceptions that may influence beliefs about behavioral consequences"
+      
+    - name: "information-sources"
+      category: "background-factor"
+      description: "Sources of information including personal experiences, education, media, and social interactions"
+      
+    - name: "social-support"
+      category: "background-factor"
+      description: "Available social resources and support systems that may influence behavioral beliefs and control perceptions"
+      
+    # Process Components
+    - name: "belief-formation"
+      category: "process"
+      description: "Process by which beliefs are acquired and modified through various information sources and experiences"
+      
+    - name: "attitude-formation"
+      category: "process"
+      description: "Process by which behavioral beliefs combine to form overall evaluative attitudes toward behavior"
+      
+    - name: "norm-formation"
+      category: "process"
+      description: "Process by which normative beliefs combine to create perceived social pressure"
+      
+    - name: "control-perception-formation"
+      category: "process"
+      description: "Process by which control beliefs aggregate to form perceived behavioral control"
+      
+    - name: "intention-formation"
+      category: "process"
+      description: "Process by which attitudes, perceived norms, and perceived control combine to form behavioral intentions"
+      
+    - name: "behavioral-performance"
+      category: "process"
+      description: "Process of translating intentions into actual behavior, moderated by actual behavioral control"
+      
+    - name: "deliberative-processing"
+      category: "process"
+      description: "Careful, conscious evaluation of behavioral options when confronting novel or important decisions"
+      
+    - name: "spontaneous-processing"
+      category: "process"
+      description: "Automatic, non-deliberative behavioral decision-making for familiar or unimportant behaviors"
+      
+    # Relationships and Effects
+    - name: "determines"
+      category: "relationship"
+      description: "Causal relationship where one construct directly influences another"
+      domain: ["belief-type", "core-construct", "background-factor"]
+      range: ["core-construct", "behavioral-intention", "behavior"]
+      
+    - name: "moderates"
+      category: "relationship"
+      description: "Relationship where one construct affects the strength of the relationship between two other constructs"
+      domain: ["actual-behavioral-control", "background-factor"]
+      range: ["causal-relationship"]
+      
+    - name: "influences"
+      category: "relationship"
+      description: "Indirect or potential causal relationship, often mediated through other constructs"
+      domain: ["background-factor"]
+      range: ["belief-type", "core-construct"]
+      
+    - name: "predicts"
+      category: "relationship"
+      description: "Statistical or theoretical prediction relationship between constructs"
+      domain: ["core-construct", "behavioral-intention"]
+      range: ["behavioral-intention", "behavior"]
+      
+    - name: "aggregates-to"
+      category: "relationship"
+      description: "Relationship where multiple specific beliefs combine to form a general construct"
+      domain: ["belief-type"]
+      range: ["core-construct"]
+      
+    # Measurement and Methodology
+    - name: "behavior-specification"
+      category: "measurement-method"
+      description: "Clear identification and operationalization of the target behavior in terms of action, target, context, and time"
+      
+    - name: "belief-elicitation"
+      category: "measurement-method"
+      description: "Methodology for identifying salient behavioral, normative, and control beliefs in a population"
+      
+    - name: "attitude-measurement"
+      category: "measurement-method"
+      description: "Assessment of evaluative responses toward performing a specific behavior"
+      
+    - name: "norm-measurement"
+      category: "measurement-method"
+      description: "Assessment of perceived social pressure including both injunctive and descriptive components"
+      
+    - name: "control-measurement"
+      category: "measurement-method"
+      description: "Assessment of perceived ease or difficulty of performing a behavior"
+      
+    - name: "intention-measurement"
+      category: "measurement-method"
+      description: "Assessment of readiness or commitment to perform a behavior"
+      
+    - name: "behavior-measurement"
+      category: "measurement-method"
+      description: "Objective or self-reported assessment of actual behavioral performance"
+      
+    # Intervention Concepts
+    - name: "belief-based-intervention"
+      category: "intervention-strategy"
+      description: "Behavior change intervention targeting specific behavioral, normative, or control beliefs"
+      
+    - name: "targeted-intervention"
+      category: "intervention-strategy"
+      description: "Intervention designed based on identification of discriminating beliefs between performers and non-performers"
+      
+    - name: "attitude-change-intervention"
+      category: "intervention-strategy"
+      description: "Intervention aimed at modifying attitudes toward behavior through belief change"
+      
+    - name: "normative-intervention"
+      category: "intervention-strategy"
+      description: "Intervention targeting perceived social norms through normative belief modification"
+      
+    - name: "control-enhancement-intervention"
+      category: "intervention-strategy"
+      description: "Intervention aimed at increasing perceived or actual behavioral control"
+      
+    # Related Theoretical Models
+    - name: "social-cognitive-theory"
+      category: "related-theory"
+      description: "Bandura's theory emphasizing outcome expectancies and self-efficacy as behavioral determinants"
+      
+    - name: "health-belief-model"
+      category: "related-theory"
+      description: "Model focusing on perceived susceptibility, severity, benefits, barriers, and self-efficacy in health behavior"
+      
+    - name: "theory-of-subjective-culture"
+      category: "related-theory"
+      description: "Triandis's model including intentions, facilitating factors, and perceived consequences"
+      
+    - name: "information-motivation-behavioral-skills-model"
+      category: "related-theory"
+      description: "Model emphasizing information, motivation, and behavioral skills as behavioral determinants"
+      
+  json_schema:
+    enum_categories:
+      core_constructs:
+        - "behavioral-intention"
+        - "attitude-toward-behavior"
+        - "perceived-norm"
+        - "perceived-behavioral-control"
+        - "actual-behavioral-control"
+      
+      belief_types:
+        - "behavioral-beliefs"
+        - "normative-beliefs"
+        - "injunctive-normative-beliefs"
+        - "descriptive-normative-beliefs"
+        - "control-beliefs"
+      
+      background_factors:
+        - "demographic-characteristics"
+        - "personality-traits"
+        - "past-behavior"
+        - "general-attitudes"
+        - "values-stereotypes"
+        - "mood-emotion"
+        - "perceived-risk"
+        - "information-sources"
+        - "social-support"
+      
+      processes:
+        - "belief-formation"
+        - "attitude-formation"
+        - "norm-formation"
+        - "control-perception-formation"
+        - "intention-formation"
+        - "behavioral-performance"
+        - "deliberative-processing"
+        - "spontaneous-processing"
+      
+      relationships:
+        - "determines"
+        - "moderates"
+        - "influences"
+        - "predicts"
+        - "aggregates-to"
+      
+      measurement_methods:
+        - "behavior-specification"
+        - "belief-elicitation"
+        - "attitude-measurement"
+        - "norm-measurement"
+        - "control-measurement"
+        - "intention-measurement"
+        - "behavior-measurement"
+      
+      intervention_strategies:
+        - "belief-based-intervention"
+        - "targeted-intervention"
+        - "attitude-change-intervention"
+        - "normative-intervention"
+        - "control-enhancement-intervention"
+      
+      related_theories:
+        - "social-cognitive-theory"
+        - "health-belief-model"
+        - "theory-of-subjective-culture"
+        - "information-motivation-behavioral-skills-model"

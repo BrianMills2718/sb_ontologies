@@ -1,0 +1,1133 @@
+Chapter 1
+The History and Domains
+of Social Marketing
+This area in Soweto, South Africa, experiences multiple challenges in housing, health,
+sanitation, and employment. Picking the right approach to addressing complex problems
+is part of social marketing practice. (Image courtesy of the author.)
+Learning Objectives
+ Describe the nature of wicked problems and how they are different from other
+types of problems.
+ Identify five actions that demonstrate an organization may have adopted a market-
+ing orientation or approach.
+ Distinguish the ways in which social marketing evolved differently in develop-
+ing and developed country contexts.
+ Discuss influences from the academic marketing discipline that have guided the
+development of social marketing practice.
+ Explain how service-dominant logic can influence how we think about exchanges
+in social marketing practice.
+THE CHANGE WE NEED: NEW WAYS OF
+THINKING ABOUT SOCIAL ISSUES
+One definition of insanity is doing the same thing over and over again but
+expecting different results. One of the key questions I will continually be asking
+you to think about in one way or another throughout this book is, can we
+continue thinking about and trying to solve social and public health issues using
+traditional paradigms and tools, or will applying a marketing orientation aimed at
+social innovation lead to original and improved solutions?
+Coping with the many challenges confronting our own communities and
+countries, as well as those that transcend national boundaries, requires the
+development of new ways of thinking about and acting on them. Economic and
+policy initiatives are only partial solutions to issues as diverse as safer neighbor-
+hoods, childhood obesity, and poverty. Education and information campaigns
+can go only so far in reducing the use of tobacco products, increasing the use of
+preventive health services, and engaging parents in their children’s education.
+Laws and regulations improve the safety of our food supply, reduce environ-
+mental pollutants, and protect against unintentional injuries involving all types of
+consumer products—yet they too are only partial solutions.
+You may just be learning about these and other types of environmental,
+health, and social problems. Or you may already be in a position to try to figure
+2  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+out what to do about one or more of them. Better yet, you may have been
+working in the social change arena for some time now and you may have a
+personal appreciation of the definition of insanity that makes you feel the need to
+innovate, to do something differently. Whatever your level of experience, this
+book is for all of you who are what Bill Easterly calls searchers: you want to
+understand what the reality is for people who experience a particular problem,
+find out what they demand rather than only what can be supplied, and discover
+things that work. You see adapting solutions to local conditions as more
+important than applying global blueprints, and you value people’s satisfaction
+with the offered solution, not how well crafted the plan was and whether it
+received all the necessary resources (Easterly, 2006, pp. 5–6). Most of all, you
+have a bottom-line philosophy that you want to experience results that make you
+feel your life has been well lived. You have a hunger for doing something creative,
+amazing—something that will make a difference and perhaps change the world—
+and for being able to enjoy your work and someday look back and say, “Yes, I did
+that!” (MacLeod, 2011, p. 9). I propose to each of you that by reading this book,
+studying it, and trying out some of the ideas in your own work, you will become a
+better searcher and be better able to satisfy some of that hunger.
+The use of marketing principles and practices in the private sector has been
+demonstrated to be among the most important tools for solving the core business
+problem of achieving organizational success (generating profits) through satisfy-
+ing consumer wants and needs. Marketing goes beyond advertising and sales.
+When applied as intended, it becomes a systematic way for management to
+structure its relationships with consumers and stakeholders, from the products and
+experiences it offers, the structure of the incentives and costs associated with those
+products and experiences, and their accessibility, to how they are promoted in
+the marketplace with an ever-expanding palette of communication tools. This
+same marketing management approach should be adopted in the analysis, plan-
+ning, implementation, and sustaining of programs aimed at social problems. We
+need to consider our particular environmental, public health, or social issue as our
+core business issue, or passion if you like. To solve it we must consider how people
+we work with, and serve, will also be satisfied. Thus, unlike other social change
+approaches—and indeed, unlike the view some people have of social marketing
+that mischaracterizes it as a top-down (or command-and-control) approach to
+and philosophy of change—the core of the marketing discipline is achieving
+social goals by meeting people’s needs, helping them in solving problems, and
+C H A P T E R 1 : T H E H I S T O R Y A N D D O M A I N S O F S O C I A L M A R K E T I N G  3
+enabling them to achieve their aspirations for themselves, their families, and their
+community.
+Social marketing, the application of the marketing discipline to social issues
+and causes, provides a framework for developing innovative solutions to social
+problems that have long perplexed and frustrated society. It has emerged from
+business marketing practice as a social change tool uniquely suited to achieve
+social profits by designing integrated programs that meet individual needs for
+moving out of poverty, enabling health, improving social conditions, and having
+a safe and clean environment. Marketing principles are embedded in such success
+stories as the Positive Partnership Program’s work to enable poor people who are
+HIV positive in developing countries to earn a sustainable income (Melnick,
+2007), the reduction in teenage smoking rates resulting from the truths Cam-
+paign (Farrelly, Nonnemaker, Davis & Hussin, 2009), the improvement in
+children’s food choices and what they eat in schools through Team Nutrition
+(Lefebvre, Olander & Levine, 1999), and the reduction of childhood deaths from
+malaria through the distribution of insecticide-treated mosquito nets in endemic
+countries (Schellenberg et al., 2001). Indeed, when we examine some of the
+better known and successful public health programs over the past three decades,
+the principles of social marketing are being applied by agencies around the world,
+including the US Agency for International Development and the Centers
+for Disease Control and Prevention in the United States, the Department for
+International Development in the United Kingdom, the Department of Health
+in England, KfW Entwicklungsbank in Germany, the Public Health Agency of
+Canada, the Canadian International Development Agency, the Ministry for
+Foreign Affairs in The Netherlands, the Ministry for Health and Ageing in
+Australia, and The Global Fund to Fight AIDS, Tuberculosis and Malaria,
+among others. Social marketing is embedded in national health promotion and
+disease prevention strategies in Australia (Commonwealth of Australia, 2010),
+England (Department of Health, 2011), and the United States (US Department
+of Health and Human Services, 2010).
+To begin to understand how marketing applies to any specific environmental,
+health, or social issue you can think of, consider that individuals in most societies
+do not live solely in an economic marketplace in which monetary transactions
+for goods and services reign supreme and rational decision making is believed
+to be the norm. Instead, people’s everyday lives include exposure to all types of
+ideas and behaviors, whether transacted directly with their family and friends or
+4  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+vicariously through television and the Internet. The recognition that these
+marketplaces of ideas and behaviors also exist, and that they are subject to such
+forces as proximity and access, incentives and costs, role models and social norms,
+health and digital literacy, and the quality of their communication environment,
+illuminates how programs that focus on only economic levers or education or
+laws and their enforcement fail to achieve all the social good that is intended.
+Similarly, understanding that both individual change and social change are the
+result of a marketplace of ideas and behaviors that are, in turn, constantly being
+shaped by the activities of public, private, and civil society actors means also
+understanding that all of these actors must become part of sustainable, long-term
+solutions and not merely minor players in short-term campaigns—if they are
+engaged at all.
+Social marketing was developed as a method to achieve broad change among
+populations and to have a positive impact on people’s health and well-being. It
+is aimed at achieving social impact through the application of marketing con-
+cepts and techniques to social issues ranging from the prevention, detection, and
+treatment of diseases to environmental sustainability and social justice. It is not a
+theory of behavior change but rather a systematic approach to thinking about and
+solving the wicked problems our world faces. This chapter considers the question of
+why organizations might use social marketing. It then traces the development of the
+discipline as it evolved in developing countries as a practical approach to solving
+public health issues, and in developed countries as an academic discipline that grew
+around an interest in the intersection of marketing and society and in a practice
+aimed at different types of public health concerns. The chapter ends with a dis-
+cussion of some of the latest developments in the marketing discipline and the new
+ways they offer to think about how we can use marketing for improving the welfare
+of people and advancing social good.
+WICKED PROBLEMS AND THEIR SOLUTION
+In many disciplines the dominant model for defining and solving problems
+features a scientific-rational approach that assumes every problem is definable,
+understandable, and consensual (that is, everyone can agree on the causes and
+proposed solutions). This approach has worked quite well in many cases involving
+developing mass transportation, preventing infectious diseases, providing clean
+C H A P T E R 1 : T H E H I S T O R Y A N D D O M A I N S O F S O C I A L M A R K E T I N G  5
+water and sanitation, and improving access to health services (though there is
+clearly a need to further improve access and equity for all people everywhere).
+Rittell and Webber (1973) distinguished between these tame problems, with clear
+causes and solutions that can be achieved by these deductive approaches, and
+wicked problems, which are diabolical in their ability to resist the usual ways of
+resolving problems. A wicked problem involves complex issues and defies com-
+plete definition, its stakeholders have different ideas about what the real problem
+is and what the solution is, there is no final solution, and given that any solution
+will generate further issues, that solution is merely the best that can be done at
+that time. For example, the Australian Public Service Commission (APSC)
+(2007) notes in its publication Tackling Wicked Problems: A Public Policy Per-
+spective, that issues as diverse as climate change, obesity, indigenous disadvantage
+(disparities between native populations and majorities), and land degradation are
+complex, or “wicked,” policy problems (see also Batie, 2008; Brown, Harris &
+Russell, 2010; Kreuter, De Rosa, Howze & Baldwin, 2004): “Usually,” the
+commission says, “part of the solution to wicked problems involves changing
+the behaviour of groups of citizens or all citizens. Other key ingredients in solving
+or at least managing complex policy problems include successfully working across
+both internal and external organizational boundaries and engaging citizens and
+stakeholders in policy making and implementation. Wicked problems require
+innovative, comprehensive solutions that can be modified in the light of expe-
+rience and on-the-ground feedback. All of the above can pose challenges to tra-
+ditional approaches to policy making and programme implementation” (p. 1).
+From my perspective this statement offers a compelling rationale for using
+social marketing approaches: they are important for improving social welfare, the
+well-being of people, and the health of our planet. It also propels the idea that
+social marketing can and should look beyond behavior change because this is not
+its only contribution to social change (whether achieved through communication,
+incentives, or policy). This statement also underscores that single solutions will
+not form foundations for true and lasting solutions (if indeed such solutions are
+even possible).
+The APSC identified three ways to address wicked problems. The first is
+through authoritative (or top-down) strategies in which a group or individual
+takes on the problem and all other stakeholders agree to abide by its decisions.
+This group or individual may be an expert, be significantly positioned in a
+bureaucracy or hierarchy, or have coercive powers (such as a court or regulatory
+6  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+agency does). While these solutions might be efficient and timely, this group or
+individual may not bring a broad perspective to the issue and its proposals might
+alienate stakeholders, who then offer only tepid commitment to implementing
+the proposed solutions.
+The second approach to addressing wicked problems is through competitive
+strategies in which stakeholders follow a win-lose search for power, influence, and
+market share. Though such competition can result in innovative approaches to
+solving wicked problems, excessive consumption of resources in the struggle and a
+stalemate if no group emerges a clear winner are significant disadvantages.
+The third solution, the one supported and endorsed by the commission in
+its report, as well as by social change agents around the world, is the collaborative
+CHARACTERISTICS OF WICKED PROBLEMS
+ Wicked problems are difficult to clearly define.
+ They have many interdependencies and are often multi-causal.
+ Attempts to address wicked problems often lead to unforeseen consequences.
+ Wicked problems are often not stable (they are often continually moving
+targets).
+ They usually have no clear solution (since the problem itself is not definitive
+or stable).
+ They are socially complex.
+ Wicked problems hardly ever sit conveniently within the responsibility of
+any one organization.
+ Wicked problems involve changing behavior.
+ Some wicked problems seem intractable and are characterized by chronic
+policy failure (that is, they continue to present themselves despite many
+attempts to address them, sometimes over decades).
+Source: Adapted from the Australian Public Service Commission, 2007.
+C H A P T E R 1 : T H E H I S T O R Y A N D D O M A I N S O F S O C I A L M A R K E T I N G  7
+model. This model has been found to be the most effective in dealing with wicked
+problems. In the collaborative model, power is dispersed among many stake-
+holders, part of the solution lies in behavior changes made by stakeholders and
+citizens, and there is a win-win view of problem solving (in contrast to the
+competitive win-lose view). The collaborative approach will increase transaction
+costs and can sometimes lead to conflict and stalemate as well. But the advantages
+are that more comprehensive and effective solutions are generated with broader
+support for their implementation.
+These three approaches are not mutually exclusive, nor is the finding that
+the collaborative approach is often better meant to imply that the collaborative
+approach is always better. What the ASPC stresses is that the textbook approach
+of defining a problem and progressing through an orderly and linear process to
+understand it, gather the evidence and analyze the data, consult with stakeholders
+and partners, identify objectives, design an intervention, and assess performance
+targets is an inadequate way to think about wicked problems. The social context
+and complexity of wicked problems means that linear thinking will be inade-
+quate; it cannot deal with the interactivity and uncertainty of the causal factors,
+policy objectives, and possible solutions. The linear problem-solving process is
+more suited to laboratories, where many “extraneous” variables can be removed or
+controlled for in the analysis and solution. The fact that wicked problems have a
+social context highlights the need to reach out and engage stakeholders and others
+in scoping the possible causes of and solutions to problems, and not just to pretest
+options with these groups and individuals.
+You can think about the difference between tame and wicked problems as
+similar to the difference between mathematical problems and jigsaw puzzles. A
+mathematical problem has one correct answer, and our job is to learn how to
+solve the problem using the one approach that leads to the one correct answer. A
+puzzle, however, starts with a mess of pieces in the middle of the table with no
+clear end in sight and no clear place to begin. Puzzle solvers have to start
+somewhere, but any piece might do. As they become more proficient, puzzle
+solvers learn how to frame the puzzle first (start with the pieces that have straight
+edges) and put together elements of the puzzle separately as the pieces seem to fit.
+But the greatest insight into solving a puzzle comes from knowing what it will
+look like when it is completed (that is, having the picture of the completed
+puzzle). Having this picture of the future in mind as we start solving a puzzle
+allows us to use what Martin (2009, p. 65) refers to as our abductive reasoning
+8  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+skills: imagining what could be and then taking the steps to make that picture
+come to life. Indeed, when one reviews how collaborations succeed or fail, a
+common ingredient of their success is the ability of all the participants to create a
+shared vision of what the future will look like under different scenarios. (Imagine
+several people sitting around a table full of puzzle pieces, and each person has a
+different picture of what the pieces will ultimately form. How do you think that
+process will unfold?) As you begin this book, take some time to think about what
+the future might be like from your point of view or from the perspective of your
+organization. If you imagine the future, you can begin to change it.
+Linear models for solving problems are not relevant to most social issues of
+our time. Wicked problems require innovative and flexible solutions, yet most
+programs are locked into highly regimented and prescribed step-by-step processes
+that might work for people doing experiments or changing a discrete behavior for
+a while but that have little validity in the messy world we live and work in. Social
+marketing, as I will demonstrate in this book, provides a framework for and a
+variety of approaches to solving environmental, health, and social puzzles (and the
+tame problems too). Yes, we can continue to pick around the edges of issues such
+as overconsumption, climate change, tobacco use, malaria control, poverty, and
+obesity with what worked in the past for different types of problems—but only at
+the risk of becoming inconsequential to real change. Or we can start thinking
+about using social marketing as a planned approach to social innovation. Another
+way of thinking about social marketing is as the application of marketing prin-
+ciples to shape markets that are more effective, efficient, sustainable, and just in
+advancing people’s well-being and social welfare.
+WHY USE SOCIAL MARKETING?
+There are a number of ways this book could address the question of why we should
+use social marketing. It could refer to a number of review articles documenting
+social marketing’s positive impact on a wide variety of health problems, some-
+thing I will return to later. But spurring you on to learn why social marketing is
+so important will, I presume, require something much more relevant than an
+academic presentation.
+Among many professionals who use social marketing in their public health
+and social change work, the parsimonious answer to why is this: social marketing is
+C H A P T E R 1 : T H E H I S T O R Y A N D D O M A I N S O F S O C I A L M A R K E T I N G  9
+a systematic management process for the strategic allocation of resources to address
+large-scale health and social problems.
+Indeed, among commercial organizations, nongovernmental organizations
+(or NGOs, a term I will use to refer to all not-for-profit, civic society, voluntary,
+and other groups not controlled by either corporate or government interests), and
+public sector (governmental) organizations, the adoption of a marketing orien-
+tation is considered an essential component of modern economies (Shoham,
+Ruvio, Vigoda-Gadot & Schwabsky, 2006). Shoham et al. (2006) note two broad
+approaches to defining a marketing orientation. The first is the generation of
+market information that is disseminated and responded to across the organiza-
+tion. An analogue for many social marketers would be the epidemiological and
+research studies that are widely known and used across their agencies.
+The second approach to defining marketing orientation is where many
+organizations fall short: using an approach that is also customer and competitor
+focused and is coordinated across the organization’s functions. That is, scientific
+data and various types of community assessments are transformed into programs
+that are responsive to customers’ needs and lives, take into account the activities
+of other organizations and a variety of competitive forces in the environment that
+could impede or facilitate progress toward socially beneficial goals, and are
+coordinated across organizational functions and program areas. To expand on this
+latter point, a social marketing orientation is not represented by the mere exis-
+tence of a social marketing officer or department. A social marketing orientation
+is a systematic and pervasive approach to leveraging an agency’s resources to
+achieve broad-based social change in the service of public health, environmental,
+and other socially beneficial goals. The tension that a marketing orientation
+exposes is balancing the scientific evidence and data with the subjective per-
+spectives and insights of people in real-world contexts (cf. Sutton, Balch &
+Lefebvre, 1995).
+The adoption of a marketing orientation has been well researched among
+private sector organizations, where it has been found to enhance employees’ sense
+of belonging and feelings of making worthwhile contributions to achieving
+organizational objectives. These effects are subsequently seen in higher levels of
+teamwork, in organizational commitment, and in a sense of esprit de corps
+(Shoham et al., 2006). In an analysis of 1,589 NGOs in Australia, New Zealand,
+Spain, the United Kingdom, Canada, and the United States, Shoham et al. (2006)
+10  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+found a positive correlation between adoption of a marketing orientation and
+higher ratings on performance measures. Interestingly, the effects of adopting
+a marketing orientation on subsequent performance were more pronounced
+among NGOs than among for-profit firms and were greater in non-US coun-
+tries where the marketing orientation, even in the private sector, is relatively
+underdeveloped.
+Dearing et al. (1996) provide more specific answers to the question of why
+use social marketing from a study they did among twenty organizations that
+conducted HIV prevention programs in San Francisco. Interviews with repre-
+sentatives from each agency found that social marketing concepts and strategies
+were used in 62 percent of the programs (see table 1.1 for terms and definitions of
+the key concepts and strategies).
+At the time of this research, San Francisco was both an epicenter for HIV
+infection and one of the most successful cities in sharply reducing new infections.
+Dearing and his colleagues found that staffs who were more effective in con-
+ducting HIV prevention programs developed them with “eyes wide open” with
+respect to data gathering ahead of time (environmental scanning), segmented
+their high-risk audiences (rather than lumping them together as one priority
+population), used marketing principles to develop programs and as a way to
+allocate agency resources (marketing mix, or 4Ps, approach), and conducted
+research and evaluation through the life cycle of the project. These are concepts
+and strategies that will repeat throughout this book.
+So why use social marketing in your program or organization? Four reasons
+form themes that will come through in this book:
+1. To facilitate value for individuals, sponsoring organizations, stakeholders,
+and society in meeting their individual and collective objectives.
+2. To integrate evidence-based practice, social-behavioral theory, and insights
+from people we seek to serve into effective programs and offerings.
+3. To design more effective, efficient, sustainable, and equitable approaches in
+order to enhance public health and social welfare.
+4. To facilitate scalable change among individuals, organizations, social net-
+works and social norms, communities, businesses, markets, and public
+policy.
+C H A P T E R 1 : T H E H I S T O R Y A N D D O M A I N S O F S O C I A L M A R K E T I N G  11
+TABLE 1.1 Selected social marketing concepts and strategies found to result in
+more effective HIV prevention programs
+Descriptive
+term
+Definition Examples
+Environmental
+scan
+A means of understanding the
+nature and extent of the problem as
+well as external influences that may
+affect intervention viability and
+effectiveness.
+Use epidemiological data to identify
+demographic groups at highest risk
+for contracting HIV.
+Develop an understanding of state
+government funding priorities and
+targets.
+Audience
+segmentation
+A means of identifying subgroups
+that share specific characteristics
+useful for designing program
+offerings. These subgroups are
+referred to as priority groups.
+Focus not on all at-risk persons for
+HIV infection as one group but
+specifically on young, African
+American, male injection drug users
+who are homeless and work in the
+sex industry, for example; or focus
+on Native Americans, on
+acculturated versus recent
+immigrant Latinos, on gender
+orientation, or on women:
+“We only approach kids who are
+homeless and shoot up.”
+“You cannot just provide AIDS
+prevention to women. It’s absolutely
+meaningless. . . . I have worked on
+outreach projects where we really
+didn’t treat the women any
+differently than the men. We might
+as well have just stood out in the
+street and ripped up the money.”
+Marketing mix The practice of tailoring offerings to
+each segment or subgroup, using
+the 4Ps approach:
+Product—the physical items,
+services, and behaviors offered by
+the organization and its partners.
+Price—the financial, psychological,
+social, opportunity, and other
+incentives and costs associated with
+“We designed our kit to be
+discrete enough to fit into one’s
+pocket.”
+“We can’t ask our clients to do that
+yet.”
+“Everything is provided free of
+charge.”
+“We have found bus shelters to be a
+good place for ads because people,
+12  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+WHAT IS SOCIAL MARKETING?
+In its most elemental form, social marketing is the application of marketing prin-
+ciples and techniques to foster social change or improvement. Examples of some of
+these applications are related to active living communities (Maibach, 2003),
+disaster preparedness and response (Guion, Scammon & Borders, 2007; Marshall
+et al., 2007), ecosystem and species conservation (Boss, 2008; Jenks, Vaughan &
+TABLE 1.1 (Continued)
+Descriptive
+term
+Definition Examples
+using the product or service or
+engaging in the behavior.
+Place—the distribution of products
+and services so that they are
+available and accessible to the
+priority groups. Also ensuring that
+opportunities and places are
+available to try and then support
+new behaviors.
+Promotion—the communication
+strategies and tactics that are aimed
+at increasing awareness, attitudes,
+perceived norms, self-efficacy, and
+intentions to try program offerings
+(the products, services, and
+behaviors that are suggested;
+cf. Fishbein & Yser, 2003).
+while waiting for their bus, have
+something to read.”
+“We act on the principle that peer
+relationships are the only things
+that work.”
+“And the more marginalized you
+are, the more important it is that
+people be like you when they
+approach you for any reason. So the
+men who work in our outreach
+program are all gay or bisexual men.
+Most are in recovery themselves so
+they understand what those issues
+are about.”
+Formative,
+process, and
+outcome
+evaluation
+A systematic analysis of program
+offerings before final development
+and implementation (formative
+research), distribution and uptake by
+priority groups of program offerings
+(process evaluation), and effects of
+offerings on targeted behavioral
+outcomes, disease, or mortality
+(outcome evaluation).
+“We took three designs of the
+brochure into the streets to see
+what the kids (priority group)
+thought of them.”
+“We gave away more than 10,000
+brochures last year.”
+“Six months after our program
+started, we recorded a 15 percent
+decrease in shared needle use.”
+Source: Dearing et al., 1996.
+C H A P T E R 1 : T H E H I S T O R Y A N D D O M A I N S O F S O C I A L M A R K E T I N G  13
+Butler, 2010), environmental issues (Geller, 1989; Maibach, 1993), development
+of volunteer or indigenous workforces (Boehm, 2009; Roncarati, Lefebvre &
+Carleton, 1989), financial literacy (Lee & Miller, 2012; Lusardi, Keller & Keller,
+2008), global threats of antibiotic resistance (Edgar, Boyd & Palamé, 2009),
+government corruption (Kindra & Stapenhurst, 1998), improving the quality of
+health care (Chang et al., 2007; Shaller et al., 2003), injury prevention (Smith,
+2006), landowner education (Tyson, Broderick & Snyder, 1998), marine con-
+servation and ocean sustainability (Bates, 2010), patient-centered health care
+(Evans & McCormack, 2008), public health challenges (Grier & Bryant, 2005;
+Ling, Franklin, Lindsteadt & Gearon, 1992), reducing health disparities
+(Williams & Kumanyika, 2003), sanitation demand (Jenkins & Scott, 2007), sus-
+tainable consumption (Peattie & Peattie, 2009), transportation demand manage-
+ment (McGovern, 2005), water treatment systems (Mintz, Bartram, Lochery &
+Wegelin, 2001), and youth gambling problems (Messerlian & Derevensky, 2007),
+among other social needs.
+The use of social marketing in public health programs is common. Over
+fifteen years ago Glanz, Lewis, and Rimer (1997, p. 29) found social marketing to
+be among the most frequently cited theories or models used among the 497
+intervention studies they reviewed. Social marketing is not only a popular
+framework for many people who work in public health and related fields but
+also, as I noted earlier, has become part of national strategies aimed at improving
+public health and social welfare. Canada was among the pioneers in this regard.
+The Social Marketing Unit was created in 1981 as part of the Health Promotion
+Directorate of Health Canada. Its chief aim has been to develop multifaceted social
+marketing campaigns “to inform, educate and encourage Canadians to make pro-
+active changes in their behaviours for the betterment of themselves, those they care
+for and for their community” (Mintz, n.d.). In the United Kingdom, the National
+Social Marketing Centre was created in 2006 to support the implementation of
+social marketing programs in all health promotion activities of the National Health
+Service. As French (2009) noted with respect to this development: “Social market-
+ing represents an attractive approach to tackling behavioral issues for governments
+because it sets out a transparent technical approach based on evidence and insight
+generation, which is subsequently tracked and evaluated and modified as required.”
+In Australia, social marketing approaches were included in that country’s National
+Preventative Health Strategy (Preventative Health Taskforce, 2009), designed to
+tackle obesity and the use of alcohol, illicit drugs, and tobacco.
+14  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+In December 2010, the US Department of Health and Human Services
+released Healthy People 2020, a document that set out the national objectives for
+preventing disease and promoting health for the next decade. For the first time,
+these objectives included increasing social marketing in health promotion and
+disease prevention. Healthy People 2020 sets these specific objectives:
+ Increase the proportion of State health departments that report using
+social marketing in health promotion and disease prevention programs.
+ Increase the proportion of schools of public health and accredited
+master of public health (MPH) programs that offer one or more
+courses in social marketing.
+ Increase the proportion of schools of public health and accredited
+MPH programs that offer workforce development activities in social
+marketing for public health practitioners.
+Notable examples of the surge in interest in social marketing outside the field of
+public health are the recommendation of the Australian Institute of Criminology
+(Homel & Carroll, 2009) that social marketing principles should be applied to
+crime prevention, and the identification by the Worldwatch Institute (2010) of the
+social marketing approach as a way of transforming cultures from consumerism to
+sustainability. Indeed, as social marketing is coming into its own (even as some
+people misappropriate the term by using it to describe social media marketing, or
+marketing through web-based social network sites), it is common to find references
+to social marketing in requests for proposals and other types of procurements
+from government agencies for both domestic and international projects, social
+marketing divisions and departments in leading advertising and public relations
+agencies, and nonprofit and private agencies devoted to applying social marketing
+to social problems and behavior change programs (cf. Andreasen, 2002).
+A HISTORICAL PERSPECTIVE
+The history of social marketing is usually told from the marketing, or academic,
+perspective in developed countries. This tradition overlooks the international
+contributions to the development of social marketing; it also omits an essential
+C H A P T E R 1 : T H E H I S T O R Y A N D D O M A I N S O F S O C I A L M A R K E T I N G  15
+dynamic of social marketing. That dynamic is the tension between the practi-
+tioners who continue to push the practice of social marketing to solve numerous
+health and social puzzles and the academic marketers who debate whether these
+applications fit their definitions of social marketing (Lefebvre, 2011a).
+The development of social marketing has followed two routes. The first one
+can be traced through business systems and related academic research beginning
+in the early 1900s, when economic theory diversified from an exclusive focus on
+production and the creation of economic value to also include distribution and
+regulatory systems and the marketing of products (see Wilkie & Moore, 2003, for
+an extensive review of these developments). Over the next decades, marketing
+became increasingly concerned with its relevance to managers and managerial
+functions. By the late 1960s, scholars began exploring the extension of marketing
+beyond commercial applications in order to address the needs of nonprofit orga-
+nizations, educational and cultural institutions, and the planning of social change
+programs (Kotler, 2005). Throughout the evolution of the marketing discipline,
+the interface of marketing with social issues has been of interest; marketing
+has also been deeply involved with the consumerism movement (cf. Bloom &
+Gundlach, 2001a). Since the 1980s, marketing scholars have increasingly spe-
+cialized according to their interests, levels of analysis, and research methods. Social
+marketing has evolved into an identified subgroup that focuses on social issues
+along with public policy, marketing ethics, macromarketing, consumer economics,
+and international consumer policy (Wilkie & Moore, 2003).
+The second route for the evolution of social marketing came out of the
+challenges confronting public health and social change practitioners around
+the world. In many cases managers of public health and social change programs
+were instrumental in searching for innovative answers to age-old problems.
+They were also among the seekers of more effective and efficient ways to
+implement large-scale public health and social welfare programs. It is from this
+perspective that we continue the story.
+The Beginnings of Social Marketing Practice
+Phil Harvey (1999) provides a rich narrative describing how Peter King and his
+colleagues responded to the Indian government’s desire to reduce population
+growth in India in the mid-1960s (when there were more than twelve million
+births each year). It was clear that with too few doctors and with clinics
+16  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+concentrated in urban areas, any program that could make a dent in persuading
+over 500 million citizens to use birth control would have to go beyond traditional
+medical practices. Knowing that the government lacked the expertise to create a
+demand for family planning and also the distribution system to make family-
+planning products (such as condoms, intrauterine devices, and birth control pills)
+widely available, King and his colleagues at the Indian Institute of Management
+seized on the idea of promoting and distributing family-planning products
+through commercial rather than medical networks. Proposals for Family Planning
+Promotion: A Marketing Plan (Chandy et al., 1965) laid out the essential ideas for
+the social marketing of contraceptives, with sections of the proposal titled
+Conducting consumer research
+Sourcing the products
+Branding and packaging
+Advertising and promotion
+Distribution
+Pricing
+Cost-benefit analysis
+Although both the Indian government and foreign donors responded favor-
+ably to the plan, government agencies had to be reorganized to support and
+manage such an extensive marketing effort. After that reorganization a pilot
+project was carried out for approximately two years, distribution companies were
+lined up, advertising agencies were identified and funded, and nearly 400 million
+identically produced and packaged condoms were made by six manufacturers
+and delivered to the Indian government. It was not until 1968 that the Nirodh
+condom marketing program was finally launched. Early evaluations of the project
+found that the social marketing, community-based distribution model was more
+cost effective than clinic-based distribution activities in terms of couple-years of
+protection offered per dollar of investment and that there were higher utilization
+and less wastage of condoms through free as opposed to paid distribution
+channels (Black, 1976; Talwar, 1979).
+Phil Harvey and Tim Black took the ideas of the Nirodh project and applied
+them in Kenya. It was at this time that Harvey rejected the idea that gratitude was
+C H A P T E R 1 : T H E H I S T O R Y A N D D O M A I N S O F S O C I A L M A R K E T I N G  17
+part of a helping marketing exchange with people who wanted family-planning
+products, commenting, “I would never be comfortable providing help to people
+in ways that suggested they should express gratitude. . . . I found such rela-
+tionships demeaning, and yes, immoral” (Harvey, 1999, p. 18). Rather, Harvey
+and Black focused on developing commercial transactions for condoms and other
+family-planning products in which prices were set at nominal levels. Most often
+the full costs of the program, including advertising, promotion, distribution, and
+management were subsidized through donor grants and contracts (Harvey, 1999,
+pp. 1–25). Harvey described his and Black’s contraceptive social marketing
+(CSM) approach as informing people about the advantages of birth control
+through mass media efforts as well as other communication channels, educating
+people about specific methods, and offering low-priced contraceptive brands.
+A key feature of these early social marketing approaches is the central
+importance of a product that could be offered in a commercial and tangible
+exchange with people. The principle of offering tangible products for some
+payment, however minimal, has been extended to many types of commodi-
+ties including other family-planning products, oral rehydration solutions, and
+insecticide-treated bed nets (ITNs). This conceptualization and practice of social
+marketing has both critics and defenders (see, for example, Curtis et al., 2003;
+Lengeler, Grabowsky, McGuire & deSavigny, 2007). In response to criticism and
+the changing realities of the public health marketplace in developing countries,
+many practitioners of the CSM model have embraced behavior change and ser-
+vice delivery models as necessary to accomplishing their health missions. For
+example, behavioral interventions and voluntary HIV testing clinics now com-
+plement CSM programs, and are also used independently, for HIV/AIDS pre-
+vention. Significantly increased funding for and supplies of ITNs and long-lasting
+insecticide-treated nets (LLINs) through the Global Fund and many donor
+organizations and countries has made it more feasible to distribute them at no
+cost to prevent malaria (cf. Brugha, 2001; Curtis et al., 2003).
+Beyond Contraceptive Social Marketing
+Another pioneer in the application of marketing techniques to social issues in
+developing countries was Richard Manoff. In his wide-ranging book Social
+Marketing: New Imperatives for Public Health (1985), he stated: “Social marketing
+is more than research, product design and distribution, diffusion of information,
+18  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+or the formulation and implementation of a communication strategy. It may
+include introduction of the new product (e.g., oral rehydration (ORT) salts), the
+modification of existing ones (e.g., iodized salt), restricted consumption of others
+(e.g., cigarettes, infant formula), and promotion of structural change in existing
+institutions (e.g., food stamps, hospital practices). Social marketing may be
+exclusively educational (e.g., sodium reduction) yet still be obliged to do mis-
+sionary work with food companies for sodium-reduced products” (pp. 50–51).
+In contrast to the social marketing work described by Harvey (1999), which
+centered on family planning, Manoff’s portfolio had a much more diverse set of
+public health issues, including antidiarrhea campaigns, nutrition programs,
+immunization campaigns, food supplementation products, and increasing the
+prevalence of breast feeding. These experiences led him to talk about the social
+marketing product as an innovation that solves a problem for a consumer or
+“requires the adoption of a new behavior” (Manoff, 1985, p. 108; emphasis added).
+Indeed, Manoff spent little time focusing on issues of pricing and distribution of
+products. Rather, his belief was that “design of messages is the major task of social
+marketing. When improperly executed, it can constitute social marketing’s critical
+weakness” (p. 156; emphasis in the original). This focus on messaging, or com-
+munication, has continued to be an organizing principle for behavior change
+communication specialists in developing countries, as well as for many social
+marketing campaigns in the developed world.
+Harvey and Manoff describe two perspectives on social marketing that exist to
+this day. On the one hand, Harvey represents the social marketing approach that
+aligns with the commercial sector and in which tangible products, pricing,
+brands, and distribution are core components. Manoff, on the other hand, pre-
+sents an approach to social marketing that focuses on government and NGO
+action, the use of mass media, and the designing and testing of messages as the
+key task. Yet what is clear in both of their accounts is an unwavering focus on
+understanding people, responding to their needs, and measuring success in terms
+of meeting people-focused objectives, not production targets.
+The Evolution of Social Marketing in Developed Countries
+The practice of social marketing evolved in developed country contexts from a
+more explicit academic lineage. Shaw and Jones (2005) identify the emergence of
+the marketing management school in the 1950s and 1960s as a milestone event for
+C H A P T E R 1 : T H E H I S T O R Y A N D D O M A I N S O F S O C I A L M A R K E T I N G  19
+the marketing discipline. Many of the concepts social marketers now hold
+dear—consumer orientation, audience segmentation, the marketing mix—were
+introduced with the aim of addressing the question, primarily from the seller’s
+perspective, of how an organization should organize and market its products and
+services. It was in this vein that Kotler and Levy (1969) proposed expanding the
+marketing concept beyond commercial businesses to include nonprofit organi-
+zations. Lazer (1969) was simultaneously proposing the use of marketing man-
+agement to achieve positive societal impacts in addition to helping to meet
+business goals. It was with the backdrop of the social upheavals of the late 1960s
+in the wake of the assassination of Martin Luther King Jr., the nascent interests in
+environmental issues (Earth Day was first observed in 1970), and rising consumer
+activism that Philip Kotler and Gerald Zaltman (1971) proposed and defined a
+marketing approach to planned social change: “Social marketing is the design,
+implementation, and control of programs calculated to influence the acceptability
+of social ideas and involving considerations of product planning, pricing, com-
+munication, distribution, and marketing research” (p. 5).
+Since this definition first appeared, most authors in the field have neglected
+both Harvey’s and Manoff’s work and have attributed the origins of social mar-
+keting to this definition (see, for example, Andreasen, 1995; Lefebvre & Flora,
+1988; Kotler & Lee, 2008; Donovan & Henley, 2003, 2010; and also table 1.2).
+One notable exception to this trend is Hastings (2007, p. 9), who favors
+the definition of social marketing prepared by Lazer and Kelley (1971, p. ix):
+“Social marketing is concerned with the application of marketing knowledge,
+concepts and techniques to enhance social as well as economic ends. It is also
+concerned with analysis of the social consequence of marketing policies, decisions
+and activities.”
+If you look at the Kotler and Zaltman definition more closely, and compare it
+to the definitions found in table 1.2, it is apparent that an enormous shift in
+emphasis has occurred from using social marketing as a way of promoting ideas to
+seeing it as a methodology for changing behavior. One reason for this shift lies in
+the types of problems social marketing has been applied to in developed coun-
+tries: the prevention, detection, and treatment of cardiovascular diseases and
+cancers. Especially in the prevention arena, developing scalable approaches to
+detecting and controlling high blood pressure, high blood cholesterol levels, and
+breast cancer; reducing risk behaviors including cigarette smoking and eating
+high-fat and high-calorie foods; and encouraging healthier behaviors such as
+20  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+TABLE 1.2 Social marketing definitions, 1985–2010
+Manoff, 1985 “Social marketing is the adaptation of marketing to public
+health imperatives . . . it is a strategy for translating
+scientific findings about health and nutrition into education
+and action programs adopted from methodologies of
+commercial marketing.”
+Kotler & Roberto, 1989 “A social-change management technology involving the
+design, implementation, and control of programs aimed at
+increasing the acceptability of a social idea or practice in
+one or more groups of target adopters.”
+Andreasen, 1995 “The application of commercial marketing technologies to
+the analysis, planning, execution, and evaluation of
+programs designed to influence the voluntary behavior of
+target audiences in order to improve their personal welfare
+and that of their society.”
+Kotler, Roberto & Lee, 2002 “Social marketing is the use of marketing principles and
+techniques to influence a target audience to voluntarily
+accept, reject, modify, or abandon a behavior for the
+benefit of individuals, groups, or society as a whole.”
+Donovan & Henley, 2003 “The application of the marketing concept, commercial
+marketing techniques and other social change techniques
+to achieving individual behaviour changes and social
+structural changes that are consistent with the UN
+Declaration of Human Rights.”
+Smith, 2006 “A program management process designed to influence
+human behavior through consumer-oriented decision-
+making leading to increased social benefit.”
+Serrat, 2010 (Asian
+Development Bank report)
+“Social marketing is the use of marketing principles and
+techniques to effect behavioral change. It is a concept,
+process, and application for understanding who people are,
+what they desire, and then organizing the creation,
+communication, and delivery of products and services to
+meet their desires as well as the needs of society, and solve
+serious social problems.”
+Dann, 2010 “[T]he adaptation and adoption of commercial marketing
+activities, institutions and processes as a means to induce
+behavioral change in a targeted audience on a temporary
+or permanent basis to achieve a social goal.”
+C H A P T E R 1 : T H E H I S T O R Y A N D D O M A I N S O F S O C I A L M A R K E T I N G  21
+leisure time physical activity led to solutions focused on changing behaviors to
+improve health status.
+Fine (1981) has been one of the few writers to acknowledge the importance of
+ideas and social issues as products that are traded in a marketplace, which he referred
+to as a “concept industry.” He saw the way ideas solve problems as similar to the
+way that products satisfy needs and desires, and he demonstrated the application of
+marketing to social issues such as increasing productivity in industry through
+improvements in the quality of the labor supply, increasing and expanding ideas of
+what constitutes safe driving, and reforming the education system. However, there
+has been limited acceptance of the notion that ideas are the province of social
+marketing (see Andresen, 2006). Instead, what occurred was the introduction and
+acceptance of behavioral psychology into social marketing, beginning with Lefebvre
+and Flora (1988): “Social marketing is an invaluable referent from which to design,
+implement, evaluate, and manage large-scale, broad-based, behavior-change
+focused programs” (p. 300).
+Despite early calls for social marketing to be concerned with social and
+population-based change, by Kotler and Zaltman (1971), Lefebvre and Flora (1988),
+and Walsh, Rudd, Moeykens, and Moloney (1993), many definitions of social
+marketing that emerged over the next two decades promoted a variation of the
+theme of individual behavior change for the common good (see, for example,
+Andreasen, 1995; Kotler & Lee, 2008; Siegel & Lotenberg, 2007). One outcome of
+adopting this individualistic approach was the charge that social marketing is another
+form of “blaming the victim,” a criticism leveled against programs that aim for only
+individual levels of change and neglect social determinants and ecological models
+of behavior, health, and well-being (Brieger, Ramakrishna & Adeniyi, 1986; Gielen
+& Sleet, 2003; Wallack, 1989). Another consequence has been the allure of devel-
+oping mass media campaigns in which persuasive appeals are aimed at individual
+behavior change. As Wallack (1989) explains, these types of programs share certain
+characteristics:
+ Problems are conceived as primarily individual-level matters, and knowledge,
+attitudes, and behaviors are analyzed and explored in order to create inter-
+ventions to change them.
+ Planners of these programs share the mass media fantasy that any social or
+health problem can be addressed adequately so long as the right message is
+delivered to the right people in the right way and at the right time.
+22  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+ Approaches focus on individual choice and the responsibility to engage in
+healthier or more prosocial behaviors, to the exclusion of broader social and
+political contributions and influences.
+A third and related effect of the focus on individual change has been that
+few social marketing projects have attempted to influence social determinants
+and social contexts, and projects have paid little attention to the development of
+public policy approaches to market-based solutions (Lefebvre, 2011a; Marmot,
+2004). In response to the restricted scope of social marketing programs, Lefebvre
+(2009a) called for the recognition of social marketing as a social change tool for
+achieving social profits. Hastings (2007) embraced the notion of social marketing
+as a way to realize social goals and also to analyze the social consequences of mar-
+keting policies, decisions, and activities. Similarly, Donovan and Henley (2003)
+took issue with the prevailing individually focused efforts and saw “the primary
+future goal of social marketing as achieving changes in . . . social determinants of
+health and well-being” (p. 6). In their subsequent book Donovan and Henley
+(2010) went further to describe social marketing as seeking to not only “inform and
+persuade” people but also to “legislate” to achieve social goals when the evidence,
+resources, nature of the problem, and prevailing norms allow it (p. 20; emphasis in
+the original). As we move through this book, I will build on these ideas and unfold a
+broader perspective on social marketing.
+Other Marketing Influences on Social Marketing
+Shaw and Jones (2005) identified several other marketing concepts that are rel-
+evant to the development of social marketing thought, research, and practice and
+that will form a context for discussions later in this book. These concepts are
+described in the following paragraphs.
+Marketing Systems
+The marketing systems approach takes a systems-based orientation to marketing
+issues, as opposed to the more functional approach of marketing management. It
+had only a small and transitory following in the marketing discipline after it was
+introduced, being superseded by the marketing management and consumer
+behavior schools. Yet I believe that in our current environment, in which systems
+C H A P T E R 1 : T H E H I S T O R Y A N D D O M A I N S O F S O C I A L M A R K E T I N G  23
+thinking permeates new approaches to the complexities of addressing public
+health and social issues (see, for example, Pearce & Merletti, 2006; Trochim,
+Cabrera, Milstein, Gallagher & Leischow, 2006), social marketing can offer
+unique and innovative solutions within a framework of marketplaces and market-
+based systems. In chapter 2, I look at how marketing systems thinking can be
+applied to the health information marketplace.
+MAKING CONSUMER RESEARCH RELEVANT TO
+SOLVING SOCIAL PROBLEMS
+Transformative consumer research (TCR) is a movement supported by a task force
+that was established within the Association of Consumer Research to encourage,
+support, and publicize research that benefits quality of life for all people engaged
+in or affected by consumption trends and practices across the world. Unlike many
+academic groups that are content to accumulate knowledge about problems
+through research and theoretical contributions, TCR scholars have the aspiration
+to also apply this knowledge to helping to solve problems. They are also com-
+mitted to keeping a clear focus on the “life world of consumers,” understanding
+that such a focus is the way to achieve maximal meaningfulness, relevance, and
+usefulness of their research—or what they term “practical wisdom.”
+TCR scholars are being encouraged to descend from their ivory towers and
+engage with social change agents through the adoption of five potential paths
+to the improvement of consumer and environmental well-being. Pioneers on
+these different paths might be involved with revelatory and incendiary research
+to inspire widespread social interest and involvement, policy research that
+aligns with key political decision makers, participatory research that partners
+with people who are affected by the social problem being investigated, and
+coalition research with organizations committed to alleviating the social prob-
+lem. TCR may make substantive contributions to the work of social change. In
+their search to fulfill their mandate to share their insights with all those who
+can benefit from them, these TCR researchers, as well as others who confront
+the challenges of disseminating results to priority groups, policymakers, and
+practitioners, will benefit from applying many of the social marketing principles
+addressed in this book.
+Source: Based on Mick, Pettigrew, Pechmann & Ozanne, 2011.
+24  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+Consumer Behavior
+In social marketing the influence of consumer behavior research is reflected in the
+selection and use of theories to guide the conceptualization of the problem,
+determine goals, generate possible solutions, and design an evaluation. Health
+promotion and social marketing rely heavily on psychological approaches, such as
+the health belief model, theory of reasoned action, stages of change, and social-
+cognitive theory (Glanz, Lewis & Rimer, 1997; Lefebvre, 2001). There has been
+growing recognition of the value of incorporating other types of theories and
+models into social marketing practice, including community-based models of
+change (McKenzie-Mohr, 2011; Bryant et al., 2009) and social mobilization
+(McKee, 1992); theories focused on social determinants, social capital, and social
+networks (Lefebvre, 2011b); design thinking; and behavioral economics
+(Lefebvre & Kotler, 2011). I will outline these models of consumer behavior in chapter 3.
+Macromarketing
+Micromarketing focuses on analyzing transactions at the individual or household
+level—individual-level approaches in public health and social change can be
+analogous to this commercial marketing approach. Macromarketers, in contrast, ask
+questions about such things as the ways the marketing system affects society and
+the ways society affects the marketing system. For example, Cummings, Morley,
+Horan, Steger, and Leavell (2002), Grier, Mensinger, Huang, Kumanyika, and
+Stettler (2007), and Hastings, Anderson, Cooke, and Ross (2005) note how
+corporate marketing practices have significant impacts on smoking initiation
+among teens, children’s consumption of fast foods, and young people’s drinking
+of alcohol. And each of these consumer behaviors has an extraordinary influence
+on the risk of morbidity and mortality from a variety of diseases that significantly
+affect not only individuals’ and families’ lives but also the productivity of busi-
+nesses, the economic cost of health care, and other costs to society, including the
+lost opportunities when resources that could have gone elsewhere are directed
+toward preventing these health behaviors and treating their consequences. Rather
+than focusing on changing individual behaviors, the social macromarketer or
+critical marketer studies how to reduce the influence of these types of corporate
+marketing on behaviors and social norms and how to restructure marketing
+C H A P T E R 1 : T H E H I S T O R Y A N D D O M A I N S O F S O C I A L M A R K E T I N G  25
+systems to avoid the untoward consequences that society currently experiences
+from these types of business activities. Indeed, when this discussion looks
+later at the ideas of critical marketing and demarketing, we will see how these
+larger questions can help to frame the types of questions and solutions social
+marketers pose.
+The Exchange Concept
+The idea of exchange has evolved in marketing from the initial notion of two parties
+exchanging tangible goods or services for money to the idea that a transaction can
+consist of the exchange of anything of value between two parties—including
+gossip, wedding vows, or text messages (Fine, 1981; Shaw & Jones, 2005). Ridley
+(2010) has proposed that exchange is the foundation and driving force of social
+evolution, as it has allowed specialization of skills and thus fostered interdepen-
+dence among people that leads to the creation of markets of all kinds.
+Some authors have identified the exchange concept as a core element of the
+social marketing approach (Lefebvre & Flora, 1988; Hastings, 2007; Lee &
+Kotler, 2011), whereas others have been silent on the question (Andreasen,
+1995). Hastings (2007, p. 30) notes that in its essence an exchange relationship
+must be one that is mutually beneficial to both parties. The exchange process, he
+argues, does not have to be seen as one in which there is a “winner” and “loser”
+(also known as a zero-sum outcome) but can be described as a situation in which
+both parties achieve a win-win outcome by meeting consumer needs and orga-
+nizational objectives (Lefebvre, 1992). Yet Hastings (2007) also acknowledges
+that the exchange relationships most social marketers are confronted with are not
+the more tangible economic ones found in the commercial marketing sector but
+ones in which they are “forever selling unseen benefits such as not getting cancer
+or avoiding a traffic accident” (p. 20). He avoids the more difficult issue of
+delineating how an organization that sponsors a social change program imme-
+diately benefits from a transaction (exchange) in which it is asking its clients or
+stakeholders to change their behaviors by, for example, not smoking or not
+texting while driving.
+In contrast, Donovan and Henley (2010) consider the necessity of including
+the idea of exchange in their definition of social marketing and conclude, like
+Elliott (1991) before them, that it is not needed. Elliott notes the “intellectual
+contortions” that are required to create exchanges in most social marketing
+26  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+programs where adoption of new ideas and practices is the goal, not a reciprocal
+transaction between two parties. As Lefebvre (1992) framed exchange: “Social
+marketing involves consumers exchanging resources for new beliefs and beha-
+viours . . . the strategy is to create an awareness among consumers that they
+have a problem and then offer the solution” (p. 157). Lee and Kotler (2011)
+simply noted that exchange occurs when members of the target audience perceive
+that the benefits equal or exceed the costs they associate with performing a
+behavior (p. 15).
+Elliott’s point is that when exchange theory is offered as a mechanism for
+a social marketing approach, it inevitably describes intrapersonal or internal
+exchanges, such as occur when one gives up unhealthy behaviors in order to
+achieve either short-term or long-term benefits. He suggests that the term match,
+or fit, is more appropriate for social marketers to use for their programs (cf. Kotler
+& Roberto, 1989, p. 28). That is, social marketing programs seek to match their
+offerings with the realities of consumers’ lives. I agree with Elliott (1991) and
+Donovan and Henley (2010) that the traditional notion of tangible exchange is
+not of vital importance to social marketing thought or practice. And as Lefebvre
+and Rochlin (1997) noted in their review, using exchange theory as an explan-
+atory concept for behavior change has very little empirical support.
+Service-Dominant Logic
+The service-dominant logic (S-D logic) model has created much interest in aca-
+demic marketing circles as an alternative to the classic exchange concept. It offers
+an approach to thinking about social marketing that aligns with other shifts in
+social sciences and social technologies (Lefebvre, 2007). The development of
+S-D logic stemmed from dissatisfaction with the 4Ps framework (described as
+“merely a handy framework” of managerial decision-making variables by Day
+and Montgomery, 1999) and the traditional idea of exchange. Constantinides
+(2006), for example, summarized over forty papers that have been critical of or
+presented alternatives to the 4Ps marketing mix framework. The reasons the 4Ps
+marketing mix and exchange frameworks have been found to be limited include
+the following:
+The producers of goods, services, and behavioral offerings rarely involve or
+interact with customers in designing the marketing mix elements. The 4Ps
+C H A P T E R 1 : T H E H I S T O R Y A N D D O M A I N S O F S O C I A L M A R K E T I N G  27
+are decided upon by planners and managers, perhaps “tested” with cus-
+tomer groups, and then “launched” at them.
+Marketing activities have shifted from one-off transactions or exchanges to
+dynamic and tailored interactions aimed at building relationships and
+engaging with customers over longer periods of time.
+The services that are becoming the primary drivers of economic activity have
+characteristics—for example, people or participants, physical evidence (of
+their value), and processes (of service delivery)—not addressed by the
+traditional 4Ps.
+Consensus is growing among academic and commercial marketers that the
+4Ps marketing mix idea of forty years ago is no longer as relevant for
+current markets, customers, or marketers. Some social marketers have
+embraced these same concerns and issues (Hastings, 2003; Lefebvre,
+2007; Marques & Domegan, 2011; Peattie & Peattie, 2003).
+A different worldview of marketing is emerging, one that seems well suited to
+social marketing programs. In a seminal article, Vargo and Lusch (2004) state,
+“The purpose of marketing is to mutually serve.” These authors proposed the
+concept of service-dominant logic to reflect a change in perspective from one that
+sees value embedded in an organization’s offerings as value-added or functional
+utility to one that appreciates that value is co-created in collaboration with people
+formerly known as customers. The fundamental assertion of S-D logic is that all
+exchanges are service based (see the following list). Because the classic analyses
+of exchanges had focused on the immediate exchange of money for products
+(a goods-dominant logic), the value the product provided to a person after the
+transaction was completely ignored. What S-D logic shows us is that a tangible
+(product) or intangible (service, behavior) offering has value only when a cus-
+tomer “uses” it; that is, it provides a service by improving the condition or well-
+being of the person in some way. A person does not buy a hammer for its
+functional characteristics, for example, but for the value it provides in use.
+Similarly, people are not going to behave differently because of “baked-in” or
+persuasive benefits such as longer, healthier, or sexier lives. They will behave
+differently when they find that using the new behavior (or ceasing to use an old
+one) leads to what they define for themselves as value or a benefit.
+28  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+THE TEN FOUNDATIONAL PREMISES OF
+SERVICE-DOMINANT LOGIC
+1. Service is the fundamental basis of exchange.
+2. Indirect exchange masks the fundamental basis of exchange.
+3. Goods are a distribution mechanism for service provision.
+4. Operant resources (knowledge and skills) are the fundamental source of
+competitive advantage.
+5. All economies are service economies.
+6. The customer is always a co-creator of value.
+7. The enterprise cannot deliver value, but only offer value propositions.
+8. A service-centered view is inherently customer oriented and relational.
+9. All social and economic actors are resource integrators.
+10. Value is always uniquely and phenomenologically determined by the
+beneficiary (experienced in use) (Vargo & Lusch, 2008, p. 7, table 1).
+S-D logic has at least five implications for social marketing in the future:
+1. Instead of seeing exchanges as the giving of something for the receipt of
+something else (value-in-exchange), as is understood in the application of the
+goods-dominant logic model, we should view exchanges as a mutual sharing of
+knowledge and resources among the social change agency, the priority group
+of customers, and other actors or stakeholders. This process is referred to as the
+co-creation of value-in-use.
+2. S-D logic shifts us from a production or top-down orientation of trying
+to create what we believe will be of value to people (that is, benefits) to a cus-
+tomer perspective in which these people bring skills and competencies and
+become co-creators of value. Each customer uniquely discovers and experiences
+value when he or she uses our offering, whether it be a new behavior, product, or
+service—value is not achieved through how creatively we “package” that offering
+or how persuasively we “sell” it.
+C H A P T E R 1 : T H E H I S T O R Y A N D D O M A I N S O F S O C I A L M A R K E T I N G  29
+3. S-D marketing logic moves us away from a marketing-to approach to a
+marketing-with perspective (Lusch, 2007). Using a marketing-with approach,
+social change agents and organizations can continually learn about their customers
+and markets and collaborate with them to create and sustain value for them and for
+society. To facilitate long-term adoption of healthier and more sustainable beha-
+viors, we need to focus on value-in-use, rather than one-off attempts at change.
+4. Because we social marketers cannot create or produce value, we can only
+suggest what the value might be; that is, we can offer value propositions: “We think
+you may like this because it satisfies a need you are experiencing now . . . solves a
+problem for you . . . facilitates your getting a job done . . . helps you reach a goal.”
+Customers must then validate the proposition through their experience of behaving
+differently, using the product, and engaging with the service in their daily lives.
+5. Our role as change agents is to facilitate value creation; our clients or
+customers are the value creators who must integrate what we are giving them
+(Grönroos, 2011). This perspective on how value is created by users means we must
+design interactions (or service touchpoints) to facilitate value-in-use and feedback.
+This feedback, or exchange, can suggest how we might refine, augment, or change
+our initial offering. And whether we are working with clients, customers, or stake-
+holders, value is not intrinsic to participating; it must be continually created and re-
+created in a collaborative and balanced fashion (Frow & Payne, 2011).
+SUMMARY
+Today’s many complex or wicked problems present opportunities for social
+marketing to contribute to improving people’s health and well-being around the
+world. Social marketing has developed along winding and intertwining paths in
+marketing scholarship and public health practice, the fields where it has been
+most extensively applied and studied. This has more often than not led to ten-
+sions between the academic ideals and the practical applications and lessons
+derived from them. It has also driven the different ways in which people think
+about and practice social marketing in different parts of the world, as well as
+around the corner from each other. For example, a classic 4Ps marketing mix has
+often been translated into practice in developed countries as behavior change
+through mass communication campaigns (or 1P marketing efforts); social mar-
+keting in developing countries has been more focused on classic marketing ideas
+30  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+(or goods-dominant logic) centered on product development, distribution, sales,
+and branding. With these differences has come confusion over the definition and
+domains of social marketing. We will explore the integration of these differences in
+the next chapter. A variety of disciplines have also contributed to the development
+of social marketing, and the domains where social marketing is practiced have
+evolved from a primary base in public health to environmental concerns, injury
+prevention and safety, financial literacy, health literacy, poverty alleviation, and
+many other areas in which practitioners strive to improve the human condition.
+In subsequent chapters, the historical perspective on how social marketing is
+practiced will be balanced with new influences on social marketing thought and
+practice. Key drivers of innovation in social marketing include shifting from
+an individualistic to a social context for change efforts, adopting systems-level
+and macromarketing perspectives, and reconceptualizing the role of exchange and
+value creation in social marketing activities.
+KEY TERMS
+abductive reasoning
+consumer behavior
+contraceptive social marketing
+environmental scanning
+exchange concept
+macromarketing
+marketing
+marketing management
+marketing orientation
+puzzle
+searcher
+segmentation
+service-dominant logic
+social marketing
+transformative consumer research
+value creation
+value proposition
+value-in-use
+wicked problem
+DISCUSSION QUESTIONS
+1. Social marketing programs evolved in developing countries in part due to
+underdeveloped, weak, or nonexistent commercial markets for family-planning
+C H A P T E R 1 : T H E H I S T O R Y A N D D O M A I N S O F S O C I A L M A R K E T I N G  31
+products. In developing countries, commercial markets work more efficiently
+and effectively in making these products widely available at affordable prices.
+How might the characteristics of commercial markets explain the social mar-
+keting approach taken in developing countries? What challenges would progress
+(that is, greater effectiveness and efficiency) in these markets pose to existing
+social marketing programs—for example, as countries begin to transition from
+least-developed to middle-income countries?
+2. Many ideas about the causes of and solutions for a variety of social problems
+are discussed and debated in the media, among politicians, in communities,
+and on campuses. How might an idea that is currently being debated be better
+marketed? How would concepts such as segmentation and the marketing mix
+lead to strategies to have more people adopt the idea? Suggestion: break into two
+or more groups and have each group take one side or one of the multiple per-
+spectives of the problem and develop a social marketing campaign plan.
+3. The practice of social marketing has been on a trajectory that started with
+promoting tangible products and is now confronted with the challenge of
+practicing service-dominant logic. How would an S-D perspective be dis-
+ruptive to social marketing programs that focus on family planning, malaria
+control, or HIV prevention? What changes would a social marketing orga-
+nization need to make to become more S-D logic oriented?
+4. Similarly, for organizations that have relied on communication and mass
+media approaches to social change, how would adoption of an S-D per-
+spective disrupt their current practices? What would be the relative advan-
+tages and disadvantages for their constituencies, stakeholders, and staff of
+becoming more S-D logic oriented?
+32  S O C I A L M A R K E T I N G A N D S O C I A L C H A N G E
+
+
+

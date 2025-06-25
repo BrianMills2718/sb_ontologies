@@ -1,0 +1,766 @@
+The Evolution of Operational Code Analysis
+Author(s): Stephen G. Walker
+Source:
+Political Psychology , Jun., 1990, Vol. 11, No. 2 (Jun., 1990), pp. 403-418
+Published by: International Society of Political Psychology
+Stable URL: https://www.jstor.org/stable/3791696
+REFERENCES
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/3791696?seq=1&cid=pdf-
+reference#references_tab_contents
+You may need to log in to JSTOR to access the linked references.
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+https://about.jstor.org/terms
+International Society of Political Psychology is collaborating with JSTOR to digitize, preserve
+and extend access to
+Political Psychology
+This content downloaded from
+199.83.221.44 on Wed, 25 Jun 2025 13:45:52 UTC
+All use subject to https://about.jstor.org/terms
+Political Psychology, Vol. 11, No. 2, 1990
+Classics in Political Psychology
+The Evolution of Operational Code Analysis1
+Stephen G. Walker2
+Operational code analysis has evolved from a classic work by Nathan Leites,
+A Study of Bolshevism (1953), in which he first analyzed the operational
+code of the Politburo as a mix of cognitive heuristics and characterological
+personality traits that influenced Soviet decision making. Alexander George
+and Ole Holsti then isolated the cognitive aspects of the operational code
+construct and conceptualized them as a typology of political belief systems. Other
+scholars have applied this typology to explain the link between the be-
+liefs and behavior of American foreign policymakers. The mixed results from
+these efforts have led to a revival of interest in the relationship
+between the cognitive and the characterological dimensions of operational
+code analysis. The aim of contemporary operational code analysis is a theo-
+retical synthesis of the cognitive and affective influences upon foreign poli-
+cy decisions identified by middle-range cognitive and motivational theories
+of political psychology.
+KEY WORDS: operational code; beliefs; personality theory; foreign policy decisions.
+INTRODUCTION
+Nathan Leites introduced the operational code construct in
+main of political psychology in his classic, two-volume work, T
+tional Code of the Politburo (1951) and A Study of Bolshev
+Merton (1940) had earlier coined the phrase "operational code" t
+the values, world view, and response repertoire which an individual
+and-shares with other members of an organization. In A Study
+'This essay is a revised and expanded version of "Dimensions of Operational Co
+a Working Memorandum presented at the "Psychological Approaches to Foreign
+ing" Conference, The Mershon Center, Ohio State University, May 8-9, 1987
+2Department of political Science, Arizona State University, Tempe, Arizona 8
+403
+0162-895X/90/0600-0403$06.00/1 ? 1990 International Society of Political Ps
+This content downloaded from
+199.83.221.44 on Wed, 25 Jun 2025 13:45:52 UTC
+All use subject to https://about.jstor.org/terms
+404 Walker
+vism, Leit
+ton's soci
+domains o
+shared resp
+making ru
+e.g., "polit
+rules were
+analysis of
+manifesta
+(Leites, 19
+Fifteen ye
+ed approac
+ander Geo
+systems a
+research o
+(1969, p. 1
+is not one
+concluded
+intellectual
+its structu
+overcome
+of Bolshev
+ously in a
+In extract
+orge ackno
+of Bolshevi
+group... [t
+I call the o
+Consequen
+... [T]he "ope
+of "Bolshevik
+tional code"
+and norms o
+acquires a ne
+Bolshevik. In
+ceeds in inter
+tity transfo
+George's in
+logical asp
+political st
+phenomen
+vestigation
+remainder
+This content downloaded from
+199.83.221.44 on Wed, 25 Jun 2025 13:45:52 UTC
+All use subject to https://about.jstor.org/terms
+Evolution of Operational Code Analysis 405
+of the Bolshevik operational code, which b
+operational code studies.
+Taking the findings reported in the Leite
+tinction between "epistemological" and "instr
+al. (1962), George organized Leites's result
+set of questions designed to tap philosophical
+Bolshevik ideology. Whereas philosophical (i.e
+to assumptions and premises about the fun
+nature of political conflict, and the role of th
+tal beliefs focus upon ends-means relation
+action (George, 1969, pp. 199-216).
+PHILOSOPHICAL QUESTIONS
+1. What is the "essential" nature of political life? Is the political univer
+one of harmony or conflict? What is the fundamental character of one's po
+litical opponents?
+2. What are the prospects for the eventual realization of one's fun
+damental political values and aspirations? Can one be optimistic or must one
+be pessimistic on this score, and in what respects the one and/or the other?
+3. Is the political future predictable? In what sense and to what extent
+4. How much "control" or "mastery" can one have over historical d
+velopment? What is one's role in "moving" and "shaping" history in the desir
+direction?
+5. What is the role of "chance" in human affairs and in historical de-
+velopment?
+INSTRUMENTAL QUESTIONS
+1. What is the best approach for selecting goals or objectives for polit-
+ical action?
+2. How are the goals of action pursued most effectively?
+3. How are the risks of political action calculated, controlled, and ac-
+cepted?
+4. What is the best "timing" of action to advance one's interests?
+5. What is the utility and role of different means for advancing one's
+interests?
+Theoretically, the Bolsheviks' answers to these questions act as "bound-
+aries" for rational decision-making in the sense associated with Herbert Si-
+mon's concept of "bounded rationality" (March and Simon, 1958, cited by
+George, 1969, p. 198). The beliefs function as guides to political decision-
+making, especially under conditions of relative uncertaintly about the con-
+This content downloaded from
+199.83.221.44 on Wed, 25 Jun 2025 13:45:52 UTC
+All use subject to https://about.jstor.org/terms
+406 Walker
+sequences
+(1969, p.
+Knowledge
+a simple ke
+policy plann
+ent types o
+ternative co
+to clarify t
+in assessing
+and risks a
+The indiv
+situation,
+ate responses.
+However, George (1969, p. 196) cautioned that the elements of the code
+should be viewed "as a set of premises and beliefs about politics and not as
+a set of rules and recipes to be applied mechanically to the choice of ac-
+tion...." In an essay published a decade later, George (1979, pp. 95-124)
+elaborated upon the nature of the causal nexus between an actor's opera-
+tional code beliefs and political behavior. Because these beliefs are of a general
+rather than a specific character, he argued (pp. 101 ff.) that two theoretical
+premises follow:
+Beliefs of this kind influence decision-making indirectly by influencing the information-
+processing tasks that precede and accompany the decision-maker's choice of action;
+Such beliefs do not unilaterally determine his choice of action; other variables are
+also at work in determining what he will do.
+George also identified two techniques to detect the impact of
+operational-code beliefs upon decisions. The "congruence" procedure estab-
+lishes consistency "between the content of given beliefs and the content of
+the decision(s)." The "process-tracing" procedure traces in detail the steps
+in the process wherein the beliefs influence the process of defining the situa-
+tion, identifying options and then evaluating them prior to choice. The first
+procedure establishes a plausible link between beliefs and behavior by draw-
+ing attention to the possibility that the correlation is of causal significance.
+The second procedure assesses and may strengthen the link by making ob-
+servations of the intervening causal sequence between stimulus and response
+(George, 1979, pp. 105-119). For a more detailed discussion of these two
+procedures, see George and McKeown (1985).
+The research program established by the Leites-George paradigm for
+operational code analysis, therefore, had the following assumptions and in-
+ference patterns:
+Decision makers vary significantly in choice propensities, beliefs, and personality traits;
+These characteristics structure the decision-maker's range of goals and shape the anal-
+ysis of alternatives by the decision maker;
+This content downloaded from
+199.83.221.44 on Wed, 25 Jun 2025 13:45:52 UTC
+All use subject to https://about.jstor.org/terms
+Evolution of Operational Code Analysis 407
+Insofar as possible, a policy-maker's choices are se
+these principles and constitute the boundaries
+decision-maker.
+This paradigm is really a variant of the classical rational-actor paradigm of
+decision-making that informs much of mainstream political scientists' profes-
+sional understanding of national policy decisions. Actions are explained by
+reference to the actor's goals and by reproducing the calculations which led
+to the decision. Instead of making the classical rational-actor assumption
+that all decision-makers operate with the same approach to rationality un-
+der conditions of uncertainty, however, operational code analysis empha-
+sizes their idiosyncratic features across different decision-makers (Allison,
+1971, pp. 36-38).
+Consequently, the development of operational code analysis represents
+a potentially "progressive problem-shift" within the tradition of the classical
+rational-actor paradigm (Lakatos, 1970, p. 118). That is, operational code
+theory offers the prospect of accommodating the classical model's success-
+ful explanations and also accounting systematically for its anomalies. The
+Leites study of the Bolsheviks is considered a classic because it addressed
+important theoretical and real-world questions which were anomalies within
+the rational actor paradigm's traditional theoretical context. George's ver-
+sion of the operational code, in particular, introduced a psychological vari-
+ant of decision-making theory that "can be inferred or postulated by the
+investigator on the basis of the kinds of data, observational opportunities,
+and methods generally available to political scientists" (George, 1969, p. 195).
+Both Leites and George recognized, as have so many scholars, that the way
+national leaders view the world and each other fundamentally affects their
+policy choices.
+Methodologically, Leites's work illustrated how qualitative content anal-
+ysis can yield fruitful insights into the spirit of a ruling group. At the same
+time, the study manifested many of the usual problems of reliability and va-
+lidity associated with this kind of content analysis. George refined this tech-
+nique with his inventory of philosophical and instrumental questions. This
+accounting scheme guided a series of comparable case studies of American
+decision-makers, in turn, and eventually generated a typology of operation-
+al codes. We shall scrutinize two of these case studies below in order to
+demonstrate the refinement of the content analysis techniques employed in
+an attempt to link beliefs and behavior. First, however, let us consider the
+typology and its general relationship to the entire set of case studies.
+In the course of developing more refined coding categories for opera-
+tional code beliefs, Holsti (1977) implemented a three-step strategy to for-
+mulate six political belief systems based upon the philosophical and
+instrumental questions formulated by George.
+Following Converse's definition, he conceptualized a political belief system as "a con-
+figuration of ideas and attitudes in which the elements are bound together by some
+This content downloaded from
+199.83.221.44 on Wed, 25 Jun 2025 13:45:52 UTC
+All use subject to https://about.jstor.org/terms
+408 Walker
+form of con
+ed in Holst
+Inspired by
+nam, 1973,
+are major so
+identified hy
+with the pr
+temporary
+Finally, he
+verse's defin
+across indiv
+differences
+(Holsti, 197
+This effo
+fined and
+(Holsti, 1
+Holsti (1
+characteri
+situations
+ous, scarc
+located de
+WHAT ARE THE
+FUNDAMENTAL SOURCES
+OF CONFLICT?
+Human nature
+Attributes of
+nations
+International
+system
+WHAT IS THE FUNDAMENTAL NATURE
+OF THE POLITICAL UNIVERSE?
+Harmonious
+[conflict is
+temporary]
+Conflictual
+[conflict is
+permanent]
+I ( I
+I I
+I i I
+I ( I
+I , 1
+I ( I
+I I
+I A : D (
+ill
+ill
+I ,
+I I
+I I
+t I
+I , (
+I i ,
+I I (
+ill
+I B I E I
+III
+ill
+1 I
+ill
+I I i
+I I
+I
+ill
+I ( (
+I , I
+I C II F :r
+I I r
+r 1
+I
+Fig.
+bel
+This content downloaded from
+199.83.221.44 on Wed, 25 Jun 2025 13:45:52 UTC
+All use subject to https://about.jstor.org/terms
+Evolution of Operational Code Analysis 409
+among options. The dominant inference pat
+tions is a series of interactive statements bet
+maker and environmental features, which
+orge's theoretical premises about the causa
+havior.
+Holsti's formulation of an operational code typology has the following
+characteristics as a social-psychological theory of cognitive consistency. The
+basic unit of analysis is individual behavior constrained by the decision mak-
+er's belief system. The key concepts are philosophical and instrumental be-
+liefs, belief system, and foreign policy strategies and tactics. The dominant
+inference pattern is the principle of cognitive consistency, from which are
+derived two general propositions: (a) beliefs tend to reinforce one another
+to form a coherent belief system; (b) under specified conditions beliefs con-
+strain the range of alternative choices and thereby influence the final deci-
+sion (Holsti, 1977; Walker, 1989, p. 20).
+Holsti's application of Converse's (1964) definition of belief system to
+develop a set of operational code types, therefore, is a pivotal development
+in the evolution of operational code analysis. It synthesized the case studies
+of decision-making inspired by George's (1969) article and defined new lines
+of inquiry into the cognitive consistency, the psychodynamic origins, and
+the behavioral consequences of operational code belief systems. The major
+empirical questions raised by the typology were the following:
+Do the philosophical and instrumental beliefs of foreign policy decision-makers con-
+stitute a "belief system?"
+Do these belief systems resemble the ideal types of belief systems in the Holsti typology?
+Do each of these types of belief systems consistently influence in different ways
+the strategically-located individual's definition of the situation, his decision, and its
+implementation under the conditions of ambiguity, scarcity and complexity speci-
+fied by the operational code theory of cognitive consistency?
+These questions raise subsidiary questions regarding the measurement and
+analysis techniques which will identify and relate beliefs, situations, deci-
+sions, and behavior in a reliable and valid way.
+George (1969) has illustrated the potential use of qualitative content
+analysis in his re-examination of the Leites study, while Holsti (1977, pp.
+37-145) has explored the use of quantitative content analysis by constructing
+a manual for retrieving the beliefs in his typology. However, they have left
+to other scholars the tasks of putting these two types of content analysis to
+extensive use.
+After the appearance of George's (1969) article, several operational code
+case studies of U.S. decision-makers followed. The subjects included John
+Foster Dulles, Frank Church, Arthur Vandenberg, Dean Acheson, Henry
+Kissinger, James F. Byrnes, J. William Fulbright, and Mark Hatfield (An-
+derson, 1973a,b; Caldwell, 1976; Holsti, 1970, 1977; Johnson, 1977; McLel-
+This content downloaded from
+199.83.221.44 on Wed, 25 Jun 2025 13:45:52 UTC
+All use subject to https://about.jstor.org/terms
+410 Walker
+lan, 1971;
+technique
+tain expr
+a few stu
+Brandt, a
+research d
+by, 1969;
+Holsti (19
+the result
+operation
+analysis i
+individual
+ogy. Instea
+other me
+Stuart and
+to see if th
+1956) vary a
+tions; in tu
+operational
+Walker (197
+bargaining
+a qualitativ
+Indirect t
+individua
+by operat
+of operati
+validated
+An examp
+201-269) a
+content a
+counting s
+tal beliefs
+content a
+with one a
+belief sys
+A subseq
+that did n
+tive conte
+by the ca
+from mor
+to a comb
+the comp
+Holsti typ
+This content downloaded from
+199.83.221.44 on Wed, 25 Jun 2025 13:45:52 UTC
+All use subject to https://about.jstor.org/terms
+Evolution of Operational Code Analysis 411
+ping beliefs existed in the original version an
+Fig. 2).
+Walker and Falkowski (1984a,b) used the
+typology as the basis for their research into
+sis bargaining tactics of U.S. presidents and s
+Type A
+Philosophical: Conflict is temporary, caused by human misunderstanding and miscommunica-
+tion. A "conflict spiral," based upon misperception and impulsive responses, is the major danger
+of war. Opponents are often influenced by nonrational conditions, but tend to respond in kind
+to conciliation and firmness. Optimism is warranted, based upon a leader's ability and willing-
+ness to shape historical development. The future is relatively predictable, and control over it
+is possible.Instrumental: Establish goals within a framework that emphasizes shared interest.
+Pursue broadly international goals incrementally with flexible strategies that control risks by
+avoiding escalation and acting quickly when conciliation opportunities arise. Emphasize resources
+that establish a climate for negotiation and compromise and avoid the early use of force.
+Type B
+Philosophical: Conflict is temporary, caused by warlike states; miscalculation and appeasement
+are the major causes of war. Opponents are rational and deterrable. Optimism is warranted
+regarding realization of goals. The political future is relatively predictable, and control over
+historical development is possible. Instrumental: One should seek optimal goals vigorously wi-
+thin a comprehensive framework. Control risks by limiting means rather than ends. Any tactic
+and resource may be appropriate, including the use of force when it offers prospects for large
+gains with limited risk.
+Type C
+Philosophical: Conflict is temporary; it is possible to restructure the state system to reflect the
+latent harmony of interests. The source of conflict is the anarchical state system, which permits
+a variety of causes to produce war. Opponents vary in nature, goals, and responses to concilia-
+tion and firmness. One should be pessimistic about goals unless the state system is changed,
+because predictability and control over historical development is low under anarchy. Instrumental:
+Establish optimal goals vigorously within a comprehensive framework. Pursue shared goals,
+but control risks by limiting means rather than ends. Act quickly when conciliation opportuni-
+ties arise and delay escalatory actions whenever possible; other resources than military capabil-
+ities are useful.
+Type DEF
+Philosophical: Conflict is permanent, caused by human nature (D), nationalism (E) or interna-
+tional anarchy (F). Power disequilibria are major dangers of war. Opponents may vary, and
+responses to conciliation or firmness are uncertain. Optimism declines over the long run and
+in the short run depends upon the quality of leadership and a power equilibrium. Predictability
+is limited, as is control over historical development. Instrumental: Seek limited goals flexibly
+with moderate means. Use military force if the opponent and circumstances require it, but only
+as a final resource.
+Fig. 2. Revised Holsti typology (Source: Walker, 1983, 1986).
+This content downloaded from
+199.83.221.44 on Wed, 25 Jun 2025 13:45:52 UTC
+All use subject to https://about.jstor.org/terms
+412 Walker
+ational co
+operation
+dy, Rusk,
+moves by
+their resp
+colleagues
+code belie
+of belief s
+revised ve
+Instead, t
+makers' s
+liefs from
+pattern in
+nitive beli
+makers. A
+as concept
+for the ex
+filiation, a
+Winter an
+tics by th
+these cong
+1984b).
+These results suggest a future research agenda with the following tasks.
+One is to establish a strong conceptual bridge between operational code anal-
+ysis and recent research in motivational psychology dealing with the needs
+for power, affiliation, and achievement. Another is to replace the belief-system
+version of cognitive consistency theory with insights from the "revolution
+in cognitive psychology" (Herrmann, 1988). The operational code construct
+may turn out to be a useful umbrella for integrating various middle-range
+theories of cognitive and motivational psychology into a "grand theory" of
+political psychology.
+However, it is also possible that operational code research may be an-
+nexed by one of these neighboring research communities or partitioned among
+them. An individual's operational code may structure the "menu for choice,"
+thereby defining the range of the decision-maker's choice propensities, but
+operational code theory is relatively silent about the cognitive and emotion-
+al processes that accompany the specific definitions of the situation, deci-
+sion, and action. The connection between an individual's operational code
+and political behavior, therefore, has often been asserted either on intuitive
+grounds or established with the "congruence" technique in somewhat gener-
+al terms by reference to a general relationship between the code's contents
+and aggregate behavior patterns. The "process-tracing" technique has not
+This content downloaded from
+199.83.221.44 on Wed, 25 Jun 2025 13:45:52 UTC
+All use subject to https://about.jstor.org/terms
+Evolution of Operational Code Analysis 413
+been employed extensively to examine interv
+perceptions, which are the immediate antece
+Indeed, these cognitive processes have t
+critics of operational code analysis as riva
+Cottam, 1986, pp. 9-17). The findings fro
+understanding of foreign policy decision-m
+(cf., Jervis, 1976), but there has been relativ
+late them either to the operational code appr
+with motivations and personality. Nor has
+to explore the relationships between operatio
+tional processes of ego defense associated
+The cognitive process literature has also d
+motivational psychology and personality t
+that motivated biases as well as cognitive
+information (Jervis, 1976, pp. 356-381; Je
+and nature of motivated biases have not y
+by cognitive theorists, even though there is
+fort may be worthwhile (Emmons, 1987,
+and Levi, 1982). Their reluctance to tackl
+because it could invoke a broader, explicitly
+text for interpreting such processes of s
+schematization, and dissonance reduction.
+Operational code analysis may have the po
+because it has evolved into a research prog
+cognitive dimensions. Two recent example
+a study which investigates Woodrow Wils
+context of the debate over the relationship b
+the self-defeating pattern of his political de
+cation debate over the Treaty of Versaill
+study of Henry Kissinger by Starr (1984), w
+beliefs, perceptions, and foreign policy b
+The research design for the Wilson study
+tegrating motivational and cognitive expla
+The investigation is guided by the formulation of
+incorporates motivational and cognitive disposit
+The hypotheses for investigation are derived from
+ty disorders testable within the context of operati
+orge, 1964; Tucker, 1977, Post, 1983)
+The measurement of motivations and beliefs is done
+sis techniques. (Walker, 1986)
+The analysis involves a comparison of the con
+schemata in Wilson's annual addresses to
+imagery in Wilson's speeches during three d
+This content downloaded from
+199.83.221.44 on Wed, 25 Jun 2025 13:45:52 UTC
+All use subject to https://about.jstor.org/terms
+414 Walker
+ing the Ve
+co and th
+philosoph
+achievemen
+the expans
+sonality a
+Starr's (19
+tively, wi
+litics. The
+analyzing
+analysis of
+for classif
+an attempt
+havior of
+Starr esta
+ational cod
+tracing tec
+him to be
+fore, his
+of his perc
+of the Sov
+hostility (
+However,
+ship betw
+He conclu
+[I]t is appare
+behavior. Al
+ing the perio
+contained - d
+Union and
+The mixed
+ceptions, a
+with emp
+Beliefs m
+is not the
+Perception
+ages may
+The instrum
+behavior tow
+but behavior would not.
+The philosophical beliefs in an operational code may dispose an actor to diagnose
+differently the respective situations surrounding two objects of the same type or even
+This content downloaded from
+199.83.221.44 on Wed, 25 Jun 2025 13:45:52 UTC
+All use subject to https://about.jstor.org/terms
+Evolution of Operational Code Analysis 415
+the same object at two different observation points. Th
+would not vary, but behavior would.
+Either possibility could account for Starr's stat
+tionships between perceptions and behavior (W
+complex alternative hypothesis is that Starr's
+for predicting behavior is correct - however, th
+images rather than object-images. That is, a close
+tween self-schema/self-scripts and behavior. Fro
+to George's questions for tapping instrumental b
+cal action become dimensions of the decision-mak
+in the political universe. These self-scripts, in tu
+vations embedded deeply in the individual's perso
+If so, then decision-making is driven as much
+defense and the mediation of self-other relation
+appraisal (Brewster-Smith, 1968). In this view, th
+becomes an analytical conduit through which
+which an analyst observes their interaction. If
+analysis continues in this direction, it would rep
+terological feature which George and Holsti ex
+developed its cognitive aspect.
+This move, in addition to being faithful to th
+ational code analysis represented by Leites, w
+pated by his cognitive revisionists. In his semi
+195-196) addressed this very possibility with
+[I]t is one of the attractive features of the operational cod
+inclined political scientists that it can serve as a usefu
+chodynamic interpretations of unconscious dimensions
+role in behavior under different conditions...
+The belief system about politics is part of the cognitive and affective portion of the
+ego structure of personality; as such it serves an adaptive function for coping with
+reality. But at the same time the emergence of a belief system may be affected by
+developmental problems encountered in personality formation; if so, beliefs may then
+also serve ego defensive functions vis-a-vis unconscious wishes and anxieties...
+Thus, once an actor's approach to political calculation has been formulated by the
+researchers, he can proceed-if he so wishes and is able to do so-to relate some
+of the beliefs in question to other motivational variables of a psychodynamic character.
+Indeed, George (1969, p. 196) concludes that a knowledge of the decision-
+maker's beliefs facilitates the task of assessing the extent to which behavior
+is based upon reality-testing or reflects the influence of latent motives and
+ego defenses.
+In A Study of Bolshevism, the use of operational code analysis bridged
+the relationship between political choice and the cognitive, affective, and de-
+velopmental features of the Bolshevik personality. This accomplishment
+This content downloaded from
+199.83.221.44 on Wed, 25 Jun 2025 13:45:52 UTC
+All use subject to https://about.jstor.org/terms
+416 Walker
+makes the
+al Society
+The evolu
+metaphor
+ers have c
+research p
+to serve as
+ciplines r
+REFERENCES
+Anderson, J. (1973a). "The Operational code approach: The George construct an
+thur H. Vandenberg's operational code belief system." Presented at the Ann
+of the American Political Science Association, New Orleans, LA.
+Anderson, J. (1973b). The Operational Code Belief System of Senator Arthur Van
+Application of the George Construct, University of Michigan, Unpublish
+sertation.
+Asbhy, N. (1969). Schumacher and Brandt: The divergent operational codes of
+Socialist leaders. Standford University mimeo.
+Brim, O., Glass, D., Lavin, D., and Goodman, N. (1962). Personality and Decisi
+Studies in the Social Psychology of Thinking, Stanford University Press, Sta
+Caldwell, D. (1976). The operational code of Senator Mark Hatfield. Stanford Univ
+Converse, P. (1964). The nature of belief systems in mass publics. In Apter, D.
+and Discontent, Free Press, New York.
+Cottam, M. (1986). Foreign Policy Decision Making: The Influence of Cognitio
+Boulder, Colo.
+Emmons, R. (1987). Narcissism: Theory and measurement. J. Personal. Social P
+Etheredge, L. (1979). A World of Men. MIT Press, Cambridge, Mass.
+Etheredge, L. (1985). Can Governments Learn? Pergamon, New York.
+George, A. (1969). The 'operational code': A neglected approach to the study of
+ers and decision-making. Int. Studies Qtrly. 23: 190-222.
+George, A., (1979). The causal nexus between cognitive beliefs and decision-mak
+The 'operational code.' In Falkowski, L. (ed.), Psychological Models in I
+Politics, Westview, Boulder, pp. 95-124.
+George, A., and George, M. (1964). Woodrow Wilson and Colonel House: A Perso
+Dover, New York.
+George, A., and McKeown, T. (1985). Case studies and theories of organizational decison making.
+Advan. Inf. Process. Organ. 2: 21-58.
+Herrmann, R. (1988). The Empirical challenge of the cognitive revolution: A strategy for draw-
+ing inferences about perceptions. Int. Studies Qtrly. 32: 175-204.
+Holsti, 0. (1970). The Operational code approach to the study of political leaders: John
+Foster Dulles' philosophical and instrumental beliefs. Canad. J. Polit. Sci. 3: 123-157.
+Holsti, 0. (1977). The 'operational code' as an approach to the analysis of belief systems. Final
+Report to the National Science Foundation, Grant SOC 75-15368, Duke University,
+Durham, N.C.
+Jervis, R. (1976). Perception and Misperception in International Politics, Princeton Univ. Press,
+Princeton, N.J.
+Jervis, R. (1985). Perceiving and Coping with threat. In R. Jervis, R. N. Lebow, and J. Stein,
+et al., Psychology and Deterrence, Johns Hopkins, Baltimore, Md. pp. 13-33.
+This content downloaded from
+199.83.221.44 on Wed, 25 Jun 2025 13:45:52 UTC
+All use subject to https://about.jstor.org/terms
+Evolution of Operational Code Analysis 417
+Johnson, L. (1977). Operational codes and the predictio
+Church at midcareer. In M. Hermann (ed.), A Ps
+Leaders, Free Press, New York.
+Kavanagh, D. (1970). The operational code of Ramsey
+Lakatos, I. (1970). Falsification and the methodology o
+tos and A. Musgrave (Eds.), Criticism and the Grow
+sity Press, Cambridge, pp. 91-196.
+LeBow, R. N. (1981). Between Peace and War, John
+Leites, N. (1951). The Operational Code of the Poli
+Leites, N. (1953). A Study of Bolshevism, Free Pres
+Leites, N. (1964). Kremlin moods. RM-3535-ISA (Jan
+ca, Calif.
+March, J., and Simon, H. (1958). Organizations, W
+McLellan, D. (1971). The Operational code approach
+Acheson's philosophical and instrumental belief
+Merton, R. (1940). Bureaucratic structure and Per
+Bureaucracy, Free Press, New York.
+Osgood, R., et al (1956). Evaluative assertion analysi
+Post, J. (1983). Woodrow Wilson Re-examined: The m
+disputations. Polit. Psychol. 4: 289-306.
+Putnam, R. (1973). The Beliefs of Politicians, Yale
+Smith, M. Brewster (1968). A map for the analysis of
+24: 15-28.
+Starr, H. (1984). Henry Kissinger: Perceptions of International Politics, University Press of
+Kentucky, Lexington, Ky.
+Stuart, D. (1979). The relative potency of leader beliefs as a determinant of foreign policy: John
+F. Kennedy's operational code. University of Southern California Doctoral Dissertation
+(January).
+Stuart D., and Starr, H. (1981/82). The 'inherent bad faith' model reconsidered: Dulles, Kennedy,
+and Kissinger. Polit. Psychol. 3: 1-33.
+Tetlock, P. (1987). Book Review: The 19th Annual Carnegie Symposium on Cognition: Politi-
+cal Cognition, edited by R. Lau and D. Sears (Hillsdale, NJ.: Erlbaum), Polit. Psychol.
+8: 139-144.
+Tetlock P., and Levi, A. (1982). Attribution bias: On the inconclusiveness of the cognition
+motivation debate. J. Exp. Social Psychol. 18: 66-88.
+Tucker, R. (1977). The Georges' Wilson reexamined: An essay on psychobiography. Am. Poli
+Sci. Rev. 71: 606-618.
+Tweraser, K. (1974). Changing patterns of political beliefs: The foreign policy operational
+of J. William Fulbright. Sage Professional Papers in American Politics, Number 04-
+Walker, S. (1977). The interface between beliefs and behavior: Henry Kissinger's opera
+code and the Vietnam War. J. Confl. Res. 21: 129-168.
+Walker, S. (1983). The motivational foundations of political belief systems: A re-analy
+the operational code construct. Int. Studies Qtrly. 27: 179-201.
+Walker, S. (1986). Woodrow Wilson's operational code. Presented at the Annual Meetin
+the International Society of Political Psychology, Rai Conference Center, Amsterdam
+The Netherlands (June 29-July 4).
+Walker, S. (1987). The impact of personality structure and cognitive processes upon Amer
+foreign policy decisions: Part I. Presented at the Annual Meeting of the American Po
+ical Science Association, Chicago, Ill.
+Walker, S. (1988). The impact of personality structure and cognitive processes upon Amer
+foreign policy decisions: Part II. Presented at the Annual Meeting of the American
+litical Science Association, Washington, D.C.
+Walker, S. (1989). Bridging the gap between 'bounded' and 'substantive' rationality in fore
+policy decision making. Presented at the Annual Meeting of the American Political Sci
+Association Meeting, Atlanta, Ga.
+This content downloaded from
+199.83.221.44 on Wed, 25 Jun 2025 13:45:52 UTC
+All use subject to https://about.jstor.org/terms
+418 Walker
+Walker, S., a
+ies of state
+33-51.
+Walker, S., a
+policy leader
+Psychology
+Winter, D., a
+ers. In M. H
+New York.
+This content downloaded from
+199.83.221.44 on Wed, 25 Jun 2025 13:45:52 UTC
+All use subject to https://about.jstor.org/terms

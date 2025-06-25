@@ -1,0 +1,330 @@
+citation: "Lefebvre, R. C. (2013). Social Marketing and Social Change: Strategies and Tactics for Health, Well-being, and Social Good. Chapter 2: Principles of Social Marketing. San Francisco: Jossey-Bass."
+
+annotation: "This chapter establishes the foundational principles of social marketing, distinguishing it from health communication and other behavior change approaches through its comprehensive marketing mix framework. It presents three strategic models (Rothschild's MOA framework, People and Places framework, and an Integrative Model) and extends social marketing beyond individual behavior change to encompass market systems and social change."
+
+model_type: "property_graph"
+
+rationale: "The theoretical framework represents a complex network of interconnected concepts, actors, processes, and relationships in social marketing practice. The property graph model best captures the multidirectional relationships between consumers, producers, mediators, environmental factors, marketing mix elements, and systemic market failures that characterize social marketing systems."
+
+schema_blueprint:
+  title: "Social Marketing Principles Framework"
+  description: "A comprehensive theoretical framework modeling the principles, processes, and systems of social marketing for behavior and social change"
+  
+  root_properties:
+    nodes:
+      description: "Represents core concepts, actors, processes, frameworks, and market elements in social marketing theory and practice"
+      item_type: "Entity"
+    edges:
+      description: "Represents relationships, influences, processes, and interactions between social marketing elements and systems"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Social Marketing Constructs
+    - name: "social-marketing"
+      category: "core-construct"
+      description: "Using marketing principles and practices to influence the acceptability of social ideas and achieve behavior and social change for noncommercial goals"
+      
+    - name: "consumer-orientation"
+      category: "core-construct"
+      description: "Marketing approach that begins with understanding people's wants, needs, aspirations, lifestyles, and honors their freedom of choice"
+      
+    - name: "marketing-mix"
+      category: "core-construct"
+      description: "The 4Ps framework (Product, Price, Place, Promotion) for developing and implementing social marketing programs"
+      
+    - name: "exchange-theory"
+      category: "theoretical-framework"
+      description: "Classical marketing concept involving transactions between two parties who each have something of value to the other"
+      
+    - name: "service-dominant-logic"
+      category: "theoretical-framework"
+      description: "Marketing perspective where mutual exchanges of knowledge and resources create value for both parties through co-creation"
+      
+    # Strategic Models and Frameworks
+    - name: "rothschild-moa-model"
+      category: "strategic-framework"
+      description: "Strategic model for behavior change based on Motivation, Opportunity, and Ability (MOA) constructs determining appropriate intervention strategies"
+      
+    - name: "people-places-framework"
+      category: "strategic-framework"  
+      description: "Ecological framework analyzing three levels of people (individual, social network, community) and four types of place-based influences"
+      
+    - name: "integrative-social-marketing-model"
+      category: "strategic-framework"
+      description: "Comprehensive framework with four interrelated tasks revolving around value proposition for priority segments"
+      
+    # Key Processes and Activities
+    - name: "environmental-scanning"
+      category: "process"
+      description: "Systematic analysis of external environmental factors affecting social marketing programs"
+      
+    - name: "market-segmentation"
+      category: "process"
+      description: "Process of dividing populations into distinct groups based on shared characteristics, needs, or benefits sought"
+      
+    - name: "formative-research"
+      category: "process"
+      description: "Research conducted during program development to understand audience characteristics, behaviors, and preferences"
+      
+    - name: "priority-group-selection"
+      category: "process"
+      description: "Strategic process of identifying and selecting specific population segments to focus social marketing resources"
+      
+    - name: "value-proposition-development"
+      category: "process"
+      description: "Process of identifying the essence of what people want and the benefits they can experience from program offerings"
+      
+    - name: "behavior-analysis"
+      category: "process"
+      description: "Systematic examination of determinants, context, consequences, and relevance of current and desired behaviors"
+      
+    # Marketing Mix Elements
+    - name: "product-development"
+      category: "marketing-mix-element"
+      description: "Creating behaviors, products, and services as offerings tailored to serve priority groups"
+      
+    - name: "pricing-strategy"
+      category: "marketing-mix-element"
+      description: "Managing psychological, social, geographical, and monetary costs and incentives for behaviors"
+      
+    - name: "place-distribution"
+      category: "marketing-mix-element"
+      description: "Creating access and opportunities to perform healthier behaviors within arm's reach of desire"
+      
+    - name: "promotion-communication"
+      category: "marketing-mix-element"
+      description: "Communicating value proposition, price, and accessibility to priority audiences in ways that attract attention and inspire action"
+      
+    # Market System Concepts
+    - name: "marketing-system"
+      category: "systems-concept"
+      description: "Network of individuals, groups, and entities embedded in social matrix, linked through economic exchange to create value"
+      
+    - name: "macromarketing"
+      category: "systems-concept"
+      description: "Focus on marketing systems and effects of markets on society rather than individual customers"
+      
+    - name: "micromarketing"
+      category: "systems-concept"
+      description: "Individual-level focus on understanding and influencing people through producer actions"
+      
+    - name: "market-failure"
+      category: "systems-concept"
+      description: "Instances where pursuit of self-interest leads to outcomes less effective, efficient, or equitable from social perspective"
+      
+    # Types of Market Failures
+    - name: "imperfect-competition"
+      category: "market-failure-type"
+      description: "Market condition where few actors produce/mediate information or one actor dominates the market"
+      
+    - name: "information-asymmetry"
+      category: "market-failure-type"
+      description: "Market condition where one party has more or better information than another in the system"
+      
+    - name: "opportunity-costs"
+      category: "market-failure-type"
+      description: "Value of alternatives not chosen by consumers based on information received"
+      
+    - name: "value-expectation-asymmetry"
+      category: "market-failure-type"
+      description: "Differences in how consumers expect to benefit from information and their satisfaction/dissatisfaction"
+      
+    # Strategic Approaches
+    - name: "operational-social-marketing"
+      category: "strategic-approach"
+      description: "Social marketing used to develop specific campaigns or programs for particular social or health problems"
+      
+    - name: "strategic-social-marketing"
+      category: "strategic-approach"
+      description: "Social marketing used to shape policy options, define outcomes, and design intervention strategies"
+      
+    - name: "education-strategy"
+      category: "behavior-change-strategy"
+      description: "Efforts using information and persuasion to influence behavior"
+      
+    - name: "marketing-strategy"
+      category: "behavior-change-strategy"
+      description: "Managing behavior by offering incentives and consequences in voluntary exchange context"
+      
+    - name: "law-strategy"
+      category: "behavior-change-strategy"
+      description: "Coercive practices to change behaviors nonvoluntarily or alter marketplace through regulations"
+      
+    # Measurement and Evaluation
+    - name: "process-evaluation"
+      category: "evaluation-method"
+      description: "Assessment of program implementation, tracking, and response monitoring"
+      
+    - name: "outcome-evaluation"
+      category: "evaluation-method"
+      description: "Measurement of program effectiveness and behavior change outcomes"
+      
+    - name: "marketing-audit"
+      category: "evaluation-method"
+      description: "Systematic examination of marketing program elements and effectiveness"
+      
+    # Key Relationships
+    - name: "influences"
+      category: "relationship"
+      description: "Directional relationship where one element affects or shapes another"
+      
+    - name: "enables"
+      category: "relationship"
+      description: "Relationship where one element makes another possible or facilitates it"
+      
+    - name: "competes-with"
+      category: "relationship"
+      description: "Opposition relationship between competing behaviors, products, or approaches"
+      
+    - name: "exchanges-with"
+      category: "relationship"
+      description: "Mutual relationship involving transaction of value between parties"
+      
+    - name: "mediates"
+      category: "relationship"
+      description: "Intermediary relationship where one element serves as go-between for others"
+      
+    - name: "segments-into"
+      category: "relationship"
+      description: "Analytical relationship dividing populations into distinct groups"
+      
+    - name: "targets"
+      category: "relationship"
+      description: "Strategic relationship focusing resources on specific groups or behaviors"
+      
+    # Actors and Stakeholders
+    - name: "priority-group"
+      category: "actor"
+      description: "Specific population segments selected to receive focused social marketing resources and tailored marketing mix"
+      
+    - name: "consumer"
+      category: "actor"
+      description: "Individual or group who receives and acts on social marketing offerings"
+      
+    - name: "producer"
+      category: "actor"
+      description: "Organization or entity that creates and implements social marketing programs"
+      
+    - name: "mediator"
+      category: "actor"
+      description: "Individual or organization that takes information and creates products/services around it using marketing mix"
+      
+    - name: "competitor"
+      category: "actor"
+      description: "Personal, environmental, or corporate factors that act against desired behavioral choices and goals"
+      
+    # Environmental and Contextual Factors
+    - name: "individual-level-factors"
+      category: "environmental-factor"
+      description: "Personal attributes including self-efficacy, affect, skills, motivation, intentions, biological predispositions"
+      
+    - name: "social-network-factors"
+      category: "environmental-factor"
+      description: "Network size, connectedness, social support, positive modeling, and health opinion leaders"
+      
+    - name: "community-factors"
+      category: "environmental-factor"
+      description: "Culture, social norms, social capital, collective efficacy, and socioeconomic disparities"
+      
+    - name: "physical-structures"
+      category: "place-based-influence"
+      description: "Environmental structures that encourage healthy or discourage unhealthy behaviors"
+      
+    - name: "product-service-availability"
+      category: "place-based-influence"
+      description: "Availability of products and services that enhance or detract from population health"
+      
+    - name: "social-structures"
+      category: "place-based-influence"
+      description: "Laws, policies, and enforcement that encourage or discourage healthier actions"
+      
+    - name: "cultural-media-messages"
+      category: "place-based-influence"
+      description: "Media and cultural messages that model and recommend health-promoting or undermining behaviors"
+      
+    # Barriers and Challenges
+    - name: "organizational-barriers"
+      category: "barrier"
+      description: "Institutional obstacles to adopting social marketing principles including lack of consensus, inadequate understanding, professional biases"
+      
+    - name: "perception-barriers"
+      category: "barrier"
+      description: "Stakeholder perceptions that social marketing is manipulative, expensive, or incompatible with other approaches"
+      
+    - name: "resource-barriers"
+      category: "barrier"
+      description: "Insufficient organizational resources and technical capacities for research, evaluation, and product development"
+      
+    # Ethical Considerations
+    - name: "ethical-guidelines"
+      category: "ethical-framework"
+      description: "Guide rails including do no harm, treat fairly, be truthful, protect privacy, respect dignity and choice"
+      
+    - name: "power-dynamics"
+      category: "ethical-consideration"
+      description: "Recognition of power imbalances and need for equality in marketing exchange relationships"
+      
+    - name: "stakeholder-consensus"
+      category: "ethical-process"
+      description: "Seeking agreement on program goals, objectives, and strategies from involved parties"
+
+  json_schema:
+    type: "object"
+    properties:
+      nodes:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id: {type: "string"}
+            type: {type: "string", enum: ["Entity"]}
+            category: 
+              type: "string"
+              enum: [
+                "core-construct", "theoretical-framework", "strategic-framework", 
+                "process", "marketing-mix-element", "systems-concept", "market-failure-type",
+                "strategic-approach", "behavior-change-strategy", "evaluation-method",
+                "actor", "environmental-factor", "place-based-influence", "barrier",
+                "ethical-framework", "ethical-consideration", "ethical-process"
+              ]
+            properties:
+              type: "object"
+              properties:
+                name: {type: "string"}
+                description: {type: "string"}
+                domain: {type: "array", items: {type: "string"}}
+                range: {type: "array", items: {type: "string"}}
+                
+      edges:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id: {type: "string"}
+            type: {type: "string", enum: ["NaryTuple"]}
+            category:
+              type: "string"
+              enum: [
+                "relationship", "process", "influence", "exchange", "competition",
+                "mediation", "segmentation", "targeting", "enablement"
+              ]
+            properties:
+              type: "object"
+              properties:
+                name: {type: "string"}
+                relationship_type:
+                  type: "string"
+                  enum: [
+                    "influences", "enables", "competes-with", "exchanges-with",
+                    "mediates", "segments-into", "targets", "determines", "facilitates",
+                    "constrains", "supports", "opposes", "creates", "implements"
+                  ]
+                source: {type: "string"}
+                target: {type: "string"}
+                modifier: 
+                  type: "string"
+                  enum: ["positive", "negative", "neutral", "bidirectional"]
+                strength:
+                  type: "string"
+                  enum: ["strong", "moderate", "weak"]
+                context: {type: "string"}

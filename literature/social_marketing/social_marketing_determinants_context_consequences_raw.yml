@@ -1,0 +1,281 @@
+citation: "Chapter 3: Determinants, Context, and Consequences for Individual and Social Change. In Social Marketing and Social Change."
+
+annotation: "Comprehensive chapter analyzing theoretical frameworks for social marketing that addresses individual behavior change within social, community, and market contexts. Presents integration of psychological theories with social network, community development, and systems approaches to achieve scalable social change."
+
+model_type: "property_graph"
+
+rationale: "This chapter presents a complex theoretical ecosystem with multiple interconnected theories, frameworks, and approaches that form relationships between individual-level constructs and macro-level social systems. The property graph model best captures the multi-level nature of determinants (individual, social, structural), contexts (networks, communities, markets), and consequences (individual behavior change, social diffusion, system change) along with their dynamic interactions and feedback loops."
+
+schema_blueprint:
+  title: "Social Marketing Determinants, Context, and Consequences Framework"
+  description: "Theoretical framework for social marketing that integrates individual behavior change theories with social network, community, and market-level approaches to achieve scalable social change"
+  
+  root_properties:
+    nodes:
+      description: "Theoretical constructs, actors, interventions, contexts, and outcomes in social marketing systems"
+      item_type: "Entity"
+    edges:
+      description: "Relationships, influences, processes, and interactions between social marketing elements"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Social Marketing Constructs
+    - name: "social-marketing"
+      category: "core-construct"
+      description: "Approach to individual behavior change using marketing principles to achieve social good, involving psychological stage models and marketing mix to reduce barriers and increase benefits"
+    
+    - name: "micro-macro-problem"
+      category: "theoretical-challenge"
+      description: "Fundamental challenge of achieving macro-level social outcomes through micro-level individual actions, requiring understanding of emergence and system-level interactions"
+    
+    - name: "frame-problem"
+      category: "theoretical-challenge"
+      description: "Difficulty in knowing all potentially relevant facts and determinants when selecting theoretical frameworks to guide social change programs"
+    
+    - name: "theory-of-change"
+      category: "theoretical-framework"
+      description: "Articulated framework explaining relationship between program actions and hoped-for outcomes, may blend multiple theories for hybrid approach"
+    
+    - name: "eclectic-theorizing"
+      category: "methodological-approach"
+      description: "Using parts of theories that best fit people and problems rather than forcing context into single theoretical understanding"
+    
+    # Individual-Level Theories
+    - name: "stages-of-change-model"
+      category: "behavioral-theory"
+      description: "Transtheoretical model with stages: precontemplation, contemplation, preparation, action, maintenance for individual behavior change"
+    
+    - name: "health-belief-model"
+      category: "behavioral-theory"
+      description: "Theory focusing on perceived susceptibility, severity, benefits, barriers, and cues to action in health behavior adoption"
+    
+    - name: "social-cognitive-theory"
+      category: "behavioral-theory"
+      description: "Theory emphasizing reciprocal determinism, behavioral capability, expectations, self-efficacy, observational learning, and reinforcement"
+    
+    - name: "integrative-model-behavior-prediction"
+      category: "behavioral-theory"
+      description: "Model integrating health belief model, social-cognitive theory, and theory of reasoned action to predict behavior through intention, skills, and environmental constraints"
+    
+    - name: "process-behavior-change-framework"
+      category: "behavioral-theory"
+      description: "Framework with stages: preknowledgeable, knowledgeable, approving, intending, practicing, advocating - notably including advocacy as behavioral maintenance strategy"
+    
+    # Social-Level Theories and Approaches
+    - name: "diffusion-of-innovations"
+      category: "social-theory"
+      description: "Theory explaining how innovations spread through social systems based on relative advantage, compatibility, complexity, trialability, and observability"
+    
+    - name: "social-networks-theory"
+      category: "social-theory"
+      description: "Framework examining how behaviors, information, and influence spread through network connections and relationships"
+    
+    - name: "social-capital-theory"
+      category: "social-theory"
+      description: "Theory focusing on community networks, civic engagement, local identity, and norms of trust and reciprocal support as resources for social change"
+    
+    - name: "behavioral-economics"
+      category: "decision-theory"
+      description: "Field challenging rational person model, emphasizing heuristics, framing effects, and market inefficiencies in decision-making"
+    
+    - name: "MINDSPACE-model"
+      category: "policy-framework"
+      description: "Behavioral insights framework: Messenger, Incentives, Norms, Defaults, Salience, Priming, Affect, Commitment, Ego for policy development"
+    
+    # Community and Systems Approaches
+    - name: "asset-based-community-development"
+      category: "community-approach"
+      description: "Development strategy starting with community capacities and assets rather than needs and deficits, emphasizing local direction and relationship building"
+    
+    - name: "community-based-social-marketing"
+      category: "intervention-approach"
+      description: "Approach identifying barriers and benefits of behaviors while organizing public into groups with shared characteristics for efficient program delivery"
+    
+    - name: "service-design"
+      category: "design-approach"
+      description: "Application of design principles to services focusing on touchpoints, customer journey, and user experience from client perspective"
+    
+    - name: "design-thinking"
+      category: "methodological-approach"
+      description: "Human-centered design approach that is collaborative, experimental, personal, integrative, and interpretive for innovation"
+    
+    # Key Processes and Mechanisms
+    - name: "vital-behaviors"
+      category: "behavioral-construct"
+      description: "Key behaviors that drive big changes or lead to cascade of changes, identified through research and positive deviant observation"
+    
+    - name: "sources-of-influence"
+      category: "influence-framework"
+      description: "Framework examining personal, structural, and social influences on ability (Can I do it?) and motivation (Is it worth it?)"
+    
+    - name: "advocacy-behavior"
+      category: "behavioral-construct"
+      description: "Behavior of promoting desired practices to others, serves as both behavioral maintenance strategy and recruitment mechanism"
+    
+    - name: "boundary-spanners"
+      category: "network-role"
+      description: "Individuals who interact with multiple networks and are not tightly bound to single social clique, critical for introducing innovations"
+    
+    - name: "positive-deviants"
+      category: "behavioral-model"
+      description: "People who already engage in desired behavior successfully, serve as models for intervention design and social influence"
+    
+    # Market and System-Level Constructs
+    - name: "aggregate-marketing-system"
+      category: "systems-construct"
+      description: "Organizing framework for marketing role in society with three primary actors: consumers, marketers, and government entities"
+    
+    - name: "social-ecological-model"
+      category: "systems-framework"
+      description: "Multi-level model identifying behavioral determinants from genetic/physiological to neighborhood/community to social/economic policy levels"
+    
+    - name: "emergence"
+      category: "systems-concept"
+      description: "Process by which complex systems exhibit properties and behaviors not present in individual components, explaining scale transitions"
+    
+    # Segmentation and Adoption Categories
+    - name: "innovators"
+      category: "adopter-segment"
+      description: "Individuals with high risk tolerance, fascinated with novelty, transcend geographical boundaries, viewed as mavericks"
+    
+    - name: "early-adopters"
+      category: "adopter-segment"
+      description: "Community opinion leaders, well-connected socially, have resources and risk tolerance, watched by others"
+    
+    - name: "early-majority"
+      category: "adopter-segment"
+      description: "Engaged in local peer networks, rely on personal familiarity, ask how innovation helps them personally"
+    
+    - name: "late-majority"
+      category: "adopter-segment"
+      description: "Sensitive to peer pressure, cautious about change, seek to minimize uncertainty, want local proof of advantage"
+    
+    - name: "traditionalists"
+      category: "adopter-segment"
+      description: "Believe in tried and true, near isolates in networks, suspicious of innovation, seek assurance against failure"
+    
+    # Learning and Change Processes
+    - name: "observational-learning"
+      category: "learning-process"
+      description: "Learning through observing appealing and relevant models, includes attention, memory, ability belief, motivation, and performance matching"
+    
+    - name: "reciprocal-determinism"
+      category: "causal-mechanism"
+      description: "Bidirectional interaction between person and environment in behavior change, change influences both individual and context"
+    
+    - name: "self-efficacy"
+      category: "psychological-construct"
+      description: "Confidence in ability to take action and persist, influenced by personal experiences, environmental changes, and social support"
+    
+    # Behavioral Economics Concepts
+    - name: "loss-aversion"
+      category: "cognitive-bias"
+      description: "People more averse to losing things than inclined toward gaining things, affects willingness to change current behavior"
+    
+    - name: "status-quo-bias"
+      category: "cognitive-bias"
+      description: "Tendency to choose options requiring least effort, best predictor of future behavior is current behavior"
+    
+    - name: "dual-self"
+      category: "psychological-construct"
+      description: "People lack consistent personality, behavior largely contingent on circumstances they find themselves in"
+    
+    - name: "defaults"
+      category: "choice-architecture"
+      description: "Passive choices based on how options are presented, redesigning choice architecture can promote beneficial options"
+    
+    # Community Development Concepts
+    - name: "social-mobilization"
+      category: "community-strategy"
+      description: "Process of bringing together various stakeholders to raise awareness and demand for particular development program"
+    
+    - name: "participating-elite"
+      category: "community-phenomenon"
+      description: "Subset of community members who consistently participate in programs, may or may not represent broader community viewpoints"
+    
+    - name: "indigenous-knowledge"
+      category: "community-resource"
+      description: "Local knowledge and expertise within communities that should be incorporated into intervention design"
+    
+    - name: "collective-efficacy"
+      category: "community-construct"
+      description: "Community's shared belief in capability to organize and execute actions required to produce given attainments"
+    
+    # Scaling and Diffusion Processes
+    - name: "scaling-up"
+      category: "implementation-process"
+      description: "Expanding impacts from small studies to larger social systems, bridging micro-macro gap rather than just increasing numbers"
+    
+    - name: "pro-innovation-bias"
+      category: "cognitive-bias"
+      description: "Tendency of diffusion agents to be overly supportive of innovations while overlooking contrary effectiveness data"
+    
+    - name: "reinvention"
+      category: "adaptation-process"
+      description: "Modification and customization of innovations during adoption process without sacrificing core effectiveness"
+    
+    # System-Level Challenges
+    - name: "wicked-problems"
+      category: "problem-type"
+      description: "Complex social problems requiring systematic approaches beyond individual behavior change, characterized by interconnected causes"
+    
+    - name: "market-inefficiencies"
+      category: "systems-failure"
+      description: "Situations where markets fail to evolve to equilibrium, resulting in inequities and suboptimal social outcomes"
+    
+    - name: "upstream-downstream-approaches"
+      category: "intervention-philosophy"
+      description: "Distinction between addressing root causes/systems (upstream) versus individual behavior change (downstream)"
+    
+    # Research and Design Methods
+    - name: "formative-research"
+      category: "research-method"
+      description: "Research conducted during program development to understand target audience and refine intervention strategies"
+    
+    - name: "touchpoints"
+      category: "service-design-concept"
+      description: "Tangible manifestations of service including spaces, objects, people, interactions that make up user experience"
+    
+    - name: "customer-journey"
+      category: "service-design-concept"
+      description: "Customer's perception and experience of complete service interface over time from beginning to end"
+    
+    - name: "prototyping"
+      category: "design-method"
+      description: "Building and testing preliminary versions of interventions to learn quickly and manage risk through iteration"
+    
+  json_schema:
+    type: "object"
+    properties:
+      nodes:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id: {type: "string"}
+            type: {type: "string", enum: ["Entity"]}
+            category: {type: "string", enum: ["core-construct", "theoretical-challenge", "theoretical-framework", "methodological-approach", "behavioral-theory", "social-theory", "decision-theory", "policy-framework", "community-approach", "intervention-approach", "design-approach", "behavioral-construct", "influence-framework", "network-role", "behavioral-model", "systems-construct", "systems-framework", "systems-concept", "adopter-segment", "learning-process", "causal-mechanism", "psychological-construct", "cognitive-bias", "choice-architecture", "community-strategy", "community-phenomenon", "community-resource", "community-construct", "implementation-process", "adaptation-process", "problem-type", "systems-failure", "intervention-philosophy", "research-method", "service-design-concept", "design-method"]}
+            properties:
+              type: "object"
+              properties:
+                name: {type: "string"}
+                description: {type: "string"}
+                domain: {type: "array", items: {type: "string"}}
+                range: {type: "array", items: {type: "string"}}
+                subTypeOf: {type: "string"}
+      edges:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id: {type: "string"}
+            type: {type: "string", enum: ["NaryTuple"]}
+            category: {type: "string", enum: ["influences", "enables", "constrains", "mediates", "moderates", "predicts", "facilitates", "integrates", "challenges", "requires", "involves", "leads-to", "addresses", "builds-on", "combines", "scales-from", "emerges-from", "applies-to", "supports", "conflicts-with"]}
+            properties:
+              type: "object"
+              properties:
+                source: {type: "string"}
+                target: {type: "string"}
+                relationship: {type: "string"}
+                mechanism: {type: "string"}
+                context: {type: "string"}

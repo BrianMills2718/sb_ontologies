@@ -1,0 +1,41 @@
+ Yes, there are several elements in this prompt that strongly bias toward property_graph selection:
+
+  Primary Bias Sources
+
+  1. Template Shows Property Graph Example
+  model_type: "property_graph"
+  The template explicitly demonstrates property_graph as the example, creating anchor bias.
+
+  2. Root Properties Structure is Graph-Specific
+  root_properties:
+    nodes:
+      description: "The concepts, actors, events, or statements in the model."
+      item_type: "Entity"
+    edges:
+      description: "The relationships, actions, or logical axioms connecting the nodes."
+      item_type: "NaryTuple"
+  The template only shows nodes/edges structure, which is property_graph specific. Other model types would need different root_properties.
+
+  3. Analytical Focus on Relationships
+  - "relationships, actions, or logical axioms connecting the nodes"
+  - Emphasis on discovering "classification schemes for theoretical terms"
+  - Focus on cataloging "relationships, actions, operators"
+
+  This relationship-centric framing naturally leads to graph thinking.
+
+  4. Example Reference
+  The mention of "Table 1 in Young, 1996" references a cognitive mapping paper - inherently graph-based.
+
+  5. Missing Guidance for Other Model Types
+  The prompt provides detailed guidance for property_graph structure but no examples or templates for table_matrix, sequence, tree, timeline, or
+  other models.
+
+  To Fix the Bias
+
+  Remove the property_graph example from the template and provide balanced examples:
+  # Instead of showing property_graph as the example:
+  model_type: "<optimal_model_type>"
+  # And provide guidance on when to use each model type
+
+  The current prompt essentially trains the AI to follow the property_graph template rather than genuinely evaluate which model type best fits
+  each theory.

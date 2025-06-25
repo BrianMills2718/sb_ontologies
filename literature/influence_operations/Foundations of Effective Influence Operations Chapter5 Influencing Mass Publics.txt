@@ -1,0 +1,649 @@
+Influencing Mass Publics
+In some cases, especially those in which planners seek to influence
+“hearts and minds” of indigenous populations in a counterinsurgency
+campaign or to counter ideological support for terrorism, it may be
+desirable to target population subgroups, or even mass populations.
+These efforts need to be built on a firm understanding of the factors
+that regulate individual-level attitude change in target audiences, which
+were described earlier. But they also require an understanding of the
+larger social, political, cultural, and information environment and an
+understanding of the key fault lines among different segments of the
+public.1
+To animate what needs to be accomplished in the act of influenc-
+ing mass publics, we present a simple model for influencing mass pub-
+lics. The model captures many of the key situational and other factors
+that must be considered in such an undertaking, including events and
+leadership statements, media reporting, and the processes of attitude
+change (see Figure 5.1).
+The model essentially treats opinion change as “the net outcome
+of a chain of behavioral steps. As a minimum it requires (a) adequate
+reception (through attention and comprehension) of the persuasive
+1 The factors involved in influencing mass public opinion are complex, and the discus-
+sion here only skims the surface of the available literature. Readers interested in additional
+detail may find some of the following works, most dealing with American public opinion,
+useful: Milbrath, 1984; Neuman, 1986; Brody, 1992; Page and Shapiro, 1992; Zaller, 1992b;
+Popkin, 1994; Kinder, 1998; Kuklinski et al., 1998; Mcgraw, 1998; Graber, 2003; Aldrich et
+al., 2006; Heath, Fisher, and Smith, 2005; and many of the references cited in the section on
+individual-level influence.
+54 Foundations of Effective Influence Operations
+Figure 5.1
+A Simple Model of Influence for Mass Publics
+RAND MG654-5.1
+U.S. messages
+Others’ messages
+Negative
+Neutral
+Positive
+Events
+U.S. or others’ events
+Negative events
+Neutral events
+Positive events
+Individuals’
+“filters” Target
+audience
+Beliefs,
+attitudes,
+preferences,
+and
+behaviors
+Probability of
+accepting or
+rejecting
+message
+• Inertia or strength
+of prior beliefs
+• Message content
+• Source cues
+• Motivation
+• Other factors
+Mass communications
+Individuals’
+awareness
+Probability of
+awareness of
+news and/or
+message
+• Education
+• Media consumption
+• Political knowledge
+• Political
+sophistication
+• Other factors
+Media “filters”
+Indirect communications
+Through opinion leaders
+Tea room, mosque,
+workplace, etc.
+Indirect communications
+Through opinion leaders
+Tea room, mosque, workplace, etc.
+Unmediated
+communications
+bypassing mass media
+• Handbills
+• Posters
+• Radio/TV broadcasts
+• Town halls
+• Email/internet/SMS
+• Other direct means
+Direct observation
+Mass communications
+through the media
+message; and (b) yielding to what is comprehended” (McGuire, 1968,
+p. 1139). The model also highlights both the various hurdles that must
+be overcome for an effort to influence to be successful, and the various
+reasons that efforts to influence a target audience frequently may fail.
+In this regard, the model may serve as both a general guide for good
+practice and as a diagnostic tool for identifying where problems can
+arise. We will next use this model as a diagnostic tool to describe some
+of the challenges associated with the hypothetical case of influencing
+members of the Iraqi public.
+The figure captures three alternative approaches to influencing, in
+this example case, the Iraqi public’s beliefs, attitudes, preferences, and
+behaviors, as shown on the far right of the figure.
+Influencing Mass publics 55
+Beginning with the use of the mass communications path near
+the center of the figure, the United States seeks to communicate a vari-
+ety of messages to the Iraqi public. These could include messages that
+aim to convince this audience that the United States and its coali-
+tion partners have honorable intentions, to demonstrate that U.S. goals
+do not include permanent occupation of Iraq, to persuade Sunnis and
+others to forgo violence in favor of participation in the political process,
+and to persuade the public that insurgent propaganda contains fabrica-
+tions or messages that have other aims.
+These U.S. messages compete with other, potentially more cred-
+ible and compelling messages in the Iraqi information environment.
+More important, they may compete with events on the ground that
+can either lend support to a U.S. message (e.g., building new sewers
+that confirm U.S. claims that it is trying to help rebuild Iraq) or may
+raise questions about its credibility (e.g., a scandal, such as occurrences
+at Abu Ghraib, or civilian noncombatants deaths that are believed to
+result from U.S. action). Given the range of sources and factors that
+can influence attitudes, true “perception management” of Iraqis would
+seem to be a fairly unrealistic goal.
+The next hurdle encountered in the mass communications model
+is that U.S. messages must penetrate the veil of the media in their
+intended, undistorted form. Labeled “media filters” in the figure, this
+part of the process can be problematic, either because media organiza-
+tions refuse to carry the message in any form or because the message
+becomes distorted—through poor translation or purposeful manipu-
+lation. For example, in Iraq, many of the newspapers and other media
+organizations are associated with ideological or religious currents that
+make them more or less likely to report messages that come from, or
+are favorable to, the U.S. coalition. Thus, a key challenge will be reach-
+ing audiences that choose information channels that are essentially
+hostile to U.S. aims and messages.
+Assuming that the message passes through the media filter in an
+unadulterated form, the next hurdle is getting the target audience to
+perceive or receive the message. The probability that individuals will
+become aware of a specific message conveyed by the mass media is
+affected by a number of factors. These include the availability of that
+56 Foundations of Effective Influence Operations
+message in the larger information environment (i.e., the frequency
+with which it is repeated in various mass and other media), whether
+the message is presented in an eye-catching way, and whether it is
+encountered in a variety of forms. But perception also is a function of
+individual-level differences in cognitive ability, education, political
+interest, knowledge or sophistication, media consumption habits, and
+other, similar factors. Again, an individual may not become aware of a
+message unless it is transmitted over information channels that he or
+she actually uses and it is repeated with sufficient frequency so that he
+or she encounters the message. Moreover, a recurring finding is that
+it is the moderately informed who are most likely to be persuaded—
+well-informed people typically have already committed to a position
+on an issue, while poorly informed people rarely encounter messages
+designed to alter their loyalties (Kinder, 1998, p. 183).
+Assuming further that an individual has become aware of the
+message, the next hurdle is to help the individual understand, evaluate,
+and accept the message. As discussed at the beginning of this chapter,
+there are a great many factors that affect the probability that an indi-
+vidual will accept or reject a message. These factors cover a wide range:
+whether he or she is actually motivated to process the message, the
+strength or level of crystallization of (or inertia in) his or her attitude,
+the extent to which the message comports or conflicts with deeply
+held beliefs or values, how message content is presented, whether the
+message is sourced to individuals who are credible and likable, and
+other situational factors. 2 In Iraq, Salafist Sunnis and Shi’a devotees of
+Muqtada al-Sadr may, for example, be far less likely to accept messages
+from the U.S. coalition than Kurds or more-secular Shi’a. 3
+Assuming that the individual has accepted the message, the next
+hurdle is to persuade the individual to change his or her attitudes to be
+consistent with the message or to act in a way that is consistent with
+2 To provide a sense of the number of factors that can affect reception and acceptance,
+PhaseOne Communications, for example, has developed a diagnostic protocol for analyzing
+messages that uses more than 170 variables.
+3 To the extent that al-Sadr’s followers also are less well educated than other Shi’a, they may
+be less likely to receive and understand these messages.
+Influencing Mass publics 57
+the message. Again, motivation; comportment; or conflict with prior
+attitudes, beliefs, and behaviors; and a variety of other factors affect the
+likelihood that individuals will make the desired change. For example,
+short of some sort of accommodation on a variety of issues—the nature
+of Iraqi federalism, division of oil earnings, and so on—many Iraqi
+Sunnis are unlikely to choose to resolve their grievances via a peaceful
+political process. This example highlights the importance of concrete
+policy actions that are consistent with a message and can improve its
+credibility and acceptance.
+Successful use of the mass communications path is further com-
+plicated by the ready availability of various alternative competing
+information channels, individual-level differences in beliefs about the
+reliability and credibility of different information channels, and ulti-
+mately, uncertainties about which of the available information chan-
+nels audience members choose to rely upon for information. 4
+Also shown in Figure 5.1, the mass communications path is not
+the only path that is available for influencing a target audience; it also
+is possible to use unmediated or indirect communications:
+The top part of the chart describes• unmediated communications that
+are not filtered by mass media organizations. This path eschews
+efforts to place messages in mainstream media and emphasizes
+various alternative means of getting messages to a target audi-
+ence. In the case of Iraq, these have included leaflets, handbills,
+posters, tactical PSYOP patrols, and various other means. Even
+though this path avoids the editorial and other decisions that may
+prevent a message from being carried by the mainstream media,
+it presents the same challenges regarding the competitive infor-
+mation environment, message awareness, acceptance or rejection,
+and attitude or behavior change that was presented in the mass
+communications path.
+The bottom part of the chart describes• indirect communications, in
+which the focus of communications is elites and opinion leaders.
+4 The role of source credibility in persuasion is discussed in Hovland and Weiss, 1951;
+Sternthal, Phillips, and Dholakia, 1978; Mondak, 1990; among other works.
+58 Foundations of Effective Influence Operations
+This path depends on the willingness of elites and opinion lead-
+ers to be persuaded and who, having been persuaded to accept a
+message, are willing to communicate that message to their fol-
+lowers. In the case of Iraq, convincing tribal, religious, or other
+local opinion leaders to accept a message may be an effective and
+efficient way to reach an entire community.
+Opinion Leadership and Media Communications
+The role of opinion leaders—whether political, social, religious, tribal,
+or otherwise—is a central consideration in the development of mass
+attitudes and also for planning influence operations. Members of
+groups naturally tend to follow their group leaders and reject the lead-
+ership of groups that they view less sympathetically.
+A great amount of scholarship on American public opinion sug-
+gests that individuals use partisan, ideological, or other heuristic cues to
+help them make sense of larger policy debates. These individuals typi-
+cally are more inclined to accept the stated positions of their natural
+leaders (for example, leaders of the individual’s own political party—
+who are likely to be judged as being more credible, likable, etc.—than
+the leaders of an opposing party) than their natural opponents.5 The
+implication for influence operations planners is that the statements of
+favored local opinion leaders generally will be far more credible than
+those of U.S. or coalition leaders and that the trust and credibility of
+individual local leaders also is likely to vary by religious, sectarian,
+tribal, or other group norms. It is, therefore, important to have a capa-
+bility to track the tone and content of these statements to be able to
+ascertain the effects of leaders’ messages on their followers.
+In a similar vein, analysts supporting influence operations fre-
+quently will be interested in ascertaining which events and U.S. and
+other official statements and behavior are being reported Analysts also
+want to know whether and how their operations are affecting the tone
+5 Examples of convergent scholarship in this area include Neuman, 1986; Brody, 1992;
+Zaller, 1992b; Popkin, 1994.
+Influencing Mass publics 59
+and content of media reporting. Although there are many techniques
+for identifying themes in texts, the technique of content analysis is a
+fairly mature one that can be of some assistance for this purpose. 6 By
+comparison, the technique of semantic network analysis does not yet
+appear to have demonstrated its operational utility, but, with further
+advances, it also might prove useful for influence operations assess-
+ment. Each will be discussed below.
+Moreover, although this is not explicitly represented in the simple
+model, it also bears mentioning that a number of American public
+opinion researchers have noted the influence on political attitudes of
+trusted opinion leaders who are personally known to an individual—
+coworkers, friends, and family members, for example. The importance
+of this channel relative to the other channels is not particularly well
+understood.
+Content Analysis
+Content analysis of communications is an analytic technique that can
+assist in the assessment of leadership statements and media reporting
+by providing quantitative measures of changing tone and content.
+Content analysis was used by the Federal Broadcast Intelligence
+Service (FBIS) of the Federal Communications Commission (FCC)
+during World War II to monitor and report on the broadcasts of oppo-
+nents, allies, and neutrals in order to summarize what was said and to
+infer intentions, strategy, and calculations behind propaganda com-
+munications (Riddel, 1992). The difficulty of acquiring information
+about adversary policies and strategy and mass attitudes through other
+channels, especially in the Far East, made content analysis of mass
+communications media a key source of information on foreign govern-
+ments’ wartime policies.7 The opaque nature of the Soviet leadership
+ensured that content analysis would continue to be used as an ana-
+6 For a review of about a dozen techniques for identifying themes in texts, see Ryan and
+Bernard, 2003.
+7 George (1973, p. ix) reports that 81 percent of the FCC inferences about Nazi intentions,
+strategy, and calculations, which were made with the help of content analysis, proved to be
+accurate when later compared with captured records.
+60 Foundations of Effective Influence Operations
+lytic tool for assisting in making inferences about power relationships
+and policy changes. More recently, application of the technique has
+spread beyond the province of political science, psychology, sociology,
+and communications research to applied analysis in commercial and
+government settings.
+Among the many applications of content analysis that may be of
+interest to analysts supporting influence operations are the following:
+Assessing the changing content of Osama bin Laden’s speeches•
+and statements to assist in detecting strategy or policy changes,
+warnings of major attacks, or psychological changes 8
+Tracking changes over time in the tone—positive or negative—of•
+foreign official or media references to the United States, its lead-
+ers, institutions, or policies 9
+Tracking the media penetration of key U.S. themes or topics—•
+including those that have been proffered as part of a STRAT-
+COMM “drumbeat”—to ascertain the degree to which messages
+are “getting through” to the media 10
+Tracking cooperative and conflict behavior in interstate relations•
+in peacetime, crisis, and war, including signals of escalatory or
+deescalatory intentions11
+Gauging the possible level of resistance to a prospective invasion•
+(Lasswell, 1938)
+8 Knowledge by a subject that his words and actions are being monitored closely can, how-
+ever, affect the content of his or her statements. Such knowledge is a form of “theory opaque-
+ness,” which provides opportunities for manipulation.
+9 For a pioneering application, see Lasswell, 1947, which reports Lasswell’s content analyses
+of a number of foreign newspapers between 1939 and 1941.
+10 A recent analysis of media reporting on civilian casualties and collateral damage in the
+U.S. and foreign press can be found in Larson and Savych, 2006.
+11 See, for example, Holsti, 1972; McClelland, 1961, 1964, 1977; Wilkenfeld et al., 1980;
+Brecher, Wilkenfeld, and Moser, 1988; Wilkenfeld, Brecher, and Moser, 1988; Brecher
+and Wilkenfeld, 1997; Gerner and Schrodt, 1998. Much of the work done by Wilkenfeld,
+Brecher, and associates was sponsored by the Defense Advanced Research Projects Agency’s
+Cybernetic Technology Office. On the limits of the event data that have been compiled by
+international relations scholars, see McClelland, 1983.
+Influencing Mass publics 61
+Assessing latent or emerging policy divisions between political•
+interest groups in a foreign nation.12
+Content analysis is a set of procedures for transforming unstruc-
+tured (and usually textual) information into a format that allows
+analysis—especially, quantitative analysis.13 According to the U.S.
+Government Accountability Office (GAO), 1989, p. 6:
+Content analysis is a set of procedures for collecting and organiz-
+ing information in a standardized format that allows analysts to
+make inferences about the characteristics and meaning of written
+and other recorded material. Simple formats can be developed
+for summarizing information or counting the frequency of state-
+ments. More complex formats can be created for analyzing trends
+or detecting subtle differences in the intensity of statements.
+The typical steps involved in conducting content analysis are (1)
+identifying the specific objectives of the analysis, (2) determining what
+material should be included in the content analysis, (3) selecting the
+units of analysis (e.g., newspaper story or document), (4) developing
+coding categories, (5) testing the validity and reliability of the coding
+scheme, including coding a sample of the material to test inter-coder
+reliability, (6) coding the material, and (7) analyzing and interpreting
+the results.14
+In fact, there are a number of ways to go about conducting con-
+tent analysis:
+Human-Coded Generation of Data.• The traditional approach to
+generating content analysis data is to have the coding done by
+human coders (usually graduate students) who have been thor-
+12 See, for example, FBIS, 2004. Content analysis could reveal differences in tone in report-
+ing on the Iranian nuclear issue in Iranian conservative, mainstream, and progressive media,
+for example.
+13 Among the more comprehensive discussions of content analysis are Berelson, 1962;
+North, 1963; Stone et al., 1966; Holsti, 1969; Weber, 1985; Krippendorff, 2004.
+14 This list was adapted from GAO, 1989, p. 8.
+62 Foundations of Effective Influence Operations
+oughly trained in the coding rules that are to be used and whose
+inter-coder reliability (i.e., the amount of agreement or correspon-
+dence among two or more content analysis coders about how a
+text or some other material should be coded) has been established.
+This is, however, a very expensive and time-consuming approach
+to coding texts.
+Using Automated Systems to Generate Data.• There also are a number
+of academic and commercial software programs that can assist
+in performing content analysis of textual data.15 Automated sys-
+tems excel at detecting the presence of words and phrases in texts
+and generally are deemed to be far more efficient than humans in
+these tasks.16 By comparison, humans generally do a much better
+job of ascertaining the actual meaning of texts, detecting irony
+and humor, and other higher-level tasks.
+Analyzing Data from Online Information Retrieval Services.• Many
+online information retrieval services provide full-text or keyword
+search capabilities and the ability to limit searches by date or
+source document.17 Analysts can thus perform searches and count
+the number of news stories or other reports that contain specified
+words or themes in one or more sources (including many foreign
+sources) for a fixed period of time (e.g., by day or month), so that
+trend lines can be constructed that are suggestive of the changing
+level of reporting on the words or themes of interest.18
+15 Among the software packages GAO examined in its 1989 report were askSam, Text-
+base Alpha, AQUAD, TEXTPACK PC, Micro-OCP, WordCruncher, and WordPerfect (see
+GAO, 1989, “Software for Content Analysis,” Appendix II). . For example, a Google search
+for “content analysis software” in January 2005 yielded a much longer list. Software pro-
+grams like the Kansas Event Data System (KEDS) also might be adapted to other purposes.
+16 In 1990, Schrodt and Donald reported that a set of 500 rules used in automatically coding
+events data from press reporting in NEXIS had a 70–80 percent accuracy rate. Schrodt also
+reports that his TABARI software is 70 times faster at coding events than his KEDS soft-
+ware, and that “TABARI running on a G3 [computer] does in one second what a human
+coder does in about three months. This is a wall-clock speedup of around a factor of 7.8-mil-
+lion” (Schrodt, 2001).
+17 For example, Lexis-Nexis, Proquest, and DIALOG.
+18 See, for example, Larson and Savych, 2005.
+Influencing Mass publics 63
+Performing• Secondary Analyses of Content Analysis of Data. Al-
+though the results may not be timely enough to be relevant for
+policy or military analyses, some academic organizations post
+their data sets19 or provide an interface that enables users to search
+for news reports that may be of interest. 20
+Using Content Analysis Findings from Other Organizations.• There
+are a small number of research organizations that routinely con-
+duct content analyses of U.S. media or produce reports that some-
+times have results that are useful to analysts. 21
+Once content analysis of data has been generated, a number of
+analyses in support of influence operations can be undertaken, includ-
+ing trend analyses of media reporting or leadership statements over
+time; analyses of the co-occurrence of words or themes in texts; analy-
+ses of the correlations between changes in the occurrence of a word or
+theme and changes in target audience beliefs, attitudes, or behaviors;
+and cluster or factor analyses that can assist in grouping text sources.
+We judge automated content analytic tools to be ready for operational
+use in a variety of these sorts of applications.
+Semantic Network Analysis
+Semantic network analysis grows out of content analysis and is a tech-
+nique primarily used by communications researchers. Semantic net-
+work analysis is similar to social network analysis insofar as it uses
+nodes and links (or relational ties), the defining feature of which is that
+19 For example, Schrodt, director of KEDS at the University of Kansas, posts the results of
+his research program’s automated coding of newswire reports on various international issues,
+using a coding scheme that is derived from Charles McClelland’s World Event Interaction
+Survey conflict-cooperation coding scheme (Schrodt, Davis, and Weddle, 1994; KEDS Web
+site, 2006).
+20 The Vanderbilt Television News Archive (n.d.) lets users identify television news reports
+by keyword or phrase in the abstract for each report.
+21 Organizations that routinely report the results of content analyses of U.S. television
+reporting include the Center for Media and Public Affairs in Washington, D.C., and the
+Tyndall Report. FBIS also occasionally produces content analyses of media reporting.
+64 Foundations of Effective Influence Operations
+a connection of some form is established between the nodes. 22 In the
+case of semantic networks, however, the links typically are between
+words or people using words: a word-by-word (or theme-by-theme)
+matrix of words or themes in a body of text can be treated as nodes,
+and the connection weights become the links; alternatively, a person-
+by-person matrix can indicate how many words or themes any two
+people used in common (see Schnegg and Bernard, 1996; Rosen et al.,
+2003; Hanneman, 2001). Once the data are reduced to matrices, such
+as a complete paired comparison similarities matrix, they can then be
+subjected to sophisticated statistical analyses and portrayal as multidi-
+mensional graphs (see Rosen et al., 2003).
+A common approach in semantic network analysis is for the com-
+puter program to read through text with a user-defined window of n
+words. A “neuron” is created for each new word encountered, and the
+connections between words are strengthened or weakened depending
+on whether the words co-occur in the same window. 23
+22 There are a number of semantic network software tools available, including CATPAC
+(Categorization Package) by the Galileo Company, TextAnalyst by Megaputer, and Seman-
+tica SE by Semantic Research, Inc.
+23 For example, a product called TextAnalyst describes the process as follows:
+The text is considered as a sequence of symbols organized into words and sentences. This
+sequence is moved through a window of variable length (from two to twenty symbols
+can be seen simultaneously), shifting it by one symbol at a time. The snapshots of the
+text fragments visible through the window are recorded in dynamically added neurons.
+The created hierarchical neural network contains several layers: those fragments that
+occur in text more than once are stored in neurons that belong to the higher levels of the
+network. This neural network realizes frequency-based multi-level dictionaries of differ-
+ent text elements (letters, syllables, stems, morphemes, words, and phrases). Words are
+selected as basic operational elements, while other elements are used as auxiliary infor-
+mation during the analysis (Megaputer Intelligence, Inc., 2007).
+And the Galileo Company’s CATPAC is described as follows:
+CATPAC is a self-organizing artificial neural network that has been optimized for read-
+ing text. CATPAC is able to identify the most important words in a text and determine
+patterns of similarity based on the way they’re used in text. It does this by assigning a
+neuron to each major word in the text. It then runs a scanning window through the text.
+The neuron representing a word becomes active when that word appears in the window,
+and remains active as long as the word remains in the window. Up to n words can be in
+the window at once, where n is a parameter set by the user. As in the human brain, the
+Influencing Mass publics 65
+Because the most common words in text (e.g., and, the) typically
+are not very helpful in understanding the main themes of the text, this
+technique can require significant effort to identify the many words that
+should be excluded from the analysis and to winnow down the themes
+that are the focus of analysis. The sorts of results generated by the tech-
+nique at present, moreover, generally seem to be of greater academic
+than policy interest or operational utility. 24 Nevertheless, semantic net-
+work analysis would appear to be a worthy contender for further test-
+ing and development, and it could at some future time be suitable for
+operational application.
+Assessing Mass Public Opinion
+As described in the model in Figure 5.1, effective influence operations
+require an understanding of a wide range of individual- and group-level
+characteristics that regulate the diffusion of mass attitudes associated
+with support or opposition for U.S. objectives and policies. Without
+such an understanding, efforts to gain the support of a critical mass of
+the populace—e.g., win the support of the median voter—may prove
+impossible.
+In particular, the model suggests that it is important for plan-
+ners to understand the likelihood of an individual becoming aware of
+a message. Such an understanding requires data on how the individual
+relates to his information environment. Important attitudinal variables
+that are associated with message awareness include the credibility and
+trustworthiness of different media channels (e.g., TV stations, newspa-
+pers, magazines), which media individuals actually consume and the
+extent of their media consumption (e.g., the average daily number of
+connections between neurons that are simultaneously active are strengthened following
+the law of classical conditioning. The pattern of weights or connections among neurons
+forms a representation within CATPAC of the associations among the words in the text.
+This pattern of weights represents complete information about the similarities among all
+the words in the text (Woelfel, 1998).
+24 Examples of semantic network analysis can be found in Kim and Barnett, 1994; Kim,
+2005; Peace Research Institute in the Middle East, n.d.; Rosen et al., 2003.
+66 Foundations of Effective Influence Operations
+newspapers read or TV news programs watched), and their political
+interest, knowledge, and sophistication.
+The model also suggests the importance of individual-level cul-
+tural values or other norms and attitudes that may serve as filters
+regulating the likelihood that a given message, once received, will be
+accepted or rejected. To understand such norms requires some level of
+knowledge about the underlying structure of mass public attitudes and
+the factors that constrain these attitudes. Such an understanding can
+facilitate identification of distinct subgroups that may require different
+communication approaches to ensure that messages reach them or dif-
+ferent content to reduce the likelihood of message rejection.
+Factors that can constrain attitudes include demographic charac-
+teristics, such as gender, race, ethnicity, or tribe; religion; sect; culture;
+philosophical or ideological viewpoint; political affiliation; subscrip-
+tion to a specific cultural narrative; or sympathy with some other intel-
+lectual current or system (e.g., Islamism) that helps individuals order
+and make sense of their worlds. To the extent that a specific system
+of thought dominates the thinking of a subgroup, planners can tailor
+their messages to resonate with core precepts of that system.
+There are a number of other attitudes that also can be of sig-
+nificant interest to planners. These include attitudes toward various
+national leaders, including their credibility, likeability, or trustworthi-
+ness; views on the relative importance of problems that respondents
+believe their country is facing; beliefs about the benign or malign nature
+of U.S. policies or the aims and conduct of U.S. coalition forces; and
+attitudes and preferences regarding all manner of political and policy
+issues that relate to support for U.S. or adversary aims. Moreover, all
+of these characteristics of mass publics need to be understood with a
+sufficient level of detail and fidelity to detect subgroup distinctions, to
+baseline and track relevant attitudes, to tailor campaign messages and
+policies to different groups, and to assess the results of influence efforts.
+Of course, in the context of a military campaign, there are many chal-
+lenges to ensuring that the sorts of attitudes that are presented in focus
+groups and surveys are sincere ones.
+There are numerous techniques that can be employed for collect-
+ing the necessary data to baseline, track, and assess attitudes and the
+Influencing Mass publics 67
+results of influence operations. These can include face-to-face meetings
+that take place during patrols; focus groups with locals to clarify their
+views and formulate an understanding of the underlying structure of
+their attitudes, policy preferences, and behaviors; and survey research
+that can facilitate the creation of quantitative baselines and trend anal-
+yses of key attitudes or that can predict attitude change based on a
+knowledge of underlying attitude structures and, thereby, inform the
+development of appropriately targeted and tailored influence campaigns
+and messages. 25 Despite some difficulties in conducting focus groups
+and attitude surveys in such dangerous environments as Afghanistan
+and Iraq, there appear to be few alternatives for developing the sort of
+detailed understanding of attitudes that is necessary for effective influ-
+ence operations.
+Lessons from Case Studies
+To supplement our review of the literature on influencing mass pub-
+lics, we conducted a series of case study analyses of how commercial
+advertising and marketing, American-style political campaigns, and
+public diplomacy efforts seek to differentiate and persuade mass pub-
+lics. The detailed results of our case studies are provided in Appendixes
+A through C, but the main lessons of influence efforts in these domains
+can be summarized as follows:
+They are aimed at achieving• specific desired objectives and effects,
+typically a change in a key attitude, belief, preferred policy, or
+behavior.
+They are directed toward• key target audiences, whether an indi-
+vidual, a decisionmaking group, a military unit, a population sub-
+group, or the mass public of a nation.
+They make use of the most effective combination of• information
+channels—i.e., those channels that are both most likely to reach
+25 For recent work using a combination of trend analysis and respondent-level modeling
+of attitude data to predict policy-relevant attitudes with a fairly high degree of fidelity, see
+Larson et al., 2004; Larson and Savych, 2005, 2006.
+68 Foundations of Effective Influence Operations
+the target audience and most likely to be viewed as unbiased and
+credible.
+They are mindful of• audience characteristics, including preexisting
+attitudes and beliefs that may condition an audience’s willingness
+to be influenced.
+They are• timed to influence actors before they decide or act, in the
+case of leaders and decisionmaking groups, or before attitudes crys-
+tallize, in the case of mass audiences.
+They make use of messengers with compelling• source character-
+istics—i.e., those whose professional or technical competence,
+likeability, credibility, trust or confidence, or high Q score make
+them effective spokespersons. 26
+They rely upon messages with• compelling message characteristics—
+i.e., those whose content, format, cognitive and emotional appeal,
+and other characteristics will most resonate with the audience.
+They• facilitate adaptation by providing timely feedback on effects,
+so that information channels, messengers, themes and messages,
+and the like can be modified to increase their persuasiveness.
+Before proceeding, it is important to note that there are ample
+reasons for caution regarding whether these lessons from peacetime
+examples translate particularly well into the chaotic environment of
+wartime, stability, and reconstruction operations such as those wit-
+nessed in Iraq and Afghanistan.
+First, the U.S. government and military are not selling goods
+and services in a competitive environment (Wolf and Rosen, 2004).
+In Iraq in late 2005, for example, the United States was (1) attempting
+to generate a high level of turnout for the December 15, 2005, Iraqi
+national elections, while simultaneously trying to encourage patience
+with the U.S. role as an occupying power until the Iraqis could manage
+the insurgency themselves and (2) trying to foster a stable (and dem-
+26 The Q score measures the appeal of a person in terms of the number of those who rec-
+ognize the person and the number of those who mention the person as one of their favorite
+people.
+Influencing Mass publics 69
+ocratic) political equilibrium that would enable U.S. forces to begin
+withdrawing.
+Second, the involvement of the military—and the ever-present
+possibility of being the object of coercion or simply getting caught in
+the crossfire—make these situations qualitatively different from peace-
+time influence efforts. 27 Put simply, the introduction of violence can
+bring a coercive and even life-threatening quality to influence efforts
+that is absent in peacetime influence efforts. And because the threat or
+use of force can endanger safety and physical survival, appeals backed
+by force are likely to be far more compelling than appeals based on
+logic, emotion, or social norms. 28 With a few notable exceptions, how-
+ever, scholars generally have not focused on the role of coercion in the
+act of persuasion. 29
+Influencing Mass Publics: Conclusions
+This chapter has focused on approaches that can help to overcome
+some of the difficulties associated with understanding mass publics. We
+began with a discussion of a simple model of influence for mass pub-
+lics that highlights the various hurdles that influence operations need
+27 See the summary of appeals to fear and attitude change in Chapter Two.
+28 Psychologist Abraham Maslow (Wikipedia, n.d.[a]) suggested a hierarchy of values—
+from foundational values, such as physical survival and safety; to love; esteem; and self-
+actualization—in which the basic concept is that the higher needs in the hierarchy come
+into focus only when all the needs that are lower down in the pyramid are mainly or entirely
+satisfied. In the context of PSYOP, Whiteman (2004) has suggested that “[m]ore basic needs
+toward the bottom of Maslow’s pyramid would be rated as having greater influence relative
+to needs toward the top of the pyramid.” We are grateful to Whiteman for sharing a copy of
+his paper with us. See also Millen, 2006–07.
+29 Beyond the role of fear in persuasion discussed in Chapter Two, there also is a fair amount
+of relevant work on the psychological effects of the threat or use of force in the international
+relations field. See Millen, 2006–07; George, Hall, and Simons, 1971; George and Smoke,
+1973; George, 1991, 2002; Craig and George, 1995. Other works in this genre include Schell-
+ing’s classic, 1960 (rev. 1980); Byman, Waxman, and Larson, 1999; Byman and Waxman,
+2002; Defense Science Board, 2003. Among other works, the question of influence during
+wartime is covered in some detail in Brodie, 1973; Kecskemeti, 1978; Cimbala and Dunn,
+1987; Sigal, 1989; Pape, 1996.
+70 Foundations of Effective Influence Operations
+to successfully overcome to influence attitudes, beliefs, and behaviors.
+We then returned to the subject of leadership, which was discussed
+earlier, regarding influence within groups and networks, and argued
+that tracking opinion leadership (and media reporting) and employ-
+ing opinion leaders in the influence enterprise are highly desirable ele-
+ments of a larger influence strategy. Specifically, we argued that quan-
+titative content analyses of leadership and media content were essential
+to understanding the changing tone and content of these communica-
+tion streams. Finally, we discussed the role of public opinion polling
+and attitude surveys as a way to track and diagnose reasons for success
+or failure in influencing attitudes, beliefs, and behaviors. In particular,
+we see attitude surveys as an efficient way to assess whether influence
+messages are reaching target audiences, whether messages are being
+accepted, and whether they are resulting in the desired changes in atti-
+tudes, beliefs, and behaviors.

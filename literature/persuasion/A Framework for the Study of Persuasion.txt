@@ -1,0 +1,762 @@
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:43:32Annual Review of Political Science
+A Framework for the
+Study of Persuasion
+James N. Druckman
+Department of Political Science, Northwestern University, Evanston, Illinois, USA;
+email: druckman@northwestern.edu
+Annu. Rev. Political Sci. 2022. 25:65–88
+First published as a Review in Advance on
+November 18, 2021
+The Annual Review of Political Science is online at
+polisci.annualreviews.org
+https://doi.org/10.1146/annurev-polisci-051120-
+110428
+Copyright © 2022 by Annual Reviews. This work is
+licensed under a Creative Commons Attribution 4.0
+International License, which permits unrestricted
+use, distribution, and reproduction in any medium,
+provided the original author and source are credited.
+See credit lines of images or other third-party
+material in this article for license information
+Keywords
+persuasion, attitude change, public opinion, political communication,
+framing
+Abstract
+Persuasion is a vital part of politics—who wins elections and policy disputes
+often depends on which side can persuade more people. Given this central-
+ity, the study of persuasion has a long history with an enormous number of
+theories and empirical inquiries. However, the literature is fragmented, with
+few generalizable findings. I unify previously disparate dimensions of this
+topic by presenting a framework focusing on actors (speakers and receivers),
+treatments (topics, content, media), outcomes (attitudes, behaviors, emo-
+tions, identities), and settings (competition, space, time, process, culture).
+This Generalizing Persuasion (GP) Framework organizes distinct findings
+and offers researchers a structure in which to situate their work. I conclude
+with a discussion of the normative implications of persuasion.
+65
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:43:32INTRODUCTION
+The study of persuasion has a long and storied history dating back to Aristotle (Barnes 1984). In the
+twentieth century, social scientists joined modern philosophers and rhetoricians in the pursuit of
+better understanding persuasion (Habermas 1984, Booth 2004). Like the ancients, modern social
+scientists focus on how speakers’ characteristics, what they say, and how recipients think determine
+whether a given persuasive attempt is successful. But what, exactly, do we know about persuasion?
+On the one hand, an enormous knowledge base provides insight into when persuasion may or
+may not work, and there is clearly no silver bullet that always works. On the other hand, the vast
+literature remains disconnected, sometimes contradictory, and without a structure to facilitate
+connecting one study with another.
+This article aims to remedy the situation by offering a framework for the study of persuasion:
+the Generalizing Persuasion (GP) Framework. By placing their work within the GP Framework,
+scholars will help the field resolve inconsistencies, identify and address open questions, and ensure
+collective progress. This does not require that researchers account for the multiple dimensions I
+discuss but instead asks that they be explicit about which elements they study and how. While I
+focus primarily on political persuasion, the approach can be applied across domains.
+POLITICAL PERSUASION
+Persuasion is “a successful intentional effort at influencing another’s mental state through commu-
+nication in a circumstance in which the persuadee has some measure of freedom” (O’Keefe 2016,
+p. 4). The focal approach entails exploring how characteristics of the speaker/source, message, re-
+ceiver/audience, and channel/medium determine persuasive outcomes (Lasswell 1948, McGuire
+1969). Theories have integrated these dimensions by identifying psychological variations that ex-
+plain the relative influence of each factor. Most notable are the dual-process Elaboration Likeli-
+hood Model (ELM) (Petty & Cacioppo 1986) and Heuristic-Systematic Model (Chen & Chaiken
+1999). These posit that motivated and able individuals evaluate details of messages while others
+rely on cues (e.g., source credibility).
+Political persuasion scholarship partially owes its circuitous evolution to two books published
+in 1960. First, The American Voter (Campbell et al. 1960) put forth an influential approach (i.e., the
+funnel of causality) that excludes “nonpersonal” factors such as communications. Second, Klapper’s
+(1960) review of the early scientific literature concluded that mass communication effects are min-
+imal, undermining researchers’ incentives to explore them.
+Slowly but surely theoretical orientations evolved, and evidence accrued such that by the mid-
+1990s, scholars studied the influence of mass communications and interpersonal exchanges. Mutz
+et al. (1996) made the case that political persuasion should be a sui generis topic of study. The
+subsequent quarter century has seen substantial advances, culminating in handbooks (e.g., Suhay
+et al. 2020) and meta-analyses (e.g., Amsalem & Zoizner 2022). Further, the politicization of vari-
+ous areas of social life led scholars to expand the study of political persuasion to consumer choices
+(Gil de Zúñiga et al. 2014) and science (Bolsen & Druckman 2015).
+Despite these developments, the field lacks a coherent theoretical structure. The guiding theory
+continues to focus on the speaker-message-receiver-channel framework (Holbrook 2011, p. 150;
+Sydnor 2019, p. 9; Lau 2020; Suhay et al. 2020, p. 3). Despite occasional calls for attention to
+context, systematic study of competitive scenarios with strategic persuaders is rare. This is the case
+even though these settings define much of politics (Druckman & Lupia 2006). We also know little
+about how political persuaders construct their messages in the first place, even though “opinion
+leader” was one of the first concepts in the field (Lazarsfeld et al. 1944).
+66 Druckman
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:43:32The lack of an overarching framework contributes to ostensibly contradictory conclusions.
+Consider the following statements:
+ Politicians are “relatively unconstrained by public opinion and able to shape it merely by
+announcing their positions” (Broockman & Butler 2017, p. 208).
+ “Our results indicate that participants are more likely to stick with their initial decisions
+than to change them no matter which reasons are considered” (Stanley et al. 2020, p. 891).
+ “The results from this analysis show quite clearly that campaigns are persuasive” (Flores
+2019, p. 189).
+ “Sizable persuasive effects from campaign activities seem very unlikely to be observed”
+(Nickerson & Rogers 2020, p. 1181; also see Kalla & Broockman 2018).
+ Evidence “points to the fairly short duration (or rapid decay) of most persuasion effects”
+(Tesler & Zaller 2017, p. 79).
+ “Media can have durable effects on public opinion that subsequently may influence policy”
+(Markovich et al. 2020, p. 25).
+Thus, persuasion is unconstrained or extremely limited by prior opinions, campaigns are per-
+suasive or they are not, and persuasion effects taper or endure. To be clear, the above quotations
+accurately represent conclusions of exemplary studies, and the authors do not overgeneralize their
+claims. Nonetheless, taken together, the statements portray a fragmented field—one without an
+organizing framework that identifies the reasons why studies arrive at distinct conclusions.
+THE GENERALIZING PERSUASION FRAMEWORK
+Even foundational process theories such as the ELM ignore crucial components of persuasion
+including competition and speaker intent. This approach makes sense for a single study, but “the
+task of creating dependable generalizations from such research can be more challenging than
+might appear at first look” (O’Keefe 2016, p. 184).
+I propose the GP Framework (Table 1) based on what we know about external validity—that
+is, confidence that a relationship holds over variation in actors, treatments, outcomes, and settings
+(Shadish et al. 2002, p. 38; Druckman 2022). The GP Framework is not meant to compete with
+other theories (such as the ELM) but rather to fill in two gaps. First, it allows one to consider how
+individual persuasion studies connect to one another and why studies may arrive at contradictory
+conclusions. Second, it highlights the sources of variations that should be studied. Progress will
+come if scholars of persuasion place their findings in the context of the GP Framework. This can
+be done by stating the elements under study and the aspects being held constant. In what follows,
+I review each element independently. The collective power of the framework will become clear
+upon revisiting the above-listed ostensibly contradictory conclusions.
+ACTORS
+Speakers
+Speakers come in a host of forms including media, opinion leaders, friends and family, and elites
+who devote themselves to politics. Most studies treat the speaker’s message as exogenous, fo-
+cusing on the audience’s reactions. This approach ignores whether the specific identity of the
+speaker (e.g., an elite) has an impact (Minozzi et al. 2015) and sidesteps the motivations behind
+the speaker’s messaging. The latter omission reflects the difficulty of studying communicators’
+decisions.
+www.annualreviews.org • The Study of Persuasion 67
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:43:32Table 1 Generalizing Persuasion Framework
+Dimension Components
+Actors Speaker(s)
+ Types (e.g., elites, media, opinion leaders, friends/family)
+ Motivations in crafting messages
+Receiver(s)
+ Assessments across weighted dimensions
+ Effort, motivation, prior attitudes
+Treatments Topic
+ Persons/groups, issues, institutions, products
+ Variation within a topic (e.g., different policy issues)
+Message content
+ Argument strength (and inadequacy)
+ Framing and evaluations
+ Matching to receivers’ goals
+ Altering receivers’ motivations (e.g., using narratives)
+Medium
+ Alters frames, processing goals, and/or effort
+ Interactions with other persuasion variables
+Outcomes Attitude
+ General evaluation of an object (where the “object” is broadly construed)
+Behavior
+ Does not always follow from an attitude
+ Depends on attitude attributes, injunctive and descriptive norms, behavioral control, and emotions
+Emotion
+ Can inform conscious evaluations or override them
+Identity
+ A dimension of evaluation
+ Often activated when threatened
+Settings Competition
+ Number of speakers
+ Number of receivers
+ Observers
+Space
+ Attitude or behavioral change in one setting may not generalize to other settings
+Time
+ Pretreatment effects—what happened prior to the persuasive message
+ Posttreatment duration—how long an effect lasts
+ Time between exposure and outcome measurement
+Process
+ Threatening settings
+ Political (conflictual) settings versus deliberative settings
+Culture
+ Shapes understandings of topics
+ Alters salience of different values
+Consider Druckman & Jacobs’s (2015) study of presidential rhetoric. They obtained private
+polls from three presidents ( Johnson, Nixon, and Reagan) and explored how polling results in-
+formed the presidents’ public statements. They find that presidents choose their rhetoric to
+prime the salience of issues on which they are favored and to cater to issue publics (e.g., tak-
+ing positions on family value issues that align with religious voters) (also see Hager & Hilbig
+68 Druckman
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:43:322020). Yet, elite polls are private for a reason and do not always become publicly available for
+analyses.
+Other researchers look at the decisions of media outlets, exploring the influence of market
+pressures (Bovitz et al. 2002) and ideology (Groeling 2013). It is notoriously difficult, however, to
+pinpoint the drivers of media decisions (Druckman & Parkin 2005; cf. Lelkes 2020). Looking at
+readers, owners, reporters, and local politicians, Gentzkow & Shapiro (2010) find scant evidence
+of supply-side incentives shaping the slant of US newspapers. Yet, there are exceptional cases. For
+example, newspapers with ownership interest in 1996 television deregulation covered the issue in
+a skewed fashion, which suggests that under some conditions, ownership preferences can shape
+news coverage (Gilens & Hertzman 2000; also see Martin & McCrain 2019).
+This work evolved with the media ecosystem to study social media. A robust literature studies
+the impact of social media on opinions (Settle 2018) and how users engage with one another
+(Bail 2021). Again, what is missing is research on why a speaker produces a particular message.
+This lacuna can be traced back to work on opinion leaders “to whom. . .the rank-and-file voters
+typically ‘delegate’ the main burden of political discussion” (Berelson et al. 1954, p. 109). Scholars
+explore how to identify opinion leaders based on self-reports of engagement (Ahn et al. 2014).
+They also study opinion leaders who strictly engage on social media or “prosumers” (Weeks et al.
+2017).
+Whether people choose the prototypical opinion leader when gathering information seems
+unclear, at best. Minozzi et al. (2020) use panel network data to show that people tend to in-
+cidentally discuss politics with others who share their demographic characteristics (e.g., gender,
+race/ethnicity, religion) rather than with politically interested and knowledgeable opinion lead-
+ers. This, in turn, could affect what people learn; for instance, Carlson (2019) shows that people
+learn less from nonideal informants than from “ideal informants” who resemble knowledgeable
+and trustworthy opinion leaders.
+Regardless of these choices, little is known about how opinion leaders or incidental discussion
+partners (or other types of speakers) formulate their messages. A starting point is to recognize
+that speakers have goals, such as objectively informing, persuasion/advocacy, self-expression, self-
+presentation, or mutual understanding (Cionea et al. 2017). Some recent scholarship identifies the
+correlates of advocacy. For example, the likelihood of advocacy increases with confidence in one’s
+opinions (Cheatham & Tormala 2015) and a belief that the receiver is open-minded (Teeny & Petty
+2021). A next step would be to further unravel what generates self-expression and self-presentation
+(Hillman 2010). Along these lines, Kraft et al. (2020) show that the tone of stories differs across
+media: News stories that are viewed on news web sites are more negative than those chosen to
+be shared on email, Twitter, and Facebook. The authors explain that this media distinction stems
+from speakers being motivated by self-presentation.
+How these distinct speaker motivations influence the success of persuasive efforts remains un-
+clear. It may be that those motivated by advocacy are less successful, as receivers often have an
+aversion to those who actively pursue change (Bashir et al. 2013). Ultimately, the hope is to move
+the study of persuasion from a perspective that sees a one-way transmission (speaker to receiver)
+to one that sees an exchange between the actors—the reality in many modern political contexts.
+Moreover, speakers may be more persuasive when they engage in interactions with receivers, as
+such interactions enhance receivers’ feelings of self-efficacy (Levine 2021).
+Receivers
+A common starting point is characterizing the target of a persuasive attempt, classically the re-
+ceiver’s attitude about (i.e., evaluation of ) an object. A useful approach, termed the summative
+www.annualreviews.org • The Study of Persuasion 69
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:43:32or expectancy value model (Chong & Druckman 2007b, Fishbein & Ajzen 2010), holds that an
+individual’s attitude toward an object is the weighted sum of a series of evaluative beliefs about
+that object. Specifically, Attitude = vi∗wi, , where vi is the evaluation of the object on attribute i
+and wi is the salience weight (wi = 1) associated with that attribute. For example, one’s overall
+attitude, A, toward a new housing development might consist of a combination of negative and
+positive evaluations, vi, of the project on different dimensions i. An individual may believe that the
+project will favor the economy (i = 1) but harm the environment (i = 2). If this individual cares
+about both the economy and the environment, then v1 is positive and v2 is negative, and his or
+her attitude toward the project will depend on the relative magnitudes of v1 and v2 discounted by
+the relative weights (w1 and w2 ) assigned respectively to each attribute (Nelson & Oxley 1999).
+This conceptualization applies to any object of evaluation (e.g., issues, candidates, institutions,
+products) as well as behaviors (e.g., voting, donating, purchasing).
+Whether a persuasive attempt succeeds depends on how the receivers assess the message. I
+highlight three main factors: effort, motivation, and prior attitudes. First, receivers put forth a
+certain amount of effort in assessing a communication. Dual-process models identify effort as
+a key determinant of whether a receiver scrutinizes the content of the message (high effort) or
+relies on a cognitively simple cue such as the perceived credibility of the speaker (low effort)
+(Chaiken & Trope 1999). Effort depends on opportunity, ability, and the salience of the topic. For
+example, Arceneaux & Vander Wielen (2017, pp. 98–105) exposed individuals to mixes of party
+cues and arguments about whether the federal or local government should control environmental
+policy. They find that those who put forth greater thought are swayed by the arguments, whereas
+those who exert less effort rely on the party cues. On the more salient issue of government health
+care, low-effort individuals relied on the arguments rather than the cues (also see Boudreau &
+MacKenzie 2014). Even though politics remains distant for most people, many still assess message
+content on salient topics.
+Second, receivers have a motivation or goal: “a cognitive representation of a desired endpoint
+that impacts evaluations, emotions and behaviors” (Fishbach & Ferguson 2007, p. 491). Nondirec-
+tional goals are independent from specific conclusions, involving broad objectives such as forming
+an accurate opinion in light of evidence/arguments (Lodge & Taber 2013). Directional goals, in
+contrast, involve confirming a specific desired conclusion (e.g., that climate change is a natural
+process over which humans have little control, or that it is not occurring at all). Many scholars
+point to directional goals as a reason why persuasion efforts fail (Cotter et al. 2020).
+Stanley et al. (2020) first measured people’s opinions on five low-salience policy issues (fracking,
+laboratory animal testing, drone strikes, the gold standard, and standardized testing of students).
+They then (randomly) asked participants to assess affirming arguments, conflicting arguments,
+or a mix of arguments, after which the authors again queried their opinions. They find that “no
+matter which set of reasons was evaluated, participants were more likely to stick with their initial
+decisions than to change them” (Stanley et al. 2020, p. 901). Stanley and colleagues conclude
+that individuals are motivated to protect their initial opinions, leading them to evaluate contrary
+reasons negatively and affirming reasons positively.
+Directional reasoning takes a variety of nonexclusive forms (Bayes & Druckman 2021). For in-
+stance, Stanley et al. (2020) posit a belief consistency–seeking motivation with the goal to maintain
+a standing belief, regardless of the strength of an argument put forth. One might ask, though, what
+respondents would do if the contrary messages had come from their party. Would they stick to
+their prior beliefs or follow their party (Mullinix 2016)? The latter would indicate a motivation of
+social identity protection aimed at maintaining a feeling of identity or status within a social group
+(e.g., agreeing with your party on an issue even if the argument on the issue is poor) (Leeper &
+Slothuus 2014). In other situations, individuals are motivated by value affirmation. For example,
+70 Druckman
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:43:32Feinberg & Willer (2013) show that messages framing environmental issues in terms of purity
+and sanctity lead conservatives who typically oppose environmental legislation to become more
+supportive; this argument resonates with cherished conservative values (Feinberg & Willer 2019).
+Extant work rarely theorizes motivations a priori or directly documents the presence of a
+given motivation (e.g., accuracy, belief consistency, social identity protection, value affirmation).
+Druckman & McGrath (2019) refer to an observational equivalence problem: Scholars infer a di-
+rectional motivation when a persuasive message fails, even though it could be that the message
+simply is not compelling. For instance, evidence suggests that persuasion during high-salience
+(e.g., presidential) campaigns rarely occurs (Kalla & Broockman 2018). One could conclude that
+this failure stems from partisan motivated reasoning where voters seek to agree only with their
+party (i.e., their social group) (Nickerson & Rogers 2020, p. 1181). Alternatively, it is possible
+that voters aim for accuracy but hold strong prior beliefs, with an increasing share being “likely
+to agree with their party on any issues on which they have opinions in the first place” (Kalla &
+Broockman 2018, p. 150; cf. Hillygus & Shields 2008).
+It matters which process occurs. In the former case successful persuasion requires altering
+voters’ motivations, whereas in the latter it entails convincing voters that candidates share their
+perspectives. Isolating the motivation requires manipulating it or directly measuring it (Tappin
+et al. 2020). For instance, Bayes et al. (2020) distinguished between accuracy motivation, social
+identity protection, and a value affirmation goal by experimentally inducing each before providing
+participants with climate change messaging designed to appeal to one of the motivations. They
+find that Republican participants were more likely to believe in climate change when they received
+a message that facilitated the pursuit of the specifically induced motivation. For example, those
+with an accuracy motivation were more persuaded by scientific information, while those with a
+value goal were more persuaded by a moral value message.
+The final key construct influencing receivers is their prior attitudes. Stronger prior attitudes—
+i.e., those held with more certainty, confidence, importance, or extremity—are more difficult to
+change (Boudreau & MacKenzie 2014, Howe & Krosnick 2017) because accuracy-motivated indi-
+viduals have less uncertainty around their beliefs and thus hold a higher threshold to change them
+(Druckman & McGrath 2019). For example, Druckman & Nelson (2003) find that individuals
+who hold stronger prior attitudes about campaign finance reform are significantly less likely to be
+swayed by messages that frame reform as an issue of free speech or minimizing special interests.
+However, just how great an impact prior attitudes have remains unclear; for instance, Guess &
+Coppock (2020) offer consistent evidence of persuasion on gun control, the minimum wage, and
+the death penalty regardless of attitude importance or extremity.
+Beyond prior attitude strength, scholars might consider the salience of directionally relevant
+constructs such as social identities, values, and normative expectations. For instance, Girvan et al.
+(2010) show that information about a normative social consensus (e.g., opinions of friends, fam-
+ily, celebrities) has a particularly strong influence on the vote decisions of high self-monitors—
+individuals who are likely to base decisions on social cues (i.e., they value normative expectations).
+That said, Coppock (2021) finds that political persuasion often occurs “in parallel,” meaning that
+people respond in the same way (i.e., in the same direction, by the same amount) to persuasive in-
+formation. This is the case across categories such as partisanship, age, education, race, and gender.
+In summary, the result of any political persuasion effort hinges on the receiver’s effort, motiva-
+tion, and prior attitude strength (although, as noted, there is some debate on the latter feature).1
+1 Some readers may note the exclusion of sophistication from the discussion. While this surely is a causal factor
+in shaping attitude change, it typically operates through more proximate variables including effort (e.g., via
+www.annualreviews.org • The Study of Persuasion 71
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:43:32Existing studies rarely consider all three. Some even rely on stereotypical portraits of the pub-
+lic as exerting little effort (Lau 2020), being directionally motivated (Lodge & Taber 2013), and
+holding weak prior attitudes on most issues (Kinder & Kalmoe 2017). Yet, as the above examples
+demonstrate, there exists substantial variance in effort, motivation, and attitude strength. Scholars
+should more actively theorize about how these variables influence persuasion.
+TREATMENTS
+Topic
+The classical framework considers what is said (message content) and how it is delivered (medium)
+(Lasswell 1948). But it ignores something perhaps even more central: the topic. For example, there
+exist at least four nonexclusive political topical areas. First are persons or groups such as candidates,
+elected officials, media figures, parties, and racial/ethnic groups. Second are public policy issues.
+Third are institutions—i.e., norms/rules or organizations—such as the government, science, and
+the military. Fourth are products; the rise of political consumerism or private politics has politi-
+cized businesses, as demonstrated when activists try to sway consumers to boycott a business due
+to poor environmental practices (Abito et al. 2019).
+People process distinct topics differently. For instance, attitudes about individuals are more en-
+during and less vulnerable to persuasion than attitudes about policies (Druckman & Lupia 2000).
+In this vein, McGraw & Dolan (2007) show that when a message personifies the state (e.g., focus-
+ing on its leader), people form stronger attitudes than when the message characterizes the state in
+terms of institutions (e.g., the parliament). Hence, topical framing affects attitude strength.
+There also exists substantial variation within so-called topics. Consider the literature on the
+persuasive impact of party cues. Studies suggest that when a party endorses a policy, partisans move
+their opinions by 3–43% on the policy opinion scale (Bullock 2011). Variation in the policy issues
+studied partially drives these inconsistent results: There is no sampling from a population of policy
+issues (Druckman & Leeper 2012a, Slothuus & Bisgaard 2021a). Tappin (2020) studies the impact
+of party cues across 34 distinct policy questions and finds that the impact ranges from 15% (on
+whether Congress should audit the Federal Reserve) to 1% (on whether police should be required
+to wear body cameras). The difference between topics may not explain all the variation, but it
+clearly plays a role. Relatedly, variation across topics depends on the strength of prior opinions
+(Bartels 1993), self-interest (Slothuus & Bisgaard 2021b), and, as I discuss below, timing—that is,
+the extent to which people have already been exposed to arguments on the topic (Druckman &
+Leeper 2012b).
+Message Content
+Scholarship on the content of persuasive messages is expansive and exasperating. One prominent
+concept is argument quality. As mentioned, when people are able to put forth effort, they scru-
+tinize the argument, and it persuades them if they consider it high quality (Chaiken 1980, Petty
+& Cacioppo 1986). Identifying what constitutes high quality entails an empirical exercise of ask-
+ing individuals whether they perceive the argument as strong and cogent rather than weak and
+specious (Eagly & Chaiken 1993, p. 311). While this approach helps to document when con-
+tent receives attention or which message wins out in competition (Chong & Druckman 2007a),
+ability), motivation (cf. Lodge & Taber 2013, Tappin et al. 2021), and attitude strength (Howe & Krosnick
+2017).
+72 Druckman
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:43:32it provides scant theoretical insight. In fact, it seems to be an inadequate tautology. It is a tautol-
+ogy because it involves identifying persuasive messages as persuasive, and it is inadequate because
+“asking respondents about perceived or expected persuasiveness [is] no more informative about
+relative actual persuasiveness than flipping a coin” (O’Keefe 2018, p. 133).
+Where does that leave the study of message content? I suggest three steps as a way forward.
+First, tie the study of persuasive messages to the aforementioned model of attitude structure that
+includes evaluative dimensions, evaluations on those dimensions, and weights applied to each di-
+mension. Different messaging strategies target each of those elements. For instance, framing (or
+the analogous processes of priming and agenda setting) captures altering the dimensions under
+consideration or the relevant weights, as in the above example of assessing a housing develop-
+ment on economic and/or environmental grounds. Social scientists have long recognized alter-
+ing the frame or scope of conflict as a crucial part of politics (Schattschneider 1960). Alterna-
+tively, messages can focus on evaluations such as how the housing development will affect the
+environment.
+Second, consider the audience’s motivations in assessing a message. Recall the Bayes et al.
+(2020) study showing that climate change arguments succeed when they align with the audience’s
+motivation—for example, value framing (e.g., protect the sanctity of the environment) works when
+receivers seek value affirmation, while a science fact message is persuasive for accuracy-motivated
+receivers. This dynamic explains the appeal of targeted messaging crafted to match the recipient’s
+characteristics (Hillygus & Shields 2008). For example, Matz et al. (2017) show that messages that
+comport with the audience’s level of extraversion or openness to experience enjoy more success
+in affecting product purchasing behaviors than mismatched messages (but see Eckles et al. 2018).
+Targeting in politics, though, may not be an ideal strategy. Hersh & Schaffner (2013) show that
+targeting specific groups (e.g., born-again Christians, union members, Latinx respondents) with
+specialized messages tends not to persuade the group and backfires among the broader public (also
+see Ostfeld 2019). Instead of focusing on social groups, more success could come from connecting
+messages to the audience’s goals (e.g., knowing whether they care most about their values, what
+others are doing, or particular policies).
+Third, alter the audience’s motivation (Mullinix 2016). An example of such a messaging strat-
+egy is narrative persuasion, a message format that describes events in chronological order with
+information about characters and their actions. Gooch (2018) uses two experiments to show that
+a personalized narrative from a partisan elite ( Joe Biden) can increase support for the discussed
+issue (Social Security) among in-partisans and increase the elite’s favorability among all partisans.
+Kalla & Broockman (2020) present evidence from three field experiments on the impact of the
+“nonjudgmental” exchanging of narratives where the speaker offers portrayals of unauthorized
+immigrants or transgender people (also see Broockman & Kalla 2016, Kalla & Broockman 2021).
+They find that, relative to a control placebo (and in one case relative to arguments alone), the
+inclusion of the narrative durably reduces exclusionary attitudes toward these groups. Kubin et al.
+(2021) similarly show that relaying personal experiences, particularly those that are relevant to the
+issue at hand and that involve harm/suffering, generates respect across group lines and perceptions
+of rationality more effectively than relaying facts.
+Personal narratives “transport” the receiver into the story so that the receiver becomes focused
+on the world it depicts (Green & Brock 2000). Hamby et al. (2017) suggest that transportation
+works via retrospective reflection, the recall of self or other relevant memories to validate and
+extend the story. It consequently can shift the audience away from directional motivations to a
+focus on connecting with the narrative (Carpenter 2019, p. 15). This is not the same as an accuracy
+motivation but, in essence, it shifts motivations by reducing the need to be protective and allows
+for persuasion on ego-threatening topics.
+www.annualreviews.org • The Study of Persuasion 73
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:43:32Medium
+Much has changed since Lasswell (1948) mentioned the “channel” as one of the key persuasive
+variables. The political communication environment evolved from newspapers and radio to tele-
+vision to the internet to social media. Researchers have leveraged social media data in remarkably
+innovative ways to study political communication patterns (Persily & Tucker 2020). Here I make
+two points that have received less attention.
+First, the medium by which one receives a message can alter frames, processing goals, and/or
+effort. For example, in his experiment using the famous first Nixon–Kennedy debate, Druckman
+(2003) shows that, compared to those who listen to the debate, those who watch it on television
+rely more on personality assessments in evaluating the candidates (e.g., perceived integrity) and
+less on issue position assessments. This difference alters overall evaluations (in Kennedy’s favor).
+Here, the medium acts as a framing mechanism that shifts the criteria of assessment. Althaus &
+Tewksbury (2002, pp. 182–83) show that reading The New York Times online instead of in print
+facilitates directional goals because it “draw[s] readers immediately to those stories most likely
+to fit their information preferences.” Print readers view international stories on the front-page
+section and then see them as more salient, while directionally motivated online readers skip over
+such stories by following links. In this case, the medium prompts distinct goals.
+In another such example, Druckman et al. (2018) compare communication via media segments
+to communication via in-person conversations (which I construe as variations in media, although
+one could see them as variations in context). They show that exposure to an out-partisan me-
+dia segment (e.g., Democrats watch a Fox News segment supporting drilling for oil) appears to
+stimulate directional partisan motivated reasoning such that the audience counterargues the story
+and moves in the opposite direction (e.g., they become more opposed to drilling). In contrast,
+when individuals watch partisan media and talk with a group that includes out-partisans about the
+topic (e.g., Democrats talk to Republicans about drilling for oil), they seem to move away from
+directional partisan motivated reasoning and become relatively persuaded (e.g., they become less
+opposed to drilling). The give-and-take of the in-person format stimulates more reflecting think-
+ing than the media format.
+With regard to motivation and social media, the results are surprising. Many researchers con-
+clude that misinformation on social media shapes beliefs due to directional motivations where
+partisans believe anything that supports their group (Flynn et al. 2017, p. 128). Pennycook et al.
+(2021) show that this is not always the case and, instead, the persuasiveness of misinformation on
+social media reflects receivers’ lack of effort in processing social media (cf. Osmundsen et al. 2021).
+When people put in more effort to assess social media information, they are less likely to believe
+false messages and to share them. The implication is that simple effort prompts can make a dif-
+ference: Pennycook et al. (2020) show that asking people to rate the accuracy of a single headline
+subsequently increases the likelihood of sharing true rather than false posts.
+My second point is about the interaction between medium and other variables. For example,
+considerable debate concerns how persuasive argumentation from out-group sources works on so-
+cial media (Guess et al. 2021). Bail et al. (2018) find that exposing Republicans to liberal messages
+via Twitter leads them to move in a more conservative direction (a backlash effect). Democrats
+exposed to conservative Twitter messages move in a liberal direction, but not statistically signifi-
+cantly so. In contrast, Levy (2021) finds no effects on political opinions among partisans exposed to
+counter-attitudinal messages via Facebook.2 Even though both Bail et al. (2018) and Levy (2021)
+2 These contrasting findings reflect a larger set of conflicting results about potential backlash effects (e.g.,
+Porter & Wood 2019, Ma et al. 2019).
+74 Druckman
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:43:32focus on the impact of social media out-party exposure, the differences could stem from varia-
+tion in other dimensions that affect persuasion. These include treatment medium (Twitter versus
+Facebook), sources (retweets from more than 4,000 political accounts versus news outlets), re-
+ceiver motivation (being paid to follow a Twitter bot/account versus being nudged to subscribe
+to an outlet that could reveal new perspectives), and settings (receiving 24 messages each day ver-
+sus choosing whether to comply and view the outlets). Of those variations, the most important
+may have been the relative onslaught of oppositional messages in the experiment by Bail et al.
+(2018), triggering negative reactions (Bail 2021). This differs from the careful engagement likely
+stimulated in the Levy (2021) study. This comparison illustrates why one may find conflicting re-
+sults. When studying messages in a particular medium, it is crucial to consider differences across
+other variables. The comparison also reveals the need to consider multiple variables, as one could
+mistakenly, for example, conclude that the distinct results stemmed from different social media
+platforms.
+OUTCOMES
+Attitudes
+The modal target of persuasion is the receiver’s attitude, which has been my implicit focus thus far.
+Here I make a tangential point. The increasing availability of behavioral data due to the internet
+and social media, equipping researchers with “big data,” has led some to minimize the importance
+of studying attitudes (for discussion, see Matz & Netzer 2017, Miller 2017). This is foolhardy
+for two reasons. For one, a tenet of representative democracy is the responsiveness of elected
+officials to the preferences of the populace (Dahl 1971). Thus, political preferences—regardless
+of actions based on those preferences—matter. Their importance need not depend on Gallup
+& Rae’s (1940) idyllic vision of The Pulse of Democracy, where polls reveal genuine thoughts to
+the nation’s leaders. Regardless of one’s normative stance on what makes for the best democracy,
+politicians attend to opinion surveys and so, practically, they are important (Druckman & Jacobs
+2015).3 Second, as I discuss in the next section, scholars have taken low correlations between
+attitudes and behaviors as evidence that attitude measures may be insufficient. Yet, in the age of
+social media data, one must also consider whether the behaviors studied are the right behaviors
+to study. Put another way, attitude surveys are constrained by sampling issues and nonresponse
+(Miller 2017), but researchers using behavioral data often ignore the sample and use whatever
+social media expressions are available. These may be meaningful but are far from representing
+the population of possible behaviors. In short, if attitudes and behaviors do not match, it could be
+because the wrong behavior is being studied and not because attitudes do not matter (see Groves
+2011, p. 870).
+Behaviors
+Early studies presumed that attitudes straightforwardly explain behaviors (e.g., a voter likes a can-
+didate and therefore votes for or donates to the candidate). But “we should not expect that a
+change in general attitudes. . . will have much of an impact on any particular behavior” (Fishbein
+& Ajzen 2010, p. 278). To see the implications for persuasion, consider Levine & Kline’s (2017)
+experiment on climate change. They provided recipients with a generic message about taking ac-
+tion to address climate change, a public health message about taking climate change action, or a
+3 Further, the public themselves look at attitudes of others as pieces of information on which they act (e.g.,
+Moy & Rinke 2012).
+www.annualreviews.org • The Study of Persuasion 75
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:43:32food risk message about taking climate change action (e.g., to prevent food shortages). They find
+that—in line with the idea that loss frames persuade—the health and food risk messages cause
+people to support clean energy policies and believe climate change should be a policy priority. Yet
+in an analogous experiment, these types of loss frames depressed climate-relevant behaviors such
+as joining a climate advocacy group. The logic is that, relative to a gains frame, the loss frame leads
+people to support preventing the loss (their attitude), but it also makes salient their own resource
+constraints, causing them to be less likely to act (also see Levine & Kline 2019).
+This work reveals that one must be careful in identifying the target outcome. There are at least
+two possible routes for exploring behavioral outcomes (or judgmental choices). One is to down-
+play or evade a focus on the attitude–behavior connection if one’s goal is to understand behaviors.
+For example, Groenendyk (2019) shows that the linchpin of stimulating voter turnout and inten-
+tions is not resolving attitudinal ambivalence but rather activating positive “gut feelings.” Altering
+behaviors may depend less on attitudes than on motivations and emotions (also see Groenendyk
+2016).
+Another route is to identify the conditions under which attitudes shape behaviors (Fishbein
+& Ajzen 2010, p. 278). For example, Druckman & Bolsen (2011) exposed people to arguments
+about the use of carbon nanotubes (CNTs), an alternative energy source to coal, oil, or natural
+gas. They randomized study participants to exposure to pro arguments (e.g., lower energy costs)
+or con arguments (e.g., health risks). They also randomly varied whether the arguments included
+facts, operationalized as a reference to a scientific study (e.g., showing that mice injected with
+CNTs react as if they were injected with asbestos or showing that CNTs double the efficiency
+of solar cells). They find that regardless of the facts, the frames move attitudes in the predicted
+direction (e.g., a pro frame leads to more support for the use of CNTs). However, the frames only
+influence behavioral intentions (e.g., likelihood of personally using CNTs) when accompanied by
+the supporting facts. The accompanying facts increase the certainty with which individuals hold
+their attitudes, and that certainty leads people to act on their attitudes.
+This study reveals the importance of attitude strength as a driver of behavior (Howe &
+Krosnick 2017). More generally, behavior or the intention to engage in a behavior (O’Keefe 2021)
+depends on attitudes/attitude strength, injunctive norms (i.e., if the behavior is desired by others),
+descriptive norms (i.e., if other people perform the behavior), perceived behavioral control (i.e.,
+perception of the ease or difficulty of the behavior, including resource constraints), and emotions
+(Fishbein & Ajzen 2010).4 Persuaders who hope to influence behaviors must consider which of
+these components matter to the receiver(s) in a given situation, which components seem more
+moveable, and the current intention of the receiver(s).
+Emotion
+Emotions—instinctive states emanating from one’s situation or mood—are not an explicit part of
+the attitudinal construct presented above. Yet, emotions inform the considerations that drive atti-
+tudes or behaviors and sometimes override conscious considerations driving behaviors (see Marcus
+2002, pp. 10–11). Either path makes emotions an important target of persuasion (Albertson et al.
+2020).
+For example, Clifford & Jerit (2018) provided study participants with messages about an infec-
+tious disease and varied the absence or presence of text prompting disgust (e.g., symptoms include
+4 These factors come from the reasoned action approach. Habit is another predictor, as is clear from research
+on habitual voting (e.g., Malhotra et al. 2011).
+76 Druckman
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:43:32bloody diarrhea, boils) and/or anxiety (e.g., high likelihood of spread). Anxiety messages prompted
+individuals to request more information about the disease while disgust messages lowered such
+requests. Brady et al. (2017), who exposed participants to messages about gun control, same-sex
+marriage, and climate change, find that messages including moral-emotional words (e.g., hate) lead
+individuals to pass them along in social media (i.e., moral contagion). Other work demonstrates
+the role of negative emotions such as anger in stimulating political action (Valentino et al. 2011)
+and how individuals who regulate negative emotions reduce their likelihood of political action
+(e.g., protesting, donating, volunteering, online posting) (Ford et al. 2019).5 This latter finding
+suggests that those interested in stimulating action may want to reframe upsetting political events
+to accentuate personally relevant negative emotions (that can vitiate regulation), although this can
+also lead to deleterious behaviors such as violence and moral condemnation.
+Identity
+People often base political decisions on their partisan or social identities (Achen & Bartels 2016).
+Indeed, the implications for one’s identity group are often a crucial consideration when one forms
+an attitude. It is thus not surprising that speakers often seek to activate or pander to particular
+identities.6
+For instance, Levendusky (2018) shows that priming a common national identity can lead op-
+posing partisans to move away from animus and hold more positive feelings toward one another.
+Klar (2013), looking at issue attitudes, finds that when Democratic parents receive a message that
+makes their partisan identity salient, they become more supportive of social service spending re-
+gardless of the national deficit (which falls to future generations), less supportive of antiterrorism
+spending, and more supportive of releasing sex offenders early to start rehabilitation. In contrast,
+when the message instead accentuates their parental identity, their policy opinions move in the
+opposite directions. Klar further shows that the key to activating an identity is through threat
+(i.e., current policies pose a threat to one’s partisanship or parental status) (also see Wojcieszak &
+Garrett 2018).
+SETTINGS
+Competition
+Classical persuasion experiments involve a single speaker sending a message to receivers; there
+is scant attention to context. Yet, many contexts involve multiple speakers trying to persuade the
+audience. To see why this matters, consider a typical framing effect, such as when people hear that
+a hate group rally should be thought of as a public safety concern and not be allowed (Nelson et al.
+1997). Invariably, the involved group or another group will argue that the decision to allow the
+rally constitutes a free speech issue. When two arguments clash, they could cancel out (Sniderman
+& Theriault 2004). Chong & Druckman (2007a), however, argue that competing rhetoric prompts
+effort, leading people to opt for the argument they perceive as stronger. The authors show that if
+the public safety argument comes from a credible source and the free speech argument comes
+from a noncredible source, then the public safety perspective sways individuals (although see
+the discussion on argument strength in the Message Content subsection of the section titled
+5 Positive emotions also can stimulate action; Brader (2006) shows how campaign advertisements that prompt
+enthusiasm stimulate campaign participation.
+6 Speakers also often target values, such as in the moral framing examples above (see Howat 2019 on the
+relationship between identity and values).
+www.annualreviews.org • The Study of Persuasion 77
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:43:32Treatments). Yet, in general, studies of competitive persuasion remain limited in the social sci-
+ences (Della Vigna & Gentzkow 2010, p. 665).
+The number of receivers also matters. When someone hears an argument, the presence of oth-
+ers can stimulate normative pressures. Levitan & Verhulst (2016) show that having others nearby
+shapes how people form their attitudes on issues such as abortion, affirmative action, gay rights,
+and immigration. Receivers look to see how others react and follow suit (Sinclair 2012). Alterna-
+tively, if listeners observe a persuasive argument targeting someone else, they may learn about its
+applicability to themselves. Lupia & McCubbins (1998, p. 61) provide an example where a Demo-
+cratic observer hears a Republican speaker endorse a policy to his/her Republican constituents.
+The Democratic observer then takes the opposite stance (what the authors call an observer effect).
+This type of dynamic partially explains the aforementioned backlash of targeted messages among
+those not targeted (Hersh & Schaffner 2013).
+Space
+Many political and social interactions occur in a specific space, so what happens in one context
+may not affect attitudes and behaviors in another. This aligns with the prior discussion of out-
+come variables but concerns the application of a particular outcome in distinct contexts. Mousa’s
+(2020) study of intergroup contact shows that attitudes can change due to interpersonal exchanges,
+even those not involving explicit argumentation. Mousa assigned Christian amateur soccer teams
+in northern Iraq to randomly receive three additional Christian players or three additional (dis-
+placed) Muslim players. Christian players on teams that added Muslims expressed more tolerant
+attitudes toward training with Muslims or playing on a mixed team in the future. However, they
+did not become more tolerant of interactions with Muslims not on the teams, in contexts (or
+spaces) such as attending neighborhood social events or patronizing Muslim businesses.
+Wiest et al. (2015) find a related dynamic in a study of climate change messaging. Frames
+focusing on local (state) conditions alter perceptions of the severity of climate change and support
+for subnational policies. However, the frames do not carry over to influence support for policy
+efforts at the national or global levels. These types of findings connect to construal theory, which
+holds that people construe psychologically proximal targets in more concrete terms (Liberman &
+Trope 1998). The bottom line is that attitudinal and/or behavioral change in one setting does not
+generalize to other spatial contexts.
+Time
+Timing matters. In their review of attitude change, Albarracin & Shavitt (2018) discuss time in
+terms of a receiver’s development, lifespan, and generation. Here, I focus on timing as an aspect
+of the setting. Political arguments occur over time; thus, understanding the outcome of persua-
+sion requires recognizing what came before. For example, in a study conducted among engaged
+individuals (Druckman & Leeper 2012b), arguments concerning a public-funded casino—both
+pro arguments focusing on economic benefits and con arguments focusing on social costs (e.g.,
+addiction)—failed. They failed because these individuals previously had been exposed to the eco-
+nomic argument and had formed strong opinions in favor of the casino. Hearing the economic
+argument again did not matter. They had already formed strong opinions and rejected the con
+argument. Such pretreatment effects make clear that one often must attend to communication
+over time to grasp its effects (Gaines et al. 2007, Slothuus 2016).
+Druckman et al. (2012) show how early arguments can set opinions in place, leading individuals
+to seek out confirmatory information and making them more resistant to later arguments. For
+instance, those exposed to an initial argument for universal health care to minimize inequality
+78 Druckman
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:43:32subsequently chose to read articles with that framing, and then when exposed later to opposing
+arguments concerning economic costs, they rejected them. In other circumstances, more recent
+arguments may win out, particularly among individuals who are averse to elaboration (Chong &
+Druckman 2010).
+The flip side of “what happened before” is “what happens after”: how long a given persuasive
+effect lasts. Although the question has been considered since Hovland & Weiss’s (1951) sleeper
+effect hypothesis (e.g., people initially discount a message due to a noncredible source but later
+adjust their attitudes in the direction of the message), it is far from settled (Albarracin et al. 2017).
+Related to duration is the amount of elapsed time between exposure to the persuasive message and
+measurement of outcome—immediate or delayed. Not all studies of persuasion need to account
+for prior and subsequent dynamics, but they need to situate themselves in time and recognize that
+timing can alter what persuades.
+Process
+Different settings involve distinct decision-making processes. For instance, situations with per-
+sonal threats alter how individuals receive persuasive messages. Druckman et al. (2021) show that
+those who felt more threatened by coronavirus disease 2019 (COVID-19) (e.g., more cases in
+their surroundings) focused on substantive information instead of following messages from their
+parties.
+Political processes often involve environments rife with conflict and individualism
+(Groenendyk & Krupnikov 2021). Yet, another depiction of politics posits a public endeavor of
+deliberation for a common good (also see Karpowitz & Mendelberg 2014). In this latter situation,
+individuals move away from directional goals and engage in open-minded (not synonymous with
+accurate) assessments. Using the issue of gun control, Groenendyk & Krupnikov (2021) demon-
+strate that settings privileging open-mindedness (e.g., linking it to life success) lead individuals to
+evaluate arguments counter to their standing beliefs in an open-minded fashion. Individuals also
+arrive at moderate opinions in response to a mix of arguments. In political settings, by compari-
+son, individuals think of conflict and engage in directional processing. This is particularly the case
+in the presence of extreme partisan differences (Druckman et al. 2013). An intriguing question,
+given these results, concerns the impact of various social media and entertainment contexts on
+processing (Kim 2019): When do they prompt directional as opposed to open-minded reasoning
+in response to arguments?
+Culture
+In recent years, persuasion scholars have come to recognize that culture shapes how arguments
+are made and processed (Albarracin & Shavitt 2018). For instance, Song et al. (2020) conducted
+a survey to assess what individuals viewed as an environmental issue. They find that minorities
+and low-income respondents perceive several human-oriented issues as environmental. For in-
+stance, relative to White people, Black and Hispanic individuals are significantly more likely to
+identify poverty, unemployment, diabetes, and racism as environmental issues. Those with lower
+household income are significantly more likely to identify unequal access to education and racism
+as environmental issues. Presumably, social experiences become embedded in a cultural under-
+standing of what constitutes an environmental issue. This, in turn, matters for persuasion, since
+it shapes the nature of conversations and surely affects what constitutes a persuasive argument on
+these issues.
+Stark et al. (2020) show that priming evenhandedness alters attitudes. Reminding labor ac-
+tivists of the possibility of labor campaign contributions leads them to be more supportive of
+www.annualreviews.org • The Study of Persuasion 79
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:43:32business contributions (i.e., they offer more evenhanded evaluations). Yet, this effect is not nearly
+as strong in countries that have collectivist cultures (e.g., Asian countries) because evenhandedness
+considerations are chronically accessible. Here, culture generates what could be thought of as a
+pretreatment effect.
+Soroka et al. (2019) study the impact of negative news content in 17 countries across 6 conti-
+nents. They find evidence of higher attentiveness and arousal during exposure to negative stories.
+They also report individual-level variations in reactions; however, these differences do not con-
+nect to country-level contextual factors. In this case, there is less evidence of a cultural impact,
+which itself is intriguing given that prior research had been concentrated in Western countries.
+Clearly, understanding persuasion requires attending the intersection of multiple variables.
+REVISITING CONTRADICTORY CLAIMS
+To see the usefulness of the GP Framework (Table 1), consider the contradictory statements
+from the bulleted list near the beginning of this review. Broockman & Butler (2017) conclude that
+politicians can shape opinions with ease, while Stanley et al. (2020) hold that individuals do not
+move from their initial opinions regardless of the reasons presented. The studies differ in terms
+of actors (sources) and settings (timing). The former presented statements from legislators and
+measured change from initial opinions after a substantial amount of time (at least a week). The
+latter provided arguments without sources and assessed opinions very close in time to the initial
+reporting of opinions.
+Flores (2019) states that ballot initiative campaigns are persuasive in his study of television
+advertisement effects on opinions about the legality of same-sex marriage. Nickerson & Rogers
+(2020) state that campaigns have little to no effect. However, these studies differ in treatment and
+outcome: Nickerson and Rogers’s treatment focuses on candidate elections (as opposed to initia-
+tive campaigns), and their outcome of interest is voting behavior (as opposed to an issue attitude).
+Kalla & Broockman (2018) also find scant campaign effects in general election campaigns. Yet,
+they acknowledge that persuasion can occur in unusual circumstances depending on the timing
+(e.g., earlier in the campaign), voters (e.g., with weaker prior opinions), targets (e.g., atypical can-
+didates), and messages (e.g., exploiting notable candidate blunders). These variables map onto the
+GP Framework’s settings, actors, and treatments. Kalla & Broockman’s (2018) reasonable con-
+clusions are based on the set of extant studies and their assessment of “typical” general elections
+campaigns. The challenge, though, is that no one has identified the population of campaigns and
+how they vary across the GP Framework’s dimensions. If scholars were to situate their studies
+within the framework and simultaneously consider variation across variables in the population of
+interest (e.g., general election campaigns), it would engender more confidence about what is and
+is not typical.
+Tesler & Zaller (2017) find that persuasion effects are short-lived, on the basis of evidence
+from election studies that focus on candidate television advertisements altering voting behavior
+(Gerber et al. 2011, Hill et al. 2013). In contrast, Markovich et al. (2020) suggest that persuasion
+effects endure, but they study a distinct outcome (opinions), treatment (the topic of marijuana
+legalization and the medium of online news), and actor (partisan networks).
+The contradictory claims thus stem from work that differs on multiple dimensions—with all
+four dimensions of the GP Framework being relevant. In fact, in each contradictory pair, the works
+differ along at least two of the dimensions. Understanding why studies with the same ostensible
+focus arrive at contradictory conclusions requires attention to multiple possible differences. The
+purpose of the GP Framework is to offer scholars a way to proceed when they study persuasion,
+identifying which variables may matter and how their work connects to other research. The goal
+80 Druckman
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:43:32is to structure the literature in a way that better ensures collective progress. Authors can apply it
+by being explicit about which elements they are studying and which they are not (e.g., in a table),
+thereby enabling others to situate the work.
+FINAL THOUGHTS: NORMATIVE CONSIDERATIONS
+There is much to say about normative implications, and theorists have considered how to treat
+persuasion from a host of angles (Garsten 2006, Disch 2011). There exists a long-standing tension
+between idyllic conceptions of the citizen—as engaged and holding consistent preferences—and
+the existence of persuasion by political elites. That elites can persuade means that the very in-
+dividuals who are supposed to respond to the authentic opinions of the citizenry have an incen-
+tive to engage in disinformation and manipulation. This tension contributes to confusion about
+salubrious persuasion (learning) versus detrimental manipulation (Druckman 2014). Adding to
+the complexity is that engaged citizens are more likely to have directional motivations that make
+them averse to open-minded deliberation (Druckman 2012). If one continues down this line of
+reasoning, an infinite regress of trade-offs emerges. Normative criteria for a good citizenry and
+the role of persuasion in promoting or hindering good citizenship are inherently subjective, often
+arbitrary, and empirically challenging (e.g., how to intuit speakers’ motivations).
+An alternative would be to focus on processes—such as articulating an ideal of accuracy-
+motivated citizens with access to competitive information. The problem here is that accuracy
+may be a lot to ask for, and even if not, accuracy motivation need not lead to accurate conclusions
+(Kunda 2001, p. 238). Moreover, specifying the availability of competitive information may be
+doable at the extremes but ultimately can become arbitrary; it is not clear what the full range of
+information includes, particularly given institutional constraints on representation.
+Many scholars sidestep normative debates for fear that imposing their own values onto citizens
+could be elitist (Lupia 2006). Alas, knowingly or not, this is what much scholarship has done.
+Narratives lead to less exclusionary attitudes even though they can be far from fact-based (Van
+Bavel et al. 2021), moral framing generates support for climate change policy despite including no
+scientific information, and identity priming can depolarize without any mention of the need for
+compromise in politics. In all of these cases, scholars have no ethical issue in studying particular
+persuasive approaches that could alter opinions because they lead to, respectively, more tolerant,
+evidence-consistent, and politically functional outcomes. These each invariably constitute valued
+democratic collective goods to which governments contribute, and thus, scholars need not back
+away from endorsing them and exploring persuasion as a means to these ends.

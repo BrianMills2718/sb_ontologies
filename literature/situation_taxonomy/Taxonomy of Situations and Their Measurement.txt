@@ -1,0 +1,708 @@
+Oxford Handbook Topics in Psychology
+Oxford Handbooks Editorial Board
+https://doi.org/10.1093/oxfordhb/9780199935291.001.0001
+Published: 03 March 2014 Online ISBN: 9780199935291 Print ISBN: 9780199935291
+Search in this book
+CHAPTER
+https://doi.org/10.1093/oxfordhb/9780199935291.013.22
+Published: 12 November 2015
+Abstract
+Keywords: situations, situational taxonomy, situational structure, situation perception, situational
+characteristics, situational classes, situationism, interactionism
+Subject: Research Methods in Psychology, Psychology
+Series: Oxford Library of Psychology
+Collection: Oxford Handbooks Online
+Taxonomy of Situations and Their Measurement
+Rustin D. Meyer
+Numerous psychologists across several subdisciplines have argued that the eld’s ability to understand
+and predict human behavior is limited by a lack of a universal way of conceptualizing and categorizing
+situations. Perhaps the primary reason underlying this lack of consensus is the sheer enormity and
+complexity of creating a taxonomy of an entity as amorphous and multifaceted as “the situation.” Despite
+(or perhaps because of) the depth of this challenge, a number of researchers have put forth diverse
+attempts to create taxonomies of situations. The present effort examines the critical choices that these
+researchers have faced along the way and reviews specic examples of the various decisions they
+ultimately made in developing their nal product.
+Ultimately, a taxonomy of situations, if we ever have one, will surely not be the work of any one investigator
+(Frederiksen, 1972; p. 117).
+Numerous psychologists across several subdisciplines have argued that the ability to understand and predict
+human behavior is limited by a lack of a universal way to conceptualize and categorize situations. Perhaps the
+primary reason underlying this lack of consensus is the sheer enormity and complexity of creating a
+taxonomizing of an entity as amorphous and multifaceted as “the situation.” Assuming that the perspective
+captured by the introductory quotation from Frederiksen (1972) is correct, it stands to reason that researchers
+who have attempted to create taxonomies of situations have made a number of critical and informative
+decisions when considering such an undertaking.Downloaded from https://academic.oup.com/edited-volume/42044/chapter/355794666 by Brian Mills on 25 June 2025
+In an effort to pull together relevant considerations, the present article is structured around the following
+critical questions: (1) is the taxonomy of situations a scientically important endeavor; (2) should taxonomists
+focus on objective or subjective components of situations; (3) would psychology be better off endorsing a
+universal taxonomy of all possible situations or creating multiple taxonomies of situations within specic
+domains; (4) is it more prudent to categorize types of situations, the underlying dimensions that dene them,
+or individual situational cues; and (5) are there best ways to obtain/create situational stimuli and analyze
+resultant data, or are ad hoc approaches that draw from diverse methods inevitable? For each of these decision
+points, existing taxonomies that have selected one option or another are described in order to highlight the
+great diversity that exists across extant taxonomic efforts, although no claims are made to the
+comprehensiveness of the present coverage.
+Before getting into the focal content of the present article, however, it is important rst to take a step back and
+consider not only the enormity of the tasks associated with situational taxonomy but also the length of time
+that this question has vexed the eld of psychology. Both of these issues are captured in the following
+quotations, which demonstrate that some of the brightest minds in psychology have lamented the lack of a
+situational taxonomy for at least a half-century.
+The most obvious need in evaluating the manifold encounter of organism and environment is a more
+satisfactory and systematic conceptualization of the environment. This implies a taxonomic, dimensional
+analysis of stimulus variables comparable to the trait systems that have been developed for individual
+difference variables. While work proceeds actively to extend the exploration of individual differences … the
+equally important frontier of situational dimensions is virtually ignored
+( Sells, 1963 , p. 700).
+… [W]hile methods of assessing dimensions of individual differences across persons abound, equivalently-
+sophisticated, parallel methods for assessing behaviors or situations are painfully lacking … no larger scheme
+organizes the many aspects of situations that have been demonstrated to be important
+( Funder, 2009 , p. 123).
+One of the primary consequences of this lack of consensus is that researchers who are interested in studying
+the effects of situations are often forced to use ad hoc conceptualizations (Grote & James, 1989). Although this
+practice has yielded much important information, creating a generalizable knowledge base upon ad hoc
+conceptualizations may be viewed as a less-than-ideal scientic strategy. One might ask, however, “what
+benets might come out of developing a universal taxonomy of situations?” The following section addresses
+this question directly.
+Why Is the Taxonomy of Situations an Important Scientific Endeavor?
+From a basic science perspective, the notion that “the situation” exists as a psycho-socio construct is enough to
+justify investing the time, effort, money, and other resources to study its nature and structure. That being said,
+it is also important to point out that the case for its importance is bolstered by claims that it plays an important
+role in the human experience (Sells, 1963). Here, evidence in support of the practical importance of situations
+comes from a number of disciplines that have posited (and often found) important direct or indirect effects of
+situations on human affect, behavior, and/or cognition.
+For example, environmental psychologists study the effects of physical environments on the human
+experience and have found signicant effects for communities, organizations, and even buildings on outcomes
+as diverse as stress, attitudes, and replenishment of psychological resources (see Sundstrom, Bell, Busby, &Downloaded from https://academic.oup.com/edited-volume/42044/chapter/355794666 by Brian Mills on 25 June 2025
+Asmus, 1996 for a review). Further, the notion that situations and/or their dening elements play a central role
+in human behavior is arguably social psychology’s raison d’être (Baumeister & Tice, 1985; Edwards &
+Templeton, 2005). Lastly, some investigators have even postulated that the ability to discern relevant and
+insightful information from situations is a characteristic that has been shaped through evolutionary forces and
+is therefore expressed naturally by the human species (Kelley, Holmes, Kerr, Reis, Rusbult, & Van Lange, 2003).
+These diverse lines of reasoning suggest that “situations” are important concepts, but they do not provide an
+answer as to why a taxonomy of situations is important. Here, evidence supporting the taxonomy of situations
+is contingent not only on nding effects but also on understanding those effects in a way that is both
+parsimonious and practical—that is, on discerning the nature and structure of this broad category of
+interrelated entities so as to uncover general scientic laws that help explain how and why various situations
+affect different types of people in predictably unique ways (Hattrup & Jackson, 1996). Said differently,
+classication is fundamental to the goals of science in that it provides a universal means of effectively
+conceptualizing and efciently communicating information about concepts of interest (Rosch, 1978; Sokal,
+1974). When developed with foresight and purpose, then, classication efforts have the potential to be more
+than mere “catalogues of convenience” (Pervin, 1978, p. 98), by serving as meaningful theories in their own
+right. Such a standard, however, requires that the constructs of interest be clearly articulated, that the
+relationships among these constructs be specied, and that the system as a whole can be empirically falsied
+(Doty & Glick, 1994).
+Thus, it is in service of the scientic goals of description, prediction, and explanation that situational taxonomy
+becomes critical. That is to say, it is not enough to show that a given situation has a particular effect on a
+specic outcome; it is also necessary to be able to build a case showing why the situation has this effect. Said
+differently, psychology should strive to answer the question “what active ingredients of the situation interacted
+with specic individual differences to inuence a given outcome and what other situations share those same
+ingredients and therefore might predict similar outcomes?” Perhaps, then, the best evidence for the need of a
+taxonomy of situations comes from the long list of scholars across psychological subdisciplines who have
+called for such a taxonomy (a lengthy list of quotations from diverse scholars can be obtained by contacting the
+author). I argue here that these arguments typically take one of four forms.
+First, the classic situationist argument (most common in elds such as sociology and social psychology) posits
+that situations have important main effects on numerous outcomes of interest; thus, situational variables
+should be thoroughly organized to better facilitate a full understanding of these inuences (Davis-Blake &
+Pfeffer, 1989; Frederiksen, 1972; Rutter, Pickles, Murray, & Eaves, 2001). Second, the situation-as-context
+argument (most common in elds such as educational psychology and the organizational sciences) posits that
+broad environmental forces often inuence the expression of one’s personality, but this frequently occurs
+through means that are unforeseen and/or that operate outside of the theory of interest (Cappelli & Sherer,
+1991; Johns, 2001, 2006). Third, the interactionist perspective posits that human behavior is a joint function of
+individuals and situations; thus, theories that attempt to explain human behavior should explicitly and
+intentionally account for both of these sources of variability by demonstrating the main effects of each, as well
+as their interactions (Barrick & Mount, 2005; Cronbach, 1957; Hattrup & Jackson, 1996; Magnusson, 1981;
+Murtha, Kanfer, & Ackerman, 1996; Tett & Burnett, 2003). Fourth, the trait-based view of situations (primarily
+found in personality psychology) posits that “only those situation taxonomies that are built as a further
+specication of trait knowledge are of interest” (Ten Berge & De Raad, 1999, p. 354).
+It is important to note here that the aforementioned perspectives are not necessarily at odds with one another;
+they merely represent different approaches to conceptualizing ways in which situations affect outcomes in the
+social sciences and would each be furthered by continued efforts to develop a universally accepted taxonomy of
+situations. Before such a taxonomy will ever be possible, however, several key questions regarding the nature of
+situations and their classication need to be addressed and, ideally, settled. As such, the following section
+outlines the many decisions researchers must make when attempting to develop such a system, presented hereDownloaded from https://academic.oup.com/edited-volume/42044/chapter/355794666 by Brian Mills on 25 June 2025
+Objective versus Subjective Situations
+as a series of questions with at least two competing options. Wherever possible, existing taxonomies that
+represent the option in question are reviewed and discussed.
+Key Decision Points for Creating/Evaluating a Taxonomy of Situations
+Perhaps the rst question researchers must answer is whether situations should be dened as clusters of
+objective stimuli or if the focus should be placed on people’s subjective interpretations thereof (Frederikson,
+1972). The importance of this decision was rst described by Murray (1938), who dened press as “a directional
+tendency in an object or situation” and distinguished between alpha-press, dened as “the press that actually
+exists, as far as scientic inquiry can dene it” and beta-press, dened as “the subject’s own interpretation of
+the phenomena that he perceives” (p. 122). From Murray’s perspective, those aspects of the situation that are
+considered “press” are those characteristics that can help or harm the person (everything else is considered
+“inert”), and the process of determining whether something helps or harms is the process of “pressive
+perception.” When pressive perception is particularly inaccurate (i.e., when there is a large gap between the
+objective positivity or negativity of a situation and one’s subjective interpretation of it), it can be said that the
+individual is experiencing a delusion.
+Extending this distinction one step further, Block and Block (1981) argued that situational stimuli can best be
+divided into three broad categories of perceptual concreteness. First, they argued that there are rarely seen,
+“perceptually unltered and uninterpreted” (p. 86) aspects of situations that are absorbed naturally through the
+senses, which they referred to as “the physico-biological situation.” They also agreed with Murray’s concept of
+“alpha press,” while simultaneously recognizing that the extent to which situational stimuli will likely be
+agreed upon by most individuals who experience the situation in question is an important consideration,
+which they referred to as “the canonical situation.” Lastly, and much like Murray’s beta-press, they also
+recognized that situational stimuli might also be uniquely perceived by each individual, and they called this
+“the functional situation.”
+After creating this trifurcated distinction, Block and Block went on to develop a taxonomy of canonical
+situations of their own, which was based on the responses of 11-year-old children to 54 diverse situation-
+relevant items. Briey, their model builds on the results of previous taxonomies to elucidate 11 dening
+dimensions (pp. 99–100): structure (the extent to which “goals, tasks, and roles are well-dened”), convergence
+(the extent to which there is “one correct or acceptable solution”), divergence (the extent to which there is “an
+open-ended number of alternative solutions”), evaluation (the extent to which “the accuracy, desirability, or
+appropriateness of behavior is explicitly or implicitly understood to be evaluated”), feedback (the extent to
+which “information about the effectiveness, appropriateness, or desirability of one’s behavior is explicitly
+provided by another”), constraints (the extent to which “the dened goal, problem solution, or social
+interaction is constrained by the presence of a barrier”), impedance (the extent to which the situation requires
+“a high degree of exertion”), malleability (the extent to which situations “permit locomotion and/or
+restructuring”), galvanization (the extent to which the situation is “attractively arousing, stimulating, or has
+incentive value”), familiarity (the extent to which situations are “known to and predictable by the ‘average
+expectable person’”), and differentiation (the extent to which situations are “highly articulated, with a great
+number of ‘discriminanda’ or ‘regions’”).
+Block and Block’s taxonomy has a number of positive features (1981). First, as is the focus of this section, these
+authors specically stated that they are interested only in canonical situations, with the assumption that
+understanding the ways in which individuals are likely to agree on the nature of the situations they experience
+is necessary to explain the ways in situations interact with relevant individual differences to predict humanDownloaded from https://academic.oup.com/edited-volume/42044/chapter/355794666 by Brian Mills on 25 June 2025
+Situations in General or Specific Domains Thereof
+behavior. Second, the authors also acknowledged the importance of distinguishing types of situations versus
+the dimensions that dene them (discussed in greater detail later), although their analyses focused almost
+exclusively on the latter. Third, their dimensional structure explicitly and intentionally built on the
+dimensional structures of previous authors. Unfortunately, however, one of the primary limitations of their
+taxonomy is that it was based on children’s responses, so its comprehensiveness and generalizability to adults
+remains unknown.
+Not surprisingly, other attempts at situational taxonomy have categorized objective components of situations
+instead of perceptions thereof. A recent and interesting effort in this regard stems from a yet-unpublished
+manuscript by Pury et al. (2014), who based their taxonomy on “situational affordances,” which can be dened
+as those aspects of situations that explicitly permit certain types of behaviors to be expressed (Gibson, 1977).
+This effort explicitly focuses on objective aspects of situations, which Pury et al. argue are independent of
+personality or individual perception and will therefore prevent perceptual biases that have affected previous
+studies of situations.
+Given that the denition of affordances lends itself directly to action, these authors culled verbs from an
+English language dictionary, reduced them to a list of 100 that represent those that are likely common in daily
+life, and asked participants to rate them in terms of similarity. Results suggest that seven dimensions underlie
+situations: change (the extent to which the situation is dynamic or remains static), ownership (whether one’s
+self has control and responsibility over the situation or someone else has control and responsibility over it),
+valence (whether the situation encourages approach or avoidance), timing (whether the situation shows little
+activity or ongoing activity), target (whether the situation is focused on a person or an object), privacy (whether
+relevant information is kept private or made known to others), and consideration (whether one’s focus is on
+him/herself or on others).
+An equally important question that researchers must address when creating a taxonomy of situations pertains
+to whether their goal is to attempt to classify all possible situations or if they will focus on some subcategory.
+This distinction is critical because creating a taxonomy of situations does not necessarily imply that the result
+will represent all possible situations, meaning that taxonomies of specic domains of the universe of possible
+situations can be well-developed entities that have an important impact on specic areas of study. Thus it is
+important to state explicitly that taxonomies of situations in general should not necessarily be viewed as an
+inherently more desirable end-state than more focused taxonomies, but simply that the focus and importance
+of any taxonomy should be made explicit.
+Regarding those efforts that have focused on creating taxonomies of situations in general, one example comes
+from the work of Edwards and Templeton (2005), who attempted to discern all possible attributes (i.e.,
+“dimensions”) that underlie situations. The philosophy driving their efforts was that situations, much like
+people, are perceived as having enduring characteristics that are recognizable by human raters (i.e., that
+situations have “traits”). In an effort to identify the most parsimonious list of traits used to describe situations,
+these authors used an unabridged dictionary to identify more than one thousand adjectives, which they argued
+represent all terms in the English language that can be used to describe situations.
+These authors then asked multiple samples of undergraduate students to (a) rate the extent to which a random
+sample of these adjectives described or did not describe a situation they experienced the day prior, (b) rate a
+situation they experienced on several predetermined dimensions, or (c) sort situations on the basis of
+similarity. Based on a combination of factor analyses, multidimensional scaling, regression, and cluster
+analysis, the authors ultimately concluded that situations contain three foci: valence (positivity versus
+negativity), productivity (the extent to which a situation is focused on goal achievement), and ease ofDownloaded from https://academic.oup.com/edited-volume/42044/chapter/355794666 by Brian Mills on 25 June 2025
+negotiation (the extent to which situational constraints are exible and negotiable). They also argue that the
+characteristics they identied are not only comprehensive but also reect the idea that perceptions of
+situations are ultimately driven by the extent to which they facilitate or hinder goal attainment.
+An important caveat to those studies that attempt to assess situations in general, however, is that even they are
+oftentimes conceptually limited by the nature of their situational sampling strategy and/or they include one or
+more important distinctions regarding the purpose/generalizability of their taxonomy. For example, the
+Edwards and Templeton (2005) taxonomy outlined in the previous paragraphs assumes that situational
+characteristics will only be detectable to individuals to the extent that those characteristics affect some relevant
+outcome (e.g., a party might be perceived as “boring” because the party elicits a negative emotional state in the
+perceiver, a battle may be perceived as “destructive” because of damage inicted on surrounding buildings) and
+only employed situations experienced by college students. As such, one could interpret these authors’
+conclusions not as the dimensions underlying all possible situations but, instead, as the dimensions having
+“underlying causal powers” (p. 707) that are familiar to college students in a Western, educated, industrialized,
+rich, and democratic (i.e., WEIRD) cultural context (Henrich, Heine, & Norenzayan, 2010). Furthermore, Price’s
+empirical work on situational taxonomies (e.g., Price, 1974; Price & Blasheld, 1975; Price & Bouffard, 1974) used
+undergraduate students and members of a small town in the Midwestern United States, meaning that
+potentially important categories of situations are likely missing from these analyses. Again, such restrictions
+should not necessarily be viewed as limitations, but instead as important qualiers to the generalizability of
+the proposed taxonomies and to the scope of subsequent inferences.
+Given the nearly innite number and diversity of situations that one might experience and the somewhat
+focused research interests of many psychologists, it is not surprising that the majority of existing taxonomies
+focus on subcategories of situations or dimensions thereof. Perhaps not surprisingly, then, these efforts are
+dened by their diversity, in that situational taxonomies range from those that focus on occupational
+environments (e.g., Holland, 1959, 1997) to those that focus on situations relevant to elderly individuals (Scheidt
+& Schaie, 1978). Scheidt and Schaie’s taxonomy is reviewed here because it represents an effort that, on the one
+hand, is focused on such a specic question that one might assume is only relevant to certain research
+questions, but that, on the other hand, provides useful insights that might help inform the efforts of anyone
+who is interested in better understanding the effects of situations on human behavior.
+These authors approached the question of whether to focus on a general or specic domain from a cognitive
+developmental perspective, in that their goal was to identify ecologically valid ways in which the competencies
+of elderly individuals interacted with situational characteristics in order to predict the effectiveness of
+intellectual functioning. To accomplish that goal, the authors used more than 300 situational stimuli developed
+on the basis of interviews and self-reported situations among their target population and applied a
+combination of sorting techniques and tetrachoric correlations to conclude that three critical dimensions
+explained the class of situations they were most interested in: ease/adequacy of coping, subjective ratings of
+pleasure/aversion, and frequency of occurrence. They then tested (a) the extent to which these dimensions
+interacted with one another and (b) whether relevant individual differences inuenced the extent to which
+participants perceived themselves as able to manage the situations in question. Although the authors
+specically stated that theirs was a rather small rst step toward their broader scientic goals, the dimensions
+they identied represent an important contribution to the cumulative knowledge about those dimensions that
+may best dene situations and, at a minimum, could be used to help inform future interpretations of
+subsequent taxonomies.Downloaded from https://academic.oup.com/edited-volume/42044/chapter/355794666 by Brian Mills on 25 June 2025
+Situational Cues, Characteristics, or Classes
+Although several of the taxonomies described thus far have focused on determining the underlying
+dimensional structure of situations, it is important to point out that others have focused on identiable types
+of situations (also known as “nominal situations”), whereas others have focused on specic pieces that dene
+the composition of the situation. Indeed, the specic terms that can be used to refer to these aspects of
+situations are not consistent. That being said, an active group of situational researchers have recently argued
+that the following terms should be adopted (Rauthmann, Sherman, & Funder, 2015): Cues should be used to
+describe the physical or objective pieces (or “elements”) of compositional information that make up situations
+(e.g., the presence of other people, the presence of formal authority conveyed to the actor[s] within the
+situation), Characteristics should be used to dene the dimensions that describe/underlie situations (e.g.,
+whether the situation is, on par, positively or negatively valenced), and classes should be used to describe the
+broad categories that individual situations can be categorized into (e.g., social situations, work situations).
+Given the soundness of this recommendation and the recognized need for consistent situational language, I
+adopt their nomenclature throughout the remainder of this article.
+Taxonomies that focus on classes have as their unit of analysis broad categories of situations, but they remain
+agnostic to the myriad potential ways in which these situations may be similar to or different from one
+another. The emphasis is merely on the notion that the situations show cross-category heterogeneity and a
+reasonable amount of within-class homogeneity. In contrast, characteristic-based solutions have as their unit
+of analysis the nite number of ingredients/dimensions that can be used to differentially dene diverse
+situations. These dimensions are typically viewed as orthogonal continua and are generally discovered
+empirically, although several extant efforts have drawn from previous solutions in an effort to connect
+contemporary ndings with past research.
+Importantly, efforts in both of these camps have produced useful results. For example, some of the most highly
+cited taxonomies of situations (for example, those of Jones & James, 1979, and Karasek, 1979) focus solely on the
+characteristics that underlie situations, whereas other highly cited taxonomies (for example, that of Amabile,
+Conti, Coon, Lazenby, & Herron, 1996) focus on a specic situational class. Furthermore, neither approach is
+inherently superior to the other, although several authors have made reasonably convincing arguments that
+characteristic-based solutions are more conducive to achieving many modern social science goals (Block &
+Block 1981; Edwards & Templeton, 2005; Frederiksen, 1972; Magnusson, 1971; Rauthmann, Sherman, and
+Funder, 2015). Because several characteristic-based taxonomies were outlined previously in this article, no
+additional dimensional solutions will be reviewed here.
+As an example of a class-based solution, Baumeister and Tice (1985) argued that a reasonable way to identify all
+possible categories of situations would be to examine the nature of the independent variables used in the
+Journal of Personality and Social Psychology. Their argument was that one of the primary goals of the eld of
+social psychology is to understand the ways in which situations inuence human affect and behavior, and for
+that reason, sampling randomly from the stimuli used in one of social psychology’s primary journals should
+yield a nearly comprehensive list of those aspects of situations that have an impact on human affect, behavior,
+and/or cognition.
+The original effort by these authors to identify the stimuli used to develop this structure yielded 1,622 stimuli;
+they then used an intuitive sorting strategy to arrange those stimuli into 51 classes. The 51 classes were then
+further subdivided into ve classes, which Baumeister and Tice argued represent the basic structure of
+situations. Briey, these classes are the stimulus environment (i.e., “its physical, spatial, and temporal structure,
+as well as any social structure that is external to the individual” p. 152), characteristics of subject (i.e., aspects of
+the participant him/herself, though the authors acknowledged that some users may wish to eliminate this
+category), cognitive and affective dynamics (i.e., induced states experienced by the individual), relationship
+background (i.e., “the actual or perceived genesis of the subject’s relation to the other person[s] in the situation”Downloaded from https://academic.oup.com/edited-volume/42044/chapter/355794666 by Brian Mills on 25 June 2025
+Determining the Fidelity of Stimuli
+p. 159), and matrix of possibilities (i.e., “the range of alternatives available to the subject for behavioral response
+and the potential consequences, outcomes, and implications of the various alternatives” p. 162). Unfortunately,
+however, this nal structure (a) contains many non-situational characteristics and (b) did not yield an
+instrument that could be used to analyze situations. As such, this taxonomy is of limited use and
+generalizability.
+Finally, it is important to point out that a few studies have attempted to simultaneously create a taxonomy of
+both classes and characteristics or to focus on one en route to a deeper understanding of the other. For
+example, Magnusson and Ekehammar (1973) argued that ve dimensions (positive, negative, passive, social,
+and ambitious) and six or seven types (depending on the analytic strategy used) can be used to describe
+situations in general. Although the purely empirical nature of this solution prevented the creation of a more
+logically consistent structure (e.g., by combining positivity and negativity into a single bipolar dimension),
+these authors should be commended for attempting to understand situational characteristics, as well as classes
+thereof. Furthermore, although the Block and Block (1981) taxonomy outlined earlier focuses primarily on
+characteristics of situations, these authors also briey demonstrated how these characteristics might be able to
+be combined to form types of situations. For example, they argue that “tough situations” lack structure, offer
+energetic impedance, are evaluative in nature, feel unfamiliar to the experiencer, are constraining, and are not
+malleable.
+Methodological and Statistical Issues
+Once the questions pertaining to the nature of the desired taxonomy have been addressed, it becomes
+necessary to determine which empirical procedures are to be used to develop that taxonomy. Here again, there
+are no inherently correct approaches, but some options are more or less appropriate depending on the nature of
+the desired taxonomy and its uses. The following subsections outline each of the major issues to be addressed
+and the available options for each.
+Any empirically veried taxonomy of situations will necessarily be based on assessments of relevant stimuli—
+that is, the situations that participants assess to provide the data that the researcher will use to derive the
+ultimate taxonomy. An important methodological question, however, focuses on determining how much
+information will be conveyed in each stimulus. I argue here that stimuli come in two general forms:
+“componential” and “holistic,” though much variability exists within and between these two general
+categories. Specically, componential stimuli represent relatively context-free aspects of situations represented
+by a single part of speech. Holistic stimuli, in contrast, are larger combinations of terms, and they typically
+contain substantial contextual detail (e.g., about the who, what, when, where, why, and how of the situation—
+Johns, 2006). The merits and demerits of these two approaches are discussed below.
+When developing arguments for using a componential perspective, a given author typically posits that a
+certain part of speech (e.g., verb, adjective) can be used to adequately describe the function of the situations
+that the authors view as most critical. For example, Pury et al. argued that verbs are a useful focus of attention
+because one of the primary functions that situations fulll is that of affordances, so understanding what people
+do in situations permits fuller knowledge of the most important features of these situations. Again, no claim is
+made here that the Pury et al. approach is correct (per se), it simply represents a well-articulated, theoretically
+grounded rationale for the authors’ choice, which is an important rst step in this process.
+Regardless of which part of speech is selected, authors who take a componential perspective typically use one
+or, at a maximum, a combination of a few words as their stimuli. This approach, however, is limited by the factDownloaded from https://academic.oup.com/edited-volume/42044/chapter/355794666 by Brian Mills on 25 June 2025
+Creating a Stimulus Set
+that situations are typically best described as multifaceted entities, meaning that they involve one or more
+actors, an action, and some description of surrounding conditions. Single-term lexical approaches, however,
+focus exclusively on a single part of speech. The net result of this limited focus is that information about who is
+engaging in the action in question, as well as why, etc. is missing from the stimulus set, thereby potentially
+limiting the representativeness of the taxonomy itself and, therefore, the inferences made on the basis of that
+taxonomy.
+Indeed, Johns (2006) made a convincing case for the idea that successfully conceptualizing organizational
+context (which is related to the concept of situations, albeit substantially broader in scope) requires information
+about who is involved, what is happening, when they are doing it, where it is occurring, why it is occurring, and
+how it is being done. From this perspective, then, situational stimuli can be represented by full sentences (or
+even brief vignettes) that contain information about each of these considerations. An example of a study in
+which more holistic stimuli were used is a recent publication by Rauthmann et al. (2014). Their samples A
+through G were developed by asking participants to write a brief description of a situation they encountered
+during the previous day. That situation was subsequently used by the participants as their reference point
+when they completed a situational Q-sort activity. The Rauthmann et al. study will be described in greater
+detail later in this article.
+Given the nearly innite number of situations that humans can potentially experience, it is not surprising that
+studies in the extant literature have come up with several different methods of developing a subset of stimuli
+for study. Each such subset, however, has important limitations, suggesting that a comprehensive taxonomy of
+situations (if one ever exists) will likely have employed multiple stimulus creation methods, some of which may
+not appear in the following discussion.
+First (and consistent with efforts in personality psychology that ultimately resulted in the Five Factor model of
+personality), some researchers have employed the Lexical Hypothesis, which posits that important concepts
+will exist in common language. Here, several specic approaches, all of which are based in some degree on the
+Lexical Hypothesis, have been employed. The most straightforward approach (and that which is most
+consistent with the efforts resulting in the Big Five) is to cull from an unabridged dictionary single terms that
+represent and/or describe situations. As outlined previously, Pury et al. employed the lexical approach to nd
+situationally relevant verbs that were used as stimuli in subsequent analyses (2014). This approach was
+consistent with these authors’ goals because they were focused on situational affordances, which inherently
+enable actions, but their stimuli (and, therefore, their ultimate conclusions) may lack additional contextual
+information.
+An interesting and novel way in which researchers have capitalized on the general idea underlying the Lexical
+Hypothesis is by using more context-rich linguistic manifestations of situational information. Perhaps the
+most comprehensive example of such an approach was published by Yang, Read, and Miller (2006), who used
+Chinese idioms as their stimulus set. These authors argued that Chinese idioms are an especially rich source of
+situationally relevant information because of cultural tendencies that put a strong emphasis on context.
+Furthermore, Chinese idioms are of a standardized (i.e., four-character) format and cover a large number of
+situations due to their importance in Chinese language and culture. Lastly, these authors’ efforts suggest that
+Chinese idioms are easily translated into English, without losing important information or meaning.
+Given the many benets of Chinese idioms as potential situational stimuli, Yang et al., asked participants to
+engage in a sorting activity in which they categorized lists of idioms as a function of perceived similarity. This
+approach allowed the authors to create an N × N matrix wherein cell values reect the number of participants
+who classied any two idioms into the same category. These matrices were then cluster analyzed (a processDownloaded from https://academic.oup.com/edited-volume/42044/chapter/355794666 by Brian Mills on 25 June 2025
+described in greater detail below) to form a hierarchical, 17-cluster solution. At the broadest level of abstraction,
+the authors argued that most of the situations in their sample could be described by the extent to which they
+facilitate versus hinder goal achievement (or, conversely, whether the situation is generally viewed positively or
+negatively). One way in which this study was limited by its stimulus source lies in the fact that idioms are
+typically written to support a point and are not used to describe mundane situations. Thus, the fact that the
+ultimate solution pointed toward goal attainment as a critical underlying factor may say more about the
+purpose of idioms than about the actual structure of situations. It is therefore important to investigate other
+ways of creating situational stimuli.
+A second method for deriving situational stimuli involves participants keeping a daily diary for the express
+purpose of documenting psychologically salient situations, situations of a particular type (e.g., situations that
+enable creativity—Amabile, Conti, Coon, Lazenby, & Herron, 1996), and/or specic details about situations. One
+of the best-known situational taxonomies that used this stimulus-generation approach is Battistich and
+Thompson’s (1980) analysis of the college milieu. These authors asked 37 undergraduates to keep a written
+record of the situations they experienced for a period of two days. Participants then reviewed their lists and
+added to them any situations they had experienced frequently over the course of the previous year. The 30
+most frequently mentioned situations (across participants) were then selected by the authors to be rated by an
+independent sample of student raters. Regardless of the specic details of the approach employed, the
+underlying goal is the same: namely, to obtain a stimulus set representing situations that people report having
+actually experienced.
+A fundamentally different approach is to develop situational stimuli by asking subject matter experts (SMEs;
+usually PhD psychologists or psychology graduate students) to inductively develop lists of situations that
+particular individuals (or people in general) might experience under various circumstances. This approach has
+the potential to be incomplete because of limitations of the SMEs’ particular experiences and/or limitations of
+the human imagination. Thus, although some studies have used this approach in the past (e.g., Mehrabian &
+Russell, 1974), this method seems to have fallen out of favor.
+Perhaps the most common way of developing a set of situational stimuli involves collecting participants’
+descriptions of actual situations they have experienced. I refer to these as “post-hoc methods” because they
+involve asking participants to provide retroactive self-reports. As mentioned previously, Rauthmann et al.
+(2014) asked several samples of participants to describe the situations they experienced at various points in the
+previous day (e.g., at 11:00 a.m., 7:00 p.m., 24 hours prior) whereas Sherman, Nave, and Funder (2013) allowed
+participants to choose from four preselected times (i.e., 10:00 a.m., 2:00, 5:00, or 9:00 p.m.). Although this
+approach is likely to yield rich descriptions of actual situations, its primary limitation is that the use of xed
+time frames may limit the diversity of situations because certain settings/activities may be excluded. Thus, if
+this approach is used, this limitation should be addressed by including a diverse array of times to select from
+and/or asking participants to describe the situation they were experiencing up to 24 hours prior (for example)
+or at some randomly selected time.
+Lastly, what I call “combinative” methods are those that involve using several relevant terms to form stimuli.
+For example, Meyer (2009) used a random sentence generator that combined several parts of speech into fairly
+rich descriptions of work situations (e.g., “discussing problems with direct reports as part of a team-building
+activity,” “socializing with a coworker outside my ofce”), which were subsequently compared in a pairwise
+fashion on the basis of similarity. The main benet of combinative methods is that they yield rich stimuli that
+are relatively consistent in terms of phrasing. The main drawbacks of such approaches, however, are that (a)
+one still needs to determine a method for populating each of the elds, typically using one of the methods
+outlined previously and (b) this system yields a large number of nonsensical stimuli that need to be removed
+(requiring the intervention of human judgment) before the ultimate stimulus set is ready for use. That being
+said, if these drawbacks can be overcome, combinative methods have the potential to yield useful, high-delity
+stimuli.Downloaded from https://academic.oup.com/edited-volume/42044/chapter/355794666 by Brian Mills on 25 June 2025
+Data Collection Methods
+Data Analysis Methods
+After a stimulus set has been developed it is next necessary to collect data pertaining to the nature of stimuli
+provided. If there is an a priori reason to believe that the situations will best be dened by specic underlying
+characteristics or fall into one of multiple specic classes, then participants would simply read each stimulus
+and assess the extent to which a given dimension denes it or place it in the most relevant category. Most
+taxonomies, however, are more exploratory than conrmatory, meaning that the researcher does not have a
+strong reason to believe that a given stimulus set will be dened by a nite set of underlying characteristics or
+will best be categorized into a nite set of classes. For this reason, researchers typically need to gather data in a
+way that permits characteristic-based and/or class-based information to be gleaned from participant
+responses.
+Perhaps the most common way to obtain such data is through pairwise analyses (Bijmolt & Wedel, 1995). With
+this approach, participants simply read two stimuli and assess the extent to which they are similar to or
+different from each other (in doing so, they might use a 1 to 7 scale where 1 = very dissimilar and 7 = very
+similar). The greatest limitation of this system is that the number of possible pairwise comparisons grows
+quickly as the number of stimuli increases. Specically, the formula for calculating the number of possible
+pairwise comparisons is N(N – 1)/2, which means that the number of comparisons for which a given
+respondent is responsible begins to become unruly at around 25, which yields 300 possible comparisons. A
+slight (albeit rarer) variation on this procedure is to employ “triadic comparisons.” With this approach,
+participants are exposed to three stimuli and asked to form (a) the most similar pair and (b) the least similar
+pair. As with pairwise comparisons, however, the burden placed on participants increases greatly as the
+number of stimuli to be compared increases (Bijmolt & Wedel, 1995).
+Another alternative that can be employed when one does not have a priori dimensional information is to ask
+participants to sort stimuli into groups on the basis of their perceived similarity. Typically, this process is
+completed by asking participants to form as many or as few categories as necessary to represent the stimulus
+set in question. The end result is an N × N matrix in which the number in each cell represents the number of
+participants who put two stimuli into the same category. Fortunately, several Web-based programs are
+available for randomizing the presentation of stimuli and populating the N × N matrix based on participants’
+responses.
+The last step in creating a taxonomy of situations is to analyze the data collected using one of the
+aforementioned options. Here, the most common approaches are multidimensional scaling (MDS), factor
+analysis, and cluster analysis. Space limitations do not permit detailed discussions of each of these approaches
+(and there are numerous books and hundreds of journal articles published on each), but there are a few key
+issues that should be discussed here.
+First, an inherent characteristic of data reduction analyses is that some explanatory power is lost in pursuit of
+parsimony. Second, all of these approaches require a rather large amount of human interpretative judgment.
+That is, once a particular structure is decided on, it is incumbent on the researcher to make sense of the specic
+ways the original stimuli map onto that structure. Although this process is difcult, it is possible to validate the
+ultimate structure post hoc. Specically, a new group of participants can rate the original stimulus on the
+dimensions decided on by the researcher and a host of plausible alternatives. These ratings can then be
+regressed onto the location of each stimulus on the ultimate MDS map. Conceptually similar methods are also
+available for factor analyses and cluster analyses, wherein an independent sample of participants assesses the
+extent to which the stimuli are either indicators of a given factor or “belong” in each of the resultant factorsDownloaded from https://academic.oup.com/edited-volume/42044/chapter/355794666 by Brian Mills on 25 June 2025
+(respectively). Regardless of which approach is used, validation of the researcher’s original solution by an
+independent group of raters is an essential step in the development of any taxonomic solution.
+Shared Characteristics of Extant Situational Taxonomies
+Given the numerous decisions researchers must make when developing taxonomies of situations (as well as the
+shear magnitude of any such endeavor), it should not be surprising that a true consensus pertaining to the
+nature and structure of situations remains elusive. Additionally, however, there is a host of more systemic
+issues that have limited extant taxonomic efforts. I argue that, despite the diversity of approaches outlined
+previously, nearly all attempts to create taxonomies of situations share two (potentially related) features.
+First, they represent the work of a single researcher (or team of researchers) working in relative isolation, with
+little attempt to build on existing efforts. This phenomenon is particularly unfortunate because many areas of
+social science research posit main and/or interactive effects for situations. Thus it is somewhat puzzling that
+more consensus does not exist around this question in psychology as a whole. This critique, however, comes
+with a caveat; namely, that most researchers who have created taxonomies of situations have made a concerted
+effort to draw from one or more extant efforts (e.g., in offering dimension names), but few if any have actively
+built on or extended the work of others. Consistent with the Frederiksen (1972) epigraph at the beginning of this
+article, this reluctance to work in concert with other researchers (from the past or the present) is unfortunate
+given that it is highly unlikely that any single scholar will ever produce the denitive taxonomy of situations.
+Second, no single taxonomy has been adopted across disciplines to any great degree; nor has any developer of a
+taxonomy made an effort to “advertise” across multiple disciplines. Therefore there continue to be numerous
+calls across a variety of literatures for a universally accepted taxonomy of situations. Many of the attempts to
+classify this domain of constructs have been published in discipline-specic journals and have primarily cited
+work in closely related areas. The end result of this isolation is that efforts from one area of study that are
+potentially useful in other areas of study are not discovered and therefore are not used. This phenomenon also,
+however, speaks to an unfortunate “Catch 22” in the publication of scholarly work in this area: namely, there is
+no general psychology journal that regularly and consistently publishes work relevant to situational
+taxonomies, and the science of situational taxonomy has no single natural home in any subdiscipline of
+psychology.
+It is important to highlight here, however, the collaborative research efforts of an international team of
+psychologists who have devoted substantial effort to situational taxonomy. Specically, The International
+Situations Project (headquartered at the University of California Riverside) represents a consortium of scholars
+who have collected large amounts of data from across the world and have published several studies on the topic
+of situational taxonomy.
+Perhaps the most important contribution of this group is the creation of the Situational Eight DIAMONDS,
+which posits that eight characteristics can be used to dene situations in general (Rauthmann et al., 2014).
+Specically, “Duty” refers to the extent to which a task needs to be completed, “Intellect” refers to the extent to
+which one’s intellectual capacity can/should be demonstrated, “Adversity” refers to the extent to which
+threats/harm may occur, “Mating” refers to the extent to which sex is a salient characteristic, “pOsitivity”
+refers to the extent to which good things may occur, “Negativity” refers to the extent to which bad things may
+occur, “Deception” refers to the extent to which someone may be misled, and “Sociality” refers to the extent to
+which personal interactions may occur.
+Although the Situational Eight DIAMONDS is not a perfect solution to the problem of situational taxonomy
+(e.g., some items load in unexpected ways on their nal factor structure, it deals only with situational
+characteristics while being agnostic with respect to situational categories), it does represent an important leapDownloaded from https://academic.oup.com/edited-volume/42044/chapter/355794666 by Brian Mills on 25 June 2025
+Accounting for the Hierarchical Structure of Situations
+Simultaneously Accounting for Both Characteristics and Categories
+forward. Specically, just as the Big Five represents the best-known factor structure of personality in general,
+the DIAMONDS model represents a comprehensive attempt to dene the characteristics that dene situations
+in general. As such, it is likely that this model will have an important impact on the understanding of situations
+and psychologists’ ability to make sense of this broad and important domain. Assuming for the moment,
+however, that the DIAMONDS model will not be the last word in situational taxonomy, the following section
+outlines several key areas of needed future research.
+Future Directions
+Some psychologists have recognized that categories of situations are naturally nested within each other and
+that categories at each level can be dened by their standing on one or more underlying characteristics
+(Saucier, Bel-Bahar, & Fernandez, 2007; Yang, Read, & Miller, 2006). At a very broad level of abstraction
+(although, perhaps not, the broadest), researchers might nd that situations can be divided by settings into
+work and recreational situations and that their standing on “duty” (for example) can be used to differentiate
+these broad categories. Within each of these broad domains, then, more specic types of situations also surely
+exist, which can themselves be classied and dened according to other relevant underlying characteristics.
+For example, Meyer (2009) has argued that work situations can be subdivided into four classes: “bureaucratic
+work situations,” “incubative work situations,” “prosaic work situations,” and “strategic work situations” which
+are dened by their standing on two dimensions: “maintenance-development” and “formality-informality.”
+Although several theorists have pointed out the importance of dening both classes and characteristics of
+situations (e.g., Funder, 2006; Pervin, 1978), most of the material reviewed throughout the present article
+suggests that extant attempts to classify situations have tended to focus on only one of these goals, to the
+exclusion of the other (Eckes, 1995). This is unfortunate because a taxonomy that simultaneously conveys
+information about both hierarchical classes of situations and their dening characteristics would permit a
+large amount of denitional information to be conveyed via simple labels. For example, knowing that an
+incubative situation is a work situation conveys the fact that it is high on the higher-order characteristic of
+duty, as well as the lower-order characteristics identied by Meyer (2009)—namely, development orientation
+(i.e., that the situation is focused on the future), and informality (i.e., that the situation lacks policies,
+procedures, and rules about employee expectations). To the extent that subordinate classes of situations are
+further elucidated (e.g., taxonomic efforts are focused on discovering subtypes of “incubative work situations”),
+even more denitional information can be known by simply knowing where a given situation exists within the
+hierarchical taxonomy.Downloaded from https://academic.oup.com/edited-volume/42044/chapter/355794666 by Brian Mills on 25 June 2025
+Stand on the Shoulders of Giants
+The last issue I will address is the rather piecemeal nature of the solutions outlined throughout this article.
+That is, extant situational taxonomies have tended to develop in relative isolation from one another. This is not
+to say that researchers developing situational taxonomies do not cite relevant prior efforts, but few (if any)
+actively seek to build on existing situational taxonomies. Given the enormity of the task in front of us, I argue
+that a sense of interconnected continuity will be necessary to achieve a reasonable consensus in this matter.
+Furthermore, I implore psychologists to look to other sciences that have created meaningful and long-lasting
+taxonomies of their concepts of interest. For example, The Linnaean Taxonomy of organisms in biology
+efciently conveys large amounts of information about both characteristics (e.g., warm-blooded versus cold-
+blooded animals) and categories (e.g., mammals versus reptiles). Similarly, the periodic table of elements in
+chemistry arranges chemicals into categories via columns (e.g., alkali metals, noble gases) on the basis of the
+conguration of the electrons in their shell, and the Diagnostic and Statistical Manual (DSM-5) groups
+psychiatric disorders on the basis of various diagnostic criteria.
+Although none of these systems is without controversy, they all resulted from the cooperative efforts of
+concerned members of the discipline thinking, planning, and acting in concert to provide a universal system
+for the benet of their respective elds. Such an effort would, I believe, benet psychology as a whole by
+providing not only a universal nomenclature but also the foundations of an updatable system to which
+interested parties could contribute. Although individual taxonomic efforts reported to date have been
+impressive and useful, I think psychologists should recognize Frederiksen’s (1972) wisdom when he stated that
+a taxonomy of situations “will surely not be the work of any one investigator” (p. 117), and psychologists
+should, therefore, begin the process of coming together to determine how our efforts might be used in concert
+to develop a system that will be mutually advantageous, scientically rigorous, and able to withstand the test of
+time.Downloaded from https://academic.oup.com/edited-volume/42044/chapter/355794666 by Brian Mills on 25 June 2025
+References
+Amabile, T. M., Conti, R., Coon, H., Lazenby, J., & Herron, M. (1996). Assessing the work environment for creativity. The Academy
+of Management Journal, 39, 1154–1184.
+Google Scholar WorldCat
+Barrick, M. R., & Mount M. K. (2005). Yes, personality matters: Moving on to more important matters. Human Performance, 18,
+359–372.
+Google Scholar WorldCat
+Battistich, V. A., & Thompson, E. G. (1980). Studentsʼ perception of the college milieu: A multidimensional scaling analysis.
+Personality and Social Psychology Bulletin, 6, 74–82.
+Google Scholar WorldCat
+Baumeister, R. F., & Tice, D. M. (1985). Toward a theory of situational structure. Environment and Behavior, 17, 147–192.
+Google Scholar WorldCat
+Bijmolt, T. H. A., & Wedel, M. (1995). The eects of alternative methods of collecting similarity data for multidimensional scaling.
+International Journal of Research in Marketing, 12, 363–371.
+Google Scholar WorldCat
+Block, J., & Block, J. (1981). Studying situational dimensions: A grand perspective and some limited empiricism. In D. Magnusson
+(Ed.), Toward a psychology of situations: An interactional perspective (pp. 85–106). Hillsdale, NJ: Erlbaum.
+Google Scholar Google Preview WorldCat COPAC
+Cappelli, P., & Sherer, P. D. (1991). The missing role of context in OB: The need for a meso-level approach. Research in
+Organizational Behavior, 13, 55–110.
+Google Scholar WorldCat
+Cronbach, L. J. (1957). The two disciplines of scientific psychology. American Psychologist, 12, 671–684.
+Google Scholar WorldCat
+Davis-Blake, A., & Pfeer, J. (1989). Just a mirage: The search for dispositional eects in organizational research. The Academy of
+Management Review, 14, 385–400.
+Google Scholar WorldCat
+Doty, D. H., & Glick, W. H. (1994). Typologies as a unique form of theory building: Toward improved understanding and modeling.
+The Academy of Management Review, 19, 230–251.
+Google Scholar WorldCat
+Eckes, T. (1995). Features of situations: A two-mode clustering study of situation prototypes. Personality and Social Psychology
+Bulletin, 21, 366–374.
+Google Scholar WorldCat
+Edwards, J. A., & Templeton, A. (2005). The structure of perceived qualities of situations. European Journal of Social Psychology,
+35, 705–723.
+Google Scholar WorldCat
+Frederiksen, N. (1972). Toward a taxonomy of situations. American Psychologist, 27, 114–123.
+Google Scholar WorldCat
+Funder, D. C. (2006). Towards a resolution of the personality triad: Persons, situations, and behaviors. Journal of Research in
+Personality, 40, 21–34.
+Google Scholar WorldCatDownloaded from https://academic.oup.com/edited-volume/42044/chapter/355794666 by Brian Mills on 25 June 2025
+Funder, D. C. (2009). Persons, behaviors, and situations: An agenda for personality psychology in the postwar era. Journal of
+Research in Personality, 43, 120–126.
+Google Scholar WorldCat
+Gibson, J. J. (1977). The concept of aordances. In R. Shaw, J. Bransford (Eds), Perceiving, acting, and knowing: Toward an
+ecological psychology. (pp. 67–82). Hillsdale, NJ: Lawrence Erlbaum Associates.
+Google Scholar Google Preview WorldCat COPAC
+Grote, G. F., & James, L. R. (1989). The development of a typology of achievement situations for American college students.
+Genetic, Social, and General Psychology Monographs, 115, 315–328.
+Google Scholar WorldCat
+Hattrup, K., & Jackson, S. E. (1996). Learning about individual dierences by taking situations seriously. In K. R. Murphy (Ed.),
+Individual dierences and behavior in organizations (pp. 507–547). San Francisco, CA: Jossey-Bass.
+Google Scholar Google Preview WorldCat COPAC
+Henrich, J., Heine, S. J., & Norenzayan, A. (2010). The weirdest people in the world? Behavioral and Brain Sciences, 33, 1–75.
+Google Scholar WorldCat
+Holland, J. L. (1959). A theory of vocational choice. Journal of Counseling Psychology, 6, 35–45.
+Google Scholar WorldCat
+Holland, J. L. (1997). Making vocational choices: A theory of vocational personalities and work environments (4th ed.). Odessa, FL:
+Psychological Assessment Resources.
+Google Scholar Google Preview WorldCat COPAC
+Johns, G. (2001). In praise of context. Journal of Organizational Behavior, 22, 31–42.
+Google Scholar WorldCat
+Johns, G. (2006). The essential impact of context on organizational behavior. Academy of Management Review, 31, 386–408.
+Google Scholar WorldCat
+Jones, A. P., & James, L. R. (1979). Psychological climate: Dimensions and relationships of individual and aggregated work
+environment perceptions. Organizational Behavior and Human Performance, 23, 201–250.
+Google Scholar WorldCat
+Karasek, R. A. (1979). Job demands, job decision latitude and mental strain: Implications for job redesign. Administrative Science
+Quarterly, 24, 285–308.
+Google Scholar WorldCat
+Kelley, H. H., Holmes, J. G., Kerr, N. L., Reis, H. T., Rusbult, C. E., & Van Lange, P. A. M. (2003). An atlas of interpersonal situations.
+Cambridge, UK: Cambridge University Press.
+Google Scholar Google Preview WorldCat COPAC
+Magnusson, D. (1971). An analysis of situational dimensions. Perceptual and Motor Skills, 32, 851–867.
+Google Scholar WorldCat
+Magnusson, D. (1981). Toward a Psychology of Situations: An Interactional Perspective, Hillsdale, NJ: Erlbaum.
+Google Scholar Google Preview WorldCat COPAC
+Magnusson, D., & Ekehammar, B. (1973). An analysis of situational dimensions: A replication. Multivariate Behavioral Research, 8,
+331–339.
+Google Scholar WorldCat
+Mehrabian, A., & Russell, J. A. (1974). An Approach to Environmental Psychology. Cambridge, MA: M.I.T. Press.Downloaded from https://academic.oup.com/edited-volume/42044/chapter/355794666 by Brian Mills on 25 June 2025
+Google Scholar Google Preview WorldCat COPAC
+Meyer, R. D. (2009). Defining the nature and structure of work situations (Unpublished doctoral dissertation). West Lafayette, IN:
+Purdue University. Retrieved from ProQuest. (3379672).
+Murray, H. A. (1938). Explorations in personality. New York, NY: Oxford University Press.
+Google Scholar Google Preview WorldCat COPAC
+Murtha, T. C., Kanfer, R., & Ackerman, P. L. (1996). Toward an interactionist taxonomy of personality and situations: An integrative
+situational-dispositional representation of personality traits. Journal of Personality and Social Psychology, 71, 193–207.
+Google Scholar WorldCat
+Pervin, L. A. (1978). Definitions, measurements, and classifications of stimuli, situations, and environments. Human Ecology, 6,
+71–105.
+Google Scholar WorldCat
+Price, R. H. (1974). The taxonomic classification of behaviors and situations and the problem of behavior-environment
+congruence. Human Relations, 27, 567–585.
+Google Scholar WorldCat
+Price, B. H., & Blashfield, R. K. (1975). Explorations in the taxonomy of behavior settings: Analysis of dimensions and
+classification of settings. American Journal of Community Psychology, 3, 335–351.
+Google Scholar WorldCat
+Price, R. H., & Bouard, D. L. (1974). Behavioral appropriateness and situational constraint as dimensions of social behavior.
+Journal of Personality and Psychology, 30, 579–586.
+Google Scholar WorldCat
+Pury, C. L. S., Switzer, F. S., Brawley, A. M., Brown, B. A., Sinclair, R. R., Kowalski, R. M., … Britt, T. W. (2014). Situations as
+aordances: A taxonomy of situational constraints based on English verbs. Manuscript submitted for publication.
+Rauthmann, J. F., Gallardo-Pujol, D., Guillaume, E. M., Todd, E., Nave, C. S., Sherman, R. A., Ziegler, M., Jones, A. B., &
+Funder, D. C. (2014). Journal of Personality and Social Psychology, 107, 677–718.
+Rauthmann, J. F., Sherman, R. A. & Funder, D. C. (2015). Principles of situation research: Towards a better understanding of
+psychological situations. European Journal of Personality 29, 363–381.
+Google Scholar WorldCat
+Rosch, E. (1978). Principles of Categorization. In A. Collins & E. E. Smith (Eds.), Readings in cognitive science: A perspective from
+psychology and artificial intelligence (pp. 312–322). San Mateo, CA: Morgan Kaufmann.
+Google Scholar Google Preview WorldCat COPAC
+Rutter, M., Pickles, A., Murray, R., Eaves, L. (2001). Testing hypotheses on specific environmental causal eects on behavior.
+Psychological Bulletin, 127, 291–324.
+Google Scholar WorldCat
+Saucier, G., Bel-Bahar, T., & Fernandez, C. (2007). What modifies the expression of personality tendencies? Defining basic
+domains of situation variables. Journal of Personality, 75, 479–504.
+Google Scholar WorldCat
+Scheidt, R. J., & Schaie, K. W. (1978). A taxonomy of situations for an elderly population: Generating situational criteria. Journal
+of Gerontology, 33, 848–857.
+Google Scholar WorldCatDownloaded from https://academic.oup.com/edited-volume/42044/chapter/355794666 by Brian Mills on 25 June 2025
+Sells, S. B. (1963). Stimulus determinants of behavior. New York, NY: Ronald.
+Google Scholar Google Preview WorldCat COPAC
+Sherman, R. A., Nave, C. S., & Funder, D. C. (2013). Situational construal is related to personality and gender. Journal of Research
+in Personality, 47, 1–14.
+Google Scholar WorldCat
+Sokal, R. R. (1974). Classification: Purposes, principles, progress, prospects. Science, 185(4157), 1115–1123.
+Google Scholar WorldCat
+Sundstrom, E. Bell, P. A., Busby, P. L., & Asmus, C. (1996). Environmental psychology: 1989–1994. Annual Review of Psychology,
+47, 485–512.
+Google Scholar WorldCat
+Ten Berge, M. A., & De Raad, B. (1999). Taxonomies of situations from a trait psychological perspective: A review. European
+Journal of Psychology, 13, 337–360.
+Google Scholar WorldCat
+Tett, R. P., & Burnett, D. D. (2003). A personality trait-based interactionist model of job performance. Journal of Applied
+Psychology, 88, 500–517.
+Google Scholar WorldCat
+Yang, Y., Read, S. J., & Miller, L. C. (2006). A taxonomy of situations from Chinese idioms. Journal of Research in Personality, 40,
+750–778.
+Google Scholar WorldCatDownloaded from https://academic.oup.com/edited-volume/42044/chapter/355794666 by Brian Mills on 25 June 2025

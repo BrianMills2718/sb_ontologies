@@ -1,0 +1,316 @@
+citation: "Argumentation Research Group, School of Computing, University of Dundee. (2011). The Argument Interchange Format (AIF) Specification. November 8, 2011. http://www.arg.dundee.ac.uk/aif"
+
+annotation: "Formal specification of the Argument Interchange Format (AIF), a core ontology for computational argumentation that defines standardized structures for representing arguments, inference schemes, conflicts, and preferences in a graph-based format to enable interoperability between argumentation tools and frameworks."
+
+model_type: "property_graph"
+
+rationale: "The AIF explicitly uses a graph-based representational language as its core structure, with nodes (I-nodes and S-nodes) and edges forming argument networks. The specification defines formal constraints for node connections and relationships, making it inherently a property graph model where nodes represent information/schemes and edges represent argumentative relationships."
+
+schema_blueprint:
+  title: "Argument Interchange Format (AIF) Ontology Schema"
+  description: "A formal ontology for computational argumentation defining standardized structures for representing arguments, inference schemes, conflicts, and preferences in argument graphs"
+  
+  root_properties:
+    nodes:
+      description: "Information nodes (I-nodes) containing propositions/statements and scheme nodes (S-nodes) representing reasoning patterns, conflicts, and preferences"
+      item_type: "Entity"
+    edges:
+      description: "Directed connections between nodes expressing argumentative relationships, with constraints that I-nodes can only connect through S-nodes"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Ontological Components
+    - name: "argument-interchange-format"
+      category: "theoretical-framework"
+      description: "A communal ontology project providing standardized representation for computational argumentation to enable tool interoperability"
+      
+    - name: "upper-ontology"
+      category: "theoretical-framework"
+      description: "Defines basic building blocks of AIF argument graphs, specifying types of nodes and edges (the syntax for the abstract language)"
+      
+    - name: "forms-ontology"
+      category: "theoretical-framework"
+      description: "Provides conceptual definitions of argument graph elements like premises, inference schemes, exceptions (the semantics for the graph)"
+      
+    - name: "interlingua"
+      category: "core-construct"
+      description: "Abstract common language that acts as centrepiece for multiple individual argument languages, reducing translation complexity from n² to n functions"
+      
+    # Node Types
+    - name: "i-node"
+      category: "core-construct"
+      description: "Information node containing propositions, sentences, or other informational content in argument graphs"
+      
+    - name: "s-node"
+      category: "core-construct" 
+      description: "Scheme node representing general patterns of reasoning such as inference, conflict, or preference applications"
+      
+    - name: "ra-node"
+      category: "core-construct"
+      description: "Rule Application node - specific type of S-node denoting particular inference relations"
+      subTypeOf: "s-node"
+      
+    - name: "ca-node"
+      category: "core-construct"
+      description: "Conflict Application node - specific type of S-node denoting particular conflict relations"
+      subTypeOf: "s-node"
+      
+    - name: "pa-node"
+      category: "core-construct"
+      description: "Preference Application node - specific type of S-node denoting particular preference relations"
+      subTypeOf: "s-node"
+      
+    # Graph Structure
+    - name: "argument-graph"
+      category: "core-construct"
+      description: "Simple directed graph (V,E) where V contains I-nodes and S-nodes, and E represents edges with specific structural constraints"
+      
+    - name: "argument-network"
+      category: "core-construct"
+      description: "Alternative term for argument graph - structured representation of argumentative relationships"
+      
+    - name: "direct-predecessor"
+      category: "relationship"
+      description: "Node v1 is direct predecessor of v2 if there is an edge (v1,v2) in the graph"
+      domain: ["Node"]
+      range: ["Node"]
+      
+    - name: "direct-successor"
+      category: "relationship"
+      description: "Node v2 is direct successor of v1 if there is an edge (v1,v2) in the graph"
+      domain: ["Node"]
+      range: ["Node"]
+      
+    - name: "initial-node"
+      category: "core-construct"
+      description: "Node that has no predecessor in the argument graph"
+      
+    # Scheme Types
+    - name: "scheme"
+      category: "core-construct"
+      description: "General pattern of reasoning that can be inference, conflict, or preference scheme"
+      
+    - name: "inference-scheme"
+      category: "core-construct"
+      description: "Scheme expressing general principles for how conclusions are inferable from premises"
+      subTypeOf: "scheme"
+      
+    - name: "conflict-scheme"
+      category: "core-construct"
+      description: "Scheme expressing general principles for how elements conflict with each other"
+      subTypeOf: "scheme"
+      
+    - name: "preference-scheme"
+      category: "core-construct"
+      description: "Scheme expressing general principles for why certain information or schemes are preferable to others"
+      subTypeOf: "scheme"
+      
+    - name: "deductive-inference-scheme"
+      category: "core-construct"
+      description: "Inference scheme based on deductive logic rules (e.g., propositional logic inference rules)"
+      subTypeOf: "inference-scheme"
+      
+    - name: "defeasible-inference-scheme"
+      category: "core-construct"
+      description: "Inference scheme that can be defeated by exceptions or counter-evidence (e.g., argumentation schemes)"
+      subTypeOf: "inference-scheme"
+      
+    # Form Elements
+    - name: "premise"
+      category: "core-construct"
+      description: "Form fulfilled by nodes that serve as starting points or assumptions for inferences"
+      
+    - name: "conclusion"
+      category: "core-construct"
+      description: "Form fulfilled by nodes that are derived or inferred from premises"
+      
+    - name: "assumption"
+      category: "core-construct"
+      description: "Form representing implicit or explicit presuppositions in argument schemes"
+      
+    - name: "exception"
+      category: "core-construct"
+      description: "Form representing conditions under which defeasible inferences may be defeated"
+      
+    - name: "presumption"
+      category: "core-construct"
+      description: "Form representing default assumptions that hold unless explicitly challenged"
+      
+    - name: "preferred-element"
+      category: "core-construct"
+      description: "Form fulfilled by information or scheme that is favored in preference relations"
+      
+    - name: "dispreferred-element"
+      category: "core-construct"
+      description: "Form fulfilled by information or scheme that is not favored in preference relations"
+      
+    - name: "conflicting-element"
+      category: "core-construct"
+      description: "Form fulfilled by element that attacks or conflicts with another element"
+      
+    - name: "conflicted-element"
+      category: "core-construct"
+      description: "Form fulfilled by element that is attacked or conflicted by another element"
+      
+    # Relationships and Operations
+    - name: "fulfils"
+      category: "relationship"
+      description: "Relation between nodes in argument graph and forms in Forms Ontology, indicating which argumentative role a node plays"
+      domain: ["Node"]
+      range: ["Form"]
+      
+    - name: "has-relation"
+      category: "relationship"
+      description: "General relation in the ontology indicating possession or association between concepts"
+      
+    - name: "class-inclusion"
+      category: "relationship"
+      description: "Is-a relation indicating subtype relationships in the ontology hierarchy"
+      
+    - name: "inference-application"
+      category: "process"
+      description: "Process of actually inferring conclusions from premises using an inference scheme"
+      
+    - name: "conflict-application"
+      category: "process"
+      description: "Process of actually conflicting one element with another using a conflict scheme"
+      
+    - name: "preference-application"
+      category: "process"
+      description: "Process of actually preferring one element over another using a preference scheme"
+      
+    # Specific Scheme Examples
+    - name: "expert-opinion-scheme"
+      category: "inference-scheme"
+      description: "Argumentation scheme where expert assertion in their domain provides evidence for conclusion"
+      subTypeOf: "defeasible-inference-scheme"
+      
+    - name: "popular-opinion-scheme"
+      category: "inference-scheme"
+      description: "Argumentation scheme where general acceptance provides evidence for conclusion"
+      subTypeOf: "defeasible-inference-scheme"
+      
+    - name: "expert-unreliability-scheme"
+      category: "conflict-scheme"
+      description: "Conflict scheme where expert unreliability conflicts with inferences based on expert opinion"
+      
+    - name: "expert-over-popular-preference"
+      category: "preference-scheme"
+      description: "Preference scheme favoring expert opinion over popular opinion as basis for inference"
+      
+    # Technical Implementation
+    - name: "aif-core"
+      category: "reification"
+      description: "Primary reification of AIF ontology closest to abstract specification, representing arguments and schemes as individuals"
+      
+    - name: "aif-dl"
+      category: "reification"
+      description: "Description Logic reification modeling schemes as classes of arguments and S-nodes as instances"
+      
+    - name: "aif-database"
+      category: "reification"
+      description: "SQL database implementation of AIF Core containing analyzed arguments from Araucaria and OVA tools"
+      
+    - name: "node-identifier"
+      category: "technical-component"
+      description: "Unique identifier assigned to each node in argument graph for database and processing purposes"
+      
+    - name: "edge-identifier"
+      category: "technical-component"
+      description: "Unique identifier assigned to each edge in argument graph for database and processing purposes"
+      
+    - name: "content"
+      category: "technical-component"
+      description: "Actual informational or schematic content contained within a node"
+      
+    # Methodological Concepts
+    - name: "translation-function"
+      category: "methodological-tool"
+      description: "Function mapping between different argumentation formats through the AIF interlingua"
+      
+    - name: "conceptual-anchoring"
+      category: "methodological-principle"
+      description: "Role of central ontology in providing reference point for exchange of ideas between formats"
+      
+    - name: "graph-theoretic-representation"
+      category: "methodological-approach"
+      description: "Strict mathematical representation providing frame of reference for various logical theories"
+      
+    - name: "commonness-of-meaning"
+      category: "methodological-challenge"
+      description: "Problem of ensuring shared understanding of core ontology concepts across different theories"
+      
+    # Constraints and Rules
+    - name: "structural-constraint"
+      category: "formal-rule"
+      description: "Restrictions on possible combinations of different node types in argument graphs"
+      
+    - name: "connectivity-constraint"
+      category: "formal-rule"
+      description: "Rule that I-nodes can only connect to other I-nodes via S-nodes"
+      
+    - name: "predecessor-successor-constraint"
+      category: "formal-rule"
+      description: "Rule that S-nodes must have at least one predecessor and one successor"
+      
+    - name: "inference-constraint"
+      category: "formal-rule"
+      description: "Rule that RA-nodes have at least one premise and exactly one conclusion"
+      
+    - name: "preference-constraint"
+      category: "formal-rule"
+      description: "Rule that PA-nodes have exactly one preferred and one dispreferred element"
+      
+    - name: "conflict-constraint"
+      category: "formal-rule"
+      description: "Rule that CA-nodes have exactly one conflicting and one conflicted element"
+      
+    # Applications and Tools
+    - name: "araucaria"
+      category: "computational-tool"
+      description: "Software tool for argument analysis, diagramming and representation using AIF format"
+      
+    - name: "ova"
+      category: "computational-tool"
+      description: "Online visualization and analysis tool for arguments in AIF format"
+      
+    - name: "rationale"
+      category: "computational-tool"
+      description: "Argument visualization program that can interface with AIF through translation functions"
+      
+    - name: "aspic-plus"
+      category: "formal-framework"
+      description: "Formal argumentation framework that can translate to/from AIF format"
+      
+  json_schema:
+    NodeType:
+      enum: ["i-node", "s-node", "ra-node", "ca-node", "pa-node"]
+      description: "Types of nodes in AIF argument graphs"
+      
+    SchemeType:
+      enum: ["inference-scheme", "conflict-scheme", "preference-scheme", "deductive-inference-scheme", "defeasible-inference-scheme"]
+      description: "Types of reasoning schemes in Forms Ontology"
+      
+    FormType:
+      enum: ["premise", "conclusion", "assumption", "exception", "presumption", "preferred-element", "dispreferred-element", "conflicting-element", "conflicted-element"]
+      description: "Types of forms that nodes can fulfill in argument structures"
+      
+    RelationType:
+      enum: ["fulfils", "has-relation", "class-inclusion", "direct-predecessor", "direct-successor"]
+      description: "Types of relationships in AIF ontology"
+      
+    ProcessType:
+      enum: ["inference-application", "conflict-application", "preference-application"]
+      description: "Types of reasoning processes applied through scheme nodes"
+      
+    ConstraintType:
+      enum: ["structural-constraint", "connectivity-constraint", "predecessor-successor-constraint", "inference-constraint", "preference-constraint", "conflict-constraint"]
+      description: "Types of formal constraints governing argument graph construction"
+      
+    ReificationType:
+      enum: ["aif-core", "aif-dl", "aif-database"]
+      description: "Different technical implementations of the AIF ontology"
+      
+    ToolType:
+      enum: ["araucaria", "ova", "rationale", "aspic-plus"]
+      description: "Computational tools and frameworks that interface with AIF"

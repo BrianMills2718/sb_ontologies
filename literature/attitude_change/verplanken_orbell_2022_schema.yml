@@ -1,0 +1,457 @@
+citation: "Verplanken, B., & Orbell, S. (2022). Attitudes, habits, and behavior change. Annual Review of Psychology, 73, 327-352."
+
+annotation: "Comprehensive review examining the relationship between attitudes and habits in behavior change, proposing an integrated approach that recognizes both attitude-driven and habit-driven processes in understanding and promoting lasting behavior change."
+
+model_type: "property_graph"
+
+rationale: "The paper presents a complex theoretical framework with multiple interconnected constructs (attitudes, habits, behaviors, contexts, cues) and various types of relationships (causal, temporal, moderating, mediating). The property graph model best captures the network of theoretical entities and their diverse relationships, including feedback loops between attitude-behavior-habit formation, contextual influences, and intervention strategies."
+
+schema_blueprint:
+  title: "Attitudes, Habits, and Behavior Change Framework"
+  description: "A comprehensive theoretical model integrating attitude change and habit formation processes to understand and promote lasting behavior change across various domains including health, environment, and consumer behavior."
+  
+  root_properties:
+    nodes:
+      description: "Core theoretical constructs including psychological processes, behavioral outcomes, contextual factors, and intervention strategies"
+      item_type: "Entity"
+    edges:
+      description: "Relationships between constructs including causal pathways, temporal sequences, moderating effects, and intervention mechanisms"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Constructs
+    - name: "attitude"
+      category: "core-construct"
+      description: "A psychological tendency expressed by evaluating a particular entity with some degree of favor or disfavor; individual's evaluation of behavior and its outcomes"
+      
+    - name: "habit"
+      category: "core-construct"
+      description: "Memory-based propensities to respond automatically to cues that led to performance of behavior in the past, derived from cue-response associations acquired through repeated acting in stable contexts"
+      
+    - name: "behavior"
+      category: "core-construct"
+      description: "Observable actions that can be goal-directed (attitude-driven) or automatic (habit-driven), occurring in specific contexts and capable of repetition"
+      
+    - name: "habit-architecture"
+      category: "core-construct"
+      description: "Features of the performance context that foster specific cue-action links, including environmental cues, friction levels, and contextual stability"
+      
+    - name: "cue-response-association"
+      category: "core-construct"
+      description: "Memory-based links between environmental cues and behavioral responses that form the foundation of habitual behavior"
+      
+    # Attitude Properties
+    - name: "attitude-strength"
+      category: "attitude-property"
+      description: "Properties of attitudes including stability over time, resistance to persuasion, and impact on behavior; strongly held attitudes are durable, difficult to change, and influence action"
+      
+    - name: "attitude-accessibility"
+      category: "attitude-property"
+      description: "How easily an attitude can be recalled or reported; more accessible attitudes are more likely to guide behavior"
+      
+    - name: "attitude-stability"
+      category: "attitude-property"
+      description: "The consistency of an attitude over time; stable attitudes are more predictive of behavior"
+      
+    - name: "attitude-valence"
+      category: "attitude-property"
+      description: "The evaluative positivity or negativity of an attitude toward a behavior or outcome"
+      
+    # Habit Properties  
+    - name: "habit-strength"
+      category: "habit-property"
+      description: "The degree to which a behavior has become automatic and cue-dependent, indicated by speed of response to cues and resistance to change"
+      
+    - name: "automaticity"
+      category: "habit-property"
+      description: "The degree to which behavior is performed with minimal conscious awareness and deliberation"
+      
+    - name: "cue-contingency"
+      category: "habit-property"
+      description: "The extent to which behavior is triggered by specific environmental cues rather than conscious intention"
+      
+    - name: "behavioral-persistence"
+      category: "habit-property"
+      description: "The tendency for habitual behavior to continue despite changes in attitudes, goals, or outcomes"
+      
+    - name: "outcome-insensitivity"
+      category: "habit-property"
+      description: "Reduced sensitivity to changes in the value or desirability of behavioral outcomes once habits are established"
+      
+    # Behavioral Processes
+    - name: "habit-formation"
+      category: "behavioral-process"
+      description: "The gradual process by which repeated behavior in stable contexts becomes automatic and cue-driven"
+      
+    - name: "behavior-change"
+      category: "behavioral-process"
+      description: "Modification of existing behavioral patterns through various intervention strategies"
+      
+    - name: "habit-disruption"
+      category: "behavioral-process"
+      description: "Interruption of established habitual patterns through context changes or deliberate intervention"
+      
+    - name: "attitude-behavior-translation"
+      category: "behavioral-process"
+      description: "The process by which attitudes influence behavioral intentions and subsequent actions"
+      
+    - name: "habitization"
+      category: "behavioral-process"
+      description: "The process of behavior becoming habitual through repetition in stable contexts"
+      
+    # Contextual Factors
+    - name: "performance-context"
+      category: "contextual-factor"
+      description: "The environmental setting in which behavior occurs, including physical, social, and temporal elements"
+      
+    - name: "context-stability"
+      category: "contextual-factor"
+      description: "The consistency of environmental conditions across behavioral repetitions"
+      
+    - name: "contextual-cues"
+      category: "contextual-factor"
+      description: "Environmental stimuli that trigger habitual responses, including locations, visual cues, or preceding actions"
+      
+    - name: "action-friction"
+      category: "contextual-factor"
+      description: "The ease or difficulty of performing a behavior in a given context; reduced friction facilitates habit formation"
+      
+    - name: "built-environment"
+      category: "contextual-factor"
+      description: "Physical infrastructure and design features that influence behavioral possibilities and constraints"
+      
+    # Intervention Strategies
+    - name: "attitude-change-intervention"
+      category: "intervention-strategy"
+      description: "Approaches aimed at modifying evaluative responses to behaviors through persuasion, information, or experience"
+      
+    - name: "implementation-intention"
+      category: "intervention-strategy"
+      description: "Specific plans of action in the form 'When encountering cue X, I will do Y' that link situational cues to behavioral responses"
+      
+    - name: "habit-formation-intervention"
+      category: "intervention-strategy"
+      description: "Strategies designed to promote the development of new habits through repetition in stable contexts"
+      
+    - name: "habit-disruption-intervention"
+      category: "intervention-strategy"
+      description: "Approaches that capitalize on context changes or discontinuities to interrupt existing habits"
+      
+    - name: "vigilant-monitoring"
+      category: "intervention-strategy"
+      description: "Strategy to inhibit unwanted habits through conscious awareness and effortful control of behavioral responses"
+      
+    - name: "cognitive-bias-modification"
+      category: "intervention-strategy"
+      description: "Interventions targeting cognitive biases associated with habitual behaviors, particularly attention and approach biases"
+      
+    - name: "habit-reversal-training"
+      category: "intervention-strategy"
+      description: "Behavioral intervention involving monitoring of habit cues and practice of competing responses"
+      
+    - name: "context-modification"
+      category: "intervention-strategy"
+      description: "Changing environmental features to promote desired behaviors or inhibit undesired ones"
+      
+    # Psychological Mechanisms
+    - name: "self-regulation"
+      category: "psychological-mechanism"
+      description: "The process of controlling one's behavior, emotions, and thoughts in pursuit of long-term goals"
+      
+    - name: "goal-directed-system"
+      category: "psychological-mechanism"
+      description: "Cognitive system that evaluates options and guides behavior based on expected outcomes and current goals"
+      
+    - name: "habit-system"
+      category: "psychological-mechanism"
+      description: "Cognitive system that triggers automatic responses based on cue-response associations without deliberation"
+      
+    - name: "dual-process-model"
+      category: "psychological-mechanism"
+      description: "Theoretical framework proposing two systems: deliberate/controlled processing and automatic/habitual processing"
+      
+    - name: "resource-depletion"
+      category: "psychological-mechanism"
+      description: "State of reduced mental resources that increases reliance on habitual rather than deliberate responses"
+      
+    # Measurement Concepts
+    - name: "perceived-automaticity"
+      category: "measurement-method"
+      description: "Self-reported measure of the degree to which behavior feels automatic and effortless"
+      
+    - name: "reaction-time-measures"
+      category: "measurement-method"
+      description: "Response speed indicators of context-response associations and habit strength"
+      
+    - name: "self-report-habit-measures"
+      category: "measurement-method"
+      description: "Questionnaire measures assessing subjective experiences of habitual behavior qualities"
+      
+    - name: "outcome-devaluation-paradigm"
+      category: "measurement-method"
+      description: "Experimental procedure testing whether behavior continues after outcomes are made less desirable"
+      
+    - name: "implicit-attitude-measures"
+      category: "measurement-method"
+      description: "Indirect measures of attitudes that bypass conscious reporting, such as reaction time tasks"
+      
+    # Temporal Factors
+    - name: "habit-discontinuity"
+      category: "temporal-factor"
+      description: "Periods when established habits are disrupted due to context changes, creating opportunities for behavior change"
+      
+    - name: "habit-formation-curve"
+      category: "temporal-factor"
+      description: "The trajectory of habit development over time, characterized by steepness and maximum automaticity"
+      
+    - name: "behavior-maintenance"
+      category: "temporal-factor"
+      description: "The persistence of behavior change over extended periods beyond initial intervention"
+      
+    - name: "habit-longevity"
+      category: "temporal-factor"
+      description: "The duration for which habits persist once established, influenced by cue-response strength and context stability"
+      
+    # Special Phenomena
+    - name: "habit-slip"
+      category: "behavioral-phenomenon"
+      description: "Occasions when individuals perform old habitual behaviors despite intentions to act differently"
+      
+    - name: "portion-size-effect"
+      category: "behavioral-phenomenon"
+      description: "Tendency to consume more from larger portions and less from smaller ones, demonstrating contextual influence on habits"
+      
+    - name: "spillover-effect"
+      category: "behavioral-phenomenon"
+      description: "When changes in one habitual behavior influence other related behaviors"
+      
+    - name: "habit-identity-link"
+      category: "behavioral-phenomenon"
+      description: "The association between habits and self-concept, where habits become part of personal identity"
+      
+    # Motivational Factors
+    - name: "intrinsic-motivation"
+      category: "motivational-factor"
+      description: "Motivation derived from inherent satisfaction and alignment with personal values and identity"
+      
+    - name: "extrinsic-motivation"
+      category: "motivational-factor"
+      description: "Motivation driven by external rewards, approval, or consequences"
+      
+    - name: "autonomous-motivation"
+      category: "motivational-factor"
+      description: "Self-determined motivation that supports long-term behavior maintenance"
+      
+    - name: "value-based-motivation"
+      category: "motivational-factor"
+      description: "Motivation stemming from alignment with important personal or social values"
+      
+    # Relationships - Causal
+    - name: "attitude-leads-to-habit"
+      category: "relationship"
+      description: "Causal pathway where positive attitudes initiate behaviors that become habitual through repetition"
+      domain: ["attitude"]
+      range: ["habit"]
+      
+    - name: "habit-shields-from-attitude"
+      category: "relationship"
+      description: "Protective function where established habits maintain behavior despite attitude changes"
+      domain: ["habit"]
+      range: ["attitude"]
+      
+    - name: "context-triggers-habit"
+      category: "relationship"
+      description: "Environmental cues automatically activate habitual responses"
+      domain: ["contextual-cues"]
+      range: ["habit"]
+      
+    - name: "repetition-strengthens-habit"
+      category: "relationship"
+      description: "Behavioral repetition in stable contexts increases habit strength"
+      domain: ["behavior", "context-stability"]
+      range: ["habit-strength"]
+      
+    - name: "discontinuity-enables-change"
+      category: "relationship"
+      description: "Context disruptions create opportunities for attitude-driven behavior change"
+      domain: ["habit-discontinuity"]
+      range: ["behavior-change"]
+      
+    # Relationships - Moderating
+    - name: "habit-moderates-attitude-behavior"
+      category: "moderating-relationship"
+      description: "Habit strength moderates the relationship between attitudes and behavior; stronger habits reduce attitude influence"
+      domain: ["habit-strength"]
+      range: ["attitude", "behavior"]
+      
+    - name: "context-stability-moderates-formation"
+      category: "moderating-relationship"
+      description: "Stable contexts facilitate habit formation while unstable contexts inhibit it"
+      domain: ["context-stability"]
+      range: ["habit-formation"]
+      
+    - name: "complexity-moderates-habitization"
+      category: "moderating-relationship"
+      description: "Behavioral complexity affects the ease and speed of habit formation"
+      domain: ["behavioral-complexity"]
+      range: ["habit-formation"]
+      
+    # Relationships - Temporal
+    - name: "attitude-to-habit-transition"
+      category: "temporal-relationship"
+      description: "Shift from attitude-driven to habit-driven behavioral control over time"
+      domain: ["attitude"]
+      range: ["habit"]
+      
+    - name: "habit-formation-timeline"
+      category: "temporal-relationship"
+      description: "Time course of habit development, varying from weeks to months depending on behavior and context"
+      domain: ["behavioral-repetition"]
+      range: ["habit-strength"]
+      
+    # Additional Core Concepts
+    - name: "behavioral-frequency"
+      category: "behavioral-property"
+      description: "How often a behavior is performed, which influences habit formation potential"
+      
+    - name: "behavioral-complexity"
+      category: "behavioral-property"
+      description: "The number of steps or cognitive demands required to perform a behavior"
+      
+    - name: "behavioral-consistency"
+      category: "behavioral-property"
+      description: "The regularity with which behavior is performed across time and contexts"
+      
+    - name: "cue-salience"
+      category: "contextual-property"
+      description: "The prominence or noticeability of environmental cues that trigger habitual responses"
+      
+    - name: "reward-contingency"
+      category: "contextual-property"
+      description: "The relationship between behavioral performance and positive outcomes or reinforcement"
+      
+    - name: "social-context"
+      category: "contextual-factor"
+      description: "Social environment and interpersonal factors that influence behavior and habit formation"
+      
+    - name: "physical-environment"
+      category: "contextual-factor"
+      description: "Physical setting and material conditions that constrain or enable behavioral performance"
+      
+    - name: "temporal-context"
+      category: "contextual-factor"
+      description: "Time-based factors including timing, duration, and temporal patterns of behavior"
+
+  schema:
+    type: "object"
+    properties:
+      nodes:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+            type:
+              type: "string"
+              enum: ["Entity"]
+            category:
+              type: "string"
+              enum: [
+                "core-construct", "attitude-property", "habit-property", 
+                "behavioral-process", "contextual-factor", "intervention-strategy",
+                "psychological-mechanism", "measurement-method", "temporal-factor",
+                "behavioral-phenomenon", "motivational-factor", "behavioral-property",
+                "contextual-property"
+              ]
+            properties:
+              type: "object"
+              properties:
+                name:
+                  type: "string"
+                description:
+                  type: "string"
+                strength:
+                  type: "string"
+                  enum: ["weak", "moderate", "strong"]
+                stability:
+                  type: "string"
+                  enum: ["unstable", "moderate", "stable"]
+                automaticity:
+                  type: "string"
+                  enum: ["controlled", "semi-automatic", "automatic"]
+                context_dependency:
+                  type: "string"
+                  enum: ["low", "moderate", "high"]
+                temporal_properties:
+                  type: "object"
+                  properties:
+                    formation_time:
+                      type: "string"
+                      enum: ["days", "weeks", "months", "years"]
+                    persistence:
+                      type: "string"
+                      enum: ["temporary", "moderate", "long-lasting"]
+                    decay_rate:
+                      type: "string"
+                      enum: ["fast", "moderate", "slow"]
+      
+      edges:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+            type:
+              type: "string"
+              enum: ["NaryTuple"]
+            relationship_type:
+              type: "string"
+              enum: [
+                "causal", "moderating", "mediating", "temporal", "correlational",
+                "bidirectional", "inhibitory", "facilitating", "protective"
+              ]
+            properties:
+              type: "object"
+              properties:
+                strength:
+                  type: "string"
+                  enum: ["weak", "moderate", "strong"]
+                direction:
+                  type: "string"
+                  enum: ["positive", "negative", "bidirectional"]
+                temporal_order:
+                  type: "string"
+                  enum: ["simultaneous", "sequential", "cyclical"]
+                context_dependency:
+                  type: "string"
+                  enum: ["universal", "context-specific", "conditional"]
+                evidence_strength:
+                  type: "string"
+                  enum: ["weak", "moderate", "strong", "mixed"]
+                effect_size:
+                  type: "string"
+                  enum: ["small", "medium", "large", "variable"]
+                mechanisms:
+                  type: "array"
+                  items:
+                    type: "string"
+                    enum: [
+                      "automatic-activation", "cue-response-association", "outcome-evaluation",
+                      "resource-allocation", "context-cueing", "repetition-strengthening",
+                      "interference", "competition", "facilitation", "protection"
+                    ]
+            roles:
+              type: "array"
+              items:
+                type: "object"
+                properties:
+                  role_type:
+                    type: "string"
+                    enum: [
+                      "cause", "effect", "moderator", "mediator", "antecedent",
+                      "consequence", "facilitator", "inhibitor", "context", "outcome"
+                    ]
+                  entity_ref:
+                    type: "string"

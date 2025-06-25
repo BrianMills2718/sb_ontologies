@@ -1,0 +1,370 @@
+citation: "Chong, D., & Druckman, J. N. (2007). Framing theory. Annual Review of Political Science, 10, 103-126."
+
+annotation: "Comprehensive review of framing theory in political communication and public opinion research, examining how alternative presentations of issues influence citizen attitudes through psychological mechanisms of availability, accessibility, and applicability of considerations."
+
+model_type: "property_graph"
+
+rationale: "Property graph model best captures the complex theoretical framework with nodes representing key concepts (frames, considerations, attitudes, values) and edges representing the processes and relationships between them (framing effects, psychological mechanisms, moderating factors). The theory involves multiple interconnected constructs with various types of relationships including causal processes, moderating effects, and conceptual distinctions."
+
+schema_blueprint:
+  title: "Framing Theory Schema"
+  description: "Comprehensive schema modeling framing theory in political communication, including frames in communication and thought, psychological mechanisms, individual differences, competitive dynamics, and normative implications for democratic opinion formation."
+  
+  root_properties:
+    nodes:
+      description: "Represents core theoretical constructs including frames, considerations, attitudes, values, individual characteristics, communication sources, and contextual factors"
+      item_type: "Entity"
+    edges:
+      description: "Represents relationships and processes including framing effects, psychological mechanisms, moderating influences, competitive dynamics, and causal pathways"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Theoretical Constructs
+    - name: "frame-in-communication"
+      category: "core-construct"
+      description: "Key considerations emphasized in a speech act that organize everyday reality by providing meaning to events and promoting particular interpretations of political issues"
+      
+    - name: "frame-in-thought"
+      category: "core-construct" 
+      description: "Set of dimensions or considerations that affect an individual's evaluation of an issue, constituting their cognitive framework for understanding the issue"
+      
+    - name: "framing-effect"
+      category: "core-construct"
+      description: "Change in individual attitudes or preferences resulting from alternative presentations of the same issue through different communication frames"
+      
+    - name: "consideration"
+      category: "core-construct"
+      description: "Specific belief, value, or dimension that can influence an individual's evaluation of an issue (e.g., free speech, public safety, economic impact)"
+      
+    - name: "expectancy-value-model"
+      category: "theoretical-framework"
+      description: "Model of attitude formation where Attitude = ∑vi * wi, with vi as evaluation on attribute i and wi as salience weight for that attribute"
+      
+    # Psychological Mechanisms
+    - name: "availability"
+      category: "psychological-mechanism"
+      description: "Consideration must be stored in memory to be retrievable and usable in evaluation"
+      
+    - name: "accessibility"
+      category: "psychological-mechanism"
+      description: "Consideration's activation potential must exceed threshold for retrieval from long-term memory, increased through exposure or recent activation"
+      
+    - name: "applicability"
+      category: "psychological-mechanism"
+      description: "Perceived strength or relevance of accessible considerations that determines their influence on opinion formation"
+      
+    - name: "motivated-reasoning"
+      category: "psychological-mechanism"
+      description: "Tendency to evaluate incoming information to support preconceptions and devalue contrary evidence"
+      
+    # Types of Framing Effects
+    - name: "emphasis-framing"
+      category: "framing-type"
+      description: "Framing that highlights qualitatively different yet potentially relevant considerations (e.g., free speech vs. public safety)"
+      
+    - name: "equivalency-framing"
+      category: "framing-type"
+      description: "Framing using different but logically equivalent phrases that should not matter from rationality perspective (e.g., 90% employment vs. 10% unemployment)"
+      
+    - name: "issue-framing"
+      category: "framing-type"
+      description: "Alternative description of same issue emphasizing different aspects or considerations"
+      
+    - name: "valence-framing"
+      category: "framing-type"
+      description: "Casting same information in either positive or negative light"
+      
+    # Individual Difference Moderators
+    - name: "predisposition"
+      category: "individual-moderator"
+      description: "Prior attitudes, values, or beliefs that condition susceptibility to framing effects"
+      
+    - name: "political-knowledge"
+      category: "individual-moderator"
+      description: "Individual's level of political information and understanding that can enhance or reduce framing effects depending on prior attitudes"
+      
+    - name: "motivation"
+      category: "individual-moderator"
+      description: "Individual's drive to engage in conscious evaluation of competing considerations"
+      
+    - name: "partisanship"
+      category: "individual-moderator"
+      description: "Political party identification that influences receptivity to frames consistent with partisan positions"
+      
+    - name: "ideology"
+      category: "individual-moderator"
+      description: "Systematic belief system that provides framework for evaluating political issues and frames"
+      
+    - name: "core-values"
+      category: "individual-moderator"
+      description: "Fundamental beliefs and principles that anchor political preferences and moderate framing effects"
+      
+    # Communication and Source Factors
+    - name: "source-credibility"
+      category: "communication-factor"
+      description: "Perceived trustworthiness and expertise of frame source that influences frame acceptance"
+      
+    - name: "frame-strength"
+      category: "communication-factor"
+      description: "Persuasive power of frame determined by appeal to values, use of symbols, logical coherence, and resonance with audience"
+      
+    - name: "frame-repetition"
+      category: "communication-factor"
+      description: "Frequency of frame exposure that can increase accessibility and influence"
+      
+    - name: "cultural-resonance"
+      category: "communication-factor"
+      description: "Degree to which frame connects with longstanding cultural values and widely available ideas"
+      
+    # Competitive Context
+    - name: "competitive-framing"
+      category: "competitive-process"
+      description: "Situation where audiences receive multiple competing frames rather than single frame"
+      
+    - name: "frame-competition"
+      category: "competitive-process"
+      description: "Contest between alternative frames for influence over public opinion"
+      
+    - name: "opposing-frames"
+      category: "competitive-process"
+      description: "Alternative frames that present conflicting interpretations or emphasize different considerations"
+      
+    - name: "frame-cancellation"
+      category: "competitive-process"
+      description: "Hypothetical process where competing frames neutralize each other's effects"
+      
+    - name: "competitive-advantage"
+      category: "competitive-process"
+      description: "Relative strength of one frame over competitors in influencing opinion"
+      
+    # Research Methods
+    - name: "content-analysis"
+      category: "measurement-method"
+      description: "Method for systematically identifying and coding frames in communication texts"
+      
+    - name: "inductive-frame-identification"
+      category: "measurement-method"
+      description: "Approach to discovering frames through examination of elite discourse, interest group communications, and open-ended responses"
+      
+    - name: "frame-coding-scheme"
+      category: "measurement-method"
+      description: "Systematic categorization system for identifying presence or absence of predefined frames in communications"
+      
+    - name: "intercoder-reliability"
+      category: "measurement-method"
+      description: "Agreement between multiple coders in frame identification to ensure measurement consistency"
+      
+    - name: "framing-experiment"
+      category: "measurement-method"
+      description: "Experimental design exposing participants to alternative frames to measure framing effects"
+      
+    # Effect Measurement Standards
+    - name: "variance-standard"
+      category: "effect-measurement"
+      description: "Measuring framing effects through variance in preferences produced by alternative frames"
+      
+    - name: "correlation-standard"
+      category: "effect-measurement"
+      description: "Measuring framing effects through variation in correlation between framed preferences and relevant personal values"
+      
+    - name: "control-group-standard"
+      category: "effect-measurement"
+      description: "Measuring framing effects by comparing treatment groups to control group receiving basic information without frames"
+      
+    # Temporal Dynamics
+    - name: "issue-evolution"
+      category: "temporal-process"
+      description: "How framing of issues changes over time as they move from new to established on political agenda"
+      
+    - name: "traditional-issue"
+      category: "temporal-category"
+      description: "Previously debated issue with defined structure that elicits routine considerations"
+      
+    - name: "new-issue"
+      category: "temporal-category"
+      description: "Issue lacking general agreement about how to construe it, with undefined structure"
+      
+    - name: "issue-reframing"
+      category: "temporal-process"
+      description: "Process by which traditional issues are transformed into new issues through alternative framing strategies"
+      
+    - name: "learning-over-time"
+      category: "temporal-process"
+      description: "Individual's ability to process and retain information to develop stable preferences and resistance to manipulation"
+      
+    - name: "inoculation-effect"
+      category: "temporal-process"
+      description: "Reduced susceptibility to framing effects through prior exposure to balanced information and competing arguments"
+      
+    # Related Concepts
+    - name: "priming"
+      category: "related-concept"
+      description: "Changes in standards people use to make political evaluations, often operationalized as media emphasis affecting evaluation criteria"
+      
+    - name: "persuasion"
+      category: "related-concept"
+      description: "Change in evaluation component (vi) of attitude, distinguished from framing which changes weight component (wi)"
+      
+    - name: "agenda-setting"
+      category: "related-concept"
+      description: "Media influence on which issues the public considers important"
+      
+    # Strategic Considerations
+    - name: "framing-strategy"
+      category: "strategic-process"
+      description: "Deliberate choice of frames by political actors to influence public opinion in desired direction"
+      
+    - name: "frame-appropriation"
+      category: "strategic-process"
+      description: "Adoption of opponent's valued frame for one's own position (e.g., using egalitarian frame for conservative policy)"
+      
+    - name: "elite-frame-cascade"
+      category: "strategic-process"
+      description: "Process by which frames originate from one elite source and cascade through other elites, media, and public"
+      
+    - name: "audience-anticipation"
+      category: "strategic-process"
+      description: "Elite consideration of audience preferences and values in frame selection"
+      
+    # Normative Considerations
+    - name: "opinion-manipulation"
+      category: "normative-concern"
+      description: "Use of framing to deceive or unfairly influence public preferences for elite interests"
+      
+    - name: "democratic-deliberation"
+      category: "normative-ideal"
+      description: "Open discussion and debate that informs citizens and improves quality of public opinion"
+      
+    - name: "opinion-quality"
+      category: "normative-standard"
+      description: "Characteristics of good public opinion including stability, consistency, information basis, and connection to principles"
+      
+    - name: "open-mindedness"
+      category: "normative-ideal"
+      description: "Citizen capacity to be flexible and receptive to compelling arguments while maintaining informed opinions"
+      
+    - name: "political-sophistication"
+      category: "normative-ideal"
+      description: "Citizen ability to evaluate frames critically and resist manipulation while remaining open to good arguments"
+      
+    # Measurement Issues
+    - name: "doorstep-opinion"
+      category: "measurement-problem"
+      description: "Opinion constructed on the fly that is inseparable from context in which it was elicited, not representing true preference"
+      
+    - name: "response-instability"
+      category: "measurement-problem"
+      description: "Variation in survey responses over time indicating lack of stable underlying attitude"
+      
+    - name: "question-wording-effects"
+      category: "measurement-problem"
+      description: "Changes in responses due to alternative phrasings of essentially same question"
+      
+    # Theoretical Distinctions
+    - name: "attitude-formation"
+      category: "theoretical-process"
+      description: "Development of evaluative summary judgment about political object through integration of considerations"
+      
+    - name: "attitude-change"
+      category: "theoretical-process"
+      description: "Modification of existing evaluative judgment through new information or alternative framing"
+      
+    - name: "belief-content"
+      category: "attitude-component"
+      description: "Substantive information and evaluations about attitude object"
+      
+    - name: "belief-weight"
+      category: "attitude-component"
+      description: "Relative importance or salience assigned to different beliefs in overall attitude"
+      
+  # JSON Schema with categorized enums
+  json_schema:
+    psychological_mechanisms:
+      - "availability"
+      - "accessibility" 
+      - "applicability"
+      - "motivated-reasoning"
+      
+    framing_types:
+      - "emphasis-framing"
+      - "equivalency-framing"
+      - "issue-framing"
+      - "valence-framing"
+      
+    individual_moderators:
+      - "predisposition"
+      - "political-knowledge"  
+      - "motivation"
+      - "partisanship"
+      - "ideology"
+      - "core-values"
+      
+    communication_factors:
+      - "source-credibility"
+      - "frame-strength"
+      - "frame-repetition"
+      - "cultural-resonance"
+      
+    competitive_processes: 
+      - "competitive-framing"
+      - "frame-competition"
+      - "opposing-frames"
+      - "frame-cancellation"
+      - "competitive-advantage"
+      
+    measurement_methods:
+      - "content-analysis"
+      - "inductive-frame-identification"
+      - "frame-coding-scheme"
+      - "intercoder-reliability"
+      - "framing-experiment"
+      
+    effect_measurements:
+      - "variance-standard"
+      - "correlation-standard"
+      - "control-group-standard"
+      
+    temporal_processes:
+      - "issue-evolution"
+      - "issue-reframing"
+      - "learning-over-time"
+      - "inoculation-effect"
+      
+    strategic_processes:
+      - "framing-strategy"
+      - "frame-appropriation"
+      - "elite-frame-cascade"
+      - "audience-anticipation"
+      
+    normative_concepts:
+      - "opinion-manipulation"
+      - "democratic-deliberation"
+      - "opinion-quality"
+      - "open-mindedness"
+      - "political-sophistication"
+      
+    relationships:
+      - "causes"
+      - "moderates"
+      - "mediates"
+      - "enhances"
+      - "reduces"
+      - "conditions"
+      - "influences"
+      - "determines"
+      - "facilitates"
+      - "constrains"
+      
+    processes:
+      - "frame"
+      - "activate"
+      - "retrieve"
+      - "evaluate"
+      - "weight"
+      - "integrate"
+      - "resist"
+      - "accept"
+      - "compete"
+      - "cascade"
+      - "evolve"
+      - "stabilize"

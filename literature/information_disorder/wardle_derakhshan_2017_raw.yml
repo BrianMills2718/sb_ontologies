@@ -1,0 +1,365 @@
+citation: "Wardle, C., & Derakhshan, H. (2017). Information Disorder: Toward an interdisciplinary framework for research and policy making. Council of Europe."
+
+annotation: "Comprehensive framework for understanding information disorder through three types (mis-, dis-, and mal-information), three elements (agents, messages, interpreters), and three phases (creation, production, dissemination). Integrates communication theory, cognitive psychology, and social media studies to explain how false information spreads and influences public discourse."
+
+model_type: "property_graph"
+
+rationale: "The information disorder framework is inherently relational, involving complex interactions between agents, messages, and interpreters across multiple phases. A property graph model best captures the multi-directional relationships between actors (agents, interpreters), information objects (messages), processes (creation, production, dissemination), and contextual factors (platforms, audiences, motivations). The model accommodates the dynamic nature of information flow and the recursive feedback loops where interpreters become agents."
+
+schema_blueprint:
+  title: "Information Disorder Framework Schema"
+  description: "A comprehensive schema modeling the theoretical framework for understanding mis-information, dis-information, and mal-information in digital environments."
+  
+  root_properties:
+    nodes:
+      description: "Represents agents, messages, interpreters, platforms, and contextual elements in the information disorder ecosystem"
+      item_type: "Entity"
+    edges:
+      description: "Represents relationships, processes, influences, and interactions between entities in information disorder"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Constructs - Information Types
+    - name: "mis-information"
+      category: "core-construct"
+      description: "Information that is false, but not created with the intention of causing harm"
+      
+    - name: "dis-information"
+      category: "core-construct"
+      description: "Information that is false and deliberately created to harm a person, social group, organization or country"
+      
+    - name: "mal-information"
+      category: "core-construct"
+      description: "Information that is based on reality, used to inflict harm on a person, organization or country"
+      
+    # Framework Elements
+    - name: "agent"
+      category: "core-construct"
+      description: "The person or organization that creates, produces, or disseminates information disorder content"
+      
+    - name: "message"
+      category: "core-construct"
+      description: "The information content itself, including text, images, videos, and other media formats"
+      
+    - name: "interpreter"
+      category: "core-construct"
+      description: "The person who receives and makes sense of the message, potentially becoming an agent through re-sharing"
+      
+    # Process Phases
+    - name: "creation-phase"
+      category: "process"
+      description: "The initial creation of false or misleading information content"
+      
+    - name: "production-phase"
+      category: "process"
+      description: "The process of turning information into media products for dissemination"
+      
+    - name: "dissemination-phase"
+      category: "process"
+      description: "The distribution and spread of information through various channels and platforms"
+      
+    # Agent Motivations
+    - name: "financial-motivation"
+      category: "agent-motivation"
+      description: "Creating or sharing information disorder content for monetary gain"
+      
+    - name: "political-motivation"
+      category: "agent-motivation"
+      description: "Creating or sharing information to influence political outcomes or discourse"
+      
+    - name: "social-motivation"
+      category: "agent-motivation"
+      description: "Creating or sharing information for social connection, belonging, or identity expression"
+      
+    - name: "psychological-motivation"
+      category: "agent-motivation"
+      description: "Creating or sharing information for emotional satisfaction, attention, or status"
+      
+    # Reception Theory Elements
+    - name: "hegemonic-reading"
+      category: "interpretation-mode"
+      description: "Accepting the message exactly as it was encoded by the producer"
+      
+    - name: "negotiated-reading"
+      category: "interpretation-mode"
+      description: "Accepting some aspects of the message while rejecting others"
+      
+    - name: "oppositional-reading"
+      category: "interpretation-mode"
+      description: "Rejecting the dominant meaning and interpreting the message from an alternative perspective"
+      
+    # Cognitive Processes
+    - name: "motivated-cognition"
+      category: "cognitive-process"
+      description: "The unconscious tendency to process information in ways that support preferred conclusions or goals"
+      
+    - name: "confirmation-bias"
+      category: "cognitive-process"
+      description: "The tendency to search for, favor, and interpret information that confirms pre-existing beliefs"
+      
+    - name: "motivated-reasoning"
+      category: "cognitive-process"
+      description: "The unconscious tendency to process information to reach emotionally preferred conclusions"
+      
+    - name: "false-reason"
+      category: "cognitive-process"
+      description: "Lakoff's concept of purely logical, disembodied reasoning that fails in emotional contexts"
+      
+    - name: "real-reason"
+      category: "cognitive-process"
+      description: "Lakoff's concept of unconscious reasoning based on embodied metaphors and emotional frames"
+      
+    # Credibility Heuristics
+    - name: "reputation-heuristic"
+      category: "credibility-cue"
+      description: "Judging credibility based on source recognition and familiarity"
+      
+    - name: "endorsement-heuristic"
+      category: "credibility-cue"
+      description: "Judging credibility based on whether others find the source or message credible"
+      
+    - name: "consistency-heuristic"
+      category: "credibility-cue"
+      description: "Judging credibility based on whether the message is echoed by multiple sources"
+      
+    - name: "expectancy-violation-heuristic"
+      category: "credibility-cue"
+      description: "Judging credibility based on whether a website looks and behaves as expected"
+      
+    - name: "self-confirmation-heuristic"
+      category: "credibility-cue"
+      description: "Judging credibility based on whether a message confirms existing beliefs"
+      
+    - name: "persuasive-intent-heuristic"
+      category: "credibility-cue"
+      description: "Judging credibility based on the perceived intent of the source"
+      
+    # Social Media Dynamics
+    - name: "impression-management"
+      category: "social-process"
+      description: "Conscious or unconscious attempts to influence others' perceptions through information sharing"
+      
+    - name: "tribal-mentality"
+      category: "social-process"
+      description: "Tendency to conform to group norms and share information that reinforces group identity"
+      
+    - name: "communication-as-ritual"
+      category: "theoretical-framework"
+      description: "Understanding information sharing as performative acts that maintain social relationships and identity"
+      
+    - name: "communication-as-transmission"
+      category: "theoretical-framework"
+      description: "Understanding information sharing as the transfer of content from sender to receiver"
+      
+    # Algorithmic Factors
+    - name: "algorithmic-filtering"
+      category: "technological-factor"
+      description: "Automated systems that determine what information users see based on engagement patterns"
+      
+    - name: "filter-bubble"
+      category: "technological-factor"
+      description: "Intellectual isolation resulting from personalized algorithmic filtering"
+      
+    - name: "echo-chamber"
+      category: "technological-factor"
+      description: "Environment where users encounter only information that reinforces existing beliefs"
+      
+    # Manipulation Techniques
+    - name: "repetition-technique"
+      category: "manipulation-method"
+      description: "Using frequent repetition to increase perceived credibility and acceptance"
+      
+    - name: "bot-amplification"
+      category: "manipulation-method"
+      description: "Using automated accounts to artificially increase the apparent popularity of content"
+      
+    - name: "click-farm-manipulation"
+      category: "manipulation-method"
+      description: "Using coordinated networks to artificially boost engagement metrics"
+      
+    - name: "firehose-of-falsehood"
+      category: "manipulation-method"
+      description: "Overwhelming audiences with high-volume, multi-channel false information"
+      
+    # Countermeasures
+    - name: "fact-checking"
+      category: "countermeasure"
+      description: "Systematic verification and correction of false or misleading claims"
+      
+    - name: "debunking"
+      category: "countermeasure"
+      description: "Explicitly refuting false information with evidence-based corrections"
+      
+    - name: "inoculation"
+      category: "countermeasure"
+      description: "Pre-emptively warning audiences about misinformation or reaching them first with truth"
+      
+    - name: "source-checking"
+      category: "countermeasure"
+      description: "Identifying and exposing the origins of false information rather than just fact-checking content"
+      
+    - name: "media-literacy"
+      category: "countermeasure"
+      description: "Educational approaches to improve critical evaluation of information sources"
+      
+    # Effects and Outcomes
+    - name: "backfire-effect"
+      category: "correction-outcome"
+      description: "When corrections strengthen rather than weaken false beliefs (contested in recent research)"
+      
+    - name: "truth-nudging"
+      category: "correction-outcome"
+      description: "Gentle movement toward accurate beliefs through fact-checking and corrections"
+      
+    - name: "familiarity-bias"
+      category: "cognitive-bias"
+      description: "Tendency to rate familiar information as more credible, regardless of truth value"
+      
+    - name: "continued-influence-effect"
+      category: "cognitive-bias"
+      description: "Persistence of false beliefs even after correction"
+      
+    # Target Characteristics
+    - name: "political-polarization"
+      category: "social-division"
+      description: "Divisions between supporters of different political parties or ideologies"
+      
+    - name: "ethnic-division"
+      category: "social-division"
+      description: "Divisions based on ethnic, racial, or religious group membership"
+      
+    - name: "socioeconomic-division"
+      category: "social-division"
+      description: "Divisions based on economic class, education, or social status"
+      
+    # Platform Characteristics
+    - name: "social-media-platform"
+      category: "dissemination-channel"
+      description: "Digital platforms that enable user-generated content sharing and social interaction"
+      
+    - name: "traditional-media"
+      category: "dissemination-channel"
+      description: "Established news organizations and broadcast media"
+      
+    - name: "messaging-platform"
+      category: "dissemination-channel"
+      description: "Private communication platforms like WhatsApp, Telegram, or encrypted messaging apps"
+      
+    # Relationships
+    - name: "creates"
+      category: "relationship"
+      description: "Agent creates message content"
+      domain: ["agent"]
+      range: ["message"]
+      
+    - name: "produces"
+      category: "relationship"
+      description: "Agent transforms raw information into media products"
+      domain: ["agent"]
+      range: ["message"]
+      
+    - name: "disseminates"
+      category: "relationship"
+      description: "Agent spreads message through channels"
+      domain: ["agent"]
+      range: ["message"]
+      
+    - name: "interprets"
+      category: "relationship"
+      description: "Interpreter makes sense of message content"
+      domain: ["interpreter"]
+      range: ["message"]
+      
+    - name: "motivates"
+      category: "relationship"
+      description: "Motivation drives agent behavior"
+      domain: ["agent-motivation"]
+      range: ["agent"]
+      
+    - name: "influences"
+      category: "relationship"
+      description: "One entity affects another's behavior or beliefs"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    - name: "amplifies"
+      category: "relationship"
+      description: "Platform or technique increases message reach"
+      domain: ["dissemination-channel", "manipulation-method"]
+      range: ["message"]
+      
+    - name: "targets"
+      category: "relationship"
+      description: "Message is directed at specific audience"
+      domain: ["message"]
+      range: ["social-division", "interpreter"]
+      
+    - name: "counters"
+      category: "relationship"
+      description: "Countermeasure addresses information disorder"
+      domain: ["countermeasure"]
+      range: ["mis-information", "dis-information", "mal-information"]
+
+  json_schema:
+    type: "object"
+    properties:
+      nodes:
+        type: "array"
+        items:
+          $ref: "#/$defs/Entity"
+      edges:
+        type: "array"
+        items:
+          $ref: "#/$defs/NaryTuple"
+    
+    $defs:
+      informationType:
+        enum: ["mis-information", "dis-information", "mal-information"]
+      
+      frameworkElement:
+        enum: ["agent", "message", "interpreter"]
+      
+      processPhase:
+        enum: ["creation-phase", "production-phase", "dissemination-phase"]
+      
+      agentMotivation:
+        enum: ["financial-motivation", "political-motivation", "social-motivation", "psychological-motivation"]
+      
+      interpretationMode:
+        enum: ["hegemonic-reading", "negotiated-reading", "oppositional-reading"]
+      
+      cognitiveProcess:
+        enum: ["motivated-cognition", "confirmation-bias", "motivated-reasoning", "false-reason", "real-reason"]
+      
+      credibilityCue:
+        enum: ["reputation-heuristic", "endorsement-heuristic", "consistency-heuristic", "expectancy-violation-heuristic", "self-confirmation-heuristic", "persuasive-intent-heuristic"]
+      
+      socialProcess:
+        enum: ["impression-management", "tribal-mentality"]
+      
+      theoreticalFramework:
+        enum: ["communication-as-ritual", "communication-as-transmission"]
+      
+      technologicalFactor:
+        enum: ["algorithmic-filtering", "filter-bubble", "echo-chamber"]
+      
+      manipulationMethod:
+        enum: ["repetition-technique", "bot-amplification", "click-farm-manipulation", "firehose-of-falsehood"]
+      
+      countermeasure:
+        enum: ["fact-checking", "debunking", "inoculation", "source-checking", "media-literacy"]
+      
+      correctionOutcome:
+        enum: ["backfire-effect", "truth-nudging"]
+      
+      cognitiveBias:
+        enum: ["familiarity-bias", "continued-influence-effect"]
+      
+      socialDivision:
+        enum: ["political-polarization", "ethnic-division", "socioeconomic-division"]
+      
+      disseminationChannel:
+        enum: ["social-media-platform", "traditional-media", "messaging-platform"]
+      
+      relationship:
+        enum: ["creates", "produces", "disseminates", "interprets", "motivates", "influences", "amplifies", "targets", "counters"]

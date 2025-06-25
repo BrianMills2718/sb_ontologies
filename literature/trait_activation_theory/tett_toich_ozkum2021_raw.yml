@@ -1,0 +1,583 @@
+citation: "Tett, Robert P., Margaret J. Toich, and S. Burak Ozkum. \"Trait Activation Theory: A Review of the Literature and Applications to Five Lines of Personality Dynamics Research.\" Annual Review of Organizational Psychology and Organizational Behavior 8 (2021): 199-233."
+annotation: "TAT explains how personality traits activate as work behavior when triggered by trait-relevant situational cues, extending interactionist principles to predict performance variability across contexts."
+model_type: "property_graph"
+rationale: "The framework represents a property graph with nodes for traits, situations, behaviors, and performance outcomes, connected by edges representing activating relationships, moderating influences, and feedback loops between person-situation interactions."
+schema_blueprint:
+  title: "Trait Activation Theory Schema"
+  description: "Models how personality traits activate as work behavior through trait-relevant situational cues and person-situation interactions."
+  root_properties:
+    nodes:
+      description: "Personality traits, situational features, behaviors, performance outcomes, and dynamic processes."
+      item_type: "Entity"
+    edges:
+      description: "The activation relationships, moderating influences, and feedback loops between traits, situations, and behavioral outcomes."
+      item_type: "NaryTuple"
+  definitions:
+    - name: "trait-activation-theory"
+      category: "core-construct"
+      description: "Theory explaining how personality traits activate as work behavior when triggered by trait-relevant situational cues."
+    - name: "trait-activation"
+      category: "core-construct"
+      description: "Process by which latent personality traits are expressed as observable behavior through situational triggers."
+      domain: ["Trait"]
+      range: ["Behavior"]
+    - name: "situation-trait-relevance"
+      category: "core-construct"
+      description: "Degree to which situational features are aligned with specific personality traits."
+      domain: ["Situation"]
+      range: ["Trait"]
+    - name: "trait-relevant-situational-cues"
+      category: "core-construct"
+      description: "Environmental features that trigger the expression of specific personality traits."
+      domain: ["Situation"]
+      range: ["Trait"]
+    - name: "trait-expression"
+      category: "core-construct"
+      description: "Observable manifestation of personality traits through behavior."
+      domain: ["Trait"]
+      range: ["Behavior"]
+    - name: "latent-potential"
+      category: "core-construct"
+      description: "Unexpressed capacity for trait-relevant behavior that exists within individuals."
+      domain: ["Actor"]
+    - name: "person-situation-interactionism"
+      category: "core-construct"
+      description: "Theoretical perspective emphasizing joint influence of personality and environment on behavior."
+    - name: "situational-specificity"
+      category: "core-construct"
+      description: "Variability in trait-outcome relationships across different environmental contexts."
+    - name: "cross-situational-consistency"
+      category: "core-construct"
+      description: "Behavioral stability across similar situations that activate the same traits."
+    - name: "cross-situational-variability"
+      category: "core-construct"
+      description: "Behavioral differences across situations with varying trait relevance."
+    - name: "behavioral-consistency"
+      category: "core-construct"
+      description: "Stability of behavior patterns across time and situations."
+      domain: ["Actor"]
+    - name: "trait-situation-interactions"
+      category: "core-construct"
+      description: "Combined effects of personality traits and situational features on behavior."
+    - name: "dynamic-interaction"
+      category: "core-construct"
+      description: "Ongoing reciprocal influence between person and environment over time."
+    - name: "reciprocal-causation"
+      category: "core-construct"
+      description: "Bidirectional causal influence between traits and situations."
+    - name: "demands"
+      category: "situational-feature"
+      description: "Positively valued situational cues that require behavioral response."
+    - name: "distracters"
+      category: "situational-feature"
+      description: "Negatively valued cues that divert attention from task demands."
+    - name: "constraints"
+      category: "situational-feature"
+      description: "Environmental features that weaken trait relevance and limit expression."
+    - name: "releasers"
+      category: "situational-feature"
+      description: "Intermittent trait activators that counter the effects of constraints."
+    - name: "facilitators"
+      category: "situational-feature"
+      description: "Environmental features that multiplicatively enhance existing trait-relevant cues."
+    - name: "discretionary-cues"
+      category: "situational-feature"
+      description: "Trait-specific opportunities unrelated to organizationally valued outcomes."
+    - name: "task-level"
+      category: "operational-level"
+      description: "Day-to-day job demands and requirements that activate traits."
+    - name: "social-level"
+      category: "operational-level"
+      description: "Group and team behaviors and norms that influence trait expression."
+    - name: "organization-level"
+      category: "operational-level"
+      description: "Organizational culture, climate, policies, and reward systems affecting traits."
+    - name: "cultural-level"
+      category: "operational-level"
+      description: "National culture influences on trait activation processes."
+    - name: "conscientiousness"
+      category: "ffm-trait"
+      description: "Personality trait involving self-discipline, organization, and goal-directed behavior."
+      domain: ["Actor"]
+    - name: "agreeableness"
+      category: "ffm-trait"
+      description: "Personality trait involving cooperation, trust, and concern for others."
+      domain: ["Actor"]
+    - name: "extraversion"
+      category: "ffm-trait"
+      description: "Personality trait involving sociability, assertiveness, and positive emotionality."
+      domain: ["Actor"]
+    - name: "neuroticism"
+      category: "ffm-trait"
+      description: "Personality trait involving emotional instability, anxiety, and negative affect."
+      domain: ["Actor"]
+    - name: "openness"
+      category: "ffm-trait"
+      description: "Personality trait involving curiosity, imagination, and openness to experience."
+      domain: ["Actor"]
+    - name: "compound-traits"
+      category: "ffm-trait"
+      description: "Personality constructs combining multiple FFM traits."
+      domain: ["Actor"]
+    - name: "situational-specificity-application"
+      category: "tat-application"
+      description: "Application examining variability in trait-outcome relationships across contexts."
+    - name: "bidirectionality-application"
+      category: "tat-application"
+      description: "Application examining positive/negative trait-performance relations by context."
+    - name: "cross-situational-consistency-application"
+      category: "tat-application"
+      description: "Application examining behavioral stability across similar situations."
+    - name: "work-autonomy-application"
+      category: "tat-application"
+      description: "Application examining trait-specific discretionary opportunities."
+    - name: "dynamic-interaction-application"
+      category: "tat-application"
+      description: "Application examining reciprocal trait-situation causation."
+    - name: "person-workplace-fit-application"
+      category: "tat-application"
+      description: "Application examining trait alignment with work demands."
+    - name: "personality-oriented-work-analysis"
+      category: "tat-application"
+      description: "Systematic identification of trait-relevant workplace features."
+    - name: "situational-taxonomies-application"
+      category: "tat-application"
+      description: "Classification of similarly trait-relevant situations."
+    - name: "construct-specificity-application"
+      category: "tat-application"
+      description: "Precise matching of traits with performance criteria."
+    - name: "team-building-application"
+      category: "tat-application"
+      description: "Application examining mutual trait activation and team chemistry."
+    - name: "trait-by-trait-interactions"
+      category: "tat-application"
+      description: "Application examining complex personality trait combinations."
+    - name: "halo-bias-application"
+      category: "tat-application"
+      description: "Application examining performance rating distortions from trait activation."
+    - name: "ksa-activation-application"
+      category: "tat-application"
+      description: "Extension of TAT to knowledge, skills, and abilities."
+    - name: "trait-expression-behavior"
+      category: "behavior-performance"
+      description: "Observable behavioral manifestation of personality traits."
+      domain: ["Actor"]
+    - name: "performance-evaluation"
+      category: "behavior-performance"
+      description: "Assessment and judgment of work-related behavioral outcomes."
+    - name: "valued-behavior"
+      category: "behavior-performance"
+      description: "Behaviors that are positively regarded by organizations or evaluators."
+    - name: "performance-judgment"
+      category: "behavior-performance"
+      description: "Evaluative assessment of behavioral effectiveness."
+    - name: "behavioral-observation"
+      category: "behavior-performance"
+      description: "Systematic recording and analysis of observable behaviors."
+    - name: "observer-effects"
+      category: "behavior-performance"
+      description: "Influence of observer characteristics on performance evaluations."
+    - name: "supervisor-ratings"
+      category: "behavior-performance"
+      description: "Performance evaluations conducted by organizational superiors."
+    - name: "peer-evaluations"
+      category: "behavior-performance"
+      description: "Performance assessments conducted by work colleagues."
+    - name: "intrinsic-motivation"
+      category: "motivation-source"
+      description: "Motivation arising from trait expression as need satisfaction."
+      domain: ["Actor"]
+    - name: "achievement-feedback"
+      category: "motivation-source"
+      description: "Motivation from knowledge of results and performance information."
+      domain: ["Actor"]
+    - name: "extrinsic-reinforcement"
+      category: "motivation-source"
+      description: "Motivation from external rewards and punishments."
+      domain: ["Actor"]
+    - name: "differential-reward-preference"
+      category: "motivation-source"
+      description: "Motivation from trait-aligned outcome preferences."
+      domain: ["Actor"]
+    - name: "dispositional-change"
+      category: "personality-dynamics"
+      description: "Research line examining traits involving behavioral modification capabilities."
+    - name: "person-situation-interactions-research"
+      category: "personality-dynamics"
+      description: "Research line focusing on situational specificity of trait effects."
+    - name: "personality-states"
+      category: "personality-dynamics"
+      description: "Research line examining brief fluctuations in thoughts and feelings."
+    - name: "personality-career-development"
+      category: "personality-dynamics"
+      description: "Research line examining long-term personality-work dynamics."
+    - name: "self-regulation-approaches"
+      category: "personality-dynamics"
+      description: "Research line examining goal-directed motivational processes."
+    - name: "neuroticism-volatility"
+      category: "dispositional-change-trait"
+      description: "Trait involving emotional reactivity and threat sensitivity."
+      domain: ["Actor"]
+      subTypeOf: "neuroticism"
+    - name: "adaptability"
+      category: "dispositional-change-trait"
+      description: "Trait involving behavioral adjustment under stress or changing conditions."
+      domain: ["Actor"]
+    - name: "self-monitoring"
+      category: "dispositional-change-trait"
+      description: "Trait involving deliberate behavioral manipulation based on social cues."
+      domain: ["Actor"]
+    - name: "functional-flexibility"
+      category: "dispositional-change-trait"
+      description: "Ability to adapt behavior to changing functional requirements."
+      domain: ["Actor"]
+    - name: "adventurousness"
+      category: "dispositional-change-trait"
+      description: "Trait involving willingness to take risks and seek novel experiences."
+      domain: ["Actor"]
+    - name: "charisma"
+      category: "dispositional-change-trait"
+      description: "Trait involving ability to influence and change others."
+      domain: ["Actor"]
+    - name: "proactive-personality"
+      category: "dispositional-change-trait"
+      description: "Trait involving tendency to change situations and environments."
+      domain: ["Actor"]
+    - name: "within-job-bidirectionality"
+      category: "person-situation-interaction"
+      description: "Positive and negative trait effects within the same job context."
+    - name: "trait-situation-process-tracking"
+      category: "person-situation-interaction"
+      description: "Systematic monitoring of trait activation processes over time."
+    - name: "dynamic-trait-activation"
+      category: "person-situation-interaction"
+      description: "Ongoing activation and deactivation of traits through situational changes."
+    - name: "cross-trait-activation-chains"
+      category: "person-situation-interaction"
+      description: "Sequential activation of multiple traits through interconnected processes."
+    - name: "momentary-performance"
+      category: "personality-state"
+      description: "Brief, situation-specific performance fluctuations."
+    - name: "state-trait-distinction"
+      category: "personality-state"
+      description: "Theoretical differentiation between temporary states and enduring traits."
+    - name: "density-distributions"
+      category: "personality-state"
+      description: "Statistical distributions of personality state frequencies."
+    - name: "emotional-contagion"
+      category: "personality-state"
+      description: "Spread of emotional states between individuals in social contexts."
+    - name: "proximate-mediators"
+      category: "personality-state"
+      description: "Immediate psychological processes linking traits to outcomes."
+    - name: "short-term-trait-effects"
+      category: "personality-state"
+      description: "Brief duration trait influences on behavior and performance."
+    - name: "social-investment"
+      category: "career-development"
+      description: "Long-term commitment to social roles and relationships."
+    - name: "promotions-career-progression"
+      category: "career-development"
+      description: "Advancement through organizational hierarchies over time."
+    - name: "turnover-decisions"
+      category: "career-development"
+      description: "Choices to leave or remain in organizational positions."
+    - name: "vocational-interests"
+      category: "career-development"
+      description: "Preferences for different types of work activities and environments."
+    - name: "employment-stages"
+      category: "career-development"
+      description: "Sequential phases of career development and work engagement."
+    - name: "peter-principle"
+      category: "career-development"
+      description: "Tendency for employees to be promoted beyond their competence level."
+    - name: "political-skill"
+      category: "career-development"
+      description: "Ability to navigate organizational politics and influence processes."
+    - name: "people-make-the-place"
+      category: "career-development"
+      description: "Theory that individuals shape organizational characteristics."
+    - name: "organizational-life-cycles"
+      category: "career-development"
+      description: "Developmental stages of organizational growth and change."
+    - name: "theory-of-work-adjustment"
+      category: "career-development"
+      description: "Framework for understanding person-environment fit in work settings."
+    - name: "riasec-model"
+      category: "career-development"
+      description: "Vocational interest model with six personality types."
+    - name: "attraction-selection-attrition"
+      category: "career-development"
+      description: "Process by which organizations and individuals select each other."
+    - name: "goal-performance-discrepancy"
+      category: "self-regulation"
+      description: "Gap between desired and actual performance levels that motivates action."
+    - name: "schema-driven-processes"
+      category: "self-regulation"
+      description: "Cognitive frameworks that guide self-regulatory behavior."
+    - name: "self-regulation-processes"
+      category: "self-regulation"
+      description: "Psychological mechanisms for goal-directed behavior control."
+    - name: "trait-as-need-conceptualization"
+      category: "self-regulation"
+      description: "Theoretical approach treating traits as fundamental needs."
+    - name: "affect-as-fundamental-motivator"
+      category: "self-regulation"
+      description: "Role of emotions as primary drivers of motivated behavior."
+    - name: "feedback-loops-sr-tat"
+      category: "self-regulation"
+      description: "Cyclical processes linking self-regulation and trait activation."
+    - name: "meta-analysis"
+      category: "measurement-assessment"
+      description: "Statistical technique for combining results across multiple studies."
+    - name: "psychometric-assessment"
+      category: "measurement-assessment"
+      description: "Systematic measurement of psychological characteristics."
+    - name: "validity-coefficients"
+      category: "measurement-assessment"
+      description: "Statistical measures of assessment accuracy and meaningfulness."
+    - name: "reliability-measures"
+      category: "measurement-assessment"
+      description: "Statistical indicators of measurement consistency and stability."
+    - name: "assessment-centers"
+      category: "measurement-assessment"
+      description: "Comprehensive evaluation methods using multiple assessment techniques."
+    - name: "job-analysis"
+      category: "measurement-assessment"
+      description: "Systematic study of work requirements and characteristics."
+    - name: "confirmatory-vs-exploratory"
+      category: "measurement-assessment"
+      description: "Distinction between hypothesis-testing and discovery-oriented research strategies."
+    - name: "performance-appraisal"
+      category: "measurement-assessment"
+      description: "Systematic evaluation of employee work performance."
+    - name: "360-degree-feedback"
+      category: "measurement-assessment"
+      description: "Multi-source performance evaluation including peers, subordinates, and supervisors."
+    - name: "moderator-effect-testing"
+      category: "measurement-assessment"
+      description: "Statistical analysis of variables that affect relationship strength or direction."
+    - name: "job-performance"
+      category: "work-construct"
+      description: "Overall effectiveness in carrying out job responsibilities."
+    - name: "task-performance"
+      category: "work-construct"
+      description: "Effectiveness in core job duties and technical requirements."
+      subTypeOf: "job-performance"
+    - name: "contextual-performance"
+      category: "work-construct"
+      description: "Effectiveness in supporting organizational and social environment."
+      subTypeOf: "job-performance"
+    - name: "counterproductive-work-behaviors"
+      category: "work-construct"
+      description: "Voluntary behaviors that harm organizations or organizational members."
+    - name: "organizational-citizenship-behaviors"
+      category: "work-construct"
+      description: "Voluntary behaviors that support organizational effectiveness."
+    - name: "job-satisfaction"
+      category: "work-construct"
+      description: "Positive emotional state resulting from job appraisal."
+    - name: "work-engagement"
+      category: "work-construct"
+      description: "Positive, fulfilling work-related state of mind."
+    - name: "turnover-intentions"
+      category: "work-construct"
+      description: "Conscious willfulness to leave the organization."
+    - name: "absenteeism"
+      category: "work-construct"
+      description: "Failure to report for scheduled work."
+    - name: "work-stress"
+      category: "work-construct"
+      description: "Harmful physical and emotional responses to work conditions."
+    - name: "job-demands"
+      category: "work-construct"
+      description: "Physical, psychological, social aspects of job requiring effort."
+    - name: "work-autonomy"
+      category: "work-construct"
+      description: "Degree of freedom and discretion in work methods and scheduling."
+    - name: "situation-strength"
+      category: "work-construct"
+      description: "Extent to which situations provide clear behavioral cues."
+    - name: "weak-vs-strong-situations"
+      category: "work-construct"
+      description: "Distinction between ambiguous and clearly structured environmental contexts."
+    - name: "person-job-fit"
+      category: "person-environment-fit"
+      description: "Compatibility between individual and job characteristics."
+    - name: "person-organization-fit"
+      category: "person-environment-fit"
+      description: "Compatibility between individual and organizational characteristics."
+    - name: "person-group-fit"
+      category: "person-environment-fit"
+      description: "Compatibility between individual and work group characteristics."
+    - name: "person-supervisor-fit"
+      category: "person-environment-fit"
+      description: "Compatibility between individual and supervisor characteristics."
+    - name: "person-vocation-fit"
+      category: "person-environment-fit"
+      description: "Compatibility between individual and occupational characteristics."
+    - name: "person-workplace-fit"
+      category: "person-environment-fit"
+      description: "Overall compatibility between individual and work environment."
+    - name: "supplementary-fit"
+      category: "person-environment-fit"
+      description: "Fit based on similarity between person and environment."
+      subTypeOf: "person-workplace-fit"
+    - name: "complementary-fit"
+      category: "person-environment-fit"
+      description: "Fit based on mutual need fulfillment between person and environment."
+      subTypeOf: "person-workplace-fit"
+    - name: "demands-abilities-fit"
+      category: "person-environment-fit"
+      description: "Match between job demands and individual abilities."
+      subTypeOf: "complementary-fit"
+    - name: "needs-supplies-fit"
+      category: "person-environment-fit"
+      description: "Match between individual needs and environmental supplies."
+      subTypeOf: "complementary-fit"
+    - name: "positive-feedback-loops"
+      category: "dynamic-process"
+      description: "Self-reinforcing cycles that amplify trait activation effects."
+    - name: "negative-feedback-loops"
+      category: "dynamic-process"
+      description: "Self-correcting cycles that dampen trait activation effects."
+    - name: "mutual-trait-activation"
+      category: "dynamic-process"
+      description: "Reciprocal activation of traits between interacting individuals."
+    - name: "trait-activation-chains"
+      category: "dynamic-process"
+      description: "Sequential activation of multiple traits through interconnected processes."
+    - name: "reciprocal-determinism"
+      category: "dynamic-process"
+      description: "Mutual causal influence between person, behavior, and environment."
+    - name: "environmental-modification"
+      category: "dynamic-process"
+      description: "Active change of environmental features by individuals."
+    - name: "situation-selection"
+      category: "dynamic-process"
+      description: "Active choice of environments that activate preferred traits."
+    - name: "situation-creation"
+      category: "dynamic-process"
+      description: "Active construction of new environmental contexts."
+    - name: "evocation-processes"
+      category: "dynamic-process"
+      description: "Unconscious elicitation of specific responses from others."
+    - name: "activates"
+      category: "relationship"
+      description: "Relationship where situational cues trigger trait expression."
+      domain: ["Situation"]
+      range: ["Trait"]
+    - name: "moderates"
+      category: "relationship"
+      description: "Relationship where variables affect the strength of other relationships."
+      domain: ["Variable"]
+      range: ["Relationship"]
+    - name: "mediates"
+      category: "relationship"
+      description: "Relationship where variables explain causal mechanisms between other variables."
+      domain: ["Variable"]
+      range: ["Relationship"]
+    - name: "predicts"
+      category: "relationship"
+      description: "Relationship where traits forecast behavioral or performance outcomes."
+      domain: ["Trait"]
+      range: ["Outcome"]
+    - name: "influences"
+      category: "relationship"
+      description: "General causal relationship between variables in the TAT framework."
+      domain: ["Variable"]
+      range: ["Variable"]
+json_schema: |
+  {
+    "type": "object",
+    "properties": {
+      "nodes": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/Entity"
+        }
+      },
+      "edges": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/NaryTuple"
+        }
+      }
+    },
+    "required": ["nodes", "edges"],
+    "additionalProperties": false,
+    "$defs": {
+      "TAT_CoreConstructs": {
+        "type": "string",
+        "enum": ["trait-activation-theory", "trait-activation", "situation-trait-relevance", "trait-relevant-situational-cues", "trait-expression", "latent-potential", "person-situation-interactionism", "situational-specificity", "cross-situational-consistency", "cross-situational-variability", "behavioral-consistency", "trait-situation-interactions", "dynamic-interaction", "reciprocal-causation"]
+      },
+      "TAT_SituationalFeatures": {
+        "type": "string",
+        "enum": ["demands", "distracters", "constraints", "releasers", "facilitators", "discretionary-cues"]
+      },
+      "TAT_OperationalLevels": {
+        "type": "string",
+        "enum": ["task-level", "social-level", "organization-level", "cultural-level"]
+      },
+      "TAT_FFMTraits": {
+        "type": "string",
+        "enum": ["conscientiousness", "agreeableness", "extraversion", "neuroticism", "openness", "compound-traits"]
+      },
+      "TAT_Applications": {
+        "type": "string",
+        "enum": ["situational-specificity-application", "bidirectionality-application", "cross-situational-consistency-application", "work-autonomy-application", "dynamic-interaction-application", "person-workplace-fit-application", "personality-oriented-work-analysis", "situational-taxonomies-application", "construct-specificity-application", "team-building-application", "trait-by-trait-interactions", "halo-bias-application", "ksa-activation-application"]
+      },
+      "TAT_BehaviorPerformance": {
+        "type": "string",
+        "enum": ["trait-expression-behavior", "performance-evaluation", "valued-behavior", "performance-judgment", "behavioral-observation", "observer-effects", "supervisor-ratings", "peer-evaluations"]
+      },
+      "TAT_MotivationSources": {
+        "type": "string",
+        "enum": ["intrinsic-motivation", "achievement-feedback", "extrinsic-reinforcement", "differential-reward-preference"]
+      },
+      "TAT_PersonalityDynamics": {
+        "type": "string",
+        "enum": ["dispositional-change", "person-situation-interactions-research", "personality-states", "personality-career-development", "self-regulation-approaches"]
+      },
+      "TAT_DispositionalChangeTraits": {
+        "type": "string",
+        "enum": ["neuroticism-volatility", "adaptability", "self-monitoring", "functional-flexibility", "adventurousness", "charisma", "proactive-personality"]
+      },
+      "TAT_PersonSituationInteraction": {
+        "type": "string",
+        "enum": ["within-job-bidirectionality", "trait-situation-process-tracking", "dynamic-trait-activation", "cross-trait-activation-chains"]
+      },
+      "TAT_PersonalityStates": {
+        "type": "string",
+        "enum": ["momentary-performance", "state-trait-distinction", "density-distributions", "emotional-contagion", "proximate-mediators", "short-term-trait-effects"]
+      },
+      "TAT_CareerDevelopment": {
+        "type": "string",
+        "enum": ["social-investment", "promotions-career-progression", "turnover-decisions", "vocational-interests", "employment-stages", "peter-principle", "political-skill", "people-make-the-place", "organizational-life-cycles", "theory-of-work-adjustment", "riasec-model", "attraction-selection-attrition"]
+      },
+      "TAT_SelfRegulation": {
+        "type": "string",
+        "enum": ["goal-performance-discrepancy", "schema-driven-processes", "self-regulation-processes", "trait-as-need-conceptualization", "affect-as-fundamental-motivator", "feedback-loops-sr-tat"]
+      },
+      "TAT_MeasurementAssessment": {
+        "type": "string",
+        "enum": ["meta-analysis", "psychometric-assessment", "validity-coefficients", "reliability-measures", "assessment-centers", "job-analysis", "confirmatory-vs-exploratory", "performance-appraisal", "360-degree-feedback", "moderator-effect-testing"]
+      },
+      "TAT_WorkConstructs": {
+        "type": "string",
+        "enum": ["job-performance", "task-performance", "contextual-performance", "counterproductive-work-behaviors", "organizational-citizenship-behaviors", "job-satisfaction", "work-engagement", "turnover-intentions", "absenteeism", "work-stress", "job-demands", "work-autonomy", "situation-strength", "weak-vs-strong-situations"]
+      },
+      "TAT_PersonEnvironmentFit": {
+        "type": "string",
+        "enum": ["person-job-fit", "person-organization-fit", "person-group-fit", "person-supervisor-fit", "person-vocation-fit", "person-workplace-fit", "supplementary-fit", "complementary-fit", "demands-abilities-fit", "needs-supplies-fit"]
+      },
+      "TAT_DynamicProcesses": {
+        "type": "string",
+        "enum": ["positive-feedback-loops", "negative-feedback-loops", "mutual-trait-activation", "trait-activation-chains", "reciprocal-determinism", "environmental-modification", "situation-selection", "situation-creation", "evocation-processes"]
+      },
+      "TAT_Relationships": {
+        "type": "string",
+        "enum": ["activates", "moderates", "mediates", "predicts", "influences"]
+      }
+    }
+  }

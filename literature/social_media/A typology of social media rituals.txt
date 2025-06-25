@@ -1,0 +1,1033 @@
+A typology of social media rituals
+Tommaso Trillo` *,† , Blake Hallinan †
+, Limor Shifman
+Department of Communication and Journalism, The Hebrew University of Jerusalem, Jerusalem, Israelaaa
+*Corresponding author: Tommaso Trillo` , Postdoctoral Researcher, Department of Communication and Journalism, The Hebrew University of Jerusalem,
+Mount Scopus 91905, Jerusalem, Israel; email: tommaso.trillo@mail.huji.ac.il
+†
+Tommaso Trillo` and Blake Hallinan contributed equally to this study.
+Abstract
+Given its massive volume and rapid development of new trends, the universe of user-generated content may seem utterly chaotic. Yet the flow
+of content is underlined by deep-rooted patterns of communication. In this article, we present the first systematic attempt to identify these pat-
+terns using the concept of social media rituals. Understood as typified communicative practices that formalize and express shared values, rituals
+offer a productive path to categorize popular genres of content and trace the values they convey. Integrating theoretical literature on rituals with
+empirical studies of social media genres, we develop a typology of 16 rituals that express diverse values, ranging from respect and responsibility
+to materialism and pleasure. Furthermore, we show that rituals embed different notions of good communication, as reflected in the values of
+authenticity, persuasion, affiliation, and demonstration. Finally, we discuss how our framework can facilitate comparative investigations of user-
+generated content and platform values.
+Lay Summary
+The world of user-generated content on social media is vast and seemingly unorganized. In this article, we attempt to identify some of its over-
+arching patterns by sorting social media content into different “rituals,” patterned ways of communicating where people express and negotiate
+shared values. We integrate theoretical literature on rituals with empirical studies of social media genres to develop a typology of 16 rituals. Each
+ritual conveys different values, ranging from respect and responsibility to materialism and pleasure. Rituals also convey different notions of what
+counts as good communication, emphasizing one of four communicative values: authenticity, persuasion, affiliation, or demonstration. In our
+conclusion, we discuss how our framework can support future comparative research on what people post to social media.
+Keywords: genres, rituals, social media rituals, user-generated content, values
+From performing dance challenges to debating political issues to
+wishing happy birthday to distant relatives, billions of people
+across the world use social media to express what matters to
+them. Each contribution amounts to “a tiny value assertion”
+(Gillespie, 2018, p. 210), which is then subjected to a series of
+tiny evaluations in the form of likes, shares, and comments.
+While values and evaluation processes are central to digital cul-
+ture, the construction of values by users has not yet been studied
+systematically. This can largely be explained by the scale and de-
+centralization of digital culture. Given its massive volume and
+rapid development of new trends, the universe of user-generated
+content may seem utterly chaotic. The transnational character of
+social media further adds to the complexity, as culturally situ-
+ated practices associated with the production of digital content
+may not have the same visibility in different contexts. Yet, we
+contend that deep-rooted patterns of communication—which
+we refer to as social media rituals—cross contexts and underlie
+this seemingly chaotic sphere.
+Building on and expanding pioneering studies of social me-
+dia rituals (Burgess et al., 2018; Gibbs et al., 2015), we define
+such rituals as typified communicative practices on social me-
+dia that formalize and express shared values. The concept
+offers a productive way to categorize popular genres of user-
+generated content and trace the values they convey. While
+some studies have suggested using genres as keys for ordering
+the chaotic universe of user-generated content (Hallinan,
+Kim, Scharlach, et al., 2021), the number and ephemerality of
+social media genres make comparative investigation difficult.
+Even though the concepts of ritual (Grimes, 2013) and genre
+(Yates & Orlikowski, 1992) both focus on patterned modes
+of expression, rituals encompass a wider range of phenomena
+and more explicitly foreground the expression of values (Bell,
+1997; Goffman, 2005 [1967]), broadly understood as guiding
+beliefs about what is desirable. Hence, we approach ritual as
+a higher-level analytic that potentially encompasses many
+specific genres.
+In order for social media rituals to function effectively as a
+framework for organizing and comparing social media gen-
+res, we need a sense of what types of rituals are out there.
+Unfortunately, existing research offers little guidance on this
+front. While there have been studies of specific social media
+rituals including celebrity deaths (Burgess et al., 2018), roasts
+on Reddit (Dynel & Poppi, 2019), and the ritualized interac-
+tions of families that live far apart (Abel et al., 2021), there
+have been no systematic attempts to categorize or typify such
+rituals. Furthermore, following a broader trend of social
+media studies (Matassi & Boczkowski, 2021), most of the re-
+search on social media rituals focuses on English-language
+content, making it difficult to determine the cross-cultural rel-
+evance of specific ritual practices. Embracing these challenges,
+we set out to identify transnationally popular social media rit-
+uals and examine the values that they convey.
+Associate Editor: Lee Humphreys
+Received: 10 January 2022. Revised: 14 April 2022. Accepted: 24 May 2022
+VC The Author(s) 2022. Published by Oxford University Press on behalf of International Communication Association.
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which
+permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.
+Journal of Computer-Mediated Communication, 2022, 00, zmac011
+https://doi.org/10.1093/jcmc/zmac011
+Full-length Research Article
+Downloaded from https://academic.oup.com/jcmc/article/27/4/zmac011/6644420 by Brian Mills on 25 June 2025
+Our study of social media rituals unfolds in four parts.
+First, we review the literature, discussing how rituals con-
+struct shared values, media technologies shape the character-
+istics of rituals, and genres of user-generated content act as
+the building blocks of social media rituals. Second, we present
+our methodology: a grounded analysis integrating literature
+on rituals and research on genres of social media content,
+complemented by a transnational participant observation of
+social media platforms. Third, we introduce our typology of
+16 social media rituals, each associated with a set of core and
+communicative values. We argue that the typology balances
+the flexibility necessary to accommodate most genres of user-
+generated content with the boundedness necessary for a useful
+analytical tool. Finally, we discuss how our framework can
+facilitate future comparative investigations of user-generated
+content and platform values.
+Literature review
+The ritualized construction of values
+Despite the proliferation of attempts to define rituals over a
+century of scholarly investigation, the concept remains some-
+what elusive. As Grimes (2013) summarizes, rituals have “a set
+of family resemblances” but lack a “singular, shared, definitive
+quality” (appendix, p. 38). However, most approaches agree
+that rituals are intentional and typified performances through
+which “people embody assumptions about their place in a
+larger order of things” (Bell, 1997, p. xi). Accordingly, rituals
+are concerned with the relationship between people and the
+values that govern their behavior. This association between val-
+ues and rituals can be traced back to Durkheims (1995 [1915])
+foundational work on the role of religious rituals in the produc-
+tion of moral communities. Durkheim contends that religious
+rituals not only venerate the divine but also reproduce a shared
+vision of society. In other words, rituals mobilize people and in-
+tegrate them into a community that shares a set of social
+values.
+The lens of ritual, however, need not exclusively apply to
+highly formalized performances. As Goffman (2005 [1967])
+demonstrated, the concept can also illuminate the social func-
+tion of more mundane exchanges. According to Goffman, in-
+terpersonal interactions are calculated performances in which
+people aim to preserve their self-worth and recognize the
+worth of others. In turn, these actions reaffirm societal princi-
+ples of evaluation, namely, the values according to which so-
+cial worth is assigned. From the above, we conclude that all
+rituals, from the mundane to the sacred, selectively incorpo-
+rate the norms and aspirations of particular social groups
+(Bell, 1997; Grimes, 2013).
+While there is a rich tradition of theorizing ritual, there has
+been significantly less interest in categorizing different types
+of rituals. Among existing typologies, some are broad and of-
+fer novel ways to think about rituals rather than actionable
+tools for empirical analysis. Examples include Humphrey and
+Laidlaw’s (1994) twofold distinction between performance-
+centered and liturgy-centered rituals and Whitehouse’s (2004)
+distinction between doctrinal and imaginistic religious rituals.
+Bell (1997) offers a somewhat more extensive typology, iden-
+tifying six ritual genres (rites of passage; calendrical and com-
+memorative rites; rites of exchange and communion; rites of
+affliction; rites of feasting, fasting, and festivals; and political
+rituals) based on a review of the terms employed by other
+scholars in the field. To the best of our knowledge, the most
+comprehensive attempt to classify ritual types has been car-
+ried out by Grimes (2013). Developed during his tenure as ed-
+itor of the Journal of Ritual Studies to classify incoming
+articles, Grimes’ typology features 18 rituals distinguished
+according to their main function. Given the lack of equivalent
+typologies for social media rituals discussed below, this pro-
+vides a useful starting point for parsing social media content.
+The mediation of rituals: From mass to social media
+Although rituals have conventionally been investigated in the
+context of local communities, mass communication technolo-
+gies have changed the scale at which rituals can take place.
+Foundational work on the mediation of rituals focused on ex-
+ceptional events, more closely aligned with Durkheim’s reli-
+gious rituals than with Goffman’s interactional rituals. For
+example, Dayan and Katz (1996) conceptualized media events
+as exceptional moments that interrupt the flow of everyday
+life, such as the televised funeral of U.S. President John F.
+Kennedy. Building on this notion, Cottle (2006) defines medi-
+atized rituals as “exceptional and performative media phe-
+nomena that serve to sustain and/or mobilize collective
+sentiments and solidarities based on symbolization and a sub-
+junctive orientation to what should or ought to be” (p. 415).
+Crucially, however, various scholars have noticed that me-
+dia rituals are not limited to extraordinary events but also en-
+compass everyday interactions with media. Whether
+involving television (Couldry, 2003), computer-mediated
+communication (Hillis, 2009), or social media platforms
+(Humphreys, 2018), media rituals are interwoven in our daily
+life. From public confessions on daytime talk shows to the
+documentation of everyday life on a personal blog, mundane
+patterns of mediated communication construct shared societal
+notions of what is worthy of attention and, therefore, has
+value.
+While the boundary between the exceptional and everyday
+in mediated rituals has never been tidy (see Couldry, 2002),
+social media further problematize the distinction, insofar as
+the same platforms facilitate interpersonal interactions and
+mass broadcasts. Nonetheless, this distinction continues to
+shape research on social media rituals. Emphasizing the ex-
+ceptional, Burgess et al. (2018) define social media rituals as
+“platform-specific social media conventions and patterned
+responses to acute events . . . characterised by the convergence
+of private and personal audience practices with public dis-
+course, in networked publics” (p. 230). Following this defini-
+tion, the literature on social media rituals has primarily
+focused on “acute events” of global relevance such as celeb-
+rity deaths (Van den Bulck & Larsson, 2019). Yet, the lens of
+ritual has also been applied to the study of everyday forms of
+social media content such as the display of social support on
+Twitter (Brownlie & Shaw, 2019) or the announcement of
+New Year’s resolutions (Hallinan, Kim, Mizoroki et al.,
+2021). Combining both research trajectories, we contend that
+the concept of social media rituals can be applied to study a
+broad range of social media content types, encompassing
+both acute events and more mundane actions.
+Accordingly, we propose an updated definition of social
+media rituals as typified communicative practices on social
+media that formalize and express shared values. Much like
+their mainstream media counterparts, the values that under-
+pin social media rituals relate to the techno-cultural logics
+and communicative norms surrounding the medium itself. As
+2 A typology of social media rituals
+Downloaded from https://academic.oup.com/jcmc/article/27/4/zmac011/6644420 by Brian Mills on 25 June 2025
+Couldry (2002) notes, media participate in the performative
+enactment of rituals, infusing them with media-specific values.
+Thus, live televised coverage from the site of a natural disaster
+not only conveys community values such as solidarity with
+the victims but also upholds the media-related value of liven-
+ess. As such, the mediated articulation of values often invokes
+normative ideas about the act of communication itself, or
+what Shifman (2019) refers to as communicative values. If
+general values provide guidelines for how we should conduct
+ourselves in a wide array of domains, communicative values
+relate specifically to desirable modes of expression. For exam-
+ple, the value of authenticity relates to both the imperative to
+convey information that accurately represents the world and
+to the expression of one’s “true” self (Shifman, 2018).
+Authenticity is invoked in ritualized performances as varied
+as confession cue cards (Hall, 2016), far-right commemora-
+tion memes (Trillo` & Shifman, 2021), and strategic self-
+branding by micro-celebrities (Marwick, 2017).
+Genres as the building blocks of social media rituals
+While social media rituals represent broad types of value-
+infused action, their realization takes place through typified
+genres of user-generated content. For example, ritualized
+demotion can take the shape of customer complaints left on
+companies’ Facebook pages or “plastic surgery gone
+wrong” photos shaming celebrities. Following the litera-
+ture, we refer to genres as socially recognized categories of
+cultural expression that share elements of form, content,
+and interpretative expectations (Miller, 1984; Mittell,
+2001; Yates & Orlikowski, 1992).
+Social media genres lack some of the “obligatoriness” typi-
+cal of older media genres (Giltrow & Stein, 2009), in part be-
+cause social media makes it easier to produce and circulate
+content (Miller et al., 2016). Given the relative elusiveness of
+social media genres, there have been few attempts to systemat-
+ically categorize them (e.g., Hallinan, Kim, Scharlach et al.,
+2021; Rieder et al., 2020; Westman & Freund, 2010).
+Genres, however, remain fundamental for the production of
+cultural content on social media (Milner, 2016), providing
+users with recognizable templates for self-expression. Thus, a
+growing body of knowledge investigates the cultural implica-
+tions of specific social media genres, with the selfie represent-
+ing a particularly prominent example (Frosh, 2015; Tifentale
+& Manovich, 2015; Zappavigna, 2016).
+Much like their analog counterparts, ritualized expression
+through social media genres conveys values. For example,
+Kumar (2021) connects the selfie and vlog to individualism
+and self-disclosure respectively, arguing that these values are
+tied to Western ideas of modernity that serve the interests of
+social media corporations. Indeed, the norms regulating what
+is valued on social media platforms—which are often formed
+through negotiation between local values of users and the val-
+ues promoted by the corporations themselves—may deter-
+mine what rituals and genres achieve mainstream visibility,
+which remain niche sub-cultural phenomena, and which are
+simply not permitted (Hallinan, Kim, Scharlach et al., 2021).
+The tangibility of genres combined with the conceptual
+richness and reach of rituals offers a productive framework
+for studying the construction of values in digital spheres.
+Since rituals are broader and more enduring forms of interac-
+tion than genres, using them as a higher-level classification
+mechanism enables the creation of a stable scheme of catego-
+rization for digital content. Generating a robust scheme of
+rituals that account for popular genres can allow us to study
+the dynamic environment of social media in a flexible way,
+supporting the examination of future genres vis-a` -vis these
+higher-level analytical categories. Our study thus addresses
+two main questions: first, what are the main types of social
+media rituals? And second, how do the different types of so-
+cial media rituals relate to values?
+Methods
+Given the aforementioned scarcity of literature about social
+media rituals, we draw upon two broader bodies of knowl-
+edge as the starting points for our investigation: literature
+about rituals and studies of social media genres. The first tra-
+jectory helps establish the meaning and social functions of rit-
+uals, while the second brings together accounts of existing
+social media practices. As detailed below and illustrated in
+Figure 1, we followed the principles of grounded theory and
+constantly compared (Lindlof & Taylor, 2019) the two bodies
+of knowledge in order to develop our typology of social media
+rituals.
+For rituals, we searched for existing classification schemas,
+combining a top-down and bottom-up approach. First, we
+conducted a cross-disciplinary literature review, drawing on
+classic work from ritual studies (e.g., Grimes, 2013), anthro-
+pology and sociology (e.g., Collins, 2004; Durkheim, 1995
+[1915]; Goffman, 2005 [1967]), as well as work on media rit-
+uals (e.g., Cottle, 2006; Couldry, 2002; Dayan & Katz, 1996)
+and social medial rituals (e.g., Abel et al., 2021; Burgess et al.,
+2018), to identify different types of rituals and logics of classi-
+fication. As mentioned in the literature review, we found re-
+markably few attempts at creating a broad typology of
+rituals, with Grimes’ (2013) list of 18 ritual types being the
+most systematic and holistic. We supplemented the list of rit-
+uals yielded by this literature review with a bottom-up ap-
+proach to classification, typing the phrase “ritual of. . .” into
+Google Scholar and going through the alphabet to see auto-
+fill suggestions. For any novel ritual types, we looked to the
+recommended literature for a definition or description.
+We applied a similar combination of top-down and
+bottom-up approaches for our inspection of social media gen-
+res. First, we built upon our prior genre research, which in-
+cluded a review of titles and abstracts from 15 top media and
+communication journals since 2005 to identify types of social
+media content (Hallinan, Kim, Scharlach et al., 2021). We
+supplemented the list generated from this top-down approach
+with several empirical investigations of genres across the
+globe, including an open-ended transnational survey of the
+types of content that people like and dislike, structured inter-
+views, and participant observation of five social media plat-
+forms following principles outlined by boyd (2015). These
+three methods were applied by a transnational (and multi-
+lingual) team of researchers and participants from the United
+States, Italy, South Korea, Germany, and Japan. Together,
+these strategies resulted in an extensive list of over 200 social
+media genres, including well-established ones like “makeup
+tutorials,” “birthday wishes,” and “travel photos,” alongside
+less well-documented genres like “commemoration memes,”
+“personal diary manga,” and “algorithmic complaints.”
+While this is certainly not an exhaustive account, it provides a
+broad perspective on social media that crosses platforms,
+communities, and languages.
+zzJournal of Computer-Mediated Communication (2022), Vol. 27 3
+Downloaded from https://academic.oup.com/jcmc/article/27/4/zmac011/6644420 by Brian Mills on 25 June 2025
+Having created our lists of ritual types and social media
+genres, we then moved to refine the former to better account
+for the latter in a process we colloquially describe as match-
+making. We aimed to create a typology of social media rituals
+that accounts for the vast majority of genres we identified in
+our literature-based and empirical research. We began from
+Grimes’ list of 18 rituals, examined how other ritual types we
+identified related to this schema, and used the list of social me-
+dia genres to determine the applicability of each type to social
+media. While we retained some of the original labels from
+Grimes’ list (e.g., rites of commemoration), we also updated
+some of them to improve intelligibility (e.g., “agonistic rites”
+were relabeled as “rituals of competition”), dropped those
+that had no direct equivalent in mainstream digital spheres
+(e.g., “sacrificial rituals”), and added new types that Grimes
+did not account for (e.g., “rituals of sensation” such as
+ASMR videos). Our final list includes 16 distinct ritual types,
+which accounted for the vast majority of the social media gen-
+res we identified.
+As we developed our list of ritual types, we sought to iden-
+tify analytically distinct categories that encompass multiple
+genres. We systematically developed and compared the defini-
+tions of each ritual, making sure we could identify at least one
+distinctive core feature. For example, while both subjectifica-
+tion and taste signaling enact affiliation with a group, the for-
+mer focuses on social roles while the latter focuses on cultural
+preferences. Whereas the rituals we identified are analytically
+distinct, a single social media genre may bring together multi-
+ple rituals, a phenomenon we discuss below.
+Finally, we conducted another round of analysis to examine
+and corroborate the analytical power of the typology. This
+round was based on data gathered by five research assistants
+from the countries outlined above, who conducted participant
+observations of Facebook, Instagram, TikTok, YouTube, and
+Twitter during August 2021, exploring trending topics, plat-
+form recommendations, and generic searches. This process
+resulted in the identification of 572 social media genres.
+Based on descriptions and examples provided by the research
+assistants, the authors classified 547 of the genres into at least
+one of the 16 categories following the principles of consensual
+qualitative research (Hill et al., 1997). The descriptions of the
+remaining 25 genres provided by the research assistants were
+too thin to allow classification.
+As we refined our typology, we worked to identify the core
+values associated with each type of ritual. Since existing value
+schemas such as Hofstede’s (2003) cultural dimensions or
+Schwartz’s (2012) list of basic values do not readily map onto
+social media practices (Hallinan, Kim, Scharlach et al., 2021;
+Shifman, 2016), we employed an established value lexicon
+from Christen et al. (2016) for a more communication-oriented
+approach. The lexicon features 78 groups of value-related
+terms in both English and German, organized according to
+their cross-reference proximity in thesauruses and verified by
+the assessment of an expert group. To expand cross-cultural
+applicability beyond English and German, the international
+team described above assessed the cultural resonance of the list
+across six languages, coming to a strong consensus over 64
+terms. Part of the process included relabeling the groups of
+value terms for stronger cross-cultural resonance.
+Working with the modified list of 64 values and the list of
+16 rituals, each of the authors independently assigned up to
+five values per ritual, guided by the following questions:
+which modes of behavior and states of affairs does the ritual
+frame as desirable? What counts as good communication
+according to this ritual? We then discussed our responses in
+several extended sessions following the principles of
+Figure 1. A summary of the study’s methods and main analytical stages.
+4 A typology of social media rituals
+Downloaded from https://academic.oup.com/jcmc/article/27/4/zmac011/6644420 by Brian Mills on 25 June 2025
+consensual qualitative research (Hill et al., 1997). While the
+number of possible values associated with each ritual is poten-
+tially boundless, we sought to focus on fewer values with
+stronger consensus for our exploratory study. These delibera-
+tions resulted in agreement among the authors over a list of
+two core values and one communicative value for each ritual.
+Although some rituals had strong agreement on more values,
+we chose to use the minimal number of two values per ritual
+to ensure consistency. Finally, we compared the values associ-
+ated with each ritual, looking for affinities and tensions.
+Findings
+Our typology consists of 16 social media rituals, each associ-
+ated with distinctive genres of user-generated content and a
+diverse set of values ranging from respect and responsibility
+to materialism and pleasure. As a general observation, we
+found that some veteran ritual forms readily translate to so-
+cial media, such as the migration of a face-to-face tarot read-
+ing to an algorithmically recommended tarot reading on
+TikTok, while others are not reflected in mainstream content,
+including many sacrificial rituals. And sometimes, newer so-
+cial media practices lack clear predecessors among older ritual
+categories, such as the production of tingles and parasociality
+associated with ASMR videos. Overall, we found an impres-
+sive amount of continuity between older ritual types and
+newer media practices, supporting our general contention
+that rituals are more enduring forms of interaction than gen-
+res, making them especially useful for studying the dynamic
+environment of social media.
+In what follows, we define each ritual type, briefly discuss
+two exemplary genres, and present the core values associated
+with the ritual (see Table 1 for a summary). After introducing
+each ritual, we describe how they reflect different notions of
+good communication, that is, their communicative values.
+Before outlining our typology, we wish to make the following
+clarifications. While each ritual is analytically distinct, some
+genres combine multiple rituals into a single practice. For ex-
+ample, there is a trend of makeup product review videos that
+call out racism in the beauty industry (Lawson, 2021). In this
+genre, content creators present their audiences with an evalua-
+tion of the product under scrutiny. However, they also con-
+demn racial inequality by exposing, for example, the limited
+range of options available for darker skin tones and, in turn,
+the racial bias of the cosmetic industry and the beauty stand-
+ards on which it is built, thus integrating rituals of evaluation
+and demotion.
+Relatedly, while our typology identifies two core values for
+each ritual type, these are by no means the only values that
+such rituals entail. Different genres of social media content of-
+ten express other commitments beyond the core values associ-
+ated with their respective ritual type. For example, the genre
+of “tech review” videos embeds the core values of knowledge
+and excellence characterizing rituals of evaluation, but also
+promotes genre-specific values such as novelty and efficiency.
+Hence, our claim is not that each ritual type is exclusively
+characterized by the core values listed in the typology, but
+rather that those values are central to the ritual type and ap-
+pear in all genres that fall within its scope.
+Rituals of promotion
+Rituals of promotion seek to elevate the status, visibility, rec-
+ognition, or regard of something or someone. For example,
+“new job announcement” tweets highlight a noteworthy ac-
+complishment that positively reflects on the poster, while
+influencers who publish “sponsored content” on Instagram
+elevate the status of a product through their personal endorse-
+ment. By sharing good news or recommending a product,
+people affirm that distinctive individuals and objects should
+be held in high regard. Thus, such rituals uphold the values of
+reputation (people should seek esteem, status, or popularity)
+and excellence (people should strive to be, or appreciate that
+which is, of superior merit).
+Rituals of demotion
+Rituals of demotion seek to lower the status, visibility, rec-
+ognition, or regard of something or someone. For example,
+“Karen” YouTube videos criticize the behavior of someone
+(typically a white woman) who harasses others in public,
+while “customer complaint” tweets draw attention to busi-
+nesses that violate the expectations of consumers. By calling
+out unacceptable behavior or service, people reinforce
+shared standards of conduct and inspire compliance from
+others. Thus, such rituals are predicated on conformity
+(people should act in accordance with socially accepted
+norms) and responsibility (people should fulfill their duties
+and obligations).
+Rituals of evaluation
+Rituals of evaluation subject someone or something to evalua-
+tion, scrutiny, or critical analysis. For example, “product
+review” videos describe a product and judge its merit, while
+“tier list” memes place related objects within a set of hierar-
+chical categories. Through the practice of reviewing or rank-
+ing, people affirm the role of information in establishing the
+relative merit of individuals and objects. Thus, such rituals
+are predicated on knowledge (people should seek truth and/or
+understanding through study, experience, or reasoning) and
+excellence (people should strive to be, or appreciate that
+which is, of superior merit).
+Rituals of requesting
+Rituals of requesting ask for aid or support for a person,
+group, or cause. For example, “crowdfunding requests” share
+information about a particular issue in order to obtain the fi-
+nancial support of others, while “information-seeking” posts
+pose a question to gather audience input. Asking for resources
+or information expresses the belief that people should help
+each other. Thus, such rituals are predicated on care (people
+should be actively concerned about and/or provide support
+for someone or something) and altruism (people should be
+concerned for the well-being of others and willing to help
+them, regardless of the personal impact).
+Rituals of transformation
+Rituals of transformation document how someone or some-
+thing has changed over time as a result of the exertion of
+creativity or skill. For example, “home makeover” videos
+show the progressive transformation of a house, while
+“before and after” fitness photos track improved fitness
+levels. By documenting the process of transformation, peo-
+ple celebrate the ability to produce desirable changes. Thus,
+such rituals are predicated on progress (people should
+strive for improvement over time) and control (people
+should strive to influence the actions, functions, and/or out-
+comes of someone or something).
+zzJournal of Computer-Mediated Communication (2022), Vol. 27 5
+Downloaded from https://academic.oup.com/jcmc/article/27/4/zmac011/6644420 by Brian Mills on 25 June 2025
+Rituals of competition
+Rituals of competition assess the relative merit of someone or
+something by measuring their performance against others.
+For example, “video game speedruns” document a player’s
+attempt to complete a game in record time, while “political
+debate” streams feature individuals determining the relative
+merit of their positions on a topic through argumentation. By
+recording a gamer’s best performance or sparring over ideas,
+people invoke the notion that individuals should consistently
+strive to distinguish themselves from others. Thus, such rituals
+are predicated on effort (people should devote significant time
+and/or energy toward something) and excellence (people
+should strive to be, or appreciate that which is, of superior
+merit).
+Rituals of consumption
+Rituals of consumption document the act of consuming some-
+thing, including material objects, cultural products, and food.
+For example, “unboxing” videos portray someone opening
+the packaging of a product and tactilely interacting with it,
+while “mukbang” videos record someone eating. By docu-
+menting the process of eating or encounters with manufac-
+tured goods, people affirm the role of objects as sources of
+individual enjoyment. Thus, such rituals are predicated upon
+materialism (people should acquire and appreciate material
+possessions or cultural goods) and pleasure (people should
+seek enjoyable and satisfying experiences).
+Rituals of sensation
+Rituals of sensation seek to produce an altered state of mind
+or consciousness through media stimulation. For example,
+“ASMR tapping” videos use sounds to elicit feelings of calm-
+ness and tranquility, while “oddly satisfying” GIFs display
+images of objects that are unexpectedly visually pleasing due
+to their texture or symmetry. By sharing relaxing audio tracks
+or mesmerizing shapes, people highlight the role of sensory
+stimulation in provoking enjoyment. Thus, such rituals are
+predicated upon aesthetics (people should cultivate and ap-
+preciate things that are pleasing to the senses, especially sight)
+and pleasure (people should seek enjoyable and satisfying
+experiences).
+Rituals of taste signaling
+Rituals of taste signaling enact association with others
+through aesthetic preferences or highly patterned modes of
+cultural expression. For example, TikTok “dance challenges”
+iterate popular choreography to affirm someone’s belonging
+within a community that is up-to-speed on platform trends,
+while “deep fried” memes feature grainy or washed-out
+images that are only recognizable to others with previous
+knowledge of the meme. By sharing their interpretations of
+cultural trends, people draw upon their qualities of inventive-
+ness and affiliation with taste-based communities. Thus, such
+rituals promote the values of creativity (people should re-
+spond to situations and/or express themselves in original,
+Table 1. A summary of our typology of social media rituals
+Ritual type Core values Communicative value Iconic genres
+Promotion Reputation Persuasion New job announcement
+Excellence #sponsoredcontent posts
+Demotion Conformity Persuasion “Karen” videos
+Responsibility Customer complaints
+Evaluation Knowledge Persuasion Tech reviews
+Excellence Tier list memes
+Requesting Care Persuasion Crowdfunding requests
+Altruism Information seeking (e.g., housing, jobs)
+Transformation Progress Demonstration Home/room makeover videos
+Control Before and after fitness photos
+Sensation Aesthetics Demonstration ASMR videos
+Pleasure “Oddly Satisfying” videos and gifs
+Consumption Materialism Demonstration Unboxing or haul videos
+Pleasure Mukbang videos
+Competition Effort Demonstration Video game speedruns
+Excellence Political debate videos
+Taste signaling Creativity Affiliation Viral TikTok dances
+Aesthetics Deep fried memes
+Commemoration Loyalty Affiliation Celebrity death tweets (#RIP__)
+Respect Facebook memorial pages
+Relationship work Intimacy Affiliation YouTube apology videos
+Care Happy birthday wishes
+Pledging Commitment Affiliation Profile picture filters (“I stand with. . .”)
+Responsibility New year’s resolutions
+Subjectification Reputation Authenticity Family vacation photos
+Conformity Best friend selfies
+Disclosure Transparency Authenticity Day-in-the-life vlogs
+Control Ask me anything Q&A’s
+Forecasting Knowledge Authenticity TikTok tarot readings
+Control Sports predictions
+Advising Knowledge Authenticity Workout dos and don’ts
+Care Software tutorial videos (e.g., Excel)
+The ritual types are listed according to the order in which they are discussed in the article.
+6 A typology of social media rituals
+Downloaded from https://academic.oup.com/jcmc/article/27/4/zmac011/6644420 by Brian Mills on 25 June 2025
+imaginative ways) and aesthetics (people should cultivate/ap-
+preciate that which is pleasing to the senses, especially sight).
+Rituals of commemoration
+Rituals of commemoration mark the passage of time and indi-
+cate that something or someone should be remembered, cele-
+brated, or respected. For example, “celebrity death” tweets
+facilitate collective mourning at the recent death of a celebrity,
+while Facebook “memorial pages” establish de facto digital
+memorials where users can pay their respects to a friend.
+Through such commemorations, people affirm the impor-
+tance of those that have passed away. Thus, such rituals pro-
+mote the values of loyalty (people should consistently support
+and align with something or someone that they deem impor-
+tant) and respect (people should be treated with consideration
+or dignity).
+Rituals of relationship work
+Rituals of relationship work initiate, maintain, or repair rela-
+tionships with others, whether dyadic ties or groups of people.
+For example, YouTube “apology” videos seek to repair the
+relationship between a creator and their audience after an ac-
+tual or perceived breach of conduct, while Facebook “happy
+birthday wishes” perform relationship ties through the public
+display of wishes on someone’s Facebook wall. Through well-
+wishing messages or apology videos, people show concern for
+one another and consequently cultivate close ties. Such rituals
+thus promote the values of intimacy (people should cultivate
+and appreciate close connections with others) and care (peo-
+ple should be actively concerned about and/or provide sup-
+port for someone or something).
+Rituals of pledging
+Rituals of pledging declare a commitment to a cause or ac-
+tion. For example, Facebook “profile picture filters” declare
+solidarity with a given community or cause through a textual
+and symbolic photo overlay, while “New Year’s resolution”
+tweets present someone’s personal goals for the year to come.
+By openly making pledges, people signal their dedication to a
+cause as well as their sense of duty to fulfill it. Thus, such rit-
+uals promote the values of commitment (people should be
+willing to give time, effort, and/or resources to someone or
+something that they believe in) and responsibility (people
+should fulfill their duties and obligations toward someone or
+something).
+Rituals of subjectification
+In rituals of subjectification, people construct themselves as
+social subjects through the presentation of desirable identities.
+For example, “family vacation” photos reaffirm and cement
+someone’s status as a member of a happy family unit through
+photos of the family smiling on holiday, while “best friend
+selfies” document the social interactions of a set of friends
+and restate their bond. By performing as “father,”
+“daughter,” or “best friend,” people affirm the worth of these
+social identities. Thus, such rituals promote the values of rep-
+utation (people should seek esteem, status, or popularity
+according to a particular idea of what that entails) and con-
+formity (people should act in accordance with socially ac-
+cepted norms).
+Rituals of disclosure
+Rituals of disclosure make public something that would oth-
+erwise be considered personal, secret, hidden, or private.
+These rituals are not limited to personal disclosure, but also
+encompass the exposure of information about others. For ex-
+ample, “day-in-the-life” vlogs reveal information about some-
+one’s daily life, while “ask me anything” Instagram Q&As
+publicly respond to audience-submitted questions using the
+“Stories” function. By offering a sneak peek into someone’s
+daily life or exposing someone’s latest indiscretion, people
+promote the value of transparency (people should openly con-
+vey information as they know it), which we will later associ-
+ate with the communicative value of authenticity. In addition,
+these rituals also promote the value of control (people should
+strive to influence the actions, functions, and/or outcomes of
+someone or something), understood as mastery over the dis-
+closure of information.
+Rituals of forecasting
+Rituals of forecasting seek to predict, prognosticate, or proph-
+esy a future event or trend. For example, TikTok “tarot read-
+ings” interpret the cards for an unknown viewer connected
+only by the recommendation algorithm, while “sports pre-
+diction” videos predict the outcome of an upcoming event
+such as the FIFA World Cup. By making such forecasts, indi-
+viduals express an enduring human desire to know and influ-
+ence the future. Thus, such rituals promote the values of
+knowledge (people should seek truth and/or understanding
+through study, experience, or reasoning) and control (people
+should strive to influence the actions, functions, and/or out-
+comes of someone or something), understood as mastery over
+the future.
+Rituals of advising
+Rituals of advising offer advice or information regarding a
+topic, area of life, or situation. For example, “workout do’s
+and don’ts” share knowledge about fitness and inform audi-
+ences about effective workout routines, while “software
+tutorial” videos provide audiences with detailed instructions
+on how to perform different tasks with a software package
+like Microsoft Excel. By providing others with potentially use-
+ful tips or skills, people affirm that individuals should help
+one another by sharing information and expertise. Such rit-
+uals promote the values of knowledge (people should seek
+truth and/or understanding through study, experience, or rea-
+soning) and care (people should be actively concerned about
+and/or provide support for someone or something).
+Communicative values
+Beyond core values, we also identified four values that we
+conceptualize as communicative values: persuasion, demon-
+stration, affiliation, and authenticity. As discussed in the liter-
+ature review, such values offer guidelines for understanding
+what constitutes desirable communication. While the four
+communicative values, to some extent, infuse all of the rituals
+in our typology, their salience varies across the different types
+of rituals, with specific communicative values playing a par-
+ticularly pivotal role in some and not others. We thus treat
+these values as useful tools to differentiate between the types
+of communicative actions that rituals seek to accomplish.
+The communicative value of persuasion is central in the rit-
+uals of promotion, demotion, evaluation, and requesting. In
+zzJournal of Computer-Mediated Communication (2022), Vol. 27 7
+Downloaded from https://academic.oup.com/jcmc/article/27/4/zmac011/6644420 by Brian Mills on 25 June 2025
+all four ritual types, people overtly seek to convince others
+that something is worth elevating, degrading, buying, watch-
+ing, playing, or supporting. Through these rituals, people not
+only attempt to persuade others but also convey a normative
+message about persuasive communication, namely that people
+should strive to communicate in a way that influences the be-
+havior of others or the course of events.
+The communicative value of demonstration characterizes
+the rituals of transformation, sensation, consumption, and
+competition. In these rituals, visual evidence and stimuli are
+crucial to eliciting pleasurable responses in the audience,
+proving that something or someone has changed over time, or
+documenting the outcome of a competition. In turn, these
+promote demonstration as a value, namely conveying the
+message that people should express themselves through exhi-
+bition or the visual display of evidence.
+The communicative value of affiliation is crucial to rituals
+of taste signaling, commemoration, relationship work, and
+pledging. In these rituals, people show their belonging to cul-
+turally defined units or causes by participating in activities
+that express (sub)cultural taste, allegiance to collective mem-
+ory, dyadic bonds, or individual commitment. As such, they
+promote the value of affiliation in communication, namely
+that people should express themselves to show support or af-
+filiation with a group or cause.
+Finally, the communicative value of authenticity is pivotal
+to rituals of advising, forecasting, disclosure, and subjectifi-
+cation. In these rituals, people position themselves as sharing
+truthful information with others, accurately prognosticating
+the future, revealing formerly secret information, or affirm-
+ing their authentic selves. Overall, these ritual types convey
+the notion that people should express themselves in a way
+that corresponds with external reality or with internal es-
+sence. The notion of authenticity is closely associated with
+the value of truthfulness, which has been widely discussed in
+relation to journalism (Zelizer, 2009). The two values are
+very close in meaning, with slightly different connotations.
+“Truthfulness” is often associated with correspondence to
+external reality, while “authenticity” is usually associated
+with correspondence to one’s essence or culture. In this arti-
+cle, we chose to use “authenticity” because of its prominence
+in studies of social media (Cunningham & Craig, 2017; Lee,
+2020; Marwick, 2017).
+Discussion
+Participation in social media rituals valorizes ideals like excel-
+lence and altruism, knowledge and pleasure, respect and aes-
+thetics. Although some values such as conformity, care, and
+control may seem more pivotal than others, it is important to
+note that the theoretical dispersion of values need not align
+with their empirical prevalence on social media platforms.
+Some types of rituals (e.g., promotion or transformation) are
+especially prominent and encompass a wide variety of popu-
+lar genres across platforms, while others (e.g., forecasting)
+seem to be narrower in their application.
+Widening the conceptual scope beyond the values intrinsic
+to each ritual, we can also point to overarching values that
+are fundamental to all social media rituals. Regardless of the
+type, participation in any ritual requires adherence to the rules
+of expressive genres. Milner (2016) explains this general prin-
+ciple as the combination of “fixity” and “novelty” in meme
+creation. Translating this notion to the conceptual language
+of values, we contend that a tension between conformity and
+creativity underpins all social media rituals. In contrast to tra-
+ditional religious rituals that are supposed to closely follow a
+set of rules, the “networked individualism” (Wellman et al.,
+2006) underpinning communication on social media stresses
+both communal identities that demand some kind of confor-
+mity and creative self-expression that highlights individuality
+(Shifman, 2016). That is to say, in the context of social media
+rituals, communication needs to be patterned (conformist)
+enough to be recognized as a ritual while still serving an indi-
+vidual need for self-expression (creativity).
+Complementing this general outlook, we identified a total
+of 19 values underpinning our 16 ritual types. Some of these
+values are specific to one ritual (e.g., altruism for rituals of
+requesting), while others are recurrent and cut across different
+rituals. The nine values that occur in multiple rituals are aes-
+thetics, care, conformity, control, excellence, knowledge, plea-
+sure, reputation, and responsibility. In light of their
+applicability to a wide range of social media genres, this list is
+a fruitful starting point for future research aiming to identify
+the core values of user-generated content. This model also
+enables researchers to identify values that are specific to indi-
+vidual genres or subgenres. For example, while all genres clas-
+sifiable as rituals of transformation express the core values of
+progress and control, the specific genre of “decluttering” also
+invokes the value of aesthetics, “do-it-yourself” videos em-
+phasize efficacy, and “before and after” fitness photos stress
+effort. This type of analysis can also apply to subgenres cre-
+ated by individuals or social movements to specifically pro-
+mote certain values. Consider again the example of the
+“makeup review” videos that take a stance for racial justice
+discussed above. Such videos embed the values of knowledge
+and excellence inherent to rituals of evaluation and also com-
+bine them with political commitments to justice, equality, and
+representation.
+Going beyond the core values expressed via user-generated
+content, we also highlight that social media rituals involve
+normative ideas of what counts as good communication. The
+rituals in our typology present four ideal types of what com-
+munication on social media should look like and what pur-
+pose it serves: authenticity, persuasion, affiliation, and
+demonstration. Of course, these communicative values are
+much older than social media platforms. The idea that au-
+thenticity, persuasion, affiliation, and demonstration are cen-
+tral principles of communication can be traced back to Plato
+and Aristotle. Over the years, each of these communicative
+values has been associated with distinct subdisciplines within
+the field of communication scholarship, with truth highlighted
+by journalism scholars, persuasion studied in political com-
+munication and marketing, affiliation foregrounded by socio-
+linguists studying speech communities and cultural studies
+scholars tracing fan cultures, and demonstration (as well as
+related concepts such as “monstration”; Dayan, 2009) widely
+discussed in media scholarship on television.
+Many accounts stress how these four communicative values
+can contradict each other—telling the truth might undermine
+one’s affiliation to certain groups and a quick glimpse at any
+given advertisement may invoke gloomy thoughts about possi-
+ble contrasts between persuasion and authenticity. However,
+as we acknowledge above, while these communicative values
+reflect different areas of emphasis, they are by no means mutu-
+ally exclusive. And indeed, successful campaigns on social me-
+dia may derive their power from the explicit combination of
+8 A typology of social media rituals
+Downloaded from https://academic.oup.com/jcmc/article/27/4/zmac011/6644420 by Brian Mills on 25 June 2025
+these four values. Consider the recent case of vaccine selfies, in
+which people show themselves receiving the COVID-19 vac-
+cine. This practice invokes the communicative values of authen-
+ticity and demonstration by portraying the process of receiving
+the vaccine. Simultaneously, such selfies also try to persuade
+others to get the shot and showcase affiliation with a commu-
+nity of like-minded people.
+Conclusion
+This article presents the first comprehensive analysis and ty-
+pology of social media rituals, organized according to their
+function and constitutive values. The development of the ty-
+pology brings together literature on ritual theory with re-
+search on social media genres, supplemented with a
+transnational survey of users and participant observation of
+social media platforms. Our typology outlines 16 different so-
+cial media rituals, provides definitions and exemplary genres,
+and identifies the core values inherent to each ritual type. We
+also identify ideas about what each ritual considers good
+communication, organizing them into four groups character-
+ized by the communicative values of authenticity, demonstra-
+tion, affiliation, and persuasion.
+By way of conclusion, we wish to reflect on two ways that
+this study contributes to the broader body of knowledge on
+media rituals. First, our typology bridges the gap between re-
+search that is interested in the “exceptional” aspects of media
+and social media rituals (e.g., monumental events, influencers,
+politicians) and the more “mundane” aspects embedded in
+media use (e.g., birthday wishes, selfies, memes). As
+highlighted by Miller et al.’s (2016) understanding of social
+media as “scalable sociality,” users produce and circulate con-
+tent at different scales based on the level of privacy they wish
+to retain and the size of the public they aspire to reach.
+Building on this insight, we suggest that the social media rit-
+uals in our typology can be performed at different scales with
+different levels of publicity. For example, rituals of commem-
+oration span from the highly exceptional, global, and public
+character of mourning David Bowie on Twitter on the day of
+his death to the relatively mundane and private character of
+the annual remembrance of a beloved pet on one’s personal
+Facebook profile.
+Second, drawing inspiration from the macro-level analy-
+sis of mass media events and rituals (Cottle, 2006; Dayan
+& Katz, 1996), the holistic orientation of our typology may
+facilitate systematic investigation of the interactions be-
+tween types of social media content. As some of our exam-
+ples showcase, different genres or different ritual types are
+created with awareness of each other, and often as a reac-
+tion or as a response to the values voiced by other genres or
+rituals. For instance, the value of materialism embedded in
+rituals of consumption is questioned in genres such as closet
+“decluttering” videos (Zappavigna, 2019) where partici-
+pants get rid of stuff they no longer need and “anti-haul”
+videos where participants outline all the products they plan
+not to buy (Wood, 2021). These genres respectively repre-
+sent examples of rituals of transformation and rituals of
+pledging that challenge the values associated with rituals of
+consumption. Understanding the interactions driving the
+production of new units of content, genres, and rituals may
+shed light on how users negotiate different understandings
+of what is important in life.
+We thus see this typology as the first step in a systematic
+broad-scale analysis of user-generated genres and the values
+they embed. We hope that our work will facilitate more nu-
+anced mappings of digital culture, understood as constituted
+by a multitude of platforms, communities, national groups,
+and subcultures. At the bird’s eye level of digital culture, our
+framework can assist in studying the prevalence of different
+practices. We have reason to think that the rituals in our ty-
+pology vary in their popularity and diversity. For instance, rit-
+uals of transformation seem to be both very popular and very
+diverse, encompassing photo-based genres such as “before
+and after” fitness photos and video-based genres such as
+TikTok “outfit transformations.” Rituals of forecasting, on
+the other hand, seem to be both less popular and less diverse,
+heavily focused on astrology and sports. Mapping the preva-
+lence of different practices provides a way to think broadly
+about the role of social media in society and to examine the
+values that are propagated—and those that are overlooked—
+through social media content.
+Zooming in, the ritual framework allows us to examine the
+multiple cultural formulations that are expressed on social
+media. One pivotal lens is that of the platform: while many
+rituals manifest across platforms, further studies may identify
+associations between specific platforms and ritual types (e.g.,
+promotion and affiliation on Instagram, disclosure and demo-
+tion on Twitter). Comparison between platforms can illumi-
+nate the specific features of platform cultures, revealing
+different factors that incentivize or disincentivize particular
+rituals and, with that, the expression of particular values.
+Furthermore, the typology provides a way to examine how
+platform cultures develop over time. The progressive profes-
+sionalization of YouTube creators offers a very clear example
+where the original emphasis on disclosure exemplified by the
+slogan “broadcast yourself” and typified by its first major
+genre of vlogging (Burgess & Green, 2018) has progressively
+made room for a range of other social media rituals (advising,
+consumption, sensation, promotion, and evaluation).
+A second possible lens of comparison relates to different
+locales. The notion of the local is incredibly varied and
+includes transnational comparisons (Hallinan, Kim, Mizoroki
+et al., 2021), major communities on a platform (e.g., Brock,
+2020), niche subcultures (Zannettou et al., 2018), and social
+media movements (Caren et al., 2012). Despite this diversity,
+our schema of social media rituals provides a coherent frame-
+work for cross-cultural comparisons. At the level of national
+culture, patterns in the adoption of rituals of disclosure and
+promotion may confirm or contest deep-seated assumptions
+regarding the globalization of values in the digital age. Thus,
+we might find differences in both the presence of various rit-
+ual types and in the ways particular rituals are executed. For
+instance, our research has revealed that rituals of disclosure
+focusing on personal hardship are common in United States
+but fairly infrequent in Japan, where norms around expres-
+sion and privacy result in anonymized personal narratives that
+substitute personal photos with manga illustrations. At the sub-
+cultural level, a comparative analysis of rituals of disclosure, de-
+motion, and requesting may shed light on the different ways in
+which local communities use social media affordances to mobi-
+lize politically. For example, an analysis of demotion rituals fo-
+cusing on “the elite” by far-right and far-left subcultures may
+help us identify similarities and differences between populist
+movements.
+zzJournal of Computer-Mediated Communication (2022), Vol. 27 9
+Downloaded from https://academic.oup.com/jcmc/article/27/4/zmac011/6644420 by Brian Mills on 25 June 2025
+We are conscious that our 16 categories cannot order all
+social media. However comprehensive, some content will
+necessarily fall outside of the scope of our typology. Our ap-
+proach deliberately focuses on mainstream user-generated
+genres, intentionally excluding fringe content that is subject
+to removal due to the moderation policies of the platforms,
+such as sexually explicit content or graphic depictions of vi-
+olence. We also do not focus on content produced by legacy
+media corporations (news, sport, and music) despite their
+popularity on social media. Furthermore, the typology was
+built mainly in reference to genres that are prominent on
+major social media platforms, potentially missing ritualized
+forms of participation that are specific to image boards
+(e.g., 4Chan) and other subcultural platforms (e.g., VK).
+Finally, our study is surely strengthened by its transnational
+character but remains limited by the positionality of the
+researchers and our focus on social media content in lan-
+guages primarily associated with the Global North. Hence,
+our typology would benefit from further testing of its appli-
+cability with content produced in other locations and
+regions, particularly user-generated content originating in
+the Global South.
+Limitations notwithstanding, this article represents the first
+systematic attempt to identify emergent patterns within the
+messy universe of user-generated content through the higher-
+level conceptual category of rituals that are broader than
+social media genres and more stable over time. Having under-
+gone the ritualized “evaluation” of peer review, we hope this
+article will further “promote” the idea of social media rituals.
+We “pledge” our commitment to expanding this work in fu-
+ture comparative studies, and “request” that you, the patient
+reader, join us in this endeavor.
+Data availability
+The data underlying this article will be shared on reasonable
+request to the corresponding author.
+Acknowledgments
+We are indebted to the three anonymous reviewers and the
+editors for their collegial and insightful comments on this
+manuscript. We also thank our colleagues Nicholas John,
+Paul Frosh, CJ Reynolds, Avishai Green, Rebecca Scharlach,
+and Saki Mizoroki for their valuable feedback. The members
+of our international advisory board were extremely helpful in
+igniting the idea for this project and we are grateful for that.
+Finally, we thank our team of research assistants for the me-
+ticulous coding and participant observation of social media
+platforms.
+Funding
+This project has received funding from the European
+Research Council (ERC) under the European Union’s
+Horizon 2020 research and innovation program [Grant
+Agreement No. 819004].
+Conflicts of interest: All authors declare that they have no
+conflicts of interest.

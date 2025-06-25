@@ -1,0 +1,389 @@
+citation: "Larson, Eric V., et al. Foundations of Effective Influence Operations: A Framework for Influence Operations. RAND Corporation, 2009."
+annotation: "Presents a systematic framework for planning and conducting influence operations through strategic-level questions and target audience analysis."
+model_type: "property_graph"
+rationale: "The framework describes interconnected relationships between actors, strategies, messages, and outcomes in influence operations."
+schema_blueprint:
+  title: "Influence Operations Planning Framework Schema"
+  description: "Models the systematic framework for planning, executing, and assessing influence operations across strategic and target audience levels."
+  root_properties:
+    nodes:
+      description: "The actors, objectives, strategies, messages, audiences, and outcomes in influence operations."
+      item_type: "Entity"
+    edges:
+      description: "The relationships, processes, and causal connections between influence operation components."
+      item_type: "NaryTuple"
+  definitions:
+    # Strategic-Level Components
+    - name: "us_objective"
+      category: "core-construct"
+      description: "Current political and campaign objectives that the United States seeks to achieve."
+      domain: ["USGovernment"]
+      range: ["PoliticalOutcome", "CampaignOutcome"]
+    - name: "influential_actor"
+      category: "core-construct"
+      description: "Actors or groups that are most influential in determining political-military outcomes."
+      domain: ["Actor", "Group", "Network"]
+      range: ["PoliticalOutcome", "MilitaryOutcome"]
+    - name: "influence_strategy"
+      category: "strategy-type"
+      description: "Strategies such as force or negotiation used to influence target groups and yield desired outcomes."
+      domain: ["Actor", "Group"]
+      range: ["Outcome"]
+    - name: "leadership_authority"
+      category: "core-construct"
+      description: "The degree of authority and influence that group leaders have over their supporters and followers."
+      domain: ["Leader"]
+      range: ["Follower", "Supporter"]
+    - name: "stakeholder_group"
+      category: "core-construct"
+      description: "Key target groups or networks that need to be influenced to achieve objectives."
+      domain: ["Group", "Network"]
+      range: ["Objective"]
+    
+    # Target Audience Analysis Components
+    - name: "information_channel"
+      category: "communication-medium"
+      description: "Sources and channels that target audiences use and find most credible for receiving information."
+      domain: ["Audience"]
+      range: ["Information", "Message"]
+    - name: "credibility"
+      category: "evaluation-criterion"
+      description: "The degree to which target audiences find information sources and channels trustworthy and reliable."
+      domain: ["InformationSource", "Channel"]
+      range: ["Audience"]
+    - name: "attitude_structure"
+      category: "psychological-construct"
+      description: "How target audiences' attitudes are organized and how stable they are over time."
+      domain: ["Audience", "Individual"]
+      range: ["Attitude", "Belief"]
+    - name: "message_environment"
+      category: "information-context"
+      description: "The existing messages and information that target audiences are already receiving."
+      domain: ["Audience"]
+      range: ["Message", "Information"]
+    - name: "message_acceptance"
+      category: "psychological-process"
+      description: "The process by which target audiences accept and potentially act upon received messages."
+      domain: ["Audience", "Individual"]
+      range: ["Message"]
+    - name: "message_frequency"
+      category: "communication-parameter"
+      description: "The number of times messages need to be sent to achieve desired influence effects."
+      domain: ["Message"]
+      range: ["Audience"]
+    
+    # Influence Strategy Types
+    - name: "conciliatory_strategy"
+      category: "strategy-type"
+      description: "Strategy relying exclusively on positive inducements to influence target groups."
+      subTypeOf: "influence_strategy"
+    - name: "coercive_strategy"
+      category: "strategy-type"
+      description: "Strategy using threats or use of force to influence target groups."
+      subTypeOf: "influence_strategy"
+    - name: "mixed_strategy"
+      category: "strategy-type"
+      description: "Strategy combining both positive and negative inducements to influence targets."
+      subTypeOf: "influence_strategy"
+    - name: "conditional_reciprocity"
+      category: "strategy-type"
+      description: "Strategy based on conditional responses to target behavior in influence operations."
+      subTypeOf: "influence_strategy"
+    
+    # Analytical Models and Tools
+    - name: "agent_based_model"
+      category: "analytical-tool"
+      description: "Rational choice or expected utility models used to analyze stakeholder behavior and coalition dynamics."
+    - name: "expected_utility_model"
+      category: "analytical-tool"
+      description: "Models that assess the sensitivity of outcomes to adjustments in stakeholder positions and resources."
+      subTypeOf: "agent_based_model"
+    - name: "social_power_theory"
+      category: "theoretical-framework"
+      description: "Theory explaining leadership, influence, and group discipline at the group and network levels."
+    - name: "opinion_leadership_model"
+      category: "theoretical-framework"
+      description: "Models explaining how opinion leaders influence group members and followers."
+    - name: "metric_multidimensional_scaling"
+      category: "measurement-method"
+      description: "Woelfel's approach to representing attitudes in multidimensional space for assessing message efficacy."
+    - name: "galileo_theory"
+      category: "theoretical-framework"
+      description: "Technical framework for designing and assessing the impact of influence operations through attitude measurement."
+    
+    # Message Characteristics
+    - name: "message_source"
+      category: "communication-element"
+      description: "The originator or presenter of influence messages, affecting credibility and acceptance."
+      domain: ["Message"]
+      range: ["Audience"]
+    - name: "message_content"
+      category: "communication-element"
+      description: "The substantive information and themes contained within influence messages."
+      domain: ["Message"]
+      range: ["Audience"]
+    - name: "message_format"
+      category: "communication-element"
+      description: "The presentation style and structure of influence messages."
+      domain: ["Message"]
+      range: ["Audience"]
+    - name: "source_characteristics"
+      category: "evaluation-criterion"
+      description: "Professional competence, likability, credibility, trustworthiness, and confidence of message sources."
+      domain: ["MessageSource"]
+      range: ["Audience"]
+    - name: "message_characteristics"
+      category: "evaluation-criterion"
+      description: "Content, format, cognitive and emotional appeal that make messages resonate with audiences."
+      domain: ["Message"]
+      range: ["Audience"]
+    
+    # Audience Predisposition Types
+    - name: "high_predisposition"
+      category: "audience-characteristic"
+      description: "Target audience members who are highly predisposed to accept and act on influence messages."
+      domain: ["Audience", "Individual"]
+      range: ["Message"]
+    - name: "medium_predisposition"
+      category: "audience-characteristic"
+      description: "Target audience members who are moderately predisposed to accept influence messages."
+      domain: ["Audience", "Individual"]
+      range: ["Message"]
+    - name: "low_predisposition"
+      category: "audience-characteristic"
+      description: "Target audience members with low predisposition to accept or high predisposition to reject messages."
+      domain: ["Audience", "Individual"]
+      range: ["Message"]
+    
+    # Planning Process Components
+    - name: "political_objective"
+      category: "strategic-goal"
+      description: "High-level political aims specified by the president and senior advisors and staff."
+      domain: ["Government"]
+      range: ["PoliticalOutcome"]
+    - name: "campaign_objective"
+      category: "operational-goal"
+      description: "Military campaign aims, tasks, and metrics specified by joint force commanders and staff."
+      domain: ["MilitaryCommand"]
+      range: ["CampaignOutcome"]
+    - name: "influence_strategy_development"
+      category: "planning-process"
+      description: "Process of identifying key target audiences and developing specific influence approaches for each."
+    - name: "strategy_execution"
+      category: "operational-process"
+      description: "Implementation of influence operations synchronized with policy adjustments and military actions."
+    - name: "strategy_monitoring"
+      category: "assessment-process"
+      description: "Ongoing evaluation and assessment of influence strategy effectiveness and outcomes."
+    - name: "strategy_adaptation"
+      category: "adjustment-process"
+      description: "Modification of influence strategies based on monitoring results and changing conditions."
+    
+    # Operational Context Types
+    - name: "peacetime_operations"
+      category: "operational-context"
+      description: "Influence operations conducted to shape the environment through persuasion, dissuasion, deterrence, and reassurance."
+    - name: "crisis_operations"
+      category: "operational-context"
+      description: "Influence operations during crisis aimed at persuasion, coercion, or escalation control."
+    - name: "combat_operations"
+      category: "operational-context"
+      description: "Influence operations during major combat aimed at terminating war on favorable terms."
+    - name: "stability_operations"
+      category: "operational-context"
+      description: "Influence operations aimed at reestablishing stable postwar political equilibrium."
+    
+    # Assessment and Feedback
+    - name: "dose_response_curve"
+      category: "measurement-concept"
+      description: "The relationship between number of messages sent and probability of audience acceptance."
+      domain: ["Message"]
+      range: ["Audience"]
+    - name: "diminishing_returns"
+      category: "communication-effect"
+      description: "The decreasing effectiveness of additional messages beyond an optimal frequency."
+      domain: ["Message"]
+      range: ["Audience"]
+    - name: "negative_returns"
+      category: "communication-effect"
+      description: "The counterproductive effect when too many messages are sent to an audience."
+      domain: ["Message"]
+      range: ["Audience"]
+    - name: "message_tracking"
+      category: "assessment-method"
+      description: "Capability to monitor messages and assess relationship between message number and acceptance probability."
+    
+    # Research Methods
+    - name: "focus_group"
+      category: "research-method"
+      description: "Qualitative research method for understanding media usage, credibility, and message exposure."
+    - name: "attitude_survey"
+      category: "research-method"
+      description: "Quantitative research method for measuring audience attitudes, predispositions, and message impact."
+    - name: "content_analysis"
+      category: "research-method"
+      description: "Systematic analysis of leadership and media streams to understand existing message environment."
+    - name: "face_to_face_interaction"
+      category: "research-method"
+      description: "Direct personal contact method for gathering information about message reception and effects."
+    
+    # Cognitive and Psychological Factors
+    - name: "cognitive_demand"
+      category: "psychological-factor"
+      description: "The mental processing requirements that messages place on target audiences."
+      domain: ["Message"]
+      range: ["Audience"]
+    - name: "preexisting_attitude"
+      category: "psychological-factor"
+      description: "Established attitudes and beliefs that condition audience willingness to be influenced."
+      domain: ["Audience", "Individual"]
+      range: ["Message"]
+    - name: "attitude_crystallization"
+      category: "psychological-process"
+      description: "The process by which attitudes become stable and resistant to change through serious consideration."
+      domain: ["Individual"]
+      range: ["Attitude"]
+    - name: "cultural_factor"
+      category: "contextual-factor"
+      description: "Cultural elements that affect message acceptance and audience predisposition."
+      domain: ["Culture"]
+      range: ["Audience", "Message"]
+    - name: "normative_factor"
+      category: "contextual-factor"
+      description: "Social norms and expectations that influence audience receptivity to messages."
+      domain: ["SocialNorm"]
+      range: ["Audience", "Message"]
+    
+    # Decision-Making Elements
+    - name: "ooda_loop"
+      category: "decision-framework"
+      description: "The observe-orient-decide-act cycle that describes adversary decision-making processes."
+    - name: "decision_environment"
+      category: "contextual-factor"
+      description: "The administrative, organizational, and procedural context for leadership decision-making."
+      domain: ["Organization"]
+      range: ["Leader", "Decision"]
+    - name: "behavioral_model"
+      category: "analytical-tool"
+      description: "Actor-specific models capturing how individual factors affect susceptibility to influence."
+      domain: ["Individual"]
+      range: ["Behavior", "Decision"]
+    
+    # Effectiveness Characteristics
+    - name: "specific_objective"
+      category: "planning-principle"
+      description: "Influence operations aimed at achieving specific desired changes in attitudes, beliefs, or behaviors."
+    - name: "key_target_audience"
+      category: "planning-principle"
+      description: "Focus on specific individuals, groups, units, or populations most critical to success."
+    - name: "effective_channel_combination"
+      category: "planning-principle"
+      description: "Use of information channels most likely to reach and be viewed as credible by target audiences."
+    - name: "audience_mindfulness"
+      category: "planning-principle"
+      description: "Consideration of audience characteristics that may condition willingness to be influenced."
+    - name: "timing_sensitivity"
+      category: "planning-principle"
+      description: "Influence timed to occur before key decisions or attitude crystallization."
+    - name: "compelling_messenger"
+      category: "planning-principle"
+      description: "Use of sources with professional competence, likability, credibility, and trustworthiness."
+    - name: "compelling_message"
+      category: "planning-principle"
+      description: "Messages with content, format, and appeal characteristics that resonate with audiences."
+    - name: "adaptive_feedback"
+      category: "planning-principle"
+      description: "Timely feedback provision enabling modification of channels, messengers, and messages."
+    
+    # Analysis Levels
+    - name: "individual_level"
+      category: "analysis-level"
+      description: "Level of analysis focusing on individual actors and their psychological and cognitive characteristics."
+    - name: "group_level"
+      category: "analysis-level"
+      description: "Level of analysis focusing on small groups, networks, and their internal dynamics."
+    - name: "leadership_coalition_level"
+      category: "analysis-level"
+      description: "Level of analysis focusing on leadership coalitions and their decision-making processes."
+    - name: "mass_public_level"
+      category: "analysis-level"
+      description: "Level of analysis focusing on large populations and mass public opinion."
+    
+    # Relationships and Processes
+    - name: "influences"
+      category: "relationship"
+      description: "The relationship where one actor affects the attitudes, beliefs, or behaviors of another."
+      domain: ["Actor", "Group", "Message"]
+      range: ["Actor", "Group", "Audience"]
+    - name: "targets"
+      category: "relationship"
+      description: "The relationship where influence operations are directed toward specific audiences."
+      domain: ["InfluenceOperation"]
+      range: ["Audience", "Group", "Individual"]
+    - name: "supports"
+      category: "relationship"
+      description: "The relationship where influence strategies support the achievement of objectives."
+      domain: ["InfluenceStrategy"]
+      range: ["Objective"]
+    - name: "requires"
+      category: "relationship"
+      description: "The relationship where successful influence operations require specific conditions or capabilities."
+      domain: ["InfluenceOperation"]
+      range: ["Capability", "Condition"]
+    - name: "coordinates_with"
+      category: "relationship"
+      description: "The relationship where influence activities are synchronized with other policy and military actions."
+      domain: ["InfluenceOperation"]
+      range: ["PolicyAction", "MilitaryAction"]
+    - name: "adapts_to"
+      category: "relationship"
+      description: "The relationship where influence strategies are modified based on feedback and changing conditions."
+      domain: ["InfluenceStrategy"]
+      range: ["Feedback", "Condition"]
+    
+    # Actions and Operations
+    - name: "plan"
+      category: "action"
+      description: "The action of developing systematic approaches for influence operations."
+      domain: ["Planner"]
+      range: ["InfluenceStrategy"]
+    - name: "execute"
+      category: "action"
+      description: "The action of implementing influence strategies and operations."
+      domain: ["Operator"]
+      range: ["InfluenceStrategy"]
+    - name: "monitor"
+      category: "action"
+      description: "The action of tracking and assessing influence operation effectiveness."
+      domain: ["Analyst"]
+      range: ["InfluenceOperation"]
+    - name: "adapt"
+      category: "action"
+      description: "The action of modifying influence approaches based on assessment results."
+      domain: ["Planner"]
+      range: ["InfluenceStrategy"]
+    - name: "persuade"
+      category: "action"
+      description: "The action of using rational arguments and appeals to change audience attitudes or behaviors."
+      domain: ["Actor"]
+      range: ["Audience"]
+    - name: "dissuade"
+      category: "action"
+      description: "The action of discouraging audiences from pursuing certain attitudes or behaviors."
+      domain: ["Actor"]
+      range: ["Audience"]
+    - name: "deter"
+      category: "action"
+      description: "The action of preventing audiences from taking undesired actions through threat of consequences."
+      domain: ["Actor"]
+      range: ["Audience"]
+    - name: "reassure"
+      category: "action"
+      description: "The action of providing confidence and reducing anxiety in target audiences."
+      domain: ["Actor"]
+      range: ["Audience"]
+    - name: "coerce"
+      category: "action"
+      description: "The action of compelling audience compliance through threats or force."
+      domain: ["Actor"]
+      range: ["Audience"]

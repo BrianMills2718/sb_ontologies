@@ -1,0 +1,288 @@
+citation: "Nesbitt, L. (2001). Using the Toulmin Method. The WAC Clearinghouse. https://wac.colostate.edu/repository/writing/guides/guide.cfm?guideid=58"
+
+annotation: "A comprehensive guide to Stephen Toulmin's method for analyzing arguments, providing a systematic framework for breaking down arguments into component parts (claim, reasons, evidence, qualifiers, exceptions, objections, rebuttals) and evaluating their effectiveness through relevance, sufficiency, credibility, and accuracy criteria."
+
+model_type: "property_graph"
+
+rationale: "The Toulmin Method represents a structured analytical framework with clear hierarchical relationships between argumentative components. A property graph model best captures the interconnected nature of claims, reasons, evidence, and rebuttals, along with the evaluative processes that assess their effectiveness. The method involves both structural elements (nodes representing argument components) and relational processes (edges representing support relationships, evaluation criteria, and logical connections)."
+
+schema_blueprint:
+  title: "Toulmin Method for Argument Analysis"
+  description: "A systematic framework for analyzing written arguments by identifying and evaluating their component parts and logical structure"
+  
+  root_properties:
+    nodes:
+      description: "Argument components, analytical processes, evaluation criteria, and structural elements in the Toulmin Method"
+      item_type: "Entity"
+    
+    edges:
+      description: "Support relationships, evaluation processes, logical connections, and analytical procedures between argument elements"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Argument Components
+    - name: "claim"
+      category: "core-construct"
+      description: "The most general statement in an argument; the umbrella statement that all other parts must fall under"
+      
+    - name: "reason"
+      category: "core-construct" 
+      description: "The first line of development supporting a claim; explains why a writer believes their claim"
+      
+    - name: "evidence"
+      category: "core-construct"
+      description: "Facts, examples, statistics, expert testimony, and other support that backs up reasons"
+      
+    - name: "qualifier"
+      category: "core-construct"
+      description: "Words like 'some,' 'most,' 'many,' 'usually' that limit the scope of a claim"
+      
+    - name: "exception"
+      category: "core-construct"
+      description: "Specific cases or situations where the claim does not apply; restricts claim scope"
+      
+    - name: "anticipated-objection"
+      category: "core-construct"
+      description: "Potential objections to the argument's reasons that the writer expects opponents to make"
+      
+    - name: "rebuttal"
+      category: "core-construct"
+      description: "Writer's response to anticipated objections; arguments against counter-arguments"
+
+    # Analytical Framework Components
+    - name: "toulmin-method"
+      category: "theoretical-framework"
+      description: "Systematic approach for analyzing arguments by breaking them into parts and evaluating effectiveness"
+      
+    - name: "textual-dissection"
+      category: "process"
+      description: "Breaking an argument into different parts to make judgments on how well they work together"
+      
+    - name: "argument-analysis"
+      category: "process"
+      description: "Process of discovering how argumentative strategies lead to reader responses"
+      
+    - name: "house-of-cards-metaphor"
+      category: "conceptual-model"
+      description: "Visualization of argument structure where each level must support what is placed above it"
+
+    # Evaluation Criteria
+    - name: "relevance"
+      category: "evaluation-criterion"
+      description: "Whether a reason is connected to and supports the claim it attempts to support"
+      
+    - name: "effectiveness"
+      category: "evaluation-criterion"
+      description: "Whether a reason invokes a value that readers can believe in and agree with"
+      
+    - name: "sufficiency"
+      category: "evaluation-criterion"
+      description: "Whether enough evidence is provided to convince a reasonable reader"
+      
+    - name: "credibility"
+      category: "evaluation-criterion"
+      description: "Whether evidence is believable and comes from authoritative sources"
+      
+    - name: "accuracy"
+      category: "evaluation-criterion"
+      description: "Whether evidence tells the truth and is verifiable from reliable sources"
+
+    # Analytical Processes
+    - name: "claim-identification"
+      category: "process"
+      description: "Locating and articulating the main argument or umbrella statement"
+      
+    - name: "qualifier-examination"
+      category: "process"
+      description: "Identifying limiting words that restrict the scope of claims"
+      
+    - name: "exception-identification"
+      category: "process"
+      description: "Finding specific situations where the claim does not apply"
+      
+    - name: "reason-evaluation"
+      category: "process"
+      description: "Assessing whether reasons are relevant and effective in supporting claims"
+      
+    - name: "evidence-assessment"
+      category: "process"
+      description: "Evaluating whether evidence meets sufficiency, credibility, and accuracy standards"
+      
+    - name: "objection-analysis"
+      category: "process"
+      description: "Identifying and evaluating anticipated objections and their rebuttals"
+      
+    - name: "conclusion-drawing"
+      category: "process"
+      description: "Collecting analytical results into coherent assessment of argument effectiveness"
+
+    # Evidence Types
+    - name: "statistical-evidence"
+      category: "evidence-type"
+      description: "Numerical data and statistics used to support argumentative reasons"
+      
+    - name: "expert-testimony"
+      category: "evidence-type"
+      description: "Statements from authorities or experts in relevant fields"
+      
+    - name: "personal-experience"
+      category: "evidence-type"
+      description: "First-hand accounts and observational evidence from the writer"
+      
+    - name: "factual-evidence"
+      category: "evidence-type"
+      description: "Verifiable facts and documented information"
+      
+    - name: "examples"
+      category: "evidence-type"
+      description: "Specific instances or cases that illustrate or support reasons"
+
+    # Argument Structure Elements
+    - name: "qualified-claim"
+      category: "structural-element"
+      description: "A claim that includes limiting words to restrict its scope"
+      
+    - name: "unqualified-claim"
+      category: "structural-element"
+      description: "A claim without limiting qualifiers, potentially interpreted as universal"
+      
+    - name: "linear-argument"
+      category: "structural-element"
+      description: "Arguments organized in sequential, Western rhetorical tradition"
+      
+    - name: "argument-hierarchy"
+      category: "structural-element"
+      description: "Levels of argument from specific evidence up through reasons to general claims"
+
+    # Analytical Outcomes
+    - name: "argument-effectiveness"
+      category: "evaluation-outcome"
+      description: "Overall assessment of how well an argument achieves its persuasive purpose"
+      
+    - name: "logical-strength"
+      category: "evaluation-outcome"
+      description: "Quality of logical connections between argument components"
+      
+    - name: "persuasive-appeal"
+      category: "evaluation-outcome"
+      description: "Emotional and rational appeal of the argument to readers"
+      
+    - name: "analytical-response"
+      category: "evaluation-outcome"
+      description: "Reasoned evaluation that goes beyond gut-level agreement or disagreement"
+
+    # Method Limitations
+    - name: "formula-limitation"
+      category: "methodological-constraint"
+      description: "Tendency to apply Toulmin method mechanistically rather than thoughtfully"
+      
+    - name: "cultural-limitation"
+      category: "methodological-constraint"
+      description: "Less effective for arguments not organized in Western rhetorical traditions"
+      
+    - name: "logical-focus-limitation"
+      category: "methodological-constraint"
+      description: "Emphasis on logical analysis may exclude other important evaluative approaches"
+
+    # Relationships
+    - name: "supports"
+      category: "relationship"
+      description: "One argument component provides backing or justification for another"
+      domain: ["reason", "evidence"]
+      range: ["claim", "reason"]
+      
+    - name: "limits"
+      category: "relationship"
+      description: "Qualifiers and exceptions restrict the scope or application of claims"
+      domain: ["qualifier", "exception"]
+      range: ["claim"]
+      
+    - name: "evaluates"
+      category: "relationship"
+      description: "Analytical processes assess the quality of argument components"
+      domain: ["evaluation-criterion", "process"]
+      range: ["core-construct", "evidence-type"]
+      
+    - name: "refutes"
+      category: "relationship"
+      description: "Rebuttals argue against anticipated objections"
+      domain: ["rebuttal"]
+      range: ["anticipated-objection"]
+      
+    - name: "comprises"
+      category: "relationship"
+      description: "Complex analytical processes include component sub-processes"
+      domain: ["theoretical-framework", "process"]
+      range: ["process", "core-construct"]
+
+  json_schema:
+    type: "object"
+    properties:
+      nodes:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id: 
+              type: "string"
+            type:
+              type: "string"
+              enum: [
+                # Core Components
+                "claim", "reason", "evidence", "qualifier", "exception", 
+                "anticipated-objection", "rebuttal",
+                
+                # Framework Elements
+                "toulmin-method", "textual-dissection", "argument-analysis",
+                "house-of-cards-metaphor",
+                
+                # Evaluation Criteria
+                "relevance", "effectiveness", "sufficiency", "credibility", "accuracy",
+                
+                # Analytical Processes
+                "claim-identification", "qualifier-examination", "exception-identification",
+                "reason-evaluation", "evidence-assessment", "objection-analysis",
+                "conclusion-drawing",
+                
+                # Evidence Types
+                "statistical-evidence", "expert-testimony", "personal-experience",
+                "factual-evidence", "examples",
+                
+                # Structural Elements
+                "qualified-claim", "unqualified-claim", "linear-argument", 
+                "argument-hierarchy",
+                
+                # Outcomes
+                "argument-effectiveness", "logical-strength", "persuasive-appeal",
+                "analytical-response",
+                
+                # Constraints
+                "formula-limitation", "cultural-limitation", "logical-focus-limitation"
+              ]
+            properties:
+              type: "object"
+              additionalProperties: true
+          required: ["id", "type"]
+      
+      edges:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+            type:
+              type: "string"
+              enum: [
+                "supports", "limits", "evaluates", "refutes", "comprises"
+              ]
+            source:
+              type: "string"
+            target:
+              type: "string"
+            properties:
+              type: "object"
+              additionalProperties: true
+          required: ["id", "type", "source", "target"]
+    
+    required: ["nodes", "edges"]

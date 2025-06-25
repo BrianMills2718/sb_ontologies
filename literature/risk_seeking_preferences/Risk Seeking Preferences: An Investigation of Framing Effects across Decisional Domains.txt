@@ -1,0 +1,629 @@
+Risk Seeking Preferences: An Investigation of Framing Effects across Decisional Domains
+Renata M. Heilman1*, Mircea Miclea1,2
+1Department of Psychology, Babeș-Bolyai University, Cluj-Napoca, Romania
+2Cognitrom Ltd., Cluj-Napoca, Romania
+*Corresponding author:
+E-mail: renataheilman@psychology.ro
+37 Republicii Street, 400015
+Cluj-Napoca, Romania
+2
+Abstract
+The framing effect refers to the fact that presenting the descriptions of equivalent decisional
+alternatives in different terms results in the preference for one alternative over the other,
+depending on the description format. Changing one’s preference for a decisional outcome,
+depending on the wording of those outcomes, represents a violation of the principle of
+invariance, one of the cornerstones of the decision maker’s rationality. Since previous framing-
+related empirical work highlighted some contradicting results regarding the existence or
+magnitude of risky choice framing effects, our research objective was to investigate whether
+framing effects are consistent between and within decision-making domains. Participants were
+presented with nine hypothetical decisional situations related to health, financial or nature and
+objects domains. The equivalent decisional alternatives were framed in either gain or loss terms.
+We analyzed the impact of framing on participants’ level of risk seeking in the decisional
+situations. Our results add to the existing literature by indicating that framing effects are not
+consistent between decisional domains. Framing effects were present for health and nature and
+objects domains, but not for the financial domain. More importantly, we also found that within
+the same decisional domains, different problems elicit varying levels of framing effects. One
+possible explanation for the differences found between decisional domains might involve the
+emotional reaction triggered by the decisional problems. Implications of framing effects for
+different real-life decisions are discussed.
+KEYWORDS: framing effects, risk taking, decisional domains, decision
+3
+For several centuries, scholars in economics used the standards of the normative models in
+decision to evaluate the level of the decision maker’s rationality. Although the definition of
+rationality has long been debated, there is some consensus that rational decisions should, among
+other criteria, satisfy the requirement of invariance (Tversky & Kahneman, 1981). According to
+the principle of invariance, a preference for a particular decisional option should be independent
+of the terms in which it is described (Tversky & Kahneman, 1986). In other words, when the
+options of a decisional situation are presented in different forms (i.e., frames), these different
+wordings should not influence the decision maker's preference for a particular alternative.
+However, people lack the knowledge, skills or computational resources to make decisions
+consistent with the notion of economic rationality (Heilman, 2006, 2014; Simon, 1955).
+Therefore, there are many compelling empirical evidence that contradict the decision maker’s
+absolute rationality and indicate that certain people are prone to various sources of distortion,
+which can be consistent and predictable in certain circumstances (Kahneman, 2011).
+One of the most prolific lines of research that provided empirical evidence to undermine
+the rationality of decision makers is related to the effect of formulating alternatives, also known
+as framing effects. This effect refers to the fact that presenting the descriptions of equivalent
+decisional alternatives in different terms reflects the preference for one alternative over the other,
+depending on the description format. Changing one’s preference for a decisional outcome
+depending on the wording of those outcomes represents a violation of the principle of invariance
+(Kahneman, 2003a, 2003b). This framing effect was first demonstrated using a well-documented
+experimental task, namely the Asian Disease Problem (Tversky & Kahneman, 1981). The Asian
+Disease Problem presents the decision-maker with a hypothetical situation in which a disease is
+expected to affect 600 people. The decision-maker has to choose which one of two possible
+intervention programs should be applied. The two intervention programs are described either in
+gain terms (how many people will be saved) or in loss terms (how many people will die). For
+each frame, the decision-maker is presented with a sure alternative, specifying the number of
+people who will surely survive/die, and a probabilistic alternative, stating the probabilities that
+all people should survive/die. From a mathematical point of view, the outcomes of the sure and
+probabilistic alternatives are equal. Using this decisional task, the authors have shown a risk
+seeking preference among participants who received the problem described in terms of loss and a
+4
+risk aversion tendency if the same situation was described in terms of gain (Tversky &
+Kahneman, 1981). Basically, the wording of the decisional alternatives in terms of loss resulted
+in 78% of the participants choosing the probabilistic alternative, while formulating the same
+decisional situation in terms of gain led to the choosing of the probabilistic alternative by only
+28% of the participants (Tversky & Kahneman, 1981). The violation of the principle of
+invariance refers to this specific reversal of one’s preferences induced by the wording of the
+decisional alternatives. Once this line of research was opened, dozens of studies were published
+to further provide empirical support for this decision-making bias. Moreover, the existence of the
+framing effect was documented in medical or clinical decisions, consumer preferences, social
+dilemmas, or negotiation situations (Cacciatore, Scheufele, & Iyengar, 2016; Levin, Schneider,
+& Gaeth, 1998).
+Although most studies support the robustness of this framing effect (Levin & Gaeth,
+1988; Levin, Gaeth, & Schreiber, 2002; Tversky & Kahneman, 1981), there were also empirical
+studies that did not replicate the phenomenon (Fagley & Miller, 1987; Mandel, 2001; Takemura,
+1992, 1993). In addition, some of the studies that have identified a framing effect did not obtain
+an effect size as large as that presented by Tversky and Kahneman (Bloomfield, 2006;
+Kühberger, 1998; Tversky & Kahneman, 1981).
+A possible reason for these conflicting results is considering framing effect as a
+homogeneous effect. All decision-making situations presented in the literature as representative
+of the distortion associated with the formulation of the alternatives are based on emotional
+valence: the critical information for the decision is formulated either in positive or negative
+terms. In order to explain the contradictory results, Levin and coworkers (1998) proposed a
+taxonomy that can differentiate between three types of framing effects. Moreover, Levin and
+colleagues argue that each type of framing effect has specific consequences and underlying
+mechanisms (Levin et al., 1998).
+The risky choice framing represents the most studied category of framing effects. This
+form of decision-making bias was introduced by Tversky and Kahneman (1981) through the
+Asian Disease Problem. The risky choice framing is considered the prototypical form of framing
+effects (Levin et al., 1998). In this type of framing, different formulations are applied to the
+results of the decisional alternatives involving varying levels of risk. In this particular decisional
+5
+context, Kahneman and Tversky (1981) showed a reversal of participants’ preferences: the
+majority of participants who received the positive version selected the sure outcome alternative,
+while participants who received the negative version of the problem mostly opted for the
+probabilistic alternative. Kahneman and Tversky turned to their Prospect Theory (Kahneman &
+Tversky, 1979; Tversky & Kahneman, 1992) to explain this framing effect. The Prospect Theory
+assumes that the different formulations of the alternatives determine the evaluation of the
+decisional outcomes in terms of gains or losses relative to the current baseline. The concept of
+loss aversion, also predicted and explained by the prospect theory, refers to the fact that losses
+loom larger than gains, meaning that people are more sensitive to losses than to comparable
+gains. Considering loss aversion as being characteristic to most people, one can understand why
+negatively framed information has more impact than positive information. It is easier for a
+person to prefer a probabilistic option when it is framed in loss terms, because accepting a sure
+loss is more difficult to conceive than an uncertain outcome. The reverse seems to be the case for
+gain contexts (Kahneman, 2011).
+The second form of framing effects is represented by the attributes framing. In this
+situation the characteristics of an object or event are the ones being differently formulated. This
+type of framing is considered the simplest form of framing and is relevant to understand how
+descriptive valence influences information processing (Levin et al., 1998). The different frames
+are applied to the attributes describing a single characteristic of an object or event, and the
+dependent variable is how one evaluates that specific object or event. To illustrate this type of
+framing, we refer to the study conducted by Levin and Gaeth (1988), in which the authors
+manipulated the presentation of a product (“75% lean meat” or “25% fat meat”) and assessed
+consumers’ preference for the product in each of the two formulations. The study results
+indicated that participants rated as tastier the meat package labelled as “75% lean meat” than the
+one marked “25% fat meat” (Levin & Gaeth, 1988). Similar results were seen in other areas as
+well. For instance, in medical-related decisions, people are more willing to accept a certain
+treatment procedure if it is described in terms related to survival rates than described referring to
+mortality rates (Marteau, 1989; Wilson, Kaplan, & Schneiderman, 1987). Also risky decisions,
+such as financial gambles, are preferred if presented in terms of probability of winning than if
+negatively formulated by highlighting the chances of losing (Levin et al., 1986; Levin, Snyder, &
+6
+Chapman, 1989). One plausible explanation for this type of framing effect is linked to the way
+information is encoded depending on its descriptive valence. Levin and Gaeth (1988) argue that
+labelling a positive characteristic of the evaluated object leads to encoding the information by
+evoking positive associations from the long-term memory. Similarly, a negative label associated
+with an evaluated object or event would evoke unpleasant associations. This explanation has
+already received empirical support from multiple independent research groups and is
+continuously adapted to include various methodological variations (Isaac & Poor, 2016; Shafir,
+1993; Shafir, Simonson, & Tversky, 1993; van Schie & van der Pligt, 1995).
+The third form of framing effects refers to goal framing, more specifically, the
+manipulation is applied to the formulation of the goals of a certain behavior or an action. This
+type of framing is mostly investigated in communication and persuasion studies. Empirical
+research shows that the impact of a persuasive message depends on the way the consequences of
+an action are described. The description can either highlight the benefits of performing the action
+in question or the risks if the target action is not performed. Therefore, in the positive wording of
+the action, the aim is to get some positive consequences (i.e., gains), whereas in the negative
+formulation the purpose is to avoid a negative consequence (i.e., losses). One classic study
+illustrating the goal framing was conducted by Meyerowitz and Chaiken (1987). The two authors
+have shown that women are more willing to do breast self-examination if they are given
+information that reveals the negative consequences of not doing this compared to the gains of
+self-palpation (Meyerowitz & Chaiken, 1987). The same effect has been achieved in other
+research areas, thereby fostering the idea that messages showing possible losses from failure of
+doing a certain behavior are more persuasive than messages that provide information regarding
+the benefits of realizing that behavior.
+In an attempt to explain the divergent results found by previous studies, numerous factors
+that could influence decision-making were investigated. Methodological variations could explain
+some of the discrepancies found between studies. Some empirical research addressed framing
+effects in different areas or domains (e.g., human life, finance, animals or even aliens), other
+studies looked into different characteristics of participants (e.g., teens vs. adults; experts vs.
+novices) (Best & Charness, 2015), the size of the group being affected by the decision-making
+7
+situation (i.e., small groups vs. large groups). Also, there are studies aimed at investigating
+individual differences of the participants, such as personality traits, emotional states or the
+effects of emotion regulation strategies.
+The domain on which decisions are made seems to be a crucial factor for the emergence
+of the framing effect. People are more prone to framing effects in their decisions related to
+human life, than in situations where decisions referred to animals (Bloomfield, 2006; Peters &
+Levin, 2008; Schneider, 1992), money or properties (Fagley & Miller, 1997; Kühberger, Schulte-
+Mecklenbeck, & Perner, 1999), precious metal or artwork (Jou, Shanteau & Harris, 1996; Wang,
+1996a, 1996b) or even aliens (Wang, Simons, & Brédart, 2001). A meta-analysis (Kühberger,
+1998) showed that scenarios involving human life and health lead to an increased size of the
+framing effect compared to scenarios relevant for business decisions, social decisions, animals or
+objects. Other studies confirm that people's preference for risky decisions is dependents on the
+domain on which decisions are made (Kusev, Schaik, Ayton, Dent, & Chater, 2009; Mandel &
+Vartanian, 2010). However, differences remain between framing effects related to decisional
+domains, and even within the same domain there are framing inconsistencies.
+Current Study
+Previous framing related empirical work highlighted some contradicting results regarding
+the existence or magnitude of risky choice framing effects. The decision-making domain might
+be responsible for some of the conflicting results. More studies are needed to directly address
+this issue. Therefore, our research objective was to further investigate whether framing effects
+are consistent between decision-making domains. The ecological validity of the decision-making
+situation was a high priority in this study, in order to permit the extrapolation of the study results
+to real life decisions. To increase the study’s ecological validity, we chose to use decisional
+problems that are similar to the Asian Disease Problem in the way they depict situations that
+might be encountered in real life. Based on previous studies, we expected our results to indicate
+the existence of framing effects for all three decisional domains under investigation. However,
+considering previous contradicting results, we did not expect all problems from within a
+decisional domain to elicit significant behavioral change due to the formulation of alternatives.
+8
+Method
+Participants
+The study sample included 82 healthy students (69 women, mean age = 27.13±7.52), who
+were randomly selected from a larger sample of students attending undergraduate studies in
+Psychology. All participants signed an informed consent before taking part in the study, in
+accord with the Declaration of Helsinki (1964/2013) and the Deontological Code of the
+American Psychological Association (2010).
+Study materials
+All participants were presented with nine vignettes that involved decision-making
+scenarios similar to the one described by the Asian Disease Problem. Therefore, for each
+vignette, one decisional option was sure, presenting certain consequences of choosing that
+option, whereas the second option was risky in the sense that it presented probabilities associated
+with possible outcomes. Framing of alternatives was manipulated so that half of the participants
+were presented with the decision-making problems described in gain terms, whereas the other
+half of the participants saw the same decisional situations described in loss terms. The nine
+vignettes were classified in three broad decision-making domains: health and human life (two
+problems), financial situations (three problems) and nature and objects (four problems). The
+vignettes were originally presented in other studies and some of them were slightly modified to
+refer to the national geographic or social context. Samples of vignettes pertaining to each
+decisional domain are presented in Table 1. The vignettes were randomly presented and all
+participants were instructed to select which option they prefer, namely the sure or the
+probabilistic option.
+Design and procedure
+A between participants design was used to test for the effects of framing of decisional
+alternatives on risk preferences in financial situations, health related situations and nature and
+objects related decisional problems.
+9
+A female experimenter tested all participants individually and the procedure lasted
+approximately 50-60 minutes. After each participant signed the informed consent, he/she was
+seated at a table, in front of a computer. Participants were presented with the instructions for the
+decisional problems. Half of the participants were presented either with the gain frame or the loss
+frame of the problems. All nine decision-making situations were randomly presented through a
+computer program. After the participant answered each of the hypothetical decisional situations,
+he/she was instructed to assess the arousal and valence levels associated with the vignette.
+Arousal was measured on a 5 point Likert scale, where 1 signified no arousal and 5 was
+associated with high level of arousal. Valence was also measured on a 5 point Likert scale, where
+1 was associated with negative emotional valence and 5 indicated positive emotional valence.
+Results
+Valence and arousal effects of decision-making situations
+To see whether the different formulations of the decisional situations create a significant
+emotional impact, we measured the level of arousal and emotional valence for each decisional
+problem and we made comparisons on these measurements depending on the experimental
+condition (gain vs. loss). The emotional valence was significantly different between conditions
+(gain vs. loss) only for financial problems, indicating that problems that were framed in loss
+terms were perceived as more negative than those framed as gains (t(81) = 3.53, p < 0.001). For
+the other two categories of problems, there were no significant differences regarding emotional
+valence depending on the terms that the problems were framed in (see Table 2). No frame
+related differences were found in arousal levels for the three decisional domains.
+Moreover, we tested whether the decisional domain would be associated with different
+arousal and valence levels. To this end, we compared mean arousal and valence levels between
+the three decisional domains. Our results indicate that, for the loss condition, health related
+problems induced higher arousal levels than financial problems (t(40) = 3.31, p < 0.01) and
+nature and objects related problems (t(40) = 2.792, p < 0.01). In the gain framing condition,
+health related problems were significantly more arousing than nature and objects decisional
+situations (t(40) = 2.477, p < 0.05). When looking at the decisional problems’ emotional valence,
+10
+our results show that, for both framing conditions (i.e., gain vs. loss), health related problems are
+considered to be less pleasant than both nature and objects problems (t(40) = -3.89, p < 0.001,
+respectively t(40) = -3.58, p < 0.001) as well as financial problems (t(40) = -9.11, p < 0.001,
+respectively t(40) = 6.71, p < 0.001). In addition, nature and objects problems were evaluated as
+less pleasant than financial problems, for both gain and loss framing conditions (t(40) = -6.75, p
+< 0.001, respectively t(41) = -4.69, p < 0.001). The main results related to valence and arousal
+levels are illustrated in Figure 1 A and B.
+Behavioral performance
+We analyzed the impact of framing on participants’ level of risk seeking in the decisional
+situations. We considered the proportion of risk seeking preference as the dependent variable.
+The proportion of risk seeking options was quantified by dividing the total number of responses
+favoring the probabilistic option to the total number of decisional situations. Therefore, the
+dependent variable took values in the [0; 1] interval. The independent variable was the framing
+of decisional options, either in terms of gain or loss. Additionally, for in depth analyses, we
+grouped the decisional situations according to the decision-making domain: health, financial or
+human and nature domains.
+A one-way ANOVA highlighted a significant overall effect of framing, with participants
+selecting the risky option more frequently in the loss frame compared to the gain frame, F[1, 80]
+= 38.62, p < 0.001 (ɳ2 = 0.32) (see Figure 2). Similar analyses evidenced the existence of
+framing effects for problems that concerned health issues, F[1,80] = 39.81, p < 0.001(ɳ2 = 0.32),
+and objects and nature issues F[1,80] = 31.33, p < 0.001 (ɳ2 = 0.28). For problems related to
+financial issues, participants did not exhibit a framing effect, but we observed a general tendency
+towards preferring the probabilistic option more in the loss frame compared to the gain frame
+(F[1,80] = 3.02, p = 0.08, ɳ2 = 0.036) (Figure 2). No significant differences were found between
+risk taking preferences for men compared to women.
+11
+One-sample t tests were used to further analyze whether participants’ risk taking
+preference in both gain and loss frames significantly differed than the 0.5 cut-off point. This cut-
+off point indicates no specific preference towards either risk seeking or risk averse decisional
+outcomes. The results show that participants presented with the gain frame of the decisional
+situations displayed significant risk aversion for all decision-making domains (see Table 3). For
+the loss frame participants displayed significant risk seeking behavior only for the health and
+nature and objects decision-making domains. Additionally, for the financial problems, we found
+that participant also exhibit risk aversion in the loss frame (Table 3).
+Next we investigated whether framing effects are consistent within the problems
+pertaining to each domain. To this purpose, we analyzed participants’ behavioral performance
+for each decisional situation. We therefore compared the frequencies with which participants
+chose the risky option in both framing conditions (i.e., gain vs. loss). Our results show that the
+framing effect does not appear in each decisional situation. Participants displayed significant
+framing effects, thus choosing more frequently the risky choice in the loss frame and the sure
+option in the gain frame, in both health related problems (χ2 = 5.89, p < 0.05, respectively χ2 =
+11.3, p < 0.001), in one of the financial problems (χ2 = 10.12, p < 0.01) and in two of the nature
+and objects problems (χ2 = 6.25, p < 0.05, respectively χ2 = 9.25, p < 0.01) (see Figure 3). No
+significant gender differences were found in any of the nine decisional situations.
+Discussions
+In the present study we set out to investigate the consistency of framing effects across
+three decisional domains, namely, health, finance and nature and objects. Framing effects refer to
+the situations in which the different formulations of decisional alternatives result in different
+decisional preferences. More specifically, it was shown that people generally prefer a sure
+outcome when the options are described in gain terms, but an equivalent risky outcome is
+favored when alternatives are presented in loss terms (Tversky & Kahneman, 1981). Previous
+empirical studies provide inconsistent results concerning the existence or magnitude of the
+framing effects. Our results add to the existing literature by indicating that framing effects are
+not consistent between decisional domains. More importantly, we also found that within the
+12
+same decisional domains, different problems elicit varying levels of framing effects. One
+possible explanation for the differences found between decisional domains might involve the
+emotional reaction triggered by the decisional problems.
+Selecting the risky alternative in both experimental conditions was taken to indicate
+participants’ behavioral performance. Our results confirmed the presence of the framing effect
+for health problems and problems related to nature and objects, thus partially confirming the first
+research hypothesis. In these two decisional domains participants mostly preferred the sure
+outcome in the gain frame, and the risky or probabilistic outcome for the loss framing of the
+alternatives. Additionally, in the health domain, participants displayed the more pronounced
+framing effect. This result is consistent with other studies in the literature (Bloomfield, 2006;
+Peters & Levin, 2008; Schneider, 1992) that showed the same pattern of selections. Regarding
+financial issues, the participants of our study showed no effect of framing, due to the fact that in
+both framing conditions prevailed the selection of the sure alternative. Therefore, the participants
+in our study sample expressed aversion towards financial risk, regardless of the wording of the
+decision alternatives. This result pertaining to the financial sector could be associated with
+gender differences identified in this area of decision-making. Although there are many
+controversies regarding the stability of a gender effect on decisions in various domains, Huang
+and Wang (2010) show that men are more prone to the effect of framing in the financial domain,
+while women exhibit this tendency in decisional situations targeting areas related to life and
+death. Considering that our group of participants included a small number of men, we cannot
+exclude the possibility that the lack of the framing effect in the financial domain might be a
+consequence of gender differences in this regard. In general, our study confirms the findings of
+other previous studies (Kusev et al., 2009; Kühberger, 1998; Mandel & Vartanian, 2010)
+drawing attention to the fact that the domain on which decisions are made is a major factor
+influencing the presence and even the magnitude of the framing effect.
+Another significant result is related to participants’ attitudes towards risk taking in
+different problems related to the same decisional domain. Most previous experimental studies
+have addressed the attitude towards risk taking in one decisional situation relevant to each
+domain. From this point of view, our study is innovative and adds further knowledge, since we
+13
+selected multiple decisional situations for each domain. Our results highlight behavioral
+differences in attitudes towards risk in problems pertaining to the same domain, thus confirming
+our expectations. In other words, it is possible that some of the previously reported diverging
+results in framing effects might be due to the use of different decisional situations. In our study
+we used two different problems related to health issues, three problems related to financial
+decisions and four problems regarding nature and objects. Our results indicate that the framing
+effect was not present in all problems related to the same domain, even though there was an
+overall framing effect for the decisional domain. For example, in two of the three financial
+problems and in two of the four decisional problems related to nature and objects we found no
+significant behavioral differences due to the different formulations of the decisional alternatives.
+This result highlights the fact that not all problems associated with the same decisional domain
+elicit similar behavioral responses. Future studies could investigate various aspects related to the
+content or the motivational value of the different decisional situations to eliminate possible
+confounding variables in this area of research.
+As a possible explanation for this result, we may refer to the participants’ self-assessed
+emotional valence and arousal levels associated with each decisional situation. In the present
+study we observed that regardless of how the decisional alternatives are formulated, health
+problems were evaluated as being more arousing than other decisional domains, and their
+emotional valence is more oriented towards the negative pole. This might partially explain the
+strongest framing effect found in health problems. Although both our study and other relevant
+studies (see Kühberger, 1998) show a clear effect of framing on health issues, our study may be
+the first to associate the presence of this effect with a higher motivational relevance of this
+domain, as measured by the greater activation and negative emotional valence of this area.
+Additionally, the lack of a framing effect identified for the financial domain in our sample might
+be due to the fact that the financial problems elicited the less arousal level and were also
+associated with more positive emotional reactions as self-assessed through the valence scale.
+Future studies could directly address the contributions of motivational relevance of a particular
+decisional domain, or even specific decisional problems, to the appearance of the framing effect.
+14
+Conclusions
+The way decisional alternatives are formulated was shown to induce major differences in
+people’s preference for one option or another. This result has major implications for many areas
+of human life. For example, medical decisions, for both professionals and laypeople, are
+influenced by the way treatment alternatives are presented, either in terms of their success or
+their failure. Health care professionals could be trained regarding this framing effect, since the
+way they frame treatment options could influence the direction of intervention chosen by patients
+(Almashat, Ayotte, Edelstein, & Margrett, 2008; McDermott, 2008). Another possible relevant
+implication of the framing effect might regard the managers’ activity. Karevold and Teigen
+(2010) conducted three empirical studies, which have shown that different descriptions of the
+progress of a particular project determine managers’ decision whether to continue financing the
+project. Therefore, major decisions about human life or allocation of additional financial
+resources are exposed to this distortion. Our study adds to the existing literature and further
+indicates new directions to explore the framing effects. If future studies confirm that the
+motivational relevance of a decisional situation is an important factor contributing to people’s
+risk taking preference in different frames, then training programs could be initiated in order to
+reduce this biasing effect.
+Even though this study has important contributions to scholars’ understanding of the
+framing effect, it also has some limits. Future studies could address these limits and shed some
+more light on the topic. One limitation of the current study is the between-subjects design. This
+particular design does not allow us to directly compare changes in risk attitudes as a result of the
+different framing conditions. In follow up studies, researchers could employ a within-subjects
+design and directly test if and to what extent does risk taking preference change. Another
+limitation of our research refers to the study sample. The large majority of our sample consisted
+of women. Since there are studies that indicate gender differences in framing effects, especially
+in the financial domain, it is highly recommended that future studies use participants’ samples
+that are balanced in respect to gender.
+In conclusion, our study indicates that framing effects are not consistent between
+decisional domains and differences in risk taking preferences also appear within situations
+15
+pertaining to the same decisional domain. Our results suggest that different motivational values
+of the particular decisional situations might lead to a higher or lower framing effect. Scholars are
+already recognizing the need to reanalyze framing effects and to distinguish between different
+categories of framing types. Our study proves once again that framing effects are, indeed, in need
+of reconsideration. All the research areas that investigate framing effects, including psychology,
+communication, behavioral economics, political science or sociology, would greatly benefit
+should this line of theoretical and empirical investigation continue.
+16
+References
+Almashat, S., Ayotte, B., Edelstein, B., & Margrett, J. (2008). Framing effect debiasing in
+medical decision making. Patient Education and Counseling, 71(1), 102-107.
+American Psychological Association (2010). Ethical principles of psychologists and code of
+conduct. Retrieved from http://apa.org/ethics/code/index.aspx
+Best, R., & Charness, N. (2015). Age differences in the effect of framing on risky choice: A
+meta-analysis. Psychology and aging, 30(3), 688-698.
+Bloomfield, A. N. (2006). Group size and the framing effect: threats to human beings and
+animals. Memory and Cognition, 34(4), 929-937.
+Cacciatore, M. A., Scheufele, D. A., & Iyengar, S. (2016). The End of Framing as we Know it…
+and the Future of Media Effects. Mass Communication and Society, 19(1), 7-23.
+Fagley, N. S., & Miller, P. M. (1987). The effects of decision making on choice of risky vs.
+certain options. Organizational Behavior and Human Decision Processes, 39, 264-277.
+Fagley, N. S., & Miller, P. M. (1997). Framing effects and arenas of choice: Your money or your
+life? Organizational Behavior and Human Decision Processes, 71,355-373.
+Huang, Y., & Wang, L. (2010). Sex differences in framing effects across task domain
+Personality and Individual Differences, 48, 649-653.
+Isaac, M. S., & Poor, M. (2016). The sleeper framing effect: The influence of frame valence on
+immediate and retrospective judgments. Journal of Consumer Psychology, 26(1), 53-65.
+Jou, J., Shanteau, J., & Harris, R. J. (1996). An information processing view of framing effects:
+the role of causal schemas in decision making. Memory & Cognition, 24(1), 1-15.
+Kahneman, D. (2003a). A psychological perspective on economics. American Economic Review,
+93, 162-168.
+Kahneman, D. (2003b). Maps of bounded rationality: Psychology for behavioral economics.
+American Economic Review, 93, 1449-1475.
+Kahneman, D. (2011). Thinking, fast and slow. New York: Farrar, Straus and Giroux.
+Kahneman, D., & Tversky, A. (1979). Prospect theory: An analysis of decision under risk.
+Econometrica, 47, 263-291.
+17
+Karevold, K. I., & Teigen, K. H. (2010). Progress framing and sunk cost: How managers'
+statements about project progress reveal their investment intentions. Journal of Economic
+Psychology, 31, 719-731.
+Kühberger, A. (1998). The Influence of Framing on Risky Decisions: A Meta-analysis.
+Organizational Behavior and Human Decision Processes, 75(1), 23-55.
+Kühberger, A., Schulte-Mecklenbeck, M., & Perner, J. (1999). The Effects of Framing,
+Reflection, Probability, and Payoff on Risk Preference in Choice Tasks. Organizational
+Behavior and Human Decision Processes, 78(3), 204-231.
+Kusev, P., van Schaik, P., Ayton, P., Dent, J., & Chater, N. (2009). Exaggerated risk: prospect
+theory and probability weighting in risky choice. Journal of Experimental Psychology:
+Learning, Memory, and Cognition, 35(6), 1487-1505.
+Levin, I. P., & Gaeth, G. J. (1988). Framing of attribute information before and after consuming
+the product. Journal of Consumer Research, 15, 374-378.
+Levin, I. P., Gaeth, G. J., & Schreiber, J. (2002). A new look at framing effects: distribution of
+effect sizes, individual differences, and independence of types of effects. Organizational
+Behavior and Human Decision Processes, 88(1), 411-429.
+Levin, I. P., Johnson, R. D., Deldin, P. J., Carstens, L. M., Cressey, L. J., & Davis, C. R. (1986).
+Framing effects in decisions with completely and incompletely described alternatives.
+Organizational Behavior and Human Decision Processes, 38, 48-64.
+Levin, I. P., Schneider, S. L., & Gaeth, G. J. (1998). All Frames Are Not Created Equal: A
+Typology and Critical Analysis of Framing Effects. Organizational Behavior and Human
+Decision Processes, 76(2), 149-188.
+Levin, I. P., Snyder, M. A., & Chapman, D. P. (1989). The interaction of experiential and
+situational factors and gender in a simulated risky decision-making task. The Journal of
+Psychology, 122, 173-181.
+Mandel, D. R. (2001). Gain-Loss Framing and Choice: Separating Outcome Formulations from
+Descriptor Formulations. Organizational Behavior and Human Decision Processes, 85(1),
+56-76.
+Mandel, D. R., & Vartanian, O. (2010). Frames, Brains and Content Domains: Neural and
+Behavioral Effects of Descriptive Context on Preferential Choice. In O. Vartanian & D. R.
+18
+Mandel (Eds.), Neuroscience of decision making. (pp. 47-70). New York: Psychology
+Press.
+Marteau, T. M. (1989). Framing of information: its influence upon decisions of doctors and
+patients. British Journal of Social Psychology, 28 (1), 89-94.
+McDermott, R. (2008). Medical decision making: lessons from psychology. Urologic Oncology:
+Seminars and Original Investigations, 26(6), 665-668.
+Meyerowitz, B. E., & Chaiken, S. (1987). The effect of message framing on breast self-
+examination attitudes, intentions, and behavior. Journal of Personality and Social
+Psychology, 52(3), 500-510.
+Peters, E., & Levin, I. P. (2008). Dissecting the risky-choice framing effect: Numeracy as an
+individual-difference factor in weighting risky and riskless options. Judgement and
+Decision Making, 3(6), 435-448.
+Heilman, R. M. (2006). The impact of emotions and individual differences upon economic
+decision-making: A review of experimental literature. Cognition, Brain, Behavior: An
+Interdisciplinary Journal, 10, 439-459.
+Heilman , R. M. (2014). Individual differences in emotion and decision-making. Implications for
+economic psychology [in Romanian]. Cluj Napoca: Romanian Association for Cognitive
+Science Publishing House (ASCR).
+Schneider, S. L. (1992). Framing and conflict: aspiration level contingency, the status quo, and
+current theories of risky choice. Journal of Experimental Psychology: Learning, Memory,
+and Cognition, 18(5), 1040-1057.
+Shafir, E. (1993). Choosing versus rejecting: why some options are both better and worse than
+others. Memory & Cognition, 21(4), 546-556.
+Shafir, E., Simonson, I., & Tversky, A. (1993). Reason-based choice. Cognition, 49(1-2), 11-36.
+Simon, H. (1955). A behavioral model of rational choice. Quarterly Journal of Economics, 69,
+99-118.
+Takemura, K. (1992). Effect of decision time on framing of decision: a case of risky choice
+behavior. Psychologia, 35, 180-185.
+Takemura, K. (1993). The effect of decision frame and decision justification on risky choice.
+Japanese Psychological Research, 35, 36-40.
+19
+Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice.
+Science, 211(4481), 453-458.
+Tversky, A., & Kahneman, D. (1986). Rational choice and the framing of decisions. Journal of
+Business, 59(4), 251-278.
+Tversky, A., & Kahneman, D. (1992). Advances in prospect theory: Cumulative representation
+of uncertainty. Journal of Risk and Uncertainty, 5, 297-323.
+van Schie, E. C. M., & van der Pligt, J. (1995). Influencing risk preference in decision making:
+The effects of framing and salience. Organizational Behavior and Human Decision
+Processes, 63, 264-275.
+Wang, X. T. (1996a). Domain-specific rationality in human choices: violations of utility axioms
+and social contexts. Cognition, 60(1), 31-63.
+Wang, X. T. (1996b). Framing effects: Dynamics and task domains. Organizational Behavior
+and Human Decision Processes, 68, 145-157.
+Wang, X. T., Simons, F., & Bredart, S. (2001). Social cues and verbal framing in risky choice.
+Journal of Behavioral Decision Making, 14, 1-15.
+Wilson, D. K., Kaplan, R. M., & Schneiderman, L. J. (1987). Framing of decisions and
+selections of alternatives in health care. Social Behavior, 2, 51-59.
+World Medical Association (1964/2013). WMA Declaration of Helsinki - Ethical Principles for
+Medical Research Involving Human Subjects. Retrieved from
+http://www.wma.net/en/30publications/10policies/b3/index.html
+20
+Table 1.
+A sample of the decisional vignettes used in the study. One vignette from each domain is
+illustrated.
+Problem 1 – health and human life domain
+Imagine that an outburst of an unusual disease is expected in Romania and this disease is
+anticipated to cause 600 victims. Two programs were proposed in order to fight this disease
+outburst. Assuming the following scientific estimates of the two programs, which program would
+you prefer?
+Gain frame Loss frame
+Program A: 200 people will be surely saved. Program C: 400 people will surely die.
+Program B: There is a 1/3 probability that all
+600 people will be saved and a 2/3 probability
+that no one will be saved.
+Program D: There is a 1/3 probability that no
+one will die and a 2/3 probability that all 600
+people will die.
+Problem 2 – nature and objects domain
+Due to fires that have destroyed numerous hectares of forest in Cluj County and resulted already
+in the death of hundreds of forest animals. Cluj County Committee for Emergency Situations
+proposed two different programs aiming at protecting the rest of the forest animals. The forests
+in Cluj County accommodate 3600 living animals. Which program would you choose?
+Gain frame Loss frame
+Program A: 1200 animals will be surely
+saved.
+Program C: 2400 animals will surely die.
+Program B: There is a 1/3 probability that all
+3600 animals will be saved and a 2/3
+probability that no animal will be saved.
+Program D: There is a 1/3 probability that no
+animal will die and a 2/3 probability that all
+3600 animals will die.
+Problem 6 – financial domain
+Imagine that you invested 60.000 RON in shares at a company that entered bankruptcy. The
+company’s managers have proposed two programs to save some of the invested money. Which
+program would you chose?
+Gain frame Loss frame
+Program A: 20.000 RON will be surely
+recovered.
+Program C: 40.000 RON will be surely lost.
+Program B: There is a 1/3 probability that all
+60.000 RON invested will be recovered and a
+2/3 probability that no money will be
+recovered.
+Program D: There is a 2/3 probability that all
+60.000 RON invested will be lost and a 1/3
+probability that no money will be lost.
+21
+Table 2.
+Arousal and valence levels associated with the decision-making problems, categorized by
+domain of decision (i.e., financial, health, nature and objects)
+Gain Loss Overall
+Arousal Financial 3.66 ± 0.56 3.38 ± 0.84 3.52 ± 0.72
+Health 3.75 ± 0.65 3.86 ± 0.74 3.81 ± 0.69
+Nature & objects 3.54 ± 0.60 3.55 ± 0.73 3.55 ± 0.66
+Valence Financial 2.83 ± 0.59 2.40 ± 0.50 2.62 ± 0.59
+Health 1.96 ± 0.69 1.72 ± 0.66 1.84 ± 0.68
+Nature & objects 2.27 ± 0.68 1.98 ± 0.68 2.12 ± 0.69
+Note: Values in the table represent mean and standard deviations for arousal and valence levels.
+22
+Table 3.
+Means and standard deviations for participants’ risk seeking preference for gain and loss
+frames.
+Frame Mean ± SD t test value
+Gain T_R 0.27 ± 0.18 t(40) = -7.62 (p < 0.001)
+H_R 0.31 ± 0.33 t(40) = -3.54 (p < 0.001)
+F_R 0.29 ± 0.31 t(40) = -4.27 (p < 0.001)
+NO_R 0.24 ± 0.26 t(40) = -6.18 ( p < 0.001)
+Loss T_R 0.56 ± 0.23 t(40) = 1.87 (p < 0.06)
+H_R 0.75 ± 0.29 t(40) = 5.49 (p < 0.001)
+F_R 0.4 ± 0.27 t(40) = -2.19 (p < 0.05)
+NO_R 0.59 ± 0.3 t(40) = 2.04 (p < 0.05)
+Note. One-sample t test values indicate participants’ risk seeking preference compared to the 0.5
+cut-off point. T_R = total risk taking; H_R = risk taking in health related problems; F_R =risk
+taking in financial problems; NO_R = risk taking in nature and objects related problems.
+23
+Figure 1. Mean levels of arousal and valence, depending the experimental condition (gain vs.
+loss frame). Error bars represent one standard error of the mean.
+B
+0
+.5
+1
+1.5
+2
+2.5
+3
+Valence mean
+0
+.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+Arousal mean
+Financial Health Nature &
+objects
+Gain
+A
+Financial Nature &
+objects
+Health
+Loss
+24
+Figure 2. Proportion of risky choices depending on the problem domain and framing of
+alternatives (gain vs. loss). Error bars represent one standard error of the mean. The dashed
+horizontal line marks the 0.5 cut-off point, indicating either risk seeking preference (if the
+proportion of risky choices > 0.5) or risk averse preference (if the proportion of risky choices <
+0.5). T_R = total risk taking; H_R = risk taking in health related problems; F_R =risk taking in
+financial problems; NO_R = risk taking in nature and objects related problems.
+25
+Figure 3. Frequency of risky choices for each decisional problem for gain and loss formulation
+of alternatives. H1 and H2 = health related problems; F1, F2 and F3 = financial problems; NO1,
+NO2, NO3 and NO4 = nature and objects related problems.
+0
+5
+10
+15
+20
+25
+30
+35
+H1 H2 F1 F2 F3 NO1 NO2 NO3 NO4
+Frequency of risky choices
+Gain Loss

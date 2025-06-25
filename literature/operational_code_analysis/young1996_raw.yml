@@ -1,0 +1,513 @@
+citation: "Young, Michael D. \"Cognitive Mapping Meets Semantic Networks.\" Journal of Conflict Resolution 40, no. 3 (1996): 395-414."
+annotation: "Presents WorldView, an enhanced cognitive mapping system using semantic networks to capture belief structures with differentiated relationships, truth-values, and modifiers."
+model_type: "property_graph"
+rationale: "The theory explicitly models concepts as nodes and relationships as connections, with semantic networks representing belief structures as graphs."
+schema_blueprint:
+  title: "WorldView Cognitive Mapping Schema"
+  description: "Models belief structures using semantic networks with differentiated relationships, truth-values, and modifiers."
+  root_properties:
+    nodes:
+      description: "Concepts, conjunctions, and relationships in the cognitive map."
+      item_type: "Entity"
+    edges:
+      description: "The connections between concepts, including causal, attributive, and other relationship types."
+      item_type: "NaryTuple"
+  definitions:
+    - name: "positive-cause"
+      category: "relationship"
+      description: "A causal relationship where the subject increases or promotes the object."
+      domain: ["Concept"]
+      range: ["Concept"]
+    - name: "negative-cause"
+      category: "relationship"
+      description: "A causal relationship where the subject decreases or hinders the object."
+      domain: ["Concept"]
+      range: ["Concept"]
+    - name: "attribute"
+      category: "relationship"
+      description: "Indicates that the subject has the property or characteristic of the object."
+      domain: ["Concept"]
+      range: ["Concept"]
+    - name: "equal"
+      category: "relationship"
+      description: "Indicates equivalence or identity between subject and object."
+      domain: ["Concept"]
+      range: ["Concept"]
+    - name: "condition"
+      category: "relationship"
+      description: "Indicates that the subject is a condition for the object."
+      domain: ["Concept", "Statement"]
+      range: ["Concept", "Statement"]
+    - name: "component"
+      category: "relationship"
+      description: "Indicates that the subject is a part or component of the object."
+      domain: ["Concept"]
+      range: ["Concept"]
+    - name: "preference"
+      category: "relationship"
+      description: "Indicates a preference ordering between alternatives."
+      domain: ["Concept"]
+      range: ["Concept"]
+    - name: "greater-than"
+      category: "relationship"
+      description: "Indicates quantitative superiority of subject over object."
+      domain: ["Concept"]
+      range: ["Concept"]
+    - name: "if-then"
+      category: "relationship"
+      description: "Represents conditional logical relationships."
+      domain: ["Statement"]
+      range: ["Statement"]
+    - name: "possess"
+      category: "relationship"
+      description: "Indicates ownership or possession relationship."
+      domain: ["Actor"]
+      range: ["Concept"]
+    - name: "is-a"
+      category: "relationship"
+      description: "Indicates taxonomic or class membership relationship."
+      domain: ["Concept"]
+      range: ["Class"]
+    - name: "know"
+      category: "relationship"
+      description: "Indicates knowledge or awareness relationship."
+      domain: ["Actor"]
+      range: ["Concept", "Statement"]
+    - name: "strategy"
+      category: "relationship"
+      description: "Indicates that the subject is a means for achieving the object."
+      domain: ["Action", "Statement"]
+      range: ["Concept", "Statement"]
+    - name: "warrant-for"
+      category: "relationship"
+      description: "Indicates that the subject provides justification for the object."
+      domain: ["Statement"]
+      range: ["Statement"]
+    - name: "location"
+      category: "relationship"
+      description: "Indicates spatial relationship or positioning."
+      domain: ["Concept"]
+      range: ["Concept"]
+    - name: "accept"
+      category: "action"
+      description: "The act of agreeing to or receiving something."
+      domain: ["Actor"]
+      range: ["Concept", "Statement"]
+    - name: "allow"
+      category: "action"
+      description: "The act of permitting or enabling something to occur."
+      domain: ["Actor"]
+      range: ["Event", "Action"]
+    - name: "assert"
+      category: "action"
+      description: "The act of stating or declaring something firmly."
+      domain: ["Actor"]
+      range: ["Statement"]
+    - name: "assist"
+      category: "action"
+      description: "The act of helping or supporting."
+      domain: ["Actor"]
+      range: ["Actor", "Action"]
+    - name: "attack"
+      category: "action"
+      description: "The act of aggressive action against a target."
+      domain: ["Actor"]
+      range: ["Actor", "Concept"]
+    - name: "cause"
+      category: "action"
+      description: "The act of bringing about or producing an effect."
+      domain: ["Actor", "Event"]
+      range: ["Event", "Concept"]
+    - name: "confront"
+      category: "action"
+      description: "The act of facing or opposing directly."
+      domain: ["Actor"]
+      range: ["Actor", "Concept"]
+    - name: "consider"
+      category: "action"
+      description: "The act of thinking about or contemplating."
+      domain: ["Actor"]
+      range: ["Concept", "Statement"]
+    - name: "consult"
+      category: "action"
+      description: "The act of seeking advice or information from."
+      domain: ["Actor"]
+      range: ["Actor"]
+    - name: "control"
+      category: "action"
+      description: "The act of directing or managing."
+      domain: ["Actor"]
+      range: ["Concept", "Actor"]
+    - name: "cooperate"
+      category: "action"
+      description: "The act of working together toward a common goal."
+      domain: ["Actor"]
+      range: ["Actor"]
+    - name: "decide"
+      category: "action"
+      description: "The act of making a choice or determination."
+      domain: ["Actor"]
+      range: ["Statement", "Action"]
+    - name: "defend"
+      category: "action"
+      description: "The act of protecting or supporting against attack."
+      domain: ["Actor"]
+      range: ["Actor", "Concept"]
+    - name: "delay"
+      category: "action"
+      description: "The act of postponing or deferring."
+      domain: ["Actor"]
+      range: ["Event", "Action"]
+    - name: "enforce"
+      category: "action"
+      description: "The act of compelling compliance with rules or laws."
+      domain: ["Actor"]
+      range: ["Rule", "Statement"]
+    - name: "enhance"
+      category: "action"
+      description: "The act of improving or strengthening."
+      domain: ["Actor"]
+      range: ["Concept"]
+    - name: "feel"
+      category: "action"
+      description: "The act of experiencing emotion or sensation."
+      domain: ["Actor"]
+      range: ["Concept"]
+    - name: "honor"
+      category: "action"
+      description: "The act of showing respect or fulfilling obligations."
+      domain: ["Actor"]
+      range: ["Statement", "Actor"]
+    - name: "ignore"
+      category: "action"
+      description: "The act of deliberately disregarding."
+      domain: ["Actor"]
+      range: ["Concept", "Statement"]
+    - name: "influence"
+      category: "action"
+      description: "The act of affecting or shaping behavior or decisions."
+      domain: ["Actor"]
+      range: ["Actor", "Concept"]
+    - name: "intervene"
+      category: "action"
+      description: "The act of becoming involved to alter a situation."
+      domain: ["Actor"]
+      range: ["Event", "Concept"]
+    - name: "invade"
+      category: "action"
+      description: "The act of entering forcefully or aggressively."
+      domain: ["Actor"]
+      range: ["Actor", "Concept"]
+    - name: "lead"
+      category: "action"
+      description: "The act of guiding or directing others."
+      domain: ["Actor"]
+      range: ["Actor", "Action"]
+    - name: "limit"
+      category: "action"
+      description: "The act of restricting or constraining."
+      domain: ["Actor"]
+      range: ["Concept", "Action"]
+    - name: "lose"
+      category: "action"
+      description: "The act of no longer having or experiencing defeat."
+      domain: ["Actor"]
+      range: ["Concept"]
+    - name: "maintain"
+      category: "action"
+      description: "The act of keeping in existence or continuing."
+      domain: ["Actor"]
+      range: ["Concept", "Statement"]
+    - name: "meet"
+      category: "action"
+      description: "The act of coming together or encountering."
+      domain: ["Actor"]
+      range: ["Actor"]
+    - name: "monitor"
+      category: "action"
+      description: "The act of observing or checking regularly."
+      domain: ["Actor"]
+      range: ["Concept", "Actor"]
+    - name: "negotiate"
+      category: "action"
+      description: "The act of discussing to reach agreement."
+      domain: ["Actor"]
+      range: ["Actor", "Statement"]
+    - name: "open"
+      category: "action"
+      description: "The act of making accessible or beginning."
+      domain: ["Actor"]
+      range: ["Concept", "Event"]
+    - name: "order"
+      category: "action"
+      description: "The act of commanding or directing."
+      domain: ["Actor"]
+      range: ["Actor", "Action"]
+    - name: "organize"
+      category: "action"
+      description: "The act of arranging systematically."
+      domain: ["Actor"]
+      range: ["Concept", "Event"]
+    - name: "perform"
+      category: "action"
+      description: "The act of carrying out or executing."
+      domain: ["Actor"]
+      range: ["Action"]
+    - name: "propose"
+      category: "action"
+      description: "The act of suggesting or putting forward."
+      domain: ["Actor"]
+      range: ["Statement", "Action"]
+    - name: "purchase"
+      category: "action"
+      description: "The act of buying or acquiring through payment."
+      domain: ["Actor"]
+      range: ["Concept"]
+    - name: "ratify"
+      category: "action"
+      description: "The act of formally approving or confirming."
+      domain: ["Actor"]
+      range: ["Statement", "Rule"]
+    - name: "reduce"
+      category: "action"
+      description: "The act of making smaller or less."
+      domain: ["Actor"]
+      range: ["Concept"]
+    - name: "release"
+      category: "action"
+      description: "The act of freeing or making available."
+      domain: ["Actor"]
+      range: ["Concept", "Actor"]
+    - name: "restore"
+      category: "action"
+      description: "The act of returning to a previous state."
+      domain: ["Actor"]
+      range: ["Concept"]
+    - name: "share"
+      category: "action"
+      description: "The act of giving or using jointly."
+      domain: ["Actor"]
+      range: ["Concept"]
+    - name: "sign"
+      category: "action"
+      description: "The act of formally agreeing by signature."
+      domain: ["Actor"]
+      range: ["Statement", "Rule"]
+    - name: "stop"
+      category: "action"
+      description: "The act of ceasing or preventing continuation."
+      domain: ["Actor"]
+      range: ["Action", "Event"]
+    - name: "support"
+      category: "action"
+      description: "The act of backing or assisting."
+      domain: ["Actor"]
+      range: ["Actor", "Statement"]
+    - name: "threaten"
+      category: "action"
+      description: "The act of indicating potential harm or danger."
+      domain: ["Actor"]
+      range: ["Actor", "Action"]
+    - name: "use"
+      category: "action"
+      description: "The act of employing for a purpose."
+      domain: ["Actor"]
+      range: ["Concept"]
+    - name: "verify"
+      category: "action"
+      description: "The act of confirming accuracy or truth."
+      domain: ["Actor"]
+      range: ["Statement"]
+    - name: "visit"
+      category: "action"
+      description: "The act of going to see someone or somewhere."
+      domain: ["Actor"]
+      range: ["Actor", "Concept"]
+    - name: "vote-on"
+      category: "action"
+      description: "The act of casting a ballot regarding something."
+      domain: ["Actor"]
+      range: ["Statement"]
+    - name: "withdraw"
+      category: "action"
+      description: "The act of removing or pulling back."
+      domain: ["Actor"]
+      range: ["Concept", "Actor"]
+    - name: "yield-to"
+      category: "action"
+      description: "The act of giving way or submitting to."
+      domain: ["Actor"]
+      range: ["Actor", "Concept"]
+    - name: "and"
+      category: "operator"
+      description: "Logical conjunction operator for compound concepts."
+      domain: ["Concept"]
+      range: ["Concept"]
+    - name: "or"
+      category: "operator"
+      description: "Logical disjunction operator for alternative concepts."
+      domain: ["Concept"]
+      range: ["Concept"]
+    - name: "dependency"
+      category: "measure"
+      description: "Structural measure reflecting vertical organization of concepts via bridge relationships."
+      domain: ["CognitiveMap"]
+      range: ["Number"]
+    - name: "connectedness"
+      category: "measure"
+      description: "Structural measure reflecting lateral connections between concepts in cognitive maps."
+      domain: ["CognitiveMap"]
+      range: ["Number"]
+    - name: "size"
+      category: "measure"
+      description: "The total number of concepts in a cognitive map."
+      domain: ["CognitiveMap"]
+      range: ["Number"]
+    - name: "uniformity-of-salience"
+      category: "measure"
+      description: "Measure of variation in relationship strength across the cognitive map."
+      domain: ["CognitiveMap"]
+      range: ["Number"]
+    - name: "concept-comparison"
+      category: "measure"
+      description: "Comparative measure identifying shared and unique concepts between cognitive maps."
+      domain: ["CognitiveMap"]
+      range: ["CognitiveMap"]
+    - name: "transformation-cost"
+      category: "measure"
+      description: "Comparative measure of cognitive work required to transform one map into another."
+      domain: ["CognitiveMap"]
+      range: ["CognitiveMap"]
+    - name: "incongruence"
+      category: "measure"
+      description: "Comparative measure combining transformation cost and concept comparison for time series analysis."
+      domain: ["CognitiveMap"]
+      range: ["CognitiveMap"]
+    - name: "salience"
+      category: "property"
+      description: "The strength or frequency of a relationship based on repetition in text."
+      domain: ["Relationship"]
+      range: ["Number"]
+    - name: "bridge"
+      category: "property"
+      description: "A relationship that is the only pathway to a concept in the cognitive map."
+      domain: ["Relationship"]
+    - name: "true"
+      category: "truth-value"
+      description: "Indicates the statement is factually correct and applies to all instances if classes are involved."
+    - name: "false"
+      category: "truth-value"
+      description: "Indicates the statement is not true and does not apply to all instances if classes are involved."
+    - name: "possible"
+      category: "truth-value"
+      description: "Indicates the statement could become true but is not necessarily expected to occur."
+    - name: "impossible"
+      category: "truth-value"
+      description: "Indicates the statement cannot become true at any time."
+    - name: "partial"
+      category: "truth-value"
+      description: "Indicates the statement applies to some but not all instances of the referenced classes."
+    - name: "past"
+      category: "modifier"
+      description: "Indicates the relationship or action occurred in the past and is now complete."
+    - name: "present"
+      category: "modifier"
+      description: "Indicates the relationship currently holds or the action is ongoing."
+    - name: "future"
+      category: "modifier"
+      description: "Indicates the actor believes the statement will be true at some future time."
+    - name: "goal"
+      category: "modifier"
+      description: "Indicates the actor wants the statement to become true and will strive toward it."
+    - name: "hypothetical"
+      category: "modifier"
+      description: "Indicates the statement may become true under certain conditions."
+    - name: "normative"
+      category: "modifier"
+      description: "Indicates the statement represents an ideal or moral obligation rather than an actionable goal."
+    - name: "cognitive-map"
+      category: "concept"
+      description: "A network representation of beliefs showing concepts and their relationships."
+      domain: ["Actor"]
+    - name: "semantic-network"
+      category: "concept"
+      description: "A symbol-based formalism using labeled relationships rather than mathematical connections."
+    - name: "adjacency-matrix"
+      category: "concept"
+      description: "A mathematical representation of cognitive maps using square matrices."
+    - name: "belief-structure"
+      category: "concept"
+      description: "The organized system of beliefs held by an individual or group."
+      domain: ["Actor"]
+    - name: "worldview-system"
+      category: "concept"
+      description: "The enhanced cognitive mapping tool using semantic networks and differentiated relationships."
+    - name: "compound-statement"
+      category: "concept"
+      description: "Complex statements containing multiple relationships that can be subjects or objects of other relationships."
+    - name: "encapsulation"
+      category: "concept"
+      description: "The problem where component concepts become hidden within compound statements in traditional cognitive mapping."
+    - name: "synonym-facility"
+      category: "concept"
+      description: "A feature allowing concepts to be replaced with synonyms during cognitive map creation."
+    - name: "directed-walk"
+      category: "concept"
+      description: "A reasoning model using spreading activation and salience heuristics to generate situation definitions."
+    - name: "spreading-activation"
+      category: "concept"
+      description: "A cognitive process model where activation spreads through connected concepts in memory."
+json_schema: |
+  {
+    "type": "object",
+    "properties": {
+      "nodes": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/Entity"
+        }
+      },
+      "edges": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/NaryTuple"
+        }
+      }
+    },
+    "required": ["nodes", "edges"],
+    "additionalProperties": false,
+    "$defs": {
+      "WorldView_Relationships": {
+        "type": "string",
+        "enum": ["positive-cause", "negative-cause", "attribute", "equal", "condition", "component", "preference", "greater-than", "if-then", "possess", "is-a", "know", "strategy", "warrant-for", "location"]
+      },
+      "WorldView_Actions": {
+        "type": "string", 
+        "enum": ["accept", "allow", "assert", "assist", "attack", "cause", "confront", "consider", "consult", "control", "cooperate", "decide", "defend", "delay", "enforce", "enhance", "feel", "honor", "ignore", "influence", "intervene", "invade", "lead", "limit", "lose", "maintain", "meet", "monitor", "negotiate", "open", "order", "organize", "perform", "propose", "purchase", "ratify", "reduce", "release", "restore", "share", "sign", "stop", "support", "threaten", "use", "verify", "visit", "vote-on", "withdraw", "yield-to"]
+      },
+      "WorldView_Operators": {
+        "type": "string",
+        "enum": ["and", "or"]
+      },
+      "WorldView_Measures": {
+        "type": "string",
+        "enum": ["dependency", "connectedness", "size", "uniformity-of-salience", "concept-comparison", "transformation-cost", "incongruence"]
+      },
+      "WorldView_Properties": {
+        "type": "string",
+        "enum": ["salience", "bridge"]
+      },
+      "WorldView_TruthValues": {
+        "type": "string",
+        "enum": ["true", "false", "possible", "impossible", "partial"]
+      },
+      "WorldView_Modifiers": {
+        "type": "string",
+        "enum": ["past", "present", "future", "goal", "hypothetical", "normative"]
+      },
+      "WorldView_Concepts": {
+        "type": "string",
+        "enum": ["cognitive-map", "semantic-network", "adjacency-matrix", "belief-structure", "worldview-system", "compound-statement", "encapsulation", "synonym-facility", "directed-walk", "spreading-activation"]
+      }
+    }
+  }

@@ -1,0 +1,564 @@
+citation: "Trillò, T., Hallinan, B., & Shifman, L. (2022). A typology of social media rituals. Journal of Computer-Mediated Communication, 27(4), zmac011. https://doi.org/10.1093/jcmc/zmac011"
+
+annotation: "Develops a systematic typology of 16 social media rituals that organize user-generated content into patterned communicative practices expressing shared values. Integrates ritual theory with genre analysis to identify core and communicative values underlying digital practices ranging from promotion to disclosure."
+
+model_type: "property_graph"
+
+rationale: "The social media ritual framework maps relationships between ritual types, genres, values, and communicative practices. This creates a networked structure where rituals connect to multiple genres, values, and communicative modes. The property graph model captures these multi-dimensional relationships and hierarchical categorizations while representing the theoretical taxonomy as interconnected nodes and edges."
+
+schema_blueprint:
+  title: "Social Media Rituals Typology Schema"
+  description: "A comprehensive schema modeling the typology of social media rituals, their associated genres, core values, and communicative functions as developed by Trillò, Hallinan, and Shifman (2022)"
+  
+  root_properties:
+    nodes:
+      description: "Concepts including ritual types, genres, values, communicative practices, and theoretical constructs"
+      item_type: "Entity"
+    edges:
+      description: "Relationships between rituals, genres, values, and theoretical connections"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Theoretical Framework
+    - name: "social-media-ritual"
+      category: "core-construct"
+      description: "Typified communicative practices on social media that formalize and express shared values"
+      
+    - name: "ritual-typology"
+      category: "theoretical-framework"
+      description: "Systematic classification system organizing 16 distinct types of social media rituals"
+      
+    - name: "value-construction"
+      category: "process"
+      description: "The process by which rituals mobilize people and integrate them into communities that share social values"
+      
+    - name: "genre-ritual-relationship"
+      category: "relationship"
+      description: "Connection between specific user-generated content genres and broader ritual categories"
+      domain: ["social-media-genre"]
+      range: ["social-media-ritual"]
+      
+    # 16 Ritual Types
+    - name: "ritual-promotion"
+      category: "ritual-type"
+      description: "Rituals that seek to elevate the status, visibility, recognition, or regard of something or someone"
+      
+    - name: "ritual-demotion"
+      category: "ritual-type"
+      description: "Rituals that seek to lower the status, visibility, recognition, or regard of something or someone"
+      
+    - name: "ritual-evaluation"
+      category: "ritual-type"
+      description: "Rituals that subject someone or something to evaluation, scrutiny, or critical analysis"
+      
+    - name: "ritual-requesting"
+      category: "ritual-type"
+      description: "Rituals that ask for aid or support for a person, group, or cause"
+      
+    - name: "ritual-transformation"
+      category: "ritual-type"
+      description: "Rituals that document how someone or something has changed over time through creativity or skill"
+      
+    - name: "ritual-competition"
+      category: "ritual-type"
+      description: "Rituals that assess relative merit by measuring performance against others"
+      
+    - name: "ritual-consumption"
+      category: "ritual-type"
+      description: "Rituals that document the act of consuming material objects, cultural products, and food"
+      
+    - name: "ritual-sensation"
+      category: "ritual-type"
+      description: "Rituals that seek to produce altered states of mind through media stimulation"
+      
+    - name: "ritual-taste-signaling"
+      category: "ritual-type"
+      description: "Rituals that enact association with others through aesthetic preferences or patterned cultural expression"
+      
+    - name: "ritual-commemoration"
+      category: "ritual-type"
+      description: "Rituals that mark the passage of time and indicate what should be remembered or respected"
+      
+    - name: "ritual-relationship-work"
+      category: "ritual-type"
+      description: "Rituals that initiate, maintain, or repair relationships with others"
+      
+    - name: "ritual-pledging"
+      category: "ritual-type"
+      description: "Rituals that declare commitment to a cause or action"
+      
+    - name: "ritual-subjectification"
+      category: "ritual-type"
+      description: "Rituals where people construct themselves as social subjects through presentation of desirable identities"
+      
+    - name: "ritual-disclosure"
+      category: "ritual-type"
+      description: "Rituals that make public something otherwise considered personal, secret, hidden, or private"
+      
+    - name: "ritual-forecasting"
+      category: "ritual-type"
+      description: "Rituals that seek to predict, prognosticate, or prophesy future events or trends"
+      
+    - name: "ritual-advising"
+      category: "ritual-type"
+      description: "Rituals that offer advice or information regarding topics, life areas, or situations"
+      
+    # Core Values (19 total identified)
+    - name: "reputation-value"
+      category: "core-value"
+      description: "People should seek esteem, status, or popularity"
+      
+    - name: "excellence-value"
+      category: "core-value"
+      description: "People should strive to be, or appreciate that which is, of superior merit"
+      
+    - name: "conformity-value"
+      category: "core-value"
+      description: "People should act in accordance with socially accepted norms"
+      
+    - name: "responsibility-value"
+      category: "core-value"
+      description: "People should fulfill their duties and obligations"
+      
+    - name: "knowledge-value"
+      category: "core-value"
+      description: "People should seek truth and understanding through study, experience, or reasoning"
+      
+    - name: "care-value"
+      category: "core-value"
+      description: "People should be actively concerned about and provide support for someone or something"
+      
+    - name: "altruism-value"
+      category: "core-value"
+      description: "People should be concerned for others' well-being and willing to help regardless of personal impact"
+      
+    - name: "progress-value"
+      category: "core-value"
+      description: "People should strive for improvement over time"
+      
+    - name: "control-value"
+      category: "core-value"
+      description: "People should strive to influence actions, functions, and outcomes"
+      
+    - name: "effort-value"
+      category: "core-value"
+      description: "People should devote significant time and energy toward something"
+      
+    - name: "materialism-value"
+      category: "core-value"
+      description: "People should acquire and appreciate material possessions or cultural goods"
+      
+    - name: "pleasure-value"
+      category: "core-value"
+      description: "People should seek enjoyable and satisfying experiences"
+      
+    - name: "aesthetics-value"
+      category: "core-value"
+      description: "People should cultivate and appreciate things pleasing to the senses, especially sight"
+      
+    - name: "creativity-value"
+      category: "core-value"
+      description: "People should respond to situations and express themselves in original, imaginative ways"
+      
+    - name: "loyalty-value"
+      category: "core-value"
+      description: "People should consistently support and align with something or someone they deem important"
+      
+    - name: "respect-value"
+      category: "core-value"
+      description: "People should be treated with consideration or dignity"
+      
+    - name: "intimacy-value"
+      category: "core-value"
+      description: "People should cultivate and appreciate close connections with others"
+      
+    - name: "commitment-value"
+      category: "core-value"
+      description: "People should be willing to give time, effort, and resources to what they believe in"
+      
+    - name: "transparency-value"
+      category: "core-value"
+      description: "People should openly convey information as they know it"
+      
+    # Four Communicative Values
+    - name: "persuasion-communicative-value"
+      category: "communicative-value"
+      description: "People should strive to communicate in ways that influence others' behavior or course of events"
+      
+    - name: "demonstration-communicative-value"
+      category: "communicative-value"
+      description: "People should express themselves through exhibition or visual display of evidence"
+      
+    - name: "affiliation-communicative-value"
+      category: "communicative-value"
+      description: "People should express themselves to show support or affiliation with a group or cause"
+      
+    - name: "authenticity-communicative-value"
+      category: "communicative-value"
+      description: "People should express themselves in ways that correspond with external reality or internal essence"
+      
+    # Genre Categories and Examples
+    - name: "social-media-genre"
+      category: "content-type"
+      description: "Socially recognized categories of cultural expression sharing elements of form, content, and interpretative expectations"
+      
+    - name: "new-job-announcement"
+      category: "genre-example"
+      description: "Social media posts highlighting noteworthy accomplishments that positively reflect on the poster"
+      subTypeOf: "social-media-genre"
+      
+    - name: "sponsored-content"
+      category: "genre-example"
+      description: "Influencer posts that elevate product status through personal endorsement"
+      subTypeOf: "social-media-genre"
+      
+    - name: "karen-video"
+      category: "genre-example"
+      description: "Videos criticizing behavior of individuals who harass others in public"
+      subTypeOf: "social-media-genre"
+      
+    - name: "customer-complaint"
+      category: "genre-example"
+      description: "Posts drawing attention to businesses violating consumer expectations"
+      subTypeOf: "social-media-genre"
+      
+    - name: "product-review"
+      category: "genre-example"
+      description: "Content describing and judging the merit of products"
+      subTypeOf: "social-media-genre"
+      
+    - name: "tier-list-meme"
+      category: "genre-example"
+      description: "Content placing related objects within hierarchical categories"
+      subTypeOf: "social-media-genre"
+      
+    - name: "crowdfunding-request"
+      category: "genre-example"
+      description: "Posts sharing information about issues to obtain financial support"
+      subTypeOf: "social-media-genre"
+      
+    - name: "home-makeover-video"
+      category: "genre-example"
+      description: "Content showing progressive transformation of living spaces"
+      subTypeOf: "social-media-genre"
+      
+    - name: "before-after-fitness-photo"
+      category: "genre-example"
+      description: "Images tracking improved fitness levels over time"
+      subTypeOf: "social-media-genre"
+      
+    - name: "video-game-speedrun"
+      category: "genre-example"
+      description: "Documentation of attempts to complete games in record time"
+      subTypeOf: "social-media-genre"
+      
+    - name: "political-debate-stream"
+      category: "genre-example"
+      description: "Live content featuring argumentation over political positions"
+      subTypeOf: "social-media-genre"
+      
+    - name: "unboxing-video"
+      category: "genre-example"
+      description: "Content portraying opening and tactile interaction with products"
+      subTypeOf: "social-media-genre"
+      
+    - name: "mukbang-video"
+      category: "genre-example"
+      description: "Videos recording someone eating food"
+      subTypeOf: "social-media-genre"
+      
+    - name: "asmr-video"
+      category: "genre-example"
+      description: "Audio-visual content using sounds to elicit feelings of calmness"
+      subTypeOf: "social-media-genre"
+      
+    - name: "oddly-satisfying-content"
+      category: "genre-example"
+      description: "Images or videos of objects that are unexpectedly visually pleasing"
+      subTypeOf: "social-media-genre"
+      
+    - name: "tiktok-dance-challenge"
+      category: "genre-example"
+      description: "Content iterating popular choreography to affirm community belonging"
+      subTypeOf: "social-media-genre"
+      
+    - name: "deep-fried-meme"
+      category: "genre-example"
+      description: "Memes with grainy or washed-out images recognizable only to those with prior knowledge"
+      subTypeOf: "social-media-genre"
+      
+    - name: "celebrity-death-tweet"
+      category: "genre-example"
+      description: "Social media posts facilitating collective mourning for deceased celebrities"
+      subTypeOf: "social-media-genre"
+      
+    - name: "facebook-memorial-page"
+      category: "genre-example"
+      description: "Digital memorial spaces where users pay respects to deceased friends"
+      subTypeOf: "social-media-genre"
+      
+    - name: "youtube-apology-video"
+      category: "genre-example"
+      description: "Content seeking to repair creator-audience relationships after misconduct"
+      subTypeOf: "social-media-genre"
+      
+    - name: "happy-birthday-wish"
+      category: "genre-example"
+      description: "Public displays of well-wishes on social media platforms"
+      subTypeOf: "social-media-genre"
+      
+    - name: "profile-picture-filter"
+      category: "genre-example"
+      description: "Photo overlays declaring solidarity with communities or causes"
+      subTypeOf: "social-media-genre"
+      
+    - name: "new-years-resolution"
+      category: "genre-example"
+      description: "Posts presenting personal goals for the coming year"
+      subTypeOf: "social-media-genre"
+      
+    - name: "family-vacation-photo"
+      category: "genre-example"
+      description: "Images reaffirming status as member of happy family unit"
+      subTypeOf: "social-media-genre"
+      
+    - name: "best-friend-selfie"
+      category: "genre-example"
+      description: "Photos documenting social interactions and bonds between friends"
+      subTypeOf: "social-media-genre"
+      
+    - name: "day-in-life-vlog"
+      category: "genre-example"
+      description: "Videos revealing information about someone's daily routines"
+      subTypeOf: "social-media-genre"
+      
+    - name: "ask-me-anything"
+      category: "genre-example"
+      description: "Q&A content publicly responding to audience-submitted questions"
+      subTypeOf: "social-media-genre"
+      
+    - name: "tiktok-tarot-reading"
+      category: "genre-example"
+      description: "Divination content interpreting cards for unknown algorithmic audiences"
+      subTypeOf: "social-media-genre"
+      
+    - name: "sports-prediction"
+      category: "genre-example"
+      description: "Content predicting outcomes of upcoming sporting events"
+      subTypeOf: "social-media-genre"
+      
+    - name: "workout-tutorial"
+      category: "genre-example"
+      description: "Instructional content sharing knowledge about effective fitness routines"
+      subTypeOf: "social-media-genre"
+      
+    - name: "software-tutorial"
+      category: "genre-example"
+      description: "Educational content providing detailed instructions for software tasks"
+      subTypeOf: "social-media-genre"
+      
+    # Theoretical Processes and Relationships
+    - name: "value-assertion"
+      category: "process"
+      description: "The act of making tiny value claims through social media contributions"
+      
+    - name: "ritual-mediation"
+      category: "process"
+      description: "How media technologies shape the characteristics and scale of ritual practices"
+      
+    - name: "genre-ritualization"
+      category: "process"
+      description: "The transformation of content types into patterned ritual practices"
+      
+    - name: "communicative-valorization"
+      category: "process"
+      description: "How participation in rituals validates particular ideals and communication modes"
+      
+    - name: "scalable-sociality"
+      category: "theoretical-concept"
+      description: "Users' ability to produce and circulate content at different scales based on privacy and audience size preferences"
+      
+    - name: "networked-individualism"
+      category: "theoretical-concept"
+      description: "Communication paradigm balancing communal conformity demands with creative self-expression needs"
+      
+    - name: "fixity-novelty-tension"
+      category: "theoretical-concept"
+      description: "The balance between conformist pattern recognition and individual creative expression in social media rituals"
+      
+    # Methodological Constructs
+    - name: "grounded-analysis"
+      category: "methodology"
+      description: "Research approach integrating ritual literature with social media genre studies through constant comparison"
+      
+    - name: "transnational-observation"
+      category: "methodology"
+      description: "Cross-cultural participant observation of social media platforms across multiple countries and languages"
+      
+    - name: "matchmaking-process"
+      category: "methodology"
+      description: "Systematic refinement of ritual typology to account for identified social media genres"
+      
+    - name: "consensual-qualitative-research"
+      category: "methodology"
+      description: "Collaborative approach to analyzing and categorizing ritual types and associated values"
+      
+    # Platform and Cultural Dimensions
+    - name: "platform-specificity"
+      category: "contextual-factor"
+      description: "How different social media platforms incentivize or disincentivize particular ritual types"
+      
+    - name: "cultural-localization"
+      category: "contextual-factor"
+      description: "How ritual expressions vary across national cultures, communities, and subcultures"
+      
+    - name: "temporal-evolution"
+      category: "contextual-factor"
+      description: "How platform cultures and ritual prominence change over time"
+      
+    - name: "mainstream-visibility"
+      category: "contextual-factor"
+      description: "Factors determining which rituals achieve widespread recognition versus remaining niche"
+      
+    # Value Relationships and Patterns
+    - name: "core-value-association"
+      category: "relationship"
+      description: "Connection between ritual types and their two primary associated values"
+      domain: ["ritual-type"]
+      range: ["core-value"]
+      
+    - name: "communicative-value-emphasis"
+      category: "relationship"
+      description: "Association between ritual types and their dominant communicative value orientation"
+      domain: ["ritual-type"]
+      range: ["communicative-value"]
+      
+    - name: "genre-ritual-instantiation"
+      category: "relationship"
+      description: "How specific genres serve as concrete manifestations of broader ritual types"
+      domain: ["social-media-genre"]
+      range: ["social-media-ritual"]
+      
+    - name: "multi-ritual-combination"
+      category: "relationship"
+      description: "When single genres integrate multiple ritual types into unified practices"
+      domain: ["social-media-genre"]
+      range: ["social-media-ritual"]
+      
+    - name: "value-recurrence-pattern"
+      category: "relationship"
+      description: "How certain values appear across multiple ritual types showing thematic connections"
+      domain: ["core-value"]
+      range: ["ritual-type"]
+      
+    - name: "communicative-value-contradiction"
+      category: "relationship"
+      description: "Tensions between different communicative values in practice"
+      domain: ["communicative-value"]
+      range: ["communicative-value"]
+      
+    - name: "communicative-value-synthesis"
+      category: "relationship"
+      description: "Successful combination of multiple communicative values in single practices"
+      domain: ["communicative-value"]
+      range: ["communicative-value"]
+      
+  # JSON Schema with Enums
+  json_schema:
+    ritual_types:
+      - "ritual-promotion"
+      - "ritual-demotion"
+      - "ritual-evaluation"
+      - "ritual-requesting"
+      - "ritual-transformation"
+      - "ritual-competition"
+      - "ritual-consumption"
+      - "ritual-sensation"
+      - "ritual-taste-signaling"
+      - "ritual-commemoration"
+      - "ritual-relationship-work"
+      - "ritual-pledging"
+      - "ritual-subjectification"
+      - "ritual-disclosure"
+      - "ritual-forecasting"
+      - "ritual-advising"
+    
+    core_values:
+      - "reputation-value"
+      - "excellence-value"
+      - "conformity-value"
+      - "responsibility-value"
+      - "knowledge-value"
+      - "care-value"
+      - "altruism-value"
+      - "progress-value"
+      - "control-value"
+      - "effort-value"
+      - "materialism-value"
+      - "pleasure-value"
+      - "aesthetics-value"
+      - "creativity-value"
+      - "loyalty-value"
+      - "respect-value"
+      - "intimacy-value"
+      - "commitment-value"
+      - "transparency-value"
+    
+    communicative_values:
+      - "persuasion-communicative-value"
+      - "demonstration-communicative-value"
+      - "affiliation-communicative-value"
+      - "authenticity-communicative-value"
+    
+    recurrent_values:
+      - "aesthetics-value"
+      - "care-value"
+      - "conformity-value"
+      - "control-value"
+      - "excellence-value"
+      - "knowledge-value"
+      - "pleasure-value"
+      - "reputation-value"
+      - "responsibility-value"
+    
+    categories:
+      - "core-construct"
+      - "theoretical-framework"
+      - "ritual-type"
+      - "core-value"
+      - "communicative-value"
+      - "content-type"
+      - "genre-example"
+      - "process"
+      - "theoretical-concept"
+      - "methodology"
+      - "contextual-factor"
+      - "relationship"
+    
+    relationships:
+      - "genre-ritual-relationship"
+      - "core-value-association"
+      - "communicative-value-emphasis"
+      - "genre-ritual-instantiation"
+      - "multi-ritual-combination"
+      - "value-recurrence-pattern"
+      - "communicative-value-contradiction"
+      - "communicative-value-synthesis"
+    
+    processes:
+      - "value-construction"
+      - "value-assertion"
+      - "ritual-mediation"
+      - "genre-ritualization"
+      - "communicative-valorization"
+    
+    theoretical_concepts:
+      - "scalable-sociality"
+      - "networked-individualism"
+      - "fixity-novelty-tension"
+    
+    methodological_approaches:
+      - "grounded-analysis"
+      - "transnational-observation"
+      - "matchmaking-process"
+      - "consensual-qualitative-research"

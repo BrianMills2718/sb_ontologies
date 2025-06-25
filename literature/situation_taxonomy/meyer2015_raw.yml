@@ -1,0 +1,557 @@
+citation: "Meyer, Rustin D. \"Taxonomy of Situations and Their Measurement.\" In Oxford Handbook of Personality and Social Psychology, edited by M. Mikulincer, P. R. Shaver, M. L. Cooper, and R. J. Larsen. Oxford University Press, 2015."
+annotation: "Comprehensive review examining critical decisions researchers face when creating taxonomies of situations, analyzing diverse approaches to conceptualizing and categorizing the multifaceted nature of situational constructs."
+model_type: "property_graph"
+rationale: "The framework describes complex relationships between situational characteristics, dimensions, classes, and measurement approaches, with numerous interconnected theoretical constructs best represented as nodes and edges."
+schema_blueprint:
+  title: "Situation Taxonomy and Measurement Schema"
+  description: "Models comprehensive approaches to classifying and measuring situational constructs across diverse theoretical frameworks and methodological perspectives."
+  root_properties:
+    nodes:
+      description: "Situational constructs, measurement approaches, taxonomic systems, theoretical frameworks, and methodological concepts."
+      item_type: "Entity"
+    edges:
+      description: "The classification relationships, measurement connections, and theoretical linkages between situational concepts and assessment methods."
+      item_type: "NaryTuple"
+  definitions:
+    - name: "situation"
+      category: "core-construct"
+      description: "Environmental context or circumstance that influences behavior and psychological processes."
+    - name: "situational-taxonomy"
+      category: "core-construct"
+      description: "Systematic classification scheme for organizing different types of situations."
+    - name: "situational-structure"
+      category: "core-construct"
+      description: "Underlying organization and relationships among situational elements."
+    - name: "situation-perception"
+      category: "core-construct"
+      description: "Individual's subjective interpretation and understanding of situational context."
+      domain: ["Actor"]
+    - name: "situational-characteristics"
+      category: "core-construct"
+      description: "Specific features and properties that define or describe situations."
+    - name: "situational-classes"
+      category: "core-construct"
+      description: "Distinct categories or types of situations with shared properties."
+    - name: "situational-cues"
+      category: "core-construct"
+      description: "Environmental signals that provide information about appropriate behavior."
+    - name: "situational-dimensions"
+      category: "core-construct"
+      description: "Underlying factors or axes along which situations can be differentiated."
+    - name: "situational-categories"
+      category: "core-construct"
+      description: "Groupings of situations based on shared features or functions."
+    - name: "situational-stimuli"
+      category: "core-construct"
+      description: "Environmental elements that trigger psychological or behavioral responses."
+    - name: "situational-variables"
+      category: "core-construct"
+      description: "Measurable aspects of situations that can vary across contexts."
+    - name: "situational-affordances"
+      category: "core-construct"
+      description: "Opportunities for action that situations provide to individuals."
+    - name: "situational-constraints"
+      category: "core-construct"
+      description: "Environmental limitations that restrict behavioral options."
+    - name: "situational-context"
+      category: "core-construct"
+      description: "Broader environmental setting within which specific situations occur."
+    - name: "taxonomy"
+      category: "measurement-classification"
+      description: "Systematic classification system based on natural relationships."
+    - name: "classification"
+      category: "measurement-classification"
+      description: "Process of organizing entities into categories based on shared properties."
+    - name: "categorization"
+      category: "measurement-classification"
+      description: "Cognitive process of grouping stimuli into discrete classes."
+    - name: "dimensional-analysis"
+      category: "measurement-classification"
+      description: "Statistical approach to identifying underlying factors or dimensions."
+    - name: "multidimensional-scaling"
+      category: "measurement-classification"
+      description: "Statistical technique for representing similarity relationships in geometric space."
+    - name: "factor-analysis"
+      category: "measurement-classification"
+      description: "Statistical method for identifying latent variables underlying observed correlations."
+    - name: "cluster-analysis"
+      category: "measurement-classification"
+      description: "Statistical technique for grouping similar cases or variables."
+    - name: "pairwise-comparisons"
+      category: "measurement-classification"
+      description: "Method comparing stimuli two at a time for similarity or other properties."
+    - name: "triadic-comparisons"
+      category: "measurement-classification"
+      description: "Method comparing three stimuli simultaneously for classification purposes."
+    - name: "sorting-techniques"
+      category: "measurement-classification"
+      description: "Methods where participants organize stimuli into groups or categories."
+    - name: "q-sort-activity"
+      category: "measurement-classification"
+      description: "Forced-choice ranking method for comparing stimuli on specified dimensions."
+    - name: "similarity-ratings"
+      category: "measurement-classification"
+      description: "Quantitative assessments of how alike different stimuli are."
+    - name: "stimulus-set"
+      category: "measurement-classification"
+      description: "Collection of stimuli used in classification or measurement research."
+    - name: "data-reduction"
+      category: "measurement-classification"
+      description: "Statistical techniques for simplifying complex datasets."
+    - name: "validation"
+      category: "measurement-classification"
+      description: "Process of establishing the accuracy and meaningfulness of measurements."
+    - name: "situationism"
+      category: "theoretical-perspective"
+      description: "Perspective emphasizing situational factors as primary determinants of behavior."
+    - name: "interactionism"
+      category: "theoretical-perspective"
+      description: "Perspective emphasizing joint influence of person and situation on behavior."
+    - name: "trait-based-view-situations"
+      category: "theoretical-perspective"
+      description: "Approach to understanding situations through personality trait frameworks."
+    - name: "situation-as-context-argument"
+      category: "theoretical-perspective"
+      description: "View of situations as background contexts rather than active causal agents."
+    - name: "objective-situations"
+      category: "situational-type"
+      description: "Situations defined by external, observable characteristics."
+    - name: "subjective-situations"
+      category: "situational-type"
+      description: "Situations defined by individual's personal interpretation and experience."
+    - name: "canonical-situations"
+      category: "situational-type"
+      description: "Prototypical or standard situations representing broader classes."
+    - name: "functional-situations"
+      category: "situational-type"
+      description: "Situations defined by their behavioral or psychological functions."
+    - name: "physico-biological-situation"
+      category: "situational-type"
+      description: "Situations defined by physical and biological environmental features."
+    - name: "perceptual-concreteness"
+      category: "situational-type"
+      description: "Degree to which situations are defined by concrete, observable features."
+    - name: "press"
+      category: "murray-concept"
+      description: "Environmental force or pressure that influences behavior and experience."
+    - name: "alpha-press"
+      category: "murray-concept"
+      description: "Objective environmental forces as they actually exist."
+      subTypeOf: "press"
+    - name: "beta-press"
+      category: "murray-concept"
+      description: "Environmental forces as perceived and interpreted by the individual."
+      subTypeOf: "press"
+    - name: "pressive-perception"
+      category: "murray-concept"
+      description: "Individual's awareness and interpretation of environmental pressures."
+      domain: ["Actor"]
+    - name: "delusion"
+      category: "murray-concept"
+      description: "Significant discrepancy between alpha-press and beta-press."
+    - name: "directional-tendency"
+      category: "murray-concept"
+      description: "Motivational force directing behavior toward specific outcomes."
+      domain: ["Actor"]
+    - name: "structure"
+      category: "block-block-dimension"
+      description: "Degree of organization and clarity in situational elements."
+    - name: "convergence"
+      category: "block-block-dimension"
+      description: "Extent to which situational forces point toward similar outcomes."
+    - name: "divergence"
+      category: "block-block-dimension"
+      description: "Extent to which situational forces point toward different outcomes."
+    - name: "evaluation"
+      category: "block-block-dimension"
+      description: "Degree to which situations involve assessment or judgment."
+    - name: "feedback"
+      category: "block-block-dimension"
+      description: "Availability of information about performance or outcomes."
+    - name: "constraints"
+      category: "block-block-dimension"
+      description: "Limitations or restrictions present in the situational context."
+    - name: "impedance"
+      category: "block-block-dimension"
+      description: "Obstacles or barriers to goal achievement in situations."
+    - name: "malleability"
+      category: "block-block-dimension"
+      description: "Degree to which situations can be modified or changed."
+    - name: "galvanization"
+      category: "block-block-dimension"
+      description: "Motivational energy or arousal generated by situational factors."
+    - name: "familiarity"
+      category: "block-block-dimension"
+      description: "Degree of prior experience with similar situational contexts."
+    - name: "differentiation"
+      category: "block-block-dimension"
+      description: "Complexity and distinctiveness of situational elements."
+    - name: "duty"
+      category: "diamonds-dimension"
+      description: "Extent to which situations involve work, tasks, or responsibilities."
+    - name: "intellect"
+      category: "diamonds-dimension"
+      description: "Degree to which situations involve intellectual or cognitive demands."
+    - name: "adversity"
+      category: "diamonds-dimension"
+      description: "Level of threat, stress, or challenge present in situations."
+    - name: "mating"
+      category: "diamonds-dimension"
+      description: "Extent to which situations involve romantic or sexual opportunities."
+    - name: "positivity"
+      category: "diamonds-dimension"
+      description: "Overall positive emotional tone or pleasant aspects of situations."
+    - name: "negativity"
+      category: "diamonds-dimension"
+      description: "Overall negative emotional tone or unpleasant aspects of situations."
+    - name: "deception"
+      category: "diamonds-dimension"
+      description: "Opportunities or pressures for dishonesty or misleading behavior."
+    - name: "sociality"
+      category: "diamonds-dimension"
+      description: "Extent to which situations involve social interaction and relationships."
+    - name: "valence"
+      category: "edwards-templeton-dimension"
+      description: "Overall positive versus negative quality of situational context."
+    - name: "productivity"
+      category: "edwards-templeton-dimension"
+      description: "Potential for accomplishment and task completion in situations."
+    - name: "ease-of-negotiation"
+      category: "edwards-templeton-dimension"
+      description: "Degree of difficulty in navigating or managing situational demands."
+    - name: "change"
+      category: "pury-affordance-dimension"
+      description: "Opportunities for modification or transformation in situations."
+    - name: "ownership"
+      category: "pury-affordance-dimension"
+      description: "Degree of personal control or responsibility in situational contexts."
+    - name: "timing"
+      category: "pury-affordance-dimension"
+      description: "Temporal aspects and urgency factors in situational demands."
+    - name: "target"
+      category: "pury-affordance-dimension"
+      description: "Focus or object of action opportunities in situations."
+    - name: "privacy"
+      category: "pury-affordance-dimension"
+      description: "Degree of confidentiality or public exposure in situational contexts."
+    - name: "consideration"
+      category: "pury-affordance-dimension"
+      description: "Opportunities for thoughtful reflection or deliberation in situations."
+    - name: "stimulus-environment"
+      category: "baumeister-tice-class"
+      description: "External environmental factors and physical context."
+    - name: "characteristics-of-subject"
+      category: "baumeister-tice-class"
+      description: "Individual differences and personal attributes affecting situation perception."
+    - name: "cognitive-affective-dynamics"
+      category: "baumeister-tice-class"
+      description: "Mental and emotional processes occurring within situational contexts."
+    - name: "relationship-background"
+      category: "baumeister-tice-class"
+      description: "Social and interpersonal context surrounding situational events."
+    - name: "matrix-of-possibilities"
+      category: "baumeister-tice-class"
+      description: "Range of potential outcomes and action options available in situations."
+    - name: "positive"
+      category: "magnusson-ekehammar-dimension"
+      description: "Pleasant, favorable, or beneficial aspects of situational contexts."
+    - name: "negative"
+      category: "magnusson-ekehammar-dimension"
+      description: "Unpleasant, unfavorable, or harmful aspects of situational contexts."
+    - name: "passive"
+      category: "magnusson-ekehammar-dimension"
+      description: "Situations requiring little active engagement or response."
+    - name: "social"
+      category: "magnusson-ekehammar-dimension"
+      description: "Situations involving interpersonal interaction and social processes."
+    - name: "ambitious"
+      category: "magnusson-ekehammar-dimension"
+      description: "Situations involving achievement striving and goal pursuit."
+    - name: "ease-adequacy-coping"
+      category: "scheidt-schaie-dimension"
+      description: "Difficulty level and resource requirements for managing situational demands."
+    - name: "subjective-pleasure-aversion"
+      category: "scheidt-schaie-dimension"
+      description: "Personal emotional responses and affective reactions to situations."
+    - name: "frequency-of-occurrence"
+      category: "scheidt-schaie-dimension"
+      description: "How commonly situations are encountered in daily life."
+    - name: "bureaucratic-work-situations"
+      category: "meyer-work-class"
+      description: "Formal, rule-based work contexts with clear hierarchies and procedures."
+    - name: "incubative-work-situations"
+      category: "meyer-work-class"
+      description: "Creative, exploratory work contexts encouraging innovation and development."
+    - name: "prosaic-work-situations"
+      category: "meyer-work-class"
+      description: "Routine, ordinary work contexts with standard procedures."
+    - name: "strategic-work-situations"
+      category: "meyer-work-class"
+      description: "Planning-focused work contexts involving long-term thinking and decision-making."
+    - name: "maintenance-development-dimension"
+      category: "meyer-work-dimension"
+      description: "Continuum from preserving existing systems to creating new capabilities."
+    - name: "formality-informality-dimension"
+      category: "meyer-work-dimension"
+      description: "Continuum from structured, rule-bound to flexible, casual work contexts."
+    - name: "componential-stimuli"
+      category: "methodological-term"
+      description: "Stimuli broken down into constituent elements for analysis."
+    - name: "holistic-stimuli"
+      category: "methodological-term"
+      description: "Stimuli presented as complete, integrated units for evaluation."
+    - name: "lexical-hypothesis"
+      category: "methodological-term"
+      description: "Assumption that important concepts are encoded in natural language."
+    - name: "daily-diary-method"
+      category: "methodological-term"
+      description: "Research approach collecting repeated measurements over time."
+    - name: "post-hoc-methods"
+      category: "methodological-term"
+      description: "Analytical approaches applied after initial data collection."
+    - name: "combinative-methods"
+      category: "methodological-term"
+      description: "Research approaches integrating multiple measurement or analysis techniques."
+    - name: "subject-matter-experts"
+      category: "methodological-term"
+      description: "Individuals with specialized knowledge used for validation or classification."
+    - name: "ecological-validity"
+      category: "methodological-term"
+      description: "Degree to which research findings apply to real-world contexts."
+    - name: "fidelity-of-stimuli"
+      category: "methodological-term"
+      description: "Accuracy with which research stimuli represent target situations."
+    - name: "stimulus-generation"
+      category: "methodological-term"
+      description: "Process of creating or selecting stimuli for research purposes."
+    - name: "data-collection-methods"
+      category: "methodological-term"
+      description: "Systematic approaches for gathering research information."
+    - name: "exploratory-analysis"
+      category: "methodological-term"
+      description: "Data analysis aimed at discovering patterns without prior hypotheses."
+    - name: "confirmatory-analysis"
+      category: "methodological-term"
+      description: "Data analysis aimed at testing specific theoretical predictions."
+    - name: "person-situation-interaction"
+      category: "theoretical-framework"
+      description: "Joint influence of individual and environmental factors on behavior."
+    - name: "behavior-environment-congruence"
+      category: "theoretical-framework"
+      description: "Match or fit between behavioral tendencies and environmental demands."
+    - name: "situational-construal"
+      category: "theoretical-framework"
+      description: "Process by which individuals interpret and give meaning to situations."
+    - name: "environmental-psychology"
+      category: "theoretical-framework"
+      description: "Field studying relationships between physical environments and behavior."
+    - name: "individual-differences"
+      category: "theoretical-framework"
+      description: "Stable variations between people in psychological characteristics."
+    - name: "personality-traits"
+      category: "theoretical-framework"
+      description: "Enduring patterns of thoughts, feelings, and behaviors."
+    - name: "behavioral-prediction"
+      category: "theoretical-framework"
+      description: "Forecasting future actions based on situational and personal factors."
+    - name: "causal-effects"
+      category: "theoretical-framework"
+      description: "Direct influence relationships between variables."
+    - name: "main-effects"
+      category: "theoretical-framework"
+      description: "Independent influence of single variables on outcomes."
+    - name: "interactive-effects"
+      category: "theoretical-framework"
+      description: "Combined influence of multiple variables that exceeds sum of individual effects."
+    - name: "situational-sampling"
+      category: "assessment-concept"
+      description: "Systematic selection of situations for research or measurement purposes."
+    - name: "situational-criteria"
+      category: "assessment-concept"
+      description: "Standards used to evaluate or classify situational characteristics."
+    - name: "situational-measurement"
+      category: "assessment-concept"
+      description: "Systematic quantification of situational properties and dimensions."
+    - name: "situational-evaluation"
+      category: "assessment-concept"
+      description: "Assessment of situational quality, appropriateness, or effectiveness."
+    - name: "situational-rating"
+      category: "assessment-concept"
+      description: "Numerical scaling of situational characteristics or dimensions."
+    - name: "situational-interpretation"
+      category: "assessment-concept"
+      description: "Process of assigning meaning and significance to situational features."
+      domain: ["Actor"]
+    - name: "situational-experience"
+      category: "assessment-concept"
+      description: "Subjective phenomenology of being in particular situational contexts."
+      domain: ["Actor"]
+    - name: "hierarchical-structure"
+      category: "structural-concept"
+      description: "Nested organization with multiple levels of classification."
+    - name: "nested-categories"
+      category: "structural-concept"
+      description: "Classification system where categories are contained within broader groupings."
+    - name: "cross-category-heterogeneity"
+      category: "structural-concept"
+      description: "Differences between distinct classification categories."
+    - name: "within-class-homogeneity"
+      category: "structural-concept"
+      description: "Similarity among items within the same classification category."
+    - name: "taxonomic-levels"
+      category: "structural-concept"
+      description: "Different degrees of specificity in classification hierarchies."
+    - name: "broad-categories"
+      category: "structural-concept"
+      description: "General, inclusive classification groupings."
+    - name: "specific-types"
+      category: "structural-concept"
+      description: "Narrow, detailed classification categories."
+    - name: "subordinate-classes"
+      category: "structural-concept"
+      description: "Lower-level categories within hierarchical classification systems."
+    - name: "superordinate-categories"
+      category: "structural-concept"
+      description: "Higher-level categories within hierarchical classification systems."
+    - name: "weird-populations"
+      category: "cultural-contextual"
+      description: "Western, Educated, Industrialized, Rich, Democratic research populations."
+    - name: "cultural-context"
+      category: "cultural-contextual"
+      description: "Broader social and cultural setting influencing situational meaning."
+    - name: "domain-specificity"
+      category: "cultural-contextual"
+      description: "Limitation of findings to particular contexts or populations."
+    - name: "generalizability"
+      category: "cultural-contextual"
+      description: "Extent to which findings apply across different contexts."
+    - name: "cross-cultural-validity"
+      category: "cultural-contextual"
+      description: "Accuracy of measurements across different cultural groups."
+    - name: "classifies"
+      category: "relationship"
+      description: "Relationship where taxonomic systems organize situational concepts."
+      domain: ["Taxonomy"]
+      range: ["Situation"]
+    - name: "measures"
+      category: "relationship"
+      description: "Relationship where assessment methods quantify situational properties."
+      domain: ["Method"]
+      range: ["Property"]
+    - name: "influences"
+      category: "relationship"
+      description: "Causal relationship where situations affect behavior or outcomes."
+      domain: ["Situation"]
+      range: ["Behavior"]
+    - name: "interacts-with"
+      category: "relationship"
+      description: "Relationship where person and situation jointly influence outcomes."
+      domain: ["Person"]
+      range: ["Situation"]
+    - name: "validates"
+      category: "relationship"
+      description: "Relationship where evidence supports measurement accuracy."
+      domain: ["Evidence"]
+      range: ["Measure"]
+json_schema: |
+  {
+    "type": "object",
+    "properties": {
+      "nodes": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/Entity"
+        }
+      },
+      "edges": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/NaryTuple"
+        }
+      }
+    },
+    "required": ["nodes", "edges"],
+    "additionalProperties": false,
+    "$defs": {
+      "SitTax_CoreConstructs": {
+        "type": "string",
+        "enum": ["situation", "situational-taxonomy", "situational-structure", "situation-perception", "situational-characteristics", "situational-classes", "situational-cues", "situational-dimensions", "situational-categories", "situational-stimuli", "situational-variables", "situational-affordances", "situational-constraints", "situational-context"]
+      },
+      "SitTax_MeasurementClassification": {
+        "type": "string",
+        "enum": ["taxonomy", "classification", "categorization", "dimensional-analysis", "multidimensional-scaling", "factor-analysis", "cluster-analysis", "pairwise-comparisons", "triadic-comparisons", "sorting-techniques", "q-sort-activity", "similarity-ratings", "stimulus-set", "data-reduction", "validation"]
+      },
+      "SitTax_TheoreticalPerspectives": {
+        "type": "string",
+        "enum": ["situationism", "interactionism", "trait-based-view-situations", "situation-as-context-argument"]
+      },
+      "SitTax_SituationalTypes": {
+        "type": "string",
+        "enum": ["objective-situations", "subjective-situations", "canonical-situations", "functional-situations", "physico-biological-situation", "perceptual-concreteness"]
+      },
+      "SitTax_MurrayConcepts": {
+        "type": "string",
+        "enum": ["press", "alpha-press", "beta-press", "pressive-perception", "delusion", "directional-tendency"]
+      },
+      "SitTax_BlockBlockDimensions": {
+        "type": "string",
+        "enum": ["structure", "convergence", "divergence", "evaluation", "feedback", "constraints", "impedance", "malleability", "galvanization", "familiarity", "differentiation"]
+      },
+      "SitTax_DiamondsDimensions": {
+        "type": "string",
+        "enum": ["duty", "intellect", "adversity", "mating", "positivity", "negativity", "deception", "sociality"]
+      },
+      "SitTax_EdwardsTempletonDimensions": {
+        "type": "string",
+        "enum": ["valence", "productivity", "ease-of-negotiation"]
+      },
+      "SitTax_PuryAffordanceDimensions": {
+        "type": "string",
+        "enum": ["change", "ownership", "timing", "target", "privacy", "consideration"]
+      },
+      "SitTax_BaumeisterTiceClasses": {
+        "type": "string",
+        "enum": ["stimulus-environment", "characteristics-of-subject", "cognitive-affective-dynamics", "relationship-background", "matrix-of-possibilities"]
+      },
+      "SitTax_MagnussonEkehammarDimensions": {
+        "type": "string",
+        "enum": ["positive", "negative", "passive", "social", "ambitious"]
+      },
+      "SitTax_ScheidtSchaieDimensions": {
+        "type": "string",
+        "enum": ["ease-adequacy-coping", "subjective-pleasure-aversion", "frequency-of-occurrence"]
+      },
+      "SitTax_MeyerWorkClasses": {
+        "type": "string",
+        "enum": ["bureaucratic-work-situations", "incubative-work-situations", "prosaic-work-situations", "strategic-work-situations"]
+      },
+      "SitTax_MeyerWorkDimensions": {
+        "type": "string",
+        "enum": ["maintenance-development-dimension", "formality-informality-dimension"]
+      },
+      "SitTax_MethodologicalTerms": {
+        "type": "string",
+        "enum": ["componential-stimuli", "holistic-stimuli", "lexical-hypothesis", "daily-diary-method", "post-hoc-methods", "combinative-methods", "subject-matter-experts", "ecological-validity", "fidelity-of-stimuli", "stimulus-generation", "data-collection-methods", "exploratory-analysis", "confirmatory-analysis"]
+      },
+      "SitTax_TheoreticalFrameworks": {
+        "type": "string",
+        "enum": ["person-situation-interaction", "behavior-environment-congruence", "situational-construal", "environmental-psychology", "individual-differences", "personality-traits", "behavioral-prediction", "causal-effects", "main-effects", "interactive-effects"]
+      },
+      "SitTax_AssessmentConcepts": {
+        "type": "string",
+        "enum": ["situational-sampling", "situational-criteria", "situational-measurement", "situational-evaluation", "situational-rating", "situational-interpretation", "situational-experience"]
+      },
+      "SitTax_StructuralConcepts": {
+        "type": "string",
+        "enum": ["hierarchical-structure", "nested-categories", "cross-category-heterogeneity", "within-class-homogeneity", "taxonomic-levels", "broad-categories", "specific-types", "subordinate-classes", "superordinate-categories"]
+      },
+      "SitTax_CulturalContextual": {
+        "type": "string",
+        "enum": ["weird-populations", "cultural-context", "domain-specificity", "generalizability", "cross-cultural-validity"]
+      },
+      "SitTax_Relationships": {
+        "type": "string",
+        "enum": ["classifies", "measures", "influences", "interacts-with", "validates"]
+      }
+    }
+  }

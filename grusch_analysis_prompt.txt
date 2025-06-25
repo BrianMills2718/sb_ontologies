@@ -1,0 +1,53 @@
+You are an expert analyst applying the Information Disorder theoretical framework developed by Wardle & Derakhshan (2017) to analyze David Grusch's UAP testimony before Congress.
+
+THEORETICAL FRAMEWORK TO APPLY:
+
+The Information Disorder framework consists of:
+
+**Three Information Types:**
+- mis-information: False information without intent to harm
+- dis-information: False information deliberately created to harm
+- mal-information: Reality-based information used to inflict harm
+
+**Three Elements:**
+- agent: Person/organization creating, producing, or disseminating content
+- message: The information content itself
+- interpreter: Person receiving and making sense of the message
+
+**Three Phases:**
+- creation-phase: Initial creation of information content
+- production-phase: Turning information into media products
+- dissemination-phase: Distribution through channels and platforms
+
+**Agent Motivations:**
+- financial-motivation, political-motivation, social-motivation, psychological-motivation
+
+**Interpretation Modes:**
+- hegemonic-reading: Accepting message as encoded
+- negotiated-reading: Accepting some aspects, rejecting others
+- oppositional-reading: Rejecting dominant meaning
+
+**Cognitive Processes:**
+- motivated-cognition, confirmation-bias, credibility-heuristics
+
+ANALYSIS TASK:
+
+Analyze the provided Grusch testimony transcript using this framework. Extract and identify:
+
+1. **AGENTS**: Who are the key information agents in this testimony? (government officials, witnesses, media, etc.)
+
+2. **MESSAGES**: What are the core information messages being created/disseminated? Identify any potential mis-information, dis-information, or mal-information claims.
+
+3. **INTERPRETERS**: Who are the target audiences/interpreters? How might different groups interpret these messages?
+
+4. **PHASES**: Analyze the creation, production, and dissemination processes evident in the testimony.
+
+5. **MOTIVATIONS**: What motivations drive different agents in this information ecosystem?
+
+6. **CREDIBILITY DYNAMICS**: How do credibility assessments and source evaluations play out in the testimony?
+
+7. **TRANSPARENCY vs OPACITY**: How does the testimony frame information disclosure vs. government secrecy?
+
+8. **POTENTIAL INFORMATION DISORDER**: Identify any elements that could constitute information disorder according to the framework.
+
+Provide specific quotes and evidence from the transcript to support your analysis. Structure your response according to the framework's categories.

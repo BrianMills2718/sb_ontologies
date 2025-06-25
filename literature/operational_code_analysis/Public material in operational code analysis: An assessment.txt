@@ -1,0 +1,935 @@
+Public material in operational code analysis: An
+assessment
+Bachelor Thesis International Relations and Organisations
+Faculty of Social and Behavioral Sciences
+Emma Hulsbus
+S1628429
+Supervisor: F.E. Bakker
+Words: 8414
+Date: 17-6-2019
+1
+Introduction
+International leaders communicate in a myriad of ways. They give speeches, interviews, hold
+press conferences, write letters and participate in meetings. It is not surprising that this
+abundance of verbal material has functioned as the way in which international leaders are
+studied (Dyson, 2001; Dyson, 2010; He & Feng, 2013; Marfleet, 2000).
+Operational code analysis is one of the methods developed to assess international
+leaders (George, 1969; Walker, Schafer & Young, 1998; Walker & Schafer, 2006). Leaders’
+verbal communication is used to infer their beliefs on the international system (Walker &
+Schafer, 2006, p.26). The beliefs of international leaders indicate how the leader views the
+international system (George, 1969, p.197). For example, does the leader think that conflict is
+an inherent feature of that system? Moreover, what is the best means to obtain one’s goals
+internationally? The key assumption behind the method is that what leaders say and how they
+say it, is indicative of what they believe (Walker & Schafer, 2006, p.26). How often certain
+words or phrases are used in their communication on foreign policy issues indicates how the
+actor thinks about the international system. Thus, it is assumed that verbal material represents
+the psychological content of international leaders (Walker & Schafer, 2006, p.26).
+However, questions have been asked about the use of public material in operational
+code analysis, since what leaders say in public may not match what they say in private
+(Dyson & Raleigh, 2014; Renshon, 2009). For example, if an actor uses a public speech act
+to control their public image, will this affect the operational code (Renshon, 2009, p.652)?
+Moreover, if public speech is used by international leaders to deceive the public, how will the
+deceit affect the actor’s operational code (Dyson & Raleigh, p.2; Renshon, 2009, p.658)?
+Due to the lack of private material, like transcripts of government meetings with
+advisors or letters, many studies in the body of literature on the operational code have made
+use of international leaders’ public material (Feng, 2005; He & Feng, 2013; Özdamar &
+2
+Canbolat, 2017; Robison, 2006). However, the validity of public material in operational code
+analysis remains difficult to assess due to the lack of private material. The use of public
+material should be evaluated for the international leaders where enough private material is
+available. This thesis aims to assess the use of public material by comparing the public
+material of Margaret Thatcher with her private material to see whether significant differences
+occur between the public and private operational codes. The following research question will
+be answered:
+What is the effect of using public material on an actor’s operational code?
+Theoretical framework
+Why is it important to understand the role of international leaders in international relations?
+Accurate knowledge of international leaders and their role within international relations is
+necessary in order to explain real-world political events better.
+The role of individual leaders in international relations has often been overlooked by
+grand theories. In neorealism, for example, the anarchic nature of the international system has
+been emphasized (Waltz, 1979). Due to anarchy in the international system, security is the
+main goal of states. Since foreign policy is aimed at maximizing security, states’ foreign
+policy options are constrained. It is assumed that there is no role for individual capabilities
+since the leader will always act in a way that maximizes security (Waltz, 1979, p.65).
+Moreover, in constructivism, the most important factor in international politics is not
+anarchy, but the culture of a state. How a state deals with anarchy in the international system
+is determined by its political and institutional culture, and not by the capabilities of an
+individual leader (Wendt, 1992).
+3
+However, some scholars have pointed out that although these approaches were more
+accurate in explaining the behavior of states during the cold war, the international system has
+changed significantly since then (Hermann & Hagan, 1988, p.125; Walker & Schafer, 2006,
+p.4). The international system is increasingly more complex and interdependent, caused by
+the rise of new major international players, the increased influence of international
+organizations and increasing globalization of market economies. In turn, the increased
+complexity has paved the way for interpretation, innovation, misunderstanding and
+miscommunication in the international system, which increases the role of international
+leaders (Hermann & Hagan, 1988, p.125). International leaders are the decision-makers in
+this system, and their individual capabilities influence international events (Byman &
+Pollack, 2001). Thus, it is important to assess when and how international leaders influence
+international affairs.
+If an actor-centric approach is continuously left out of international relations, it will
+become more and more difficult to explain international events properly. Since international
+relations is grounded in individual and group decision-making, which are social and
+psychological processes, it is extremely important to develop approaches that grasp these
+processes, and the role of political leaders within these processes (Hudson, 2005, p.1). In
+order for international relations to not fail as a discipline, actor-centered theories that grasp
+the social and psychological processes behind individual and group decision-making must be
+developed (Hudson, 2005). By looking at international events through a domestic lens, we
+will be able to grasp how the international system is influenced by local considerations,
+which, in turn, enables us to explain international political events more accurately (Bueno De
+Mesquita, 2002, p.7). Thus, it is important that the methods developed to grasp the role of
+international leaders can contribute to our understanding of international affairs.
+4
+The operational code has been used to explain foreign policy decisions by leaders
+(Dyson, 2010; He & Feng, 2013; Schafer & Walker, 2006). The fundamental assumption
+behind the method is that the verbal communication of international leaders is representative
+of their psychological content (Walker & Schafer, 2006, p. 26). Verbal communication
+allows us to infer the beliefs of leaders. Consequently, those beliefs can be used to explain
+foreign policy decisions of international leaders.
+Some scholars have raised questions about the use of public material in operational
+code (Dyson & Raleigh, 2014; Renshon, 2009; Schafer, 2000). International leaders’ public
+speech may not match their private speech. For example, leaders might use public speech in
+order to employ impression management tactics (Renshon, 2009, p.652). Impression
+management refers to attempts to control one’s public image (Tetlock & Manstead, 1985,
+p.62). Moreover, leaders may use public speech acts to deceive the public. In short, public
+speech may be used for strategic purposes.
+If it is the case that public speech is used for strategic purposes, then it might be that
+public material is not helpful in assessing the beliefs of international leaders (Dyson &
+Raleigh, 2014, p.2; Schafer, 2000, p.514; Tetlock & Manstead, 1985). In turn, the operational
+code’s ability to explain foreign policy decisions would be affected, since it would be
+uncertain which type of material is better suited for operational code analysis. The
+contribution of operational code analysis towards our understanding of the role of the beliefs
+of international leaders would be limited if it is uncertain which type of material better grasps
+an actor’s operational code.
+Moreover, due to the limited availability of private material of international leaders,
+operational code analysis has depended on public material (He & Feng, 2013; Feng, 2005;
+Özdamar & Canbolat, 2017; Robison, 2006). Past contributions of operational code towards
+5
+the knowledge of international leaders would be called into question if public material turned
+out to be invalid.
+Consequently, it is important that the use of public material in operational code
+analysis is evaluated. The question of whether public material is valid in operational code
+analysis ultimately remains an empirical question (Dyson & Raleigh, 2014, p.2), since the use
+of public material can only be evaluated by comparing public speech acts with private speech
+acts in order to assess whether significant differences occur. This thesis will compare
+Margaret Thatcher’s public speech acts with her private speech acts in order to evaluate the
+use of different material will result in significantly different operational codes.
+Private material does not represent the ‘true’ beliefs of international leaders. It is still
+possible that leaders use private material for strategic purposes (Dyson & Raleigh, 2014, p.6).
+Leaders can still control their social image towards their advisors or colleagues or deceive
+colleagues. If one would want obtain the true beliefs of international leaders, then intimate
+material might be the best material to infer these beliefs from (Dyson & Raleigh, 2014, p.6).
+Examples of intimate material are autobiographical material, letters to close family and
+friends and diary entries.
+However, since the operational code is aimed at explaining foreign policy decisions
+and international events (Walker & Schafer, 2006, p.4), I think it is not as relevant to look at
+intimate material since it does not reflect the international leader within their role as leader.
+Ultimately, foreign policy decisions are made by international leaders in their role as leader.
+In this thesis, public material will refer to verbal communication of leaders that is
+expressed in public and are publicly accessible, such as speeches, press conferences and
+interviews. Public material is spoken or written by leaders from their role as leaders, not as
+private individual. Examples of public material are speeches, interviews and press
+conferences.
+6
+Private material refers to material that was not publicly accessible at the time and are
+characterized as behind-the-scenes material. Since this thesis aims to assess the public
+material of international leaders in their role as leaders, and not as leaders as private
+individuals, the private material will not refer to diaries or personal letters. Examples of
+private material are letters sent as leader, transcripts of meetings with advisors, government
+officials and aides, and transcripts from telephone calls. With this operationalization, earlier
+research on the use of public material in operational code analysis is followed (Renshon,
+2009; Dyson & Raleigh, 2014).
+The operational code assesses the belief system of an actor about the fundamental nature of
+the international system (George, 1969, p.197). For example, what does an actor believe
+about conflict in the international system? Does the actor think that conflict is inherent in the
+international system? Moreover, what does the actor believe is the best strategy to realize his
+political goals?
+The beliefs of leaders are important when attempting to understand foreign affairs
+better, since a beliefs system guides an actor’s decision-making (Holsti, 1962, p.244). On the
+one hand, the belief system contains the actor’s perceptions of reality, and on the other hand,
+the belief system contains the actor’s values, his ideas of what should be (Holsti, 1962,
+p.245). The combination of these two parts of the belief system guides the actor’s decision-
+making (p.245). Thus, what happens in international relations is based on how international
+leaders view other states and the international system (George, 1969, p.190). Consequently, it
+is relevant to look at the belief systems of international leaders, since it can explain foreign
+policy decisions by international leaders and increase our understanding of their decision-
+making (Walker & Schafer, 2006, p.48).
+7
+However, the belief system of an actor is not the only determinant in decision-
+making. It would be an oversimplification of international relations to state that an actor’s
+belief system is the only relevant factor in decision-making. Many factors are at play
+simultaneously, and an actor’s belief system is one of those factors (Dyson & Raleigh, 2014,
+p.6; Schafer, 2000, p.513). Although the operational code provides insight on how the actor
+in question might approach a political problem, it does not provide a fixed rulebook for how
+an actor will act (George, 1969, p.190).
+George (1969) formulated 10 questions whose answers reflect an actor’s belief
+system. The beliefs can be found in table 1. George’s questions are divided in philosophical
+beliefs and instrumental beliefs (George, 1969, p.199). An actors’ philosophical beliefs refer
+to his assumptions about the nature of the political system, political conflict, political
+opponents, and control on the course of events (Walker & Schafer, 2006, p.4). The
+instrumental beliefs reflect the beliefs the actor has about instruments and tools at hand, and
+the best course of action to obtain one’s goals (Walker & Schafer, 2006, p.4)
+The answers to these questions are attained by analyzing the verbal communication of
+an actor (Walker & Schafer, 2006, p.26). Consequently, the operational code is an at-a-
+distance method since it does not rely on direct or experimental psychological tests, but rather
+on indirect data to analyze its subjects (Schafer, 2013, p.1).
+There are a number of reasons why at-a-distance methodology is necessary to analyze
+political leaders. First, international leaders are not directly accessible test-subjects due to
+their busy schedules and wariness of clinical poking (Hafner-Burton, Hughes & Victor, 2013,
+p. 368; Schafer, 2013, p.3). However, international leaders speak in public in a variety of
+ways, which makes the data for the analysis of political leaders easily obtainable
+8
+Table 1: The Philosophical Beliefs in an Operational Code
+P-1. What is the “essential” nature of political life? Is the political universe essentially one of
+harmony or of conflict? What is the fundamental character of one’s political opponents?
+P-2. What are the prospects for the eventual realization of one’s fundamental values and
+aspirations? Can one be optimistic, or must one be pessimistic on this score; and in what
+respects the one and/or the other?
+P-3. Is the political future predictable? In what sense and to what extent?
+P-4. How much “control” or “mastery” can one have over historical development? What is
+one’s role in “moving” or “shaping” history in the desired direction
+P-5. What is the role of “chance” in human affairs and in historical development?
+The Instrumental Beliefs in an Operational Code
+I-1. What is the best approach for selecting goals or objectives for political action?
+I-2. How are the goals of action pursued most effectively?
+I-3. How are the risks of political action calculated, controlled and accepted?
+I-4. What is the best “timing” of action to advance one’s interests?
+I-5. What is the utility and role of different means for advancing one’s interests?
+Table 1. Source: Walker & Schafer (2006, p.8)
+Secondly, verbal behavior serves as a good basis for inferring psychological content, since
+the way an individual speaks tells us something about his or her state of mind (Schafer, 2013,
+p.3). Thirdly, verbal behavior allows for systematic content analysis. Researches may look
+for certain patters of words that allow for the inferring of psychological content. How often
+certain words are used and what kind of connotations those words carry tells us about the
+subject’s state of mind (Walker & Schafer, 2006, p.26).
+Thus, the key assumption behind the operational code is that psychological content
+can be inferred from verbal behavior (Walker & Schafer, 2006, p.26). How a leader speaks
+about a certain foreign policy issue or political opponent is indicative of their beliefs about
+that issue or opponent (p.26). Consequently, by analyzing the content of verbal
+communication like speeches, interviews, press conferences or letters, the beliefs of leaders
+can be inferred. All sorts of verbal communications can be used for operational code analysis,
+9
+like speeches, interviews, press conferences, and letters. However, in order for the
+operational code to be representative of the beliefs of the actor’s beliefs on the international
+system, all material must be on the subject of foreign policy (Walker & Schafer, 2006, p.44).
+In contemporary operational code analysis, the Verbs in Context System (VICS) is
+used to attain the beliefs of international leaders from verbal communication (Feng, 2005;
+Walker, Schafer & Young, 1998; Yang, Keller & Molnar, 2017). VICS is a content analysis
+scheme that provides quantitative variables for each philosophical and instrumental belief by
+analyzing the verbs and their context (Walker, Schafer & Young, 1998). For example, the
+verbs praise signifies a different message about state action than attack. Variables for each
+belief are attained based on aggregated coded verbs. How high or low a leader scores on the
+index for each belief, is indicative of their beliefs about the international system. A complete
+overview of the beliefs and corresponding index can be found in appendix A.
+The resulting quantitative variables enable political scientists to make useful
+comparisons across time, countries, political system, belief change of an actor and determine
+the effects of different types of material (Renshon, 2008; Renshon, 2009; Walker & Schafer,
+2006, p.27; Schafer, 2013, p.2).
+Not every speech act is suitable for analysis. Walker & Schafer (2006) have
+formulated a few criteria that speech acts must meet in order to be useful in operational code
+analysis. First, the subject of speech acts must be on foreign policy in order to obtain the
+beliefs of international leaders (Walker & Schafer, 2006, p.44). Secondly, the speech acts
+must contain 20 codable verbs in order for the speech act to produce meaningful values for
+each belief (p.44). Third, the speech act must be verbal communication from the leader
+himself. All verbal communication must be spoken or written by the actor in question
+(Walker & Schafer, 2006, p.46).
+10
+One might argue that my operationalization of public material does include ‘prepared’
+material, which has not been written by the actor itself, but rather by speech writers. Using
+prepared materials would be at odds with Walker & Schafer’s (2006) requirement that the
+leader himself is the author of the material used (p.46). Prepared material might affect the
+operational code, since not all material will represent the psychological content of Margaret
+Thatcher, but rather her speechwriters (Schafer & Crichlow, 2000; Walker & Schafer, 2006,
+p.47). Consequently, if any significant differences between public and private material are
+found, it is possible that that differences occurred because prepared material has affected the
+operational code. Due to the inclusion of prepared material, the public operational code will
+not grasp Thatcher’s psychological content and cannot be accurately compared with a private
+operational code.
+However, I do not think that using prepared materials is a problem in the case of
+Margaret Thatcher. Thatcher herself was heavily involved in the writing of her speeches.
+John ‘O Sullivan, her speech writer during her time in office, stated that Thatcher would
+comment on every single draft of the speech. Usually about five drafts would be drawn up
+before the final Thatcher speech was ready because she would meticulously analyze every
+sentence of the speech (‘O Sullivan, 2013). In Thatcher’s case, the use of speech writers
+would not affect the prepared material of Margaret Thatcher, since she was heavily involved
+in the process itself. The speeches can be said to represent her psychological content (Dille,
+2000, p.538).
+In the past, two studies have assessed the use of public material in operational code analysis
+by comparing public with private material.
+Renshon (2009) assessed the use of public material in operational code analysis by
+comparing public and private material of John F. Kennedy. Renshon’s rationale for
+11
+investigating the use of public material was the problem posed by impression management
+(p.652). Impression management is a strategy employed by an actor to influence their public
+image (Tetlock & Manstead, 1985). If verbal communication is used for strategic purposes
+like impression management, then the material might not be useful for assessing the
+psychological characteristics of leaders (Tetlock & Manstead, 1985). With public material,
+Renshon referred to a collection of speeches and opening remarks of news conferences, while
+the private material consisted of transcripts of policy meetings with advisors (p.655).
+The sample frame for public and private material was limited to material from June 1
+to September 1, 1962 (Renshon, 2009, p.655). The motivation for this choice was to remove
+‘potentially confounding elements’ from the data (p.652). Potentially confounding elements
+are elements that result in a larger divergence from public and private material than normal
+(p.652). For example, using public data from different time frame than the private data, or
+using material from crisis situations, since Renshon assumed that public and private material
+differ in those situations. Thus, Renshon selected a sample frame where no crises occurred
+(p.655). The public side of the data had a sample size of 6, and the private side of the data
+had a sample size of 4 (p.657).
+After the material was collected, Renshon (2009) used the VICS content analysis
+system to analyze both the public and private material (p.654). The coding process was
+carried out by the ProfilerPlus website (profilerplus.org), an automated content analysis
+software. The resulting public and private operational codes were compared with a two-tailed
+Student’s t-Test (p.657).
+Renshon (2009) concluded that both the private and public operational code give very
+similar beliefs for president Kennedy (p.657). Both operational codes indicate that Kennedy
+is optimistic about the nature of the international system and optimistic about realizing his
+political goals. Moreover, Kennedy displays low confidence in the predictability of
+12
+international events, and believes he has low control over international events. Cooperation is
+Kenney’s preferred strategy. Furthremore, Kennedy displayed a low tolerance for risk.
+Additionally, he displayed a medium level of flexibility in shifting between cooperation and
+conflict and between words and deeds (p. 657). Statistical analysis did not show significant
+differences for any belief at p < .05 (p. 657). Only one belief, P-3, is statistically significant at
+p < .1. Kennedy displayed a very low predictability of the political future in public, and a low
+predictability in private (p.656).
+Renshon (2009) concludes that the operational codes are strikingly similar in both
+public and private contexts, which provides some conformation of the validity of the use of
+public material in operational code analysis (p.658). The small but significant belief change
+in philosophical belief P-3 is dismissed due to its small magnitude and significance of p < .1.
+These findings enable scholars working within the method of operational code analysis to
+proceed with greater confidence in the method (p.658). Furthermore, Renshon suggests that
+further research is needed to assess whether his findings hold in crisis situations and times of
+war (p.658).
+However, Renshon’s (2009) study is not without problems. First, what Renshon
+means by crisis situation is unclear. Consequently, it is uncertain under what conditions his
+conclusions about the use of public speech hold up. What constitutes a crisis event? How
+should these crisis situations be taken into account when selecting data for operational code
+analysis?
+Secondly, Renshon’s (2009, p.652) exclusion of ‘potentially confounding elements’
+from the public data by selecting a small sample frame, free of crisis situations, makes his
+findings hard to generalize. Various studies within operational code analysis often include
+material from larger time periods than Renshon’s three months. For example, the sample
+frames are often longer than a year (Dyson & Raleigh, 2014; Özdamar & Canbolat, 2017;
+13
+Schafer & Crichlow, 2000; Walker, Schafer & Young, 1998). It is plausible that in these
+sample frame’s, events have been included that Renshon would have defined as a crisis
+situation. How does the use of public material affect the operational code of an actor when
+such events are included? Although Renshon himself argues that his findings assert the
+validity of the use of public speech in operational code analysis (p.658), it remains unclear
+how public speech affects an actor’s operational code when a larger sample frame is included
+and when crisis situation have occurred in the sample frame.
+In addition, Dyson & Raleigh (2014) have looked into the validity of the use of public
+material in at-a-distance methods. If public speech is manipulative and strategic, and if
+leaders’ decisions are driven by the private sphere, is public material of value (p.2)? Dyson &
+Raleigh asked the question whether the public speech acts of dictators of closed regimes were
+representative of their beliefs by looking at the public and private speech acts of Saddam
+Hussein. The issue of whether we can trust what dictators say has always been subject of
+discussion, since closed regimes offer us little information on private deliberations (p.2).
+Dyson & Raleigh (2014) used both the Leadership Trait Analysis (LTA) by Margaret
+Hermann (1980, 2005) and the operational code to test whether private beliefs could be
+inferred from public material. LTA is an at-a-distance method designed to measure the
+personality traits of international leaders (Hermann, 1980, 2005). However, Dyson & Raleigh
+did not use both methods strictly, but adopted key variables from both methods that were
+proven to be useful in explaining foreign policy behavior (p.3). From the operational code,
+three variables were adopted: image of other (P-1), image of self (I-1), and belief in ability to
+control events (P-4). From the LTA, Dyson & Raleigh adopted the variable conceptual
+complexity, which refers to the sophistication of an actor’s cognition (p.3).
+For public material, the study used Hussein’s speeches on international relations,
+ranging from 1977 to 2000. These speeches have resulted in 330,000 words included in
+14
+analysis. (Dyson & Raleigh, 2014, p.3). The private material of Saddam Hussein were
+transcripts of his conversations and phone calls with advisors, also ranging from the years
+1977 to 2000. Around 58.000 words of private material was collected. Public and private
+material was translated into English, and relates to various foreign policy issues (p.3).
+After the data was collected, the indices for each variable were calculated using the
+automatic content analysis software provided by the ProfilerPlus website (profilerplus.org).
+Dyson & Raleigh (2014) distinguished between Saddam’s worldview overall, which included
+material on all various foreign policy issues, and specific views on the US, Iran and Israel.
+The public and private scores were thus compared in four categories: Saddam’s general
+worldview, views towards the US, towards Israel, and towards Iran (p.4).
+Overall, Dyson & Raleigh (2014) conclude that the private and public scores for each
+variable show a similar actor, except for conceptual complexity (p. 5). In public, Saddam
+displayed significantly less conceptual complexity than in private. However, in public and in
+private Saddam showed the same image of other. Saddam’s image of self did differ a little in
+public (0.35) compared to private data (0.26), as was the case with the control over historical
+events, with a score of 0.64 in public and 0.55 in private (p.5).
+Saddam’s traits concerning the US, Iran and Israel show differences between public
+and private data. The beliefs are similar to Saddam’s overall views, but in private he
+perceived a lower ability to influence events towards Israel than he displayed in public.
+Moreover, he described the US as more hostile in public than in private, and displayed much
+higher conceptual complexity in public than in private. Moreover, when talking about the US,
+he portrayed Iraq’s actions as much less hostile than in private. Dyson & Raleigh conclude
+that these differences point to impression management tactics (p.4).
+According to Dyson & Raleigh, the results contribute towards the validity of the use
+of public material in operational code analysis. The beliefs revealed in public material match
+15
+those expressed in private (p.5). However, the study offers some evidence for the existence of
+impression management due to the difference in conceptual complexity in private and public
+and differences on specific foreign policy issues (p.6).
+However, the conclusions of Dyson & Raleigh (2014) are only applicable to three
+operational code beliefs. Not all operational code beliefs have been measured in this study.
+Instead, three key variables have been used by Dyson & Raleigh (2014, p.3). However, it is
+possible that significant differences could have occurred in the beliefs that have not been
+measured. Knowing whether these differences have occurred or not is important in assessing
+the validity of public material in operational code analysis. Consequently, he study does not
+contribute entirely to the validity of public material in operational code analysis.
+Moreover, it is debatable whether Dyson & Raleigh’s (2014) positive conclusions are
+warranted. Out of the 16 possible categories where public and private material could have
+diverted, five categories displayed significant differences (p.5-6). Dyson & Raleigh (2014)
+argue that the differences found in Saddam’s views towards the US, Isreal and Iran are not
+completely different from Saddam’s general worldview. The beliefs remain in the same
+categories, and differ only in degree. However, most of the differences are of a large degree.
+For example, Saddam’s image of self towards the US is measured at 0.05 in private and 0.4
+in public. Moreover, Saddam’s conceptual complexity in his views towards the US is
+measured at 0.45 in public, and at 0.65 in private. These findings also suggest that private
+material may be better suited for operational code analysis.
+The body of literature on public and private material of international leaders has its
+limitations. Although Renshon (2009) has contributed to the validity of pubic material, it
+remains unclear how the inclusions of material on crisis situations affects an actor’s
+operational code. Moreover, Dyson & Raleigh (2014) have not looked into the use of public
+16
+material for all operational code beliefs. Consequently, the limited body of literature on the
+use of public material in operational code analysis emphasizes the need for further research
+into this issue. In turn, the importance of this thesis’ research question is underlined.
+Theoretical expectations
+I do not expect to find significant differences between Thatcher’s public and private
+operational codes.
+First, Walker & Schafer (2006) have argued that, although leaders are deceptive in
+certain speech acts, it would not skew the resulting operational code (p.47). I concur with
+Walker & Schafer’s view. If a leader is intentionally deceptive in their speech acts, the actor
+would only need to change a few verbs in order to change the perception of the public (p.47).
+The few verbs that would be changed by the international leader would not result in changes
+in the operational code, since the operational code is based on a much greater number of
+utterances. Many of those utterances are unaffected by impression management or deception,
+and would not influence the VICS analysis. Deception or impression management would not
+affect our ability to infer beliefs of leaders drawing from public material (Walker & Schafer,
+2006, p.47).
+Moreover, Walker & Schafer (2006) point towards the ‘locking-in’ effect of public
+speech (p.47). International leaders are constrained by their public speech, because they can
+be accused of lying if their actions do not match their speech. Thus, international leaders’
+public behavior is constrained by their public image (Walker & Schafer, 2006, p.47). Their
+public actions will match their beliefs (Renshon, 2009, p.652).
+17
+Moreover, Renshon (2009) has contributed somewhat to the validity of the use of
+public material in operational code analysis. He found that Kennedy’s public and private
+image were strikingly similar in both the public and private context.
+Methodology
+In order to assess the validity of the use of public material in operational code analysis, a
+comparison must be made between an operational code based on public material and one
+based on private material. For both the public and private operational code, the selected
+material will be analyzed by applicating the VICS content analysis scheme. The operational
+codes will be compared by means of an independent samples t-test.
+The difficulty in assessing the use of public material is the limited availability of
+private material of international leaders, like transcripts of meetings with advisors, letters or
+other types of communication with colleagues or aides. This type of behind-the-scenes
+material is oftentimes not released until years after the fact, if it is released at all (Renshon,
+2009, p.652). However, there are some leaders where this type of material has been made
+available. One example is Margaret Thatcher, Britain’s prime minister from 1979 – 1990.
+The British government keeps extensive records of all forms of communication within the
+government. Moreover, Margaret Thatcher kept records of all files that passed her desk
+during her premiership. Every year, declassified documents are released to the public and
+transferred to various national archives.
+The Margaret Thatcher archive (www.margaretthatcher.org/archive) has collected all
+documents related to Margaret Thatcher and has published them online. The Margaret
+Thatcher archive contains a vast collection of declassified government files during Thatcher’s
+time in office, including letters sent to her international colleagues, transcripts of phone calls
+18
+with her colleagues, notes of meetings with advisors and policy documents. Moreover, the
+archive has collected all of Thatcher’s public statements, like speeches, interviews and press
+conferences. The Margaret Thatcher archive offers an enormous source of material that can
+be the subject of operational code analysis. Consequently, the readily available public and
+private material assures that Thatcher is an interesting subject of analysis to assess the
+validity of the use of public material in operational code analysis.
+This thesis aims to construct a general operational code of Margaret Thatcher on both
+the public and private side. Thus, no distinction will be made between the various foreign
+policy issues that marked Thatcher’s time in office. All speech acts, whether it be on
+East/West relations, the invasion of Afghanistan, the negotiation of Hong Kong or apartheid
+in South-Africa, will be included in public or private material.
+The Margaret Thatcher archive contains an immense amount of her public speech acts. It was
+not within the scope of this thesis to include each suitable speech act in analysis. Instead, a
+suitable selection was made of public material from the Margaret Thatcher archive.
+For each entry in the archive, the various topics of each speech acts are marked up.
+This proved very useful when searching the archive, since speech acts on foreign policy
+could be found easily. All public speech acts from Thatcher’s time in office on foreign policy
+could be found by using the search function of the archive. The following search command
+was entered in the archive’s search function:
+- Time period: ‘1979 – 90: Prime Minister’
+- Source type: ‘Speeches’ and ‘Press’
+- Subject: ‘Foreign Policy (general discussion)’
+The search command resulted in nearly 300 speech acts, far too much for all of them to be
+included in analysis. Consequently, two speech acts per year were chosen, one from June 15th
+19
+and one from December 15th. Maintaining an interval of six months between data points
+guarantees that a foreign policy issue that dominated one particular point in time does not
+disproportionally affect the operational code. Moreover, the selection of speech acts by their
+date ensures that the speech acts are chosen randomly, which excludes the possibility of bias
+in the data.
+However, some speech act from these dates were not suitable for analysis since the
+criterion of length were not met (Walker & Schafer, 2006, p.44). Moreover, not every June
+15th and December 15th resulted in a speech act. If there was no speech act of that date, or the
+speech act was not suitable, a suitable speech act from the nearest date was selected.
+A complete overview of used public material can be found in appendix B.
+On the private side, collecting the data was not as straightforward. First, the archive was
+browsed to orientate on the available types of private material on foreign policy.
+Overall, notes of government meetings were not suitable for analysis. The British
+government did not make transcripts of meetings, but took minutes of what was said. The
+comments of Margaret Thatcher were summarized, and did not represent what she actually
+said in the meeting. Thus, government notes were excluded from analysis, since it did not
+meet Walker & Schafer’s (2006) requirement of authorship (p.46).
+However, a valuable source of material proved to be her correspondence with other
+heads of state. The correspondence was often in the form of letters, telegrams and transcripts
+of phone calls. Especially her written correspondence with President Carter and Reagan
+proved useful. These letters covered various foreign policy issues and often contained enough
+codable verbs to meet the cut-off point of 20 coded verbs (Walker & Schafer, 2006, p.44).
+Moreover, some private speeches were found in the archive that were given at private
+government meetings by Thatcher that were suitable for analysis due to them being delivered
+20
+behind the scenes. Thus, the private material contains letters, telegrams and transcripts of
+phone calls, and speeches at private government events. The following search command was
+used to find these speech acts:
+- Time period: ‘1979 – 90: Prime Minister’
+- Source type: ‘Archive’
+- Subject: ‘Foreign Policy (general discussion)’
+- Key words: ‘MT letter’, ‘telegram’, ‘phone call’, ‘speech’
+After discarding the speech acts that did not contain 20 coded verbs, 23 private speech acts
+were selected. A complete overview of private material can be found in appendix B.
+Both the public and private sides covered enough different foreign policy issues to be
+able to make a general operational code of Thatcher’s beliefs.
+After all the material was selected, the content analysis was carried out by applicating the
+VICS coding scheme. The scheme assesses the intensity and direction of the spoken verbs
+(Walker, Schafer & Young, 1998, p.183). For example, when a leader says ‘Russia invaded
+Ukraine’ or ‘we praise Russia for its intervention in Ukraine’, the verbs invade and praise
+signify very different messages about the state. Each verb can be coded on the following
+scale: Punish (-3), Threaten (-2), Oppose (-1), Support (+1), Promise (+2), and Reward (+3).
+In addition, the verbs are coded for direction, i.e. the actor is talking about themselves or the
+other (p.183). Consequently, each sentence can be scored for intensity and direction, resulting
+in a score of, for example, -3 other or +3 self.
+Based on these coded verbs, the variables for each belief can be calculated (Walker,
+Schafer & Young, 1998). Each belief is calculated differently, but an example is useful. For
+belief P-1, the corresponding variable can be calculated by detracting the percentage of
+negative other attributions from the percentage of positive other attributions (Walker, Schafer
+21
+& Young, 1998, p. 178). For some beliefs, the index ranges from 0 to 1, while for others, the
+index ranges from -1 to +1. A complete overview of the index for each belief can be found in
+appendix A.
+ProfilerPlus v. 7.3.2 (https://profilerplus.org) is used to analyze both the public and
+private phase. ProfilerPlus is an automatic coding program that applies the content analysis
+scheme to the data. ProfilerPlus analyzes the verbs for direction and intensity. The indices for
+each belief are calculated on the basis of the ProfilerPlus output as prescribed by Walker,
+Schafer & Young (1998). The indices are compared on the basis of an independent samples t-
+test. A students t-test is used. If Levene’s test indicates violated test assumptions, a Welch t-
+test is used instead.
+Analysis
+How does using public material affect an actor’s operational code? Table 2 shows the results
+from statistical analysis. The left column displays Thatcher’s operational code based on
+public material, and the right column indicates the operational code based on private material,
+with t-statistics in brackets. Statistically significant differences are highlighted.
+Whether public or private material was utilized did not result in a significant
+difference in most philosophical beliefs. Both operational codes convey Thatcher’s belief that
+the political universe is somewhat friendly (P-1). Moreover, both operational codes show
+Thatcher’s somewhat optimistic attitude towards the realization of political values (P-2), the
+low control over historical development (P-4) and the high role of chance in the political
+universe (P-5).
+22
+Table 2: Operational Code of Margaret Thatcher
+Public material
+(N=22)
+Private material
+(N=23)
+P-1 Nature of Political Universe .287 .326
+(.509)
+P-2 Realization of Political
+Values
+.133 .124
+(-.145)
+P-3 Predictability of Political
+Future
+.124 .171
+(2.447)*
+P-4 Control over Historical
+Development
+.250 .279
+(.915)
+P-5 Role of Chance .959 .953
+(-.585)
+I-1 Strategic Approach to Goals .619 .682
+(.677)
+I-2 Tactical Pursuit of Goals .261 .280
+(.336)
+I-3 Risk Orientation .360 .523
+(2.228)*
+I-4 Timing of Action
+I-4a Cooperation/Conflict .850 .802
+(-1.255)
+I-4b Words/Deeds .871 .801
+(-2.188)*
+I-5 Utility of Means
+I-5a Reward .169 .112
+(-1.585)
+I-5b Promise .008 .036
+(2.220)*
+I-5c Appeal .633 .694
+(1.068)
+I-5d Oppose .100 .097
+(-.025)
+I-5e Threaten .007 .017
+(.868)
+I-5f Punish .088 .0.043
+(-1.640)
+T-statistics are indicated in brackets. Significant results are bold: * p ≤ .05, **p ≤ .01, *** p
+≤ .001
+23
+However, a significant difference can be found in Thatcher’s belief in the
+predictability of the political future (P-3). In private material, Thatcher conveys a higher
+belief in a predictable political future than in private. However, both in public and in private,
+Thatcher’s belief in the predictability of the political future is classified as low. Thus, the
+change is not of a large magnitude.
+As for the instrumental beliefs, both operational codes display her cooperative
+strategies (I-1), her somewhat cooperative intensity of tactics (I-2), and her high flexibility
+between employing cooperative and conflictual strategies is maintained by Thatcher (I-4a).
+However, some significant differences occurred in Thatcher’s instrumental beliefs. In
+private, Thatcher displays significantly less flexibility in shifting between verbal and
+operational tactics than in public (I-4b). Nevertheless, both indices of belief I-4b still indicate
+a high flexibility of tactics. Furthermore, Thatcher, in private, displayed a greater preference
+for utility of means ‘promise’ than in public (I-5b). However, the difference between the
+utility of means in public and private is a minimal difference. Both in public and in private,
+the preference for utility of means ‘promise’ is still classified as very low.
+However, the most striking difference between the public and private operational
+code is Thatcher’s risk orientation (I-3). In public, Thatcher has a low risk orientation, but in
+private, her risk orientation is significantly higher and is thus classified as ‘medium’.
+Discussion
+This thesis found four significant differences between the public and private operational code
+of Margaret Thatcher. Three of those changes were of a small magnitude, but Thatcher’s risk
+orientation was much lower in public than in private.
+24
+Renshon (2009) found no significant differences in Kennedy’s public and private
+operational codes, except for Kennedy’s belief in the predictability of the political future
+(p.657). That difference, however, was of a very small magnitude. According to Renshon, his
+findings contribute to the validity of using public material in operational code analysis
+(p.658). Public material can be used with confidence in operational code analysis (p.658).
+However, this thesis did find some significant differences, which indicates that when
+using a longer sample frame, public material might not always be accurate material for
+inferring the beliefs of leaders from. Especially an actor’s risk orientation may not be
+represented well in public material. The findings of this thesis do suggest that using public
+material might affect an actor’s risk orientation.
+Dyson & Raleigh (2014) conclude that their study has contributed to the validity of
+the use of public material due to the little differences in Saddam’s public and private
+worldview (p.5). When focusing on specific topics, they did find evidence of impression
+management (p.5). However, this thesis has only looked into Thatcher’s general worldview.
+In the general worldview, differences can be found between her public and private
+operational code. This indicates that beliefs of leaders cannot always be accurately inferred
+from public material, contrary to what Dyson & Raleigh (2014) themselves conclude.
+Moreover, this thesis has found some evidence for impression management due to the large
+difference between Thatcher’s public and private risk orientation, corresponding with Dyson
+& Raleigh ‘s (2014) conclusion.
+However, this thesis has not distinguished between the various different foreign
+policy topics, like Dyson & Raleigh (2014) have. Their evidence of impression management
+was mostly found when distinguishing between Saddam’s views of the US, Israel and Iran. If
+this thesis would have distinguished between Thatcher’s general worldview and, for example,
+25
+views of the Soviet-Union, more evidence for impression management might have been
+found.
+It seems that Walker & Schafer (2006) theory of the ‘locking-in’ effect of public
+speech acts is incorrect. It does seem like international leaders are not as constrained by their
+public speech acts as Walker & Schafer have argued (p.47). The difference between Thatcher
+public and private risk orientation does demonstrate that, in private, Thatcher was more
+willing to take risks than she portrayed in public. Moreover, the findings of this thesis suggest
+that Walker & Schafer’s (2006) suggestion that the strategic use of public speech act does not
+affect the VICS analysis, is not correct. It seems that when public speech acts are used for
+strategic purposes, it can affect the operational code of an actor, and sway the VICS analysis.
+However, this thesis has only looked into the differences in public and private
+material for one leader. It is plausible that, when other international leaders are studied on the
+differences between public and private material, no significant differences are found. These
+findings would implicate that the differences found in this thesis are the result of Thatcher as
+a leader, and not of private material being used strategically. Thus, further research on the
+validity of public material in operational code analysis for other international leaders should
+be conducted.
+Conclusion
+The main concern of this thesis was to evaluate the validity of the use of public material in
+operational code analysis. The analysis was carried out by comparing an operational code of
+Margaret Thatcher based on public material with one based on private material. The results
+indicate that, overall, public material does not always represent an actor’s beliefs accurately.
+Thatcher’s beliefs proved to be more difficult to grasp, since four beliefs differed
+26
+significantly when the operational code was based on private material. Although three of the
+four significant differences were of a small magnitude, Thatcher’s risk orientation in public
+was much lower than in private.
+Why is the difference between public and private material attributed to public
+material, and not private material? It is possible that actor’s engage in deception or
+impression management in private, behind-the-scenes material too (Dyson & Raleigh, 2014,
+p.6). Thus, we cannot say that an actor’s ‘true’ beliefs are reflected in either public or private
+material. However, it does seem more plausible that international leaders speak more freely
+on foreign affairs in private, with advisors and colleagues, than in public. Consequently,
+private material is most likely a closer reflection of an actor’s true beliefs than public material
+is. Thus, it is very plausible that the private material represents the beliefs of international
+leaders better, since the actor speaks more freely on matters than in public.
+The public and private operational codes of Thatcher did not show significant
+differences for most beliefs. Especially in Thatcher’s philosophical beliefs, no significant
+differences were found except for the predictability of the political future. In her instrumental
+beliefs, more significant differences were found, but most of a very small magnitude.
+However, the significance of the difference between Thatcher’s public and private risk
+orientation should not be minimized. In public, Thatcher displayed a low risk orientation, but
+in private, it seems she was far more risk orientated.
+Public speech being used strategically can serve as an explanation for the differences
+between beliefs. It is possible that Thatcher’s public speech acts were uttered for strategic
+purposes like deceit or impression management tactics. Consequently, her psychological
+content was not represented well (Tetlock & Manstead, 1985). For example, the findings
+indicate that Thatcher wanted to appear very flexible in shifting between verbal or
+operational tactics, yet risk averse and aware of the unpredictability of the international
+27
+system. In private, however, she was more risk acceptant because she believed the
+international system to be more predictable, and thus preferred verbal tactics over taking
+action. Thus, the results indicate that if public material may disproportionally affect an
+actor’s operational code due to the strategic use of public material.
+However, the body of literature on impression management tactics in politics is very
+limited. Many studies are related to the employment of impression management tactics in
+elections (De Landtsheer, de Vries & Vertessen, 2008; Jackson & Lilleker, 2011), and not on
+the employment of impression management tactics by political leaders and how those affect
+our ability to infer beliefs. Thus, it is useful to look into the employment of impression
+management strategies by international leaders in relation to the operational code. A
+suggestion is to use Thatcher for this research due to the differences between public and
+private material found in this thesis. When focusing on, for example Thatcher’s views on the
+Soviet-Union, do differences occur in her public and private views? If so, can we see
+evidence of decision-making on the deployment of impression management tactics in private
+material?
+Deceit is also named as a possible strategic use of public material, however, its
+relation with impression management remains unclear. When a leader employs impression
+management tactics, does it fall under deceit? Or when a leader is purposefully deceiving the
+public, does this count as the employment of impression management tactics? Thus, more
+research into deceit the influence on deceit by international leaders, and its influence on the
+operational code, should be conducted.
+This thesis does not disprove the use of public material in operational code analysis entirely.
+Some differences were found in the beliefs of Thatcher based on public or private material.
+However, a large disparity between public and private material was only found in Thatcher’s
+28
+risk orientation. The findings call into question the validity of using public material in
+operational code analysis because the findings do suggest that an actor’s risk orientation
+cannot always be accurately inferred from public material.
+However, I recommend that further research is conducted to evaluate the use of public
+material for more international leaders for whom enough private material is available. It is
+possible that the difference found between public and private material is the result of
+Thatcher as a person, but this can only be assessed by comparing these findings with other
+international leaders. If it is the case that public material does not always accurately represent
+the beliefs of international leaders, it is important to know under what conditions the use of
+public material is not valid and how its invalidity can be avoided.
+This research is highly relevant for operational code analysis, since the method has
+depended on public material (He & Feng, 2013; Feng, 2005; Özdamar & Canbolat, 2017;
+Robson, 2006). In order for the operational code to contribute to our knowledge of
+international leaders and our understanding of international relations as a whole, it is
+important to know whether public material generally reflects the beliefs of international
+leaders. Although the findings of this thesis are not enough to fully assess whether public
+material is valid or invalid in operational code analysis, it does suggest that public material is
+not always accurate for inferring the beliefs of international leaders. Consequently, the
+importance of more research into this issue and into the employment of deceit and impression
+management strategies by international leaders is emphasized.
+In sum, the findings of this thesis suggest that public material does not always
+represent the psychological content of international leaders due to public material being used
+for strategic purposes like impression management or deceit. Consequently, public material
+that have been used for strategic purposes may affect the operational code of an actor in such
+a way that not all beliefs can be accurately inferred from public material.
+29
+Bibliography
+Bueno De Mesquita, B. (2002). Domestic politics and international relations. International
+Studies Quarterly, 46(1), 1–9. doi:10.1111/1468-2478.00220
+Byman, D.L. & Pollack, K. M. (2001). Let us now praise great men: Bringing the statesman
+back in. International Security, 25(4), 107-146. doi:10.1162/01622880151091916
+De Landtsheer, C., De Vries, P. & Vertessen, D. (2008). Political impression management:
+How metaphors, sound bits, appearance effectiveness and personality traits can win
+elections. Journal of Political Marketing, 7(3-4), 271-238.
+doi:10.1080/15377850802005083
+Dille, B. (2000). The prepared and spontaneous remarks of presidents Reagan and Bush: A
+validity comparison for at-a-distance measurements. Political Psychology, 21(3), 573-
+585. doi:10.1111/0162-895X.00205
+Dyson, S.B. (2001). Drawing policy implications from the 'operational code' of a 'new'
+political actor: Russian president Vladimir Putin. Policy Sciences, 34(3-4), 329-346.
+doi:10.1023/A:1012627604580
+Dyson, S.B. (2010). George W. Bush, the surge and presidential leadership. Political Science
+Quarterly, 125(4), 557-585. doi:10.1002/j.1538-165X.2010.tb00685.x
+30
+Dyson, S.B. & Raleigh, A.L. (2014). Public and private beliefs of political leaders: Saddam
+Hussein in front of a crowd and behind closed doors. Research & Politics, 1(April-
+June), 1-7. doi:10.1177/2053168014537808
+Feng, H. (2005). The operational code of Mao Zedong: Defensive or offensive realist?
+Security Studies, 14(4), 637-662. doi:10.1080/09636410500468818
+George, A. L. (1969). The “operational code”: A neglected approach to the study of political
+leaders and decision-making. International Studies Quarterly, 13(2), 190-222.
+doi:10.2307/3013944
+Hafner-Burton, E.M., Hughes, D.A. & Victor, D.G. (2013). The cognitive revolution and the
+political psychology of elite decision-making. Perspectives on Politics, 11(2), 368-
+386. Retrieved from https://www-jstor-
+org.ezproxy.leidenuniv.nl:2443/stable/43280794
+He, K. & Feng, H. (2013). Xi Jinping’s operational code beliefs and China’s foreign policy.
+Chinese Journal of International Politics, 6(3), 209-231. doi:10.1093/cjip/pot010
+Hermann, M.G. (2005). Assessing leadership style: A trait analysis. In J.M. Post (ed.), The
+psychological assessment of political leaders (178-212). Retrieved from
+http://search.ebscohost.com.ezproxy.leidenuniv.nl:2048/login.aspx?direct=true&db
+=nlebk&AN=310168&site=ehost-live
+31
+Hermann, M.G. (1980). Explaining foreign policy behavior using the personal characteristics
+of political leaders. International Studies Quarterly, 24(1), 7-46.
+doi:10.2307/2600126
+Hermann, M.G. & Hagan, J.D. (1998). International decision making: Leadership matters.
+Foreign Policy, 110(spring), 124-137. doi:10.2307/1149281
+Holsti, O.R. (1962). The belief system and national images: A case study. Journal of Conflict
+Resolution, 6(3), 244-252. doi:10.1177/002200276200600306
+Hudson, V. M. (2005). Foreign policy analysis: Actor-specific theory and the ground of
+international relations. Foreign Policy Analysis, 1(1), 1-30. doi:10.1111/j.1743-
+8594.2005.00001.x
+Jackson, N. & Lilleker, D. (2011). Microblogging, constituency service and impression
+management: UK MPs and the use of Twitter. The Journal of Legislative Studies,
+17(1), 86-105. doi:10.1080/13572334.2011.545181.
+Marfleet, B.G. (2000). The operational code of John F. Kennedy during the Cuban missile
+crisis: A comparison of public and private rhetoric. Political Psychology, 21(3), 545-
+558. doi:10.1111/0162-895X.00203
+‘O Sullivan, J. (2013, April 13). John ‘O Sullivan: The two sides of Margaret Thatcher. The
+Telegraph. Retrieved from https://www.telegraph.co.uk/news/politics/margaret-
+thatcher/9991833/John-OSullivan-The-two-sides-of-Margaret-Thatcher.html
+Özdamar, O. & Sercan, C. (2017). Understanding new Middle Eastern leadership: An
+operational code approach. Political Research Quarterly, 71(1), 19-31.
+doi:10.1177/1065912917721744
+32
+Renshon, J. (2008). Stability and change in belief systems: The operational code of George
+W. Bush. Journal of Conflict Resolution, 52(6), 820-849.
+doi:10.1177/0022002708323669
+Renshon, J. (2009). When public statements reveal private beliefs: Assessing operational
+codes at a distance. Political Psychology, 30(4), 649-661. doi:10.1111/j.1467-
+9221.2009.00718.x
+Robison, M. (2006). George W. Bush and the Vulcans: Leader-Advisor relations and
+America’s response to the 9/11 attacks. In M. Schafer, & S.G. Walker (ed.), Beliefs
+and leadership in world politics: Methods and applications of operational code
+analysis (101-124). doi:10.1057/9781403983497
+Schafer, M. (2013). At-a-distance analysis. in R.A.W. Rhodes, & P. ‘t Hart (ed.), The Oxford
+handbook of political leadership. (1-20).
+doi:10.1093/oxfordhb/9780199653881.001.0001
+Schafer, M. (2000). Issues in assessing psychological characteristics at a distance: An
+introduction to the symposium. Political Psychology, 21(3), 511-527.
+doi:10.1111/0162-895X.00201
+Schafer, M. & Crichlow, S. (2000). Bill Clinton's operational code: Assessing source material
+bias. Political Psychology, 21(3), 559-571. doi:10.1111/0162-895X.00204
+Schafer, M. & Walker, S.G. (2006). Democratic leaders and the democratic peace: The
+operational codes of Tony Blair and Bill Clinton. International Studies Quarterly,
+509(3), 561-583. doi:10.1111/j.1468-2478.2006.00414.x
+Tetlock, P.E. & Manstead, A.S.R. (1985). Impression management versus intrapsychic
+explanations in social psychology: A useful dichotomy? Psychological Review, 92(1),
+59-77. doi:10.1037/0033-295X.92.1.59
+33
+Walker, S.G., & Schafer, M. (2006). Belief and leadership in world politics: Methods and
+applications of operational code analysis. doi:10.1057/9781403983497
+Walker, S.G., Schafer, M. & Young, M.D. (2003). Profiling the operational codes of political
+leaders. In J.M. Post (ed.), The psychological assessment of political leaders (214-
+245). Retrieved from
+http://search.ebscohost.com.ezproxy.leidenuniv.nl:2048/login.aspx?direct=true&db=n
+lebk&AN=310168&site=ehost-live
+Walker, S.G., Schafer, M. & Young, M.D. (1998). Systematic procedures for operational
+code analysis: Measuring and modeling Jimmy Carter’s operational code.
+International Studies Quarterly, 42(1), 175-189. doi:10.1111/0020-8833.00074
+Waltz, K.N. (1979). Theory of International Politics. Retrieved from
+https://books.google.com
+Wendt, A. (1992). Anarchy is what states make of it: The social construction of power
+politics. International Organization, 46(2), 391-425. doi:10.1007/978-1-349-
+23773-9_7
+Yang, Y. E., Keller, J. W. & Molnar, J. (2017). An operational code analysis of China’s
+national defense white papers: 1998-2015. Journal of Chinese Political Science,
+23(4), 585-602. doi:10.1007/s11366-017-9524-5
+34
+Appendix A
+The descriptor categories are borrowed from Renshon (2009, p.661)
+35
+Appendix B
+Phase 1: Public material
+25-6-1979: TV interview for the Central Office of Information
+https://www.margaretthatcher.org/document/104097
+18-12-1979: Speech to the Foreign Policy Association
+https://www.margaretthatcher.org/document/104199
+26-6-1980: Press Conference for American Correspondents in London
+https://www.margaretthatcher.org/document/104389
+3-12-1980: House of Commons Statement
+https://www.margaretthatcher.org/document/104453
+12-6-1981: Interview for Jewish Chronicle
+https://www.margaretthatcher.org/document/104476
+15-12-1981: Speech to the Board of Deputies of British Jews
+https://www.margaretthatcher.org/document/104762
+10-6-1982: Press Conference after NATO Summit
+https://www.margaretthatcher.org/document/104963
+23-12-1982: Questions in the House of Commons
+https://www.margaretthatcher.org/document/105078
+7-6-1983: Speech at Fleetwood
+https://www.margaretthatcher.org/document/105385
+1-12-1983: Press Conference after Commonwealth Heads of Government meeting
+https://www.margaretthatcher.org/document/105485
+12-6-1984: House of Commons Statement: London G7 Summit
+https://www.margaretthatcher.org/document/105705
+7-12-1984: Press Conference for American Correspondents in London
+https://www.margaretthatcher.org/document/105810
+29-6-1985: Press Conference after Milan European Council
+https://www.margaretthatcher.org/document/106082
+17-12-1985: Radio Interview for BBC Radio 3
+https://www.margaretthatcher.org/document/105934
+36
+19-6-1986: Interview of Sunday Telegraph
+https://www.margaretthatcher.org/document/106269
+6-12-1986: Press Conference after London European Council
+https://www.margaretthatcher.org/document/106530
+22-6-1987: Interview for Politica Exterior
+https://www.margaretthatcher.org/document/106659
+22-12-1987: Interview for Jewish Chronicle
+https://www.margaretthatcher.org/document/107002
+8-6-1988: Speech to Press Association
+https://www.margaretthatcher.org/document/107258
+30-12-1988: Interview for TV-AM
+https://www.margaretthatcher.org/document/107022
+4-12-1989: Press Conference after NATO Summit
+https://www.margaretthatcher.org/document/107837
+8-6-1990: Joint Press Conference with Soviet President
+https://www.margaretthatcher.org/document/108107
+Phase 2: Private material
+10-5-1979: Speech at private opening German visit
+https://www.margaretthatcher.org/source/prem19/prem19-0058
+11-5-1979: Speech at private luncheon for Chancellor Schmidt
+https://www.margaretthatcher.org/document/117692
+15-5-1979: Letter to Carter
+https://www.margaretthatcher.org/document/112211
+10-1-1979: Letter to Carter
+https://www.margaretthatcher.org/document/112684
+3-3-1980: Letter to Carter
+https://www.margaretthatcher.org/document/112690
+1-4-1980: Letter to Ohira
+https://www.margaretthatcher.org/document/115737
+27-4-1980: Letter to Reagan
+https://www.margaretthatcher.org/document/121518
+24-4-1980: Transcript of phone call with Giscard
+37
+https://www.margaretthatcher.org/document/118722
+5-6-1980: Letter to Denis Howell MP
+https://www.margaretthatcher.org/document/119811
+23-2-1981: Letter to Indira Ghandi
+https://www.margaretthatcher.org/document/138647
+31-10-1981: Letter to Reagan
+https://www.margaretthatcher.org/document/210214
+29-1-1982: Telegram to Ronald Reagan
+https://www.margaretthatcher.org/document/137548
+28-5-1982: Letter to Reagan
+https://www.margaretthatcher.org/document/123339
+23-9-1982: Letter to Ramphal
+https://www.margaretthatcher.org/document/152436
+18-4-1983: Letter to Lord Bethell
+https://www.margaretthatcher.org/document/132327
+27-9-1983: Letter to Andropov
+https://www.margaretthatcher.org/document/132004
+1-12-1983: Letter to Robert
+https://www.margaretthatcher.org/document/152857
+22-12-1984: Letter to Reagan
+https://www.margaretthatcher.org/document/131592
+5-7-1984: Letter to Sultan Qaboos
+https://www.margaretthatcher.org/document/152961
+23-7-1984: Message to President Zhao
+https://www.margaretthatcher.org/document/152964
+12-9-1985: Letter to Reagan
+https://www.margaretthatcher.org/document/143042
+11-2-1986: Letter to Reagan
+https://www.margaretthatcher.org/document/200455
+27-2-1986: Letter to Gorbachev
+https://www.margaretthatcher.org/document/200422
+38

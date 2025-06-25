@@ -1,0 +1,2205 @@
+appEndIx a
+Case Study of Influence in Advertising and
+Marketing1
+Introduction
+A 2004 study of advertising spending (Maddox, 2004, p. 23) pro-
+jected that U.S. businesses would spend $278 billion on advertising in
+2006, with an expected direct sales impact of $2.3 trillion. This reli-
+ance on advertising to sell goods and services in the United States fuels
+a rich literature on how to develop and market products and services
+that people will buy. The lessons learned from advertising have been
+adapted to benefit a variety of other fields, including nonprofit fund-
+raising and creating social change, and are also useful in the area of
+influence operations.
+A substantial part of influence operations is convincing individu-
+als or communities that a certain action (or inaction) is in their best
+interest. Influence operations may be used to dissuade an enemy from
+fighting in favor of capitulating; to inform civilians how to stay out of
+the fray and away from danger; or, after the war is over, to persuade
+locals to support the rebuilding effort, push for democracy, and to take
+charge of their own safety. In each case, the U.S. government is seek-
+ing to persuade or compel local forces, officials, or civilians to adopt a
+belief that they might not otherwise hold or to engage in behaviors that
+they might not otherwise engage in. In some respects, these efforts are
+much like traditional marketing, in which the producer uses specific
+1 This appendix was authored by Amy Richardson.
+90 Foundations of Effective Influence Operations
+tools to convince the consumer to purchase a product at a certain price.
+In this appendix, we address how lessons learned in marketing goods
+and services may be applied to the work of influence operations. 2
+A number of relevant commercial analogues exist to the introduc-
+tion of influence operations in a new theater. A single example will be
+used to illustrate the point.
+A U.S. influence operations campaign might be like the launch of
+a new line of products that fall under a single brand. For example, imag-
+ine that the Coca-Cola Company is introducing a new brand of coffee
+drinks, which include a variety of flavors. The Coca-Cola Company is
+well known, but the brand it develops may or may not be, depending
+on whether the link to the parent company is emphasized. The com-
+pany must develop anew all the brand elements—the name, the line of
+products, the packaging, the key messages for why this brand is better
+than the competitors—and ultimately, the advertising.
+In the domain of influence operations, the U.S. name typically is
+well known, and it may elicit either positive or negative associations in
+different target audiences that may facilitate or hinder the acceptance
+of U.S. messages, and these associations may themselves be very dif-
+ficult to change. 3 Other facets of influence operations efforts may not
+be fully formed, however. For example, the overarching goals and mes-
+sages of the influence operations efforts that form the brand identity—
+democracy, freedom, economic empowerment, safety—are all viable
+candidates for status as the one primary message that influence opera-
+tions may choose to promote. In a similar vein, the specific actions
+that influence operations take to support an overall message (capitulate
+versus fight, not support the insurgency, join the local police force)
+may be likened to the individual elements of the brand line of prod-
+ucts. These individual items may be targeted to different audiences and
+2 For a comparable effort in this vein, see Helmus, Paul, and Glenn, 2007.
+3 In the worst case, influence operations may most closely approximate crisis communica-
+tion efforts of commercial firms. For example, U.S. efforts to recover from scandals such as
+those at Abu Ghraib or incidents involving civilian deaths may share some characteristics of
+Dow Chemical’s response to the Bhopal tragedy or accounting firm responses to accounting
+scandals. We would like to thank RAND colleague Jeff Marquis for this point.
+Case Study of Influence in advertising and Marketing 91
+might have somewhat different benefits, but all support the central
+message of the brand.
+While there are enough similarities between marketing and influ-
+ence operations to believe that they share some best practices, there
+are many and large differences. Marketing is, for the most part, about
+selling goods and services, while influence operations are about selling
+ideas; marketing is typically conducted in a positive or neutral environ-
+ment, while influence operations frequently take place in a hostile set-
+ting and face a highly skeptical or disapproving target audience; mar-
+keting efforts are generally given enormous latitude to make decisions
+about the brand, the product, the advertising, and the market, while
+for influence operations, many of these decisions have already been
+made; and marketing done poorly has implications for the brand and
+company, while influence operations done poorly can result in the loss
+of life for coalition or enemy forces and for civilians.
+Despite these differences, however, the central goal in marketing
+and influence operations—to influence decisionmaking—is the same,
+and marketing tools are suitable for both fields. The purpose of this
+appendix is to describe those tools and to examine how they might
+be used to the advantage of influence operations. First, this appendix
+takes a detailed look at how a typical brand is developed and mar-
+keted, focusing particularly on the research that supports each step.
+Second, it explores how similar research might be conducted for an
+influence operations campaign. Third, it considers other cases in which
+traditional marketing tools have been adapted for nontraditional fields
+and what lessons we can learn from these cases for influence opera-
+tions. Fourth, it looks at what expectations we can have from market-
+ing efforts both in their traditional and nontraditional forms and some
+of the common pitfalls of marketing that can handicap those efforts.
+Finally, it concludes with a discussion of the advantages and impedi-
+ments to developing a marketing campaign that are specific to influ-
+ence operations. While significant, these impediments do not stand in
+the way of a well-run influence operations campaign, and they may be
+reduced over time.
+92 Foundations of Effective Influence Operations
+Building a Brand
+There is a very systematic process that many businesses follow in devel-
+oping a new brand. Of course, few individual efforts will follow all
+of these steps exactly, but together they form the outline for a typical
+launch of a new line of products.
+First, the members of a brand team will develop the specific brand.
+To do this, they will
+identify• needs in the market that are not met by the products
+currently offered
+identify• products that can best fill those needs
+identify and understand the• target consumers for the new line of
+products
+develop possible• concepts for the brand 4
+test• those concepts to identify the one with the greatest profit
+potential.
+The brand team members will then develop the advertising. To
+do this, they will
+develop a variety of• advertising campaigns and a marketing plan
+to support the product launch
+test• those campaigns to determine the one that is most consistent
+with the brand and target audience.
+If the brand is expected to be sufficiently profitable, the brand
+team members will then
+launch• the product
+evaluate• its performance.
+4 Here a concept refers to all the information connected to a product or service—the name,
+product, logo, personality, tagline, claims, and all other elements that together form a certain
+set of expectations that will be associated with the brand.
+Case Study of Influence in advertising and Marketing 93
+For most of these steps, research can provide invaluable guidance.
+Below we describe each of these steps in greater detail and the research
+that may be used to support them.
+Brand Development
+Identifying Unmet Needs. The first step in developing a new
+product line is to understand what is out there and what needs are not
+being met by current products. A brand will surely fail if it is does not
+fill an unmet need.
+Ethnographic Research. Formally, ethnographic research focuses
+on the study and systematic recording of human cultures. In market-
+ing, ethnographic research is used to understand how people incor-
+porate products into their lives, how they think about the products in
+the context of their lives, their homes, their family, etc. This research
+typically involves observation of individuals in their own environment,
+rather than a research facility, in the context of where and when they
+would be using a specific product (at home in the morning for break-
+fast cereal, perhaps midday at the office for nicotine replacement prod-
+ucts). Ethnographic research is ideal at the early stage of brand devel-
+opment, particularly for categories that elicit emotional responses from
+the consumer, such as baby shoes, photo albums, even shampoo and
+herbal supplements, for which the researcher can observe and explore
+those emotional triggers. This research is also well suited to cases for
+which a brand team is trying to build a better “mousetrap.” For exam-
+ple, Energizer used ethnographic research to identify unmet needs in
+the market for hearing aid batteries by watching the difficulties that
+hearing aid users faced in changing their batteries. With this input as
+the basis for developing a new product, it launched EZ Change, which
+quickly rose to become the leading product in the category (Johnson,
+2004).
+Focus Groups. Focus groups are small group discussions led by a
+trained moderator. They are a staple of marketing research and can be
+very useful in helping identify unmet consumer needs. These focused
+discussions may include brainstorming about new products and dis-
+cussions about what consumers like and dislike about current offer-
+ings. The discussions are typically conducted with respondents who fit
+94 Foundations of Effective Influence Operations
+the target audience (broadly defined) for the product. Moderators will
+often use projective techniques to encourage respondents to approach
+the topic in new ways. For example, a moderator might ask respon-
+dents: if this condition (e.g., heartburn, sleeplessness) were an animal,
+what animal would it be? if this product lived somewhere, where would
+it live? what are some similarities and differences between this product
+and a car? These techniques can help identify what people like and do
+not like about the current offerings and what needs they have that are
+not currently being filled.
+Need-Gap Analysis. This type of analysis is quantitative research
+to identify the unmet needs that exist in the marketplace within a spe-
+cific category of products. For this research, the brand team members
+develop a list of “needs”—problems that a consumer might like to have
+solved or wants that a consumer might like to have filled by prod-
+ucts in the category—using the research described above and input
+from others involved with the brand. Then, a random sample of people
+are asked (1) how important it is that a product in the category fills
+those needs (e.g., that a sleep aid is “not habit forming,” that a cereal
+“stays crunchy”) and (2) whether products currently in the category
+meet those needs. The responses are then examined to identify areas in
+which there is an important, but unmet, need. (For more information,
+see Kotler, 1991, p. 319.)
+Identifying the Product. After the members of the brand team
+have identified the need they intend to fill, they must identify a prod-
+uct to fill that need that is acceptable to the consumer.
+Product testing is done among a random sample of people to ensure
+that consumers perceive it to work and have no major complaints about
+it. For this research, a random sample of people who express an interest
+in buying the product (or who have the need the brand team is trying
+to fill) is recruited to try or use the product. Depending on the nature
+of the product, respondents may try the product immediately, or they
+may take it home with them and are then called later to gauge satis-
+faction. This testing is not designed to detect efficacy of the product
+(which requires clinical trials), but simply consumer perceptions of the
+product’s strengths and weaknesses.
+Case Study of Influence in advertising and Marketing 95
+Identifying and Understanding the Target. The brand team
+members must also narrow the scope of their target so that they may
+tailor the brand image and the advertising to reach that target. Once
+the target is identified, the brand team members must then develop a
+very clear and rich picture of that target.
+Survey. Simple survey techniques may be used to identify those
+who are most likely to use the product. For this research, a national
+random sample of people is contacted to determine whether they have
+the need that the product intends to fill and how satisfied they are with
+products that are currently available (those who perceive an unmet
+need are likely to be the primary target). Additional questions on the
+survey also help the brand team develop a profile of the target mem-
+bers’ demographics (sex, age, race, income, education, geographic loca-
+tion), consumption habits (where they shop, how often, whether they
+currently use products in the category, how often, how much, which
+ones), media habits (what they read, listen to, and watch), and other
+aspects of their character (whether they are information seekers, early
+adopters, new homeowners, etc.).
+Focus Groups. Focused group discussions (as described above)
+among target consumers are useful to understand how people who
+might use the product think about the category, how they might use
+the product, how they shop for it, etc.
+Developing Concepts for the Brand. The brand team members
+will then need to determine the brand positioning—how they intend
+to talk about the brand (e.g., fast-acting, rich-tasting, a good value,
+etc). In doing so, the brand team members will want to develop mul-
+tiple strategies, or possibilities, from which they can choose the most
+promising. The various brand elements (positioning, packaging, target,
+etc,) together are called the concept. Concepts may vary by the prom-
+ises that brands make, the targets they are trying to reach, the names
+of the brands, the offerings in the line, the price, the packaging, and
+many other ways.
+Focus Groups. Focus groups are also useful here to generate ideas
+about how to develop or refine the concept. For this research, respon-
+dents are chosen from the target population and, depending on the
+point at which the research is conducted, invited to think about the
+96 Foundations of Effective Influence Operations
+product in particular. Many of the same projective techniques used
+earlier are useful here, but the emphasis here is not on unmet needs but
+rather ideal positioning of the product.
+Conjoint Analysis. Quantitative input is also very helpful at this
+critical point of brand development. Conjoint analysis is an experimen-
+tal design used to measure the trade-offs that people make in choosing
+products by measuring the utility of each potential brand attribute.
+With conjoint analysis, respondents are shown different combinations
+of brand attributes (for a car, for example: color, price, size, power, fuel
+efficiency, and model style) and asked about their interest in purchasing
+the “product” defined by each combination. For example, a respondent
+might be asked how likely they would be to purchase a red, four-door,
+hybrid car for $25,000, then how likely they would be to purchase a
+yellow, seven-seat, SUV for $30,000. The combinations are developed
+using an experimental design. Responses to each of the combinations
+are then analyzed to develop an understanding both of the impor-
+tance of each type of attribute (color versus style) and of the preferred
+description within each attribute (red versus green). The brand team
+can use this information to develop various concepts that are likely to
+appeal to consumers.
+Testing Concepts. Once the brand team and advertising agency
+together have developed a number of brand concepts, those concepts
+are tested among those in the target audience.
+Focus Groups. Here, focus groups are useful to understand why
+certain concepts most resonate with consumers. For example, focus
+groups can help identify specific elements of each concept that engage,
+distract, confuse, or annoy the consumer. For this research, respon-
+dents are shown the various concepts and asked their reactions to the
+overall concept and to the specific language and graphics (which one
+they like best and why, whether they found anything confusing, unbe-
+lievable, etc.).
+Survey. A survey can also be useful to identify which concepts
+are most likely to attract consumers and lead them to buy the product.
+Here respondents are shown concepts and asked how likely they would
+be to purchase the product and are asked related questions.
+Case Study of Influence in advertising and Marketing 97
+Volumetric Forecasting. The best research at this stage, however,
+is quantitative research that includes volumetric forecasting, which com-
+bines survey data, marketing plan data, and modeling to produce esti-
+mates for unit and dollar sales in the first year of the product launch.
+The benefit of this form of research over survey research alone is that
+it distinguishes those products that are broadly but weakly liked from
+those that appeal to a smaller group but that are so well liked among
+them that their purchases will more than make up for the relatively
+smaller size of the group. Here the emphasis is on which concept will
+generate the greatest sales volume.
+For this research, different samples of respondents are shown
+the different concepts under consideration and asked a series of stan-
+dard questions: For example, How likely would you be to purchase
+this product? How much do you think you would like this product?
+Do you think it is a good value for the money? What size unit would
+you buy when you bought it the first time? Their responses and the
+strength of those responses (very, somewhat, etc.) are recorded. These
+responses are then transformed using demographic information about
+the respondent into a truer measure of their intent to purchase (older
+people, for example, typically overstate their willingness to buy a prod-
+uct by more than their younger counterparts do). The adjusted data are
+then combined with marketing plan information (advertising plans,
+distribution plans) to generate an estimate of sales for each concept in
+the first year.
+Advertising Development
+After the concept and all brand elements have been determined, the
+advertising agency, with input from the brand team, must develop
+multiple ad campaigns consistent with that brand. This step uses previ-
+ous research but requires additional research.
+Testing Advertising Campaigns
+Once a variety of advertising campaigns have been designed, they must
+be tested for their ability to persuade someone to buy the product and
+to communicate the brand image in a way that is consistent with the
+strategy.
+98 Foundations of Effective Influence Operations
+Focus Groups. Focus groups may be used here to understand
+what appeals to consumers about the various campaigns and possibly
+to give the advertisers ideas for how to improve the campaigns. In these
+groups, respondents are chosen from the target audience and shown
+print, radio, or TV ads (or storyboards and rough versions of the TV
+ads) and asked about the ads and the brand as conveyed by the ad.
+Eye Tracking (for Print and Radio). Eye-tracking is a methodology
+in which the ad is embedded into its natural context and evaluated
+for its ability to engage the reader (or listener). For print, respondents
+are told they are evaluating a new magazine. Their eye movements are
+tracked (with a camera embedded into a reading light) as they flip
+through the magazine and then they are asked a number of questions
+about the magazine and the ads. Next they are then shown the specific
+ad (forced exposure), and their eye movements are tracked as they look
+at the ad to see what they read and notice on the page. They are then
+asked another series of questions about the ad. For radio, they are told
+they are evaluating highway signs and that the radio is on to make
+the situation more realistic. The ad is evaluated for whether someone
+changes the channel while the ad is on, and respondents are asked
+a series of recall questions afterwards. As with print, they are again
+exposed to the ad specifically and asked questions about it. This meth-
+odology helps the advertisers understand first whether the ad catches
+the readers’ or listeners’ attention and then whether they read through
+the ad in the way the brand team and agency hope.
+Persuasion Testing (for TV). Persuasion testing is useful to identify
+quantitatively whether the ad will generate a trial of the product. The
+methodology is similar to that for print and radio testing. A random
+sample of respondents is shown what they are told is a pilot TV show.
+To make the experience more realistic, they are told, ads are embedded
+in the show. Before and after the show respondents are asked about their
+preference for products in different categories, including the brand of
+interest among the other products in the category. Ads are evaluated by
+their ability to generate incremental preference for the product.
+Case Study of Influence in advertising and Marketing 99
+Developing the Marketing Plan
+In addition to refining the advertising campaign, at this point the mar-
+keting plan is developed, including the kinds and levels of advertis-
+ing, the promotions, the distribution, etc. This plan is developed using
+previously conducted research on the target audience and brand and
+within constraints of the budget and other factors to develop an opti-
+mal marketing plan. This step requires no new research.
+Launch and Tracking
+Executing the Marketing Plan. The marketing plan is then exe-
+cuted. This requires no new research.
+Evaluating Performance. Just before and soon after the brand has
+launched, the brand team will develop estimates for performance for
+the brand in the first year.
+Volumetric Forecasting (Before Launch). Volumetric forecast-
+ing just before launch is useful to develop the most accurate estimates
+of brand volume once the entire marketing plan and advertising have
+been finalized. These estimates may also be used to make a go/no go
+decision, to influence expectations for the brand, and to help in com-
+munications with retailers and in public relations materials. The meth-
+odology used here is the same as before, except that respondents are
+given the product to try and then asked how likely they would be to
+buy the product after trying it (they may also be given the product in
+earlier tests, but they certainly will at this point). Respondents who say
+they are interested in buying the product are then given it to take home
+and called back two weeks later to gauge their reaction.
+Test Marketing. Sometimes before a product is launched nation-
+ally, it will be tested in a few cities. This research is useful to forecast
+sales for a national launch in a more real-world setting and to do a
+dry run for all of the elements of the entire brand team (marketing,
+sales, production, distribution, etc.). For a test market, the brand com-
+pany chooses four cities that are similar to each other and the United
+States demographically. Two cities are chosen to be the test markets
+and two the control markets (two of each are chosen in case something
+unexpected happens in one). The brand is distributed in the two test
+markets as it would be nationally and advertised as it would be nation-
+100 Foundations of Effective Influence Operations
+ally. Sales are tracked, and typically surveys are conducted to monitor
+awareness of the brand, consideration of it, purchase of it, repeat pur-
+chase, and attitudes about the brand. Forecasts may then be made for
+a national launch.
+Awareness and Attitude Tracking (After Launch). After a
+national launch, periodic surveys are conducted to evaluate true con-
+sumer response to the brand, to track the key steps to purchase and
+repeat (awareness of the brand, consideration, preference, purchase,
+and repeat), and to get a sense of who is buying the product and why,
+who among the target is not buying it and why, what people remem-
+ber, if anything, from the advertising, etc. For this research, a national
+random sample is contacted and asked a series of questions about the
+brand and category. The first wave of this research must be conducted
+before the brand is introduced to establish a benchmark.
+Sales Tracking (After Launch). If a company does nothing else, it
+will track sales, promotions, and distribution of the brand throughout
+the country after launch. This research measures actual sales of the
+brand, price paid, whether the product was on the shelves, etc. For this
+research, data are collected from most of the major (and many minor)
+retailers, including grocery stores, drug stores, mass merchandisers, and
+convenience stores and supplemented with in-store checks on distribu-
+tion and store promotions. The brand team then analyzes the research
+for information about which stores are selling a disproportionate share
+of the product and why, which promotions appear to be most effective,
+whether there are any problems with distribution of the product, how
+the competitors are responding to the launch, etc.
+Lessons from Nontraditional Marketing
+Ultimately, however, influence operations are in the business of mar-
+keting not products, but ideas. For this reason, lessons from three other
+sectors—cause marketing, sin marketing, and political marketing—
+may be the most useful analogues for understanding how marketing
+principles can benefit influence operations.
+Case Study of Influence in advertising and Marketing 101
+Cause Marketing
+Cause marketing may be defined as follows:
+Using the skills of advertising to effect social change, to benefit
+individuals or society at large. . . . it is advertising in the service of
+the public (Earle, 2000, p. 3).
+Like influence operations, it asks its target audience not to buy
+something, but to buy into something—to avoid cigarettes, alcohol
+or drugs, not to litter or leave a campfire unattended, to conserve
+resources, or to protect personal information. Perhaps most pertinent
+to influence operations, one category of cause marketing campaigns
+relates to health and safety issues, such as preventing childhood asthma
+or getting help for relatives with Parkinson’s Disease.
+The methodology and tools used in product marketing are directly
+relevant to cause marketing and influence operations. In fact, they may
+be even more critical in these fields for a few reasons. It is harder to sell
+an idea than a product, the audience is often harder to understand, the
+constraints on what may be included in the message are more signifi-
+cant, and the budget is often smaller.
+Cause marketing and influence operations share another burden:
+There is evidence that a bad cause marketing campaign is worse than
+no campaign at all. Researchers have found, for example, that featuring
+people doing drugs in ads or featuring the drugs themselves can lead
+to greater drug use. Some kids watching an ad that featured other kids
+doing drugs concluded that, “those kids are just like me and they seem
+like they are having fun.” Or a former addict can be moved to try drugs
+again because of such ads (Earle, 2000, p. 11). Similarly, if a message
+from influence operations strikes the wrong tone or is misinterpreted,
+it can be a great recruiting tool for the other side.
+To avoid these pitfalls, there are some important lessons to learn.
+First, research to prepare for a cause marketing or influence operations
+campaign is very complex and requires great care. The target audience
+may be difficult to recruit, to involve in discussions, to read, and to
+reach. The very best team should be used in this endeavor. Second,
+research is more crucial here than anywhere. Getting the message
+102 Foundations of Effective Influence Operations
+and its tone right can be the difference between success and failure.
+Third, because the audience is fickle and complex, it may be necessary
+to develop different messages for different targets (e.g., for cause mar-
+keting, kids, adults, nonusers, and addicts; for influence operations,
+women, men, and majority and minority party members). Also, these
+messages cannot just be variations on a theme—they must be built
+from the ground up as independent efforts. While McDonalds can use
+a German ad (“I’m lovin’ it”) with success in America, that strategy is
+unlikely to work for cause marketing or influence operations. Fourth,
+unlike product advertising, the target audience for a cause marketing or
+influence operations campaign might not be the ultimate target. Often
+these campaigns target parents to curb teen smoking, for example, or
+the loved one of an addicted gambler rather than the gambler directly.
+This strategy might be fruitful for influence operations, too.
+Sin Marketing
+Ironically, the (almost) flipside of cause marketing, sin marketing, shares
+a number of characteristics with influence operations as well. Indeed,
+where the United States faces a skeptical or hostile audience whose
+basic point of view arises from religious, cultural, or social norms, sin
+marketing may accord fairly closely with U.S. brand identification by
+foreign audiences.
+Sin marketing is the marketing of such socially unacceptable
+products as tobacco, alcohol, firearms, gambling, and pornography
+(Davidson, 2003). For these products, the marketing environment is
+neither positive nor neutral but outright hostile. Individual consumers
+may be (and clearly are) supportive of the products, but not in a public
+way. Similarly, individual members of enemy forces and civilians in
+those countries may be privately supportive of U.S. actions, but they
+are reluctant to share that sentiment publicly.
+Under these circumstances, there are a few steps that may be taken
+to improve the chance of a successful outcome. First, it is best to be as
+precise as possible in targeting and advertising to those who are most
+receptive to the message so as to minimize public expressions of the
+social unacceptability of that message. High-visibility campaigns will
+only lead to public denunciation of that campaign and may dissuade
+Case Study of Influence in advertising and Marketing 103
+some from supporting the campaign who might have otherwise. The
+use of email and Web sites—which offer anonymity, a direct connec-
+tion to the consumer, convenience, and sophisticated database man-
+agement techniques—can be very effective in creating a safe space for
+communicating a controversial message.
+Second, it may be wise to “de-link” the parent company from the
+product. Typically this technique is used to protect the parent com-
+pany and its other brands. For example, Altria, the parent company of
+Philip Morris, downplays the fact that it makes both Kraft Foods and
+Marlboro cigarettes to protect the Kraft brand (and, indeed, Philip
+Morris chose the name Altria after deciding that its name had been so
+tarnished by its association with cigarettes). But for influence opera-
+tions, it may make sense to downplay the association between the mes-
+sage and the source (the U.S. government) to protect the message if
+anti-American sentiment might lead to added resistance to accepting
+the message.
+Third, the use of symbols can be effective both as a more accept-
+able icon in advertising (e.g., the Nike “swish”) and to help reshape an
+image (e.g., Camel was a blue-collar cigarette brand before Joe Camel
+was used to sell the cigarette to teens, and Marlboro was an unsuccess-
+ful women’s brand before the Marlboro Man was used to turn it into a
+successful men’s brand. Indeed, icons can be very powerful even if the
+message is not controversial, as demonstrated by the pink ribbons for
+breast cancer awareness and treatment.
+Fourth, for sin marketing, or for influence operations in which the
+United States faces a hostile audience, public relations are much more
+important than for mainstream products. There is a greater need both
+to improve the image of the products and the brand and to do damage
+control to minimize the impact of bad press. It may be the case that
+public relations under these conditions are even more important than
+in more traditional forms of advertising. For example, the Miller Brew-
+ing Company has found that the dollars it spends on public relations
+are far more cost-efficient than those it spends on advertising and has
+changed its cost mix accordingly (Mandese, 2003). Efforts to improve
+the brand image usually focus not on convincing society that the prod-
+ucts are not bad, but rather that the company that sells the products is
+104 Foundations of Effective Influence Operations
+committed to the responsible use of these products and is giving back
+to the community some of the money that is made in selling these
+products. For influence operations, these efforts would include those
+that demonstrate that the United States is acting in the interests of the
+locals, even when that conflicts with its own goals, and making other
+selfless gestures that are meaningful to society.
+Political Marketing
+Although the subject is discussed in greater detail in the next appendix,
+there also are some lessons from the world of political campaigns that
+apply to influence operations that we briefly touch upon here.
+As with traditional marketing for a new brand, launching a suc-
+cessful new influence operations campaign requires a sophisticated
+understanding of the competition, anticipation of the competition’s
+actions, and advanced planning on how to react to those anticipated
+actions. Sometimes the competition with another brand can be so
+fierce that it defines the success of the launch. This was the case with
+the launch of Nicoderm by SmithKline Beecham, which went head to
+head with Nicotrol, and, in fact, political campaign advisers were part
+of the inner circle in the early years of Nicoderm’s launch.
+Where political campaigns excel is in being prepared for, and even
+disarming in advance, any attacks that might be made. To do this,
+political campaigns do extensive research on the competition, far more
+than in traditional marketing. They build into initial communications
+points that address anticipated criticism from detractors, guided by the
+belief that the best defense is a good offense. For influence operations,
+this would mean extensive research on insurgents or detractors not just
+to understand how they plan to undermine the military mission, but
+also the battle for the hearts and minds of the civilians.
+Expectations for Advertising
+But is all this effort worth it? What, if anything, can we expect from
+advertising? With the diffusion of information sources and the con-
+stant barrage of advertising, can a message get through?
+Case Study of Influence in advertising and Marketing 105
+Marketing
+If a marketer is asked those questions about a specific campaign,
+chances are he or she will tell you, “I have no idea.” In a recent survey
+of 135 senior-level marketers sponsored by the Association of National
+Advertisers, 87 percent say they have “little confidence in their ability
+to predict the impact that their TV advertising and marketing efforts
+have on sales” (McClellan, 2005). In advertising lore, this sentiment
+is paraphrased as: “I know that only half my advertising works; I just
+don’t know which half.”5
+Indeed three well-designed studies to answer this question found
+that advertising works about half the time. One study conducted by
+John Philip Jones (2004, pp. 117–119) found that for 20 percent of
+brands, mostly small ones, advertising increases sales significantly (on
+average doubling sales), for another 20 percent, mostly large brands,
+advertising helps maintain and sometimes increases sales, but not
+as noticeably, and for the remaining 60 percent, advertising has no
+impact. Jones (2004, pp. 63–65) also found that whatever effect adver-
+tising has, it occurs primarily after first exposure, and that additional
+exposures result in diminishing returns: 70 percent of sales from an
+ad occur with only one exposure in a seven-day period, another 20
+percent with additional exposure, and only an additional 10 percent
+with three exposures or more. Findings from another series of stud-
+ies, “How Advertising Works” conducted by Information Resources,
+Inc. (see Hu, Lodish, and Krieger, 2008), are consistent with Jones’s
+research, concluding that advertising works about half the time, and
+mostly for new and growing brands.
+More recently, Deutsche Bank commissioned a study of 23
+household, personal-care, food, and beverage brands and found that
+TV advertising generated a positive return on investment in the first
+year only 18 percent of the time and over a longer period 45 percent of
+the time. Positive returns were mostly found among the newer brands
+or brands with substantially new products (e.g., Crest Whitestrips and
+Swiffer). But a few mature brands, such as Gatorade, Tide, and Bud
+Light, also had strong returns, which Deutsche Bank attributed to
+5 Attributed to department store founder John Wanamaker (1838–1922).
+106 Foundations of Effective Influence Operations
+good advertising (Neff, 2004). Brand loyalty, however, also could have
+played a role.
+Nontraditional Marketing
+For nontraditional marketing, positive results are also evident but may
+take longer to see. Changing ideas and values is possible, but this hap-
+pens slowly, particularly when those beliefs are strongly held and par-
+ticularly when there are strong social incentives not to accept the alter-
+native view. Since 1992, Massachusetts has reduced adult smoking by
+41 percent, two and one-half times the national average (Massachusetts
+Office of Health and Human Services, n.d.). The state attributes much
+of this success to its advertising. However, this impact has required a
+steady stream of advertising over a ten-year period.
+In a set of findings that resonates strongly with the social power
+model that was described earlier, how quickly results can be expected
+depends on five variables through which social changes occur:
+Predisposition:• whether the message conflicts with traditional
+beliefs and values that are proving satisfactory
+Perception:• whether the message appears to have advantages now
+or in the future that can be intelligently demonstrated
+Other people:• whether the message is introduced by people consid-
+ered important and competent and who have consulted the target
+audience or its respected leaders
+Personality traits:• whether the message is in accord with the modal
+personality traits (e.g., adaptable versus rigid) of the society or
+with a goal the target audience is seeking
+Learning:• whether the message makes demands whose compo-
+nents the target audience has already learned or feels confident it
+can learn (e.g., does it have a history with democracy or believe
+that it can adapt to democracy) (Zaltman, Kotler, and Kaufman,
+1972, pp. 68–70). 6
+6 Note that there is a rich psychological literature on how to effect changes in attitudes
+(through presentation of facts versus more emotional techniques, behavior modification
+techniques, group dynamics, etc.).
+Case Study of Influence in advertising and Marketing 107
+There are two conclusions IO planners should draw from this list.
+First, the road ahead is steep. It is likely that for any given effort, none
+of these forces will naturally be working in a campaign’s favor. Second,
+to see quicker change, efforts need to be made to try to manipulate
+these variables in ways that benefit the aims of the influence opera-
+tions. Can the message be framed to more closely coincide with tradi-
+tional beliefs? Are there individuals who may be enlisted to help spread
+the message and who would have credibility with the target audience?
+Very careful planning and a deep understanding of the culture into
+which these ideas are introduced are required. If these factors cannot
+be turned to an advantage, expectations should be set that effects will
+take longer to see.
+How Things Can Go Wrong
+The odds of success in the advertising world are not highly favorable,
+and an advertiser’s fate depends to a large extent on the cards that he
+or she is dealt. For example, it is much easier to increase sales on a new
+brand than on a mature or declining brand, and it is much easier if the
+competition is not already well established (and well funded). These
+odds may be improved somewhat, however, by avoiding a few key pit-
+falls, as discussed below.
+Not Enough Research
+Brand teams may be very skilled at many things, but few can accurately
+assess consumer preferences consistently. One study by Leo Bogart
+(1995) examined the predictive powers of 83 advertising decisionmak-
+ers (brand managers, advertising managers, agency account executives,
+and creative, media, and research people) and found that while these
+experts could judge well whether the ad would be noticed, they were
+poor forecasters of its selling ability. (This point also illustrates that the
+relationship between memorable advertising and effective advertising
+is weak.) Research is needed to understand the target audience and
+how it responds to the product, the packaging, the taglines, the price,
+etc. One famous example illustrates this point. While in blind taste
+108 Foundations of Effective Influence Operations
+tests the new formulation of Coca-Cola was preferred, brand users had
+a very negative reaction when it was associated with the Coca-Cola
+brand. Surprised by this reaction, the company had to pull the new
+formulation and launch a major public relations effort to undo the
+damage. Given the inherent uncertainties arising from the dominance
+of context-dependent factors in outcomes, whether there can ever be
+enough research to accurately predict the results of influence efforts
+remains an important question.
+Misinterpretation of the Research
+Perhaps the best way to make this point is using a quotation from
+David Ogilvy, a well-known advertising executive: “Research is often
+misused by agencies . . . as a drunkard uses a lamppost—not for illumi-
+nation, but for support!” Research can be, and often is, manipulated to
+conform to a certain view not found in the data alone and with detri-
+mental consequences to the success of the brand. It is critical that each
+member of a brand team work to maintain objectivity in interpreting
+the research.
+Ignoring the Research
+Sometimes, those responsible for designing the advertising may even
+be hostile to the research, believing that it encumbers their creativity.
+But to be effective, advertising must be both entertaining and moti-
+vating. Entertaining ads may win awards, but alone they do not sell
+products. For this reason, the brand team members must be ever vigi-
+lant in reminding their agency of the advice from Mark Twain to “kill
+your darlings,” the words or phrases (or in this case, the advertising
+elements) that you are keeping in just because you love them and not
+because they support the message.
+Too Many, or Competing, Messages
+Finally, many brand teams err by trying too many approaches at the
+same time. To be successful, marketing and advertising needs to stick
+to a single message.7 That focus can help the brand build equity among
+7 The “keep it simple, stupid” (KISS) principle is an apt one.
+Case Study of Influence in advertising and Marketing 109
+consumers much more quickly (few would hear the phrase “Just Do
+It” and not think of Nike) and help consumers evaluate whether the
+product is right for them. No one has learned this lesson better than
+political campaign advisors, who are constantly reminding their clients
+to “stay on message.”
+Influence in Advertising and Marketing: Conclusions
+This appendix has examined the well-honed marketing tools that con-
+tribute to successful advertising in the private sector, but also in more
+nontraditional fields. Our case study of advertising and marketing
+offers the following lessons for influence operations:
+Practitioners exhibit great clarity in their aim of selling a good or•
+service by fostering a specific purchasing behavior.
+Advertisers and markets seek to differentiate and segment their•
+markets and audiences (e.g., early adopters versus others) and
+develop appeals that are most likely to resonate with each.
+Practitioners rely heavily on a wide range of sophisticated tech-•
+niques to understand and try to predict consumer behavior.
+Practitioners also rely upon a mix of emotional, cognitive, and•
+creative appeals that are tested and refined to maximize their
+impact.
+The high costs of advertising and the highly competitive advertis-•
+ing and marketing environment make it a high-stakes enterprise
+that frequently leads to clear winners and losers.
+Finally, in contrast to the enthusiasm and hype often encountered,•
+advertising and marketing techniques’ potential contributions to
+information and influence operations should create modest expec-
+tations; for every stunning advertising success story, there is likely
+to be at least one catastrophic failure.
+There are parallel steps in the design of a new product line and the
+design of an influence operations campaign. Ideally, those designing
+that campaign would work to understand what unmet needs exist in
+110 Foundations of Effective Influence Operations
+the population; what actions the United States could take to fill those
+needs; what targets are most receptive to that message; what language
+best communicates the message; which information vehicles are best
+designed to distribute that message; and, after the campaign, which
+aspects of the campaign were the most and least successful. While suc-
+cessful execution of these individual steps certainly does not guarantee
+the success of an overall campaign, it is fair to say that failure in any
+one of them could easily lead to the overall failure of a campaign. 8
+8 For a rather enthusiastic view of the contributions Madison Avenue advertising and
+marketing approaches might make to winning the popular support of foreign publics, see
+Helmus, Paul, and Glenn, 2007. For a somewhat less optimistic—and more empirical—
+analysis of the specific attitudes, beliefs, and other factors that drive or constrain popular
+support for the United States in one theater of operation (South Korea), see Larson et al.,
+2004.
+111
+appEndIx B
+Case Study of Influence in Political Campaigns1
+Introduction
+Political campaigns lie at the heart of the American political system.
+Campaigns present voters with information and a choice of candidates
+in a democratic process; they are characterized as intense activities,
+zero-sum, winner-takes-all games. As described in the last appendix,
+political campaigns also can be thought of as a special case of cause
+marketing, in which the cause is a candidate or proposition.
+Political campaigns require getting a message across to voters. To
+do that, campaigns must define what the message is and devise a strat-
+egy to reach voters who will be swayed by that message. How these
+essential activities are carried out depends on whether the campaign is
+strictly party centered or candidate centered:
+In the case of party-centered campaigns, the message is the party•
+platform, one or several planks, and the voters to be reached are
+those who make up the party’s core constituency and others to
+whom the message might appeal.
+For candidate-centered campaigns, the task is more complex.•
+Candidates must decide at an early stage whether they will stick
+to the party’s message or devise their own. They must also decide
+1 This appendix was written by Daniel Gibran.
+112 Foundations of Effective Influence Operations
+what particular issues or other factors voters are most concerned
+with and who precisely are those voters. 2
+In general, the main objective of political campaigns is straight-
+forward: to mobilize a majority (or plurality) of voters to vote for (or
+against) a candidate. Underneath this broad objective, there is a range
+of nested subobjectives for political campaigns:
+Influence people who are predisposed to vote for the candidate to•
+register, without influencing those predisposed to vote against the
+candidate to do so.
+Influence registered voters inclined to vote for the candidate to•
+turn out at the polls, and influence others to stay home.
+Influence voters to vote for (or against) a candidate.• 3
+Thus, the principal focus of contemporary political campaigns is
+not only to energize the party’s base but also to persuade voters to go
+out and vote on Election Day.
+The landscape of American political campaigns has changed
+dramatically over the last three decades. Public opinion polling, for
+example, is now the key to nearly every facet of campaigning. And a
+campaign cannot even be contemplated without ample access to tech-
+nology and a vigorous research undertaking. These changes have also
+restructured the focus of campaigns.
+While candidates are ultimately responsible for their campaigns,
+they cannot compete effectively, let alone win, without professional
+help. In sum, political consultants have become indispensable to
+modern political campaigns in America, and their craft is based on
+“customary activities that are modified by the trial and error of individ-
+ual practice” rather than on any theoretical underpinnings (Johnson-
+Cartee and Copeland, 1997, p. xix).
+2 There is, for example, some evidence suggesting that simply increasing an individual’s
+exposure to a candidate can increase liking. Negative campaigning also can affect voters’
+views.
+3 We note that such objectives as influencing voters to stay home counter cherished Ameri-
+can values and can be viewed as subverting the democratic process.
+Case Study of Influence in political Campaigns 113
+“No other area of American politics,” write Shea and Burton
+(2001, p. 3), “has so drastically changed over the last few decades than
+the manner in which candidates pursue votes.” Where once the politi-
+cal party, the center of campaign activity for over 150 years, served as
+the organizational foundation of American politics, its role today has
+been diminished somewhat to servicing the needs of a running can-
+didate through financial contributions and expertise. It appears that
+political consultants and, to a lesser extent, political action committees
+now occupy the center stage of the American political campaign pro-
+cess. In short, contemporary campaigns are not fully party centered,
+nor are they strictly candidate centered, rather they are more consul-
+tant centered (Shea and Burton, 2001, p. 12).
+The role of political consultants underscores the paramount task
+of campaigns, i.e., to connect with voters. The consultants and their
+teams devise the strategies, implement the tactics, and manage the
+campaign. All of these activities, however, are still being conducted
+alongside the political party, which continues to provide the platform
+for the campaign process.
+As will be described, the political campaign process is a very
+highly developed and sophisticated art form in America. It is costly
+and involves a large cadre of committed supporters working over an
+extended time period during an election. It is a fierce contest carried out
+within circumscribed rules and legal boundaries that were established
+over hundreds of years. It uses state-of-the-art communications tech-
+niques, such as the Internet, television, direct mail, and phone banks,
+and sophisticated methodologies to assess voters’ attitudes toward par-
+ticular messages and candidates.
+Campaign strategists/consultants divide the electorate in a vari-
+ety of ways—by demographic characteristics, economic interests, geo-
+graphic location, gender, income, and education. The goal is to use
+survey research and polling data to determine what appeals will work
+with audiences and have the running candidate address those audi-
+ences with the appropriate message. And the message is communicated
+through both the free and paid media.
+This appendix is an attempt to describe, among other things, how
+political campaigns achieve their objectives of electing a candidate
+114 Foundations of Effective Influence Operations
+and, in particular, how they assess the electorate, how they develop
+and pursue winning strategies, the types of techniques and research
+tools they use, and the multiple roles they play in the entire process. It
+draws on the current literature and identifies various theoretical and
+practical considerations that go into political campaigns. It also offers
+some thoughts on potential lessons for the U.S. military and its influ-
+ence operations efforts in places such as Iraq and Afghanistan.
+This discussion will be organized according to a framework that
+is easily adaptable to various situations, as follows:
+Assess the electorate.•
+Identify target groups.•
+Measure baseline attitudes.•
+Develop, test, and field messages.•
+Measure again, and adapt messages to changing circumstances or•
+developments.
+Assessing the Electorate
+Assessing the Political Terrain
+An assessment of the electorate begins with the knowledge and under-
+standing of what campaign consultants refer to as the landscape, the
+environment, or the political terrain. Understanding this context or
+landscape is key to distinguishing the tractable elements from the
+intractable ones. Who else is on the ballot, what do the demographics
+look like, what office is being contested? These are some of the ques-
+tions that define the terrain and must be addressed before discussion of
+campaign strategy and tactics (Shea and Burton, 2001, p. 25). While
+campaigns are about strategy, they are also about the terrain on which
+the strategy operates. In many respects, they are like military cam-
+paigns. The literature likens a political campaign to what military com-
+manders do when preparing for a war. Take geography for example.
+No modern campaign strategy can be launched successfully, whether
+at the national or at the state and local levels, without geographic con-
+siderations. The physical characteristics of a district, such as its size,
+Case Study of Influence in political Campaigns 115
+density, and location, mold campaign activities and constitute a crucial
+step in the evaluation process.
+Demographics
+One very important assessment technique is demographic research
+describing the characteristics of the electorate, which is very different
+from opinion polling, which focuses on attitudes. 4 Demography is the
+study of population, and demographers quantify a population’s size,
+growth, education, gender, race, ethnicity, income, and other features
+in order to construct a profile of the target population.
+All political campaigns need demographics, and any winning
+strategy is influenced by the knowledge of a district’s demographic pro-
+file: its mix of race, ethnicity, consumer preference, education levels,
+gender distribution, and a range of other attributes that define the elec-
+torate. How a campaign collects and uses this information at the aggre-
+gate level can determine a candidate’s success or failure. Accordingly,
+to target the right voters, political campaigns rely on demographic
+research. Demographers assume that “populations are heterogeneous,”
+that this “heterogeneity can be used to divide voters into separate ana-
+lytic groups,” and that “membership in a demographic group suggests
+shared concerns” (Shea and Burton, 2001, pp. 43–44). There typically
+is a fairly strong correlation between party preference and wealth, race,
+and occupation, for example.
+Demographic inference remains a business of probabilities, not
+certainties. For political campaigns, conjectures and assumptions
+about the relationship between characteristics of the electorate and
+their likely voting behavior are tested and refined using a variety of
+statistical tools. These tools help campaign planners discover which
+groups are likely to matter the most in building a winning coalition, so
+that these groups can be targeted with the most appropriate messages.
+In other words, aggregation of the collected data on individuals helps
+4 A campaign planner’s need for demographic information is aptly illustrated in the
+1986 film, Power, when Gene Hackman, playing the role of an aging political campaigner,
+approaches a former colleague, Richard Gere, now a “new-style” political consultant, and
+requests crucial information on how to make his candidate competitive. Hackman lacked
+one of the basic tools of the new craft.
+116 Foundations of Effective Influence Operations
+campaign researchers to understand the character of larger groups.
+For example, white males as a group tend to vote differently than say
+unmarried black women, and, as a group, older people are more likely
+to vote than are younger people. Rather than shooting in the dark,
+analysis of demographic data can help a campaign to target its message
+at those voters in a district whom it is most likely to be able to persuade
+and avoid wasting scarce campaign resources on those it is unlikely to
+influence. In sum, good demographic research, an indispensable tool
+in a campaign’s arsenal, compiles and provides a general understanding
+of an electorate.
+In addition to the Statistical Abstract of the United States, the U.S.
+Census remains the major source of demographic information for polit-
+ical campaigns. While Census data are not perfect, they do provide a
+wide variety of demographic characteristics that are useful to the politi-
+cal researcher. These data are presented in two basic formats, namely,
+summary data and micro-data. Summary data sets are based on spe-
+cific geographic units, such as states, cities, and townships, and are
+considered standard information. Micro-data sets, on the other hand,
+are a completely different type of resource. A researcher can restructure
+micro-data information to perform queries on individual-level sur-
+veys. Thus, the key to using Census data is the search for demographic
+correspondence and specificity. Once data are gathered, they can be
+imported into a database and displayed on a spreadsheet, or they can
+be represented in a more complex way through a relational database
+management system that the researcher can use for linking data sets.
+This combination of individual-level data with demographic informa-
+tion provides campaign consultants with better insights on subgroups
+and, thus, helps them to convey their messages to the right voters. In
+short, demographics provide very useful information, and campaign
+strategies are shaped by such information.
+Developing and Pursuing Winning Strategies
+A strategic visualization of the district is a general theory of electioneer-
+ing, applicable at all campaign levels. In devising winning strategies,
+Case Study of Influence in political Campaigns 117
+political consultants constantly seek a clearer and better understand-
+ing of an electoral district. Electoral history provides some guidelines:
+A district that votes two-thirds Republican in a national election in
+2004 will in all probability vote the same way in 2008. This postulate
+“helps campaign professionals see what precincts have a highly parti-
+san vote and which fluctuate between Republicans and Democrats”
+(Shea and Burton, 2001, p. 76). Thus, campaign professionals know
+through historical data that some districts vote Republican or Demo-
+crat by roughly the same percentage year after year and that some states
+are more favorable to third-party candidates, and they use this under-
+standing in the development of their campaign strategy.
+A typical visual representation of an electorate shows a district
+that generally splits its vote 50-50 between Republicans and Demo-
+crats. This configuration is illustrated in Figure B.1.
+The figure shows that only about 20–25 percent of the elector-
+ate (the base-partisan vote) is a lock for either political party. About
+16 percent on each side (the soft-partisan vote) probably will vote for
+each party, and 16 percent of the vote (the toss-up) is completely up for
+grabs. This model underscores an important political truth: In a com-
+Figure B.1
+Diagramming an Electorate
+RAND MG654-B.1
+SoftBase
+Partisan vote Partisan vote
+BaseSoft
+Average Democratic performance Average Republican performance
+Toss-up vote
+Swing vote
+Liberal Democrat Conservative Republican
+118 Foundations of Effective Influence Operations
+petitive election, a small group of generally uncommitted voters can
+decide the outcome. Thus, electoral targeting is a perennial quest for
+the deciding vote (the median voter) that resides with a small group.5
+Campaigns can differ in how they go about attempting to cap-
+ture the median voter. Perhaps the most striking recent example of
+differences in strategy is to be found in the 2004 presidential contest
+between Republican incumbent George W. Bush and Democratic chal-
+lenger John Kerry. By all accounts, the Bush strategy was to mobilize
+turnout from his base of Republican conservatives, evangelical Chris-
+tians, and others who already were predisposed to vote for him and to
+avoid diluting his message to appeal to more-moderate voters. By com-
+parison, the Kerry strategy appears to have been composed of a mix of
+comparable efforts to mobilize the Democratic faithful and efforts to
+increase Kerry’s appeal to moderates who were, for example, concerned
+about national security issues.
+Developing a winning strategy thus depends on knowing the
+number of potential voters residing in a district. In addition to map-
+ping the district, i.e., by examining its social, economic, and politi-
+cal cultures, the campaign would want to know how many people are
+registered to vote, what party they belong to, and how many eligible
+voters actually vote on Election Day. Through statistical analyses of
+data gleaned from the historical record and current aggregate data,
+campaign professionals decide what strategies to pursue.
+To underscore the accomplishments of the running candidate
+and translate his or her achievements into practical and appealing con-
+nectors to voters, campaign researchers often prepare two sets of docu-
+ments, one containing simple, straightforward information about the
+5 The vagaries of Electoral College politics complicate this simple voting rule in that a
+single candidate wins all of the electoral votes for states in which he or she enjoys a majority
+or plurality. Three-way contests typically are decided by a simple plurality of voters. In the
+1992 three-way contest between incumbent George H.W. Bush and challengers Bill Clin-
+ton and Ross Perot, for example, Arkansas governor and presidential aspirant Bill Clinton
+won 43 percent of the popular vote, while incumbent George Bush won about 38 percent,
+and third-party challenger Ross Perot won about 19 percent. The winner-take-all nature of
+the electoral vote count made the result even more lopsided, however: Perot failed to win a
+single state, leaving Clinton with 370 electoral votes, and Bush 168, a better than two-to-one
+advantage.
+Case Study of Influence in political Campaigns 119
+candidate for general use; the other a more detailed version of the can-
+didate’s life, public service, and accomplishments (Shea and Burton,
+2001, pp. 66–67 ). While not a legal requirement, the elaborated ver-
+sion is prepared for possible use when it is needed and serves a useful
+purpose in meeting the opposition’s challenge and answering media
+queries.
+Of the various strategies mentioned so far, opposition research
+is perhaps the most interesting and has direct relevance to influence
+operations efforts to counter adversary propaganda. In contemporary
+politics, a campaign strategy that fails to engage in opposition research
+is ill-equipped to exploit the opposition’s vulnerabilities. While both
+incumbents and challengers in a race use opposition research as an
+offensive weapon, it seems to be a particularly useful stratagem for the
+latter when a race is tight and when political symbolism takes hold
+most strongly when it is confirmatory of an underlying belief. 6
+Not all opposition research is implemented in service to mud-
+slinging. Republican consultant Terry Cooper observed that opposi-
+tion research is an increasingly important tool in the campaign for the
+challenger who is less known to the electorate. Such research, he said
+“is valuable because of voter inertia—the tendency of the vast majority
+of the electorate to re-elect the incumbent or vote for the better-known
+candidate unless someone gives them good reason to do otherwise”
+(Cooper, 1991, p. 18). But what exactly is opposition research, and why
+is it considered a useful campaign strategy?
+Opposition research “is public-records research on the political,
+business, professional and personal background of candidates” (Reger,
+2003, p. 215). A highly technical and complex process, it involves
+information gathering and analysis of publicly verifiable documents. It
+embraces both the prospective and retrospective aspects of evaluation.
+The first aspect is based on anticipatory assumptions, what the candi-
+date promises to do for voters, and his or her qualifications and person-
+ality. A good example of this prospective lens is when presidential can-
+6 A widely cited example was the image of Democratic presidential contender Michael
+Dukakis wearing an oversized helmet while riding in a tank. The image was meant to bur-
+nish his credentials as strong on defense, but generally was viewed in the opposite light.
+120 Foundations of Effective Influence Operations
+didate Bill Clinton promised a “bridge to the 21 century” to American
+voters. Retrospective evaluations look at past actions in order to judge
+a candidate’s future behavior. For example, when Ronald Reagan asked
+during a debate with president Carter, “Are you better off now than
+you were four years ago?” he was directing voters to look at the Carter
+administration’s past problems.
+Political campaigns focus on the retrospective because the past
+is not only “considered a strong predictor of the future,” it is also less
+complex for voters to decipher (Shea and Burton, 2001, p. 60). Opposi-
+tion research, therefore, is an information-gathering process that lever-
+ages “a message by specifically attacking an opponent’s weakest points”
+(Cooper, 2003, p. 204). According to Rich Galen (2003, p. 199), it “is
+the process of finding out as much about your opponent as your oppo-
+nent probably knows about you.” In nearly all instances, it seeks out
+bits and pieces of factual information that, when given a certain inter-
+pretation, conveys a negative message of the opponent to the electorate
+by pointing out shortcomings in past behavior. In doing so, it “taps
+into the process of retrospective evaluation” (Shea and Burton, 2003,
+p. 60). The rationale is based on the premise that a message that focuses
+on an opposition candidate’s past has a powerful appeal to voters, even
+while they decry negative campaigns. In the election process all across
+America, opposition research now occupies a special place among cam-
+paign professionals, and for those running an underdog campaign, it is
+a highly essential ingredient in the strategic mix.
+The utility of opposition research lies in its persuasive appeal to
+factual information placed in a proper perspective. Merely regurgitat-
+ing a statement of fact about an opposition candidate is not very useful.
+For example, a research report on presidential hopeful Michael Duka-
+kis stating that while he was governor of Massachusetts supported a
+“furlough” program is an interesting piece of fact but not very helpful
+as it lacks perspective. Using this same fact, if this report should state
+that Dukakis “supported a furlough program that allowed first-degree
+murderers to have furloughs, including Willie Horton,” the appeal to
+voters would be more persuasive (Reger, 2003, p. 216). And that was
+precisely what was done.
+Case Study of Influence in political Campaigns 121
+Opposition research is simply knowing where the opponent stands
+vis-à-vis one’s own position and then hitting him or her at his or her
+weakest points. It is not necessarily about “dirty tricks,” although the
+information is quite often presented in a slightly twisted form to make
+the facts more appealing to voters and damaging to the opponent. And
+although retrospective in most instances, the facts are skillfully manip-
+ulated to serve a partisan end.
+Advertising is another strategy political campaigns use to energize
+their base and get their candidate’s message across to voters. Johnson-Cartee
+and Copeland (1997, p. 149) noted: “political advertising has become
+almost synonymous with political campaigning.” Since becoming part
+of the campaign staple, research studies have confirmed that political
+advertising is both effective and an important component of the politi-
+cal process (Johnson-Cartee and Copeland, 1997, p. 150). However,
+advertising’s efficacy does not span the entire spectrum of the voting
+public or of all types of elections. Research conducted in 1975 and
+after “has demonstrated that the effectiveness of political advertising
+[was] strongest in low-level and local races such as primary elections,
+nonpartisan races, and races for state positions and campaigns for the
+House of Representatives” (Johnson-Cartee and Copeland, 1997, p.
+153). Effects also operate on different levels according to a typology
+devised by Kaid. They can be cognitive, what people know; affective,
+how people feel about what they know, and behavioral, how people act
+based on what they know and feel (Kaid, 1981). Devlin (1986) exam-
+ined the purposes for which political advertising can be effectively used
+and constructed a “typology” of potential goals. He recognized the fol-
+lowing goals. Political advertising
+develops name recognition for a candidate•
+acts as a reinforcing agent for those who have selected a candidate•
+to support
+may be used to redefine the perceptions of a candidate or party•
+is used because it is conceived as expected behavior for a•
+candidate.
+122 Foundations of Effective Influence Operations
+Political advertising is an important aspect of the American elec-
+toral landscape. It providers voters information on candidates, and
+according to Johnson-Cartee and Copeland (1997, p. 155), it “is effec-
+tive, strategic, and necessary” Per Johnson-Cartee and Copeland (1997,
+p. 162), advertising strategies fall into one of four categories of ads,
+namely:
+Positive ads:1. designed to position the candidate and improve his
+or her name recognition; they also state the candidate’s perspec-
+tives on issues and promote his or her leadership qualities.
+Negative ads:2. used to question the opponent’s fitness for office
+by casting him or her in an inferior position, hence unfit to hold
+office.
+Reactive response ads:3. designed to answer the opposition’s nega-
+tive ads.
+Proactive inoculation ads:4. used to undermine, deflect, and reduce
+the power of anticipated negative attacks.
+While the majority of political ads fall into the first two catego-
+ries, there has been a steep increase in negative ads over the past sev-
+eral years. In the last two general elections, for example, negative ads
+dominated the airwaves, with many of them being “uncreative, mean-
+spirited, heavy-handed, tasteless, insulting or just plain stupid” (Seder,
+2003, p. 379).
+One of the latest and perhaps hottest trends in political campaign
+strategy is the use of mass-produced videos, DVDs, and the Internet.
+Given the exorbitant cost of television advertising and “increased audi-
+ence fracturing” (Faucheux, 2003, p. 392), many campaigns have been
+forced to devise new and innovative strategies to extend their target
+range. The political use of videos has many advantages, ranging from
+cost savings and potency of an extended message to pinpoint target
+distribution and momentum creation. And they can be used at appro-
+priate times to define a candidate’s image and central message, for
+fundraising, for recruiting and mobilizing volunteers, and for target-
+ing messages to special groups of voters (Faucheux, 2003, pp. 392–
+393). During the 2004 general election, the Internet’s use for fund-
+Case Study of Influence in political Campaigns 123
+raising, opinion formation, interest mediation, message dissemination,
+and feedback was spectacular. For example, it is widely believed that
+Howard Dean’s early success during the 2004 Democratic primary run
+can be attributed to his skilful use of the Internet in mobilizing the
+Democratic base of liberals, particularly in the area of fundraising. In
+a similar vein, in the 2000 Republican primary, a political consulting
+firm reportedly “helped raise $6.4 million online for John McCain’s
+presidential campaign” (Ireland and Nash, 2003, p. 605).
+Techniques and Analytic Tools
+Political campaigns are said by practitioners to be more art than science
+and, to the extent that they are a science at all, an inexact one. This is
+not to say that scientific methodologies and tools are irrelevant or unim-
+portant to political campaigns. To be sure, campaign managers do rely
+on scientific techniques to inform their strategies and tactics. But the
+process as a whole is infused more with tried and successful practices
+than with hard science. However, the tools or mechanics of political
+campaigns have changed dramatically over the past several years, with
+the adoption of new communication technologies such as the Internet,
+direct mailing, and phone banks. “These innovations,” writes Andrea
+Rommele (2003, p. 8), “have occurred alongside an intensification of
+existing methods of divining voters’ thoughts, such as opinion polls
+and focus groups.” The following focuses on some of the more specific
+techniques political campaigns use: focus groups, polling, direct mail,
+and message design and word choice.
+Focus Groups
+Focus groups have come of age in political campaigns. Their wide use
+in the commercial marketplace is well documented, and only in the
+mid-1980s did this technique become commonplace in major politi-
+cal campaigns. Today, it is a standard research tool in almost all races
+and with “their electronic cousin, dial meter groups, have become the
+hot, even faddish, new tool in the pollster’s arsenal” (Johnson, 2001,
+p. 102). They reveal useful information about attitudes, fears, and
+124 Foundations of Effective Influence Operations
+preferences—information that helps campaigns structure their mes-
+sages with optimal resonance.
+The focus group is a structured conversation. Krueger (1988, p.
+18) defines it as “a carefully planned discussion designed to obtain per-
+ceptions on a defined area of interest in a permissive, nonthreatening
+environment.” To achieve this meticulously planned discussion, eight
+to twelve individuals, carefully chosen to fit a targeted demographic or
+political cluster, are asked both general and specific questions by a skil-
+ful “moderator adept at bringing out participants’ responses through
+open-ended questions and associational techniques” (Johnson, 2001, p.
+102). The selection of participants is a carefully planned undertaking.
+This sharing of a set of common characteristics creates a homogeneous
+group, which in turn fosters the permissive, nonthreatening environ-
+ment needed for cohesion and smooth functionality. Moreover, small
+group participation and dynamics are also considered important fea-
+tures of focus groups.
+With members seated around a table, the moderator works from
+a carefully prepared script, soliciting responses from participants in a
+variety of ways. The discussion is recorded either on audio or on vid-
+eotape so that a transcript and a detailed analysis become available to
+members for comments. Thus, “it is the transcript of the focus group
+that serves as the source of the actual data from a focus group” (John-
+son-Cartee and Copeland, 1997, p. 141). The transcript provides a sense
+of the views, both rational and emotional, of participants and conveys
+insights that can prove very useful in campaign strategy.
+While the focus group method is in vogue in political campaigns,
+it is not the panacea for all campaign ills. In a number of instances,
+however, it has unearthed the magic bullet, that “piece of information
+that turns a fledging campaign into a winner”(Hunter, 2003, p. 190).
+The Willie Horton episode in the 1988 presidential campaign, its par-
+ticular twist and raw emotional appeal, were revealed in a focus group.
+A Time magazine report recalled the scene:
+The moderator began asking rhetorical questions. “What if I told
+you that Dukakis vetoed a bill requiring schoolchildren to say the
+Pledge of Allegiance? Or, that he was against the death penalty?
+Case Study of Influence in political Campaigns 125
+Or that he gave weekend furloughs to first-degree murderers?”
+“He is a liberal!” exclaimed one man at the table. “If those are
+really his positions,” a woman added, “I’d have a hard time sup-
+porting him” (“Nine Key Moments,” 1988).
+The result: Bush, who had been 16 points behind Dukakis in the
+polls, pulled ahead and won. While focus groups can provide useful
+insights, they seem most useful in providing campaigns with informa-
+tion that was overlooked or misread by the campaign team.
+Polling
+Polling is an important element of modern survey research. A multibillion-
+dollar enterprise in the business sector in which it was pioneered many
+years ago in the form of consumer testing of products, polling has
+become the cornerstone of U.S. elections. It is an efficient means by
+which political campaigns come to understand what issues are really
+important to voters. Moreover, campaigns conduct polls to test and
+fine-tune their central message or theme to ensure clarity and appeal.
+Polling is costly, an expensive undertaking that every campaign budgets
+for because of its strategic value. It is one of the best ways to “gain accu-
+rate data about the attitudes and perceptions of the electorate. When
+political operatives want reliable information about voter attitudes,
+polling is considered a necessity” (Shea and Burton, 2001, p. 100). It
+has become the key to every facet of campaigning and office holding.
+“Candidates and office-holders,” opines Dennis Johnson (2001, p. 90),
+a practitioner of the art, “increasingly rely on the weathervane of public
+opinion to point to the mood of the public, adjust to its nuances, and
+use the public as a sounding board for campaign and policy themes.”
+According to veteran Democratic pollster William Hamilton (1995,
+p. 178), polling is the “central nervous system” of modern political
+campaigns.
+Polling has several uses.7 It begins with assessments of name rec-
+ognition and candidate preference. It helps to identify and accurately
+pinpoint voters’ concerns. In other words, it helps a campaign organi-
+7 See Shea and Burton, 2001, pp. 101–102, for a complete list of the uses of polling.
+126 Foundations of Effective Influence Operations
+zation find the right issues to focus on. Polling also conveys the elector-
+ate’s sense of the candidates, how they are perceived, and what behav-
+ior, inappropriate or otherwise, would be of concern. Another use of
+polling is the information it unearths about voters’ underlying atti-
+tudes about various social and political values. At its best, “polls allow
+campaign managers to gauge the potential effectiveness of strategies
+and tactics” (Shea and Burton, 2001, p. 102).
+Political campaigns conduct several types of polls during an elec-
+tion run, ranging from benchmark surveys that illuminate preexisting
+beliefs and attitudes to trend surveys and tracking polls that can be
+used to assess the success of the campaign. Focus groups are widely
+used in the beginning of a campaign, setting the stage for the bench-
+mark survey. This survey is the first major poll taken by a campaign to
+provide baseline measures on a variety of issues. It allows for a detailed
+analysis of strengths and weaknesses, message relevance, and fine-tuning
+of the campaign theme. It normally consists of a large sample, has a
+long list of questions, and is conducted about eight to twelve months
+before the campaign starts in earnest. This provides campaign consul-
+tants with sufficient time for analysis and strategy optimization. Trend
+surveys, less cumbersome than the benchmark poll, are usually taken
+four or five months after the first major poll. They are conducted when
+there are discernable movements or changes in the campaign, such as
+commercials run by the opponent. In some campaigns, a follow-up
+poll is conducted around the halfway point for the purpose of uncov-
+ering and correcting any strategic mistakes. During the last weeks of
+a campaign, tracking polls are conducted to determine late trends or
+movements of public preference. They are short and cover a limited
+range of questions.
+Campaigns use a number of statistical techniques to analyze poll-
+ing data for the purpose of fine-tuning their candidate’s message; data
+analysis has become a crucial part of modern political campaigns.
+The analysis of means and standard deviations is a simple but
+useful approach for understanding the distribution of responses on a
+variable, and it can help campaigns determine subgroup differences
+and illuminate the sorts of messages that might resonate with particu-
+lar voters.
+Case Study of Influence in political Campaigns 127
+Analysis of variance (ANOVA) and chi-squared automatic inter-
+action detector (CHAID) analysis are multivariate techniques that seg-
+ment a sample according to the relationship between the dependent
+variable in the analysis and a set of predictors or independent variables.
+CHAID is a technique that “examines all possible splits of the depen-
+dent variable by performing classification and segmentation analysis
+using significance testing. It is a method [campaign researchers] use
+for profiling a candidate’s base, opposition and, most importantly, the
+swing voters” (Wilson, 2003, p. 171). CHAID analysis identifies where
+the swing voters live; their income level, gender, and education; and
+who among them are likely to turn out on Election Day and vote. By
+employing this technique, campaign strategists are able to identify and
+craft the messages that resonate best with these swing voters.
+Simple and multiple correlation analysis can help reveal associ-
+ations between variables, e.g., the relationship between respondents’
+voting intentions and the messages they remember; regression analysis
+can help model relationships between variables and make predictions
+regarding important phenomena, such as which voters are most likely
+to respond positively to direct mail and phone calls. 8
+Direct Mail
+Direct mail has become an increasingly important means of commu-
+nicating messages to possible supporters. Direct mail is influenced by
+what political consultants call targeting: Rather than sending out mail
+to all potential voters in a district, for maximum effect, a campaign
+targets those who could vote for the campaign’s candidate if it just
+worked harder to get their votes. This category of voters, those who
+could vote for the campaign’s candidate, becomes the target for direct
+8 Other, more sophisticated techniques also are used in some rare cases. For example,
+ratio-scaled metric multidimensional scaling “allows the investigator [political researcher]
+to specify the precise messages which are likely to yield the most positive audience response”
+(Woelfel et al., n.d.[a], p. 10). Another sophisticated method that is seeing some use is the
+neural net, a software program that mimics the architecture of the human brain and memory.
+Like the brain, it is made up of cells or neurons that can learn and make associations. Neural
+nets “can help to recognize patterns that are not linear in nature . . . [and] to sort out voter
+history data which tends to be messy, nonlinear and very important in predicting behavior”
+(Malchow, 2003, p. 235).
+128 Foundations of Effective Influence Operations
+mail. Direct-mail campaigns can involve sending multiple messages to
+the target audience, although, at some point, sending additional mes-
+sages may prove to be counterproductive.
+Green (2004) cites the estimates of presidential political strategist
+Karl Rove regarding the effects of direct mail during the 1994 Texas
+governor’s race. Figure B.2 plots these data as solid lines along with
+notional extrapolations in dashed lines.
+As shown in the figure—and similar to what was described in
+our review of the empirical literature on the effects of advertising and
+marketing in Chapter Three—the greatest return occurs with the first
+messages, and the dose-response function is characterized by diminish-
+ing, and then negative, returns.
+Message Design and Word Choice
+Campaigns seek to boost their candidates profiles and appeals to voters
+by ensuring a high level of message relevance. Developing the right
+message, one that appeals to voters’ needs and connects issues with
+peoples’ concerns and their lives, one that is relevant and timely, is the
+Figure B.2
+Impact of Direct Mail During 1994 Texas Governor’s Race
+RAND MG654-B.2
+0.60
+0.50
+0.40
+0.30
+0.20
+0.10
+0.70
+0
+98765
+Number of messages
+43210 10
+Probability (turnout)
+Rove data
+Extrapolated
+Case Study of Influence in political Campaigns 129
+“paramount task of the campaign” (Johnson, 2001, p. 66). The artful
+form and the personal manner in which messages can be portrayed to
+potential voters are indeed fascinating and compelling. Consider the
+following statements (Johnson, 2001, p. 66):
+Senator A forced the U.S. Environmental Protection Agency to•
+close eight toxic waste dumps; now our communities are healthier
+and our children are much safer.
+Twelve hundred new jobs have come to our community thanks to•
+Senator A’s tough action and leadership in Washington.
+The idea informing this art form is to make a political message rel-
+evant to the needs of voters by showing them how their aspirations can
+be met by the candidate. In other words, ensuring message relevance
+helps voters to understand and connect with an issue that is meaning-
+ful to them. For example, most voters are not interested in the esoteric
+debates of a complicated World Trade Organization agreement that
+a running candidate participated in, but rather, how that candidate
+fought for jobs and higher wages during the negotiations. The strategy
+most likely to win votes is the one that connects a candidate’s campaign
+message to the needs of the electorate. In sum, voters must understand
+the relationship of the message to their lives and community.
+The power of language to persuade and the precise choice of
+words to exploit their inherent emotional appeal have entered the fray
+of political campaigns. During the 2000 presidential election, for
+example, incumbent George W. Bush reportedly adopted an approach
+developed by Republican pollster and tactician Frank Luntz, which
+reportedly was “Forget action. Improve your image by revising the way
+you talk. Let them eat words” (see Tannen, 2003, p. 30).9 The Repub-
+lican strategy was very simple but extremely powerful. In a number
+of speeches on the campaign trail, President Bush adopted this strat-
+egy. Words such as “children,” “dream,” “hope,” and “love” were used
+repeatedly to stir emotions and galvanize support, while other words
+9 Georgetown University linguistic professor Deborah Tannen examined the linguistic les-
+sons from Republican political strategist Frank Luntz.
+130 Foundations of Effective Influence Operations
+were used to invoke fear.10 The strategy worked, according to Luntz,
+because “politics remains an emotional arena, and television has made
+fear a salable commodity. But fear alone is not enough. The commodity
+Americans most desire—and the one in shortest supply—is hope” (quoted
+in Tannen, 2003, p. 30). The strategy’s success appears to have been
+the result of a combination of appeals that resonated with would-be
+voters, and ensuring that they would be remembered and internalized
+through constant repetition.
+Influence in Political Campaigns: Conclusions
+The lessons from our case study of U.S. political campaigns include the
+following:
+The objectives of political campaigns typically are quite clear:•
+mobilize a majority (or plurality) of voters to vote for (or against) a
+candidate by: (1) influencing people to register (or not), (2) influ-
+encing registered voters to turn out at the polls (or stay home), and
+(3) influence voters to vote for (or against) a candidate.
+Political campaigns make substantial efforts to•
+understand the political landscape in detail–
+differentiate among target audiences (e.g., core supporters who–
+are almost sure to vote for a candidate versus others who might
+vote for the candidate)
+identify the best communication channels to reach audiences–
+10 In a speech delivered on education in New Hampshire, for example, Bush followed a
+strategy of inculcating fear and promising hope when he reminded parents, “In an Ameri-
+can school year there are more than 4,000 rapes or cases of sexual battery, 7,000 robberies
+and 11,000 physical attacks involving a weapon. . . . We must restore the American dream
+of hope, the diminished hopes of our current system. Safety and discipline are essential.
+But when we dream for our children, we dream with higher goals. We want them to love
+learning. And we want them to be rich in character and blessed in ideals.” He went further,
+“Everyone must have a first-rate education, because there are no second-rate children, no
+second-rate dreams” (quoted in Tannen, 2003, p. 30).
+Case Study of Influence in political Campaigns 131
+craft and test messages that will resonate with each target audi-–
+ence through carefully tailored cognitive, affective, or socially
+compelling appeals
+monitor developments and adapt to campaign twists and turns–
+using a variety of methods (focus groups, polling, town halls,
+and smaller meetings with the candidate).
+Political campaigns primarily communicate messages to their•
+audiences through paid (i.e., advertising) and free media (i.e.,
+news reporting), and through direct mail, phone banks, and other
+means of directly reaching prospective voters.
+Although efforts have been made to export U.S.-style political
+campaigning approaches to other political societies, it is not at all clear
+which concepts, approaches, and lessons of contemporary U.S.-style
+political campaigning cleanly transfer to less developed polities such
+as those in Iraq and Afghanistan, which might reasonably be adapted
+to these environments, and which are irrelevant.11 Nevertheless, the
+basic approach described above appears to have substantial relevance to
+influence operations and STRATCOMM.
+11 For example, the poor security situation in Iraq makes it impossible to hold large rallies
+with candidates because they may be targeted by bombers. See Raphaeli, 2004.
+
+133
+appEndIx C
+Case Studies of Influence in Public Diplomacy1
+The traditional American view on national strategic influence opera-
+tions is that they are justified only during times of war and should
+be gotten rid of as quickly as possible once the war is over. This view
+accounts for the rapid demolition of U.S. information activities after
+World War I, World War II, and in many ways after the Cold War. 2
+It also accounts for the shifting definitions that have been given to a
+consistent set of activities over the second half of the 20th century, with
+the idea seemingly being that changing the names makes these activi-
+ties more palatable to the American people.
+In classical terms, strategic influence activities are broadly consid-
+ered to be synonymous with public diplomacy or propaganda. The term
+“propaganda,” however, has become quite tainted in the United States
+and other Western societies insofar as its popular usage assumes that
+propaganda must consist entirely of falsehoods, and it is rarely used by
+U.S. government officials to describe their activities. 3 This contrasts
+with its classical usage, which suggests that propaganda may either be
+1 This appendix was authored by Lowell Schwartz.
+2 During World War II, the Office of War Information was in charge of all domestic and
+international information activities. After the war concluded, this office was liquidated, and
+information activities in occupied countries were turned over to the Army. In this capacity,
+the Army, under Brigadier General Robert Alexis McClure in Germany, put in place a “de-
+Nazification” program, which included rigorous controls on all German domestic media. For
+details of this highly successful program, see Ziemke, 1975; Cragin and Gerwehr, 2005, pp.
+28–30.
+3 According to the commander of the Fourth Psychological Operations Group, “we call our
+stuff information and the enemy’s propaganda” (Gerth and Gall, 2005).
+134 Foundations of Effective Influence Operations
+truthful or not, but principally distinguishes between types of propa-
+ganda (white, black, or grey) in terms of source disclosure. 4 The “odor”
+associated with the term—and the broader sweep of activities conducted
+under the umbrella of strategic influence operations—is accountable to
+a host of legitimate concerns that relate to trust in government, possible
+government manipulation of the press, efforts to mislead the American
+public about government policies, and other concerns. Coupled with
+such cultural touchstones as Orwellian doublespeak and the highly
+congenial environment for conspiracy theories about the effectiveness
+of mass “mind control,” “brainwashing,” “perception management,”
+and other dubious phenomena,5 revelations about government strate-
+gic influence activities have tended to result in a high degree of press,
+including elite and public attention and concern whenever they occur. 6
+Trust in a government’s credibility is a key issue.
+Accordingly, the most common name used today for public
+strategic influence activities at the national level is public diplomacy.
+According to the State Department, “Public diplomacy seeks to pro-
+mote the national interest of the United States through understanding,
+informing and influencing foreign audiences.” Perhaps a better defini-
+tion is from Hans N. Tuch (1990, p. 3), who defined public diplomacy
+as “official government efforts to shape the communications environ-
+4 DoD defines “propaganda” as “any form of communication in support of national objec-
+tives designed to influence the opinions, emotions, attitudes, or behavior of any group in
+order to benefit the sponsor, either directly or indirectly”; “white propaganda” as “propa-
+ganda disseminated and acknowledged by the sponsor or by an accredited agency thereof”;
+“black propaganda” as “propaganda that purports to emanate from a source other than
+the true one; and “grey propaganda” as “propaganda that does not specifically identify any
+source” (DoD, 2007).
+5 A scholar of brainwashing of American prisoners of war during the Korean War sug-
+gested that the popular image of brainwashing as entailing “extensive delusion and excessive
+[mental] distortion . . . is a false one” (Schein, 1961).
+6 Debates about the objects and limits of strategic influence operations have been extensive
+both within and outside the Pentagon. See, for example, Schmitt and Dao, 2002; Schmitt,
+2002a, 2002b, 2003; Shanker and Schmitt, 2002, 2004. Gerth and Gall, 2005, details the
+furor that arose with the creation of the Office of Strategic Influence in February 2002 and
+the December 2005 revelations that the Pentagon was using private firms to assist in the
+development of strategic influence campaigns.
+Case Studies of Influence in public diplomacy 135
+ment overseas in which American foreign policy is played out, in order
+to reduce the degree to which misperceptions and misunderstandings
+complicate relations between the U.S. and other nations.”
+Public diplomacy differs from PA in that PA is generally directed
+at informing domestic audiences while public diplomacy is focused
+on foreign audiences. Public diplomacy also differs from traditional
+diplomacy in two ways. First traditional diplomacy emphasizes private
+interactions with foreign governments, while public diplomacy deals
+primarily with overt nongovernmental organizations and individuals.
+Second, public diplomacy often presents many differing views includ-
+ing those of private American individuals and organizations in addi-
+tion to official U.S. government views. Public diplomacy can include
+activities such as cultural exchanges, educational programs, and media
+broadcasts.
+Public diplomacy can be considered to be white propaganda, in
+which the source is identified correctly and the information tends to
+be factual and accurate. U.S. government activities such as the Voice of
+America and State Department information programs would fit under
+the definition of white propaganda. Strategic influence activities also
+include what are known as special activities, another form of national
+strategic influence operations.7 Historically, these would fit under the
+definition of black propaganda, in which the presumed source of the
+information is false or unknown. Black propaganda activities include
+clandestine radio stations, the spreading of rumors, and the planting of
+newspaper stories.
+Case Studies
+We used two case studies to illuminate the basic parameters of strate-
+gic influence operations. The first case study reviews the United States
+strategic influence efforts against the Soviet Union during the early
+7 Special activities also might be labeled covert actions and are defined by Sec. 503 (e) of the
+National Security Act as “activities conducted by the U.S. Government to influence political,
+economic, and military conditions abroad, where it is intended that the role of the United
+States Government will not be apparent or acknowledged publicly.”
+136 Foundations of Effective Influence Operations
+years of the Cold War. The second considers U.S. efforts before Opera-
+tion Iraqi Freedom to convince world opinion that Hussein’s weapons
+of mass destruction (WMD) capability had to be eliminated, either
+through international inspectors or through his removal from power.
+Each case study will briefly consider the objectives, strategy, intended
+audiences, instruments of communications, and methodologies used to
+assess the impacts of the strategic influence operations.
+Case Study 1: The Strategic Influence Campaign Against the Soviet
+Union During the Early Cold War
+U.S. strategic influence efforts against the Soviet Union began at
+approximately the same time as the grand strategy of containment was
+put in place. In many ways, the diplomat George Kennan was the prin-
+cipal intellectual architect both of U.S. containment strategy and the
+strategic influence efforts that went along with it. 8
+For Kennan, political warfare fit into his broader strategy of
+reducing Moscow’s power and influence by building up a “counter-
+force” to Soviet power. In Kennan’s view, this counterforce consisted
+of economic, military, and information activities that would put the
+Soviet Union in a disadvantageous position and eventually drive the
+Soviet Union to the bargaining table. Kennan’s overall objective of the
+campaign then was not necessarily to win the hearts and minds of the
+people of Eastern Europe or the Soviet Union, but instead to use pro-
+paganda and other means to stir up trouble behind the Iron Curtain,
+thereby forcing the Soviet Union to draw on resources to maintain its
+hold over the territories it controlled (Grose, 2000; Mitrovich, 2000).
+This strategy became especially important after the February 1948
+communist coup in Czechoslovakia.
+It is worth noting that the limited objectives that Kennan out-
+lined for the strategic campaign were not shared by all government
+officials. They believed that what they termed “psychological warfare”
+could roll back Soviet power and eventually win the Cold War. Their
+hope was that a combination of diplomatic, economic, and military
+8 In particular, see Kennan, 1946, and “The Sources of Soviet Conduct,” 1947.
+Case Studies of Influence in public diplomacy 137
+efforts could drive a wedge between the Soviet regime and the Soviet
+people, causing a revolt and the removal of the Soviet government.9
+Kennan outlined his program for political warfare in a May 1948
+memo for the State Department. It contains some features that go well
+beyond strategic influence operations, but it is worth mentioning them
+in order to get a broader perspective of Kennan’s proposals. Kennan’s
+political warfare program involved three broad categories of projects,
+some of them overt and some covert. The first set of projects were “lib-
+eration committees” made up of private Americans citizens who were
+asked to organize selected émigré leaders. These émigré leaders were to
+be given access to printing and radio facilities to communicate with
+their fellow countrymen behind the Iron Curtain.
+This first set of programs was the inspiration for and the organiz-
+ing principle behind the National Committee for a Free Europe and
+the American Committee for Liberation from Bolshevism, the organi-
+zations that sponsored Radio Free Europe and Radio Liberation. Radio
+Free Europe and Radio Liberation were short-wave radio stations, run
+by émigrés and partly funded by the CIA, which envisioned themselves
+as alternative national radio stations to the Communist-run ones. They
+presented themselves as what the national radio stations would sound
+like if they came from a free country. For example, Radio Hungary
+broadcast in Hungarian and had a full slate of news, entertainment,
+and commentary programs.
+The second set of projects, many of which remain classified, were
+not related to communication but rather were outright paramilitary
+actions, such as guerrilla units, sabotage forces, and other subversive
+activities to undermine Soviet power in Eastern Europe and inside
+the Soviet Union itself. These were to be carried out through private
+American organizations, which would establish contact with national
+underground representatives in free countries and, through these inter-
+mediaries, pass on assistance and guidance to resistance movements
+behind the Iron Curtain.
+The final set of programs were efforts to support indigenous anti-
+communist elements in threatened countries of the free world. The
+9 This view was prominent in the CIA (see Thomas, 1995).
+138 Foundations of Effective Influence Operations
+principal concern here was the takeover or weakening of democratic
+countries by communist forces supported by the Soviet Union. Spe-
+cially cited were France and Italy, which remained unstable in 1948.
+These efforts were quickly put to work in Italy in an intensive campaign
+to assist the Christian Democratic party to an election victory over
+the Communist party in Italy. On the overt side, President Truman
+broadcast a warning over Voice of America that no economic assis-
+tance would be forthcoming if the communists won the election. The
+United States also supplied food, and Italian Americans mounted
+a letter-writing campaign encouraging their families to support non-
+communist parties. On the covert side, the CIA launched a powerful
+propaganda effort. The CIA supplied newsprint and information to
+pro-Western newspapers. Among the stories the CIA placed in Italian
+newspapers were truthful accounts of the brutality of Soviet forces in
+the Soviet sector of Germany and the communist takeovers in Poland,
+Czechoslovakia, and Hungary. On Election Day, the Christian Demo-
+cratic party won a crushing victory, with 48.5 percent plurality of the
+vote.
+By late 1950, U.S. troops were fighting both North Korean and
+Chinese forces on the Korean peninsula. This ongoing conventional
+war had a major impact on U.S. information and propaganda policies,
+because these polices were increasingly thought of in military terms.10
+The wide-ranging term psychological operations gained favor in DoD and
+the CIA to describe all diplomatic, economic, military, and ideologi-
+cal acts designed to achieve specified objectives.11 PSYOP, according to
+advocates, included the information activities of the State Department,
+the psychological warfare efforts of DoD, and the covert operations of
+the CIA.12 The specific objective that advocates had in mind was “the
+eventual rolling back of their [Soviets] illicit conquests” and the win-
+10 Parry-Giles (2002, pp. 75–96) calls this “militarized propaganda.”
+11 Shawn J. Parry-Giles calls this “militarized propaganda.” See Parry-Giles, 2002, pp.
+75–96.
+12 In Korea, DoD took the lead engaging in PSYOP in the hopes of undermining Chinese
+and Korean troops’ will to fight.
+Case Studies of Influence in public diplomacy 139
+ning of the Cold War through a combination of diplomatic, informa-
+tional, military, economic, and other means.13
+Despite all of the talk of taking the offensive against the Soviet
+Union, the United States lacked the psychological tools to do so. In a
+progress report in 1952, the Truman administration noted that only
+“the Voice of America and Radio Free Europe clearly emerged from the
+reports as programs which effectively reached the people of either or
+both the USSR and the Satellites” (Psychological Strategy Board, 1952).
+Covert operations behind the Iron Curtain, despite the vast resources
+devoted to them, remained amateurish and deadly only to the agents
+who undertook them. Efforts to undermine the Albanian, Romanian,
+and Soviet regimes through support of underground movements were
+quickly detected and broken up (Thomas, 1995, p. 69).14 The final blow
+to this policy was the unwillingness of the United States to support
+Hungarian forces revolting against Soviet occupation in 1956.
+The unsuccessful revolution in Hungary in 1956 and the shift of
+Soviet policy after the death of Stalin led to a new U.S. foreign policy
+strategy and a new strategic influence policy. The second Eisenhower
+administration moved away from a national security policy based on
+promoting revolutionary change (liberation) in the Soviet Union and
+instead embraced a new national security policy based on an evolu-
+tionary approach to reducing Soviet power. This new evolutionary
+approach sought to promote peaceful changes within the Soviet system
+that would lead the Soviets to abandon their expansionist policies. It
+was understood that this was long-term strategy that might take several
+decades to succeed, but there seemed to be little alternative because
+Soviet development of atomic weapons during this period precluded a
+more aggressive policy.
+A new strategic influence strategy was necessary for this foreign
+policy approach in order to introduce modern concepts and reform
+ideals to social groups within the Soviet Union that could promote
+13 This strategy was laid out by Frank Wisner, then deputy head of the CIA, in a memo
+(Wisner, 1951).
+14 RAND colleague Tom Szayna pointed out that guerrilla movements continued to operate
+in the Baltic states and Ukraine into the mid-1950s.
+140 Foundations of Effective Influence Operations
+evolutionary changes. This policy has been termed cultural infiltration
+and was defined by the Eisenhower administration as using cultural
+contacts to both break down the isolation of the people of Eastern
+Europe and to correct the distorted image of the West presented in
+communist propaganda. It was hoped that open discussion within the
+Soviet Union would spur changes in Soviet policies favorable to the
+United States.
+The United States government, led by the United States Infor-
+mation Agency (USIA), focused its communications with the Soviet
+people around several themes. The first theme was people’s capitalism,
+which was developed in conjunction with the Advertising Council.15
+The term implied that a new type of capitalism has arisen in the United
+States allowing average Americans to achieve the highest standard of
+living in the world. The theme sought to rebut a central theme of Com-
+munist ideology, namely, that workers were exploited by a small ruling
+capitalist class for its own gain. Instead, people’s capitalism stressed
+that it was the workers themselves who were the capitalists and that
+they enjoyed the fruits of their labor. Another theme was the cultural
+vibrancy of free and democratic nations, such as the United States. This
+theme was designed to undermine Communist claims that American
+culture was sterile and dominated by the motive of profits. This view-
+point, particularly in Europe, was strongly held, and USIA spent a
+great deal of time and effort combating it. At trade fairs, USIA pre-
+sented selections of painting and statues showing the United States at
+the forefront of modern cultural movements. Although controversial,
+USIA believed these exhibits fostered the idea of the United States as
+a dynamic and open society with many viewpoints being expressed
+through American artwork and culture.
+USIA’s target audience for its strategic influence campaigns were
+members of the Soviet bureaucracy, the intelligentsia, and Soviet
+youth. The first two groups were targeted because they were far enough
+removed from the power structure to allow some degree of indepen-
+dent thought but still in positions in which their ideas had an over-
+15 Also known as the Ad Council, to this day, it produces, distributes, and promotes public
+service campaigns on behalf of nonprofit organizations and government agencies.
+Case Studies of Influence in public diplomacy 141
+all effect on the direction of society. The nature of their professions
+(writers, journalists, artists, musicians, scientists, engineers, managers
+of industrial trusts, and army officers) taught them to think indepen-
+dently, and their economic status made it possible for them to own
+radios capable of receiving foreign broadcasts and to attend cultural
+events. The Soviet intelligentsia had a strong curiosity about the outside
+world, both in terms of the latest fashions and the view of foreigners
+on world events.
+Soviet youth were also targeted because they were regarded as
+vulnerable to outside influences as a result of their increasing alienation
+from Communist ideology. The hope was to stimulate comparisons in
+young people’s minds between the Communist and Western systems
+of political, economic, and social organization. Contact was made by
+establishing a relationship with them through youth cultural offerings
+in which common ground was more easily gained. One avenue for this
+was radio programs devoted to popular American music such as jazz
+and rock and roll. Music programs became the most popular format on
+Voice of America, and once Soviet youth were hooked, they were more
+likely to listen to Voice of America news and commentary programs.
+The principal challenge the United States encountered in influ-
+encing the target audience was the difficulty it faced in overtly com-
+municating with Soviet citizens. The Soviet regime went to extreme
+lengths to limit the amount of contact the West had with Soviet citi-
+zens: Radio broadcasts were jammed, the circulation of publications
+was tightly controlled, and personal travel was limited. The opening
+up of the Soviet Union to foreign contact in the mid and late 1950s
+provided the United States with an opportunity to communicate with
+these groups, of which it took full advantage.
+At the beginning of the Cold War almost the only way to com-
+municate with Soviet audiences was short-wave radio. After a few years,
+even short-wave radio was effectively countered through jamming. The
+United States had two short-wave stations—the official one, Voice of
+America, and a semiprivate one, Radio Liberty. Radio Liberty was par-
+tially funded by the CIA, but its effects on the policies and program-
+ming of the stations were limited. Policy was determined by an Ameri-
+142 Foundations of Effective Influence Operations
+can committee that worked in conjunction with Soviet émigré groups
+living in the United States and Europe.
+By the late 1950s, the Soviet Union was permitting increased
+public contact with information from outside the Soviet Union. This
+change opened up new instruments for communicating with Soviet
+audiences. In 1959, over 2.7 million Soviet citizens visited the Ameri-
+can National Exhibition at Sokolniki Park in Moscow. Put together by
+USIA, this exhibition emphasized the material prosperity of America;
+its open, diverse, and dynamic culture; and the peaceful orientation of
+the United States. Cultural exchanges also became an important way
+to interact with the Soviet people. In the late 1950s, comedian Bob
+Hope, pianist Van Cliburn, the Philadelphia Symphony Orchestra,
+and the Harlem Globetrotters all visited the Soviet Union. The pur-
+pose of these visits was to provide a comparison between the dynamic
+culture of the West and the stagnant and authoritarian culture of the
+Soviet Union.
+The closed nature of Soviet society made it very difficult to judge
+the effectiveness of the strategic influence campaigns or even to mea-
+sure the size of the audience the campaign was reaching. To overcome
+these problems, U.S. policymakers came up with a number of creative
+ways to design their influence strategies and to measure their effective-
+ness. First, to design their influence strategies and to test their themes,
+government officials consulted with leading experts on Soviet affairs
+and experts on communications research. Regular meetings were held
+with professors at Harvard, MIT, and Princeton, who advised radio
+broadcasters on developments in Soviet society, the best ways to reach
+the Soviet audience, and what results it was reasonable to expect the
+radio stations to achieve. Communications researchers were brought in
+to explain the context of communicating with a Soviet audience, how
+to grab the attention of the listener, how to communicate with listeners
+in their own frame of reference, and how to overcome Soviet citizens’
+natural suspicions of a foreign radio station. Radio broadcasts were also
+reviewed by exiles who had recently escaped from the Soviet Union.
+The intensive radio jamming of the Soviet regime made it dif-
+ficult to determine whether anyone could hear the broadcasts at all.
+At the beginning, radio station officials had only unscientific meth-
+Case Studies of Influence in public diplomacy 143
+ods for determining their audiences. They carefully tracked the small
+number of letters that arrived at the radio station, although they knew
+these numbers tended to be inaccurate because of Soviet mail censor-
+ship. They also relied on reports from the U.S. Embassy in Moscow
+in order to figure out whether broadcasts could be heard through the
+jamming and whether anyone in Moscow was talking about them.
+Recently escaped exiles were also a source of information. New escap-
+ees were asked whether they had listened to foreign radio stations and
+what their reaction was to them.
+The radio stations also came up with creative ways to measure
+the effectiveness of their programs. The first method they used was
+to carefully monitor Soviet media attacks against the United States
+and the radio stations. Angry Soviet reactions to the radio programs
+were regarded as a positive sign of the impact of the radio station. The
+thought was that the Soviet government would not provide free public-
+ity to the radio stations if it was not concerned about the influence the
+broadcasts were having on Soviet citizens.
+The second method, used after the Soviet Union opened up, was
+to subtly and discreetly interview Soviet visitors to the West. For exam-
+ple, at the Brussels World’s Fair of 1958, 300 Soviet tourists were inter-
+viewed by Radio Liberty researchers in order to determine whether
+they listened to the radio programs and which ones they enjoyed the
+most. One problem was that the sample of subjects interviewed tended
+to be from certain geographical areas (for example, Moscow) and was
+from only a limited number of socioeconomic groups. To correct for
+this problem, the sample was normalized as best as could be done with
+Soviet census data. Years later, after the fall of Communism, these fig-
+ures were checked against internal surveys done by the Soviet govern-
+ment. In general, the two sets of figures corresponded in terms of the
+size of the audience, the most popular programs, and the reasons for
+listening.16
+All of these efforts, however, did not measure whether the United
+States was achieving its long-term objectives of promoting peaceful
+changes within the Soviet system that would lead it to abandon its
+16 See Critchlow, 1995, for a description of Radio Liberty’s methodology and results.
+144 Foundations of Effective Influence Operations
+expansionist policies. At the time, it was very difficult to determine
+whether these activities were having any impact at all as the Soviet
+regime vacillated between more open and more repressive policies.
+Even today, there is a great deal of controversy about the role cultural
+infiltration played in end of the Cold War and the fall of the Soviet
+Union.17
+Despite all of these caveats, there is evidence from recently opened
+archives in formerly Communist nations that the policy of cultural
+infiltration started under President Eisenhower was a—and perhaps
+the—turning point in the Cold War. In Soviet history, the period
+between 1954 and 1964 is known as the thaw and is thought of as a
+period of relative intellectual openness. Like Gorbachev in the 1980s,
+Khrushchev hoped that increased contact with the West would pro-
+vide access to Western technology, enhancing economic progress in the
+Soviet Union, and reducing international tension.
+While this period of openness did not last past Khrushchev’s
+removal as party leader in 1964, the intellectual climate of the time
+played a pivotal role in the development of the shestidesiatniki, people
+in 1960s Russia who were in the avant-garde of the new liberal move-
+ment and became protesters and dissidents toward the end of that
+decade. This generation, exemplified by Gorbachev, dreamed of recap-
+turing the hope and idealism of their youth by launching a new period
+of openness with the policies of perestroika and glasnost. These poli-
+cies fulfilled the foreign policy goals of the United States as the Soviet
+Union peacefully reformed itself, abandoning its expansionist tenden-
+cies and embracing a less hostile view of the United States. Ultimately,
+17 Since the collapse of the Soviet Union, numerous theories have been put forth to explain
+why the Cold War ended. Two main explanations have emerged. One emphasizes the long-
+term economic crisis inside the Soviet Union that was exacerbated by high military spend-
+ing. According to this school of thought, the Soviet Union could not maintain its economic
+and military position, which was collapsing under its own weight. Another group of his-
+torians cites the role of ideas that caused a transformation of the outlook of Soviet leaders,
+particularly Gorbachev. This group believes that the Cold War ended because the Soviet
+government and people lost faith in the social and economic system of the Soviet Union and
+wanted to embrace a more Western/modern outlook. The two explanations are, obviously,
+not mutually exclusive, and most analysts of the subject seem to believe that there are ele-
+ments of truth in each.
+Case Studies of Influence in public diplomacy 145
+the modern social concepts of the West could not coexist with the
+totalitarian mindset of the Soviet state, causing its complete collapse
+in 1991.
+To summarize, our case study of strategic influence activities
+during the Cold War suggests the following:
+Understanding and influencing “captive” populations requires•
+great creativity, patience, and somewhat dubious methods in light
+of the biases and lack of representativeness in the resulting data.
+In retrospect, there is evidence that innovation and work-arounds•
+to deal with the lack of access to target audiences, and the result-
+ing lack of detailed data, actually seem to have worked.
+Cultural infiltration efforts appear to have had greater success•
+in influencing attitudes than most realized, although they also
+benefited in large measure from Krushchev’s opening the Soviet
+Union to the West.
+Sometimes the benefits of strategic influence campaigns only•
+become apparent years after the campaign was inaugurated.
+Changing people’s basic attitudes requires a long and sustained
+effort, and instantaneous results generally should not be expected.
+In the case of the Cold War, a generational time scale was required
+for these efforts to manifest themselves in changes that ultimately
+led to the dissolution of the Soviet Union.
+Case Study 2: National Strategic Influence Operations Before the
+Second Gulf War
+On December 28, 2001, General Tommy Franks visited President
+Bush at his Crawford, Texas, ranch. In the meeting, Gen. Franks out-
+lined a war plan for invading Iraq and removing the regime of Hussein
+(Woodward, 2004, p. 53). This was followed on January 29, 2002, by
+President Bush’s State of the Union Address, the first since the attacks
+of September 11. In that speech, President Bush labeled Iraq as part of
+an “Axis of Evil,” which he characterized as states seeking weapons of
+mass destructions that might provide these arms to terrorists (Wood-
+ward, 2004, p. 87).
+146 Foundations of Effective Influence Operations
+This speech was another chapter in the complex history of U.S.
+relations with the Hussein regime. Over a 12-year period, from the end
+of the first Gulf War to the beginning of the second, the United States
+had pursued a dual policy of containing Iraq and attempting to over-
+throw it.18 These dual policies had been followed by three presidential
+administrations until the shock of the terrorist attacks on September 11
+spurred the Bush administration to move more forcefully in the direc-
+tion of a preemptive attack on Iraq.
+The Axis of Evil speech also marked the beginning of a 15-month
+strategic influence campaign to convince regional/Arab opinion and
+the international community that the Hussein regime was a global
+threat that could not be deterred or contained. This campaign was only
+one piece of the U.S. government’s overall influence campaign, which
+was directed at multiple audiences, including domestic public opinion,
+foreign governments, the Iraqi people, and audiences in the region and
+in Europe. Our case study will consider only the public diplomacy
+piece targeted at regional and international audiences.19 However, it is
+important to note that there was (accidentally or intentionally) consid-
+erable overlap among the strategic influence campaigns directed at the
+various groups. Twenty-four-hour news coverage by global media firms
+ensures that messages that might be intended only for one particular
+audience reverberated almost instantaneously around the world.
+Objectives
+One early difficulty that the strategic influence campaign had was uni-
+fying key government officials on the objectives of the campaign. In
+late August 2002, the administration seemed divided over its strategy
+for Iraq. In one camp was Vice President Cheney, who on August 26,
+2002, gave a speech outlining the need for war to remove the Hussein
+regime in Iraq because “a return of [UN] inspectors would provide
+18 Peltz et al., 2005, document this dual policy, which involved, on the regime change side,
+covert attempts to sponsor a coup against Saddam Hussein and, on the containment side,
+international sanctions, WMD inspections, and no-fly zones.
+19 There also may have been covert attempts to sway regional and international audiences
+that have not been revealed.
+Case Studies of Influence in public diplomacy 147
+no assurance whatsoever of his [Hussein’s] compliance with UN reso-
+lutions” (Cheney, 2002). During this same time period, Secretary of
+State Powell said in an interview that the president believed that the
+UN weapon inspectors should return to Iraq. If media reports are to be
+believed, Powell had grave reservations about the war, reservations that
+he outlined for President Bush in an August 5, 2002, meeting. Alleg-
+edly, Powell advised working through the UN and not rushing to war,
+although he reportedly did not openly tell the president, “Don’t do it”
+(Woodward, 2004, pp. 148–151).
+This apparent deep divide forced officials in charge of the strate-
+gic influence campaign to push multiple—and conflicting—objectives
+and messages. 20 The first objective was to frame the debate and to define
+the threat posed by Iraq. The goal was to show that Hussein’s regime
+was a global threat that could not be deterred or contained. This objec-
+tive emphasized the need for war because efforts by the international
+community during the 1990s had failed to deal with the threat posed
+by the Iraq regime. This objective was followed by a second one for
+the strategic influence campaign: the need to communicate that the
+United States intended to liberate and not conquer the Iraq people.
+The third objective, however, somewhat contradicted the other
+two. This objective was to build an international coalition to deal with
+the Iraqi threat. The goal was to build support for U.S. policy by show-
+ing that the United States was consulting with international partners
+about how to deal with continuing Iraqi defiance of United Nations
+resolutions to disarm. The problem was that many members of the
+international community were unconvinced of the need for a war with
+Iraq, instead emphasizing the need to return UN inspectors to the
+country to ensure that all Iraqi’s WMD had been destroyed. Hence the
+strategic influence campaign was caught on the horns of a dilemma. It
+had to build support for a war with Iraq while at the same time show-
+ing that the United States was working with other nations, many of
+which were against any military action, in crafting an international
+solution to the Iraqi problem.
+20 This section draws on interviews and a memo provided to one of the authors by officials
+at the Department of State, the National Security Council, and DoD.
+148 Foundations of Effective Influence Operations
+These dueling objectives led to significant problems in coordi-
+nating strategy, with various U.S. government departments highlight-
+ing the objectives with which they were most comfortable. The State
+Department tended to focus on building an international coalition,
+with a reluctance to believe up until the last moment that war was
+inevitable. DoD, on the other hand, focused its strategic influence cam-
+paign on preparing for the invasion of Iraq, often publicly announcing
+steps that made it seem that the United States had prejudged the need
+for a war, undermining attempts to build an international coalition.
+Strategy and Themes
+The United States had somewhat different strategies for its public diplo-
+macy efforts in the Middle East and Europe. In the Middle East, there
+was an early recognition that the people of the region would not sup-
+port an invasion of Iraq. Instead, U.S. strategy concentrated on gaining
+access to key military bases in the region, ensuring no support for the
+Hussein regime during the war, and gaining public support for build-
+ing a democratic and free Iraq after the conflict was over. The central
+message to the Arab world was that a U.S. invasion to remove Hussein
+was inevitable and the world should unite around providing a better
+life for the Iraqi people after the war. In their efforts to gain Arab sup-
+port for U.S. policies, the strategic influence campaign sought to com-
+municate a positive vision of what Iraq would look like when Hussein
+was gone from power.
+In Europe, the strategic influence campaign had a somewhat dif-
+ferent strategy. Polling by the State Department research group showed
+that European publics would support an international campaign
+against Iraq but not an American one. The goal then for the strategic
+influence campaign in Europe was to show that the United States was
+leading an international effort to enforce at least a dozen UN resolu-
+tions stipulating that Iraq must disarm. It was thought that European
+audiences wanted to know that the United States respected interna-
+tional laws and that U.S. statements were factually correct about Iraqi
+WMD programs and support for terrorist groups . European audiences
+in essence wanted evidence to convince them that the Iraqi regime was
+a threat to world peace and that the United States was following the
+Case Studies of Influence in public diplomacy 149
+proper international legal process for using military force. U.S. govern-
+ment officials believed that European public opinion could best be per-
+suaded by highlighting Hussein’s horrifying human rights record and
+the similarities between the Iraqi government and totalitarian govern-
+ments in Europe’s past.
+Instruments
+A full accounting of the instruments used to prosecute the U.S. stra-
+tegic influence campaign is unlikely until historians are able to go
+through currently classified government records. However, we can get
+some idea of the effort through various documents that were publicly
+released. In October 2002, the director of the CIA released an unclas-
+sified report on Iraq’s WMD programs that concluded:
+Iraq has continued its weapons of mass destruction (WMD)
+programs in defiance of UN resolutions and restrictions. Bagh-
+dad has chemical and biological weapons as well as missiles with
+ranges in excess of UN restrictions; if left unchecked, it probably
+will have a nuclear weapon during this decade (Central Intelli-
+gence Agency, 2002).
+Set up in January 2003, the White House Office of Global Com-
+munications (OGC) had the mission of coordinating U.S. government
+messages designed to inform audiences abroad about the U.S. govern-
+ment’s policies and priorities. In January 2003, OGC produced a book-
+let called “Apparatus of Lies,” which reviewed Iraq’s “disinformation
+and propaganda campaigns.” OGC also produced widely distributed
+documents on Hussein’s use of torture and mass executions.
+Another method the U.S. government used to communicate its
+message was via public presentations by major officials. One of the
+most important public presentations was Secretary of State Powell’s
+February 2003, 76-minute speech to the UN Security Council out-
+lining U.S. evidence of Iraqi WMD programs and Iraqi attempts to
+derail UN weapons inspectors. CIA Director George Tenet sat directly
+behind Powell during his testimony, adding symbolic weight to the
+information presentation. In the Middle East, Ambassador Christo-
+pher Ross, special advisor to the State Department on public diplo-
+150 Foundations of Effective Influence Operations
+macy, appeared on numerous television and radio programs. In Arabic,
+Ambassador Ross sought to explain and defend U.S. policies toward
+the Middle East. Finally, the National Intelligence Council released
+an unclassified summary of the most recent National Intelligence Esti-
+mate on Iraq’s WMD program.
+The State Department set up its own Iraq working group to pre-
+pare public diplomacy measures in the run-up to the conflict. The Iraq
+working group offered public diplomacy guidance for country teams
+in key regions. However, records later showed that there was lim-
+ited follow-through, because in-country teams ignored the guidance
+provided. There is also some evidence that DoD failed to coordinate
+PA/public diplomacy efforts with the State Department. In October
+2002, the U.S. Central Command (CENTCOM) sent a PA team to
+the Middle East to begin preparations for media operations during the
+war. No State Department personnel were asked to participate.
+Measuring the Impact of the Strategic Influence Campaign
+In the months preceding and immediately after the war, numerous
+surveys measured world opinion on the war in Iraq. These surveys also
+provided some indications of whether the United States achieved the
+objectives it laid out before the start of the war (Pew Research Center,
+2004). The United States had somewhat different objectives for its stra-
+tegic influence campaigns in the Middle East than for those in Europe.
+To recap, in the Middle East the United States sought to gain access
+to key military bases in the region, ensure no support for the Hussein
+regime during the war, and gain public support for building a demo-
+cratic and free Iraq after the conflict was over. In Europe, the United
+States tried to persuade European public opinion that U.S. actions in
+Iraq were part of an international effort to force Hussein’s regime to
+abide by UN resolutions.
+The United States had some success with the first two of its goals
+in the Middle East. Although polling conducted by the Pew Global
+Attitudes Project in April–May 2003 revealed that Kuwaitis thought
+that their country’s decision to provide the United States and allies
+with access to bases had been the right one but that 63 percent of the
+Turkish public felt that it had been the wrong decision, the United
+Case Studies of Influence in public diplomacy 151
+States did gain access to key military bases during the conflict and no
+government in the region openly backed the Iraqi regime during the
+conflict. 21 Pew’s polling also revealed that most Arab and Muslim pub-
+lics believed that the use of military force against countries that had
+not actually attacked first was rarely or never justified, and that Arab
+and Muslim nations’ decisions not to use force against Iraq had been
+the right one. 22
+The United States was less successful convincing Arab opinion to
+support U.S. postwar goals or that Iraqis were better off after the inva-
+sion. Pew’s spring 2003 survey revealed that majorities in Nigeria, Leb-
+anon, and Kuwait believed that Iraqis would be better off, majorities
+in Indonesia, Pakistan, Jordan, Morocco, and the Palestinian Author-
+ity—and a plurality of Turks—did not. 23 Most polling suggests that
+since the end of combat operations and the discovery that there were in
+fact no Iraqi WMD—and as a result of the emergence of a protracted
+sectarian conflict in Iraq—optimism about the lot of Iraqis within
+Arab and Muslim publics has plummeted.
+21 The question asked in Kuwait and Turkey was: “On the subject of Iraq, did (survey coun-
+try) make the right decision or the wrong decision to allow the U.S. and its allies to use bases
+for military action in Iraq?” (Pew Research Center, 2003, Q.22b).
+22 The question was: “Do you think that using military force against countries that may
+seriously threaten our country, but have not attacked us, can often be justified, sometimes
+be justified, rarely be justified, or never be justified?” (Pew Research Center, 2003, Q.21).
+Sixty-five percent of Jordanians and 57 percent of respondents in the Palestinian Authority
+said they thought that the use of force in such a circumstance was never justified, and majori-
+ties in Indonesia, Lebanon, Kuwait, and Morocco thought it was rarely or never justified.
+When asked “On the subject of Iraq, did (survey country) make the right decision or the
+wrong decision to not use military force against Iraq?” (Pew Research Center, 2003, Q.22c),
+supermajorities of 70 percent or better in Indonesia, Nigeria, Pakistan, Lebanon, Jordan, and
+Morocco said that their country had made the right decision not to use military force.
+23 In a similar vein, when asked whether the Middle East region was likely to become more
+democratic as a result of the removal of Hussein, only in Nigeria and Kuwait did majorities
+indicate that they thought the Middle East would become somewhat or much more demo-
+cratic; majorities in Indonesia, Lebanon, Jordan, and the Palestinian Authority said that they
+expected no change whatsoever. The question was: “Now that Saddam Hussein has been
+removed from power by the U.S. and its allies, do you think the Middle East region will
+become much more democratic, somewhat more democratic, or will there be no change in
+the region?” (Pew Research Center, 2003, Q.26).
+152 Foundations of Effective Influence Operations
+In Europe, the United States had comparably mixed results. Ulti-
+mately, few European governments publicly supported the invasion of
+Iraq, and public opinion surveys in the spring of 2003 showed that
+they were generally on firm ground: 80 percent or more of the French,
+German, Italian, and Russian publics thought that their country had
+made the right decision not to use military force against Iraq. 24 In a
+similar vein, 62 percent of Spaniards thought their government’s deci-
+sion to use force in Iraq had been the wrong one. 25 Nevertheless, while
+fewer than 30 percent of Russians subscribed to this belief, more than
+70 percent of those polled in Great Britain, France, Germany, Italy,
+and Spain said that they thought that the Iraqis would be better off as
+a result.
+The decline in favorable opinion about the United States may
+partly be the result of public perceptions in Europe of the accuracy
+and truthfulness of U.S. charges before the war; the lack of WMD in
+Iraq undermined one of the key justifications for the war. Pew’s poll-
+ing reveals that by March 2004, fewer than 25 percent in France, Ger-
+many, Russia, Turkey, Pakistan, Jordan, and Morocco said that U.S.
+and British leaders had been misinformed about WMD, whereas, with
+the exception of Morocco, more than 60 percent in these publics said
+that U.S. and British leaders had lied. 26 There also was a rising belief
+across Europe that the United States did not take into account the
+interests of other countries in its foreign policies: majorities in Great
+Britain, France, Germany, Italy, Spain, Russia, and Turkey expressed
+24 The question was: “On the subject of Iraq, did (survey country) make the right decision
+or the wrong decision to not use military force against Iraq?” (Pew Research Center, 2003,
+Q.22c).
+25 The question was: “On the subject of Iraq, did (survey country) make the right deci-
+sion or the wrong decision to use military force against Iraq?” (Pew Research Center, 2003,
+Q.22a).
+26 In Morocco, 48 percent expressed the view that U.S. and British leaders had lied. The
+question was: “Before the war, the U.S. and Britain claimed that Iraq had weapons of mass
+destruction. These weapons have yet to be found. Why do you think they made this claim?
+Was it mostly because U.S. and British leaders were themselves misinformed by bad intelli-
+gence, or was it mostly because U.S. and British leaders lied to provide a reason for invading
+Iraq?” (Pew Research Center, 2003, Q.27).
+Case Studies of Influence in public diplomacy 153
+the view that the United States considered the interests of other coun-
+tries little or not at all. 27 State Department reports on foreign media
+reaction to the end of the hunt for WMD yielded similar findings,
+with one of the reports’ main conclusions about foreign press coverage
+being that while “unharmed politically at home . . . [President Bush’s]
+credibility [was] shaken overseas” (U.S. Department of State, 2005).
+To conclude, our case study of the run-up to Operation Iraqi
+Freedom suggests mixed results:
+The United States had some success with British and a few other•
+European publics but generally was unable to overcome opposi-
+tion from the French, German, Russian, and many other Euro-
+pean publics. 28
+Although the United States and its coalition partners were gener-•
+ally successful in securing bases and keeping Arab regimes from
+supporting Hussein, they also were largely unsuccessful in their
+efforts to build support from “the Arab street.”
+Influence in Public Diplomacy: Conclusions
+The main conclusions that we drew from our two case studies are the
+following:
+The United States historically has had great difficulties conduct-•
+ing effective strategic influence operations in peacetime. These
+operations are viewed by the domestic public at home with great
+suspicion, and they have a mixed track record abroad.
+27 The question was: “In making international policy decisions, to what extent do you think
+the United States takes into account the interests of countries like (survey country)—a great
+deal, a fair amount, not too much or not at all?” (Pew Research Center, 2003, Q.10). More-
+over, Pew’s polling shows a declining belief that the United States took into account the
+interests of other countries in most of these countries between the summer of 2002 and
+spring of 2003.
+28 It is worth mentioning that support for the U.S. military action in Iraq at home and
+abroad has since substantially declined.
+154 Foundations of Effective Influence Operations
+The goal of public diplomacy is to reduce misperceptions and•
+misunderstandings that may complicate relations between the
+United States and other nations by providing factual and truthful
+information.
+The specific objectives of strategic influence campaigns and the•
+various constraints that are encountered greatly shape both the
+preferred strategy and the outcomes.
+For strategic influence operations to succeed, substantial knowl-•
+edge about a target audience’s preexisting attitudes and informa-
+tion environment is needed. Moreover, there are situations in
+which target audiences are unlikely to be persuaded no matter
+how great an effort is undertaken, especially when the message
+contradicts deeply held values or beliefs.
+Successful strategic influence efforts typically are viewed as•
+requiring unity and repetition of a common basic message that
+is reasonably congenial to target audiences. When policymakers
+or their statements contradict one another, it is likely to confuse
+the target audience and reduce the effectiveness of the campaign.
+Also, statements that are viewed by audiences as not credible are
+most likely to be rejected outright.
+155

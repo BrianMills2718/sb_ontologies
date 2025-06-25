@@ -1,0 +1,441 @@
+ChaptEr thrEE
+Influencing Groups and Networks
+The next level up from the individual involves influencing the behavior
+of individuals in groups and group-level dynamics, decisions, and other
+behaviors.1 As will be shown, the scholarly literature that addresses
+influence and decisionmaking processes within groups and social net-
+works provides a different set of intellectual foundations, and some of
+the insights from this research illuminate what may constitute addi-
+tional opportunities for influencing such processes. 2
+Behavioral Perspectives Regarding Groups
+As with the literature related to individual-level attitudes and behavior,
+the scholarship related to how people in groups influence one another
+and the factors that affect group dynamics and group decision out-
+comes is quite vast. The following is meant to provide a brief overview
+of some of the more important work in these areas:
+Social Power Theory.• Social psychologist Bertram Raven has
+focused much of his research on defining and elaborating the
+concept of “social power” and on the development of a power/
+1 The term group dynamics was coined by the social psychologist Kurt Lewin, and it has
+been a recurring topic of scholarly inquiry for psychologists and sociologists. For a review of
+Lewin’s contributions to the discussion on group dynamics, see Smith, 2001.
+2 Among the most frequently cited works on networks in national security affairs is Arquilla
+and Ronfeldt, 2001.
+30 Foundations of Effective Influence Operations
+interaction model of interpersonal influence. 3 The model holds
+that there are six bases of social power—informational, coercive,
+reward, legitimacy, expert, and referent power—in addition to
+several other, less direct methods of influence that a planner can
+employ in influencing a target audience, including manipulating
+environmental variables that constrain the audience and invoking
+or reducing the power of third parties (Raven, 1990, pp. 496–
+504). In this model, planners seeking to influence another party
+assess both their own motivations and those of the target audience,
+their available power bases, the costs of available influence strate-
+gies, and necessary preparations for the influence attempt. Then
+they make a choice regarding the mode of influence and assess
+the effects of the influence effort (Raven, 1990, pp. 504–511). In
+a similar fashion, the target audience also may assess motivations
+for resisting the influence effort and other related factors (Raven,
+1990, pp. 511–513). The application of social power theory to
+influence tactics has expanded beyond Raven’s original domain
+of interpersonal influence to intragroup and intergroup settings
+(see Bruins, 1999).
+Cialdini’s Influence Model.• Social psychologist Robert B. Cial-
+dini (2000, 2006) identified what he described as six “weapons of
+influence”: (1) reciprocation, the tendency for people to return a
+favor; (2) commitment, the tendency for people to honor a com-
+mitment; (3) social proof, the tendency for people to behave as
+they observe others behaving; (4) authority, the tendency to obey
+authority figures; (5) likeability, i.e., people are more easily per-
+suaded by those whom they like; and (6) scarcity, perceptions of
+scarcity generate demand. Cialdini also argued for the “foot-in-
+the-door” phenomenon, which suggests that if small efforts at
+influence are successful, they can also be used for large efforts (see
+Cialdini and Schroeder, 1976). 4
+3 See, for example, French, and Raven, 1959; Raven, 1990.
+4 A 1983 meta-analysis of foot-in-the-door research found that the phenomenon, although
+replicable, was weak and not nearly as robust as had been assumed, and that nearly half of
+Influencing Groups and networks 31
+Social Exchange Theory.• The social exchange theory of psycholo-
+gists J. W. Thibaut and H. H. Kelley (1959) is a general theory of
+interpersonal relations and group functioning that bases its analy-
+sis of social interactions on game theoretic assumptions regarding
+how people in groups influence each other through the exchange
+of rewards and costs, and the availability of resources.5 In this
+theory of interdependence, individuals try to maximize rewards
+and minimize costs, and they choose to develop relationships with
+others on the basis of their assessments of the expected outcome of
+developing a relationship relative to other possible relationships. 6
+Appeals to Fear and Attitude Change.• One of the unique aspects
+of influence in military operations is the ever-present possibility
+of coercion through the threat or use of force, and there is some
+research on the efficacy of appeals to fear in communications.
+Hovland and his associates (1953), for example, provide some of
+the earliest theoretical analyses of fear arousal and persuasion
+(also, see Janis and Feshbach, 1953). Subsequent work has sug-
+gested that low and high levels of fear can interfere with the pro-
+cessing of messages and that moderate levels of fear may lead to
+the most effective persuasion (see Higbee, 1969; Keller and Block,
+1996). Other work has elaborated on Hovland’s original formula-
+tion and has sought to understand how the severity of a threat, its
+probability of occurrence, and the availability of coping strategies
+affect the persuasiveness of communications.7 We did not find
+any individual-level research distinguishing between short- and
+long-term effects of threats or coercion or the extent to which
+postcoercion resentment might affect long-term compliance.
+the studies either produced no effect or the opposite effects from those desired. See Beaman
+et al., 1983.
+5 The authors updated their model in Kelley and Thibaut, 1978.
+6 The theory also considers such issues as the cohesiveness of groups, social power, and
+rivalry (Gladstone, 1961).
+7 Rogers and Mewborn (1976) elaborate on the work of Hovland, Janis, and Kelley (1953).
+In addition, Das, de Wit, and Stroebe (2003) suggest that fear can serve as a motivator for
+those who feel vulnerable.
+32 Foundations of Effective Influence Operations
+Coercive Persuasion and Thought Reform.• Finally, psychologists
+Kurt Lewin and Edgar Schein separately considered what may
+be the most extreme types of group influence, i.e., coercive per-
+suasion and thought reform (“brainwashing”) programs such as
+those used by the Chinese on Korean War prisoners of war. This
+work suggests that changing attitudes involves three distinct steps:
+(1) “unfreezing” current attitudes, (2) changing the attitudes, and
+(3) “refreezing” the new attitudes. Schein and Lifton found that
+even though these programs were conducted in an environment
+in which the Chinese tightly controlled virtually all aspects of
+the prisoner-of-war environment—including whether prison-
+ers would live or die—the effects tended to be ephemeral at best
+(Schein, 1959, 1961; Lifton, 1961; also, Ofshe, 1992).
+Before proceeding, it is worth mentioning that many of the
+individual-level behavioral theories of influence and persuasion dis-
+cussed earlier also are highly relevant to the question of an individual’s
+influence within a group setting. For example, the relative power of
+individuals that is addressed in Raven’s social power/interaction theory
+also has been examined by social choice theorists, who have sought
+to quantify the distribution of power in committees and other small
+groups in terms of a power index (see Shapley and Shubik, 1954).
+Among the most prominent of these is the role of opinion leadership, a
+key construct that applies not just in small group settings but scales up
+to the level of mass public opinion.
+Opinion leaders and opinion leadership have been among the
+most important concepts related to the influence of key individuals
+within groups, networks, communities, and larger society since the
+time of John Stuart Mill. 8 Much of the scholarship in this area relies
+on Elihu Katz and Paul Lazarsfeld’s (1955) two-step theory of commu-
+8 As Mill observed: “The mass do not now take their opinions from dignitaries in Church
+or State, from ostensible leaders, or from books. Their thinking is done for them by men
+much like themselves, addressing them or speaking in their name” (Mill, 1869, p. 13). Key
+works on opinion leadership include Lazarsfeld, Berelson, and Gaudet, 1944; Lasswell, 1948,
+p. 37; Katz and Lazarsfeld, 1955; Rogers and Shoemaker, 1971; Willner and Willner, 1965;
+Burt, 1999; Valente and Davis, 1999.
+Influencing Groups and networks 33
+nications, which seeks to explain the diffusion of innovations, ideas,
+or commercial products. In this model, opinions flow from opinion
+leaders to other individuals, and opinion leaders can be neighbors, rela-
+tives, coworkers, or friends in an individual’s social system or political
+or other leaders whose views are reported in the media.9
+Clearly, innumerable other individual-level characteristics that are
+discussed in the individual-level literature on persuasion, e.g., likeabil-
+ity or expertise, also can constitute sources of influence within group
+settings.10
+Shifting topics, a recent review of the scholarly literature on group
+performance and decisionmaking offers a number of insights of poten-
+tial interest to planners of influence operations:
+Group performance can be affected by such factors as inefficien-•
+cies in group decisionmaking processes, whether they resort to
+brainstorming, the motivation of members to contribute to group
+performance or to engage in “social loafing,” the extent and
+nature of agreement on group goals, and the level of stress (Kerr
+and Tindale, 2004, especially pp. 625–632). In some cases, such
+as the level of stress facing an adversary decisionmaking group,
+the planner may be able to manipulate these factors to his or her
+advantage.
+Additional work suggests that although groups tend to outper-•
+form individuals in many domains, they also can fall prey to the
+same heuristic-based biases found at the individual level, and
+groups can either attenuate or exacerbate these individual-level
+decision biases (see Kerr and Tindale, 2004, p. 634, for a review
+of this work). Understanding and being able to manipulate such
+decision biases may constitute another source of influence.
+9 For three sophisticated scholarly works that share much in their view of opinion leader-
+ship in public opinion formation, see Neuman, 1986; Zaller, 1992a; Brody, 1992. Also of
+interest are Rasinski, Tyler, and Fridkin, 1985; Childers, 1986; Burt, 1999.
+10 Also worth mentioning is that a number of scholars have viewed groups as passing
+through different stages, from initial formation and selection of leaders to disestablishment
+of the group. We do not address this subject.
+34 Foundations of Effective Influence Operations
+Also of interest to planners is that groups that share information•
+can improve the quality of their decisions, but that groups tend to
+be less-than-optimal users of information and often ignore infor-
+mation that is not widely shared among group members, which
+can lead to failures in uncovering hidden insights (Kerr and Tin-
+dale, 2004, pp. 636–638). Efforts to influence the information
+sets of group members or their willingness to share information
+may be another fruitful area.
+Some work, furthermore, suggests that group members who are•
+“cognitively central,” i.e., who have the highest degree of overlap
+between the information they hold and that held by other group
+members, also tend to dominate consensus-based group decision-
+making outcomes. Understanding which members of a group are
+central information brokers also may be important to planners
+(Kerr and Tindale, 2004, p. 638).11
+It also is important to note that some individual-level character-
+istics that have an important influence on which messages individuals
+attend to and which they are likely to accept also have been shown to
+be group characteristics (e.g., ideology). This insight can enable plan-
+ners to tailor their influence campaigns and messages to distinct target
+groups, each of which consists of relatively homogeneous—on some
+basic characteristics—individuals (see, for example, Feld and Grof-
+man, 1988).
+Rational Choice Perspectives Regarding Groups
+The literature concerning rational choice focuses on how individuals
+promote their interests within larger social or institutional settings and
+constraints, including within groups. Accordingly, it should be little
+surprise that the analysis of group deliberations and decisionmaking
+has been a prominent subject for theorists who have sought to under-
+11 A related finding from research in positive political theory (Gilligan and Krehbiel, 1989)
+suggests that experts, not those whose preferences are outliers, are granted the power by
+group members to shape group debates and outcomes.
+Influencing Groups and networks 35
+stand the factors associated with the resolution of group-level decision-
+making processes and outcomes—whether micro-level outcomes, such
+as debates or elections within small committees, or elections and other
+macro-level political epiphenomena.
+A recent review of social choice, rational choice, and positive
+political theory (i.e., the study of politics using formal methods such as
+game theory) divided these models into two classes—direct collective
+preference models and indirect game-theoretic models:12
+In its simplest form, [rational choice theory] assumes an indi-
+vidual has well-defined preferences over a given set of alterna-
+tives and chooses any alternative with the property that no other
+alternative in the set is strictly more preferred by her; that is, the
+individual chooses a “best” alternative. In politics, however, it is
+rarely the case that only one individual’s preferences are relevant
+for any collective choice; even dictators are sensitive to at least
+some others in the polity. Consequently, the first family of models
+in positive political theory, which we associate with the methods
+of social choice, examines the possibility that individual prefer-
+ences are directly aggregated into a collective, or social, preference
+relation which, as in the theory of individual decision making, is
+then maximized to yield a set of best alternatives (where “best”
+is defined as being most preferred with respect to the collective
+preference relation). If a set of best alternatives for a given method
+of aggregation necessarily exists, then we have an internally con-
+sistent model of observed collective choices as elements from this
+set analogous to the model of individual choice, and it is in prin-
+ciple possible to ascertain whether the model does or does not
+provide a good explanation for what is observed in the real world
+of politics.
+12 Among the more notable contributions in this area are the historically important 18th and
+19th century works of de Borda, Condorcet, and Dodgson (Lewis Carroll) and a number of
+works that created the new area of social choice theory, including von Neumann and Mor-
+genstern, 1944; Black, 1948; Arrow, 1951; Shapley and Shubik, 1954; Downs, 1957; Black,
+1958; Schelling, 1960 (rev. 1980); Buchanan and Tullock, 1962; Riker, 1972, 1986; Sen,
+1977; Merrill and Grofman, 1999.
+36 Foundations of Effective Influence Operations
+In [the] second family of models [indirect game theoretic models],
+individuals are no longer passive participants in the collective
+decision making, but rather make individual choices of behav-
+ior that then jointly determine the collective choice of outcome.
+These models then naturally fall into the methodology of game
+theory. . . . Unlike direct preference aggregation models, the game
+theory models do not presume that collective outcomes are best
+elements relative to some underlying social preference relation.
+Rather, they are the consequences of a set of mutually consistent
+individual decisions, within a given game. It is thus the compo-
+sition of preferences and game structure that explains collective
+choices in this family of models and not, as in the first family, the
+application of an aggregation rule to preferences per se. (Austen-
+Smith and Banks, 1998, 260–262).13
+Social choice theorists, therefore, generally look to individ-
+ual decisions as the source of collective political outcomes, and they
+assume that individuals operate according to the logic of their own
+perceived rational self-interest. Put another way, group decisionmaking
+outcomes—whether at the small group or societal level—are the result
+of self-oriented actions that combine to yield collective outcomes.14
+Much work in social choice and spatial politics (the representation
+and analysis of political actors’ positions in spatial terms) has focused on
+predicting group decisionmaking outcomes for a single issue, a vote on
+leadership of a committee, for example, or a policy.15 The basic building
+blocks for rational choice models of politics for single issues are rela-
+tively modest: a specification of the relevant individuals or groups; a set
+of feasible alternatives or outcomes; and for each individual or group, a
+description of preferences over the set of outcomes (Austen-Smith and
+Banks, 1998, p. 263). Theoretical and empirical work also converges
+13 Game theoretic models generally fall into two classes, cooperative and noncooperative.
+For a discussion of the differences between these models, see Kahan and Rapoport, 1984.
+14 For excellent reviews of positive political theory/rational choice theory, see Austen-Smith
+and Banks, 1998; Amadae and Bueno de Mesquita, 1999.
+15 Consideration of linked issues tends to generate a range of possible outcomes rather than
+a specific outcome. See, for example, Feld and Grofman, 1986.
+Influencing Groups and networks 37
+on the finding that institutional constraints—such as group decision-
+making procedures, including agenda control, voting rules, and veto
+power—also have a powerful influence on group decision outcomes;
+it is, therefore, also important for planners to understand the institu-
+tional and other constraints on decisionmaking.16
+The following finding is of special interest to planners (it echoes
+the work of social choice and spatial voting theorists): Some empirical
+research on group decisionmaking for single issues suggests that the
+preferred position of the median group member tends to dominate in
+groups using consensus-based and democratic decisionmaking process-
+es.17 Put another way, in many democratic and consensus-based group
+decisionmaking environments, the best prediction of a group’s decision
+will be the position of the average (median) group member or, when
+scaled up to mass publics, the median voter.18 This insight suggests that
+an influence strategy that aims to shift the position of the median fre-
+quently will be the most desirable one.19
+Moreover, in many cases, planners also may wish to combine
+behavioral-empirical and rational choice–theoretical approaches. For
+example, by using survey or other data, we can understand the rela-
+tionship between subgroup characteristics and policy preferences, the
+relative salience of various policy issues (e.g., security, electric power,
+or economic development), or other parameters of interest for rational
+choice modeling efforts. Put another way, empirical work can inform
+16 Voting rules can impose the constraint of requiring a dictator’s or veto wielder’s assent, for
+example, or plurality, majority, or unanimous consent.
+17 Empirical work cited by Kerr and Tindale in support of median voter outcomes includes
+Crott, Szilvas, and Zuber, 1991; Davis, 1996. For contrasting reviews of the empirical sup-
+port for the median voter theorem, see Romer and Rosenthal, 1979; Bueno de Mesquita and
+Stokman, 1994.
+18 The median voter theorem is one of the most important concepts coming out of the social
+choice literature and was originally articulated in Black, 1948, and popularized in Downs,
+1957.
+19 As will be described later in our discussion of agent-based rational choice or expected util-
+ity models, for cases in which votes are not taken, weights can be assigned to stakeholders
+or groups to reflect their relative capabilities and their willingness to use these capabilities
+to promote their preferred outcomes. This process makes fairly accurate forecasts of policy
+outcomes.
+38 Foundations of Effective Influence Operations
+rational choice modeling and vice versa, and each potentially has some-
+thing to contribute to the planning of influence operations (Austen-
+Smith and Banks, 1998, p. 261).
+Influence in Social Networks
+Closely related to influence within groups and the role of social norms
+is an understanding of the political, military, tribal, religious, patron-
+age, resource allocation, and other social networks that can promote
+different norms and can constitute the backbone of community, deci-
+sionmaking, control, normative behaviors, and influence in a society.
+Of particular interest to planners is an understanding of the degree of
+influence that leadership nodes in these networks exercise over their
+followers or subordinates and, more generally, how power flows within
+social networks.
+One of the more promising areas of research related to influence
+in networks is work on the diffusion of innovations within networks. 20
+The basic premise of this area of research is that new ideas and practices
+spread through interpersonal contacts, largely consisting of interper-
+sonal communications. 21 This research also highlights the importance
+of opinion leaders and suggests that the degree of influence wielded by
+an opinion leader is predicated in part on the potential adopters’ assess-
+ment of the leader’s credibility and trustworthiness. This research also
+suggests that early adopters of innovations may be marginal members
+of a network who provide bridges between networks (in social network
+analysis [SNA] vernacular, they are high in “betweenness”) but that it
+is only when these innovations come to the attention of opinion leaders
+that diffusion accelerates. Some of this work suggests that a three-step
+process can be used to accelerate the diffusion of ideas in a network:
+20 See Rogers and Cartano, 1962; Rogers, 1979, 1995; Valente, 1993, 1995, 1996; Valente
+and Davis, 1999. Another work dealing with contagion or the spread of ideas within a net-
+work is Burt, 1999.
+21 For a review of this literature and a very useful network analysis of the critical role of
+opinion leaders in the diffusion of innovations within a network, see Valente and Davis,
+1999, pp. 56–57.
+Influencing Groups and networks 39
+(1) identify the most influential members of a community, (2) match
+opinion leaders to the community members who are closest to them
+in the chain of information flow, and (3) assign “isolates” (individuals
+identified by no one as an opinion leader) to leaders randomly (Valente
+and Davis, 1999, p. 61).
+The reason for the importance of social networks is that, to the
+extent that planners understand these networks, their influence opera-
+tions may target selected, high-payoff nodes and thereby accomplish
+objectives much more effectively and efficiently than would be the case
+if operations were diffused across a much larger, more heterogeneous,
+and less specific set of targets:
+In highly• centralized political and military systems, the persua-
+sion of individuals at one or a few central nodes often may be
+sufficient to influence the compliance of the entire network, while
+their elimination may lead to the destabilization or collapse of the
+system (Freeman, 1979).
+In highly• hierarchical systems, the successful persuasion of indi-
+viduals high in the hierarchy often may be sufficient to influence
+the compliance of those beneath them, either through direct
+efforts to influence followers or through broader social influence
+efforts. 22
+The combination of early adopters, who bring in innovations or•
+ideas from other networks, and opinion leaders, who promote
+these innovations, can accelerate their rate of diffusion within a
+network. 23
+Our judgment is that the field of SNA offers many tools that can
+be used to graphically portray networks and facilitate the mapping and
+analysis of leadership, terrorist, tribal, or other networks, the under-
+22 For discussions of hierarchy in a network, see Krackhardt, Blythe, and McGrath, 1994;
+Hummon and Fararo, 1995. For a relatively recent review of the social influence literature,
+see Cialdini and Goldstein, 2004.
+23 Valente and Davis (1999) present the results of computer simulations of diffusion over a
+network consisting of opinion leaders and followers, and they show that the rate of diffusion
+of innovations within networks is much greater when opinion leaders are early adopters.
+40 Foundations of Effective Influence Operations
+standing of which is essential in the development of effective and effi-
+cient influence strategies. 24
+There also are a great many theoretically interesting calculations
+for analyzing network data and for identifying key players by virtue
+of their degree, closeness, betweenness, information, eigenvector cen-
+trality, or some other derived measure computed from network data. 25
+But while some of these theory-based calculations may be useful for
+identifying prominent members of networks using standard measures
+of centrality, most have very little to say about the influence that these
+members may exercise over others in the network. 26
+There has been some interesting recent theoretical work that offers
+hope that network analysts may develop measures of diffusion, conta-
+gion, and influence that can inform the development of influence strat-
+egies and targeting. 27 This theoretical work has not yet been confirmed
+by empirical analyses, however, and until there is empirical support for
+the use of these tools in prediction, it seems likely that SNA will make
+only a limited contribution to influence operations, largely restricted to
+the visualization of network data and informing targeting decisions.
+Moreover, influence operations seem to require an understanding
+of hybrid, national-level networks that can represent both individual
+leaders and large groups of followers, in addition to estimates of the
+24 For example, it has been reported that Saddam’s capture was the result of the efforts of an
+intelligence cell to provide a network mapping of the “pack of cards” of 55 top Iraqi leaders.
+25 For a comprehensive list of available SNA computer programs, see International Network
+for Social Network Analysis, 2005. Some other programs in use in the national security,
+intelligence, and law enforcement communities—such as Analysts Notebook and the Situ-
+ational Influence Assessment Model (SIAM)—also provide network display and analysis
+capabilities. For instance, SIAM enables the creation of user-specified “influence net models”
+based on expert judgment about factors that will influence decisions and a forward-propaga-
+tion algorithm for beliefs about the likelihood of specific factors being true. See, for example,
+Rosen and Smith, 2000.
+26 Analysts have tended to focus their attention on the problem of disrupting terrorist net-
+works, although there is no conceptual reason that some of these approaches would not be
+helpful in designing influence operations. On the “key player problem,” see Borgatti, 2003.
+27 Diffusion within networks is discussed in Young, 1999; Lopez-Pintado, 2004. See, for
+example, the treatment of influence in Avila and Shapiro, 2005; Clark et al., 2005; Hamill
+et al., 2007. See also Kempe, Kleinberg, and Tardos, 2003; Harrison and Carroll, 2002.
+Influencing Groups and networks 41
+level of influence exercised by leaders over their followers. Importantly,
+contemporary SNA representations are limited to relatively small and
+relatively tractable networks. The theoretical and data requirements of
+analyzing hybrid network models that are relevant to influence opera-
+tions are at present somewhat unclear, but until they are addressed, it
+would appear that SNA’s contribution to influence operations is likely
+to remain limited to descriptive analyses and visualizations.
+Influencing Groups and Networks: Conclusions
+This chapter has described theoretical and empirical work that is rel-
+evant to influencing individuals within groups and to the delibera-
+tions and decisions of groups themselves. It has suggested that there
+are many factors—ranging from interpersonal influence or power, to
+agendas and voting rules, to imperfections in information or the distri-
+bution of information within a group—that can affect group delibera-
+tions and decisionmaking outcomes and that may offer opportunities
+for influence efforts. It also has suggested the importance—and the
+important limitations—of contemporary SNA theory in supporting
+influence operations. While there is clearly a need for a keener under-
+standing of hybrid networks consisting of single leaders and relatively
+homogeneous groups of followers and for the processes by which atti-
+tudes diffuse or by which power flows within a network, these have
+not to date benefited from the scholarly attention they warrant. While
+SNA approaches and tools have a role to play in supporting influence
+operations, until some of these limitations are overcome, they appear
+likely to be relegated to a secondary role.

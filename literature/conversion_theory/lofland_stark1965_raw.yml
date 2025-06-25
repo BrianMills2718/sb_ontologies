@@ -1,0 +1,351 @@
+citation: "Lofland, J., & Stark, R. (1965). Becoming a World-Saver: A Theory of Conversion to a Deviant Perspective. American Sociological Review, 30(6), 862-875."
+
+annotation: "Presents a value-added model of conversion to deviant religious perspectives through seven sequential conditions: tension, religious problem-solving perspective, seekership, turning point, cult affective bonds, neutralized extra-cult bonds, and intensive interaction."
+
+model_type: "property_graph"
+
+rationale: "The conversion process involves multiple interconnected actors (individuals, cult members, family), stages (predisposing conditions, situational contingencies), and relationships (affective bonds, extra-cult attachments, interaction patterns) that form a complex network best represented as nodes and edges in a property graph structure."
+
+schema_blueprint:
+  title: "Lofland-Stark Conversion Theory Schema"
+  description: "A comprehensive schema modeling the seven-stage value-added process of conversion to deviant religious perspectives, including predisposing conditions, situational contingencies, and social network dynamics."
+  
+  root_properties:
+    nodes:
+      description: "Represents individuals, groups, conditions, stages, and outcomes in the conversion process"
+      item_type: "Entity"
+    edges:
+      description: "Represents relationships, processes, influences, and transitions between conversion elements"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core theoretical framework
+    - name: "value-added-model"
+      category: "theoretical-framework"
+      description: "Sequential accumulation of seven necessary conditions that together constitute sufficient conditions for conversion to deviant perspective"
+      
+    - name: "conversion"
+      category: "core-construct"
+      description: "Process by which person gives up one world view or perspective for another, specifically from conventional to deviant religious perspective"
+      
+    - name: "deviant-perspective"
+      category: "core-construct"
+      description: "Unknown, obscure, and socially devalued worldview or religious doctrine that deviates from mainstream beliefs"
+      
+    - name: "world-saver"
+      category: "core-construct"
+      description: "Individual who becomes totally committed to spreading deviant religious message and preparing for anticipated transformation"
+      
+    - name: "deployable-agent"
+      category: "core-construct"
+      description: "Total convert who exhibits commitment through deeds and devotes life resources to cult enterprise"
+      
+    # Predisposing conditions (background factors)
+    - name: "predisposing-conditions"
+      category: "theoretical-framework"
+      description: "Background attributes of persons prior to cult contact that form pool of potential converts"
+      
+    - name: "tension"
+      category: "predisposing-condition"
+      description: "Acutely felt discrepancy between imaginary ideal state and perceived current circumstances, experienced over extended periods"
+      
+    - name: "frustrated-aspirations"
+      category: "predisposing-condition"
+      description: "Unrealized desires for wealth, knowledge, fame, prestige, religious status, sexual satisfaction, or significant purpose"
+      
+    - name: "religious-problem-solving-perspective"
+      category: "predisposing-condition"
+      description: "Tendency to interpret problems and seek solutions through religious rather than psychiatric or political frameworks"
+      
+    - name: "seekership"
+      category: "predisposing-condition"
+      description: "Self-definition as religious seeker searching for satisfactory system of religious meaning after finding conventional institutions inadequate"
+      
+    - name: "religious-seeker"
+      category: "core-construct"
+      description: "Person searching for satisfactory religious system to interpret and resolve discontent, having rejected conventional options"
+      
+    # Situational contingencies
+    - name: "situational-contingencies"
+      category: "theoretical-framework"
+      description: "Conditions arising from confrontation and interaction between potential convert and cult members that lead to successful recruitment"
+      
+    - name: "turning-point"
+      category: "situational-contingency"
+      description: "Moment when old lines of action are complete, failed, or disrupted, creating opportunity or necessity for different life direction"
+      
+    - name: "cult-affective-bonds"
+      category: "situational-contingency"
+      description: "Development of positive emotional interpersonal response between potential recruit and one or more cult members"
+      
+    - name: "extra-cult-attachments"
+      category: "situational-contingency"
+      description: "Emotional bonds to non-cult persons that may restrain conversion when activated, or facilitate when absent/neutralized"
+      
+    - name: "intensive-interaction"
+      category: "situational-contingency"
+      description: "Concrete daily and hourly accessibility to cult members through physical proximity and prolonged association"
+      
+    # Types of conversion
+    - name: "verbal-conversion"
+      category: "conversion-type"
+      description: "Professed belief accepted as sincere by core members but without active participation in cult enterprise"
+      
+    - name: "total-conversion"
+      category: "conversion-type"
+      description: "Commitment exhibited through deeds as well as words, involving devotion of life resources to cult activities"
+      
+    # Conversion outcomes and roles
+    - name: "pre-convert"
+      category: "actor-type"
+      description: "Individual who meets predisposing conditions but has not yet encountered cult or begun conversion process"
+      
+    - name: "potential-convert"
+      category: "actor-type"
+      description: "Individual who meets predisposing conditions and has initial contact with cult but conversion outcome uncertain"
+      
+    - name: "convert-in-process"
+      category: "actor-type"
+      description: "Individual undergoing conversion who has developed affective bonds but faces competing loyalties and emotional strain"
+      
+    - name: "core-member"
+      category: "actor-type"
+      description: "Established cult member who evaluates sincerity of converts and provides intensive interaction"
+      
+    - name: "fellow-traveler"
+      category: "actor-type"
+      description: "Verbal convert who professes belief and is accepted as sincere but takes no active role"
+      
+    # Problem-solving alternatives
+    - name: "psychiatric-solution"
+      category: "alternative-framework"
+      description: "Perspective tracing problems to psyche and advocating self-manipulation as solution"
+      
+    - name: "political-solution"
+      category: "alternative-framework"
+      description: "Radical perspective locating problems in social structure and advocating system reorganization"
+      
+    - name: "conventional-religious-solution"
+      category: "alternative-framework"
+      description: "Mainstream religious institutions offering secular, often psychiatric rhetoric concerning problems"
+      
+    # Belief components
+    - name: "supernatural-intervention"
+      category: "belief-component"
+      description: "Belief that spirits from active supernatural realm intervene in material world to impart information or influence events"
+      
+    - name: "teleological-universe"
+      category: "belief-component"
+      description: "Conception that beyond appearances exists purpose for which every object, event, and person is created"
+      
+    - name: "divine-purpose"
+      category: "belief-component"
+      description: "Belief that each person was put on earth for specific reason with particular job to perform"
+      
+    # Social network factors
+    - name: "friendship-networks"
+      category: "social-structure"
+      description: "Pre-existing social bonds through which conversion frequently moves via affective ties"
+      
+    - name: "social-atom"
+      category: "social-structure"
+      description: "Individual with minimal social attachments due to migration, family disaffection, or few acquaintances"
+      
+    - name: "geographical-distance"
+      category: "social-structure"
+      description: "Physical separation from family or friends that reduces extra-cult control over conversion process"
+      
+    # Cult characteristics and processes
+    - name: "millenarian-cult"
+      category: "organization-type"
+      description: "Religious group expecting imminent divine transformation of world, typically involving restoration or new age"
+      
+    - name: "communal-living"
+      category: "organizational-practice"
+      description: "Residential arrangement where converts live together, pooling resources and maintaining intensive interaction"
+      
+    - name: "proselytizing"
+      category: "organizational-practice"
+      description: "Active recruitment and witnessing activities to gain new converts and spread religious message"
+      
+    - name: "masquerading"
+      category: "recruitment-strategy"
+      description: "Attending religious gatherings while posing as religious seeker to identify potential converts"
+      
+    # Psychological and experiential factors
+    - name: "hallucinatory-experience"
+      category: "psychological-factor"
+      description: "Visions, voices, or mystical experiences for which person lacks successful conventional definition"
+      
+    - name: "ecstatic-experience"
+      category: "psychological-factor"
+      description: "Intense spiritual or emotional high associated with religious activity or conversion"
+      
+    - name: "spiritual-liveliness"
+      category: "psychological-factor"
+      description: "Sense of vitality and awakening experienced in presence of cult group or doctrine"
+      
+    - name: "instant-rapport"
+      category: "psychological-factor"
+      description: "Immediate sense of powerful connection or love felt toward cult member upon first encounter"
+      
+    # Control and resistance mechanisms
+    - name: "neutralizing-rhetoric"
+      category: "control-mechanism"
+      description: "Ideological framework that helps converts justify rejection of family/friends and resolve affective conflicts"
+      
+    - name: "cosmic-interpretation"
+      category: "control-mechanism"
+      description: "Doctrinal system that explains daily events in terms of cosmic battle between good and evil spirits"
+      
+    - name: "informal-control"
+      category: "resistance-mechanism"
+      description: "Social pressure from extra-cult attachments attempting to prevent or reverse conversion"
+      
+    # Temporal and contextual factors
+    - name: "activation-timing"
+      category: "temporal-factor"
+      description: "Point when condition becomes relevant to conversion regardless of how long it previously existed"
+      
+    - name: "sequential-accumulation"
+      category: "temporal-factor"
+      description: "Process by which conversion conditions develop and activate in specific order to produce outcome"
+      
+    - name: "cultural-dislocation"
+      category: "contextual-factor"
+      description: "Migration or cultural displacement pattern commonly found in convert backgrounds"
+      
+    # Measurement and observation
+    - name: "participant-observation"
+      category: "measurement-method"
+      description: "Research method involving direct observation while participating in cult activities over extended period"
+      
+    - name: "biographical-reconstruction"
+      category: "measurement-method"
+      description: "Retrospective analysis of convert life histories to identify predisposing conditions and conversion sequence"
+      
+    - name: "conversion-testimonial"
+      category: "measurement-method"
+      description: "First-person account of conversion experience emphasizing before/after transformation narrative"
+      
+    # Relationships and processes
+    - name: "predisposes"
+      category: "relationship"
+      description: "Background condition creates potential for but does not determine conversion outcome"
+      domain: ["predisposing-condition"]
+      range: ["conversion"]
+      
+    - name: "facilitates"
+      category: "relationship"
+      description: "Situational factor enables or supports progression through conversion process"
+      domain: ["situational-contingency"]
+      range: ["conversion"]
+      
+    - name: "requires"
+      category: "relationship"
+      description: "Conversion stage depends on presence of specific condition as necessary prerequisite"
+      domain: ["conversion"]
+      range: ["predisposing-condition", "situational-contingency"]
+      
+    - name: "neutralizes"
+      category: "relationship"
+      description: "Process by which potential barriers to conversion are overcome or rendered ineffective"
+      domain: ["neutralizing-rhetoric", "geographical-distance"]
+      range: ["extra-cult-attachments", "informal-control"]
+      
+    - name: "transforms-into"
+      category: "relationship"
+      description: "Process by which one type or stage of conversion develops into another"
+      domain: ["verbal-conversion"]
+      range: ["total-conversion"]
+      
+    - name: "bonds-with"
+      category: "relationship"
+      description: "Formation of emotional attachment between individuals that influences conversion"
+      domain: ["potential-convert"]
+      range: ["core-member"]
+      
+    - name: "conflicts-with"
+      category: "relationship"
+      description: "Opposition or tension between competing loyalties or belief systems"
+      domain: ["cult-affective-bonds"]
+      range: ["extra-cult-attachments"]
+      
+json_schema:
+  type: "object"
+  properties:
+    nodes:
+      type: "array"
+      items:
+        $ref: "#/$defs/Entity"
+    edges:
+      type: "array"
+      items:
+        $ref: "#/$defs/NaryTuple"
+  $defs:
+    # Core theoretical constructs
+    theoretical_frameworks:
+      enum: ["value-added-model", "predisposing-conditions", "situational-contingencies"]
+    
+    core_constructs:
+      enum: ["conversion", "deviant-perspective", "world-saver", "deployable-agent", "religious-seeker"]
+    
+    # Conversion conditions and stages
+    predisposing_conditions:
+      enum: ["tension", "frustrated-aspirations", "religious-problem-solving-perspective", "seekership"]
+    
+    situational_contingencies:
+      enum: ["turning-point", "cult-affective-bonds", "extra-cult-attachments", "intensive-interaction"]
+    
+    conversion_types:
+      enum: ["verbal-conversion", "total-conversion"]
+    
+    # Actor types and roles
+    actor_types:
+      enum: ["pre-convert", "potential-convert", "convert-in-process", "core-member", "fellow-traveler"]
+    
+    # Alternative frameworks
+    alternative_frameworks:
+      enum: ["psychiatric-solution", "political-solution", "conventional-religious-solution"]
+    
+    # Belief and psychological components
+    belief_components:
+      enum: ["supernatural-intervention", "teleological-universe", "divine-purpose"]
+    
+    psychological_factors:
+      enum: ["hallucinatory-experience", "ecstatic-experience", "spiritual-liveliness", "instant-rapport"]
+    
+    # Social and organizational factors
+    social_structures:
+      enum: ["friendship-networks", "social-atom", "geographical-distance"]
+    
+    organization_types:
+      enum: ["millenarian-cult"]
+    
+    organizational_practices:
+      enum: ["communal-living", "proselytizing"]
+    
+    recruitment_strategies:
+      enum: ["masquerading"]
+    
+    # Control mechanisms
+    control_mechanisms:
+      enum: ["neutralizing-rhetoric", "cosmic-interpretation"]
+    
+    resistance_mechanisms:
+      enum: ["informal-control"]
+    
+    # Temporal and contextual factors
+    temporal_factors:
+      enum: ["activation-timing", "sequential-accumulation"]
+    
+    contextual_factors:
+      enum: ["cultural-dislocation"]
+    
+    # Research methods
+    measurement_methods:
+      enum: ["participant-observation", "biographical-reconstruction", "conversion-testimonial"]
+    
+    # Relationships and processes
+    relationships:
+      enum: ["predisposes", "facilitates", "requires", "neutralizes", "transforms-into", "bonds-with", "conflicts-with"]

@@ -1,0 +1,1311 @@
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16Annual Review of Environment and Resources
+Why People Do What They
+Do: An Interdisciplinary
+Synthesis of Human
+Action Theories
+Harold N. Eyster,1,2 Terre Satterfield,1
+and Kai M.A. Chan 1
+1 Institute for Resources, Environment, and Sustainability, University of British Columbia,
+Vancouver, Canada; email: haroldeyster@gmail.com
+2 Gund Institute for Environment, University of Vermont, Burlington, Vermont, USA
+Annu. Rev. Environ. Resour. 2022. 47:725–51
+First published as a Review in Advance on
+July 18, 2022
+The Annual Review of Environment and Resources is
+online at environ.annualreviews.org
+https://doi.org/10.1146/annurev-environ-020422-
+125351
+Copyright © 2022 by Annual Reviews. This work is
+licensed under a Creative Commons Attribution 4.0
+International License, which permits unrestricted
+use, distribution, and reproduction in any medium,
+provided the original author and source are credited.
+See credit lines of images or other third-party
+material in this article for license information
+Keywords
+collective action, cultural practice, decision-making, behavior change,
+systemic change, proenvironmental behavior
+Abstract
+Understanding why people do what they do is central to advancing equitable
+and sustainable futures. Yet, theories about human action are fragmented
+across many social science disciplines, each with its own jargon and implicit
+assumptions. This fragmentation has hindered theory integration and ac-
+cessibility of theories relevant to a given challenge. We synthesized human
+action theories from across the humanities and social sciences. We developed
+eight underlying assumptions—metatheories—that reveal a fundamental or-
+ganization of human action theories. We describe each metatheory and the
+challenges that it best elucidates (illustrated with climate change examples).
+No single metatheory addresses the full range of factors and problems; only
+one treats interactions between factors. Our synthesis will help researchers,
+policymakers, and practitioners gain a multifaceted understanding of human
+action.
+725
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16Human action:
+an umbrella term for
+when individuals,
+groups, relationships,
+institutions, societies,
+etc., undertake
+(un)conscious
+decision-making,
+(non)volitional
+behavior,
+pro/antienvironmental
+action, motivation,
+learning, management,
+pro/antisocial
+behavior, cooperation,
+conflict, social
+movements, societal
+transitions, cultural
+norms and practice,
+habits, compliance, etc.
+Human action
+theory: a description
+of the relationship
+between human action
+and a set of variables
+deemed to explain that
+action
+Contents
+1. INTRODUCTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 726
+2. METHODS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 727
+2.1. Defining Human Action Theories . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 727
+2.2. Selecting Human Action Theories . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 728
+2.3. Categorizing Human Action Theories . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 728
+3. MANY DISCIPLINES REPRESENTED . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 728
+4. EIGHT METATHEORIES: DESCRIPTION AND APPLICATION . . . . . . . . . . . 732
+4.1. Independent Metatheories . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 732
+4.2. Needs Metatheories . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 737
+4.3. Top-Down Metatheory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 740
+4.4. Interdependent Metatheory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 741
+5. KNITTING THEORIES TOGETHER . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 741
+6. CONCLUSION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 743
+1. INTRODUCTION
+Understanding human action is recognized as essential for addressing today’s linked social, eco-
+logical, and climate crises (1–5). Yet, theories that seek to explain human action are diverse and
+numerous and stem from many disconnected academic disciplines. Each of these disciplines and
+subdisciplines is underpinned by its own set of (often implicit) assumptions and (often esoteric)
+vocabulary (e.g., 6). Such inaccessibility has hindered the development and application of human
+action theories to address today’s crises (e.g., climate change). Moreover, the few theories that have
+been widely used are often applied beyond the contexts in which they are valid and informative
+(7). A map that organizes human action theories is therefore crucial for advancing sustainability
+(including all of its components, e.g., social justice, biological conservation, climate action, envi-
+ronmental protection, and human and planetary health).
+The isolation of human action theories among disjunct disciplines has hampered scholars in
+navigating the full range of theories to find those that suit a given case. Consequently, scholars
+are forced to select the most familiar off-the-shelf theory in their discipline or the theory widely
+used by colleagues (e.g., 8, 9). Familiar explanations for human action are tenacious: When one is
+presented with unexplained human action, “the tendency is to commission further studies in the
+same mold. This results in a self-sustaining paradigm” (10, p. 1276), which may prevent broader
+investigation of human action. For example, the theory of planned behavior (a psychology theory
+that posits that individual behavior is determined primarily by one’s perceived control over one’s
+own behavior and intentions; 11) is often applied to nature conservation, although it may often
+be unsuitable (7). Studies have shown that, while this theory is useful for predicting individuals’
+short-term, intended, and self-reported actions in constrained decision spaces, it is unlikely to
+predict human action more broadly (7, 12). Therefore, the theory is most relevant to a narrow set
+of problems. Similarly, many other theories are also most relevant for particular contexts, actions,
+and problems (9). The numerous challenges that require transformative change (13, 14)—rather
+than short-term, marginal, individual changes—might best be addressed by a wider array of human
+action theories.
+Fragmentation of theories across disjunct disciplines has also constrained expectations about
+what a solution will look like. For instance, popular theories of behavioral economics, including
+nudge theory, target behavior change by shifting individual decisions that are often semiconscious
+726 Eyster • Satterfield • Chan
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16Interdependent
+variables: variables for
+which a change in one
+variable both causes
+changes in the other
+and is caused by
+changes in the other
+Metatheory:
+the baseline, often
+implicit, assumptions
+that underlie theories;
+the assumptions about
+where to look for
+answers and what
+attributes might be
+important; a theory
+about theories
+Independent
+variables: are treated
+as being unaffected by
+other measured
+variables; also termed
+response variables
+or driven by heuristics (15). For example, public transportation ridership might be boosted by
+automatically bundling bus passes with vehicle registration fees (making bus pass purchases the
+default). However, since nudge theory targets semi- or unconscious individual behavior, reliance
+on this approach omits and may impede attention to crucial institutional and systemic constraints
+(1). Indeed, a focus on individual behavior overlooks the key role that transformative structural
+change plays in sustainable trajectories (1, 10). As the adage goes, if you have a hammer, problems
+look like nails. Increasing the accessibility of the many theories that target both individual and
+structural features (i.e., providing access to more of the toolbox) could hasten the understanding
+and adoption of solutions to a wide variety of social–environmental problems.
+Increasing access to human action theories could also facilitate fertilization across disciplines,
+likely resulting in more robust and situationally relevant theories. For example, autonomy (the
+degree of ownership over one’s actions) plays a central role in self-determination theory (a theory
+from educational psychology that seeks to explain intrinsic motivation; 16). But autonomy is ab-
+sent in another theory, the extended parallel process model (a communications theory that seeks to
+explain how fear messages affect health-related behavior; 17). Should autonomy also be included
+in the extended parallel process model? Or is there something about the context of health-related
+behavior that makes autonomy unimportant? Without engaging across theories, we cannot dis-
+criminate between these explanations, nor can we create more robust and relevant theories.
+Previous reviews of human action theories have often been limited to a subset of theories, such
+as those relevant to individual behavior (18, 19) that is consciously intended to better the environ-
+ment (i.e., proenvironmental behavior; 20) or to individual decisions about energy consumption
+(21). Important theories about collective action and structural change are thus often overlooked.
+Even ostensibly full-spectrum reviews have employed search terms and analytic methods that im-
+plicitly restrict disciplinary scope. For example, Davis et al. (22, p. 332) assert (per their discipline)
+that a good theory must show “the independence of constructs from each other.” While many
+theories in psychology exemplify this criterion, theories in other disciplines do not. For instance,
+this criterion excludes practice theories in which each cultural and physical element is inextri-
+cably linked to others, using interdependent variables (e.g., technology and meaning interact in-
+terdependently to determine water consumption; 23). Other reviews have usefully summarized
+many relevant theories, but without synthesizing or investigating underlying assumptions (e.g.,
+24), which diminishes the potential for integration.
+To integrate these productive but disjunct areas of work, we analyzed 86 representative and
+prominent theories of human action from across the human and social sciences. We cast a wide
+net by including any theory that sought to explain human action, free from constraints related
+to discipline or assumptions. By inductively characterizing each theory, we developed eight core
+metatheories (or underlying assumptions) that represent and differentiate all of the original 86 the-
+ories. The metatheories we developed transcend academic disciplines and provide a fundamental
+yet simple organization of human action theories. We describe each metatheory and suggest the
+types of problems each would best elucidate, including illustrative examples of how each metathe-
+ory might be harnessed to address climate change.
+2. METHODS
+2.1. Defining Human Action Theories
+We defined a human action theory as a description of the relationship between human action
+and a set of variables. Our definition is broader than that used in previous studies in four key
+ways. First, we included not only theories but also models and frameworks (25). Second, we did
+not require theories to identify unidirectional relationships between input/independent variables
+www.annualreviews.org • Review of Human Action Theories 727
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16Dependent variables:
+treated as being at least
+partially determined
+by other measured
+variables. In traditional
+models, variation in an
+independent variable
+explains variation in a
+dependent variable
+(e.g., rising CO 2 levels
+explain the rise in
+global temperature)
+Grounded theory:
+inductive identification
+of commonalities of
+and differences
+between different
+elements (in our case,
+theories), from which
+one can then distill
+organizing categories
+(in our case, e.g.,
+metatheories)
+Positionality:
+the social, cultural,
+relational,
+environmental, and
+political position in
+which a person exists
+in relation to a given
+topic, project, or world
+and outcome/dependent/response variables. Although other reviews have limited their scope to
+such one-way relationships (e.g., 26), this assumption excludes many theories from anthropology
+and sociology, which often use interdependent variables. Third, we included both academic books
+and papers (compare 22) since different fields rely on different publication formats. Fourth, we
+intentionally theorized “action” instead of “behavior.” Behavior often refers to actions by fully
+independent individuals and dominates psychology (e.g., 18, 19, 27), but this term is rare in other
+disciplines. We therefore theorized “action” because it has fewer disciplinary constraints.
+2.2. Selecting Human Action Theories
+We harnessed multiple methods to collect diverse and representative human action theories. We
+searched Web of Science with (“theory” OR “model” OR “framework”) AND (“behavior” OR
+“action” OR “practice” OR “intention” OR “movement” OR “motivation” OR “change”) AND
+(“human” OR “social” OR “person” OR “people”). We also conducted targeted searches covering
+the social science disciplines identified by Reference 28, followed reference chains/used snowball
+sampling, and consulted with scholars about the dominant human action theories in their respec-
+tive disciplines. Of these theories, we selected those that appeared seminal or typical of a set of
+similar theories. This selection process produced 86 theories (see Table 1).
+2.3. Categorizing Human Action Theories
+Our approach was “grounded”: We inductively identified commonalities between theories and
+then distilled axes from these commonalities (rather than presupposing the axes that organize
+theories; 145). This method produced five axes: (i) academic discipline, (ii) unit of action (e.g.,
+individual, collective), (iii) type of action (e.g., volitional behavior), (iv) explanatory logic (i.e.,
+whether the theory was meant to describe action or change action), and (v) sets of foundational
+assumptions underlying each theory (i.e., metatheory; 146, 147).
+We iteratively and inductively categorized all theories along each axis. Specifically, we assigned
+each theory to an initial category, then combined initial categories into higher-level categories
+(i.e., focused coding; 145). After creating this preliminary categorization of all theories, we rean-
+alyzed and recategorized each one (i.e., asked new questions of each theory; 145). Some theories
+were included in multiple classes (i.e., fuzzy coded). To identify academic discipline, we drew on
+a combination of author affiliation, journal affiliation, self-identification, and disciplinary jargon.
+We illustrated our categorizations, using the R package circlize version 0.4.13 (148). We
+calculated the fourth root of the number of times each theory’s key source was cited to display the
+relative citations each theory had received. This measure is only approximate, since theories differ
+in age, number of sources, and associated citational norms.
+Categorization is useful but necessarily imperfect and, at times, arbitrary (149). Our emer-
+gent categories are neither objective nor preexistent but reflect one inductive characterization
+and synthesis (145, 150). Our characterization of human action theories may reflect our
+own positionalities as interdisciplinary scholars; the first author, who led the coding, is a White
+man with broad interdisciplinary training and research in the human and social sciences, as well
+as in ecology and evolution.
+3. MANY DISCIPLINES REPRESENTED
+Our analysis of 86 theories of human action (Table 1) revealed a vast range of topical foci, but also
+underlying commonalities. Our findings show the breadth of disciplines theorizing about human
+action and (uneven) cross-fertilization between them (see Figure 1). Psychology, neuroscience,
+728 Eyster • Satterfield • Chan
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16Table 1 Human action theories represented in this review, showing selected sources
+Theory Source
+Action and coping planning Carraro & Gaudreau (29)
+Affect infusion model Forgas (30, 31)
+Anthroparchy Cudworth (32, 33)
+Anthropocentrism Devall (34)
+Attachment theory Bowlby (35), Ainsworth (36), Hazan & Shaver (37), Campbell & Stanton (38)
+Attitude–behavior correlations Kraus (39)
+Attitude, behavior, context Guagnano et al. (40)
+Bureaucratic discretion and constraint Tadaki (41)
+Causal model theory Waldmann & Dieterich (42)
+Cognitive dissonance Festinger (43), Festinger & Carlsmith (44), Harmon-Jones & Mills (45)
+Cognitive hierarchy of human behavior Homer & Kahle (46), Vaske & Donnelly (47)
+Collective action frames Benford & Snow (48), Snow & Benford (49), Gamson (50), McAdam et al. (51)
+Collective action theory in organizations Bimber et al. (52)
+Compassion fade Västfjäll et al. (53)
+Conformity theory Cialdini (54)
+Cultural cognition Kahan et al. (55), Kahan (56)
+Cultural evolution Boyd & Richerson (57), Cavalli-Sforza & Feldman (58), Mesoudi (59)
+Cycle of credibility Latour & Woolgar (60)
+Deliberative democracy Miller (61), John et al. (62)
+Deterrence theory Beccaria (63), Pratt et al. (64)
+Diffusion model Oberschall (65)
+Diffusion of innovations Rogers (66), Greenhalgh et al. (67)
+Domestic practice Hand et al. (23)
+Dopamine and addiction Wise & Robble (68)
+Ecological rationality Gigerenzer et al. (69)
+Ecosocialism Pepper (70), Harvey (71)
+Efficient complexity manager Levine et al. (72)
+Effort reduction framework Shah & Oppenheimer (73)
+Elaboration likelihood model Petty & Cacioppo (74)
+Environmental behavior model Hungerford & Volk (75)
+Environmental leaders Chawla (76)
+Environmental stewardship Bennett et al. (77)
+Environmentalism of the poor Guha & Martinez-Alier (78)
+Environmentality Agrawal (79)
+Exploitation/exploration March (80), Tuncdogan et al. (81)
+Extended parallel process model Maloney et al. (17), Witte (82)
+Five factor model of personality Digman (83), Goldberg (84)
+Five principles of the whole person McAdams & Pals (85)
+Foot in the door Freedman & Fraser (86), Cialdini et al. (87)
+Governing the commons Ostrom (88)
+Guilt aversion Chang et al. (89)
+Habit–intention interactions De Bruijn et al. (90), Gardner et al. (91)
+Health action process approach Luszczynska & Schwarzer (92), Schwarzer (93)
+(Continued)
+www.annualreviews.org • Review of Human Action Theories 729
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16Table 1 (Continued)
+Theory Source
+Health belief model Rosenstock (94)
+Hedonic principle Freud (95)
+Identity and agency in cultural worlds Holland et al. (96)
+Indigenous collaborations Reo et al. (97)
+Intentional norm change Raymond et al. (98)
+Intersectional Indian ecofeminism Kings (99)
+Liberation ecology Peet & Watts (100)
+Minority influence Moscovici et al. (101), Moscovici (102, 103)
+Model of ecological behavior Fietkau & Kessel (104) [summarized in Kollmuss & Agyeman (20)]
+Motivation crowding–game theory Gneezy & Rustichini (105)
+Motivation crowding–norms Gneezy & Rustichini (105)
+Motivation–hygiene theory Herzberg (106)
+Multilevel sociotechnical transitions Smith et al. (107)
+Narrative theory Polletta (108)
+Norm activation model Schwartz (109), De Groot & Steg (110)
+Nudge theory Thaler & Sunstein (15), Wilk (111)
+Place/space Indigenous identity Fredericks (112)
+Prospect theory Kahneman & Tversky (113), Kahneman (114)
+Rational appeal Lindauer et al. (115)
+Rational choice theory Morgenstern & Neumann (116), Becker (117)
+Reasonable person model Kaplan & Kaplan (118)
+Regulatory focus theory Tuncdogan et al. (81), Higgens (119), Zhao & Pechmann (120)
+Relationship marketing Morgan & Hunt (121)
+Resource-rational analysis Lieder & Griffiths (122)
+Risk perception attitude framework Rimal (123)
+Self-affirmation theory Cohen & Steele (124)
+Self-determination theory Ryan & Deci (16, 125)
+Sense of should Theriault et al. (126)
+Shared decision-making Weiss (127)
+Social cognitive theory and self-efficacy Bandura (128)
+Social ecology Bookchin (129)
+Social intuitionist model Haidt (130)
+Social norms Cialdini (54), Schultz et al. (131), Farrow et al. (132)
+Social-defense theory Ein-Dor et al. (133), Ein-Dor & Hirschberger (134)
+Socioecological systems framework McGinnis & Ostrom (135), Ostrom (136)
+Stage model of fear communication de Hoog et al. (137)
+Strength model of self-control Baumeister et al. (138), Hagger et al. (139)
+Systematic/heuristic processing Chaiken (140)
+Theory of planned behavior Ajzen (11)
+Thinking fast/slow Kahneman (114), Tversky & Kahneman (141)
+Transition management Rotmans et al. (142)
+Transtheoretical model of behavior change Prochaska & Vlicer (143)
+Value-belief-norm theory Stern (27, 144)
+730 Eyster • Satterfield • Chan
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16Indigenous studies
+Development
+Political ecology
+Ecology
+Science and technology studies
+Innovation studies
+Complexity science
+Marketing
+History
+Education
+Feminist studies
+Geography
+Public health
+Critical race studies
+Communications
+Criminology
+Economics
+Management
+Sociology
+Anthropology
+Law
+Political science
+Conservation science
+Literature
+ArchaeologyNeurosciencePsychology
+Evolutionary biology
+Ethology
+Systems theory
+Ethics
+Health psychology
+Health action process approach
+Transtheoretical model of behavior change
+Action and coping planning
+Habit–intention interactions
+Rational appeal
+Causal model theory
+Attachment theory
+Dopamine and addiction
+Social-defense theory
+Risk perception attitude framework
+Affect infusion model
+Five factor model of personality
+Cognitive hierarchy of human behavior
+Ecological rationality
+Environmental leaders
+Foot in the door
+Minority influence
+Motivation crowding–norms
+Norm activation model
+Social intuitionist model
+Strength model of self-control
+Conformity theory
+Reasonable person model
+Self-determination theory
+Social norms
+Stage model of fear communication
+Value-belief-norm theory
+Attitude–behavior correlations
+Cognitive dissonance
+Compassion fade
+Elaboration likelihood model
+Five principles of the whole person
+Self-affirmation theory
+Social cognitive theory and self-efficacy
+Hedonic principle
+Systematic/heuristic processing
+Theory of planned behavior
+Sense of should
+Guilt aversion
+Resource-rational analysis
+Cultural evolution
+Environmental stewardship
+Narrative theory
+Attitude, behavior, context
+Model of ecological behavior
+Regulatory focus theory
+Efficient complexity manager
+Thinking fast/slow
+Effort reduction framework
+Intentional norm change
+Nudge theory
+Deliberative democracy
+Cultural cognition
+Deterrence theory
+Identity and agency in cultural worlds
+Environmentality
+Cycle of credibility
+Collective action frames
+AnthropocentrismDomestic practiceDiffusion modelExploitation/explorationMotivation–hygiene theoryRational choice theoryMotivation crowding–game theoryProspect theoryCollective action theory in organizationsExtended parallel process modelIntersectional Indian ecofeminism
+Environmentalism of the poor
+Bureaucratic discretion and constraint
+Diffusion of innovations
+Anthroparchy
+Health belief model
+Ecosocialism
+Environmental behavior model
+Shared decision-making
+Relationship marketing
+Multilevel sociotechnical transitions
+Transition management
+Governing the commons
+Socioecological systems framework
+Social ecology
+Liberation ecology
+Indigenous collaborations
+Place/space Indigenous identity
+Figure 1
+Academic discipline(s) (blue labels) associated with each theory (green labels). The relative thickness of each connector represents
+approximately how much attention each theory has received (as measured by the fourth root of the number of citations received by the
+foundational publications). For theory sources, see Table 1.
+www.annualreviews.org • Review of Human Action Theories 731
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16Independent Self
+metatheory:
+a metatheory
+developed in this
+article that treats
+individual behavior as
+shaped by personal
+characteristics such as
+values, attitudes, traits,
+beliefs, and
+worldviews, all of
+which are treated as
+independent of and
+unaffected by external
+context and structure
+Independent
+Structure
+metatheory:
+a metatheory
+developed in this
+article that treats
+individual behavior as
+shaped by structures
+such as culture,
+institutions,
+infrastructure, and
+technologies, all of
+which are treated as
+independent of and
+unaffected by internal
+processes and personal
+characteristics
+and economics showed substantial overlap, while psychology and anthropology showed little
+(Figure 1). Overall, psychological theories were less interdisciplinary than those in most other
+disciplines. This literature suggests an extensive basis for scientists and practitioners to study
+and enable sustainable action. However, academic discipline was insufficient to organize human
+action theories or define underlying drivers of human action.
+4. EIGHT METATHEORIES: DESCRIPTION AND APPLICATION
+Our eight emergent and synthetic metatheories represent the baseline assumptions that underlie
+all 86 theories (Figure 2). Such metatheories inform “. . .the sorts of questions one asks and does
+not ask. . .” (146, p. 98). Metatheories thus dictate which explanations researchers look for: If a
+human takes action X, the causes could be either Y or Z or innumerable others. By limiting the
+causes to Y or Z, metatheories constrain the types of questions asked, the answers obtained, and the
+implications of these answers (146). However, which metatheory underlies a given theory is often
+implicit to both theory-creators and theory-users (147, 151). This implicitness hinders integration
+of multiple theories (6, 152). Explicating and relating implicit metatheoretical assumptions may
+help organize, compare, use, and build better theories.
+We labeled the eight metatheories developed through our inductive analysis as Independent
+Self, Independent Structure, Cognitive Needs, Psychological Needs, Communal Needs, Eco-
+nomic Needs, Interdependent, and Top-Down. Each of our eight emergent metatheories assumes
+that a different set of factors generates human action (Figure 3) and thus enables understanding
+of a distinct aspect, scale, and cause of human action (Figure 4). For example, as elaborated below,
+our Independent Self metatheory assumes that independent personal attributes, such as attitudes,
+shape individual short-term action (Figure 3).
+4.1. Independent Metatheories
+The first two metatheories, Independent Self and Independent Structure, treat the drivers of
+human action as largely independent. The factors that shape human action are assumed to be
+independent from each other and from any external factors; these external factors are assumed to
+be unchanging.
+4.1.1. Independent Self. The theories in our first metatheory, Independent Self, treat indi-
+vidual behavior as shaped by personal characteristics, such as values, attitudes, traits, beliefs, and
+worldviews, all of which are treated as independent of and unaffected by “external” context and
+structure (10) (Figure 3). Personal characteristics are assumed to cause behavior (unidirectionally);
+these theories do not examine how behavior in turn shapes personal characteristics (bidirection-
+ally). Moreover, although theories may occasionally allude to structural factors, these are not the
+primary focus of investigation. For example, the model of ecological behavior includes how behav-
+ior can be enabled or disabled by external, infrastructural, and economic factors. However, these
+external factors are treated obliquely or as contextual information and are not theorized to sub-
+stantially affect personal attributes (104). While Independent Self theories can explain individual
+short-term choices, they have been criticized for psychologizing social problems—that is, treating
+a problem as solely a result of individual actions (153). This limited role of structural explanations
+distinguishes the Independent Self metatheory from the Independent Structure and Top-Down
+metatheories.
+This category was prevalent, particularly in psychology, economics, and ethics (see Figure 5),
+and contains many of the most widely cited theories, including the theory of planned behavior and
+prospect theory (Figure 2). These theories are used to both describe and change human action,
+primarily in relation to individual behavior and decision-making (Figure 4).
+732 Eyster • Satterfield • Chan
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16Top-down
+Interdependent
+Economic needs
+Communal needs
+Psychological needs
+Cognitive needs
+Independent structure
+Independent self
+Five factor model of personality
+Reasonable person model
+Five principles of the whole person
+Attitude, behavior, context
+Model of ecological behavior
+Health action process approach
+Cognitive hierarchy of human behavior
+Guilt aversion
+Prospect theory
+Affect infusion model
+Action and coping planning
+Transtheoretical model of behavior change
+Risk perception attitude framework
+Motivation crowding–norms
+Environmental behavior model
+Causal model theory
+Attitude−behavior correlations
+Relationship marketing
+Rational appeal
+Theory of planned behavior
+Health belief model
+Value-belief-norm theory
+Environmental leaders
+Collective action theory in organizations
+Socioecological systems framework
+Bureaucratic discretion and constraint
+Environmental stewardship
+Effort reduction framework
+Systematic/heuristic processing
+Ecological rationality
+Elaboration likelihood model
+Sense of should
+Compassion fade
+Nudge theory
+Habit−intention interactions
+Strength model of self-control
+Efficient complexity manager
+Dopamine and addiction
+Thinking fast/slow
+Resource-rational analysis
+Place/space Indigenous identity
+Self-affirmation theory
+Attachment theory
+Extended parallel process model
+Social-defense theory
+Social cognitive theory and self-efficacy
+Social norms
+Foot in the door
+Conformity theory
+Stage model of fear communication
+Social intuitionist model
+Hedonic principle
+Self-determination theory
+Cultural cognition
+Motivation–hygiene theory
+Cognitive dissonance
+Norm activation modelRegulatory focus theoryDeliberative democracyNarrative theoryCollective action framesDiffusion model
+Diffusion of innovations
+Exploitation/exploration
+Indigenous collaborations
+Motivation crowding–game theory
+Rational choice theory
+Deterrence theory
+Environmentality
+Multilevel sociotechnical transitions
+Cycle of credibility
+Cultural evolution
+Intentional norm change
+Shared decision-making
+Transition management
+Domestic practice
+Identity and agency in cultural worlds
+Minority influence
+Intersectional Indian ecofeminism
+Anthroparchy
+Governing the commons
+Liberation ecology
+Anthropocentrism
+Social ecology
+Ecosocialism
+Environmentalism of the poor
+Figure 2
+Our mapping of theories (green labels) onto the emergent metatheories underlying each (blue labels). The relative thickness of each
+connector represents approximately how much attention each theory has received (as measured by the fourth root of the number of
+citations received by the foundational publication).
+www.annualreviews.org • Review of Human Action Theories 733
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16Personal attributes
+(e.g., attitudes) Behavior
+Institutional/structural factors
+(e.g., bike share program) Action
+Cognitive need
+(e.g., cognitive efficiency)
+Cognitive
+process BehaviorSurvival/fitness
+Psychological need
+(e.g., relatedness) ActionSubjective well-being
+Communal need
+(e.g., participation) Social cooperation
+Communal survival/
+organization survival
+Institutional
+design
+Economic need
+(e.g., utility maximization) BehaviorWell-being (utilitarian) Preferences
+Practice
+Dynamic feedbacks
+(e.g., meanings)
+Dynamic feedbacks
+(e.g., materials)
+Societal/political structure Social/environmental
+action
+Interdependent
+Top-down
+IndependentNeeds
+Self
+Structure
+Psychological
+Communal
+Cognitive
+Economic
+Figure 3
+Simplified diagram showing the structure of each metatheory. Each metatheory makes different assumptions about what drives human
+action: Particular components (blue, tan) are theorized to determine some conception of human action (yellow), which may satisfy
+particular purposes (orange). Each metatheory draws on a different set of factors: The top two metatheories focus on the independent
+self and structure, respectively. Each of the next four metatheories focuses on a different set of needs, including cognitive needs,
+psychological needs, communal needs, and economic needs. The seventh metatheory examines often hidden, systemic factors; the final
+metatheory examines how multiple factors, and action itself, interact to cocreate a practice. Our analysis reveals which metatheories may
+be most appropriate for different types of solutions, from incremental, fast, and cheap to systemic and transformative (see Figure 4).
+4.1.1.1. Action suitability. Theories in the Independent Self category are suited to provide
+short-term, fast, small changes to deliberate behavior (see Figure 4). Because these theories as-
+sume that context and structures are static, they are best applied to populations in which everyone
+experiences similar context and structures and in which those structures are not changeable at the
+scale of interest (e.g., tomorrow’s dietary choices in a school cafeteria). Thus, such theories are
+less appropriate for more substantial and cascading changes, such as transitioning to a degrowth
+economy (154). The Independent Self metatheory is often the default metatheory and so may be
+overused (10); before employing these theories, potential users should verify that this metatheory
+is the most appropriate.
+4.1.1.2. Example application: climate change. Independent Self theories could tackle green-
+house gas emissions by making small changes to intentional individual behavior of a homogeneous
+population. For instance, this metatheory could instruct how to modify employee attitudes about
+the health benefits of bicycle commuting, which might incentivize employees who own bicycles
+to commute by bicycle more frequently. However, because this metatheory is best suited for
+734 Eyster • Satterfield • Chan
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16Institutions: formal
+and informal entities
+that are often made up
+of people as well as
+formal and/or informal
+rules, practices, and
+possibly physical and
+technological
+structures
+IndependentNeeds
+Example application to
+address climate change
+Top-down
+Scale of
+change
+Lever
+identification
+Applicable
+population
+Implementation
+speed
+Medium,
+moderately
+systemic
+Medium,
+incremental
+Medium,
+moderately
+incremental
+Small
+Small
+Scale of
+analysis
+What does it
+enable?
+Self
+Change individual
+attitudes toward
+decisions (structure/
+context is constant)
+Small
+Change cues to
+harmonize cognitive
+needs with specific
+choice (e.g., nudges)
+Intrinsically motivate
+people, which in turn
+increases subjective
+well-being
+Create adaptive,
+communal,
+equitable processes
+Change costs of choices
+within a static,
+homogeneous system
+Identify and intervene in
+dynamic feedbacks that
+(re)produce social practices
+Identify overarching
+problem
+Structure
+Change institutions to
+enable change, holding
+individuals constant
+Medium
+Psychological
+Communal
+Cognitive
+Interdependent
+Economic
+Small,
+incremental
+Create positive individual
+attitudes toward bike
+commuting
+Medium
+Small
+Large
+Large
+Medium,
+moderately
+systemic
+Medium,
+incremental
+Large,
+systemic, and
+adaptive
+Large,
+systemic
+Create separated bike lanes;
+build bike cages
+Require parking passes to be
+manually renewed
+Redesign institutions to
+enable people to meet their
+need for consonance between
+action and underlying
+environmental values
+Change the organizational
+structure and processes of a
+climate activism organization
+Introduce a carbon tax
+Change competence,
+availability, meanings, and
+technology about biking
+Reorganize nation's political
+economy
+Metatheory
+Usually
+Usually
+Usually
+Usually
+Usually
+Always
+Sometimes
+Rarely
+Homogeneous
+Heterogeneous
+Heterogeneous
+Heterogeneous
+Heterogeneous
+Homogeneous
+Heterogeneous
+Heterogeneous
+Variable
+Rapid, cheap
+Variable
+Slow
+Rapid
+Slow
+Slow
+Figure 4
+Key attributes of each metatheory that inform suitable application, and an example solution each might propose to tackle climate
+change.
+tinkering within existing systems, if the existing system is inadequate, then this metatheory is
+unlikely to have much effect. For example, employees may have a positive attitude towards bicycle
+commuting, but if the only route to work is on a busy highway, attitude modification may not
+increase bicycle commuting.
+4.1.2. Independent Structure. Our Independent Structure metatheory is analogous to the In-
+dependent Self metatheory, but it assumes that independent structural factors, rather than personal
+factors, drive action. Independent Structure theories assume that differences in cultures, educa-
+tion, learning environments, institutions, infrastructure, and structures drive human action; inter-
+nal processes and personal characteristics are often unexamined. For example, according to the
+collective action theory in organizations, available information technology (e.g., email) influences
+how people can communicate and carry out collective action.
+Independent Structure theories were quite scarce among our sampled theories (Figure 2) but
+were represented in multiple disciplines, including geography and sociology (Figure 5). These
+theories are used primarily to understand how to change the action and management of collectives
+and institutions (Figure 4).
+www.annualreviews.org • Review of Human Action Theories 735
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16Political ecology
+Complexity science
+History
+Archaeology
+Innovation studies
+Science and technology studies
+Development
+Feminist studies
+Anthropology
+Sociology
+Critical race studies
+Indigenous studies
+Political science
+Literature
+Education
+Ecology
+Geography
+Evolutionary biology
+Management
+Marketing
+Public health
+Communications
+Conservation science
+Systems theory
+Law
+Economics
+Psychology
+Ethics
+Ethology
+Health psychology
+Criminology
+Neuroscience
+Cognitive needs
+Economic needs
+Independent self
+Psychological needs
+Independent structure
+Communal needs
+Interdependent
+Top-down
+Figure 5
+The relationship between each theory’s academic discipline(s) (blue labels) and metatheory (green labels). The relative arclength of each
+metatheory and discipline represents the relative proportion of each within our sample (e.g., Communal Needs undergirded more
+theories than did Independent Structure). The metatheories, while somewhat aligned with disciplines, represent deeper underlying
+assumptions that cut across theories and disciplines.
+4.1.2.1. Action suitability. This grouping of theories addresses challenges that, relative to other
+metatheories, require moderate-term, moderately fast, medium-scale changes (see Figure 4). This
+metatheory accounts for structural changes, but not for feedbacks (as in positive feedback loops)
+or interactions among structural factors and personal attributes. Consequently, this metatheory is
+736 Eyster • Satterfield • Chan
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16Cognitive Needs
+metatheory:
+a metatheory
+developed in this
+article that assumes
+that the ultimate
+purpose of human
+action is survival/
+evolutionary fitness,
+which results from the
+satisfaction of any need
+associated with the
+cognitive processing of
+information
+not suited to characterizing transformative, cascading changes. Nevertheless, it typically contains
+clear structural intervention points, streamlining its application.
+4.1.2.2. Example application: climate change. Independent Structure theories could lower
+greenhouse gas emissions by explaining how to modify an institution or structure while holding
+everything else constant. For example, these theories might propose to increase biking by creat-
+ing separated bicycle lanes and bicycle garages. However, if people are not otherwise equipped
+or able to bicycle (due to a lack of, e.g., knowledge to navigate traffic, ability to bicycle up a hill,
+or experience adjusting gears), this change may be inadequate because this metatheory does not
+integrate personal characteristics such as biking knowledge or attitude.
+4.2. Needs Metatheories
+Across the next four metatheories, a person’s action is theorized as directed towards an ultimate
+purpose.
+4.2.1. Cognitive Needs. In theories categorized under our Cognitive Needs metatheory, the
+ultimate purpose of action is survival/evolutionary fitness, which results from the satisfaction of
+any need associated with the cognitive processing of information (Figure 3). These theories thus
+assume that human action is directed towards fulfilling cognitive needs. Among our theories, we
+distilled four such needs: accurate inference (to ensure that decisions reflect reality), cognitive
+efficiency (to ensure that limited energy resources are used to maximal effect), information ex-
+ploitation (i.e., coasting/predictability; to ensure maximum utility of limited information), and
+information exploration (to accurately adjust to changing and unfamiliar environments). These
+cognitive needs are treated as fundamental, universal human needs necessary for survival.
+According to theories in this category, cognitive needs are often connected with particular cog-
+nitive processes. Information exploitation and cognitive efficiency are associated with heuristic
+processing: unconscious, immediate processing that privileges current knowledge and peripheral
+information (i.e., thinking fast; 114, 140, 155). Conversely, accurate inference and information
+exploration are associated with systematic processing: slow, energy-intensive processing that priv-
+ileges the content of new information (i.e., thinking slow; 114, 140, 155).
+Cognitive Needs theories were moderately common among our human action theories
+(Figure 2), primarily within economics, psychology, ethology, and neuroscience (Figure 5). Such
+theories seek to describe and modify individual action and decision-making (Figure 4).
+4.2.1.1. Action suitability. Cognitive Needs theories are appropriate for addressing challenges
+that require short-term, moderately fast, medium-scale changes (see Figure 4). This metathe-
+ory is particularly suited for facilitating quick and cheap changes (e.g., through “nudges”) (156),
+although it can apply to longer-term changes (157). Because this metatheory makes use of univer-
+sal cognitive needs, it may be appropriate for changing the action of heterogeneous populations.
+Moreover, the metatheory typically contains clear choice intervention points, streamlining im-
+plementation. However, supported changes are at the individual level and will likely not address
+underlying so-called wicked problems (158). In addition, the apparent ease of implementing this
+metatheory’s solutions may distract from addressing problems at their root (158). Nonetheless,
+Cognitive Needs metatheory may offer an opportunity for making deeper changes when the in-
+fluenced individuals are powerful (see examples in Reference 126).
+4.2.1.2. Example application: climate change. Cognitive Needs theories could instruct how to
+harmonize cognitive needs with green behavior to lower greenhouse gas emissions (Figure 4).
+For example, a solution could take advantage of the cognitive need for efficiency by making it
+www.annualreviews.org • Review of Human Action Theories 737
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16Psychological Needs
+metatheory:
+a metatheory
+developed in this
+article that assumes
+that the ultimate
+purpose of human
+action is to produce
+subjective well-being,
+which results from the
+satisfaction of
+psychological needs
+Communal Needs
+metatheory:
+a metatheory
+developed in this
+article that assumes
+that social cooperation
+(e.g., collaboration,
+collective action,
+effective governance)
+can be created by the
+satisfaction of any
+number of communal
+needs
+more difficult to buy a parking pass and easier to get a bicycle tune-up (e.g., bicycle mechanics
+come to your office once every 6 months and fix your bicycle while you work; you don’t have to
+arrange to make an appointment or go anywhere).
+4.2.2. Psychological Needs. According to theories in our Psychological Needs metatheory, the
+ultimate purpose of human action is to produce subjective well-being, which results from the satis-
+faction of psychological needs. Human action can thus be understood as directed towards fulfilling
+these psychological needs (Figure 3). Among our theories, we distilled six such needs: relatedness
+(our most prevalently theorized need; the need to belong to secure relationships), pleasure pro-
+motion (the needs to explore and approach enjoyable experiences, to self-actualize, and to seek out
+and understand novel arenas), pain prevention (the need to manage and avoid painful experiences),
+competence (the need for efficacy and an important feature of “flow” activities; 159), consonance
+(the need for consistency, including with values; for the world to make sense; and for stable self-
+identity), and autonomy (the need for ownership over one’s actions, i.e., internal perceived locus
+of causality; 160). Pleasure promotion and pain prevention are similar to the cognitive needs for
+information exploration and information exploitation, respectively (81). However, we categorized
+these needs into different metatheories because they are theorized to advance different purposes:
+psychological well-being versus survival (81, 119, 126). Moreover, while Cognitive Needs theories
+target more unconscious needs, Psychological Needs theories center on experienced psychological
+states. Nevertheless, both sets of theories treat needs as foundational, universal, and unchanging.
+Psychological Needs theories were more numerous than any other metatheory (Figure 2).
+These theories stem primarily from psychology but also from many other disciplines, including
+evolutionary biology, sociology, communications, and management (Figure 5). With a focus on
+elevating subjective well-being, this metatheory explores individual behavior change, motivation,
+well-being, and compliance.
+4.2.2.1. Action suitability. Psychological Needs theories are flexible and appropriate for ad-
+dressing a variety of challenges, ranging from short term to long term and from incremental to
+transformative. For instance, needs for relatedness and competence can be leveraged to shift be-
+havior incrementally towards social norms (161). Recent work has also explored how such indi-
+vidual actions might scale up to produce transformative change (162). Furthermore, relatedness
+and pleasure promotion can be harnessed to develop transformative environmental movement
+leaders (76). The concept of relational values—preferences, principles, and values associated with
+relationships—has also recently been proposed to leverage the need for relatedness towards sus-
+tainability (although this value concept also has similarity to the Interdependent metatheory; 163,
+164). Psychological Needs theories also typically describe mechanisms for increasing human well-
+being, which may result in more stable and resilient changes (125). Furthermore, because Psycho-
+logical Needs theories treat needs as universal, they may be appropriate for changing the action
+of heterogeneous populations. However, by externalizing structure and assuming that people are
+largely the same, Psychological Needs theories may miss key drivers of human action.
+4.2.2.2. Example application: climate change. Psychological Needs theories might be ap-
+plied to reduce greenhouse gas emissions by harmonizing psychological needs with green action
+(Figure 4). For example, a solution might redesign infrastructure and institutions to facilitate peo-
+ple taking collective action consistent with underlying but latent environmental values (13, 165),
+thus leveraging needs for both relatedness and consonance.
+4.2.3. Communal Needs. Communal Needs theories are united by an assumed ultimate pur-
+pose of social cooperation (e.g., collaboration, collective action, effective governance), resulting
+738 Eyster • Satterfield • Chan
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16Economic Needs
+metatheory:
+a metatheory
+developed in this
+article that assumes
+that the ultimate
+purpose of action is to
+maximize utilitarian
+well-being (i.e.,
+utility). Unlike the
+subjective well-being
+of Psychological
+Needs, this well-being
+is objective, reflecting
+the utilitarianism of
+Jeremy Bentham and
+John Stuart Mill
+from the satisfaction of communal needs (Figure 3) within particular institutions and cultures.
+Communal needs are variable and can parallel psychological and cognitive needs, but we define
+them as those that are assumed to enable social cooperation, rather than survival or subjective
+well-being. For example, narrative theory suggests that collective action perceived as spontaneous,
+rather than bureaucratic, can spur action by meeting communal needs for independence (108).
+This communal need is similar to the psychological need for autonomy (16, 125), but while psy-
+chological needs and cognitive needs are usually treated as universal and culturally independent,
+communal needs are treated as (a) being more specific to the particular type of cooperation, cul-
+ture, or institution and (b) enabling communal cooperation rather than individual well-being. For
+example, narrative theory makes this cultural specificity explicit: “. . .narrative’s dependence on a
+limited stock of culturally resonant plots—on a canon—emphasizes the constraints levied by dom-
+inant cultural understandings” (108, p. 142; emphasis in original).
+Our Communal Needs metatheory was relatively uncommon among our human action theo-
+ries (Figure 2). This metatheory was most prevalent in sociology but was also found in marketing,
+Indigenous studies, political science, and education (Figure 5), where it was used to understand
+how to create cooperation and collective and institutional action.
+4.2.3.1. Action suitability. This metatheory is appropriate for institutional challenges that re-
+quire long-term, moderate to transformative changes (Figure 4). This metatheory helps make
+institutions and groups more cooperative and successful through the satisfaction of communal
+needs, such as equity and ownership (61). When one is confronted with a cooperation or collec-
+tive management problem, this metatheory is most suitable. Furthermore, most of the represented
+theories provide clear prescriptions for how to intervene. However, entrenched power structures
+may prevent the satisfaction of communal needs or may limit the power of such groups.
+4.2.3.2. Example application: climate change. This group of theories is appropriate for helping
+groups organize, encourage participation, and bolster the collective adoption of new practices
+(Figure 4). For example, this metatheory might be used to adapt to climate change by building
+groups that can organize in anticipation of climate disasters, such as rising sea levels. Specifically,
+a Communal Needs theory could show how to instill feelings of ownership and independence
+within a climate activist group to enhance its effectiveness and grow its membership.
+4.2.4. Economic Needs. Economic Needs theories share the assumption that the ultimate pur-
+pose of action is to maximize utilitarian well-being (i.e., utility). Unlike the subjective well-being of
+Psychological Needs, this well-being is objective, reflecting the utilitarianism of Jeremy Bentham
+and John Stuart Mill (166). In this conception, well-being necessarily results from making choices
+that satisfy preferences (167), rather than referring to a particular subjective state, as in Psycho-
+logical Needs (168). This metatheory thus treats humans as rational utility maximizers (utility is a
+measure of satisfaction to an individual) with preferences that dictate their choice of various alter-
+natives (Figure 3). Preferences are typically assumed to be exogenous: independent of markets,
+choice architecture, and context. In this independence, the Economic Needs metatheory is similar
+to our Independent metatheories.
+Our Economic Needs metatheory was relatively uncommon as an explicit theory among our
+scientific human action theories, although it may underpin many public policies and associated
+frameworks (169). This metatheory was widely adopted in economics, law, and criminology
+(Figure 5), where it was exploited to understand how to modify individual behavior and decision-
+making. Although focused on individual action, this metatheory is concerned with how these
+individual actions scale up to collective action. Our economic needs metatheory thus often treats
+individuals as undifferentiated and substitutable.
+www.annualreviews.org • Review of Human Action Theories 739
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16Top-Down
+metatheory:
+a metatheory
+developed in this
+article that assumes
+that often hidden,
+systemic factors
+unidirectionally shape
+human action
+4.2.4.1. Action suitability. This metatheory is appropriate for implementing rapid, marginal
+changes within the dominant socioeconomic systems of many nations. A key benefit of Economic
+Needs is its clear prescription of interventions (e.g., change prices or incentives). However, if the
+problem stems from the system itself, this metatheory’s prescriptions may be insufficient (70, 170,
+171). Furthermore, the well-being, preference, and valuation components of this metatheory have
+likely been applied more widely than is appropriate, given its restrictive assumptions (72, 172–175).
+4.2.4.2. Example application: climate change. Economic Needs theories might be applied
+to reduce greenhouse gas emissions by changing marginal costs and benefits. For example, this
+metatheory might propose subsidizing bicycle or electric vehicle prices or initiating a carbon
+tax. However, Economic Needs theories are ill suited to fundamentally address climate change
+when political economic systems are themselves built on assumptions of nature domination, in-
+strumental use, endless growth, and corporate power (170, 171). Like Independent Self theories,
+Economic Needs theories are likely overapplied. Given the systemic nature of the climate–
+ecological–inequity crisis, Economic Needs theories alone are unlikely to generate lasting
+solutions. Nevertheless, they have a role to play in tackling numerous smaller-scale problems.
+4.3. Top-Down Metatheory
+Theories in our Top-Down category expose the often hidden, implicit systemic causes of human
+action. From cultural systems of patriarchal domination to anthropocentrism (33), this metathe-
+ory examines the largest and most systemic drivers of human action. Top-Down theories posit
+that personal characteristics and individual actions result from a range of top-down factors, such
+as culture, beliefs, economic systems, political systems, and wealth distribution. This causation is
+assumed to be largely unidirectional: Top-down factors are rarely treated as influenced by indi-
+vidual actions, in contrast to our Interdependent metatheory. Top-down is similar to Indepen-
+dent Structure, except the former examines higher-level and more dominant (i.e., hegemonic)
+structures.
+Top-Down was less represented than other metatheories (Figure 2). These Top-Down theo-
+ries stem primarily from critical scholarship within political ecology, critical geography, feminist
+studies, and sociology (Figure 5). These theories are used primarily to understand how to change
+societal and institutional action (Figure 4).
+4.3.1. Action suitability. Top-Down theories are appropriate for large systemic problems that
+cannot be solved by incremental changes within a system. However, while this metatheory is use-
+ful for identifying underlying systemic issues (32, 170, 176) and imagining transformational fu-
+tures, theories within rarely prescribe the specific interventions necessary to achieve transforma-
+tive change. Thus, Top-Down theories are most appropriate for identifying sustainable futures
+and the underlying factors preventing their realization, but other metatheories (such as Psycho-
+logical Needs and Communal Needs) may be more effective for determining how to achieve said
+sustainable futures.
+4.3.2. Example application: climate change. Top-Down theories might be applied to reduce
+greenhouse gas emissions by identifying the systemic factors that have generated the current
+climate crisis and impeded its resolution. For example, our metatheory might identify nature
+domination, instrumental use, endless growth, and corporate power that undergird our current
+political-economic system (177). Other metatheories might then be marshaled to determine how
+to reform or overturn these systems, such as through social movements (102, 108).
+740 Eyster • Satterfield • Chan
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16Interdependent
+metatheory:
+a metatheory
+developed in this
+article that assumes
+that human action is
+continually created,
+reinforced, or eroded
+by an interdependent
+web of values,
+identities, positions,
+habits, goals, needs,
+experiences, meanings,
+institutions, cultures,
+politics, etc. In turn,
+this interdependent
+web of factors is
+continually created,
+reinforced, or erased
+by human action itself
+4.4. Interdependent Metatheory
+Interdependent theories treat human action as continually created, reinforced, or eroded by an
+interdependent web of values, identities, positions, habits, goals, needs, experiences, meanings, in-
+stitutions, cultures, politics, etc. In turn, this interdependent web of factors is continually created,
+reinforced, or erased by human actions (96, 178). For example, this metatheory assumes that peo-
+ple’s actions might be influenced by their position in society (e.g., as poor or stigmatized within the
+dominant cultural milieu), even while those people might act to challenge or resist those norms
+or to innovate social alternatives that become new norms over time. Thus, the key characteris-
+tic of this metatheory is the codeveloped interdependency of the constituent factors and the ac-
+tion (10, 179–182). Our Interdependent metatheory thus differs starkly from other metatheories,
+which assume that input/independent variables cause (but are not in turn caused by) changes in a
+dependent/response/outcome variable.
+Our final metatheory was moderately prevalent (see Figure 2), found primarily within sociol-
+ogy and anthropology but also in critical race studies, Indigenous studies, feminist studies, science
+and technology studies, and others (Figure 5). Theories within this category generally focus on
+understanding accustomed, habitual, or accepted ways in which people do things, at the scale of
+communities and regions (i.e., practice).
+4.4.1. Action suitability. This group of theories is appropriate for addressing challenges that
+are complex, uncertain, and interlinked. While all other metatheories focus on isolated drivers of
+human action, this metatheory investigates interactions among multiple drivers. Interdependent
+theories treat values, needs, structures, and systems as dynamic and are therefore well positioned
+to expose causes of human action that may be taken for granted. While explicitly embracing feed-
+backs, interactions, and the attendant uncertainty, however, this metatheory rarely provides clear
+prescriptions for change or predictions of outcomes. Furthermore, the lack of quantitative focus
+among Interdependent theories has prevented precise analyses of particular interactions. These
+issues challenge the operationalization of Interdependent theories. Wider scientific and policy
+engagement with this metatheory might help address these challenges.
+4.4.2. Example application: climate change. Interdependent theories might inform how to
+reduce greenhouse gas emissions by simultaneously and adaptively changing the factors underly-
+ing human action (183). For example, one might cultivate the practice of bicycle commuting with
+a multipronged focus on competence (e.g., by providing bicycle classes and bicycle repair work-
+shops, positive feedback, support from friends, or incentives to try bicycle commuting at least
+once), availability (e.g., by promoting a free citywide bicycle share program and ample bicycle
+racks at popular locations), meanings (e.g., by associating bicycle commuting with responsibility
+for the environment and care for others who depend on the environment), and technology (e.g.,
+by prioritizing street design for cyclists, not cars). As this example demonstrates, Interdependent
+theories may describe more complicated interventions. Nevertheless, such descriptions may en-
+able sustainability scholars and practitioners to appreciate the full range of possible factors and to
+prepare for uncertainties. Once the salient interactions are understood, other metatheories may
+aid in implementation.
+5. KNITTING THEORIES TOGETHER
+We inductively developed eight metatheories that underlie theories of human action. Each
+metatheory examines different factors and makes different assumptions about the causes of
+human action. Despite such differences, each metatheory is true in a sense, reflecting a particular
+slice of human action. For example, the Independent Self metatheory asks how proximate,
+www.annualreviews.org • Review of Human Action Theories 741
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16personal attributes might affect human action. In contrast, the Cognitive Needs metatheory asks
+how evolutionary goals of survival shape human action. These distinct questions define different
+aspects of human action in different situations. Given the central role that human action plays in
+social and environmental changes (184) and solutions (e.g., behavioral wedges; 5), our findings
+may help scholars steer towards better outcomes by leveraging a broader array of theories.
+Advancing sustainable futures—in reference to, e.g., environmental and social health and
+justice—is complex and includes many overlapping and interlinked human action contexts (13).
+Ultimately, most grand challenges facing society cannot be answered by a single theory or schol-
+arly approach, but rather by a strategic combination of several complementary approaches. Chang-
+ing human action is recognized as a chief aspect of addressing such challenges. For example, the
+United Nations’ integrative environmental report, Making Peace with Nature, recognized that “[a]ll
+[collective and individual] actors have a role to play in the transformations needed to achieve a
+sustainable world” (185, p. 133).
+Despite the breadth of action and actors, too often only narrow sets of theories are leveraged
+for application. For example, the Global Biodiversity Outlook 3 report describes many types of hu-
+man action that are necessary, including taking both “. . .direct action to conserve biodiversity. . .”
+and “full advantage of opportunities to contribute to climate change mitigation. . .” (186, p. 86).
+However, the report relies solely on the Economic Needs and Independent Self metatheories to
+enable biodiversity conservation. Specifically, the report relies heavily on a combination of pric-
+ing and fiscal policies (Economic Needs) and education and dissemination of scientific knowledge
+(Independent Self ) (186). The assumption seems to be that people are independently selfish (con-
+trary to the Psychological Needs and Communal Needs metatheories) and that larger economic
+systems are best left intact (contrary to the Top-Down and Interdependent metatheories). While
+both the Economic Needs and Independent Self metatheories may provide important insights into
+addressing the biodiversity crisis, relying on only two of the eight metatheories would constrain
+conservation efforts.
+Those of us studying and working to enable environmental and social health might do well to
+look beyond theories that seem to suit narrowly defined problems. Rather, we might use multiple
+theoretical lenses—representing diverse metatheories—to grasp the ways in which other disci-
+plines and scholars understand human action, the nature of the evidence consulted, and the ap-
+plicability of their theories and findings. Adopting trans-, multi-, and interdisciplinary research
+programs, knowledge, communication, networks, and funding structures will be essential to ad-
+vancing and applying human action theories (187, 188); indeed, one might apply our human action
+theories to a study of how to increase interdisciplinarity. Some interdisciplinary theorists have be-
+gun to profitably incorporate multiple metatheories (e.g., 41, 77). Specifically, Tadaki (41) uses the
+Psychological Needs, Independent Structure, and Interdependent metatheories to understand the
+actions of New Zealand water regulators. Our synthesis provides an accessible starting place for
+scholars and practitioners to develop interdisciplinary fluency.
+Most theories found assume a simple independent–dependent variable relationship (seven of
+eight metatheories). This widespread assumption omits feedbacks and interdependent relation-
+ships that are crucial to systems analysis and sustainability (189, 190). Including feedbacks, as
+the Interdependent metatheory does, is particularly important, as pandemics, climate change, and
+other threats highlight nonlinear and complex environmental relationships.
+Our analysis of human action theories is preliminary. While we sought to include a wide range
+of disciplines and publication formats, search engines are such that we may have been more likely
+to undersample from disciplines that often publish in books (such as anthropology and other dis-
+ciplines that focus on culture) rather than in journals (such as psychology). Moreover, our analysis
+did not include human action theories from history, literature, and some other arts and fine-arts
+742 Eyster • Satterfield • Chan
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:16disciplines (e.g., 191) and may have undersampled from literatures in which the connection to
+action is more obliquely stated (but still important). We also excluded folk and layperson under-
+standings of human action (192) and undersampled from theories published in non-English (193)
+and Indigenous accounts of why people do what they do (e.g., 112). Broadening the scope of anal-
+ysis is an important future direction. Finally, as noted above, our metatheories are products of
+academic work, which has long prioritized a focus on cognition, social structure, and culture as an
+explanation for human action, at the exclusion of still-emerging possibilities.
+6. CONCLUSION
+While human action is indisputably at the center of pressing global crises, relevant theories are
+splintered across disciplines with little communication among them. Fundamental assumptions
+vary among these disciplines, impeding the interpretation of findings between disciplines and cre-
+ative cross-fertilization. Our preliminary identification of eight synthetic metatheories enables
+scholars and practitioners to navigate among these theories to select theories appropriate in dif-
+ferent contexts and at different spatial and temporal scales. Only a synthetic understanding of
+human action can yield robust and multifaceted insights into why people do what they do and
+how that might change or be changed.
+SUMMARY POINTS
+1. No single set of human action theories is sufficient to address the range of problems
+obstructing sustainable futures.
+2. Eight sets of assumptions—i.e., metatheories—represent and differentiate human action
+theories.
+3. These metatheories transcend academic disciplines and provide a simple yet deep orga-
+nization of human action theories.
+4. Each metatheory is best suited to a particular type of problem.
+5. Sustainability solutions may be most effective when they combine insights from multiple
+metatheories.
+6. Our analysis reveals that most theories assume a simple independent–dependent vari-
+able relationship. This widespread assumption prevents the inclusion of feedbacks and
+interdependent relationships that are crucial to systems analysis and sustainability.
+7. Feedbacks are particularly key, as pandemics, climate change, and other threats highlight
+nonlinear and complex environmental relationships.
+FUTURE ISSUES
+1. Future research could test how different metatheories might complement each other to
+provide more robust solutions to real problems. Do solutions that incorporate multiple
+metatheories lead to better outcomes?
+2. How prevalent are applications of different theories and metatheories? Future research
+might test the dominance of various theories and metatheories in particular fields, ap-
+plications (e.g., biodiversity conservation), reports (e.g., those of the Intergovernmental
+Panel on Climate Change), and institutions (e.g., the US criminal justice system).
+www.annualreviews.org • Review of Human Action Theories 743
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 14:40:163. History, rhetoric, international relations, and many other fields in the arts contain explicit
+and implicit assumptions about human action but fell outside the scope of this review.
+How do assumptions from these fields map onto our metatheories?
+4. How do layperson assumptions about human action and nongovernmental organization
+theories of change map onto our metatheories? A better understanding of how science
+and scientific knowledge of human action fit into the cultures and worldviews of laypeo-
+ple and institutions is an important area for future research.
+DISCLOSURE STATEMENT
+The authors are not aware of any affiliations, memberships, funding, or financial holdings that
+might be perceived as affecting the objectivity of this review.
+ACKNOWLEDGMENTS
+Thank you to the scholars who shared their disciplinary expertise and to R. Naidoo, K. Martin, S.
+Gulati, J. Fischer, G. McDowell, N. Bennett, T. Eyster, R. Delima, J. Fitzgibbons, R. López de la
+Lama, and anonymous reviewers and editors for helpful feedback. Special thanks to D. Johnson
+for insightful comments. This work was supported by a University Doctoral Fellowship and Gund
+Postdoctoral Fellowship to H.N.E. and by Social Sciences and Humanities Research Council of
+Canada Insight Grant 435-2017-1071.

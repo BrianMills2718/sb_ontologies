@@ -1,0 +1,499 @@
+ChaptEr SIx
+A Framework for Influence Operations
+The preceding chapters reviewed the theoretical and empirical litera-
+ture related to influence at the individual, group and network, leader-
+ship coalition, and mass public levels. We next provide a framework for
+planning and conducting influence operations that is based on the var-
+ious social science approaches, tools, and methodologies we reviewed
+and on the key lessons from our case studies.
+Planning Requirements
+Our research led to a set of nine key planning questions that can gener-
+ally be divided into those dealing with strategic-level issues and those
+dealing with target audiences. We believe that these questions can pro-
+vide an efficient, top-down basis for developing influence strategies
+that can contribute to the achievement of U.S. objectives.
+Questions About Strategic Issues
+The first four questions generally focus on the strategic-level picture
+and the underlying political dynamics related to achievement of U.S.
+coalition objectives:
+What are current U.S. objectives? Are current objectives likely to•
+be achieved, and if not, what outcomes are most likely under pres-
+ent or plausible conditions?
+Which actors or groups are most influential in political-military•
+outcomes?
+72 Foundations of Effective Influence Operations
+What strategies (e.g., force or negotiation) are most likely to influ-•
+ence these groups and yield desired outcomes?
+How much authority/influence do group leaders have over their•
+supporters/followers?
+These questions are of greatest interest to the White House, to
+National Security Council staff, and to such interagency actors as the
+Departments of State and Defense. They will also interest the regional
+component commander and joint force commander and most likely
+would need to be addressed by intelligence analysts working for
+the services, the Department of Defense, or the larger intelligence
+community.
+What are current U.S. objectives? Are current objectives likely to
+be achieved, and if not, what outcomes are most likely under present
+or plausible conditions?
+Of substantial interest to policymakers and military commanders
+is whether current political and campaign objectives are achievable with
+the current strategy and resources, whether adjustments to strategy or
+resources will be needed, or whether objectives are essentially unattain-
+able given any realistic strategy or level of resource commitment.
+In the case of Iraq, for example, it would have been useful to poli-
+cymakers and commanders to know that U.S. and coalition forces likely
+were sufficient to overthrow Hussein’s regime and force the collapse of
+Iraqi regular forces but insufficient to restore security in the leader-
+ship vacuum that followed, and that a prolonged insurgency should be
+expected to organize around Hussein’s security forces, former regime
+elements, and disaffected Sunni supporters.1 With such knowledge, a
+concerted influence strategy might have been developed to deal with
+these challenges prior to the war. 2
+1 Ambassador L. Paul Bremer, administrator of the Coalitional Provisional Authority in
+Iraq, reportedly requested additional troops to manage the deteriorating security situation in
+Iraq early in his tenure (Wright and Ricks, 2004, p. A1).
+2 Baranick et al., 2004, present EUM results that forecast the defeat of Saddam’s regime,
+the collapse of the Iraqi military, and the emergence of a prolonged insurgency. One of the
+present authors (Larson) conducted the analysis of Iraqi political society and provided data
+for this effort.
+a Framework for Influence Operations 73
+As was described in Chapter Four, agent-based rational choice
+or expected utility models appear to us to be ideally suited to address-
+ing these questions and the next. Through analysis of stakeholders and
+simulation analyses of coalition maneuvering on a set of policy issues,
+planners can gain important insights into the most likely outcomes,
+the efficacy of the U.S. position, and whether capabilities are likely to
+prove sufficient for achieving U.S. objectives.
+Which actors or groups are most influential in political-military
+outcomes?
+As suggested earlier, given that available resources are finite, it is
+important that influence operations focus on those actors and groups
+that will be most influential to overall outcomes. Again, agent-based
+rational choice or expected utility models can be employed to gauge
+the sensitivity of outcomes to adjustments in various stakeholders’ posi-
+tions, resources, or salience, which can illuminate high-payoff areas for
+the development of policy and strategy options.
+What strategies (e.g., force or negotiation) are most likely to
+influence these groups and yield desired outcomes?
+In a similar vein, it is critically important to understand whether
+a conciliatory strategy relying exclusively on positive inducements, a
+strategy of threats or use of force, some mix of positive and negative
+inducements, or some form of conditional reciprocity is most likely to
+succeed in influencing various actors and stakeholder groups and what
+results might reasonably be expected from these efforts. Put another
+way, differences among actors or stakeholder groups may require a dif-
+ferentiated set of substrategies, one for each target.
+Diagnostic tools for evaluating the suitability of different influ-
+ence strategies, as discussed in Chapter Four, and agent-based rational
+choice or expected utility models may be helpful in illuminating the
+best strategies for influencing the highest-payoff stakeholder groups.
+How much authority/influence do group leaders have over their
+supporters/followers?
+As described in Chapter Three, leadership, influence, follower-
+ship, and group discipline are all important determinants of the basic
+approach to influence operations at the group and network levels of
+analysis.
+74 Foundations of Effective Influence Operations
+To illustrate, in the best case, the United States would be able to
+identify a single leader with high social power or influence for each
+stakeholder group or network, persuade each to cooperate in helping
+the United States to achieve its aims, and know that each leader’s fol-
+lowers were sufficiently well-informed to know about their leader’s
+position and sufficiently disciplined to follow their leader in cooperat-
+ing with the United States. This approach would be the most efficient
+one because, in theory at least, all it requires is influencing one person
+(the leader) from each group.
+In the worst case, on the other hand, planners would need to try
+to separately influence each member of a group in the hope of get-
+ting most of that group to go along with U.S. aims. This approach
+is far less efficient, because it could require influencing thousands or
+even millions of individuals. Moreover, within-group heterogeneity
+may necessitate further efforts to understand subgroup characteristics
+that will condition the likelihood of being aware of a message, accept-
+ing the message, or acting upon the message in a desired way. Among
+the more valuable models at this level of analysis would appear to be
+social power/interaction theory, social choice, and opinion leadership
+models.
+Questions About the Target Audiences
+Once planners have identified the key stakeholder groups that are to
+be targeted, including the nature of influence within these groups or
+networks, five additional questions need to be answered for each of the
+key target audiences identified during influence strategy development
+so that effective substrategies can be developed for each:
+Which sources and information channels do target audiences use•
+and find most credible?
+How are target audiences’ attitudes structured, and how stable•
+are they?
+What messages are they already receiving?•
+What message sources, content, and formats are most likely to be•
+accepted and to foster change?
+a Framework for Influence Operations 75
+How many messages need to be sent to them? What other actions•
+need to be taken to achieve influence objectives?
+Each question is discussed below.
+Which sources and information channels do target audiences
+use and find most credible?
+As was described in Chapter Two, for influence operations to suc-
+ceed, the first challenge is ensuring that messages reach their intended
+target audiences. At the most basic level, this means transmitting the
+messages via information channels that members of the target audience
+actually use and find credible.
+In the best (but perhaps not the most realistic) case, individuals
+would rely upon a single source for news and political information,
+such as a newspaper, television, or a radio station, and believe that the
+information received through this channel was highly credible. In this
+case, if the message could be successfully inserted into this source, it
+would reach a very large percentage of its intended audience.
+In the worst case, individuals would rely upon a great many
+sources for news and political information, many of which might be
+discounted as being not entirely reliable or credible. This situation
+would vastly complicate the choice of which information channels to
+use to transmit the messages to the intended audiences and the chances
+of achieving a high probability that they receive the messages.
+Closely related to the credibility of alternative information chan-
+nels are the credibility and trustworthiness of different opinion leaders;
+although this issue needs to be addressed in group- or network-level
+analyses, a higher level of resolution and fidelity may be needed at this
+stage.
+To satisfactorily address these questions, a mix of focus groups,
+public opinion attitude surveys, and other means that can illuminate
+respondents’ media usage, the credibility of various leaders, and other
+factors would be required to map these unique characteristics to dis-
+tinct stakeholder groups.
+76 Foundations of Effective Influence Operations
+How are target audiences’ attitudes structured, and how stable
+are they?
+In influence operations that aim to affect adversary or other lead-
+ers’ decisions, it is important to act before key decisions have been made
+(i.e., “getting inside the OODA [observe-orient-decide-act] loop”). Part
+of this means that planners need to understand the administrative,
+organizational, and other procedures and processes that establish the
+decisionmaking environment for these leaders, their decisionmaking
+rules or doctrine, and any factionalization of the leadership over the
+issue being decided. But it also may require actor-specific behavioral
+models that capture how individuals’ cognitive, psychological, emo-
+tional, or normative priors affect their susceptibility—or lack of sus-
+ceptibility—to being influenced (George, 2002).
+The analogue for mass publics is understanding how cognitive,
+psychological, cultural, emotional, or normative factors combine in
+individuals’ attitudes and preferences on an issue. Also important
+is understanding which attitudes are essentially inert, stable, and
+unchangeable, because, for example, they reflect deeply held religious
+or ethical values or mores, cultural taboos, or shibboleths or because
+they are already crystallized as a result of having been thought seri-
+ously about (the issue already being understood). Effective influence
+operations will focus on key attitudes, to be sure, but planners should
+not waste resources striving to change attitudes that are exceedingly
+unlikely to change.
+Prominent among the general approaches for addressing this
+question is Woelfel’s metric multidimensional scaling approach to rep-
+resenting attitudes in multidimensional attitude space, which has the
+additional felicitous feature that it appears to provide an environment
+for assessing the efficacy of different messages in fostering attitude or
+behavioral change.
+What messages are they already receiving?
+Most individuals in Western—and many non-Western—societies
+live in highly competitive, media-saturated environments that deliver
+a wide range of messages to key target audiences. Understanding the
+messages that target audiences already may be receiving in their infor-
+mation environment is therefore essential, so that the nature of any
+a Framework for Influence Operations 77
+competition in the “war of ideas” is fully understood, but also because
+effective messages may seek to increase the likelihood of message accep-
+tance by repeating certain themes or arguments that already have been
+accepted by an audience as being true and credible.
+We view content analysis of leadership and media streams and
+focus group analyses and attitude surveys to tap audience exposure to
+or awareness of content as providing robust approaches for addressing
+this question.
+What message sources, content, and formats are most likely to
+be accepted and to foster change?
+As described in Chapter Two, message acceptance turns on a host
+of message-related and situational factors. These include sourcing of
+messages to individuals who are trusted and liked by the target audi-
+ence, avoiding unnecessary complexity that would increase the cogni-
+tive demands on the audience, and ensuring that the format and con-
+tent of a message motivate the audience to pay attention to the message
+and ultimately to accept and act on it.
+The answer to this set of questions depends greatly on what sort of
+attitudinal or behavior change is sought. The various characteristics of
+the target audience—cultural, religious, cognitive, and otherwise—may
+present either opportunities or challenges for increasing the potency of
+the message.
+As described above, the use of various generalized individual-level
+theories, including employment of metric multidimensional scaling
+techniques, coupled with focus groups or attitude surveys, can offer
+insights into these questions.
+For example, the following sorts of steps could be used to make
+operational use of metric multidimensional scaling or similar tech-
+niques as an environment for designing and assessing the impact of
+influence operations:
+Identifying the objectives of influence efforts with respect to each•
+target audience
+Developing appropriate survey instruments that are easy to admin-•
+ister in order to understand how culture, attitudes, and cognitions
+are structured within target audiences
+78 Foundations of Effective Influence Operations
+Conducting surveys of, or experiments with, target audiences•
+using the instrument
+Analyzing the resulting data to understand how attitude objects•
+are arranged in this larger multidimensional cultural space and
+to identify the most promising candidate themes for inclusion in
+messages
+Refinement and testing of messages containing the highest-payoff•
+themes
+Conducting follow-up surveys of, or experiments with, target•
+audiences and assessing the impact of the messages on target
+audiences
+Refining or revising the campaign, as needed.•
+To be clear, it seems most likely that, given its highly technical
+nature, metric multidimensional scaling analyses probably would not
+be conducted by U.S. Army or DoD personnel, but rather would need
+to be conducted by academic or commercial researchers. Our judgment
+is that Galileo appears to us to be worthy of further testing to establish
+its utility to and suitability for influence operations. Once this has been
+accomplished, if the basic data collection and analysis challenges also
+can be overcome, Galileo theory may well prove to be a highly useful
+tool for planning and assessing influence operations.
+How many messages need to be sent to them? What other
+actions need to be taken?
+While the number of times a message is sent to an individual
+clearly affects the probability that the individual will become aware of
+the message, and the number may affect the likelihood that the indi-
+vidual will accept and act on messages that he or she is already predis-
+posed to accept and act upon, there is little evidence that simply repeat-
+ing a message will break down a preexisting inclination to reject the
+message. Even in its most extreme form—thought reform (what is pop-
+ularly referred to as “brainwashing”), in which virtually every aspect
+of an individual’s life can be controlled and manipulated by his or her
+captors—permanent changes in attitudes and behaviors have proved
+elusive. To expect greater success in pluralistic information environ-
+a Framework for Influence Operations 79
+ments in which the target audience does not consist of prisoners of war
+would be unwarranted.
+As was described in Chapters Two and Five (and will be discussed
+in more detail in Appendixes A, B, and C), receptivity to messages can
+vary greatly in a heterogeneous population. At some point, additional
+messages may actually prove to be counterproductive, even for those
+who are most predisposed to accept them.
+For example, a November 2004 article on White House political
+advisor Karl W. Rove reported the following interesting observation
+on the relationship between the number of communications and their
+impact:
+Rove’s direct-mail experience had provided him with a nuanced
+understanding of precisely what motivates ticket-splitters. Accord-
+ing to Karl Rove & Co. data on the 1994 Texas governor’s race,
+Rove was aware, for instance, that households that received a
+single piece of mail turned out for Bush at a rate of 15.45 per-
+cent, and those that received three pieces at a rate of 50.83 per-
+cent. Turnout peaked at seven pieces (57.88 percent), after which
+enthusiasm for Bush presumably gave way to feelings of inunda-
+tion, and support began to drop (Green, 2004).
+Figure 6.1 suggests how the probability of message acceptance
+might be affected by the number of messages for three different notional
+groups: those who are highly predisposed to accept and act on the mes-
+sage (“High”), those who are moderately predisposed to accept the
+message (“Med”), and those who generally have a low predisposition to
+accept the message (or high predisposition to reject it) (“Low”).
+The figure shows the diminishing—and then negative—returns
+to sending additional messages, each of which has a different dose-
+response curve. The implication is that a message campaign will be
+most effective and efficient for those who already are highly predis-
+posed to accept the message and least effective and efficient—even to
+the point of potentially not being worth the effort—for those who have
+a low predisposition to accept the message (or high predisposition to
+80 Foundations of Effective Influence Operations
+Figure 6.1
+Notional Probability of Accepting a Message Based on High, Medium, or
+Low Predisposition
+RAND MG654-6.1
+0.45
+0.25
+0.20
+0.15
+0.10
+0.05
+0.50
+0
+98765
+Number of messages
+43210 10
+Probability (acceptance) 0.40
+0.35
+0.30
+High
+Medium
+Low
+reject it).3 And in most cases, there are either diminishing or even nega-
+tive returns to sending additional messages.
+As in Rove’s case, influence operation planners would need a
+strong capability to track messages and assess the relationship between
+the number and variety of messages and the probability of individuals
+becoming aware of and accepting these messages. Again, focus groups
+and attitude surveys would appear to be the most systematic way of
+collecting such information, but face-to-face interactions by patrols
+might help to illuminate this question.
+3 This sort of result also can be observed in so-called “rallies” in support for presidents:
+Those most likely to rally are members of the president’s own party or core, and those least
+likely are his political opponents.
+a Framework for Influence Operations 81
+Some Additional Planning Considerations
+Effective influence operations generally require a top-down planning
+and assessment process that links metrics in a systematic way to politi-
+cal and campaign objectives and to the political, military, and other
+activities that are conducted to promote these objectives. From a func-
+tional perspective, the planning and execution of successful influence
+operations involve a number of discrete steps:
+Specifying the political and campaign objectives.• Political objectives
+are specified by the president and his senior advisors and staff,
+while campaign objectives, tasks, and metrics are specified by the
+joint force commander and his or her staff.
+Developing and planning an influence strategy supporting these•
+objectives. The influence strategy should identify the key target
+audiences that need to be influenced to achieve each objective
+and the specific aims (e.g., “reject the insurgency”) and substrate-
+gies (e.g., negotiation or coercion, carrots, and sticks) with respect
+to each target audience. It also should identify the communica-
+tion channels, themes, and messages to be directed at each target
+audience and how influence activities will be coordinated and
+synchronized.
+Executing the influence strategy.• Synchronizing influence opera-
+tions with policy adjustments, carrots and sticks, kinetics, etc.
+should be included.
+Monitoring and assessing the influence strategy.•
+Adapting the influence strategy as necessary.• 4
+In applying these steps, moreover, planners need to consider the
+element of time: It matters greatly whether planners are seeking to
+influence target audiences in peacetime, crisis, conventional warfare,
+or stability environments:
+4 The subject of a metrics-based planning and assessment process is beyond the scope of the
+present effort but is discussed in detail in Larson et al., forthcoming.
+82 Foundations of Effective Influence Operations
+In• peacetime, influence operations seek to shape the environment
+by persuading, dissuading, deterring, and reassuring—activities
+that are supported by intelligence and analytic efforts to assess
+the attitudes, behaviors, intentions, and capabilities of target
+audiences.
+Influence operations during a• crisis may aim to persuade or coerce
+an adversary or to control escalation, again supported by intelli-
+gence and analytic activities.
+Influence operations during• major combat operations generally aim
+to terminate the war on favorable terms.
+Influence operations during• stability operations generally aim to
+reestablish a stable postwar political equilibrium by persuading
+and reassuring actors that their best interests lie in peaceful politi-
+cal processes, for example, and dissuading or deterring them from
+joining or supporting insurgents and others who oppose U.S. and
+coalition aims.
+It is important to point out two additional considerations in plan-
+ning and conducting influence operations over time.
+First, the transitions—e.g., from peacetime to crisis, crisis to
+major combat operations, or major combat to stability operations—
+may not be clearly delineated. It is quite likely, for example, that even
+as major combat operations are concluded and give way to security,
+stability, and reconstruction operations in one sector, they may still be
+continuing in other sectors. Put another way, rather than constituting
+distinct phases, different mixes of these activities may be observed over
+time and in different locations.
+Second, although they frequently are executed to support the
+achievement of intermediate objectives, influence operations must be
+planned and conducted in a way that takes the long view of the ulti-
+mate political and operational end-state that is desired. In the case of
+military operations that aim at regime change, for example, influence
+operations conducted through peacetime, crisis, and war should seek
+to minimize the challenges of facilitating the emergence of a moderate,
+stable, peaceful, and otherwise acceptable postwar political society by
+a Framework for Influence Operations 83
+seeking to influence political actors who will be important in achieving
+U.S. postwar security, political, economic, and other objectives.
+As described in this report, to achieve their strategic and campaign
+objectives, planners may need to influence individuals, small groups or
+networks, leadership coalitions, or mass publics. Whereas our presenta-
+tion of the social science literature in Chapters Two through Five took
+a building-block approach, moving in turn from the individual level up
+to the level of mass publics, the functional requirements of influence
+operations require that planners generally work in the opposition direc-
+tion, from their goals and objectives to a decomposition of what needs
+to be done to achieve those goals and objectives.
+A Framework for Influence Operations: Conclusions
+Above, we tied together the various social science theories, models, and
+empirical results at levels of the individual, group or network, leader-
+ship coalition, and mass public in the form of a set of analytic questions
+that planners need to answer for effective influence operations to be
+possible. We also identified specific analytic techniques for answering
+these questions. The next chapter summarizes the implications of our
+research on influence operations for the Army and for joint operations
+and offers conclusions.
+
+85
+ChaptEr SEvEn
+Implications for Planners
+As described in this report there are a number of characteristics that
+seem to be associated with effective influence operations:
+They are aimed at achieving• specific desired objectives and effects,
+typically a change in a key attitude, belief, preferred policy, or
+behavior.
+They are directed toward• key target audiences, whether an indi-
+vidual, a decisionmaking group, a military unit, a population sub-
+group, or the mass public of a nation.
+They make use of the most effective combination of• information
+channels, i.e., those channels that are both most likely to reach the
+target audience and are most likely to be viewed as unbiased and
+credible.
+They are mindful of• audience characteristics, including preexisting
+attitudes and beliefs that may condition an audience’s willingness
+to be influenced.
+They are• timed to influence actors before they decide or act, in the
+case of leaders and decisionmaking groups, or before attitudes crys-
+tallize, in the case of mass audiences.
+They make use of messengers with compelling• source characteris-
+tics, i.e., those whose professional or technical competence, like-
+ability, credibility, trustworthiness or confidence, or high Q score
+make them effective spokespersons.
+They rely upon messages with• compelling message characteristics,
+i.e., those whose content, format, cognitive and emotional appeal,
+and other characteristics will most resonate with the audience.
+86 Foundations of Effective Influence Operations
+They• facilitate adaptation by providing timely feedback on effects
+so that information channels, messengers, themes, messages, etc.
+can be modified to increase their persuasiveness.
+Our study suggests that in achieving these desiderata, planners
+have available to them a wide range of models and theories that might
+be fruitfully employed to plan and design influence operations. The
+study furthermore suggests that it is possible for planners to employ
+many of these tools in a way that systematically narrows the focus to
+those target audiences for which the greatest leverage or payoff can be
+found.
+Planners also should be mindful, however, of three practical impli-
+cations that result from the heterogeneity of the scholarly literature, the
+absence of a larger meta-theory of influence, and the situational or con-
+text dependence of persuasion efforts at various levels:
+The various theories described above can provide only starting1.
+points for planners and operators; they will need to be adapted or
+fashioned to meet the specific requirements of each situation.
+Even after detailed analysis, vast uncertainties are likely to2.
+remain regarding the efficacy of various alternative approaches
+to communication of messages to target audiences.
+The vast uncertainties associated with the enterprise of influence3.
+lead to the requirement for an adaptive, robust, metrics-based
+planning, execution, and assessment process that can under-
+write a capability to plan, test, and assess the results of different
+sorts of strategies, communications, and appeals and to modify
+the approach based on the results. The requirements of such a
+metrics-based process for influence operations are well beyond
+the scope of the present effort and are described in some detail
+in other, related work (Larson et al., forthcoming).1
+1 Appendix D reviews a number of different planning methodologies that may be of inter-
+est to planners.
+Implications for planners 87
+By constructing influence campaigns on solid theoretical and
+empirical foundations at the micro and macro levels, and testing and
+adapting target audience responses to these efforts, planners are far
+more likely to avoid pitfalls and, in some cases, even achieve their influ-
+ence objectives.
+However, as described in this report, the required level of intel-
+lectual and analytic effort for such endeavors can be substantial. The
+effort may in many cases not only outstrip the capabilities of planning
+staffs, but also may require more intensive inputs and effort than their
+results perhaps merit.

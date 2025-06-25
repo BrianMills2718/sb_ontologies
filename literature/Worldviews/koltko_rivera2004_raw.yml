@@ -1,0 +1,506 @@
+citation: "Koltko-Rivera, Mark E. \"The Psychology of Worldviews.\" Review of General Psychology 8, no. 1 (2004): 3-58."
+annotation: "Comprehensive theoretical model defining worldviews as sets of assumptions about reality that powerfully influence cognition and behavior, proposing dimensional structures and functional relationships."
+model_type: "property_graph"
+rationale: "The theory presents worldviews as interconnected dimensional structures with complex relationships between components, personality traits, motivational systems, and behavioral outcomes."
+schema_blueprint:
+  title: "Psychology of Worldviews Dimensional Schema"
+  description: "Models worldviews as multidimensional constructs with functional relationships to personality, cognition, and behavior."
+  root_properties:
+    nodes:
+      description: "Worldview dimensions, theoretical constructs, personality traits, and experiential components."
+      item_type: "Entity"
+    edges:
+      description: "The causal, correlational, and functional relationships between worldview components and psychological processes."
+      item_type: "NaryTuple"
+  definitions:
+    - name: "worldview"
+      category: "construct"
+      description: "A set of assumptions about physical and social reality that may have powerful effects on cognition and behavior."
+      domain: ["Actor"]
+    - name: "weltanschauung"
+      category: "construct"
+      description: "German term for worldview, meaning a view or perspective on the world or universe."
+      domain: ["Actor"]
+    - name: "existential-belief"
+      category: "belief-type"
+      description: "Descriptive beliefs about reality that are capable of being true or false."
+      domain: ["Actor"]
+      range: ["Statement"]
+    - name: "evaluative-belief"
+      category: "belief-type"
+      description: "Beliefs that judge something as good or bad, desirable or undesirable."
+      domain: ["Actor"]
+      range: ["Evaluation"]
+    - name: "prescriptive-belief"
+      category: "belief-type"
+      description: "Beliefs about what actions are desirable or should be performed."
+      domain: ["Actor"]
+      range: ["Action"]
+    - name: "proscriptive-belief"
+      category: "belief-type"
+      description: "Beliefs about what actions are undesirable or should not be performed."
+      domain: ["Actor"]
+      range: ["Action"]
+    - name: "values"
+      category: "belief-type"
+      description: "Specific type of prescriptive belief about desirable end states or modes of conduct."
+      domain: ["Actor"]
+      range: ["Value"]
+      subTypeOf: "prescriptive-belief"
+    - name: "epistemology"
+      category: "philosophical-foundation"
+      description: "Theory of knowledge and how we know what we know."
+      range: ["KnowledgeSource"]
+    - name: "ontology"
+      category: "philosophical-foundation"
+      description: "Theory about the nature of reality and existence."
+      range: ["RealityType"]
+    - name: "agency"
+      category: "philosophical-foundation"
+      description: "Philosophical position on free will versus determinism."
+      range: ["AgencyType"]
+    - name: "root-metaphor"
+      category: "pepper-concept"
+      description: "Basic metaphor that underlies a world hypothesis and shapes understanding."
+    - name: "animism"
+      category: "pepper-concept"
+      description: "World hypothesis based on similarity to living beings."
+      subTypeOf: "root-metaphor"
+    - name: "mysticism"
+      category: "pepper-concept"
+      description: "World hypothesis emphasizing unity and transcendence of ordinary distinctions."
+      subTypeOf: "root-metaphor"
+    - name: "formism"
+      category: "pepper-concept"
+      description: "World hypothesis based on similarity metaphor and classification."
+      subTypeOf: "root-metaphor"
+    - name: "mechanism"
+      category: "pepper-concept"
+      description: "World hypothesis based on machine metaphor and causal relationships."
+      subTypeOf: "root-metaphor"
+    - name: "organicism"
+      category: "pepper-concept"
+      description: "World hypothesis based on living organism metaphor and developmental processes."
+      subTypeOf: "root-metaphor"
+    - name: "contextualism"
+      category: "pepper-concept"
+      description: "World hypothesis based on living event metaphor and contextual meaning."
+      subTypeOf: "root-metaphor"
+    - name: "personal-construct"
+      category: "kelly-concept"
+      description: "Bipolar dimension used by individuals to interpret and predict events."
+      domain: ["Actor"]
+    - name: "construction-system"
+      category: "kelly-concept"
+      description: "Organized network of personal constructs used for understanding reality."
+      domain: ["Actor"]
+    - name: "individualism-collectivism"
+      category: "cultural-dimension"
+      description: "Degree to which individuals are integrated into groups versus acting independently."
+    - name: "power-distance"
+      category: "cultural-dimension"
+      description: "Extent to which less powerful members accept unequal power distribution."
+    - name: "uncertainty-avoidance"
+      category: "cultural-dimension"
+      description: "Society's tolerance for ambiguity and uncertainty."
+    - name: "masculinity-femininity"
+      category: "cultural-dimension"
+      description: "Distribution of roles between genders and emphasis on achievement versus relationships."
+    - name: "moral-orientation"
+      category: "human-nature-dimension"
+      description: "Basic evaluation of human nature as good, evil, or neutral."
+      domain: ["Actor"]
+    - name: "mutability"
+      category: "human-nature-dimension"
+      description: "Belief about whether human nature is changeable or permanent."
+      domain: ["Actor"]
+    - name: "complexity"
+      category: "human-nature-dimension"
+      description: "View of human nature as complex or simple."
+      domain: ["Actor"]
+    - name: "agency-dimension"
+      category: "will-dimension"
+      description: "Belief in volition versus determinism in human behavior."
+      domain: ["Actor"]
+    - name: "determining-factors"
+      category: "will-dimension"
+      description: "Source of determination: biological or environmental factors."
+      domain: ["Actor"]
+    - name: "intrapsychic"
+      category: "will-dimension"
+      description: "Whether behavior is driven by rational-conscious or irrational-unconscious processes."
+      domain: ["Actor"]
+    - name: "knowledge-source"
+      category: "cognition-dimension"
+      description: "Primary source of valid knowledge: authority, tradition, senses, rationality, science, intuition, divination, revelation, or nullity."
+      domain: ["Actor"]
+    - name: "consciousness-orientation"
+      category: "cognition-dimension"
+      description: "Emphasis on ego primacy versus ego transcendence."
+      domain: ["Actor"]
+    - name: "time-orientation"
+      category: "behavior-dimension"
+      description: "Primary temporal focus: past, present, or future."
+      domain: ["Actor"]
+    - name: "activity-direction"
+      category: "behavior-dimension"
+      description: "Whether activity is directed inward or outward."
+      domain: ["Actor"]
+    - name: "activity-satisfaction"
+      category: "behavior-dimension"
+      description: "Whether satisfaction comes from movement or stasis."
+      domain: ["Actor"]
+    - name: "moral-source"
+      category: "behavior-dimension"
+      description: "Source of moral guidance: human or transcendent."
+      domain: ["Actor"]
+    - name: "moral-standard"
+      category: "behavior-dimension"
+      description: "Whether morality is absolute or relative."
+      domain: ["Actor"]
+    - name: "moral-relevance"
+      category: "behavior-dimension"
+      description: "Whether morality is relevant or irrelevant to life."
+      domain: ["Actor"]
+    - name: "control-location"
+      category: "behavior-dimension"
+      description: "Locus of control: action, personality, luck, chance, fate, society, or divinity."
+      domain: ["Actor"]
+    - name: "control-disposition"
+      category: "behavior-dimension"
+      description: "Whether control forces are positive, negative, or neutral."
+      domain: ["Actor"]
+    - name: "action-efficacy"
+      category: "behavior-dimension"
+      description: "How action works: direct, thaumaturgic (magical), or impotent."
+      domain: ["Actor"]
+    - name: "otherness"
+      category: "interpersonal-dimension"
+      description: "Whether differences in others are tolerable or intolerable."
+      domain: ["Actor"]
+    - name: "authority-relation"
+      category: "interpersonal-dimension"
+      description: "Relationship to authority: linear hierarchy or lateral equality."
+      domain: ["Actor"]
+    - name: "group-relation"
+      category: "interpersonal-dimension"
+      description: "Orientation toward group: individualism or collectivism."
+      domain: ["Actor"]
+    - name: "humanity-relation"
+      category: "interpersonal-dimension"
+      description: "Relation to humanity: superior, egalitarian, or inferior."
+      domain: ["Actor"]
+    - name: "biosphere-relation"
+      category: "interpersonal-dimension"
+      description: "Relation to biosphere: anthropocentrism or vivicentrism."
+      domain: ["Actor"]
+    - name: "sexuality-orientation"
+      category: "interpersonal-dimension"
+      description: "Primary purpose of sexuality: procreation, pleasure, relationship, or sacral."
+      domain: ["Actor"]
+    - name: "connection-style"
+      category: "interpersonal-dimension"
+      description: "Interpersonal connection style: dependent, independent, or interdependent."
+      domain: ["Actor"]
+    - name: "interpersonal-justice"
+      category: "interpersonal-dimension"
+      description: "Whether interpersonal relationships are just, unjust, or random."
+      domain: ["Actor"]
+    - name: "sociopolitical-justice"
+      category: "interpersonal-dimension"
+      description: "Whether sociopolitical systems are just, unjust, or random."
+      domain: ["Actor"]
+    - name: "interaction-mode"
+      category: "interpersonal-dimension"
+      description: "Primary mode of interaction: competition, cooperation, or disengagement."
+      domain: ["Actor"]
+    - name: "correction-approach"
+      category: "interpersonal-dimension"
+      description: "Approach to wrongdoing: rehabilitation or retribution."
+      domain: ["Actor"]
+    - name: "truth-scope"
+      category: "truth-dimension"
+      description: "Whether truth is universal or relative."
+      domain: ["Actor"]
+    - name: "truth-possession"
+      category: "truth-dimension"
+      description: "Whether one possesses full or partial truth."
+      domain: ["Actor"]
+    - name: "truth-availability"
+      category: "truth-dimension"
+      description: "Whether truth is exclusive to some or inclusive to all."
+      domain: ["Actor"]
+    - name: "ontology-type"
+      category: "world-life-dimension"
+      description: "Basic ontology: spiritualism or materialism."
+      domain: ["Actor"]
+    - name: "cosmos-nature"
+      category: "world-life-dimension"
+      description: "Whether the cosmos is random or planful."
+      domain: ["Actor"]
+    - name: "unity-plurality"
+      category: "world-life-dimension"
+      description: "Whether reality is fundamentally many or one."
+      domain: ["Actor"]
+    - name: "deity-belief"
+      category: "world-life-dimension"
+      description: "Belief about deity: deism, theism, agnosticism, or atheism."
+      domain: ["Actor"]
+    - name: "nature-consciousness"
+      category: "world-life-dimension"
+      description: "Whether nature is conscious or nonconscious."
+      domain: ["Actor"]
+    - name: "humanity-nature-relation"
+      category: "world-life-dimension"
+      description: "Humanity's relation to nature: subjugation, harmony, or mastery."
+      domain: ["Actor"]
+    - name: "world-justice"
+      category: "world-life-dimension"
+      description: "Whether the world is just, unjust, or random."
+      domain: ["Actor"]
+    - name: "wellbeing-source"
+      category: "world-life-dimension"
+      description: "Source of well-being: science-logic or transcendent."
+      domain: ["Actor"]
+    - name: "explanation-type"
+      category: "world-life-dimension"
+      description: "Primary explanation type: formism, mechanism, organicism, or contextualism."
+      domain: ["Actor"]
+    - name: "life-worth"
+      category: "world-life-dimension"
+      description: "Worth of life: optimism or resignation."
+      domain: ["Actor"]
+    - name: "life-purpose"
+      category: "world-life-dimension"
+      description: "Purpose of life: nihilism, survival, pleasure, belonging, recognition, power, achievement, self-actualization, or self-transcendence."
+      domain: ["Actor"]
+    - name: "experiencing-self"
+      category: "functional-component"
+      description: "The aspect of self that processes sensory input and experience through worldview filters."
+      domain: ["Actor"]
+    - name: "acting-self"
+      category: "functional-component"
+      description: "The aspect of self that generates behavior through motivational and agentic cores."
+      domain: ["Actor"]
+    - name: "worldview-filter"
+      category: "functional-component"
+      description: "Cognitive mechanism that screens and interprets experience based on worldview assumptions."
+      domain: ["Actor"]
+    - name: "acculturation-buffer"
+      category: "functional-component"
+      description: "Mechanism that mediates between cultural input and individual processing."
+      domain: ["Actor"]
+    - name: "motivational-core"
+      category: "functional-component"
+      description: "The driving force behind behavior, influenced by worldview conditioning."
+      domain: ["Actor"]
+    - name: "agentic-core"
+      category: "functional-component"
+      description: "The executive function that translates motivation into action."
+      domain: ["Actor"]
+    - name: "perceptual-core"
+      category: "functional-component"
+      description: "Basic perceptual processing influenced by worldview assumptions."
+      domain: ["Actor"]
+    - name: "conceptual-core"
+      category: "functional-component"
+      description: "Conceptual understanding and categorization influenced by worldview."
+      domain: ["Actor"]
+    - name: "cultural-transmission"
+      category: "process"
+      description: "The process by which worldview elements are passed through culture."
+      domain: ["Culture"]
+      range: ["Actor"]
+    - name: "worldview-conditioning"
+      category: "process"
+      description: "The process by which worldview influences motivational and behavioral systems."
+      domain: ["Worldview"]
+      range: ["Behavior"]
+    - name: "stimulus-processing"
+      category: "process"
+      description: "The processing of environmental stimuli through worldview-influenced mechanisms."
+      domain: ["Stimulus"]
+      range: ["Experience"]
+    - name: "feedback-loop"
+      category: "process"
+      description: "Circular causal relationships between worldview, behavior, and experience."
+      domain: ["Behavior"]
+      range: ["Experience"]
+    - name: "causal-relationship"
+      category: "relationship"
+      description: "Direct causal influence between worldview components and psychological processes."
+    - name: "correlational-relationship"
+      category: "relationship"
+      description: "Statistical association between worldview dimensions and other variables."
+    - name: "moderator-relationship"
+      category: "relationship"
+      description: "Relationship where worldview moderates the connection between other variables."
+    - name: "constituent-relationship"
+      category: "relationship"
+      description: "Relationship where one element is a component part of another."
+    - name: "superordinate-construct"
+      category: "theoretical-concept"
+      description: "Higher-order construct that organizes and explains multiple lower-order phenomena."
+    - name: "distal-proximal"
+      category: "theoretical-concept"
+      description: "Distinction between distant fundamental causes and immediate proximate causes."
+    - name: "orthogonal-dimensions"
+      category: "measurement-concept"
+      description: "Independent dimensions that do not correlate with each other."
+    - name: "dimension-collapse"
+      category: "measurement-concept"
+      description: "The potential for multiple dimensions to reduce to fewer underlying factors."
+    - name: "cultural-relevance"
+      category: "measurement-concept"
+      description: "The degree to which dimensions are meaningful across different cultures."
+    - name: "individual-differences"
+      category: "measurement-concept"
+      description: "Variations in worldview dimensions between individuals."
+    - name: "schema"
+      category: "cognitive-construct"
+      description: "Knowledge structures that organize information and guide processing, distinguished from worldviews."
+      domain: ["Actor"]
+    - name: "attitude"
+      category: "cognitive-construct"
+      description: "Evaluative judgments toward specific objects, distinguished from worldviews."
+      domain: ["Actor"]
+    - name: "personality-trait"
+      category: "cognitive-construct"
+      description: "Stable individual differences in behavior, distinguished from but related to worldviews."
+      domain: ["Actor"]
+    - name: "belief-system"
+      category: "cognitive-construct"
+      description: "Organized network of beliefs, of which worldview is the most fundamental level."
+      domain: ["Actor"]
+    - name: "influences"
+      category: "relationship"
+      description: "General influence relationship between worldview components and psychological outcomes."
+      domain: ["Concept"]
+      range: ["Concept"]
+    - name: "moderates"
+      category: "relationship"
+      description: "Relationship where one variable affects the strength or direction of another relationship."
+      domain: ["Concept"]
+      range: ["Relationship"]
+    - name: "mediates"
+      category: "relationship"
+      description: "Relationship where one variable explains the mechanism between two other variables."
+      domain: ["Concept"]
+      range: ["Relationship"]
+    - name: "correlates-with"
+      category: "relationship"
+      description: "Statistical association without implied causation."
+      domain: ["Concept"]
+      range: ["Concept"]
+    - name: "predicts"
+      category: "relationship"
+      description: "Predictive relationship from worldview dimensions to behavioral outcomes."
+      domain: ["Concept"]
+      range: ["Concept"]
+    - name: "distinguishes-from"
+      category: "relationship"
+      description: "Theoretical distinction between worldview and other psychological constructs."
+      domain: ["Concept"]
+      range: ["Concept"]
+json_schema: |
+  {
+    "type": "object",
+    "properties": {
+      "nodes": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/Entity"
+        }
+      },
+      "edges": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/NaryTuple"
+        }
+      }
+    },
+    "required": ["nodes", "edges"],
+    "additionalProperties": false,
+    "$defs": {
+      "Worldview_Constructs": {
+        "type": "string",
+        "enum": ["worldview", "weltanschauung"]
+      },
+      "Worldview_BeliefTypes": {
+        "type": "string",
+        "enum": ["existential-belief", "evaluative-belief", "prescriptive-belief", "proscriptive-belief", "values"]
+      },
+      "Worldview_PhilosophicalFoundations": {
+        "type": "string",
+        "enum": ["epistemology", "ontology", "agency"]
+      },
+      "Worldview_PepperConcepts": {
+        "type": "string",
+        "enum": ["root-metaphor", "animism", "mysticism", "formism", "mechanism", "organicism", "contextualism"]
+      },
+      "Worldview_KellyConcepts": {
+        "type": "string",
+        "enum": ["personal-construct", "construction-system"]
+      },
+      "Worldview_CulturalDimensions": {
+        "type": "string",
+        "enum": ["individualism-collectivism", "power-distance", "uncertainty-avoidance", "masculinity-femininity"]
+      },
+      "Worldview_HumanNatureDimensions": {
+        "type": "string",
+        "enum": ["moral-orientation", "mutability", "complexity"]
+      },
+      "Worldview_WillDimensions": {
+        "type": "string",
+        "enum": ["agency-dimension", "determining-factors", "intrapsychic"]
+      },
+      "Worldview_CognitionDimensions": {
+        "type": "string",
+        "enum": ["knowledge-source", "consciousness-orientation"]
+      },
+      "Worldview_BehaviorDimensions": {
+        "type": "string",
+        "enum": ["time-orientation", "activity-direction", "activity-satisfaction", "moral-source", "moral-standard", "moral-relevance", "control-location", "control-disposition", "action-efficacy"]
+      },
+      "Worldview_InterpersonalDimensions": {
+        "type": "string",
+        "enum": ["otherness", "authority-relation", "group-relation", "humanity-relation", "biosphere-relation", "sexuality-orientation", "connection-style", "interpersonal-justice", "sociopolitical-justice", "interaction-mode", "correction-approach"]
+      },
+      "Worldview_TruthDimensions": {
+        "type": "string",
+        "enum": ["truth-scope", "truth-possession", "truth-availability"]
+      },
+      "Worldview_WorldLifeDimensions": {
+        "type": "string",
+        "enum": ["ontology-type", "cosmos-nature", "unity-plurality", "deity-belief", "nature-consciousness", "humanity-nature-relation", "world-justice", "wellbeing-source", "explanation-type", "life-worth", "life-purpose"]
+      },
+      "Worldview_FunctionalComponents": {
+        "type": "string",
+        "enum": ["experiencing-self", "acting-self", "worldview-filter", "acculturation-buffer", "motivational-core", "agentic-core", "perceptual-core", "conceptual-core"]
+      },
+      "Worldview_Processes": {
+        "type": "string",
+        "enum": ["cultural-transmission", "worldview-conditioning", "stimulus-processing", "feedback-loop"]
+      },
+      "Worldview_Relationships": {
+        "type": "string",
+        "enum": ["causal-relationship", "correlational-relationship", "moderator-relationship", "constituent-relationship"]
+      },
+      "Worldview_TheoreticalConcepts": {
+        "type": "string",
+        "enum": ["superordinate-construct", "distal-proximal"]
+      },
+      "Worldview_MeasurementConcepts": {
+        "type": "string",
+        "enum": ["orthogonal-dimensions", "dimension-collapse", "cultural-relevance", "individual-differences"]
+      },
+      "Worldview_CognitiveConstructs": {
+        "type": "string",
+        "enum": ["schema", "attitude", "personality-trait", "belief-system"]
+      },
+      "Worldview_SpecificRelationships": {
+        "type": "string",
+        "enum": ["influences", "moderates", "mediates", "correlates-with", "predicts", "distinguishes-from"]
+      }
+    }
+  }

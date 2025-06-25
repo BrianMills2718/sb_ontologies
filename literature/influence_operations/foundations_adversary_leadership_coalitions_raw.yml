@@ -1,0 +1,421 @@
+citation: "Paul, Christopher, et al. Foundations of Effective Influence Operations: A Framework for Enhancing Army Capabilities. Chapter 4: Influencing Adversary Leadership Coalitions. RAND Corporation, 2013, pp. 45-52."
+
+annotation: "A strategic framework for influence operations targeting adversary leadership coalitions through indirect strategies, stakeholder analysis, and agent-based rational choice modeling, emphasizing expected utility models for predicting political outcomes and identifying leverage points."
+
+model_type: "property_graph"
+
+rationale: "The chapter presents a complex network of stakeholder relationships, coalition dynamics, bargaining processes, and strategic interactions that are best represented as a property graph. The model captures nodes representing stakeholders, coalitions, strategies, and outcomes, with edges representing influence relationships, bargaining dynamics, and strategic interactions. This structure effectively models the multi-actor political processes and decision-making systems described in the framework."
+
+schema_blueprint:
+  title: "Adversary Leadership Coalition Influence Operations Framework"
+  description: "A theoretical framework for analyzing and designing influence operations targeting adversary leadership coalitions through stakeholder analysis, coalition dynamics, and expected utility modeling"
+  root_properties:
+    nodes:
+      description: "Represents stakeholders, coalitions, strategies, policy positions, outcomes, and capabilities in the influence operation context"
+      item_type: "Entity"
+    edges:
+      description: "Represents influence relationships, bargaining dynamics, coalition formation, strategic interactions, and outcome predictions"
+      item_type: "NaryTuple"
+  definitions:
+    - name: "adversary-leadership-coalition"
+      category: "core-construct"
+      description: "A group of key political, military, or economic stakeholders within an adversary state or organization who collectively influence strategic decision-making"
+      
+    - name: "indirect-influence-strategy"
+      category: "strategic-approach"
+      description: "An approach to influence operations that works through intermediaries, coalition dynamics, or stakeholder pressure rather than direct confrontation"
+      
+    - name: "stakeholder-group"
+      category: "core-construct"
+      description: "A distinct political, economic, or military actor or constituency that has some influence on adversary policy decisions"
+      
+    - name: "policy-preference"
+      category: "measurement-concept"
+      description: "A stakeholder's preferred position on a policy issue, typically represented on a unidimensional scale"
+      
+    - name: "relative-capability"
+      category: "measurement-concept"
+      description: "The political, economic, or military resources that a stakeholder group can employ to influence policy decisions"
+      
+    - name: "salience"
+      category: "measurement-concept"
+      description: "The importance a stakeholder group attaches to an issue, indicating their willingness to expend political capital to influence outcomes"
+      range: ["0.0", "1.0"]
+      
+    - name: "effective-capability"
+      category: "measurement-concept"
+      description: "A stakeholder's actual influence power, calculated as capability multiplied by salience"
+      
+    - name: "risk-orientation"
+      category: "behavioral-characteristic"
+      description: "A stakeholder's propensity for risk-taking or risk-aversion, calculated endogenously based on their position relative to predicted outcomes"
+      
+    - name: "expected-utility-model"
+      category: "analytical-method"
+      description: "A mathematical model that forecasts political outcomes by analyzing stakeholder preferences, capabilities, and salience through rational choice theory"
+      
+    - name: "agent-based-rational-choice-model"
+      category: "analytical-method"
+      description: "A computational approach that simulates interactions between multiple rational actors to predict coalition formation and bargaining outcomes"
+      
+    - name: "spatial-voting-model"
+      category: "analytical-method"
+      description: "A component of EUM that forecasts outcomes using weighted voting rules based on stakeholder positions and capabilities"
+      
+    - name: "bargaining-simulation"
+      category: "analytical-method"
+      description: "A component of EUM that models the actual negotiation and deal-making processes between stakeholders"
+      
+    - name: "third-party-intercession"
+      category: "influence-tactic"
+      description: "Enlisting influential external actors to pressure or persuade adversary stakeholders"
+      
+    - name: "moderate-strengthening"
+      category: "influence-tactic"
+      description: "Strategies designed to increase the relative influence of moderate voices within adversary coalitions"
+      
+    - name: "hardliner-weakening"
+      category: "influence-tactic"
+      description: "Strategies designed to decrease the relative influence of extremist voices within adversary coalitions"
+      
+    - name: "constituency-pressure"
+      category: "influence-tactic"
+      description: "Targeting key supporters or constituents of adversary leaders to create internal pressure for policy change"
+      
+    - name: "carrot-and-stick-approach"
+      category: "influence-tactic"
+      description: "Combining positive incentives with threats to influence adversary decision-making"
+      
+    - name: "coalition-formation"
+      category: "political-process"
+      description: "The process by which stakeholder groups align their interests and coordinate their actions to achieve policy outcomes"
+      
+    - name: "political-bargaining"
+      category: "political-process"
+      description: "The negotiation process between stakeholders involving concessions, threats, and deal-making"
+      
+    - name: "horse-trading"
+      category: "political-process"
+      description: "The exchange of political favors or concessions between stakeholders to build support for preferred outcomes"
+      
+    - name: "bullying"
+      category: "political-process"
+      description: "The use of superior political, economic, or military power to coerce other stakeholders into compliance"
+      
+    - name: "policy-outcome"
+      category: "outcome-variable"
+      description: "The final decision or position adopted by the adversary leadership on a particular issue"
+      
+    - name: "condorcet-winner"
+      category: "decision-rule"
+      description: "The policy position that would defeat all other options in pairwise voting, typically the median voter position"
+      
+    - name: "median-voter-position"
+      category: "decision-rule"
+      description: "The policy preference of the stakeholder at the center of the distribution when all stakeholders are arranged by their policy preferences"
+      
+    - name: "qualified-majority-voting"
+      category: "decision-rule"
+      description: "A voting system requiring more than a simple majority threshold for decision approval"
+      
+    - name: "majority-voting-with-veto"
+      category: "decision-rule"
+      description: "A decision-making system where majority rule applies but certain actors have veto power"
+      
+    - name: "political-capital"
+      category: "resource-concept"
+      description: "The accumulated influence, credibility, and relationships that stakeholders can expend to achieve policy objectives"
+      
+    - name: "leverage-point"
+      category: "strategic-concept"
+      description: "A stakeholder or relationship that offers disproportionate influence on policy outcomes relative to the resources required to target it"
+      
+    - name: "context-dependence"
+      category: "theoretical-principle"
+      description: "The principle that influence strategy effectiveness varies significantly based on actor-specific, situational, and other contextual factors"
+      
+    - name: "actor-specific-factors"
+      category: "contextual-variable"
+      description: "Individual characteristics of stakeholders that affect their susceptibility to influence, including personality, beliefs, and constraints"
+      
+    - name: "situational-factors"
+      category: "contextual-variable"
+      description: "Environmental conditions that affect the dynamics of influence operations, including timing, crisis conditions, and external pressures"
+      
+    - name: "diagnostic-framework"
+      category: "analytical-tool"
+      description: "A systematic approach for assessing the characteristics of influence situations and selecting appropriate strategies"
+      
+    - name: "prescriptive-framework"
+      category: "analytical-tool"
+      description: "A systematic approach for designing and implementing influence strategies based on situational analysis"
+      
+    - name: "forecasting-accuracy"
+      category: "model-performance"
+      description: "The degree to which expected utility models correctly predict actual political outcomes"
+      
+    - name: "real-time-forecasting"
+      category: "operational-capability"
+      description: "The ability to generate predictions about ongoing political processes as they develop"
+      
+    - name: "policy-simulation"
+      category: "analytical-capability"
+      description: "The ability to model how changes in stakeholder positions, capabilities, or salience affect predicted outcomes"
+      
+    - name: "strategic-tuning"
+      category: "operational-approach"
+      description: "The process of adapting influence strategies to the specific characteristics, objectives, and constraints of individual stakeholders"
+      
+    - name: "coercive-diplomacy"
+      category: "influence-strategy"
+      description: "The use of threats combined with limited force or other pressure to persuade adversaries to change their behavior"
+      
+    - name: "deterrence-strategy"
+      category: "influence-strategy"
+      description: "Preventing adversary actions through credible threats of unacceptable consequences"
+      
+    - name: "positive-inducements"
+      category: "influence-tool"
+      description: "Rewards, benefits, or concessions offered to encourage desired adversary behavior"
+      
+    - name: "targeted-messaging"
+      category: "influence-tool"
+      description: "Communications specifically crafted for particular stakeholder groups based on their characteristics and interests"
+      
+    - name: "discriminate-concessions"
+      category: "influence-tool"
+      description: "Carefully selected benefits offered to specific stakeholders to encourage policy changes"
+      
+    - name: "discriminate-threats"
+      category: "influence-tool"
+      description: "Precisely targeted negative consequences designed to pressure specific stakeholders"
+      
+    - name: "commercial-enterprise-targeting"
+      category: "influence-tactic"
+      description: "Placing economic assets or business interests of key stakeholders at risk to create pressure for policy change"
+      
+    - name: "domestic-constituency"
+      category: "stakeholder-type"
+      description: "Internal political, economic, or social groups that have influence over adversary leadership decisions"
+      
+    - name: "international-actor"
+      category: "stakeholder-type"
+      description: "Foreign governments, international organizations, or transnational entities that can influence adversary decisions"
+      
+    - name: "transnational-actor"
+      category: "stakeholder-type"
+      description: "Non-state actors that operate across national boundaries and can influence multiple stakeholders"
+      
+    - name: "core-supporter"
+      category: "stakeholder-type"
+      description: "Individuals or groups whose backing is essential for adversary leadership political survival or effectiveness"
+      
+    - name: "moderate-faction"
+      category: "stakeholder-type"
+      description: "Stakeholder groups within adversary coalitions that favor compromise or less extreme policy positions"
+      
+    - name: "hardliner-faction"
+      category: "stakeholder-type"
+      description: "Stakeholder groups within adversary coalitions that favor uncompromising or extreme policy positions"
+      
+    - name: "regime-element"
+      category: "stakeholder-type"
+      description: "Components of the adversary's governing structure or power base"
+      
+    - name: "single-peaked-preference"
+      category: "model-assumption"
+      description: "The assumption that stakeholder utility decreases steadily as outcomes move farther from their most preferred position"
+      
+    - name: "unidimensional-issue-space"
+      category: "model-assumption"
+      description: "The assumption that policy preferences can be represented on a single continuum or line segment"
+      
+    - name: "euclidean-distance"
+      category: "measurement-method"
+      description: "The method for calculating how far potential outcomes are from a stakeholder's preferred position"
+      
+    - name: "utility-calculation"
+      category: "analytical-process"
+      description: "The process of determining stakeholder gains or losses from potential bargains or policy outcomes"
+      
+    - name: "proposal-acceptance-prediction"
+      category: "analytical-output"
+      description: "Model forecasts of which policy proposals will be offered and accepted by stakeholders"
+      
+    - name: "interaction-simulation"
+      category: "analytical-output"
+      description: "Model representations of bargaining, threats, and other political processes leading to predicted outcomes"
+      
+    - name: "influence-efficacy-assessment"
+      category: "evaluation-method"
+      description: "The process of determining the likely effectiveness of alternative influence strategies"
+      
+    - name: "resource-constraint"
+      category: "operational-limitation"
+      description: "The finite availability of resources for conducting influence operations, requiring prioritization of targets and strategies"
+      
+    - name: "stakeholder-prioritization"
+      category: "operational-process"
+      description: "The process of identifying which stakeholder groups are most important to achieving influence objectives"
+      
+    - name: "marginal-stakeholder"
+      category: "stakeholder-classification"
+      description: "Actors or groups with limited influence on policy outcomes, typically lower priority for influence operations"
+      
+    - name: "influential-stakeholder"
+      category: "stakeholder-classification"
+      description: "Actors or groups with significant power to affect policy outcomes, typically high priority for influence operations"
+      
+    - name: "decisionmaking-style"
+      category: "stakeholder-characteristic"
+      description: "The typical patterns and processes by which a stakeholder approaches policy decisions"
+      
+    - name: "preferred-strategy"
+      category: "stakeholder-characteristic"
+      description: "The typical approaches a stakeholder uses to achieve their policy objectives"
+      
+    - name: "stake-in-outcome"
+      category: "stakeholder-characteristic"
+      description: "The degree to which a stakeholder's interests are affected by the resolution of a policy issue"
+      
+    - name: "influences-relationship"
+      category: "relationship"
+      description: "A directional relationship where one stakeholder affects another's decision-making or policy positions"
+      domain: ["stakeholder-group", "international-actor", "transnational-actor"]
+      range: ["stakeholder-group", "policy-outcome", "adversary-leadership-coalition"]
+      
+    - name: "bargains-with"
+      category: "relationship"
+      description: "A reciprocal relationship involving negotiation and potential exchange of concessions between stakeholders"
+      domain: ["stakeholder-group", "adversary-leadership-coalition"]
+      range: ["stakeholder-group", "international-actor"]
+      
+    - name: "forms-coalition-with"
+      category: "relationship"
+      description: "An alliance relationship where stakeholders coordinate their actions to achieve common objectives"
+      domain: ["stakeholder-group"]
+      range: ["stakeholder-group"]
+      
+    - name: "applies-pressure-to"
+      category: "relationship"
+      description: "A coercive relationship where one actor uses threats, sanctions, or other pressure against another"
+      domain: ["stakeholder-group", "international-actor", "constituency-pressure"]
+      range: ["stakeholder-group", "adversary-leadership-coalition"]
+      
+    - name: "supports"
+      category: "relationship"
+      description: "A supportive relationship where one stakeholder provides backing or assistance to another"
+      domain: ["domestic-constituency", "core-supporter"]
+      range: ["adversary-leadership-coalition", "stakeholder-group"]
+      
+    - name: "threatens"
+      category: "relationship"
+      description: "A coercive relationship involving credible warnings of negative consequences for non-compliance"
+      domain: ["stakeholder-group", "influence-strategy"]
+      range: ["stakeholder-group", "adversary-leadership-coalition"]
+      
+    - name: "offers-inducement-to"
+      category: "relationship"
+      description: "A reward relationship where positive incentives are provided to encourage desired behavior"
+      domain: ["stakeholder-group", "influence-strategy"]
+      range: ["stakeholder-group", "adversary-leadership-coalition"]
+      
+    - name: "targets"
+      category: "relationship"
+      description: "A strategic relationship where influence operations are directed at specific stakeholders"
+      domain: ["influence-strategy", "influence-tactic"]
+      range: ["stakeholder-group", "adversary-leadership-coalition", "domestic-constituency"]
+      
+    - name: "predicts"
+      category: "relationship"
+      description: "An analytical relationship where models forecast outcomes or behaviors"
+      domain: ["expected-utility-model", "agent-based-rational-choice-model"]
+      range: ["policy-outcome", "coalition-formation", "political-bargaining"]
+      
+    - name: "strengthens"
+      category: "relationship"
+      description: "An enhancement relationship where strategies increase the influence or position of moderate stakeholders"
+      domain: ["moderate-strengthening", "influence-strategy"]
+      range: ["moderate-faction", "stakeholder-group"]
+      
+    - name: "weakens"
+      category: "relationship"
+      description: "A degradation relationship where strategies decrease the influence or position of hardliner stakeholders"
+      domain: ["hardliner-weakening", "influence-strategy"]
+      range: ["hardliner-faction", "stakeholder-group"]
+
+  json_schema:
+    stakeholder_types:
+      - "domestic-constituency"
+      - "international-actor"
+      - "transnational-actor"
+      - "core-supporter"
+      - "moderate-faction"
+      - "hardliner-faction"
+      - "regime-element"
+      - "influential-stakeholder"
+      - "marginal-stakeholder"
+    
+    influence_strategies:
+      - "indirect-influence-strategy"
+      - "coercive-diplomacy"
+      - "deterrence-strategy"
+      - "carrot-and-stick-approach"
+    
+    influence_tactics:
+      - "third-party-intercession"
+      - "moderate-strengthening"
+      - "hardliner-weakening"
+      - "constituency-pressure"
+      - "commercial-enterprise-targeting"
+    
+    influence_tools:
+      - "positive-inducements"
+      - "targeted-messaging"
+      - "discriminate-concessions"
+      - "discriminate-threats"
+    
+    analytical_methods:
+      - "expected-utility-model"
+      - "agent-based-rational-choice-model"
+      - "spatial-voting-model"
+      - "bargaining-simulation"
+      - "diagnostic-framework"
+      - "prescriptive-framework"
+    
+    measurement_concepts:
+      - "policy-preference"
+      - "relative-capability"
+      - "salience"
+      - "effective-capability"
+      - "political-capital"
+    
+    political_processes:
+      - "coalition-formation"
+      - "political-bargaining"
+      - "horse-trading"
+      - "bullying"
+    
+    decision_rules:
+      - "condorcet-winner"
+      - "median-voter-position"
+      - "qualified-majority-voting"
+      - "majority-voting-with-veto"
+    
+    contextual_factors:
+      - "context-dependence"
+      - "actor-specific-factors"
+      - "situational-factors"
+    
+    relationships:
+      - "influences-relationship"
+      - "bargains-with"
+      - "forms-coalition-with"
+      - "applies-pressure-to"
+      - "supports"
+      - "threatens"
+      - "offers-inducement-to"
+      - "targets"
+      - "predicts"
+      - "strengthens"
+      - "weakens"

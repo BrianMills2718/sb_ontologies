@@ -1,0 +1,1927 @@
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 1 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Tables and Figure for
+A Taxonomy of Behavior Change Methods;
+an Intervention Mapping Approach
+This document contains the Tables and Figure that accompany the publication “A Taxonomy of
+Behavior Change Methods; an Intervention Mapping Approach” that was accepted for publication (and
+published online) in Health Psychology Review in 2015:
+Kok, G., Gottlieb, N. H., Peters, G.-J. Y., Mullen, P. D., Parcel, G. S., Ruiter, R. A. C., Fernández, M. E.,
+Markham, C., & Bartholomew, L. K. (2015). A Taxonomy of Behavior Change Methods; an
+Intervention Mapping Approach.
+Health Psychology Review. DOI: 10.1080/17437199.2015.1077155
+Note that the final citation will likely be different (e.g. the article may be published in 2016 or later), but
+the DOI will remain the same.
+This document is available as supplemental material accompanying the publication in Health
+Psychology Review (http://dx.doi.org/10.1080/17437199.2015.1077155), and in the Open Science
+Framework repository at http://osf.io/sqtuz. Note that introductory material to this publication and
+these tables with behavior change methods is available at http://effectivebehaviorchange.com.
+If you wish to cite these supplemental materials, instead please cite the original paper to which they
+belong (see http://dx.doi.org/10.1080/17437199.2015.1077155).
+This document contains four sections: first, the abstract of the original Health Psychology Review
+publication; second, an excerpt from that publication where use of the tables is explained; third, Tables
+1-15 and Figure 1 from the publication; and fourth, the references cited in Tables 1-15.
+The next page first starts with a Table of Contents.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 2 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Table of contents
+Abstract 3
+How to use the tables 4
+Tables and Figure 5
+Table 1: Basic Methods at the Individual Level (Adapted from Bartholomew et al., 2011) 5
+Table 2: Methods to Increase Knowledge (Adapted from Bartholomew et al., 2011) 7
+Table 3: Methods to Change Awareness and Risk Perception (Adapted from Bartholomew et al., 2011) 8
+Table 4: Methods to Change Habitual, Automatic and Impulsive Behaviors (Adapted from Bartholomew et al., 2011) 9
+Table 5: Methods to Change Attitudes, Beliefs, and Outcome Expectations (Adapted from Bartholomew et al., 2011) 10
+Table 6: Methods to Change Social Influence (Adapted from Bartholomew et al., 2011) 11
+Table 7: Methods to Change Skills, Capability, and Self-Efficacy and to Overcome Barriers (Adapted from Bartholomew et al.,
+2011) 12
+Table 8: Methods to Reduce Public Stigma (Adapted from Bartholomew et al., 2011) 14
+Table 9: Basic Methods for Change of Environmental Conditions. (Adapted from Bartholomew et al., 2011) 15
+Table 10: Methods to Change Social Norms (Adapted from Bartholomew et al., 2011) 16
+Table 11: Methods to Change Social Support and Social Networks (Adapted from Bartholomew et al., 2011) 17
+Table 12: Methods to Change Organizations (Adapted from Bartholomew et al., 2011) 18
+Table 13: Methods to Change Communities (Adapted from Bartholomew et al., 2011) 19
+Table 14: Methods to Change Policy (Adapted from Bartholomew et al., 2011) 20
+Table 15: Description of determinants, methods and applications; examples from Long Live Love, a school-based sex
+education program (Schaalma et al., 2011) 21
+Figure 1: Similarity of the processes of change at the individual and environmental levels. 23
+References 24
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 3 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Abstract
+In this paper, we introduce the IM taxonomy of behavior change methods and its potential to be
+developed into a coding taxonomy. That is, although IM and its taxonomy of behavior change methods
+are not in fact new, because IM was originally developed as a tool for intervention development, this
+potential was not immediately apparent. Second, in explaining the IM taxonomy and defining the
+relevant constructs, we call attention to the existence of parameters for effectiveness of methods, and
+explicate the related distinction between theory-based methods and practical applications and the
+probability that poor translation of methods may lead to erroneous conclusions as to method-
+effectiveness. Third, we recommend a minimal set of intervention characteristics that may be reported
+when intervention descriptions and evaluations are published. Specifying these characteristics can
+greatly enhance the quality of our meta-analyses and other literature syntheses.
+In conclusion, the dynamics of behavior change are such that any taxonomy of methods of behavior
+change needs to acknowledge the importance of, and provide instruments for dealing with, three
+conditions for effectiveness for behavior change methods. For a behavior change method to be effective:
+1) it must target a determinant that predicts behavior; 2) it must be able to change that determinant; 3) it
+must be translated into a practical application in a way that preserves the parameters for effectiveness
+and fits with the target population, culture, and context. Thus, taxonomies of methods of behavior
+change must distinguish the specific determinants that are targeted, practical, specific applications, and
+the theory-based methods they embody. In addition, taxonomies should acknowledge that the lists of
+behavior change methods will be used by, and should be used by, intervention developers. Ideally, the
+taxonomy should be readily usable for this goal; but alternatively, it should be clear how the information
+in the taxonomy can be used in practice. The IM taxonomy satisfies these requirements, and it would be
+beneficial if other taxonomies would be extended to also meet these needs.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 4 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+The following is an excerpt from the original open access paper in Health Psychology Review
+(http://dx.doi.org/10.1080/17437199.2015.1077155). If you have not yet read that paper, we strongly recommend
+doing so first to provide the necessary background for understanding these tables. Two introductory open access
+articles, “A practical guide to effective behavior change: How to identify what to change in the first place” and “A
+practical guide to effective behavior change: How to apply theory- and evidence-based behavior change methods in
+an intervention” are available at http://effectivebehaviorchange.com, and can also be of help.
+How to use the tables
+This description assumes that the intervention developer has identified which behavior to change, and
+whose behavior this is (i.e., either of a target population individual or of an environmental agent). It also
+assumes that the relevant determinants and underlying beliefs have been identified. When selecting
+methods for individuals from the target population, for each determinant, Tables 1-8 can be consulted to
+get an initial list of methods that can be used to change that determinant. For example, Table 1 contains
+methods that can be used for most determinants, whereas Table 3 contains methods to change
+awareness and risk perception, and Table 6 contains methods to change perceived social influence. For
+each potential method, inspect the definition and the parameters to determine whether the method is
+applicable given the situation. Then, use the references included in the Tables to study the relevant
+literature, and use bibliographic databases such as Google Scholar to locate more recent literature.
+Repeat these steps for all determinants, until methods have been identified to target all determinants
+and beliefs. Then, translate these methods into practical applications, making sure that the parameters
+for effectiveness are respected. It is important to note that these parameters for effectiveness are subject
+to change as new literature is published. Also, the strength of the evidence for each method varies, new
+methods can emerge, and evidence can accumulate that certain methods are better avoided (e.g.,
+threatening communication in populations low in self-efficacy).
+When selecting methods to target environmental agents, the process is similar. Depending on the
+environmental level of the agent, consult Tables 9-14 to get an initial list of methods. For example, Table
+9 contains basic methods that can be used for agents at all environmental levels, whereas Table 11
+contains methods that can be used to target agents at the organizational level. Because each
+environmental agent is a person (or several), in addition to these environmental methods, Tables 1-8 can
+also be consulted to get a list of methods at the individual level. Of course, at the environmental level, it
+is also necessary to consult the literature, both those publications cited in the tables and recent updates.
+Nota bene: The theoretical background for all methods is provided in Bartholomew et al. (2011; 2016) and
+mentioned in the tables. Use the Bartholomew et al. book to find the essential background information.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 5 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Tables and Figure
+Table 1: Basic Methods at the Individual Level (Adapted from Bartholomew et al., 2011)
+Method
+(related theories and references)
+Definition Parameters
+Participation (Diffusion of
+Innovations Theory; Theories of
+Power; Organizational Development
+Theories; Models of Community
+Organization; Cummings & Worley,
+2015; McCullum, Pelletier, Barr,
+Wilkins, & Habicht, 2004; Rogers,
+2003; World Health Organization
+Regional Office for Europe, 2002)
+Assuring high level engagement of
+the participants’ group in problem
+solving, decision making, and
+change activities; with highest level
+being control by the participants’
+group.
+Requires willingness by the health
+promoter or convener to accept the
+participants as having a high level of
+influence;
+Requires participants’ group to
+possess appropriate motivation and
+skills.
+Belief selection (Theory of Planned
+Behavior; Reasoned Action
+Approach; Fishbein & Ajzen, 2010)
+Using messages designed to
+strengthen positive beliefs, weaken
+negative beliefs, and introduce new
+beliefs.
+Requires investigation of the current
+attitudinal, normative and efficacy
+beliefs of the individual before
+choosing the beliefs on which to
+intervene.
+Persuasive communication
+(Communication-Persuasion Matrix;
+Elaboration Likelihood Model;
+Diffusion of Innovations Theory;
+McGuire, 2012; Petty, Barden, &
+Wheeler, 2009; Rogers, 2003)
+Guiding individuals and
+environmental agents toward the
+adoption of an idea, attitude, or
+action by using arguments or other
+means.
+Messages need to be relevant and
+not too discrepant from the beliefs
+of the individual; can be stimulated
+by surprise and repetition. Will
+include arguments.
+Active learning ((Elaboration
+Likelihood Model; Social Cognitive
+Theory; Kelder, Hoelscher, & Perry,
+2015; Petty et al., 2009)
+Encouraging learning from goal-
+driven and activity-based
+experience.
+Time, information, and skills.
+Tailoring (Trans-Theoretical Model;
+Precaution Adoption Process Model;
+Protection Motivation Theory;
+Communication-Persuasion Matrix;
+Lustria, Cortese, Noar, & Glueckauf,
+2009; McGuire, 2012; Weinstein,
+Sandman, & Blalock, 2008; Werrij,
+Ruiter, van `t Riet, & de Vries, 2012)
+Matching the intervention or
+components to previously measured
+characteristics of the participant.
+Tailoring variables or factors related
+to behavior change (such as stage)
+or to relevance (such as culture or
+socioeconomic status).
+Individualization (L K Bartholomew
+et al., 2000; L. K. Bartholomew,
+Czyzewski, Swank, McCormick, &
+Parcel, 2000; Prochaska, Redding, &
+Evers, 2015)
+Providing opportunities for learners
+to have personal questions
+answered or instructions paced
+according to their individual
+progress.
+Personal communication that
+responds to a learner’s needs.
+Modeling (Social Cognitive Theory;
+Theories of Learning; Kazdin, 2008;
+Kelder et al., 2015)
+Providing an appropriate model
+being reinforced for the desired
+action.
+Attention, remembrance, self-
+efficacy and skills, reinforcement of
+model; identification with model,
+coping model instead of mastery
+model.
+Feedback (Theories of Learning;
+Goal-Setting Theory, Social
+Cognitive Theory; Kazdin, 2008;
+Kelder et al., 2015; Latham & Locke,
+Giving information to individuals
+and environmental agents regarding
+the extent to which they are
+accomplishing learning or
+Feedback needs to be individual,
+follow the behavior in time, and be
+specific.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 6 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+2007) performance, or the extent to which
+performance is having an impact.
+Reinforcement (Theories of
+Learning; Social Cognitive Theory;
+Kazdin, 2008; Kelder et al., 2015;
+McSweeney & Murphy, 2014)
+Providing reinforcement: linking a
+behavior to any consequence that
+increases the behavior’s rate,
+frequency or probability.
+Reinforcement need to be tailored to
+the individual, group, or
+organization, to follow the behavior
+in time, and to be seen as a
+consequence of the behavior.
+Punishment (Theories of Learning;
+Kazdin, 2008; McSweeney &
+Murphy, 2014)
+Providing punishment: linking a
+behavior to any consequence that
+decreases the behavior’s rate,
+frequency or probability.
+Punishment need to be tailored to
+the individual, group, or
+organization, to follow the behavior
+in time, and to be seen as a
+consequence of the behavior.
+Punishment should be avoided
+because of negative side effects. If
+used, emphasis should be on
+positive reinforcement.
+Motivational interviewing, MI
+(Self-determination theory; Theories
+of self-regulation; Miller & Rollnick,
+2012; Ng et al., 2012; Ryan & Deci,
+2000)
+Providing a collaborative, goal-
+oriented style of communication
+with particular attention to the
+language of change; designed to
+strengthen personal motivation for
+and commitment to a specific goal
+by eliciting and exploring the
+person’s own reasons for change
+within an atmosphere of acceptance
+and compassion.
+A supportive relationship between
+client and professional combined
+with the evocation of patient change
+talk. Professionals must recognize
+that MI involves collaboration not
+confrontation, evocation not
+education, autonomy rather than
+authority, and exploration instead of
+explanation.
+Facilitation (Social Cognitive Theory;
+Bandura, 1986)
+Creating an environment that makes
+the action easier or reduces barriers
+to action.
+Requires real changes in the
+environment instead of in the
+perceptions of the environment.
+Requires the identification of
+barriers and facilitators and the
+power for making the appropriate
+changes. Facilitating conditions on
+one environmental level are usually
+dealt with by intervening on a higher
+environmental level.
+Nudging (Theories of Automatic,
+Impulsive and Habitual Behavior; de
+Ridder, 2014; Thaler & Sunstein,
+2008)
+Simple changes in the presentation
+of choice alternatives that make the
+desired choice the easy, automatic
+or default choice.
+Requires autonomy: freedom of
+choice, a sense of awareness, and
+the healthy choice being default:
+easy and attractive.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 7 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Table 2: Methods to Increase Knowledge (Adapted from Bartholomew et al., 2011)
+Method
+(related theories and references)
+Definition Parameters
+Chunking (Theories of Information
+Processing; Gobet et al., 2001; Smith,
+2008)
+Using stimulus patterns that may be
+made up of parts but that one
+perceives as a whole.
+Labels or acronyms are assigned to
+material to aid memory.
+Advance organizers (Theories of
+Information Processing; Kools, van
+de Wiel, Ruiter, Crüts, & Kok, 2006;
+Kools, 2011)
+Presenting an overview of the
+material that enables a learner to
+activate relevant schemas so that
+new material can be associated.
+Schematic representations of the
+content or guides to what is to be
+learned.
+Using imagery (Theories of
+Information Processing; Steen, 2007;
+Wright, 2011)
+Using artifacts that have a similar
+appearance to some subject.
+Familiar physical or verbal images as
+analogies to a less familiar process.
+Discussion (Theories of Information
+Processing; Petty et al., 2009)
+Encouraging consideration of a topic
+in open informal debate.
+Listening to the learner to ensure
+that the correct schemas are
+activated.
+Elaboration (Petty et al., 2009;
+Theories of Information Processing;
+Smith, 2008)
+Stimulating the learner to add
+meaning to the information that is
+processed.
+Individuals with high motivation and
+high cognitive ability; messages that
+are personally
+relevant, surprising, repeated,
+self-pacing, not distracting, easily
+understandable, and include direct
+instructions; messages that are not
+too discrepant and cause
+anticipation of interaction.
+Providing cues (Theories of
+Information Processing; Godden &
+Baddeley, 1975)
+Assuring that the same cues are
+present at the time of learning and
+the time of retrieval.
+Cues work best when people are
+allowed to select and provide their
+own cues.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 8 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Table 3: Methods to Change Awareness and Risk Perception (Adapted from Bartholomew et al., 2011)
+Method
+(related theories and references)
+Definition Parameters
+Consciousness raising (Health Belief
+Model; Precaution-Adoption Process
+Model; Trans-Theoretical Model;
+Prochaska et al., 2015; Skinner, Tiro,
+& Champion, 2015; Weinstein et al.,
+2008)
+Providing information, feedback, or
+confrontation about the causes,
+consequences, and alternatives for a
+problem or a problem behavior.
+Can use feedback and confrontation;
+however, raising awareness must be
+quickly followed by increase in
+problem-solving ability and
+(collective) self-efficacy.
+Personalize risk (Precaution-
+Adoption Process Model; Skinner et
+al., 2015)
+Providing information about
+personal costs or risks of action or
+inaction with respect to target
+behavior.
+Present messages as individual and
+undeniable, and compare them with
+absolute and normative standards.
+Scenario-based risk information
+(Precaution-Adoption Process
+Model; Mevissen, Meertens, Ruiter,
+Feenstra, & Schaalma, 2009)
+Providing information that may aid
+the construction of an image of the
+ways in which a future loss or
+accident might occur.
+Plausible scenario with a cause and
+an outcome; imagery. Most effective
+when people generate their own
+scenario or when multiple scenarios
+are provided.
+Framing (: Van ’t Riet et al., 2014;
+Werrij et al., 2010)
+(Protection Motivation Theory; Van
+’t Riet et al., 2014; Werrij et al., 2012)
+Using gain-framed messages
+emphasizing the advantages of
+performing the healthy behavior; or
+loss-framed messages, emphasizing
+the disadvantages of not performing
+the healthy behavior.
+Requires high self-efficacy
+expectations. Gain frames are more
+readily accepted and prevent
+defensive reactions.
+Self-reevaluation (Trans-Theoretical
+Model; Prochaska et al., 2015)
+Encouraging combining both
+cognitive and affective assessments
+of one’s self-image with and without
+an unhealthy behavior.
+Stimulation of both cognitive and
+affective appraisal of self-image.
+Can use feedback and confrontation;
+however, raising awareness must be
+quickly followed by increase in
+problem-solving ability and self-
+efficacy.
+Dramatic relief (Trans-Theoretical
+Model; Prochaska et al., 2015)
+Encouraging emotional experiences,
+followed by reduced affect or
+anticipated relief if appropriate
+action is taken
+Preferably should be done in
+counseling context so that emotions
+can be aroused and subsequently
+relieved.
+Environmental reevaluation
+(Trans-Theoretical Model; Prochaska
+et al., 2015)
+Encouraging combining the
+affective and cognitive assessments
+of how the presence or absence of a
+personal behavior affects one’s
+social environment.
+May include awareness about
+serving as a role model for others.
+Fear arousal (Protection Motivation
+Theory; Extended Parallel Process
+Model; Peters, Ruiter, & Kok, 2013;
+Ruiter, Kessels, Peters, & Kok, 2014)
+Arousing negative emotional
+reactions in order to promote self-
+protective motivation and action.
+Requires high self-efficacy
+expectations rather than high
+outcome expectations alone; is
+rarely effective.
+Self-affirmation (Self-Affirmation
+Theory; Cohen & Sherman, 2014)
+Increasing people’s self-image by
+having them elaborate on their
+relevant values or desirable
+characteristics.
+Must be tailored to individual self-
+image.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 9 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Table 4: Methods to Change Habitual, Automatic and Impulsive Behaviors (Adapted from Bartholomew et
+al., 2011)
+Method
+(related theories and references)
+Definition Parameters
+Deconditioning (Theories of
+Learning; Robbins, Schwartz, &
+Wasserman, 2001)
+Letting people experience a lack of
+reinforcement or even negative
+outcomes of the undesired behavior.
+Slow process, especially when
+reinforcement schedule was
+intermittent. It may be necessary to
+create a continuous lack of positive
+reinforcement.
+Counterconditioning (Wood & Neal,
+2007)
+Encouraging the learning of
+healthier behaviors that can
+substitute for problem behaviors.
+Availability of substitute behaviors.
+Implementation intentions
+(Theories of Goal Directed Behavior;
+Theories of Automatic, Impulsive
+and Habitual Behavior; Gollwitzer &
+Sheeran, 2006; Verplanken & Aarts,
+1999)
+Prompting making if-then plans that
+link situational cues with responses
+that are effective in attaining goals
+or desired outcomes.
+Existing positive intention.
+Cue altering (Verplanken & Aarts,
+1999; Wood & Neal, 2007)
+Teaching people to change a
+stimulus that elicits or signals a
+behavior.
+Existing positive intention.
+Stimulus control (Prochaska et al.,
+2015; Wood & Neal, 2007)
+Encouraging removing cues for
+unhealthy habits and adding
+prompts for healthier alternatives.
+Needs insight in the behavioral
+chain leading to the automatic
+response.
+Planning coping responses
+(Attribution Theory and Relapse
+Prevention Theory; Theories of Goal
+Directed Behavior; Hofmann, Friese,
+& Wiers, 2008; Marlatt & Donovan,
+2005)
+Getting the person to identify
+potential barriers and ways to
+overcome these.
+Identification of high-risk situations
+and practice of coping response.
+Early commitment (Theories of
+Learning; Robbins et al., 2001)
+Having people choose a (larger)
+delayed reward far in advance.
+Making the choice may be forced
+but the choice for the delayed
+reward needs to be voluntary.
+Public commitment (Theories of
+Automatic, Impulsive and Habitual
+Behavior; Ajzen, Czasch, & Flood,
+2009)
+Stimulating pledging, promising or
+engaging oneself to perform the
+healthful behavior, and announcing
+that decision to others.
+Most effective when publicly
+announced; may include
+contracting.
+Training executive function (Theories
+of Automatic, Impulsive and
+Habitual Behavior; Diamond, 2013)
+Improving the top-down mental
+control processes that are used
+when going on automatic or relying
+on instinct or intuition would be ill-
+advised, insufficient, or impossible.
+The task has to be challenging and
+substantial repetition is required to
+sufficiently train the executive
+functions.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 10 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Table 5: Methods to Change Attitudes, Beliefs, and Outcome Expectations (Adapted from Bartholomew et
+al., 2011)
+Method
+(related theories and references)
+Definition Parameters
+Classical conditioning (Theories of
+Learning; Kazdin, 2008)
+Stimulating the learning of an
+association between an
+unconditioned stimulus (UCS) and a
+conditioned stimulus (CS).
+Most effective when the time
+interval is short and the CS precedes
+the UCS.
+Self-reevaluation (Trans-Theoretical
+Model; Prochaska et al., 2015)
+Encouraging combining both
+cognitive and affective assessments
+of one’s self-image with and without
+an unhealthy behavior.
+Stimulation of both cognitive and
+affective appraisal of self-image.
+Can use feedback and confrontation;
+however, raising awareness must be
+quickly followed by increase in
+problem-solving ability and self-
+efficacy.
+Environmental reevaluation
+(Trans-Theoretical Model; Prochaska
+et al., 2015)
+Encouraging realizing the negative
+impact of the unhealthy behavior
+and the positive impact of the
+healthful behavior.
+Stimulation of both cognitive and
+affective appraisal to improve
+appraisal and empathy skills.
+Shifting perspective (Theories of
+Stigma and Discrimination; Batson,
+Chang, Orr, & Rowland, 2002)
+Encouraging taking the perspective
+of the other.
+Initiation from the perspective of the
+learner; needs imaginary
+competence.
+Arguments (Communication-
+Persuasion Matrix; Elaboration
+Likelihood Model; McGuire, 2012;
+Petty & Wegener, 2010)
+Using a set of one or more
+meaningful premises and a
+conclusion.
+For central processing of arguments
+they need to be new to the message
+receiver.
+Direct experience (Theories of
+Learning; Maibach & Cotton, 1995)
+Encouraging a process whereby
+knowledge is created through the
+interpretation of experience.
+Rewarding outcomes from the
+individual’s experience with the
+behavior or assurance that the
+individual can cope with and
+reframe negative outcomes.
+Elaboration (Theories of Information
+Processing; Elaboration Likelihood
+Model; Petty et al., 2009; Smith,
+2008)
+Stimulating the learner to add
+meaning to the information that is
+processed.
+Individuals with high motivation and
+high cognitive ability; messages that
+are personally relevant, surprising,
+repeated, self-pacing, not
+distracting, easily understandable,
+and include direct instructions;
+messages that are not too
+discrepant and cause anticipation of
+interaction.
+Anticipated regret (Theory of
+Planned Behavior; Reasoned Action
+Approach; Richard, van der Pligt, &
+de Vries, 1995)
+Stimulating people to focus on their
+feelings after unintended risky
+behavior, before any losses actually
+materialize.
+Stimulation of imagery; assumes a
+positive intention to avoid the risky
+behavior.
+Repeated exposure(Theories of
+Learning; Zajonc, 2001)
+Making a stimulus repeatedly
+accessible to the individual’s
+sensory receptors.
+Neutrality of original attitude.
+Cultural similarity (Communication-
+Persuasion Matrix; Kreuter &
+McClure, 2004)
+Using characteristics of the target
+group in source, message, and
+channel.
+Using surface characteristics of the
+target group enhances receptivity.
+Using social-cultural characteristics
+leads to a more positive reception of
+the message.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 11 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Table 6: Methods to Change Social Influence (Adapted from Bartholomew et al., 2011)
+Method
+(related theories and references)
+Definition Parameters
+Information about others’ approval
+(Theory of Planned Behavior;
+Reasoned Action Approach; Social
+Comparison Theory; Forsyth, 2014;
+Mollen, Ruiter, & Kok, 2010)
+Providing information about what
+others think about the person’s
+behavior and whether others will
+approve or disapprove of any
+proposed behavior change.
+Positive expectations are available in
+the environment.
+Resistance to social pressure (Theory
+of Planned Behavior; Reasoned
+Action Approach; Evans, Getz, &
+Raines, 1992; Evans, 1984)
+Stimulating building skills for
+resistance to social pressure.
+Commitment to earlier intention;
+relating intended behavior to values;
+psychological inoculation against
+pressure.
+Shifting focus (Theory of Planned
+Behavior; Reasoned Action
+Approach; Fishbein & Ajzen, 2010)
+Prompting hiding of the unpopular
+behavior or shifting attention away
+from the behavior.
+Preferably shift focus to a new
+reason for performing the behavior.
+Mobilizing social support (Diffusion
+of Innovations Theory; Theories of
+Social Networks and Social Support;
+Holt-Lunstad & Uchino, 2015;
+Valente, 2015)
+Prompting communication about
+behavior change in order to provide
+instrumental and emotional social
+support.
+Combines caring, trust, openness,
+and acceptance with support for
+behavioral change; positive support
+is available in the environment.
+Provide opportunities for
+social comparison (Social
+Comparison Theory; Suls, Martin, &
+Wheeler, 2002)
+Facilitating observation of
+nonexpert others in order to
+evaluate one’s own opinions and
+performance abilities.
+Upward comparison may help
+setting better goals; downward
+comparison may help feeling better
+or more self-efficacious.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 12 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Table 7: Methods to Change Skills, Capability, and Self-Efficacy and to Overcome Barriers (Adapted from
+Bartholomew et al., 2011)
+Method
+(related theories and references)
+Definition Parameters
+Guided practice (Social Cognitive
+Theory; Theories of Self-Regulation;
+Kelder et al., 2015)
+Prompting individuals to rehearse
+and repeat the behavior various
+times, discuss the experience, and
+provide feedback.
+Subskill demonstration, instruction,
+and enactment with
+Individual feedback; requires
+supervision by an experienced
+person; some environmental
+changes cannot be rehearsed.
+Enactive mastery experiences
+(Social Cognitive Theory; Theories of
+Self-Regulation; Kelder et al., 2015)
+Providing increasingly challenging
+tasks with feedback to serve as
+indicators of capability.
+Requires willingness to accept
+feedback.
+Verbal persuasion (Social Cognitive
+Theory; Theories of Self-Regulation;
+Kelder et al., 2015)
+Using messages that suggest that
+the participant possesses certain
+capabilities.
+Credible source.
+Improving physical and emotional
+states (Theories of Self-Regulation;
+Kelder et al., 2015)
+Prompting interpretation of
+enhancement or reduction of
+physiological and affective states, to
+judge own capabilities.
+Must carefully interpret and manage
+emotional states.
+Reattribution training (Attribution
+Theory and Relapse Prevention
+Theory; Theories of Self-Regulation;
+Marlatt & Donovan, 2005)
+Helping people reinterpret previous
+failures in terms of unstable
+attributions and previous successes
+in terms of stable attributions.
+Requires counseling or bibliotherapy
+to make unstable and external
+attributions for failure.
+Self-monitoring of behavior
+(Theories of Self-Regulation; Creer,
+2000; Harkin et al., n.d.)
+Prompting the person to keep a
+record of specified behavior(s).
+The monitoring must be of the
+specific behavior (that is, not of a
+physiological state or health
+outcome). The data must be
+interpreted and used. The reward
+must be reinforcing to the
+individual.
+Provide contingent rewards (Theories
+of Learning; Theories of Self-
+Regulation; Bandura, 1986)
+Praising, encouraging, or providing
+material rewards that are explicitly
+linked to the achievement of
+specified behaviors.
+Rewards need to be tailored to the
+individual, group or organization, to
+follow the behavior in time, and to
+be seen as a consequence of the
+behavior.
+Cue altering (Theories of Automatic,
+Impulsive, and Habitual Behavior;
+Theories of Self-Regulation;
+Achtziger, Gollwitzer, & Sheeran,
+2008)
+Teaching changing a stimulus,
+either consciously or unconsciously
+perceived, that elicits or signals a
+behavior.
+Existing positive intention.
+Public commitment (Theories of
+Automatic, Impulsive, and Habitual
+Behavior; Ajzen et al., 2009)
+Stimulating pledging, promising, or
+engaging oneself to perform the
+healthful behavior and announcing
+that decision to others.
+Needs to be a public announcement;
+may include contracting.
+Goal setting (Goal-Setting Theory;
+Theories of Self-Regulation; Latham
+& Locke, 2007)
+Prompting planning what the person
+will do, including a definition of
+goal-directed behaviors that result
+in the target behavior.
+Commitment to the goal; goals that
+are difficult but available within the
+individual’s skill level.
+Set graded tasks (Social Cognitive
+Theory; Theories of Self-Regulation;
+Kelder et al., 2015)
+Setting easy tasks and increase
+difficulty until target behavior is
+performed.
+The final behavior can be reduced to
+easier but increasingly difficult sub-
+behaviors.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 13 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Planning coping responses
+(Attribution Theory and Relapse
+Prevention Theory; Theories of Self-
+Regulation; Marlatt & Donovan,
+2005)
+Prompting participants to list
+potential barriers and ways to
+overcome these.
+Identification of high-risk situations
+and practice of coping response.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 14 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Table 8: Methods to Reduce Public Stigma (Adapted from Bartholomew et al., 2011)
+Method
+(related theories and references)
+Definition Parameters
+Stereotype-inconsistent information
+(Theories of Stigma and
+Discrimination; Bos, Schaalma, &
+Pryor, 2008)
+Providing positive examples from
+the stigmatized group.
+Only effective when there are many
+different examples.
+Examples are not too discrepant
+from original stereotype.
+Interpersonal contact (Theories of
+Stigma and Discrimination;
+Pettigrew & Tropp, 2006)
+Bringing people in contact with
+members of the stigmatized group.
+Requires positive experiences. Most
+effective when: no status
+differences; externally sanctioned;
+intensive contact; common or
+shared goals.
+Empathy training (Theories of
+Stigma and Discrimination; Batson
+et al., 2002)
+Stimulating people to empathize
+with another person, i.e., imagine
+how the other person would feel.
+Requires being able and willing to
+identify with the stigmatized person.
+Imagine how the other person would
+feel (this leads to empathy). Do not
+imagine how you would feel (this
+leads to both empathy and distress).
+Cooperative learning (Theories of
+Stigma and Discrimination;
+Aronson, 2011)
+Engineering lessons in a way that
+students must learn from one
+another.
+Requires careful organization of
+lesson information distribution.
+Conscious regulation of impulsive
+stereotyping and prejudice
+(Theories of Stigma and
+Discrimination; Bos et al., 2008)
+Forcing oneself to control impulsive
+negative reactions related to stigma.
+Mere suppression almost always
+leads to counterproductive effects
+and is not advisable. Conscious self-
+regulation of automatic stereotyping
+can be used effectively.
+Reducing inequalities of class, race,
+gender and sexuality (Theories of
+Stigma and Discrimination; Link &
+Phelan, 2001)
+See methods for changes at higher
+Environmental levels (see Tables 9 -
+14).
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 15 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Table 9: Basic Methods for Change of Environmental Conditions. (Adapted from Bartholomew et al., 2011)
+Method
+(related theories and references)
+Definition Parameters
+Systems change (Systems Theory:
+Best et al., 2012; National Cancer
+Institute, 2007)
+Interacting with the environment to
+change the elements and
+relationship among elements of a
+system at any level, especially
+through dialogue with stakeholders,
+action, and learning through
+feedback.
+Methods and actors depend on the
+level of the system.
+Participatory problem solving
+(Organizational Development
+Theories; Social Capital Theory;
+Models of Community Organization;
+Butterfoss, Kegler, & Francisco,
+2008; Cummings & Worley, 2015;
+Wallerstein, Minkler, Carter-
+Edwards, Avila, & Sanchez, 2015)
+Diagnosing the problem,
+Generating potential solutions,
+developing priorities, making an
+action plan, and obtaining feedback
+after implementing the plan.
+Requires willingness by the health
+promoter or convener to accept the
+participants as equals and as having
+a high level of influence; requires
+target group to possess appropriate
+motivation and skills. Will often
+include goal setting, facilitation,
+feedback and consciousness raising.
+Coercion (Theories of Power;
+Freudenberg & Tsui, 2014; Turner,
+2005)
+Attempting to control others against
+their will.
+Requires or creates a power
+differential.
+Advocacy and lobbying (Stage
+Theory of Organizational Change;
+Models of Community Organization;
+Agenda-Building Theory; Multiple
+Streams Theory; Christoffel, 2000;
+Galer-Unti, Tappe, & Lachenmayr,
+2004; Kingdon, 2003; Wallack,
+Dorfman, Jernigan, & Themba, 1993;
+Weible, Sabatier, & McQueen, 2009)
+Arguing and mobilizing resources
+on behalf of a particular change;
+giving aid to a cause; active support
+for a cause or position.
+Form of advocacy must match style
+and tactics of the people,
+communities or organizations
+represented, and the nature of the
+issue; includes policy advocacy;
+often tailored to a specific
+environmental agent. Will often
+include persuasive communication,
+information about others’ approval
+and consciousness raising.
+Modeling (Social Cognitive Theory;
+Organizational Development
+Theories; Diffusion of Innovations
+Theory; Empowerment Theory;
+Bandura, 1997; Kelder et al., 2015;
+Rogers, 2003)
+Providing an appropriate model
+being reinforced for the desired
+action.
+Appropriate models will vary by
+level, including group members and
+organizational, community, and
+policy change agents.
+Technical assistance (Organizational
+Development Theories, Diffusion of
+Innovations Theory, Social Capital
+Theory, Models of Community
+Organization; Flaspohler, Duffy,
+Wandersman, Stillman, & Maras,
+2008; R. E. Mitchell, Florin, &
+Stevenson, 2002)
+Providing technical means to
+achieve desired behavior.
+Nature of technical assistance will
+vary by environmental level, but
+must fit needs, culture, and
+resources of the recipient.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 16 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Table 10: Methods to Change Social Norms (Adapted from Bartholomew et al., 2011)
+Method
+(related theories and references)
+Definition Parameters
+Mass media role-modeling (Bandura,
+1997; Rogers, 2003)
+Providing appropriate models being
+reinforced for the desired action
+through the mass media.
+Conditions for modeling; conditions
+for persuasive communication (see
+Table 1).
+Entertainment education (Moyer-
+Gusé, 2008; Petraglia, 2007; Shen &
+Han, 2014; Wilkin et al., 2007)
+Providing a form of entertainment
+designed to educate (about health
+behavior) as well as to entertain.
+Consideration of source and
+channel; balance of media
+professional’s and health promoter’s
+needs.
+Behavioral journalism (Diffusion of
+Innovations Theory; Social Cognitive
+Theory; Social norm theories; A. L.
+McAlister, 1991; A. McAlister et al.,
+2000; Ramirez et al., 2010; Reininger
+et al., 2010)
+Using by the mass and local media
+of appropriate role-model stories of
+behavior change based on authentic
+interviews with the target group.
+Adequate role models from the
+community and elicitation
+interviews to describe the behavior
+and the positive outcome.
+Mobilizing social networks (Theories
+of Social Networks and Social
+Support; Social norm theories;
+Valente, 2012)
+Encouraging social networks to
+provide informational, emotional,
+appraisal, and instrumental support.
+Availability of social network and
+potential support givers. Will often
+include information about others’
+approval, facilitation and persuasive
+communication.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 17 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Table 11: Methods to Change Social Support and Social Networks (Adapted from Bartholomew et al., 2011)
+Method
+(related theories and references)
+Definition Parameters
+Enhancing network linkages
+(Theories of Social Networks and
+Social Support; Holt-Lunstad &
+Uchino, 2015; Valente, 2015)
+Training network members to
+provide support and members of the
+target group to mobilize and
+maintain their networks.
+Available network.
+Developing new social network
+linkages (Theories of Social
+Networks and Social Support;
+Valente, 2015)
+Linking members to new networks
+by mentor programs, buddy
+systems, and self-help groups.
+Willingness of networks to reach
+out; availability of networks that can
+provide appropriate support and
+linkage agents.
+Use of lay health workers; peer
+education (Theories of Social
+Networks and Social Support;
+Models of Community Organization;
+Tolli, 2012)
+Mobilizing members of the target
+population to serve as boundary
+spanners, credible sources of
+information, and role models.
+Natural helpers in community with
+opinion leader status and availability
+to volunteer for training.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 18 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Table 12: Methods to Change Organizations (Adapted from Bartholomew et al., 2011)
+Method
+(related theories and references)
+Definition Parameters
+Sense-making (Organizational
+Development Theory; Weick &
+Quinn, 1999)
+Leaders reinterpret and relabel
+processes in organization, create
+meaning through dialogue, and
+model and redirect change.
+Used for continuous change,
+including culture change.
+Organizational diagnosis and
+feedback (Organizational
+Development Theory; Cummings &
+Worley, 2015)
+Assessing of organizational
+structures and employees’ beliefs
+and attitudes, desired outcomes and
+readiness to take action, using
+surveys and other methods.
+Methods appropriate to
+organizational characteristics, for
+example, size and information
+technology. Will often include
+feedback and consciousness raising.
+Team building and human relations
+training (Organizational
+Development Theory; Cummings &
+Worley, 2015)
+Grouping development activities
+based on the values of human
+potential, participation, and
+development.
+Compatible with the culture.
+Structural redesign (Organizational
+Development Theory; Cummings &
+Worley, 2015; Jones, 2004)
+Change organizational elements
+such as formal statements of
+organizational philosophy,
+communication flow, reward
+systems, job descriptions, and lines
+of authority.
+Management authority and
+agreement.
+Increasing stakeholder influence
+(Stakeholder Theory; Brown,
+Bammer, Batliwala, & Kunreuther,
+2003; Kok, Gurabardhi, Gottlieb, &
+Zijlstra, 2015; R. K. Mitchell, Agle, &
+Wood, 1997)
+Increase stakeholder power,
+legitimacy, and urgency, often by
+forming coalitions and using
+community development and social
+action to change an organization’s
+policies.
+The focal organization perceives that
+the external organization or group is
+one of its stakeholders.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 19 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Table 13: Methods to Change Communities (Adapted from Bartholomew et al., 2011)
+Method
+(related theories and references)
+Definition Parameters
+Problem-posing education
+(Conscientization Theory;
+Empowerment Theory; Freire, 1973a,
+1973b; Wallerstein, Sanchez, &
+Velarde, 2004)
+Participatory analysis using critical
+reflection, self-disclosure, and
+dialogue regarding the social forces
+underlying a problem and a
+commitment to change self and
+community.
+A safe environment for participation
+and disclosure; a critical stance.
+Community assessment (Models of
+Community Organization; Rothman,
+2004)
+Assessing a community’s assets and
+needs, with feedback of results to
+the community.
+Requires expert assistance and
+possibilities for feedback.
+Community development (Models of
+Community Organization; Theories
+of Power; Minkler & Wallerstein,
+2012; Rothman, 2004; Wallerstein et
+al., 2015)
+A form of community organization,
+based on consensus, in which power
+is shared equally and members
+engage together in participatory
+problem solving.
+Starting where the community is;
+may be grassroots or professional
+driven. Will often include
+consciousness raising, facilitation,
+goal setting and information about
+others’ approval.
+Social action (Theories of Power;
+Stakeholder Theory; Kok et al., 2015;
+Minkler & Wallerstein, 2012;
+Rothman, 2004; Wallerstein et al.,
+2015)
+A form of community organization,
+based in conflict, in which
+disenfranchised people wrest power
+from the official power.
+Starting where the community is;
+may be grassroots or professional
+driven. Will often include
+consciousness raising, persuasive
+communication, information about
+others’ approval and modeling.
+Forming coalitions (Models of
+Community Organization; Social
+Capital Theory; Butterfoss & Kegler,
+2009; Butterfoss, 2007; Clavier & de
+Leeuw, 2013)
+Forming an alliance among
+individuals or organizations, during
+which they cooperate in joint action
+to reach a goal in their own self-
+interest.
+Requires collaboration across
+various agendas; requires attention
+to stages of partnership
+development. Will often include
+persuasive communication,
+consciousness raising, goal setting,
+facilitation and information about
+others’ approval.
+Social planning (Models of
+Community Organization; Rothman,
+2004)
+Using information based on
+research to address issues.
+Requires credible source of the
+information.
+Framing to shift perspectives
+(Models of Community
+Organization; Snow, 2004)
+Assigning meaning and
+interpretation to relevant events and
+conditions in order to mobilize
+potential constituents, gain
+bystander support, and demobilize
+antagonists.
+Match with culture.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 20 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Table 14: Methods to Change Policy (Adapted from Bartholomew et al., 2011)
+Method
+(related theories and references)
+Definition Parameters
+Media advocacy (Models of
+Community Organization; Dorfman
+& Krasnow, 2014; Wallack et al.,
+1993; Wallack, 2008)
+Expose environmental agents’
+behaviors in the mass media to
+order to get them to improve health-
+related conditions. A type of
+advocacy.
+Requires the media to approve the
+news value of the message and
+accept the message without
+changing its essential content.
+Agenda setting (Multiple Streams
+Theory, Advocacy Coalition Theory,
+Theories of Power; Clavier & de
+Leeuw, 2013; Sabatier, 2003; Weible
+et al., 2009; Weible, 2008)
+Process of moving an issue to the
+political agenda for action; may
+make use of broad policy advocacy
+coalitions and media advocacy.
+Requires appropriate timing (see
+policy window) and collaboration of
+(media) gatekeepers. Will often
+include persuasive communication
+and consciousness raising.
+Timing to coincide with policy
+windows (Multiple Streams Theory;
+Kingdon, 2003; Zahariadis, 2007)
+Advocating policy when politics,
+problems and policy solutions are
+aligned to be receptive to a policy
+issue.
+Requires an astute policy advocate
+who is well prepared
+Creating and enforcing laws and
+regulations (Multiple Streams
+Theory, Theories of Power; Clavier &
+de Leeuw, 2013; Kingdon, 2003;
+Longest, 2006)
+Forcing compliance or dictating or
+precluding choices. Sometimes
+Implementing existing laws to
+Accomplish change. Laws and
+regulations may also provide
+incentives.
+Requires unequal power and
+availability of control and sanctions.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 21 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Table 15: Description of determinants, methods and applications; examples from Long Live Love, a school-based sex education program (Schaalma et al.,
+2011)
+Determinants & Change objectives
+for Adolescents
+Methods Parameters Applications How population, context and parameters were taken
+into account
+Risk perception:
+Recognize that they might
+land in situations in which
+contracting HIV and STIs
+can’t be ruled out
+Scenario-
+based risk
+information
+Plausible scenario with a
+cause and an outcome;
+imagery. Most effective
+when people generate
+their own scenario or
+when multiple scenarios
+are provided.
+Role-model stories in textbooks;
+videotaped role modeling, where
+the videos were discussed in class
+Population: adolescent models are used
+Context: videos can be shown in class and discussed
+Parameters: plausible scenario with a cause and an
+outcome; multiple scenarios; models are peers that
+are reinforced for the right behavior
+Attitude:
+Describe their strong
+perception of the advantages
+of condom use and other
+safe-sex options
+Active
+learning
+Time, information, and
+skills.
+Inquiry teaching; group
+discussion; quiz; interviews
+Population: experts indicated that adolescents are
+familiar with and like a quiz setting
+Context: teacher available for guidance and
+facilitation of the discussion and inquiry teaching
+Parameters: sufficient time and information;
+professional guidance
+Recognize that advantages of
+safe sex outweigh
+disadvantages
+Anticipated
+regret
+Stimulation of imagery;
+assumes a positive
+intention to avoid the
+risky behavior.
+Role-model stories; videotaped
+role modeling
+Population: scenarios were selected that were
+realistic given situations that were common for the
+target population
+Context: videos can be shown in class and discussed
+Parameters: realistic scenarios, positive risk
+avoidance intention; models are peers that are
+reinforced for the right behavior
+Social influences:
+Explain that peers plan to use
+condoms
+Information
+about
+others’
+approval
+Positive expectations
+available in social
+environment
+Role-model stories; videotaped
+role modeling; group discussion
+Population: adolescents are particularly sensitive to
+social influence from peers, so peers’ approval was
+communicated
+Context: by showing the videos in class, real life
+norms are also activated
+Parameters: peer norms are positive
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 22 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Skills & Self-efficacy:
+Express confidence in ability
+to buy condoms
+Demonstrate effective
+condom use
+Modeling Attention, remembrance,
+self-efficacy and skills,
+reinforcement;
+identification, coping
+model.
+Role-model stories; videotaped
+role modeling
+Population: target population did not easily discuss
+openly buying and using condoms. Therefore,
+starting from a video that was watched together
+provided a relatively safe starting point.
+Context: Watching the video in class together
+provides a shared experience that facilitates frank
+discussion.
+Parameters: models are peers that are reinforced for
+the right behavior; application is combined with
+skills and self-efficacy training
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 23 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Figure 1: Similarity of the processes of change at the individual and environmental levels.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 24 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+References
+Achtziger, A., Gollwitzer, P. M., & Sheeran, P. (2008). Implementation intentions and shielding
+goal striving from unwanted thoughts and feelings.
+Personality and Social Psychology
+Bulletin,
+34, 381–393. doi:10.1177/0146167207311201
+Ajzen, I., Czasch, C., & Flood, M. G. (2009). From Intentions to Implementation:
+Implementation Intention, Commitment, and Conscientiousness.
+Journal of Applied
+Social Psychology,
+39(6), 1356–1372.
+Aronson, E. (2011).
+The Social Animal (11th ed.). New York: MacMillan Education.
+Bandura, A. (1986).
+Social foundations of thought and action: A social cognitive theory. Upper
+Saddle River, NJ, US: Prentice-Hall, Inc.
+Bandura, A. (1997).
+Self-efficacy: the exercise of control. New York: W. H. Freeman.
+Bartholomew, L. K., Czyzewski, D. I., Swank, P. R., McCormick, L., & Parcel, G. S. (2000).
+Maximizing the impact of the cystic fibrosis family education program: Factors related
+to program diffusion.
+Family & Community Health,
+22, 27–47.
+Bartholomew, L. K., Gold, R. S., Parcel, G. S., Czyzewski, D. I., Sockrider, M. M., Fernandez, M.,
+… Berlin, N. (2000). Watch, Discover, Think, and Act: Evaluation of computer-assisted
+instruction to improve asthma self-management in inner-city children.
+Patient
+Education and Counseling,
+39(2-3), 269–280.
+Bartholomew, L. K., Parcel, G. S., Kok, G., Gottlieb, N. H., & Fernández, M. E. (2011). Planning
+health promotion programs: an Intervention Mapping approach (3rd ed.). San
+Francisco, CA: Jossey-Bass.
+Bartholomew, L. K., Markham, C. M., Ruiter, R. A. C., Fernàndez, M. E., Kok, G., & Parcel, G. S.
+(2016). Planning Health Promotion Programs: An Intervention Mapping Approach (4th
+ed.). Hoboken, NJ: Wiley.
+Batson, C. D., Chang, J., Orr, R., & Rowland, J. (2002). Empathy, Attitudes, and Action: Can
+Feeling for a Member of a Stigmatized Group Motivate One to Help the Group?
+Personality and Social Psychology Bulletin. doi:10.1177/014616702237647
+Best, A., Greenhalgh, T., Lewis, S., Saul, J. E., Carroll, S., & Bitz, J. (2012). Large-Scale
+Transformation in Health Care: A Realist View.
+The Milbank Quarterly,
+90(3), 421–456.
+Bos, A. E. R., Schaalma, H. P., & Pryor, J. B. (2008). Reducing AIDS-related stigma in
+developing countries: the importance of theory- and evidence-based interventions.
+Psychology, Health & Medicine,
+13(4), 450–460. doi:10.1080/13548500701687171
+Brown, L. D., Bammer, G., Batliwala, S., & Kunreuther, F. (2003). Framing Practice-Research
+Engagement for Democratizing Knowledge.
+Action Research,
+1(1), 81–102.
+doi:10.1177/14767503030011006
+Butterfoss, F. D. (2007).
+Coalitions and partnerships in community health. San Francisco:
+Jossey-Bass.
+Butterfoss, F. D., & Kegler, M. C. (2009). The community coalition action theory. In R. J.
+DiClemente, R. A. Crosby, & M. C. Kegler (Eds.),
+Emerging theories in health promotion
+practice and research (pp. 237–276). San Francisco: Jossey-Bass.
+Butterfoss, F. D., Kegler, M. C., & Francisco, V. T. (2008). Mobilizing organizations for health
+promotion: Theories of organizational change. In K. Glanz, B. K. Rimer, & K. Viswanath
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 25 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+(Eds.),
+Health behavior and health education: Theory, research, and practice (pp. 335–
+362). San Francisco: Jossey-Bass.
+Christoffel, K. K. (2000). Public health advocacy: Process and product.
+American Journal of
+Public Health,
+90(5), 722–726. doi:10.2105/AJPH.90.5.722
+Clavier, C., & de Leeuw, E. (2013).
+Health Promotion and the Policy Process. Oxford: Oxford
+University Press.
+Cohen, G. L., & Sherman, D. K. (2014). The psychology of change: self-affirmation and social
+psychological intervention.
+Annual Review of Psychology,
+65, 333–71.
+doi:10.1146/annurev-psych-010213-115137
+Creer, T. L. (2000). Self-management of chronic illness. In M. Boekaerts, P. R. Pintrich, & M.
+Zeidner (Eds.),
+Handbook of self-regulation (pp. 601–629). San Diego, CA, US: Academic
+Press.
+Cummings, T. G., & Worley, C. G. (2015).
+Organization development and change (10th ed.).
+Mason, OH, US: South-Western Cengage Learning.
+De Ridder, D. (2014). Nudging for Beginners.
+The European Health Psychologist,
+16(1), 2–6.
+Diamond, A. (2013). Executive functions.
+Annual Review of Psychology,
+64, 135–68.
+doi:10.1146/annurev-psych-113011-143750
+Dorfman, L., & Krasnow, I. D. (2014). Public health and media advocacy.
+Annual Review of
+Public Health,
+35, 293–306. doi:10.1146/annurev-publhealth-032013-182503
+Evans, R. I. (1984). A social inoculation strategy to deter smoking in adolescents. In J. D.
+Matarazzi, S. M. Weiss, J. A. Herd, N. E. Miller, & S. M. Weiss (Eds.),
+Behavioral Health: A
+Handbook of Health Enhancement and Disease Prevention (pp. 765-774). New York:
+John Wiley & Sons.
+Evans, R. I., Getz, J. G., & Raines, B. S. (1992). Applying social inoculation concepts to
+prevention of HIV/AIDS in adolescents: Just say no is obviously not enough. In
+the
+meeting of the Society of Behavioral Medicine. New York.
+Fishbein, M., & Ajzen, I. (2010).
+Predicting and changing behavior: The reasoned action
+approach. New York: Psychology Press.
+Flaspohler, P., Duffy, J., Wandersman, A., Stillman, L., & Maras, M. A. (2008). Unpacking
+prevention capacity: An intersection of research-to-practice models and community-
+centered models.
+American Journal of Community Psychology,
+41(3-4), 182–196.
+doi:10.1007/s10464-008-9162-3
+Forsyth, D. R. (2014).
+Group dynamics (6th ed.). Belmont, CA, US: Thomson Higher Education.
+Freire, P. (1973a).
+Education for critical consciousness. New York: Seabury Press.
+Freire, P. (1973b).
+Pedagogy of the oppressed. New York: Seabury Press.
+Freudenberg, N., & Tsui, E. (2014). Evidence, power, and policy change in community-based
+participatory research.
+American Journal of Public Health,
+104(1), 11–14.
+doi:10.2105/AJPH.2013.301471
+Galer-Unti, R. A., Tappe, M. K., & Lachenmayr, S. (2004). Advocacy 101: getting started in
+health education advocacy.
+Health Promotion Practice,
+5(3), 280–288.
+doi:10.1177/1524839903257697
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 26 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Gobet, F., Lane, P. C. R., Croker, S., Cheng, P. C.-H., Jones, G., Oliver, I., & Pine, J. M. (2001).
+Chunking mechanisms in human learning.
+Trends in Cognitive Sciences,
+6613(June),
+236–243. doi:10.1016/S1364-6613(00)01662-4
+Godden, D. R., & Baddeley, A. D. (1975). Context-dependent Memory in Two Natural
+Environments: On Land and Underwater.
+British Journal of Psychology,
+66(3), 325–331.
+doi:10.1111/j.2044-8295.1975.tb01468.x
+Gollwitzer, P. M., & Sheeran, P. (2006). Implementation Intentions and Goal Achievement: A
+Meta-analysis of Effects and Processes.
+Advances in Experimental Social Psychology,
+38(06), 69–119. doi:10.1016/S0065-2601(06)38002-1
+Harkin, B., Webb, T., Chang, B., Prestwich, A., Conner, M., Kellar, I., … Sheeran, P. (n.d.). Does
+Monitoring Goal Progress Promote Goal Attainment? A Meta-Analysis of the
+Experimental Evidence.
+Psychological Bulletin, Accepted for publication.
+Hofmann, W., Friese, M., & Wiers, R. W. (2008). Impulsive versus reflective influences on
+health behavior: a theoretical framework and empirical review.
+Health Psychology
+Review. doi:10.1080/17437190802617668
+Holt-Lunstad, J., & Uchino, B. (2015). Social Support and Health. In K. Glanz, B. K. Rimer, & K.
+Viswanath (Eds.),
+Health Behavior: Theory, Research and Practice (pp. 183-204). San
+Francisco, CA, US: Jossey-Bass.
+Jones, G. R. (2004).
+Organizational theory, design, and change. Upper Saddle River, NJ, US:
+Pearson/Prentice-Hall.
+Kazdin, A. E. (2008).
+Behavior modification in applied settings (6th ed.). Long Grove, IL, US:
+Waveland Press.
+Kelder, S., Hoelscher, D., & Perry, C. L. (2015). How individuals, environments and health
+behaviors interact: Social Cognitive Theory. In K. Glanz, B. K. Rimer, & K. Viswanath
+(Eds.),
+Health behavior: Theory, research, and practice (5th ed., pp. 159-182). San
+Francisco, CA, US: John Wiley & Sons.
+Kingdon, J. W. (2003).
+Agendas, alternatives, and public policies (2nd ed.). New York:
+Longman.
+Kok, G., Gurabardhi, Z., Gottlieb, N. H., & Zijlstra, F. R. H. (2015). Influencing Organizations to
+Promote Health : Applying Stakeholder Theory. doi:10.1177/1090198115571363
+Kools, M. (2011). Making written materials easy to use. In C. Abraham & M. Kools (Eds.),
+Writing health communication: An evidence-based guide (pp. 43-62). London: Sage
+Publications.
+Kools, M., van de Wiel, M. W. J., Ruiter, R. A. C., Crüts, A., & Kok, G. (2006). The effect of
+graphic organizers on subjective and objective comprehension of a health education
+text.
+Health Education & Behavior,
+33(6), 760–772. doi:10.1177/1090198106288950
+Kreuter, M. W., & McClure, S. M. (2004). The role of culture in health communication.
+Annual
+Review of Public Health,
+25, 439–455. doi:10.1146/annurev.publhealth.25.101802.123000
+Latham, G. P., & Locke, E. A. (2007). New developments in and directions for goal-setting
+research.
+European Psychologist,
+12(4), 290–300. doi:10.1027/1016-9040.12.4.290
+Link, B. G., & Phelan, J. C. (2001). Conceptualizing Stigma.
+Annual Review of Sociology.
+doi:10.1146/annurev.soc.27.1.363
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 27 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Longest, B. B. (2006).
+Health policymaking in the United States (4th ed.). Chicago: Health
+Administration Press.
+Lustria, M. L. A., Cortese, J., Noar, S. M., & Glueckauf, R. L. (2009). Computer-tailored health
+interventions delivered over the web: Review and analysis of key components.
+Patient
+Education and Counseling. doi:10.1016/j.pec.2008.08.023
+Maibach, E. W., & Cotton, D. (1995). Moving people to behavior change: a staged social
+cognitive approach to message design. In E.W. Meibach & R.L. Parrot (Eds.),
+Designing
+Health Messages. Approaches from communication theory and public health practice
+(pp. pp. 41–64). Thousand Oaks, CA: Sage.
+Marlatt, G. A., & Donovan, D. M. (Eds.). (2005).
+Relapse prevention; maintenance strategies in
+the treatment of addictive behaviors (2nd ed.). New York: Guilford Press.
+McAlister, A., Johnson, W., Guenther-Grey, C., Fishbein, M., Higgins, D., & O’Reilly, K. (2000).
+Behavioral Journalism for HIV Prevention: Community Newsletters Influence Risk-
+Related Attitudes and Behavior.
+Journalism & Mass Communication Quarterly.
+doi:10.1177/107769900007700111
+McAlister, A. L. (1991). Population behavior change: a theory-based approach.
+Journal of
+Public Health Policy,
+12(3), 345–361. doi:10.2307/3342846
+McCullum, C., Pelletier, D., Barr, D., Wilkins, J., & Habicht, J.-P. (2004). Mechanisms of Power
+Within a Community- Based Food Security Planning Process.
+Health Education &
+Behavior,
+31(2), 206–222. doi:10.1177/1090198103259163
+McGuire, W. J. (2012). McGuire’s classic Input-Output Framework for constructing persuasive
+messages. In R.E. Rice & C.K. Atkin (Eds.),
+Public communication campaigns (4th ed.,
+pp. 133–146). Thousand Oaks, CA: Sage Publications.
+McSweeney, F. K., & Murphy, E. S. (2014).
+The Wiley Blackwell Handbook of Operant and
+Classical Conditioning. Chichester, England: John Wiley & Sons.
+Mevissen, F. E. F., Meertens, R. M., Ruiter, R. A. C., Feenstra, H., & Schaalma, H. P. (2009).
+HIV/STI risk communication: the effects of scenario-based risk information and
+frequency-based risk information on perceived susceptibility to chlamydia and HIV.
+Journal of Health Psychology,
+14(1), 78–87. doi:10.1177/1359105308097948
+Miller, W. R., & Rollnick, S. (2012).
+Motivational Interviewing. New York: Guilford Press.
+Minkler, M., & Wallerstein, N. (2012). Improving health through community organization and
+community building: Perspectives from health education and social work. In M. Minkler
+(Ed.),
+Community organizing and community building for health and welfare (3rd ed.,
+pp. 37–58). New Brunswick, NJ, US: Rutgers University Press.
+Mitchell, R. E., Florin, P., & Stevenson, J. F. (2002). Supporting community-based prevention
+and health promotion initiatives: developing effective technical assistance systems.
+Health Education & Behaviorehavior,
+29(5), 620–639. doi:10.1177/109019802237029
+Mitchell, R. K., Agle, B. R., & Wood, D. J. (1997). Toward a theory of stakeholder identification
+and salience: Defining the principle of who and what really counts.
+Academy of
+Management Review,
+22(4), 853–886. doi:10.5465/AMR.1997.9711022105
+Mollen, S., Ruiter, R. A. C., & Kok, G. (2010). Current issues and new directions in Psychology
+and Health: What are the oughts? The adverse effects of using social norms in health
+communication.
+Psychology & Health,
+25(3), 265–70. doi:10.1080/08870440903262812
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 28 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Moyer-Gusé, E. (2008). Toward a Theory of Entertainment Persuasion: Explaining the
+Persuasive Effects of Entertainment-Education Messages.
+Communication Theory,
+18(3), 407–425. doi:10.1111/j.1468-2885.2008.00328.x
+National Cancer Institute. (2007).
+Greater than the sum: Systems thinking in tobacco control
+(Publication No. 06–6085, Tobacco Control Monograph No. 18). Bethesda, MD.
+Ng, J. Y. Y., Ntoumanis, N., Thogersen-Ntoumani, C., Deci, E. L., Ryan, R. M., Duda, J. L., &
+Williams, G. C. (2012). Self-Determination Theory Applied to Health Contexts: A Meta-
+Analysis.
+Perspectives on Psychological Science,
+7(4), 325–340. Retrieved from
+http://cat.inist.fr/?aModele=afficheN&cpsidt=26177089
+Peters, G.-J. Y., Ruiter, R. a C., & Kok, G. (2013). Threatening communication: a critical re-
+analysis and a revised meta-analytic test of fear appeal theory.
+Health Psychology
+Review,
+7(Suppl 1), S8–S31. doi:10.1080/17437199.2012.703527
+Petraglia, J. (2007). Narrative intervention in behavior and public health.
+Journal of Health
+Communication,
+12(5), 493–505. doi:10.1080/10810730701441371
+Pettigrew, T. F., & Tropp, L. R. (2006). A meta-analytic test of intergroup contact theory.
+Journal of Personality and Social Psychology,
+90(5), 751–783. doi:10.1037/0022-
+3514.90.5.751
+Petty, R. E., Barden, J., & Wheeler, S. C. (2009). The Elaboration Likelihood Model of
+Persuasion: Developing Health promotions for Sustained Behavioral Change. In R. J.
+DiClemente, R. A. Crosby, & M. Kegler (Eds.),
+Emerging theories in health promotion
+practice and research (2nd ed., pp. 185–214). San Francisco: Jossey-Bass.
+Petty, R. E., & Wegener, D. T. (2010). Attitude change: Multiple roles for persuasion variables.
+In R.F. Baumeister & E.J. Finkel (Eds.)
+Advanced social psychology: The state of the
+science (pp. 217–259). Oxford, UK: Oxford University Press.
+Prochaska, J. O., Redding, C. A., & Evers, K. E. (2015). The Transtheoretical Model and stages
+of change. In K. Glanz, B. K. Rimer, & K. Viswanath (Eds.),
+Health behavior: Theory,
+research, and practice (pp. 125-148). San Francisco: Jossey-Bass.
+Ramirez, a G., Villarreal, R., McAlister, a, Gallion, K. J., Suarez, L., & Gomez, P. (2010).
+Advancing the role of participatory communication in the diffusion of cancer screening
+among Hispanics.
+Journal of Health Communication,
+4(1), 31–36.
+doi:10.1080/108107399127075
+Reininger, B. M., Barroso, C. S., Mitchell-Bennett, L., Cantu, E., Fernandez, M. E., Gonzalez, D.
+A., … McAlister, A. (2010). Process evaluation and participatory methods in an obesity-
+prevention media campaign for Mexican Americans.
+Health Promotion Practice,
+11(3),
+347–357. doi:10.1177/1524839908321486
+Richard, R., van der Pligt, J., & de Vries, N. (1995). Anticipated affective reactions and
+prevention of AIDS.
+The British Journal of Social Psychology / the British Psychological
+Society,
+34 ( Pt 1), 9–21. doi:10.1111/j.2044-8309.1995.tb01045.x
+Robbins, S. J., Schwartz, B., & Wasserman, E. A. (2001).
+Psychology of learning and behavior.
+New York: Norton.
+Rogers, E. M. (2003).
+Diffusion of innovations. New York: Free Press.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 29 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Rothman, J. (2004). Three models of community organisation practice, their mixing and
+phasing. In F. M. Cox, J. L. Erlich, J. Rothman, & J. E. Tropman (Eds.),
+Strategies of
+community organisation: a book of readings (pp. 25-44). Itasca, IL, US: F. E. Peacock.
+Ruiter, R. A. C., Kessels, L. T. E., Peters, G.-J. Y., & Kok, G. (2014). Sixty years of fear appeal
+research: Current state of the evidence.
+International Journal of Psychology,
+49(2), 63–
+70.
+Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic
+motivation, social development, and well-being.
+The American Psychologist,
+55(1), 68–
+78. doi:10.1037/0003-066X.55.1.68
+Sabatier, P. A. (2003). Policy change over a decade or more. In P. R. Lee, C. L. Estes, & F. M.
+Rodriguez (Eds.),
+The nation’s health (pp. 143–174). Sudbury, MA, US: Jones and Bartlett.
+Shen, F., & Han, J. (Ashley). (2014). Effectiveness of entertainment education in
+communicating health information: a systematic review.
+Asian Journal of
+Communication, (July), 1–12. doi:10.1080/01292986.2014.927895
+Skinner, C. S., Tiro, J., & Champion, V. L. (2015). The Health Belief Model. In K. Glanz, B. Rimer
+& K. Viswanath (Eds.),
+Health behavior: Theory, research, and practice (5th ed., pp. 131–
+167). San Francisco, CA, US: Jossey-Bass.
+Smith, R. M. (2008).
+Conquering the content: A step-by-step guide to web-based course
+development. San Francisco, CA, US: Jossey-Bass.
+Snow, D. A. (2004). Framing processes, ideology, and discursive fields. In D. A. Snow, S. A.
+Soule, & H. Kriesi (Eds.),
+Blackwell companion to social movements (pp. 380–412).
+Oxford, England: Blackwell.
+Steen, R. G. (2007).
+The evolving brain: The known and the unknown. Amherst, NY, US:
+Prometheus Books.
+Suls, J., Martin, R., & Wheeler, L. (2002). Social Comparison: Why, With Whom, and With What
+Effect?
+Current Directions in Psychological Science. doi:10.1111/1467-8721.00191
+Thaler, R. H., & Sunstein, C. R. (2008).
+Nudge: Improving decisions about health, wealth, and
+happiness. New Haven, CT, US: Yale University Press.
+Tolli, M. V. (2012). Effectiveness of peer education interventions for HIV prevention,
+adolescent pregnancy prevention and sexual health promotion for young people: A
+systematic review of European studies.
+Health Education Research,
+27(5), 904–913.
+doi:10.1093/her/cys055
+Turner, J. C. (2005). Explaining the nature of power: A three-process theory.
+European Journal
+of Social Psychology. doi:10.1002/ejsp.244
+Valente, T. (2012). Network Interventions.
+Science,
+337(6090), 49–53.
+doi:10.1126/science.1217330
+Valente, T. (2015). Social networks and health behavior. In K. Glanz, B. K. Rimer, & K.
+Viswanath (Eds.),
+Health Behavior: Theory, Research and Practice (5th ed., pp. 204-222).
+San Francisco: John Wiley & Sons, Ltd.
+Van ’t Riet, J., Cox, A. D., Cox, D., Zimet, G. D., De Bruijn, G.-J., Van den Putte, B., … Ruiter, R. a
+C. (2014). Does perceived risk influence the effects of message framing? A new
+investigation of a widely held notion.
+Psychology & Health, (March), 37–41.
+doi:10.1080/08870446.2014.896916
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 30 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Verplanken, B., & Aarts, H. (1999). Habit, Attitude, and Planned Behaviour: Is Habit an Empty
+Construct or an Interesting Case of Goal-directed Automaticity?
+European Review of
+Social Psychology,
+10(781062661), 101–134. doi:10.1080/14792779943000035
+Wallack, L. (2008). Media Advocacy: A strategy for empowering people and communities. In
+M. Minkler (Ed.),
+Community Organizing and Community Building for Health (pp. 419–
+432). New Brunswick, NJ, US: Rutgers University Press.
+Wallack, L., Dorfman, L., Jernigan, D., & Themba, M. (1993).
+Media advocacy and public
+health: Power for prevention. Thousand Oaks, CA, US: Sage Publications.
+Wallerstein, N., Minkler, M., Carter-Edwards, L., Avila, M., & Sanchez, V. (2015). Improving
+health through community engagement, community organization, and community
+building. In K. Glanz, B. K. Rimer, & K. Viswanath (Eds.),
+Health behavior: Theory,
+research, and practice (5th ed., pp. 277-300). San Francisco, CA, US: Jossey-Bass.
+Wallerstein, N., Sanchez, V., & Velarde, L. (2004). Freirian praxis in health education and
+community organizing: A case study of an adolescent prevention program. In M.
+Minkler (Ed.),
+Community organizing and community building for health (2nd ed., pp.
+218–236). Piscataway, NJ: Rutgers University Press.
+Weible, C. M. (2008). Expert-based information and policy subsystems: A review and
+synthesis.
+Policy Studies Journal, 36(4), 615-635.
+Weible, C. M., Sabatier, P. A., & McQueen, K. (2009). Themes and variations: Taking stock of
+the advocacy coalition framework.
+Policy Studies Journal,
+37(1), 121–140.
+Weick, K. E., & Quinn, R. E. (1999). Organizational change and development.
+Annual Review
+of Psychology,
+50, 361–86. doi:10.1146/annurev.psych.50.1.361
+Weinstein, N. D., Sandman, P. M., & Blalock, S. J. (2008). The Precaution Adoption Process
+Model. In K. Glanz, B. K. Rimer, & K. Viswanath (Eds.),
+Health behavior and health
+education: Theory, research, and practice (4th ed., pp. 123–165). San Francisco, CA, US:
+Jossey-Bass.
+Werrij, M. Q., Ruiter, R. A. C., van `t Riet, J., & de Vries, H. (2012). Message Framing. In C.
+Abraham & M. Kools (Eds.),
+Writing health communication: An evidence-based guide
+(pp. 123–143). London: Sage Publications.
+Wilkin, H. a, Valente, T. W., Murphy, S., Cody, M. J., Huang, G., & Beck, V. (2007). Does
+entertainment-education work with Latinos in the United States? Identification and the
+effects of a telenovela breast cancer storyline.
+Journal of Health Communication,
+12(5),
+455–469. doi:10.1080/10810730701438690
+Wood, W., & Neal, D. T. (2007). A new look at habits and the habit-goal interface.
+Psychological Review,
+114(4), 843–863. doi:10.1037/0033-295X.114.4.843
+World Health Organization Regional Office for Europe. (2002).
+Community participation in
+local health and sustainable development: Approaches and techniques. Kopenhagen.
+Retrieved from http://euro.who.int/document/e78652.pdf
+Wright, P. (2011). Using graphics effectively in text. In C. Abraham & M. Kools (Eds.),
+Writing
+health communication: An evidence-based guide (pp. 63-82). London: Sage
+Publications.
+Zahariadis, N. (2007). The Multiple Streams Framework. In P.A. Sabatier (Ed.),
+Theories of the
+Policy Process (pp. 65–92). Boulder, CO: Westview Press.
+A Taxonomy of Behavior Change Methods; an Intervention Mapping Approach
+Supplemental materials, page 31 of 31 (full version available through http://effectivebehaviorchange.eu)
+[v1.2, 2015-10-27]
+Zajonc, R. B. (2001). Mere Exposure: A Gateway to the Subliminal.
+Current Directions in
+Psychological Science. doi:10.1111/1467-8721.00154

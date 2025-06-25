@@ -1,0 +1,277 @@
+citation: "Heilman, R. M., & Miclea, M. (2016). Risk Seeking Preferences: An Investigation of Framing Effects across Decisional Domains. PLoS ONE, 11(4), e0153470."
+
+annotation: "Empirical study investigating the consistency of framing effects across health, financial, and nature/objects decisional domains, finding that framing effects vary both between and within domains, with emotional reactions potentially mediating these effects."
+
+model_type: "property_graph"
+
+rationale: "The theoretical framework represents a complex network of psychological constructs, decision-making processes, and domain-specific effects. Nodes represent key concepts like framing effects, risk preferences, decisional domains, and emotional reactions, while edges capture relationships between theoretical constructs, causal mechanisms, and moderating effects. This structure best captures the interconnected nature of prospect theory, framing mechanisms, and domain-specific decision-making processes."
+
+schema_blueprint:
+  title: "Framing Effects in Risk Decision-Making Schema"
+  description: "Comprehensive model of framing effects across decisional domains, incorporating prospect theory, emotional mediators, and domain-specific risk preferences"
+  root_properties:
+    nodes:
+      description: "Core theoretical constructs, decision-making components, measurement variables, and domain-specific factors in framing effects research"
+      item_type: "Entity"
+    edges:
+      description: "Theoretical relationships, causal mechanisms, moderating effects, and empirical associations between framing constructs"
+      item_type: "NaryTuple"
+  definitions:
+    # Core Theoretical Constructs
+    - name: "framing-effect"
+      category: "core-construct"
+      description: "The phenomenon where presenting equivalent decisional alternatives in different terms results in preference changes, violating the principle of invariance"
+      
+    - name: "risky-choice-framing"
+      category: "core-construct"
+      description: "Type of framing effect where different formulations are applied to decisional alternatives involving varying levels of risk"
+      subTypeOf: "framing-effect"
+      
+    - name: "attribute-framing"
+      category: "core-construct"
+      description: "Type of framing effect where characteristics of an object or event are differently formulated (e.g., 75% lean vs 25% fat)"
+      subTypeOf: "framing-effect"
+      
+    - name: "goal-framing"
+      category: "core-construct"
+      description: "Type of framing effect involving manipulation of the formulation of goals of a behavior or action"
+      subTypeOf: "framing-effect"
+      
+    - name: "principle-of-invariance"
+      category: "theoretical-framework"
+      description: "Normative principle stating that preference for a decisional option should be independent of the terms in which it is described"
+      
+    - name: "prospect-theory"
+      category: "theoretical-framework"
+      description: "Behavioral economic theory explaining decision-making under risk, incorporating loss aversion and reference point dependence"
+      
+    - name: "loss-aversion"
+      category: "core-construct"
+      description: "The tendency for losses to loom larger than gains, making people more sensitive to losses than to comparable gains"
+      subTypeOf: "prospect-theory"
+      
+    - name: "reference-point-dependence"
+      category: "core-construct"
+      description: "The evaluation of decisional outcomes in terms of gains or losses relative to a current baseline or reference point"
+      subTypeOf: "prospect-theory"
+      
+    # Decision-Making Components
+    - name: "risk-seeking-preference"
+      category: "behavioral-outcome"
+      description: "Tendency to prefer probabilistic options over certain alternatives in decision-making"
+      
+    - name: "risk-aversion"
+      category: "behavioral-outcome"
+      description: "Tendency to prefer certain outcomes over probabilistic alternatives with equivalent expected value"
+      
+    - name: "sure-alternative"
+      category: "decision-component"
+      description: "Decisional option presenting certain consequences with no uncertainty"
+      
+    - name: "probabilistic-alternative"
+      category: "decision-component"
+      description: "Decisional option stating probabilities associated with possible outcomes"
+      
+    - name: "gain-frame"
+      category: "experimental-manipulation"
+      description: "Presentation of decisional alternatives in terms of positive outcomes or benefits obtained"
+      
+    - name: "loss-frame"
+      category: "experimental-manipulation"
+      description: "Presentation of decisional alternatives in terms of negative outcomes or losses incurred"
+      
+    # Decisional Domains
+    - name: "health-domain"
+      category: "decisional-domain"
+      description: "Decision-making context involving health-related outcomes, human life, and medical interventions"
+      
+    - name: "financial-domain"
+      category: "decisional-domain"
+      description: "Decision-making context involving monetary outcomes, investments, and financial resources"
+      
+    - name: "nature-objects-domain"
+      category: "decisional-domain"
+      description: "Decision-making context involving environmental outcomes, animals, and natural objects"
+      
+    - name: "domain-specificity"
+      category: "moderating-factor"
+      description: "The extent to which framing effects vary in magnitude and presence across different decisional contexts"
+      
+    # Emotional and Psychological Factors
+    - name: "emotional-valence"
+      category: "psychological-mediator"
+      description: "The pleasantness or unpleasantness associated with a decisional situation, measured on positive-negative dimension"
+      
+    - name: "arousal-level"
+      category: "psychological-mediator"
+      description: "The level of emotional activation or excitement triggered by a decisional problem"
+      
+    - name: "motivational-relevance"
+      category: "psychological-mediator"
+      description: "The personal importance or significance of a decisional domain to the individual"
+      
+    - name: "emotional-reaction"
+      category: "process"
+      description: "Affective response triggered by decisional problems that may mediate framing effects"
+      
+    # Measurement and Research Methods
+    - name: "asian-disease-problem"
+      category: "measurement-method"
+      description: "Classic experimental paradigm demonstrating framing effects using hypothetical disease intervention scenarios"
+      
+    - name: "between-subjects-design"
+      category: "research-design"
+      description: "Experimental design where different participants receive different framing conditions"
+      
+    - name: "within-subjects-design"
+      category: "research-design"
+      description: "Experimental design where same participants receive multiple framing conditions"
+      
+    - name: "proportion-risk-seeking"
+      category: "dependent-variable"
+      description: "Quantitative measure calculated by dividing total risky choices by total decisional situations"
+      domain: ["[0, 1]"]
+      
+    - name: "likert-scale-arousal"
+      category: "measurement-method"
+      description: "5-point scale measuring emotional arousal from no arousal (1) to high arousal (5)"
+      domain: ["[1, 5]"]
+      
+    - name: "likert-scale-valence"
+      category: "measurement-method"
+      description: "5-point scale measuring emotional valence from negative (1) to positive (5)"
+      domain: ["[1, 5]"]
+      
+    # Empirical Findings and Effects
+    - name: "domain-inconsistency"
+      category: "empirical-finding"
+      description: "Framing effects are not consistent between decisional domains, with health and nature/objects showing effects but not financial domain"
+      
+    - name: "within-domain-variation"
+      category: "empirical-finding"
+      description: "Different problems within the same decisional domain elicit varying levels of framing effects"
+      
+    - name: "gender-moderation"
+      category: "moderating-factor"
+      description: "Potential gender differences in susceptibility to framing effects, particularly in financial domains"
+      
+    - name: "ecological-validity"
+      category: "research-criterion"
+      description: "The extent to which experimental findings can be extrapolated to real-life decision-making situations"
+      
+    # Cognitive and Decision Processes
+    - name: "bounded-rationality"
+      category: "theoretical-framework"
+      description: "The idea that people lack knowledge, skills, or computational resources to make perfectly rational decisions"
+      
+    - name: "economic-rationality"
+      category: "normative-standard"
+      description: "Normative model of decision-making requiring consistency with mathematical principles of rational choice"
+      
+    - name: "preference-reversal"
+      category: "process"
+      description: "Change in preference for decisional outcomes based on how those outcomes are described or framed"
+      
+    - name: "information-encoding"
+      category: "process"
+      description: "The way information is processed and stored depending on its descriptive valence (positive vs negative)"
+      
+    - name: "memory-association"
+      category: "process"
+      description: "Activation of positive or negative associations from long-term memory based on frame valence"
+      
+    # Statistical and Analytical Constructs
+    - name: "one-way-anova"
+      category: "statistical-method"
+      description: "Statistical test used to analyze the overall effect of framing on risk-seeking behavior"
+      
+    - name: "chi-square-test"
+      category: "statistical-method"
+      description: "Statistical test used to compare frequencies of risky choices between framing conditions"
+      
+    - name: "one-sample-t-test"
+      category: "statistical-method"
+      description: "Statistical test used to determine if risk preferences significantly differ from chance (0.5 cut-off)"
+      
+    - name: "effect-size"
+      category: "statistical-measure"
+      description: "Magnitude of the framing effect, measured using eta-squared (η²) for ANOVA analyses"
+      
+    - name: "cut-off-point"
+      category: "statistical-criterion"
+      description: "0.5 threshold indicating no specific preference toward either risk-seeking or risk-averse outcomes"
+      
+    # Applied and Practical Implications
+    - name: "medical-decision-making"
+      category: "application-domain"
+      description: "Real-world context where framing effects influence treatment decisions by professionals and patients"
+      
+    - name: "consumer-preferences"
+      category: "application-domain"
+      description: "Market context where attribute framing affects product evaluations and purchase decisions"
+      
+    - name: "managerial-decisions"
+      category: "application-domain"
+      description: "Organizational context where progress framing influences project continuation and resource allocation"
+      
+    - name: "training-programs"
+      category: "intervention-strategy"
+      description: "Educational interventions designed to reduce framing bias effects in decision-making"
+      
+    - name: "debiasing-techniques"
+      category: "intervention-strategy"
+      description: "Methods for reducing the influence of framing effects on decision-making"
+
+  json_schema:
+    nodes:
+      type: "array"
+      items:
+        type: "object"
+        properties:
+          id: { type: "string" }
+          type: { type: "string", enum: ["Entity"] }
+          label: { type: "string" }
+          category:
+            type: "string"
+            enum: [
+              "core-construct", "theoretical-framework", "behavioral-outcome", 
+              "decision-component", "experimental-manipulation", "decisional-domain",
+              "moderating-factor", "psychological-mediator", "process", 
+              "measurement-method", "research-design", "dependent-variable",
+              "empirical-finding", "research-criterion", "normative-standard",
+              "statistical-method", "statistical-measure", "statistical-criterion",
+              "application-domain", "intervention-strategy"
+            ]
+          properties:
+            type: "object"
+            properties:
+              description: { type: "string" }
+              domain: { type: "array", items: { type: "string" } }
+              range: { type: "array", items: { type: "string" } }
+              subTypeOf: { type: "string" }
+        required: ["id", "type", "label", "category"]
+    
+    edges:
+      type: "array"
+      items:
+        type: "object"
+        properties:
+          id: { type: "string" }
+          type: { type: "string", enum: ["NaryTuple"] }
+          label: { type: "string" }
+          category:
+            type: "string"
+            enum: [
+              "theoretical-relationship", "causal-mechanism", "moderating-effect",
+              "empirical-association", "measurement-relationship", "domain-effect",
+              "statistical-relationship", "process-relationship", "application-link"
+            ]
+          arguments:
+            type: "array"
+            items:
+              type: "object"
+              properties:
+                role: { type: "string" }
+                target: { type: "string" }
+              required: ["role", "target"]
+        required: ["id", "type", "label", "category", "arguments"]

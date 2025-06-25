@@ -1,0 +1,405 @@
+citation: "Reitsema, A. M., Jeronimus, B. F., van Dijk, M., & de Jonge, P. (2022). Emotion dynamics in children and adolescents: A meta-analytic and descriptive review. Emotion, 22(2), 374-396. https://doi.org/10.1037/emo0000970"
+
+annotation: "Meta-analytic review examining emotion dynamic patterns in children and adolescents using ecological momentary assessment data from 102 studies with 19,928 participants. Analyzes developmental differences in emotional intensity, variability, instability, inertia, differentiation, and augmentation/blunting across childhood and adolescence, comparing typically developing youth with those having mental or physical health problems."
+
+model_type: "property_graph"
+
+rationale: "Property graph model is most appropriate as the emotion dynamics framework represents a complex network of nodes (emotional states, developmental stages, population groups, measurement constructs) connected by edges (developmental trajectories, associations with psychopathology, measurement relationships, temporal dependencies). The theoretical framework involves multiple interacting components including emotion types, dynamic patterns, age groups, and health conditions that form a interconnected system of relationships."
+
+schema_blueprint:
+  title: "Emotion Dynamics in Developmental Psychology Schema"
+  description: "Schema modeling emotion dynamic patterns across childhood and adolescence, including theoretical constructs, measurement approaches, developmental trajectories, and associations with mental health outcomes"
+  
+  root_properties:
+    nodes:
+      description: "Represents emotion constructs, dynamic patterns, developmental stages, population groups, measurement methods, and theoretical concepts in emotion dynamics research"
+      item_type: "Entity"
+    edges:
+      description: "Represents developmental trajectories, associations between emotion dynamics and outcomes, measurement relationships, temporal dependencies, and theoretical connections"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Emotion Constructs
+    - name: "positive-affect"
+      category: "core-construct"
+      description: "Aggregated scale of positive emotions including items like cheerful, joyful, happy, lively, proud that share positive valence but may differ in arousal and appraisal"
+      domain: ["emotion-construct"]
+      range: ["intensity-score", "variability-score"]
+    
+    - name: "negative-affect"
+      category: "core-construct"
+      description: "Aggregated scale of negative emotions that share negative valence but may differ in arousal level and underlying appraisals, increases with age from childhood to adolescence"
+      domain: ["emotion-construct"]
+      range: ["intensity-score", "variability-score"]
+    
+    - name: "discrete-emotion"
+      category: "core-construct"
+      description: "Individual emotions studied separately from aggregated affect scales, including anger, anxiety, sadness, and happiness, each with distinct dynamic patterns"
+      subTypeOf: "emotion-construct"
+    
+    - name: "anger"
+      category: "core-construct"
+      description: "Discrete negative emotion that remains stable across age groups in terms of intensity, studied as separate construct from negative affect aggregates"
+      subTypeOf: "discrete-emotion"
+    
+    - name: "anxiety"
+      category: "core-construct"
+      description: "Discrete negative emotion showing higher intensity in youth with internalizing mental health problems compared to typically developing peers"
+      subTypeOf: "discrete-emotion"
+    
+    - name: "sadness"
+      category: "core-construct"
+      description: "Discrete negative emotion showing increased variability with age and higher variability in youth with mental health problems, with small increases in intensity over adolescence"
+      subTypeOf: "discrete-emotion"
+    
+    - name: "happiness"
+      category: "core-construct"
+      description: "Discrete positive emotion that remains stable across age groups and population types, distinct from aggregated positive affect measures"
+      subTypeOf: "discrete-emotion"
+    
+    # Emotion Dynamic Patterns
+    - name: "emotional-intensity"
+      category: "dynamic-pattern"
+      description: "Average strength of emotion over time, capturing how strong someone experiences emotion on average, least dynamic characteristic of emotional experience"
+      domain: ["emotion-construct"]
+      range: ["mean-score"]
+    
+    - name: "emotional-variability"
+      category: "dynamic-pattern"
+      description: "Range of fluctuations around individual's average emotional intensity, operationalized as intra-individual standard deviation (ISD) or variance, capturing amplitude of emotional changes"
+      domain: ["emotion-construct"]
+      range: ["standard-deviation", "variance"]
+    
+    - name: "emotional-instability"
+      category: "dynamic-pattern"
+      description: "Magnitude of moment-to-moment fluctuations in emotion, combining high variability with low temporal dependency, measured using MSSD or MASD scores"
+      domain: ["emotion-construct"]
+      range: ["mssd-score", "masd-score", "pac-score"]
+    
+    - name: "emotional-inertia"
+      category: "dynamic-pattern"
+      description: "Temporal dependency or tendency for emotions to carry over from moment-to-moment, indicating resistance to change, measured as autocorrelation or autoregressive coefficient"
+      domain: ["emotion-construct"]
+      range: ["autocorrelation", "autoregressive-coefficient"]
+    
+    - name: "emotion-differentiation"
+      category: "dynamic-pattern"
+      description: "Degree of covariation between emotions across time, reflecting ability to distinguish between different emotional experiences with specificity beyond general valence"
+      domain: ["multiple-emotions"]
+      range: ["intraclass-correlation", "average-correlation"]
+    
+    - name: "emotion-augmentation-blunting"
+      category: "dynamic-pattern"
+      description: "Degree to which current emotion increases (augments) or decreases (blunts) intensity of subsequent emotions through cross-lagged relationships"
+      domain: ["emotion-pairs"]
+      range: ["cross-lagged-correlation", "cross-regression-coefficient"]
+    
+    # Measurement Methods
+    - name: "ecological-momentary-assessment"
+      category: "measurement-method"
+      description: "Ambulatory assessment method capturing emotions during daily life using repeated measurements to limit retrospective bias and boost ecological validity"
+      domain: ["participants"]
+      range: ["emotion-ratings"]
+    
+    - name: "experience-sampling"
+      category: "measurement-method"
+      description: "Method for repeated assessment of participants during daily lives to track dynamic patterns in emotions and psychophysiological states within individuals"
+      subTypeOf: "ecological-momentary-assessment"
+    
+    - name: "mean-squared-successive-difference"
+      category: "measurement-method"
+      description: "Statistical measure of emotional instability that squares successive differences to give more weight to larger changes between consecutive emotion ratings"
+      domain: ["emotion-time-series"]
+      range: ["mssd-score"]
+    
+    - name: "mean-absolute-successive-difference"
+      category: "measurement-method"
+      description: "Statistical measure of emotional instability using absolute differences between consecutive ratings without squaring, treating all changes equally"
+      domain: ["emotion-time-series"]
+      range: ["masd-score"]
+    
+    - name: "intra-individual-standard-deviation"
+      category: "measurement-method"
+      description: "Within-person measure of emotional variability calculated as standard deviation of emotion scores across time for each individual"
+      domain: ["individual-emotion-series"]
+      range: ["variability-score"]
+    
+    - name: "autoregressive-coefficient"
+      category: "measurement-method"
+      description: "Statistical measure capturing temporal persistence of emotions, indicating how much current emotional state predicts future states"
+      domain: ["emotion-time-series"]
+      range: ["correlation-coefficient"]
+    
+    - name: "intraclass-correlation-coefficient"
+      category: "measurement-method"
+      description: "Statistical measure of emotion differentiation reflecting ratio of variability across assessments versus variability within assessments of similarly valenced emotions"
+      domain: ["multiple-emotions"]
+      range: ["correlation-coefficient"]
+    
+    # Developmental Stages
+    - name: "childhood"
+      category: "developmental-stage"
+      description: "Developmental period defined as mean age 9 years or younger, characterized by lower negative affect intensity and different emotion dynamic patterns"
+      domain: ["age-group"]
+      range: ["emotion-dynamics"]
+    
+    - name: "early-adolescence"
+      category: "developmental-stage"
+      description: "Beginning phase of adolescence showing initial increases in emotional variability and instability, particularly for negative emotions"
+      subTypeOf: "adolescence"
+    
+    - name: "middle-adolescence"
+      category: "developmental-stage"
+      description: "Mid-phase of adolescence characterized by continued emotional changes and development of emotion regulation capacities"
+      subTypeOf: "adolescence"
+    
+    - name: "late-adolescence"
+      category: "developmental-stage"
+      description: "Later phase of adolescence showing stabilization of emotion dynamics and development of more refined emotion differentiation abilities"
+      subTypeOf: "adolescence"
+    
+    - name: "adolescence"
+      category: "developmental-stage"
+      description: "Developmental period defined as mean age 10 years and older, characterized by higher negative affect intensity and increased emotional variability compared to childhood"
+      domain: ["age-group"]
+      range: ["emotion-dynamics"]
+    
+    # Population Groups
+    - name: "typically-developing-youth"
+      category: "population-group"
+      description: "Reference group of children and adolescents without identified mental health or physical health problems, serving as comparison baseline"
+      domain: ["participant-sample"]
+      range: ["emotion-dynamics"]
+    
+    - name: "internalizing-mental-health-problems"
+      category: "population-group"
+      description: "Youth with symptoms or diagnosis of anxiety disorder, major depressive disorder, obsessive compulsive disorder, or bipolar disorder"
+      domain: ["participant-sample"]
+      range: ["emotion-dynamics"]
+    
+    - name: "externalizing-mental-health-problems"
+      category: "population-group"
+      description: "Youth with externalizing disorders or other mental health problems distinct from internalizing conditions"
+      domain: ["participant-sample"]
+      range: ["emotion-dynamics"]
+    
+    - name: "physical-health-problems"
+      category: "population-group"
+      description: "Youth with physical health conditions including diabetes or juvenile arthritis that may affect emotional functioning"
+      domain: ["participant-sample"]
+      range: ["emotion-dynamics"]
+    
+    # Theoretical Frameworks
+    - name: "emotion-dynamics-theory"
+      category: "theoretical-framework"
+      description: "Framework defining emotions as trajectories, patterns, and regularities with which emotions fluctuate over time, their underlying processes, and downstream consequences"
+      domain: ["emotion-research"]
+      range: ["dynamic-patterns"]
+    
+    - name: "developmental-psychopathology"
+      category: "theoretical-framework"
+      description: "Framework examining how emotion dynamic patterns develop across childhood and adolescence and connect to psychological well-being and mental health outcomes"
+      domain: ["development", "psychopathology"]
+      range: ["emotion-trajectories", "health-outcomes"]
+    
+    - name: "functional-emotion-theory"
+      category: "theoretical-framework"
+      description: "Perspective viewing emotions as dynamic, contextualized processes enabling humans to appraise and act on environmentally relevant changes for well-being"
+      domain: ["emotion-function"]
+      range: ["adaptive-responses"]
+    
+    # Developmental Processes  
+    - name: "emotional-development"
+      category: "process"
+      description: "Development of competent emotion functioning including expression, understanding, and regulation of emotions as critical task of childhood and adolescence"
+      domain: ["developmental-stage"]
+      range: ["emotion-competence"]
+    
+    - name: "emotion-regulation-development"
+      category: "process"
+      description: "Development of capacities to regulate emotional responses, with adolescent emotional system described as 'undercooling' due to comparatively undeveloped regulation abilities"
+      subTypeOf: "emotional-development"
+    
+    - name: "emotional-reactivity-increase"
+      category: "process"
+      description: "Developmental increase in emotional responsiveness, especially toward social stimuli during adolescence, contributing to greater negative affect intensity"
+      domain: ["adolescence"]
+      range: ["emotional-intensity"]
+    
+    - name: "puberty-hormonal-changes"
+      category: "process"
+      description: "Physiological changes during puberty that increase adolescents' reactivity to stressors and contribute to vulnerability for anxiety and mood disorders"
+      domain: ["puberty"]
+      range: ["stress-reactivity", "disorder-vulnerability"]
+    
+    - name: "emotion-differentiation-development"
+      category: "process"
+      description: "Developmental trajectory showing decrease from childhood to early adolescence, then increase toward adulthood as emotion concepts become more refined"
+      domain: ["developmental-stage"]
+      range: ["differentiation-ability"]
+    
+    # Relationships
+    - name: "age-negative-affect-association"
+      category: "relationship"
+      description: "Positive association between age and negative affect intensity, with increases from childhood through adolescence"
+      domain: ["age", "negative-affect"]
+      range: ["intensity-increase"]
+    
+    - name: "mental-health-emotion-dynamics-association"
+      category: "relationship"
+      description: "Association between mental health problems and altered emotion dynamic patterns, particularly affecting positive affect and anxiety intensity"
+      domain: ["mental-health-status", "emotion-dynamics"]
+      range: ["pattern-differences"]
+    
+    - name: "internalizing-problems-positive-affect-association"
+      category: "relationship"
+      description: "Negative association between internalizing mental health problems and positive affect intensity, with lower intensity in affected youth"
+      domain: ["internalizing-problems", "positive-affect"]
+      range: ["intensity-decrease"]
+    
+    - name: "internalizing-problems-anxiety-association"
+      category: "relationship"
+      description: "Positive association between internalizing mental health problems and anxiety intensity, with higher intensity in affected youth"
+      domain: ["internalizing-problems", "anxiety"]
+      range: ["intensity-increase"]
+    
+    - name: "mental-health-variability-association"
+      category: "relationship"
+      description: "Association between mental health problems and increased emotional variability, particularly for positive affect and sadness"
+      domain: ["mental-health-problems", "emotional-variability"]
+      range: ["variability-increase"]
+    
+    - name: "sadness-age-variability-association"
+      category: "relationship"
+      description: "Positive association between age and sadness variability, with increases across childhood and adolescence"
+      domain: ["age", "sadness"]
+      range: ["variability-increase"]
+    
+    - name: "instability-psychopathology-association"
+      category: "relationship"
+      description: "Association between emotional instability and development of psychopathology, with instability predicting future mental health problems"
+      domain: ["emotional-instability", "psychopathology"]
+      range: ["disorder-prediction"]
+    
+    # Meta-Analytic Constructs
+    - name: "multilevel-meta-analysis"
+      category: "analytical-method"
+      description: "Statistical approach accounting for dependencies between effect sizes by parceling variance over participant, outcome, and study levels"
+      domain: ["effect-sizes"]
+      range: ["variance-components"]
+    
+    - name: "effect-size-estimate"
+      category: "measurement-construct"
+      description: "Quantitative measure of relationship strength between variables, with 689 estimates included from 102 studies across emotion dynamics parameters"
+      domain: ["statistical-relationship"]
+      range: ["magnitude-measure"]
+    
+    - name: "publication-bias"
+      category: "methodological-concern"
+      description: "Systematic bias in reporting of effect sizes examined through funnel plots and trim-and-fill methods, generally not observed except for positive affect intensity"
+      domain: ["research-findings"]
+      range: ["bias-assessment"]
+    
+    - name: "assessment-frequency"
+      category: "methodological-factor"
+      description: "Number of emotion assessments per participant per day, ranging from less than daily to 30 times per day, with minimal role in explaining study differences"
+      domain: ["measurement-schedule"]
+      range: ["sampling-rate"]
+    
+    # Methodological Issues
+    - name: "construct-validity-concern"
+      category: "methodological-concern"
+      description: "Issues with heterogeneous composition of positive and negative affect scales using different item combinations from PANAS, questioning equivalence across studies"
+      domain: ["affect-scales"]
+      range: ["validity-questions"]
+    
+    - name: "temporal-sampling-concern"
+      category: "methodological-concern"
+      description: "Wide variation in time intervals between assessments across studies (weekly to every 25 minutes) affecting interpretation of emotion dynamic patterns"
+      domain: ["assessment-timing"]
+      range: ["methodological-variation"]
+    
+    - name: "dynamic-indices-overlap"
+      category: "methodological-concern"
+      description: "Considerable overlap between different emotion dynamic measures (variability, instability, inertia) that are also mathematically related"
+      domain: ["emotion-dynamics-measures"]
+      range: ["construct-overlap"]
+    
+    - name: "bounded-measurement-confound"
+      category: "methodological-concern"
+      description: "Confounding of emotional variability by emotional intensity, especially with bounded measurements or skewed distributions"
+      domain: ["variability-measures"]
+      range: ["intensity-confound"]
+    
+json_schema:
+  emotion_constructs:
+    - positive_affect
+    - negative_affect
+    - anger
+    - anxiety
+    - sadness  
+    - happiness
+    - discrete_emotion
+  
+  dynamic_patterns:
+    - emotional_intensity
+    - emotional_variability
+    - emotional_instability
+    - emotional_inertia
+    - emotion_differentiation
+    - emotion_augmentation_blunting
+  
+  measurement_methods:
+    - ecological_momentary_assessment
+    - experience_sampling
+    - mean_squared_successive_difference
+    - mean_absolute_successive_difference
+    - intra_individual_standard_deviation
+    - autoregressive_coefficient
+    - intraclass_correlation_coefficient
+  
+  developmental_stages:
+    - childhood
+    - early_adolescence
+    - middle_adolescence
+    - late_adolescence
+    - adolescence
+  
+  population_groups:
+    - typically_developing_youth
+    - internalizing_mental_health_problems
+    - externalizing_mental_health_problems
+    - physical_health_problems
+  
+  theoretical_frameworks:
+    - emotion_dynamics_theory
+    - developmental_psychopathology
+    - functional_emotion_theory
+  
+  processes:
+    - emotional_development
+    - emotion_regulation_development
+    - emotional_reactivity_increase
+    - puberty_hormonal_changes
+    - emotion_differentiation_development
+  
+  relationships:
+    - age_negative_affect_association
+    - mental_health_emotion_dynamics_association
+    - internalizing_problems_positive_affect_association
+    - internalizing_problems_anxiety_association
+    - mental_health_variability_association
+    - sadness_age_variability_association
+    - instability_psychopathology_association
+  
+  analytical_methods:
+    - multilevel_meta_analysis
+    - effect_size_estimate
+    - publication_bias
+    - assessment_frequency
+  
+  methodological_concerns:
+    - construct_validity_concern
+    - temporal_sampling_concern
+    - dynamic_indices_overlap
+    - bounded_measurement_confound

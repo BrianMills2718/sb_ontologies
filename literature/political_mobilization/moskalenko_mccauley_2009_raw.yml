@@ -1,0 +1,490 @@
+citation: "Moskalenko, S., & McCauley, C. (2009). Measuring Political Mobilization: The Distinction Between Activism and Radicalism. Terrorism and Political Violence, 21(2), 239-260."
+
+annotation: "This paper introduces the Activism and Radicalism Intention Scales (ARIS) to measure political mobilization as two distinct but correlated dimensions: legal/non-violent activism and illegal/violent radicalism. Through three studies with U.S. and Ukrainian samples, the authors challenge the 'conveyor belt' metaphor of radicalization, showing that activism and radicalism are distinguishable constructs with different predictors and that only a minority of activists develop radical intentions."
+
+model_type: "property_graph"
+
+rationale: "A property graph model best represents this theoretical framework because it captures the complex relationships between multiple theoretical constructs (political mobilization, group identification, activism, radicalism), measurement instruments (ARIS scales), and processes (pathways to political action). The model includes nodes for concepts, actors, and measurement instruments, with edges representing relationships, predictive pathways, and theoretical distinctions. This allows for modeling both the pyramid model of radicalization and the competing pathway theories discussed in the paper."
+
+schema_blueprint:
+  title: "Political Mobilization and Activism-Radicalism Distinction Schema"
+  description: "A comprehensive schema modeling the theoretical framework of political mobilization measurement, distinguishing between activism and radicalism as separate dimensions of political action, including the ARIS measurement instrument and associated theoretical constructs."
+  
+  root_properties:
+    nodes:
+      description: "Represents theoretical constructs, measurement instruments, actors, outcomes, and processes in political mobilization research"
+      item_type: "Entity"
+    edges:
+      description: "Represents relationships between constructs, predictive pathways, measurement relationships, and theoretical distinctions"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Theoretical Constructs
+    - name: "political-mobilization"
+      category: "core-construct"
+      description: "Increasing extremity of beliefs, feelings, and behaviors in support of intergroup conflict"
+      
+    - name: "activism"
+      category: "core-construct"
+      description: "Readiness to participate in legal and non-violent political action on behalf of a group or cause"
+      
+    - name: "radicalism"
+      category: "core-construct"
+      description: "Readiness to participate in illegal or violent political action on behalf of a group or cause"
+      
+    - name: "terrorism"
+      category: "core-construct"
+      description: "Subset of radicalism involving violence against civilian targets"
+      subTypeOf: "radicalism"
+      
+    - name: "group-identification"
+      category: "core-construct"
+      description: "Caring about the outcomes of a group, implying positive feelings when the group succeeds and negative feelings when it fails"
+      
+    - name: "behavioral-intention"
+      category: "core-construct"
+      description: "Stated readiness to engage in specific behaviors, used as proxy for understanding corresponding behaviors"
+      
+    # Measurement Instruments
+    - name: "activism-radicalism-intention-scales"
+      category: "measurement-instrument"
+      description: "ARIS - Brief measure of intentions relating to political behavior with two subscales"
+      
+    - name: "activism-intention-scale"
+      category: "measurement-instrument"
+      description: "AIS - Four-item scale measuring intentions to participate in legal non-violent acts on behalf of a group"
+      subTypeOf: "activism-radicalism-intention-scales"
+      
+    - name: "radicalism-intention-scale"
+      category: "measurement-instrument"
+      description: "RIS - Four-item scale measuring intentions to participate in illegal/violent acts on behalf of a group"
+      subTypeOf: "activism-radicalism-intention-scales"
+      
+    - name: "group-importance-rating"
+      category: "measurement-instrument"
+      description: "Single-item measures of strength of identification with various groups (country, ethnic group, religious group, university, family, political party)"
+      
+    - name: "past-behavior-scale"
+      category: "measurement-instrument"
+      description: "Measures of history of past activist and radical behaviors to test relationship with future intentions"
+      
+    # Theoretical Models
+    - name: "conveyor-belt-model"
+      category: "theoretical-framework"
+      description: "Stage-theory interpretation suggesting individuals move from grievance through activism to radicalism in sequential stages"
+      
+    - name: "pyramid-model"
+      category: "theoretical-framework"
+      description: "Model conceptualizing political movements as pyramids with large bases of sympathizers and small apexes of active combatants"
+      
+    - name: "competing-responses-model"
+      category: "theoretical-framework"
+      description: "Alternative interpretation where activism and radicalism are competing responses to perceived need for political change, not sequential stages"
+      
+    - name: "stage-theory-interpretation"
+      category: "theoretical-framework"
+      description: "Interpretation of pyramid model where levels represent discrete stages with different levels of political commitment"
+      subTypeOf: "pyramid-model"
+      
+    - name: "saltation-interpretation"
+      category: "theoretical-framework"
+      description: "Interpretation where individuals can move directly to radicalization from any level without passing through intermediate stages"
+      subTypeOf: "pyramid-model"
+      
+    # Processes and Pathways
+    - name: "radicalization-pathway"
+      category: "process"
+      description: "Trajectory by which individuals move toward illegal and violent political action"
+      
+    - name: "activism-pathway"
+      category: "process"
+      description: "Trajectory by which individuals move toward legal and non-violent political action"
+      
+    - name: "personal-grievance-mechanism"
+      category: "process"
+      description: "Radicalization mechanism involving personal loss or affront that motivates political action"
+      
+    - name: "group-grievance-mechanism"
+      category: "process"
+      description: "Radicalization mechanism involving identification with group loss or affront"
+      
+    - name: "love-mechanism"
+      category: "process"
+      description: "Radicalization mechanism involving invitation from loved one who is already radicalized"
+      
+    - name: "state-response-radicalization"
+      category: "process"
+      description: "Radicalization process triggered by state security forces' response to political actions"
+      
+    # Group Types and Identification Targets
+    - name: "national-identification"
+      category: "identification-target"
+      description: "Identification with one's country or nation"
+      
+    - name: "ethnic-identification"
+      category: "identification-target"
+      description: "Identification with one's ethnic or racial group"
+      
+    - name: "religious-identification"
+      category: "identification-target"
+      description: "Identification with one's religious group or community"
+      
+    - name: "political-party-identification"
+      category: "identification-target"
+      description: "Identification with a political party or political movement"
+      
+    - name: "family-identification"
+      category: "identification-target"
+      description: "Identification with family unit"
+      
+    - name: "university-identification"
+      category: "identification-target"
+      description: "Identification with educational institution"
+      
+    # Behavioral Categories
+    - name: "legal-political-action"
+      category: "behavior-type"
+      description: "Political actions that operate within legal frameworks and institutional channels"
+      
+    - name: "illegal-political-action"
+      category: "behavior-type"
+      description: "Political actions that violate laws or operate outside institutional channels"
+      
+    - name: "violent-political-action"
+      category: "behavior-type"
+      description: "Political actions involving physical violence or threat of violence"
+      
+    - name: "non-violent-political-action"
+      category: "behavior-type"
+      description: "Political actions that eschew violence and rely on peaceful methods"
+      
+    # Specific Behavioral Examples
+    - name: "organizational-membership"
+      category: "activism-behavior"
+      description: "Joining or belonging to organization that fights for group's political and legal rights"
+      
+    - name: "political-donation"
+      category: "activism-behavior"
+      description: "Donating money to organizations or candidates supporting group's political rights"
+      
+    - name: "volunteer-work"
+      category: "activism-behavior"
+      description: "Volunteering time for political organizing activities like writing petitions, distributing flyers, recruiting people"
+      
+    - name: "protest-attendance"
+      category: "activism-behavior"
+      description: "Participating in public rallies, protests, or demonstrations in support of group"
+      
+    - name: "illegal-organization-support"
+      category: "radicalism-behavior"
+      description: "Supporting organizations that sometimes break the law in pursuit of political goals"
+      
+    - name: "violent-organization-support"
+      category: "radicalism-behavior"
+      description: "Supporting organizations that sometimes resort to violence for political goals"
+      
+    - name: "violent-protest-participation"
+      category: "radicalism-behavior"
+      description: "Participating in protests that might turn violent"
+      
+    - name: "police-assault"
+      category: "radicalism-behavior"
+      description: "Attacking police or security forces in defense of group members"
+      
+    - name: "warfare-participation"
+      category: "radicalism-behavior"
+      description: "Going to war to protect the rights of one's group"
+      
+    - name: "retaliation"
+      category: "radicalism-behavior"
+      description: "Retaliating against members of groups that have attacked one's own group"
+      
+    # Measurement Properties
+    - name: "discriminant-validity"
+      category: "measurement-property"
+      description: "Property of measurement instruments showing they measure distinct constructs"
+      
+    - name: "internal-consistency"
+      category: "measurement-property"
+      description: "Reliability property measured by Cronbach's alpha indicating items measure same construct"
+      
+    - name: "cross-cultural-validity"
+      category: "measurement-property"
+      description: "Property indicating measurement instrument works across different cultural contexts"
+      
+    - name: "predictive-validity"
+      category: "measurement-property"
+      description: "Property indicating measurement instrument predicts relevant behavioral outcomes"
+      
+    # Research Methods
+    - name: "principal-component-analysis"
+      category: "statistical-method"
+      description: "Statistical technique used to identify underlying factor structure of measurement instruments"
+      
+    - name: "oblimin-rotation"
+      category: "statistical-method"
+      description: "Factor rotation method allowing for correlated factors"
+      
+    - name: "cross-sectional-survey"
+      category: "research-method"
+      description: "Research design collecting data from participants at single time point"
+      
+    - name: "anonymous-questionnaire"
+      category: "research-method"
+      description: "Data collection method ensuring participant anonymity to encourage honest responses"
+      
+    - name: "random-digit-dialing"
+      category: "sampling-method"
+      description: "Probability sampling method used to recruit representative population samples"
+      
+    # Individual Difference Variables
+    - name: "self-esteem"
+      category: "individual-difference"
+      description: "Individual's overall evaluation of their own worth, measured as potential correlate of political intentions"
+      
+    - name: "age"
+      category: "demographic-variable"
+      description: "Participant age examined as potential predictor of political intentions"
+      
+    - name: "gender"
+      category: "demographic-variable"
+      description: "Participant gender examined as potential predictor of political intentions"
+      
+    - name: "education-level"
+      category: "demographic-variable"
+      description: "Participant educational attainment examined as potential predictor of political intentions"
+      
+    - name: "political-affiliation"
+      category: "demographic-variable"
+      description: "Participant's political party membership or preference"
+      
+    # Contextual Factors
+    - name: "orange-revolution"
+      category: "historical-context"
+      description: "2004 Ukrainian political revolution providing context for student political mobilization"
+      
+    - name: "september-11-attacks"
+      category: "historical-context"
+      description: "Terrorist attacks referenced as example of events that increase group identification"
+      
+    - name: "london-bombings"
+      category: "historical-context"
+      description: "July 7, 2005 terrorist attacks used as example of radicalization patterns"
+      
+    - name: "repressive-regime"
+      category: "political-context"
+      description: "Government context where activism is persecuted with same fervor as radicalism"
+      
+    - name: "democratic-context"
+      category: "political-context"
+      description: "Government context with institutional channels for legal political participation"
+      
+    # Relationships and Associations
+    - name: "positive-correlation"
+      category: "relationship"
+      description: "Statistical relationship where two variables increase together"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    - name: "negative-correlation"
+      category: "relationship"
+      description: "Statistical relationship where one variable increases as another decreases"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    - name: "predictive-relationship"
+      category: "relationship"
+      description: "Relationship where one variable predicts outcomes on another variable"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    - name: "distinguishable-from"
+      category: "relationship"
+      description: "Relationship indicating two constructs are empirically separable"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    - name: "subtype-of"
+      category: "relationship"
+      description: "Hierarchical relationship where one construct is a specific type of another"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    - name: "competing-with"
+      category: "relationship"
+      description: "Relationship where constructs represent alternative responses to same situation"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    - name: "correlates-with"
+      category: "relationship"
+      description: "Statistical association between variables"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    - name: "measures"
+      category: "relationship"
+      description: "Relationship between measurement instrument and theoretical construct"
+      domain: ["measurement-instrument"]
+      range: ["core-construct"]
+      
+    - name: "predicts"
+      category: "relationship"
+      description: "Predictive relationship between variables"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    - name: "leads-to"
+      category: "relationship"
+      description: "Causal or developmental relationship between processes or states"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    # Research Findings
+    - name: "two-factor-structure"
+      category: "empirical-finding"
+      description: "Statistical result showing activism and radicalism load on separate factors"
+      
+    - name: "conveyor-belt-disconfirmation"
+      category: "empirical-finding"
+      description: "Finding that only small minority of activists develop radical intentions, contradicting conveyor belt model"
+      
+    - name: "differential-prediction"
+      category: "empirical-finding"
+      description: "Finding that activism and radicalism are predicted by different types of group identification"
+      
+    - name: "cross-cultural-replication"
+      category: "empirical-finding"
+      description: "Finding that two-factor structure replicates across U.S. and Ukrainian samples"
+      
+    - name: "past-behavior-prediction"
+      category: "empirical-finding"
+      description: "Finding that past activism predicts future activist intentions and past radicalism predicts future radical intentions"
+      
+    # Policy Implications
+    - name: "surveillance-policy"
+      category: "policy-implication"
+      description: "Implication that activist groups require surveillance based on conveyor belt model"
+      
+    - name: "group-banning-policy"
+      category: "policy-implication"
+      description: "Implication that radical groups should be legally banned"
+      
+    - name: "counterproductive-suppression"
+      category: "policy-implication"
+      description: "Implication that suppressing groups with radical ideas can increase radicalization"
+      
+    - name: "competing-groups-strategy"
+      category: "policy-implication"
+      description: "Implication that non-violent groups compete with violent groups for members"
+      
+  json_schema:
+    type: "object"
+    properties:
+      nodes:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+            type:
+              type: "string"
+              enum: ["Entity"]
+            category:
+              type: "string"
+              enum: [
+                "core-construct",
+                "measurement-instrument", 
+                "theoretical-framework",
+                "process",
+                "identification-target",
+                "behavior-type",
+                "activism-behavior",
+                "radicalism-behavior",
+                "measurement-property",
+                "statistical-method",
+                "research-method",
+                "sampling-method",
+                "individual-difference",
+                "demographic-variable",
+                "historical-context",
+                "political-context",
+                "empirical-finding",
+                "policy-implication"
+              ]
+            properties:
+              type: "object"
+              properties:
+                name:
+                  type: "string"
+                description:
+                  type: "string"
+                subTypeOf:
+                  type: "string"
+                truthValue:
+                  type: "string"
+                  enum: ["true", "false", "possible", "impossible", "partial"]
+                temporal:
+                  type: "string"
+                  enum: ["past", "present", "future", "atemporal"]
+                salience:
+                  type: "number"
+                  minimum: 0
+                  maximum: 1
+                modifier:
+                  type: "string"
+                  enum: ["goal", "hypothetical", "normative", "empirical", "theoretical"]
+      edges:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+            type:
+              type: "string"
+              enum: ["NaryTuple"]
+            category:
+              type: "string"
+              enum: ["relationship"]
+            properties:
+              type: "object"
+              properties:
+                name:
+                  type: "string"
+                source:
+                  type: "string"
+                target:
+                  type: "string"
+                relationshipType:
+                  type: "string"
+                  enum: [
+                    "positive-correlation",
+                    "negative-correlation", 
+                    "predictive-relationship",
+                    "distinguishable-from",
+                    "subtype-of",
+                    "competing-with",
+                    "correlates-with",
+                    "measures",
+                    "predicts",
+                    "leads-to"
+                  ]
+                strength:
+                  type: "number"
+                  minimum: 0
+                  maximum: 1
+                truthValue:
+                  type: "string"
+                  enum: ["true", "false", "possible", "impossible", "partial"]
+                temporal:
+                  type: "string"
+                  enum: ["past", "present", "future", "atemporal"]
+                salience:
+                  type: "number"
+                  minimum: 0
+                  maximum: 1
+                modifier:
+                  type: "string"
+                  enum: ["goal", "hypothetical", "normative", "empirical", "theoretical"]

@@ -1,0 +1,240 @@
+POLICY AND THE POLIHEURISTIC THEORY OF FOREIGN
+POLICY DECISION MAKING: A SYMPOSIUM
+Applied Decision Analysis: Utilizing
+Poliheuristic Theory to Explain and Predict
+Foreign Policy and National Security
+Decisions
+A LEX MINTZ
+Texas A&M University
+and
+Yale University
+In recent years, more than 40 articles and chapters have utilized Poli-
+heuristic Theory to analyze critical decisions made by foreign leaders
+and U.S. presidents. In this paper, I introduce the Poliheuristic Proce-
+dureFa series of steps that one can use to explain or predict decisions
+by world leaders. Subsequent articles in this Symposium present exam-
+ples of poliheuristic analyses of decisions made by Presidents Carter,
+Clinton, Gorbachev, Mussaref and Saddam Hussein. These case studies
+provide strong support for Poliheuristic Theory: leaders use a two-stage
+process in making decisions: they first use simple heuristics to eliminate
+alternatives based on the avoid-major-political-loss principle, and then
+use more analytic calculations in selecting an alternative from a subset of
+surviving alternatives.
+Keywords: poliheuristic theory, decision theory, foreign policy analysis
+The poliheuristic (PH) theory of decision postulates that leaders make decisions
+according to a two-stage decision process. They first simplify the decision problem
+by the use of cognitive short-cuts (heuristics). They then evaluate remaining alter-
+natives using analytic calculations (Mintz, 1993, 2003, 2004a; Payne, Bettman, and
+Johnson, 1993; Mintz and Geva, 1997; Mintz, Geva, Redd, and Carnes, 1997). One
+heuristic frequently used by political leaders in the first stage of the decision process
+is: avoid major political loss (the non-compensatory principle): alternatives that are
+potentially harmful to the leaders are discarded outright (Mintz, 1993, 1995;
+2004a; Kinne, 2005; Redd, 2005).
+PH decision theory integrates elements of the rational choice school of decision
+making with elements of the cognitive psychology school of decision. Key findings
+of the PH research program are:
+1. Leaders use more than one decision rule en route to a decision. Specifically,
+policy makers use a two-stage process in making decisions: they employ the
+r 2005 International Studies Association.
+Published by Blackwell Publishing, 350 Main Street, Malden, MA 02148, USA, and 9600 Garsington Road, Oxford OX4 2DQ, UK
+International Studies Perspectives (2005) 6, 94–98.
+non-compensatory, avoid-major-loss principle in the initial screening of alter-
+natives, and use analytic decision rules in the second stage of the decision
+process.
+2. Leaders evaluate gains and losses in political termsF domestic politics is ‘‘the
+essence of decision’’ (Mintz and Geva, 1997).
+PH theory has been applied to the analysis of decisions by U.S. presidents: Dwight
+Eisenhower’s decision not to use force at Dien Bien Phu (DeRouen, 2003) and his
+decision to use covert forces in Guatemala (Taylor-Robinson and Redd, 2003);
+Jimmy Carter Iran’s hostage rescue decision (Brule, 2005), Ronald Reagan’s de-
+cision to intervene in Grenada (DeRouen, 2001); George Bush Sr.’s decision to
+attack Iraq (Mintz, 1993); Bill Clinton’s Kosovo decision (Redd, 2005), and George
+W. Bush’s 2003 decision to invade Iraq (Mintz, 2004c).
+The theory has also been used to analyze decisions by foreign leaders in dem-
+ocratic and non-democratic polities: foreign policy decisions made by Chinese
+leaders (James and Zhang, 2004), the Soviet leadership (Kinne, 2005), the Turkish
+parliament (Mintz, 2004a), the Syrian leadership (Astorino-Courtois and Trusty,
+2000), Pakistani leaders (Sathasivam, 2003; Kinne, 2005), Iranian leaders (Maleki,
+2002), the Iraqi leader (Mintz, 2004c, and Kinne, 2005), Palestinian leaders
+(Clare, 2003; Mintz and Mishal, 2003), and Israeli leaders (Mintz, 1995). For an
+application of PH theory to policy makers’ decisions at the state and local level,
+see Christensen and Marlowe (2004). Multi-method tests of the theory (utilizing
+experimental, formal, and statistical analyses) 1 provided strong evidence for the
+theory.2
+Below I introduce a unified procedure that can be applied to the analysis of
+leaders’ decisions on foreign and national security policy. This procedure can help
+us understand how leaders make decisions and explain and predict their choices.
+The PH procedure consists of two key steps:
+1. Identify the decision matrix of the leader (e.g., the alternative set, dimension
+set, and implications of each alternative on each dimension).3
+2. Apply PH calculations to the decision matrix to explain or predict the ultimate
+choice.
+PH theory is generic. It is applicable to national security decisions, foreign policy
+decisions, foreign economic decisions, as well as to domestic decisions (e.g., As-
+torino-Courtois, 2000; DeRouen, 2003; Sathasivam, 2003). The PH procedure can
+be extended to sequential decisions, interactive decisions, in dynamic and static
+settings, in familiar and unfamiliar contexts, and under conditions of uncertainty
+and/or ambiguity.
+1 A Special Issue of The Journal of Conflict Resolution (2004) offers theoretical extensions and multiple tests of PH
+theory using multiple methods (statistical, formal, and experimental) as follows: DeRouen and Sprecher (2004)
+tested N-nations’ initial reaction to crisis using a probit model; Dacey and Carlson (2004) used a formal model to
+illustrate, extend, and critique aspects of the theory, while Christensen and Redd (2004) and Mintz (2004b) used
+experimental methods to test the theory in familiar versus unfamiliar settings (Mintz, 2004b), as well as in com-
+parison to the Bureaucratic Politics model (Christensen and Redd, 2004). These multi-method tests of PH theory
+provided strong evidence for the theory.
+2 PH theory can be refuted and falsified if the decision process is compensatory or holistic or alternative-based, or
+order insensitive.
+3 See Redd (2005), Brule (2005), Kinne (2005) for the use of a variety of sources for identifying the decision
+matrix of leaders.
+A LEX MINTZ 95
+Unraveling the Decision Calculus of Leaders
+I. Identify the Decision Matrix of the Leader
+A decision matrix consists of a set of alternatives the leader has, the policy dimen-
+sions (or criteria) for selecting among these alternatives, and an assessment of the
+implications of each dimension for each alternative. Weights (or importance level)
+can be optionally added for each of the dimensions, if the analyst observes that
+dimensions should receive unequal weight in the analysis.
+Alternatives
+Identify the policy alternatives that the leader has. For example: Do Nothing, Use
+Force, Apply Sanctions. Or, in another example applicable to terrorist organiza-
+tions: Continue with Terrorist Attacks, Temporarily Halt Attacks, or Stop Attacks.
+Dimensions
+Identify the dimensions (criteria) that are relevant in evaluating the alternatives in
+the matrix: for example, in the Use of Force case, the dimensions typically are:
+political, military, economic, and diplomatic (James and Zhang, 2004).
+Implications
+Each alternative course of action has implications on each dimension: for example,
+the Use of Force alternative has military, economic, political, and diplomatic con-
+sequences.
+Ratings
+Implications can be rated, for example, from  10 (very bad) to 110 (very good),
+although assigning numerical ratings to implications is optional. For example, if
+Doing Nothing while facing an attack by an adversary is likely to result in an
+electoral defeat of the leader, then the analyst should assign a negative rating (very
+bad,  8 or even  9) to the political implication of Do Nothing. In contrast, if Use
+of Force may lead to a ‘‘Rally ‘round the Flag’’ effect, then the Use of Force al-
+ternative should receive a positive (e.g., 18 or 19) rating.
+Weights
+Weights indicate the importance level of each dimension, for example, from 0
+(not important at all) to 10 (very important). Thus, in the Use of Force example,
+the analyst assigns different weights to the military, economic, political, and
+Alternatives
+Dimensions Do Nothing Apply
+Sanctions Containment Use Force Weight
+Military Implications Implications Implications Implications Add
+Economic Implications Implications Implications Implications Add
+Political Implications Implications Implications Implications Add
+Diplomatic Implications Implications Implications Implications Add
+Final Choice:
+Final Decision
+F IG . 1. A Decision Matrix for the Use of Force Example
+Poliheuristic Theory96
+diplomatic dimensions, unless s/he considers dimensions as having equal weight in
+the decision.
+Figure 1 displays a hypothetical example of a decision matrix of the president’s
+decision to use force in a crisis. The president’s alternatives are:
+Do nothing;
+containment;
+apply sanctions;
+use force.
+The decision criteria or dimensions are: military, economic, political, and diplo-
+matic. The Decision Board software (http://www.decisionboard.org/academic) can
+help the analyst create decision matrixes easily. These can then be analyzed using
+the PH procedure. For a Decision Board application of decision-making processes
+of would-be suicide bombers, see Mintz and Saper (2005).
+II. Apply PH Calculations to the Decision Matrix
+PH theory predicts that alternatives that have a very negative value on the political
+dimension will be discarded first, while remaining alternatives will be evaluated
+based on rational calculations. Based on the PH procedure, the analyst eliminates
+from consideration alternatives that are harmful to the leader. For example, studies
+have shown that because political considerations are important to political leaders,
+then when the public strongly opposes doing nothing in the face of a foreign policy
+crisis, the leader is likely to refrain from adopting passive options such as Do
+Nothing. This is non-compensatory for the leader. Consequently, he is likely to
+consider pro-active options as Apply Sanctions, or Use Force. Brule and Mintz
+(2004) found strong empirical support for this thesis using data on U.S. uses of
+force in the post-World War II era.
+In the second stage of the decision, the president selects from the remaining
+alternatives, the alternative that has the best net gain on all dimensions (or on the
+dimension most important to the decision makerFa lexicographic decision strat-
+egy). Expected utility calculations take into account the values and the probabilities
+associated with each implication in the matrix in an attempt to select the alternative
+with the highest net gain. The ultimate decision then is a combination of discarding
+imfeasible alternatives in the first phase of the decision and selecting the best
+alternative from the subset of acceptable alternatives in the second phase of the
+decision.
+The articles in this symposium analyze, using PH theory, several important de-
+cisions:
+1. President Carter’s decision to attempt to rescue the American hostages in Iran
+(Brule, 2005)
+2. President Clinton’s decision to attack Kosovo (Redd, 2005)
+3. Decisions by authoritarian leaders (Kinne, 2005)
+Together, they show how one can utilize PH theory to explain and predict decisions
+by foreign and domestic leaders to use force, negotiate peace, avoid deploying
+ground forces, apply sanctions, or do nothing.
+References
+A STORINO-C OURTOIS, A., AND B. TRUSTY (2000) ‘‘Degrees of Difficulty: The Effect of Israeli Policy
+Shifts on Syrian Peace Decisions.’’ Journal of Conflict Resolution 44:359–377.
+BRULE, D. (2005) ‘‘Explaining and Forecasting Leaders’ Decisions: A Poliheuristic Analysis of the Iran
+Hostage Rescue Decision.’’ International Studies Perspectives 6:99–113.
+A LEX MINTZ 97
+BRULE, D., AND A. M INTZ (2004) ‘‘Public Opinion and Presidential Use of Force.’’ Paper presented at
+the Annual Meeting of the International Studies Association, Montreal, Canada, March.
+CHRISTENSEN, E. J. , AND J. M ARLOWE (2004) ‘‘Poliheuristic Decision-Making and the Character of
+State–Local Relations.’’ Paper presented at the Annual Meeting of the Academy of Management,
+New Orleans, August.
+CHRISTENSEN, E. J., AND S. B. R EDD (2004) ‘‘Bureaucrats vs. the Ballot Box in Foreign Policy Decision
+Making: An Experimental Analysis of the Bureaucratic Politics Model and the Poliheuristic
+Theory.’’ Journal of Conflict Resolution 48:69–90.
+CLARE, J. (2003) ‘‘Loss Aversion and Patterns of Israeli-Palestinian Interactions: A Noncompensatory
+Perspective.’’ Paper presented at the Annual Meeting of the International Studies Association,
+Portland, OR. February.
+DACEY, R. , AND L. C ARLSON (2004) ‘‘Traditional Decision Analysis and the Poliheuristic Theory of
+Foreign Policy Decision Making.’’ Journal of Conflict Resolution 48:38–55.
+DEROUEN, K. (2001) Politics, Economics and Presidential Use of Force Decision Making. Lewiston, NY: The
+Edwin Mellen Press.
+DEROUEN, K. (2003) ‘‘The Decision Not to Use Force at Dien Bien Phu.’’ In Integrating Cognitive and
+Rational Theories of Foreign Policy Decision Making, edited by A. Mintz, pp. 11–28. New York:
+Palgrave Macmillan.
+DEROUEN, K. , AND C. SPRECHER (2004) ‘‘Initial Crisis Reaction and Poliheuristic Theory.’’ Journal of
+Conflict Resolution 48:56–68.
+JAMES, P. , AND E. Z HANG (2004) ‘‘Chinese Choices: A Poliheuristic Analysis of Foreign Policy Crises:
+1950–1996.’’ Paper presented at the Annual Meeting of the International Studies Association,
+Montreal, Canada, March.
+KINNE, B. J. (2005) ‘‘Decision Making in Autocratic Regimes: A Poliheuristic Perspective.’’ International
+Studies Perspectives 6:114–128.
+MALEKI, A. (2002) ‘‘Decision Making in Iran’s Foreign Policy: A Heuristic Approach.’’ Journal of Social
+Affairs 73:39–53.
+MINTZ, A. (1993) ‘‘The Decision to Attack Iraq: A Noncompensatory Theory of Decision Making.’’
+Journal of Conflict Resolution 37:595–618.
+MINTZ, A. (1995) ‘‘The ‘Noncompensatory Principle’ of Coalition Formation.’’ Journal of Theoretical
+Politics 7.
+MINTZ, A., ed. (2003) Integrating Cognitive and Rational Theories of Foreign Policy Decision Making. New
+York: Palgrave Macmillan.
+MINTZ, A. (2004a) ‘‘How Do Leaders Make Decisions? A Poliheuristic Perspective.’’ Journal of Conflict
+Resolution 48:3–13.
+MINTZ, A. (2004b) ‘‘Foreign Policy Decision Making in Familiar and Unfamiliar Settings: An Exper-
+imental Study of High-Ranking Military Officers.’’ Journal of Conflict Resolution 48:91–104.
+MINTZ, A. (2004c) How Leaders Make Decisions. New Haven: United Nations Studies, Yale University.
+MINTZ, A., AND N. GEVA (1997) ‘‘The Poliheuristic Theory of Foreign Policy Decision Making.’’ In
+Decision Making on War and Peace: The Cognitive-Rational Debate, edited by N. Geva and A. Mintz,
+pp. 81–101. Boulder: Lynne Rienner.
+MINTZ, A., N. GEVA, S. REDD, AND A. CARNES (1997) ‘‘The Effect of Dynamic and Static Choice Sets on
+Political Decision Making: An Analysis Using the Decision Board Platform.’’ American Political
+Science Review 91:533–66.
+MINTZ, A. , AND S. MISHAL (2003) ‘‘Decision Matrixes and Outcomes: Explaining Arafat and Sharon’s
+Policy Alternatives and Dimensions During the Intifada.’’ Paper presented at the Gilman Con-
+ference on New Directions in International Relations, Yale University, February.
+MINTZ, A. , AND J. SAPER (2005) ‘‘How Suicide Bombers Think.’’ hhttp://www.yale.edu/unsy/i
+PAYNE, J., J. B ETTMAN, AND E. JOHNSON (1993) The Adaptive Decision Maker. Cambridge: Cambridge
+University Press.
+REDD, S. B. (2005) ‘‘The Influence of Advisers and Decision Strategies on Foreign Policy Choices:
+President Clinton’s Decision to Use Force in Kosovo.’’ International Studies Perspectives 6:129–150.
+SATHASIVAM, K. (2003) ‘‘No Other Choice: Pakistan’s Decision to Test the Bomb.’’ In Integrating Cog-
+nitive and Rational Theories of Foreign Policy Decision Making, edited by A. Mintz, pp. 55–76. New
+York: Palgrave Macmillan.
+TAYLOR-R OBINSON, M., AND S. R EDD (2003) ‘‘Framing the Poliheuristic Theory of Decision: The United
+Fruit Company and the 1954 U.S.-Led Coup in Guatemala.’’ In Integrating Cognitive and Rational
+Theories of Foreign Policy Decision Making, edited by A. Mintz, pp. 77–100. New York: Palgrave
+Macmillan.
+Poliheuristic Theory98

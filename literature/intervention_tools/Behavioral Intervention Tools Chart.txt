@@ -1,0 +1,167 @@
+
+Behavioral Intervention Tools Chart
+
+This tools chart presents information about behavioral intervention programs. The following four tabs include information and ratings on the technical rigor of the studies: (a) Quality of Design & Results, (b) Quality of Other Indicators, (c) Program Information, and (d) Additional Research.
+
+The chart includes information and ratings on the quality of research studies about different interventions, not ratings on the interventions themselves. The ratings are about study quality only. Additional columns on the chart describe the effect sizes, or results, for those studies. Users are expected to review the study quality ratings and effect size information together when interpreting the chart.
+
+The presence of a particular tool on the chart does not constitute endorsement and should not be viewed as a recommendation. All tools that meet the criteria for review are posted on the chart, regardless of results. The chart represents all tools that were reviewed, not those that were “approved.”
+
+Last updated: September 2021. Click here for a brief summary of the new and improved studies we've released.
+
+
+
+Legend
+Full BubbleConvincing evidence
+Half BubblePartially convincing evidence
+Empty BubbleUnconvincing evidence
+Null BubbleData unavailable
+NA   Not applicable
+Average ES
+*
+The average effect size includes at least one statistically significant individual effect size
+†
+An average effect size could not be reported because at least one individual effect size could not be calculated
+--
+No targeted (T), broader (B), or administrative (A) measures were submitted for this study
+
+FILTER RESULTS
+Target Behaviors
+Internalizing
+Externalizing
+Grade
+Pre-K
+Elementary (K-5)
+Middle School (6-8)
+High School (9-12)
+
+
+
+All
+	Title 	Study 	Study Type 	Study Design 	Average ES
+(Targeted)
+(Broader)
+(Administrative) 	Disaggregated ES
+Data Available 	Visual Analysis
+	Behavior Education Program (BEP) or Check-in/Check-out (CICO) 	Campbell & Anderson (2011) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Behavior Education Program (BEP) or Check-in/Check-out (CICO) 	Hawken & Horner (2003) 	Single Case 	Partially convincing evidence 	NA 	None 	Partially convincing evidence
+	Behavior Education Program (BEP) or Check-in/Check-out (CICO) 	Hawken et al. (2007) 	Single Case 	Partially convincing evidence 	NA 	None 	Partially convincing evidence
+	Behavior Education Program (BEP) or Check-in/Check-out (CICO) 	Mong et al. (2011) 	Single Case 	Partially convincing evidence 	NA 	None 	Convincing evidence
+	Behavior Education Program (BEP) or Check-in/Check-out (CICO) 	Todd et al. (2008) 	Single Case 	Partially convincing evidence 	NA 	None 	Convincing evidence
+	Breaks are Better 	Boyd & Anderson (2013) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Check & Connect 	Maynard et al. (2014) 	Group Design 	Convincing evidence 	-- (T)
+-- (B)
+† (A) 	None 	NA
+	Check & Connect 	Sinclair et al. (1998) 	Group Design 	Partially convincing evidence 	† (T)
+-- (B)
+† (A) 	None 	NA
+	Check & Connect 	Sinclair et al. (2005) 	Group Design 	Partially convincing evidence 	† (T)
+-- (B)
+-- (A) 	None 	NA
+	Check & Connect 	Strand & Lovrich (2014) 	Group Design 	Unconvincing evidence 	-- (T)
+-- (B)
+† (A) 	None 	NA
+	Check, Connect, and Expect 	Cheney et al. (2009) 	Group Design 	Partially convincing evidence 	0.20* (T)
+-- (B)
+-- (A) 	None 	NA
+	Choice as an Antecedent Intervention 	Dunlap et al. (1994) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Choice as an Antecedent Intervention 	Jolivette et al. (2001) 	Single Case 	Convincing evidence 	NA 	None 	Partially convincing evidence
+	Choice as an Antecedent Intervention 	Kern et al. (2001) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Choice as an Antecedent Intervention 	Kern et al. (2002) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Choice as an Antecedent Intervention 	Powell & Nelson (1997) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Choice as an Antecedent Intervention 	Rispoli et al. (2013) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Class-Wide Function-Related Intervention Teams (CW-FIT ) 	Kamps et al. (2015) 	Single Case 	Unconvincing evidence 	NA 	None 	Partially convincing evidence
+	Class-Wide Function-Related Intervention Teams (CW-FIT ) 	Kamps et al. (2011) 	Single Case 	Partially convincing evidence 	NA 	None 	Partially convincing evidence
+	Class-Wide Function-Related Intervention Teams (CW-FIT ) 	Schmidt (n.d.) 	Single Case 	Partially convincing evidence 	NA 	None 	Partially convincing evidence
+	Class-Wide Function-Related Intervention Teams (CW-FIT ) 	Wills et al. (draft paper) 	Group Design 	Convincing evidence 	† (T)
+-- (B)
+-- (A) 	None 	NA
+	Coping Power Program 	Lochman & Wells (2002); Lochman & Wells (2003) 	Group Design 	Partially convincing evidence 	† (T)
+† (B)
+-- (A) 	None 	NA
+	Coping Power Program 	Lochman & Wells (2002); Lochman & Wells (2004) 	Group Design 	Partially convincing evidence 	-- (T)
+† (B)
+-- (A) 	None 	NA
+	Coping Power Program 	Lochman et al. (2006) 	Group Design 	Partially convincing evidence 	-- (T)
+-- (B)
+-- (A) 	None 	NA
+	Coping Power Program 	Lochman, Boxmeyer et al. (2009); Lochman, Powell et al. (2009); Lochman et al. (2012) 	Group Design 	Partially convincing evidence 	-- (T)
+-- (B)
+-- (A) 	None 	NA
+	Coping Power Program 	Zonnevylle-Bender et al. (2007); van de Wiel et al. (2007) 	Group Design 	Convincing evidence 	0.17 (T)
+-- (B)
+-- (A) 	None 	NA
+	Daily Report Card 	Fabiano et al. (2010) 	Group Design 	Partially convincing evidence 	† (T)
+† (B)
+-- (A) 	None 	NA
+	Differential Reinforcement of Other Behavior (DRO) 	Didden et al. (1997) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Differential Reinforcement of Other Behavior (DRO) 	Flood & Wilder (2004) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Differential Reinforcement of Other Behavior (DRO) 	Haring & Kennedy (1990) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Differential Reinforcement of Other Behavior (DRO) 	Kennedy & Haring (1993) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Differential Reinforcement of Other Behavior (DRO) 	Luiselli et al. (1978) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Differential Reinforcement of Other Behavior (DRO) 	Vance et al. (2012) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Good Behavior Game 	Rebok et al. (1996) 	Group Design 	Partially convincing evidence 	-- (T)
+-- (B)
+-- (A) 	None 	NA
+	Group Contingency 	Donaldson et al. (2011) 	Single Case 	Partially convincing evidence 	NA 	None 	Convincing evidence
+	Group Contingency 	Kleinman & Saigh (2011) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Group Contingency 	Kowalewicz & Coffee (2014) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Group Contingency 	Lambert et al. (2015) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Group Contingency 	Ling et al. (2011) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Group Contingency 	Maggin et al. (2012) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Group Contingency 	Rodriguez & Anderson (2013) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Group Contingency 	Wright & McCurdy (2011) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Incredible Years Child Dinosaur Program 	Webster-Stratton & Hammond (1997) 	Group Design 	Convincing evidence 	† (T)
+-- (B)
+-- (A) 	None 	NA
+	Incredible Years Child Dinosaur Program 	Webster-Stratton et al. (2004) 	Group Design 	Convincing evidence 	0.49* (T)
+-- (B)
+-- (A) 	None 	NA
+	Learning Strategies Curriculum: Self-Advocacy Strategy 	Van Reusen et al. (1989) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Noncontingent Reinforcement 	Austin & Soeda (2008) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Noncontingent Reinforcement 	Ingvarrson et al. (2008) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Noncontingent Reinforcement 	Jones et al. (2000) 	Single Case 	Partially convincing evidence 	NA 	None 	Partially convincing evidence
+	Noncontingent Reinforcement 	Rasmussen & O'Neil (2006) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Noncontingent Reinforcement 	Tomlin & Reed (2012) 	Single Case 	Partially convincing evidence 	NA 	None 	Partially convincing evidence
+	Noncontingent Reinforcement 	Van Camp et al. (2000) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Noncontingent Reinforcement 	Waller & Higbee (2010) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Opportunities to Respond 	Armendariz & Umbreit (1999) 	Single Case 	Partially convincing evidence 	NA 	None 	Partially convincing evidence
+	Opportunities to Respond 	Christle & Schuster (2003) 	Single Case 	Partially convincing evidence 	NA 	None 	Partially convincing evidence
+	Opportunities to Respond 	Davis & O'Neil (2004) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Opportunities to Respond 	Lambert et al. (2006) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Opportunities to Respond 	Maheady et al. (2002) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Opportunities to Respond 	Munro & Stephenson (2009) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Opportunities to Respond 	Narayan et al. (1990) 	Single Case 	Convincing evidence 	NA 	None 	Partially convincing evidence
+	Self Management 	Amato-Zech et al. (2006) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Self Management 	Barry & Messer (2003) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Self Management 	Harris et al. (2005) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Self Management 	Levendoski & Cartledge (2000) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Self Management 	Moore et al. (2011) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Self Management 	Rock & Thread (2007) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Self Management 	Wolfe et al. (2000) 	Single Case 	Convincing evidence 	NA 	None 	Partially convincing evidence
+	Self Management 	Wood et al. (2002) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Skillstreaming 	Ciechalski & Schmidt (1995) 	Group Design 	Partially convincing evidence 	-- (T)
+-- (B)
+-- (A) 	None 	NA
+	Social Skills Strategies: The LEARN Strategy, a Cooperative Thinking Strategy 	Vernon (2020) 	Group Design 	Partially convincing evidence 	† (T)
+-- (B)
+-- (A) 	≤20th Percentile 	NA
+	Token Economy 	Broden et al. (1970) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Token Economy 	Christensen et al. (2004) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Token Economy 	O'Leary et al. (1969) 	Single Case 	Convincing evidence 	NA 	None 	Partially convincing evidence
+	Token Economy 	Salend & Gordon (1987) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Token Economy 	Shook et al. (1990) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Token Economy 	Smith et al. (1988) 	Single Case 	Partially convincing evidence 	NA 	None 	Partially convincing evidence
+	Token Economy 	Sulivan & O'Leary (1990) 	Single Case 	Convincing evidence 	NA 	None 	Partially convincing evidence
+	Token Economy 	Walker et al. (1976) 	Single Case 	Partially convincing evidence 	NA 	None 	Partially convincing evidence
+	Video Modeling 	Axelrod et al. (2014) 	Single Case 	Partially convincing evidence 	NA 	None 	Partially convincing evidence
+	Video Modeling 	Clare et al. (2000) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Video Modeling 	Clees & Greene (2014) 	Single Case 	Partially convincing evidence 	NA 	None 	Partially convincing evidence
+	Video Modeling 	Hartley et al. (1998) 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Video Modeling 	Kern et al. (1995) Experiment 1 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Video Modeling 	Kern et al. (1995) Experiment 2 	Single Case 	Convincing evidence 	NA 	None 	Convincing evidence
+	Video Modeling 	Kern-Dunlap et al. (1992) 	Single Case 	Partially convincing evidence 	NA 	None 	Partially convincing evidence
+
+The National Center on Intensive Intervention publishes this chart to assist educators and families in becoming informed consumers who can select behavioral interventions that best meet their individual needs.
+
+The Center's Technical Review Committee (TRC) on Behavioral Intervention independently established a set of criteria for evaluating the scientific rigor of studies demonstrating the efficacy of behavioral intervention programs. The TRC rated each submitted study against these criteria but did not compare it to other studies on the chart. The presence of a particular program on the chart does not constitute endorsement and should not be viewed as a recommendation from either the TRC on Behavior Intervention or the National Center on Intensive Intervention.

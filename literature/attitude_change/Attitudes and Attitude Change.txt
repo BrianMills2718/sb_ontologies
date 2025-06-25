@@ -1,0 +1,1453 @@
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39Annual Review of Psychology
+Attitudes and Attitude Change
+Dolores Albarracin and Sharon Shavitt
+Department of Psychology and Department of Business Administration,
+University of Illinois at Urbana-Champaign, Champaign, Illinois 61822;
+email: dalbarra@illinois.edu, shavitt@illinois.edu
+Annu. Rev. Psychol. 2018. 69:299–327
+First published as a Review in Advance on August
+25, 2017
+The Annual Review of Psychology is online at
+psych.annualreviews.org
+https://doi.org/10.1146/annurev-psych-122216-
+011911
+Copyright c© 2018 by Annual Reviews.
+All rights reserved
+Keywords
+attitude, persuasion, evaluative judgment, opinion, belief, goal, culture
+Abstract
+This review covers research on attitudes and attitude change published be-
+tween 2010 and 2017. We characterize this period as one of significant
+progress toward an understanding of how attitudes form and change in three
+critical contexts. The first context is the person, as attitudes change in con-
+nection to values, general goals, language, emotions, and human develop-
+ment. The second context is social relationships, which link attitude change
+to the communicator of persuasive messages, social media, and culture. The
+third context is sociohistorical and highlights the influence of unique events,
+including sociopolitical, economic, and climatic occurrences. In conclusion,
+many important recent findings reflect the fact that holism, with a focus on
+situating attitudes within their personal, social, and historical contexts, has
+become the zeitgeist of attitude research during this period.
+299
+Click here to view this article's
+online features:
+• Download figures as PPT slides
+• Navigate linked references
+• Download citations
+• Explore related articles
+• Search keywords
+ANNUAL
+REVIEWS Further
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39Attitude: a person’s
+evaluation of an object
+on a favorable to
+unfavorable
+continuum
+Value: attitude
+toward an abstract
+entity
+Contents
+THE MEANING OF AND INTEREST IN ATTITUDES . . . . . . . . . . . . . . . . . . . . . . . . 300
+ATTITUDE CHANGE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 301
+TOWARD A HOLISTIC UNDERSTANDING OF ATTITUDES . . . . . . . . . . . . . . . . 304
+The Person as Context . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 304
+The Social Context . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 312
+The Historical Context . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 314
+CONCLUSION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 319
+THE MEANING OF AND INTEREST IN ATTITUDES
+The study of attitudes is the study of evaluations, and it has been part of social psychology since
+that field first emerged with Thomas & Znaniecki’s (1918–1920) The Polish Peasant in Europe and
+America. The term attitude was initially used by Jung (1923) in his writing about psychological
+types to describe a readiness to respond, a definition later incorporated by Allport (1935). However,
+as there are no guarantees that, for example, liking a political candidate will yield support for that
+candidate at the polls, overt behavioral responses are no longer part of the definition of attitudes.
+Rather, the attitude–behavior relationship is best seen an empirical question outside the definition
+of attitude, a definition that simply focuses on the evaluative nature of attitudes as favor or disfavor.
+Attitudes have a subject matter (referred to as the object or target), which can be an object,
+a person, or an abstract idea. Attitudes are thus relevant to many disciplines, including market-
+ing (e.g., attitudes toward products), advertising (e.g., attitudes toward advertisements), political
+behavior (e.g., attitudes toward political candidates, parties, or voting), and health (e.g., attitudes
+toward protective behaviors, new medications, or the health system). Attitudes toward other peo-
+ple are studied in the domain of interpersonal liking, attitudes toward the self in the domain of
+self-esteem, and attitudes toward abstract ideas in the domain of values. Attitudes can be spe-
+cific, or they can generalize across objects, with people holding attitudes that are either generally
+positive or generally negative (Hepler & Albarrac´ın 2013). The contemporary representation of
+a hater comes to mind when we consider general attitudes, which are dispositional evaluations
+irrespective of the object.
+Attitudes can be measured by simply asking respondents to report their attitudes or by inferring
+attitudes from spontaneous evaluative reactions to the presentation of the attitude object (see Ehret
+et al. 2015). Indirect measures of attitudes, referred to as implicit measures, are designed to assess
+automatic evaluations that may be dissociated from the explicit, self-report measures but may
+still predict behavior in some contexts (e.g., Sheets et al. 2011, Stanley et al. 2011). Although
+the introduction of implicit measures has probably been the most notable change in attitude
+research over the past two decades, interest in attitudes has remained fairly stable over time. A
+search for research on attitudes in the Journal of Personality and Social Psychology since its first
+publication shows ongoing interest. Specifically, in an analysis of one issue in every five years
+since the journal’s inception, a count of articles whose abstracts mention attitude, persuasion,
+belief, opinion, or evaluative judgments reveals that such articles comprise a fairly steady 20% of
+publications. As shown in Figure 1, there is sustained and long-standing scholarship in this area
+over the course of no less than six decades.
+Covering the vast field of attitudes within the space constraints of this review is a challenge. We
+therefore make important choices, focusing on the literature published between 2010 and 2017,
+300 Albarracin ·Shavitt
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:390.24
+0.32
+0.19 0.18
+0.16
+0.13
+0.17
+0.11
+0.14
+0.21
+0.17
+0.00
+0.05
+0.10
+0.15
+0.20
+0.25
+0.30
+0.35
+1965 1970 1975 1980 1985 1990 1995 2000 2005 2010 2015
+Year
+Proportion
+Figure 1
+Proportion of articles in the Journal of Personality and Social Psychology whose abstracts mention attitude,
+persuasion, belief, opinion, or evaluative judgment.
+Attitude change:
+movement from one
+evaluative category to
+another (e.g., favor to
+disfavor)
+to continue where coverage ended in a previous Annual Review of Psychology article on attitudes and
+attitude change (Bohner & Dickel 2011). We performed several systematic PsycINFO searches,
+using attitude change as a keyword to search all psychological outlets and attitude as a keyword
+to search social psychological outlets. We also conducted more targeted PsycINFO searches for
+attitude and value, attitude and goal, attitude and emotion, attitude and metaphor, attitude and
+language, attitude and source, and attitude and network. For areas with multidisciplinary appeal,
+we searched Google Scholar and included other behavioral science outlets (e.g., in consumer
+behavior). This review is intended to identify contributions about generational and developmental
+effects on attitudes, historical effects on attitudes, and the cultural context of attitudes. Regrettably,
+space constraints prohibit us from covering some important areas, including the vast literatures on
+prejudice and on evolutionary influences on cognition and motivation, even though they sometimes
+address attitudes and attitude change. We are confident that other reviews will fill these gaps.
+ATTITUDE CHANGE
+On our optimistic days, we assume that our children will enjoy cleaning their rooms and that
+American citizens will support the right candidate and actually vote on election day. Likewise,
+public policy makers continue to search for the optimal fear appeal to curb smoking, scientists
+hope for representatives’ understanding and approval of research funding, and fundraisers seek
+ways of increasing philanthropy and support for valuable causes. In other words, we all hope for
+the right attitudes and count on attitude change and behavior in a myriad of socially relevant areas.
+But what can we say about how much attitudes actually change?
+One approach to addressing this question is conceptual: The degree of attitude change depends
+on whether one adopts a theoretical conceptualization of attitudes as being crystallized in memory,
+as in-the-moment evaluations, or as hybrid structures. When attitudes are defined as a fixed
+memory, stored permanently for later retrieval when the opportunity and the need arise, change
+is difficult to explain. When attitudes are defined as constructed based on temporary considerations,
+such as the perceiver’s mood at a particular time (Schuldt et al. 2011), attitudes are always changing.
+www.annualreviews.org • Attitudes and Attitude Change 301
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39Most likely, attitudes are partly memory based and partly constructed on the fly (Albarracin et al.
+2005), which would be consistent with a contemporary understanding of information processing
+as a neural network in which activation patterns stem from situational constraints as well as chronic
+connection weights (see Calanchini & Sherman 2013, van Bavel et al. 2012). This hybrid model
+allows for attitude stability as well as change.
+The second approach to degree of change is to answer the question asked by policy makers and
+other stakeholders: If we measure attitudes at two points in time, how much of a difference will we
+notice? All studies of attitude change are relevant to this question, with meta-analyses providing
+appropriate estimates of average change in response to communications or interventions. Recent
+research includes experiments designed to produce attitude change in the laboratory, as well as
+interventions conducted in the field. The area of intergroup attitudes provides examples of how
+much change we can expect. In laboratory studies, even simply imagining intergroup contact
+appears to shift evaluations (Miles & Crisp 2014). A synthesis of research in which participants
+were asked to imagine contact with an outgroup member revealed d = 0.36 for explicit attitudes
+(U3 = 64%) and d = 0.31 for implicit attitudes (U3 = 62%) (Miles & Crisp 2014). These
+results reveal that 14% of participants who imagined outgroup contact were likely to have more
+positive explicit attitudes than those who did not imagine. Correspondingly, 12% of participants
+who imagined outgroup contact were likely to have more positive implicit attitudes than those
+who did not imagine.
+A meta-analysis by Lemmer & Wagner (2015) focused on field interventions to reduce inter-
+group conflict that introduced contact between two ethnic groups. This meta-analysis revealed
+that, immediately after contact, approximately 61% of the participants in the interventions had
+positive intergroup attitudes, versus 50% of those participants not having contact (d = 0.28,
+U3 = 61%). Diversity training, often implemented in organizational settings, has similar effects
+on attitudes (d = 0.23, U3 = 59%; Kalinoski et al. 2013). In conclusion, some attitude change is
+possible even in domains that are traditionally resistant to change.
+Many programs designed for the real world pursue changes in behavior and often do not
+measure changes in attitudes. However, a recent meta-analysis (Tyson et al. 2014) assessed atti-
+tude change in response to interventions to reduce risky sexual behavior both immediately after
+the intervention and following a delay. Regardless of the time of assessment, the effect of the
+interventions was d = 0.257, which implies that 60% of the recipients experienced change fol-
+lowing the intervention, versus 50% in the absence of an intervention. Another meta-analysis
+(Steinmetz et al. 2016) was conducted to measure the average effect of interventions designed
+on the basis of the theory of planned behavior (Ajzen & Madden 1986) and yielded similar
+conclusions. The domains of these programs varied greatly. Of the interventions, 33% tar-
+geted physical activity, 19% nutrition, 16% work or study issues (e.g., ergonomic behaviors,
+stress management), 11% alcohol and drug use, 8% adherence to medical regimens, 7% driv-
+ing behavior, 4% sexual behavior, and 2% hygiene. On average, these programs were associ-
+ated with a d = 0.24 for attitude change, an effect size that can be visualized by thinking that
+59% of intervention recipients were likely to have more positive attitudes relative to 50% of the
+nonrecipients.
+Research conducted in the laboratory can often obtain stronger effects than field studies for
+several reasons, including better control of distraction and reduced random error. During the past
+few years, a synthesis of experimental research on fear appeals was conducted to demonstrate the
+extent to which fear could lead to attitude, intention, and behavior change (Tannenbaum et al.
+2015). In this synthesis, the researchers compared messages designed to induce a high level of
+fear in such diverse areas as health, financial decisions, and driving safety. The results for attitudes
+showed an average change of d = 0.20 (U3 = 57%).
+302 Albarracin ·Shavitt
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39All in all, attitude change based on interventions or messages delivered at a particular time
+hovers around d = 0.22, which is a small effect. However, this change may, in some cases, be
+quite durable, as beliefs and attitudes have been known to persist despite attempts at correction (for
+a recent treatment of these issues, see Chan et al. 2017). Motivated cognition suggests that attitudes
+and beliefs that are consistent with other values are likely to persist. Defensive cognitive processes
+can be recruited to protect the attitudes and beliefs, particularly when accuracy motivation is low
+(Hart et al. 2009), and people set high thresholds of evidence to refute cherished points of view
+(Hart et al. 2009). Belief persistence, however, obeys other mechanisms, as well. For example,
+Ecker and colleagues (2014) introduced the belief that the suspect of a crime scenario was an
+Australian Aboriginal. The degree of later correction of this information, however, was unrelated
+to prejudice, suggesting the involvement of nonmotivational processes. Moreover, initial beliefs
+persist more when people generate reasons why the initial information is true but correspondingly
+less when they generate reasons why alternate scenarios might be true (Chan et al. 2017). A mental
+model of reasoning (Chan et al. 2017) details how people construct a web of mental models
+from which they derive causal conclusions. New information tends to produce new or extended
+models of explanation without leading people to discard key information not explained by the
+new model (Chan et al. 2017). Therefore, effective corrections must provide a causal alternative
+to fully explain mental models. For example, effective corrections of climate change denial must
+account for random variability in temperature in addition to introducing fossil fuel burning as the
+explanation for systematic temperature increases ( Jamieson & Hardy 2014).
+Attitudes are of particular concern in the area of climate change, where scholars and practi-
+tioners are investigating the potential for reducing climate change denial. Recent research has
+wrestled with the irony of strong extant climatological evidence accompanied by public disbelief
+and denial (Mercier 2016, Mercier & Sperber 2011). Naturally, cultural representations can be
+slow to align with scientific evidence, but progress has been made in other areas, including public
+acceptance of the health dangers of smoking (Ranney & Clark 2016). An apparent roadblock to
+aligning attitudes with scientific evidence is difficulties in teaching audiences about the mecha-
+nisms of global warming. In a series of experiments (Ranney & Clark 2016), participants were
+instructed about climate change mechanisms and completed measures of knowledge and beliefs
+before and after the instruction. Effects on knowledge were easy to obtain in most areas and were
+also large following instruction about climate change mechanisms (Ranney & Clark 2016). Belief
+change was also quite large, with 99% of the participants accepting climate change postinstruction
+relative to 50% preinstruction (Ranney & Clark 2016, experiment 2; U3 = 99). Of course, this
+is a relatively simple belief change, as opposed to the aforementioned attempts at changing more
+complex intergroup attitudes or health behaviors.
+A sustained interest in the study of implicit attitudes has generated fascinating demonstrations
+of the effects of unique and historic events. The election of Barack Obama to the US presidency
+was such an event and provided the perfect natural experiment for the study of implicit racial
+attitudes as a function of media display of a Black person occupying a high-status position (Roos
+et al. 2013). This work was conducted in the United States and in Canada, assuming differential
+media coverage and, therefore, differential attitude change following the 2008 election (Roos
+et al. 2013). Implicit attitudes were measured using evaluative priming, a procedure that connects
+spontaneous activation of positive versus negative concepts to a stimulus—in this case, Black and
+White faces. Our calculation of the degree of change the authors observed in the United States
+reveals d = 0.55 and Cohen’s U3 = 71%. This sizable effect implies that US implicit attitudes
+toward Blacks were 21% more positive after the election than before it.
+Changes in implicit attitudes are promising, although still not an assurance of changes in
+behavior. In particular, a meta-analysis of implicit attitudes as predictors of behavior revealed an
+www.annualreviews.org • Attitudes and Attitude Change 303
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39average correlation r of 0.15 or 0.12 for racial and intergroup attitudes (Oswald et al. 2015). These
+attitudes were measured using the implicit association test (Greenwald et al. 2015), developed and
+refined in prior decades with the goal of circumventing social desirability concerns and the common
+reluctance to express prejudicial attitudes. Although earlier estimates of these associations were
+only moderately higher (r = 0.24 and r = 0.20 for racial and intergroup attitudes, respectively;
+Greenwald et al. 2009), the recent low associations suggest minimally consequential changes, at
+least with the current measurement instruments (Oswald et al. 2015; see also Greenwald et al.
+2015). Cameron et al. (2012), Galdi et al. (2012), and Meissner & Rothermund (2013) provide
+analyses of other implicit measures.
+TOWARD A HOLISTIC UNDERSTANDING OF ATTITUDES
+The longstanding research interest in attitudes has uncovered many details about the cognitive and
+motivational processes of attitude formation, attitude change, attitude–behavior correspondence,
+and persuasion. A careful look at the most recent work brings to light some qualitative changes in
+the scientific agenda in recent years, i.e., a shift from a focus on microprocesses to a more holistic,
+contemporary understanding of attitudes as they exist in three fundamental contexts: (a) the person
+as a whole, in relation to values, broad goals, language, emotions, other attitudes, and the lifespan;
+(b) the social context, including communicators, as well as social media and social networks; and
+(c) the broad context, particularly the sociohistorical context, in relation to the generational,
+cultural, and historical backdrop of attitudes.
+The Person as Context
+The first context is that of the person as a whole. In this section, we consider the powerful role of
+a person’s values, general goals, emotions, linguistic processes, evaluative processes, life span and
+developmental aspects, and temporal and spatial context in shaping their attitudes and persuasion
+processes.
+The context of values. Attitude scholars have traditionally had an interest in values, defined
+as attitudes toward abstract entities. For instance, a person with universalist values probably has
+a favorable attitude toward policies that foster equality; a person with security values is likely
+to favor policies that assure safety and stability in their environment. These values exist within
+a motivational structure that often links values to support for particular policies (e.g., Schwartz
+et al. 2012), although the influence of values is often tempered by other considerations. Over the
+past several years, interest in values has burgeoned.
+A series of recent experiments (Wolsko et al. 2016) has provided a compelling demonstration of
+how linking a specific advocacy to broad values can shift attitudes toward a policy. When it comes
+to environmental attitudes, liberals see damage to the environment as an injustice, which easily
+connects with liberals’ preoccupation with harm and care. Media messages about environmental
+issues advocate these values, which leaves these communications in a situation of preaching to the
+choir while neglecting the unconverted (Feinberg & Willer 2013, Wolsko et al. 2016). Wolsko
+and colleagues (2016) designed a series of studies crossing liberal and conservative ideologies with
+environmental messages that appealed to either individualizing or binding morals. Individualizing
+values include concern about caring, nurturing, and protecting vulnerable individuals from harm.
+For instance, a statement of individualizing values might be, “Show your love for all of humanity
+and the world in which we live by helping to care for our vulnerable natural environment” (Wolsko
+et al. 2016, p. 9). Binding values involve ingroup loyalty, authority, respect, and purity or sanctity.
+304 Albarracin ·Shavitt
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39Norm: shared societal
+or situational
+expectations that can
+shape attitudes and
+guide behavior
+For instance, a statement of binding values might be, “Show you love your country by joining the
+fight to protect the purity of America’s natural environment” (Wolsko et al. 2016, p. 9).
+The results from four experiments converged on the conclusion that liberals had equally strong
+intentions toward conservation regardless of the type of appeal they received. In contrast, con-
+servatives had stronger intentions after receiving the binding message than after receiving either
+the individualizing message or a control message. Attitudes toward climate change were also mea-
+sured by asking participants to rate statements such as, “The seriousness of climate change is
+exaggerated.” As with intentions, the attitudes of liberals were similarly in favor of policies to
+counter climate change in the individualizing, binding, and control conditions alike. The attitudes
+of conservatives, however, were more positive in the binding condition than in the individualizing
+or control conditions.
+Within the spectrum of conservative ideology, the influence of values on attitudes appears to
+interact with prevailing social norms. Research conducted by Oyamot et al. (2012) considered this
+possibility in a large experiment conducted via a phone survey of a diverse US sample. Authoritarian
+upbringing was gauged by endorsement of respect and obedience (versus independence and self-
+reliance). Attitudes toward immigrants were measured with reports of feelings toward legal immi-
+grants, which correlated negatively with authoritarian upbringing. Furthermore, participants were
+informed that Americans’ feelings were generally positive, mixed, or negative toward immigrants—
+a manipulation of social norms. The effects of these norms on attitudes depended not only on
+authoritarian upbringing but also on participants’ current level of humanitarian values, measured
+with items such as, “Those who are unable to provide for their basic needs should be helped by
+others.” Among participants reporting a more authoritarian upbringing, those with more human-
+itarian values exposed to the mixed norm reported more liking for immigrants than in the other
+conditions. Participants with authoritarian upbringing, however, reported more dislike for immi-
+grants when exposed to the negative norm. Overall, then, humanitarian values attenuated xeno-
+phobic attitudes when the norm was mixed but increased xenophobia when the norm was negative.
+Just as certain values modulate the impact of conservative social norms, values can also govern
+the impact of conservative advocacies. In particular, egalitarian values are often invoked to oppose
+affirmative action policies that recommend paying attention to traditionally underrepresented
+groups in educational and work settings. Therefore, invoking these values can increase the per-
+suasiveness of communications condemning affirmative action. Research conducted by Blakenship
+et al. (2012) has shown that general messages about the value of equality were more successful at
+decreasing support for affirmative action than were messages directly attacking affirmative action.
+Furthermore, when values were easily accessible from memory, highlighting them had little effect.
+However, when values were not easily accessible, bringing them to mind decreased acceptance of
+affirmative action policies (Blankenship et al. 2015).
+Both self-interest values and moral values can legitimize attitudes and make it subjectively
+appropriate to act on those attitudes (Miller & Effron 2010). One basis for this legitimacy is the
+personal relevance of an issue. For example, gay marriage is personally relevant to gays and lesbians
+who are likely to experience direct consequences from the policy. In addition, moral values can
+legitimize action independently of material self-interest (Effron & Miller 2012). In line with a
+moral legitimacy effect, participants reported feeling more comfortable taking action on policies
+that were not materially relevant to them (e.g., pro-choice issues for males) when they moralized
+the issue (Effron & Miller 2012).
+Even though moral values and material self-interest can both guide attitudes, the relative weight
+of each interest type can be impacted by temporal distance. A persuasive message presented to
+non-White college students announced a reduction of financial aid for minority students (Hunt
+et al. 2010). The students were told that reduction would either take effect immediately or be
+www.annualreviews.org • Attitudes and Attitude Change 305
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39General action goal:
+effortful end state that
+can be satisfied by
+various cognitive and
+physical behavioral
+means
+implemented a year later, thus varying temporal distance to be either short or long. Self-interest was
+measured as financial strain, and values were measured as social dominance orientation. According
+to construal level theory (Wakslak et al. 2007), psychological distance alters the basis for decisions.
+When considering imminent decisions, concrete, material considerations receive more weight. In
+contrast, when considering delayed situations, abstract considerations receive more weight. As
+predicted, when the policy was to be effective immediately, material self-interest was the primary
+motivation for opposing the policy. However, when the policy was less imminent, political values
+were the primary driver of the opposition.
+Abstract values are appropriate guides for attitudes in a number of contexts. Research conducted
+in Brazil, New Zealand, and South Africa provided a unique demonstration of the value-to-attitude
+pathways, as well as the fact that attitudes act as partial mediators of the influence of values on
+behavior (Milfont et al. 2010). Across countries, self-interest values predicted negative attitudes
+toward environmental issues, whereas altruistic values predicted favorable attitudes toward en-
+vironmental issues. These attitudes had a moderate association with environmental behavior, an
+association that included the indirect effect of altruistic (but not self-interest) values. Overall, then,
+this work is another demonstration that attitudes are embedded within a network of values that
+must be taken into account to understand the influence of attitudes on behavior.
+The context of goals. Attitudes can be brought to mind in the service of action goals, as in
+the case when considering a behavioral goal reminds us of what we like and dislike about the
+execution and outcomes of the behavior. General action and inaction goals are a particular type of
+overly general goal that have received research attention in the past few years. General action has
+been defined as motor or cognitive output, and general inaction has been defined as the lack of
+action (Albarrac´ın & Handley 2011, Albarrac´ın et al. 2008). The action end of the action–inaction
+continuum comprises intense or frequent motor and cognitive behavior, whereas the inaction end
+comprises neither motor nor cognitive behavior (e.g., non-REM sleep). The action end includes
+important, well-planned, effortful behaviors such as acquiring knowledge, as well as seemingly
+undemanding behaviors such as eating when food is present. General action and general inaction
+can be set to guide people toward activity or inactivity end-states, respectively, which are, in turn,
+achieved by temporarily accessible or chronically available behavioral means. These action and
+inaction goals have important implications for attitude activation and change.
+In research conducted by Albarrac´ın & Handley (2011), experimental participants primed
+with general action or inaction goals reported prior attitudes toward a topic after being (versus
+not being) forewarned that they would receive a message about a topic. The role of general goals
+becomes clear in association with the more specific goals people have in the moment (Albarrac´ın &
+Handley 2011). Therefore, when people activate a general action goal in the context of processing
+a persuasive communication, the general action goal may be fulfilled by the specific goal of thinking
+about prior attitudes. Thus, prior attitudes are likely to become more accessible and, in turn, block
+the influence of the message.
+Albarrac´ın & Handley (2011) tested various aspects of the influence of general action goals
+on attitude accessibility and change. Participants previously primed with action (e.g., go), control
+(e.g., pear), or inaction (e.g., rest) words completed measures of attitudes toward gun control or
+euthanasia after they had or had not been forewarned that they would receive a persuasive mes-
+sage about either gun control or euthanasia. Findings indicated that attitudes that were relevant
+to the message were reported faster in action than in inaction goal conditions, whereas irrele-
+vant attitudes were not affected. Further studies showed less attitude change when forewarned
+participants were primed with action than when they were primed with inaction and that action
+goals generally decreased elaborative processing of the persuasive message. Unfortunately, some
+306 Albarracin ·Shavitt
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39of these experiments had low statistical power, an issue that has been linked to false positives only
+in recent years (Simmons et al. 2011). Therefore, further research in this area is important to,
+first, identify strong manipulations and, then, implement designs that maximize statistical power.
+Research on attitudes has also uncovered broad evaluative responses toward action and inaction.
+All else equal, people appear to evaluate action more favorably than inaction. Words like action
+are evaluated to be more positive than words of inaction, even when the inaction word is one
+with pleasant connotations, such as calm (McCulloch et al. 2012). It may, therefore, be adaptive
+for social groups to instill favorable attitudes toward action, leading to action being positive by
+default. This pattern, however, is associated with Christian beliefs, suggesting that part of the
+action positivity effect derives from the overgeneralization of an ethic in which work is virtuous
+and inactivity is sinful.
+Even though unspecified action is generally perceived to be positive, a switch in norms may
+lead perceivers to refocus and reevaluate action and inaction. When action is described as positive
+within a particular investment firm, participants who make financial decisions regret losing after
+not investing more than losing after investing (Feldman & Albarrac´ın 2016). In contrast, when
+inaction is described as positive within a particular investment firm, participants who make financial
+decisions regret losing after investing more than losing after not investing (Feldman & Albarrac´ın
+2016). Therefore, despite an overall favoring of action, people are highly sensitive to normative
+information and can shift their evaluations according to the context.
+The context of language. Another area receiving considerable attention concerns linguistic
+processes that affect attitude formation as well as attitude–behavior correspondence. The use
+of metaphors and their impact on attitudes is one important focus of investigation. For instance,
+reading about the police as either guardians or warriors led to, respectively, more and less liking for
+the police (Thibodeau et al. 2017). These effects were due to metaphors operating as an explanatory
+device rather than simply activating semantic concepts with different evaluative implications.
+Interestingly, the use of metaphors is apparently dependent on the degree of psychological
+distance (Liberman & Trope 1998) of the object or situation being explained. Given that metaphors
+are used in explanation of abstract rather than concrete concepts, greater psychological distance
+from a concept should increase the likelihood of using metaphors for explanation. Furthermore,
+people may actively seek metaphors more often to understand psychologically distant concepts
+than psychologically close concepts ( Jia & Smith 2013). The metaphor that an influx of immigrants
+is analogous to physical contamination of the body leads to negative attitudes toward immigration.
+However, this metaphorical impact is stronger when people think about immigration a year in the
+future than when they think about immigration a day in the future ( Jia & Smith 2013).
+Recent research has also shed new light on the role of self-talk, or inner speech, in attitude
+formation, as well as its role as a precursor of behavioral performance. The majority of adults
+report engaging in an ongoing internal dialogue, or self-talk, generally covertly. People may re-
+peat sentences (e.g., “You/I can do it!” “Stay focused!”) if they believe this speech will motivate
+them (Dolcos & Albarracin 2014). The structure of this talk, particularly the effects of the use
+of the first or second person in self-talk as well as the role of self-posed questions, is begin-
+ning to be the subject of research. When people face challenges or when their past behavior
+has yielded undesirable outcomes, the self splits into a speaker and a receiver, leading to ad-
+dressing the self in the second person (Zell et al. 2012a). This form of second-person self-talk
+is supposedly beneficial for self-regulation because it resembles the form of external control ex-
+perienced by children (Dolcos & Albarracin 2014, Zell et al. 2012a). Therefore, such self-talk is
+probably a natural way of controlling behavior later in life (Dolcos & Albarracin 2014, Zell et al.
+2012b).
+www.annualreviews.org • Attitudes and Attitude Change 307
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39Self-talk:
+self-directed inner
+speech, often designed
+to control behavior
+In research conducted by Dolcos & Albarracin (2014), participants were randomly assigned to
+one of two experimental groups (i.e., You or I self-talk conditions) or to a control group. Partici-
+pants were then given the opportunity to choose to work on anagrams and received instructions
+to prepare for the task by writing self-directed advice. Participants in the control condition com-
+pleted the anagrams without this type of preparation. As the researchers predicted, participants
+who prepared for the anagram task using sentences beginning with “You” performed better on
+the task than participants who wrote sentences beginning with “I” or participants in the control
+condition. More importantly for this review, attitudes followed the pattern of behavioral perfor-
+mance and were mediators of the effect of the second-person self-talk. These results imply that,
+even though second-person self-talk is more commanding that first-person self-talk, the impact of
+the second person still resembles that of intrinsic motivation. Research on self-talk has also been
+conducted in the area of social anxiety (Kross et al. 2014) and promises to generate important
+insights in the years to come.
+How people use verbs has been another focus of attention in the area of attitudes, particularly
+with respect to the use of past and present and their influence on attitude–behavior correspondence.
+For example, if people recount a past experience drinking alcohol, does using the present or the
+past tense affect reliance on past behavior as a basis for intentions to drink again in the future?
+Carrera and colleagues (2012) sought answers to this very question. In their work, participants
+wrote a description about alcohol drinking using either the simple past or the present tense.
+They also reported their attitudes toward drinking and their intentions to drink again in the
+future, as well as the frequency of past alcohol drinking. Consistent with the possibility that the
+past involves greater psychological distance than the present, attitudes predicted intentions better
+when drinking was described in the past tense than when it was described in the present tense.
+In contrast, past behavior predicted intentions better when drinking was described in the present
+tense than when it was described in the past tense.
+The context of emotions. Even though emotions are relevant to many attitude domains (see
+Clore & Schnall 2005), they appear to be particularly relevant to political attitudes of various
+types. For example, during times of war, presidential approval, an attitude toward the president’s
+performance, can depend on the specific emotions of anger and anxiety (Lambert et al. 2010). The
+term “rally around the flag” describes political situations in which an external threat enhances
+support for an otherwise unappreciated right-leaning president. In Argentina, General Galtieri
+was president toward the end of a drawn-out military dictatorship responsible for international
+isolation, 30,000 missing people, and a large number of political prisoners. When he went to
+war against the United Kingdom, however, his approval rating soared, and supportive citizens
+filled May Square in Buenos Aires. Likewise, in the United States, George W. Bush enjoyed a
+similar trajectory when his approval ratings moved from 39% to 90% following the attacks on
+September 11, 2001. According to Lambert and colleagues (2010), the impact of 9/11 on attitudes
+toward Bush was mediated by corresponding increases in anger and anxiety. In an experimental
+presentation of 9/11 footage years after the event, participants’ retrospective approval of Bush was
+higher after the 9/11 video than after a control video, and these attitudes were mediated by the
+specific emotions of anger and anxiety, whereas more general negative emotions had no influence
+(Lambert et al. 2010).
+Emotion regulation strategies can also exert an impact on political attitudes. Intergroup
+attitudes in the Israeli–Palestinian conflict were investigated, in the area of emotional regulation,
+by Halperin et al. (2013). In their first study, Halperin et al. (2013) asked half of their participants
+to apply a cognitive reappraisal technique as they viewed an upcoming presentation. Specifically,
+they were taught to respond to the presentation as if they were scientists, thinking analytically
+308 Albarracin ·Shavitt
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39General or
+dispositional
+attitude: attitudes
+that characterize the
+person as evaluating
+most objects positively,
+neutrally, or negatively
+in a cold, dispassionate way. After this manipulation, all participants watched an anger-inducing
+multimedia presentation about Israel’s disengagement from the Gaza Strip and subsequent Pales-
+tinian aggression. The cognitive reappraisal technique was effective at reducing anger toward
+Palestinians, anger that, in turn, correlated negatively with support for conciliatory policies and
+positively with support for aggressive policies. Although the study had a relatively small sample
+(d = 0.65, N = 39), similar findings were obtained in a second experiment with measures of
+anger and attitudes obtained 5 months after the manipulation of cognitive reappraisal (Halperin
+et al. 2013).
+The context of other attitudes and evaluative processes. As researchers have opened their
+eyes to broad attitude patterns, it has become apparent that people’s attitudes can be similar across
+different objects. In particular, shared affective traits can provide information about attitudes re-
+gardless of whether the object is President Trump, a new movie, or a toaster. Recent research has
+investigated this possibility in a series of studies and an independent replication and extension. In
+this work, Hepler & Albarrac´ın (2013) investigated tendencies to generally like or dislike stimuli,
+defined as systematic variation in attitude valence as a function of individuals. These dispositional
+attitudes were measured by having participants evaluate a large number of stimuli to gauge cen-
+tral tendencies. From an initial set of 200 evaluations, findings yielded a final scale of 16 items
+about diverse objects such as taxidermy, cold showers, soccer, and politics, rated on scales from 1
+(unfavorable) to 7 (favorable). This scale had high internal consistency, as well as high test-retest
+reliability, and exhibited good convergent and divergent validity. In particular, dispositional atti-
+tudes should be related to other traits associated with positive or negative affect (e.g., extraversion,
+optimism) and, indeed, were. However, all of these personality measures accounted for only about
+20% of the variance in general attitudes, hinting at the uniqueness of dispositional attitudes.
+General or dispositional attitudes are also useful because they can predict unknown attitudes,
+including attitudes toward completely novel objects. Two of the studies reported by Hepler &
+Albarrac´ın (2013) obtained measures of dispositional attitudes, other traits, and attitudes toward
+a never-encountered microwave described in an advertisement. Reported attitudes toward the
+new product were consistently predicted by dispositional attitudes above and beyond all other
+individual difference measures (e.g., behavioral activation, optimism, trait negative affect, trait
+positive affect, agreeableness, need for cognition, need for closure, and more). Therefore, people
+who generally liked objects also liked a newly presented object, whereas people who generally
+disliked objects disliked it.
+An intriguing implication of dispositional attitudes is that they should be expected to also
+broadly predict behavior, a possibility examined by Hepler & Albarracin (2014; for a replication, see
+Eschleman et al. 2015). Over two experiments, participants reported their dispositional attitudes as
+well as their time spent on a number of daily behaviors, such as personal care, education, working,
+and traveling. Dispositional attitudes correlated with the number of behaviors reported, but this
+was the case for both more and less effortful behaviors. Thus, dispositional attitudes appeared to
+predict behavior on the high-effort, active end as well as the low-effort, inactive end. Apparently,
+then, dispositional attitudes do not predict only active behavior but rather goal engagement,
+including sleeping, more generally.
+Individual differences in evaluations have also been described as valence weighting. The valence
+weighting bias (Pietri et al. 2013) has been studied with a paradigm in which participants learn about
+beans of varying shapes and patterns of speckles that produce either positive or negative outcomes
+when selected. After participants learn about the beans, they are presented with new beans that re-
+semble previous positive or negative beans. Thus, when a novel bean has characteristics resembling
+both a positive and negative bean, a participant who weighs negative information more heavily
+www.annualreviews.org • Attitudes and Attitude Change 309
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39should classify that bean as negative, whereas a participant who weighs positive information more
+heavily should classify that bean as positive. Rocklage & Fazio (2014) used this same paradigm
+to obtain participant measures of valence weighting. Similar to the conclusions of Hepler &
+Albarracin’s studies, this individual difference measure predicted approach and avoidance behav-
+ior toward objects in a novel environment. Also, participants with a negative-valence-weighting
+bias were more likely than those with a positive-valence-weighting bias to change attitudes in
+response to negative but false information about an object.
+The context of time and space. Above, we discuss the impact of psychological distance on atti-
+tudes in the context of language and emotion. Beyond these areas, the effects of construing objects
+up close and at a distance have also been the subject of research on what factors influence attitudes.
+According to construal level theory (Liberman & Trope 1998), people construe psychologically
+proximal objects more concretely. Based on this premise, Ledgerwood et al. (2010) hypothesized
+and confirmed that attitudes toward proximal objects were influenced by social information, such
+as the preferences of romantic partners. In contrast, attitudes toward more distant objects were
+less influenced by social normative considerations and, in one of the experiments, were influenced
+by values. Some of these experiments were statistically underpowered (less than 80% power), im-
+plying that the probability of both false negatives (power is the confidence with which the null
+hypothesis may be rejected) and false positives is potentially high. However, the findings illustrate
+an important aspect of the broader picture of attitude bases.
+The context of development. The developmental stage and childhood socialization of the in-
+dividual is another fundamental context within which attitudes are shaped and reshaped. Recent
+research has investigated a variety of developmental and life-stage factors that predispose individ-
+uals to particular attitudes and ideologies.
+Shifts in specific attitudes across the life span. Developmental shifts are observable in attitudes
+toward several specific topic areas. For instance, music preferences are subject to a variety of
+developmental shifts across the life span (Bonneville-Roussy et al. 2013), and these shifts shed light
+on the contextual factors that shape personal tastes. Adolescent audiences are more passionately
+engaged with music, regarding it as more important than do older adults and enjoying it in
+more contexts. Moreover, data from an Internet survey sample of a quarter million respondents
+showed marked and consistent age trends in musical preferences (Bonneville-Roussy et al. 2013).
+Specifically, preferences for mellow, unpretentious, and sophisticated music increased throughout
+the life span, whereas preferences for music that is intense and more contemporary was highest
+in adolescents and declined in later years. This latter finding not only gives hope to parents of
+teenage death metal fans but also supports the notion that the personality traits and psychosocial
+goals that characterize each stage of life give rise to distinct musical tastes. For example, intense
+music is perceived as “aggressive, tense, and antiestablishment” (Bonneville-Roussy et al. 2013,
+p. 12; see also Rentfrow et al. 2011), which may be more resonant with the needs of adolescents
+struggling with issues of identity development and autonomy. Consistent with this possibility,
+research also points to age-specific preferences for particular types of media content (for a review,
+see Valkenburg et al. 2016). Anyone who has ever spent an evening observing ticket buyers at
+the multiplex will not be surprised to learn that younger adults show a stronger preference for
+arousing, frightening, and even violent media content compared to middle-aged and older adults,
+who, in turn, show stronger preferences for calmer, more uplifting, and more meaningful media
+content (e.g., Mares & Sun 2010).
+310 Albarracin ·Shavitt
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39Materialism:
+a belief or ideology
+emphasizing the
+importance of
+pursuing financial
+success, material
+riches, and high status
+through consumer
+choices
+Beyond the realm of individual tastes, developmental shifts in self-focused attitude domains
+have been important subjects of investigation. For instance, attitudes toward the self (i.e., self-
+esteem) show age-related shifts that follow a quadratic trend across the life span, climbing from
+adolescence until middle age (approximately 50–60 years) and then decreasing in old age, largely
+due to declines in health and socioeconomic status (Orth et al. 2010, 2012). Moreover, self-
+esteem has a significant influence on personal experiences across all major life domains (Orth
+et al. 2012). Attitudes toward one’s own aging have also been investigated (Miche et al. 2014) and
+are shaped by a variety of life-stage and health factors. Finally, researchers have examined the
+relationship between age and job attitudes, finding a positive relationship between age and overall
+job satisfaction (for a meta-analysis, see Ng & Feldman 2010).
+Developmental antecedents of attitudinal systems. Using data from a two-wave national survey
+of early child development, in which parents of 1-month-old infants were interviewed and the
+children were surveyed 18 years later, Fraley et al. (2012) examined how early caregiving envi-
+ronments help to shape conservative versus liberal political ideologies in late adolescence. Parents
+who endorsed more authoritarian attitudes regarding parenting when their children were infants
+tended to raise children who were more ideologically conservative. Additional data on the sam-
+ple’s temperament in early childhood (age 4.5) suggested that children who showed early signs of
+a fearful temperament or had deficits in inhibitory control tended to become conservative by age
+18, whereas children who showed high levels of activity and restlessness in early childhood tended
+to become liberal as young adults. These findings support a motivated social cognition perspective
+that casts conservatism as a motivated response to anxiety and fear and liberalism as a response to
+restlessness and undercontrolled ego-related functions.
+Another form of ideology, materialism, has also been a focus of developmental research.
+Twenge & Kasser (2013) examined societal factors that influence the development of mate-
+rialistic values. Their analysis pointed to middle childhood as a particularly important time
+in the development of late-adolescent materialism. Those who, during this life stage, experi-
+enced high levels of societal instability and disconnection (indexed by societal rates of unem-
+ployment and divorce) tended to become more materialistic 10 years later, as young adults.
+Similarly, those exposed to high levels of social modeling of consumerist practices (as indexed
+by societal advertising spending) in late childhood were also more likely to become material-
+istic as young adults. Fortunately, a study of 12–18 year olds suggested that parental and peer
+influences during childhood can mitigate the development of materialistic attitudes in adoles-
+cents (Chaplin & John 2010). By contributing to the growth of self-esteem in adolescents, par-
+ents and peers can decrease the tendency to look to material goods as ways to build positive
+self-views.
+Developmental shifts in processing. According to socioemotional selectivity theory (Carstensen
+2006) motivational shifts across the life span affect the selective processing of information. In
+contrast to younger people, who are motivated to pursue goals of acquiring knowledge and broad-
+ening horizons, older adults, as they grow to appreciate the fragility of life, increasingly prioritize
+present-focused goals of emotional satisfaction and meaning. This change in goals leads to a shift
+toward positive information in information processing as people age, a phenomenon referred to
+as the age-related positivity effect (e.g., Reed et al. 2014). A recent meta-analysis confirmed that,
+when information processing is unconstrained and people are allowed to allocate their attention
+spontaneously, older people are significantly more likely to attend to and recall positive than neg-
+ative information, whereas the opposite pattern is seen among younger adults (Reed et al. 2014).
+This shift can be associated with a variety of effects in persuasion contexts, such as age differences
+www.annualreviews.org • Attitudes and Attitude Change 311
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39Sleeper effect:
+delayed persuasion of a
+message when
+presentation by a
+noncredible
+communicator serves
+as a discounting cue
+in responses to gain- and loss-framed messages (e.g., Mikels et al. 2016, Notthoff & Carstensen
+2014).
+The Social Context
+Social inputs comprise a key contextual influence on attitudes. Therefore, understanding the role
+played by the views of others, whether message communicators, friends and network members,
+or social media inputs, continues to be a significant focus of attitude research.
+The communicator. Persuasive communications entail an implicit or explicit interaction with
+the source of the message, a factor that has been of interest to researchers since the field of
+persuasion began. Recent findings underscore the importance of this relationship, for instance,
+by showing that the persuasiveness of messages can be enhanced by an alignment between a
+communicator’s and an audience’s power state (Dubois et al. 2016). Specifically, high-power
+communicators tend to generate messages that prioritize competence information, which is more
+persuasive to high-power audiences, whereas low-power communicators tend to generate messages
+with greater warmth, which is more persuasive to low-power audiences.
+Recent research has also enhanced understanding of the processes surrounding source credi-
+bility, such as the sleeper effect. Classically, the sleeper effect involves an increase in persuasion
+following a delay after a message is presented by a noncredible source. For instance, recipients of
+political communications may discount a message from a political opponent because they do not
+perceive the source of the message as credible. Over time, however, the recipients may recall the
+message but not its noncredible source and, thus, become more persuaded than they were imme-
+diately after the message presentation (Kumkale & Albarrac´ın 2004). The conditions for this effect
+have been well elucidated meta-analytically (Kumkale & Albarrac´ın 2004), but the definition of
+the effect has typically been circumscribed to these situations.
+In contrast to this classic scholarship, recent research has uncovered a different type of sleeper
+effect involving the communicator instead of the message itself. In the traditional sleeper effect,
+the influence of an otherwise effective message remains dormant because it has been discounted
+as coming from a noncredible source. However, it is conceivable that a favorable impression of a
+communicator may exert a delayed influence if it remains dormant after being discounted because
+of weak arguments (Albarracin et al. 2017). In a series of experiments, participants were induced
+to form impressions of communicators (e.g., political candidates) who provided noncompelling
+arguments. As predicted, under these conditions, the source’s credibility had a delayed effect on
+the influence of the message; this effect occurred for various topics and delay lengths.
+This novel type of sleeper effect is likely to take place in political campaign contexts, as well as
+other contexts in which evaluating the communicator is paramount. This novel finding confirms
+that message recipients can process information about the communicator in as much depth as
+information about the arguments. As is well known, sources and other cues to persuasion can have
+multiple roles—they can be processed as peripheral cues or processed in more detail (Wegener et al.
+2010). This assumption of multiple roles in current versions of the elaboration likelihood model
+(Wegener et al. 2010) as well as the unimodel (Kruglanski & Gigerenzer 2011) highlights how
+most information can be processed either elaborately or nonelaborately. One recent demonstration
+of this possibility entailed an analysis of the attitude–behavior relationship. Specifically, attitudes
+formed on the basis of extensive information about a source, which supposedly elicits high levels of
+processing, were more persistent and predictive of behavior than attitudes formed on the basis of
+brief information about the source (Pierro et al. 2012). As persistence and impact on behavior are
+frequent consequences of high levels of elaboration (Barden & Tormala 2014, Howe & Krosnick
+2017), this work shows once more that communicators can be the target of much attention and
+312 Albarracin ·Shavitt
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39thinking (for other research on the effects of concentrating on the communication source, see
+Clark & Evans 2014, Clark et al. 2013).
+Social media and social networks. With the advent of smart phones and the popularization
+of online platforms, the study of media effects has moved into the territory of emerging media.
+Some of this work has achieved considerable methodological sophistication, as in longitudinal
+studies conducted in naturalistic conditions. For example, the effects of violent video game use on
+aggressive behavior (von Salisch et al. 2011) were studied using cross-lagged models in Germany.
+This study showed that children’s aggressiveness predicted subsequent violent media use but that
+violent media use did not predict aggressiveness. Thus, the effects of violent video game use on
+aggressive attitudes are, at best, weak.
+Buzz marketing, which leverages word of mouth from popular opinion leaders to change
+attitudes within a social network, offers substantial promise for persuasion and has received con-
+siderable scholarly attention (e.g., Berger 2014). The potential of buzz marketing is illustrated by a
+study of the effects of a health-promotion campaign developed and delivered through a partnership
+between the University of Nebraska and the Centers for Disease Control, which involved recruit-
+ing teenagers as buzz agents. The campaign ran between 2007 and 2013 and showed promising
+effects (Struthers & Wang 2016). Remarkably, 66% of buzz agents improved their attitude toward
+physical activity, 63% improved their attitude toward consumption of fruit, and 51% improved
+their attitude toward consumption of vegetables, with corresponding changes in behavior in all
+areas. In addition to the teenagers who acted as agents of change, other teens who liked the cam-
+paign changed attitudes more than those who did not like the campaign. Although this evidence
+does not imply that the campaign changed attitudes overall, it did change the attitudes of the
+teenagers who liked the campaign.
+A similar campaign that included social media was designed to decrease comments express-
+ing body dissatisfaction (fat talk) on college campuses (Garnett et al. 2014). The campaign was
+implemented in two New England universities. The campaign activities included hosting events
+about fat talk, teaching students how to promote positive body conversations, and encouraging
+students to sign an online pledge to end fat talk. One of the central messages was “Friends Don’t
+Let Friends Fat Talk,” and the organizers of the campaign recommended that this message be
+displayed online and in physical locations on the campuses. The campaign had a small effect on
+body dissatisfaction, defined as a negative attitude toward one’s own body. In addition, actual
+reductions in negative self-talk were observed for students who remembered being exposed to the
+campaign, although the study was, overall, underpowered.
+Network effects on attitudes have received some attention because of observed similarities in
+behavior among people who are socially connected. On the one hand, friends are likely similar
+because people develop relationships with similar others through a process of social selection.
+On the other hand, friends may become similar through their interactions with others, through
+a process of social influence. In the first case, the similarity precedes friendship; in the second,
+similarity follows friendship. In a longitudinal study of this issue (de Klepper et al. 2010), the
+attitudes toward discipline among students of the Royal Naval Academy of the Netherlands were
+followed over time, along with their friendship patterns. Findings indicated that similarity in
+attitudes toward discipline was due to influence rather than selection. Naval students had attitudes
+similar to those of their friends because they had become friends with others who had then
+influenced them.
+The influence of members of an individual’s social network is also apparent in work on how
+activating social goals can influence attitudes. Women’s romantic goals, for example, can make
+them distance themselves from pursuing careers in science, technology, engineering, and math
+www.annualreviews.org • Attitudes and Attitude Change 313
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39Culture: a shared
+meaning system and
+common values held
+among people who
+share a geographic
+region, language, or
+historical period
+Millennial: a member
+of the generation born
+between 1980 and
+1994; their attitudes
+and ideologies have
+been the subject of
+extensive study
+Cohort: a group born
+into the same
+generation
+(STEM) fields (Park et al. 2011). Merely viewing images or overhearing conversations related to
+romantic relationships yielded less positive attitudes toward STEM fields, but this pattern was
+apparent only among women. Looking at the problem using a within-subject paradigm, women
+felt more desirable and engaged in more romantic activities on days when they pursued romantic
+goals. Unfortunately, however, on those same days, women pursued fewer math-related activities.
+This effect of romantic goals also appeared to persist over time, with romantic goals from the
+previous day making women less invested in math on the following day. Although these findings
+are discouraging for policy makers trying to increase representation of women in STEM fields,
+women’s STEM presence may increase through the use of ingroup STEM experts promoting
+STEM fields to other women. In particular, these programs lead to more positive implicit and
+explicit attitudes toward STEM, as well as commitment to pursue STEM careers, among women
+(Stout et al. 2011).
+The social functions of attitudes are an intriguing topic, and recent research has shed light on
+a broad set of interpersonal motives associated with attitudes. One such function is the feeling of
+familiarity experienced by people who share similar negative attitudes (Weaver & Bosson 2011).
+Apparently, sharing a negative attitude is sufficient to increase feelings of familiarity (Weaver &
+Bosson 2011), probably because expressing negative attitudes to strangers is counternormative
+in US culture. Another important social function involves attitudinal ambivalence as a way of
+smoothing over interpersonal differences (Pillaud et al. 2013). In particular, people express more
+ambivalence when issues are socially controversial, and experimentally increasing topic controversy
+leads individuals to manifest more ambivalence (Pillaud et al. 2013). Therefore, attitudes both
+influence relations with others and can be strategically altered for self-presentation purposes.
+Even in online contexts, communicating one’s attitudes can serve a range of functions (including
+impression management, social bonding, and emotion regulation; Berger 2014).
+The Historical Context
+Achieving a holistic, contextualized understanding of attitudes requires consideration of the gen-
+erational, historical, and cultural shifts that give rise to individual evaluations.
+Generational context. Generational differences in attitudes generally arise from and are re-
+flective of broad sociocultural changes that occur at specific time periods (Donnelly et al. 2016,
+Twenge & Kasser 2013, Twenge et al. 2016a). That is, generational differences reflect the im-
+pact of the larger cultural context on the individual. How different are the attitudes of people
+born into, say, the Millennial generation (born 1980–1994) from those of members of Genera-
+tion X (GenXers; born 1965–1979) or Baby Boomers (born 1946–1964)? Although these types of
+questions have frequently been addressed through one-time polling comparisons (e.g., Nteta &
+Greenlee 2013), such cross-sectional comparisons across generations at a given point in time are
+problematic because they confound cohort, age, and historical influences.
+Twenge and colleagues (e.g., Donnelly et al. 2016, Twenge & Kasser 2013, Twenge et al.
+2016a) have addressed this question by carefully analyzing multiple large-scale surveys of social
+attitudes. For instance, in a study of political ideology using age–period–cohort analysis (Yang
+& Land 2013) on three large-scale and nationally representative surveys, Twenge et al. (2016b)
+separated the effects of the ages of the respondents from those of their cohort and historical time
+period. The results uncovered trends toward both greater conservatism and increased political
+polarization among the Millennial generation. Millennial twelfth graders and entering college
+students appear to be more politically polarized than Baby Boomers and GenXers were at the
+same age. Specifically, more twelfth graders in the 2010s identified as either strong Democrats or
+314 Albarracin ·Shavitt
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39strong Republicans than did those in earlier decades. At the same time, more Millennials identified
+as being politically conservative than did either GenXers or Baby Boomers at the same age, and a
+smaller proportion identified as Democrats than did Boomers.
+However, ideological attitudes are not the complete story. The trend toward greater self-
+identification as conservatives among Millennials exists alongside their increasingly liberal and
+tolerant attitudes regarding religious nonbelievers, nontraditional gender roles, and same-sex
+marriage (for a review, see, e.g., Donnelly et al. 2016) and their decreased beliefs in God or religion
+(Twenge et al. 2016a). This result illustrates that attitudes toward specific issues and topics do not
+necessarily define or track overall party identification in a consistent way. The characteristics that
+define ideological attitudes are themselves dynamic and shaped by their sociocultural context—as a
+result, what was defined as conservative in 1970 does not necessarily correspond to what that word
+currently means. For instance, Millennials and GenXers have mostly continued the social trends
+begun by prior cohorts toward more egalitarian attitudes about gender roles, with greater support
+for working mothers and nonworking fathers compared to previous generations (Donnelly et al.
+2016). Taken together, these results suggest that some nuance is required when summarizing
+generational differences in political attitudes.
+Much stronger claims have been made about generational shifts in attitudes toward the self,
+community, work, and materialistic lifestyles. Characterizing the Millennial cohort as “Generation
+Me,” Twenge (2014) reviewed evidence that Millennials are more self-focused and individualis-
+tic, endorsing more favorable attitudes and values regarding money, fame, and social image while
+showing less community feeling than previous cohorts. Millennials are less likely than previous co-
+horts to report empathic concern or to take others’ perspectives, being less likely to agree that “I of-
+ten have tender, concerned feelings for people less fortunate than me” or “I sometimes try to under-
+stand my friends better by imagining how things look from their perspective” (Konrath et al. 2011).
+Moreover, GenXer and Millennial respondents appear to have more materialistic attitudes
+compared to the Boomer generation (Twenge & Kasser 2013). They also appear to have less
+favorable attitudes regarding the importance of work and less willingness to work hard compared
+to Boomers (Twenge & Kasser 2013). Specifically, in a national survey of twelfth graders, among
+GenXer and Millennial respondents, desires for expensive material purchases (e.g., a new car
+every 2–3 years, a vacation house, a recreational vehicle) have steadily increased relative to those
+of youth in the 1970’s. At the same time, the attitudes of twelfth graders toward the centrality of
+work appear to have declined, as measured by agreement with such items as, “I want to do my best
+in my job, even if this sometimes means working overtime.” These patterns suggest that, among
+younger generations, material desires may have exceeded willingness to work to fulfill them. Note,
+however, that the evidence for shifts in materialism may depend upon how materialism is assessed
+(see Trzesniewski & Donnellan 2010) and that several studies show no generational differences
+in work ethic endorsement (see Zabel et al. 2016).
+Climatic and historical events as context. Major climatic and social occurrences of the past
+decade have enabled psychologists to study the effects of naturalistic events on attitudes. Studying
+the effects of hurricanes on political and social attitudes is a creative instance of this approach (e.g.,
+Levy et al. 2010, Rudman et al. 2013). For instance, in Rudman et al.’s (2013) work, New Jersey
+residents were surveyed before and after Hurricanes Irene and Sandy to determine support for
+politicians who try to combat or deny climate change. Implicit attitudes toward a Green politician
+were negative before both hurricanes but became positive afterwards. These patterns were most
+pronounced for participants who had been personally affected by the hurricanes.
+The impact of the 2007–2008 global financial crisis on political attitudes was investigated in
+a large panel study in New Zealand (Milojev et al. 2015). As was the case in most of the rest
+www.annualreviews.org • Attitudes and Attitude Change 315
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39of the world, the crisis greatly impacted New Zealand’s economy, producing a 3.4% decrease
+in the gross domestic product and a 3-to-7% increase in unemployment. According to system
+justification theory ( Jost & Banaji 1994), people at an economic or social disadvantage need to
+perceive the system as being just, a dynamic that helps to explain conservatism in underprivileged
+groups. Consistent with this possibility, New Zealanders of lower socioeconomic status showed
+an increase in political conservatism following the financial crisis. Attitudes, then, can depend not
+only on climatic but also on economic factors outside of the individual’s control.
+The impact of political events on attitudes was illustrated above when we discussed the emo-
+tional concomitants of the rally around the flag effect (Lambert et al. 2010). Other unique his-
+torical events have presented ideal opportunities to study the potent changes induced by such
+events. One such case involved the longstanding political and legal system of segregation in place
+in South Africa between 1948 and 1994. Intergroup attitudes were surveyed at various points
+over a 37-year period (1973–2009), allowing Mynhardt (2013) to investigate historical changes
+associated with these events. The ambitious study involved measures of attitudes toward English-
+speaking Whites, Afrikaans-speaking Whites, Indians, “coloureds,” and Blacks. Notably, over the
+period of study, English-speaking Whites’ attitudes toward their own group became less positive
+(d = 0.29), whereas the English-speaking Whites’ attitudes toward Indians, Afrikaans-speaking
+Whites, and coloureds became more favorable. Despite these promising changes, the attitudes
+of English-speaking Whites toward Blacks became more negative (d = 0.70) during the entire
+period, including post-Apartheid. Furthermore, during the period of consolidation and social
+transformation (2000–2008), the favorability of their attitudes toward Blacks continued to plum-
+met. The attitudes of Blacks were also interesting, showing an initial liking for English-speaking
+Whites and a negative turn in attitudes toward Afrikaans-speaking Whites following racial discord
+in the 1970s.
+The impact of the presidential candidacy and election of Barack Obama, analyzed above,
+appears to have affected White Americans’ attitudes towards Black Americans. In analyses of
+election surveys from 1992 to 2008, in which US representative samples of White respondents
+rated Blacks on scales from “stupid” to “intelligent” and from “lazy” to “hardworking,” Whites’
+beliefs in Blacks’ intelligence and work ethic became stronger and less prejudicial, although Whites
+continued to be perceived more positively than Blacks (Welch & Sigelman 2011). These attitudinal
+shifts have been described as the Obama effect and show how ethnic diversity among those who
+hold powerful positions can revolutionize social attitudes.
+Culture as context. The sociocultural context influences attitudinal processes in a number of
+ways, as a rapidly growing body of research demonstrates. For instance, cultural factors can in-
+fluence information processing strategies (Briley et al. 2014), shaping thinking styles (Lalwani &
+Shavitt 2013, Nisbett et al. 2001), general goals (Torelli & Shavitt 2010, Yang et al. 2015), and
+the role of feelings and metacognitive experiences in decision making (Hong & Chang 2015).
+Western and non-Western cultural contexts. Most work in this area focuses on the distinctions
+between independent and interdependent self-construals, individualistic and collectivistic cul-
+tural backgrounds and orientations, or Western and non-Western cultural contexts. For instance,
+Hong & Chang (2015) showed that an independent versus interdependent self-construal (either
+measured or primed) strengthens the influence of incidental affect on evaluations, whereas an
+interdependent self-construal strengthens the reliance on reasons. Moreover, independents (in-
+terdependents) value a selected option more highly when they use a feeling-based (reason-based)
+strategy in choosing, presumably because the independent self seeks to enhance its own personal
+satisfaction whereas the interdependent self is concerned with justifying its preferences to others.
+316 Albarracin ·Shavitt
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39Person-centric
+model: traditional
+Western view of
+attitudes, defined by a
+focus on the individual
+and the development
+and expression of
+personal preferences
+As a result of the broad influences of culture on attitude formation and change, cultural factors
+are often described as moderators of attitudinal processes (see Albarracin et al. 2005). Attitude
+scholars acknowledge cultural effects on established processes, but their influence is cast as a
+boundary condition. Until recently, cross-cultural theorizing has not generally been applied in an
+effort to expand attitudinal theorizing. However, many of the definitional and theoretical assump-
+tions in the attitudes literature reflect primarily Western philosophical commitments. Further-
+more, much of the extant knowledge about persuasion phenomena has emerged from a traditional
+approach to attitudes and social cognition, in which the defining feature is the focus on the in-
+dividual. In this Western, person-centric model, the focus is on the development and expression
+of personal preferences and making one’s decisions based on these preferences. This approach, as
+developed in the West, may offer an incomplete account of the nature and function of evaluative
+processes in non-Western contexts. It is worth considering the extent to which these premises
+apply to attitudes in non-Western cultural contexts. How do attitudes function in contexts where
+maintaining relationships, fulfilling expected social roles, and being normatively appropriate are
+often more important than forming and expressing distinct personal preferences?
+Several studies have suggested that attitudes function differently in non-Western cultures. For
+example, Indian employees are more likely than Americans to make choices based upon what is
+expected by authority figures, irrespective of their own personal preferences (Savani et al. 2012).
+An analysis of survey data tapping concern for the environment from 48 countries (Eom et al.
+2016) showed that, for nations that are less individualistic, personal attitudes are less predictive of
+environmental behavior intentions. A follow-up experiment showed that, although environmental
+attitudes are a strong predictor of pro-environmental product choices in the United States, they
+are not in Japan, where, instead social norms predict choices (Eom et al. 2016).
+Most attitude theories assume, for instance, that personal preferences and choices rooted in
+those preferences are foundational and are, therefore, the key to achieving persuasion outcomes.
+However, in non-Western contexts, where a normative-contextual model applies (Riemer et al.
+2014), normative pressures, structured through cultural practices, shape attitudes. Parents direct
+their children’s attention to normative aspects of events (“What were the children doing?”) rather
+than to their own personal emotional responses (“Did you like it?”) (Wang 2013), and other
+societal structures reinforce the emphasis on norms and relationships (Markus & Conner 2013).
+In other words, in many cultures, the emphasis is on awareness of social expectations, norms,
+and obligations and integration of these factors into one’s preferences (e.g., Gelfand et al. 2011,
+Li et al. 2017, Miller et al. 2011). Chiu et al. (2010) point out that, in such contexts, intersub-
+jective perceptions (people’s perceptions of the normative consensus) can better explain choices
+than can personal beliefs and values. Rather than holding unique personal preferences that set
+the self apart, individuals hold attitudes that help them to conform and to validate shared social
+norms (Boer & Fischer 2013), serving to affirm and deepen relationships with others. Moreover,
+Easterners, as compared to Westerners, tend to have a more difficult time choosing at all, and
+this indecisiveness is tied to dialectical thinking (Ng & Hynie 2014), a belief system that tolerates
+contradictory information (Spencer-Rodgers et al. 2010) and emphasizes interconnections and
+holistic relationships. In contrast, Westerners prefer action, and their intolerance of contradiction
+leads to oppositional attitudes toward the concepts of action and inaction, which appear contra-
+dictory, whereas people from dialectical East Asian societies express more balanced and moderate
+views about action and inaction (Zell et al. 2012a) and other targets (see Johnson et al. 2011).
+Indeed, in Western contexts, having stable and internally consistent attitudes is fundamentally
+important to guiding action, and ambivalent attitudes are, therefore, undesirable (Riemer et al.
+2014). As a result, among Westerners, having ambivalent attitudes is aversive, and such attitudes
+www.annualreviews.org • Attitudes and Attitude Change 317
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39Individualism:
+cultural value system
+emphasizing the
+importance of
+self-reliance and
+independence and the
+pursuit of personal
+goals over the
+ingroup’s goals
+Collectivism:
+cultural value system
+emphasizing pursuit of
+group goals, harmony,
+interdependence with
+others, and
+maintenance of strong
+relationships
+are more likely than univalent attitudes to change, whereas this is not the case among Easterners
+(Ng et al. 2012).
+East Asian philosophy emphasizes the idea that everything needs to be evaluated in its context
+(Nisbett et al. 2001). This principle leads to an enhanced tendency to see interconnections between
+elements of a larger whole, for instance, between a parent brand (e.g., McDonald’s) and a new brand
+extension launched by the brand that is not an obvious fit (e.g., McDonald’s salads). Holistic (versus
+analytic) thinkers can be more favorable toward distant brand extensions for functional products
+because they are more likely to find symbolic relationships among such products (Monga & John
+2010). Similarly, whereas consumers in general tend to judge a product’s quality based on its price,
+having a holistic thinking style strengthens this perceived price–quality relationship (Lalwani &
+Shavitt 2013). Specifically, consumers who adopt a holistic rather than an analytic thinking style
+are more likely to use a product’s price to evaluate its quality because of their tendency to see
+interrelations between price and other product elements (Lalwani & Shavitt 2013).
+Research points to differences in the functions of attitudes, as well. In Western contexts,
+personal attitudes often serve a self-expressive function, as preferences are strategically formed
+and expressed to convey desired individual identities (e.g., Berger 2014). In contrast, in non-
+Western contexts, harmony and social cohesion are more persuasive (e.g., Han & Shavitt 1994),
+and attitudes function to enhance relational embeddedness (Riemer et al. 2014) and to express
+values of conformity and tradition that support social norms (Boer & Fischer 2013). In such
+contexts, self-expression, as an assertion of individuality, is less motivating, and self-expressive
+acts are less prevalent (e.g., Chu & Kim 2011, Kim & Sherman 2007). In line with this pattern, an
+analysis of online customer reviews posted in China (on https://www.amazon.cn) and the United
+States (on https://www.amazon.com) revealed that Chinese reviews were less self-expressive than
+American reviews in that they were less likely to provide their personal opinions about products
+and contained fewer recommendations to others (Lai et al. 2013).
+Taken together, then, a growing body of research suggests cultural differences in the struc-
+ture, functions, and characteristics of attitudes. Traditional attitude theorizing has tended to
+view attitudes as intrapersonal entities tuned to the pursuit of individual goals—a person-centric
+model. There are significant opportunities to broaden attitude theorizing to address the distinct
+normative-contextual aspects of attitudes in non-Western cultures (Riemer et al. 2014).
+Horizontal and vertical cultural contexts. In addition to the broad distinction between indi-
+vidualistic, independent cultures and collectivistic, interdependent ones, recent research has also
+addressed the influence of other important dimensions of culture on attitudes and persuasion
+processes (for a review, see Shavitt et al. 2017). For instance, cultures vary in their propensity to
+emphasize hierarchy, a distinction within the individualism–collectivism continuum that is cap-
+tured by cultures or orientations that are horizontal (valuing equality) versus vertical (emphasizing
+hierarchy; Triandis & Gelfand 1998). In vertical-individualist societies, such as the United States
+and Great Britain, an individualistic form of hierarchy, where gaining personal status is linked to
+the individual self and people seek opportunities to stand out and to impress others, is emphasized.
+In contrast, in horizontal-individualist societies, such as Denmark, Norway, and Australia, the fo-
+cus is on expressing uniqueness, self-reliance, and self-expression rather than improving personal
+status. In vertical-collectivist societies, such as South Korea, China, and India, the emphasis is
+on fulfilling duties, prioritizing ingroup goals over personal goals, and complying with authority
+figures. Finally, in horizontal-collectivist societies, such as Brazil and some other Latin American
+contexts, the emphasis is on interdependence, benevolence, and sociability, not hierarchy (Torelli
+& Shavitt 2010; for a review, see Shavitt & Cho 2016). Differences in orientation along the
+318 Albarracin ·Shavitt
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39horizontal–vertical continuum have also been shown within countries among ethnic and cultural
+groups. For instance, Hispanic Americans tend to score higher than European Americans in hori-
+zontal collectivism and lower in vertical individualism (Torelli & Shavitt 2010, Torelli et al. 2015).
+This horizontal versus vertical cultural distinction is reflected in the content of persuasive
+appeals and in attitudinal patterns. For instance, an analysis of the content of over 1,200 magazine
+advertisements in five countries (Denmark, South Korea, Poland, Russia, and the United States)
+revealed that advertisements in vertical cultures (e.g., the United States and South Korea) put more
+emphasis on status, luxury, and prestige than do ads in horizontal cultures (e.g., Denmark) (Shavitt
+et al. 2011). For example, in vertical cultures, advertisements are more likely to use prestigious
+endorsers identified as Ivy League graduates or to label brands as “award-winning.” On the other
+hand, uniqueness appeals are more prevalent in horizontal individualist cultures (e.g., Denmark)
+than in countries that fall into vertical cultural categories. For instance, such advertisements may
+highlight how the advertised brand expresses consumers’ personal style.
+Similarly, consumers tend to prefer brands and advertisements that resonate with these hori-
+zontal and vertical cultural orientations (Torelli & Shavitt 2010, Torelli et al. 2012). For example,
+having a horizontal collectivistic orientation predicts liking a brand that conveys self-transcendence
+values in its advertising (e.g., “Supporting humanitarian programs in developing countries because
+we care about building a better world.”) and predicts an affinity for brands that embody concerns
+for the welfare of others. Having a vertical collectivistic orientation predicts liking a brand that
+conveys conservation values (e.g., “The status quo in luxury watches. A tradition of classic designs
+and impeccable workmanship for 115 years.”). Having a vertical individualistic orientation predicts
+liking brands that symbolize status and prestige and advertisements that convey self-enhancement
+(e.g., “An exceptional piece of adornment that conveys your status and signifies your exquisite
+taste.”), whereas having a horizontal individualistic orientation predicts liking a brand that con-
+veys openness (e.g., “A travel companion to help you live an exciting life full of adventures waiting
+around every corner.”) (Torelli & Shavitt 2010, Torelli et al. 2012). Moreover, these relations
+emerge across cultural groups. For example, Brazilians, who score relatively high in horizontal
+collectivistic orientation (compared to European Americans, Canadians, and East Asians), tend to
+prefer brands that symbolize prosocial values more than do individuals in other cultural groups.
+Norwegians, who score relatively low in vertical individualistic orientation, tend to prefer brands
+that symbolize status and prestige values less than do individuals in the other groups. A multi-
+level analysis further indicated that vertical individualistic and horizontal collectivistic cultural
+orientations partially mediate cultural group–level differences in liking for these respective types
+of brands (Torelli & Shavitt 2010, study 3). Evidence also suggests that distinct mindsets can be
+triggered when concepts relevant to each cultural orientation are cued, influencing the processing
+of information about an object (Torelli & Shavitt 2010).
+CONCLUSION
+Our review highlights the sizeable and long-standing research interest in attitudes and attitude
+change. Research between 2010 and 2017 has elucidated many details regarding the cognitive and
+motivational processes of attitude formation, attitude change, and attitude–behavior correspon-
+dence. That said, this period of attitude research has been characterized by significant shifts. Our
+focus on contextual factors in this review encapsulates a key qualitative change in recent years in the
+scientific research agenda on attitudes—a shift from a focus on microprocesses to a more holistic,
+contemporary understanding of attitudes as they exist in three fundamental contexts: the person
+as a whole, the social context, and the broad sociohistorical context. This contextual focus on the
+www.annualreviews.org • Attitudes and Attitude Change 319
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39person as a whole links attitude change to individual values, general goals, language, emotions,
+and developmental and life span influences. The focus on the social context links attitude change
+to the individual’s interactions with communicators, social networks, and social media. The focus
+on the broad sociohistorical context recognizes the impact of historically significant climatic, po-
+litical, and economic events, as well as the fundamental impact of culture on the characteristics
+and functions of attitudes.
+For decades, particularly during the 1980s and 1990s, research on attitude change was pri-
+marily focused on information processing—a label applying a computer processing metaphor,
+assumed to operate across situations and topics. The period of research covered in the previous
+Annual Review of Psychology article on attitudes and attitude change was characterized as one of
+integrative theorizing (Bohner & Dickel 2011), as efforts to integrate cognitive process models
+and explicit and implicit attitudes were a primary concern. In the current period (2010–2017),
+a new contextualism has added nuance to our understanding of attitudes, bringing with it more
+attention to the substantive content of attitudes. Rather than seeking integration, this approach
+offers an enhanced understanding of distinctions between attitudinal domains. After years of leav-
+ing attitude objects out of the conversation, attitude change research now increasingly concerns
+itself with shifts in specific attitude clusters (e.g., attitudes toward political issues, music, jobs
+and work, community, climate change, materialistic goals, status brands, authority figures, and
+even the concepts of action or inaction) and what these shifts reveal about the contexts in which
+these attitudes were formed. As future research continues to mine the influence of the personal,
+social, and sociohistorical contexts, we look forward to a more situated understanding of attitude
+formation and change.
+SUMMARY POINTS
+1. The degree of attitude change generally observed in published research tends to be
+modest, at about one third of a standard deviation.
+2. Linking a specific advocacy to broad values can shape attitudes toward a policy in line
+with the values. Values influence behavior by mediating influences on attitudes more
+specifically connected to the behavior.
+3. Attitudes are easier to remember and more difficult to change when action goals are
+activated.
+4. Second-person self-talk can induce positive attitudes toward a task.
+5. Emotional regulation can reduce negative attitudes.
+6. Developmental shifts are observable in attitudes toward many topic areas, from music
+and media to the self. The roots of political and materialistic ideologies can be traced to
+early childhood experiences.
+7. The attitudes of the Millennial generation differ from those of prior generations in being
+more conservative fiscally and politically, liberal socially (e.g., support for egalitarian
+gender roles and same-sex marriage), individualistic, self-focused, and materialistic.
+8. Attitude theorizing, as developed in the West, offers an incomplete account of how
+attitudes function and are structured in non-Western cultures, where normative processes
+play a stronger role in shaping attitudes and their functions.
+320 Albarracin ·Shavitt
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39FUTURE ISSUES
+1. It is important to maintain a common terminology to facilitate tracking attitude research.
+Currently, some of the work on attitudes uses terms such as “evaluative judgments” or
+“values” instead of “attitudes.”
+2. We are only beginning to understand patterns of delayed attitude change, and these
+patterns deserve future attention.
+3. Attitudes must be studied within social networks and in relation to historic and other
+environmental events.
+4. Attitude change strategies must be systematically tested across cultures.
+5. Analyses of generational or developmental influences on attitudes must disentangle the
+influences of age, historical time period, and cohort.
+6. To expand attitude theorizing across cultural regions, the distinct characteristics and
+functions of attitudes in non-Western cultures deserve attention.
+7. Although most attitude research is properly statistically powered, some areas are not and
+require increased methodological rigor.
+8. Psychological research on attitudes would benefit from greater attention to public policy
+considerations and applied issues.
+DISCLOSURE STATEMENT
+The authors are not aware of any affiliations, memberships, funding, or financial holdings that
+might be perceived as affecting the objectivity of this review.
+LITERATURE CITED
+Ajzen I, Madden TJ. 1986. Prediction of goal-directed behavior: attitudes, intentions, and perceived behavioral
+control. J. Exp. Soc. Psychol. 22(5):453–74
+Albarrac´ın D, Handley IM. 2011. The time for doing is not the time for change: effects of general action and
+inaction goals on attitude retrieval and attitude change. J. Personal. Soc. Psychol. 100(6):983–98
+Albarrac´ın D, Handley IM, Noguchi K, McCulloch KC, Li H, et al. 2008. Increasing and decreasing motor
+and cognitive output: a model of general action and inaction goals. J. Personal. Soc. Psychol. 95(3):510–23
+Albarracin D, Kumkale GT, Del Vento PP. 2017. How people can become persuaded by weak messages
+presented by credible communicators: Not all sleeper effects are created equal. J. Exp. Soc. Psychol. 68:171–
+80
+Albarracin D, Zanna MP, Johnson BT, Kumkale GT. 2005. Attitudes: introduction and scope. In The Handbook
+of Attitudes, ed. D Albarracin, BT Johnson, MP Zanna, pp. 3–19. Hove, UK: Psychol. Press
+Allport GW. 1935. Attitudes. In A Handbook of Social Psychology, ed. C Murchison, pp. 798–844. Worcester,
+MA: Clark Univ. Press
+Barden J, Tormala ZL. 2014. Elaboration and attitude strength: the new meta-cognitive perspective. Soc.
+Personal. Psychol. Compass 8(1):17–29
+Berger J. 2014. Word of mouth and interpersonal communication: a review and directions for future research.
+J. Consum. Psychol. 24(4):586–607
+Blankenship KL, Wegener DT, Murray RA. 2012. Circumventing resistance: using values to indirectly change
+attitudes. J. Personal. Soc. Psychol. 103(4):606–21
+www.annualreviews.org • Attitudes and Attitude Change 321
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39Blankenship KL, Wegener DT, Murray RA. 2015. Values, inter-attitudinal structure, and attitude change:
+Value accessibility can increase a related attitude’s resistance to change. Personal. Soc. Psychol. Bull.
+41(12):1739–50
+Boer D, Fischer R. 2013. How and when do personal values guide our attitudes and sociality? Explaining
+cross-cultural variability in attitude-value linkages. Psychol. Bull. 139(5):1113–47
+Bohner G, Dickel N. 2011. Attitudes and attitude change. Annu. Rev. Psychol. 62:391–417
+Bonneville-Roussy A, Rentfrow PJ, Xu MK, Potter J. 2013. Music through the ages: trends in musical engage-
+ment and preferences from adolescence through middle adulthood. J. Personal. Soc. Psychol. 105(4):703–17
+Briley D, Wyer RS, Li E. 2014. A dynamic view of cultural influence: a review. J. Consum. Psychol. 24(4):557–71
+Calanchini J, Sherman JW. 2013. Implicit attitudes reflect associative, non-associative, and non-attitudinal
+processes. Soc. Personal. Psychol. Compass 7(9):654–67
+Cameron CD, Brown-Iannuzzi JL, Payne BK. 2012. Sequential priming measures of implicit social cognition:
+a meta-analysis of associations with behavior and explicit attitudes. Personal. Soc. Psychol. Rev. 16(4):330–50
+Carrera P, Mu ˜noz D, Caballero A, Fern´andez I, Albarrac´ın D. 2012. The present projects past behavior
+into the future while the past projects attitudes into the future: how verb tense moderates predictors of
+drinking intentions. J. Exp. Soc. Psychol. 48(5):1196–200
+Carstensen LL. 2006. The influence of a sense of time on human development. Science 312:1913–16
+Chan MS, Jones CR, Albarracin D. 2017. Countering false beliefs: an analysis of the evidence and recom-
+mendations of best practices for the retraction and correction of scientific misinformation. In The Oxford
+Handbook of the Science of Science Communication, ed. KH Jamieson, D Kahan, DA Scheufele, pp. 331–39.
+Oxford, UK: Oxford Univ. Press
+Chaplin LN, John DR. 2010. Interpersonal influences on adolescent materialism: a new look at the role of
+parents and peers. J. Consum. Psychol. 20(2):176–84
+Chiu C-Y, Gelfand MJ, Yamagishi T, Shteynberg G, Wan C. 2010. Intersubjective culture: the role of
+intersubjective perceptions in cross-cultural research. Perspect. Psychol. Sci. 5(4):482–93
+Chu SC, Kim Y. 2011. Determinants of consumer engagement in electronic word-of-mouth (eWOM) in
+social networking sites. Int. J. Advert. 30(1):47–75
+Clark JK, Evans AT. 2014. Source credibility and persuasion: the role of message position in self-validation.
+Personal. Soc. Psychol. Bull. 40(8):1024–36
+Clark JK, Wegener DT, Sawicki V, Petty RE, Bri ˜nol P. 2013. Evaluating the message or the messenger?
+Implications for self-validation in persuasion. Personal. Soc. Psychol. Bull. 39(12):1571–84
+Clore GL, Schnall S. 2005. The influence of affect on attitude. In The Handbook of Attitudes, ed. D Albarracin,
+BT Johnson, MP Zanna, pp. 437–90. Hove, UK: Psychol. Press
+de Klepper M, Sleebos E, van de Bunt G, Agneessens F. 2010. Similarity in friendship networks: selection or
+influence? The effect of constraining contexts and non-visible individual attributes. Soc. Netw. 32(1):82–90
+Dolcos S, Albarracin D. 2014. The inner speech of behavioral regulation: intentions and task performance
+strengthen when you talk to yourself as a You. Eur. J. Soc. Psychol. 44(6):636–42
+Donnelly K, Twenge JM, Clark MA, Shaikh SK, Beiler-May A, Carter NT. 2016. Attitudes toward women’s
+work and family roles in the United States, 1976–2013. Psychol. Women Q. 40(1):361684315590774
+Dubois D, Rucker DD, Galinsky AD. 2016. Dynamics of communicator and audience power: the persuasive-
+ness of competence versus warmth. J. Consum. Res. 43(1):68–85
+Ecker UKH, Lewandowsky S, Fenton O, Martin K. 2014. Do people keep believing because they want to?
+Preexisting attitudes and the continued influence of misinformation. Mem. Cogn. 42(2):292–304
+Effron DA, Miller DT. 2012. How the moralization of issues grants social legitimacy to act on one’s attitudes.
+Personal. Soc. Psychol. Bull. 38(5):690–701
+Ehret PJ, Monroe BM, Read SJ. 2015. Modeling the dynamics of evaluation: a multilevel neural network
+implementation of the iterative reprocessing model. Personal. Soc. Psychol. Rev. 19(2):148–76
+Eom K, Kim HS, Sherman DK, Ishii K. 2016. Cultural variability in the link between environmental concern
+and support for environmental action. Psychol. Sci. 27(10):1–9
+Eschleman KJ, Bowling NA, Judge TA. 2015. The dispositional basis of attitudes: a replication and extension
+of Hepler and Albarrac´ın 2013. J. Personal. Soc. Psychol. 108(5):e1–15
+Feinberg M, Willer R. 2013. The moral roots of environmental attitudes. Psychol. Sci. 24(1):56–62
+322 Albarracin ·Shavitt
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39Feldman G, Albarrac´ın D. 2016. Norm theory and the action-effect: the role of social norms in regret following
+action and inaction. J. Exp. Soc. Psychol. 69:111–20
+Fraley RC, Griffin BN, Belsky J, Roisman GI. 2012. Developmental antecedents of political ideology: a
+longitudinal investigation from birth to age 18 years. Psychol. Sci. 23(11):1425–31
+Galdi S, Gawronski B, Arcuri L, Friese M. 2012. Selective exposure in decided and undecided individuals.
+Personal. Soc. Psychol. Bull. 38(5):559–69
+Garnett BR, Buelow R, Franko DL, Becker C, Rodgers RF, Austin SB. 2014. The importance of campaign
+saliency as a predictor of attitude and behavior change: a pilot evaluation of social marketing campaign
+Fat Talk Free Week. Health Commun. 29(10):984–95
+Gelfand MJ, Raver JL, Nishii L, Leslie LM, Lun J, et al. 2011. Differences between tight and loose cultures:
+a 33-nation study. Science 332(6033):1100–4
+Greenwald AG, Banaji MR, Nosek BA. 2015. Statistically small effects of the implicit association test can have
+societally large effects. J. Personal. Soc. Psychol. 108(4):553–61
+Greenwald AG, Poehlman TA, Uhlmann EL, Banaji MR. 2009. Understanding and using the implicit asso-
+ciation test: III. Meta-analysis of predictive validity. J. Personal. Soc. Psychol. 97(1):17–41
+Halperin E, Porat R, Tamir M, Gross JJ. 2013. Can emotion regulation change political attitudes in intractable
+conflicts? From the laboratory to the field. Psychol. Sci. 24(1):106–11
+Han S-P, Shavitt S. 1994. Persuasion and culture: advertising appeals in individualistic and collectivistic
+societies. J. Exp. Soc. Psychol. 30(4):326–50
+Hart W, Albarrac´ın D, Eagly AH, Brechan I, Lindberg MJ, Merrill L. 2009. Feeling validated versus being
+correct: a meta-analysis of selective exposure to information. Psychol. Bull. 135(4):555–88
+Hepler J, Albarrac´ın D. 2013. Attitudes without objects: evidence for a dispositional attitude, its measurement,
+and its consequences. J. Personal. Soc. Psychol. 104(6):1060–76
+Hepler J, Albarracin D. 2014. Liking more means doing more: Dispositional attitudes predict patterns of
+general action. Soc. Psychol. 45(5):391–98
+Hong J, Chang HH. 2015. “I” follow my heart and “we” rely on reasons: the impact of self-construal on
+reliance on feelings versus reasons in decision making. J. Consum. Res. 41(April):1392–411
+Howe LC, Krosnick JA. 2017. Attitude strength. Annu. Rev. Psychol. 68:327–51
+Hunt CV, Kim A, Borgida E, Chaiken S. 2010. Revisiting the self-interest versus values debate: the role of
+temporal perspective. J. Exp. Soc. Psychol. 46(6):1155–58
+Jamieson KH, Hardy BW. 2014. Leveraging scientific credibility about Arctic sea ice trends in a polarized
+political environment. PNAS 111(Suppl.):13598–605
+Jia L, Smith ER. 2013. Distance makes the metaphor grow stronger: a psychological distance model of
+metaphor use. J. Exp. Soc. Psychol. 49(3):492–97
+Johnson TP, Shavitt S, Holbrook AL. 2011. Survey response styles across cultures. In Cross-Cultural Research
+Methods in Psychology, ed. D Matsumoto, F van de Vijver, pp. 130–75. Oxford, UK: Oxford Univ. Press
+Jost JT, Banaji MR. 1994. The role of stereotyping in system-justification and the production of false con-
+sciousness. Br. J. Soc. Psychol. 33(1):1–27
+Jung CG. 1923. Psychological Types, or the Psychology of Individuation. Z ¨urich: Rascher Verl.
+Kalinoski ZT, Steele-Johnson D, Peyton EJ, Leas KA, Steinke J, Bowling NA. 2013. A meta-analytic evaluation
+of diversity training outcomes. J. Organ. Behav. 34(8):1076–104
+Kim HS, Sherman DK. 2007. “Express yourself ”: culture and the effect of self-expression on choice.
+J. Personal. Soc. Psychol. 92(1):1–11
+Konrath SH, O’Brien EH, Hsing C. 2011. Changes in dispositional empathy in American college students
+over time: a meta-analysis. Personal. Soc. Psychol. Rev. 15(2):180–98
+Kross E, Bruehlman-Senecal E, Park J, Burson A, Dougherty A, et al. 2014. Self-talk as a regulatory mechanism:
+How you do it matters. J. Personal. Soc. Psychol. 106(2):304–24
+Kruglanski AW, Gigerenzer G. 2011. Intuitive and deliberate judgments are based on common principles.
+Psychol. Rev. 118(1):97–109
+Kumkale GT, Albarrac´ın D. 2004. The sleeper effect in persuasion: a meta-analytic review. Psychol. Bull.
+130(1):143–72
+Lai J, He P, Chou H-M, Zhou L. 2013. Impact of national culture on online consumer review behavior. Glob.
+J. Bus. Res. 7(1):109–15
+www.annualreviews.org • Attitudes and Attitude Change 323
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39Lalwani AK, Shavitt S. 2013. You get what you pay for? Self-construal influences price-quality judgments.
+J. Consum. Res. 40(2):255–67
+Lambert AJ, Scherer LD, Schott JP, Olson KR, Andrews RK, et al. 2010. Rally effects, threat, and attitude
+change: an integrative approach to understanding the role of emotion. J. Personal. Soc. Psychol. 98(6):886–
+903
+Ledgerwood A, Trope Y, Chaiken S. 2010. Flexibility now, consistency later: Psychological distance and
+construal shape evaluative responding. J. Personal. Soc. Psychol. 99(1):32–51
+Lemmer G, Wagner U. 2015. Can we really reduce ethnic prejudice outside the lab? A meta-analysis of direct
+and indirect contact interventions. Eur. J. Soc. Psychol. 45(2):152–68
+Levy SR, Freitas AL, Mendoza-Denton R, Kugelmass H, Rosenthal L. 2010. When sociopolitical events strike
+cultural beliefs: divergent impact of Hurricane Katrina on African Americans’ and European Americans’
+endorsement of the Protestant work ethic. Basic Appl. Soc. Psychol. 32(3):207–16
+Li R, Gordon S, Gelfand MJ. 2017. Tightness-looseness: a new framework to understand consumer behavior.
+J. Consum. Psychol. 27(3):377–91
+Liberman N, Trope Y. 1998. The role of feasibility and desirability considerations in near and distant future
+decisions: a test of temporal construal theory. J. Personal. Soc. Psychol. 75(1):5–18
+Mares ML, Sun Y. 2010. The multiple meanings of age for television content preferences. Hum. Commun.
+Res. 36(3):372–96
+Markus HR, Conner A. 2013. Clash!: How to Thrive in a Multicultural World. New York: Plume
+McCulloch KC, Li H, Hong S, Albarracin D. 2012. Na¨ıve definitions of action and inaction: the continuum,
+spread, and valence of behaviors. Eur. J. Soc. Psychol. 42(2):227–34
+Meissner F, Rothermund K. 2013. Estimating the contributions of associations and recoding in the implicit
+association test: the ReAL model for the IAT. J. Personal. Soc. Psychol. 104(1):45–69
+Mercier H. 2016. The argumentative theory: predictions and empirical evidence. Trends Cogn. Sci. 20(9):689–
+700
+Mercier H, Sperber D. 2011. Why do humans reason? Arguments for an argumentative theory. Behav. Brain
+Sci. 34(2):57–111
+Miche M, Els¨asser VC, Schilling OK, Wahl H-W. 2014. Attitude toward own aging in midlife and early
+old age over a 12-year period: examination of measurement equivalence and developmental trajectories.
+Psychol. Aging 29(3):588–600
+Mikels JA, Shuster MM, Thai ST, Smith-Ray R, Waugh CE, et al. 2016. Messages that matter: age differences
+in affective responses to framed health messages. Psychol. Aging 31(4):409–14
+Miles E, Crisp RJ. 2014. A meta-analytic test of the imagined contact hypothesis. Group Process. Intergroup
+Relat. 17(1):3–26
+Milfont TL, Duckitt J, Wagner C. 2010. A cross-cultural test of the value-attitude-behavior hierarchy. J. Appl.
+Soc. Psychol. 40(11):2791–813
+Miller DT, Effron DA. 2010. Psychological license: when it is needed and how it functions. Adv. Exp. Soc.
+Psychol. 43(C):115–55
+Miller JG, Das R, Chakravarthy S. 2011. Culture and the role of choice in agency. J. Personal. Soc. Psychol.
+101(1):46–61
+Milojev P, Greaves L, Osborne D, Sibley CG. 2015. Stability and change in political conservatism following
+the global financial crisis. Personal. Soc. Psychol. Bull. 41(1):127–39
+Monga AB, John DR. 2010. What makes brands elastic? The influence of brand concept and styles of thinking
+on brand extension evaluation. J. Mark. 74(3):80–92
+Mynhardt JC. 2013. Intergroup attitude change in South Africa: a thirty-seven year longitudinal study.
+J. Psychol. Afr. 23(4):549–60
+Ng AH, Hynie M. 2014. Cultural differences in indecisiveness: the role of na¨ıve dialecticism. Personal. Individ.
+Differ. 70:45–50
+Ng AH, Hynie M, MacDonald TK. 2012. Culture moderates the pliability of ambivalent attitudes. J. Cross-
+Cult. Psychol. 43(8):1313–24
+Ng T, Feldman D. 2010. The relationships of age with job attitudes: a meta-analysis. Pers. Psychol. 63(3):677–
+718
+324 Albarracin ·Shavitt
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39Nisbett RE, Peng K, Choi I, Norenzayan A. 2001. Culture and systems of thought: holistic versus analytic
+cognition. Psychol. Rev. 108(2):291–310
+Notthoff N, Carstensen LL. 2014. Positive messaging promotes walking in older adults. Psychol. Aging
+29(2):329–41
+Nteta TM, Greenlee JS. 2013. A change is gonna come: generational membership and White racial attitudes
+in the 21st century. Polit. Psychol. 34(6):877–97
+Orth U, Robins RW, Widaman KF. 2012. Life-span development of self-esteem and its effects on important
+life outcomes. J. Personal. Soc. Psychol. 102(6):1271–88
+Orth U, Trzesniewski KH, Robins RW. 2010. Self-esteem development from young adulthood to old age: a
+cohort-sequential longitudinal study. J. Personal. Soc. Psychol. 98(4):645–58
+Oswald FL, Mitchell G, Blanton H, Jaccard J, Tetlock PE. 2015. Using the IAT to predict ethnic and racial
+discrimination: small effect sizes of unknown societal significance. J. Personal. Soc. Psychol. 108(4):562–71
+Oyamot CM, Fisher EL, Deason G, Borgida E. 2012. Attitudes toward immigrants: the interactive role of the
+authoritarian predisposition, social norms, and humanitarian values. J. Exp. Soc. Psychol. 48(1):97–105
+Park LE, Young AF, Troisi JD, Pinkus RT. 2011. Effects of everyday romantic goal pursuit on women’s
+attitudes toward math and science. Personal. Soc. Psychol. Bull. 37(9):1259–73
+Pierro A, Mannetti L, Kruglanski AW, Klein K, Orehek E. 2012. Persistence of attitude change and attitude-
+behavior correspondence based on extensive processing of source information. Eur. J. Soc. Psychol.
+42(1):103–11
+Pietri ES, Fazio RH, Shook NJ. 2013. Weighting positive versus negative: the fundamental nature of valence
+asymmetry. J. Personal. 81(2):196–208
+Pillaud V, Cavazza N, Butera F. 2013. The social value of being ambivalent: self-presentational concerns in
+the expression of attitudinal ambivalence. Personal. Soc. Psychol. Bull. 39(9):1139–51
+Ranney MA, Clark D. 2016. Climate change conceptual change: Scientific information can transform attitudes.
+Top. Cogn. Sci. 8(1):49–75
+Reed AE, Chan L, Mikels JA. 2014. Meta-analysis of the age-related positivity effect: age differences in
+preferences for positive over negative information. Psychol. Aging 29(1):1–15
+Rentfrow PJ, Goldberg LR, Levitin DJ. 2011. The structure of musical preferences: a five-factor model.
+J. Personal. Soc. Psychol. 100(6):1139–57
+Riemer H, Shavitt S, Koo M, Markus HR. 2014. Preferences don’t have to be personal: expanding attitude
+theorizing with a cross-cultural perspective. Psychol. Rev. 121(4):619–48
+Rocklage MD, Fazio RH. 2014. Individual differences in valence weighting: when, how, and why they matter.
+J. Exp. Soc. Psychol. 50(1):144–57
+Roos LE, Lebrecht S, Tanaka JW, Tarr MJ. 2013. Can singular examples change implicit attitudes in the
+real-world? Front. Psychol. 4(Sept.):1–14
+Rudman LA, McLean MC, Bunzl M. 2013. When truth is personally inconvenient, attitudes change: the
+impact of extreme weather on implicit support for Green politicians and explicit climate-change beliefs.
+Psychol. Sci. 24(11):2290–96
+Savani K, Morris MW, Naidu NVR. 2012. Deference in Indians’ decision making: introjected goals or in-
+junctive norms? J. Personal. Soc. Psychol. 102(4):685–99
+Schuldt JP, Konrath SH, Schwarz N. 2011. “Global warming” or “climate change”? Public Opin. Q. 75(1):115–
+24
+Schwartz SH, Cieciuch J, Vecchione M, Davidov E, Fischer R, et al. 2012. Refining the theory of basic
+individual values. J. Personal. Soc. Psychol. 103(4):663–88
+Shavitt S, Cho H. 2016. Culture and consumer behavior: the role of horizontal and vertical cultural factors.
+Curr. Opin. Psychol. 8:149–54
+Shavitt S, Cho H, Barnes A. 2017. Culture and Consumer Behavior. In Handbook of Cultural Psychology, ed. S
+Kitayama, D Cohen. New York: Guilford Press. 2nd ed. In press
+Shavitt S, Johnson TP, Zhang J. 2011. Horizontal and vertical cultural differences in the content of advertising
+appeals. J. Int. Consum. Mark. 23:297–310
+Sheets P, Domke DS, Greenwald AG. 2011. God and country: the partisan psychology of the presidency,
+religion, and nation. Polit. Psychol. 32(3):459–84
+www.annualreviews.org • Attitudes and Attitude Change 325
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39Simmons JP, Nelson LD, Simonsohn U. 2011. False-positive psychology: Undisclosed flexibility in data
+collection and analysis allows presenting anything as significant. Psychol. Sci. 22(11):1359–66
+Spencer-Rodgers J, Williams MJ, Peng K. 2010. Cultural differences in expectations of change and tolerance
+for contradiction: a decade of empirical research. Personal. Soc. Psychol. Rev. 14(3):296–312
+Stanley DA, Sokol-Hessner P, Banaji MR, Phelps EA. 2011. Implicit race attitudes predict trustworthiness
+judgments and economic trust decisions. PNAS 108(19):7710–15
+Steinmetz H, Knappstein M, Ajzen I, Schmidt P, Kabst R. 2016. How effective are behavior change interven-
+tions based on the theory of planned behavior? A three-level meta-analysis. Z. Psychol. 224(3):216–233
+Stout JG, Dasgupta N, Hunsinger M, McManus MA. 2011. STEMing the tide: using ingroup experts to in-
+oculate women’s self-concept in science, technology, engineering, and mathematics (STEM). J. Personal.
+Soc. Psychol. 100(2):255–70
+Struthers A, Wang M. 2016. Buzz agents in a teen-driven social marketing campaign: Positive campaign
+attitude leads to positive changes in health outcomes. Soc. Mark. Q. 22(3):218–35
+Tannenbaum MB, Hepler J, Zimmerman RS, Saul L, Jacobs S, et al. 2015. Appealing to fear: a meta-analysis
+of fear appeal effectiveness and theories. Psychiatr. Bull. 141(6):1178–204
+Thibodeau PH, Crow L, Flusberg SJ. 2017. The metaphor police: a case study of the role of metaphor in
+explanation. Psychon. Bull. Rev. 24(5):1375–86
+Thomas WI, Znaniecki F. 1918–1920. The Polish Peasant in Europe and America. Boston: Gorham Press
+Torelli CJ, ¨Ozsomer A, Carvalho SW, Keh HT, Maehle N. 2012. Brand concepts as representations of human
+values: Do cultural congruity and compatibility between values matter? J. Mark. 76( July):92–108
+Torelli CJ, Shavitt S. 2010. Culture and concepts of power. J. Personal. Soc. Psychol. 99(4):703–23
+Torelli CJ, Shavitt S, Cho YI, Holbrook AL, Johnson TP, Weiner S. 2015. Justice or compassion? Cultural
+differences in power norms affect consumer satisfaction with power-holders. Int. Mark. Rev. 324(3):279–
+306
+Triandis HC, Gelfand MJ. 1998. Converging measurement of horizontal and vertical individualism and col-
+lectivism. J. Personal. Soc. Psychol. 74(1):118–28
+Trzesniewski KH, Donnellan MB. 2010. Rethinking “Generation Me”: a study of cohort effects from 1976–
+2006. Perspect. Psychol. Sci. 5(1):58–75
+Twenge JM. 2014. Generation Me—Revised and Updated: Why Today’s Young Americans Are More Confident,
+Assertive, Entitled—and More Miserable than Ever Before. New York: Atria Books
+Twenge JM, Honeycutt N, Prislin R, Sherman RA. 2016a. More polarized but more Independent: politi-
+cal party identification and ideological self-categorization among US adults, college students, and late
+adolescents, 1970–2015. Personal. Soc. Psychol. Bull. 42(10):1364–83
+Twenge JM, Kasser T. 2013. Generational changes in materialism and work centrality, 1976–2007: associations
+with temporal changes in societal insecurity and materialistic role modeling. Personal. Soc. Psychol. Bull.
+39(7):883–97
+Twenge JM, Sherman RA, Exline JJ, Grubbs JB. 2016b. Declines in American adults’ religious participation
+and beliefs, 1972–2014. SAGE Open 6(1):2158244016638133
+Tyson M, Covey J, Rosenthal HES. 2014. Theory of planned behavior interventions for reducing heterosexual
+risk behaviors: a meta-analysis. Health Psychol. 33(12):1454–67
+Valkenburg PM, Peter J, Walther JB. 2016. Media effects: theory and research. Annu. Rev. Psychol. 67(1):315–38
+van Bavel JJ, Xiao YJ, Cunningham WA. 2012. Evaluation is a dynamic process: moving beyond dual system
+models. Soc. Personal. Psychol. Compass. 6:438–54
+von Salisch M, Vogelgesang J, Kristen A, Oppl C. 2011. Preference for violent electronic games and aggressive
+behavior among children: the beginning of the downward spiral? Media Psychol. 14(3):233–58
+Wakslak C, Liberman N, Trope Y. 2007. Construal levels and psychological distance: effects on representation,
+prediction, evaluation, and behavior. J. Consum. Psychol. 17(2):83–95
+Wang Q. 2013. Chinese socialization and emotion talk between mothers and children in native and immigrant
+Chinese families. Asian Am. J. Psychol. 4(3):185–92
+Weaver JR, Bosson JK. 2011. I feel like I know you: sharing negative attitudes of others promotes feelings of
+familiarity. Personal. Soc. Psychol. Bull. 37(4):481–91
+326 Albarracin ·Shavitt
+Downloaded from www.annualreviews.org. Guest (guest) IP: 199.83.221.44 On: Wed, 25 Jun 2025 13:58:39Wegener DT, Petty RE, Blankenship KL, Detweiler-Bedell B. 2010. Elaboration and numerical anchoring:
+implications of attitude theories for consumer judgment and decision making. J. Consum. Psychol. 20(1):5–
+16
+Welch S, Sigelman L. 2011. The “Obama Effect” and White racial attitudes. Ann. Am. Acad. Polit. Soc. Sci.
+634(Feb.):207–20
+Wolsko C, Ariceaga H, Seiden J. 2016. Red, white, and blue enough to be green: effects of moral framing on
+climate change attitudes and conservation behaviors. J. Exp. Soc. Psychol. 65:7–19
+Yang H, Stamatogiannakis A, Chattopadhyay A. 2015. Pursuing attainment versus maintenance goals: the
+interplay of self-construal and goal type on consumer motivation. J. Consum. Res. 42(1):93–108
+Yang Y, Land KC. 2013. Age-Period-Cohort Analysis: New Models, Methods, and Empirical Applications. Boca
+Raton, FL: CRC Press
+Zabel KL, Biermeier-Hanson BBJ, Baltes BB, Early BJ, Shepard A. 2016. Generational differences in work
+ethic: fact or fiction? J. Bus. Psychol. 32(3):301–15
+Zell E, Su R, Li H, Ho M-HR, Hong S, et al. 2012a. Cultural differences in attitudes toward action and
+inaction: the role of dialecticism. Soc. Psychol. Personal. Sci. 4(5):521–28
+Zell E, Warriner AB, Albarrac´ın D. 2012b. Splitting of the mind: when the you I talk to is me and needs
+commands. Soc. Psychol. Personal. Sci. 3(5):549–55
+RELATED RESOURCES
+Banaji MR, Greenwald AG. 2016. Blindspot: Hidden Biases of Good People. New York: Bantam
+Brock TC, Green MC. 2005. Persuasion: Psychological Insights and Perspectives. Newcastle upon
+Tyne, UK: Sage. 2nd ed.
+Mercier H, Sperber D. 2017. The Enigma of Reason. Cambridge, MA: Harvard Univ. Press
+Sloman S, Fernbach P. 2017. The Knowledge Illusion: Why We Never Think Alone. New York:
+Riverhead Books
+www.annualreviews.org • Attitudes and Attitude Change 327

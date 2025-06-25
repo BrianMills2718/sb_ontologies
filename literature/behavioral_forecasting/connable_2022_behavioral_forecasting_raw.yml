@@ -1,0 +1,326 @@
+citation: "Connable, B. (2022). Authentically Describing and Forecasting Human Behavior for Policy Analysis: A Review and a Path Forward. In A. B. Frank & E. M. Bartels (Eds.), Adaptive Engagement for Undergoverned Spaces: Concepts, Challenges, and Prospects for New Approaches (pp. 431-462). RAND Corporation."
+
+annotation: "Reviews challenges in modeling and simulating human behavior for policy analysis, proposing a biopsychosocial framework for authentic behavioral representation in contrast to current 'supersoldier' approaches. Introduces RAND's Will-to-Fight Model as a systematic approach to understanding disposition to act."
+
+model_type: "property_graph"
+
+rationale: "Property graph model best captures the complex interconnections between individual psychological traits, physiological states, social relationships, and environmental factors that influence human behavioral disposition. The framework represents nodes as entities (agents, traits, factors) and edges as relationships and influences between these components."
+
+schema_blueprint:
+  title: "Authentic Human Behavior Forecasting Framework"
+  description: "A comprehensive model for understanding and predicting human behavioral disposition using biopsychosocial factors, focusing on authentic representation versus superficial realism."
+  
+  root_properties:
+    nodes:
+      description: "Human agents, behavioral factors, environmental conditions, organizational structures, and measurement constructs that comprise the behavioral forecasting system"
+      item_type: "Entity"
+    edges:
+      description: "Relationships, influences, causal connections, and interactions between behavioral components and human agents"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Constructs
+    - name: "disposition-to-act"
+      category: "core-construct"
+      description: "The fundamental tendency or readiness of an individual to select and engage in specific behaviors when faced with situational demands"
+      
+    - name: "will-to-fight"
+      category: "core-construct"
+      description: "The disposition and decision to fight, to act, or to persevere when needed, serving as an aggregate measure of behavioral motivation"
+      
+    - name: "authenticity"
+      category: "core-construct"
+      description: "Genuine accuracy in behavioral representation based on empirical scientific research rather than superficial mimicry or visual complexity"
+      
+    - name: "biopsychosocial-framework"
+      category: "theoretical-framework"
+      description: "Holistic approach integrating biological, psychological, and social factors as interconnected systems influencing human behavior"
+      
+    - name: "system-of-systems"
+      category: "theoretical-framework"
+      description: "Complex framework treating individuals as interconnected systems operating within broader environmental and social systems"
+      
+    # Behavioral Models
+    - name: "trait-state-model"
+      category: "behavioral-model"
+      description: "Approach representing individuals with semi-permanent traits and fluctuating states that change based on environmental inputs and conditions"
+      
+    - name: "five-factor-personality-model"
+      category: "behavioral-model"
+      description: "Widely accepted psychological framework measuring personality across five dimensions: openness, conscientiousness, extraversion, agreeableness, neuroticism"
+      
+    - name: "supersoldier-agent"
+      category: "behavioral-model"
+      description: "Inauthentic simulation agents that always follow orders, never exhibit fear effects, show no individualized reactions to casualties, and display superhuman characteristics"
+      
+    - name: "digital-twin"
+      category: "behavioral-model"
+      description: "Computerized replication of an individual person incorporating biopsychosocial factors for analysis and forecasting"
+      
+    # Modeling Approaches
+    - name: "reverse-design-approach"
+      category: "modeling-approach"
+      description: "Problematic method where individual and group behavior is replicated as decisions and actions with little focus on underlying theory"
+      
+    - name: "narrow-theory-approach"
+      category: "modeling-approach"
+      description: "Approach adjudicating larger group behavior through application of single or dominant theory, often using rational choice heuristics"
+      
+    - name: "data-pull-approach"
+      category: "modeling-approach"
+      description: "Method where availability of data drives model design rather than theoretical framework, common in 2000s military applications"
+      
+    - name: "holistic-realism"
+      category: "modeling-approach"
+      description: "Approach pursuing comprehensive but not yet fully authentic representation of human behavior integrating multiple behavioral factors"
+      
+    # Will-to-Fight Model Components
+    - name: "individual-factors"
+      category: "will-to-fight-factor"
+      description: "Personal characteristics including identity, personality traits, physical condition, training, and individual motivations"
+      
+    - name: "close-group-factors"
+      category: "will-to-fight-factor"
+      description: "Small unit influences including leadership, cohesion, esprit de corps, training quality, and peer relationships"
+      
+    - name: "broader-influence-factors"
+      category: "will-to-fight-factor"
+      description: "Organizational, state, and societal level influences including public support, organizational integrity, economic incentives, and cultural norms"
+      
+    - name: "devotion-trait"
+      category: "trait-construct"
+      description: "Dedication to cause, country, unit, and mission, calculated from identity, ideology, unit factors, and personality dimensions"
+      
+    - name: "resilience-trait"
+      category: "trait-construct"
+      description: "Individual capacity to recover from trauma and maintain performance under stress and adverse conditions"
+      
+    - name: "adaptability-trait"
+      category: "trait-construct"
+      description: "Ability to adjust behavior and responses to changing environmental conditions and situational demands"
+      
+    # Biopsychosocial Components
+    - name: "personality-subsystem"
+      category: "biopsychosocial-component"
+      description: "Psychological component incorporating five-factor model and trait-state representations of individual personality characteristics"
+      
+    - name: "physiological-subsystem"
+      category: "biopsychosocial-component"
+      description: "Biological component modeling human body performance, fatigue, fitness, health status, and physical capabilities"
+      
+    - name: "cognitive-behavioral-subsystem"
+      category: "biopsychosocial-component"
+      description: "Mental processing component including cognitive schemas, decision-making processes, and learned behavioral patterns"
+      
+    - name: "social-relationship-subsystem"
+      category: "biopsychosocial-component"
+      description: "Social component modeling relationships, group dynamics, cultural influences, and interpersonal interactions"
+      
+    # Methodological Constructs
+    - name: "causal-inference"
+      category: "methodological-construct"
+      description: "Challenge of working backward to infer or prove causation between multiple interdependent variables in behavioral systems"
+      
+    - name: "emergent-behavior"
+      category: "methodological-construct"
+      description: "Complex behavioral patterns arising from interactions between individual agents and environmental factors"
+      
+    - name: "behavioral-forecasting"
+      category: "methodological-construct"
+      description: "Process of predicting future human behavior patterns based on systematic analysis of influencing factors"
+      
+    - name: "transparent-forecasting-method"
+      category: "methodological-construct"
+      description: "Open and defensible approach to predicting behavior centered on agreed-upon models of human decision-making"
+      
+    # Simulation Constructs
+    - name: "constructive-simulation"
+      category: "simulation-type"
+      description: "Computer-based modeling approach where simulated people operate simulated systems in simulated environments"
+      
+    - name: "agent-based-modeling"
+      category: "simulation-type"
+      description: "Computational approach modeling individual agents and their interactions to study emergent system-level behavior"
+      
+    - name: "verification-validation-accreditation"
+      category: "simulation-process"
+      description: "Technical process ensuring simulation accuracy and reliability, particularly challenging for human behavior representation"
+      
+    - name: "suspension-of-disbelief"
+      category: "simulation-outcome"
+      description: "User acceptance of simulation results as believable and useful for decision-making purposes"
+      
+    # Operational Frameworks
+    - name: "act-sense-decide-adapt"
+      category: "operational-framework"
+      description: "ASDA framework for rapidly forecasting human behavior in complex and undergoverned spaces"
+      
+    - name: "undergoverned-spaces"
+      category: "operational-context"
+      description: "Geographic areas with limited effective governance presenting complex behavioral forecasting challenges"
+      
+    - name: "human-machine-teaming"
+      category: "operational-context"
+      description: "Integration of human operators with automated systems requiring authentic behavioral modeling"
+      
+    # Assessment Tools
+    - name: "will-to-fight-assessment-tool"
+      category: "measurement-instrument"
+      description: "Structured analytic tool for collecting and analyzing data on 29 factors and 61 subfactors influencing behavioral motivation"
+      
+    - name: "structured-analytic-model"
+      category: "measurement-instrument"
+      description: "Organized framework for assessing individual, group, organizational, state, and societal influences on human decision-making"
+      
+    - name: "behavioral-differentiation"
+      category: "measurement-method"
+      description: "Process of distinguishing individual agents and groups based on authentic personality and behavioral characteristics"
+      
+    # Problem Categories
+    - name: "complexity-avoidance"
+      category: "implementation-barrier"
+      description: "Tendency to eschew authentic human behavioral representation due to computational, contractual, or consumer preferences"
+      
+    - name: "lack-of-championing"
+      category: "implementation-barrier"
+      description: "Absence of senior leadership advocacy for human behavioral modeling and simulation development"
+      
+    - name: "precision-without-accuracy"
+      category: "methodological-problem"
+      description: "Generation of detailed but fundamentally inaccurate results that appear sophisticated but lack scientific validity"
+      
+    # Research Contexts
+    - name: "military-operational-models"
+      category: "application-domain"
+      description: "Defense simulation systems used for training, planning, and policy analysis requiring authentic human behavior representation"
+      
+    - name: "policy-analysis"
+      category: "application-domain"
+      description: "Systematic evaluation of policy options requiring accurate understanding and prediction of human behavioral responses"
+      
+    - name: "strategic-competition"
+      category: "application-domain"
+      description: "Great power rivalry context requiring understanding of adversary and ally behavioral disposition"
+      
+    # Relationship Types
+    - name: "trait-state-influence"
+      category: "relationship"
+      description: "Dynamic relationship where environmental inputs cause temporary changes to behavioral states while potentially affecting underlying traits"
+      domain: ["environmental-factor", "behavioral-trait"]
+      range: ["behavioral-state", "behavioral-disposition"]
+      
+    - name: "factor-aggregation"
+      category: "relationship"
+      description: "Process by which multiple individual factors combine to influence overall behavioral disposition or will-to-fight"
+      domain: ["will-to-fight-factor"]
+      range: ["disposition-to-act"]
+      
+    - name: "subsystem-integration"
+      category: "relationship"
+      description: "Interconnection between personality, physiological, cognitive, and social subsystems in biopsychosocial framework"
+      domain: ["biopsychosocial-component"]
+      range: ["biopsychosocial-component"]
+      
+    - name: "causal-influence"
+      category: "relationship"
+      description: "Direct or indirect causal relationship between behavioral factors and observed or predicted behavioral outcomes"
+      domain: ["behavioral-factor"]
+      range: ["behavioral-outcome"]
+      
+    - name: "model-instantiation"
+      category: "relationship"
+      description: "Implementation of theoretical behavioral model into practical simulation or assessment tool"
+      domain: ["theoretical-framework"]
+      range: ["simulation-type", "measurement-instrument"]
+
+  json_schema:
+    behavioral_forecasting_enums:
+      model_types:
+        - "biopsychosocial-model"
+        - "will-to-fight-model"
+        - "trait-state-model"
+        - "five-factor-model"
+        - "supersoldier-model"
+        - "digital-twin-model"
+      
+      modeling_approaches:
+        - "reverse-design"
+        - "narrow-theory"
+        - "data-pull"
+        - "holistic-realism"
+        - "authentic-modeling"
+        - "system-of-systems"
+      
+      behavioral_factors:
+        - "individual-identity"
+        - "personality-traits"
+        - "physical-condition"
+        - "training-quality" 
+        - "unit-cohesion"
+        - "leadership-quality"
+        - "organizational-integrity"
+        - "public-support"
+        - "economic-incentives"
+        - "cultural-norms"
+        - "ideological-commitment"
+        - "equipment-quality"
+      
+      trait_categories:
+        - "personality-trait"
+        - "resilience-trait"
+        - "physical-fitness-trait"
+        - "devotion-trait"
+        - "leadership-trait"
+        - "adaptability-trait"
+        - "moral-injury-sensitivity"
+      
+      subsystem_types:
+        - "personality-subsystem"
+        - "physiological-subsystem"
+        - "cognitive-behavioral-subsystem"
+        - "social-relationship-subsystem"
+      
+      simulation_types:
+        - "constructive-simulation"
+        - "training-simulation"
+        - "agent-based-simulation"
+        - "tabletop-exercise"
+        - "digital-twin-simulation"
+      
+      implementation_barriers:
+        - "computational-limitations"
+        - "contractual-constraints"
+        - "consumer-resistance"
+        - "complexity-avoidance"
+        - "lack-of-championing"
+        - "verification-challenges"
+      
+      application_domains:
+        - "military-operations"
+        - "policy-analysis"
+        - "strategic-competition"
+        - "undergoverned-spaces"
+        - "human-machine-teaming"
+        - "personnel-management"
+      
+      relationship_types:
+        - "trait-state-influence"
+        - "factor-aggregation"
+        - "subsystem-integration"
+        - "causal-influence"
+        - "model-instantiation"
+        - "behavioral-prediction"
+      
+      authenticity_levels:
+        - "inauthentic-supersoldier"
+        - "realistic-simulation"
+        - "holistic-realism"
+        - "partial-authenticity"
+        - "full-authenticity"
+      
+      forecasting_methods:
+        - "structured-analysis"
+        - "factor-based-assessment"
+        - "trait-state-modeling"
+        - "biopsychosocial-integration"
+        - "digital-twin-analysis"

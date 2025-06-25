@@ -1,0 +1,301 @@
+citation: "Murray, R., Mulgan, G., & Caulier-Grice, J. (2010). How to Innovate: The tools for social innovation. The Young Foundation & NESTA."
+
+annotation: "Comprehensive framework identifying 300+ methods and tools for social innovation across four economic sectors (public, grant, market, household), structured around innovation stages from idea generation to systemic transformation."
+
+model_type: "property_graph"
+
+rationale: "The paper presents a complex network of interconnected innovation methods, economic sectors, processes, and systemic relationships that can be effectively modeled as nodes (concepts, methods, sectors) and edges (relationships, interfaces, processes). The four-sector architecture with six interfaces and multi-stage innovation processes naturally fits a property graph structure."
+
+schema_blueprint:
+  title: "Social Innovation Tools and Methods Framework"
+  description: "Schema modeling the comprehensive framework of social innovation tools, methods, processes, and sectoral interactions presented by Murray, Mulgan & Caulier-Grice"
+  
+  root_properties:
+    nodes:
+      description: "Concepts including innovation methods, economic sectors, processes, conditions, and outcomes in social innovation"
+      item_type: "Entity"
+    edges:
+      description: "Relationships between methods, sectoral interfaces, process flows, and causal connections in the social innovation ecosystem"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Framework Constructs
+    - name: "social-innovation"
+      category: "core-construct"
+      description: "Innovation in the creation of social outputs and outcomes regardless of which sector they spring from, aimed at meeting social needs more effectively"
+      
+    - name: "social-economy"
+      category: "core-construct"
+      description: "The hybrid economy encompassing parts of all four sub-economies (public, grant, market, household) that are oriented toward social production and social needs"
+      
+    - name: "four-sector-architecture"
+      category: "theoretical-framework"
+      description: "Framework dividing social innovation space into four interconnected sub-economies: public sector, grant economy, market economy, and household economy"
+      
+    - name: "public-economy"
+      category: "economic-sector"
+      description: "Government and state-based institutions, programs, and resources that can generate and support social innovation"
+      
+    - name: "grant-economy"
+      category: "economic-sector"
+      description: "Foundations, philanthropic organizations, and grant-funded entities that support social innovation through non-market mechanisms"
+      
+    - name: "market-economy"
+      category: "economic-sector"
+      description: "Private sector businesses, social enterprises, and market-based mechanisms that contribute to social innovation"
+      
+    - name: "household-economy"
+      category: "economic-sector"
+      description: "Individual and community-based informal networks, social movements, and household production that generates social innovation"
+      
+    # Sectoral Interfaces
+    - name: "state-grant-interface"
+      category: "sectoral-interface"
+      description: "Boundary and interactions between public sector and grant economy involving funding flows, regulations, and collaborative arrangements"
+      
+    - name: "state-market-interface"
+      category: "sectoral-interface"
+      description: "Boundary between public sector and market economy involving procurement, regulation, public-private partnerships"
+      
+    - name: "state-household-interface"
+      category: "sectoral-interface"
+      description: "Boundary between public sector and household economy involving citizen participation, co-production, and democratic innovation"
+      
+    - name: "market-grant-interface"
+      category: "sectoral-interface"
+      description: "Boundary between market and grant economies involving corporate social responsibility, sponsorship, and collaborative ventures"
+      
+    - name: "market-household-interface"
+      category: "sectoral-interface"
+      description: "Boundary between market and household economies involving consumption, employment, social movements affecting business"
+      
+    - name: "grant-household-interface"
+      category: "sectoral-interface"
+      description: "Boundary between grant and household economies involving volunteering, donations, grassroots organizing, and professional-community partnerships"
+      
+    # Innovation Process Stages
+    - name: "idea-generation"
+      category: "innovation-stage"
+      description: "Initial stage of social innovation involving creative sparks, problem identification, and conceptual development"
+      
+    - name: "development-prototyping"
+      category: "innovation-stage"
+      description: "Stage involving testing, piloting, and refining innovative solutions through experimentation and feedback"
+      
+    - name: "sustainability"
+      category: "innovation-stage"
+      description: "Critical stage of establishing reliable funding, operational models, and organizational capacity for long-term viability"
+      
+    - name: "scaling-diffusion"
+      category: "innovation-stage"
+      description: "Stage of expanding successful innovations through replication, adaptation, franchising, or organizational growth"
+      
+    - name: "systemic-innovation"
+      category: "innovation-stage"
+      description: "Transformative stage involving changes across multiple sectors, infrastructures, and institutional frameworks"
+      
+    # Innovation Methods Categories
+    - name: "participatory-budgeting"
+      category: "innovation-method"
+      description: "Democratic process where citizens directly decide how to allocate portions of municipal or institutional budgets"
+      domain: ["public-economy"]
+      
+    - name: "social-enterprise"
+      category: "innovation-method"
+      description: "Business model with social mission, often socially owned, investing profits in pursuit of social goals"
+      domain: ["market-economy", "grant-economy"]
+      
+    - name: "venture-philanthropy"
+      category: "innovation-method"
+      description: "Investment approach applying venture capital principles to philanthropic giving, focusing on measurable social impact"
+      domain: ["grant-economy"]
+      
+    - name: "microcredit"
+      category: "innovation-method"
+      description: "Financial services providing small loans to entrepreneurs and small business owners who lack access to traditional banking"
+      domain: ["market-economy"]
+      
+    - name: "open-source-collaboration"
+      category: "innovation-method"
+      description: "Collaborative development model where innovations are freely shared, modified, and distributed"
+      domain: ["household-economy"]
+      
+    - name: "co-production"
+      category: "innovation-method"
+      description: "Partnership approach where professionals and citizens work together to design and deliver services"
+      domain: ["public-economy", "household-economy"]
+      
+    - name: "social-franchising"
+      category: "scaling-method"
+      description: "Method for replicating successful social innovations through structured support and standardized models"
+      
+    - name: "organizational-spin-offs"
+      category: "scaling-method"
+      description: "Growth strategy creating new organizations or branches while maintaining connections to original hub"
+      
+    - name: "policy-diffusion"
+      category: "scaling-method"
+      description: "Spread of innovations through adoption in government policies and purchasing decisions"
+      
+    # Enabling Conditions
+    - name: "innovation-finance"
+      category: "enabling-condition"
+      description: "Financial mechanisms and funding structures that support social innovation development and scaling"
+      
+    - name: "regulatory-framework"
+      category: "enabling-condition"
+      description: "Legal, fiscal, and regulatory conditions that either enable or constrain social innovation"
+      
+    - name: "innovation-platforms"
+      category: "enabling-condition"
+      description: "Physical and digital infrastructure, tools, and spaces that facilitate innovation collaboration and development"
+      
+    - name: "skill-development"
+      category: "enabling-condition"
+      description: "Training, education, and capability building systems that develop innovation competencies"
+      
+    - name: "metrics-assessment"
+      category: "enabling-condition"
+      description: "Measurement systems and evaluation methods for tracking innovation progress and impact"
+      
+    - name: "information-circuits"
+      category: "enabling-condition"
+      description: "Networks and systems for sharing knowledge, best practices, and learning across innovators"
+      
+    # Economic Mechanisms
+    - name: "creative-destruction"
+      category: "economic-mechanism"
+      description: "Schumpeterian process where new innovations supersede or reconstitute old ways of meeting social needs"
+      
+    - name: "distributed-innovation"
+      category: "economic-mechanism"
+      description: "Innovation approach that distributes problem-solving capacity to local actors with specific knowledge"
+      
+    - name: "prosumer-model"
+      category: "economic-mechanism"
+      description: "Economic model where individuals act as both producers and consumers, actively participating in value creation"
+      
+    - name: "pull-through-economy"
+      category: "economic-mechanism"
+      description: "Economic approach oriented around real-time demand and user needs rather than standardized mass production"
+      
+    # Systemic Innovation Areas
+    - name: "prevention-systems"
+      category: "systemic-innovation-area"
+      description: "Transformation of systems toward preventative approaches rather than end-of-pipe solutions"
+      
+    - name: "support-economy"
+      category: "systemic-innovation-area"
+      description: "Economic model emphasizing quality of relationships and personalized support rather than standardized services"
+      
+    - name: "green-systems"
+      category: "systemic-innovation-area"
+      description: "Environmental innovations involving distributed energy, sustainable consumption, and circular economy principles"
+      
+    - name: "markets-for-marginalized"
+      category: "systemic-innovation-area"
+      description: "Market innovations designed to serve excluded populations and address social equity"
+      
+    # Innovation Triggers
+    - name: "crisis-learning"
+      category: "innovation-trigger"
+      description: "Innovation prompted by crises that create opportunities for rapid change and experimentation"
+      
+    - name: "knowledge-application"
+      category: "innovation-trigger"
+      description: "Innovation driven by applying new research knowledge to social challenges"
+      
+    - name: "asset-reuse"
+      category: "innovation-trigger"
+      description: "Innovation prompted by finding new uses for wasted or underutilized assets"
+      
+    - name: "positive-deviance"
+      category: "innovation-trigger"
+      description: "Innovation based on identifying and scaling exceptional positive outcomes within communities"
+      
+    # Process Relationships
+    - name: "enables"
+      category: "relationship"
+      description: "Relationship where one element creates conditions that make another element possible or more likely"
+      
+    - name: "constrains"
+      category: "relationship"
+      description: "Relationship where one element limits or restricts the development or effectiveness of another"
+      
+    - name: "interfaces-with"
+      category: "relationship"
+      description: "Boundary relationship between different sectors or systems involving exchange and interaction"
+      
+    - name: "feeds-into"
+      category: "relationship"
+      description: "Process relationship where outputs of one stage become inputs for the next stage"
+      
+    - name: "scales-through"
+      category: "relationship"
+      description: "Growth relationship where innovations expand through specific mechanisms or pathways"
+      
+    - name: "transforms-into"
+      category: "relationship"
+      description: "Change relationship where innovations evolve into more complex or systemic forms"
+      
+    # Measurement and Assessment
+    - name: "social-return-on-investment"
+      category: "measurement-method"
+      description: "Framework for measuring and accounting for social, environmental and economic value created by activities"
+      
+    - name: "benchmarking"
+      category: "measurement-method"
+      description: "Comparative measurement approach to identify sources for learning and improvement"
+      
+    - name: "user-generated-metrics"
+      category: "measurement-method"
+      description: "Measurement approaches where users and beneficiaries define and track relevant outcomes"
+      
+    - name: "real-time-evaluation"
+      category: "measurement-method"
+      description: "Assessment methods that provide ongoing feedback during innovation development rather than post-hoc evaluation"
+      
+    # Innovation Outcomes
+    - name: "paradigm-shift"
+      category: "innovation-outcome"
+      description: "Fundamental change in assumptions, methods, and structures that guide social problem-solving"
+      
+    - name: "sector-transformation"
+      category: "innovation-outcome"
+      description: "Comprehensive change in how entire sectors organize and deliver social value"
+      
+    - name: "democratization"
+      category: "innovation-outcome" 
+      description: "Outcome involving increased citizen participation, voice, and control in decision-making processes"
+      
+    - name: "personalization"
+      category: "innovation-outcome"
+      description: "Outcome involving customization of services and solutions to individual needs and circumstances"
+
+  json_schema:
+    type: "object"
+    properties:
+      nodes:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+            entity_type:
+              type: "string"
+              enum: ["core-construct", "economic-sector", "sectoral-interface", "innovation-stage", "innovation-method", "scaling-method", "enabling-condition", "economic-mechanism", "systemic-innovation-area", "innovation-trigger", "measurement-method", "innovation-outcome"]
+      edges:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+            relationship_type:
+              type: "string"
+              enum: ["enables", "constrains", "interfaces-with", "feeds-into", "scales-through", "transforms-into"]
+            source:
+              type: "string"
+            target:
+              type: "string"

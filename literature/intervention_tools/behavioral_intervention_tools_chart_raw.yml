@@ -1,0 +1,357 @@
+citation: "National Center on Intensive Intervention. (2021). Behavioral Intervention Tools Chart. Last updated: September 2021."
+
+annotation: "A systematic evaluation framework that presents information and ratings on the technical rigor of studies examining behavioral intervention programs for students. The chart evaluates study quality across multiple dimensions and provides effect size data, serving as a tool for educators and families to select evidence-based behavioral interventions."
+
+model_type: "property_graph"
+
+rationale: "The Behavioral Intervention Tools Chart represents a complex network of relationships between interventions, studies, evaluation criteria, and outcomes. A property graph model best captures the interconnected nature of intervention programs (nodes) connected through various relationships including study evaluations, quality ratings, effect sizes, and target populations. This structure allows for comprehensive representation of how different interventions relate to study designs, evidence quality levels, target behaviors, and educational contexts."
+
+schema_blueprint:
+  title: "Behavioral Intervention Tools Chart Schema"
+  description: "A comprehensive framework for evaluating and categorizing behavioral intervention programs based on study quality, design rigor, and effectiveness measures in educational settings."
+  
+  root_properties:
+    nodes:
+      description: "Interventions, studies, quality criteria, target populations, and outcome measures"
+      item_type: "Entity"
+    edges:
+      description: "Evaluation relationships, study-intervention connections, quality assessments, and effectiveness measures"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Framework Constructs
+    - name: "behavioral-intervention-program"
+      category: "core-construct"
+      description: "An evidence-based program designed to modify student behavior in educational settings through systematic application of behavioral principles"
+      
+    - name: "study-quality-evaluation"
+      category: "core-construct"
+      description: "Systematic assessment of research study rigor based on design quality, methodological soundness, and reliability of results"
+      
+    - name: "technical-review-committee"
+      category: "core-construct"
+      description: "Independent committee that establishes criteria for evaluating scientific rigor of behavioral intervention studies"
+      
+    - name: "evidence-based-practice"
+      category: "core-construct"
+      description: "Interventions supported by high-quality research demonstrating effectiveness in improving student behavioral outcomes"
+      
+    # Study Design Types
+    - name: "single-case-design"
+      category: "research-methodology"
+      description: "Research design that examines intervention effects on individual subjects or small groups over time with repeated measurements"
+      
+    - name: "group-design"
+      category: "research-methodology"
+      description: "Research design that compares intervention effects between treatment and control groups using statistical analysis"
+      
+    # Evidence Quality Levels
+    - name: "convincing-evidence"
+      category: "quality-rating"
+      description: "Highest quality rating indicating strong methodological rigor and reliable findings"
+      
+    - name: "partially-convincing-evidence"
+      category: "quality-rating"
+      description: "Moderate quality rating indicating adequate methodology with some limitations"
+      
+    - name: "unconvincing-evidence"
+      category: "quality-rating"
+      description: "Lowest quality rating indicating significant methodological flaws or unreliable findings"
+      
+    - name: "data-unavailable"
+      category: "quality-rating"
+      description: "Rating indicating insufficient information to evaluate study quality"
+      
+    # Measurement Categories
+    - name: "targeted-measure"
+      category: "measurement-type"
+      description: "Primary outcome measures directly related to the specific behaviors targeted by the intervention"
+      
+    - name: "broader-measure"
+      category: "measurement-type"
+      description: "Secondary outcome measures examining wider behavioral improvements beyond primary targets"
+      
+    - name: "administrative-measure"
+      category: "measurement-type"
+      description: "School-level outcome measures such as disciplinary referrals, suspensions, or attendance"
+      
+    - name: "effect-size"
+      category: "outcome-measure"
+      description: "Statistical measure quantifying the magnitude of intervention impact on behavioral outcomes"
+      
+    - name: "average-effect-size"
+      category: "outcome-measure"
+      description: "Mean effect size across multiple studies or measures for a given intervention"
+      
+    - name: "statistically-significant-effect"
+      category: "outcome-measure"
+      description: "Effect size that meets statistical significance criteria, indicating reliable intervention impact"
+      
+    # Target Behavior Categories
+    - name: "internalizing-behavior"
+      category: "target-behavior"
+      description: "Problem behaviors directed inward such as anxiety, depression, withdrawal, or emotional regulation difficulties"
+      
+    - name: "externalizing-behavior"
+      category: "target-behavior"
+      description: "Problem behaviors directed outward such as aggression, defiance, disruption, or rule-breaking"
+      
+    # Educational Level Categories
+    - name: "pre-k-level"
+      category: "educational-level"
+      description: "Pre-kindergarten educational setting for children typically ages 3-5"
+      
+    - name: "elementary-level"
+      category: "educational-level"
+      description: "Elementary school setting for students in kindergarten through 5th grade"
+      
+    - name: "middle-school-level"
+      category: "educational-level"
+      description: "Middle school setting for students in 6th through 8th grade"
+      
+    - name: "high-school-level"
+      category: "educational-level"
+      description: "High school setting for students in 9th through 12th grade"
+      
+    # Specific Intervention Programs
+    - name: "behavior-education-program"
+      category: "intervention-program"
+      description: "Systematic daily check-in/check-out intervention providing behavioral support and monitoring for at-risk students"
+      
+    - name: "check-connect"
+      category: "intervention-program"
+      description: "Comprehensive intervention combining academic and behavioral support with intensive mentoring relationships"
+      
+    - name: "choice-antecedent-intervention"
+      category: "intervention-program"
+      description: "Behavioral strategy providing students with structured choices to increase engagement and reduce problem behaviors"
+      
+    - name: "class-wide-function-related-intervention-teams"
+      category: "intervention-program"
+      description: "Team-based approach implementing class-wide behavioral interventions based on functional behavior assessment"
+      
+    - name: "coping-power-program"
+      category: "intervention-program"
+      description: "Cognitive-behavioral intervention teaching anger management and social problem-solving skills"
+      
+    - name: "daily-report-card"
+      category: "intervention-program"
+      description: "Home-school communication system tracking daily behavioral goals and providing feedback"
+      
+    - name: "differential-reinforcement-other-behavior"
+      category: "intervention-program"
+      description: "Behavioral technique reinforcing absence of problem behavior during specified time intervals"
+      
+    - name: "good-behavior-game"
+      category: "intervention-program"
+      description: "Class-wide team-based intervention rewarding groups for following behavioral expectations"
+      
+    - name: "group-contingency"
+      category: "intervention-program"
+      description: "Behavioral strategy where group consequences depend on individual or collective performance"
+      
+    - name: "incredible-years-child-dinosaur-program"
+      category: "intervention-program"
+      description: "Social-emotional learning program teaching children problem-solving and emotional regulation skills"
+      
+    - name: "self-advocacy-strategy"
+      category: "intervention-program"
+      description: "Teaching students to communicate their learning needs and request appropriate accommodations"
+      
+    - name: "noncontingent-reinforcement"
+      category: "intervention-program"
+      description: "Providing reinforcement on a time-based schedule independent of behavior to reduce problem behaviors"
+      
+    - name: "opportunities-to-respond"
+      category: "intervention-program"
+      description: "Instructional strategy increasing student engagement through frequent academic response opportunities"
+      
+    - name: "self-management"
+      category: "intervention-program"
+      description: "Teaching students to monitor, evaluate, and regulate their own behavior and learning"
+      
+    - name: "skillstreaming"
+      category: "intervention-program"
+      description: "Structured learning approach teaching prosocial skills through modeling, role-playing, and practice"
+      
+    - name: "token-economy"
+      category: "intervention-program"
+      description: "Behavioral system using tokens as conditioned reinforcers that can be exchanged for backup reinforcers"
+      
+    - name: "video-modeling"
+      category: "intervention-program"
+      description: "Learning intervention using video demonstrations to teach appropriate behaviors and social skills"
+      
+    # Evaluation Processes
+    - name: "visual-analysis"
+      category: "evaluation-method"
+      description: "Method for analyzing single-case design data through systematic visual inspection of graphed data patterns"
+      
+    - name: "disaggregated-effect-size-analysis"
+      category: "evaluation-method"
+      description: "Statistical analysis examining effect sizes across different subgroups or outcome measures"
+      
+    - name: "study-selection-criteria"
+      category: "evaluation-process"
+      description: "Predetermined standards for determining which studies qualify for inclusion in the tools chart"
+      
+    - name: "quality-indicator-assessment"
+      category: "evaluation-process"
+      description: "Systematic evaluation of study characteristics that indicate methodological rigor and reliability"
+      
+    # Relationships
+    - name: "demonstrates-effectiveness"
+      category: "relationship"
+      description: "Relationship indicating an intervention has shown positive outcomes in rigorous research studies"
+      domain: ["intervention-program"]
+      range: ["outcome-measure"]
+      
+    - name: "targets-behavior-type"
+      category: "relationship"
+      description: "Relationship indicating which types of behaviors an intervention is designed to address"
+      domain: ["intervention-program"]
+      range: ["target-behavior"]
+      
+    - name: "applies-to-grade-level"
+      category: "relationship"
+      description: "Relationship indicating the educational levels where an intervention is appropriate"
+      domain: ["intervention-program"]
+      range: ["educational-level"]
+      
+    - name: "evaluated-by-study"
+      category: "relationship"
+      description: "Relationship connecting interventions to the research studies that examined their effectiveness"
+      domain: ["intervention-program"]
+      range: ["research-study"]
+      
+    - name: "receives-quality-rating"
+      category: "relationship"
+      description: "Relationship indicating the quality rating assigned to a study's methodology and findings"
+      domain: ["research-study"]
+      range: ["quality-rating"]
+      
+    - name: "produces-effect-size"
+      category: "relationship"
+      description: "Relationship indicating the quantitative impact measure generated by a study"
+      domain: ["research-study"]
+      range: ["effect-size"]
+      
+    - name: "uses-study-design"
+      category: "relationship"
+      description: "Relationship indicating the research methodology employed in a study"
+      domain: ["research-study"]
+      range: ["research-methodology"]
+      
+    - name: "measures-outcome-type"
+      category: "relationship"
+      description: "Relationship indicating the category of outcomes assessed in a study"
+      domain: ["research-study"]
+      range: ["measurement-type"]
+      
+    # Processes
+    - name: "intervention-selection-process"
+      category: "process"
+      description: "Systematic approach for educators and families to choose appropriate behavioral interventions based on evidence quality and student needs"
+      
+    - name: "study-review-process"
+      category: "process"
+      description: "Comprehensive evaluation of research studies against established criteria for methodological rigor"
+      
+    - name: "evidence-rating-process"
+      category: "process"
+      description: "Systematic assignment of quality ratings to studies based on design strength and reliability of findings"
+      
+    - name: "effect-size-calculation-process"
+      category: "process"
+      description: "Statistical computation of intervention impact magnitude across different outcome measures"
+      
+    # Quality Assurance Concepts
+    - name: "independent-evaluation"
+      category: "quality-assurance"
+      description: "Evaluation conducted by reviewers without conflicts of interest to ensure objectivity"
+      
+    - name: "non-endorsement-policy"
+      category: "quality-assurance"
+      description: "Policy clarifying that chart inclusion does not constitute recommendation or approval"
+      
+    - name: "consumer-education"
+      category: "quality-assurance"
+      description: "Providing information to help educators and families make informed intervention selection decisions"
+      
+    - name: "transparency-in-reporting"
+      category: "quality-assurance"
+      description: "Clear presentation of both positive and negative study results regardless of outcomes"
+
+  # JSON Schema with categorized enums
+  schema_structure:
+    intervention_programs:
+      - "behavior-education-program"
+      - "check-connect"
+      - "choice-antecedent-intervention"
+      - "class-wide-function-related-intervention-teams"
+      - "coping-power-program"
+      - "daily-report-card"
+      - "differential-reinforcement-other-behavior"
+      - "good-behavior-game"
+      - "group-contingency"
+      - "incredible-years-child-dinosaur-program"
+      - "self-advocacy-strategy"
+      - "noncontingent-reinforcement"
+      - "opportunities-to-respond"
+      - "self-management"
+      - "skillstreaming"
+      - "token-economy"
+      - "video-modeling"
+    
+    study_designs:
+      - "single-case-design"
+      - "group-design"
+    
+    evidence_quality:
+      - "convincing-evidence"
+      - "partially-convincing-evidence"
+      - "unconvincing-evidence"
+      - "data-unavailable"
+    
+    measurement_types:
+      - "targeted-measure"
+      - "broader-measure"
+      - "administrative-measure"
+    
+    target_behaviors:
+      - "internalizing-behavior"
+      - "externalizing-behavior"
+    
+    educational_levels:
+      - "pre-k-level"
+      - "elementary-level"
+      - "middle-school-level"
+      - "high-school-level"
+    
+    evaluation_methods:
+      - "visual-analysis"
+      - "disaggregated-effect-size-analysis"
+      - "study-selection-criteria"
+      - "quality-indicator-assessment"
+    
+    relationships:
+      - "demonstrates-effectiveness"
+      - "targets-behavior-type"
+      - "applies-to-grade-level"
+      - "evaluated-by-study"
+      - "receives-quality-rating"
+      - "produces-effect-size"
+      - "uses-study-design"
+      - "measures-outcome-type"
+    
+    processes:
+      - "intervention-selection-process"
+      - "study-review-process"
+      - "evidence-rating-process"
+      - "effect-size-calculation-process"
+    
+    quality_assurance:
+      - "independent-evaluation"
+      - "non-endorsement-policy"
+      - "consumer-education"
+      - "transparency-in-reporting"

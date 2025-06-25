@@ -1,0 +1,387 @@
+citation: "Knight, H., Jia, R., Ayling, K., Bradbury, K., Baker, K., Chalder, T., Morling, J.R., Durrant, L., Avery, T., Ball, J.K., Barker, C., Bennett, R., McKeever, T., & Vedhara, K. (2021). Understanding and addressing vaccine hesitancy in the context of COVID-19: development of a digital intervention. Public Health, 200, 63-73. https://doi.org/10.1016/j.puhe.2021.10.006"
+
+annotation: "A systematic approach to developing a digital intervention for COVID-19 vaccine hesitancy using motivational interviewing principles. The study employed a four-stage development process: identifying common hesitancy reasons through surveys and literature review, gathering expert responses, creating therapeutic dialogues based on MI principles, and developing a web-based platform. The intervention addresses 10 core vaccine concerns within the WHO 3C framework (confidence, complacency, convenience)."
+
+model_type: "property_graph"
+
+rationale: "A property graph model best represents this intervention development framework because it captures the complex relationships between hesitancy concerns, expert responses, motivational interviewing techniques, and intervention components. The theoretical structure involves multiple interconnected entities (concerns, responses, MI principles, dialogue elements) linked through various relationship types (addresses, utilizes, implements, targets). This creates a semantic network that models both the intervention development process and the underlying theoretical mechanisms."
+
+schema_blueprint:
+  title: "COVID-19 Vaccine Hesitancy Digital Intervention Development Framework"
+  description: "A comprehensive schema modeling the systematic development of a motivational interviewing-based digital intervention to address COVID-19 vaccine hesitancy, incorporating the WHO 3C model and evidence-based therapeutic dialogue principles."
+  
+  root_properties:
+    nodes:
+      description: "Core entities representing intervention components, theoretical constructs, development stages, hesitancy concerns, expert responses, MI principles, and digital platform elements"
+      item_type: "Entity"
+    edges:
+      description: "Relationships connecting intervention elements, including addresses-concern, utilizes-principle, implements-technique, targets-population, and development-process connections"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Theoretical Framework
+    - name: "vaccine-hesitancy"
+      category: "core-construct"
+      description: "Delay in acceptance or refusal of vaccines despite availability of vaccine services"
+      
+    - name: "who-3c-model"
+      category: "theoretical-framework"
+      description: "WHO framework proposing three main factors influencing vaccine acceptance: confidence, complacency, and convenience"
+      
+    - name: "confidence"
+      category: "core-construct"
+      description: "Trust in vaccine safety, effectiveness, and the system delivering vaccines"
+      
+    - name: "complacency"
+      category: "core-construct"
+      description: "Low perceived risk of vaccine-preventable disease and belief that vaccination is not necessary"
+      
+    - name: "convenience"
+      category: "core-construct"
+      description: "Physical availability, affordability, and willingness-to-pay related to vaccines"
+      
+    # Motivational Interviewing Framework
+    - name: "motivational-interviewing"
+      category: "theoretical-framework"
+      description: "Collaborative communication style for strengthening person's motivation and commitment to change"
+      
+    - name: "expressing-empathy"
+      category: "mi-principle"
+      description: "Cultivating an empathic space to explore hesitancy in a non-judgmental way"
+      
+    - name: "developing-discrepancy"
+      category: "mi-principle"
+      description: "Identifying areas where actions are misaligned with personal values and goals"
+      
+    - name: "embracing-resistance"
+      category: "mi-principle"
+      description: "Working collaboratively to foster change while recognizing resistance and motivation are tied"
+      
+    - name: "supporting-self-efficacy"
+      category: "mi-principle"
+      description: "Enhancing confidence that individual can embark on change"
+      
+    # Development Process Stages
+    - name: "hesitancy-identification-stage"
+      category: "development-stage"
+      description: "Stage 1: Understanding and identifying common reasons for vaccine hesitancy and acceptance"
+      
+    - name: "expert-synthesis-stage"
+      category: "development-stage"
+      description: "Stage 2: Synthesizing evidence-based views from independent experts"
+      
+    - name: "dialogue-development-stage"
+      category: "development-stage"
+      description: "Stage 3: Developing therapeutic dialogues to address vaccine hesitancy concerns"
+      
+    - name: "digital-implementation-stage"
+      category: "development-stage"
+      description: "Stage 4: Creating and piloting the digital intervention platform"
+      
+    # Data Collection Methods
+    - name: "survey-analysis"
+      category: "data-collection-method"
+      description: "Analysis of existing survey data on COVID-19 vaccination intention and reasons"
+      
+    - name: "rapid-systematic-review"
+      category: "data-collection-method"
+      description: "Systematic literature review of COVID-19 vaccine hesitancy research"
+      
+    - name: "public-patient-involvement"
+      category: "data-collection-method"
+      description: "Consultation with public and patient groups, especially ethnic minorities"
+      
+    - name: "expert-interviews"
+      category: "data-collection-method"
+      description: "Semi-structured interviews with academic and clinical experts"
+      
+    - name: "expert-workshops"
+      category: "data-collection-method"
+      description: "Collaborative workshops with behavioral scientists and MI experts"
+      
+    - name: "pilot-testing"
+      category: "data-collection-method"
+      description: "Testing intervention with members of the public for feedback and refinement"
+      
+    # Vaccine Hesitancy Concerns
+    - name: "safety-concerns"
+      category: "hesitancy-concern"
+      description: "Concerns about vaccine safety including side effects and long-term effects"
+      
+    - name: "effectiveness-concerns"
+      category: "hesitancy-concern"
+      description: "Uncertainty about vaccine effectiveness in preventing COVID-19"
+      
+    - name: "development-speed-concerns"
+      category: "hesitancy-concern"
+      description: "Belief that vaccine development process was rushed"
+      
+    - name: "testing-adequacy-concerns"
+      category: "hesitancy-concern"
+      description: "Concerns about insufficient testing or evidence base"
+      
+    - name: "population-generalizability-concerns"
+      category: "hesitancy-concern"
+      description: "Uncertainty about whether vaccines tested on people like them (age, ethnicity, comorbidities)"
+      
+    - name: "low-risk-perception"
+      category: "hesitancy-concern"
+      description: "Belief that personal risk of COVID-19 is low"
+      
+    - name: "natural-immunity-belief"
+      category: "hesitancy-concern"
+      description: "Belief that body can fight off virus naturally without vaccination"
+      
+    - name: "information-deficit"
+      category: "hesitancy-concern"
+      description: "Perceived lack of knowledge about COVID-19 vaccines"
+      
+    - name: "altruistic-concerns"
+      category: "hesitancy-concern"
+      description: "Belief that others need vaccines more"
+      
+    - name: "vaccine-skepticism"
+      category: "hesitancy-concern"
+      description: "General distrust of vaccines and vaccination systems"
+      
+    - name: "dosing-schedule-concerns"
+      category: "hesitancy-concern"
+      description: "Concerns about extended interval between vaccine doses"
+      
+    # Expert Response Categories
+    - name: "safety-evidence"
+      category: "expert-response"
+      description: "Evidence-based information about vaccine safety and monitoring"
+      
+    - name: "effectiveness-evidence"
+      category: "expert-response"
+      description: "Data on vaccine effectiveness and protection rates"
+      
+    - name: "development-process-explanation"
+      category: "expert-response"
+      description: "Clarification of vaccine development timeline and regulatory processes"
+      
+    - name: "population-inclusivity-evidence"
+      category: "expert-response"
+      description: "Information about diverse populations included in vaccine trials"
+      
+    - name: "risk-benefit-analysis"
+      category: "expert-response"
+      description: "Comparative analysis of COVID-19 risks versus vaccination risks"
+      
+    - name: "community-benefit-explanation"
+      category: "expert-response"
+      description: "Information about community protection and herd immunity"
+      
+    - name: "priority-system-explanation"
+      category: "expert-response"
+      description: "Clarification of vaccine distribution priority systems"
+      
+    # Therapeutic Dialogue Components
+    - name: "therapeutic-dialogue"
+      category: "intervention-component"
+      description: "MI-based conversational content addressing specific vaccine concerns"
+      
+    - name: "empathic-acknowledgment"
+      category: "dialogue-element"
+      description: "Validating and normalizing vaccine concerns in non-judgmental language"
+      
+    - name: "information-provision"
+      category: "dialogue-element"
+      description: "Evidence-based responses to specific vaccine concerns"
+      
+    - name: "value-alignment"
+      category: "dialogue-element"
+      description: "Connecting vaccination decisions to personal values and goals"
+      
+    - name: "agency-reinforcement"
+      category: "dialogue-element"
+      description: "Supporting individual autonomy in vaccination decision-making"
+      
+    # Digital Platform Features
+    - name: "conversational-interface"
+      category: "platform-feature"
+      description: "Interactive web-based interface for selecting and exploring vaccine concerns"
+      
+    - name: "concern-selection"
+      category: "platform-feature"
+      description: "User identification of specific vaccine hesitancy issues"
+      
+    - name: "adaptive-content"
+      category: "platform-feature"
+      description: "Personalized dialogue content based on selected concerns"
+      
+    - name: "multi-concern-exploration"
+      category: "platform-feature"
+      description: "Ability to explore multiple vaccine concerns within single session"
+      
+    - name: "real-time-updating"
+      category: "platform-feature"
+      description: "Capacity for rapid content modification based on changing information"
+      
+    - name: "scalable-dissemination"
+      category: "platform-feature"
+      description: "Digital format enabling wide-scale distribution and accessibility"
+      
+    # Target Populations
+    - name: "vaccine-hesitant-individuals"
+      category: "target-population"
+      description: "Adults expressing delay or reluctance regarding COVID-19 vaccination"
+      
+    - name: "ethnic-minority-groups"
+      category: "target-population"
+      description: "Population groups with elevated rates of vaccine hesitancy"
+      
+    - name: "general-adult-population"
+      category: "target-population"
+      description: "Adults making vaccination decisions for themselves"
+      
+    # Intervention Outcomes
+    - name: "hesitancy-reduction"
+      category: "intervention-outcome"
+      description: "Decreased delay or reluctance regarding vaccine acceptance"
+      
+    - name: "confidence-enhancement"
+      category: "intervention-outcome"
+      description: "Increased trust in vaccine safety and effectiveness"
+      
+    - name: "vaccine-uptake-improvement"
+      category: "intervention-outcome"
+      description: "Increased rates of COVID-19 vaccination"
+      
+    - name: "informed-decision-making"
+      category: "intervention-outcome"
+      description: "Enhanced capacity for evidence-based vaccination decisions"
+      
+    # Measurement and Evaluation
+    - name: "vaccination-intention"
+      category: "measurement-construct"
+      description: "Willingness to accept COVID-19 vaccination when offered"
+      
+    - name: "hesitancy-reasons"
+      category: "measurement-construct"
+      description: "Specific concerns underlying vaccine hesitancy"
+      
+    - name: "free-text-analysis"
+      category: "measurement-method"
+      description: "Qualitative analysis of open-ended responses about vaccine attitudes"
+      
+    - name: "thematic-categorization"
+      category: "measurement-method"
+      description: "Systematic categorization of hesitancy themes using WHO 3C framework"
+      
+    - name: "content-analysis"
+      category: "measurement-method"
+      description: "Systematic analysis of expert interview content for evidence-based responses"
+      
+    - name: "pilot-feedback"
+      category: "measurement-method"
+      description: "User feedback on intervention content, interface, and accessibility"
+      
+    # Relationships
+    - name: "addresses-concern"
+      category: "relationship"
+      description: "Intervention component specifically targeting a vaccine hesitancy concern"
+      domain: ["intervention-component"]
+      range: ["hesitancy-concern"]
+      
+    - name: "utilizes-principle"
+      category: "relationship"
+      description: "Application of motivational interviewing principle in intervention design"
+      domain: ["intervention-component"]
+      range: ["mi-principle"]
+      
+    - name: "implements-technique"
+      category: "relationship"
+      description: "Practical implementation of theoretical technique in intervention"
+      domain: ["dialogue-element"]
+      range: ["mi-principle"]
+      
+    - name: "targets-population"
+      category: "relationship"
+      description: "Intervention designed for specific population group"
+      domain: ["intervention-component"]
+      range: ["target-population"]
+      
+    - name: "categorizes-within"
+      category: "relationship"
+      description: "Hesitancy concern classified within WHO 3C framework category"
+      domain: ["hesitancy-concern"]
+      range: ["core-construct"]
+      
+    - name: "responds-to"
+      category: "relationship"
+      description: "Expert evidence addressing specific vaccine concern"
+      domain: ["expert-response"]
+      range: ["hesitancy-concern"]
+      
+    - name: "enables-outcome"
+      category: "relationship"
+      description: "Intervention component facilitating desired outcome"
+      domain: ["intervention-component"]
+      range: ["intervention-outcome"]
+      
+    - name: "informs-development"
+      category: "relationship"
+      description: "Data collection method contributing to intervention development"
+      domain: ["data-collection-method"]
+      range: ["development-stage"]
+
+  json_schema:
+    type: "object"
+    properties:
+      nodes:
+        type: "array"
+        items:
+          $ref: "#/$defs/Entity"
+      edges:
+        type: "array"
+        items:
+          $ref: "#/$defs/NaryTuple"
+    required: ["nodes", "edges"]
+    
+    $defs:
+      core_constructs:
+        enum: ["vaccine-hesitancy", "confidence", "complacency", "convenience"]
+      
+      theoretical_frameworks:
+        enum: ["who-3c-model", "motivational-interviewing"]
+      
+      mi_principles:
+        enum: ["expressing-empathy", "developing-discrepancy", "embracing-resistance", "supporting-self-efficacy"]
+      
+      development_stages:
+        enum: ["hesitancy-identification-stage", "expert-synthesis-stage", "dialogue-development-stage", "digital-implementation-stage"]
+      
+      data_collection_methods:
+        enum: ["survey-analysis", "rapid-systematic-review", "public-patient-involvement", "expert-interviews", "expert-workshops", "pilot-testing"]
+      
+      hesitancy_concerns:
+        enum: ["safety-concerns", "effectiveness-concerns", "development-speed-concerns", "testing-adequacy-concerns", "population-generalizability-concerns", "low-risk-perception", "natural-immunity-belief", "information-deficit", "altruistic-concerns", "vaccine-skepticism", "dosing-schedule-concerns"]
+      
+      expert_responses:
+        enum: ["safety-evidence", "effectiveness-evidence", "development-process-explanation", "population-inclusivity-evidence", "risk-benefit-analysis", "community-benefit-explanation", "priority-system-explanation"]
+      
+      intervention_components:
+        enum: ["therapeutic-dialogue"]
+      
+      dialogue_elements:
+        enum: ["empathic-acknowledgment", "information-provision", "value-alignment", "agency-reinforcement"]
+      
+      platform_features:
+        enum: ["conversational-interface", "concern-selection", "adaptive-content", "multi-concern-exploration", "real-time-updating", "scalable-dissemination"]
+      
+      target_populations:
+        enum: ["vaccine-hesitant-individuals", "ethnic-minority-groups", "general-adult-population"]
+      
+      intervention_outcomes:
+        enum: ["hesitancy-reduction", "confidence-enhancement", "vaccine-uptake-improvement", "informed-decision-making"]
+      
+      measurement_constructs:
+        enum: ["vaccination-intention", "hesitancy-reasons"]
+      
+      measurement_methods:
+        enum: ["free-text-analysis", "thematic-categorization", "content-analysis", "pilot-feedback"]
+      
+      relationships:
+        enum: ["addresses-concern", "utilizes-principle", "implements-technique", "targets-population", "categorizes-within", "responds-to", "enables-outcome", "informs-development"]

@@ -1,0 +1,657 @@
+citation: "Schulz, R., Czaja, S. J., McKay, J. R., Ory, M. G., & Belle, S. H. (2010). Intervention taxonomy (ITAX): Describing essential features of interventions. American Journal of Health Behavior, 34(6), 811-821."
+
+annotation: "Comprehensive taxonomy for describing and characterizing intervention protocols that expands existing guidelines. Developed through analysis of 18 Health Maintenance Consortium studies and refined through pilot testing. Organizes intervention features into delivery characteristics and content strategies to improve intervention design, replication, and cross-study analysis."
+
+model_type: "property_graph"
+
+rationale: "Property graph model is optimal for representing the ITAX framework because it captures the complex relationships between intervention components, delivery characteristics, content strategies, and mechanisms of action. The taxonomy involves multiple interconnected entities (interventions, participants, interventionists, strategies) and their relationships (delivery modes, adaptability rules, implementation measures). This structure allows for modeling both the hierarchical organization of intervention features and the dynamic interactions between different components during intervention delivery and assessment."
+
+schema_blueprint:
+  title: "Intervention Taxonomy (ITAX) Schema"
+  description: "A comprehensive schema for describing essential features of interventions including delivery characteristics, content strategies, mechanisms of action, and implementation measures. Enables standardized characterization of complex multicomponent behavioral and psychosocial interventions."
+  
+  root_properties:
+    nodes:
+      description: "Core entities in intervention research including interventions, participants, interventionists, delivery modes, content strategies, implementation measures, and mechanisms of action"
+      item_type: "Entity"
+    
+    edges:
+      description: "Relationships between intervention entities including delivery relationships, adaptation rules, implementation processes, mechanistic pathways, and evaluation connections"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Intervention Constructs
+    - name: "intervention"
+      category: "core-construct"
+      description: "A systematic treatment or program designed to produce specific outcomes in participants"
+      
+    - name: "multicomponent-intervention"
+      category: "core-construct"
+      description: "An intervention consisting of multiple distinct strategies or elements that work together to achieve desired outcomes"
+      subTypeOf: "intervention"
+      
+    - name: "participant"
+      category: "core-construct"
+      description: "Individual receiving an intervention who is the target of behavior change or outcome improvement"
+      
+    - name: "interventionist"
+      category: "core-construct"
+      description: "Person or entity responsible for delivering the intervention to participants"
+      
+    - name: "target-population"
+      category: "core-construct"
+      description: "Specific group or demographic for whom an intervention is designed"
+      
+    # Delivery Characteristics
+    - name: "delivery-mode"
+      category: "delivery-characteristic"
+      description: "Method of contact between interventionist and participant for delivering intervention content"
+      
+    - name: "face-to-face-delivery"
+      category: "delivery-characteristic"
+      description: "Direct in-person contact between interventionist and participant, either individual or group format"
+      subTypeOf: "delivery-mode"
+      
+    - name: "telephone-delivery"
+      category: "delivery-characteristic"
+      description: "Voice-based contact via telephone, either individual or group format"
+      subTypeOf: "delivery-mode"
+      
+    - name: "internet-delivery"
+      category: "delivery-characteristic"
+      description: "Web-based delivery of intervention content, either individual or group format"
+      subTypeOf: "delivery-mode"
+      
+    - name: "video-cd-delivery"
+      category: "delivery-characteristic"
+      description: "Pre-recorded video or CD instruction for intervention delivery"
+      subTypeOf: "delivery-mode"
+      
+    - name: "intervention-materials"
+      category: "delivery-characteristic"
+      description: "Resources and tools used in the delivery of intervention content"
+      
+    - name: "intervention-location"
+      category: "delivery-characteristic"
+      description: "Physical or virtual setting where intervention is delivered to participants"
+      
+    - name: "intervention-schedule"
+      category: "delivery-characteristic"
+      description: "Temporal structure of intervention including duration, frequency, and distribution of sessions"
+      
+    - name: "intervention-scripting"
+      category: "delivery-characteristic"
+      description: "Level of detail and standardization guiding interaction between interventionist and participant"
+      
+    - name: "exact-script"
+      category: "delivery-characteristic"
+      description: "Highly detailed protocol with exact language specified for interventionist use"
+      subTypeOf: "intervention-scripting"
+      
+    - name: "general-guidelines"
+      category: "delivery-characteristic"
+      description: "Broad guidance for intervention delivery without specific language requirements"
+      subTypeOf: "intervention-scripting"
+      
+    # Cultural Sensitivity and Participant Characteristics
+    - name: "cultural-sensitivity"
+      category: "participant-characteristic"
+      description: "Extent to which intervention incorporates participant background, cultural values, and specific needs"
+      
+    - name: "language-accommodation"
+      category: "participant-characteristic"
+      description: "Delivery of intervention materials and content in participant's preferred language"
+      subTypeOf: "cultural-sensitivity"
+      
+    - name: "literacy-accommodation"
+      category: "participant-characteristic"
+      description: "Adaptation of materials to match participant reading and health literacy levels"
+      subTypeOf: "cultural-sensitivity"
+      
+    - name: "disability-accommodation"
+      category: "participant-characteristic"
+      description: "Modifications to support participants with vision, hearing, or other impairments"
+      subTypeOf: "cultural-sensitivity"
+      
+    - name: "racial-matching"
+      category: "participant-characteristic"
+      description: "Pairing interventionist and participant based on shared race or ethnicity"
+      
+    # Interventionist Characteristics
+    - name: "interventionist-qualifications"
+      category: "interventionist-characteristic"
+      description: "Required professional expertise, training, and credentials for intervention delivery"
+      
+    - name: "interventionist-training"
+      category: "interventionist-characteristic"
+      description: "Specific preparation and skill development provided to interventionists"
+      
+    - name: "cultural-competence"
+      category: "interventionist-characteristic"
+      description: "Interventionist knowledge of cultural views and values of target participants"
+      
+    - name: "community-recruitment"
+      category: "interventionist-characteristic"
+      description: "Selection of intervention staff from participant community"
+      
+    # Adaptability Framework
+    - name: "intervention-adaptability"
+      category: "adaptability-framework"
+      description: "Extent to which intervention can be modified to accommodate individual participant needs and circumstances"
+      
+    - name: "adaptation-scope"
+      category: "adaptability-framework"
+      description: "Specific aspects of intervention that can be modified during delivery"
+      subTypeOf: "intervention-adaptability"
+      
+    - name: "session-adaptation"
+      category: "adaptability-framework"
+      description: "Flexibility in number, schedule, duration, or location of intervention sessions"
+      subTypeOf: "adaptation-scope"
+      
+    - name: "content-adaptation"
+      category: "adaptability-framework"
+      description: "Flexibility in intervention content, targets, or dosage based on participant needs"
+      subTypeOf: "adaptation-scope"
+      
+    - name: "adaptation-trigger"
+      category: "adaptability-framework"
+      description: "Basis or criteria for determining when intervention modifications should be made"
+      
+    - name: "participant-assessment-trigger"
+      category: "adaptability-framework"
+      description: "Modifications based on formal assessment of participant needs, progress, or risk factors"
+      subTypeOf: "adaptation-trigger"
+      
+    - name: "spontaneous-request-trigger"
+      category: "adaptability-framework"
+      description: "Modifications made in response to participant requests or preferences"
+      subTypeOf: "adaptation-trigger"
+      
+    - name: "clinical-judgment-trigger"
+      category: "adaptability-framework"
+      description: "Modifications based on interventionist professional judgment about participant needs"
+      subTypeOf: "adaptation-trigger"
+      
+    - name: "adaptation-timing"
+      category: "adaptability-framework"
+      description: "When during intervention course adaptations can be implemented"
+      
+    - name: "baseline-adaptation"
+      category: "adaptability-framework"
+      description: "Modifications made at intervention start based on initial participant assessment"
+      subTypeOf: "adaptation-timing"
+      
+    - name: "ongoing-adaptation"
+      category: "adaptability-framework"
+      description: "Modifications made during intervention based on participant progress or changing needs"
+      subTypeOf: "adaptation-timing"
+      
+    # Implementation Framework
+    - name: "treatment-implementation"
+      category: "implementation-framework"
+      description: "Measurement of extent to which intervention was delivered and received as intended"
+      
+    - name: "treatment-delivery"
+      category: "implementation-framework"
+      description: "Extent to which appropriate quantity and content of intervention was delivered as intended"
+      subTypeOf: "treatment-implementation"
+      
+    - name: "treatment-receipt"
+      category: "implementation-framework"
+      description: "Degree to which participant received and understood intended treatment content"
+      subTypeOf: "treatment-implementation"
+      
+    - name: "treatment-enactment"
+      category: "implementation-framework"
+      description: "Degree to which participant demonstrates behavior changes related to intervention beyond treatment context"
+      subTypeOf: "treatment-implementation"
+      
+    - name: "fidelity-monitoring"
+      category: "implementation-framework"
+      description: "Systematic assessment of adherence to intervention protocol and quality of delivery"
+      
+    - name: "dose-tracking"
+      category: "implementation-framework"
+      description: "Recording frequency, duration, and types of contact between interventionist and participant"
+      subTypeOf: "fidelity-monitoring"
+      
+    - name: "content-monitoring"
+      category: "implementation-framework"
+      description: "Assessment of specific intervention components delivered through notes or recordings"
+      subTypeOf: "fidelity-monitoring"
+      
+    # Content Strategies
+    - name: "intervention-strategy"
+      category: "content-strategy"
+      description: "Specific approach or technique used within intervention to achieve desired outcomes"
+      
+    - name: "information-provision"
+      category: "content-strategy"
+      description: "Strategy involving delivery of knowledge, facts, or educational content to participants"
+      subTypeOf: "intervention-strategy"
+      
+    - name: "feedback-provision"
+      category: "content-strategy"
+      description: "Strategy involving giving participants information about their progress, performance, or behavior"
+      subTypeOf: "intervention-strategy"
+      
+    - name: "behavioral-incentives"
+      category: "content-strategy"
+      description: "Strategy using rewards or reinforcements to encourage desired behaviors"
+      subTypeOf: "intervention-strategy"
+      
+    - name: "skill-building"
+      category: "content-strategy"
+      description: "Strategy focused on teaching specific behavioral or cognitive skills to participants"
+      subTypeOf: "intervention-strategy"
+      
+    - name: "problem-solving-training"
+      category: "content-strategy"
+      description: "Strategy teaching systematic approaches to identifying and resolving challenges"
+      subTypeOf: "intervention-strategy"
+      
+    - name: "stress-management"
+      category: "content-strategy"
+      description: "Strategy providing techniques for managing stress and emotional regulation"
+      subTypeOf: "intervention-strategy"
+      
+    - name: "social-support-facilitation"
+      category: "content-strategy"
+      description: "Strategy aimed at enhancing participant social connections and support networks"
+      subTypeOf: "intervention-strategy"
+      
+    - name: "tracking-monitoring"
+      category: "content-strategy"
+      description: "Strategy involving systematic recording and review of participant behaviors or outcomes"
+      subTypeOf: "intervention-strategy"
+      
+    - name: "didactic-instruction"
+      category: "content-strategy"
+      description: "Strategy using formal teaching or educational approaches to convey information"
+      subTypeOf: "intervention-strategy"
+      
+    - name: "biologic-intervention"
+      category: "content-strategy"
+      description: "Strategy involving medical or physiological interventions such as medications or surgery"
+      subTypeOf: "intervention-strategy"
+      
+    # Mechanisms of Action
+    - name: "mechanism-of-action"
+      category: "theoretical-mechanism"
+      description: "Key process, goal, or mediator through which intervention strategies produce desired outcomes"
+      
+    - name: "knowledge-enhancement"
+      category: "theoretical-mechanism"
+      description: "Mechanism involving increase in participant understanding or awareness"
+      subTypeOf: "mechanism-of-action"
+      
+    - name: "skill-development"
+      category: "theoretical-mechanism"
+      description: "Mechanism involving acquisition of behavioral or cognitive capabilities"
+      subTypeOf: "mechanism-of-action"
+      
+    - name: "self-efficacy-enhancement"
+      category: "theoretical-mechanism"
+      description: "Mechanism involving increased participant confidence in ability to perform target behaviors"
+      subTypeOf: "mechanism-of-action"
+      
+    - name: "motivation-enhancement"
+      category: "theoretical-mechanism"
+      description: "Mechanism involving increased participant drive or willingness to engage in target behaviors"
+      subTypeOf: "mechanism-of-action"
+      
+    - name: "social-support-enhancement"
+      category: "theoretical-mechanism"
+      description: "Mechanism involving strengthened social connections and assistance from others"
+      subTypeOf: "mechanism-of-action"
+      
+    - name: "risk-assessment-ability"
+      category: "theoretical-mechanism"
+      description: "Mechanism involving enhanced capacity to evaluate risks and set appropriate goals"
+      subTypeOf: "mechanism-of-action"
+      
+    - name: "social-engagement"
+      category: "theoretical-mechanism"
+      description: "Mechanism involving increased participation in social activities and connections"
+      subTypeOf: "mechanism-of-action"
+      
+    - name: "environmental-modification"
+      category: "theoretical-mechanism"
+      description: "Mechanism involving changes to physical or social environment that support behavior change"
+      subTypeOf: "mechanism-of-action"
+      
+    - name: "policy-change"
+      category: "theoretical-mechanism"
+      description: "Mechanism involving modifications to organizational or institutional policies and regulations"
+      subTypeOf: "mechanism-of-action"
+      
+    - name: "biologic-pathway"
+      category: "theoretical-mechanism"
+      description: "Mechanism involving physiological or biochemical changes that mediate intervention effects"
+      subTypeOf: "mechanism-of-action"
+      
+    # Research and Evaluation Constructs
+    - name: "intervention-taxonomy"
+      category: "methodological-framework"
+      description: "Systematic classification system for describing and categorizing intervention characteristics"
+      
+    - name: "intervention-replication"
+      category: "methodological-framework"
+      description: "Process of reproducing intervention study methods and procedures in new contexts"
+      
+    - name: "cross-study-analysis"
+      category: "methodological-framework"
+      description: "Comparative examination of intervention components and outcomes across multiple studies"
+      
+    - name: "meta-analysis"
+      category: "methodological-framework"
+      description: "Statistical integration of results from multiple intervention studies"
+      
+    - name: "intervention-decomposition"
+      category: "methodological-framework"
+      description: "Process of breaking down complex interventions into component parts for analysis"
+      
+    - name: "task-analysis"
+      category: "methodological-framework"
+      description: "Systematic examination of intervention components and their relationships"
+      subTypeOf: "intervention-decomposition"
+      
+    - name: "common-language"
+      category: "methodological-framework"
+      description: "Standardized terminology for describing intervention characteristics across studies"
+      
+    - name: "external-validity"
+      category: "methodological-framework"
+      description: "Extent to which intervention findings can be generalized to real-world settings and populations"
+      
+    - name: "internal-validity"
+      category: "methodological-framework"
+      description: "Extent to which intervention study design allows for valid causal inferences"
+      
+    - name: "translation-research"
+      category: "methodological-framework"
+      description: "Process of adapting efficacious interventions for implementation in community settings"
+      
+    # Target Entities and Domains
+    - name: "target-entity"
+      category: "target-domain"
+      description: "Specific person, group, or environment that intervention is designed to change"
+      
+    - name: "caregiver-target"
+      category: "target-domain"
+      description: "Family member or informal provider caring for person with illness or disability"
+      subTypeOf: "target-entity"
+      
+    - name: "care-recipient"
+      category: "target-domain"
+      description: "Person receiving care who may be indirect target of caregiver-focused intervention"
+      subTypeOf: "target-entity"
+      
+    - name: "physical-environment"
+      category: "target-domain"
+      description: "Material surroundings and settings that may be modified to support intervention goals"
+      subTypeOf: "target-entity"
+      
+    - name: "social-environment"
+      category: "target-domain"
+      description: "Interpersonal relationships and social context that may be targeted for change"
+      subTypeOf: "target-entity"
+      
+    - name: "functional-domain"
+      category: "target-domain"
+      description: "Specific area of human functioning targeted by intervention"
+      
+    - name: "knowledge-domain"
+      category: "target-domain"
+      description: "Cognitive understanding and awareness targeted for change"
+      subTypeOf: "functional-domain"
+      
+    - name: "cognitive-skills-domain"
+      category: "target-domain"
+      description: "Mental processes and thinking abilities targeted for improvement"
+      subTypeOf: "functional-domain"
+      
+    - name: "behavior-domain"
+      category: "target-domain"
+      description: "Observable actions and activities targeted for modification"
+      subTypeOf: "functional-domain"
+      
+    - name: "affect-domain"
+      category: "target-domain"
+      description: "Emotional states and mood targeted for change"
+      subTypeOf: "functional-domain"
+      
+    # Specific Research Examples and Applications
+    - name: "reach-program"
+      category: "intervention-example"
+      description: "Resources for Enhancing Alzheimer's Caregiver Health multisite randomized trials"
+      
+    - name: "health-maintenance-consortium"
+      category: "intervention-example"
+      description: "Trans-NIH collaborative effort testing theoretical models for long-term health behavior change"
+      
+    - name: "behavioral-skills-training"
+      category: "intervention-example"
+      description: "Specific intervention approach involving teaching practical skills for behavior management"
+      
+    # Process and Relationship Terms
+    - name: "consensus-process"
+      category: "process"
+      description: "Method of developing taxonomy through agreement among multiple expert reviewers"
+      
+    - name: "pilot-testing"
+      category: "process"
+      description: "Preliminary evaluation of taxonomy application by independent investigators"
+      
+    - name: "taxonomy-refinement"
+      category: "process"
+      description: "Iterative improvement of classification system based on feedback and testing"
+      
+    - name: "generalizability-testing"
+      category: "process"
+      description: "Evaluation of taxonomy applicability across diverse intervention types and contexts"
+      
+    # Relationships
+    - name: "delivers"
+      category: "relationship"
+      description: "Interventionist provides intervention content to participant"
+      domain: ["interventionist"]
+      range: ["intervention", "participant"]
+      
+    - name: "receives"
+      category: "relationship"
+      description: "Participant obtains intervention content from interventionist"
+      domain: ["participant"]
+      range: ["intervention"]
+      
+    - name: "adapts-to"
+      category: "relationship"
+      description: "Intervention is modified to accommodate participant characteristics or needs"
+      domain: ["intervention"]
+      range: ["participant-characteristic"]
+      
+    - name: "implements"
+      category: "relationship"
+      description: "Delivery of intervention according to specified protocol and procedures"
+      domain: ["interventionist"]
+      range: ["intervention"]
+      
+    - name: "mediates"
+      category: "relationship"
+      description: "Mechanism of action serves as pathway between intervention and outcomes"
+      domain: ["mechanism-of-action"]
+      range: ["intervention", "outcome"]
+      
+    - name: "targets"
+      category: "relationship"
+      description: "Intervention is designed to change specific entity or domain"
+      domain: ["intervention"]
+      range: ["target-entity", "functional-domain"]
+      
+    - name: "employs"
+      category: "relationship"
+      description: "Intervention utilizes specific strategy or technique"
+      domain: ["intervention"]
+      range: ["intervention-strategy"]
+      
+    - name: "measures"
+      category: "relationship"
+      description: "Assessment of intervention implementation component"
+      domain: ["fidelity-monitoring"]
+      range: ["treatment-implementation"]
+      
+    - name: "categorizes"
+      category: "relationship"
+      description: "Taxonomy provides classification for intervention features"
+      domain: ["intervention-taxonomy"]
+      range: ["intervention", "delivery-characteristic", "content-strategy"]
+      
+    - name: "facilitates"
+      category: "relationship"
+      description: "Process or tool enables or supports specific outcome"
+      domain: ["intervention-taxonomy", "common-language"]
+      range: ["intervention-replication", "cross-study-analysis"]
+
+  json_schema:
+    delivery_modes:
+      - "face-to-face-individual"
+      - "face-to-face-group"
+      - "telephone-individual"
+      - "telephone-group"
+      - "internet-individual"
+      - "internet-group"
+      - "video-cd-instruction"
+      - "telephone-computer"
+      - "written-materials"
+      - "personal-digital-assistant"
+      - "cell-phone"
+    
+    intervention_materials:
+      - "manuals-workbooks"
+      - "information-sheets"
+      - "checklists"
+      - "pamphlets"
+      - "videotapes"
+      - "audiotapes"
+      - "cds-dvds"
+      - "assistive-devices"
+      - "internet-resources"
+    
+    intervention_locations:
+      - "participant-home"
+      - "classroom"
+      - "healthcare-provider-office"
+      - "hospital-clinic"
+      - "operating-room"
+      - "work-site"
+      - "community-center"
+      - "nursing-home"
+      - "group-residence"
+      - "research-facility"
+    
+    scripting_levels:
+      - "exact-script-protocol"
+      - "specific-language-elaboration-allowed"
+      - "specific-language-no-elaboration"
+      - "goals-tasks-specified"
+      - "general-guidelines"
+    
+    cultural_accommodations:
+      - "preferred-language-delivery"
+      - "literacy-level-materials"
+      - "visual-supplements-hearing"
+      - "oral-supplements-vision"
+      - "cultural-values-incorporation"
+    
+    interventionist_requirements:
+      - "disciplinary-expertise"
+      - "licensing-certification"
+      - "training-quantity-type"
+      - "proficiency-testing"
+      - "demographic-matching"
+      - "community-recruitment"
+      - "cultural-competence"
+    
+    adaptation_aspects:
+      - "session-number"
+      - "session-schedule"
+      - "session-duration"
+      - "location-changes"
+      - "delivery-mode-changes"
+      - "content-modifications"
+      - "dosage-adjustments"
+    
+    adaptation_triggers:
+      - "participant-assessment"
+      - "participant-progress"
+      - "spontaneous-request"
+      - "secular-events"
+      - "clinical-judgment"
+      - "checklist-results"
+      - "lab-test-results"
+    
+    adaptation_timing:
+      - "intake-assessment"
+      - "baseline-assessment"
+      - "specified-intervals"
+      - "ongoing-monitoring"
+    
+    implementation_measures:
+      - "session-frequency"
+      - "session-duration"
+      - "content-delivery"
+      - "knowledge-assessment"
+      - "skill-assessment"
+      - "motivation-assessment"
+      - "self-efficacy-assessment"
+      - "social-support-assessment"
+      - "pathophysiology-changes"
+      - "direct-observation"
+      - "self-report"
+      - "observer-report"
+    
+    content_strategies:
+      - "feedback-tracking-monitoring"
+      - "information-provision"
+      - "behavioral-incentives"
+      - "didactic-instruction"
+      - "skill-building"
+      - "problem-solving"
+      - "stress-management"
+      - "social-support-facilitation"
+      - "biologic-interventions"
+      - "structure-process-modifications"
+    
+    mechanisms_of_action:
+      - "risk-goal-assessment-ability"
+      - "knowledge-enhancement"
+      - "behavioral-skills"
+      - "problem-solving-skills"
+      - "motivation-enhancement"
+      - "self-efficacy"
+      - "social-support"
+      - "social-engagement"
+      - "environmental-motivation"
+      - "policy-regulation-change"
+      - "biologic-pathways"
+    
+    target_behaviors:
+      - "tobacco-cessation"
+      - "exercise-promotion"
+      - "nutrition-improvement"
+      - "substance-abuse-prevention"
+      - "hiv-risk-reduction"
+      - "chronic-illness-management"
+      - "caregiver-skills"
+      - "depression-reduction"
+    
+    research_applications:
+      - "intervention-design"
+      - "replication-studies"
+      - "cross-study-analysis"
+      - "meta-analysis"
+      - "translation-research"
+      - "community-implementation"
+      - "theory-testing"
+      - "component-evaluation"

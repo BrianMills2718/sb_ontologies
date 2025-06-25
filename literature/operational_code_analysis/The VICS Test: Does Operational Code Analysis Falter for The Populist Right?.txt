@@ -1,0 +1,1302 @@
+The VICS Test: Does Operational Code Analysis Falter for The Populist Right?
+by
+David Leonardo Luengas
+A Thesis Presented in Partial Fulfillment
+of the Requirements for the Degree
+Master of Arts
+Approved April 2020 by the
+Graduate Supervisory Committee:
+Cameron Thies, Chair
+Thorin Wright
+Paul Lewis
+ARIZONA STATE UNIVERSITY
+May 2020
+i
+ABSTRACT
+Operational code analysis (OCA) is a common method of content analysis within
+the foreign policy analysis (FPA) literature used to determine the “operational code” of
+state leaders and, by extension, the foreign policy behaviors of their respective state. It
+has been tried and tested many times before, on many different world leaders from many
+different time periods, to predict what the foreign policy behavior of a state/organization
+might be based on the philosophical and instrumental beliefs of their leader about the
+political universe. This paper, however, questions if there might be types of politicians
+that OCA, conducted using the automated Verbs In Context System (VICS), has
+problems delivering accurate results for. More specifically, I have theoretical reasons for
+thinking that populist leaders, who engage in a populist style of communication,
+confound VICS’ analysis primarily because the simplistic speaking style of populists
+obscures an underlying context (and by extension meaning) to that leader’s words.
+Because the computer cannot understand this underlying context and takes the meaning
+of the words said at face value, it fails to code the speeches of populists accurately and
+thus makes inaccurate predictions about that leader’s foreign policy. To test this theory, I
+conduct the content analysis on speeches made by three individuals: Donald Trump,
+Boris Johnson, and Narendra Modi, before and after they became the executives of their
+respective countries, and compared them to a “norming “ group representing the average
+world leader. The results generally support my hypotheses but with a few caveats. For the
+cases of Trump and Johnson, VICS found them to be a lot more cooperative than what I
+would expect, but it was also able to track changes in their operational code - as they
+transition into the role of chief executive – in the expected direction. The opposite was
+ii
+the case for Modi’s operational code. All-in-all, I provide suggestive evidence that OCA
+using VICS has trouble providing valid results for populist leaders.
+iii
+TABLE OF CONTENTS
+Page
+LIST OF TABLES ..................................................................................................................iv
+LIST OF FIGURES ................................................................................................................. v
+INTRODUCTION ................................................................................................................... 1
+LITERATURE REVIEW AND THEORY ............................................................................. 4
+WHY THE CHALLENGE? .................................................................................................. 10
+MATERIALS AND METHODOLOGY .............................................................................. 18
+RESULTS ............................................................................................................................... 23
+Comparing to the “Average” World Leader ............................................................. 31
+Comparing Pre and Post Executive Role .................................................................. 37
+CONCLUSION ...................................................................................................................... 46
+REFERENCES ...................................................................................................................... 49
+APPENDIX
+A SPEECHES USED..................................................................................................... 54
+iv
+LIST OF TABLES
+Table Page
+1. Analysis of Short Passage by Boris Johnson on May 09, 2016 ........................... 15
+2. OCA Results of Johnson, Trump, Modi, and Norming Group ............................ 24
+3. OCA Results of Johnson, Trump, and Modi Before and After Becoming Chief
+Executive ................................................................................................................ 36
+v
+LIST OF FIGURES
+Figure Page
+1. Chart of Index Z-scores For Johnson, Trump, and Modi ...................................... 32
+2. Norming Group and Johnson’s OCA Scores Before and After PM Role ............ 38
+3. Norming Group and Trump’s OCA Scores Before and After President Role ..... 41
+4. Norming Group and Modi’s OCA Scores Before and After PM Role ................. 44
+1
+INTRODUCTION
+The mid-2010s have distinguished themselves as an era characterized by the rise
+of populism. The 2016 U.S. presidential election was unprecedented in a multitude of
+ways, not least of which because political outsider and businessman Donald J. Trump
+defeated the widely favored candidate, Hillary Clinton, in the electoral college and
+ascended to the Presidency of the United States. Also, in 2016, the British people, spurred
+on by right-wing populist rhetoric, narrowly voted to leave the European Union. This set
+off a cascade of events that eventually led to the rise of Boris Johnson as the Prime
+Minister of the United Kingdom. And before all this, Narendra Modi, leader of the
+Bharatiya Janata Party (a right-wing Hindu nationalist party in India), successfully won
+an election against the predominant Indian National congress to become Prime Minister
+of India. These populists, and many more in Poland, Hungary, Bolivia, Venezuela, etc.
+have risen to power in this decade. These series of events naturally beg questions such as
+“how might the foreign policy of populists manifest itself and how could we predict it?”
+It is for that general purpose that operational code analysis (OCA) was created by Nathan
+Leites (1951), advanced by Alexander George (1969) and operationalized in such a way
+that the content analysis could be automated by a computer by Walker, Schafer, and
+Young (1998), allowing for greater cost-efficiency.
+OCA has frequently been applied to analyze, predict, and compare the foreign
+policy of world leaders in the past (see Özdamar 2017; Özdamar & Canbolat 2018; Kai &
+Feng 2013; Crichlow 1998; Walker 1977; Dyson 2009; Walker, Schafer, & Young 1999;
+Walker, Schafer, & Young 1998; Renshon 2008; and Feng 2005 as examples). However,
+I have reason to believe that OCA conducted through VICS suffers from bias when
+2
+analyzing populist candidates. This is because the literature on populism and the populist
+style of communication (Jagers & Walgrave 2007; Canovan 1999; Di Tella 1997; Mudde
+2004; Weyland 2001; Taguieff 1995) generally agrees that populist rhetoric is articulated
+in a simplistic and straightforward way, yet it is teeming with lots of underlying meaning.
+The automated system that I use to conduct OCA, the Verbs In Context System (VICS),
+is oblivious to this underlying meaning and takes the phrases spoken at face value. By
+taking the words spoken at face value, the system incorrectly codes phrases as implying
+that the speaker is more cooperative/conflictual than they actually are. Thus, the system
+produces biased results that would lead to inaccurate predictions about a populist leader’s
+foreign policy.
+To see if this is really the case, I have chosen to analyze the operational code of
+the three presidents and prime ministers mentioned above: Donald Trump, Boris Johnson,
+and Narendra Modi. These three politicians are all executives of geopolitically and
+economically important nations and are all considered to be right-wing populists. I collect
+speech materials from each of these candidates totaling 189,309 words and 6154
+attributions, collectively. After obtaining the results I will discuss them in the context of
+what we have observed them do during their tenure in office, as a test of face validity, to
+see if VICS’ predictions line up with reality.
+This paper will proceed as follows. The next section will review the literature on
+OCA using VICS, explain how it works, and then discuss the literature on populism as a
+form of discourse or communication. From that review, I derive theories for why a
+populist discourse or form of communication may cause an unintended bias within VICS
+that leads to results that seem inaccurate prima facie. The subsequent section will
+3
+describe the materials (how and why the speeches were collected) and the methodology I
+use to conduct the analysis. Afterward, I will describe the results of the analysis to see if
+they match what we would expect given what we know about these leaders’ time in
+office and then discuss them in comparison to the “norming” group – a group
+representing the average world leader. Finally, I will end by reviewing the substantive
+results of the paper, thinking about possible limitations in the analysis and how to address
+them, and lastly, what future research questions arise from the findings of this paper.
+4
+LITERATURE REVIEW AND THEORY
+To the uninitiated, the most important questions we must begin with is “what is
+OCA and VICS?” The term “Operational Code” was first
+introduced to the foreign policy analysis (FPA) literature by Leites’ influential work “The
+Operational Code of The Politburo” (1951). To Leites, “operational code” referred to the
+doctrine of political tactics and strategy used by the Bolsheviks at the time; however, it
+would be Alexander George (1969) that would later expand on this idea and formulate
+the basic ideas and concepts implied by the term. He reconceptualized the term
+“operational code” as answers to a set of questions about the philosophical and
+instrumental beliefs of the political universe. Those questions are:
+PHILOSOPHICAL QUESTIONS
+P-1. What is the “essential” nature of political life? Is the political universe one of
+harmony or conflict? What is the fundamental character of one’s political opponents?
+P-2. What are the prospects for the eventual realization of one’s fundamental political
+values and aspirations? Can one be optimistic, or must one be pessimistic on this score,
+and in what respects the one and/or the other?
+P-3. Is the political future predictable? In what sense and to what extent?
+P-4. How much “control” or “mastery” can one have over historical development? What
+is one’s role in “moving” and “shaping” history in the desired direction?
+P-5. What is the role of “chance” in human affairs and in historical development?
+INSTRUMENTAL QUESTIONS
+I-1. What is the best approach for selecting goals or objectives for political action?
+I-2. How are the goals of action pursued most effectively?
+5
+I-3. How are the risks of political action calculated, controlled, and accepted?
+I-4. What is the best “timing” of action to advance one’s interests?
+I-5. What is the utility and role of different means for advancing one’s interests?
+The largest breakthrough (and the one most relevant for my purposes here) came
+from the work of Walker, Schafer, and Young (1998) that operationalized those beliefs
+(i.e. the answers to those questions) in a rigorous mathematical method that made it easier
+for computers to perform the analysis, as opposed to having to hand code it. The
+fundamental assumption of this methodology is that it is possible to determine the
+psychological characteristics of leaders or groups based on their verbal behavior (Schafer
+& Walker 2006). This assumption is not unreasonable as speech is the main way humans
+express their thoughts, feelings, and in the case of politicians, their policy prescriptions.
+As a result, the indices they construct to operationalize each of the 10 beliefs outlined
+above work in tandem with VICS to automatically analyze speech content and code it
+according to the transitive verbs expressed in the text (Schafer & Walker 2006). Their
+indices also allowed for the idea that beliefs didn’t have to be mutually reinforcing or
+even internally coherent; an important detail reflecting empirical reality.
+“But how exactly does it work?” you may ask. Though the unit of observation
+here is the leader’s speech, the unit of observation VICS records is the “utterance”- a
+phrase within the speech that contains a subject and a verb. VICS finds these phrases and
+follows these steps: First, it identifies the verb or verb-phrase in the “utterance” and
+labels it cooperative (positive) or conflictual (negative). Second, it determines if the
+action is a word or deed; “Deeds are actions that have been done. Words are promises or
+threats of future action or symbolic declarations of support or opposition” (Schafer &
+6
+Walker 2006). Third, it then determines the specific type of verb it is and codes it
+accordingly, an appeal/oppose statement (+/- 1), a promise/threat (+/-2), or a
+reward/punishment (+/-3). Finally, it identifies the subject of the verb as either “self” or
+“other” by looking at the self-pronouns (if any) in the statement, if words like “we, I, us”
+etc. are present in the utterance its coded “self”, otherwise it is coded as “other”.
+Here is a small example showing how it would work with the statement “Iran is
+taking over Iraq” (taken from Trump’s Presidential announcement speech, June 16,
+2015).
+1. The verb-phrase “taking over” is labeled as a conflictual (negative) act
+2. The verb-phrase is further identified as an action
+3. It is then labeled “punishment” and coded as “-3”
+4. Finally, the subject is “Iran”, so it is coded as “other”
+Overall then this phrase would be coded “Other punishment (-3)”. The indices created by
+Walker, Schafer, and Young then use these coded attributions as inputs to quantitatively
+measure the answers (beliefs) to the 10 questions shown above.
+The way these indices are operationalized is, as I will explain further below, of
+great importance to my theory of why I suspect VICS might become biased when
+measuring the operational code of populists. As a result, it is crucial that I demonstrate
+exactly how the “answers” to those philosophical and instrumental questions are derived.
+The first philosophical belief in the nature of the political universe (P-1) is calculated as:
+ − 1 = %  ℎ      −
+%   ℎ     
+with a possible range from -1 (perfectly conflictual) to +1 (perfectly cooperative).
+7
+The second philosophical belief in the ability to realize political values (P-2) is
+calculated as:
+ − 2 = ∑
+
+where “” is the intensity of other-attribution " " (from reward [+3] to punish [-3]),
+and “” is the total number of other-attributions. The mean is then divided by 3 to obtain
+a possible range of -1 (perfectly pessimistic) to +1 (perfectly optimistic).
+The third is the philosophical belief in the predictability of the political future (P-
+3) which is measured as:
+ − 3 = 1 −  100 − ∑ % 
+100 ! − 1 
+where "" is the number of other-attribution categories, "%" is the percent in each
+other-attribution category. This measure has a range of .00 (lowest predictability) to 1.00
+(highest predictability).
+The fourth is philosophical belief in control over historical events (P-4), measured as:
+ − 4 =  #$      /  #$     + ℎ     
+It ranges from .00 (other locus of control) to 1.00 (self-locus of control).
+The fifth is philosophical belief in the role of chance (P-5) this one is simply calculated as
+ − 5 = 1 − [ − 3 ∗  − 4]
+This will scale from.00 (low utility) to 1.00 (high utility)
+Then we shift to the first instrumental belief, the strategic approach to achieving
+goals (I-1), calculated as:
++ − 1 = %   ,#$      − % -  ,#$     
+It ranges from -1 (perfectly conflictual) to +1 (perfectly cooperative).
+8
+The second instrumental belief, the tactical approach to achieving political goals,
+is calculated as:
++ − 2 = ∑,
+
+Where "," is the intensity of self-attribution " "(from self-punish [-3] to self-reward
+[+3]) and “” is the total number of self-attributions. It ranges from -1 (perfectly
+conflictual tactics) +1 (perfectly cooperative tactics).
+The third instrumental belief, risk orientation (I-3), is measured as:
++ − 3 = 1 −  ./01123 ∑ %45.26
+0112730 
+for self-attributions, where "" is the number of self-attribution categories, "%," is
+the percent in each self-attribution category. This measure ranges from .00 (Perfectly risk
+averse) to 1.00 (Perfectly risk acceptant).
+The fourth instrumental belief, the propensity to shift tactics is split into two
+measures: the propensity to shift between cooperation and conflict (I-4a) and the
+propensity to shift between words and deeds (I-4b). They are measured as:
++ − 4 = 1 − |%  #$      − %  #$    |
++ − 4 = 1 − |%: ;  − %;; |.
+Both range from .00 (no shift propensity) to 1.00 (perfect shift propensity)
+Lastly, we have the fifth instrumental belief, utility of means, calculated as:
++ − 5 = % $  <ℎ #$    <  =
+And ranges from .00 (lowest utility) to 1.00 (highest utility).
+The coding of “utterances” in a politician's speech are the inputs to these
+equations and, as a result, inaccurate coding will lead to invalid results. This naturally,
+9
+calls to question why a populist style of rhetoric and communication might lead to an
+inaccurate coding of speeches? In short, the literature on populism agrees that populism,
+and by extension populist rhetoric, contains certain characteristics that I believe cause
+bias in the automated content analysis of VICS. In the next subsection, I’ll explain in
+greater detail what exactly those characteristics are and why they challenge VICS’ ability
+to deliver valid results.
+10
+WHY THE CHALLENGE?
+To begin describing why and how a populist leader presents a challenge to VICS I must
+first establish exactly what is meant by a populist style of rhetoric and communication.
+The literature on populism has had varying definitions on what exactly populism is: a
+“thin-centered” ideology (Mudde 544, 2004), a form of political organization (Di Tella
+1997), or a special style of communication (Canovan 1999; Weyland 2001; and Jagers &
+Walgrave 2007). But regardless, even those who do not define it as a style of
+communication admit that “While charismatic leadership and direct communication
+between the leader and ‘the people’ are common among populists, these features
+facilitate rather than define populism.” (Mudde 545 2004; emphasis in original). Thus,
+whether one thinks of it as a style of communication or not, scholars generally agree that
+populists will make use of their particular style of rhetoric precisely because its mass
+appeal strengthens their movement.
+So, what are the characteristics of this style? Scholars universally agree that
+populist rhetoric centers itself around appeals to “the people” (Di Tella 1997; Mudde
+2004; Weyland 2001; Taguieff 1995). That being said, what they mean by “the people ''
+can vary wildly according to the type of populist; for example, when left wing populists
+in Latin America speak of “the people”, they often mean the poor and marginalized and
+this includes racial and ethnic minorities. By contrast, the right-wing populism (also
+called national populism) commonly found in Europe implicitly, and sometimes
+explicitly, defines “the people '' as the dominant native ethnic group, and thus calls for
+discriminatory policies to benefit the dominant natives at the expense of minorities and
+non-natives (Mudde & Kaltwasser 2013; Taguieff 1995).
+11
+Additionally, populist rhetoric also emphasizes some “elitist” threat that the
+leader is trying to protect “the people” from. Like before, the definition of “elites” can
+vary from only wealthy economic and political elites, to even including some clearly non-
+elite populations (such as illegal immigrants) but with the emphasis that these non-elites
+are actually somehow agents or pawns of “the elites”. Thus, through their populist
+rhetoric, the populist leader creates a Manichean worldview wherein a “righteous people
+'' are under siege from a “corrupt elite” (Mudde 2004). Consequently, the populist leader
+must present him/herself as having a “supernatural capacity to represent and lead the
+people, rescue them from adversity, and usher in progress.” (Weyland 13 2001)
+On top of that, populist rhetoric revels in the art of simplicity:
+“Populist appeals to the people are characteristically couched in a style that is
+`democratic' in the sense of being aimed at ordinary people. Capitalizing on
+popular distrust of politicians' evasiveness and bureaucratic jargon, they pride
+themselves on simplicity and directness...Populists love transparency and distrust
+mystification: they denounce backroom deals, shady compromises, complicated
+procedures, secret treaties, and technicalities that only experts can understand.
+Populists claim that all this complexity is a self-serving racket perpetuated by
+professional politicians, and that the solutions to the problems ordinary people
+care about are essentially simple.” (Canovan 5-6, 1999)
+This combination of these characteristics means populist rhetoric manifests itself
+in a short and simplistic speaking style, yet these simple words are teeming with
+underlying meaning and purpose. The problem with VICS is that it only analyzes the
+meaning of words at face value, utterly oblivious to the underlying context that gives
+those words the meaning and intent of the populist. The following quote from Donald
+Trump’s speech in Lynchburg, VA (January 18, 2016) demonstrates what I mean:
+“We have got to get them to fund it. We have got to get them to put up the money.
+We're going to get them -- don't forget, without us, they wouldn't be there very
+long. We protect them. And with the military -- by the way, we're protecting
+12
+countries that are behemoths. We're protecting countries that are so rich, so
+powerful, so incredible -- South Korea. We protect South Korea. I have many
+friends -- I have deals, I have buildings in South Korea. But we're protecting
+South Korea. We have 28,000 soldiers on the line, between the maniac and South
+Korea. We're protecting them. They pay us peanuts. We protect Germany. We
+protect Japan. We protect countries that nobody even knows about. We protect
+Saudi Arabia. Before the oil price down, Saudi Arabia was making $1 billion a
+day. We protect them. They pay us, like, practically nothing compared to the
+cost.”
+Every time Trump says, “We protect ____”, VICS codes that as “self-reward
+(+3)” or when he says, “They pay us peanuts” it is coded as “other reward (+3)”.
+Essentially the computer interprets these statements as positive (cooperative) statements
+even though from our human understanding of context we know these are meant to be
+negative statements, with his overarching argument being that we should either get more
+money from them to protect them or stop protecting them at all. As a result, I would
+expect that cooperative (positive) statements would be disproportionately coded by VICS
+and indices that use these attributions as inputs (P-1, P-2, P-4, I-1, I-2, I-5) would likely
+be biased in a positive direction.
+Similar results can be found in the speeches of Boris Johnson, even though he
+speaks in a more refined and coherent manner. Take this example from a speech he made
+promoting the Vote Leave campaign on May 09, 2016:
+“We began decades ago to query the anti-democratic absurdities of the EU. Then
+we began to campaign for reform, and were excited in 2013 by the Prime
+Minister’s Bloomberg speech; and then quietly despaired as no reform was
+forthcoming. And then thanks to the referendum given to this country by David
+Cameron we find that a door has magically opened in our lives. We can see the
+sunlit meadows beyond. I believe we would be mad not to take this once in a
+lifetime chance to walk through that door because the truth is it is not we who
+have changed. It is the EU that has changed out of all recognition; and to keep
+insisting that the EU is about economics is like saying the Italian Mafia is
+interested in olive oil and real estate. It is true, but profoundly uninformative
+about the real aims of that organization.”
+13
+If we were to conduct the analysis on this passage alone the results (shown in table 1)
+would look nonsensical. Out of the 14 codings registered in this passage 11 are positive,
+and this results in an I-1, I-2, and P-1, of 1, 0.56, and 0.45, respectively; indicating that
+Johnson absolutely prefers a cooperative strategy to foreign policy, has a strong
+preference for cooperative tactics and generally believes the world is a cooperative place.
+This result flies in the face of the message in that passage, and it has to do with the fact
+that VICS is blind to the underlying messaging. This is clearly exemplified if we look at
+the last two sentences. VICS codes the utterance “the EU is about economics” and “the
+Italian Mafia is interested in olive oil and real estate,” as (positive/cooperative) appeals to
+an “other”, despite the fact that Johnson is literally comparing the EU to a criminal
+organization.
+From the mathematical construction of the indices, we can see that an excessive
+or disproportionate amount of positive coding would have a direct effect on some of
+them. (P-1) and (I-1) both take the percent of positive attributions and subtract the
+percent of negative attributions (for other-attributions and self-attributions, respectively),
+as a result we can tell that a disproportionate amount of positive coding will push these
+metrics in a positive direction. Likewise, (P-2) and (I-2) suffer from a similar problem
+since they are essentially just averages for the intensity of other-attributions and self-
+attributions respectively; thus, the disproportionately greater amount of positive coding
+by VICS should unduly bias this metric in a positive direction. (I-5) would definitely see
+a bias as it is simply the percent of self-attributions in his speech for each category
+(Reward, promise, appeal, oppose, threaten, and punish) so a disproportionate amount of
+positive coding will mean positive self-attributions will be overrepresented when
+14
+compared to negative attributions. Lastly, I would expect (I-4a), to have an upward bias
+too. This is because I assume that right wing populist leaders with nationalist tendencies
+would be less cooperative than the average world leader, but if VICS is accidently coding
+more positive attributions, then the overall result will display a large variance in the
+leader’s use of positive and negative attributions. This increased oscillation between
+positive and negative words will increase (I-4a) precisely because it measures the shift
+propensity (the index of qualitative variation) of cooperation vs. conflict. The remaining
+indices I would not expect any biases either because they don’t measure positive vs
+negative attributions [(P-4) and (I-4b)] ; or because their mathematical construction
+makes it difficult to estimate the direction of the bias due to the equal or greater influence
+that non-positive attributions would have on the output [(P-3), (P-5), and (I-3)].
+As a robustness test of VICS I also want to evaluate its ability to evaluate the
+operational code of populists when they occupy different roles and observe if the results
+match expectations. Previous research has shown us that a change in the role of the
+individual has the capacity to change their operational code (Feng 2009; Renshon 2008;
+Cuhadar 2017). On top of that, previous research has also shown that populist foreign
+policy is quite pragmatic, guided by both the goals and capabilities of the populist in
+power (Sagarzazu & Thies 2019; Plagemann & Destradi 2019). Given that the top
+executive in any country is under more international scrutiny (that is, the international
+audience becomes more salient relative to the domestic audience) than other political
+leaders in the country, this means that a populist leader’s operational code should change
+after they become the top executive, to reflect the change in audience salience, but that
+the direction of the change depends on the populist’s goals.
+15
+Table 1
+Analysis of Short Passage by Boris Johnson on May 09, 2016
+word count 151
+self-punish 0
+self-threaten 0
+self-oppose 0
+self-appeal 2
+self-promise 0
+self-reward 1
+other punish 0
+other threaten 0
+other oppose 3
+other appeal 5
+other promise 0
+other reward 3
+I-1 1
+I-2 0.5556
+P-1 0.4545
+P-2 0.3333
+16
+All three leaders have interests that require certain levels of cooperativeness vs.
+conflictualness and looking at those interests can inform us of the expected change in
+operational code. For Boris Johnson, whose main goal is to negotiate an acceptable
+Brexit deal with the EU, we would expect an increase in his cooperativeness – and thus
+an increase in (I-1), (I-2), (I-5), and (P-1) – to prevent a breakdown of negotiations (a
+“no-deal” Brexit) and the economic instability that would naturally come with it. Donald
+Trump’s goals are more numerous and sometimes run counter in terms of cooperation
+which makes it harder to determine how the indices would change. On the one hand, his
+cooperativeness might decrease since his goal of reducing the trade deficit would
+incentivize the use of “beggar thy neighbor” policies like tariffs; on the other hand, goals
+he doesn’t want to (or can’t) unilaterally pursue will require an increase in his
+cooperativeness; goals like the renegotiation NAFTA, getting Mexico to pay for a border
+wall, or fighting ISIS. Overall, then it’s difficult to say how his operational code will
+change so I take the null stance of observing no change. In sharp contrast, Modi’s
+cooperativeness should increase after becoming PM due to the goals of his neo-liberal
+agenda. Modi’s desire to liberalize trade with other countries will require greater
+cooperativeness to assure success in negotiations.
+In short, the rhetorical simplicity of populist speech, combined with the deeper
+connotations within it, lead to VICS’ inability to code a populist’s speech accurately and
+cause biased results. From the snippets of evidence presented in this section I hypothesize
+that the indices (P-1), (P-2), (I-1), (I-2), and (I-5) should be biased in a positive
+(cooperative) direction, inducing us to believe that a populist will be as much, if not
+more, cooperative than the average world leader. Additionally, I hypothesize that (I-4a)
+17
+will also be biased in a positive direction such that it is higher than that of the average
+world leader. Lastly, due to the effects of role change, I hypothesize that Johnson’s (I-1),
+(I-2), (I-5), (P-1) and (P-2) indices will increase after he becomes PM. The same indices
+for Trump should have no significant change after he becomes President, and for Modi
+they should increase significantly after he becomes PM. In the next section I will explain
+why Trump, Johnson, and Modi were selected as my test subjects for the analysis, how
+the materials for them were selected and how exactly I’ll be performing my analysis.
+18
+MATERIALS AND METHODOLOGY
+To test my hypothesis, I quasi-randomly gathered 41 speeches from all three
+individuals - 11 from Johnson, 16 from Trump, 14 from Modi. To assure a decent spread
+of verbal materials that included materials from both before and after they were
+executives, I obtained a list of speeches from before and after their ascension to the chief
+executive role and randomly selected speeches from within those lists. As luck would
+have it, both Donald Trump and Narendra Modi have online databases dedicated to
+transcribing their rally and official speeches, debates, press conferences and all other
+sorts of verbal material. Thus, I source most of their speeches from their respective
+databases, using outside sources when the transcriptions in the database had omissions or
+errors. Boris Johnson’s speeches were mostly sourced from the UK’s official government
+website, which keeps tracks of official speeches made by state agents. However, due to it
+only containing official government speeches, and due to Johnson’s relatively shorter
+tenure as a chief executive I could not find an adequate sample of speeches from only this
+source. As a result, more outside sources were used for Johnson than for Trump or Modi
+(A full documentation of the speeches used can be found in the appendix, alongside their
+sources which are also listed in the references section).
+All the speeches were selected in accordance with guidelines stating that each
+speech should contain more than 1500 words and 10-15 codable verbs so as to prevent
+disproportionate influence from very short speeches that may be too case-sensitive to be
+valid (Schafer and Walker 2006; Renshon 2009). All these speeches have the subject
+speaking about some foreign policy topic, and are mostly made up of campaign rally
+speeches, public statements and a few interviews (descriptions of speeches are in the
+19
+appendix). Renshon (2009) informs us that all three of these speech types can provide
+valid results. An important question regarding the validity of test results when coding
+translated texts arises (this is particularly relevant for Modi), which is debated in the
+literature. Numerous analyses have been done on leaders whose native language is not
+English (Özdamar 2017; Özdamar & Canbolat 2018; Kai & Feng 2013; Crichlow 1998;
+Feng 2005), and they have produced reasonable results suggesting that translated texts
+should not cause major issues for valid inference. However, a most recent forum on non-
+English coding schemes for OCA describes the possible errors that google translated texts
+could create for VICS (Brummer et al. 2020), but with the important caveat that the
+errors don’t seem to systematically bias results in either a positive or negative direction.
+Additionally, some of the tests they ran to quantify the differences between human
+translated and google translated texts found that the differences in the indices did not
+surpass two standard deviations, which would denote statistically significant differences
+(and one couldn’t find differences greater than one standard deviation). As a result, I
+proceed with the Modi analysis but will take the results with a bit more caution.
+All three leaders were chosen as test subjects because they are conventionally
+considered to be populists. Trump and Modi are rated as at least “somewhat populist” by
+Team Populism’s global Populism Database (Hawkins et al. 2019); Boris Johnson was
+not included in the database, but considering his predecessor, Theresa May, was also
+labeled as “somewhat populist” by the database, and considering that Johnson is widely
+considered to have been more of a populist than May, we could safely assume that
+Johnson would also be labeled as “somewhat populist” (at the very least). Additionally,
+each of these leaders are considered to be right-wing populists with nationalist
+20
+tendencies; Trump explicitly labeled himself a “nationalist” during a political rally in
+Houston Texas (Le Miere 2018). Johnson explicitly denied the label saying: “I’m not a
+nationalist if by that you mean I’m a xenophobe or someone who deprecates other
+countries and cultures – absolutely not, far from it, I’m called Boris.” (Grafton-Green &
+Clifton 2019). However, considering his main political messages center around the idea
+of “restoring” the sovereignty of the U.K. from the EU and restricting immigration,
+combined with that rather unconvincing argument for why he’s not a nationalist,
+suggests otherwise. Modi’s nationalist leanings are a bit more obvious: he is a member
+(and leader in India’s lower house) of the Bharatiya Janata Party (BJP) - a political party
+espousing Hindu nationalist positions - and of the Rashtriya Swayamsevak Sangh (RSS) -
+A Hindu nationalist paramilitary volunteer organization. This similarity in nationalist
+ideology implies that they should all act in more conflictual manners with regard to their
+foreign policy (although Modi may be slightly less so considering his economically
+neoliberal stances).
+Given that nationalists prioritize the power, objectives, and wellbeing of their
+nations above all others we can assume that they should behave in a less cooperative
+manner (more conflictual) than an “average” world leader, with regard to their foreign
+policy, and would thus display significantly negative values to the measures of conflict
+vs. cooperation in their operational code (P-1, P-2, I-1, I-2, and I-5). As a result, If VICS
+does code populist speech in a positively biased manner then we should expect to see
+more positive values for these individuals. It would be much more difficult to discern if a
+bias exists with VICS if we chose non-nationalist leaders since it would be harder to
+21
+determine if their positive values on conflict vs. cooperation are inflated or actually what
+we would expect them to be.
+To represent the “average” world leader I obtained a “norming” group dataset
+(Walker, Schafer, & Young 2005) from Dr. Mark Schafer. This dataset is the average
+operational codes of 168 world politicians and is useful to see how many standard
+deviations away these three populist leaders are from the “average” world leader.
+Additionally, this selection of nationalist leaders also allows us to use one of the
+indices, (I-4a) as a secondary test of this theory. Since I expect leaders with nationalist
+tendencies to be less cooperative than “normal” leaders, and because I expect VICS to
+code a disproportionate amount of positive (cooperative) attributions for these populists,
+then the aggregate effect should be to increase the oscillation between cooperation and
+conflict present in the leader’s speeches. This will increase the (I-4a) metric such that it is
+as high if not higher than that of the norming group. I also compare the scores of these
+individuals to the events that have occurred throughout their tenure as executives as a
+“face validity” test of the results.
+Finally, previous studies using OCA (and other leadership analysis) have brought
+to attention the effect of an individual’s role on their operational code (Feng 2009;
+Renshon 2008; Cuhadar 2017), which has the capacity to affect some of the indices of
+interest: (P-1), (P-2) and (I-1). To control for the possible effects of role I then divide my
+sample of speeches into speeches gathered before and after these leaders became the head
+executives of their respective states. I then re-run the analysis and compare these 3
+leaders before they were executives, and after, to see if there were any significant
+changes in their operational code as a result of their role change. To quickly reiterate my
+22
+expectations regarding the operational code of these three populists relative to the
+“average” world politician:
+H1) I expect that, due to VICS’ biased coding, the indices (P-1), (P-2), (I-1), (I-2), and (I-
+5) will be biased in a positive (cooperative) direction, meaning that >?@ ≥ >BCDEF.
+(I.e. the (P-1), (P-2), (I-1), (I-2), and (I-5) indices scores for each leader will be as high if
+not higher than the average world leader score)
+H2) I expect that, due to VICS’ biased coding, the (I-4a) index will be biased in a positive
+manner (high shift propensity), such that >G3HI@ ≥ >G3HIBCDEF
+(I.e. the (I-4a) index score for each leader will be as high if not higher than the average
+world leader score).
+H3) I expect that, as we see these populist transition into their chief executive role, Boris
+Johnson should increase his cooperativeness (I.e. the (P-1), (P-2), (I-1), (I-2), and (I-5)
+indices will increase), Donald Trump should not experience much, if any, change in his
+cooperativeness (I.e. the (P-1), (P-2), (I-1), (I-2), and (I-5) indices will not substantively
+change); and Narendra Modi should see an increase in his cooperativeness.
+It is important to note that the confirmation of these hypotheses do not serve as
+definitive proof of the bias, but they are suggestive evidence of its existence, and the
+modestly of the results should be recognized. The creation of a norming group of non-
+populist nationalists may help test the core assumption that nationalist populists would be
+significantly less cooperative than average leaders and thus make these conclusions more
+definitive.
+23
+RESULTS
+Beginning with the aggregate results (table 2) for each individual populist, my
+VICS analysis draws the following inferences about them:
+Boris Johnson
+Boris Johnson’s operational code indicates an individual that would use a
+primarily cooperative strategy to achieve his goals (I-1=0.36) and would use slightly less
+cooperative tactics (I-2=0.16) overall. However, given his handling of Brexit (the foreign
+policy issue that defined him both before and after he became PM), this result seems very
+counterintuitive. Boris has repeatedly made moves to risk - or assure (depending on one’s
+point of view) - a “no-deal” Brexit. One example includes his prorogation of parliament,
+which risked the outcome of a “no-deal” Brexit (definitely the least cooperative outcome
+reasonably possible at the time). This resulted in his actions being found unconstitutional
+by the UK’s highest court and caused Parliament to pass the “Benn act”, to prevent a no-
+deal Brexit without parliament’s consent. Another instance was his statement that he’d
+“rather be dead in a ditch” (Rankin 2019) than to extend the Brexit deadline past October
+31st, despite the Benn act, mentioned above, legally requiring him to ask for an
+extension. The analysis also indicates that he is mostly risk averse (I-3=0.11). Again, this
+result is rather suspect given the actions taken by him and his administration that have
+risked the collapse of Brexit negotiations and a no-deal Brexit. This includes not only the
+prorogation of parliament, but also the Johnson’s administration's repeated proposals of a
+deal that removes - without replacing - the Irish backstop, a detail the EU would never
+accept; negotiations all but collapsed over this issue until the UK finally agreed to some
+concessions over northern Ireland (a replacement for the backstop).
+24
+Table 2
+OCA Results of Johnson, Trump, Modi, and Norming Group
+Indices Boris Johnson Donald Trump Narendra Modi
+World leader
+Averagea
+I-1 0.355 0.319 0.764 0.346 (0.336)
+I-2 0.161 0.118 0.393 0.139 (0.228)
+I-3 0.110 0.120 0.297 0.272 (0.143)
+I-4a 0.910 0.898 0.852 0.599 (0.267)
+I-4b 0.716 0.715 0.942 0.492 (0.304)
+I-5 punish 0.093 0.140 0.047 0.123 (0.188)
+I-5 threaten 0.077 0.056 0.009 0.038 (0.085)
+I-5 oppose 0.153 0.144 0.062 0.166 (0.137)
+I-5 appeal 0.435 0.442 0.593 0.463 (0.150)
+I-5 promise 0.093 0.063 0.059 0.065 (0.073)
+I-5 reward 0.149 0.155 0.230 0.145 (0.145)
+P-1 0.337 0.252 0.294 0.273 (0.280)
+P-2 0.160 0.054 0.130 0.123 (0.219)
+P-3 0.106 0.136 0.096 0.125 (0.057)
+P-4 0.254 0.320 0.193 0.207 (0.114)
+P-5 0.973 0.957 0.981 0.974 (0.021)
+25
+a. Standard Deviation in Parentheses
+Continuing, the analysis suggests he has an extremely high propensity to shift
+between cooperation and conflict (I-4a=0.91); likewise, he displays a high propensity to
+shift between words and actions as well (I-4b=0.72). This does seem plausible given his
+capacity to seal a deal despite his antagonism early in the negotiation process (and even
+before he was PM), but it could also be the effect of the hypothesized problems with
+VICS. When it comes to his utility of means (I-5), Johnson seems to prefer using appeals
+the most (0.44), followed by opposition statements (0.15) and rewards (0.15). The high
+utility of appeals seems suspect, especially considering his long-standing disdain for the
+EU (refer to his quote in the literature review where he compares the EU to organized
+crime).
+When it comes to his philosophical beliefs, Johnson sees the political universe as
+somewhat cooperative (P-1=0.34) but is only mildly optimistic about the realization of
+his goals (P-2= 0.16). The former result is very peculiar especially considering the
+repeated emphasis in his speeches that international institutions, and particularly the EU,
+are overtaking the UK’s sovereignty and undermining its economy, freedom, and
+democracy. This is made clear in one of his speeches during the 2016 referendum
+encouraging others to vote “Leave”:
+“It is we in the Leave Camp – not they – who stand in the tradition of the liberal
+cosmopolitan European enlightenment – not just of Locke and Wilkes, but of
+Rousseau and Voltaire; and though they are many, and though they are well-
+funded, and though we know that they can call on unlimited taxpayer funds for
+their leaflets, it is we few, we happy few who have the inestimable advantage of
+believing strongly in our cause, and that we will be vindicated by history; and we
+will win for exactly the same reason that the Greeks beat the Persians at Marathon
+– because they are fighting for an outdated absolutist ideology, and we are
+fighting for freedom. That is the choice on June 23. It is between taking back
+26
+control of our money – or giving a further £100bn to Brussels before the next
+election. Between deciding who we want to come here to live and work – or
+letting the EU decide. Between a dynamic liberal cosmopolitan open global free-
+trading prosperous Britain, or a Britain where we remain subject to a
+undemocratic system devised in the 1950s that is now actively responsible for low
+growth and in some cases economic despair. Between believing in the possibility
+of hope and change in Europe – or accepting that we have no choice but to
+knuckle under. It is a choice between getting dragged ever further into a federal
+superstate, or taking a stand now. Vote Leave on June 23, and take back control of
+our democracy.” (Johnson 2016)
+The latter result we would expect to be lower precisely because of Johnson’s view that
+the institution he must negotiate with, the EU, is a malevolent organization. He views the
+universe as very unpredictable (P-3=0.11), with a mild level of personal control over
+historical development (P-4=0.25) and considering his influential role in passing and
+leading the Brexit effort this latter result makes sense. That being said, he still ascribes a
+very high role for chance (P-5=0.97). Already I can see that some of these results oppose
+what would be expected, given the real-world events and actions observed in the last
+couple of years.
+Donald Trump
+Donald Trump’s preference for strategy is only slightly less cooperative than
+Boris’ (I-1=0.32) and his preferences for tactics are characterized by low cooperativeness
+(I-2=0.12). These two results seem a little strange given what we’ve observed from the
+Trump Presidency thus far; he has slapped tariffs on enemies and allies alike, insulted
+several other world leaders ranging from Canada’s Prime minister, Justin Trudeau, to
+North Korea’s current dictator, Kim Jung-Un . The analysis also indicates that he is very
+risk averse (I-3=0.12), a result that stands at stark odds with the reality of a president that
+started a trade war with China, America’s largest trade partner, in an effort to improve the
+27
+US’s balance of trade; Ordered, and successfully executed, the assassination of Iran’s
+Major-General Qassem Soleimani, supposedly to “stop a war” (Chaflant 2020), and
+escalated tensions with the totalitarian leader of North Korea by threatening him over
+Twitter (just to name a few examples). His propensity to shift between cooperation and
+conflict is very high (I-4a=0.90), as is his propensity to shift between words and deeds (I-
+4b=0.72). This result makes a little more sense considering Trump’s tendency to turn
+himself around on policy grounds; the Twitter fight with Kim Jung-Un, followed by
+Trump holding a diplomatic summit with him, is an excellent example of this as well.
+This could also be the result of the bias I predict in my hypothesis; I will later show how
+this score compares to the average world leader score. When it comes to his utility of
+means (I-5), appeals seem to be his most preferred means to use (0.59), followed by
+rewards (.29) and opposition statements (0.14). This result once again seems strange for
+the reasons previously stated and could be the result of the disproportionate coding I
+hypothesized.
+The analysis also indicates that he has a somewhat cooperative view of the
+political universe (P-1=0.25), though a barely optimistic prospect for accomplishing his
+goals (P-2=0.05). Once again this characterization of Trump seems a little suspect
+considering conflictual actions we’ve seen taken against friends and foes alike, actions
+ranging from unilaterally leaving international agreements such as Paris accords or the
+Joint Comprehensive Plan of Action (The Iran Nuclear Deal), and his frequent rhetoric
+that paints other countries as predators that have taken advantage of the US (particularly
+on trade). The political future is not very predictable for him (P-3=0.14), but he does
+seem to believe he has a moderate ability to control historical development (P-4=0.32).
+28
+The latter result does make some sense considering his frequent spells of unilateral action
+that were taken with little negotiation or even consultation of other relevant actors; the
+abrupt withdrawal of U.S. troops from northern Syria, leading to the Turkish invasion of
+Syria, comes to mind. He still prescribes a large role for chance in the development of
+events (P-5=0.96). As with Johnson, we see some of the results - especially those related
+to levels of cooperativeness – fly in the face of what we would expect given Trump’s
+actions since 2016; though other indices do give reasonable results.
+Narendra Modi
+Modi’s analysis tells us that he greatly prefers the use of a cooperative strategy to
+accomplish goals (I-1=0.76) and does use generally cooperative tactics to meet said goals
+(I-2=0.39). These results align a lot more closely with what we’ve seen Modi do as
+Indian PM. Modi took the time, after his inauguration, to visit several of India’s
+neighboring countries in accordance with his “neighborhood first policy”, with the goal
+of improving diplomatic relations. It also aligns well with his neo-liberal economic policy
+that has emphasized trade openness and economic cooperation among nations. Modi
+takes pride in this last point when he said that:
+“Our rapid economic growth is also very distinct in Asia. We have never tried to
+gain in trade at the expense of our partners. We do not follow “beggar thy
+neighbour” macro-economic policies. We have never undervalued our exchange
+rate. We add to world and Asian demand by running current account deficits. We
+are therefore good Asian and good global economic citizens, and a source of
+demand to our trading partners. Madame Lagarde, you have referred to India as
+the “bright spot” in the global economy. I view this as a great privilege and, at the
+same time, a major responsibility.” (Modi 2016)
+On top of that, it seems he is a lot less risk averse/ more risk acceptant (I-3=0.30) than the
+previous two leaders discussed above. Once again this makes sense considering his
+29
+economically neo-liberal ideology, To ensure continued economic growth through free
+market and trade liberalization, he must naturally assume the risk of taking control of the
+economy out of his own hands and becoming economically dependent on other countries.
+This is the opposite trade strategy taken by Trump and Johnson, who have chosen to
+insulate their economies more from the global economy. However, unlike Trump and
+Johnson, he also hasn’t taken any drastic political actions that could potentially upset
+both the domestic economy and the international markets, just as neoliberalism
+prescribes. Like the last two leaders he has a very high (though not as high) propensity to
+shift between cooperation and conflict (I-4a=0.85) and between words and actions(I-
+4b=0.94). The former result might seem peculiar considering his generally cooperative
+strategy but when one also considers his statements about India’s neighbors before he
+became PM, we can see why the variance might be high. In a speech on November 20,
+2011, while he was still governor of Gujarat, he combined as scathing criticism of the
+incumbent national government with accusations of other nations imprisoning Indian
+citizens:
+“After the formation of Manmohan Singh’s Government in Delhi, some 4500 of
+my fishermen brothers are trapped by Pakistanis and are dragged in their jails to
+rot. Just a day before yesterday, they took away twenty two boats, many were
+pushed behind the bars and my officers gave me this news. Though my
+Sadbhavna Mission Was going on, I wrote a reprimand letter to the Prime
+Minister. What is this going on? They are hijacking our persons thrice in a week?
+And you just met the Prime Minister of Pakistan and patted his back and said that
+this Prime Minister is the messenger of peace. The Prime minister of Pakistan is
+the messenger of peace! My fishermen brothers, you just tell, they took away your
+son, husband or your brother, are they messengers of peace, Brother? Speak
+loudly so that Manmohan Singhji can hear…Certifying just anybody! I visited
+China recently, Gujarati boys are jailed there, so I had an eye to eye talk with
+them and you? Patting the back and saying messenger of peace, messenger of
+peace! And here on one side you were patting their back and they took away my
+twenty boats.”
+30
+This quote reveals two important things. First, that the role of the individual could
+plausibly affect how cooperative vs. conflictual their rhetoric is, and as a result could
+affect their operational code -this possibility will be analyzed below. Second, that the
+populist pattern of repeating simple statements with deeper meanings (that are
+unrecognizable to the computer) is evident in non-English texts as well. Here Modi
+repeats phrases like “patted his back” and “messenger of peace”, not because he actually
+believes the Pakistani PM to be a messenger of peace or that he deserves pats on the
+back, but as statements of incredulity. It’s obvious to us, from the context of that passage,
+that Modi is abhorring the actions of Manmohan Singh and repeating those phrases for
+dramatic effect; but the computer cannot see the context and instead will label phrases
+like “the Prime minister of Pakistan is the messenger of peace!” as appeals to a foreign
+power. Moving on, his utility of means index (I-5) tells us that he also prefers appeals
+(0.59) as his favorite means to achieve his ends, followed by rewards (0.23), and in a
+distant third, opposition statements (0.06).
+VICS also informs us that he has a somewhat cooperative view of the political
+universe (P-1=0.30), more than Trump but less than Boris. This same pattern holds for
+his (low) optimism on the feasibility of realizing his political goals (P-2=0.13).
+Considering Modi’s neoliberal leanings this seems strange. If anything, he should have a
+more cooperative view, and be more optimistic, than either of them. To Modi the
+universe seems very unpredictable (P-3=0.10) and a it is a universe where he has little
+control over the development of historical events (P-4=0.19). Lastly, like Trump and
+Johnson, he ascribes a very high role to chance (P-5=0.98). Here the results for Modi are
+31
+a bit more sensible given what we could expect from a man with a more economically
+neo-liberal ideology.
+As a whole, the results derived from VICS’ analysis seem more questionable than
+valid on the face of it, especially when we look back on the actions some of these leaders
+have taken while in office. As a more direct test of my first hypotheses, I now turn to a
+comparison of these leaders’ scores with the world average scores.
+Comparing to the “Average” World Leader
+With the overall operational code of these three leaders established, and the face
+validity of the results evaluated, I now move on to comparing their operational codes to
+that of the “norming” group. To facilitate comparisons, I have used the mean and
+standard deviations for the indices in the norming group dataset to create Z-scores for
+everyone’s scores. The indices that are of particular interest here are (P-1), (P-2), (I-1), (I-
+2), (I-5), and (I-4a) but the z-scores for all the indices are presented in chart form in
+figure 1.
+32
+Fig. 1. Chart of Index Z-scores For Johnson, Trump, and Modi
+33
+Beginning with the strategic approach index (I-1), we see that both Johnson and
+Trump are evaluated as being very similar to the average world leader, being 0.027 and
+0.080 standard deviations above and below from the mean, respectively. On the other
+hand, Modi is a lot more cooperative (1.245 standard deviations above the mean) than the
+average leader. The tactical approach index displays a similar pattern with Johnson and
+Trump near the mean (0.099 and -0.091, respectively), and Modi being substantially
+more cooperative than the average leader (1.116).
+Looking at the utility of means index (I-5) for Johnson, Trump and Modi we see
+that Modi primarily prefers appeals (0.691) in comparison to the average world leader,
+while Johnson (-0.148), and Trump (-0.116) prefer them relatively less. Interestingly
+enough, Johnson makes use of comparatively more promises (0.326) than the average
+leader while Trump (-0.021) and Modi (-0.069) derive marginally less utility. When it
+comes to rewards, Johnson (0.033) and Trump (0.074) make marginally more use of this
+means that the average leader, while Modi makes substantively more use of it (0.622).
+Surprisingly, the results suggest that all these populists derive less utility from opposition
+statements than the average leader, with Johnson and Trump using them slightly less (-
+0.088 and -0.151, respectively), and Modi using them moderately less (-0.697). When it
+comes to threats, both Johnson and Trump make relatively more use of them than the
+average leader (0.530 and 0.253, respectively), while Modi makes relatively less use of
+them (-0.389). Finally, we see that Boris (-0.208) derives less utility from punishment in
+comparison to the world average and Modi (-0.528) doesn’t derive much utility from
+punishment. By comparison, Trump gets somewhat more utility from punishment than
+the average leader (0.122).
+34
+Lastly, when we look at these leader’s philosophical beliefs, we see that the belief
+in the nature of the political universe (P-1) for Boris (0.228) and Modi (0.075) are
+evaluated as being slightly more cooperative than the average world leader. By contrast,
+Trump (-0.075) is evaluated as being slightly more conflictual than the average world
+leader. When it comes to their optimism vs. pessimism of accomplishing their political
+goals, I find that it is Trump (0.168) and Modi (0.030) that are just barely more optimistic
+than the average leader about accomplishing their goals; however, Johnson is much more
+pessimistic (-0.319).
+The important thing to note here is that since none of these values rise below two
+standard deviations from the mean (world leader score), then they would all fail to reach
+statistical significance at the standard levels of confidence (0.1, 0.05, and 0.01). As a
+result, for all these metrics we cannot reject the null hypothesis that these right-wing
+populist leaders are any different than the average leader with regard to their foreign
+policy. This supports my first hypothesis (H1) that if VICS does have some coding bias,
+as a result of a populist form of rhetoric, that causes it to incorrectly code a
+disproportionate amount of positive attributions, then the operational code scores of
+Trump, Johnson, and Modi for the (P-1), (P-2), (I-1), (I-2), and (I-5) indices will be as
+high if not higher than the world “average”. The same logic applies for my second
+hypothesis (H2), which stated that the (I-4a) index will be biased in a positive manner
+(high shift propensity), due to the increased variance in cooperative vs conflictual
+attributions from the bias, such that the (I-4a) index score for each leader will be as high
+if not higher than the world “average”. Since the (I-4a) index score for all three leaders
+was not more than two standard deviations below the mean we must conclude that the
+35
+null hypothesis cannot be rejected and that the shift propensity of cooperation vs conflict
+for these populists and the average leader are not significantly different. Thus, H2 is
+supported.
+Another detail we must acknowledge is Modi’s particularly high cooperativeness
+in comparison to the other two populists. Because Modi follows a significantly less
+isolationist economic ideology that Trump or Boris it makes sense that VICS would
+evaluate his as having a very high (I-1) and (I-2) score but this creates a problem for us. It
+becomes difficult to know if those high scores are because Modi really is that
+cooperative, because of the predicted bias in VICS, because of the coding errors foreign
+translation can cause (Brummer et al. 2020), or a combination of these reasons. Since he
+doesn’t follow the usual nationalist pattern of pushing the nation more in the direction of
+autarky, then my assumption that a nationalist should naturally be less cooperative than
+the “average” world leader would not apply to Modi; implying that he may not have been
+a good subject for testing whether VICS produces positively biased results for populists.
+That being said, the speeches collected from Modi also suggest a sharp change in
+his cooperativeness vs. conflictualness after he became Prime Minister. This idea is
+reinforced by his actions such as inviting the Prime Minister of Pakistan to his
+inauguration, despite his vicious criticisms of Pakistan in the past (see Modi 2016 quote
+above). To test if these results remain robust when we take role into account – also a
+direct test of hypothesis 3 (H3) - I split the sample of speeches for each leader into two
+groups: before and after they became the head executive for their country, and compare
+them once again to the “average” world leader. A table with all their “pre” and “post”
+scores is shown below (table 3).
+36
+Table 3
+OCA Results of Johnson, Trump, and Modi Before and After Becoming Chief Executive
+Subject
+World
+Avg.
+World Std.
+Dev.
+Pre-PM
+Johnson
+PM
+Johnson
+Pre-President
+Trump
+President
+Trump
+Pre-PM
+Modi
+PM
+Modi
+I-1 0.346 0.336 0.256 0.462 0.297 0.352 0.799 0.714
+I-2 0.139 0.228 0.090 0.238 0.093 0.157 0.425 0.348
+I-3 0.272 0.143 0.099 0.131 0.129 0.108 0.308 0.284
+I-4A 0.599 0.267 0.938 0.875 0.904 0.889 0.844 0.864
+I-4B 0.492 0.304 0.751 0.673 0.689 0.753 0.927 0.963
+I-5AP 0.463 0.188 0.419 0.454 0.456 0.420 0.598 0.586
+I-5PR 0.065 0.085 0.054 0.134 0.056 0.075 0.063 0.053
+I-5RE 0.145 0.137 0.155 0.143 0.138 0.181 0.238 0.218
+I-5OP 0.166 0.150 0.147 0.160 0.143 0.145 0.063 0.060
+I-5TH 0.038 0.073 0.101 0.050 0.067 0.041 0.011 0.008
+I-5PU 0.123 0.145 0.124 0.059 0.142 0.139 0.026 0.075
+P-1 0.273 0.280 0.281 0.408 0.251 0.254 0.213 0.407
+P-2 0.123 0.219 0.105 0.230 0.050 0.059 0.065 0.220
+P-3 0.125 0.057 0.119 0.097 0.139 0.132 0.092 0.109
+P-4 0.207 0.114 0.211 0.255 0.277 0.272 0.190 0.177
+P-5 0.974 0.021 0.975 0.975 0.962 0.964 0.983 0.981
+37
+Comparing Pre and Post Executive Role
+Starting with Boris Johnson (figure 2), whether pre- or post-PM, none of the
+scores are significantly different from the world average. That being said we do see some
+interesting substantive changes. His tactics and strategies indices, (I-1) and (I-2), both
+increase by over half a standard deviation, from 0.256 to 0.462 and from 0.090 to 0.238,
+respectively. This tells us that becoming the prime minister seemed to have made
+Johnson a lot more cooperative. He is going from being less cooperative, to more
+cooperative than the world average. This result makes sense to me considering Johnson
+would have to pull back his more divisive and conflictual rhetoric if he wanted to
+accomplish any deal with the EU. His propensity to shift between cooperation and
+conflict (I-4a) slightly decreases from 0.938 to 0.875. This makes sense considering he
+had to become more cooperative overall (thus reducing the variability this index
+measures) to achieve a Brexit deal with the EU, but clearly his propensity to shift is a lot
+higher (over 1SD above the mean in both cases) than the world average. When it came to
+his utility of means (I-5) we also get results we should expect. His preference for appeals,
+rewards, and opposition statements don’t change much, but his use of promises rise
+drastically from generally being underused compared to the average leader (0.054) to
+being used a lot more than the mean (0.134). By contrast, he reduces his use of threats
+(from 0.101 to 0.050) and punishments (from 0.124 to 0.059) by about 50%.
+38
+Fig. 2. Norming Group and Johnson’s OCA Scores Before and After PM Role
+39
+The analysis also indicates that he believes the political universe becomes a lot
+more cooperative (P-1 rises from 0.281 to 0.408) as he transitions to becoming PM, and
+that his optimism about achieving his goals grows (P-2 goes from 0.105 to 0.230). These
+changes, once again, seem sensible considering he’s focusing not just on achieving a
+favorable Brexit deal with the EU, but also necessarily focused on creating new trade
+deals with the EU, and other countries, after the UK separates entirely. Likewise, with
+Johnson now the man in charge of Brexit proceedings and negotiations, it makes sense to
+think that he has a lot more control over the most important issue the UK has been
+dealing with since 2016. His (P-3) index decreases slightly, indicating he views the world
+as a little more unpredictable while his (P-4) index increases slightly to indicate he feels
+he has more control over historical development. His (P-5) scores experience little to no
+change. Overall, though Boris’ VICS scores, in comparison to the world average, seem
+irrational, the change in scores that occur as he ascends to be PM supports H3 and
+suggests that VICS remains reliable at measuring changes in operational code through
+time, despite the predicted positive bias.
+Now looking at Donald Trump (figure 3) we see similar patterns. He becomes
+more cooperative (I-1 rises from 0.297 to 0.352 and I-2 rises from 0.093 to 0.157) once
+he assumes the presidency and must begin representing the nation on the international
+stage. However, he becomes slightly more pessimistic about his capacity for
+accomplishing his goals (I-3 falls from 0.129 to 0.108). This makes perfect sense in light
+of his exclusive Reuters interview with Stephan Adler, where he admits that “This [the
+presidency] is more work than in my previous life. I thought it would be easier.” (2017)
+The realization of the difficulties of being president should naturally dampen his
+40
+optimism. His shift propensities, (I-4a) and (I-4b), change very little, with the former
+decreasing by 0.015 and the latter increasing by 0.064. This suggest that little has
+changed regarding his use of cooperation vs conflict and words vs deeds, a conclusion
+backed up by the miniscule changes in his utility of means index (I-5). His use of appeals,
+opposition statements, and punishments change little, if at all. The most substantial
+changes observed are a 25% increase in the use of rewards, from 0.138 to 0.181, a 33%
+increase in promises, from 0.056 to 0.075, and a 39% decrease in threats, from 0.067 to
+0.041; however, given the small magnitude of these changes, they could hardly be called
+substantive.
+Trump’s philosophical beliefs show little to no change as well. The results
+suggest he views the world as marginally less cooperative (P-1 decreases from 0.142 to
+0.139) and is marginally more optimistic (P-2 rises from 0.050 to 0.059). Likewise, his
+views on the predictability of the political universe (P-3), his personal control over
+historical development (P-4), and the role of chance (P-5), only change by -0.007, 0.005,
+and -0.002 respectively. On the whole, the little change observed in Trump’s operational
+code matches a president that has been as (un)cooperative and (un)predictable on foreign
+policy as he was as a candidate. Just as few people expected him propose policies like the
+construction of a massive border wall with Mexico or the prohibition of immigration by
+Muslims into the country; even fewer expected him to suddenly hold a summit with Kim
+Jung-Un after sparing with him on Twitter or suddenly withdrawing troops from
+Northern Syria. Thus, it seems reasonable to say his role change had little to no effect on
+his operational code and conclude that Trump’s portion of H3 was supported.
+41
+Fig. 3. Norming Group and Trump’s OCA Scores Before and After President Role
+42
+Finally, we look at Narendra Modi’s operational code before and after he was
+India’s PM (figure 4), but unlike the previous two cases, Modi’s scores change in
+unexpected directions. To begin with, VICS suggests that his strategy and tactics (I-2)
+become less cooperative, not more (I-1 drops 11% from 0.799 to 0.714 and 1-2 drops
+18% from 0.425 to 0.348). He also becomes slightly more risk averse (1-3 goes from
+0.308 to 0.284). These results fly in the face of reality, which has seen Modi enact
+policies such as the “Act East Policy”, the “Neighbourhood First policy” (during which
+he invited the leaders of all Southeast Asian nations, even the PM of India’s long time
+enemy Pakistan, to his inauguration), “Project Mausam”, and “Para-diplomacy” as well.
+All these massive diplomatic endeavors seek to not just improve relations and open trade
+with India’s immediate neighbors, but also all of Asia, Indian ocean nations, and even the
+rest of the world; and most importantly, these actions by PM Modi contrast greatly with
+the words of Governor (of Gujarat) Modi who lambasted the Indian Government for their
+weakness in the face of purported Pakistani and Sri Lankan aggression:
+“If we, Gujarat or Tamil Nadu, Kerala or Karnataka, if our fishermen brothers on
+the beach are to be protected, to protect them, to give fishermen the right to earn
+their livelihood, then our first responsibility becomes [the] weak government
+sitting in Delhi, removal of [the] weak government! Friends, Pakistan lifts
+fishermen from Gujarat in such a large quantity, keeps them in jails for six
+months, one year and tortures so much and now that tradition has started in Sri
+Lanka” (Modi September 26, 2013).
+Moving on with Modi’s shift propensities, (I-4a) and (I-4b), we register very little change
+with both increasing by no more than 0.036. When it comes to his utility of means (I-5)
+his preferences show no significant changes other than a whopping 188% increase in the
+utility of punishments - though the magnitude of the change isn’t as large (from 0.026 to
+0.075) - and marginal decreases in the use of appeals, promises and rewards. These are
+43
+the strangest results yet as we should expect Modi to increase his use of cooperative
+means to facilitate the diplomatic expansion he’s clearly aiming for. This result does not
+fit neatly with H3 which would expect an increase in Modi’s cooperativeness, not a
+decrease, as he transitions from governor to PM. That said, VICS still shows him to be
+more cooperative/less conflictual than the average world leader, which we would expect
+from someone with a neo-liberal economic ideology. This could simply be a result of the
+fact that Modi is not a nationalist in the same way that Trump and Johnson are (at least
+not economically), the result of the sample of speeches selected, errors in text translation
+that cause miscoding, or some other problem I am not aware of. Further research may be
+warranted here.
+Finally turning to his philosophical beliefs, we see that his belief in the
+cooperativeness of the political universe (P-1) almost doubles (from 0.213 to 0.407), and
+his optimism (P-2) practically triples - from 0.065 to 0.220. These results are strange,
+however, when we consider that VICS also told us that his tactics and strategy became
+less cooperative, not more. Why would VICS predict him to behave less cooperatively
+when his view of the political universe becomes greatly more cooperative and his
+optimism in achieving foreign policy goals also rises drastically? This is another peculiar
+result not explained by my theory and suggests that there may be more at play here that
+we are not aware of. Other than that, his other beliefs (P-3, P-4, and P-5) remain
+remarkably constant.
+44
+Fig. 4. Norming Group and Modi’s OCA Scores Before and After PM Role
+45
+The overarching result for H3 was that it was supported in the case of Boris
+Johnson and Donald Trump, but not supported for Narendra Modi.
+46
+CONCLUSION
+All in all, the aim of this thesis was to test the validity of OCA when tested on
+right-wing populists with nationalist tendencies. The literature on populism and populist
+rhetoric suggests that populist speech is simple in form, but complex in tone and
+meaning. I predicted that this simple rhetorical style embedded with deeper underlying
+meaning presents a problem for OCA conducted using the Verbs in Context System
+precisely because the computer can only code phrases at face-value and is oblivious to
+the populist’s underlying message. This problem with its coding, I hypothesized, would
+create a systematic bias within VICS that would make a populist seem a lot more
+cooperative (less conflictual) than they actually are. I tested this hypothesis by selecting
+three right wing populists with nationalist tendencies - Donald Trump, Boris Johnson,
+and Narendra Modi - and coding a sample of speeches from each of them through VICS
+with Profiler Plus. Later, I split the samples for everyone into two, one for before they
+became the top executive and one after, as a further robustness test for VICS. To compare
+the results, I also obtain a “norming” group sample (N=168) representing the operational
+code of the “average” world leader.
+The results of my analysis should not be taken to be definitive proof of a
+systematic bias within VICS, but rather as suggestive evidence that VICS really does
+have difficulty providing valid results for populist leaders, evidence that also revealed
+some fascinating details. First, is that VICS’ results demonstrated the least face validity
+when evaluating the operational code of Donald Trump and Boris Johnson, two leaders
+that are very similar in terms of both their social and economic ideology, but did a
+47
+decently good job of showing the expected changes to an individual’s operational code
+when their role changed to that of their country’s head executive.
+Modi’s results presented a little more of a challenge to my hypothesis because his
+differing economic ideology broke one of my basic assumptions about the behavior of
+right-wing nationalists. As a result, it is hard to tell if the results presented accurately
+display his high cooperativeness, or if the bias I predicted is pushing them to be much
+more positive than they actually are. I split my sample speeches into pre-executive and
+post-executive samples as another test of VICS, and while it did not clarify an answer to
+the original question it did reveal some evidence for another, previously unpredicted,
+source of bias. Modi - who was also socially right wing, but economically neo-liberal
+unlike the other two - had VICS scores that accurately reflected his cooperativeness in
+comparison to the average world leader, but showed strange and irrational changes in his
+operational code as he transitioned from Governor of Gujarat to PM of India. The overall
+conclusion, however, was that my hypotheses were generally supported.
+It is clear from the evidence at hand that VICS does struggle with accurately
+coding the operational code of populists, but the exact reason why seems to only be
+partially explained by my theory. Additionally, the direction of the bias seems to change
+depending on the characteristics of the populist, such as differences in economic
+ideology. All this means that further tests of VICS with populist verbal material is
+merited. Future tests could find ways of solidifying the assumption of nationalist
+(un)cooperativeness. One way to do this might be to create a “nationalist norming
+group”, that is, finding the average operational code of leaders that are nationalist, but not
+populist. No such norming group currently exists but, sampling the speeches of fascist
+48
+leaders might suffice to create such a norming group since they would clearly be
+nationalists, but their ideological elitism and disdain for democracy would disqualify
+them from the label of populist. Likewise, this test could be repeated with a different
+sample of populists, with varying ideological characteristics, to see if this pattern holds
+and/or derive alternative theories for the incoherent results seen here. Finally, given that
+some of the results seen here can’t be neatly explained by my theory it might be fruitful
+to repeat this test with a different, or simply larger, sample of speeches to rule out the
+possibility of a simple bad sample.
+As populism continues to be a growing force in the political world it remains a
+fruitful endeavor to try and predict what populist leaders may do on the international
+stage. With that in mind, it is equally valuable to make sure our instruments for
+measuring and predicting the foreign policy of leaders are as valid and reliable as
+possible. Finding flaws in our tools and working to improve them does no disservice to
+the discipline, and indeed only makes it stronger.
+49
+REFERENCES
+Works Cited
+Brummer, Klaus, et al. "Coding in Tongues: Developing Non-English Coding Schemes
+for Leadership Profiling." International Studies Review (2020).
+Canovan, Margaret. "Trust the people! Populism and the two faces of democracy."
+Political studies 47.1 (1999): 2-16.
+Crichlow, Scott. "Idealism or Pragmatism? An Operational Code Analysis of Yitzhak
+Rabin and Shimon Peres." Political Psychology 19.4 (1998): 683-706.
+Cuhadar, Esra, et al. "Personality or role? Comparisons of Turkish leaders across
+different institutional positions." Political Psychology 38.1 (2017): 39-54.
+Di Tella, Torcuato S. "Populism into the twenty‐first century." Government and
+Opposition 32.2 (1997): 187-200.
+Dyson, Stephen Benedict. "“Stuff Happens”: Donald Rumsfeld and the Iraq War."
+Foreign Policy Analysis 5.4 (2009): 327-347.
+Feng, Huiyun. "The operational code of Mao Zedong: defensive or offensive realist?."
+Security Studies 14.4 (2005): 637-662.
+Feng, Huiyun. "Is China a revisionist power?." Chinese Journal of International Politics
+2.3 (2009): 313-334.
+George, Alexander L. "The" operational code": A neglected approach to the study of
+political leaders and decision-making." International studies quarterly 13.2
+(1969): 190-222.
+Hawkins, Kirk A., Rosario Aguilar, Erin Jenne, Bojana Kocijan, Cristóbal Rovira
+Kaltwasser, Bruno Castanho Silva. 2019a. Global Populism Database: Populism
+Dataset for Leaders 1.0. Available for download at populism.byu.edu
+Hawkins, K. A., Aguilar, R., Castanho Silva, B., Jenne, E. K., Kocijan, B., and Rovira
+Kaltwasser, C. 2019b. “Measuring Populist Discourse: The Global Populism
+Database”. Paper presented at the 2019 EPSA Annual Conference in Belfast, UK,
+June 20-22.
+He, Kai, and Huiyun Feng. "Xi Jinping’s operational code beliefs and China’s foreign
+policy." The Chinese Journal of International Politics 6.3 (2013): 209-231.
+50
+Jagers, Jan, and Stefaan Walgrave. "Populism as political communication style: An
+empirical study of political parties' discourse in Belgium." European journal of
+political research 46.3 (2007): 319-345.
+Leites, Nathan. The Operational Code of the Politburo. No. RAND/CB-104-1. RAND
+CORP SANTA MONICA CA, 1951.
+Mudde, Cas. "The populist zeitgeist." Government and opposition 39.4 (2004): 541-563.
+Mudde, Cas, and Cristóbal Rovira Kaltwasser. "Exclusionary vs. inclusionary populism:
+Comparing contemporary Europe and Latin America." Government and
+Opposition 48.2 (2013): 147-174.
+Nick Levine and Michael D Young (2014) “Leadership Trait Analysis and Threat
+Assessment with Profiler Plus”. Proceedings of ILC 2014 on 8th International
+Lisp Conference, Montreal, QC, Canada — August 14 - 17, 2014. Association for
+Computing Machinery.
+Özdamar, Özgür. "Leadership Analysis at a “Great Distance”: Using the Operational
+Code Construct to Analyse Islamist Leaders." Global Society 31.2 (2017): 167-
+198.
+Özdamar, Özgür, and Sercan Canbolat. "Understanding new Middle Eastern leadership:
+An operational code approach." Political Research Quarterly 71.1 (2018): 19-31.
+Plagemann, Johannes, and Sandra Destradi. "Populism and foreign policy: the case of
+India." Foreign Policy Analysis 15.2 (2019): 283-301.
+Renshon, Jonathan. "Stability and change in belief systems: The operational code of
+George W. Bush." Journal of Conflict Resolution 52.6 (2008): 820-849.
+Renshon, Jonathan. "When public statements reveal private beliefs: Assessing operational
+codes at a distance." Political Psychology 30.4 (2009): 649-661.
+Schafer, Mark, and Stephen G. Walker. "Operational code analysis at a distance: The
+verbs in context system of content analysis." Beliefs and leadership in world
+politics. Palgrave Macmillan, New York, 2006. 25-51.
+Taguieff, Pierre-André. "Political science confronts populism: from a conceptual mirage
+to a real problem." Telos 1995.103 (1995): 9-43.
+Weyland, Kurt. "Clarifying a contested concept: Populism in the study of Latin American
+politics." Comparative politics (2001): 1-22.
+51
+Walker, Stephen G. "The interface between beliefs and behavior: Henry Kissinger's
+operational code and the Vietnam War." Journal of Conflict Resolution 21.1
+(1977): 129-168.
+Walker, Stephen G., Mark Schafer, and Michael D. Young. "Systematic procedures for
+operational code analysis: Measuring and modeling Jimmy Carter's operational
+code." International Studies Quarterly 42.1 (1998): 175-189.
+Walker, Stephen G., Mark Schafer, and Michael D. Young. "Presidential operational
+codes and foreign policy conflicts in the post-cold war world." Journal of Conflict
+Resolution 43.5 (1999): 610-625.
+Walker, Stephen G., Mark Schafer, and Michael D. Young. "14. William Jefferson
+Clinton: Beliefs and Integrative Complexity." The Psychological Assessment of
+Political Leaders: With Profiles of Saddam Hussein and Bill Clinton (2005): 324.
+Databases/News Cited
+Adler, Stephen J. “Exclusive: Trump Says He Thought Being President Would Be Easier
+than His Old Life.” Reuters, Thomson Reuters, 28 Apr. 2017,
+www.reuters.com/article/us-usa-trump-100days-idUSKBN17U0CA.
+Brand, Paul. “Full Transcript of Boris Johnson's Conference Interview with ITV News.”
+Itv.com/, ITV, 1 Oct. 2019, www.itv.com/news/2019-10-01/full-transcript-of-
+boris-johnson-s-conference-interview-with-itv-news/. Accessed 25 Feb. 2020.
+Buncombe, Andrew. “Donald Trump's Detroit Speech: Read the Full Transcript.” The
+Independent, Independent Digital News and Media, 8 Aug. 2016,
+www.independent.co.uk/news/world/americas/us-elections/donald-trumps-detroit-
+speech -read-the-full-transcript-a7179421.html.
+Chalfant, Morgan. “Trump Says Iranian Commander Was Killed to 'Stop a War'.” The
+Hill, The Hill, 3 Jan. 2020, thehill.com/homenews/administration/476700-trump-
+says-iranian-commander-was-killed-to-stop-a-war.
+Frischling, Bill. “Donald Trump Unabridged - Speeches, Tweets, Interviews.” Factbase,
+CantyMedia, 2019, factba.se/.
+Grafton-Green, Patrick, and Katy Clifton. “Boris Says Stopping Brexit Would Be 'Utterly
+Pathetic' in Major Speech.” Evening Standard, Evening Standard, 12 June 2019,
+www.standard.co.uk/news/politics/boris-johnson-speech-former-foreign-
+secretary-declares-cancelling-brexit-would-be-utterly-pathetic-a4042991.html.
+Rankin, Jennifer. “Brexit Extension: Will the EU Grant One If the UK Requests It?” The
+Guardian, Guardian News and Media, 9 Sept. 2019,
+www.theguardian.com/politics/2019/sep/09/brexit-extension-would-the-eu-grant-
+one-if-the-uk-requests-it.
+52
+Ridge, Sophy. “Sophy Ridge's Interview with Boris Johnson.” Sky News, Sky News, 2
+July 2019, news.sky.com/story/the-full-transcript-of-sophy-ridges-interview-with-
+boris-johnson-11751712. Accessed 25 Feb. 2020.
+Johnson, Boris. “Boris Johnson: The Liberal Cosmopolitan Case to Vote Leave.” Vote
+Leave, Vote Leave, 9 May 2016,
+www.voteleavetakecontrol.org/boris_johnson_the_liberal_cosmopolitan_case_to_
+vote_leave.html.
+Johnson, Boris. “Uniting for a Great Brexit: Foreign Secretary's Speech.” GOV.UK,
+Foreign & Commonwealth Office, Department for Exiting the European Union,
+14 Feb. 2018, www.gov.uk/government/speeches/foreign-secretary-speech-
+uniting-for-a-great-brexit.
+Johnson, Boris. “Full Text: Boris Johnson's Tory Fringe Speech.” Coffee House, The
+Spectator, 2 Oct. 2018, blogs.spectator.co.uk/2018/10/full-text-boris-johnsons-
+tory-fringe-speech/.
+Johnson, Boris. “Full Text: Boris Johnson Launches His Tory Leadership Campaign.”
+Coffee House, The Spectator, 12 June 2019, blogs.spectator.co.uk/2019/06/full-
+text-boris-johnson-launches-his-tory-leadership-campaign/.
+Johnson, Boris. “Boris Johnson's First Speech as Prime Minister: 24 July 2019.”
+GOV.UK, Prime Minister's Office, 24 July 2019,
+www.gov.uk/government/speeches/boris-johnsons-first-speech-as-prime-minister-
+24-july-2019.
+Johnson, Boris. “Boris Johnson's First Speech to Parliament as UK Prime Minister.”
+Reuters, Thomson Reuters, 25 July 2019, www.reuters.com/article/us-britain-eu-
+leader-speech-text/boris-johnsons-first-speech-to-parliament-as-uk-prime-
+minister-idUSKCN1UK1JK.
+Johnson, Boris. “Full Text: Boris Johnson's Tory Conference Speech.” Coffee House,
+The Spectator, 2 Oct. 2019, blogs.spectator.co.uk/2019/10/full-text-boris-
+johnsons-tory-conference-speech/.
+Kuenssberg, Laura. “In Full: Boris Johnson Interview from Luxembourg with BBC's
+Laura Kuenssberg.” Https://Www.bbc.com/, BBC, 16 Sept. 2019,
+www.bbc.com/news/uk-politics-49717554. Accessed 25 Feb. 2020.
+Miere, Jason Le. “Donald Trump Says ‘I'm a Nationalist, Use That Word’ at Texas Rally
+for Ted Cruz.” Newsweek, Newsweek, 23 Oct. 2018,
+www.newsweek.com/donald-trump-nationalist-texas-rally-1182223.
+Modi, Narendra. “Text Speeches.” Narendramodi.in, 2020,
+www.narendramodi.in/category/text-speeches.
+53
+Sterling, Bruce. “The Transcript of Boris Johnson's Remarks at the UN General
+Assembly.” Wired, Conde Nast, 26 Sept. 2019, www.wired.com/beyond-the-
+beyond/2019/09/transcript-boris-johnsons-remarks-un-general-assembly/.
+TIME Staff. “Donald Trump's Presidential Announcement Speech.” Time, Time, 16 June
+2015, time.com/3923128/donald-trump-announcement-speech/.
+Trump, Donald J. “The Inaugural Address.” The White House, The United States
+Government, 20 Jan. 2017, www.whitehouse.gov/briefings-statements/the-
+inaugural-address/.
+54
+APPENDIX A
+SPEECHES USED
+55
+Johnson
+Sources in the database/news cited section
+1. Boris Johnson: The liberal cosmopolitan case to Vote Leave - May 09, 2016
+(5328 words)
+2. Uniting for a Great Brexit: Foreign Secretary's speech - February 14, 2018 (4918
+words)
+3. Boris Johnson’s Tory fringe speech - October 2, 2018 (3798 words)
+4. Boris Johnson launches conservative leadership campaign speech - June 12, 2019
+(2245 words)
+5. Sophy Ridge's interview with Boris Johnson - July 2, 2019 (2456 words)
+6. Boris Johnson's first speech as Prime Minister - July 24, 2019 (1691 words)
+7. Boris Johnson's first speech to parliament as UK Prime Minister - July 25, 2019
+(2196 words)
+8. Boris Johnson interview from Luxembourg with BBC's Laura Kuenssberg -
+September 16, 2019 (2213 words)
+9. The transcript of Boris Johnson’s remarks at the UN General Assembly -
+September 25, 2019 (2114 words)
+10. Boris Johnson's conference interview with ITV News - October 1, 2019 (1514
+words)
+11. Boris Johnson’s Tory conference speech - October 2, 2019 (4163 words)
+Trump
+Unless otherwise stated all speech transcripts were obtained from Frischling (2019)
+1. Donald Trump's Presidential Announcement Speech - June 16, 2015 (6352 words)
+a. Obtained from TIME staff (2015)
+2. Donald Trump in Mobile, AL - August 21, 2015 (8389 words)
+3. Donald Trump in Los Angeles, CA - September 15, 2015 (1999 words)
+4. Donald Trump's Detroit speech - Monday 8 August 2016 (3687 words)
+a. Obtained from Buncombe (2019)
+5. Donald Trump in Washington, DC - December 3, 2015 (6070 words)
+6. Donald Trump in Washington, DC - September 25, 2015 (4069 words)
+7. Donald Trump in Oklahoma City, OK - September 25, 2015 (7815 words)
+8. Donald Trump in Lynchburg, VA - January 18, 2016 (8682 words)
+9. Donald Trump at the AIPAC Conference in Washington DC - March 21, 2016
+(2344 words)
+10. Donald Trump in Pittsburgh, PA - April 13, 2016 (7823 words)
+11. Donald Trump Delivers a Foreign Policy Speech at the Mayflower Hotel - April
+27, 2016 (4666 words)
+12. President Donald J. Trump’s Inaugural Address - January 20, 2017 (1445 Words)
+a. Obtained from Trump (2017)
+13. Donald Trump Addresses the National Governors Association Meeting -
+February 27, 2017 (3561 words)
+14. Donald Trump Addresses the Arab Islamic American Summit - May 21, 2017
+(3397 words)
+15. Donald Trump Delivers a Speech at the 2019 CPAC Convention in Maryland -
+March 2, 2019 (15970 words)
+56
+16. Donald Trump Holds a Political Rally in Battle Creek, Michigan - December 18,
+2019 (18646 words)
+Modi
+Unless otherwise stated all speech transcripts were obtained from Modi (2020)
+1. Shri Narendra Modi addressing the Interactive session with European Business
+Group - March 18, 2011 (2442 words)
+2. Shri Narendra Modi’s speech at the Business Meet in Chengdu, China. -
+November 12, 2011 (1618 words)
+3. Shri Narendra Modi’s Speech during Sadbhavna Mission Fast at Bapu’s
+Birthplace, Porbandar - November 20, 2011 (6175 words)
+4. Shri Modi's speech at Nava Bharat Yuva Bheri, Hyderabad - August 11, 2013
+(3761 words)
+5. Shri Narendra Modi's speech on 67th Independence Day Celebrations at Bhuj -
+August 15, 2013 (4457 words)
+6. Full Text of Shri Narendra Modi's speech at Ex- Servicemen's Rally, Rewari -
+September 15, 2013 (5611 words)
+7. Text of Shri Narendra Modi's speech at Trichy, Tamilnadu - September 26, 2013
+(5829 words)
+8. Text of PM's speech at Red Fort - August 15, 2014 (7315 words)
+9. Text of Address by Prime Minister at the Tsinghua University, Beijing - May 15,
+2015 (2451 words)
+10. My dream is of a transformed India alongside an advanced Asia: PM Narendra
+Modi - March 12, 2016 (2204 words)
+11. Terrorism is the biggest threat to humanity: PM Narendra Modi during Mann Ki
+Baat - November 26, 2017 (3531 words)
+12. Wrong policies and strategies of Congress destroyed the nation: PM - October 19,
+2019 (3942 words)
+13. India is a supporter of peace, but the country will not hesitate to take any steps
+required for national security: PM - January 28, 2019 (2189 words)
+14. Building on ancient ties for new prosperity - November 02, 2019 (1556 words)

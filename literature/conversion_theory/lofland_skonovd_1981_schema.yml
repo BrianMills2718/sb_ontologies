@@ -1,0 +1,388 @@
+citation: "Lofland, John, and Norman Skonovd. 'Conversion Motifs.' Journal for the Scientific Study of Religion 20, no. 4 (1981): 373-385."
+
+annotation: "This foundational work identifies six distinct conversion motifs based on five major variations: intellectual, mystical, experimental, affectional, revivalist, and coercive. Each motif represents a qualitatively different pattern of religious transformation characterized by varying degrees of social pressure, temporal duration, affective arousal, emotional content, and belief-participation sequences."
+
+model_type: "property_graph"
+
+rationale: "The property graph model best captures the complex relational structure of conversion motifs theory, where conversion experiences (nodes) are connected to social psychological processes, organizational contexts, and temporal sequences (edges). The six motifs form a structured typology with systematic relationships between characteristics, social conditions, and conversion outcomes that can be effectively represented as interconnected entities and processes."
+
+schema_blueprint:
+  title: "Conversion Motifs Theoretical Framework"
+  description: "A comprehensive schema modeling Lofland and Skonovd's six-motif typology of religious conversion, capturing the social psychological and organizational dimensions that distinguish different patterns of religious transformation"
+  
+  root_properties:
+    nodes:
+      description: "Represents conversion motifs, social psychological processes, organizational contexts, and temporal elements in religious transformation"
+      item_type: "Entity"
+    edges:
+      description: "Represents relationships between motifs and their characteristics, causal connections, social processes, and sequential patterns"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Theoretical Constructs
+    - name: "conversion-motif"
+      category: "core-construct"
+      description: "A qualitatively distinct pattern of religious transformation characterized by specific social psychological and organizational features"
+      
+    - name: "motif-experience"
+      category: "core-construct"
+      description: "Those aspects of conversion most memorable and orienting to the person undergoing transformation, providing tone and meaning to the event"
+      
+    - name: "conversion-career"
+      category: "core-construct"
+      description: "The sequential pattern and trajectory of conversion experiences over time"
+      
+    - name: "radical-reorganization"
+      category: "core-construct"
+      description: "Fundamental transformation of identity, meaning, and life orientation that defines conversion"
+      
+    - name: "root-reality-shift"
+      category: "core-construct"
+      description: "Conscious shift in one's sense of grounding or fundamental understanding of reality"
+      
+    # Six Conversion Motifs
+    - name: "intellectual-conversion"
+      category: "conversion-type"
+      description: "Conversion commencing with individual, private investigation through reading, lectures, and disembodied ways of encountering alternate ideologies"
+      
+    - name: "mystical-conversion"
+      category: "conversion-type"
+      description: "Conversion characterized by dramatic, sudden experiences that cannot be expressed in logical terms, often involving hallucinations or theophanic experiences"
+      
+    - name: "experimental-conversion"
+      category: "conversion-type"
+      description: "Conversion occurring through tentative, pragmatic participation with gradual development of conviction over time"
+      
+    - name: "affectional-conversion"
+      category: "conversion-type"
+      description: "Conversion centered on personal attachments and strong emotional bonds with believers rather than cognitive elements"
+      
+    - name: "revivalist-conversion"
+      category: "conversion-type"
+      description: "Conversion occurring within emotionally aroused crowd contexts involving collective ecstatic experiences"
+      
+    - name: "coercive-conversion"
+      category: "conversion-type"
+      description: "Conversion achieved through extreme external pressure, control, and systematic psychological manipulation"
+      
+    # Major Variation Dimensions
+    - name: "social-pressure-degree"
+      category: "measurement-dimension"
+      description: "The extent to which external social forces induce or encourage conversion"
+      
+    - name: "temporal-duration"
+      category: "measurement-dimension"
+      description: "The length of time over which the conversion experience unfolds"
+      
+    - name: "affective-arousal-level"
+      category: "measurement-dimension"
+      description: "The intensity of emotional states accompanying the conversion experience"
+      
+    - name: "affective-content"
+      category: "measurement-dimension"
+      description: "The specific emotional qualities characterizing the conversion experience"
+      
+    - name: "belief-participation-sequence"
+      category: "measurement-dimension"
+      description: "The temporal ordering of cognitive assent to beliefs versus active participation in religious activities"
+      
+    # Social Psychological Processes
+    - name: "situational-adjustment"
+      category: "process"
+      description: "Progressive adaptation to social expectations and requirements within religious contexts"
+      
+    - name: "side-bet-development"
+      category: "process"
+      description: "Accumulation of commitments and investments that bind individuals to religious participation"
+      
+    - name: "intensive-interaction"
+      category: "process"
+      description: "Sustained, close social contact that facilitates transformation through micro-level adjustments"
+      
+    - name: "affective-bond-formation"
+      category: "process"
+      description: "Development of strong emotional attachments to believers that support conversion"
+      
+    - name: "cognitive-dissonance-resolution"
+      category: "process"
+      description: "Psychological process of resolving conflicts between beliefs and behaviors"
+      
+    - name: "identity-reconstruction"
+      category: "process"
+      description: "Fundamental reorganization of self-concept and personal identity"
+      
+    # Organizational Contexts
+    - name: "disembodied-communication"
+      category: "organizational-context"
+      description: "Religious communication through books, media, television, and other non-personal channels"
+      
+    - name: "electronic-church"
+      category: "organizational-context"
+      description: "Television-based religious organizations with viewing audiences as congregations"
+      
+    - name: "recruitment-network"
+      category: "organizational-context"
+      description: "Social networks through which religious organizations attract new members"
+      
+    - name: "crowd-context"
+      category: "organizational-context"
+      description: "Collective gatherings that generate emotional arousal and facilitate conversion"
+      
+    - name: "total-institution"
+      category: "organizational-context"
+      description: "Organizational settings with complete control over members' daily lives and activities"
+      
+    # Temporal Patterns
+    - name: "privatized-search"
+      category: "temporal-pattern"
+      description: "Individual exploration of religious alternatives prior to group contact"
+      
+    - name: "sudden-transformation"
+      category: "temporal-pattern"
+      description: "Rapid, dramatic conversion experience occurring over minutes or hours"
+      
+    - name: "gradual-commitment"
+      category: "temporal-pattern"
+      description: "Slow development of religious conviction over weeks, months, or years"
+      
+    - name: "progressive-involvement"
+      category: "temporal-pattern"
+      description: "Incremental increase in participation leading to eventual conversion"
+      
+    # Affective States
+    - name: "illumination"
+      category: "affective-state"
+      description: "Emotional tone of intellectual discovery and cognitive clarity"
+      
+    - name: "awe"
+      category: "affective-state"
+      description: "Profound wonder and reverence experienced in mystical encounters"
+      
+    - name: "curiosity"
+      category: "affective-state"
+      description: "Exploratory emotional orientation toward religious participation"
+      
+    - name: "affection"
+      category: "affective-state"
+      description: "Strong positive emotional attachment to believers and community"
+      
+    - name: "ecstatic-joy"
+      category: "affective-state"
+      description: "Intense collective excitement and celebration in revivalist contexts"
+      
+    - name: "fear-submission"
+      category: "affective-state"
+      description: "Emotional response to coercive pressure and control"
+      
+    # Belief-Participation Patterns
+    - name: "belief-first-sequence"
+      category: "belief-participation-pattern"
+      description: "Conversion pattern where cognitive assent precedes active participation"
+      
+    - name: "participation-first-sequence"
+      category: "belief-participation-pattern"
+      description: "Conversion pattern where active involvement precedes cognitive conviction"
+      
+    - name: "simultaneous-development"
+      category: "belief-participation-pattern"
+      description: "Conversion pattern where belief and participation develop together"
+      
+    # Social Mechanisms
+    - name: "interpersonal-bonds"
+      category: "social-mechanism"
+      description: "Personal relationships that facilitate recruitment and conversion"
+      
+    - name: "social-support"
+      category: "social-mechanism"
+      description: "Emotional and practical assistance that sustains conversion process"
+      
+    - name: "peer-influence"
+      category: "social-mechanism"
+      description: "Social pressure and encouragement from fellow believers"
+      
+    - name: "social-contagion"
+      category: "social-mechanism"
+      description: "Spread of emotional states and behaviors through crowd dynamics"
+      
+    - name: "coercive-control"
+      category: "social-mechanism"
+      description: "Systematic use of pressure, isolation, and manipulation to induce conversion"
+      
+    # Methodological Concepts
+    - name: "conversion-account"
+      category: "methodological-concept"
+      description: "Narratives that converts use to describe and explain their transformation experiences"
+      
+    - name: "accounting-paradigm"
+      category: "methodological-concept"
+      description: "Organizational templates that structure how conversion experiences are narrated"
+      
+    - name: "phenomenological-fidelity"
+      category: "methodological-concept"
+      description: "Research approach that accurately captures converts' subjective experiences"
+      
+    - name: "objective-bracketing"
+      category: "methodological-concept"
+      description: "Analytical approach that examines conversion experiences in broader social contexts"
+      
+    # Theoretical Frameworks
+    - name: "three-level-reality"
+      category: "theoretical-framework"
+      description: "Analytical framework distinguishing raw reality, convert experience, and analytical interpretation"
+      
+    - name: "social-constructionism"
+      category: "theoretical-framework"
+      description: "Theoretical perspective emphasizing social construction of religious beliefs and experiences"
+      
+    - name: "sentimental-order"
+      category: "theoretical-framework"
+      description: "Underlying emotional foundations that sustain systems of social knowledge and belief"
+      
+    # Measurement Concepts
+    - name: "conversion-intensity"
+      category: "measurement-concept"
+      description: "Degree of emotional arousal and behavioral change associated with conversion"
+      
+    - name: "conversion-duration"
+      category: "measurement-concept"
+      description: "Temporal extent of the conversion process from initiation to completion"
+      
+    - name: "social-pressure-magnitude"
+      category: "measurement-concept"
+      description: "Strength of external forces encouraging or compelling conversion"
+      
+    - name: "organizational-involvement"
+      category: "measurement-concept"
+      description: "Extent of participation in religious group activities and structures"
+      
+    # Relationships
+    - name: "facilitates"
+      category: "relationship"
+      description: "Causal relationship where one factor enables or supports another"
+      
+    - name: "characterizes"
+      category: "relationship"
+      description: "Relationship where one element defines or typifies another"
+      
+    - name: "precedes"
+      category: "relationship"
+      description: "Temporal relationship where one event occurs before another"
+      
+    - name: "correlates-with"
+      category: "relationship"
+      description: "Statistical relationship between variables or phenomena"
+      
+    - name: "varies-across"
+      category: "relationship"
+      description: "Relationship describing differential patterns across contexts or types"
+      
+    - name: "influences"
+      category: "relationship"
+      description: "Causal relationship where one factor affects another"
+      
+    - name: "typifies"
+      category: "relationship"
+      description: "Relationship where one element represents or exemplifies a category"
+      
+    # Social Conditions
+    - name: "media-saturation"
+      category: "social-condition"
+      description: "Contemporary condition of abundant religious communication through mass media"
+      
+    - name: "religious-privatization"
+      category: "social-condition"
+      description: "Modern trend toward individual control over religious choices and beliefs"
+      
+    - name: "secular-rationalization"
+      category: "social-condition"
+      description: "Cultural emphasis on rational, logical approaches to religious questions"
+      
+    - name: "religious-marketplace"
+      category: "social-condition"
+      description: "Competitive environment where multiple religious options compete for adherents"
+      
+    # Conversion Outcomes
+    - name: "identity-transformation"
+      category: "conversion-outcome"
+      description: "Fundamental change in self-concept and personal identity"
+      
+    - name: "behavioral-change"
+      category: "conversion-outcome"
+      description: "Modification of actions, habits, and lifestyle patterns"
+      
+    - name: "worldview-shift"
+      category: "conversion-outcome"
+      description: "Change in fundamental beliefs about reality and meaning"
+      
+    - name: "social-reintegration"
+      category: "conversion-outcome"
+      description: "Incorporation into new religious community and social relationships"
+      
+    - name: "commitment-development"
+      category: "conversion-outcome"
+      description: "Growth of dedication and loyalty to religious beliefs and practices"
+
+  json_schema:
+    type: "object"
+    properties:
+      nodes:
+        type: "array"
+        items:
+          $ref: "#/$defs/Entity"
+      edges:
+        type: "array"
+        items:
+          $ref: "#/$defs/NaryTuple"
+    
+    $defs:
+      ConversionMotif:
+        type: "string"
+        enum: ["intellectual-conversion", "mystical-conversion", "experimental-conversion", "affectional-conversion", "revivalist-conversion", "coercive-conversion"]
+      
+      SocialPressureLevel:
+        type: "string"
+        enum: ["none", "low", "medium", "high", "extreme"]
+      
+      TemporalDuration:
+        type: "string"
+        enum: ["brief", "short", "medium", "long", "extended"]
+      
+      AffectiveArousal:
+        type: "string"
+        enum: ["none", "low", "medium", "high", "extreme"]
+      
+      AffectiveContent:
+        type: "string"
+        enum: ["illumination", "awe", "curiosity", "affection", "love", "ecstatic-joy", "fear", "submission"]
+      
+      BeliefParticipationSequence:
+        type: "string"
+        enum: ["belief-first", "participation-first", "simultaneous"]
+      
+      SocialPsychologicalProcess:
+        type: "string"
+        enum: ["situational-adjustment", "side-bet-development", "intensive-interaction", "affective-bond-formation", "cognitive-dissonance-resolution", "identity-reconstruction"]
+      
+      OrganizationalContext:
+        type: "string"
+        enum: ["disembodied-communication", "electronic-church", "recruitment-network", "crowd-context", "total-institution"]
+      
+      TemporalPattern:
+        type: "string"
+        enum: ["privatized-search", "sudden-transformation", "gradual-commitment", "progressive-involvement"]
+      
+      SocialMechanism:
+        type: "string"
+        enum: ["interpersonal-bonds", "social-support", "peer-influence", "social-contagion", "coercive-control"]
+      
+      ConversionOutcome:
+        type: "string"
+        enum: ["identity-transformation", "behavioral-change", "worldview-shift", "social-reintegration", "commitment-development"]
+      
+      ConversionRelationship:
+        type: "string"
+        enum: ["facilitates", "characterizes", "precedes", "correlates-with", "varies-across", "influences", "typifies"]
+      
+      SocialCondition:
+        type: "string"
+        enum: ["media-saturation", "religious-privatization", "secular-rationalization", "religious-marketplace"]

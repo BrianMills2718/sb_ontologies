@@ -1,0 +1,1263 @@
+Authentically Describing
+and Forecasting Human
+Behavior for Policy
+Analysis: A Review
+and a Path Forward
+Chapter Fifteen
+BEN CONNABLE, DT INSTITUTE
+C O R P O R A T I O N
+Prepared for the Defense Advanced Research Projects Agency,
+Defense Sciences Office
+Approved for public release; distribution unlimited
+This chapter is extracted from Adaptive Engagement for Undergoverned
+Spaces: Concepts, Challenges, and Prospects for New Approaches,
+by Aaron B. Frank and Elizabeth M. Bartels, eds., RR-A1275-1, 2022
+(available at www.rand.org/t/RRA1275-1).
+For more information on this publication, visit www.rand.org/t/RRA1275-1.
+About RAND
+The RAND Corporation is a research organization that develops solutions to public policy challenges
+to help make communities throughout the world safer and more secure, healthier and more prosperous.
+RAND is nonprofit, nonpartisan, and committed to the public interest. To learn more about RAND, visit
+www.rand.org.
+Research Integrity
+Our mission to help improve policy and decisionmaking through research and analysis is enabled through
+our core values of quality and objectivity and our unwavering commitment to the highest level of integrity
+and ethical behavior. To help ensure our research and analysis are rigorous, objective, and nonpartisan,
+we subject our research publications to a robust and exacting quality-assurance process; avoid both
+the appearance and reality of financial and other conflicts of interest through staff training, project
+screening, and a policy of mandatory disclosure; and pursue transparency in our research engagements
+through our commitment to the open publication of our research findings and recommendations,
+disclosure of the source of funding of published research, and policies to ensure intellectual independence.
+For more information, visit www.rand.org/about/research-integrity.
+RAND’s publications do not necessarily reflect the opinions of its research clients and sponsors.
+Published by the RAND Corporation, Santa Monica, Calif.
+© 2022 RAND Corporation
+is a registered trademark.
+Limited Print and Electronic Distribution Rights
+This publication and trademark(s) contained herein are protected by law. This representation of RAND
+intellectual property is provided for noncommercial use only. Unauthorized posting of this publication
+online is prohibited; linking directly to its webpage on rand.org is encouraged. Permission is required
+from RAND to reproduce, or reuse in another form, any of its research products for commercial purposes.
+For information on reprint and reuse permissions, please visit www.rand.org/pubs/permissions.
+431
+CHAPTER FIFTEEN
+Authentically Describing and Forecasting
+Human Behavior for Policy Analysis: A
+Review and a Path Forward
+Ben Connable, DT Institute
+In current military operational models, the human aspect is still often represented in
+a mechanistic way, bearing little resemblance to observations, as if all humans always
+act the same way in a situation much as a machine would. In reality, human behavior is
+not deterministic. Without proper representation of behavior, and the reasons behind the
+behavior, the validity of the model may be seriously flawed, making its performance and
+predictions questionable.
+—North Atlantic Treaty Organization (NATO)1
+As the epigraph indicates, authentically describing and forecasting human behavior for
+policy analysis in military operational models—or effectively understanding the disposition
+to act—has proven challenging to do. Doing so requires at least four things: (1) an agreed-
+on model of the inputs to and components of human decisionmaking; (2) an empirically
+justified and organized data-selection and -collection plan that incorporates many aspects
+of human behavior, culture, and environmental influences on behavior; (3) a scientifically
+derived method for representing forecasted behavior in narrative and, better yet, in construc-
+tive simulation; and (4) a transparent forecasting method centered on the agreed-on model
+of human decisionmaking.
+In his article “Rethinking Competition,” Philip J. Root posed challenges to authentically
+incorporating human behavior into modeling. Those challenges centered on Justin Kelly’s
+1 NATO, Research and Technology Organization, Human Behavior Representation in Constructive Simu-
+lation, Neuilly-sur-Seine Cedex, France, September 2009, p. ES-1.
+Adaptive Engagement for Undergoverned Spaces: Concepts, Challenges, and Prospects for New Approaches432
+and Mike Brennan’s Act-Sense-Decide-Adapt (ASDA) 2 concept for rapidly forecasting human
+behavior in complex and undergoverned spaces (UGS) and are as follows:
+• How can we understand, describe, and, to a reasonable extent, forecast human behavior
+in UGS?
+• How can we do this using limited and often uncertain data with sufficient accuracy and
+transparency to earn the trust of leaders, thereby helping them improve policy for the
+inherently murky challenges posed by strategic competition?3
+These are fundamental questions that are centered on understanding how and why people
+select behaviors. Human disposition to act is an essential yet elusive variable in policy analysis.
+Experience with modeling and simulation (M&S) in support of operations in Afghanistan
+and Iraq has proven that these challenges do not have immediate and satisfactory solutions.
+There might be no dramatic leap forward from our unreliable understanding and forecasting
+of human behavior to an authentic, accurate, and dependable model and process. Advances
+toward the ambitious objectives laid out by Root, Kelly, and Brennan require a shift in scien-
+tific approach and a plan for incrementally improving prototype models.
+This chapter offers a long-term, phased solution to the challenges posed by Root. Recom-
+mendations are based on the RAND Corporation’s “will-to-fight” research portfolio. This is an
+ongoing, five-year series of projects designed to improve understanding of human behavior in
+conflict. 4 Although this chapter centers on the RAND will-to-fight work, it does so only as an
+example of prospective approaches. The RAND work builds from hundreds of existing studies,
+and it is not by any means intended to be a complete solution to the many challenges extant in
+human behavior forecasting. Other theories, models, and methods should be closely examined.
+The proposed approach in the RAND will-to-fight research portfolio is to understand and
+forecast human behavior and then represent that behavior in a model and simulation that
+will support policy analysis. Doing so is a shift from general practice in large-scale construc-
+tive simulation. Although the approach is different from existing approaches and perhaps
+more challenging to implement, if successful, it would help policymakers meet objectives
+for rapid and accurate behavioral forecasting. It would also help broader scientific efforts to
+2 Justin Kelly and Mike Brennan, “OODA Versus ASDA: Metaphors at War,” Australian Army Journal,
+Vol. 6, No. 3, Summer 2009.
+3 Philip J. Root, “Rethinking Competition,” briefing, Defense Advanced Research Projects Agency,
+June 30, 2020.
+4 Ben Connable, Michael J. McNerney, William Marcellino, Aaron Frank, Henry Hargrove, Marek N.
+Posard, S. Rebecca Zimmerman, Natasha Lander, Jasen J. Castillo, and James Sladden, Will to Fight: Ana-
+lyzing, Modeling, and Simulating the Will to Fight of Military Units, Santa Monica, Calif.: RAND Corpora-
+tion, RR-2341-A, 2018; and Michael J. McNerney, Ben Connable, S. Rebecca Zimmerman, Natasha Lander,
+Marek N. Posard, Jasen J. Castillo, Dan Madden, Ilana Blum, Aaron Frank, Benjamin J. Fernandes, In Hyo
+Seol, Christopher Paul, and Andrew Parasiliti, National Will to Fight: Why Some Nations Keep Fighting and
+Others Don’t, Santa Monica, Calif.: RAND Corporation, RR-2477-A, 2018.
+Authentically Describing and Forecasting Human Behavior for Policy Analysis: A Review and a Path Forward433
+model human behavior progress in the future. In turn, this approach would support advances
+in human-machine teaming, human performance, and influence activities.
+I argue that the best way to realize the ambitious objectives of increasing the flexibil-
+ity and adaptability for competing in UGS—as envisioned by ASDA and supported by new
+research and development programs, such as the Defense Advanced Research Projects Agen-
+cy’s (DARPA’s) Habitus program—is to create a reasonably authentic biopsychosocial, system-
+of-systems model of human beings; to use that model to focus collection and analysis of data
+with scientific rigor; to build human agents from this solid baseline; and then to evolve the
+model, data, and simulation to achieve increasing (but probably always imperfect) authentic-
+ity and speed of accurate and adaptive analysis and forecasting over time.
+The remainder of this chapter first discusses the difference between realistic M&S and the
+pursuit of authenticity. It also discusses previous efforts to incorporate human behavior into
+M&S programs. Then, it examines some of the reasons that attempts to incorporate authentic
+human behavior have failed. This examination is followed by a discussion of the approach
+used in RAND’s will-to-fight research and of efforts to move toward creating a reasonably
+authentic biopsychosocial, system-of-systems model of human beings.
+Realistic Modeling and Simulation Versus the Pursuit of
+Authenticity: Previous Efforts
+Achieving at least a practical modicum of authenticity would be a significant advance in
+human behavioral modeling beyond efforts to portray realism, or realistic behavior. RAND’s
+will-to-fight research team has argued that there is a fundamental difference between realis-
+tic human behavior and authentically modeled human behavior. 5 Realistic simulated human
+agents used for training or forecasting can be made to mimic agentic choices and a variety
+of human behaviors. Some elements of realism are predicated on scientific models of com-
+ponents of both simple and complex human behavior. For example, some simulations por-
+tray mostly independent components of human physiology (such as the gaze heuristic that
+describes how agents track and catch a moving object) or the effects of fatigue, while others
+portray unitary group reactions to such stimuli as changes in state-level policies or, at the
+local level, changes in traffic or gunfire. 6 Agents can be tailored to support or reject policies,
+to emote, to hesitate, to flee, or to charge forward aggressively in emergent situations.
+Existing simulations have shown that realism can be programmed and made sufficiently
+complex to help some consumers accept various replications of human behavior. Designers
+can—and have—convinced military leaders and policymakers that the outcomes of designer
+5 Connable et al., 2018.
+6 See, for example, Gerd Gigerenzer and Wayne D. Gray, “A Simple Heuristic Successfully Used by Humans,
+Animals, and Machines: The Story of the RAF and Luftwaffe, Hawks and Ducks, Dogs and Frisbees, Baseball
+Outfielders and Sidewinder Missiles—Oh My!” Topics in Cognitive Science, Vol. 9, No. 2, 2017.
+Adaptive Engagement for Undergoverned Spaces: Concepts, Challenges, and Prospects for New Approaches434
+simulations are reasonable and thus believable. But realistic simulation can never achieve
+the genuine (as opposed to fabricated) accuracy that is needed for the kind of forecasting
+required to support a useful, working articulation of ASDA because it is ultimately inauthen-
+tic. Realistic simulation is generally predicated on modelers’ interpretations of human behav-
+ior rather than empirical scientific research.7 In some cases, realistic behavior is derived from
+narrow unitary theories or a variety of dissociated and incomplete theories and subordinate
+models of human cognition, physiology, and cultural influence translated into equally dis-
+sociated algorithms and binary discriminators. 8
+Realism abdicates the pursuit of scientific holism and authenticity in the name of practi-
+cality. In doing so, it trades any hope of achieving accuracy for a kind of visual complexity—
+arguably, a form of visual trickery—that can only ever mimic accuracy. Mimicked accuracy in
+commercial gaming is a perfectly worthy goal. Accuracy is unnecessary if the user can be com-
+fortably tricked into suspending disbelief. However, mimicked accuracy in professional simu-
+lations that inform military actions or public policy is the equivalent of generating precision
+without accuracy in scientific practice: It is potentially dangerous and ultimately unhelpful.9
+The failure to integrate authentic or even realistic human behavior into professional mili-
+tary simulations—and particularly into the large-scale constructive and training simulations,
+or big sims, used by the U.S. Department of Defense (DoD)—is longstanding, dating back to
+at least the introduction of the Carmonette tactical simulation in the early 1950s.10 Will-to-
+fight work has involved conducting a review of 75 commercial and military tabletop games
+and constructive simulations, including such historic simulations as Carmonette and more-
+7 Kelly and Brennan specifically state that ASDA does not propose a solution to the challenges identified
+in the introduction—the four elements necessary to forecast human behavior with sufficient accuracy to
+be useful. See Kelly and Brennan, 2009, p. 40. Root does not center his argument on forecasting. How-
+ever, Root’s incorporation of ASDA into a proposed plan for understanding complex human behavior in
+UGS is inherently a call for forecasting: Only historically informed but forward-looking ex ante forecast-
+ing analysis effectively supports policy decisionmaking, particularly when the policy challenge is designed
+around a rapidly shifting (as opposed to primarily historically informed) series of competition problems.
+8 This chapter cites a few cases (e.g., Performance Moderated Functions Server [PMFServ]) in which mod-
+elers attempted to create an authentic human model and simulation. None of these has been incorporated
+into constructive or training simulations in large-scale use by the U.S. military or Western allies. Consid-
+erable other work was done on human behavioral modeling for both military and nonmilitary uses in pri-
+marily the 1990s and 2000s. Some modeling pursued authenticity, but most of the efforts pursued realism.
+Such models as the Adaptive Control of Thought-Rational (ACT-R) model and the Strengths, Opportuni-
+ties, Aspirations, and Results (SOAR) model are cited. For other examples, see Richard W. Pew and Anne S.
+Mavor, eds., Modeling Human and Organizational Behavior: Application to Military Simulations, Washing-
+ton, D.C.: National Academies Press, 1998; and, more recently, Simon Farrell and Stephen Lewandowsky,
+Computational Modeling of Cognition and Behavior, New York: Cambridge University Press, 2018.
+9 For a primer on precision and accuracy, see Paul Humphreys, Extending Ourselves: Computational Sci-
+ence, Empiricism, and Scientific Method, New York: Oxford University Press, 2004.
+10 General Research Corporation, Operations Analysis Division, CARMONETTE, Vol. I, General Descrip-
+tion, technical manual, McLean, Va., November 1974.
+Authentically Describing and Forecasting Human Behavior for Policy Analysis: A Review and a Path Forward435
+contemporary programs that are still in use by the U.S. military.11 There was little evidence
+of authenticity or even convincingly realistic human behavior in even the most advanced
+military simulations.12 None of the professional military simulations reviewed—including
+those that are currently in use by the U.S. military services and the joint force—attempted to
+replicate anything but the most rudimentary human behavioral representation.13
+Instead of presenting authenticity or realism, nearly all of the military simulations
+observed gave each agent superhuman or perhaps robotic characteristics. Colleagues at the
+Army Research Laboratory dubbed these agents supersoldiers: They always follow orders,
+never exhibit the effects of fear, have no individualized reactions to unit casualties, and are
+unfailingly aggressive and impervious to fatigue. The use of supersoldiers helps reduce the
+number of variables in a simulation by explicitly eliminating authenticity, thereby facilitating
+smooth simulation runs that are inherently inauthentic and therefore inaccurate. Attempts to
+dodge human complexity in military simulation are ultimately self-defeating.
+Human-Centric Experimentation Alongside Supersoldiers
+As these premier military simulations evolved with a near total lack of human behavior rep-
+resentation, several small teams experimented with human-centric models and simulations
+with the aspiration of integrating human behavior into the premier simulations.14 These
+11 Connable et al., 2018, pp. 113–157.
+12 For another review and similar perspective, see NATO, 2009.
+13 In our will-to-fight work, we applied a 24-factor coding analysis to 62 of the 75 games and simulations
+reviewed for our research. This analysis revealed the degree to which each simulation pursued some form of
+human behavior representation. Was will to fight included in the game or simulation? Did agents or groups
+make semi-independent decisions as unique actors, or did they simply follow predetermined branch-and-
+sequel pathways for action? Did the simulation address aspects of human behavior (such as cohesion, lead-
+ership, fatigue, or surprise), casualties, or terrain that might affect decision outcomes? Was the human ele-
+ment central to the adjudication of the simulation? Each simulation received an aggregate code of zero to
+five, with zero representing no human behavior representation and five representing a simulation centered
+on human behavior. Of the 18 military computer simulations coded, none scored higher than one out of five
+possible points. Eleven simulations received a composite score of zero, and seven received a composite score
+of one. For example, we found that the Joint Conflict and Tactical Simulation (JCATS) effectively has no
+represented human decisionmaking beyond a binary casualty breakpoint threshold, and a student-designed
+simulation called SPARTAN II contained a rudimentary suppression model but no agent differentiation or
+individualized decisionmaking. See Connable et al., 2018, Chapter 3.
+14 There is considerable literature on human behavior in agent-based simulation and group behavior simu-
+lation. In addition to reviewing simulation technical reports and associated articles, interviewing develop-
+ers, and experimenting in some of the simulations (one of which RAND developed: the Joint Integrated
+Contingency Model [JICM]), we reviewed the broader literature. In addition to the other works cited in
+this chapter and in Chapter 3 of Connable et al., 2018, the following were particularly informative: Sabeur
+Elkosantini, “Toward a New Generic Behavior Model for Human Centered System Simulation,” Simula-
+tion Modelling Practice and Theory, Vol. 52, March 2015; Vidar Engmo, Representation of Human Behavior
+in Military Simulations, master’s thesis, Trondheim, Norway: Norwegian University of Science and Tech-
+nology, 2008; Victor Middleton, “Simulating Small Unit Military Operations with Agent-Based Models
+Adaptive Engagement for Undergoverned Spaces: Concepts, Challenges, and Prospects for New Approaches436
+efforts suggest ways in which the M&S community can move closer to a holistic, scientifi-
+cally grounded, and authentic representation of human behavior.
+Barry Silverman at the University of Pennsylvania designed PMFServ, a standout effort
+to represent holistic, realistic, and, to some extent, authentic agents.15 A New Zealand
+research team designed the Map Aware Non-Uniform Automata (MANA) agent-based dis-
+tillation model to show how such factors as morale and cohesion might influence deci-
+sionmaking in combat.16 Cognitive models for simulation proliferated.17 Some research
+teams and contractors attempted to build holistic behavioral models integrating many dif-
+ferent aspects of human behavior.18 For example, the U.S. Marine Corps’ Irreducible Semi-
+Autonomous Adaptive Combat (ISAAC) model and simulation was intended to move away
+of Complex Adaptive Systems,” Proceedings of the 2010 Winter Simulation Conference, 2010; and Barry G.
+Silverman, Ben Nye, Ray Kang, Ceyhun Eksin, David Pietrocola, and Gnana Bharathy, “Toward an Exten-
+sible Repository of Socio-Cognitive Models: Challenges for Synthesis,” briefing, Social Theory and Social
+Computing: Steps to Integration conference, Waikiki, Hawaii, May 22–23, 2010.
+15 We interviewed Silverman for our research and examined PMFServ to inform our M&S. See Barry G.
+Silverman, Jason Cornwell, and Kevin O’Brien, “Human Performance Simulation,” in James W. Ness,
+Darren R. Ritzer, and Victoria Tepe, eds., Metrics and Methods in Human Performance Research Toward Indi-
+vidual and Small Unit Simulation, Washington, D.C.: Human Systems Information Analysis Center, 2003.
+16 See Peter Amstutz, Mitha Andra, and Daniel Rice, Reasoning, Planning, and Goal Seeking: A Cognitive
+Approach for Small Combat Unit Constructive Simulation, 2012 Spring Simulation Multiconference, Society
+for Modeling & Simulation International, Orlando, Fla., 2012; and Ruth Luscombe and Helen Mitchard,
+Exploring Simple Human Behaviour Representation Using Agent Based Distillations, Edinburgh, Australia:
+Defence Science and Technology Organisation, 2003.
+17 These include ACT-R, the Cognitive Enrichment Network Education Model, and SOAR. See, for
+example, John R. Anderson, Michael Matessa, and Christian Lebiere, “ACT-R: A Theory of Higher Level
+Cognition and Its Relation to Visual Attention,” Human-Computer Interaction, Vol. 12, No. 4, 1997;
+B. Chandrasekaran and John R. Josephson, “Cognitive Modeling for Simulation Goals: A Research Strat-
+egy for Computer-Generated Forces,” Proceedings of the 8th Conference on Computer Generated Forces
+and Behavioral Representation, Orlando, Fla., 1999; Nasser Ghasem-Aghaee and Tuncer I. Ören, “Cogni-
+tive Complexity and Dynamic Personality in Agent Simulation,” Computers in Human Behavior, Vol. 23,
+No. 6, November 2007; John C. Giordano, Paul F. Reynolds, Jr., and David C. Brogan, “Exploring the
+Constraints of Human Behavior Representation,” Proceedings of the 2004 Winter Simulation Confer-
+ence, Charlottesville, Va., 2004; Emma Norling and Frank E. Ritter, “Towards Supporting Psychologi-
+cally Plausible Variability in Agent-Based Human Modelling,” Proceedings of the Third International
+Joint Conference on Autonomous Agents and Multiagent Systems, 2004, New York: IEEE, 2004; Dario D.
+Salvucci and Glenn Gunzelmann, eds., Proceedings of the 10th International Conference on Cognitive
+Modeling, Philadelphia, Pa.: Drexel University, 2010; Barry G. Silverman, “Toward Realism in Human
+Performance Simulation,” in J. W. Ness, V. Tepe, and D. R. Ritzer, eds., The Science and Simulation of
+Human Performance, Bingley, United Kingdom: Emerald Publishing Group, 2004; Ron Sun, ed., Cogni-
+tion and Multi-Agent Interaction: From Cognitive Modeling to Social Simulation, New York: Cambridge
+University Press, 2006; and Jeremy Owen Turner, Michael Nixon, Ulysses Bernardet, and Steve DiPaola,
+Integrating Cognitive Architectures into Virtual Character Design, Hershey, Pa.: IGI Global, 2016.
+18 For example, see Lynn Spencer and Peter Weyhrauch, “Dynamic Representation for Evaluating the Effect
+of Moderators and Stress on Performance (DREEMS),” presentation to the U.S. Army Human Behavior
+Working Group, Fort Belvoir, Va., June 25, 2020.
+Authentically Describing and Forecasting Human Behavior for Policy Analysis: A Review and a Path Forward437
+from linear behavioral models and toward a model of decentralized self-organization in
+which agents and groups would display complex and emergent behavior.19 Each of these
+efforts had some success, but none was folded into such premier simulations as JCATS or
+One Semi-Automated Forces (OneSAF).
+Group Behavior Modeling for Undergoverned Spaces
+Some human behavioral M&S was directly relevant to efforts to understand human behavior
+in UGS. For example, the UK Defence and Science Technology Laboratory built the Peace
+Support Operations Model (PSOM). 20 This model sought to show the likely reactions of a
+civilian population to policy actions taken during what are now commonly referred to as sta-
+bilization operations. Developers applied a theory-driven approach based on “economic theo-
+ries of utility and marginal utility” to represent group decisionmaking. 21 At approximately
+the same time (in the late 2000s), developers at the Jet Propulsion Laboratory built the Athena
+Software Development Model (SDM) to answer similar questions: How would populations
+react to military decisions and actions in stabilization operations? Like PSOM, the Athena
+SDM relied on rational choice heuristics to portray decisionmaking. 22
+Social science understanding of human behavior has advanced since these models were
+published. Experimental simulations of both individual and group behavior are too numer-
+ous to track or analyze here. It is enough to say that, despite these advances, very little of this
+group-level work has made its way into the models and simulations that are most often used
+to inform U.S. military leaders and policymakers.
+One reason these models have not previously been adopted into advanced simulation is
+that they lack authenticity; despite their often convincing visualizations and findings, they
+fail to achieve a suspension of policymaker disbelief or to win over potential advocates.
+19 Andrew Ilachinski, Irreducible Semi-Autonomous Adaptive Combat (ISAAC): An Artificial-Life Approach
+to Land Warfare, Alexandria, Va.: Center for Naval Analyses, 1997. Also see references to the follow-on
+EINStein model: Christopher P. Fredlake and Kai Wang, EINSTein Goes to War: A Primer on Ground Combat
+Models, Alexandria, Va.: CNA, September 2008. Also see various references to the Marine Corps’ Project
+Albert, under which many human-centric M&S efforts were aggregated. As of November 21, 2020, the
+Project Albert website is active but contains several disused links (ProjectAlbert.org, homepage, undated).
+20 See Howard Body and Colin Marston, “The Peace Support Operations Model: Origins, Development,
+Philosophy and Use,” Journal of Defense Modeling and Simulation, Vol. 8, No. 2, 2011.
+21 Nathan Hanley and Helen Gaffney, “The Peace Support Operations Model: Modeling Techniques Pres-
+ent and Future,” Journal of Defense Modeling and Simulation, Vol. 8, No. 2, 2011, p. 82.
+22 Robert G. Chamberlain and William H. Duquette, Athena’s Computable General Equilibrium Model,
+Pasadena, Calif.: California Institute of Technology, Jet Propulsion Laboratory, December 2012; Robert G.
+Chamberlain and William H. Duquette, Athena in 2013 and Beyond, Pasadena, Calif.: California Institute
+of Technology, Jet Propulsion Laboratory, December 2013.
+Adaptive Engagement for Undergoverned Spaces: Concepts, Challenges, and Prospects for New Approaches438
+Problems That Have Impaired Past and Current Human
+Behavior Research
+Several problems have hindered—and continue to hinder—human behavior research.
+Reverse Design, Narrow Theory, and Data Pull
+The lack of authenticity in human behavior research stems from three closely related and,
+in some cases, overlapping central problems in the approaches that modelers and simulation
+designers have taken to represent human behavior. Each of these problems is reflected in a dif-
+ferent type of approach. In the first case—here called the reverse design approach—individual
+and small group behavior is replicated as a series of decisions and actions, with little or at least
+less focus on the theory or theories that might explain the behavior. In the second case—here
+called the narrow theory approach—larger group behavior (according to our cited analyses,
+generally more than about 30 people) is adjudicated through the application of a single or domi-
+nant theory of human behavior that might or might not lead to a suspension of disbelief and
+might or might not be sufficiently enduring to justify the expense of its development. In the
+third case—here called the data-pull approach—the availability of data drives the design of the
+model and then the design of the simulation. 23 Each approach is discussed in detail.
+Reverse Design: Putting the Cart Well Before the Horse
+Large simulations funded by the U.S. military or allied militaries are typically built by teams
+of programmers working on deadlines, not by researchers pursuing gradual advances in sci-
+entific knowledge. 24 Military program managers continually push simulation companies to
+show results. In some cases, hundreds of millions of dollars might be on the line. 25 Design
+teams have every incentive to start their simulation design by focusing on outputs:
+• What behaviors will we show?26
+23 These approaches are not mutually exclusive. They are categorized here to help describe the types of
+efforts observed over the past 17 years, both as seen in uniform and as seen while at RAND.
+24 We have engaged with one non-U.S. organization that is taking a go-slow approach to large-scale con-
+structive simulation, but that case is the exception. See Connable et al., 2018, Chapter 3, and specifically
+p. 134, for reflections from interviews with simulation team designers referring to this process. In addition
+to conducting these interviews, our research team has engaged with multiple contract design teams over the
+past five years. Each of these teams has told us of their restraints and contractual constraints. In some cases,
+we have observed these issues firsthand as design consultants.
+25 See, for example, Jon Harper, “Army Spending Big on Training, Modeling, Simulation,” National
+Defense, December 2, 2019; and U.S. Army, RDT&E Budget Item Justification, Synthetic Training Environ-
+ment Refinement and Prototyping, Washington, D.C., March 2019. This Army budget document shows that
+the Army’s Synthetic Training Environment contract for simulation is worth over $232,000,000.
+26 In many cases, design teams are pressured to deliver a technology demonstrator showing basic behaviors
+within the first year of development. This forces the team to make a series of rapid and generally irrevers-
+Authentically Describing and Forecasting Human Behavior for Policy Analysis: A Review and a Path Forward439
+• How can we integrate these behaviors into the simulation?
+• What is the fastest and most economical way to create realistic agents to help suspend
+user disbelief?
+Design teams also must contend with computing limitations that restrict the number and
+complexity of calculations that their software can be asked to perform. They do not want
+to design a simulation that will crash the military system that it is designed to work on. In
+addition, design teams are limited by their contracts. In all cases that our team has observed
+or been informed of in the past five years, large simulation contract stipulations discourage
+or simply do not encourage the incorporation of human behavior. Behavioral complexity is
+often viewed as a programmatic risk. Finally, designers told us that most military consumers
+of simulations do not want to see authentic or even realistic human behavior because uncer-
+tain behavior causes unwanted variations in simulation outcomes. 27
+Given these incentives and restraints, big sim designers generally start their efforts to repre-
+sent human behavior by negotiating compromises in theory and design rather than by design-
+ing theory-driven human behavior and then making end-state compromises to account for the
+cost and limitations of computing. 28 Big sim design sometimes allows for a modicum of agent
+realism—but nothing approaching authenticity—in a handful of tightly scripted behaviors.
+Basic actions involve seeking cover from enemy fire or changing movement direction accord-
+ing to observed changes in the environment. In most cases, designers create supersoldiers by
+eschewing even the most basic human motivations and behaviors. 29 In all of the cases observed,
+no transparent or defensible theory of human behavior backed the work.
+Narrow Theory: Betting Big on a Big Idea
+While combat simulations tend to be designed in reverse, from outcome to theory, models
+and simulations of civilian population behavior tend to be driven by theories of threshold
+behaviors, message receptivity, and influence dynamics to make them responsive to actions
+taken by military forces in games and simulations. 30 The modeling of populations assumes
+ible programming decisions before any behavioral theory can even be contemplated. Our team advised a
+commercial organization that was forced into this narrow design window by a government sponsor.
+27 Connable et al., 2018, p. 134. Another troubling barrier is verification, validation, and accreditation
+(VVA). Government-funded simulation efforts are often required to undergo VVA before they can be certi-
+fied for use, but human behavior representation is extraordinarily hard to verify or validate using the same
+kinds of technical approaches used for the VVA of, for example, a model and simulation of a tank engine.
+28 Examples of big sims are JCATS, JWARS, OneSAF, COMBAT XXI, WARSIM, STORM, and JICM.
+29 Joseph S. McDonnell, “Distributed Soldier Representation: M&S Representations of the Human Dimen-
+sions of the Soldier,” presentation, NDIA Annual Systems Engineering Conference 2015, Orlando, Fla.: U.S.
+Army Research Laboratory, October 26–29, 2015.
+30 Examples of theoretical models are Guillaume Deffuant, David Neau, Frederic Amblard, and Gérard
+Weisbuch, “Mixing Beliefs Among Interacting Agents,” Advances in Complex Systems, Vol. 3, No. 1, January
+2000; Noah E. Friedkin and Eugene C. Johnsen, Social Influence Network Theory: A Sociological Examina-
+Adaptive Engagement for Undergoverned Spaces: Concepts, Challenges, and Prospects for New Approaches440
+rules-based behavior of some kind. These models tend to either represent populations with
+no agency—simply responding to stimuli—or employ variations of rational choice or cost-
+benefit heuristics familiar to economists. 31
+When attempting to simulate decisions across a large village or city, it makes practical
+sense to elevate the level of analysis and computation from the individual to the large group.
+Centering on a single or small set of behavioral theories and reducing variables keeps the
+computational demands manageable. It also saves an enormous amount of time and labor
+considering the alternative: modeling every individual and their interactions with the group
+and then managing at least two layers of interwoven behavioral outputs.
+Starting with a theory and working toward an outcome is more logical than moving in the
+other direction. However, this approach places big bets on a theory and provides little oppor-
+tunity to fully explore alternative explanations for behavior. A top-down (or, really, top-only)
+approach assumes away complexity, marginalizes the potentially acute impacts of emergent
+and divergent behavior, and precludes detailed examination of causality. Models and simula-
+tions designed around a single theory are particularly difficult to modify or improve on over
+time. Rapid obsolescence is a built-in risk because favored theories come and go and new
+advances in computing power allow ever greater fidelity at the agent level.
+Top-down, theory-driven models of group behavior run two more-serious and more-
+immediate risks. Consumers of the model and simulation have to believe the central theory
+to benefit from its outputs. It takes only a bit of skepticism to render these models null for
+policy decision support. Then again, senior consumers can become so enamored of a single
+approach that they fail to apply the healthy skepticism that they might apply to a more com-
+plex model. Such caveats as a model is always just a model fall away as simulations give the
+appearance of solving complex sociocultural problems on the fly. This occurred in Afghani-
+stan in the early 2010s, when senior leadership attempted to apply PSOM to real-world data
+to support real-time combat decisionmaking. 32
+More-recent sociological modeling pursues the complex middle ground between top-down
+theory and agent-based models that represent individual choice and emergent behavior. 33 There
+tion of Small Group Dynamics, New York: Cambridge University Press, 2011; Mark Granovetter, “Threshold
+Models of Collective Behavior,” American Journal of Sociology, Vol. 83, No. 6, May 1978; and John R. Zaller,
+The Nature and Origins of Mass Opinion, New York: Cambridge University Press, 1992.
+31 Mark Granovetter, “Economic Action and Social Structure: The Problem of Embeddedness,” American
+Journal of Sociology, Vol. 91, No. 3, November 1985.
+32 This occurred when the commander of the International Security Assistance Force Joint Command
+LTG David M. Rodriguez instructed his staff to apply PSOM to operational design in the Afghanistan
+campaign to defeat the Taliban. For reference, see Ben Connable, Walter L. Perry, Abby Doll, Natasha
+Lander, and Dan Madden, Modeling, Simulation, and Operations Analysis in Afghanistan and Iraq: Oper-
+ational Vignettes, Lessons Learned, and a Survey of Selected Efforts, Santa Monica, Calif.: RAND Corpo-
+ration, RR-382-OSD, 2014, pp. 121–135.
+33 See, for example, Steven N. Durlauf and H. Peyton Young, eds., Social Dynamics, Washington, D.C.:
+Brookings Institution and MIT Press, 2001; Aaron B. Frank, “Toward Computational Net Assessment,”
+Authentically Describing and Forecasting Human Behavior for Policy Analysis: A Review and a Path Forward441
+is a broader recognition of theoretical challenges in both individual and social-behavioral mod-
+eling. 34 We have pursued this integrated approach in our work, and it is the approach that we
+suggest, whether one is building on the RAND model, one of the other models described here
+or in the main body or appendixes of Will to Fight, or a prospective model.
+Data Pull: “It’s the Data, Stupid”
+Data-driven design is one of the most common approaches to simulation design in support of
+contingency operations in Afghanistan and Iraq. Rather than start with desired outputs or a
+narrow theory about human behavior, modelers and simulation developers start this process
+by identifying and collecting available data and then trying to assemble a working simulation
+to press the data together to make causal inferences.
+The data-pull approach was most common in the 2000s and early 2010s, at the height of
+the popularity of multivariate regression analyses for military applications. “Just give me the
+data” was commonly heard in assessment and design symposiums. 35 Or, as George Akst at the
+Marine Corps Combat Development Command more bluntly suggested in a 2007 operations
+research article, “It’s the data, stupid.”36 Because of the complexity of the wars in Afghanistan
+and Iraq, starting with available data seemed practicable to many analysts.
+Examples of this approach are the NATO Consultation, Command, and Control Agen-
+cy’s real-time Afghanistan assessment tool and the U.S. Army Training and Doctrine Com-
+mand’s Irregular Warfare Tactical Wargame. The NATO effort identified and used all avail-
+able data from military, civil, and private-sector sources across Afghanistan, translated these
+data into relational variables, and then generated a continually shifting color code in shades
+of green, yellow, and red that represented the overall status of Afghanistan at a given moment.
+The tactical wargame (really, an analytic tool to understand societal-level conditions) was
+also an effort to identify all sources of available individual-, group-, and national-level data
+Journal of Defense Modeling and Simulation, Vol. 14, No. 1, 2017; Hong Jiang, Waldemar Karwowski, and
+Tareq Z. Ahram, “Applications of Agent-Based Simulation for Human Socio-Cultural Behavior Modeling,”
+Work, Vol. 41, No. 1, 2012; Barry G. Silverman, Norman I. Badler, Nuria Pelechano, and Kevin O’Brien,
+Crowd Simulation Incorporating Agent Psychological Models, Roles, and Communication, Philadelphia,
+Pa.: University of Pennsylvania, 2004; and Paul Smaldino, Cynthia Pickett, Jeffrey Sherman, and Jeffrey
+Schank, “An Agent-Based Model of Social Identity Dynamics,” Journal of Artificial Societies and Social
+Simulation, Vol. 15, No. 4, 2012.
+34 DARPA has previously sponsored work in this area, and our RAND colleagues have provided insight
+through DARPA-funded and other government-sponsored research. See, for example, Paul K. Davis, Angela
+O’Mahony, Timothy R. Gulden, Osonde A. Osoba, and Katharine Sieck, Priority Challenges for Social and
+Behavioral Research and Its Modeling, Santa Monica, Calif.: RAND Corporation, RR-2208-DARPA, 2018;
+and Paul K. Davis, Angela O’Mahony, and Jonathan Pfautz, eds., Social-Behavioral Modeling for Complex
+Systems, Hoboken, N.J.: John Wiley & Sons, 2019.
+35 Having participated in tens of conferences, working groups, and symposiums on irregular warfare and
+conflict area analysis and simulation, I heard some version of this phrase from several people in a signifi-
+cant majority of these events held from 2010 through 2019.
+36 George Akst, “It’s the Data, Stupid,” Phalanx, Vol. 40, No. 4, December 2007.
+Adaptive Engagement for Undergoverned Spaces: Concepts, Challenges, and Prospects for New Approaches442
+on Afghanistan, from the price of wheat, to the number of violent attacks per day, to the
+number of internally displaced persons; to categorize all of these as relatable ontologies; and
+to then process them to identify relational values. Figure 15.1 shows an image of the more
+than 400 interrelated ontologies in the Army’s tactical wargame model.
+Ultimately, both of these efforts failed, although they had been earnestly applied in the
+pursuit of accurate population behavior forecasting. The Army model was so complex that it
+reportedly could not be made to run. 37 The NATO model never succeeded in earning the trust
+of policymakers or battlefield commanders. 38 Between 2010 and 2020, the many failures and
+the few minor but generally low-impact successes of the data-pull approach effectively ended
+the era of multivariate regression fever. 39 Big data and machine learning are driving a simi-
+lar data-pull approach to solve the problems of modeling and simulating human complexity.
+Causal Inference: An Insurmountable Hurdle?
+Causal inference represented a seemingly insurmountable hurdle to the data-pull M&S teams.
+Hundreds of types of data were available, and all seemed to be relevant to understanding the
+socio-cultural-economic environment. But working backward to infer (let alone prove) cau-
+sation between two variables (and hundreds of interdependent variables) was neither efficient
+nor, arguably, possible. Since 2010, RAND researchers participated in and reviewed several
+research efforts to produce an authentic holistic environment and earn consumers’ trust in a
+way that might support more-effective policy decisionmaking—none succeeded.
+Other Problems: Community Warnings, Avoidance of Complexity,
+and Lack of Championing
+As thousands of researchers, modelers, and simulation designers struggled to build a work-
+ing, holistic representation of human behavior, they were accompanied by a cacophony of
+warning sirens indicating dangerous gaps in capability and a lack of meaningful forward
+progress. From at least 2005 through the late 2010s, Western military leaders, DoD staffs,
+37 A member of the M&S team provided this information to me in a face-to-face conversation in the early
+2010s. I do not have access to other sources that might confirm or deny this information.
+38 For more on the debate about this approach and contemporaneous approaches, see Jim Bexfield and Cy
+Staniec, “Allied Information Sharing Support to ISAF and Support to Afghanistan Transition Metrics,” brief-
+ing, Brunssum, The Netherlands: NATO Research and Technology Organisation, SAS-091, August 2012; and
+Ben Connable, Embracing the Fog of War: Assessment and Metrics in Counterinsurgency, Santa Monica, Calif.:
+RAND Corporation, MG-1086-DOD, 2012.
+39 I make this observation in the wake of a ten-year engagement with the operations analysis and M&S com-
+munities, detailed in some of the cited works in this chapter, such as Connable, 2012; Connable et al., 2014;
+and, most recently, in my keynote speech to the 2018 Military Operations Research Society conference (Ben
+Connable, “Big Questions, No Clear Answers: A Look Back and a Look Ahead for Operations Researchers
+Assessing War,” keynote speech, 2018 Military Operations Research Society conference, “Analytic Support
+to Contingency/Named Operations and Advancing the Professionalism of Assessments,” MacDill Air Force
+Base, Tampa, Fla., February 2018).
+Authentically Describing and Forecasting Human Behavior for Policy Analysis: A Review and a Path Forward
+443
+FIGURE 15.1
+The U.S. Army Training and Doctrine Command’s Irregular Warfare Tactical Wargame
+SOURCE: Dean S. Hartley, Lee Lacey, and Paul Works, “IW Ontologies,” briefing, INFORMS National Meeting, Charlotte, N.C., November 2011. For analysis of
+this approach, see Connable et al., 2014, pp. 87–88.
+Adaptive Engagement for Undergoverned Spaces: Concepts, Challenges, and Prospects for New Approaches444
+analytic organizations, and formal science boards clearly identified and lamented the inabil-
+ity to understand, model, simulate, and forecast human behavior. These laments were not fol-
+lowed by the kind of innovation and championing needed to make real strides in science and
+policy analysis. DoD’s failure to mobilize and address the lack of authentic human behavior
+representation remains a barrier to the national security community’s research and develop-
+ment agencies.
+Formal Gap Identification and Calls for Improvement
+In 2008, an analytic consortium tasked with assessing U.S. defense capabilities to analyze
+irregular warfare identified nine “extremely high risk” gaps in analytic and modeling capa-
+bilities for decision support. 40 These extremely high-risk gaps included understanding civil-
+ian populations, understanding civil-military operations, and, more broadly, understanding
+interaction between actors. In 2009, the Defense Science Board Task Force on Understanding
+Human Dynamics wrote, “Unfortunately, the current ease of programming is turning ade-
+quate programmers into poor modelers capable of turning out tools with impressive inter-
+faces, but little theoretical power under the hood.”41 Also in 2009, a team of NATO scientists
+examining human behavior representation in simulation warned, “[T]he scientific knowl-
+edge in this field is still fragmented and has not reached a useful level of modeling.”42
+A standout argument was made by then–Vice Chairman of the Joint Chiefs of Staff Gen Paul
+Selva. In the 2016 Joint Concept for Human Aspects of Military Operations (JC-HAMO), Selva
+and his staff stated that the U.S. military did not understand human dynamics and had few
+tools available to rectify this gap. 43 Selva recognized conflict—both competition and high-
+order war—as a primarily human endeavor. He singled out the need to understand the will of
+humans to forecast their decisionmaking. He proposed an operational framework that closely
+mirrors the ASDA framework. Figure 15.2 depicts this approach to integrating the assessment
+of human motivation and behavior into an operational process and the ASDA framework. The
+two frameworks appear to be complementary.
+Despite these clear and well-articulated warnings and demands for improvement, there
+has been little progress toward integrating practical human behavioral modeling into con-
+structive simulations. These gaps were identified in the previous sections of this chapter. In
+working on human behavior assessment, modeling, and simulation, I have identified two
+trends in defense leadership that have inhibited progress.
+40 Irregular Warfare Methods, Models and Analysis Working Group, Final Report, Ft. Leavenworth, Kan.:
+TRADOC Analysis Center, August 18, 2008, Not available to the general public, p. 27.
+41 Defense Science Board Task Force, Report of the Defense Science Board Task Force on Understanding
+Human Dynamics, Washington, D.C.: U.S. Department of Defense, March 2009, p. 107.
+42 NATO, 2009, p. ES-1.
+43 Joint Chiefs of Staff, Joint Concept for Human Aspects of Military Operations, Washington, D.C., Octo-
+ber 19, 2016.
+Authentically Describing and Forecasting Human Behavior for Policy Analysis: A Review and a Path Forward
+445
+FIGURE 15.2
+The JC-HAMO Operational Framework and the DARPA ASDA Framework
+SOURCES: Joint Chiefs of Staff, 2016, p. 14; Root, 2020, p. 7.
+NOTE: EW = electronic warfare.
+Adaptive Engagement for Undergoverned Spaces: Concepts, Challenges, and Prospects for New Approaches446
+“It Can’t Be Done”
+The idea of investing resources in developing a holistic model and simulation of human
+behavior is simply unpalatable to many senior science leaders, military leaders, and poli-
+cymakers. Although many leaders with whom we spoke were enthusiastic about the idea of
+holistic and authentic behavioral modeling, all but a few rejected out of hand the possibility
+of making progress. 44 Common refrains were, “It’s too difficult,” “It would take too long,”
+and “It can’t be done.” Such conclusions build on a false dichotomy: Perfect authenticity is
+too hard or impossible, so nothing should be done. But I argue for increasingly improving
+authenticity over a very long time, with the sober understanding that models are always just
+models and that true authenticity—a 100-percent faithful, scientifically accurate representa-
+tion of human behavior—is probably never going to be possible. The argument in this chapter
+is for improving authenticity, not for trying to attain perfection.
+Lack of Advocacy
+Skepticism, and in some cases outright cynicism, about the prospects of human behavior mod-
+eling and representation fed into the second observed leadership dynamic—lack of champion-
+ing. Selva’s 2016 report stood out as one of the only senior calls for improvement.45 The JC-
+HAMO is no longer available on the website of the Joint Chiefs of Staff, 46 and our project team
+did not identify any other four-star flag rank advocates for human behavioral M&S. Lack of
+additional top-level advocacy represents at least some failure of leadership and a collective fail-
+ure on the part of the scientific community—including our own team—to provide a clear and
+convincing argument and pathway toward addressing the gaps that DoD has already identified.
+The Will-to-Fight Model: An Empirically Derived Organizing
+Framework
+Despite this collective lack of progress in the field, most of the pieces are in place to methodi-
+cally develop and, over time, implement an authentically (but not necessarily fully authen-
+44 Supporters tended to hold the rank of O-6 (colonel or naval captain equivalent) or, in a handful of cases,
+O-8 (two-star flag equivalent).
+45 The Vice Chief of the Joint Chiefs of Staff is generally not empowered to drive joint force policy or force
+design or to have significant influence over service policy or force design. I believe that Selva and his staff
+are to be commended. The JC-HAMO stands out as one of the most forthright joint concept papers in the
+era after the September 11, 2001, terrorist attacks.
+46 A November 2020 internet search for the title of the report (with and without quotes) returned no
+matches. There does not appear to be an explanation for the removal of this document from the official
+website. Other, older joint concept documents can still be found at .mil websites. The Joint Concept for Oper-
+ating in the Information Environment cites the JC-HAMO and identifies it as a living companion document
+(Joint Chiefs of Staff, Joint Concept for Operating in the Information Environment (JCOIE), Washington,
+D.C., July 25, 2018, p. 4, footnote 17).
+Authentically Describing and Forecasting Human Behavior for Policy Analysis: A Review and a Path Forward447
+tic) modeled human with basic functionality and a reasonable practical design. Once fully
+built, this individual agent model can be used to generate a more authentic and holistic social
+behavioral model. As noted earlier in this chapter, other models (such as MANA and ISAAC)
+exist, and new holistic models may be in the offing. The Will-to-Fight Model is used here as
+an example. I discuss its origins and progress to date.
+Inductive Development of the Will-to-Fight Model
+Beginning in late 2015, RAND undertook an effort to model and simulate humans’ will to
+fight in conflict situations, defining will to fight as “the disposition and decision to fight, to act,
+or to persevere when needed.”47 Initial efforts for the U.S. Army were informed by the exist-
+ing efforts cited throughout this chapter and through several collaborations with scientists,
+modelers, and simulation designers in both the public and private sectors. The 2015–2017
+effort led to the creation of a structured analytic model and tool for assessing the individual,
+group, organizational, state, and societal influences on human will and decisionmaking.
+Figure 15.3 depicts the RAND Will-to-Fight Model as an organized set of 29 factors and
+61 subfactors that influence human motivation and decisionmaking in conflict. We distilled
+these factors using an inductive analysis of the literature from several diverse yet related
+fields: psychology, sociology, history, anthropology, political science, international relations,
+performance analysis, education, training, modeling, and simulation. These factors organize
+and cue data collection. They can be used to help structure analysis as a baseline for more-
+complex, and certainly more-gradual, efforts to identify causality between factors.
+Analysis and simulation have been central to the ongoing research. Building from the
+finding that constructive computer simulations of human behavior tended to ignore most
+learning patterns and drivers of human behavior, such as cognitive schemas, emergent adap-
+tation, psychological explanations of personality, cultural influences on behavior, individual
+physiology, fatigue, and fear, we implemented a complex model of human behavior into a
+NetLogo prototype and then into the Infantry Warrior Simulation (IWARS). 48
+Modeling Forward, Simulating Backward
+While we derived our model of influences on human behavior inductively from the various
+literatures, we pursued what might be called holistic realism in our initial simulation experi-
+ments and, later, in our simulation development work for the Army Modeling and Simula-
+tion Office (AMSO). We applied and then evolved a reasonable but not yet authentic model
+47 Connable et al., 2018, pp. 2–3.
+48 For information on IWARS, see Joshua Eaton, Ryan Kalnins, Mitchell McKearn, Preston Wilson, and
+Andrew Zecha, “Verification and Validation of the Infantry Warrior Simulation (IWARS) Through Engage-
+ment Effectiveness Modeling and Statistical Analysis,” 2014 Systems and Information Engineering Design
+Symposium, Charlottesville, Va., 2014; and Nazli N. El Samaloty, Roger Schleper, Mary Anne Fawkes, and
+Dean Muscietta, “Infantry Warrior Simulation (IWARS),” Phalanx, Vol. 40, No. 2, June 2007.
+Adaptive Engagement for Undergoverned Spaces: Concepts, Challenges, and Prospects for New Approaches448
+of human behavior. The intent was to show how a system-of-systems simulation of the whole
+human as a unique individual and a member of a dynamic group—including broad cultural
+variables—could and would change the outcomes of constructive simulation and, therefore,
+human behavioral forecasting.
+In IWARS experiments, each individual agent in our simulation had a living trait-state
+personality that interacted with group factors, such as leadership and cohesion. 49 Over thou-
+sands of simulated combat runs in three increasingly complex scenarios, we showed that
+adding holistic realism to individual agents substantially changed the odds of task success or
+failure in comparison with the supersoldier agents found in most constructive simulations.
+This finding reinforced similar findings from experiments cited throughout this chapter and
+was consistent with the broader observation that combat models can produce more variabil-
+ity in results than defense planners often assume. 50
+49 Connable et al., 2018, Chapter 3.
+50 J. A. Dewar, J. J. Gillogly, and M. L. Juncosa, Non-Monotonicity, Chaos, and Combat Models, Santa
+Monica, Calif.: RAND Corporation, R-3995-RC, 1991.
+FIGURE 15.3
+The Will-to-Fight Model Factors and Subfactors
+SOURCE: Connable et al., 2018, Figure S.5.
+NOTE: This figure has been modified from the original to add the outer rings to
+simplify the concept depicted in the factor wheel.
+Broader influence
+Close groups
+Individuals
+Authentically Describing and Forecasting Human Behavior for Policy Analysis: A Review and a Path Forward449
+Implementing a Realistic Human Agent Informed by Empirical Research
+Given the success of the modeling effort and our initial simulation demonstration, we expanded
+on our work through AMSO. Over two years, we converted the RAND Will-to-Fight Model
+into a human behavioral model and tested this model in both tabletop games and simulations.
+Gradually, we moved from holistic realism to incorporate elements of authenticity.
+In place of our original IWARS personality model, designed by a single psychologist for
+Microsoft in the mid-1990s, we integrated the commonly accepted five-factor personality
+model into a realistic (still not yet authentic) agent with the factor-by-factor RAND Will-
+to-Fight Model. Between 2018 and 2020, we implemented this agent model into the Army’s
+premier OneSAF simulation.
+In mid-2020, we began implementing our human behavioral model into the Unreal 4
+gaming engine. 51 As of late 2020, the human behavioral model has been accepted for full
+incorporation into Version 10 of OneSAF.
+Modeling and simulating various implementations of the Will-to-Fight Model has estab-
+lished an empirically derived, holistic framework for organizing and analyzing the factors that
+influence human behavior. Although the model is not yet fully authentic—and might never
+be—it can be used to assess the disposition of an individual or group to select from several avail-
+able actions in a given situation. Together, the realistic simulation behavior generated from the
+model and the analyses of scientific theory and practice central to the research have set the con-
+ditions to move toward authentically modeled and simulated human behavior representation.
+Moving Toward Authenticity with a Biopsychosocial Framework
+With the notable exceptions cited, most efforts to model and simulate human behavior have
+started with a desired outcome, a single theory or narrow set of theories of human behavior,
+or simply large sets of data. Our approach starts by accepting a simple organizing theory of
+human behavior that mirrors our will-to-fight construct: a biopsychosocial framework for
+variable and data organization and eventually authentic causal modeling. 52
+51 Our analysis of available and emerging simulations showed that Unreal 4—and, soon, Unreal 5—is prob-
+ably the most widely used, flexible, and accessible simulation engine available. We also considered the Unity
+engine and closed systems, including COMBAT XXI and JICM.
+52 Jeanette M. Bennett, Nicolas Rohleder, and Joachim P. Sturmberg, “Biopsychosocial Approach to Under-
+standing Resilience: Stress Habituation and Where to Intervene,” Journal of Evaluation in Clinical Practice,
+Vol. 24, No. 6, December 2018; George L. Engel, “The Clinical Application of the Biopsychosocial Model,”
+American Journal of Psychiatry, Vol. 137, No. 5, May 1980; Roy R. Grinker, ed., Toward a Unified Theory of
+Human Behavior, New York: Basic Books Inc., 1956; Mark D. Seery, “The Biopsychosocial Model of Chal-
+lenge and Threat: Using the Heart to Measure the Mind,” Social and Personality Psychology Compass, Vol. 7,
+No. 9, 2013; and Nikki R. Wooten, “A Bioecological Model of Deployment Risk and Resilience,” Journal of
+Human Behavior in the Social Environment, Vol. 23, No. 6, 2013.
+Adaptive Engagement for Undergoverned Spaces: Concepts, Challenges, and Prospects for New Approaches450
+George L. Engel’s Biopsychosocial Concept
+The term biopsychosocial is widely credited to physician George L. Engel. In the early 1980s,
+Engel sought to change the process of medical evaluation by adding in psychological, envi-
+ronmental, and social considerations. In Engel’s proposed approach, doctors would consider
+the influences of psychological traits and states, social relationships, and environmental fac-
+tors in interpreting medical symptoms rather than focusing solely on the narrower, more
+mechanical process of matching biological symptoms to probable biological or environmen-
+tal causes. Individual patients would be treated as individual systems-of-systems (a person’s
+body and mind) operating within a broader, interconnected system-of-systems (society, envi-
+ronment, etc.). Each patient would be evaluated with this complex and meaningful interplay
+in mind. No person would be unrealistically treated as an island of symptoms.
+Engel based his work on Ludwig von Bertalanffy’s General System Theory. 53 In doing so,
+he adopted the theory that everything—a human cell, an individual person, a machine, a
+village, and ultimately the whole world—operates as a system or as an interrelated system
+of smaller systems. Engel visualized his system-of-systems approach around the individual.
+Figure 15.4 depicts Engel’s original visualization of systems, ranging from individual mol-
+ecules to the complete biosphere.
+In his original article, Engel described the biopsychosocial framework as a model. This led
+to several bruising critiques attacking his use of the term model. Critics argued that his use of
+the term was unconventional, that there were no relational values between variables, and that
+there was no causal inference. 54 The biopsychosocial model was not like a schematic model of
+an automobile or the physiological model of the human body. Therefore, according to these
+arguments, it was not a model.
+Using the Biopsychosocial Framework
+Although these critiques had some merit, they generally overlooked the potential value of
+the biopsychosocial concept. Engel was not proposing a causal multivariate regression model
+or any other type of computational approach to calculate holism. Instead, he was proposing
+an epistemic framing of a holistic, systems-based human behavior theory to replace the nar-
+rower, school-of-thought–anchored approaches applied by medical, psychiatric, and socio-
+53 Ludwig von Bertalanffy, General System Theory: Foundations, Development, Applications, revised ed.,
+New York: G. Braziller, 1974.
+54 The following is a sample of critiques of Engel and more-positive articles: Rolf H. Adler, “Engel’s Bio-
+psychosocial Model Is Still Relevant Today,” Journal of Psychosomatic Research, Vol. 67, No. 6, Decem-
+ber 2009; Francesc Borrell-Carrió, Anthony L. Suchman, and Ronald M. Epstein, “The Biopsychosocial
+Model 25 Years Later: Principles, Practice, and Scientific Inquiry,” Annals of Family Medicine, Vol. 2, No. 6,
+November–December 2004; Deborah L. Cabaniss, Diana E. Moga, and Maria A. Oquendo, “Rethinking the
+Biopsychosocial Formulation,” The Lancet, Vol. 2, No. 7, July 2015; S. Nassir Ghaemi, “The Rise and Fall of
+the Biopsychosocial Model,” British Journal of Psychiatry, Vol. 195, No. 1, 2009; and N. McLaren, “A Critical
+Review of the Biopsychosocial Model,” Australian & New Zealand Journal of Psychiatry, Vol. 32, No. 1, 1998.
+Authentically Describing and Forecasting Human Behavior for Policy Analysis: A Review and a Path Forward451
+logical researchers and practitioners. 55 Engel suggested pursuing holism, while the scientific
+community generally rejected, and still rejects, holism in practice because of its many and
+seemingly insurmountable challenges.
+As we discovered, it is hard to get two psychologists to agree on a unitary theory of human
+personality, let alone on the existence of a causal relationship model combining the elements
+of personality and brain functioning, physiological conditioning, social relationships, and
+more. Starting the pursuit of authentic modeling by trying to force the entirety of science into
+a biopsychosocial model would be counterproductive.
+Transparent Limitations and Forward Progress
+Starting with a holistic causal biopsychosocial model and then trying to get that model to
+function would be no more helpful to developing authentic human behavior representation
+than the notably unhelpful and unsuccessful big sim practices. We have followed our RAND
+colleagues and other researchers and have not attempted to get all of known science to agree
+on a holistic model of human behavior at the outset of our research. Creating a causal mul-
+tivariate regression model of the whole human is not what is proposed, at least not anytime
+55 Some of the critiques acknowledge this point, while others overlook it.
+FIGURE 15.4
+George L. Engel’s Biopsychosocial Concept
+SOURCE: Adapted from Engel, 1980, p. 537.
+Biosphere
+Society-nation
+Culture-subculture
+Community
+Family
+Two person
+Person
+Nervous system
+Organ/organ systems
+Tissue
+Cell
+Organelle
+Mole-
+cule
+Adaptive Engagement for Undergoverned Spaces: Concepts, Challenges, and Prospects for New Approaches452
+soon. Holistic, scientific authenticity is a very long-term goal. It might be referred to as an
+enduring vision to help guide the community’s collective work.
+To continue making forward progress toward authenticity and holism, we are follow-
+ing Engel’s intent by accepting a knowingly and transparently imperfect system-of-systems
+framework. Using the factors in the Will-to-Fight Model—also not a model in many common
+interpretations of the word—and existing, empirically sound, and broadly accepted behav-
+ioral subsystems (e.g., a personality subsystem, a fatigue subsystem, a social cohesion sub-
+system), we can organize a reasonable biopsychosocial model that can be improved on over
+considerable time to achieve full authenticity. This is discussed in the next section.
+Organizing the Central Elements of a Proposed
+Biopsychosocial Model
+Many researchers have described the necessary components of a holistic human behavioral
+model. 56 These components include a personality model, a model of the human body and
+its various subcomponents, a neurological model, a cognitive model, a perception model, a
+fatigue model, and some kind of rational choice decisionmaking model. Layering beyond the
+individual, we can add in a social networking model, a social and task cohesion model, and
+other models that are associated with the transmission of ideas, human influence, human
+identity, and the motivational factors that influence agentic choice.
+Each of these can be broken down into many subordinate models. For example, the human
+body alone could be broken into a model of each organ, each limb, each joint, the nervous
+system, etc. Simply listing the prospective parts of a holistic biopsychosocial system is daunting.
+If we accept that we are not going to achieve true holism or produce verifiable, causal results
+from our agent-based model in the short term, then creating a knowingly imperfect but practi-
+cable and useful biopsychosocial model becomes possible. The proposed advance is one of orga-
+nization. All of these component models exist but are typically not organized or applied simulta-
+neously. Most commonly, endogenous models of function—models of cognition, fatigue, resting
+heart rate variability, physiological systems, etc.—are not integrated with exogenous data.
+As a first step, a biopsychosocial model simply concentrates endogenous models for
+experimentation and research and identifies exogenous social, cultural, and environmental
+data to influence these models. This system-of-systems, biopsychosocial model—informed
+by exogenous data—can also be used for forecasting that, although still knowingly
+imperfect, would arguably be an improvement over approaches described in this chap-
+ter. See the section on DARPA’s Conflict, Modeling, Planning, and Outcomes Exploration
+(COMPOEX) for more discussion on the challenges of integrating exogenous variables into
+endogenous agent-level models.
+56 See Davis et al., 2018, and the other works on human behavioral simulation cited in this chapter for
+examples.
+Authentically Describing and Forecasting Human Behavior for Policy Analysis: A Review and a Path Forward453
+Our research suggests four pieces that a basically functioning biopsychosocial model must
+have: a personality model, a physiological model, a cognitive behavioral model, and a social
+relationship model. These represent the four moving pieces necessary to create a basic, func-
+tional model of human decisionmaking and behavior. The model must also have functions
+for taking in a broad array of other data without destabilizing behavioral representation or
+overwhelming computational assets.
+Pieces in Place for the Four Central Subsystems
+Each of these four basic subsystems has been thoroughly and effectively modeled and, in many
+cases, simulated by other research teams and practitioners using empirical processes. The five-
+factor model of human personality is broadly accepted by psychologists and psychiatrists. 57
+There is considerable literature on five-factor modeling to support careful integration into a
+basic biopsychosocial model. 58 Models and simulations of the human body proliferate and are
+in broad use by medical researchers, sports organizations, and the military. For example, the
+Santos physiological model effectively represents a variety of human physiology and perfor-
+mance. 59 Cognitive modeling is a separate field of research and practice that has many widely
+used models, including those cited here, such as ACT-R. Social modeling is also well estab-
+57 Ellen Hartmann and Cato Grønnerød, “Rorschach Variables and Big Five Scales as Predictors of Mili-
+tary Training Completion: A Replication Study of the Selection of Candidates to the Naval Special Forces
+in Norway,” Journal of Personality Assessment, Vol. 91, No. 3, 2009; Robert R. McCrae and Oliver P. John,
+“An Introduction to the Five-Factor Model and Its Applications,” Journal of Personality, Vol. 60, No. 2, June
+1992; Robert E. Ployhart, Beng-Chong Lim, and Kim-Yin Chan, “Exploring Relations Between Typical and
+Maximum Performance Ratings and the Five Factor Model of Personality,” Personnel Psychology, Vol. 54,
+No. 4, 2001; and Sonia Roccas, Lilach Sagiv, Shalom H. Schwartz, and Ariel Knafo, “The Big Five Personality
+Factors and Personal Values,” Personality and Social Psychology Bulletin, Vol. 28, No. 6, June 2002.
+58 Sebastian Ahrndt, Johannes Fähndrich, and Sahin Albayrak, Modelling of Personality in Agents: From
+Psychology to Implementation, Fourth International Workshop on Human-Agent Interaction Design and
+Models in Conjunction with AAMAS, Istanbul, Turkey, May 2015; André M. C. Campos, Emanuel B.
+Santos, Anne M. P. Canuto, Rodrigo G. Soares, and João Carlos Alchieri, “A Flexible Framework for Rep-
+resenting Personality in Agents,” AAMES ’06: Proceedings of the Fifth International Joint Conference on
+Autonomous Agents and Multiagent Systems, Hokkaido, Japan, 2006; Funda Durupinar, From Audiences
+to Mobs: Crowd Simulation with Psychological Factors, doctoral thesis, Ankara, Turkey: Bilkent University,
+2010; Sara Karimi and Mohammad Reza Kangavari, “A Computational Model of Personality,” Procedia—
+Social and Behavioral Sciences, Vol. 32, 2012; and Ahmed Mustafa, Aisha-Hassan A. Hashim, Othman
+Khalifa, and Shihab A. Hamed, “Adaptive Emotional Personality Model Based on Fuzzy Logic Interpreta-
+tion of Five Factor Theory,” Signal Processing, Vol. 2, No. 4, November 2008.
+59 See, for example, Karim Abdel-Malik, Jasbir Arora, Jingzhou Yang, Timothy Marler, Steve Beck, Colby
+Swan, Laura Frey-Law, Anith Mathai, Chris Murphy, Salam Rahmatallah, and Amos Patrick, “Santos: A
+Physics-Based Digital Human Simulation Environment,” research paper, Iowa City, Iowa: University of
+Iowa, undated.
+Adaptive Engagement for Undergoverned Spaces: Concepts, Challenges, and Prospects for New Approaches454
+lished; for example, see Chapter Sixteen by Robert L. Axtell in this report. 60 Using a five-factor
+model does not by itself convey authenticity, but it does help move the model closer to holism.
+Trait-State Behavioral Representation and Change
+The four core subsystem models in our individual-level system allow us to create an agent
+(and eventually, groups) with semipermanent traits and fluctuating states anchored in estab-
+lished literature across at least these four fields of scientific research and practice. Trait-
+state is a tested approach to understanding human personality and behavior. 61 Briefly,
+individuals have semipermanent traits—personality factors, physical capabilities, beliefs,
+motivations, and learned behaviors—that constitute a general disposition to act. The states of
+each trait fluctuate according to environmental inputs and the condition of the agent, tempo-
+rarily changing the agent’s disposition to act. Over time—or, in some cases, quickly, through
+trauma—such experiences as conflict, illness, or personal success can shift the semiperma-
+nent traits to generate more-lasting changes to behavioral disposition.
+Figure 15.5 depicts example results from our initial trait-state simulation experiments.
+The graph on the left shows three traits from our first exploratory human behavioral model.
+In each case, the initial trait value changes as the agent is exposed to stress. The graph on the
+right shows trait-state threshold changes to behavior (in this case, running away) and some
+semipermanent changes to the agent’s traits from the trauma of the event.
+As we evolved our trait-state model, we integrated an overarching will-to-fight value for
+each agent and for group units. Will to fight was used as an aggregate variable derived from
+the combination of all traits. Figure 15.6 depicts an example of a simple will-to-fight tracker
+for an individual agent in a tabletop exercise that we developed to help design human behav-
+ior simulations. It shows a score of 1–20, with 1 being very low will to fight and 20 represent-
+ing heroic will to fight. When civilian behavior in noncombat situations is being modeled,
+this tracker could be used to represent agent motivation to act.
+Informing Traits with the Will-to-Fight Factors
+The RAND Will-to-Fight model allowed us to identify, collect, and analyze real-world infor-
+mation and integrate it into the behavioral traits of each agent. We designed and applied a
+will-to-fight assessment tool in Microsoft Excel and in Adobe PDF to take in and record data
+60 Robert L. Axtell, “Short-Term Opportunities, Medium-Run Bottlenecks, and Long-Time Barriers to
+Progress in the Evolution of an Agent-Based Social Science,” in Aaron B. Frank and Elizabeth M. Bar-
+tels, eds., Adaptive Engagement for Undergoverned Spaces: Concepts, Challenges, and Prospects for New
+Approaches, Santa Monica, Calif.: RAND Corporation, RR-A1275-1, 2022.
+61 Charles Donald Spielberger, Manual for the State-Trait Anxiety Inventory STAI (Form Y), Palo Alto, Calif.:
+Mind Garden, 1983; and Rolf Steyer, Manfred Schmitt, and Michael Eid, “Latent State–Trait Theory and
+Research in Personality and Individual Differences,” European Journal of Personality, Vol. 13, No. 5, 1999.
+Authentically Describing and Forecasting Human Behavior for Policy Analysis: A Review and a Path Forward455
+for each of the 29 factors in the model and nine additional situational factors. 62 We identified
+and experimented with seven traits: (1) a personality trait centered on the five-factor model,
+(2) resilience, (3) physical fitness, (4) devotion to cause, (5) leadership, (6) adaptability, and
+(7) sensitivity to moral injury. These traits and many skills necessary for combat were built
+by applying all 29 factors of the Will-to-Fight Model to each individual’s basic personality
+and fitness traits. Individual behavioral disposition latent in each agent’s traits was a product
+of ideology, economic incentive, training, education, small group social cohesion, multiple
+levels of leadership, perceptions of public support, quality and usefulness of equipment, orga-
+nizational integrity, methods of discipline, and other factors.
+62 These nine additional factors—climate, weather, terrain, fatigue, mission, adversary reputation, adver-
+sary performance, messaging, and allies—are applied when the will-to-fight analysis is conducted for a spe-
+cific situation, such as a prospective battle between two known adversaries.
+FIGURE 15.5
+Trait-State Fluctuations and Associated Behavioral Changes
+SOURCE: Connable et al., 2018, p. 152.
+1.2
+1.0
+0.8
+0.4
+0.2
+0
+0.6
+Trait-state value
+Simulation time
+Anxiety
+Anger
+Stability
+One or more stressors cause
+states to change
+1.2
+1.0
+0.8
+0.6
+0.4
+0.2
+0
+Trait value
+Simulation time
+Trait changes stick if
+stressors cause a large
+enough difference
+Combination of traits can
+cause unusual behaviors
+and altered states
+Flee
+threshold
+met
+Flee
+event
+FIGURE 15.6
+Will-to-Fight Trait-State Scale for Individual Agents
+19181716151413121110987654321 20
+Will to fight tracker Highly resilient
+Failure testing Capable defense Capable attack Heroic
+Adaptive Engagement for Undergoverned Spaces: Concepts, Challenges, and Prospects for New Approaches456
+Example: The Devotion Trait
+In testing, we integrated the will-to-fight factor results with the parameterized five-factor
+personality scores for each agent to produce realistic (yet still not authentic) traits. For
+example, we applied a formula to generate an individual agent trait score for devotion,
+which we define as dedication to a cause, country, unit, and mission. In our tabletop
+exercise and simulations, we used devotion as a threshold check when agent will to fight
+dropped to the point at which it would produce undesirable behaviors, such as freezing or
+flight. 63 The formula is as follows:
+(Individual identity + Desperation + Economics + (Ideology x 2) + (Unit esprit x 2) + Unit
+control + Unit cohesion + Organizational aggregated (all factors) + State aggregated + Societal
+aggregated + (20 – Neuroticism) + Conscientiousness + Openness + Extraversion/4) / 2.
+As of our latest implementation, this formula is still a subject-matter-expert–informed,
+system-of-systems, realistic stand-in for what will eventually need to be an authentically derived
+formula.
+The Basic Biopsychosocial System-of-Systems and Next Steps
+In 2020, working with colleagues in both the government and private enterprise, we cre-
+ated the basic framework for a functional biopsychosocial human behavioral model. We have
+shown the viability of this holistic approach in peer-reviewed research reporting, in table-
+top exercises, and in multiple constructive simulations. We have also integrated proxies for
+complex fatigue models and for resting heart rate variability—a measurement that shows
+considerable promise for exploring the links between the five-factor psychological model and
+models of human physiology. 64
+The next step in the development of the biopsychosocial model is to integrate functioning
+subsystemic models for the four main factors—psychological, physiological, cognitive, and
+social—into a functional input model and then into a constructive simulation.
+63 All scores were translated to a consistent 20-point scale in both the tabletop exercise and the simulation.
+64 See, for example, Kristy Martin, Julien Périard, Ben Rattray, and David B. Pyne, “Physiological Factors
+Which Influence Cognitive Performance in Military Personnel,” Human Factors, Vol. 62, No. 1, February
+2020; and Dewayne P. Williams, Julian F. Thayer, and Julian Koenig, “Resting Cardiac Vagal Tone Predicts
+Intraindividual Reaction Time Variability During an Attention Task in a Sample of Young and Healthy
+Adults,” Psychophysiology, Vol. 53, No. 12, 2016.
+Authentically Describing and Forecasting Human Behavior for Policy Analysis: A Review and a Path Forward457
+Learning from COMPOEX: Controlling Exogenous System Variables
+DARPA has previously funded efforts to pursue holistic behavioral modeling. The
+COMPOEX program stands out for its vision and ambition and for its limited progress. 65
+This project sought to transform several concepts and data types endogenous and exogenous
+to the individual human into a complex system-of-systems computational model. In this
+approach, human behavior would be understood by turning everything in Von Bertalanffy’s
+global system into a set of complex and interactive variables: A complex agent-based model
+would integrate with an information model, a national power struggle model, a population
+model, a military effects model, economic models, and other models to establish an input-
+output campaign planning tool.
+This approach was like, but arguably even more ambitious than, the NATO Afghanistan
+model and the Army’s Irregular Warfare model. Both efforts sought to integrate hundreds of
+variables into a unified and highly complex model representing the exogenous world. Neither
+succeeded. COMPOEX sought to translate sets of these exogenous variables (e.g., political
+variables, economic variables, military variables) into systemic models and model the indi-
+vidual agent and integrate these exogenous models with the endogenous human models resi-
+dent in the agents. Figure 15.7 shows a version of the COMPOEX concept.
+COMPOEX and, in different ways, the NATO and Army models before it were laudable
+projects. They broke ground for efforts to model human behavior. Our understanding of
+these models informed our less ambitious and (in our view) more practical approach. In the
+initial will-to-fight work and in our biopsychosocial model, exogenous data are integrated
+with endogenous models. All exogenous information is used to inform endogenous models,
+and we model only the agents and their interactions. Figure 15.8 shows this approach, with
+exogenous and individual-level data ingested into an individual agent model. Note that sub-
+ordinate models and data are tentative: This figure represents the starting point for the next
+phase of our research, not final results.
+Limiting the moving pieces in the biopsychosocial system-of-systems will help make the
+causal inference challenge more manageable. The factors on the left side of Figure 15.8 are
+nonreactive. That is, they inform but do not dynamically interact with the subsystems that
+constitute the living model. This approach—integrating and then freezing data-driven fac-
+tors into the motile subsystems—reduces the ontological challenge while streamlining con-
+structive simulation by limiting the number of moving pieces in the simulated biopsychoso-
+cial system-of-systems.
+65 For example, see Alexander Kott and Peter S. Corpac, COMPOEX Technology to Assist Leaders in Plan-
+ning and Executing Campaigns in Complex Operational Environments, Arlington, Va.: Defense Advanced
+Research Projects Agency, 2007.
+Adaptive Engagement for Undergoverned Spaces: Concepts, Challenges, and Prospects for New Approaches
+458
+Short-Term Application: A Biopsychosocial Digital Twin
+Even without a functioning system-of-systems biopsychosocial model, one can take the com-
+ponents identified in this chapter to create a digital twin model that can be used to support
+such activities as rapid-cycling human behavior forecasting.
+Using Digital Twins for Analysis
+A digital twin is a computerized replication of an entity, in this case an individual person. By
+building a biopsychosocial model that represents the key individual subsystems and traits—
+simply an aggregation of the kinds of models and data that are typically collected and used
+FIGURE 15.7
+The COMPOEX System-of-Systems
+An interacting family of models can provide astonishing, yet legitimate
+and plausible outcomes
+• No single model can completely or adequately describe the entire domain
+• Leaders want to understand the alternative theories or explanations
+A family of models is needed!
+What if?
+Outcome
+Conceptual models
+Object models
+Causal models
+Concept map
+Petri net
+Multi-attribute analysis
+Influence diagram
+SOURCE: Adapted from John G. Allen, “Integrated Battle Command Program: Decision Support Tools for Planning and
+Managing Unified Campaigns in Complex Contingencies,” briefing slides, Washington, D.C.: Defense Advanced
+Research Projects Agency and U.S. Joint Forces Command, 2006.
+NOTE: DIME = diplomatic, information, military, economic; PMESII = political, military, economic, social, infrastructure,
+information.
+PMESSI dimensions
+DIME dimensions
+State space of
+DIME-PMESII
+interactions
+Unexpected
+outcome
+Modeling paradigm
+Political/religious model
+Military engagement model
+National leadership model
+Semantic network
+Stakeholder analysis
+System dynamics
+Dynamic systems
+Differential equations
+Social/information model
+Social/culture model
+Capital infrastructure model
+Causal model
+Bayesian network
+Statistical models
+Agent-based simulation
+Event-based simulation
+Rule of law model
+Insurgency model
+Models have variations in
+breadth and depth
+and complexity
+Authentically Describing and Forecasting Human Behavior for Policy Analysis: A Review and a Path Forward459
+in isolation—it would be possible to focus data collection, create reasonable digital twins of
+military and nonmilitary people, and apply these twins in a constructive or training simu-
+lation. A digital twin model that accounts for exogenous factors, such as culture and social
+relationships, would allow incorporation of data using a structured analytic tool, such as the
+will-to-fight tool that the research team used for experimentation. 66
+Digital Differentiation
+A digital twin approach to M&S allows for realistic and, eventually, authentic differentia-
+tion of individual agents and groups. 67 Instead of relying on templates and archetypes of
+humans (e.g., a leader, an influencer, a follower, an outlier), a biopsychosocial model cen-
+tered on the five-factor personality model allows for authentic differentiation using either
+real-world data or parametric data. 68 Modeling and simulating a U.S. military unit, for
+example, would allow detailed data collection and authentic differentiation and digital rep-
+lication of each individual. Modeling and simulating a small village in an undergoverned
+66 This tool was provided to the U.S. Army sponsor. It is not available to the general public.
+67 See, for example, Eva Hudlicka, Greg Zacharias, and Joseph Psotka, Increasing Realism of Human Agents
+by Modeling Individual Differences: Methodology, Architecture, and Testbed, Blacksburg, Va.: Psychometrix
+Associates, Inc., 2000.
+68 Norman Badler, Jan Allbeck, Liwei Zhao, and Meeran Byun, “Representing and Parameterizing Agent
+Behaviors,” IEEE Proceedings of Computer Animation, Geneva, Switzerland, 2002.
+FIGURE 15.8
+Preliminary Approach to Using Data and Endogenous Models
+SOURCE: Joint Chiefs of Staff, 2016, p. 14; Root, 2020, p. 7.
+NOTE: EW = electronic warfare.
+Personality
+Unique traits and states
+Cognitive process
+Function and speed of thought
+Motivations
+Drivers of choice
+Cognitive schemas
+Learned predispositions to act
+Physiological
+morphology
+Fitness, performance, health,
+fatigue, etc.
+Data can
+inform
+each of
+these
+models
+without
+adding
+another
+complex,
+interde-
+pendent
+model to
+the mix
+Result: a baseline
+organization of related
+models of components
+of human behavior for
+experimentation and
+gradual, progressive
+improvement towards
+a holistic causal model.
+Personality traits
+Physical state
+Cognitive performance
+Learned adaptivity
+Trauma learning
+Training
+Education
+Cultural norms
+Peer relationships
+Vertical relationships
+Ideological influences
+Iconography
+Economic incentives
+Desperation
+Revenge
+Corruption
+Enfranchisement
+Leaders
+Environment
+Et al.
+Centralize models of human characteristics
+Bring together closely-related types of information into one
+centralized model. Show how exogenous factors like
+culture leadership and equipment affect the individual.
+For example:
+Perception and adaptability models
+Five-factor personality model
+ACT-R cognitive model
+Resting heart rate variability
+Caloric consumption model
+Component body models
+Performance models
+Adaptive Engagement for Undergoverned Spaces: Concepts, Challenges, and Prospects for New Approaches460
+space might entail parameterizing individual personalities and integrating them with
+remotely collected cultural, economic, and other relevant data.
+Beyond ASDA: Digital Personnel Development
+Using the trait-state approach, a biopsychosocial digital twin model and simulation could
+be used to assess, track, and improve the performance of individual military personnel
+throughout their careers. Data for specific purposes—such as physical fitness data and
+posttraumatic stress data—could be logically and scientifically organized in a digital twin.
+Figure 15.9 shows how a digital twin model could be used to set a baseline for individual
+traits in preservice selection; to differentiate individuals and tailor training and education;
+to identify potential risks for performance failure, suicide, or other unwanted behaviors; to
+help individuals recover from trauma; and to help ensure their readiness for a full term of
+military service.
+This approach has promise only if it is applied in a holistic biopsychosocial model. Indi-
+viduals in the military or in civilian groups exist as part of a social construct. They interact
+with their peers, leaders, subordinates, friends, and family; with media; with the tools that
+they use to do their jobs; with adversaries; and with a host of other exogenous inputs that
+influence their disposition to act in any given situation.
+Concluding Thoughts
+DoD and other government agencies have likely spent tens of billions of dollars on the
+development of training simulations and constructive simulations over the past few
+decades. Despite this massive investment, existing models and simulations in 2021 are not
+holistic. They are sometimes precise but almost always inaccurate and inauthentic in their
+representations of human behavior. Are models and simulations really, therefore, inform-
+ing better policy decisionmaking, or are they trying to suspend disbelief in ways that might
+be unhelpful?
+Our research suggests that defense analysts, modelers, and simulation designers have been
+on the wrong path since the earliest days of computer M&S. The collective literature dem-
+onstrates that the community of scientific practice has clearly identified the problem and,
+with some disagreement, a general solution to human behavioral modeling and forecasting:
+Success requires a tack away from the approaches used to develop big sim models and toward
+the gradual, methodical, and necessarily imperfect authentic modeling and representation of
+human behavior.
+Although the pursuit of biopsychosocial authenticity might be “too hard” given limited
+resources, senior leader interest, and strategic patience, it is the best approach to answer the
+research challenges posed by undergoverned spaces, and also by great-power competition,
+conventional warfighting, total force management, and any other M&S challenge involving
+humans. The costs involved in pursuing a consortium approach to holistic authenticity are
+Authentically Describing and Forecasting Human Behavior for Policy Analysis: A Review and a Path Forward
+461
+FIGURE 15.9
+Using Trait-State Biopsychosocial Modeling to Manage Talent
+Selection Recruit training Training and education Combat Redeploy and improve Ready
+Trait assessment Baseline testing Trait improvement
+(differentiation by person)
+Fear–fatigue–loss
+(will to fight is the baseline)
+Reassess, retrain
+(resilience speeds recovery)
+Next
+mission
+Physical Cognitive
+Capabilities Equipment Gap in optimal
+performance
+Team
+Individual
+will to fight
+(Degradation can happen
+outside of combat as well)
+Improve teamwork
+Improve will to fight
+Improve individual
+Improve equipment
+Team degradation
+Equipment degradation
+Individual degradationWill to fight
+Rebuild team
+Repair and improve equipment
+Rebuild individual
+Strengthen will to fight
+Adaptive Engagement for Undergoverned Spaces: Concepts, Challenges, and Prospects for New Approaches462
+almost certain to be substantially lower than the costs of developing realistic big sims that, by
+design, eschew authenticity (and, therefore, eschew accuracy and utility). Both the short-term
+and long-term payoffs should directly support the development of ASDA.
+Abbreviations
+ACT-R Adaptive Control of Thought-Rational
+AMSO Army Modeling and Simulation Office
+ASDA Act-Sense-Decide-Adapt
+COMPOEX Conflict, Modeling, Planning, and Outcomes Exploration
+DARPA Defense Advanced Research Projects Agency
+DoD U.S. Department of Defense
+ISAAC Irreducible Semi-Autonomous Adaptive Combat
+IWARS Infantry Warrior Simulation
+JC-HAMO Joint Concept for Human Aspects of Military Operations
+JCATS Joint Conflict and Tactical Simulation
+JICM Joint Integrated Contingency Model
+M&S modeling and simulation
+MANA Map Aware Non-Uniform Automata
+NATO North Atlantic Treaty Organization
+OneSAF One Semi-Automated Forces
+PMFServ Performance Moderated Functions Server
+PSOM Peace Support Operations Model
+SOAR Strengths, Opportunities, Aspirations, and Results
+UGS undergoverned spaces
+VVA verification, validation, and accreditation

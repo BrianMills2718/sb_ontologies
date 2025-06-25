@@ -1,0 +1,450 @@
+citation: "Hulsbus, Emma. \"Public material in operational code analysis: An assessment.\" Bachelor Thesis International Relations and Organisations, Faculty of Social and Behavioral Sciences, 2019."
+annotation: "Research comparing Margaret Thatcher's public versus private operational codes to assess validity of using public material in operational code analysis methodology."
+model_type: "property_graph"
+rationale: "The framework involves interconnected nodes representing concepts, beliefs, and actors with edges showing relationships, causal connections, and methodological links in operational code analysis validation."
+schema_blueprint:
+  title: "Operational Code Analysis Validity Assessment Schema"
+  description: "Models the theoretical framework for assessing validity of public versus private material in operational code analysis."
+  root_properties:
+    nodes:
+      description: "Material types, operational code beliefs, methodological concepts, and assessment criteria."
+      item_type: "Entity"
+    edges:
+      description: "The validity relationships, methodological connections, and assessment linkages between different material sources and operational code measures."
+      item_type: "NaryTuple"
+  definitions:
+    - name: "operational-code"
+      category: "core-construct"
+      description: "A set of general beliefs about the nature of politics and political action that guide decision-making."
+      domain: ["Actor"]
+    - name: "operational-code-analysis"
+      category: "core-construct"
+      description: "Systematic methodology for measuring and analyzing political leaders' belief systems."
+    - name: "at-a-distance-methodology"
+      category: "core-construct"
+      description: "Research approach for studying leaders without direct access through content analysis of available materials."
+    - name: "public-material"
+      category: "material-type"
+      description: "Speeches, statements, and communications intended for public consumption."
+      domain: ["Actor"]
+    - name: "private-material"
+      category: "material-type"
+      description: "Internal communications, private correspondence, and behind-the-scenes discussions."
+      domain: ["Actor"]
+    - name: "intimate-material"
+      category: "material-type"
+      description: "Personal communications and private conversations not intended for broader audiences."
+      domain: ["Actor"]
+    - name: "prepared-material"
+      category: "material-type"
+      description: "Formal speeches and statements prepared in advance, often with speechwriter involvement."
+      domain: ["Actor"]
+    - name: "behind-the-scenes-material"
+      category: "material-type"
+      description: "Informal communications and private discussions among leadership circles."
+      domain: ["Actor"]
+    - name: "speech-acts"
+      category: "material-type"
+      description: "Verbal communications that can be analyzed for operational code content."
+      domain: ["Actor"]
+    - name: "verbal-behavior"
+      category: "material-type"
+      description: "Observable verbal actions and communications by political leaders."
+      domain: ["Actor"]
+    - name: "declassified-documents"
+      category: "material-type"
+      description: "Previously classified government documents made available for research."
+    - name: "transcripts"
+      category: "material-type"
+      description: "Written records of spoken communications and meetings."
+    - name: "correspondence"
+      category: "material-type"
+      description: "Written communications between political leaders and advisors."
+    - name: "telegrams"
+      category: "material-type"
+      description: "Formal diplomatic communications between government officials."
+    - name: "phone-calls"
+      category: "material-type"
+      description: "Recorded or transcribed telephone conversations between leaders."
+    - name: "p1-nature-political-life"
+      category: "philosophical-belief"
+      description: "Belief about the fundamental character of political life as harmonious or conflictual."
+      domain: ["Actor"]
+      range: ["PoliticalNature"]
+    - name: "p2-realization-political-values"
+      category: "philosophical-belief"
+      description: "Belief about the prospects for realizing fundamental political values."
+      domain: ["Actor"]
+      range: ["Prospects"]
+    - name: "p3-predictability-political-future"
+      category: "philosophical-belief"
+      description: "Belief about the extent to which the political future is predictable."
+      domain: ["Actor"]
+      range: ["Predictability"]
+    - name: "p4-control-historical-development"
+      category: "philosophical-belief"
+      description: "Belief about the extent of control over historical development."
+      domain: ["Actor"]
+      range: ["Control"]
+    - name: "p5-role-of-chance"
+      category: "philosophical-belief"
+      description: "Belief about the role of chance in political outcomes."
+      domain: ["Actor"]
+      range: ["ChanceRole"]
+    - name: "i1-strategic-approach"
+      category: "instrumental-belief"
+      description: "Belief about the best strategic approach to achieving political goals."
+      domain: ["Actor"]
+      range: ["Strategy"]
+    - name: "i2-tactical-pursuit"
+      category: "instrumental-belief"
+      description: "Belief about how to tactically pursue political objectives."
+      domain: ["Actor"]
+      range: ["Tactics"]
+    - name: "i3-risk-orientation"
+      category: "instrumental-belief"
+      description: "Belief about the appropriate level of risk in political action."
+      domain: ["Actor"]
+      range: ["RiskLevel"]
+    - name: "i4-timing-of-action"
+      category: "instrumental-belief"
+      description: "Belief about the optimal timing for political action."
+      domain: ["Actor"]
+      range: ["Timing"]
+    - name: "i5-utility-of-means"
+      category: "instrumental-belief"
+      description: "Belief about the effectiveness of different political means."
+      domain: ["Actor"]
+      range: ["Means"]
+    - name: "i4a-cooperation-conflict-flexibility"
+      category: "instrumental-belief"
+      description: "Flexibility in shifting between cooperative and conflictual approaches."
+      domain: ["Actor"]
+      range: ["Flexibility"]
+      subTypeOf: "i4-timing-of-action"
+    - name: "i4b-words-deeds-flexibility"
+      category: "instrumental-belief"
+      description: "Flexibility in shifting between verbal and physical actions."
+      domain: ["Actor"]
+      range: ["Flexibility"]
+      subTypeOf: "i4-timing-of-action"
+    - name: "content-analysis-scheme"
+      category: "methodological-concept"
+      description: "Systematic framework for analyzing textual content for operational code indicators."
+    - name: "profilerplus"
+      category: "methodological-concept"
+      description: "Automated content analysis software used for operational code analysis."
+    - name: "automated-content-analysis"
+      category: "methodological-concept"
+      description: "Computer-assisted analysis of textual material for systematic coding."
+    - name: "systematic-procedures"
+      category: "methodological-concept"
+      description: "Standardized methods for conducting operational code analysis."
+    - name: "quantitative-variables"
+      category: "methodological-concept"
+      description: "Numerical measures derived from operational code analysis."
+    - name: "independent-samples-t-test"
+      category: "statistical-method"
+      description: "Statistical test comparing means between two independent groups."
+    - name: "students-t-test"
+      category: "statistical-method"
+      description: "Statistical test for comparing means assuming equal variances."
+    - name: "welch-t-test"
+      category: "statistical-method"
+      description: "Statistical test for comparing means with unequal variances."
+    - name: "levenes-test"
+      category: "statistical-method"
+      description: "Statistical test for equality of variances between groups."
+    - name: "statistical-significance"
+      category: "statistical-concept"
+      description: "Measure of whether observed differences are likely due to chance."
+    - name: "sample-frame"
+      category: "methodological-concept"
+      description: "The defined population from which research samples are drawn."
+    - name: "codable-verbs"
+      category: "vics-element"
+      description: "Transitive verbs that can be coded using VICS methodology."
+    - name: "verb-coding"
+      category: "vics-element"
+      description: "Process of categorizing verbs according to VICS criteria."
+    - name: "direction-coding"
+      category: "vics-element"
+      description: "Coding the positive or negative valence of verbal actions."
+    - name: "intensity-coding"
+      category: "vics-element"
+      description: "Coding the strength or magnitude of verbal actions."
+    - name: "validity-assessment"
+      category: "assessment-criterion"
+      description: "Evaluation of whether measures accurately capture what they claim to measure."
+    - name: "reliability"
+      category: "assessment-criterion"
+      description: "Consistency and stability of measurement across contexts and time."
+    - name: "accuracy"
+      category: "assessment-criterion"
+      description: "Extent to which measurements correspond to true values."
+    - name: "representativeness"
+      category: "assessment-criterion"
+      description: "Degree to which samples accurately reflect the broader population."
+    - name: "generalizability"
+      category: "assessment-criterion"
+      description: "Extent to which findings apply beyond the specific research context."
+    - name: "confounding-elements"
+      category: "assessment-criterion"
+      description: "Factors that may interfere with accurate measurement of operational codes."
+    - name: "impression-management"
+      category: "strategic-communication"
+      description: "Deliberate control of information to influence others' perceptions."
+      domain: ["Actor"]
+    - name: "strategic-purposes"
+      category: "strategic-communication"
+      description: "Use of communication to achieve specific political objectives."
+      domain: ["Actor"]
+    - name: "deception"
+      category: "strategic-communication"
+      description: "Intentional misrepresentation of beliefs or intentions."
+      domain: ["Actor"]
+    - name: "public-image"
+      category: "strategic-communication"
+      description: "Controlled presentation of self for public consumption."
+      domain: ["Actor"]
+    - name: "locking-in-effect"
+      category: "strategic-communication"
+      description: "Constraint on behavior created by public commitments."
+      domain: ["Actor"]
+    - name: "manipulative-speech"
+      category: "strategic-communication"
+      description: "Use of verbal communication to manipulate audience perceptions."
+      domain: ["Actor"]
+    - name: "comparative-analysis"
+      category: "research-design"
+      description: "Systematic comparison between different types of material or contexts."
+    - name: "public-private-comparison"
+      category: "research-design"
+      description: "Direct comparison of operational codes derived from public versus private materials."
+    - name: "material-selection"
+      category: "research-design"
+      description: "Process of choosing appropriate materials for operational code analysis."
+    - name: "temporal-sampling"
+      category: "research-design"
+      description: "Selection of materials across different time periods."
+    - name: "inclusion-criteria"
+      category: "research-design"
+      description: "Standards for determining which materials to include in analysis."
+    - name: "exclusion-criteria"
+      category: "research-design"
+      description: "Standards for determining which materials to exclude from analysis."
+    - name: "crisis-situations"
+      category: "contextual-factor"
+      description: "High-stress political situations that may affect operational code expression."
+    - name: "normal-conditions"
+      category: "contextual-factor"
+      description: "Routine political situations without exceptional stress or urgency."
+    - name: "time-frame-limitations"
+      category: "limitation-factor"
+      description: "Constraints imposed by the temporal scope of available materials."
+    - name: "accessibility-constraints"
+      category: "limitation-factor"
+      description: "Restrictions on access to relevant materials for analysis."
+    - name: "authorship-requirements"
+      category: "limitation-factor"
+      description: "Need to verify that materials authentically represent the leader's views."
+    - name: "speech-writer-involvement"
+      category: "limitation-factor"
+      description: "Potential contamination of leader's authentic beliefs by speechwriter input."
+    - name: "striking-similarity"
+      category: "empirical-finding"
+      description: "High degree of correspondence between public and private operational codes."
+    - name: "small-magnitude"
+      category: "empirical-finding"
+      description: "Minor differences between public and private operational code measures."
+    - name: "large-disparity"
+      category: "empirical-finding"
+      description: "Significant differences between public and private operational code measures."
+    - name: "evidence-of-impression-management"
+      category: "empirical-finding"
+      description: "Observable differences suggesting strategic presentation in public materials."
+    - name: "risk-orientation-differences"
+      category: "empirical-finding"
+      description: "Variations in risk acceptance between public and private contexts."
+    - name: "flexibility-differences"
+      category: "empirical-finding"
+      description: "Variations in behavioral flexibility between public and private contexts."
+    - name: "twenty-codable-verbs"
+      category: "technical-requirement"
+      description: "Minimum threshold of codable verbs needed for meaningful operational code analysis."
+    - name: "foreign-policy-subject-matter"
+      category: "technical-requirement"
+      description: "Requirement that materials address international relations topics."
+    - name: "leader-authorship"
+      category: "technical-requirement"
+      description: "Requirement that materials authentically represent the leader's own words."
+    - name: "verbal-communication-requirement"
+      category: "technical-requirement"
+      description: "Need for materials to contain actual verbal statements by the leader."
+    - name: "transcription-accuracy"
+      category: "technical-requirement"
+      description: "Requirement for accurate written representation of spoken words."
+    - name: "translation-requirements"
+      category: "technical-requirement"
+      description: "Standards for accurate translation of materials in foreign languages."
+    - name: "operational-code-construction"
+      category: "analytical-outcome"
+      description: "Process of building complete operational code profile from analyzed materials."
+    - name: "belief-inference"
+      category: "analytical-outcome"
+      description: "Drawing conclusions about leader's beliefs from verbal behavior."
+    - name: "psychological-assessment"
+      category: "analytical-outcome"
+      description: "Evaluation of leader's psychological characteristics and tendencies."
+    - name: "foreign-policy-explanation"
+      category: "analytical-outcome"
+      description: "Account of foreign policy decisions based on operational code analysis."
+    - name: "decision-making-prediction"
+      category: "analytical-outcome"
+      description: "Forecasting of future leader behavior based on operational code."
+    - name: "validity-confirmation"
+      category: "analytical-outcome"
+      description: "Evidence supporting the validity of using public materials."
+    - name: "validity-refutation"
+      category: "analytical-outcome"
+      description: "Evidence challenging the validity of using public materials."
+    - name: "neorealism"
+      category: "ir-theory"
+      description: "International relations theory emphasizing structural constraints and security competition."
+    - name: "constructivism"
+      category: "ir-theory"
+      description: "International relations theory emphasizing the role of ideas and social construction."
+    - name: "anarchy"
+      category: "ir-concept"
+      description: "Absence of supranational authority in the international system."
+    - name: "security-maximization"
+      category: "ir-concept"
+      description: "Primary goal of states in anarchic international system."
+    - name: "political-culture"
+      category: "ir-concept"
+      description: "Shared beliefs and values that shape political behavior."
+    - name: "institutional-culture"
+      category: "ir-concept"
+      description: "Organizational norms and practices that influence decision-making."
+    - name: "actor-centric-approach"
+      category: "ir-concept"
+      description: "Focus on individual leaders and their characteristics in explaining policy."
+    - name: "compares-with"
+      category: "relationship"
+      description: "Relationship indicating comparative analysis between different materials or measures."
+      domain: ["Material"]
+      range: ["Material"]
+    - name: "validates"
+      category: "relationship"
+      description: "Relationship where one measure confirms the accuracy of another."
+      domain: ["Measure"]
+      range: ["Measure"]
+    - name: "contradicts"
+      category: "relationship"
+      description: "Relationship where findings conflict with expectations or other measures."
+      domain: ["Finding"]
+      range: ["Finding"]
+    - name: "influences-validity"
+      category: "relationship"
+      description: "Relationship where factors affect the validity of operational code measures."
+      domain: ["Factor"]
+      range: ["Validity"]
+    - name: "constrains"
+      category: "relationship"
+      description: "Relationship where limitations restrict research possibilities."
+      domain: ["Limitation"]
+      range: ["Research"]
+json_schema: |
+  {
+    "type": "object",
+    "properties": {
+      "nodes": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/Entity"
+        }
+      },
+      "edges": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/NaryTuple"
+        }
+      }
+    },
+    "required": ["nodes", "edges"],
+    "additionalProperties": false,
+    "$defs": {
+      "OpCodeValid_CoreConstructs": {
+        "type": "string",
+        "enum": ["operational-code", "operational-code-analysis", "at-a-distance-methodology"]
+      },
+      "OpCodeValid_MaterialTypes": {
+        "type": "string",
+        "enum": ["public-material", "private-material", "intimate-material", "prepared-material", "behind-the-scenes-material", "speech-acts", "verbal-behavior", "declassified-documents", "transcripts", "correspondence", "telegrams", "phone-calls"]
+      },
+      "OpCodeValid_PhilosophicalBeliefs": {
+        "type": "string",
+        "enum": ["p1-nature-political-life", "p2-realization-political-values", "p3-predictability-political-future", "p4-control-historical-development", "p5-role-of-chance"]
+      },
+      "OpCodeValid_InstrumentalBeliefs": {
+        "type": "string",
+        "enum": ["i1-strategic-approach", "i2-tactical-pursuit", "i3-risk-orientation", "i4-timing-of-action", "i5-utility-of-means", "i4a-cooperation-conflict-flexibility", "i4b-words-deeds-flexibility"]
+      },
+      "OpCodeValid_MethodologicalConcepts": {
+        "type": "string",
+        "enum": ["content-analysis-scheme", "profilerplus", "automated-content-analysis", "systematic-procedures", "quantitative-variables", "sample-frame"]
+      },
+      "OpCodeValid_StatisticalMethods": {
+        "type": "string",
+        "enum": ["independent-samples-t-test", "students-t-test", "welch-t-test", "levenes-test", "statistical-significance"]
+      },
+      "OpCodeValid_VICSElements": {
+        "type": "string",
+        "enum": ["codable-verbs", "verb-coding", "direction-coding", "intensity-coding"]
+      },
+      "OpCodeValid_AssessmentCriteria": {
+        "type": "string",
+        "enum": ["validity-assessment", "reliability", "accuracy", "representativeness", "generalizability", "confounding-elements"]
+      },
+      "OpCodeValid_StrategicCommunication": {
+        "type": "string",
+        "enum": ["impression-management", "strategic-purposes", "deception", "public-image", "locking-in-effect", "manipulative-speech"]
+      },
+      "OpCodeValid_ResearchDesign": {
+        "type": "string",
+        "enum": ["comparative-analysis", "public-private-comparison", "material-selection", "temporal-sampling", "inclusion-criteria", "exclusion-criteria"]
+      },
+      "OpCodeValid_ContextualFactors": {
+        "type": "string",
+        "enum": ["crisis-situations", "normal-conditions"]
+      },
+      "OpCodeValid_LimitationFactors": {
+        "type": "string",
+        "enum": ["time-frame-limitations", "accessibility-constraints", "authorship-requirements", "speech-writer-involvement"]
+      },
+      "OpCodeValid_EmpiricalFindings": {
+        "type": "string",
+        "enum": ["striking-similarity", "small-magnitude", "large-disparity", "evidence-of-impression-management", "risk-orientation-differences", "flexibility-differences"]
+      },
+      "OpCodeValid_TechnicalRequirements": {
+        "type": "string",
+        "enum": ["twenty-codable-verbs", "foreign-policy-subject-matter", "leader-authorship", "verbal-communication-requirement", "transcription-accuracy", "translation-requirements"]
+      },
+      "OpCodeValid_AnalyticalOutcomes": {
+        "type": "string",
+        "enum": ["operational-code-construction", "belief-inference", "psychological-assessment", "foreign-policy-explanation", "decision-making-prediction", "validity-confirmation", "validity-refutation"]
+      },
+      "OpCodeValid_IRTheory": {
+        "type": "string",
+        "enum": ["neorealism", "constructivism"]
+      },
+      "OpCodeValid_IRConcepts": {
+        "type": "string",
+        "enum": ["anarchy", "security-maximization", "political-culture", "institutional-culture", "actor-centric-approach"]
+      },
+      "OpCodeValid_Relationships": {
+        "type": "string",
+        "enum": ["compares-with", "validates", "contradicts", "influences-validity", "constrains"]
+      }
+    }
+  }

@@ -1,0 +1,466 @@
+citation: "Eyster, H. N., Satterfield, T., & Chan, K. M. A. (2022). Why people do what they do: An interdisciplinary synthesis of human action theories. Annual Review of Environment and Resources, 47, 725-751."
+
+annotation: "Interdisciplinary synthesis of 86 human action theories from across the humanities and social sciences, organizing them into eight foundational metatheories that reveal different assumptions about what drives human behavior and action."
+
+model_type: "property_graph"
+
+rationale: "The paper presents a systematic categorization of theories organized around metatheoretical assumptions, with clear relationships between disciplines, theories, metatheories, and their applications. The authors explicitly map theories to metatheories and describe interconnections between factors, making a property graph structure ideal for representing nodes (theories, metatheories, disciplines, factors) and edges (relationships, influences, applications)."
+
+schema_blueprint:
+  title: "Interdisciplinary Human Action Theory Synthesis Schema"
+  description: "Schema for modeling the comprehensive taxonomy of human action theories organized by underlying metatheoretical assumptions, their disciplinary origins, applicable contexts, and intervention approaches"
+  
+  root_properties:
+    nodes:
+      description: "Represents theories, metatheories, disciplines, factors, needs, processes, and intervention approaches in the human action theory landscape"
+      item_type: "Entity"
+    edges:
+      description: "Represents relationships between theories and metatheories, influences between factors, mappings to disciplines, and application contexts"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core theoretical constructs
+    - name: "human-action"
+      category: "core-construct"
+      description: "Umbrella term for when individuals, groups, relationships, institutions, societies undertake conscious/unconscious decision-making, volitional/nonvolitional behavior, pro/antienvironmental action, motivation, learning, management, pro/antisocial behavior, cooperation, conflict, social movements, societal transitions, cultural norms and practice, habits, compliance"
+
+    - name: "human-action-theory"
+      category: "core-construct"
+      description: "A description of the relationship between human action and a set of variables deemed to explain that action"
+
+    - name: "metatheory"
+      category: "core-construct"
+      description: "The baseline, often implicit, assumptions that underlie theories; the assumptions about where to look for answers and what attributes might be important; a theory about theories"
+
+    # Eight metatheories
+    - name: "independent-self-metatheory"
+      category: "theoretical-framework"
+      description: "Treats individual behavior as shaped by personal characteristics such as values, attitudes, traits, beliefs, and worldviews, all of which are treated as independent of and unaffected by external context and structure"
+
+    - name: "independent-structure-metatheory"
+      category: "theoretical-framework"
+      description: "Treats individual behavior as shaped by structures such as culture, institutions, infrastructure, and technologies, all of which are treated as independent of and unaffected by internal processes and personal characteristics"
+
+    - name: "cognitive-needs-metatheory"
+      category: "theoretical-framework"
+      description: "Assumes that the ultimate purpose of human action is survival/evolutionary fitness, which results from the satisfaction of any need associated with the cognitive processing of information"
+
+    - name: "psychological-needs-metatheory"
+      category: "theoretical-framework"
+      description: "Assumes that the ultimate purpose of human action is to produce subjective well-being, which results from the satisfaction of psychological needs"
+
+    - name: "communal-needs-metatheory"
+      category: "theoretical-framework"
+      description: "Assumes that social cooperation (e.g., collaboration, collective action, effective governance) can be created by the satisfaction of any number of communal needs"
+
+    - name: "economic-needs-metatheory"
+      category: "theoretical-framework"
+      description: "Assumes that the ultimate purpose of action is to maximize utilitarian well-being (i.e., utility). Unlike the subjective well-being of Psychological Needs, this well-being is objective, reflecting the utilitarianism of Jeremy Bentham and John Stuart Mill"
+
+    - name: "top-down-metatheory"
+      category: "theoretical-framework"
+      description: "Assumes that often hidden, systemic factors unidirectionally shape human action"
+
+    - name: "interdependent-metatheory"
+      category: "theoretical-framework"
+      description: "Assumes that human action is continually created, reinforced, or eroded by an interdependent web of values, identities, positions, habits, goals, needs, experiences, meanings, institutions, cultures, politics, etc. In turn, this interdependent web of factors is continually created, reinforced, or erased by human action itself"
+
+    # Variable types
+    - name: "independent-variables"
+      category: "measurement-method"
+      description: "Variables treated as being unaffected by other measured variables; also termed response variables"
+
+    - name: "dependent-variables"
+      category: "measurement-method"
+      description: "Variables treated as being at least partially determined by other measured variables. In traditional models, variation in an independent variable explains variation in a dependent variable"
+
+    - name: "interdependent-variables"
+      category: "measurement-method"
+      description: "Variables for which a change in one variable both causes changes in the other and is caused by changes in the other"
+
+    # Cognitive needs
+    - name: "accurate-inference"
+      category: "cognitive-need"
+      description: "Cognitive need to ensure that decisions reflect reality"
+
+    - name: "cognitive-efficiency"
+      category: "cognitive-need"
+      description: "Cognitive need to ensure that limited energy resources are used to maximal effect"
+
+    - name: "information-exploitation"
+      category: "cognitive-need"
+      description: "Cognitive need for coasting/predictability; to ensure maximum utility of limited information"
+
+    - name: "information-exploration"
+      category: "cognitive-need"
+      description: "Cognitive need to accurately adjust to changing and unfamiliar environments"
+
+    # Psychological needs
+    - name: "relatedness"
+      category: "psychological-need"
+      description: "The need to belong to secure relationships; the most prevalently theorized psychological need"
+
+    - name: "pleasure-promotion"
+      category: "psychological-need"
+      description: "The needs to explore and approach enjoyable experiences, to self-actualize, and to seek out and understand novel arenas"
+
+    - name: "pain-prevention"
+      category: "psychological-need"
+      description: "The need to manage and avoid painful experiences"
+
+    - name: "competence"
+      category: "psychological-need"
+      description: "The need for efficacy and an important feature of 'flow' activities"
+
+    - name: "consonance"
+      category: "psychological-need"
+      description: "The need for consistency, including with values; for the world to make sense; and for stable self-identity"
+
+    - name: "autonomy"
+      category: "psychological-need"
+      description: "The need for ownership over one's actions, i.e., internal perceived locus of causality"
+
+    # Processing types
+    - name: "heuristic-processing"
+      category: "cognitive-process"
+      description: "Unconscious, immediate processing that privileges current knowledge and peripheral information (i.e., thinking fast)"
+
+    - name: "systematic-processing"
+      category: "cognitive-process"
+      description: "Slow, energy-intensive processing that privileges the content of new information (i.e., thinking slow)"
+
+    # Research methodology
+    - name: "grounded-theory"
+      category: "research-method"
+      description: "Inductive identification of commonalities of and differences between different elements (in our case, theories), from which one can then distill organizing categories (in our case, e.g., metatheories)"
+
+    - name: "positionality"
+      category: "research-concept"
+      description: "The social, cultural, relational, environmental, and political position in which a person exists in relation to a given topic, project, or world"
+
+    # Institutional concepts
+    - name: "institutions"
+      category: "structural-factor"
+      description: "Formal and informal entities that are often made up of people as well as formal and/or informal rules, practices, and possibly physical and technological structures"
+
+    # Analysis dimensions
+    - name: "unit-of-action"
+      category: "analysis-dimension"
+      description: "The level at which action is analyzed (e.g., individual, collective)"
+      domain: ["individual", "collective", "institutional", "societal"]
+
+    - name: "type-of-action"
+      category: "analysis-dimension"
+      description: "The nature of the action being studied (e.g., volitional behavior, unconscious behavior)"
+      domain: ["volitional", "nonvolitional", "conscious", "unconscious", "deliberate", "habitual"]
+
+    - name: "explanatory-logic"
+      category: "analysis-dimension"
+      description: "Whether the theory was meant to describe action or change action"
+      domain: ["descriptive", "prescriptive", "predictive"]
+
+    - name: "academic-discipline"
+      category: "analysis-dimension"
+      description: "The scholarly field from which the theory originates"
+      domain: ["psychology", "sociology", "anthropology", "economics", "political-science", "neuroscience", "management", "communications", "geography", "education", "criminology", "law", "marketing", "public-health", "ethics", "philosophy", "ecology", "conservation-science", "political-ecology", "indigenous-studies", "feminist-studies", "critical-race-studies"]
+
+    # Application characteristics
+    - name: "scale-of-change"
+      category: "intervention-characteristic"
+      description: "The magnitude of change targeted by the intervention approach"
+      domain: ["small", "medium", "large"]
+
+    - name: "implementation-speed"
+      category: "intervention-characteristic"
+      description: "How quickly the intervention can be implemented"
+      domain: ["rapid", "variable", "slow"]
+
+    - name: "applicable-population"
+      category: "intervention-characteristic"
+      description: "The type of population for which the intervention is suitable"
+      domain: ["homogeneous", "heterogeneous"]
+
+    - name: "change-type"
+      category: "intervention-characteristic"
+      description: "The nature of change produced by the intervention"
+      domain: ["incremental", "moderately-incremental", "moderately-systemic", "systemic", "transformative", "adaptive"]
+
+    # Relationships between theories and metatheories
+    - name: "underlies"
+      category: "relationship"
+      description: "Relationship where a metatheory provides the foundational assumptions for a specific theory"
+      domain: ["metatheory"]
+      range: ["theory"]
+
+    - name: "originates-from"
+      category: "relationship"
+      description: "Relationship indicating the academic discipline from which a theory emerged"
+      domain: ["theory"]
+      range: ["academic-discipline"]
+
+    - name: "applies-to"
+      category: "relationship"
+      description: "Relationship indicating the contexts or problems to which a theory or metatheory is most suitable"
+      domain: ["theory", "metatheory"]
+      range: ["problem-context", "intervention-type"]
+
+    - name: "satisfies"
+      category: "relationship"
+      description: "Relationship where human action satisfies particular needs"
+      domain: ["human-action"]
+      range: ["cognitive-need", "psychological-need", "communal-need", "economic-need"]
+
+    - name: "influences"
+      category: "relationship"
+      description: "Relationship where one factor affects another in the context of human action"
+      domain: ["personal-attribute", "structural-factor", "need", "process"]
+      range: ["human-action", "behavior", "decision-making"]
+
+    - name: "interdependent-with"
+      category: "relationship"
+      description: "Bidirectional relationship where factors mutually influence each other"
+      domain: ["factor", "variable"]
+      range: ["factor", "variable"]
+
+    # Specific theories mentioned
+    - name: "theory-of-planned-behavior"
+      category: "specific-theory"
+      description: "A psychology theory that posits that individual behavior is determined primarily by one's perceived control over one's own behavior and intentions"
+      subTypeOf: "independent-self-metatheory"
+
+    - name: "nudge-theory"
+      category: "specific-theory"
+      description: "Theory from behavioral economics that targets behavior change by shifting individual decisions that are often semiconscious or driven by heuristics"
+      subTypeOf: "cognitive-needs-metatheory"
+
+    - name: "self-determination-theory"
+      category: "specific-theory"
+      description: "A theory from educational psychology that seeks to explain intrinsic motivation, emphasizing the role of autonomy"
+      subTypeOf: "psychological-needs-metatheory"
+
+    - name: "extended-parallel-process-model"
+      category: "specific-theory"
+      description: "A communications theory that seeks to explain how fear messages affect health-related behavior"
+      subTypeOf: "psychological-needs-metatheory"
+
+    - name: "practice-theories"
+      category: "specific-theory"
+      description: "Theories in which each cultural and physical element is inextricably linked to others, using interdependent variables"
+      subTypeOf: "interdependent-metatheory"
+
+    # Problem contexts
+    - name: "climate-change"
+      category: "problem-context"
+      description: "Global environmental challenge requiring multiple approaches to human action change"
+
+    - name: "biodiversity-conservation"
+      category: "problem-context"
+      description: "Environmental challenge requiring various forms of human action to protect biological diversity"
+
+    - name: "sustainable-futures"
+      category: "problem-context"
+      description: "Long-term societal goals encompassing environmental and social health and justice"
+
+    - name: "transformative-change"
+      category: "problem-context"
+      description: "Fundamental systemic changes rather than short-term, marginal, individual changes"
+
+    # Intervention approaches
+    - name: "attitude-modification"
+      category: "intervention-approach"
+      description: "Changing individual attitudes to influence behavior"
+      subTypeOf: "independent-self-metatheory"
+
+    - name: "structural-modification"
+      category: "intervention-approach"
+      description: "Changing institutions, infrastructure, or environmental structures to enable different actions"
+      subTypeOf: "independent-structure-metatheory"
+
+    - name: "cognitive-nudging"
+      category: "intervention-approach"
+      description: "Using cognitive needs and heuristics to guide behavior in desired directions"
+      subTypeOf: "cognitive-needs-metatheory"
+
+    - name: "need-satisfaction"
+      category: "intervention-approach"
+      description: "Designing interventions that satisfy psychological needs to increase well-being and motivation"
+      subTypeOf: "psychological-needs-metatheory"
+
+    - name: "community-organizing"
+      category: "intervention-approach"
+      description: "Building collective capacity and cooperation to address shared challenges"
+      subTypeOf: "communal-needs-metatheory"
+
+    - name: "economic-incentives"
+      category: "intervention-approach"
+      description: "Using prices, costs, and financial incentives to change behavior"
+      subTypeOf: "economic-needs-metatheory"
+
+    - name: "systemic-analysis"
+      category: "intervention-approach"
+      description: "Identifying and addressing hidden, systemic factors that shape human action"
+      subTypeOf: "top-down-metatheory"
+
+    - name: "practice-transformation"
+      category: "intervention-approach"
+      description: "Simultaneously changing multiple interdependent factors that constitute social practices"
+      subTypeOf: "interdependent-metatheory"
+
+    # Limitations and challenges
+    - name: "psychologizing-social-problems"
+      category: "theoretical-limitation"
+      description: "Treating a problem as solely a result of individual actions, thereby overlooking structural factors"
+
+    - name: "theory-fragmentation"
+      category: "methodological-challenge"
+      description: "The isolation of human action theories among disjunct disciplines, hindering theory integration and accessibility"
+
+    - name: "metatheoretical-implicitness"
+      category: "methodological-challenge"
+      description: "The tendency for foundational assumptions underlying theories to remain unstated, hindering integration of multiple theories"
+
+    # Research recommendations
+    - name: "interdisciplinary-integration"
+      category: "research-recommendation"
+      description: "Using multiple theoretical lenses representing diverse metatheories to understand human action comprehensively"
+
+    - name: "feedback-inclusion"
+      category: "research-recommendation"
+      description: "Including feedbacks and interdependent relationships that are crucial to systems analysis and sustainability"
+
+    - name: "cross-cultural-expansion"
+      category: "research-recommendation"
+      description: "Broadening analysis to include Indigenous accounts, non-English literature, and folk understandings of human action"
+
+  json_schema:
+    enum_categories:
+      metatheory_types:
+        - "independent-self"
+        - "independent-structure"
+        - "cognitive-needs"
+        - "psychological-needs"
+        - "communal-needs"
+        - "economic-needs"
+        - "top-down"
+        - "interdependent"
+      
+      variable_types:
+        - "independent"
+        - "dependent"
+        - "interdependent"
+      
+      cognitive_needs:
+        - "accurate-inference"
+        - "cognitive-efficiency"
+        - "information-exploitation"
+        - "information-exploration"
+      
+      psychological_needs:
+        - "relatedness"
+        - "pleasure-promotion"
+        - "pain-prevention"
+        - "competence"
+        - "consonance"
+        - "autonomy"
+      
+      processing_types:
+        - "heuristic"
+        - "systematic"
+      
+      academic_disciplines:
+        - "psychology"
+        - "sociology"
+        - "anthropology"
+        - "economics"
+        - "political-science"
+        - "neuroscience"
+        - "management"
+        - "communications"
+        - "geography"
+        - "education"
+        - "criminology"
+        - "law"
+        - "marketing"
+        - "public-health"
+        - "ethics"
+        - "philosophy"
+        - "ecology"
+        - "conservation-science"
+        - "political-ecology"
+        - "indigenous-studies"
+        - "feminist-studies"
+        - "critical-race-studies"
+        - "science-technology-studies"
+        - "complexity-science"
+        - "innovation-studies"
+        - "development-studies"
+        - "history"
+        - "archaeology"
+        - "literature"
+        - "evolutionary-biology"
+        - "ethology"
+        - "health-psychology"
+        - "systems-theory"
+      
+      intervention_characteristics:
+        scale_of_change:
+          - "small"
+          - "medium"
+          - "large"
+        implementation_speed:
+          - "rapid"
+          - "variable"
+          - "slow"
+        applicable_population:
+          - "homogeneous"
+          - "heterogeneous"
+        change_type:
+          - "incremental"
+          - "moderately-incremental"
+          - "moderately-systemic"
+          - "systemic"
+          - "transformative"
+          - "adaptive"
+      
+      relationship_types:
+        - "underlies"
+        - "originates-from"
+        - "applies-to"
+        - "satisfies"
+        - "influences"
+        - "interdependent-with"
+        - "categorized-as"
+        - "implements"
+        - "addresses"
+      
+      action_types:
+        - "volitional"
+        - "nonvolitional"
+        - "conscious"
+        - "unconscious"
+        - "deliberate"
+        - "habitual"
+        - "individual"
+        - "collective"
+        - "institutional"
+        - "societal"
+      
+      problem_contexts:
+        - "climate-change"
+        - "biodiversity-conservation"
+        - "sustainable-futures"
+        - "transformative-change"
+        - "social-movements"
+        - "behavior-change"
+        - "decision-making"
+        - "collective-action"
+        - "environmental-protection"
+        - "social-justice"
+      
+      research_methods:
+        - "grounded-theory"
+        - "inductive-analysis"
+        - "systematic-review"
+        - "meta-analysis"
+        - "interdisciplinary-synthesis"
+        - "theoretical-integration"

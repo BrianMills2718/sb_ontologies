@@ -1,0 +1,252 @@
+Influencing adversary Leadership Coalitions 45
+appropriate strategy. 3 In other cases—perhaps especially those involv-
+ing intrastate conflicts or nonstate actors—an indirect strategy may be
+more appropriate. Such indirect strategies can include the following:
+Intercession by an influential third party.• Historical examples
+include the Bush administration’s effort to enlist Russian help in
+convincing Saddam Hussein to withdraw from Kuwait in 1991
+and more recent efforts to enlist Russian, Japanese, and especially
+Chinese assistance in the six-party talks with North Korea over
+Pyongyang’s nuclear weapons programs.
+Strengthening the hand of moderates or weakening the hand of•
+hard-liners. The relative influence of moderates and hard-liners
+in adversary decisionmaking may be susceptible to manipula-
+tion through a carefully crafted influence strategy that combines
+precisely targeted messages with appropriately discriminate con-
+cessions and/or threats. Good examples of this strategy are U.S.
+efforts to encourage moderate forces at the expense of extremists
+in Iran, Iraq, Afghanistan, Indonesia, the West Bank, and Gaza.
+Encouraging important constituents of the opposing regime to put pres-•
+sure on their leaders. It may be possible to craft influence strategies
+that increase the pressure that leaders feel from their core con-
+stituencies. During the war in Kosovo, for example, the NATO
+coalition reportedly placed at risk various commercial enterprises
+in Belgrade that were owned by core supporters of Slobodan
+Milosevic, and this pressure may have contributed to Milosevic’s
+decision to capitulate (see Hosmer, 2001).
+The literature on strategies for influencing adversaries leads to a
+very similar set of conclusions about context dependence seen in many
+other areas of influence, including the need to understand actor-specific,
+group decisionmaking and other situational factors. For example, as
+3 Such direct strategies can include classic deterrence and coercive diplomacy directed
+against adversary leaders and may be accompanied by either threats or positive inducements
+or both.
+46 Foundations of Effective Influence Operations
+George (2002, p. 274) describes the role of carrots in deterrence and
+coercive diplomacy:
+It must be emphasized that offering positive incentives to an
+adversary as well as threats is highly context dependent in both
+deterrence and coercive diplomacy. There can be no assurance that
+a combination of carrot and stick will be effective. The outcome
+depends on many characteristics of the two actors, the nature of
+the conflict between them, how well carrots and sticks are chosen
+and employed, and situational variables. For example, if impor-
+tant divisions exist in the leadership group of the adversary, a
+carrot and stick approach may encourage those leaders who favor
+some kind of settlement. When important domestic constituents
+of the leadership of the adversary state favor termination of the
+crisis, their views and actions may become more influential on
+decisions if their state is offered carrots as well as sticks.
+As a result, George has frequently cited the need for general
+models of influence that can be used as diagnostic tools to account for
+actor-specific, situational, and other factors.
+The implication for planners is that an exceedingly rich body of
+research is available that offers a diagnostic and prescriptive framework
+for informing the analysis and planning of influence operations. But
+these general models need to be adapted to the specific characteris-
+tics of each new influence effort as a result of differences in objectives,
+adversaries, and other characteristics of the situation.
+Agent-Based Rational Choice Models
+To be sure, outcomes in political-military contests are the result of con-
+flicts and bargaining between the disputants (e.g., the United States
+and an adversary), but they also are greatly influenced by domestic fac-
+Influencing adversary Leadership Coalitions 47
+tions or coalitions that have some influence on adversary leaders or by
+third parties, such as international or transnational actors. 4
+The use of agent-based rational choice or expected utility
+models can illuminate the underlying interest group relationships and
+dynamics—bargaining, coercion, coalition-building, and so on—that
+influence adversary decisionmaking. These models also can bound the
+range of likely outcomes for a policy dispute, identify key stakeholder
+groups that may offer leverage, and assist in choosing strategies that are
+most likely to influence the outcomes of political deliberations in ways
+that favor U.S. aims.
+Of the various social science approaches we reviewed, agent-based
+rational choice or expected utility modeling (EUM) appeared to be
+the most mature and robust. We believe that one of those approaches
+should be employed in the development of influence strategies; our
+judgment is that it is a proven forecasting technique that is suitable for
+operational use for influence strategy development.
+The expected utility model of principal interest originally was
+developed by political scientist Bueno de Mesquita in the late 1970s
+and early 1980s.5 A commercial version of the model, called Policon,
+was marketed through Data Resources Incorporated and used by the
+Central Intelligence Agency (CIA) from 1982 to 1986, and an in-house
+CIA version of the model, called FACTIONS, subsequently was devel-
+oped by the Directorate of Science and Technology’s Office of Research
+and Development (Feder, 1995, p. 274). Some academic versions of the
+4 During the war in Kosovo, for example, Milosevic appears to have been under tremen-
+dous pressure from his core supporters to take actions that would end the bombing cam-
+paign, which was destroying a key source of their economic wealth. See Hosmer, 2001.
+5 The model was adapted to two main applications: international conflict and political
+forecasting. Regarding applications for interstate conflict, see for example, Bueno de Mes-
+quita, 1980, 1981, 1985, and 2000; Bueno de Mesquita and Lalman, 1992. On applica-
+tions for coalition politics, see Bueno de Mesquita, 1984; Bueno de Mesquita, Newman, and
+Rabushka, 1985, 1996; Bueno de Mesquita and Stokman, 1994.
+48 Foundations of Effective Influence Operations
+model also are available, 6 and several commercial ventures currently
+market the tool as part of their consultancies.7
+The input data required by the model are readily specified by sub-
+ject matter experts:
+Identification of the key political stakeholder groups within or•
+outside the country who may seek to influence the policy
+A specified range of policy alternatives that encompass key stake-•
+holder groups’ preferred outcomes 8
+The policy preference on the issue of each group•
+Estimates of the relative political, economic, or military capa-•
+bilities that each group may employ to influence the policy
+decision
+Estimates of the importance (salience) each group attaches to the•
+issue, signifying the group’s willingness to expend political capital
+to influence policy outcomes (Bueno de Mesquita, 1984).9
+The model endogenously calculates each stakeholder group’s (1)
+risk orientation, (2) basic orientation toward other actors, and (3) esti-
+6 Congressional Quarterly Press (as of December 2007: www.cqpress.com) has a Web-
+based online version that is available to instructors and students using Bueno de Mesquita’s
+textbook on international politics. Also, a version of the model, called EUGene (Expected
+Utility Generation and Data Management Program) and developed by D. Scott Bennett and
+Allan C. Stam III, is available online (as of December 2007: www.eugenesoftware.org) for
+the analysis of datasets dealing with international conflict and cooperation.
+7 Different commercial versions of the model are in use or marketed by Decision Insights,
+Inc. (formerly Policon), Policy Futures LLP, and the Sentia Group. Sentia Group’s Senturion
+model is described in Abdollahian et al., 2006.
+8 The model assumes that issues are unidimensional, such that preferences can be rep-
+resented on a line segment, and that preferences are single-peaked, so that the associated
+utilities for potential outcomes diminish steadily the farther in Euclidean distance a possible
+settlement is from a player’s preferred outcome. Each actor’s risk orientation is estimated
+endogenously from his or her position relative to the predicted outcome, such that actors may
+perceive the same situation very differently.
+9 An actor’s salience, which can range between 0 and 1, discounts the actor’s capabilities.
+For example, an actor whose capabilities are judged to be 100 and whose salience is 1.0 has
+an effective capability on the issue of 100, whereas an actor whose capabilities are 100 but
+whose salience is only 0.5 has an effective capability on the issue of 50.
+Influencing adversary Leadership Coalitions 49
+mates of potential gains or losses in utility from alternative bargains
+that might be struck with other actors. Finally, it calculates what pro-
+posals will be offered and accepted.10
+The intellectual foundations of expected utility models are found
+in theoretical work on social choice, spatial voting, and game theo-
+ry.11 In their typical contemporary form, expected utility models really
+consist of two distinct models: first, a weighted spatial voting model
+forecasts an outcome using whatever voting rule has been specified;12
+second, the model simulates the actual bargaining between actors or
+groups that are seeking to influence the outcome of the policy issue
+leading to the predicted outcome.13 Thus, using a small number of
+inputs—only three estimates per stakeholder group—the model fore-
+casts an outcome on the policy issue and simulates the interactions
+between actors—including bargaining and threats—that are expected
+to be part of the process that will lead to that outcome. Given a base
+forecast, planners can then explore policy changes—changes in a
+U.S. position or salience, for example, or in another actor’s position or
+salience—that can shift the political outcome in favorable ways.
+10 Actors are assumed to trade off political security and policy gains, with the model infer-
+ring each actor’s risk orientation—risk acceptance or aversion—from his or her position rela-
+tive to the forecast outcome. Risk aversion is deemed to increase the closer the actor is to the
+forecast outcome, while risk acceptance is deemed to increase the farther the actor is from
+the forecast outcome.
+11 Among the foundations are Black’s (1958) median voter theorem, Riker’s (1962) work
+on political coalitions, and Banks’ (1990) theorem about the monotonicity between certain
+expectations and the escalation of political disputes.
+12 Most commonly, this is the Condorcet winner, which occupies the median voter position
+and in which actors are weighted by their effective political power, but it also can take the
+form of qualified majority voting, majority voting with veto, or other voting rules.
+13 Although the specifics sometimes vary somewhat because of the evolution of the model,
+descriptions of the logical foundations and underlying equations of expected utility models
+can be found in Bueno de Mesquita, 1997, 2000; Bueno de Mesquita, Newman, and
+Rabushka, 1985, 1996; Bueno de Mesquita and Stokman, 1994, pp. 71–104; Kugler, Abdol-
+lahian, and Tammen, Technical Appendix, n.d.
+50 Foundations of Effective Influence Operations
+EUM has been used extensively within the U.S. intelligence com-
+munity14 and by academic scholars to forecast political outcomes on
+various policy issues, and it has developed an impressive track record
+in accurately predicting political outcomes. Although many readers are
+likely to remain skeptical of the claims that follow, a number of differ-
+ent sources have reported a high level of accuracy for forecasts using
+this approach:
+Bueno de Mesquita (1984, p. 233) reported that “around 90 per-•
+cent of the real-time forecasts based on this model have proven
+correct both with respect to the predicted policy decisions and
+with the circumstances surrounding those decisions.”
+Feder (2002) reported that, during his career at the CIA, he used•
+the model on more than 1,200 issues dealing with more than 75
+countries and that, in a sample of 80 issues involving more than
+a score of countries, the voting model alone was accurate almost
+90 percent of the time; as an example, he reported that a 1993
+analysis of the likely Italian budget deficit forecast a deficit of
+70 trillion lira, within 1 percent of the deficit that ultimately was
+approved by the Italian government (Feder, 1995).
+Feder (1995, p. 118) cites Organski and Eldersveld’s (1994) evalu-•
+ation of real-time forecasts on 21 policy decisions in the European
+community, in which the authors concluded that “the probabil-
+ity that the predicted outcome was what indeed occurred was an
+astounding 97 percent.”
+More recently, in the fall of 2002, Kugler and his associates con-•
+ducted an EUM-based analysis of the imminent war between the
+United States and Iraq. This analysis predicted a U.S. victory and
+the collapse of Hussein’s regime, but also forecast a prolonged
+insurgency largely centered around former regime elements and
+other disaffected Sunnis; an updated analysis immediately after
+the conclusion of combat operations forecast the break between
+14 Stanley Feder (1995) reports that the version of the expected utility model in use within
+the CIA’s Directorate of Intelligence has been used in well over 1,000 policy issues of interest
+to the Directorate of Intelligence.
+Influencing adversary Leadership Coalitions 51
+Ahmed Chalabi, a U.S. protégé, and the U.S. government, among
+other developments (see Efird and Kugler, 2002; Kugler and
+Tammen, 2003; Baranick et al., 2004).15
+Agent-based rational choice or expected utility model–based
+analyses appear to offer a unique set of capabilities for illuminating the
+influence of various stakeholders who might be targeted for influence
+operations, for simulating forecasts of the political outcomes under dif-
+ferent circumstances and policies, for suggesting the political dynam-
+ics that will lead to forecast political outcomes, and for identifying the
+sorts of policy changes—and level of resources—that are needed to
+influence outcomes in favorable ways. These capabilities are all essential
+for effective influence operations.
+Influencing Adversary Leadership Coalitions: Conclusions
+This chapter has provided an overview of work that addresses strategies
+for influencing adversaries and, taken as a whole, provides a rich set
+of diagnostic tools for assessing the likely efficacy of alternative influ-
+ence strategies. We also discussed agent-based rational choice models,
+whose capabilities and predictive track record suggest that they have an
+important role to play in the exploration and development of alterna-
+tive influence strategies for achieving U.S. objectives.
+Before concluding the chapter, we highlight several other features
+that appear to be somewhat distinctive to influence operations against
+adversary leadership coalitions and that need to be emphasized:
+Political outcomes result not just from statements that are made•
+by participants in policy debates, but also through the negotia-
+tion, policy concessions, horse-trading, bullying, coalition for-
+mation, and other essentially political activities that typically are
+conducted, whether in public or in the proverbial smoke-filled
+15 One of the present authors (Larson) provided expert data on Iraqi stakeholder groups that
+were used in EUM simulations and analyses.
+52 Foundations of Effective Influence Operations
+room. Understanding and seeking to influence these dynamics
+are key elements of strategic-level influence operations against
+adversaries.
+Not all participants or stakeholder groups involved in a debate•
+are equally important to the resolution of that debate. Partici-
+pants may differ in the political capital they have available. For
+example, some actors (or their coalitions) will be quite influen-
+tial, while others are quite marginal. Given the likely constraints
+on resources available for influence operations, identifying which
+stakeholders matter and which do not is critical.
+Finally, each stakeholder group’s objectives, stakes in the outcome,•
+risk orientations, decisionmaking style, preferred strategies, and
+other factors may differ. Therefore, it frequently is necessary to
+“tune” influence strategies to specific individuals and stakeholder
+groups.
+Having illuminated analytic approaches for identifying which
+stakeholder groups are key, in the next chapter, we turn to the chal-
+lenges of influencing large numbers of these groups

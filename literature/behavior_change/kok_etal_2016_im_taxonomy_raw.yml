@@ -1,0 +1,447 @@
+citation: "Kok, G., Gottlieb, N. H., Peters, G. J. Y., Mullen, P. D., Parcel, G. S., Ruiter, R. A., Fernández, M. E., Markham, C., & Bartholomew, L. K. (2016). A taxonomy of behaviour change methods: an Intervention Mapping approach. Health Psychology Review, 10(3), 297-312."
+
+annotation: "This paper presents the Intervention Mapping (IM) taxonomy of behavior change methods, emphasizing the distinction between theory-based methods and practical applications, the importance of parameters for effectiveness, and the need to target appropriate determinants that predict behavior. The taxonomy provides a comprehensive framework for both intervention development and coding purposes, addressing individual and environmental levels of behavior change."
+
+model_type: "property_graph"
+
+rationale: "The IM taxonomy represents a complex network of interconnected theoretical constructs including behavior change methods, determinants, beliefs, practical applications, and parameters for effectiveness. These elements form nodes with relationships (targeting, embodying, influencing, translating) that create a comprehensive theoretical network. The multi-level ecological approach (individual, interpersonal, organizational, community, societal) further supports a property graph structure with hierarchical and cross-level relationships."
+
+schema_blueprint:
+  title: "Intervention Mapping Taxonomy of Behavior Change Methods Schema"
+  description: "A comprehensive schema modeling the Intervention Mapping approach to behavior change, including theory-based methods, determinants, practical applications, parameters for effectiveness, and multi-level ecological factors."
+  
+  root_properties:
+    nodes:
+      description: "Represents theoretical constructs, methods, determinants, applications, and environmental agents in the behavior change taxonomy"
+      item_type: "Entity"
+    edges:
+      description: "Represents relationships between behavior change elements including targeting, translation, influence, and effectiveness conditions"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Theoretical Framework
+    - name: "intervention-mapping"
+      category: "theoretical-framework"
+      description: "A systematic six-step protocol for developing, implementing, and evaluating behavior change interventions based on theory and evidence"
+      domain: ["intervention", "program"]
+      range: ["behavior-change", "health-promotion"]
+    
+    - name: "behavior-change-method"
+      category: "core-construct"
+      description: "General techniques or processes that have been shown to be able to change one or more determinants of behavior, based on behavioral and social science theories"
+      domain: ["theory-based-method"]
+      range: ["determinant", "behavior"]
+      subTypeOf: "theoretical-method"
+    
+    - name: "theory-based-method"
+      category: "core-construct"
+      description: "Methods that have their origins in behavioral and social science theories and explain the mechanism of action through which behavior change occurs"
+      domain: ["behavioral-theory", "social-theory"]
+      range: ["determinant", "belief"]
+    
+    - name: "practical-application"
+      category: "core-construct"
+      description: "Specific translations of theory-based methods for practical use in ways that fit the intervention population and context"
+      domain: ["theory-based-method", "population", "context"]
+      range: ["intervention-delivery", "program-component"]
+      subTypeOf: "intervention-component"
+    
+    - name: "determinant"
+      category: "core-construct"
+      description: "Generic modifiable psychological variables or regulatory processes that are assumed to be causal antecedents of behavior"
+      domain: ["psychological-variable", "process"]
+      range: ["behavior", "change-objective"]
+    
+    - name: "belief"
+      category: "core-construct"
+      description: "Specific lower level elements of determinants that together make up each determinant, including thoughts, emotions, automatic associations, or process elements"
+      domain: ["cognition", "emotion", "association"]
+      range: ["determinant", "behavior"]
+      subTypeOf: "psychological-element"
+    
+    - name: "change-objective"
+      category: "core-construct"
+      description: "A belief that has been selected as an intervention target by combining sub-behaviors with behavioral determinants"
+      domain: ["belief", "behavior"]
+      range: ["intervention-target", "method-application"]
+      subTypeOf: "intervention-target"
+    
+    - name: "parameters-for-effectiveness"
+      category: "core-construct"
+      description: "Conditions that must be satisfied in practical applications for a theoretical method to be effective"
+      domain: ["theory-based-method", "application-conditions"]
+      range: ["method-effectiveness", "intervention-success"]
+    
+    # Specific Determinants
+    - name: "attitude"
+      category: "determinant-type"
+      description: "Aggregate of attitudinal beliefs that influence behavior through evaluation of behavioral outcomes"
+      domain: ["attitudinal-belief", "outcome-evaluation"]
+      range: ["behavior", "behavioral-intention"]
+      subTypeOf: "determinant"
+    
+    - name: "social-norm"
+      category: "determinant-type"
+      description: "Aggregate of normative beliefs about what others think one should do and motivation to comply"
+      domain: ["normative-belief", "social-influence"]
+      range: ["behavior", "behavioral-intention"]
+      subTypeOf: "determinant"
+    
+    - name: "self-efficacy"
+      category: "determinant-type"
+      description: "Beliefs about one's ability and control to perform a behavior in various situations"
+      domain: ["control-belief", "ability-perception"]
+      range: ["behavior", "behavioral-intention"]
+      subTypeOf: "determinant"
+    
+    - name: "knowledge"
+      category: "determinant-type"
+      description: "Information and understanding that serves as the basis for many other determinants"
+      domain: ["information", "understanding"]
+      range: ["attitude", "risk-perception", "skills"]
+      subTypeOf: "determinant"
+    
+    - name: "risk-perception"
+      category: "determinant-type"
+      description: "Specific part of attitude concerning perceived susceptibility and severity of health threats"
+      domain: ["susceptibility-belief", "severity-belief"]
+      range: ["health-behavior", "protective-action"]
+      subTypeOf: "attitude"
+    
+    - name: "skills"
+      category: "determinant-type"
+      description: "Behavioral capabilities necessary to perform target behaviors effectively"
+      domain: ["behavioral-capability", "performance-ability"]
+      range: ["behavior-execution", "self-efficacy"]
+      subTypeOf: "determinant"
+    
+    # Individual Level Methods (Examples from the taxonomy)
+    - name: "modelling"
+      category: "behavior-change-method"
+      description: "Providing an appropriate model being reinforced for the desired behavior or skill"
+      domain: ["observational-learning", "social-cognitive-theory"]
+      range: ["self-efficacy", "skills", "attitude"]
+    
+    - name: "guided-practice"
+      category: "behavior-change-method"
+      description: "Prompting individuals to rehearse and repeat the behavior various times, discuss the experience, and provide feedback"
+      domain: ["skill-development", "behavioral-rehearsal"]
+      range: ["self-efficacy", "skills", "behavioral-capability"]
+    
+    - name: "goal-setting"
+      category: "behavior-change-method"
+      description: "Prompting individuals to set specific, challenging but attainable goals for behavior change"
+      domain: ["goal-theory", "self-regulation"]
+      range: ["behavioral-intention", "motivation", "self-regulation"]
+    
+    - name: "implementation-intentions"
+      category: "behavior-change-method"
+      description: "Creating if-then plans that specify when, where, and how to perform intended behaviors"
+      domain: ["planning", "goal-pursuit"]
+      range: ["behavioral-intention", "behavior-execution"]
+    
+    - name: "fear-appeals"
+      category: "behavior-change-method"
+      description: "Evoking fear by emphasizing severity of and susceptibility to health threat"
+      domain: ["threat-communication", "fear-arousal"]
+      range: ["risk-perception", "attitude", "behavioral-intention"]
+    
+    - name: "persuasive-communication"
+      category: "behavior-change-method"
+      description: "Providing arguments supporting or opposing a particular behavior"
+      domain: ["persuasion-theory", "message-processing"]
+      range: ["attitude", "beliefs", "behavioral-intention"]
+    
+    - name: "elaboration"
+      category: "behavior-change-method"
+      description: "Stimulating individuals to think about and discuss behaviors and their determinants"
+      domain: ["cognitive-processing", "elaboration-likelihood"]
+      range: ["multiple-determinants", "attitude", "awareness"]
+    
+    - name: "tailoring"
+      category: "behavior-change-method"
+      description: "Adapting information to individual characteristics, needs, or circumstances"
+      domain: ["personalization", "individual-differences"]
+      range: ["multiple-determinants", "message-relevance"]
+    
+    # Environmental Level Methods
+    - name: "advocacy"
+      category: "environmental-method"
+      description: "Basic method for influencing decision-makers at all environmental levels to support desired changes"
+      domain: ["policy-influence", "decision-maker-targeting"]
+      range: ["environmental-change", "policy-support"]
+    
+    - name: "agenda-setting"
+      category: "environmental-method"
+      description: "Method for societal level change involving getting issues onto policy agendas"
+      domain: ["policy-process", "issue-prioritization"]
+      range: ["policy-attention", "societal-change"]
+      subTypeOf: "environmental-method"
+    
+    - name: "social-action"
+      category: "environmental-method"
+      description: "Method for community level change involving collective action for social change"
+      domain: ["community-organizing", "collective-action"]
+      range: ["community-change", "social-change"]
+      subTypeOf: "environmental-method"
+    
+    - name: "sense-making"
+      category: "environmental-method"
+      description: "Method for organizational level change involving helping organizations understand and interpret information"
+      domain: ["organizational-cognition", "information-processing"]
+      range: ["organizational-change", "decision-making"]
+      subTypeOf: "environmental-method"
+    
+    - name: "network-linkages"
+      category: "environmental-method"
+      description: "Method for interpersonal level change involving enhancing connections between individuals"
+      domain: ["social-networks", "relationship-building"]
+      range: ["social-support", "interpersonal-influence"]
+      subTypeOf: "environmental-method"
+    
+    # Environmental Levels
+    - name: "individual-level"
+      category: "ecological-level"
+      description: "Level focusing on personal factors influencing behavior"
+      domain: ["personal-factors", "individual-characteristics"]
+      range: ["individual-behavior", "personal-change"]
+    
+    - name: "interpersonal-level"
+      category: "ecological-level"
+      description: "Level involving social relationships and interactions between individuals"
+      domain: ["social-relationships", "peer-influence"]
+      range: ["social-behavior", "interpersonal-change"]
+    
+    - name: "organizational-level"
+      category: "ecological-level"
+      description: "Level involving institutions and organizations that influence behavior"
+      domain: ["organizational-factors", "institutional-policies"]
+      range: ["organizational-behavior", "institutional-change"]
+    
+    - name: "community-level"
+      category: "ecological-level"
+      description: "Level involving community norms, networks, and collective action"
+      domain: ["community-factors", "social-norms"]
+      range: ["community-behavior", "collective-change"]
+    
+    - name: "societal-level"
+      category: "ecological-level"
+      description: "Level involving broader societal policies, culture, and systems"
+      domain: ["policy-factors", "cultural-factors"]
+      range: ["population-behavior", "systemic-change"]
+    
+    # Process Components
+    - name: "needs-assessment"
+      category: "process-step"
+      description: "IM Step 1: Conduct problem analysis by identifying what needs to be changed and for whom"
+      domain: ["problem-identification", "target-population"]
+      range: ["intervention-focus", "change-objectives"]
+      subTypeOf: "intervention-mapping-step"
+    
+    - name: "matrices-of-change-objectives"
+      category: "process-step"
+      description: "IM Step 2: Create matrices combining sub-behaviors with behavioral determinants to identify intervention targets"
+      domain: ["behavior-analysis", "determinant-analysis"]
+      range: ["change-objectives", "intervention-targets"]
+      subTypeOf: "intervention-mapping-step"
+    
+    - name: "method-selection"
+      category: "process-step"
+      description: "IM Step 3: Select theory-based methods that match determinants and translate into practical applications"
+      domain: ["theory-based-methods", "determinants"]
+      range: ["practical-applications", "intervention-components"]
+      subTypeOf: "intervention-mapping-step"
+    
+    - name: "program-integration"
+      category: "process-step"
+      description: "IM Step 4: Integrate practical applications into an organized programme"
+      domain: ["practical-applications", "program-design"]
+      range: ["intervention-program", "organized-intervention"]
+      subTypeOf: "intervention-mapping-step"
+    
+    - name: "implementation-planning"
+      category: "process-step"
+      description: "IM Step 5: Plan for adoption, implementation, and sustainability in real-life contexts"
+      domain: ["program-users", "implementation-context"]
+      range: ["program-adoption", "sustainability"]
+      subTypeOf: "intervention-mapping-step"
+    
+    - name: "evaluation-planning"
+      category: "process-step"
+      description: "IM Step 6: Generate evaluation plan for effect and process evaluations"
+      domain: ["evaluation-design", "measurement-planning"]
+      range: ["program-effectiveness", "process-evaluation"]
+      subTypeOf: "intervention-mapping-step"
+    
+    # Relationships and Processes
+    - name: "targets"
+      category: "relationship"
+      description: "Relationship where a method or application targets a specific determinant or belief"
+      domain: ["behavior-change-method", "practical-application"]
+      range: ["determinant", "belief", "change-objective"]
+    
+    - name: "embodies"
+      category: "relationship"
+      description: "Relationship where a practical application embodies one or more theory-based methods"
+      domain: ["practical-application"]
+      range: ["theory-based-method", "behavior-change-method"]
+    
+    - name: "influences"
+      category: "relationship"
+      description: "Relationship where determinants influence behavior or other determinants"
+      domain: ["determinant", "belief"]
+      range: ["behavior", "behavioral-intention", "determinant"]
+    
+    - name: "translates-to"
+      category: "relationship"
+      description: "Relationship where theory-based methods are translated into practical applications"
+      domain: ["theory-based-method"]
+      range: ["practical-application", "intervention-component"]
+    
+    - name: "requires"
+      category: "relationship"
+      description: "Relationship where methods require specific parameters for effectiveness"
+      domain: ["behavior-change-method", "theory-based-method"]
+      range: ["parameters-for-effectiveness", "application-conditions"]
+    
+    - name: "aggregates-into"
+      category: "relationship"
+      description: "Relationship where beliefs aggregate into higher-level determinants"
+      domain: ["belief", "psychological-element"]
+      range: ["determinant", "psychological-variable"]
+    
+    # Measurement and Evaluation
+    - name: "intervention-coding"
+      category: "measurement-method"
+      description: "Process of categorizing intervention content using taxonomies for meta-analysis"
+      domain: ["intervention-description", "taxonomy"]
+      range: ["meta-analysis", "systematic-review"]
+    
+    - name: "intervention-development"
+      category: "process"
+      description: "Systematic process of creating behavior change interventions using theory and evidence"
+      domain: ["theory", "evidence", "planning"]
+      range: ["intervention-program", "behavior-change"]
+    
+    - name: "effect-evaluation"
+      category: "measurement-method"
+      description: "Assessment of intervention effectiveness in producing desired behavior change"
+      domain: ["intervention-outcomes", "behavior-change"]
+      range: ["effectiveness-evidence", "impact-assessment"]
+    
+    - name: "process-evaluation"
+      category: "measurement-method"
+      description: "Assessment of how intervention was implemented and received by target population"
+      domain: ["implementation-process", "intervention-delivery"]
+      range: ["implementation-quality", "process-indicators"]
+    
+    # Quality and Effectiveness Factors
+    - name: "population-fit"
+      category: "effectiveness-factor"
+      description: "Degree to which intervention applications fit the characteristics of the target population"
+      domain: ["target-population", "intervention-design"]
+      range: ["intervention-effectiveness", "cultural-appropriateness"]
+    
+    - name: "context-fit"
+      category: "effectiveness-factor"
+      description: "Degree to which intervention applications fit the implementation context"
+      domain: ["implementation-context", "intervention-design"]
+      range: ["intervention-effectiveness", "contextual-appropriateness"]
+    
+    - name: "parameter-satisfaction"
+      category: "effectiveness-factor"
+      description: "Degree to which practical applications satisfy the parameters for effectiveness of embodied methods"
+      domain: ["practical-application", "parameters-for-effectiveness"]
+      range: ["method-effectiveness", "intervention-success"]
+    
+    - name: "determinant-relevance"
+      category: "effectiveness-factor"
+      description: "Degree to which targeted determinants actually predict the behavior of interest"
+      domain: ["determinant", "behavior-prediction"]
+      range: ["intervention-relevance", "behavior-change-potential"]
+    
+    - name: "method-determinant-match"
+      category: "effectiveness-factor"
+      description: "Degree to which selected methods can actually change the targeted determinants"
+      domain: ["behavior-change-method", "determinant"]
+      range: ["method-effectiveness", "determinant-change"]
+
+  json_schema:
+    behavioral_determinants:
+      - "attitude"
+      - "social-norm"
+      - "self-efficacy"
+      - "knowledge"
+      - "risk-perception"
+      - "skills"
+      - "behavioral-intention"
+      - "habit"
+      - "emotion"
+      - "motivation"
+    
+    individual_methods:
+      - "modelling"
+      - "guided-practice"
+      - "goal-setting"
+      - "implementation-intentions"
+      - "fear-appeals"
+      - "persuasive-communication"
+      - "elaboration"
+      - "tailoring"
+      - "feedback"
+      - "reinforcement"
+      - "self-monitoring"
+      - "social-comparison"
+    
+    environmental_methods:
+      - "advocacy"
+      - "agenda-setting"
+      - "social-action"
+      - "sense-making"
+      - "network-linkages"
+      - "coalition-building"
+      - "policy-development"
+      - "organizational-change"
+      - "community-mobilization"
+      - "media-advocacy"
+    
+    ecological_levels:
+      - "individual-level"
+      - "interpersonal-level"
+      - "organizational-level"
+      - "community-level"
+      - "societal-level"
+    
+    intervention_mapping_steps:
+      - "needs-assessment"
+      - "matrices-of-change-objectives"
+      - "method-selection"
+      - "program-integration"
+      - "implementation-planning"
+      - "evaluation-planning"
+    
+    effectiveness_conditions:
+      - "determinant-relevance"
+      - "method-determinant-match"
+      - "parameter-satisfaction"
+      - "population-fit"
+      - "context-fit"
+    
+    relationship_types:
+      - "targets"
+      - "embodies"
+      - "influences"
+      - "translates-to"
+      - "requires"
+      - "aggregates-into"
+      - "predicts"
+      - "enables"
+      - "moderates"
+    
+    evaluation_types:
+      - "effect-evaluation"
+      - "process-evaluation"
+      - "needs-assessment"
+      - "implementation-assessment"
+      - "outcome-evaluation"
+      - "impact-evaluation"

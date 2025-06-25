@@ -1,0 +1,536 @@
+citation: "Walker, Stephen G., Mark Schafer, and Michael D. Young. \"Systematic Procedures for Operational Code Analysis: Measuring and Modeling Jimmy Carter's Operational Code.\" International Studies Quarterly 42, no. 1 (1998): 175-189."
+annotation: "Introduces systematic scoring system for operational code analysis using Verbs in Context System (VICS) to measure leaders' worldviews and political action approaches through speech analysis."
+model_type: "property_graph"
+rationale: "The framework describes hierarchical relationships between philosophical and instrumental beliefs with clear linkages between self-other attributions, power relationships, and decision-making propensities."
+schema_blueprint:
+  title: "Operational Code Analysis VICS Schema"
+  description: "Models systematic procedures for operational code analysis using the Verbs in Context System to measure political leaders' belief systems."
+  root_properties:
+    nodes:
+      description: "Operational code beliefs, attributions, verb categories, and measurement concepts."
+      item_type: "Entity"
+    edges:
+      description: "The relationships between philosophical beliefs, instrumental beliefs, attributions, and behavioral propensities."
+      item_type: "NaryTuple"
+  definitions:
+    - name: "operational-code"
+      category: "core-construct"
+      description: "A set of general beliefs about the nature of politics and political action that guide decision-making."
+      domain: ["Actor"]
+    - name: "belief-system"
+      category: "core-construct"
+      description: "Organized network of beliefs that shape interpretation and response to political situations."
+      domain: ["Actor"]
+    - name: "states-of-mind"
+      category: "core-construct"
+      description: "Cognitive and affective orientations that predispose leaders toward certain interpretations and actions."
+      domain: ["Actor"]
+    - name: "diagnostic-propensity"
+      category: "core-construct"
+      description: "Tendency to interpret political situations in particular ways based on operational code beliefs."
+      domain: ["Actor"]
+      range: ["Interpretation"]
+    - name: "choice-propensity"
+      category: "core-construct"
+      description: "Tendency to select particular courses of action based on operational code beliefs."
+      domain: ["Actor"]
+      range: ["Action"]
+    - name: "shift-propensity"
+      category: "core-construct"
+      description: "Tendency to change between different strategies or tactics over time."
+      domain: ["Actor"]
+      range: ["Behavior"]
+    - name: "self-other-relationship"
+      category: "core-construct"
+      description: "The perceived relationship between self and other political actors in terms of cooperation and conflict."
+      domain: ["Actor"]
+      range: ["Actor"]
+    - name: "attribution-property"
+      category: "core-construct"
+      description: "Characteristics attributed to political actors based on their observed behavior."
+      domain: ["Actor"]
+      range: ["Property"]
+    - name: "political-universe"
+      category: "core-construct"
+      description: "The overall conception of the nature and dynamics of political reality."
+      domain: ["Actor"]
+    - name: "power-relationship"
+      category: "core-construct"
+      description: "The distribution and exercise of political power between actors."
+      domain: ["Actor"]
+      range: ["Actor"]
+    - name: "p1-nature-political-universe"
+      category: "philosophical-belief"
+      description: "Belief about the fundamental nature of politics as cooperative or conflictual."
+      domain: ["Actor"]
+      range: ["PoliticalNature"]
+    - name: "p2-realization-political-values"
+      category: "philosophical-belief"
+      description: "Belief about prospects for realizing fundamental political values, optimistic versus pessimistic."
+      domain: ["Actor"]
+      range: ["Prospects"]
+    - name: "p3-predictability-political-future"
+      category: "philosophical-belief"
+      description: "Belief about the extent to which the political future is predictable versus uncertain."
+      domain: ["Actor"]
+      range: ["Predictability"]
+    - name: "p4-control-historical-development"
+      category: "philosophical-belief"
+      description: "Belief about the extent to which political leaders can influence historical developments."
+      domain: ["Actor"]
+      range: ["Control"]
+    - name: "p5-role-of-chance"
+      category: "philosophical-belief"
+      description: "Belief about the role of chance in forecasting and determining political outcomes."
+      domain: ["Actor"]
+      range: ["ChanceRole"]
+    - name: "i1-strategy"
+      category: "instrumental-belief"
+      description: "Belief about the best approach for selecting goals for political action."
+      domain: ["Actor"]
+      range: ["Strategy"]
+    - name: "i2-tactics"
+      category: "instrumental-belief"
+      description: "Belief about how goals and objectives can be pursued most effectively."
+      domain: ["Actor"]
+      range: ["Tactics"]
+    - name: "i3-risk-orientation"
+      category: "instrumental-belief"
+      description: "Belief about the best approach to calculation, control, and acceptance of risks."
+      domain: ["Actor"]
+      range: ["RiskApproach"]
+    - name: "i4-timing-of-action"
+      category: "instrumental-belief"
+      description: "Belief about the optimal timing for different types of political action."
+      domain: ["Actor"]
+      range: ["Timing"]
+    - name: "i5-utility-of-means"
+      category: "instrumental-belief"
+      description: "Belief about the utility and role of different means for exercising political power."
+      domain: ["Actor"]
+      range: ["Means"]
+    - name: "cooperative-view"
+      category: "political-nature"
+      description: "View of politics as fundamentally based on cooperation and mutual benefit."
+    - name: "conflictual-view"
+      category: "political-nature"
+      description: "View of politics as fundamentally based on conflict and competition."
+    - name: "friendly-view"
+      category: "political-nature"
+      description: "Perception of other political actors as generally friendly and trustworthy."
+    - name: "hostile-view"
+      category: "political-nature"
+      description: "Perception of other political actors as generally hostile and threatening."
+    - name: "optimistic-prospects"
+      category: "prospects"
+      description: "Belief that political values can be successfully realized."
+    - name: "pessimistic-prospects"
+      category: "prospects"
+      description: "Belief that political values are difficult or impossible to realize."
+    - name: "temporary-conflict"
+      category: "prospects"
+      description: "View that current conflicts are temporary and resolvable."
+    - name: "permanent-conflict"
+      category: "prospects"
+      description: "View that conflicts are enduring features of political life."
+    - name: "high-predictability"
+      category: "predictability"
+      description: "Belief that political events can be reliably forecast."
+    - name: "low-predictability"
+      category: "predictability"
+      description: "Belief that political events are largely unpredictable."
+    - name: "high-control"
+      category: "control"
+      description: "Belief that political leaders can significantly influence events."
+    - name: "low-control"
+      category: "control"
+      description: "Belief that political leaders have limited influence over events."
+    - name: "high-chance"
+      category: "chance-role"
+      description: "Belief that chance plays a major role in political outcomes."
+    - name: "low-chance"
+      category: "chance-role"
+      description: "Belief that chance plays a minor role in political outcomes."
+    - name: "cooperative-strategy"
+      category: "strategy"
+      description: "Strategic approach emphasizing cooperation and mutual benefit."
+    - name: "conflictual-strategy"
+      category: "strategy"
+      description: "Strategic approach emphasizing competition and conflict."
+    - name: "cooperative-tactics"
+      category: "tactics"
+      description: "Tactical approaches using positive incentives and collaboration."
+    - name: "conflictual-tactics"
+      category: "tactics"
+      description: "Tactical approaches using negative incentives and coercion."
+    - name: "risk-acceptant"
+      category: "risk-approach"
+      description: "Willingness to accept risks in pursuit of political goals."
+    - name: "risk-averse"
+      category: "risk-approach"
+      description: "Preference for avoiding risks in political action."
+    - name: "immediate-timing"
+      category: "timing"
+      description: "Preference for immediate action in political situations."
+    - name: "delayed-timing"
+      category: "timing"
+      description: "Preference for delayed or gradual action in political situations."
+    - name: "positive-sanctions"
+      category: "means"
+      description: "Use of rewards, promises, and appeals to influence others."
+    - name: "negative-sanctions"
+      category: "means"
+      description: "Use of punishments, threats, and resistance to influence others."
+    - name: "authority"
+      category: "positive-sanction"
+      description: "Exercise of legitimate power to influence behavior."
+      subTypeOf: "positive-sanctions"
+    - name: "influence"
+      category: "positive-sanction"
+      description: "Persuasion and soft power to shape behavior."
+      subTypeOf: "positive-sanctions"
+    - name: "reward"
+      category: "positive-sanction"
+      description: "Provision of benefits to encourage desired behavior."
+      subTypeOf: "positive-sanctions"
+    - name: "appeal-support"
+      category: "positive-sanction"
+      description: "Seeking endorsement or backing from others (+1 intensity)."
+      subTypeOf: "positive-sanctions"
+    - name: "promise"
+      category: "positive-sanction"
+      description: "Commitment to provide future benefits (+2 intensity)."
+      subTypeOf: "positive-sanctions"
+    - name: "reward-action"
+      category: "positive-sanction"
+      description: "Actual provision of benefits (+3 intensity)."
+      subTypeOf: "positive-sanctions"
+    - name: "resistance"
+      category: "negative-sanction"
+      description: "Opposition to unwanted behavior or demands."
+      subTypeOf: "negative-sanctions"
+    - name: "threat"
+      category: "negative-sanction"
+      description: "Warning of potential punishment or harm."
+      subTypeOf: "negative-sanctions"
+    - name: "punishment"
+      category: "negative-sanction"
+      description: "Imposition of costs or harm to discourage behavior."
+      subTypeOf: "negative-sanctions"
+    - name: "oppose-resist"
+      category: "negative-sanction"
+      description: "Active opposition to others' actions (-1 intensity)."
+      subTypeOf: "negative-sanctions"
+    - name: "threaten"
+      category: "negative-sanction"
+      description: "Warning of future punishment (-2 intensity)."
+      subTypeOf: "negative-sanctions"
+    - name: "punish"
+      category: "negative-sanction"
+      description: "Actual imposition of costs (-3 intensity)."
+      subTypeOf: "negative-sanctions"
+    - name: "self-attribution"
+      category: "attribution-type"
+      description: "Attribution of behavior or characteristics to oneself."
+      domain: ["Actor"]
+      range: ["Self"]
+    - name: "other-attribution"
+      category: "attribution-type"
+      description: "Attribution of behavior or characteristics to other actors."
+      domain: ["Actor"]
+      range: ["Other"]
+    - name: "positive-attribution"
+      category: "attribution-valence"
+      description: "Attribution of positive or cooperative characteristics."
+      domain: ["Actor"]
+    - name: "negative-attribution"
+      category: "attribution-valence"
+      description: "Attribution of negative or conflictual characteristics."
+      domain: ["Actor"]
+    - name: "neutral-attribution"
+      category: "attribution-valence"
+      description: "Attribution of neutral characteristics (0 valence)."
+      domain: ["Actor"]
+    - name: "transitive-verb"
+      category: "vics-element"
+      description: "Action verbs that indicate relationships between subject and object."
+    - name: "verb-valence"
+      category: "vics-element"
+      description: "The positive, negative, or neutral direction of a transitive verb."
+    - name: "subject-identification"
+      category: "vics-element"
+      description: "Identification of the actor performing the action in a statement."
+    - name: "object-identification"
+      category: "vics-element"
+      description: "Identification of the target or recipient of an action in a statement."
+    - name: "context-specification"
+      category: "vics-element"
+      description: "Temporal and domain context surrounding a political action."
+    - name: "words-deeds"
+      category: "verb-category"
+      description: "Distinction between verbal statements and physical actions."
+    - name: "cooperative-words"
+      category: "verb-category"
+      description: "Verbal statements expressing cooperation or support."
+      subTypeOf: "words-deeds"
+    - name: "cooperative-deeds"
+      category: "verb-category"
+      description: "Physical actions expressing cooperation or support."
+      subTypeOf: "words-deeds"
+    - name: "conflictual-words"
+      category: "verb-category"
+      description: "Verbal statements expressing conflict or opposition."
+      subTypeOf: "words-deeds"
+    - name: "conflictual-deeds"
+      category: "verb-category"
+      description: "Physical actions expressing conflict or opposition."
+      subTypeOf: "words-deeds"
+    - name: "past-tense"
+      category: "temporal-dimension"
+      description: "Actions or states that occurred in the past."
+    - name: "present-tense"
+      category: "temporal-dimension"
+      description: "Actions or states occurring in the present."
+    - name: "future-tense"
+      category: "temporal-dimension"
+      description: "Actions or states projected to occur in the future."
+    - name: "domestic-domain"
+      category: "domain-classification"
+      description: "Political actions and relationships within national boundaries."
+    - name: "foreign-domain"
+      category: "domain-classification"
+      description: "Political actions and relationships with other nations."
+    - name: "net-frequency"
+      category: "measurement-concept"
+      description: "Difference between positive and negative attributions as proportion of total."
+    - name: "mean-intensity"
+      category: "measurement-concept"
+      description: "Average strength or magnitude of attributions on a scale."
+    - name: "index-qualitative-variation"
+      category: "measurement-concept"
+      description: "Measure of dispersion across categories indicating predictability."
+    - name: "intercoder-reliability"
+      category: "measurement-concept"
+      description: "Agreement between different coders in applying VICS procedures."
+    - name: "percentage-agreement"
+      category: "measurement-concept"
+      description: "Proportion of coding decisions on which multiple coders agree."
+    - name: "face-validity"
+      category: "validity-type"
+      description: "Extent to which measures appear to capture what they claim to measure."
+    - name: "construct-validity"
+      category: "validity-type"
+      description: "Extent to which measures relate to theoretical constructs as expected."
+    - name: "content-validity"
+      category: "validity-type"
+      description: "Extent to which measures comprehensively sample the domain of interest."
+    - name: "mutually-cooperative"
+      category: "relationship-pattern"
+      description: "Relationship pattern where both self and other are attributed cooperative behavior (+,+)."
+    - name: "mutually-conflictual"
+      category: "relationship-pattern"
+      description: "Relationship pattern where both self and other are attributed conflictual behavior (-,-)."
+    - name: "mixed-relationship"
+      category: "relationship-pattern"
+      description: "Relationship pattern where self and other have different attribution patterns (+,- or -,+)."
+    - name: "symmetrical-relationship"
+      category: "relationship-pattern"
+      description: "Relationship pattern where self and other attributions are similar in direction and magnitude."
+    - name: "skewed-relationship"
+      category: "relationship-pattern"
+      description: "Relationship pattern where self and other attributions differ significantly in magnitude."
+    - name: "temporal-stability"
+      category: "analysis-concept"
+      description: "Consistency of operational code beliefs across different time periods."
+    - name: "issue-domain-variation"
+      category: "analysis-concept"
+      description: "Differences in operational code beliefs across different policy areas."
+    - name: "learning-change"
+      category: "analysis-concept"
+      description: "Modification of operational code beliefs based on experience."
+    - name: "catalyzing-event"
+      category: "analysis-concept"
+      description: "Significant political event that triggers changes in operational code beliefs."
+    - name: "cold-war-mentality"
+      category: "leadership-characteristic"
+      description: "Worldview emphasizing bipolar conflict and zero-sum competition."
+    - name: "complex-interdependence"
+      category: "leadership-characteristic"
+      description: "Worldview emphasizing multilateral cooperation and mutual dependence."
+    - name: "evangelical-religiosity"
+      category: "leadership-characteristic"
+      description: "Religious worldview emphasizing moral absolutes and personal transformation."
+    - name: "cooperative-moralist"
+      category: "leadership-characteristic"
+      description: "Leadership style combining moral principles with cooperative approaches."
+    - name: "hot-cognition"
+      category: "cognitive-concept"
+      description: "Affect-laden cognitive processing that influences belief formation and change."
+    - name: "compartmentalization"
+      category: "cognitive-concept"
+      description: "Separation of beliefs into distinct domains to reduce cognitive dissonance."
+    - name: "core-beliefs"
+      category: "cognitive-concept"
+      description: "Fundamental beliefs that are resistant to change and central to worldview."
+    - name: "peripheral-beliefs"
+      category: "cognitive-concept"
+      description: "Surface-level beliefs that are more malleable and context-dependent."
+    - name: "influences"
+      category: "relationship"
+      description: "General causal influence between operational code components."
+      domain: ["Concept"]
+      range: ["Concept"]
+    - name: "predisposes"
+      category: "relationship"
+      description: "Creates tendency toward particular interpretations or actions."
+      domain: ["Belief"]
+      range: ["Behavior"]
+    - name: "correlates-with"
+      category: "relationship"
+      description: "Statistical association between operational code measures."
+      domain: ["Measure"]
+      range: ["Measure"]
+    - name: "determines"
+      category: "relationship"
+      description: "Direct causal determination of one variable by another."
+      domain: ["Cause"]
+      range: ["Effect"]
+    - name: "moderates"
+      category: "relationship"
+      description: "Affects the strength or direction of relationship between other variables."
+      domain: ["Variable"]
+      range: ["Relationship"]
+json_schema: |
+  {
+    "type": "object",
+    "properties": {
+      "nodes": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/Entity"
+        }
+      },
+      "edges": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/NaryTuple"
+        }
+      }
+    },
+    "required": ["nodes", "edges"],
+    "additionalProperties": false,
+    "$defs": {
+      "OpCode_CoreConstructs": {
+        "type": "string",
+        "enum": ["operational-code", "belief-system", "states-of-mind", "diagnostic-propensity", "choice-propensity", "shift-propensity", "self-other-relationship", "attribution-property", "political-universe", "power-relationship"]
+      },
+      "OpCode_PhilosophicalBeliefs": {
+        "type": "string",
+        "enum": ["p1-nature-political-universe", "p2-realization-political-values", "p3-predictability-political-future", "p4-control-historical-development", "p5-role-of-chance"]
+      },
+      "OpCode_InstrumentalBeliefs": {
+        "type": "string",
+        "enum": ["i1-strategy", "i2-tactics", "i3-risk-orientation", "i4-timing-of-action", "i5-utility-of-means"]
+      },
+      "OpCode_PoliticalNature": {
+        "type": "string",
+        "enum": ["cooperative-view", "conflictual-view", "friendly-view", "hostile-view"]
+      },
+      "OpCode_Prospects": {
+        "type": "string",
+        "enum": ["optimistic-prospects", "pessimistic-prospects", "temporary-conflict", "permanent-conflict"]
+      },
+      "OpCode_Predictability": {
+        "type": "string",
+        "enum": ["high-predictability", "low-predictability"]
+      },
+      "OpCode_Control": {
+        "type": "string",
+        "enum": ["high-control", "low-control"]
+      },
+      "OpCode_ChanceRole": {
+        "type": "string",
+        "enum": ["high-chance", "low-chance"]
+      },
+      "OpCode_Strategy": {
+        "type": "string",
+        "enum": ["cooperative-strategy", "conflictual-strategy"]
+      },
+      "OpCode_Tactics": {
+        "type": "string",
+        "enum": ["cooperative-tactics", "conflictual-tactics"]
+      },
+      "OpCode_RiskApproach": {
+        "type": "string",
+        "enum": ["risk-acceptant", "risk-averse"]
+      },
+      "OpCode_Timing": {
+        "type": "string",
+        "enum": ["immediate-timing", "delayed-timing"]
+      },
+      "OpCode_Means": {
+        "type": "string",
+        "enum": ["positive-sanctions", "negative-sanctions"]
+      },
+      "OpCode_PositiveSanctions": {
+        "type": "string",
+        "enum": ["authority", "influence", "reward", "appeal-support", "promise", "reward-action"]
+      },
+      "OpCode_NegativeSanctions": {
+        "type": "string",
+        "enum": ["resistance", "threat", "punishment", "oppose-resist", "threaten", "punish"]
+      },
+      "OpCode_AttributionTypes": {
+        "type": "string",
+        "enum": ["self-attribution", "other-attribution"]
+      },
+      "OpCode_AttributionValence": {
+        "type": "string",
+        "enum": ["positive-attribution", "negative-attribution", "neutral-attribution"]
+      },
+      "OpCode_VICSElements": {
+        "type": "string",
+        "enum": ["transitive-verb", "verb-valence", "subject-identification", "object-identification", "context-specification"]
+      },
+      "OpCode_VerbCategories": {
+        "type": "string",
+        "enum": ["words-deeds", "cooperative-words", "cooperative-deeds", "conflictual-words", "conflictual-deeds"]
+      },
+      "OpCode_TemporalDimensions": {
+        "type": "string",
+        "enum": ["past-tense", "present-tense", "future-tense"]
+      },
+      "OpCode_DomainClassifications": {
+        "type": "string",
+        "enum": ["domestic-domain", "foreign-domain"]
+      },
+      "OpCode_MeasurementConcepts": {
+        "type": "string",
+        "enum": ["net-frequency", "mean-intensity", "index-qualitative-variation", "intercoder-reliability", "percentage-agreement"]
+      },
+      "OpCode_ValidityTypes": {
+        "type": "string",
+        "enum": ["face-validity", "construct-validity", "content-validity"]
+      },
+      "OpCode_RelationshipPatterns": {
+        "type": "string",
+        "enum": ["mutually-cooperative", "mutually-conflictual", "mixed-relationship", "symmetrical-relationship", "skewed-relationship"]
+      },
+      "OpCode_AnalysisConcepts": {
+        "type": "string",
+        "enum": ["temporal-stability", "issue-domain-variation", "learning-change", "catalyzing-event"]
+      },
+      "OpCode_LeadershipCharacteristics": {
+        "type": "string",
+        "enum": ["cold-war-mentality", "complex-interdependence", "evangelical-religiosity", "cooperative-moralist"]
+      },
+      "OpCode_CognitiveConcepts": {
+        "type": "string",
+        "enum": ["hot-cognition", "compartmentalization", "core-beliefs", "peripheral-beliefs"]
+      },
+      "OpCode_Relationships": {
+        "type": "string",
+        "enum": ["influences", "predisposes", "correlates-with", "determines", "moderates"]
+      }
+    }
+  }

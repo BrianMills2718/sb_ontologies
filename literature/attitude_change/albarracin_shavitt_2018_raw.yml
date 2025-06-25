@@ -1,0 +1,345 @@
+citation: "Albarracín, D., & Shavitt, S. (2018). Attitudes and attitude change. Annual Review of Psychology, 69, 299-327. https://doi.org/10.1146/annurev-psych-122216-011911"
+
+annotation: "Comprehensive review of attitude research (2010-2017) examining how attitudes form and change within personal, social, and sociohistorical contexts. Introduces holistic contextualism as the new zeitgeist, moving beyond microprocesses to understand attitudes as embedded in values, goals, emotions, cultural frameworks, and developmental patterns."
+
+model_type: "property_graph"
+
+rationale: "Property graph model captures the complex theoretical network of attitudes research, representing attitudes as central nodes connected to multiple contextual influences (personal, social, historical), measurement approaches (explicit/implicit), change processes (persuasion, development), and cultural variations. The interconnected nature of attitude formation, change mechanisms, and behavioral outcomes requires a graph structure to model the relationships between constructs, processes, and contexts."
+
+schema_blueprint:
+  title: "Attitudes and Attitude Change Theoretical Framework"
+  description: "Schema modeling the holistic contextual approach to attitudes, encompassing attitude formation, change processes, measurement methods, and contextual influences across personal, social, and cultural domains"
+  
+  root_properties:
+    nodes:
+      description: "Theoretical constructs including attitudes, values, emotions, cultural orientations, developmental factors, persuasion elements, and measurement approaches"
+      item_type: "Entity"
+    edges:
+      description: "Relationships between attitude constructs, influence processes, measurement associations, developmental pathways, and cross-cultural variations"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Attitude Constructs
+    - name: "attitude"
+      category: "core-construct"
+      description: "A person's evaluation of an object on a favorable to unfavorable continuum"
+      
+    - name: "attitude-change"
+      category: "core-construct"
+      description: "Movement from one evaluative category to another (e.g., favor to disfavor)"
+      
+    - name: "value"
+      category: "core-construct"
+      description: "Attitude toward an abstract entity that guides policy support and behavior"
+      
+    - name: "dispositional-attitude"
+      category: "core-construct"
+      description: "General or dispositional attitudes that characterize the person as evaluating most objects positively, neutrally, or negatively"
+      
+    - name: "implicit-attitude"
+      category: "core-construct"
+      description: "Automatic evaluations assessed through indirect measures, potentially dissociated from explicit self-reports"
+      
+    - name: "explicit-attitude"
+      category: "core-construct"
+      description: "Conscious evaluations obtained through direct self-report measures"
+      
+    # Personal Context Constructs
+    - name: "general-action-goal"
+      category: "personal-context"
+      description: "Effortful end state that can be satisfied by various cognitive and physical behavioral means"
+      
+    - name: "self-talk"
+      category: "personal-context"
+      description: "Self-directed inner speech, often designed to control behavior"
+      
+    - name: "norm"
+      category: "social-context"
+      description: "Shared societal or situational expectations that can shape attitudes and guide behavior"
+      
+    - name: "materialism"
+      category: "ideological-construct"
+      description: "A belief or ideology emphasizing the importance of pursuing financial success, material riches, and high status through consumer choices"
+      
+    # Cultural Context Constructs
+    - name: "culture"
+      category: "cultural-context"
+      description: "A shared meaning system and common values held among people who share a geographic region, language, or historical period"
+      
+    - name: "individualism"
+      category: "cultural-orientation"
+      description: "Cultural value system emphasizing the importance of self-reliance and independence and the pursuit of personal goals over the ingroup's goals"
+      
+    - name: "collectivism"
+      category: "cultural-orientation"
+      description: "Cultural value system emphasizing pursuit of group goals, harmony, interdependence with others, and maintenance of strong relationships"
+      
+    - name: "person-centric-model"
+      category: "theoretical-framework"
+      description: "Traditional Western view of attitudes, defined by a focus on the individual and the development and expression of personal preferences"
+      
+    - name: "normative-contextual-model"
+      category: "theoretical-framework"
+      description: "Non-Western approach where normative pressures, structured through cultural practices, shape attitudes"
+      
+    # Generational Constructs
+    - name: "millennial"
+      category: "generational-cohort"
+      description: "A member of the generation born between 1980 and 1994; their attitudes and ideologies have been the subject of extensive study"
+      
+    - name: "cohort"
+      category: "generational-cohort"
+      description: "A group born into the same generation"
+      
+    # Measurement Methods
+    - name: "evaluative-priming"
+      category: "measurement-method"
+      description: "Procedure that connects spontaneous activation of positive versus negative concepts to a stimulus"
+      
+    - name: "implicit-association-test"
+      category: "measurement-method"
+      description: "Measurement tool designed to circumvent social desirability concerns and assess automatic evaluations"
+      
+    # Persuasion and Communication
+    - name: "sleeper-effect"
+      category: "persuasion-process"
+      description: "Delayed persuasion of a message when presentation by a noncredible communicator serves as a discounting cue"
+      
+    - name: "source-credibility"
+      category: "communication-factor"
+      description: "Perceived trustworthiness and expertise of a message communicator"
+      
+    - name: "elaboration-likelihood-model"
+      category: "theoretical-framework"
+      description: "Model explaining how persuasion occurs through central and peripheral routes of information processing"
+      
+    # Developmental Processes
+    - name: "socioemotional-selectivity-theory"
+      category: "developmental-theory"
+      description: "Theory explaining motivational shifts across the lifespan affecting selective processing of information"
+      
+    - name: "age-related-positivity-effect"
+      category: "developmental-process"
+      description: "Phenomenon where older adults are more likely to attend to and recall positive than negative information"
+      
+    # Contextual Influences
+    - name: "psychological-distance"
+      category: "contextual-factor"
+      description: "Subjective experience of how far an object is from the self in time, space, social distance, or probability"
+      
+    - name: "construal-level-theory"
+      category: "theoretical-framework"
+      description: "Theory explaining how psychological distance affects whether objects are construed concretely or abstractly"
+      
+    # Social Network Effects
+    - name: "social-influence"
+      category: "social-process"
+      description: "Process through which friends become similar through their interactions"
+      
+    - name: "social-selection"
+      category: "social-process"
+      description: "Process through which people develop relationships with similar others"
+      
+    - name: "buzz-marketing"
+      category: "persuasion-strategy"
+      description: "Marketing approach that leverages word of mouth from popular opinion leaders to change attitudes within a social network"
+      
+    # Emotional and Motivational Processes
+    - name: "emotion-regulation"
+      category: "emotional-process"
+      description: "Strategies for managing emotional responses that can influence attitude formation and change"
+      
+    - name: "cognitive-reappraisal"
+      category: "emotion-regulation-strategy"
+      description: "Technique of responding to emotional stimuli as if one were a scientist, thinking analytically in a cold, dispassionate way"
+      
+    - name: "rally-around-flag-effect"
+      category: "political-phenomenon"
+      description: "Political situation in which an external threat enhances support for an otherwise unappreciated right-leaning president"
+      
+    # Value Systems
+    - name: "individualizing-values"
+      category: "moral-foundation"
+      description: "Values including concern about caring, nurturing, and protecting vulnerable individuals from harm"
+      
+    - name: "binding-values"
+      category: "moral-foundation"
+      description: "Values involving ingroup loyalty, authority, respect, and purity or sanctity"
+      
+    - name: "system-justification-theory"
+      category: "theoretical-framework"
+      description: "Theory explaining how people at economic or social disadvantage need to perceive the system as being just"
+      
+    # Language and Metaphor
+    - name: "metaphorical-influence"
+      category: "linguistic-process"
+      description: "Impact of metaphors on attitude formation, operating as explanatory devices rather than semantic activators"
+      
+    - name: "verb-tense-effect"
+      category: "linguistic-process"
+      description: "Influence of using past versus present tense on attitude-behavior correspondence"
+      
+    # Cross-Cultural Processes
+    - name: "horizontal-collectivism"
+      category: "cultural-orientation"
+      description: "Cultural orientation emphasizing interdependence, benevolence, and sociability without hierarchy"
+      
+    - name: "vertical-collectivism"
+      category: "cultural-orientation"
+      description: "Cultural orientation emphasizing fulfilling duties, prioritizing ingroup goals, and complying with authority"
+      
+    - name: "horizontal-individualism"
+      category: "cultural-orientation"
+      description: "Cultural orientation focusing on expressing uniqueness, self-reliance, and self-expression rather than status"
+      
+    - name: "vertical-individualism"
+      category: "cultural-orientation"
+      description: "Cultural orientation emphasizing gaining personal status and seeking opportunities to stand out and impress others"
+      
+    - name: "dialectical-thinking"
+      category: "cognitive-style"
+      description: "Belief system that tolerates contradictory information and emphasizes interconnections and holistic relationships"
+      
+    - name: "holistic-thinking"
+      category: "cognitive-style"
+      description: "Thinking style that emphasizes seeing interconnections between elements of a larger whole"
+      
+    - name: "analytic-thinking"
+      category: "cognitive-style"
+      description: "Thinking style that focuses on individual elements and their properties in isolation"
+      
+    # Measurement and Methodology
+    - name: "valence-weighting-bias"
+      category: "individual-difference"
+      description: "Individual difference in tendency to weight positive versus negative information more heavily in evaluations"
+      
+    - name: "attitude-behavior-correspondence"
+      category: "empirical-relationship"
+      description: "Degree to which attitudes predict behavior, influenced by various contextual and individual factors"
+    
+    # Historical and Environmental Context
+    - name: "obama-effect"
+      category: "historical-phenomenon"
+      description: "Attitudinal shifts showing how ethnic diversity among those in powerful positions can revolutionize social attitudes"
+      
+    - name: "climate-change-attitudes"
+      category: "attitude-domain"
+      description: "Evaluations regarding climate change, influenced by knowledge of mechanisms and cultural representations"
+      
+    # Developmental Factors
+    - name: "authoritarian-upbringing"
+      category: "developmental-factor"
+      description: "Parenting style emphasizing respect and obedience versus independence and self-reliance"
+      
+    - name: "fearful-temperament"
+      category: "developmental-factor"
+      description: "Early childhood temperament characteristic that tends to predict conservative ideology"
+      
+    - name: "activity-restlessness"
+      category: "developmental-factor"
+      description: "Early childhood temperament characteristic that tends to predict liberal ideology"
+      
+    # Relationships and Processes
+    - name: "influences"
+      category: "relationship"
+      description: "One construct affects or shapes another"
+      domain: ["attitude", "value", "emotion", "culture", "development"]
+      range: ["attitude", "behavior", "evaluation", "processing"]
+      
+    - name: "predicts"
+      category: "relationship"
+      description: "One construct forecasts or determines another"
+      domain: ["attitude", "value", "trait"]
+      range: ["behavior", "attitude", "choice"]
+      
+    - name: "mediates"
+      category: "relationship"
+      description: "One construct explains the relationship between two others"
+      domain: ["attitude", "emotion", "value"]
+      range: ["attitude-behavior-link", "persuasion-effect"]
+      
+    - name: "moderates"
+      category: "relationship"
+      description: "One construct affects the strength or direction of relationship between two others"
+      domain: ["culture", "context", "individual-difference"]
+      range: ["attitude-behavior-link", "persuasion-effect"]
+      
+    - name: "correlates-with"
+      category: "relationship"
+      description: "Two constructs are systematically related"
+      domain: ["attitude", "trait", "behavior"]
+      range: ["attitude", "trait", "behavior"]
+      
+    - name: "develops-from"
+      category: "developmental-relationship"
+      description: "One construct emerges or changes based on another over time"
+      domain: ["attitude", "ideology", "preference"]
+      range: ["childhood-experience", "socialization", "cultural-exposure"]
+      
+    - name: "measured-by"
+      category: "methodological-relationship"
+      description: "A construct is assessed using a particular method or instrument"
+      domain: ["attitude", "trait", "process"]
+      range: ["measurement-method", "assessment-tool"]
+
+  json_schema:
+    type: "object"
+    properties:
+      nodes:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+            category:
+              type: "string"
+              enum: [
+                "core-construct", "personal-context", "social-context", "cultural-context",
+                "cultural-orientation", "theoretical-framework", "generational-cohort",
+                "measurement-method", "persuasion-process", "communication-factor",
+                "developmental-theory", "developmental-process", "contextual-factor",
+                "social-process", "persuasion-strategy", "emotional-process",
+                "emotion-regulation-strategy", "political-phenomenon", "moral-foundation",
+                "linguistic-process", "individual-difference", "empirical-relationship",
+                "historical-phenomenon", "attitude-domain", "developmental-factor",
+                "ideological-construct", "cognitive-style"
+              ]
+            truthValue:
+              type: "string"
+              enum: ["true", "false", "possible", "impossible", "partial"]
+            salience:
+              type: "string"
+              enum: ["high", "medium", "low"]
+            temporal:
+              type: "string"
+              enum: ["past", "present", "future", "timeless"]
+            modifier:
+              type: "string"
+              enum: ["goal", "hypothetical", "normative", "empirical", "theoretical"]
+      edges:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+            category:
+              type: "string"
+              enum: [
+                "relationship", "developmental-relationship", "methodological-relationship",
+                "causal-relationship", "correlational-relationship", "mediation-relationship",
+                "moderation-relationship", "cultural-difference", "generational-difference"
+              ]
+            truthValue:
+              type: "string"
+              enum: ["true", "false", "possible", "impossible", "partial"]
+            salience:
+              type: "string"
+              enum: ["high", "medium", "low"]
+            temporal:
+              type: "string"
+              enum: ["past", "present", "future", "timeless"]
+            modifier:
+              type: "string"
+              enum: ["goal", "hypothetical", "normative", "empirical", "theoretical"]

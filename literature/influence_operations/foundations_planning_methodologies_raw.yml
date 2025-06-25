@@ -1,0 +1,405 @@
+citation: "Nichiporuk, B. (2009). A review of planning methodologies for influence operations. In Foundations of Effective Influence Operations (Appendix D, pp. 155-178). RAND Corporation."
+
+annotation: "A comprehensive review of four planning methodologies for influence operations: Strategies-to-Tasks (STT), Effects-Based Operations (EBOs), Assumption-Based Planning (ABP), and Capabilities-Based Planning (CBP). The paper analyzes their applicability, strengths, and limitations for planning influence operations across different phases of conflict and organizational levels."
+
+model_type: "property_graph"
+
+rationale: "The paper presents a comparative analysis of interconnected planning methodologies, each with distinct processes, components, and relationships. A property graph model effectively captures the multiple planning approaches, their constituent elements, assessment criteria, and the complex relationships between methodologies, conflict phases, organizational levels, and operational outcomes."
+
+schema_blueprint:
+  title: "Influence Operations Planning Methodologies Framework"
+  description: "A comprehensive schema modeling the theoretical framework for planning methodologies in influence operations, including STT, EBOs, ABP, and CBP approaches"
+  
+  root_properties:
+    nodes:
+      description: "Concepts, methodologies, processes, organizational levels, conflict phases, and outcome measures in influence operations planning"
+      item_type: "Entity"
+    edges:
+      description: "Relationships between planning methodologies, their components, applications, and effectiveness across different contexts"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Planning Methodologies
+    - name: "strategies-to-tasks-planning"
+      category: "core-construct"
+      description: "Top-down planning approach that disseminates commander's strategy and objectives, directing planners to execute specific tasks in support of them"
+      
+    - name: "effects-based-operations"
+      category: "core-construct"
+      description: "Planning methodology that focuses on achieving specific outcomes through coordinated kinetic and nonkinetic events to create desired effects on adversary behavior"
+      
+    - name: "assumption-based-planning"
+      category: "core-construct"
+      description: "Strategic planning tool that identifies and tests critical assumptions underlying plans, developing hedging and shaping actions to address assumption vulnerabilities"
+      
+    - name: "capabilities-based-planning"
+      category: "core-construct"
+      description: "Planning approach that develops capabilities suitable for a wide range of scenarios rather than specific bounded threats, focusing on operational challenges across multiple contingencies"
+      
+    - name: "metrics-based-approach"
+      category: "core-construct"
+      description: "Planning methodology that links influence operations tasks to campaign objectives through measures of performance, effectiveness, and expected outcomes"
+      
+    # Planning Components and Processes
+    - name: "military-objective"
+      category: "process"
+      description: "Specific goal or target to be achieved through military operations"
+      
+    - name: "desired-effect"
+      category: "process"
+      description: "Specific intended outcome or behavioral change in target audience resulting from influence operations"
+      
+    - name: "target-audience"
+      category: "process"
+      description: "Specific group, organization, or individuals that influence operations are designed to affect"
+      
+    - name: "center-of-gravity"
+      category: "process"
+      description: "Key target audiences or decision-makers that represent critical vulnerabilities in adversary systems"
+      
+    - name: "cascading-consequences"
+      category: "process"
+      description: "Secondary and tertiary effects that result from influence operations messages and actions"
+      
+    - name: "hedging-action"
+      category: "process"
+      description: "Reactive measures taken to minimize impact of failed assumptions on organizational goals"
+      
+    - name: "shaping-action"
+      category: "process"
+      description: "Proactive measures designed to influence environment so that critical assumptions will not fail"
+      
+    - name: "signpost"
+      category: "measurement-method"
+      description: "Indicator that shows how a vulnerable assumption is performing over time"
+      
+    - name: "vulnerable-assumption"
+      category: "process"
+      description: "Critical assumption that, if it fails, would force the organization to rework itself and its goals"
+      
+    - name: "capability-module"
+      category: "process"
+      description: "Specific operational capability that enables forces to perform acceptably across multiple scenarios"
+      
+    # Conflict Phases
+    - name: "peacetime-phase"
+      category: "temporal-context"
+      description: "Pre-conflict period when extensive planning and preparation can be conducted"
+      
+    - name: "crisis-phase"
+      category: "temporal-context"
+      description: "Period of heightened tension requiring crisis action planning"
+      
+    - name: "conflict-phase"
+      category: "temporal-context"
+      description: "Active combat operations period with immediate tactical demands"
+      
+    - name: "postconflict-phase"
+      category: "temporal-context"
+      description: "Stability and support operations period following major combat operations"
+      
+    # Organizational Levels
+    - name: "strategic-level"
+      category: "organizational-level"
+      description: "Highest level of planning involving national objectives and policy"
+      
+    - name: "operational-level"
+      category: "organizational-level"
+      description: "Theater-level planning connecting strategic objectives to tactical actions"
+      
+    - name: "tactical-level"
+      category: "organizational-level"
+      description: "Unit-level planning focused on immediate operational tasks"
+      
+    - name: "technical-level"
+      category: "organizational-level"
+      description: "Specialized technical planning for specific capabilities and systems"
+      
+    # Assessment and Measurement
+    - name: "measure-of-performance"
+      category: "measurement-method"
+      description: "Metric that assesses how well tasks are being executed"
+      
+    - name: "measure-of-effectiveness"
+      category: "measurement-method"
+      description: "Metric that assesses how well objectives are being achieved"
+      
+    - name: "measure-of-expected-outcome"
+      category: "measurement-method"
+      description: "Metric that assesses anticipated results of operations"
+      
+    - name: "indicator-of-performance"
+      category: "measurement-method"
+      description: "Observable evidence that specific tasks are being performed"
+      
+    - name: "indicator-of-effectiveness"
+      category: "measurement-method"
+      description: "Observable evidence that desired effects are being achieved"
+      
+    # Planning Characteristics
+    - name: "ends-uncertain-planning"
+      category: "planning-characteristic"
+      description: "Planning approach focused on redefining or confirming organizational goals and objectives"
+      
+    - name: "means-uncertain-planning"
+      category: "planning-characteristic"
+      description: "Planning approach focused on modifying mechanisms to achieve fixed goals"
+      
+    - name: "top-down-planning"
+      category: "planning-characteristic"
+      description: "Planning approach that flows from higher-level strategy to lower-level tasks"
+      
+    - name: "outcome-focused-planning"
+      category: "planning-characteristic"
+      description: "Planning approach that emphasizes achieving specific results rather than performing tasks"
+      
+    - name: "cyclical-planning-process"
+      category: "planning-characteristic"
+      description: "Continuous process of planning, execution, and assessment"
+      
+    # Influence Operations Elements
+    - name: "information-channel"
+      category: "operational-element"
+      description: "Medium used to deliver influence messages (pamphlets, websites, satellite TV, billboards, text messaging)"
+      
+    - name: "message-characteristic"
+      category: "operational-element"
+      description: "Compelling qualities of influence messages designed to achieve desired effects"
+      
+    - name: "audience-characteristic"
+      category: "operational-element"
+      description: "Cultural, social, and psychological attributes of target audiences"
+      
+    - name: "timely-feedback"
+      category: "operational-element"
+      description: "Rapid assessment of influence operations effects on target audiences"
+      
+    # Capabilities and Disciplines
+    - name: "psychological-operations"
+      category: "operational-capability"
+      description: "Discipline focused on purposeful crafting of targeted messages and selection of delivery media"
+      
+    - name: "information-warfare"
+      category: "operational-capability"
+      description: "Military capability for conducting operations in the information domain"
+      
+    - name: "civil-affairs"
+      category: "operational-capability"
+      description: "Military capability for conducting civilian-military operations"
+      
+    - name: "public-affairs"
+      category: "operational-capability"
+      description: "Military capability for managing public information and media relations"
+      
+    - name: "electronic-warfare"
+      category: "operational-capability"
+      description: "Military capability for operations in the electromagnetic spectrum"
+      
+    - name: "kinetic-operations"
+      category: "operational-capability"
+      description: "Traditional military operations involving physical force and destruction"
+      
+    - name: "nonkinetic-operations"
+      category: "operational-capability"
+      description: "Military operations that do not involve physical force or destruction"
+      
+    # Planning Contexts and Constraints
+    - name: "bounded-threat-approach"
+      category: "planning-approach"
+      description: "Traditional planning approach based on specific detailed scenarios with clear assumptions"
+      
+    - name: "scenario-portfolio"
+      category: "planning-approach"
+      description: "Range of possible future scenarios used for capability development planning"
+      
+    - name: "exploratory-analysis"
+      category: "analytical-method"
+      description: "Methodology for examining how mission accomplishment is influenced by multiple parameters"
+      
+    - name: "mission-system-analysis"
+      category: "analytical-method"
+      description: "Assessment of robustness of capability options across given missions"
+      
+    - name: "cost-effectiveness-ratio"
+      category: "measurement-method"
+      description: "Metric comparing operational effectiveness to resource expenditure"
+      
+    # Planning Challenges and Limitations
+    - name: "planning-rigidity"
+      category: "limitation"
+      description: "Lack of flexibility in planning approaches when responding to alternative outcomes"
+      
+    - name: "capability-stovepiping"
+      category: "limitation"
+      description: "Tendency to limit tasking and use of capabilities to specific disciplines"
+      
+    - name: "effects-predictability"
+      category: "limitation"
+      description: "Difficulty in anticipating all effects of influence operations"
+      
+    - name: "resource-constraint"
+      category: "limitation"
+      description: "Limited resources forcing reliance on available rather than optimal capabilities"
+      
+    - name: "modeling-limitation"
+      category: "limitation"
+      description: "Inability of current models to effectively assess influence operations effectiveness"
+      
+    # Relationships
+    - name: "supports"
+      category: "relationship"
+      description: "One element provides assistance or foundation for another"
+      
+    - name: "constrains"
+      category: "relationship"
+      description: "One element limits or restricts another"
+      
+    - name: "requires"
+      category: "relationship"
+      description: "One element necessitates another for successful implementation"
+      
+    - name: "enables"
+      category: "relationship"
+      description: "One element makes another possible or more effective"
+      
+    - name: "competes-with"
+      category: "relationship"
+      description: "Elements that vie for the same resources or attention"
+      
+    - name: "complements"
+      category: "relationship"
+      description: "Elements that work together to enhance overall effectiveness"
+      
+    - name: "suitable-for"
+      category: "relationship"
+      description: "Appropriateness of methodology for specific context or application"
+      
+    - name: "limited-by"
+      category: "relationship"
+      description: "Constraints that reduce effectiveness or applicability"
+
+  json_schema:
+    type: "object"
+    properties:
+      nodes:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+            entity_type:
+              type: "string"
+              enum: ["Entity"]
+            category:
+              type: "string"
+              enum: [
+                "core-construct",
+                "process", 
+                "measurement-method",
+                "temporal-context",
+                "organizational-level",
+                "planning-characteristic",
+                "operational-element",
+                "operational-capability",
+                "planning-approach",
+                "analytical-method",
+                "limitation"
+              ]
+            properties:
+              type: "object"
+              properties:
+                name:
+                  type: "string"
+                  enum: [
+                    "strategies-to-tasks-planning",
+                    "effects-based-operations",
+                    "assumption-based-planning",
+                    "capabilities-based-planning",
+                    "metrics-based-approach",
+                    "military-objective",
+                    "desired-effect",
+                    "target-audience",
+                    "center-of-gravity",
+                    "cascading-consequences",
+                    "hedging-action",
+                    "shaping-action",
+                    "signpost",
+                    "vulnerable-assumption",
+                    "capability-module",
+                    "peacetime-phase",
+                    "crisis-phase",
+                    "conflict-phase",
+                    "postconflict-phase",
+                    "strategic-level",
+                    "operational-level",
+                    "tactical-level",
+                    "technical-level",
+                    "measure-of-performance",
+                    "measure-of-effectiveness",
+                    "measure-of-expected-outcome",
+                    "indicator-of-performance",
+                    "indicator-of-effectiveness",
+                    "ends-uncertain-planning",
+                    "means-uncertain-planning",
+                    "top-down-planning",
+                    "outcome-focused-planning",
+                    "cyclical-planning-process",
+                    "information-channel",
+                    "message-characteristic",
+                    "audience-characteristic",
+                    "timely-feedback",
+                    "psychological-operations",
+                    "information-warfare",
+                    "civil-affairs",
+                    "public-affairs",
+                    "electronic-warfare",
+                    "kinetic-operations",
+                    "nonkinetic-operations",
+                    "bounded-threat-approach",
+                    "scenario-portfolio",
+                    "exploratory-analysis",
+                    "mission-system-analysis",
+                    "cost-effectiveness-ratio",
+                    "planning-rigidity",
+                    "capability-stovepiping",
+                    "effects-predictability",
+                    "resource-constraint",
+                    "modeling-limitation"
+                  ]
+                description:
+                  type: "string"
+      edges:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+            entity_type:
+              type: "string"
+              enum: ["NaryTuple"]
+            category:
+              type: "string"
+              enum: ["relationship"]
+            properties:
+              type: "object"
+              properties:
+                name:
+                  type: "string"
+                  enum: [
+                    "supports",
+                    "constrains", 
+                    "requires",
+                    "enables",
+                    "competes-with",
+                    "complements",
+                    "suitable-for",
+                    "limited-by"
+                  ]
+                description:
+                  type: "string"
+                source:
+                  type: "string"
+                target:
+                  type: "string"

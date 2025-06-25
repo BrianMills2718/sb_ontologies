@@ -1,0 +1,1211 @@
+
+Introduction
+Influence operations, or influence campaigns,3 have been a tool for warfare and strategic geopolitical
+competition for governments as long as there has been recorded history. Today, we see firsthand the
+Chinese government’s efforts to spread disinformation around the globe about the origin of the SARS-
+CoV-2 virus, as well as Russia’s efforts to influence the courses of the American social and political future.
+Geiger found that mis- and dis-information have become an increasingly effective tool for nefarious
+actors to influence elections, policy, and public sentiment in the United States.4 In other words, influence
+operations are an effective and low-cost means for our strategic adversaries and competitors to advance
+their goals and agenda.
+Given U.S. adversaries’ views of influence operations, and the immense implications and potential
+consequences of them, there is an urgent need to advance the state of the art in measuring and assessing
+the impact and effectiveness of hostile influence operations. A review of the literature reveals much work
+on influence operations has primarily focused on examining how information is disseminated and spread.
+For example, studies found that social media use increases exposure to and trust of misinformation and
+that users are just as trusting of bots as human users.5 Another group of literature on influence
+operations examines why people believe the information being disseminated. Studies have found that
+people tend to believe misleading or false information when they are repeatedly exposed to those
+messages6; when they have a strong preference for pro-attitudinal information7; and when the
+information fits their preconceived opinions or political affiliations.8 Yet another category of literature on
+influence operations examines the effect misinformation has on individuals and society.9 Finally, there is
+a category of literature that examines how to identify misinformation and disinformation in order to
+mitigate their effects, with only modest results.10
+The current literature, however, fails to address the impact and/or effectiveness of influence operations
+on the target audience, specifically the “stickiness” and spread of messaging. The Unconventional
+Weapons and Technology Division (UWT) of the National Consortium for the Study of Terrorism and
+3 The RAND Corporation defines influence operations, also known as influence campaigns, as “the collection of tactical information about an
+adversary as well as the dissemination of propaganda in pursuit of a competitive advantage over an opponent.” RAND Corporation,
+“Information Operations,” Accessed December 22, 2021. https://www.rand.org/topics/information-operations.html.
+4 Geiger, Abigail W. 2019. “Key Findings about the Online News Landscape in America.” Pew Research Center, September.
+https://www.pewresearch.org/fact-tank/2019/09/11/key-findings-about-the-online-news-landscape-in-america/.
+5 e.g., Tucker, Joshua A., Andrew Guess, Pablo Barberá, Cristian Vaccari, Alexandra Siegel, Sergey Sanovich, Denis Stukal, and Brendan Nyhan.
+2018. “Social Media, Political Polarization, and Political Disinformation: A Review of the Scientific Literature.” William and Flora Hewlett
+Foundation, March. https://hewlett.org/library/social-media-political-polarization-political-disinformation-review-scientific-literature/
+6 e.g., Nelson, Jacob, and Harsh Taneja. 2018. “The Small, Disloyal Fake News Audience: The Role of Audience Availability in Fake News
+Consumption.” New Media and Society Forthcoming. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3107731.
+7 e.g., Guess, Andy, Brendan Nyhan, and Jason Reifler. 2018. “Selective Exposure to Disinformation: Evidence from the Consumption of Fake
+News During the 2016 US Presidential Campaign.” https://www.dartmouth. edu/~nyhan/fake-news-2016.pdf.
+8 e.g., Allcott, Hunt, and Matthew Gentzkow. 2017. “Social Media and Fake News in the 2016 Election.” Journal of Economic Perspectives 31
+(2):211–36.
+9 e.g., Ecker, Ullrich K. H., Stephan Lewandowsky, Ee Pin Chang, and Rekha Pillai. 2014. “The effects of subtle misinformation in news
+headlines.” Journal of Experimental Psychology: Applied, 20(4), 323–335.
+10 e.g., Clayton, Katherine, Spencer Blair, Jonathan A. Busam, Samuel Forstner, John Glance, Guy Green, Anna Kawata et al. 2020. “Real
+solutions for fake news? Measuring the effectiveness of general warnings and fact-check tags in reducing belief in false stories on social
+media.” Political Behavior, 42:1073–1095.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 4
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Responses to Terrorism (START) developed the Influence-to-Action Model (I-AM) in an effort to begin to
+address this issue.
+Theoretically grounded in the social movement literature – specifically in social movement diffusion and
+the role of threat in social movement – I-AM draws from a variety of psychological, sociological,
+marketing, and communications literature, and is designed to assess the relative likelihood of impact an
+influence operation would have on the target audience compared to the likelihood of impact from other
+influence operations. Some of the theories and hypotheses that we drew upon to develop the I-AM
+include cognitive dissonance, choice certainty, signal detection, dual-process, mere-exposure, and
+primacy and recency effects. The following sections of this report provide the attributes and variables
+included in the I-AM.
+
+Model Development
+Theoretical Foundation
+Research Question
+The goal of the I-AM is to address the following research question:
+Why are some influence operations successful in inducing changed behavior in a predetermined
+target set(s) while others are not?
+More specifically, I-AM is being developed to be able to address the following research sub-questions:
+• What (observable) individual, or internal, level variables contribute to the success (or failure) of
+influence operations?
+• What (observable) societal, or external, level variables contribute to the success (or failure) of
+influence operations?
+• How are individual and societal level variables configured in influence operations to maximize
+target audience mobilization?
+Critical Model Definitions
+Before we begin discussing the model, there are several critical definitions that need to be addressed.
+These critical definitions are: misinformation, disinformation, impact (of influence operation), and action.
+For the purposes of this model, we define:
+1. Misinformation: “Wrong or misleading information”11 that is usually intended to deliberately
+deceive; however, intent is not central to whether or not information conveyed is misinformation.
+2. Disinformation: “dissemination of deliberately false information, especially when supplied by a
+government or its agent to a foreign power or to the media, with the intention of influencing the
+11 "misinformation, n..” OED Online. December 2021. Oxford University Press. https://www-oed-com.proxy-
+um.researchport.umd.edu/view/Entry/119699?redirectedFrom=misinformation (accessed December 15, 2021).
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 5
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+policies or opinions of those who receive it.”12 Disinformation is considered a subset of
+misinformation designed to deliberately deceive those who receive it.13
+3. Impact of Influence Operation: degree to which an influence operation engenders behavioral
+changes in the form of action in the target audience. For this model, our goal is to measure the relative
+likelihood of an influence operation messaging results in stimulating a higher number of the target
+audience to act rather than determining the change in percentage of the target audience that acts or
+measuring the change in the attitude of the target audience about a topic after being exposed to an
+influence operation messaging.
+4. Action: an outwardly observable act that is in direct/indirect response to the influence conveyance
+tool(s) (i.e., messaging) being presented to the target. For this research, term Action can be used
+interchangeably with the term mobilization. Further, we conceptualize “action” on a continuum of
+activities that range from “low intensity” active online participation to “high intensity” violence in the
+physical world.
+Model Framing
+Since the goal of the research is to develop a theoretically grounded model that can assess the likelihood
+of an influence operation, relative to other influence operations, inducing changed behavior in a
+predetermined target audience, we are interested in how and why people act on information as well as
+how these influence operations propagate. Given the characteristics of the influence operations
+manifesting in society, and our primary interest, we have situated our model development efforts in the
+social movement literature14 – specifically, diffusion of social movements and the relationship between
+threat and social movements.
+Diffusion of Social Movements
+The world has witnessed numerous examples of diffusion of social movements that transcend cyber and
+physical realms. Facilitated through online social media tools such as Twitter and Facebook, dramatic
+protests have diffused within and beyond national boundaries – such as the Arab Spring; precarity
+demonstrations in Italy and Greece; protests and encampments associated with the Occupy movement;
+the 15-M Movement in Spain; and the Black Lives Matter protests. While these social movements
+developed in different national contexts and engaged different audiences, the cyber tools were able to
+convey the connective tissue between the movements and the audiences and facilitate the movements’
+propagation.15 Use of these cyber tools facilitated and increased the speed of the diffusion of these social
+12 "disinformation, n..” OED Online. December 2021. Oxford University Press. https://www-oed-com.proxy-
+um.researchport.umd.edu/view/Entry/54579?redirectedFrom=disinformationand (accessed December 15, 2021).
+13 Woolley, Samuel C., and Philip N. Howard. 2016. “Political communication, computational propaganda, and autonomous agents:
+Introduction.” International Journal of Communication, 10:4882-4890.
+14 Social movement literature is a body of interdisciplinary social science work that seeks to explain why and how social mobilization occurs,
+how they manifest, as well as their social, cultural, and political consequences.
+15 della Porta, Donatella, and Alice Mattoni. 2014. Spreading Protest: Social Movements in Times of Crisis. Colchester: ECPR Press; Romanos,
+Eduardo. 2015. “Immigrants and Brokers: Dialogical Diffusion from Spanish Indignados to Occupy Wall Street.” Social Movement Studies
+15(3): 247-262; Romanos, Eduardo. 2016. “From Tahrir to Puerta del Sol to Wall Street: The Transnational Diffusion of Social Movements in
+Comparative Perspective.” Revista Espanola de Investigaciones Sociologicas 154: 103-118.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 6
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+movements as well as increasing their reach. Along with the use of cyber tools directly by the movement
+organizers and participants, diffusion was also facilitated through classic media forms such as television
+and print media, as well as through personal contacts.16
+While the diffusion of social movements most recently captured the world’s attention due to the
+magnitude, speed, and the tools used for their propagation, diffusion of a social movement is not a new
+phenomenon, and it has been an interest of scholars for quite some time. Early on, LeBon, Tarde, and
+Blumer warned of the potential ill-effects on society of the contagion of collective aggression.17 Later,
+scholars of race riots, lynching, Nazism, fascism, Stalinism, and McCarthyism described a similar negative
+view of the spread of collective behavior.18 More recent literature concerned itself less with the contagion
+of maladaptive impulses and aggression among individuals, but instead examined the diffusion of
+innovative tactics, frames, and organizing structures between social movements through the articulation
+of the mechanisms by which this happens.19 One of the mechanisms that seems to be consistently
+referenced as a catalyst to stimulate (and diffuse) social movement is threat (or negative condition).
+Threat and Social Movements
+A wide variety of social movements are driven by threats – from resistance over state and police
+repression to combating climate change. Indeed, the Black Lives Matters movement is a transnational
+movement in which the organizers explicitly state that the purpose of the organization is to fight against
+threats posed by white supremacists, vigilantes, and the state against black communities in the United
+States, United Kingdom, and Canada.20 Scholars such as Tilly and Kerbo first examined threats in the
+context of political process theory in general terms21 - threats offered a second strand of inquiry into
+catalysts that generate social movement activities in addition to political opportunities within the
+political process tradition. Throughout the 1980s and 1990s, however, political opportunities were
+emphasized more than threats in the study of social movement emergence.22 Since the late 1990s and
+16 Romanos, Eduardo. 2015. “Immigrants and Brokers: Dialogical Diffusion from Spanish Indignados to Occupy Wall Street.” Social Movement
+Studies 15(3): 247-262.
+17 Le Bon, Gustave. 1897. The Crowd. London: Unwin; Tarde, Gabriel. 1903. The Laws of Imitation. New York: Holt; Blumer, Herbert. 1939.
+“Collective Behavior.” Park, Robert E.. In Principles of Sociology, ed. New York: Barnes and Noble.
+18 See reviews of this literature in Garner, Roberta. 1997. “Fifty Years of Social Movement Theory.” Social Movement Theory and Research;
+edited by Garner, Roberta and John Tenuto, 1–60. Lanham, MD: Scarecrow Press; and Morris, A. 1981. “Black Southern Sit -in Movement: An
+Analysis of Internal Organization.” American Sociological Review 46: 744-767.
+19 See reviews of this literature in Givan, Rebecca, Roberts, Kenneth M., and Soule, Sarah A. 2010. “Introduction: The dimensions of Diffusion.”
+In The Diffusion of Social Movements: Actors, Mechanisms, and Political Effects, Edited by Rebecca Givan, Kenneth M. Roberts, and Sarah A.
+Soule, 1-18. Cambridge: Cambridge University Press; Soule, Sarah A. 2004. “Diffusion Processes Within and Across Movements.” In The
+Blackwell Companion to Social Movements, edited by David A. Snow, Sarah A. Soule, and Hanspeter Kreisi, 294–310. Oxford: Blackwell; and
+Strang, David, and Sarah A. Soule. 1998. “Diffusion in Organizations and Social Movements: From Hybrid Corn to Poison Pills.” Annual Review
+of Sociology 24: 265–290.
+20 Black Lives Matter. “About.” https://blacklivesmatter.com/about/.
+21 Tilly, Charles. 1977. “Studying Social Movements/Studying Collective Action.” CSRO Working Paper #168. Center for Research on Social
+Organization. University of Michigan; Kerbo, Harold R. 1982. “Movements of ‘Crisis’ and Movements of ‘Affluence’: A Critique of Deprivation
+and Resource Mobilization Theories.” Journal of Conflict Resolution 26(4): 645–663.
+22 See. McAdam, Doug. 2011. “Social Movements and the Growth in Opposition to Global Projects.” In Global Projects: Institutional and Political
+Challenges, edited by W. Richard Scott, Raymond E. Levitt, and Ryan J. Orr, 86–110. Cambridge: Cambridge University Press; Pinard, Maurice.
+2011. Motivational Dimensions in Social Movements and Contentious Collective Action. Montreal: McGill-Queen’s University Press; Van Dyke,
+Nella. 2013. “Threat.” In Blackwell Encyclopedia of Social and Political Movements, edited by David A. Snow, Donnatella della Porta, Bert
+Klandermans, and Doug McAdam. Oxford: Wiley-Blackwell.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 7
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+early 2000s, a growing body of empirical research has featured threats (and worsening conditions) as
+primary forces that generate attempts at collective mobilization.23
+In the political process tradition, scholars define opportunities and threats at both the micro and macro
+levels of social life. At the micro level, the literature emphasizes the motivations of why individuals
+engage in collective action with increases in threats or political opportunities.24 Threats drive individuals
+to participate in social movement activities by making the current conditions worse if “defensive” action
+is not undertaken while opportunities offer the possibility of a better future by engaging in social
+movement activities.25 At this micro level of motivations and incentives, opportunities and threats need
+to be perceived by the relevant actors. In other words, the organizers of the social movements need to
+demonstrate convincingly that threats exist that are harmful and be able to attribute culpability before
+mobilization can take place (for “ordinary” individuals to join the “cause”).26
+At the macro – or at the structural – level, threats are less well established in the social movement
+literature. In general, the literature agrees that structural threats act as negative conditions that intensify
+existing, as well as creating new, grievances at the individual level, stimulating collective action. Recently,
+work in this area have highlighted the primary role of threat in generating sustained social mobilization
+23 Almeida, Paul D. 2003. “Opportunity Organizations and Threat-Induced Contention: Protest Waves in Authoritarian Settings.” American
+Journal of Sociology 109(2): 345–400; Andrews, Kenneth T., and Charles Sequin. 2015. “Group Threat and Policy Change: The Spatial
+Dynamics of Prohibition Politics, 1890–1919.” American Journal of Sociology 121(2): 475–510; Dodson, Kyle. 2016. “Economic Threat and
+Protest Behavior in Comparative Perspective.” Sociological Perspectives 59(3): 873–891; Einwohner, Rachel L., and Thomas Maher. 2011.
+“Threat Assessments and Collective-Action Emergence: Death Camp and Ghetto Resistance During the Holocaust.” Mobilization 16(2): 127–
+146; Goldstone, Jack, and Charles Tilly. 2001. “Threat (and Opportunity): Popular Action and State Response in the Dynamic of Contentious
+Action.” In Silence and Voice in the Study of Contentious Politics, edited by Ronald R. Aminzade, Jack Goldstone, Doug McAdam, et al., 179–194.
+Cambridge: Cambridge University Press; Inclán, Maria de la Luz. 2009. “Repressive Threats, Procedural Concessions, and the Zapatista Cycle
+of Protests 1994–2003.” Journal of Conflict Resolution 53(5): 794–819; Jasper, James. 1997. The Art of Moral Protest: Culture, Biography, and
+Creativity in Social Movements. Chicago: University of Chicago Press; Johnson, Erik W., and Scott Frickel. 2011. “Ecological Threat and the
+Founding of U.S. National Environmental Movement Organizations, 1962–1998.” Social Problems 58(3): 305–329; Maher, Thomas V. 2010.
+“Threat, Resistance, and Mobilization: The Cases of Auschwitz, Sobibór, and Treblinka.” American Sociological Review 75(2): 252–272;
+Martin, Andrew W., and Marc Dixon. 2010. “Changing to Win? Resistance, Threat and the Role of Unions in Strikes, 1984–2002.” American
+Journal of Sociology 116: 93–129; Martin, Isaac William. 2013. Rich People’s Movements: Grassroots Campaigns to Untax the One Percent.
+Oxford: Oxford University Press; Mora, Maria De Jesus, Alejandro Zermeño, Rodolfo Rodriguez, and Paul Almeida. 2017. “Exclusión y
+Movimientos Sociales en los Estados Unidos.” In Movimientos Sociales en América Latina: Perspectivas, Tendencias y Casos, edited by by Paul
+Almeida and Allen Cordero, 641–669. Buenos Aires: CLACSO; Shriver, Thomas E., Alison E. Adams, and Stefano B. Longo. 2015.
+“Environmental Threats and Political Opportunities: Citizen Activism in the North Bohemian Coal Basin.” Social Forces 94(2): 699–722; Erica
+Simmons. 2014. “Grievances Do Matter in Mobilization.” Theory and Society 43: 513–546; Snow, David, Daniel Cress, Liam Downey, and
+Andrew Jones. 1998. “Disrupting the ‘Quotidian’: Reconceptualizing the Relationship Between Breakdown and the Emergence of Collective
+Action.” Mobilization 3(1): 1–22; Van Dyke, Nella, and Sarah A. Soule. 2002. “Structural Social Change and the Mobilizing Effect of Threat:
+Explaining Levels of Patriot and Militia Organizing in the United States.” Social Problems 49(4): 497–520; Zepeda-Millán, Chris. 2017. Latino
+Mass Mobilization: Immigration, Racialization, and Activism. Cambridge: Cambridge University Press.
+24 Goldstone, Jack A., and Charles Tilly. 2001. Threat (and Opportunity): Popular Action and State Response in the Dynamic of Contentious
+Action. In Silence and Voice in the Study of Contentious Politics, edited by Ronald R. Aminzade, Jack Goldstone, Doug McAdam, et al., 179–194.
+Cambridge: Cambridge University Press.
+25 Goldstone, Jack A., and Charles Tilly. 2001. Threat (and Opportunity): Popular Action and State Response in the Dynamic of Contentious
+Action. In Silence and Voice in the Study of Contentious Politics, edited by Ronald R. Aminzade, Jack Goldstone, Doug McAdam, et al., 179–194.
+Cambridge: Cambridge University Press.
+26 Jasper, James M. 1997. The Art of Moral Protest: Culture, Biography, and Creativity in Social Movements. Chicago: University of Chicago
+Press; Snow, David, and Robert D. Benford. 1988. “Ideology, Frame Resonance, and Participant Mobilization.” International Social Movement
+Research 1(1): 197–217; Snow, David, and Catherine Corrigall-Brown. 2005. “Falling on Deaf Ears: Confronting the Prospect of Non-Resonant
+Frames.” In Rhyming Hope and History: Activism and Social Movement Scholarship, edited by David Croteau, Charlotte Ryan, and William
+Hoynes, 222–238. Minneapolis: University of Minnesota Press.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 8
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+in the areas of economic-related problems27; public health/environmental decline28; erosion of rights29;
+and state repression.30
+To understand what gets people to act based on the information they are exposed to, we have situated
+our model within the social movement and political process theoretical frames. While these theories
+provide the theoretical underpinnings of why an individual might decide to act, they do not necessarily
+provide the components that a message designed to influence an individual should contain for it to be
+more successful – beyond the fact that threats, in combination with a glimpse of a better future, motivate
+people to act. To extract the variables that are relevant to threats and opportunities from influence
+operations messaging, we turn to psychology, sociology, marketing, and communications literatures.
+Individual (Internal) Level Factors
+Psychological Theories Regarding Information Absorption and Propagation
+A number of psychological theories assert there are certain intrinsic qualities about people that may
+make them more susceptible to external influence. For example, the mere-exposure effect states that
+simply being familiar with something makes a person more likely to agree or trust information, which
+can be exploited by including familiar images or simply repeating the messaging over time.31
+Additionally, the primacy effect plays a role in peoples’ perception of news as people are more likely to
+emotionally connect with and retain information the first time they heard about it.32 These theories
+within the context of social media are useful to explain the impact of disinformation and misinformation,
+as algorithms try to show a user posts that he or she is likely to interact with based on what he or she has
+interacted with in the past or within the context of the groups that he or she has engaged with previously.
+This can lead to users giving more credibility to these posts than is warranted.
+Past research has shown that people have the tendency to propagate misinformation, even when
+provided with substantial evidence that the information is not true. This theory of the continued
+influence effect (CIE) of misinformation states that people prefer to have a complete, if inaccurate,
+understanding of an event rather than an accurate but incomplete understanding.33 People are more
+likely to view information as true if it matches their subjective understanding of an issue and if that frame
+is their first introduction to the information.34 Additionally people tend to frame information into cause-
+27 Caren, Neal, Sarah Gaby, and Catherine Herrold. 2017. “Economic Breakdown and Collective Action.” Social Problems 64(1): 133–155.
+28 Szasz, Andrew. 2007. Shopping Our Way to Safety: How We Changed from Protecting the Environment to Protecting Ourselves. Minnesota:
+University of Minnesota Press.
+29 McVeigh, Rory. 2009. The Rise of the Ku Klux Klan: Right-Wing Movements and National Politics. Minneapolis: University of Minnesota
+Press.
+30 Chang, Paul. 2015. Protest Dialectics: State Repression and South Korea’s Democracy Movement, 1970–1979. Stanford, CA: Stanford
+University Press.
+31 Murphy, Sheila T. and Robert B. Zajonc. 1993. “Affect, cognition, and awareness: affective priming with optimal and suboptimal stimulus
+exposures.” Journal of Personality and Social Psychology 64(5): 723-739.
+32 Holbert, R. Lance, Jennifer L. Lambe, Anthony D. Dudo, and Kristin A. Carlton. 2007, “Primacy Effects of The Daily Show and National TV
+News Viewing: Young Viewers, Political Gratifications, and Internal Political Self-Efficacy.” Journal of Broadcasting and Electronic Media 51, 1.
+33 Hamby, Anne, Ullrich Ecker, and David Brinberg. 2019, “How Stories in Memory Perpetuate the Continued Influence of False Information.”
+Journal of Consumer Psychology 30, 2: 240-259.
+34 Hamby, Anne, Ullrich Ecker, and David Brinberg. 2019, “How Stories in Memory Perpetuate the Continued Influence of False Information.”
+Journal of Consumer Psychology 30, 2: 240-259.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 9
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+effect structures in their internal narrative processing. These structures can be relatively rigid and are
+resistant to new and counterfactual information.35 The individual psyche tends to favor inaccurate but
+stable information rather than interrupting the coherence of already held beliefs. Therefore, it can be
+difficult to correct or change ideas strongly held by individuals, especially when exacerbated by repeated
+evidentiary claims to the false or misleading information. This phenomenon is further exacerbated by the
+tendency of individuals to find negative causal conclusions to be more “vivid and diagnostic.”36
+The illusory truth effect states that prior exposure to any given statement increases the likelihood that it
+is believed as truth.37 Researchers found, through multiple varied-condition experiments, that a “single
+prior exposure is sufficient to increase perceived accuracy for both fake and real news.”38 They
+additionally found that this dynamic held even when articles were labeled as disputed, did not fit within
+the participant’s political ideology, and when people did not remember seeing the headline prior. Finally,
+they found that this effect persisted over a week and increased with additional exposure.39
+Theories of Cognition and the Intersection of Self-Esteem and Fear
+Researchers at the University of Western Australia found that the working memory capacity of an
+individual predicted their susceptibility to the continued influence of misinformation due to insufficient
+integration, manipulation, and retraction of information.40 Additionally, the dual-processing theory
+serves as one of the underlying mechanisms through which fear appeals operate in health
+communications. In dual-processing theory, there are two pathways, or systems, that are thought to help
+individuals organize information to act. System 1 represents the automatic processes while System 2
+represents the analytical, or controlled, processes that take effort. When health communications utilize
+high levels of issue or response involvement, message recipients were found to employ System 1, or
+systematic processes, to form opinion judgements. Conversely, in scenarios with low levels of
+involvement, message recipients are theorized to employ more heuristic strategies from System 2 to
+respond to threats.41 With this in mind, Chaiken, et al. conducted an experiment that supported the
+notion that systematic processing maximizes the persuasive impact of messaging cues and minimizes the
+impact of non-content cues, like communicator likeability, while heuristic processing minimizes the
+persuasive impact of messaging and maximizes non-content cues. 42
+35 Hamby, Anne, Ullrich Ecker, and David Brinberg. 2019, “How Stories in Memory Perpetuate the Continued Influence of False Information.”
+Journal of Consumer Psychology 30, 2: 240-259.
+36 Hamby, Anne, Ullrich Ecker, and David Brinberg. 2019, “How Stories in Memory Perpetuate the Continued Influence of False Information.”
+Journal of Consumer Psychology 30, 2: 240-259.
+37 Pennycook, Gordon, Tyronne D. Cannon, and David G. Rand. 2018. “Prior exposure increases perceived accuracy of fake news.” Journal of
+Experimental Psychology: General 147, 2: 1865-1880.
+38 Pennycook, Gordon, Tyronne D. Cannon, and David G. Rand. 2018. “Prior exposure increases perceived accuracy of fake news.” Journal of
+Experimental Psychology: General 147, 2: 1865-1880.
+39 Pennycook, Gordon, Tyronne D. Cannon, and David G. Rand. 2018. “Prior exposure increases perceived accuracy of fake news.” Journal of
+Experimental Psychology: General 147, 2: 1865-1880.
+40 Brydges, Christopher R., Gilles E. Gignac, and Ullrich K. H. Ecker. “Working memory capacity predicts ongoing reliance on misinformation:
+A latent-variable analysis.” School of Psychological Science, the University of Western Australia.
+41 Chaiken, Shelly. 1980. “Heuristic versus systematic information processing and the use of source versus message cues in persuasion.”
+Journal of Personality and Social Psychology, 39(5): 752-766.
+42 Chaiken, Shelly. 1980. “Heuristic versus systematic information processing and the use of source versus message cues in persuasion.”
+Journal of Personality and Social Psychology, 39(5): 752-766.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 10
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+The fast infusion of information that taps into the “sentimental nature”43 of social networking through
+the sharing of personal experiences and playing on a variety of emotions in targeted viewers is more
+likely to get a response than single layer dialogue. When paired with positive “self-efficacy” (human
+characteristic that changes our behavioral decisions), which is based on influence from the people around
+us, humans will act on thoughts and ideas that pair their emotions, in relation to the messaging they
+receive, with positive reinforcement of the community around them. 44 The actions he or she takes
+depends on how much he or she believes in and emotionally connects with the information received.
+Fear as an appeal has been theorized to be a significant contributor to taking action depending on the
+severity and susceptibility perceived. While there are many theories attempting to explain how fear
+drives behavior, fear has been identified consistently as a critical motivator in urging individuals to act
+within the public health sphere. The alarming information within a message initiates an emotional fear
+reaction, and the stimuli generated by this response are supposed to be behavior inducing.45 Rehearsals
+of acting on recommendations are expected to reduce or stop the emotional activity.46 When the
+response reduces fear, the behavior is reinforced.47 While there are a number of theories diverging to
+explain the mechanisms through which fear appeals operate, the three most distinctly mentioned are the
+Health Belief Model (HBM), Parallel Process Model (PPM), and the Stage Model (SM).48 First, the HBM
+posits that for an individual to take action he or she would need to believe that (1) he or she was
+personally susceptible to it, (2) the occurrence would have at least moderate severity on some
+component of his or her life, and (3) a particular action would in fact be beneficial by reducing their
+susceptibility to the condition or by reducing its severity.49 The PPM suggests that fear appeals produce
+two separate and potentially interdependent processes: danger control processes and fear control
+processes. The perceived threat contributes to the extent of a response to a fear appeal. Evidence has
+supported that the stronger the fear appeal manipulation, the stronger the danger control and fear
+control responses.50 Finally, the SM theorizes that when individuals are exposed to fear-arousing
+communications, they engage in two types of appraisal – appraisal of threat and of coping strategies to
+reduce the threat. The two appraisal processes parallel the fear appeal and the recommended protective
+43 Yoon, Hong-Jun, and Georgia Tourassi. 2014. “Analysis of Online Social Networks to Understand Information Sharing Behaviors Through
+Social Cognitive Theory.” Presented at Annual ORNL Biomedical Science and Engineering Center Conference. ORNL Biomedical Science and
+Engineering Center Conference, 2014, 1–4.
+44 Yoon, Hong-Jun, and Georgia Tourassi. 2014. “Analysis of Online Social Networks to Understand Information Sharing Behaviors Through
+Social Cognitive Theory.” Presented at Annual ORNL Biomedical Science and Engineering Center Conference. ORNL Biomedical Science and
+Engineering Center Conference, 2014, 1–4.
+45 Leventhal, Howard. 1970. “Findings and theory in the study of fear communications.” Advances in Experimental Social Psychology, 5: 119-
+186.
+46 Leventhal, Howard. 1970. “Findings and theory in the study of fear communications.” Advances in Experimental Social Psychology, 5: 119-
+186.
+47 Leventhal, Howard. 1970. “Findings and theory in the study of fear communications.” Advances in Experimental Social Psychology, 5: 119-
+186.
+48 Tannenbaum Melanie B., Justin Hepler, Rick S. Zimmerman, Lindsey Saul, Samantha Jacobs, Kristina Wilson, and Dolores Albarracín. 2015.
+“Appealing to fear: A meta-analysis of fear appeal effectiveness and theories.” Psychology Bulletin, 141(6): 1178-204.
+49 Rosenstock, Irwin M. 1974. “Historical Origins of the Health Belief Model.” Health Education Monographs, 2(4): 328-335.
+50 Witte, Kim, and Mike Allen. 2000. “A meta-analysis of fear appeals: Implications for effective public health campaigns.” Health Education
+and Behavior, 27(5): 591-615.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 11
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+action. However, the difference with the stage model is that the components of fear-arousal are de facto
+encountered in a temporal sequence, or stages.51
+More recent literature on the topic explains that fear does not act alone. Self-efficacy, sometimes
+operationally defined as self-esteem, and hope interact with fear to influence individuals’ actions. Hope
+and self-efficacy have been shown to directly predict intentions to engage in some safety behaviors
+whereas fear did not.52 The motivation from hope and the confidence from self-efficacy appear to amplify
+each other to promote behavioral intentions.53 Furthermore, a study from Peters, et al. showed that
+threat only has a significant effect on behavior change under high self-efficacy, and efficacy only had
+significance under high threat.54
+In addition to theories specific to fear appeals, there are a few cognitive theories that seek to explain the
+effectiveness of behavioral changes from health communications. Two of the more prominent theories
+related to actionable behavior are (1) the theory of reasoned action and (2) the theory of planned
+behavior.55 The theory of reasoned action claims that an individual’s behavior is determined by their
+intention to perform that behavior, providing the most accurate prediction. On the other hand, the theory
+of planned behavior presents perceived behavioral control as the determinant of behavioral intention
+and control beliefs, which affect perceived behavioral control. According to Chang (1998), the theory of
+planned behavior is better in predicting unethical behavior because perceived behavioral control is the
+most important predictor of intention to perform an unethical behavior.56
+Self-worth and Victimization
+Constructing narratives around victimization is an effective method used by radical organizations to
+produce allies and generate recruits. Actions taken by these radical organizations and their members are
+frequently justified by a list of grievances. Thus, it is important for researchers to understand the
+narrative of victimization in radicalization as these grievances often surface when action is taken. The
+Islamic State, for example, utilizes these grievances in its online platforms to convert viewers, or at least
+generate sympathy for its cause, aligning attacks against the Islamic State as attacks against the entirety
+of Islam.57 Pemberton, et al., outlined the relationship between radicalization and victim narrative using
+three themes that consistently surface in the individual radicalization process: identity, emotions, and
+51 de Hoog, Natascha, Wolfgang Stroebe, and John B. F. de Wit. 2007. “The impact of vulnerability to and severity of a health risk on
+processing and acceptance of fear-arousing communications: A meta-analysis.” Review of General Psychology, 11(3): 258-285.
+52 Nabi Robin L., and Jessica Gall Myrick. 2019. “Uplifting Fear Appeals: Considering the Role of Hope in Fear-Based Persuasive Messages.”
+Health Communication, 34(4): 463-474.
+53 Nabi Robin L., and Jessica Gall Myrick. 2019. “Uplifting Fear Appeals: Considering the Role of Hope in Fear-Based Persuasive Messages.”
+Health Communication, 34(4): 463-474.
+54 Peters, Gjalt-Jorn Ygram, Robert A.C. Ruiter, and Gerjo Kok. 2013. “Threatening communication: a critical re-analysis and a revised meta-
+analytic test of fear appeal theory.” Health Psychology Review, 7(1): 8-31.
+55 Webb Thomas L., Judith Joseph, Lucy Yardley, Susan Michie. 2010. “Using the internet to promote health behavior change: A systematic
+review and meta-analysis of the impact of theoretical basis, use of behavior change techniques, and mode of delivery on efficacy.” Journal of
+Medical Internet Research 12(1):e4.
+56 Chang, Man Kit. 1998. “Predicting unethical behavior: A comparison of the Theory of Reasoned Action and the Theory of Planned
+Behavior.” Journal of Business Ethics 17: 1825–1834.
+57 Al-Rawi, Ahmed. 2018. "Video games, terrorism, and ISIS’s Jihad 3.0." Terrorism and Political Violence 30(4): 740-760.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 12
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+culture.58 The authors argue that individuals craft stories around their lives, placing themselves as the
+protagonists and their actions as moral and justified. Radical organizations influence individuals to adjust
+their life narratives by providing this “protagonist” with an environment where “clear moral” choices
+must be made. Victims attempt to balance what they perceive as behavior at odds with key ethical or
+moral values with their own life narrative. To be the victim, one must create a perpetrator, one who is in
+the absolute wrong. Being a victim is central to a radical's story and their reasoning for engaging in
+extremist behavior. The identity and personal ideology of a radical is strongly influenced by a narrative of
+victimization. Whether these instances of victimization are personal or an ethereal group-based suffering,
+the narrative has a very strong hold over those seeking community and purpose.
+“Victims see the event as an injustice, exaggerate the impact, minimize the context and extend the time
+frame of the event forward and backward in time while ‘perpetrators’ tend to find justifications for what
+happened, attribute the event to outside causes, minimize the impact on the victim and see the event as a
+moment in time.”59 Thus, when these victims become perpetrators themselves, they will fall back on a
+long line of examples of victimhood and portray their actions as truly justified and moral.60
+So, what finally drives a victim to commit violence? Despite having crafted a narrative of victimhood and
+feeling justified in taking revenge, radicals may have other goals that supersede the desire for violent
+resolution.61 The knowledge of finality and the inability to accomplish other goals such as career or
+family life, can prevent radicals from committing violent acts. Therefore, there needs to be a breaking
+point, an event in each violent radical’s life that makes revenge more important than other goals. These
+breaking point events make individuals extremely susceptible to victim framing narratives. The reason
+for the injustice against them is incomplete and he or she may seek a more complete narrative to
+understand why he or she is a victim. Radical organizations assist victims in filling this void, providing an
+emotional narrative that “relies on schemata shared by the communicator and the target of
+communication.”62 By connecting victims with an organization (as other support groups may do),
+radicals provide a community for victims. In this community, a shared narrative develops, and deep
+emotional connections are made.
+Baugut, et al. interviewed 44 imprisoned Islamic radicals to determine what propaganda efforts were
+most effective in converting them to radical Islam.63 They found that potential radicals are first
+cognitively radicalized and then behaviorally radicalized. This process is done through targeting
+58 Pemberton, Antony, and Pauline GM Aarten. 2018. "Narrative in the study of victimological processes in terrorism and political violence:
+An initial exploration." Studies in Conflict and Terrorism 41(7): 541-556.
+59 Pemberton, Antony, and Pauline GM Aarten. 2018. "Narrative in the study of victimological processes in terrorism and political violence:
+An initial exploration." Studies in Conflict and Terrorism 41(7) 541-556.
+60 Moghaddam, Fathali M. 2018. “Mutual radicalization: How groups and nations drive each other to extremes.” American Psychological
+Association.
+61 Pemberton, Antony, and Pauline GM Aarten. 2018. "Narrative in the study of victimological processes in terrorism and political violence:
+An initial exploration." Studies in Conflict and Terrorism 41(7) 541-556.
+62 Pemberton, Antony, and Pauline GM Aarten. 2018. "Narrative in the study of victimological processes in terrorism and political violence:
+An initial exploration." Studies in Conflict and Terrorism 41(7) 541-556.
+63 Baugut, Philip, and Katharina Neumann. 2020. "Online propaganda use during Islamist radicalization." Information, Communication and
+Society 23(11): 1570-1592.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 13
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+aggrieved communities using violent, victim propaganda to cognitively indoctrinate them. YouTube in
+particular was an effective conduit for this propaganda. The algorithm on this media service would lead
+viewers from videos of Muslim victims to revenge propaganda issued by radical Imams.64 Youth and
+those incarcerated are particularly susceptible to these initial victimization propaganda efforts. Aarten, et
+al., found that a victimization narrative is very strongly implanted in radicalized individuals’ ideology and
+elicits emotional responses.65 Even using the word “victim” is a pressure point for radicals, causing them
+to tie the word strongly to their ideology.
+Credulity and Attachment to Belief Systems, Religious, and Ideological Messaging
+History and humanistic studies have stated that people tend to believe falsehoods for more psychological
+and socio-cultural reasons, as opposed to simply understanding fact, and that these factors may make
+people more susceptible to mis- and dis-information.66 Kahan assessed that individuals are more likely to
+believe misinformation when it is identity affirming and are “lulled into error by their own
+predispositions – not by the importuning of misinformers.”67 Further, Kahan found that corrective
+information could backfire and be perceived as certifying the false facts due to the belief that the
+opposing group would provide details challenging the initial information.68
+At the base of these theories is the truth-default theory, which posits that people generally accept content
+as truthful at first instance and without available counterfactuals. Levine, et al. found through exposing
+participants to videos with varying levels of truthfulness that this theory held amongst participants
+across video content, except for in the instance of clear, over-the-top satirical content.69
+Pennycook and Rand investigated individuals’ tendencies to believe fake news through a series of
+surveys and found, “consistent support for an association between perceived accuracy of fake news and
+the tendency to rate random pseudo-profound sentences (e.g., ‘Wholeness quiets infinite phenomena’) as
+profound.”70 They concluded that the common factor for people believing falsities is a lack of skepticism
+or “reflexive open-mindedness.”71 Additionally, Surma and Oliver conducted surveys to build a credulity
+scale and similarly found that certain participants were more likely to believe false news if they generally
+endorsed ambiguous statements as true; however, those who were more skeptical of the same
+64 Baugut, Philip, and Katharina Neumann. 2020. "Online propaganda use during Islamist radicalization." Information, Communication and
+Society 23(11): 1570-1592.
+65 Aarten, Pauline GM, Eva Mulder, and Antony Pemberton. 2018. "The narrative of victimization and deradicalization: an expert view."
+Studies in Conflict and Terrorism 41(7): 557-572.
+66 Biltoft, Carolyn N. 2020. “The Anatomy of Credulity and Incredulity: Or, a Hermeneutics of Misinformation, The Harvard Kennedy School
+(HKS) Misinformation Review, 1:2.
+67 Kahan, Dan M. 2017. “Misconceptions, Misinformation, and the Logic of Identity-protective Cognition.” The Cultural Cognition Project, May
+24. Yale Law School.
+68 Kahan, Dan M. 2017. “Misconceptions, Misinformation, and the Logic of Identity-protective Cognition.” The Cultural Cognition Project, May
+24. Yale Law School.
+69 Levine, Timothy R., Narissra M. Punyanunt-Carter and Alivia Moore. 2021. “The Truth-Default and Video Clips: Testing the Limits of
+Credulity.” Communication Studies, 72:2, 133-145.
+70 Pennycook, Gordon, and David G. Rand. 2018. “Who falls for fake news? The roles of bullshit receptivity, overclaiming, familiarity, and
+analytic thinking.” Journal of Personality. 88:185–200.
+71 Pennycook, Gordon, and David G. Rand. 2018. “Who falls for fake news? The roles of bullshit receptivity, overclaiming, familiarity, and
+analytic thinking.” Journal of Personality. 88:185–200.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 14
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+ambiguous statements tended to not believe true information either. Furthermore, they found that
+providing more information led to more belief in the information regardless of the truth of the claim.72
+In many cases, a connection to a motivating ideology is necessary, but perhaps not sufficient, to move an
+individual along the spectrum from radicalization to mobilization.73 A study following the estimated
+5,000 men and 550 women from Western countries who joined the Islamic State found that the
+adherents predictably identified their religious beliefs as the causal driver behind their decision to take
+action.74 This motivating ideology allowed individuals to believe that they were securing a position in the
+afterlife and pursuing an important role in an ideologically pure state.75 They may additionally have felt
+as though they were defending Islam, accessing pride in their religious identity, or attaining religious
+fulfillment.76 These ideological desires square with the Islamic State’s primary narrative that jihad is a
+religious duty.77 Tracing causal motivation to an ideology or religion is difficult because the individual is
+likely to name this factor as dominant in their decision-making process as a way of lending social
+credibility to their decision. For example, it may be more attractive for an individual joining the Islamic
+State to view their journey as a symbolic religious migration than the complicated result of a plurality of
+factors.78
+Societal (Structural) Level Factors
+Social Validation and Influencer Culture
+At the root of a producer's ability to influence is a network of humans, who are relied upon to further
+share messages. It is distinct and narrow niches that provide the stage for targeted conversations that
+engage specific groups of people and galvanize them to buy into an idea or product. The network relies
+on a feedback system between the influencer and the influenced and is constantly evolving.79 Influencers
+are only able to influence if they have large personal networks of people who are willing to believe what
+they have to say. The more people in influencers’ networks, the more reach they have. Additionally, the
+more closely connected that network of people is to each other, with smaller influential individuals
+within them, the more likely an influencer’s message will be able to penetrate social circles.80
+The main basis for the power that influencers wield is social validation. Social validation is one of the key
+external factors that originates with theories regarding group belonging and influence. Psychologists
+began to understand how individuals undergo radicalization by studying the impact of group, or
+72 Surma, Katherine, and Eric Oliver. 2018. “Believe It or Not? Credulity, Skepticism, and Misinformation in the American Public.” American
+Politics Workshop. March 5. University of Wisconsin, Madison.
+73 Perešin, Anita. 2015. “Fatal Attraction: Western Muslimas and ISIS.” Perspectives on Terrorism 9, no. 3:21-38.
+74 Perešin, Anita. 2018. “Why Women from the West are Joining ISIS.” International Annals of Criminology Volume 56, no. 1-2:32-42.
+75 Perešin, Anita. 2018. “Why Women from the West are Joining ISIS.” International Annals of Criminology Volume 56, no. 1-2:32-42.
+76 McCabe, Thomas R. 2016. “A Strategy for the ISIS Foreign Fighter Threat.” Foreign Policy Research Institute 60 (1):140-153.
+77 Farwell, James P. 2014. “The Media Strategy of ISIS.” Global Politics and Strategy 56 (6): 49-55.
+78 Perešin, Anita. 2018. “Why Women from the West are Joining ISIS.” International Annals of Criminology Volume 56, no. 1-2:32-42.
+79 Schaffer, Neal. 2020. The Age of Influence: The Power of Influencers to Elevate Your Brand, New York: Harper Collins.
+80 Pudjajana, Andre Maureen, Danny Manongga, Ade Iriani, and Hindriyanto Dwi Purnomo. 2018. "Identification of Influencers in Social
+Media using Social Network Analysis (SNA).” Paper presented at International Seminar on Research of Information Technology and
+Intelligent Systems (ISRITI). November.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 15
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+collective, identity on personal identity. 81 Young people are particularly susceptible to radicalization
+because of their incredibly strong desire for belonging and identity; often they feel that memberships in
+extremist groups can fulfill their need to belong or provide social validation. Researchers also are
+attracted to these group-based theories because they do not assume any alteration of personality or
+morals of an individual because their actions are projected externally.82 Social validation plays a critical
+role in the process of moving on a spectrum from radicalization to mobilization by 1) catalyzing decisions
+through psychological reinforcement; and 2) providing practical support to the individual.
+An attempt at understanding this process of radicalization relies on the four steps of social learning
+theory. First, individuals learn behaviors through social interactions in the step of “differential
+association.” Second, individuals adopt neutral definitions “towards extreme beliefs condoning violence”
+and begin to dehumanize those outside the circle of social validation through the step of “neutralizing
+definitions.” Third, in “differential reinforcement,” beliefs are reinforced by sources in the individual’s
+environment. Finally, these sources reinforce the mimicking of desired behaviors through the step of
+“imitation of modeled behaviors.” 83 In each stage, credible voices lay the foundation for the recruit’s
+every step. The pace of radicalization “fluctuates with the intensity, frequency, and endurances of the
+interactions between the recruit and [the recruiter].”84 The more frequent and intense the interactions,
+the more likely the group is to convince a recruit to mobilize.
+After the initial process of radicalization, an individual’s behaviors can be catalyzed or inhibited in the
+direction of mobilization by key social validators. Family, social networks, close friends, law enforcement,
+and credible community voices act as catalysts or inhibitors in a decision-making process.85 These
+connections may also provide a practical set of options to the recruit – ranging from donating to a cause
+to moving overseas – which lowers the barrier of entry to action.86 This process can be practically
+visualized through two case studies. First, that of the Islamic State, and second, that of cults around the
+world.
+The Islamic State specifically employs women as recruiters to target Western women in congruence with
+the idea that social validation is most effective when the validator shares life experience with the
+potential target. These female recruiters take to social media in an attempt to convince other women to
+leave their lives behind and mobilize for the jihadist cause – sharing detailed narratives of life inside the
+Islamic State, training female recruits for roles like “housewife,” giving direction on dress and behavior,
+81 Dalgaard-Nielsen, Anja. 2008. “Studying violent radicalization in Europe II: The potential contribution of socio-psychological and
+psychological approaches.” Danish Institute for International Studies.
+82 Dalgaard-Nielsen, Anja. 2008. “Studying violent radicalization in Europe II: The potential contribution of socio-psychological and
+psychological approaches.” Danish Institute for International Studies.
+83 Shapiro, Lauren R. 2019. “Women’s Radicalization to Religious Terrorism: An Examination of ISIS Cases in the United States.” Studies in
+Conflict and Terrorism 42 (1-2): 15.
+84 Shapiro, Lauren R. 2019. “Women’s Radicalization to Religious Terrorism: An Examination of ISIS Cases in the United States.” Studies in
+Conflict and Terrorism 42 (1-2): 15.
+85 National Counterterrorism Center. 2010. “(U) Radicalization Dynamics: A Primer.” National Counterterrorism Center’s Radicalization and
+Extremist Messages Group.
+https://www.brennancenter.org/sites/default/files/Radicalization%20Dynamics%20Primer%20Sept.%202010_0.pdf.
+86 Stacey, Morgan. 2016. “Americans, ISIS, and Social Media: How the Material Support Statute Can Help Combat Against Their Collision.”
+Notre Dame J.L. Ethics and Pub 30. 201-224.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 16
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+and offering practical tips on vaccinations.87 This peer-group validation plays on the vulnerabilities of
+disillusioned Western women who may already feel isolated from society and invites them to share in an
+experience with women who are similar to them.88 Personal contacts also remove practical obstacles to
+mobilization. Pre-mobilization, recruiters offer multilingual tips on the necessity of warm clothes,
+establishing communication with family, and acquiring travel documents. When traveling, recruiters
+promise to meet recruits at the airport, provide key phone numbers if trouble arises, and even arrange
+lawyers for waylaid travelers in connection countries like Turkey.89 Whether or not these services are
+indeed offered, the very promise of support eases the transition and uncertainty of potential recruits, and
+provides tangible evidence that they are now a member of the “in-group” who will be provided for.
+A series of studies on the Islamic State have sought to verify and quantify the effects of social validation. A
+study on European Islamic State recruits sought to quantify the nuances of social validation and found
+that a mere 18 percent of European recruits to the Islamic State were radicalized online whereas the
+remainder relied on in-person connections.90 They further identified contact with a local imam in 23
+percent of cases and friends who had also gone to fight in 30 percent of cases.91 A study on “Popjihadism”
+also identified a personal connection with a local imam as the single most important factor in a recruit's
+calculus.92 In-person connections played an outsized role in comparison to online contacts, although the
+majority of recruits first learned about the group online. A study on American “homegrown” Al-Qaeda-
+inspired fighters found that, “peer immersion nearly always preceded public expressions of a desire for
+action.”93 In short, social validation plays an extraordinarily important role in a variety of practical case
+studies and diagnostic efforts.
+The power of social validation also plays a central role in cult recruitment. A case study of recruitment
+techniques in the Aum Shinrikyo in Japan that ultimately killed 12 and injured 5,500 in the 1995 sarin
+attacks found that the cult recruiters specifically formed personal relationships with students on college
+campuses.94 The recruiters created on-campus recruiting stations where they began to develop
+relationships and offered detailed and structured programs to vulnerable students who were
+unaccustomed to decision-making.95 The stable adult presence and direction in the student’s lives
+ultimately pushed several to join the cult.
+87 Perešin, Anita. 2018. “Why Women from the West are Joining ISIS.” International Annals of Criminology Volume 56, no. 1-2:32-42.
+88 Perešin, Anita. 2018. “Why Women from the West are Joining ISIS.” International Annals of Criminology Volume 56, no. 1-2:32-42.
+89 Perešin, Anita. 2015. “Fatal Attraction: Western Muslimas and ISIS.” Perspectives on Terrorism 9, no. 3:21-38.
+90 Busse, Nikolas. 2014. “Arbeitslose and Straftäter ziehen in den heiligen Krieg,” Frankfurter Allgemeine.
+www.faz.net/aktuell/politik/dschihad-in-deutschland-zieht-arbeitslose-und-straftaeter-an-13287950.html.
+91 Busse, Nikolas. 2014. “Arbeitslose and Straftäter ziehen in den heiligen Krieg,” Frankfurter Allgemeine.
+www.faz.net/aktuell/politik/dschihad-in-deutschland-zieht-arbeitslose-und-straftaeter-an-13287950.html.
+92 Franz, Barbara. 2015. “Popjihadism: Why Young European Muslims Are Joining The Islamic State.” Mediterranean Quarterly 26(2): 5-20.
+93 Klausen, Jytte. 2016. “A Behavioral Study of the Radicalization Trajectories of American “Homegrown” Al-Qaeda-Inspired Terrorism
+Offenders.” U.S. Department of Justice. https://www.ojp.gov/pdffiles1/nij/grants/250417.pdf
+94 Yoshihide, Sakurai. 2008. “The Cult Problem in Present-Day Japan.” Graduate School of Letters, Hokkaido University 3: 29-38.
+95 Yoshihide, Sakurai. 2008. “The Cult Problem in Present-Day Japan.” Graduate School of Letters, Hokkaido University 3: 29-38.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 17
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Rejection from Society & Refuge on the Internet
+The internet offers opportunities for radicalization and mobilization by creating echo chambers,
+accelerating the process of connection, providing a substitute for physical contact, increasing the
+prevalence of self-radicalization, and providing a refuge for those who want to escape society.96 By
+providing an alternative to physical or social isolation, social media can empower those who feel
+marginalized by society.97 Individuals are more likely to seek out groups and media that affirm their
+beliefs rather than challenge their assumptions, a desire which the online world readily fulfills.98
+Even before establishing a clear motivating ideology, young people are “drawn in by attachments to those
+already embedded in [a group] as a way to thwart the loneliness.”99 The Office of the Director of National
+Intelligence explicitly identifies “social isolation” as a risk factor in the terrorist mobilization process.100
+Those at particular risk are “youth in transitional stages,” who are in the process of seeking identity,
+certainty, social connection, or glory.101 The freedom of Western society in particular may be paralyzing
+to young people who see “freedom as oppressive since they lack the personal or social means for actually
+using a high degree of freedom to improve their lives.”102 Close online communities offer a welcome
+reprieve and provide community to isolated individuals.
+Community Suffering and Culture
+Individuals may be driven to action by a desire for revenge for community oppression and/or be drawn
+into a group as a refuge from collective suffering.103 Particularly for radical Islamic organizations like the
+Islamic State, the most common reason presented for mobilization on social media or other public
+channels is the desire for revenge against governments and societies that have propagated the
+persecution of Muslims worldwide.104 This suffering can manifest as a mobilizing factor on two levels.
+First, societal-level cultural or religious suffering can provide the underpinnings of group ideology and
+serve as a catalyst for collective action. Groups may leverage the discrimination faced by Muslims in
+Western countries, anger about international intervention in predominately Muslim nations, or
+theological arguments about the need for societal purification as incentives for revenge. This kind of
+rhetoric may trigger the Hemingway Phenomenon in which individuals perceive themselves and their
+actions as altruistic in “freeing” an oppressed population or choosing the “right” side to become
+96 McDowell-Smith, Anne Speckhard, and Ahmet S. Yayla. 2017. “Beating ISIS in the Digital Space: Focus Testing ISIS Defector Counter-
+Narrative Videos with American College Students.” Journal of Deradicalization 10:50-76.
+97 Chatfield, Akemi Takeoka, Christopher G. Reddick, and Uuf Brajawidagda. 2015. “Tweeting propaganda, radicalization and recruitment:
+Islamic state supporters and multi-sided twitter networks.” 16th Annual International Conference on Digital Government Research 239-249.
+98 Zúñiga, Homero Gil de, Teresa Correa, and Sebastian Valenzuela. 2012. “Selective Exposure to Cable News and Immigration in the U.S.: The
+Relationship Between FOX News, CNN, and Attitudes Toward Mexican Immigrants.” Journal of Broadcasting and Electronic Media, 56(4):
+597–615.
+99 Yu, Seong Hun, and Omar Sultan Haque. 2016. “Vulnerabilities among young Westerners joining ISIS.” Brown University Child and
+Adolescent Behavior Letter 32 (2):1-6.
+100 NCTC, FBI, DHS. 2019. “Homegrown Violent Extremist Mobilization Indicators.” National Counterterrorism Council.
+https://www.dni.gov/files/NCTC/documents/news_documents/NCTC-FBI-DHS-HVE-Mobilization-Indicators-Booklet-2019.pdf.
+101 Yu, Seong Hun, and Omar Sultan Haque. 2016. “Vulnerabilities among young Westerners joining ISIS.” Brown University Child and
+Adolescent Behavior Letter 32 (2):1-6.
+102 Yu, Seong Hun, and Omar Sultan Haque. 2016. “Vulnerabilities among young Westerners joining ISIS.” Brown University Child and
+Adolescent Behavior Letter 32 (2):1-6.
+103 McCabe, Thomas R. 2016. “A Strategy for the ISIS Foreign Fighter Threat.” Orbis 60 (1):140-153.
+104 Perešin, Anita. 2018. “Why Women from the West are Joining ISIS.” International Annals of Criminology Volume 56(1-2):32-42.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 18
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+heroes.105 On a second level, societal-level oppression may serve as a more personal motive for action.
+Individuals who experience social marginalization, lack of opportunity for themselves and their families,
+or the failure of integration policies may develop personal grievances that drive them to action.106 On
+both levels, seeing the lack of response to perceived or realized oppression from civil societies,
+governments, or even local religious institutions may further incite a desire to mobilize.107 It is difficult to
+discern the causality of claims on oppression and collective suffering given the differentiation between
+individual and group motives. For example, an individual may claim that he or she carried out an attack
+because of his or her desire for collective revenge but, in reality, his or her desire was motivated by a
+more pluralistic calculus involving personal factors like financial incentives. There is also likely a greater
+incentive for an individual to publicly divulge a political or religious motive than a personal one,
+furthering complicating the discernment of their true motive.108
+Movements can also function as preemptive reactions to the fear of group oppression or the perception
+that one's social power is being diminished. A study of right-wing extremism in the United States found
+that movements serve as “collective reactive efforts to safeguard threatened social statuses or group
+values.”109 These types of groups gain support from those who perceive a difference between their
+expected and actual power and “resent current social arrangements.”110 A similar effect is observed
+among veterans who are “particularly vulnerable” to mis- and dis-information if the right emotional
+triggers are activated.111 By imitating rhetoric familiar to veteran experiences, and galvanizing action
+through manipulated validation of those triggers, foreign adversaries can use social media to unify
+veteran groups against any “injustices” taken against them in relation to their veteran experiences. This
+includes the perceived minimization of their rightful benefits, disrespectful language, and/or anything
+that undermines their veteran identity.
+The Islamic State and other radical groups tend to paint the world in black and white and present
+coherent narratives featuring their actions as the panacea to a host of societal and political problems.112
+The effectiveness of the Islamic State’s pitch, for example, relies on its cultivated image as an
+“unstoppable, impeccable power.”113 The Islamic State does not shy away from accurate depictions of the
+lives of its fighters and even emphasizes the strictness of laws to recruits, suggesting that the idealistic
+105 Franz, Barbara. 2015. “Popjihadism: Why Young European Muslims Are Joining The Islamic State.” Mediterranean Quarterly 26(2): 5-20.
+106 Franz, Barbara. 2015. “Popjihadism: Why Young European Muslims Are Joining The Islamic State.” Mediterranean Quarterly 26(2): 5-20.
+107 National Counterterrorism Center. 2010. “(U) Radicalization Dynamics: A Primer.” National Counterterrorism Center’s Radicalization and
+Extremist Messages Group.
+https://www.brennancenter.org/sites/default/files/Radicalization%20Dynamics%20Primer%20Sept.%202010_0.pdf.
+108 National Counterterrorism Center. 2010. “(U) Radicalization Dynamics: A Primer.” National Counterterrorism Center’s Radicalization and
+Extremist Messages Group.
+https://www.brennancenter.org/sites/default/files/Radicalization%20Dynamics%20Primer%20Sept.%202010_0.pdf.
+109 Blee, Kathleen M. 1996. “Becoming a Racist: Women in Contemporary Ku Klux Klan and Neo-Nazi Groups.” Gender and Society 10(6): 683.
+110 Blee, Kathleen M. 1996. “Becoming a Racist: Women in Contemporary Ku Klux Klan and Neo-Nazi Groups.” Gender and Society 10(6): 683.
+111 Goldsmith, Kristofer. 2019. "An Investigation Into Foreign Entities Who Are Targeting Servicemembers and Veterans Online." Vietnam
+Veterans of America. September 7. https://vva.org/wp-content/uploads/2019/09/VVA-Investigation.pdf
+112 Yu, Seong Hun, and Omar Sultan Haque. 2016. “Vulnerabilities among young Westerners joining ISIS.” Brown University Child and
+Adolescent Behavior Letter 32 (2):1-6.
+113 Shane, Scott, and Ben Hubbard. 2014. “ISIS Displaying a Deft Command of Varied Media.” New York Times.
+https://www.nytimes.com/2014/08/31/world/middleeast/isis-displaying-a-deft-command-of-varied-
+media.html?module=SearchandmabReward=relbias%3Ar%2C%7B%221%22.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 19
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+religious lifestyle of a jihadi is appealing to converts who wish to live in a different type of world.114
+Recruits may be drawn in by the sense that they are participating on the correct side of history on behalf
+of a worthy moral or political crusade.
+Out-Group versus In-Group Dynamics
+There are a multitude of sociological theories that attempt to explain how external pressures may lead to
+mobilization or radicalization.115 The first example is the relative deprivation hypothesis which describes
+the condition in which the perception of deprivation of economic or social or cultural benefits one feels
+entitled to can make an individual susceptible to mobilization. Another psychological-based theory
+known as the frustration-aggression hypothesis describes a situation in which an individual may react
+with fight or flight instincts upon finding their ambitions blocked. If an individual suffers extensive
+humiliation, the humiliation-revenge mechanism occurs leaving the individual feeling a subsequent urge
+for revenge on those perceived as responsible for the humiliation.116 Many of the reactionary hypotheses
+to external pressures are founded in social learning theory. The social learning theory posits that
+aggression is neither a more or less automatic response to intolerable political or socioeconomic
+conditions nor an innate drive; rather, it is a behavior which follows observation and imitation of an
+aggressive model.117 Thematic sociological understanding of violent radicalization often looks to the
+“othering” or discrimination felt by the radicalizing individual that can happen through relative
+deprivation, gender or racial/ethnical stereotyping, oppression, or cultural values.
+Authors have discussed and presented a model of factors that ties together many of the macro-, micro-,
+and meso-theoretical approaches for violent radicalization. The socio-ecological based model details
+three phases that include: (1) sensitivity, (2) group membership, and (3) action.118 In the initial
+sensitivity phase, a sensitive, or vulnerable, individual experiences personal uncertainty about their
+values and worldview and set out on a quest for significance to find a community and/or belief system to
+counteract the feeling of “otherness” that he or she experiences on a daily basis. This first phase, wherein
+a quest for significance occurs, encompasses processes that support the notion that individuals seek
+social validation and acceptance when forming personal values.119 In the quest for a purpose, vulnerable
+individuals are targeted by groups founded on extremist ideologies seeking to recruit new members.
+During this second phase of group membership, a cognitive opening occurs because a mutual
+commitment is forming between the recruit and the violent radical group. 120 There are multiple
+114 Shane, Scott, and Ben Hubbard. 2014. “ISIS Displaying a Deft Command of Varied Media.” New York Times.
+https://www.nytimes.com/2014/08/31/world/middleeast/isis-displaying-a-deft-command-of-varied-
+media.html?module=SearchandmabReward=relbias%3Ar%2C%7B%221%22.
+115 Dalgaard-Nielsen, Anja. 2008. “Studying violent radicalization in Europe II: The potential contribution of socio-psychological and
+psychological approaches.” Danish Institute for International Studies.
+116 Dalgaard-Nielsen, Anja. 2008. “Studying violent radicalization in Europe II: The potential contribution of socio-psychological and
+psychological approaches.” Danish Institute for International Studies.
+117 Dalgaard-Nielsen, Anja. 2008. “Studying violent radicalization in Europe II: The potential contribution of socio-psychological and
+psychological approaches.” Danish Institute for International Studies.
+118 Doosje, Bertjan, Fathali Moghaddam, Arie Kruglanski, Arjande Wolf, Liesbeth Mann, and Allard Feddes. 2016. “Terrorism, radicalization,
+and de-radicalization.” Current Opinion in Psychology, 11: 79-84.
+119 Doosje, Bertjan, Fathali Moghaddam, Arie Kruglanski, Arjande Wolf, Liesbeth Mann, and Allard Feddes. 2016. “Terrorism, radicalization,
+and de-radicalization.” Current Opinion in Psychology, 11: 79-84.
+120 Dalgaard-Nielsen, Anja. 2008. “Studying violent radicalization in Europe II: The potential contribution of socio-psychological and
+psychological approaches.” Danish Institute for International Studies.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 20
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+psychological theories attempting to identify the mechanisms that allow group membership to solidify,
+such as identity fusion, social learning theory, and general group theory. If group membership is
+solidified, the final phase of action is initiated. In order to encourage newly initiated members to act
+violently on behalf of the group, existing members/recruiters may use ideological propaganda or
+traumatic life experiences (confrontation with death of a loved one) to encourage members to victimize
+themselves alongside the in-group and dehumanize the out-group.121 While a socio-ecological model does
+not integrate all perspectives, it is a good step in the direction of taking a more whole-of-group approach
+to understanding violent radicalization.
+A binary in-group/out-group paradigm supports the process of radicalization by constructing both a
+stronger in-group identity and greater animosity towards potential out-group targets. The Islamic State
+recruiters, for example, encourage the development of selective empathy among potential recruits by
+emphasizing the pain, vulnerability, and loneliness of Muslims in Western society rather than focusing on
+the violence inflicted by its own campaigns.122 In short, it encourages empathy for those who fit within
+the narrative of its cause. Empathizing with one side of the story frames the recruit’s world in black and
+white by creating clear “in” and “out” groups that “frames the Islamic State as the champion of Sunni
+Muslims (the in-group identity), its enemies as others complicit in Sunni perceptions of crisis, and the
+Islamic State as the only hope for solving this malaise.”123 Other groups adopt similar tactics to
+dehumanize their identified enemies, which reinforces the validity of action associated with their
+respective ideologies.
+Identity Fusion
+Identity fusion has developed as a more precise revision to general social identity/group theories to
+explain radicalization. Identity fusion is the visceral feeling of oneness with a group where the union is so
+strong that the boundaries that typically demarcate the personal and social self become highly
+permeable. Boundaries between the social and personal self become so permeable that aspects of each
+self-identity flow readily into the other. Once identities are completely fused, the borders between the
+social and personal identities become porous but do not diminish the integrity of either individual
+identity.124 The porous nature between the personal self and group self remains the key distinction to
+previously existing group theories, in which there often lies an assumption that the personal self is lost
+during the creation of a collective identity. Three assumptions are present within identity fusion: (1) all
+interactions are located on an interpersonal-intergroup continuum; (2) when salient and group members
+define themselves in terms of their social identity, they will depersonalize; and (3) individual differences
+exist in the extent to which social categories or group memberships are salient.125
+121 Doosje, Bertjan, Fathali Moghaddam, Arie Kruglanski, Arjande Wolf, Liesbeth Mann, and Allard Feddes. 2016. “Terrorism, radicalization,
+and de-radicalization.” Current Opinion in Psychology, 11: 79-84.
+122 Yu, Seong Hun, Omar Sultan Haque M.D., Ph.D. 2016. “Vulnerabilities among young Westerners joining ISIS.” Brown University Child and
+Adolescent Behavior Letter 32 (2):1-6.
+123 Ingram, Haroro J. 2015. “The strategic logic of Islamic State information operations.” Australian Journal of International Affairs 69 (6):
+729-751.
+124 Swann, William, Ángel Gómez, Jolanda Jetten, and Harvey Whitehouse. 2012. “When group membership gets personal: A theory of
+identity fusion.” Psychological Review, 119(3): 441-456.
+125 Swann, William, Ángel Gómez, Jolanda Jetten, and Harvey Whitehouse. 2012. “When group membership gets personal: A theory of identity
+fusion.” Psychological Review, 119(3): 441-456.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 21
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Identity fusion originated from theories including Durkheim’s concept of “mechanical solidarity” and
+“collective effervescence,” Victor Turner’s notion of “spontaneous communitas,” Alan Fiske’s notion of
+communal sharing and Harvey Whitehouse’s deposition of the imagistic mode of religiosity.126 Identity
+fusion is theorized to occur via three pathways according to Whitehouse: (1) undergoing transformative
+experiences with other group members that shape the personal and group identities of participants;
+these experiences are remembered as distinct episodes and formed as personal life history; (2) perceived
+sharing of essentialized biological properties with the group in the form of inherited phenotypic
+characteristics – local fusion; and (3) perceived out-group threat.127 Importantly, studies have shown that
+individuals with more highly fused identities espouse greater willingness to take action on behalf of the
+group.128
+Selective Adoption
+Selective adoption occurs when an individual shapes the identity of the group around their own self-
+interests, selectively adopting certain facets of the group ideology while rejecting others as he or she
+negotiates the union between their individual identity and that of the group. A study of why women
+would make the controversial decision to join an organized racist group like the Ku Klux Klan (KKK)
+helps visualize this process of selective adoption by explaining that women have to “construct self-
+understandings that fit agendas of the racist movement.”129
+In order to join groups that have “male-oriented agenda[s],” women have to rationalize their decisions by
+filtering the ideology to square with their own self-understandings.130 For example, the studied group of
+KKK-supporting women adopted the tenets of organized racism that dominated the group ideology but
+refused to believe in, participate in, or defend patriarchal facets of the group. In other words, they
+“selectively disregarded aspects of the ideologies… that [were] at variance with their personal goals.”131
+Many recruits even actively pointed out their disagreements with the core ideology of the group when
+justifying their involvement to out-group members, like the interviewer. This process can account for the
+often-extant gap between organizational propaganda and the manner in which individual members
+define the goals and pursuits of the group to close social contacts.132 Individuals may even be conscious
+and accepting of the disagreement as a way to justify their involvement to themselves and others.
+The increasing power and prevalence of social media has also encouraged the proliferation of dialogical
+interactions that lead to processes of selective adoption. As two-sided networks allow the exchange of
+information between parties, they facilitate more active engagement with media. Rather than simply
+126 Swann, William, Ángel Gómez, Jolanda Jetten, and Harvey Whitehouse. 2012. “When group membership gets personal: A theory of identity
+fusion.” Psychological Review, 119(3): 441-456.
+127 Whitehouse, Harvey. 2018. “Dying for the group: Towards a general theory of extreme self-sacrifice.” Behavioral and Brain Sciences,
+41(192): 1–62.
+128 Kavanagh, Christopher M., Rohan Kapitány, Idhamsyah Eka Putra, and Harvey Whitehouse. 2020. "Exploring the pathways between
+transformative group experiences and identity fusion." Frontiers in Psychology 11: 1172.
+129 Blee, Kathleen M. 1996. “Becoming a Racist: Women in Contemporary Ku Klux Klan and Neo-Nazi Groups.” Gender and Society 10(6): 680.
+130 Blee, Kathleen M. 1996. “Becoming a Racist: Women in Contemporary Ku Klux Klan and Neo-Nazi Groups.” Gender and Society 10(6): 680.
+131 Blee, Kathleen M. 1996. “Becoming a Racist: Women in Contemporary Ku Klux Klan and Neo-Nazi Groups.” Gender and Society 10(6): 680.
+132 Blee, Kathleen M. 1996. “Becoming a Racist: Women in Contemporary Ku Klux Klan and Neo-Nazi Groups.” Gender and Society 10(6): 680.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 22
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+viewing a piece of propaganda, the potential recruit can now directly interact with the host of the
+information in a process that is “dynamic in nature.”133 The recruit and the recruiter both have increased
+power to shape the form of the interaction in ways that rationally align with their goals. The relationship
+is now a co-constructive one in which a recruit can more easily square personal motivations with the
+broader ideology of the group. In realms of entertainment, media, and propaganda, followers are “not just
+the recipients, but the custodians” of information, creating a more intimate and personalized
+interaction.134
+Culture of Conspiracy in Alternative Sources
+The community developed around conspiracy theories provides members social validation and an outlet
+to express grievances.135 Goertzel performed some of the most groundbreaking work that future theories
+built on concerning these communities and forums. In 1994, Goertzel developed a theory that the best
+indicator for someone believing in one conspiracy theory is if that person believes in other conspiracy
+theories.136 In this same study, he found that belief in conspiracy theories was also “correlated with
+anomia, lack of interpersonal trust, and insecurity about employment.”137 Similar to simple confirmation
+bias in media, where viewers visit sources they know are offering a very limited view of events, those
+who believe in conspiracy develop a loyalty to their media community.138 People seem to believe in the
+culture of conspiracy theories rather than any particular theory. They frequently believe in contradictory
+theories in order to defend the culture of conspiracies as a whole.139 Wood et al. found that “even
+mutually incompatible conspiracy theories are positively correlated in endorsement.” 140 A central theme
+of this incompatibility is not a belief in a particular theory, but in the belief that there was a cover-up.
+Douglas et al. do not believe that the conspiracy community is a closed loop of logical and connecting
+information, rather a free-form community that is willing to accept any variation on a conspiracy theory
+as long as it is contrary to the norm.141 Social networks also contribute to the prevalence of conspiracy
+theories. Evolution has biased humans towards thinking in terms of patterns and causal relations to
+maximize our own survival.142 The more information-rich an environment is, the easier it is to cognitively
+construct patterns out of a series of data. In the extraordinarily information-rich environment of social
+133 Chatfield, Akemi Takeoka, Christopher G. Reddick, and Uuf Brajawidagda. 2015. “Tweeting propaganda, radicalization and recruitment:
+Islamic state supporters and multi-sided twitter networks.” Paper presented at the 16th Annual International Conference on Digital
+Government Research 239-249.
+134 Cocker, Hayley L., James Cronin. 2017. “Charismatic authority and the YouTuber: Unpacking the new cults of personality.” Marketing
+Theory 17 (4): 461.
+135 Goertzel, Ted. 1994. "Belief in conspiracy theories." Political psychology: 731-742.
+136 Goertzel, Ted. 1994. "Belief in conspiracy theories." Political psychology: 731-742.
+137 Goertzel, Ted. 1994. "Belief in conspiracy theories." Political psychology: 731-742.
+138 Zúñiga, Homero Gil de, Teresa Correa, and Sebastian Valenzuela. 2012. “Selective Exposure to Cable News and Immigration in the U.S.:
+The Relationship Between FOX News, CNN, and Attitudes Toward Mexican Immigrants.” Journal of Broadcasting and Electronic Media, 56(4):
+597–615.
+139 Wood, Michael J., Karen M. Douglas, and Robbie M. Sutton. 2012. "Dead and alive: Beliefs in contradictory conspiracy theories.” Social
+Psychological and Personality Science, 3 (6), 767–773.
+140 Wood, Michael J., Karen M. Douglas, and Robbie M. Sutton. 2012. "Dead and alive: Beliefs in contradictory conspiracy theories.” Social
+Psychological and Personality Science, 3 (6), 767–773.
+141 Douglas, Karen M., Robbie M. Sutton, Daniel Jolley, and Michael J. Wood. 2015. "The social, political, environmental, and health-related
+consequences of conspiracy theories." The Psychology of Conspiracy: 183-200.
+142 Friedman, Richard A. 2020. “Why Humans Are Vulnerable to Conspiracy Theories.” Psychiatric Services 72 (1): 3-4.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 23
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+networks, individuals have immediate access to myriad data that can be constructed to “strengthen our
+tribal unity and confirm our biases and prejudices” in line with conspiracy theories.143
+A large problem with combating conspiracy theories, particularly in objective fields like science and
+medicine, is that they deal with emotions rather than facts.144 Any attempt to combat these theories with
+objective reasoning or fact is essentially futile, especially when the root for these theories is based in the
+need for someone to blame for societal woes.
+Initial Model Components and Variables
+This section describes the components and variables contained in the initial Influence-to-Action Model (I-
+AM). As we set about extracting the variables from our literature review to develop the I-AM, we
+classified the variables into three categories: payload, delivery system, and trigger. In the model, we refer
+to these categories as “model components.” As we conducted model validations subsequent to the initial
+model development, we adjusted both the model components and the variables contained in the model.
+These staged evolutions are described in this report at the end of each validation steps.
+Payload Component
+For influence operation messaging to be successful, it requires content that is designed to entice and elicit
+the target audience to act – a payload, if you liken the messages as the weapons employed in influence
+operations. We named this component the Payload Component for the I-AM. The Payload Component
+includes variables that are relevant to threats and opportunities in the social movement tradition.
+Variables relevant to threats can also be conceptualized as threats described in political process theory as
+individual (internal) level variables. On the other hand, variables relevant to opportunities can be
+conceptualized as societal (structural) level variables in the political process theory perspective.
+Individual (Internal) Level Variables145
+The literature review has identified the following variables related to threats at the micro-/individual-
+level:
+• Emotional connection: The message includes an attempt to appeal to the emotions of the target
+audience. For example, a nation-state, in order to entice a specific ethnic diaspora living in the United
+States, frames the message in the “perspective” of a member of that ethnic diaspora and tells the
+hardship of living in the United States that most members of the diaspora can identify with.
+• Identity (Threat to): The message clearly identifies (explicitly) threat(s) to the commonly
+perceived/accepted identity of the target audience. For example, the message clearly identifies that
+people with certain ideologies in the United States are not approving of people of certain ethnicity.
+• Culture (Threat to): The message clearly identifies (explicitly) threat(s) to the commonly
+perceived/accepted culture of the target audience. For example, the message clearly identifies that
+143 Friedman, Richard A. 2020. “Why Humans Are Vulnerable to Conspiracy Theories.” Psychiatric Services 72 (1): 3-4.
+144 Goertzel, Ted. 2010. "Conspiracy theories in science: Conspiracy theories that target specific research can have serious consequences for
+public health and environmental policies." EMBO reports 11(7): 493-499.
+145 For literature used to extract the variables listed in this sub-section, please see “Individual (Internal) Level Factors” section of this
+document above.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 24
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+people with certain ideologies in the United States are not approving of people living in a diaspora,
+who are not assimilating to the “American culture.”
+• Identity affirmation: The message either explicitly or implicitly states that you – the target audience
+– is of a certain identity (that aligns with the reader’s identity), and that you should be proud of your
+identity.
+• Victim affirmation: The message either explicitly or implicitly states that you – the target audience –
+are being victimized due to an aspect of your identity, social status, economic status, race, ethnicity,
+etc. For example, the message implies that people who meet certain criteria are not able to advance
+further in the society because another group within society (e.g., another social class) is
+systematically placing barriers to prevent the advancement of those people.
+• Victimization: The message either explicitly or implicitly states there is a need to “right the wrong”
+or “fight against injustice”; therefore, your actions against those who have made you a victim are
+justified.
+• Persistent/increasing threat (against these “shared” connections): The message’s explicitly or
+implicitly stated threats against the target audience are persistent and/or increasing.
+Societal (Structural) Level Variables146
+The literature review has identified the following variables related to opportunities at the macro-
+/structural-level:
+• Clearly identified in-group: The message clearly identifies (explicitly) who – in this case the target
+audience – is the in-group and that this in-group is an exclusive group that others cannot be a part of.
+• Clearly identified out-group (Othering): The message clearly identifies (explicitly) the culprit that
+can be “blamed” for the threats against the target audience.
+• Clearly stated alternative future: The message explicitly identifies that by taking action, there is an
+alternative future where threats against the target audience will diminish or even be eliminated.
+• Purported lack of response: The message explicitly identifies that no one is doing anything to stop
+and/or reverse the threat against the target audience.
+• Social validation: The message explicitly states doing something about the identified injustice is
+correct, justified, and/or legitimate.
+Delivery System Component147
+Delivery system is a required component of any weapon system. Influence operations are no different.
+There must be a delivery mechanism to deliver the content of the message. We, therefore, name this next
+group of I-AM variables, the Delivery System Component. The Delivery System Component includes
+variables that are relevant to message acceptance and propagation. This component can be sub-divided
+into two sub-components: Delivery Strength and Timing; and Delivery Method.
+146 For literature used to extract variables listed in this sub-section, please see “Societal (Structural) Level Factors” section of this document
+above.
+147 For literature used to extract variables listed in this sub-section, please see “Psychological Theories Regarding Information Absorption
+and Propagation” and “Social Validation and Influencer Culture” sub-sections of this document above.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 25
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Delivery Strength and Timing
+• Intensity: Forcefulness of the message being delivered – how forcefully and explicitly does the
+message convey threats and opportunities to the target audience? Literature shows that the higher
+the intensity of the message, the higher the impact of the influence operation.
+• Duration: For both online and in-person, how long is the target audience staying to learn about the
+message that is being delivered? Literature shows that the higher the duration (e.g., more time one
+spends on a website and/or more time one spends listening to the podcast, etc.) the higher the impact
+of the influence operation.
+• Frequency: The length of time between release of new messages and/or the length of time between
+in-person meetings. Literature shows that the more frequent the contact – both virtually and in-
+person – the higher the impact of the influence operation.
+Delivery Method
+• Method: Types of delivery method employed to deliver the messages. Literature shows that the more
+diverse the delivery method, the higher the propagation, the higher the probability of exposure to the
+target audience, and the higher the recruiting potential. The delivery methods can include in-person,
+online only, both, and other (such as letters or print media). For the online only delivery method, the
+delivery could be further sub-divided into synchronous and asynchronous. Synchronous delivery could
+include methods such as video conferences, real time game chat, and live chat, etc., while
+asynchronous delivery could include methods such as video message, text messages, and video
+message.
+Trigger Component
+• Call to Action: For influence operation messaging to be successful, it requires both the payload and
+delivery system components. Having these two components, however, is not enough. The message
+also must include a trigger component that calls people to action. We named this variable Call to
+Action, and we define it as “an explicit or implicit control mechanism included in the influence
+operation(s)’ message(s) designed to stimulate the target audience’s behavioral change.” An example
+of this is Smoky the Bear stating, “Only you can prevent forest fire!” at the end of an information
+campaign commercial about what people should do at their camp sites in order to minimize the
+chance of forest fires.
+Initial Influence-to-Action Model (I-AM)
+Based on the variables listed above, the initial Influence-to-Action Model (I-AM) can be expressed as the
+following function:
+𝐼𝐼𝐼𝐼𝐼𝐼 = 𝑓𝑓(𝐸𝐸𝑐𝑐, 𝑇𝑇𝑖𝑖, 𝑇𝑇𝑐𝑐, 𝐴𝐴𝑖𝑖, 𝐴𝐴𝑣𝑣, 𝑉𝑉, 𝑇𝑇𝑝𝑝, 𝐺𝐺𝑖𝑖, 𝐺𝐺𝑜𝑜, 𝐹𝐹𝑎𝑎, 𝑅𝑅𝑙𝑙, 𝑆𝑆𝑣𝑣, 𝐼𝐼, 𝐷𝐷, 𝐹𝐹, 𝑀𝑀, 𝐶𝐶𝑎𝑎 )
+Function 1: Preliminary Influence-to-Action Model (I-AM) Function
+Where:
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 26
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Variable Notation Variable Name
+Impact of Influence Operations
+𝐼𝐼𝐼𝐼𝐼𝐼 Influence Operation – Influence-to-Action
+Payload Component
+Individual (Internal) Level Factors
+𝐸𝐸𝑐𝑐 Emotional Connection
+𝑇𝑇𝑖𝑖 Threats to Identity
+𝑇𝑇𝑐𝑐 Threats to Culture
+𝐴𝐴𝑖𝑖 Identity Affirmation
+𝐴𝐴𝑣𝑣 Victim Affirmation
+𝑉𝑉 Victimization
+Societal (Structural) Level Factors
+𝑇𝑇𝑝𝑝 Persistent and Increasing Threats
+𝐺𝐺𝑖𝑖 Clearly Identified In-Group
+𝐺𝐺𝑜𝑜 Clearly Identified Out-Group
+𝐹𝐹𝑎𝑎 Clear Alternative Future
+𝑅𝑅𝑙𝑙 Purported Lack of Response
+𝑆𝑆𝑣𝑣 Social Validation
+Delivery Component
+𝐼𝐼 Intensity
+𝐷𝐷 Duration
+𝐹𝐹 Frequency
+𝑀𝑀 Method
+Trigger Component
+𝐶𝐶𝑎𝑎 Call to Action
+Table 1: Preliminary Influence-to-Action Model (I-AM) Variable List
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 27
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Initial Influence-to-Action Chain Template (I-ACT)
+As a part of this model development effort, we also developed the Influence-to-Action Chain Template (I-ACT) to provide a visual
+representation of how I-AM maps onto a generalized influence-to-action Escalation Pathway (See Figure 1 below).
+Figure 1: Initial Influence-to Action Chain Template (I-ACT)148
+148 Not all paths lead to violence, though violence is shown as the ultimate outcome in the I-ACT. An individual may enter the first cycle and never move beyond that
+circle or move beyond it but never go beyond donating to the “cause”. Likewise, an individual may move through the entire path and get into the second cycle but never
+engages in any violence (either in the physical world or online). In fact, only a small percentage of the population ever engages in violence after moving through I-ACT.
+Additionally, individuals can also jump around within the Influence-to-action Escalation Pathway instead of following the linear pathway that is used as a visualization
+method to depict I-ACT.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 28
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 74
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Finalized Influence-to-Action Model (I-AM)
+Based on the case study and survey validations and refinements, we simplified the model and eliminated
+the three initial model components (payload, delivery, and trigger), leaving only the individual and
+societal level factors and their associated variables in the model. Therefore, the finalized Influence-to-
+Action Model (I-AM) can be expressed as the following function:
+𝐼𝐼𝐼𝐼𝐼𝐼 = 𝑓𝑓(𝐸𝐸, 𝑇𝑇𝑖𝑖, 𝑇𝑇𝑐𝑐, 𝐴𝐴𝑖𝑖, 𝐴𝐴𝑣𝑣,𝑉𝑉, 𝑇𝑇𝑝𝑝, 𝐹𝐹𝑎𝑎, 𝑅𝑅𝑙𝑙, 𝐺𝐺𝑖𝑖𝑜𝑜, 𝑆𝑆𝑣𝑣)
+Function 3: Finalized Influence-to-Action Model (I-AM) Function
+Where:
+Variable Notation Variable Name
+Impact of Influence Operations
+𝐼𝐼𝐼𝐼𝐼𝐼 Influence Operation – Influence-to-Action
+Individual (Internal) Level Factors
+𝐸𝐸𝑐𝑐 Emotional Appeal
+𝑇𝑇𝑖𝑖 Threats to Identity
+𝑇𝑇𝑐𝑐 Threats to Way of Life (Culture)
+𝐴𝐴𝑖𝑖 Identity Affirmation
+𝐴𝐴𝑣𝑣 Victim Affirmation
+𝑉𝑉 Victimization
+Societal (Structural) Level Factors
+𝑇𝑇𝑝𝑝 Persistent and Increasing Threats
+𝐹𝐹𝑎𝑎 Clear Alternative Future (World will be
+better by doing something about it)
+𝑅𝑅𝑙𝑙 Purported Lack of Response
+𝐺𝐺𝑖𝑖𝑜𝑜 Clearly Identified In-/Out-Group (It is the
+right thing to do for the “team”)
+𝑆𝑆𝑣𝑣 Social Validation
+Table 4: Finalized Influence-to-Action Model (I-AM) Variable List
+As mentioned above, variables Intensity, Duration, Frequency, and Method will be removed from the
+finalized model but retained as external factors that will be introduced as uncertainties in the Influence-
+to-Action Impact Assessment Tool, which will be developed in the follow-on project period.
+Back to
+Executive
+Summary
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 75
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Finalized Influence-to-Action Chain Template (I-ACT)
+While the I-AM was further modified to arrive at the finalized model, I-ACT did not have to be adjusted. This was because the variables that
+were eliminated from the finalized I-AM were always conceptualized as environmental background factors that are given that the variables
+in question were conceptualized as influencer specific variables that are unique to each influencer rather than to specific influence operation
+messaging. Nevertheless, we provide a finalized I-ACT in Figure 19 below for consistency:
+Figure 19: Finalized Influence-to Action Chain Template (I-ACT)
+Back to
+Executive
+Summary
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 76
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Conclusion and Next Steps
+Situating it theoretically in the social movement literature to understand why an individual might decide
+to act, and utilizing psychology, sociology, marketing, and communications literatures to extract variables
+relevant to threats and opportunities from influence operations messaging, we successfully developed
+the Influence-to-Action Model (I-AM).
+Upon development of the initial model, we validated the model by conducting case studies of one
+historical and two present-day Russian and Chinese foreign influence operations. The three case studies
+were chosen to test I-AM against large-scale, potentially state-sponsored influence operations in different
+temporality and of differing state origins to discern if the variables were applicable across time and
+space. All three cases were successful in some aspect of influencing either pre-existing communities or
+propagating messaging into mainstream media; however, all three held significant differences, and we
+were able to successfully apply the I-AM to analyze the three cases, demonstrating the I-AM’s
+applicability to diverse foreign influence operations.
+Our case study findings suggest that the more factors from the model that are apparent in an influence
+operation, the more successful the messaging is in propagating into a community and increasing action
+among influencees within that community. The case studies also found the individual level factors with the
+strongest subjective weight were Emotional Appeal and Threat to Identity while Clear Alternative Future
+was found to be the consistent societal level factor central to the success of messaging during an influence
+operation.
+Upon completion of the case studies, we fielded a survey targeting the adult U.S. general population.
+Through the survey, we were able to further validate the I-AM. Most notably, we were able to ascertain that
+Identity Affirmation and Clear Alternative Future are the most important individual and societal level
+factors when one considers taking on concrete commitment of action based on being exposed to influence
+messaging.
+Although the survey found Identity Affirmation as the most important individual level factor for action,
+Emotional Appeal and Threat to Identity – the individual level factors identified as having most weight
+during the case studies – were found to be the second and third most important factors. This survey
+finding provided a degree of added confidence to both our case study and survey findings. Additionally,
+the case study found that Clear Alternative Future was the one consistent societal level factor identified as
+the central factor governing the success of the foreign influence operations messaging. The survey also
+found that Clear Alternative Future is the societal level factor that motivates people to act. These results
+also mutually buttressed each other.
+After completing the case studies and the survey, we refined the model based on our findings and
+developed the finalized Influence-to-Action Model and the finalized Influence-to-Action-Chain-Template (see
+“Finalized Influence-to-Action Model (I-AM)” section of this report above for the finalized model). While
+this model currently does not have any assessment metrics associated with it, it is able to serve as a
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development 77
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+systematic tool that an analyst can employ to systematically analyze an ongoing foreign influence operation
+and assess its likely impact on its target audience. The model can also be used immediately by analysts as
+a frame to compare several foreign influence operations across time, space, and actors.
+Next Steps
+The most important item to complete during the next phase of the project is the development of
+measurement metrics and the subsequent development of the Influence-to-Action Impact Assessment Tool.
+Both the case studies and survey we have completed provided us with valuable data that will serve as the
+foundation for developing the weights for each variable included in the finalized I-AM. The case study and
+survey results also provided us with a few avenues of further research that are warranted as we develop
+the Influence-to-Action Impact Assessment Tool. For example, it seems there may be some kind of
+relationship among Identity Affirmation, Threat to Identity, and Emotional Appeal, and we should explore
+whether there truly are some kind of relationship among these variables.
+To allow us to answer some of these questions, we will be conducting another round of survey with a
+larger sample size and more nuanced questions. We hope that this survey will provide us with the robust
+data that we will be able to utilize to develop the measurement metrics for the model and eventually the
+impact assessment too
+
+Internal factors
+
+    Emotional appeal: The message includes an attempt to appeal to the emotions of the target audience. For example, in order to entice a specific ethnic diaspora living in the United States, a nation-state may frame the message in the “perspective” of a member of that ethnic diaspora and tell the hardship of living in the United States in a way that most members of the diaspora can identify with.
+    Threat to identity: The message identifies threat(s) to the commonly perceived/accepted identity of the target audience. For example, the message clearly identifies that people with certain ideologies in the United States are not approving of people of certain ethnicity.
+    Threat to culture (way of life): The message identifies threat(s) to the commonly perceived/accepted culture of the target audience. For example, the message clearly identifies that people with certain ideologies in the United States do not approve of people living in a diaspora who are not assimilating to the “American culture.”
+    Identity affirmation: The message conveys that the target audience is of a certain identity (that aligns with the reader’s identity), and that you should be proud of your identity.
+    Victim affirmation: The message conveys that the target audience is being victimized due to an aspect of identity, social status, economic status, race, ethnicity, etc. For example, the message implies that people who meet certain criteria are not able to advance further in the society because another group within society (e.g., another social class) is systematically placing barriers to prevent the advancement of those people.
+    Victimization: The message conveys there is a need to “right the wrong” or “fight against injustice;” therefore, your actions against those who have made you a victim are justified.
+
+Social factors
+
+    Persistent and increasing threat (“things are getting out of hand”): The message conveys persistent and worsening conditions if something is not done to reverse the course. For example, messaging about potential worsening of COVID cases around the holidays.
+    Clear alternative future (“the world will be better by doing something about it”): The message identifies that by taking action, there is an alternative future where threats against the target audience will diminish or even be eliminated.
+    Purported lack of response (“nothing is being done about it”): The message identifies that no one is doing anything to stop and/or reverse the threat against the target audience.
+    Clearly identified in/out group (“it’s the right thing to do for me and my social group”): The message identifies there is an in-group (the one that the target audience belongs to) and (an) out-group(s). One needs to take action because “it is the right thing to do for the ‘team’.”
+    Social validation (“it increases my reputation”): The message states that doing something about an identified injustice is correct, justified, and/or legitimate. The message may also imply that “everyone is doing it,” and that those who do are “in the right” and will be “recognized” for doing so.
+
+A diagram showing the 11 variables that have an impact on a person’s inclination to be influenced by a campaign. Image source: UMD START
+
+The tool and its variables were validated via case studies of one historical and two present-day Chinese and Russian influence operations. These three case studies were used to test the influence-to-action model tool against large-scale, state-sponsored influence operations across different time periods and origins. The tool was successfully used to analyze all three cases and assess their impact. 
+Which factors are most important?
+
+The approach was further validated by two surveys of adults in the U.S. general population, which had questions designed to tease out the relative importance of each aspect of an influence campaign. 
+
+From results of those surveys, weights were assigned to each variable contained in the influence-to-action model. Based on survey results, the most important variables within the individual category were:
+
+    victimization,
+    identity affirmation,
+    threat to culture (way of life).
+
+Within the societal category, the most important variables were:
+
+    clear alternative future, and 
+    clearly identified in/out group. 
+
+Researchers were surprised to learn that the relative weights for these variables remain consistent across different demographic groups. While there was some nuance in the importance of variables for each demographic group, the most important variables in determining the impact of a piece of propaganda (identified above) remained consistent.
+
+Using these weights, the influence-to-action model is able to calculate the relative impact of any given piece of propaganda. The tool provides analysts a systematic methodology for the analysis of influence operations across multiple types of media and platforms. This allows for consistent analysis of influence operations material, regardless of the origin or mode of delivery, and puts a new and unique tool in the analyst’s toolbox.

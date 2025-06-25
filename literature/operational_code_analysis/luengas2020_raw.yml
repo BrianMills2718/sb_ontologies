@@ -1,0 +1,469 @@
+citation: "Luengas, David Leonardo. \"The VICS Test: Does Operational Code Analysis Falter for The Populist Right?\" Bachelor Thesis, Leiden University, 2020."
+annotation: "Tests whether VICS methodology produces biased results when analyzing populist leaders due to their communication style characteristics, finding systematic overestimation of cooperative tendencies."
+model_type: "property_graph"
+rationale: "The framework involves complex relational structure between leaders, coding systems, belief indices, and validation measures characterizing this methodological validation study."
+schema_blueprint:
+  title: "VICS Populist Validation Schema"
+  description: "Models the theoretical framework for testing VICS methodology validity with populist leaders and their distinctive communication patterns."
+  root_properties:
+    nodes:
+      description: "Populist leaders, coding systems, belief measures, validation criteria, and communication characteristics."
+      item_type: "Entity"
+    edges:
+      description: "The validation relationships, measurement biases, and methodological connections between VICS analysis and populist discourse patterns."
+      item_type: "NaryTuple"
+  definitions:
+    - name: "vics-methodology"
+      category: "core-construct"
+      description: "Verbs In Context System for automated operational code analysis using computer-assisted content analysis."
+    - name: "populist-communication-style"
+      category: "core-construct"
+      description: "Distinctive rhetorical patterns of populist leaders characterized by simplicity and emotional appeal."
+      domain: ["PopulistLeader"]
+    - name: "systematic-bias"
+      category: "core-construct"
+      description: "Consistent measurement error in operational code analysis affecting specific types of leaders."
+    - name: "face-validity-test"
+      category: "core-construct"
+      description: "Validation method comparing automated coding results with real-world behavioral evidence."
+    - name: "cooperative-overestimation"
+      category: "core-construct"
+      description: "Systematic bias where populist leaders appear more cooperative than their actual behavior suggests."
+    - name: "right-wing-populism"
+      category: "populist-type"
+      description: "Political ideology combining populist appeals with conservative or nationalist positions."
+    - name: "left-wing-populism"
+      category: "populist-type"
+      description: "Political ideology combining populist appeals with progressive or socialist positions."
+    - name: "anti-establishment-rhetoric"
+      category: "populist-characteristic"
+      description: "Communication pattern opposing existing political institutions and elites."
+      domain: ["PopulistLeader"]
+    - name: "people-vs-elite-framing"
+      category: "populist-characteristic"
+      description: "Rhetorical strategy contrasting ordinary people with corrupt elites."
+      domain: ["PopulistLeader"]
+    - name: "simplistic-messaging"
+      category: "populist-characteristic"
+      description: "Use of simple language and concepts to communicate complex political ideas."
+      domain: ["PopulistLeader"]
+    - name: "emotional-appeals"
+      category: "populist-characteristic"
+      description: "Rhetorical strategies targeting emotions rather than rational argument."
+      domain: ["PopulistLeader"]
+    - name: "underlying-meaning"
+      category: "populist-characteristic"
+      description: "Hidden or implicit messages beneath surface-level populist rhetoric."
+      domain: ["PopulistLeader"]
+    - name: "coded-language"
+      category: "populist-characteristic"
+      description: "Use of terms with specific meanings understood by particular audiences."
+      domain: ["PopulistLeader"]
+    - name: "donald-trump"
+      category: "case-study-leader"
+      description: "45th President of the United States, example of right-wing populist leader."
+    - name: "boris-johnson"
+      category: "case-study-leader"
+      description: "UK Prime Minister, example of right-wing populist leader."
+    - name: "narendra-modi"
+      category: "case-study-leader"
+      description: "Prime Minister of India, example of right-wing populist leader."
+    - name: "norming-group"
+      category: "comparison-standard"
+      description: "Dataset of 168 world leaders used as baseline for comparison with populist leaders."
+    - name: "aggregate-analysis"
+      category: "analytical-method"
+      description: "Statistical analysis combining data across multiple leaders or time periods."
+    - name: "role-change-analysis"
+      category: "analytical-method"
+      description: "Examination of operational code changes when leaders transition between political roles."
+    - name: "computer-assisted-content-analysis"
+      category: "methodological-approach"
+      description: "Automated text analysis using software to identify operational code indicators."
+    - name: "profilerplus-software"
+      category: "methodological-tool"
+      description: "Computer program used for automated operational code analysis."
+    - name: "automated-coding-bias"
+      category: "measurement-issue"
+      description: "Systematic errors introduced by computer-based content analysis procedures."
+    - name: "human-vs-machine-coding"
+      category: "measurement-issue"
+      description: "Comparison between human analyst and computer-generated operational code scores."
+    - name: "coding-reliability"
+      category: "measurement-issue"
+      description: "Consistency of operational code measurements across different coders or methods."
+    - name: "inter-coder-agreement"
+      category: "measurement-issue"
+      description: "Degree of consensus between multiple human coders analyzing the same material."
+    - name: "p1-political-universe-nature"
+      category: "philosophical-belief"
+      description: "Belief about whether political life is essentially conflictual or harmonious."
+      domain: ["Leader"]
+    - name: "p2-value-realization-prospects"
+      category: "philosophical-belief"
+      description: "Optimism or pessimism about achieving fundamental political values."
+      domain: ["Leader"]
+    - name: "p3-political-future-predictability"
+      category: "philosophical-belief"
+      description: "Belief about the extent to which political events can be forecast."
+      domain: ["Leader"]
+    - name: "p4-historical-control"
+      category: "philosophical-belief"
+      description: "Belief about the degree of control over historical developments."
+      domain: ["Leader"]
+    - name: "p5-chance-role"
+      category: "philosophical-belief"
+      description: "Belief about the role of chance in political outcomes."
+      domain: ["Leader"]
+    - name: "i1-strategic-approach"
+      category: "instrumental-belief"
+      description: "Preferred approach to selecting goals for political action."
+      domain: ["Leader"]
+    - name: "i2-tactical-pursuit"
+      category: "instrumental-belief"
+      description: "Preferred methods for pursuing political objectives effectively."
+      domain: ["Leader"]
+    - name: "i3-risk-orientation"
+      category: "instrumental-belief"
+      description: "Approach to calculating, controlling, and accepting political risks."
+      domain: ["Leader"]
+    - name: "i4-timing-flexibility"
+      category: "instrumental-belief"
+      description: "Willingness to shift between cooperative and conflictual approaches over time."
+      domain: ["Leader"]
+    - name: "i5-means-utility"
+      category: "instrumental-belief"
+      description: "Beliefs about the effectiveness of different political tools and methods."
+      domain: ["Leader"]
+    - name: "cooperative-index"
+      category: "vics-measure"
+      description: "Quantitative measure of cooperative versus conflictual orientation."
+    - name: "conflictual-index"
+      category: "vics-measure"
+      description: "Quantitative measure of conflictual versus cooperative orientation."
+    - name: "complexity-index"
+      category: "vics-measure"
+      description: "Measure of cognitive complexity in political thinking."
+    - name: "power-index"
+      category: "vics-measure"
+      description: "Measure of emphasis on power and control in political action."
+    - name: "distrust-index"
+      category: "vics-measure"
+      description: "Measure of suspicion and distrust toward other political actors."
+    - name: "verb-coding-categories"
+      category: "vics-technical"
+      description: "Classification system for transitive verbs used in VICS analysis."
+    - name: "positive-affect-verbs"
+      category: "vics-technical"
+      description: "Verbs indicating positive or cooperative actions and attitudes."
+    - name: "negative-affect-verbs"
+      category: "vics-technical"
+      description: "Verbs indicating negative or conflictual actions and attitudes."
+    - name: "neutral-affect-verbs"
+      category: "vics-technical"
+      description: "Verbs indicating neither positive nor negative affect."
+    - name: "intensity-scaling"
+      category: "vics-technical"
+      description: "Numerical weighting system for different levels of verbal intensity."
+    - name: "transitive-verb-identification"
+      category: "vics-technical"
+      description: "Process of identifying verbs that show relationships between actors."
+    - name: "subject-object-coding"
+      category: "vics-technical"
+      description: "Identification of who is performing actions and who is receiving them."
+    - name: "domain-specification"
+      category: "vics-technical"
+      description: "Classification of whether statements refer to domestic or foreign policy."
+    - name: "temporal-coding"
+      category: "vics-technical"
+      description: "Classification of whether statements refer to past, present, or future events."
+    - name: "speech-sample-selection"
+      category: "data-collection"
+      description: "Process of choosing representative speeches for operational code analysis."
+    - name: "minimum-verb-threshold"
+      category: "data-collection"
+      description: "Required number of codable verbs needed for reliable operational code analysis."
+    - name: "foreign-policy-content"
+      category: "data-collection"
+      description: "Requirement that analyzed material addresses international relations topics."
+    - name: "spontaneous-vs-prepared"
+      category: "data-collection"
+      description: "Distinction between impromptu remarks and carefully scripted speeches."
+    - name: "campaign-vs-governing"
+      category: "data-collection"
+      description: "Distinction between political campaign rhetoric and official governing statements."
+    - name: "real-world-behavior-validation"
+      category: "validation-method"
+      description: "Comparing operational code predictions with actual foreign policy actions."
+    - name: "expert-assessment-validation"
+      category: "validation-method"
+      description: "Using expert judgments to evaluate operational code accuracy."
+    - name: "historical-case-validation"
+      category: "validation-method"
+      description: "Testing operational code predictions against known historical outcomes."
+    - name: "cross-leader-comparison"
+      category: "validation-method"
+      description: "Comparing operational code patterns across different types of leaders."
+    - name: "temporal-stability-validation"
+      category: "validation-method"
+      description: "Testing whether operational codes remain consistent over time."
+    - name: "communication-style-bias"
+      category: "bias-source"
+      description: "Systematic measurement error resulting from distinctive rhetorical patterns."
+    - name: "linguistic-complexity-bias"
+      category: "bias-source"
+      description: "Measurement error related to varying levels of linguistic sophistication."
+    - name: "cultural-context-bias"
+      category: "bias-source"
+      description: "Systematic error from cultural differences in communication norms."
+    - name: "translation-bias"
+      category: "bias-source"
+      description: "Measurement error introduced when analyzing non-English language materials."
+    - name: "genre-specific-bias"
+      category: "bias-source"
+      description: "Systematic error related to different types of political communication."
+    - name: "audience-targeting-bias"
+      category: "bias-source"
+      description: "Measurement error from speeches targeted at specific audiences."
+    - name: "cooperative-overrepresentation"
+      category: "empirical-finding"
+      description: "Tendency for populist leaders to score higher on cooperation than expected."
+    - name: "behavioral-contradiction"
+      category: "empirical-finding"
+      description: "Discrepancy between coded cooperation scores and actual conflictual behavior."
+    - name: "role-transition-effects"
+      category: "empirical-finding"
+      description: "Changes in operational code when leaders move between political positions."
+    - name: "populist-clustering"
+      category: "empirical-finding"
+      description: "Tendency for populist leaders to group together on operational code dimensions."
+    - name: "norming-group-deviation"
+      category: "empirical-finding"
+      description: "Extent to which populist leaders differ from baseline leader sample."
+    - name: "false-positive-cooperation"
+      category: "error-type"
+      description: "Incorrectly identifying conflictual leaders as cooperative due to coding bias."
+    - name: "false-negative-conflict"
+      category: "error-type"
+      description: "Incorrectly failing to identify conflictual tendencies due to coding bias."
+    - name: "type-i-error"
+      category: "error-type"
+      description: "Falsely rejecting the null hypothesis of no difference between groups."
+    - name: "type-ii-error"
+      category: "error-type"
+      description: "Falsely accepting the null hypothesis when real differences exist."
+    - name: "measurement-validity"
+      category: "psychometric-property"
+      description: "Extent to which operational code measures capture their intended constructs."
+    - name: "construct-validity"
+      category: "psychometric-property"
+      description: "Degree to which operational code measures relate to theoretical expectations."
+    - name: "criterion-validity"
+      category: "psychometric-property"
+      description: "Correlation between operational code measures and external behavioral criteria."
+    - name: "content-validity"
+      category: "psychometric-property"
+      description: "Comprehensiveness of operational code measures in covering the theoretical domain."
+    - name: "test-retest-reliability"
+      category: "psychometric-property"
+      description: "Stability of operational code measures across different time points."
+    - name: "internal-consistency"
+      category: "psychometric-property"
+      description: "Coherence among different items measuring the same operational code dimension."
+    - name: "political-rhetoric-analysis"
+      category: "research-method"
+      description: "Systematic study of political communication patterns and strategies."
+    - name: "quantitative-text-analysis"
+      category: "research-method"
+      description: "Numerical analysis of textual materials using statistical techniques."
+    - name: "computational-linguistics"
+      category: "research-method"
+      description: "Use of computer science methods to analyze natural language."
+    - name: "foreign-policy-analysis"
+      category: "research-method"
+      description: "Systematic study of international relations decision-making processes."
+    - name: "comparative-case-study"
+      category: "research-method"
+      description: "In-depth analysis comparing multiple cases to identify patterns."
+    - name: "leader-specific-effects"
+      category: "methodological-consideration"
+      description: "Individual differences that may affect operational code measurement."
+    - name: "contextual-factors"
+      category: "methodological-consideration"
+      description: "Situational variables that may influence operational code expression."
+    - name: "sampling-strategy"
+      category: "methodological-consideration"
+      description: "Approach to selecting speeches and materials for analysis."
+    - name: "generalizability-limits"
+      category: "methodological-consideration"
+      description: "Constraints on extending findings beyond the specific cases studied."
+    - name: "alternative-explanation"
+      category: "methodological-consideration"
+      description: "Competing interpretations for observed operational code patterns."
+    - name: "trump-foreign-policy"
+      category: "case-specific"
+      description: "Foreign policy actions and decisions of Donald Trump's presidency."
+    - name: "johnson-brexit-strategy"
+      category: "case-specific"
+      description: "Boris Johnson's approach to Brexit negotiations and implementation."
+    - name: "modi-international-relations"
+      category: "case-specific"
+      description: "Narendra Modi's foreign policy approach and international strategies."
+    - name: "populist-foreign-policy"
+      category: "theoretical-concept"
+      description: "Distinctive patterns in international relations associated with populist leaders."
+    - name: "elite-vs-populist-comparison"
+      category: "theoretical-concept"
+      description: "Systematic differences between traditional and populist political leaders."
+    - name: "methodological-nationalism"
+      category: "theoretical-concept"
+      description: "Bias toward understanding politics primarily through national frameworks."
+    - name: "automated-analysis-limitations"
+      category: "theoretical-concept"
+      description: "Inherent constraints of computer-based content analysis methods."
+    - name: "human-interpretation-superiority"
+      category: "theoretical-concept"
+      description: "Advantages of human analysts over automated coding systems."
+    - name: "causes-bias"
+      category: "relationship"
+      description: "Causal relationship where one factor systematically distorts measurement."
+      domain: ["Factor"]
+      range: ["Bias"]
+    - name: "validates-against"
+      category: "relationship"
+      description: "Testing relationship where measures are checked against external criteria."
+      domain: ["Measure"]
+      range: ["Criterion"]
+    - name: "contradicts"
+      category: "relationship"
+      description: "Relationship where findings conflict with expectations or other evidence."
+      domain: ["Finding"]
+      range: ["Expectation"]
+    - name: "correlates-with"
+      category: "relationship"
+      description: "Statistical association between operational code measures and other variables."
+      domain: ["Measure"]
+      range: ["Variable"]
+    - name: "predicts"
+      category: "relationship"
+      description: "Relationship where operational code measures forecast future behavior."
+      domain: ["Measure"]
+      range: ["Behavior"]
+json_schema: |
+  {
+    "type": "object",
+    "properties": {
+      "nodes": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/Entity"
+        }
+      },
+      "edges": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/NaryTuple"
+        }
+      }
+    },
+    "required": ["nodes", "edges"],
+    "additionalProperties": false,
+    "$defs": {
+      "VICSTest_CoreConstructs": {
+        "type": "string",
+        "enum": ["vics-methodology", "populist-communication-style", "systematic-bias", "face-validity-test", "cooperative-overestimation"]
+      },
+      "VICSTest_PopulistTypes": {
+        "type": "string",
+        "enum": ["right-wing-populism", "left-wing-populism"]
+      },
+      "VICSTest_PopulistCharacteristics": {
+        "type": "string",
+        "enum": ["anti-establishment-rhetoric", "people-vs-elite-framing", "simplistic-messaging", "emotional-appeals", "underlying-meaning", "coded-language"]
+      },
+      "VICSTest_CaseStudyLeaders": {
+        "type": "string",
+        "enum": ["donald-trump", "boris-johnson", "narendra-modi"]
+      },
+      "VICSTest_ComparisonStandards": {
+        "type": "string",
+        "enum": ["norming-group"]
+      },
+      "VICSTest_AnalyticalMethods": {
+        "type": "string",
+        "enum": ["aggregate-analysis", "role-change-analysis"]
+      },
+      "VICSTest_MethodologicalApproaches": {
+        "type": "string",
+        "enum": ["computer-assisted-content-analysis"]
+      },
+      "VICSTest_MethodologicalTools": {
+        "type": "string",
+        "enum": ["profilerplus-software"]
+      },
+      "VICSTest_MeasurementIssues": {
+        "type": "string",
+        "enum": ["automated-coding-bias", "human-vs-machine-coding", "coding-reliability", "inter-coder-agreement"]
+      },
+      "VICSTest_PhilosophicalBeliefs": {
+        "type": "string",
+        "enum": ["p1-political-universe-nature", "p2-value-realization-prospects", "p3-political-future-predictability", "p4-historical-control", "p5-chance-role"]
+      },
+      "VICSTest_InstrumentalBeliefs": {
+        "type": "string",
+        "enum": ["i1-strategic-approach", "i2-tactical-pursuit", "i3-risk-orientation", "i4-timing-flexibility", "i5-means-utility"]
+      },
+      "VICSTest_VICSMeasures": {
+        "type": "string",
+        "enum": ["cooperative-index", "conflictual-index", "complexity-index", "power-index", "distrust-index"]
+      },
+      "VICSTest_VICSTechnical": {
+        "type": "string",
+        "enum": ["verb-coding-categories", "positive-affect-verbs", "negative-affect-verbs", "neutral-affect-verbs", "intensity-scaling", "transitive-verb-identification", "subject-object-coding", "domain-specification", "temporal-coding"]
+      },
+      "VICSTest_DataCollection": {
+        "type": "string",
+        "enum": ["speech-sample-selection", "minimum-verb-threshold", "foreign-policy-content", "spontaneous-vs-prepared", "campaign-vs-governing"]
+      },
+      "VICSTest_ValidationMethods": {
+        "type": "string",
+        "enum": ["real-world-behavior-validation", "expert-assessment-validation", "historical-case-validation", "cross-leader-comparison", "temporal-stability-validation"]
+      },
+      "VICSTest_BiasSources": {
+        "type": "string",
+        "enum": ["communication-style-bias", "linguistic-complexity-bias", "cultural-context-bias", "translation-bias", "genre-specific-bias", "audience-targeting-bias"]
+      },
+      "VICSTest_EmpiricalFindings": {
+        "type": "string",
+        "enum": ["cooperative-overrepresentation", "behavioral-contradiction", "role-transition-effects", "populist-clustering", "norming-group-deviation"]
+      },
+      "VICSTest_ErrorTypes": {
+        "type": "string",
+        "enum": ["false-positive-cooperation", "false-negative-conflict", "type-i-error", "type-ii-error"]
+      },
+      "VICSTest_PsychometricProperties": {
+        "type": "string",
+        "enum": ["measurement-validity", "construct-validity", "criterion-validity", "content-validity", "test-retest-reliability", "internal-consistency"]
+      },
+      "VICSTest_ResearchMethods": {
+        "type": "string",
+        "enum": ["political-rhetoric-analysis", "quantitative-text-analysis", "computational-linguistics", "foreign-policy-analysis", "comparative-case-study"]
+      },
+      "VICSTest_MethodologicalConsiderations": {
+        "type": "string",
+        "enum": ["leader-specific-effects", "contextual-factors", "sampling-strategy", "generalizability-limits", "alternative-explanation"]
+      },
+      "VICSTest_CaseSpecific": {
+        "type": "string",
+        "enum": ["trump-foreign-policy", "johnson-brexit-strategy", "modi-international-relations"]
+      },
+      "VICSTest_TheoreticalConcepts": {
+        "type": "string",
+        "enum": ["populist-foreign-policy", "elite-vs-populist-comparison", "methodological-nationalism", "automated-analysis-limitations", "human-interpretation-superiority"]
+      },
+      "VICSTest_Relationships": {
+        "type": "string",
+        "enum": ["causes-bias", "validates-against", "contradicts", "correlates-with", "predicts"]
+      }
+    }
+  }

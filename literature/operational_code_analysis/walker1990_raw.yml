@@ -1,0 +1,536 @@
+citation: "Walker, Stephen G. \"The Evolution of Operational Code Analysis.\" Political Psychology 11, no. 2 (1990): 403-418."
+annotation: "Traces historical development of operational code analysis from Nathan Leites's original Bolshevik study through Alexander George's cognitive refinements to contemporary efforts integrating cognitive and motivational psychology dimensions in foreign policy decision-making research."
+model_type: "property_graph"
+rationale: "The framework represents a network of interconnected concepts including decision-makers, belief systems, cognitive processes, behavioral outcomes, and methodological approaches, with complex relationships between philosophical beliefs, instrumental beliefs, and foreign policy behaviors."
+schema_blueprint:
+  title: "Evolution of Operational Code Analysis Schema"
+  description: "Models the historical and theoretical development of operational code analysis from its origins through contemporary psychological integrations."
+  root_properties:
+    nodes:
+      description: "Historical figures, theoretical concepts, methodological approaches, belief dimensions, and analytical frameworks."
+      item_type: "Entity"
+    edges:
+      description: "The developmental relationships, theoretical connections, and methodological linkages in operational code evolution."
+      item_type: "NaryTuple"
+  definitions:
+    - name: "operational-code"
+      category: "core-construct"
+      description: "A set of general beliefs about the nature of politics and political action that guide decision-making."
+      domain: ["Actor"]
+    - name: "belief-system"
+      category: "core-construct"
+      description: "Organized network of beliefs that shape interpretation and response to political situations."
+      domain: ["Actor"]
+    - name: "political-belief-system"
+      category: "core-construct"
+      description: "Subset of beliefs specifically related to political phenomena and processes."
+      domain: ["Actor"]
+      subTypeOf: "belief-system"
+    - name: "cognitive-heuristics"
+      category: "core-construct"
+      description: "Mental shortcuts and rules of thumb used in political decision-making."
+      domain: ["Actor"]
+    - name: "characterological-personality-traits"
+      category: "core-construct"
+      description: "Enduring personality characteristics that influence political behavior."
+      domain: ["Actor"]
+    - name: "bounded-rationality"
+      category: "core-construct"
+      description: "Limited cognitive capacity for processing information and making decisions."
+      domain: ["Actor"]
+    - name: "cognitive-consistency"
+      category: "core-construct"
+      description: "Tendency to maintain coherent and compatible beliefs within a belief system."
+      domain: ["Actor"]
+    - name: "psychodynamic-origins"
+      category: "core-construct"
+      description: "Unconscious psychological sources of political beliefs and behaviors."
+      domain: ["Actor"]
+    - name: "behavioral-consequences"
+      category: "core-construct"
+      description: "Observable political actions resulting from operational code beliefs."
+      domain: ["Actor"]
+    - name: "nathan-leites"
+      category: "historical-figure"
+      description: "Original developer of operational code analysis through study of Bolshevik behavior."
+    - name: "alexander-george"
+      category: "historical-figure"
+      description: "Researcher who refined operational code analysis with cognitive framework."
+    - name: "ole-holsti"
+      category: "historical-figure"
+      description: "Researcher who developed typological classification of operational codes."
+    - name: "robert-merton"
+      category: "historical-figure"
+      description: "Sociologist whose middle-range theory concept influenced operational code development."
+    - name: "philip-converse"
+      category: "historical-figure"
+      description: "Political scientist who studied belief systems and constraint among mass publics."
+    - name: "herbert-simon"
+      category: "historical-figure"
+      description: "Developer of bounded rationality concept applied to operational code analysis."
+    - name: "qualitative-content-analysis"
+      category: "methodological-approach"
+      description: "Interpretive analysis of textual materials for operational code indicators."
+    - name: "quantitative-content-analysis"
+      category: "methodological-approach"
+      description: "Systematic numerical analysis of textual materials for operational code measures."
+    - name: "congruence-procedure"
+      category: "methodological-approach"
+      description: "Method for testing correspondence between predicted and observed behavior."
+    - name: "process-tracing-procedure"
+      category: "methodological-approach"
+      description: "Method for examining decision-making processes and causal sequences."
+    - name: "evaluative-assertion-analysis"
+      category: "methodological-approach"
+      description: "Technique for analyzing evaluative statements in political discourse."
+    - name: "cognitive-consistency-theory"
+      category: "methodological-approach"
+      description: "Theoretical framework for understanding belief system coherence."
+    - name: "motivational-psychology-integration"
+      category: "methodological-approach"
+      description: "Incorporation of motivational factors into cognitive operational code analysis."
+    - name: "essential-nature-political-life"
+      category: "philosophical-belief-dimension"
+      description: "Fundamental view of whether politics is inherently harmonious or conflictual."
+      domain: ["Actor"]
+    - name: "harmony-vs-conflict-orientation"
+      category: "philosophical-belief-dimension"
+      description: "Basic orientation toward cooperation versus competition in politics."
+      domain: ["Actor"]
+    - name: "fundamental-character-opponents"
+      category: "philosophical-belief-dimension"
+      description: "Core beliefs about the nature and motivations of political adversaries."
+      domain: ["Actor"]
+    - name: "prospects-value-realization"
+      category: "philosophical-belief-dimension"
+      description: "Expectations about the likelihood of achieving political goals."
+      domain: ["Actor"]
+    - name: "optimism-vs-pessimism"
+      category: "philosophical-belief-dimension"
+      description: "General orientation toward positive versus negative political outcomes."
+      domain: ["Actor"]
+    - name: "political-future-predictability"
+      category: "philosophical-belief-dimension"
+      description: "Beliefs about the extent to which political events can be forecast."
+      domain: ["Actor"]
+    - name: "control-historical-development"
+      category: "philosophical-belief-dimension"
+      description: "Beliefs about the ability to influence the course of historical events."
+      domain: ["Actor"]
+    - name: "role-of-chance"
+      category: "philosophical-belief-dimension"
+      description: "Beliefs about the importance of random factors in political outcomes."
+      domain: ["Actor"]
+    - name: "goal-selection-approach"
+      category: "instrumental-belief-dimension"
+      description: "Preferred methods for choosing political objectives."
+      domain: ["Actor"]
+    - name: "effectiveness-goal-pursuit"
+      category: "instrumental-belief-dimension"
+      description: "Beliefs about how to most effectively pursue political objectives."
+      domain: ["Actor"]
+    - name: "risk-calculation-control"
+      category: "instrumental-belief-dimension"
+      description: "Approaches to assessing and managing political risks."
+      domain: ["Actor"]
+    - name: "timing-political-action"
+      category: "instrumental-belief-dimension"
+      description: "Beliefs about optimal timing for different types of political action."
+      domain: ["Actor"]
+    - name: "utility-different-means"
+      category: "instrumental-belief-dimension"
+      description: "Evaluations of the effectiveness of various political tools and methods."
+      domain: ["Actor"]
+    - name: "type-a-harmony-human"
+      category: "holsti-typology"
+      description: "Belief type emphasizing harmony with conflict caused by human misunderstanding."
+    - name: "type-b-harmony-state"
+      category: "holsti-typology"
+      description: "Belief type emphasizing harmony with conflict caused by warlike states."
+    - name: "type-c-harmony-system"
+      category: "holsti-typology"
+      description: "Belief type emphasizing harmony with conflict caused by anarchical system."
+    - name: "type-d-conflict-human"
+      category: "holsti-typology"
+      description: "Belief type emphasizing permanent conflict due to human nature."
+    - name: "type-e-conflict-nationalism"
+      category: "holsti-typology"
+      description: "Belief type emphasizing permanent conflict due to nationalism."
+    - name: "type-f-conflict-anarchy"
+      category: "holsti-typology"
+      description: "Belief type emphasizing permanent conflict due to international anarchy."
+    - name: "type-def-combined"
+      category: "holsti-typology"
+      description: "Combined belief type encompassing multiple sources of permanent conflict."
+    - name: "human-nature-source"
+      category: "conflict-source"
+      description: "Attribution of conflict to inherent characteristics of human beings."
+    - name: "state-attributes-source"
+      category: "conflict-source"
+      description: "Attribution of conflict to characteristics of particular nation-states."
+    - name: "system-structure-source"
+      category: "conflict-source"
+      description: "Attribution of conflict to features of the international system."
+    - name: "human-misunderstanding"
+      category: "conflict-source"
+      description: "Belief that conflict results from communication failures and misperception."
+      subTypeOf: "human-nature-source"
+    - name: "warlike-states"
+      category: "conflict-source"
+      description: "Belief that conflict results from aggressive or militaristic nations."
+      subTypeOf: "state-attributes-source"
+    - name: "anarchical-system"
+      category: "conflict-source"
+      description: "Belief that conflict results from absence of supranational authority."
+      subTypeOf: "system-structure-source"
+    - name: "nationalism"
+      category: "conflict-source"
+      description: "Belief that conflict results from competing national loyalties and interests."
+      subTypeOf: "state-attributes-source"
+    - name: "international-anarchy"
+      category: "conflict-source"
+      description: "Belief that conflict results from lack of world government."
+      subTypeOf: "system-structure-source"
+    - name: "harmonious-universe"
+      category: "political-universe-type"
+      description: "View of politics as fundamentally cooperative with temporary conflicts."
+    - name: "conflictual-universe"
+      category: "political-universe-type"
+      description: "View of politics as fundamentally competitive with permanent conflicts."
+    - name: "power-disequilibria"
+      category: "political-universe-characteristic"
+      description: "Imbalances in power distribution that affect political stability."
+    - name: "conflict-spiral"
+      category: "political-universe-characteristic"
+      description: "Escalatory dynamics where conflicts intensify over time."
+    - name: "escalation-dynamics"
+      category: "political-universe-characteristic"
+      description: "Processes by which political conflicts increase in intensity."
+    - name: "deterrence-mechanisms"
+      category: "political-universe-characteristic"
+      description: "Systems for preventing conflict through threat of retaliation."
+    - name: "information-processing-tasks"
+      category: "decision-making-process"
+      description: "Cognitive activities involved in analyzing political information."
+      domain: ["Actor"]
+    - name: "situation-definition"
+      category: "decision-making-process"
+      description: "Process of interpreting and characterizing political situations."
+      domain: ["Actor"]
+    - name: "option-identification"
+      category: "decision-making-process"
+      description: "Process of recognizing available courses of action."
+      domain: ["Actor"]
+    - name: "alternative-evaluation"
+      category: "decision-making-process"
+      description: "Process of assessing the merits of different policy options."
+      domain: ["Actor"]
+    - name: "choice-selection"
+      category: "decision-making-process"
+      description: "Process of deciding among available alternatives."
+      domain: ["Actor"]
+    - name: "implementation-decisions"
+      category: "decision-making-process"
+      description: "Process of determining how to carry out chosen policies."
+      domain: ["Actor"]
+    - name: "reality-testing"
+      category: "decision-making-process"
+      description: "Process of checking beliefs against empirical evidence."
+      domain: ["Actor"]
+    - name: "perception"
+      category: "cognitive-process"
+      description: "Basic process of interpreting sensory and information inputs."
+      domain: ["Actor"]
+    - name: "misperception"
+      category: "cognitive-process"
+      description: "Systematic errors in interpreting political information."
+      domain: ["Actor"]
+    - name: "cognitive-biases"
+      category: "cognitive-process"
+      description: "Systematic deviations from rational information processing."
+      domain: ["Actor"]
+    - name: "motivated-biases"
+      category: "cognitive-process"
+      description: "Information processing errors driven by emotional or motivational factors."
+      domain: ["Actor"]
+    - name: "schematization"
+      category: "cognitive-process"
+      description: "Organization of information into coherent mental frameworks."
+      domain: ["Actor"]
+    - name: "dissonance-reduction"
+      category: "cognitive-process"
+      description: "Process of resolving inconsistencies between beliefs and evidence."
+      domain: ["Actor"]
+    - name: "ego-defense-mechanisms"
+      category: "cognitive-process"
+      description: "Unconscious processes that protect self-concept from threatening information."
+      domain: ["Actor"]
+    - name: "foreign-policy-strategies"
+      category: "behavioral-outcome"
+      description: "High-level approaches to achieving international objectives."
+      domain: ["Actor"]
+    - name: "foreign-policy-tactics"
+      category: "behavioral-outcome"
+      description: "Specific methods for implementing foreign policy strategies."
+      domain: ["Actor"]
+    - name: "bargaining-tactics"
+      category: "behavioral-outcome"
+      description: "Specific approaches used in international negotiations."
+      domain: ["Actor"]
+    - name: "choice-propensities"
+      category: "behavioral-outcome"
+      description: "Tendencies toward particular types of political decisions."
+      domain: ["Actor"]
+    - name: "strategic-behavior"
+      category: "behavioral-outcome"
+      description: "Long-term goal-oriented political actions."
+      domain: ["Actor"]
+    - name: "tactical-behavior"
+      category: "behavioral-outcome"
+      description: "Short-term instrumental political actions."
+      domain: ["Actor"]
+    - name: "crisis-behavior"
+      category: "behavioral-outcome"
+      description: "Political actions during high-stress emergency situations."
+      domain: ["Actor"]
+    - name: "negotiation-behavior"
+      category: "behavioral-outcome"
+      description: "Political actions during formal diplomatic negotiations."
+      domain: ["Actor"]
+    - name: "power-motivation"
+      category: "personality-dimension"
+      description: "Drive to influence and control others and events."
+      domain: ["Actor"]
+    - name: "affiliation-motivation"
+      category: "personality-dimension"
+      description: "Drive to establish and maintain positive relationships."
+      domain: ["Actor"]
+    - name: "achievement-motivation"
+      category: "personality-dimension"
+      description: "Drive to accomplish goals and demonstrate competence."
+      domain: ["Actor"]
+    - name: "ego-structure"
+      category: "personality-dimension"
+      description: "Organization of conscious self-concept and identity."
+      domain: ["Actor"]
+    - name: "ego-defensive-functions"
+      category: "personality-dimension"
+      description: "Unconscious processes that protect psychological well-being."
+      domain: ["Actor"]
+    - name: "unconscious-dimensions"
+      category: "personality-dimension"
+      description: "Non-conscious psychological factors influencing behavior."
+      domain: ["Actor"]
+    - name: "latent-motives"
+      category: "personality-dimension"
+      description: "Hidden or unconscious drives affecting political behavior."
+      domain: ["Actor"]
+    - name: "case-study-methodology"
+      category: "analytical-technique"
+      description: "In-depth examination of individual cases for theory development."
+    - name: "comparative-analysis"
+      category: "analytical-technique"
+      description: "Systematic comparison across multiple cases or contexts."
+    - name: "typological-analysis"
+      category: "analytical-technique"
+      description: "Classification of cases into distinct categories or types."
+    - name: "coding-categories"
+      category: "analytical-technique"
+      description: "Systematic schemes for categorizing content analysis data."
+    - name: "reliability-assessment"
+      category: "analytical-technique"
+      description: "Evaluation of consistency and stability of measurements."
+    - name: "validity-assessment"
+      category: "analytical-technique"
+      description: "Evaluation of whether measures capture their intended constructs."
+    - name: "rational-actor-paradigm"
+      category: "theoretical-paradigm"
+      description: "Model of decision-making based on utility maximization."
+    - name: "classical-rational-actor"
+      category: "theoretical-paradigm"
+      description: "Traditional economic model of rational choice."
+      subTypeOf: "rational-actor-paradigm"
+    - name: "psychological-variant"
+      category: "theoretical-paradigm"
+      description: "Modified rational actor model incorporating psychological factors."
+      subTypeOf: "rational-actor-paradigm"
+    - name: "cognitive-revolution"
+      category: "theoretical-paradigm"
+      description: "Shift toward cognitive approaches in psychological research."
+    - name: "middle-range-theories"
+      category: "theoretical-paradigm"
+      description: "Theories of intermediate scope between grand theory and empiricism."
+    - name: "progressive-problem-shift"
+      category: "theoretical-paradigm"
+      description: "Evolution of research programs toward greater explanatory power."
+    - name: "bolshevik-operational-code"
+      category: "research-application"
+      description: "Original study of Soviet Communist decision-making patterns."
+    - name: "american-foreign-policymakers"
+      category: "research-application"
+      description: "Studies of U.S. government officials' belief systems."
+    - name: "soviet-decision-making"
+      category: "research-application"
+      description: "Analysis of USSR government decision processes."
+    - name: "presidential-bargaining"
+      category: "research-application"
+      description: "Studies of U.S. presidential negotiation and influence tactics."
+    - name: "secretaries-of-state"
+      category: "research-application"
+      description: "Analysis of chief diplomatic officers' belief systems."
+    - name: "individual-leader-studies"
+      category: "research-application"
+      description: "In-depth analysis of specific political leaders."
+    - name: "comparative-foreign-policy"
+      category: "research-application"
+      description: "Cross-national comparison of foreign policy decision-making."
+    - name: "belief-behavior-linkages"
+      category: "methodological-challenge"
+      description: "Difficulty establishing causal connections between beliefs and actions."
+    - name: "empirical-validation"
+      category: "methodological-challenge"
+      description: "Challenge of testing theoretical predictions against evidence."
+    - name: "measurement-issues"
+      category: "methodological-challenge"
+      description: "Problems in quantifying and operationalizing operational code concepts."
+    - name: "intervening-variables"
+      category: "methodological-challenge"
+      description: "Additional factors that mediate relationships between beliefs and behavior."
+    - name: "self-schema-analysis"
+      category: "contemporary-development"
+      description: "Study of organized self-knowledge structures affecting political behavior."
+    - name: "self-scripts"
+      category: "contemporary-development"
+      description: "Behavioral sequences associated with self-concept in political contexts."
+    - name: "object-images-vs-self-images"
+      category: "contemporary-development"
+      description: "Distinction between perceptions of others and perceptions of self."
+    - name: "unconscious-wish-mediation"
+      category: "contemporary-development"
+      description: "Role of unconscious desires in shaping political beliefs and behavior."
+    - name: "defensive-vs-adaptive-behavior"
+      category: "contemporary-development"
+      description: "Distinction between ego-protective and reality-oriented political actions."
+    - name: "evolves-from"
+      category: "relationship"
+      description: "Historical development relationship between theoretical concepts."
+      domain: ["Concept"]
+      range: ["Concept"]
+    - name: "refines"
+      category: "relationship"
+      description: "Theoretical improvement or elaboration relationship."
+      domain: ["Theory"]
+      range: ["Theory"]
+    - name: "integrates-with"
+      category: "relationship"
+      description: "Theoretical synthesis or combination relationship."
+      domain: ["Theory"]
+      range: ["Theory"]
+    - name: "influences"
+      category: "relationship"
+      description: "Causal or shaping relationship between variables."
+      domain: ["Variable"]
+      range: ["Variable"]
+    - name: "guides"
+      category: "relationship"
+      description: "Directing or orienting relationship between beliefs and behavior."
+      domain: ["Belief"]
+      range: ["Behavior"]
+json_schema: |
+  {
+    "type": "object",
+    "properties": {
+      "nodes": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/Entity"
+        }
+      },
+      "edges": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/NaryTuple"
+        }
+      }
+    },
+    "required": ["nodes", "edges"],
+    "additionalProperties": false,
+    "$defs": {
+      "OpCodeEvol_CoreConstructs": {
+        "type": "string",
+        "enum": ["operational-code", "belief-system", "political-belief-system", "cognitive-heuristics", "characterological-personality-traits", "bounded-rationality", "cognitive-consistency", "psychodynamic-origins", "behavioral-consequences"]
+      },
+      "OpCodeEvol_HistoricalFigures": {
+        "type": "string",
+        "enum": ["nathan-leites", "alexander-george", "ole-holsti", "robert-merton", "philip-converse", "herbert-simon"]
+      },
+      "OpCodeEvol_MethodologicalApproaches": {
+        "type": "string",
+        "enum": ["qualitative-content-analysis", "quantitative-content-analysis", "congruence-procedure", "process-tracing-procedure", "evaluative-assertion-analysis", "cognitive-consistency-theory", "motivational-psychology-integration"]
+      },
+      "OpCodeEvol_PhilosophicalBeliefDimensions": {
+        "type": "string",
+        "enum": ["essential-nature-political-life", "harmony-vs-conflict-orientation", "fundamental-character-opponents", "prospects-value-realization", "optimism-vs-pessimism", "political-future-predictability", "control-historical-development", "role-of-chance"]
+      },
+      "OpCodeEvol_InstrumentalBeliefDimensions": {
+        "type": "string",
+        "enum": ["goal-selection-approach", "effectiveness-goal-pursuit", "risk-calculation-control", "timing-political-action", "utility-different-means"]
+      },
+      "OpCodeEvol_HolstiTypology": {
+        "type": "string",
+        "enum": ["type-a-harmony-human", "type-b-harmony-state", "type-c-harmony-system", "type-d-conflict-human", "type-e-conflict-nationalism", "type-f-conflict-anarchy", "type-def-combined"]
+      },
+      "OpCodeEvol_ConflictSources": {
+        "type": "string",
+        "enum": ["human-nature-source", "state-attributes-source", "system-structure-source", "human-misunderstanding", "warlike-states", "anarchical-system", "nationalism", "international-anarchy"]
+      },
+      "OpCodeEvol_PoliticalUniverseTypes": {
+        "type": "string",
+        "enum": ["harmonious-universe", "conflictual-universe"]
+      },
+      "OpCodeEvol_PoliticalUniverseCharacteristics": {
+        "type": "string",
+        "enum": ["power-disequilibria", "conflict-spiral", "escalation-dynamics", "deterrence-mechanisms"]
+      },
+      "OpCodeEvol_DecisionMakingProcesses": {
+        "type": "string",
+        "enum": ["information-processing-tasks", "situation-definition", "option-identification", "alternative-evaluation", "choice-selection", "implementation-decisions", "reality-testing"]
+      },
+      "OpCodeEvol_CognitiveProcesses": {
+        "type": "string",
+        "enum": ["perception", "misperception", "cognitive-biases", "motivated-biases", "schematization", "dissonance-reduction", "ego-defense-mechanisms"]
+      },
+      "OpCodeEvol_BehavioralOutcomes": {
+        "type": "string",
+        "enum": ["foreign-policy-strategies", "foreign-policy-tactics", "bargaining-tactics", "choice-propensities", "strategic-behavior", "tactical-behavior", "crisis-behavior", "negotiation-behavior"]
+      },
+      "OpCodeEvol_PersonalityDimensions": {
+        "type": "string",
+        "enum": ["power-motivation", "affiliation-motivation", "achievement-motivation", "ego-structure", "ego-defensive-functions", "unconscious-dimensions", "latent-motives"]
+      },
+      "OpCodeEvol_AnalyticalTechniques": {
+        "type": "string",
+        "enum": ["case-study-methodology", "comparative-analysis", "typological-analysis", "coding-categories", "reliability-assessment", "validity-assessment"]
+      },
+      "OpCodeEvol_TheoreticalParadigms": {
+        "type": "string",
+        "enum": ["rational-actor-paradigm", "classical-rational-actor", "psychological-variant", "cognitive-revolution", "middle-range-theories", "progressive-problem-shift"]
+      },
+      "OpCodeEvol_ResearchApplications": {
+        "type": "string",
+        "enum": ["bolshevik-operational-code", "american-foreign-policymakers", "soviet-decision-making", "presidential-bargaining", "secretaries-of-state", "individual-leader-studies", "comparative-foreign-policy"]
+      },
+      "OpCodeEvol_MethodologicalChallenges": {
+        "type": "string",
+        "enum": ["belief-behavior-linkages", "empirical-validation", "measurement-issues", "intervening-variables"]
+      },
+      "OpCodeEvol_ContemporaryDevelopments": {
+        "type": "string",
+        "enum": ["self-schema-analysis", "self-scripts", "object-images-vs-self-images", "unconscious-wish-mediation", "defensive-vs-adaptive-behavior"]
+      },
+      "OpCodeEvol_Relationships": {
+        "type": "string",
+        "enum": ["evolves-from", "refines", "integrates-with", "influences", "guides"]
+      }
+    }
+  }

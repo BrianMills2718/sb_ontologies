@@ -1,0 +1,1999 @@
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and
+Campaign/Narrative Impact
+Assessment Tool
+Addendum to the Final Report (Year 2) for the
+Laboratory for Analytic Sciences
+May 2022
+National Consortium for the Study of Terrorism and Responses to
+Terrorism
+A Department of Homeland Security Emeritus Center of Excellence
+Led by the University of Maryland
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development i
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+About This Report
+The authors of this draft report are Dr. Steve Sin, Director of Unconventional Weapons and Technology
+Division, Ms. Megan Rutter, Researcher, and Mr. Rhyner Washburn, Researcher, all of the National
+Consortium for the Study of Terrorism and Responses to Terrorism (START), University of Maryland.
+Questions about this report should be directed to Dr. Steve Sin at sinss@umd.edu or (301) 405-6656.
+This report is part of the National Consortium for the Study of Terrorism and Responses to Terrorism
+(START) project, “Developing Impact and Effectiveness Assessment Tool for Influence Operations,” led by
+Dr. Steve Sin.
+This research was supported by the Laboratory for Analytic Sciences (LAS), award number 2021115618.
+The views and conclusions contained in this document are those of the authors and should not be
+interpreted as necessarily representing the official policies, either expressed or implied, of LAS, the
+United States Government, the University of Maryland, or START.
+About START
+The National Consortium for the Study of Terrorism and Responses to Terrorism (START) is a university-
+based research, education and training center comprised of an international network of scholars
+committed to the scientific study of terrorism, responses to terrorism and related phenomena. Led by the
+University of Maryland, START is a Department of Homeland Security Emeritus Center of Excellence that
+is supported by multiple federal agencies and departments. START uses state-of-the-art theories,
+methods and data from the social and behavioral sciences to improve understanding of the origins,
+dynamics and effects of terrorism; the effectiveness and impacts of counterterrorism and CVE; and other
+matters of global and national security. For more information, visit www.start.umd.edu or contact START
+at infostart@umd.edu.
+Citations
+To cite this report, please use this format:
+Sin, Steve, Megan Rutter, and Rhyner Washburn. “Influence-to-Action Model and Campaign/Narrative
+Impact Assessment Tool.” Addendum to the Final Report (Year 2) for the Laboratory for Analytic
+Sciences. College Park, MD: START, May 2022.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model Development ii
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Contents
+Executive Summary .......................................................................................................................................................................... 1
+Introduction ........................................................................................................................................................................................ 3
+Survey #2 Design and Findings ................................................................................................................................................... 4
+Survey Design and Survey Sample Characteristics ......................................................................................................... 4
+Survey Design ............................................................................................................................................................................ 4
+Participant Qualifiers ............................................................................................................................................................. 5
+Participant Demographic Characteristics ...................................................................................................................... 6
+Participant Interaction with Information....................................................................................................................... 8
+Survey Analysis ...........................................................................................................................................................................12
+Narrative Variable Importance ........................................................................................................................................12
+Qualitative Five-point Likert Scale Results ..................................................................................................................15
+Narrative Variable Impact ..................................................................................................................................................18
+Survey Findings ...........................................................................................................................................................................23
+Influence-to-Action Campaign/Narrative Impact Assessment Tool ...........................................................................26
+Prototype Tool Development Process ................................................................................................................................26
+Prototype Tool Development Results .................................................................................................................................30
+Prototype Tool Testing and Results ....................................................................................................................................31
+Conclusions and Recommendations ........................................................................................................................................32
+Appendix A: General Population Survey Questions ...........................................................................................................33
+Appendix B: Review of the Finalized Influence-to-Action Model (I-AM) ..................................................................45
+Finalized Influence-to-Action Chain Template (I-ACT) ................................... Error! Bookmark not defined.
+Appendix C: Blank Influence-to-Action Campaign/Narrative Impact Assessment Tool .....................................46
+Appendix D: Sample of Tool Artifacts and Test Results ...................................................................................................47
+Appendix E: Tool Instructions ....................................................................................................................................................49
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 1
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Executive Summary
+Influence operations, or influence campaigns,1 have been a tool for warfare and strategic
+geopolitical competition for governments as long as there has been recorded history.
+Today, we see firsthand the Chinese government’s efforts to spread disinformation around
+the globe about the origin of the SARS-CoV-2 virus, as well as Russia’s efforts to influence
+the courses of American social and political futures. Geiger found that mis- and dis-
+information have become an increasingly effective tool for nefarious actors to influence
+elections, policy, and public sentiment in the United States.2 In other words, influence
+operations are an effective and low-cost means for our strategic adversaries and
+competitors to advance their goals and agendas.
+Given U.S. adversaries’ views of influence operations, and the immense implications and
+potential consequences of them, there is an urgent need to advance the state of the art in
+measuring and assessing the impact and effectiveness of hostile influence operations. The
+Unconventional Weapons and Technology Division (UWT) of the National Consortium for
+the Study of Terrorism and Responses to Terrorism (START) developed the Influence-to-
+Action Model (I-AM) and the prototype Influence-to-Action Campaign/Narrative Impact
+Assessment Tool (I-AM Assessment Tool) in an effort to begin to address this issue.
+Theoretically grounded in the social movement literature – specifically in social movement
+diffusion and the role of threat in social movements – I-AM draws from a variety of
+psychological, sociological, marketing, and communications literature, and is designed to
+assess the relative likelihood of impact an influence operation would have on the target
+audience compared to the likelihood of impact from other influence operations. Some of
+the theories and hypotheses that we drew upon to develop the I-AM include cognitive
+dissonance, choice certainty, signal detection, dual-process, mere-exposure, and primacy
+and recency effects.
+To validate our model, we conducted case studies of one historical and two present-day
+Russian and Chinese foreign influence operations. The three case studies were chosen to
+test I-AM against large-scale, potentially state-sponsored influence operations in different
+time periods and of differing state origins to discern if the variables were applicable across
+time and space. All three cases were successful in some aspect of influencing either pre-
+existing communities or propagating messaging into mainstream media; however, all three
+held significant differences. Applying I-AM to these cases, we were able to successfully
+analyze all three cases, demonstrating I-AM’s flexibility.
+1 The RAND Corporation defines influence operations, also known as influence campaigns, as “the collection of tactical
+information about an adversary as well as the dissemination of propaganda in pursuit of a competitive advantage over an
+opponent.”
+2 Geiger, Abigail W. 2019. “Key Findings about the Online News Landscape in America.” Pew Research Center, September.
+https://www.pewresearch.org/fact-tank/2019/09/11/key-findings-about-the-online-news-landscape-in-america/.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 2
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Upon completion of the case studies, we fielded two surveys targeting the adult U.S. general
+population sample. Through these surveys, we were able to obtain weights associated with
+each variable contained in the I-AM. Using these variable weights, the I-AM Assessment Tool
+is able to calculate the relative impact an artifact (e.g., an article, a meme, a tweet, etc.) could
+potentially have on the U.S. general population compared to other artifacts being examined.
+As a prototype, the I-AM Assessment Tool currently employs a High-Medium-Low
+assessment metric to assess an artifact’s potential impact on the U.S. general population.
+While the current assessment metric does provide the end users information needed to
+make decisions and/or recommend future course(s) of action, end users would benefit much
+with development and incorporation of a more nuanced and granular assessment metric in
+the future iteration of the I-AM Assessment Tool.
+Nevertheless, even as a prototype, the I-AM Assessment Tool provides the end users a
+systematic methodology that one can use to analyze artifacts collected from across multiple
+media types and multiple platforms. This systematic methodology will allow the end users
+to conduct consistent analysis of foreign influence operations materials regardless of the
+“influencer” and their modes of delivery.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 3
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Introduction
+Influence operations, or influence campaigns,3 have been a tool for warfare and strategic geopolitical
+competition for governments as long as there has been recorded history. Today, we see firsthand the
+Chinese government’s efforts to spread disinformation around the globe about the origin of the SARS-
+CoV-2 virus, as well as Russia’s efforts to influence the courses of American social and political futures.
+Geiger found that mis- and dis-information have become an increasingly effective tool for nefarious
+actors to influence elections, policy, and public sentiment in the United States.4 In other words, influence
+operations are an effective and low-cost means for our strategic adversaries and competitors to advance
+their goals and agendas.
+Given U.S. adversaries’ views of influence operations, and the immense implications and potential
+consequences of them, there is an urgent need to advance the state of the art in measuring and assessing
+the impact and effectiveness of hostile influence operations. The Unconventional Weapons and
+Technology Division (UWT) of the National Consortium for the Study of Terrorism and Responses to
+Terrorism (START) developed the Influence-to-Action Model (I-AM) and the prototype Influence-to-Action
+Campaign/Narrative Impact Assessment Tool (I-AM Assessment Tool) in an effort to begin to address this
+issue.
+This report provides detailed descriptions of the following activities carried out during the sunsetting
+period of this research:
+1. Survey #2 design and sample characteristics
+2. Survey#2 results analyses
+3. Survey#2 findings
+4. Prototype I-AM Assessment Tool development process
+5. Prototype I-AM Assessment Tool development results
+6. Prototype I-Am Assessment Tool tests and results
+This report concludes with an overall conclusion for the project and recommendations for potential
+future directions.
+3 The RAND Corporation defines influence operations, also known as influence campaigns, as “the collection of tactical information about an
+adversary as well as the dissemination of propaganda in pursuit of a competitive advantage over an opponent.”
+4 Geiger, Abigail W. 2019. “Key Findings about the Online News Landscape in America.” Pew Research Center, September.
+https://www.pewresearch.org/fact-tank/2019/09/11/key-findings-about-the-online-news-landscape-in-america/.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 4
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Survey #2 Design and Findings
+To further refine Influence-to-Action Model, and to ascertain weights for each of the variables contained in
+the model, START designed and fielded a survey #2 for the U.S. general population. This section of the
+report describes the survey design, sample characteristics, and findings.
+Survey Design and Survey Sample Characteristics
+Survey Design
+The goal of this survey was to refine the Influence-to-Action Model; therefore, we chose the outcome
+variables to be the same 11 narrative variables that the Model utilizes to assess the narrative’s impact on
+the target audience. These 11 narrative variables are grouped into two categories – individual (internal)
+and societal (structural) level variables. Harkening back to the Model’s grounding in the social movement
+theory, narrative variables relevant to threats and identities are conceptualized as threats described in
+political process theory as individual (internal) level variables. On the other hand, narrative variables
+relevant to opportunities are conceptualized as societal (structural) level variables in the political
+process theory perspective. Table 1, below, provides the full list of the narrative variables used as the
+outcome variables for this survey:
+Variable Name Variable Short Description
+Individual (Internal) Level Variables
+Emotional Appeal The message either explicitly or implicitly includes an attempt to
+appeal to the emotions of the target audience. For example, a
+nation-state, in order to entice a specific ethnic diaspora living in
+the United States, frames the message in the “perspective” of a
+member of that ethnic diaspora and tells the hardship of living in
+the United States that most members of the diaspora can identify
+with.
+Threats to Identity The message either explicitly or implicitly identifies threat(s) to the
+commonly perceived/accepted identity of the target audience. For
+example, the message clearly identifies that people with certain
+ideologies in the United States are not approving of people of
+certain ethnicity.
+Threats to Culture (Way of
+Life)
+The message either explicitly or implicitly identifies threat(s) to the
+commonly perceived/accepted culture of the target audience. For
+example, the message clearly identifies that people with certain
+ideologies in the United States are not approving of people living in
+a diaspora, who are not assimilating to the “American culture.”
+Identity Affirmation The message either explicitly or implicitly conveys that the target
+audience is of a certain identity (that aligns with the reader’s
+identity), and that you should be proud of your identity.
+Victim Affirmation The message either explicitly or implicitly conveys that the target
+audience is being victimized due to an aspect of your identity, social
+status, economic status, race, ethnicity, etc. For example, the
+message implies that people who meet certain criteria are not able
+to advance further in the society because another group within
+society (e.g., another social class) is systematically placing barriers
+to prevent the advancement of those people.
+Victimization The message either explicitly or implicitly conveys there is a need
+to “right the wrong” or “fight against injustice”; therefore, your
+actions against those who have made you a victim are justified.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 5
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Variable Name Variable Short Description
+Societal (Structural) Level Variables
+Persistent and Increasing
+Threats
+(Things are getting out of
+hand)
+The message either explicitly or implicitly conveys persistent and
+worsening conditions if something is not done to reverse the
+course. For example, messaging about potential worsening of
+COVID cases and situation around the holidays.
+Clear Alternative Future
+(World will be better by doing
+something about it)
+The message either explicitly or implicitly identifies that by taking
+action, there is an alternative future where threats against the
+target audience will diminish or even be eliminated.
+Purported Lack of Response
+(Nothing is being done about
+it)
+The message either explicitly or implicitly identifies that no one is
+doing anything to stop and/or reverse the threat against the target
+audience.
+Clearly Identified In-/Out-
+Group
+(It is the right thing to do for
+the “team”)
+The message either explicitly or implicitly identifies there is an in-
+group (the one that the target audience belongs to) and (an) out-
+group(s), and that one needs to take action because “it is the right
+thing to do for the ‘team’.”
+Social Validation
+(Increases my reputation)
+The message explicitly or implicitly states doing something about
+the identified injustice is correct, justified, and/or legitimate. The
+message may also imply that “everyone is doing it,” and that those
+who do are “in the right” and will be “recognized” for doing so.
+Table 1: Influence-to-Action Model Variables used as Survey Outcome Variables
+For the survey, we utilized two different approaches to determine which variable(s) is/are seen as the
+most important variable(s) for people when they decide whether to act based on information they
+receive (i.e., the type of message the narrative conveys, or more accurately, the type of message the
+participants perceive the narrative conveys).5 First, we asked the survey participants to arrange the two
+categories of variables in the order of importance to them, resulting in each participant producing two
+ordered list of variables – one for the individual level variables and another for the societal level
+variables. Once the participants produced two ordered list of variables, we had the participants conduct
+pairwise comparisons of their top three choices from each list utilizing the contingent valuation method.
+Through these procedures, we were able to ascertain which narrative variables are self-identified to be
+relatively more important compared to other narrative variables.
+For our second approach, we asked the participants to consider the 11 narrative variables independently
+of each other6 and asked them to utilize a five-point Likert scale that ranged from “strongly disagree” to
+“strongly agree” to answer the following prompt: “I will definitely donate my time and/or money to a
+cause or movement if the messaging [insert a phrase containing one narrative variable]7.” Through this
+procedure we were able to ascertain the impact of each narrative variable on the target audience. We will
+present our findings from these two approaches in the Survey Findings section below.
+Participant Qualifiers
+For this survey, we collected data from 3,049 American adults. To accurately represent the U.S. general
+population, we used age, gender, location of residence (according to the U.S. Census regions), and race as
+5 This allowed us to address the literature’s shortfall and refine our Influence-to-Action Model by determining which narrative
+variables will increase the target audience’s likelihood of action based on their self-identified importance of these variables.
+6 To ensure the participants considered each narrative variables independently, we showed the participants one question at a time with
+one narrative variable listed per question.
+7 For example, the prompt for emotional appeal would read, “I will definitely donate my time and/or money to a cause or movement if
+the messaging makes an emotional appeal to me.”
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 6
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+qualifiers to participate in the survey. For our sample, 1,017 (33%) of the respondents were ages 18–34,
+while 964 (32%) were ages 35–54, and 1,068 (35%) were 55+ years of age. For gender, 1,591 (52%) of
+the participants were female, 1,429 (47%) were male, and 29 (1%) were non-binary/third gender. For
+location of residence, 610 (20%) of the participants reside in the Northeast region of the United States,
+while 1,220 (40%) reside in the South, 610 (20%) reside in the Midwest, and 607 (20%) reside in the
+West. For Race, 1,984 (65%) of the participants identified themselves as non-Hispanic white, 366 (12%)
+as black, 366 (12%) as Hispanic/Latinx, and 333 (11%) as other8. Table 2, below, provides a detailed
+breakdown of the survey participant demographics:
+U.S. General Population Sample (n=3,049)
+Age 18 – 34: 33% 35 – 54: 32% 55+: 35%
+Gender Female: 52% Male: 47% Non-binary: 1%
+Residence (U.S.
+Census Regions) Northeast: 20% South: 40% Midwest: 20% West: 20%
+Race White (non-
+Hispanic): 65% Black: 12% Hispanic/Latinx:
+12% Other: 11%
+Table 2: Survey Demographic Characteristics
+Participant Demographic Characteristics
+The survey also captured several other demographic characteristics of the participants in addition to
+those mentioned above in the qualifying characteristics. These demographic characteristics included
+education level, employment status, marital status, past financial difficulties, religious inclination,
+ideological inclination, and identity fusion index.
+For education level, 1,060 (35%) of the participants hold at least a bachelor’s degree while 1,989 (65%)
+do not hold a college degree. For Employment Status, 1,365 (45%) of the participants are employed full-
+time while 317 (10%) are employed part-time, and 1,367 (45%) are unemployed, full-time student,
+and/or retired. For marital status, 1,440 (47%) of the participants are married or in a domestic
+relationship while 1,609 (53%) are not married. For financial difficulties, 478 (16%) of the participants
+stated they have never experienced financial difficulties throughout their lives while 2,571 (84%) stated
+they have experienced financial difficulties in their lives. When asked about their religious inclination,
+1,342 (44%) responded that they are religious while 1,707 (56%) responded that they are not religious.
+Additionally, 847 (28%) of the participants identified themselves as being liberal while 1,257 (41%)
+identified themselves as moderate or middle of the road, and 945 (31%) identified themselves as
+conservative. Finally, when asked to identify the image that best represents the way they perceive their
+connection with groups they identify with (identity fusion index, see Figure 1 below), most of the
+participants (774 – 25%) identified themselves as category “C”. 575 participants (19%) identified
+themselves as category “A”; 511 participants (17%) identified themselves as category “B”; 580 (19%)
+identified themselves as category “D”; and 604 (20%) identified themselves as category “E”.
+8 Other included 1.5% Native American; 5% Asian/Pacific Islander; 4% mixed; and 0.5% other.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 7
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Figure 1: Identity Fusion Index Illustration9
+Figure 2 and Figure 3 , both below, provide illustrations of the survey participants’ demographic
+characteristics:
+Figure 2: Survey Participants’ Demographic Characteristics: Education, Marital Status, Financial Difficulties,
+and Employment Status10
+9 Jimenez, Juan. “About the Dynamic Identity Fusion Index (DIFI).” https://www2.uned.es/pspp/measures/difi/index.htm.
+10 Margin of Error for all figures in this paper is +/- 2% at 95% Confidence Interval unless otherwise noted.
+65%
+53%
+84%
+45%
+35%
+47%
+16%
+10%
+45%
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+College Degree Married Experienced Financial
+Difficulties
+Employment
+No Yes Part-Time Full-Time
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 8
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Figure 3: Survey Sample Demographic Characteristics: Religious Inclination, Ideological Inclination, and Identity
+Fusion Index
+Participant Interaction with Information
+When asked which medium the participants use the most to access the news, the highest percentage of
+the participants (38%) responded they access the news via the television. The Internet, social media
+posts from their personal networks, and social media posts from a news organization (30%, 13%, and 8%
+respectively) were selected as the next three types of mediums the participants use the most to access
+the news. Figure 4, below, provides full responses of the participants regarding the medium type they use
+the most to access the news:
+Figure 4: Medium MOST used to Access the News
+We also asked about the medium the participants use the most to access information in general. For this
+question, the highest percentage of the participants (38%) responded they use the Internet the most to
+56%
+44%
+41%
+31%
+28%
+17%
+19%
+25%
+19%
+20%
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+Religious Ideological Inclination Identity Fusion Index
+No Yes Moderate Conservative Liberal A B C D E
+38%
+3%
+3%
+31%
+13%
+8%
+5%
+0% 5% 10% 15% 20% 25% 30% 35% 40%
+Television
+Print
+Radio or Podcast
+Internet
+Social Media
+(Personal Network)
+Social Media
+(News Organization)
+Word of Mouth
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 9
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+access information in general, followed by television (33%), and by social media posts in their person
+networks. Figure 5, below, provides full responses of the participants regarding the medium type they
+use the most to access information in general:
+Figure 5: Medium MOST used to Access Information in General
+As for how trustworthy the participants felt about the information sources, with 0 being not trustworthy
+at all and 10 being completely trustworthy, the participants chose local television stations as being most
+trustworthy than any other information sources. Additionally, the participants chose social media (both
+social media sources from official media outlets and personal networks) as being least trustworthy.
+Finally, the participants seemed to be ambivalent about most information sources listed, with the
+trustworthy scores averaging between 5.09 and 5.56. Figure 6, below, provides an illustration of the
+participants’ average trustworthy ratings of each information source:
+33%
+3%
+3%
+38%
+14%
+4%
+4%
+0% 5% 10% 15% 20% 25% 30% 35% 40%
+Television
+Print
+Radio or Podcast
+Internet
+Social Media
+(Personal Network)
+Social Media
+(News Organization)
+Word of Mouth
+5.56
+6.11
+5.09
+5.46
+5.35
+5.38
+5.17
+4.55
+4.77
+5.39
+0 1 2 3 4 5 6
+Television
+(National/International)
+Television
+(Local)
+Print
+(National/International)
+Print
+(Local)
+Internet
+(National/International)
+Inernet
+(Local)
+Radio or Podcast
+Social Media Posts
+(Personal Networks)
+Social Media Posts
+(Official Media Outlets)
+Word of Mouth
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 10
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Figure 6: Average Trustworthiness by Information Source Type
+Since we were interested in whether an individual would act based on the information that he/she/they
+receives, we asked the participants what they would do if they came across information that is of interest
+to them. Approximately 68%, which was the highest percentage, of the participants responded they
+would “Like” that particular post and/or article. The next highest response was that they would post a
+comment on the said post and/or article (approximately 55%). Approximately equal percentages of
+participants said they would share the information through either public or private forums, share posts
+privates via a messaging service, or discuss posts with people offline. Finally, approximately 15% of the
+participants (lowest percentage) answered they would do nothing. Figure 7, below, provides an
+illustration of the participants’ responses to the question, “What do you do when you come across
+information that is interesting to you or that you like? (Select all that apply)”:
+Figure 7: Responses to "What do you do when you come across information that is interesting to you or that you like? (Select
+all that apply)"
+As for the methods used most often to share information, if one is to share it, approximately 33% of the
+participants responded that they share information most often using a social media platform.
+Additionally, approximately 26% of the participants responded that they share information most often
+through word of mouth. Furthermore, approximately 16% responded they use Internet chat most often
+to share information while approximately 10% said they use email most often as the method of sharing
+information. Finally, approximately 13% said they never share, and approximately 2% said they use print
+media most often for information sharing. Figure 8 , below, provides an illustration of the participants’
+responses to the question, “What source do you use MOST OFTEN to share or forward news or
+information?”:
+15%
+16%
+35%
+38%
+37%
+55%
+68%
+0% 10% 20% 30% 40% 50% 60% 70%
+Do Nothing
+Create Original Content
+Discuss Posts with People Offline
+Share Posts Privately via Messaging Service
+Share Posts Publically on Social Media Site or Forums
+(e.g., Reddit)
+Comment on Posts
+Like Posts
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 11
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Figure 8: Responses to " What source do you use MOST OFTEN to share or forward news or information?"
+When asked whether the participants have ever been exposed to what he/she/they believe to be mis-
+and/or dis-information, overwhelming majority of the participants (approximately 80%) responded that
+they have been exposed. Approximately 11% of the participants responded they have not been exposed
+to mis- and/or disinformation, and approximately 9% of the participants responded that they do not
+know whether they have been exposed. Figure 9, below, provides an illustration of the participants’
+responses to whether or not they believe they have been exposed to mis-/dis-information:
+Figure 9: Responses to "Have you ever been exposed to what you believe to be mis- and/or dis-information?"
+13%
+26%
+33%
+10%
+16%
+2%
+0% 5% 10% 15% 20% 25% 30% 35%
+I Do Not Share
+Word of Mouth
+Social Media
+Email
+Internet Chat
+Print
+9%
+11%
+80%
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90%
+Do Not Know
+No
+Yes
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 12
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Survey Analysis
+As stated above, given the goal of this survey was to refine our Influence-to-Action Model, we chose the
+outcome variables to be the same 11 narrative variables that the Model utilizes to assess the narrative’s
+impact on the target audience. These 11 narrative variables are grouped into two categories – individual
+(internal) and societal (structural) level variables (See Table 1 above for a list of variables). Utilizing two
+different approaches in the survey, we were able to ascertain the narrative variables deemed important
+by the American public as well as the impact each narrative variable has on the target audience. We
+present our detailed survey findings in this section.
+Narrative Variable Importance
+For determining the narrative variables deemed important by the American public, Threat to culture /
+way of life, Identity affirmation, and Victimization were within the margin of error11 of each other for
+being the most important narrative variable within the individual level variable category. For the societal
+level variables, Clear alternative future (World would be better) and Clearly identified in-/out-group (It is
+the right thing to do for the “team”) were within the margin of error of each other for being the most
+important narrative variable. Figure 10, below, provides an illustration of the overall percentage each
+narrative variable was selected to be the most important variable by the survey participants:
+Figure 10: Percentages of Participant-rated Most Important Narrative Variables
+An interesting finding for this portion of the survey was that the results for which narrative variable(s)
+is/are most important tended to mostly remain consistent regardless of differences in participant
+groupings by demographic characteristics. For example, one might hypothesize that participants with
+different gender, racial, educational, or political characteristics would designate different narrative
+variables as being most important. The survey results showed this not to be the case. While there were
+some nuanced variations in the rankings for each demographic group, Threat to culture / way of life,
+Identity affirmation, Victimization, Clear alternative future (World would be better), and Clearly identified
+in-/out-group (It is the right thing to do for the “team”) were consistently shown to be among the most
+chosen variables regardless of the demographic characteristics. Figure 11 thru Figure 15 , all below,
+illustrate this trend:
+11 Margin of error for the discussion of the survey results is +/- 2% at 95% Confidence Interval unless otherwise specified.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 13
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Figure 11: Percentages of Participant-rated Most Important Narrative Variables: Age Group Comparison
+Figure 12: Percentages of Participant-rated Most Important Narrative Variables: Gender Comparison
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 14
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Figure 13: Percentages of Participant-rated Most Important Narrative Variables: Racial Group Comparison
+Figure 14: Percentages of Participant-rated Most Important Narrative Variables: Regional Comparison
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 15
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Figure 15: Percentages of Participant-rated Most Important Narrative Variables: Political Ideology Comparison
+Qualitative Five-point Likert Scale Results
+The five-point Likert scale approach, however, provided us with slightly different results. We ascertained
+from the Likert scale results that, 1) certain narrative variables (for example, Threat to culture/way of
+life) may have a high number of people who placed them as the most important as well as those who did
+not place them high on their importance order; and 2) the average Likert scale scores provide us a
+qualitatively more accurate sense of which narrative variables are more likely to motivate people toward
+action since the scores reflect not only the number of people who may have selected these variables as
+most important to them but also the number of people who may not have picked the variables as being
+most important to them but would act if they saw the sentiments of the variables conveyed in the
+narrative they come in contact with.
+The average Likert scale scores showed that the participants were clearly drawn to action by narratives
+that conveys Victimization the most, followed by Identity Affirmation, for the individual level variable
+category, and Clear alternative future (World would be better) the most, followed by Persistent and
+increasing threats (Things are getting out of hand), for the societal level variable category. Threat to
+culture/way of life and Clearly identified in-/out-group (It is the right thing to do for the “team”), which
+were among the most important variables, were not among the top variables for the average Likert scale
+score results. In fact, they were fifth and fourth ranked variables respectively, suggesting that while these
+variables may be important, they may be less effective in making people act.
+One item of note from the average Likert scale score results was the negative score for the variable Social
+validation (Increases my reputation), suggesting that people will most likely be “turned off” – which would
+mean that it would decrease the likelihood for people to act – by narratives that attempt to convey, either
+explicitly or implicitly, that one should act based on the potential for social validation. Figure 16, below,
+provides a detailed information on the average Likert score results for the narrative variables:
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 16
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Figure 16: Average Likert Scale Scores for Full Sample
+Same with the results for the most important variables above, the results for the Likert scale also showed
+that the results mostly remained consistent regardless of differences in participant groupings by
+demographic characteristics. While, again, there were some nuanced variations in the rankings for each
+demographic group, Victimization and Clear alternative future (World would be better) were consistently
+shown to be the variables with the highest average Likert scale scores for their respective variable
+categories regardless of the demographic characteristics. Additionally, Identity affirmation and Persistent
+and increasing threats (Things are getting out of hand) were consistently shown to be the variables with
+second highest average Likert scale scores for their respective variable categories regardless of the
+demographic characteristics. Figure 17 thru Figure 21, all below, illustrate this trend:
+Figure 17: Average Likert Scale Scores: Age Group Comparison
+0.53
+0.32
+0.44
+0.77
+0.52
+0.81
+0.96 1.03
+0.90 0.87
+(0.50)-0.60
+-0.40
+-0.20
+0.00
+0.20
+0.40
+0.60
+0.80
+1.00
+1.20
+-1.20
+-1.00
+-0.80
+-0.60
+-0.40
+-0.20
+0.00
+0.20
+0.40
+0.60
+0.80
+1.00
+1.20
+18-34 35-54 55+ Overall
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 17
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Figure 18: Average Likert Scale Scores: Gender Comparison
+Figure 19: Average Likert Scale Scores: Racial Group Comparison
+-0.60
+-0.40
+-0.20
+0.00
+0.20
+0.40
+0.60
+0.80
+1.00
+1.20
+Female Male Overall
+-0.80
+-0.60
+-0.40
+-0.20
+0.00
+0.20
+0.40
+0.60
+0.80
+1.00
+1.20
+White Black Latinx Other Overall
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 18
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Figure 20: Average Likert Scale Scores: Regional Comparison
+Figure 21: Average Likert Scale Scores: Political Ideology Comparison
+Narrative Variable Impact
+To determine each narrative variable’s degree of impact, we employed multi-way multivariate analysis of
+variance (MANOVA) method to analyze the survey data. The analyses found all narrative variables have a
+role in influencing the target audience to act (or not act) given the target audience’s specific demographic
+characteristics. First, we found that participants who are 55 year of age and above are less likely to act
+based on the narrative that appeals to one’s emotion compared to other age groups. We also found that
+messages that convey social validation as the motivation for action does not resonate with the 55 years
+and older group – we also found this to be the narrative variable with the most effect on this group. All
+-0.80
+-0.60
+-0.40
+-0.20
+0.00
+0.20
+0.40
+0.60
+0.80
+1.00
+1.20
+Northeast South Midwest West Overall
+-0.80
+-0.60
+-0.40
+-0.20
+0.00
+0.20
+0.40
+0.60
+0.80
+1.00
+1.20
+Liberal Moderate Conservative Overall
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 19
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+other narrative variables had no significant effect on the target population based on the individual’s age.
+Table 3, below, shows the narrative variables with statistically significant effects on the target audience
+based on age:
+Demographic Characteristic: Age Group: 55+ Years of Age
+Statistically Significant Narrative
+Variable Coefficient Std. Err t P>|t|
+Emotional Appeal -.2319 .0815 -2.84 0.004
+Social Validation -.9293 .0959 -9.69 0.000
+Table 3: Narrative Variables with Statistically Significant Effects based on Age Group
+Examining the participants’ responses by gender, we found three narrative variables to be statistically
+significant for this demographic characteristic – emotional appeal, clear alternative future, and social
+validation. For emotional appeal and clear alternative future, we found that male participants are less
+likely to act compared to female participants; however, male participants were shown to be more likely
+to act based on the narrative that conveys social validation than female participants. Of all the narrative
+variables, social validation was found to be the only statistically significant variable where male
+participants were more likely to act based on the message. All other narrative variables had no significant
+effect on the target population based on the individual’s gender. Table 4, below, shows the narrative
+variables with statistically significant effects on the target audience based on gender:
+Demographic Characteristic: Gender Group: Male
+Statistically Significant Narrative
+Variable Coefficient Std. Err t P>|t|
+Emotional Appeal -.1760 .0593 -2.97 0.003
+Clear Alternative Future -.2455 0.0594 -4.14 0.000
+Social Validation .2260 .0698 3.24 0.001
+Table 4: Narrative Variables with Statistically Significant Effects based on Gender
+An examination based on the participants’ self-identified racial groups revealed emotional appeal, threat
+to identity, identity affirmation, and victimization had statistically significant effect for those who
+identified themselves as black or Hispanic/Latinx. Blacks and Hispanic/Latinx were more likely to act
+based on narratives that conveys aforementioned variables compared to other racial groups. In addition
+to the narrative variables mentioned immediately above, victim affirmation, purported lack of response,
+clearly defined in-/out-group(s), and social validation also had statistically significant effects on black
+participants, all making them more likely to act. Of these, social validation was shown to have the most
+effect on black participants. Also, threat to culture/way of life was shown to have statistically significant
+effect on Hispanic/Latinx participants in addition to those narrative variables identified above. Of the
+narrative variables that were shown to have statistically significant effect for Hispanic/Latinx
+participants, identity affirmation was shown to have the most effect for the group. Finally, all other
+narrative variables had no significant effect on the target population based on the individual’s race. Table
+5, below, shows the narrative variables with statistically significant effects on the target audience based
+on race:
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 20
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Demographic Characteristic: Race
+Group: Black
+Statistically Significant Narrative
+Variable Coefficient Std. Err t P>|t|
+Emotional Appeal .3004 .0920 3.27 0.001
+Threat to Identity .2925 .1094 2.67 0.008
+Identity Affirmation .3097 .0933 3.32 0.001
+Victim Affirmation .2246 .0997 2.25 0.024
+Victimization .3461 .0993 3.48 0.001
+Purported Lack of Response .2360 .0923 2.56 0.011
+Clearly Defined In-/Out-Group(s) .3160 .0952 3.32 0.001
+Social Validation .5641 .1082 5.21 0.000
+Group: Hispanic/Latinx
+Emotional Appeal .2382 .0933 2.55 0.011
+Threat to Identity .3444 .1109 3.10 0.002
+Threat to Culture/Way of Life .3063 .1137 2.69 0.007
+Identity Affirmation .3532 .0946 3.73 0.000
+Victimization .2977 .1008 2.95 0.003
+Table 5: Narrative Variables with Statistically Significant Effects based on Race
+Threat to culture/way of life was the only narrative variable shown to have any statistically significant
+effect on the participants based on their region of residence. The results showed participants that reside
+in the South were more likely to be affected by narratives that convey threat to culture/way of life than
+those who reside elsewhere in the United States. Table 6, below, shows the narrative variable with
+statistically significant effect on the target audience based on region of residence:
+Demographic Characteristic: Region of
+Residence Group: South
+Statistically Significant Narrative
+Variable Coefficient Std. Err t P>|t|
+Threat to Culture/Way of Life .2673 .0953 2.80 0.005
+Table 6: Narrative Variables with Statistically Significant Effects based on Region of Residence
+An individual’s education level was another demographic characteristic where only one narrative
+variable had an effect. Purported lack of response was shown to be the only narrative variable to have any
+statistically significant effect on this demographic characteristic. The results showed participants with
+college or higher degrees were more likely to be affected by narratives that convey purported lack of
+response than those without college degrees. Table 7, below, shows the narrative variable with
+statistically significant effect on the target audience based on education level:
+Demographic Characteristic: Education Group: College Graduate
+Statistically Significant Narrative
+Variable Coefficient Std. Err t P>|t|
+Purported Lack of Response .1590 .0633 2.51 0.012
+Table 7: Narrative Variables with Statistically Significant Effects based on Education Level
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 21
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Clear alternative future, purported lack of response, and social validation were shown to have statistically
+significant effects on those participants who have experienced financial difficulties in their lives
+compared to those who self-identified they have never experienced financial difficulties. Those who have
+experienced financial difficulties were more likely to react to narratives that convey clear alternative
+future and purported lack of response while being turned off by narratives that convey social validation as
+the motivation for action. Social validation was shown to have the most effect for the participants who
+have experienced financial difficulties. All other narrative variables were shown not to be significant for
+this demographic characteristic. Table 8, below, shows the narrative variables with statistically
+significant effects on the target audience based on experiences with financial difficulties:
+Demographic Characteristic: Experienced Financial
+Difficulties Group: Yes
+Statistically Significant Narrative
+Variable Coefficient Std. Err t P>|t|
+Clear Alternative Future .1825 .0778 2.35 .2091
+Purported Lack of Response .2089 .07795 2.68 0.007
+Social Validation -.3970 .0914 -4.34 0.000
+Table 8: Narrative Variables with Statistically Significant Effects based on Experience(s) with Financial
+Difficulty/Difficulties
+An individual’s employment status was yet another demographic characteristic where only one narrative
+variable had an effect. Social Validation was shown to have statistically significant effects on those who
+are employed part- and full-time compared to those who are unemployed and/or retired. The results
+showed those who are employed part-time were most likely to act on narratives that convey social
+validation as motivation when compared to those who are employed full-time or those who are
+unemployed and/or retired. All other narrative variables were shown not to be significant for this
+demographic characteristic. Table 9, below, shows the narrative variables with statistically significant
+effects on the target audience based on employment status:
+Demographic Characteristic: Employment Status
+Employment Type: Part-Time
+Statistically Significant Narrative
+Variable Coefficient Std. Err t P>|t|
+Social Validation .3559 .1171 3.04 0.002
+Employment Type: Full-Time
+Social Validation .3105 .0795 3.91 0.000
+Table 9: Narrative Variables with Statistically Significant Effects based on Employment Status
+Exploration of how the narrative variables would affect the participants based on their religious
+inclinations showed that threat to identity, identity affirmation, victim affirmation, clear alternative future,
+clearly defined in-/out-group(s), and social validation had statistically significant effects for this
+demographic characteristic. The results showed that those who identified themselves as being religious
+were more likely to act on narratives that convey the sentiments portrayed by the narrative variables
+mentioned above than those who identified themselves as being not religious. Clearly defined in-/out-
+group(s) (It is right thing to do for the “team”) was shown to have the most effect for the participants who
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 22
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+identified themselves as religious. All other narrative variables were shown not to be significant for this
+demographic characteristic. Table 10, below, shows the narrative variables with statistically significant
+effects on the target audience based on religious inclinations:
+Demographic Characteristic: Religious/Not Religious Group: Religious
+Statistically Significant Narrative
+Variable Coefficient Std. Err t P>|t|
+Threat to Identity .2333 .0730 3.20 0.001
+Identity Affirmation .1789 .0622 2.88 0.004
+Victim Affirmation .2134 .0665 3.21 0.001
+Clear Alternative Future .1410 .0614 2.30 0.022
+Clearly Defined In-/Out-Group(s) .2613 .0635 4.11 0.000
+Social Validation .2102 .0722 2.91 0.004
+Table 10: Narrative Variables with Statistically Significant Effects based on Religious Inclination
+Exploration of how the narrative variables would affect the participants based on their political
+inclinations showed that emotional appeal, identity affirmation, victimization, persistent and increasing
+threat, clear alternative future, and purported lack of response had statistically significant effects on this
+demographic characteristic. Interestingly, all of the statistically significant effects for this demographic
+characteristic were negative, meaning that narratives conveying these narrative variables will make
+people who identify themselves as moderate/middle of the road or conservative less likely to act
+compared to those who identify themselves as liberal. For those identified as moderate or conservative,
+clear alternative future was shown to have the most effect (in the negative direction). All other narrative
+variables were shown not to be significant for this demographic characteristic. Table 11, below, shows
+the narrative variables with statistically significant effects on the target audience based on political
+inclinations:
+Demographic Characteristic: Political Ideology
+Group: Moderate/Middle of the Road
+Statistically Significant Narrative
+Variable Coefficient Std. Err t P>|t|
+Emotional Appeal -.2470 .0711 -3.47 0.001
+Identity Affirmation -.2296 .0421 -3.18 0.001
+Victimization -.2822 .0768 -3.67 0.000
+Persistent and Increasing Threat -.3107 .0716 -4.34 0.000
+Clear Alternative Future -.3757 .0712 -5.28 0.000
+Purported Lack of Response -.2953 .014 -4.14 0.000
+Group: Conservative
+Emotional Appeal -.2718 .0767 -3.54 0.000
+Identity Affirmation -.2099 .0778 -2.70 0.007
+Persistent and Increasing Threat -.2331 .0772 -3.02 0.003
+Clear Alternative Future -.3721 .0768 -4.85 0.000
+Purported Lack of Response -.2005 .0769 -2.61 0.009
+Table 11: Narrative Variables with Statistically Significant Effects based on Political Ideology
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 23
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Finally, we examined demographic characteristic identity fusion index. For this demographic
+characteristic, those who identified themselves as being closest to index C, D, and E shared three common
+narrative variables that showed as having statistically significant effects – identity affirmation,
+victimization, and clear alternative future. For those who identified themselves as being closest to index D,
+threat to culture/way of life was also found to have statistically significant effect. In addition to the three
+common narrative variables identified above, those who identified themselves as being closest to index E
+were also affected by victim affirmation, persistent and increasing threat, purported lack of response, and
+clearly defined in-/out-groups(s). For those who identified themselves as index C and E, identity
+affirmation was shown to have the most effect on their decision to act while threat to culture/way of life
+was shown to have the most effect for those who identified themselves as index D. All other narrative
+variables were shown not to be significant for this demographic characteristic. Table 12, below, shows
+the narrative variables with statistically significant effects on the target audience based on identity fusion
+index:
+Demographic Characteristic: Identity Fusion Index
+Group: C
+Statistically Significant Narrative
+Variable Coefficient Std. Err t P>|t|
+Identity Affirmation .2407 .0875 2.75 0.006
+Victimization .2240 .0932 2.40 0.016
+Clear Alternative Future .2091 .0864 2.42 0.016
+Group: D
+Threat to Culture/Way of Life .3244 .1129 2.87 0.004
+Identity Affirmation .2296 .0940 2.44 0.015
+Victimization .2684 .1001 2.68 0.007
+Clear Alternative Future .2094 .0928 2.26 0.024
+Group: E
+Emotional Appeal .2393 .0916 2.61 0.009
+Identity Affirmation .4234 .09829 4.56 0.000
+Victim Affirmation .2619 .09924 2.64 0.008
+Victimization .4139 .0989 4.18 0.000
+Persistent and Increasing Threat .2742 .0922 2.97 0.003
+Clear Alternative Future .3501 .0917 3.82 0.000
+Purported Lack of Response .2545 .0919 2.77 0.006
+Clearly Defined In-/Out-Group(s) .2821 .0948 2.97 0.003
+Table 12: Narrative Variables with Statistically Significant Effects based on Identity Fusion Index
+Survey Findings
+Through this survey, we found that Threat to culture / way of life (approximately 19%), Identity
+affirmation (approximately 18%), and Victimization (approximately 18%) were within the margin of
+error12 of each other for being the most important narrative variable within the individual level variable
+category. For the societal level variables, Clear alternative future (World would be better) – approximately
+25% – and Clearly identified in-/out-group (It is the right thing to do for the “team”) – approximately 24%
+– were within the margin of error of each other for being the most important narrative variable.
+12 Margin of error for the discussion of the survey results is +/- 2% at 95% Confidence Interval unless otherwise specified.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 24
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+From the five-point Likert scale portion of the survey, we were able to ascertain average Likert scale
+scores for each narrative variables and gain a sense of which narrative variables are more likely to
+motivate people toward action, which is different from simply asking which variable does one consider to
+be most important. The Likert scale provides us a more accurate sense of which narrative variables are
+more likely to motivate people toward action since the scores from the scale reflect not only the number
+of people who may have selected these variables as most important to them but also the number of
+people who may not have picked the variables as being most important to them but would still act if they
+saw the sentiments of the variables conveyed in the narrative they come in contact with. The average
+Likert scale scores showed that the participants were clearly drawn to action by narratives that conveys
+Victimization (average Likert scale score 0.81) the most, followed by Identity Affirmation (average Likert
+scale score 0.77), for the individual level variable category, and Clear alternative future (World would be
+better) – average Likert scale score 1.03 – the most, followed by Persistent and increasing threats (Things
+are getting out of hand) – average Likert scale score 0.96 – for the societal level variable category. Threat
+to culture/way of life and Clearly identified in-/out-group (It is the right thing to do for the “team”), which
+were among the most important variables, were not among the top variables for the average Likert scale
+score results. In fact, they were fifth and fourth ranked variables respectively, suggesting that while these
+variables may be important to people, they may be less effective in making people act. One item of note
+from the average Likert scale score results was the negative score for the variable Social validation
+(Increases my reputation) – average Likert scale score of -0.50, suggesting that people will most likely be
+“turned off”, meaning that it would decrease the likelihood for people to act, by narratives that attempt to
+convey, either explicitly or implicitly, that one should act based on the potential for social validation.
+Additionally, we were able to determine the different impact each narrative variable has on the
+participants based on different aspects of their demographic characteristics. From this, we found that
+social validation has the most statistically significant effects on those who are ages 55 and older, those
+who identified themselves as black, those who have experienced financial difficulties, those who are
+employed part-time, and those who are employed full-time. Additionally, we found that identity
+affirmation has the most statistically significant effects on those who identified themselves as
+Hispanic/Latinx, identity fusion index C, and identity fusion index E. Threat to culture/way of life was
+found to have the most statistically significant effects for those who reside in the Southern region of the
+United States and those who identify themselves with identity fusion index D. Clear alternative future was
+found to have the most statistically significant effects for males, those who identify themselves as
+politically moderate, and those who identify themselves as politically conservative. Purported lack of
+response was found to have a statistically significant effect for those who hold an undergraduate degree
+or above. Finally, clearly defined in-/out-group(s) was shown to have statistically significant effect on
+those who identify themselves as being religious.
+Also, an interesting finding from the survey is that the trends for the most important narrative variables
+and the Likert scale responses were generally consistent across all demographic characteristics,
+suggesting that the survey participants had fairly similar feelings and values when internalizing and
+interpreting each narrative variable’s definitions. For example, clear alternative future (world would be
+better if something is done) was seen as a motivator for action regardless of demographic characteristics.
+One should not, however, interpret this trend as the American public believing in or having the same idea
+of what a better world looks like. Instead, one should interpret this trend as the American public believes
+in a better future in general but what that “better future” looks like may be very different from one
+individual or group to the next. Given that the initiators of the influence operation often do not care how
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 25
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+people react to the narratives as long as people react to them, the narratives and ensuing reactions serve
+to sew confusion and discontent in the society.
+Finally, the survey allowed us to determine the effects of each narrative variable on the target audience.
+Utilizing these results, we were able to refine our Influence-to-Action Model and ascertain the weights for
+each variable of the model as applied to the U.S. general adult population. These weights will be used for
+in our development of the Influence-to-Action Assessment Tool.
+.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 26
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Campaign/Narrative Impact Assessment Tool
+The final step/product of this research was the development and instantiation of Influence-to-Action
+Campaign/Narrative Impact Assessment Tool (I-AM Assessment Tool) prototype. The I-AM Assessment
+Tool is intended to provide a systematic methodology to analyze and assess artifacts collected from
+across multiple media types and multiple platforms (e.g., an article, a meme, a tweet, etc.). The following
+section of this report describes the development of the prototype I-AM Assessment Tool.
+Prototype Tool Development Process
+Following the completion of the survey analysis process, the research team met for a two-day workshop
+to brainstorm the design and functionality of the I-AM Assessment Tool. Basing our initial design on
+previously successful tools designed by the START team, we decided on an Excel-based design where an
+analyst could evaluate artifacts and each variable is rated on a numerical scale. We decided to build the
+scale around individual artifacts as that provides the greatest flexibility of use for the tool. From our
+initial discussions we wanted to build a tool that could be used to compare not only artifacts within a
+specific campaign or narrative, but also to compare artifacts from multiple narratives, multiple time
+periods, and across multiple artifact types. The types of artifacts we wanted the tool to be useful for
+include images (e.g., memes, screenshots, etc.), short form writing (e.g., tweets, comments, etc.), blogs or
+news articles, long-form writing (e.g., journal articles, books, etc.), audio, and video, as well as forms of
+mixed media (to include comments on videos, chat between users, etc.). During the workshop, we also
+determined that the tool could be used for any number of artifacts, whether to be used as a quick check
+for a very small number of artifacts or used to aggregate and understand very large numbers of artifacts.
+To be able to investigate all these desired artifact mediums, comparative factors, and quantities, we first
+needed to develop a coding schema for the variables.
+The first step to develop the numerical scale and coding schema was to look at each variable and the
+variables in total to determine an appropriate schema. Following a discussion of multiple ways to
+rank/score the variables, we chose to use a scale from 0-3 as this scale provided the flexibility for
+analysts to approximate the appropriate number for each variable as related to an artifact without
+overcomplicating the process. Our goal was to remain inclusive while simultaneously avoiding excessive
+granularity. Excessive measurement metrics tend to increase the level of complexity associated with the
+determination of values, especially in the face of intrinsically uncertain information without adding
+significant benefit to the effort to characterize artifacts. As the goal of the tool was to remain unbiased
+regarding messaging present in artifacts, we determined a 0-3 scale was the best option.
+We then discussed the specific scheme for each variable and noticed some key similarities that could be
+generalized across all variables that would simplify the scale. In our discussions, we also determined that
+this generalized scoring could be communicated using emojis which would further boost the ease of
+rememberability for each score. For every variable, a “0” would represent that the variable was not
+present in the artifact, a “1” would indicate that the variable may be present but is not explicitly stated, a
+“2” would represent an indirect but positive identification of the variable, and a “3” would represent a
+direct statement of the variable present. These scoring once simplified to one-two word descriptions,
+shown in Table 13, below, would allow analysts, once comfortable with the variable definitions to have a
+quick reference schema to remember when coding and will increase the probability of consistent coding
+among different analysts. However, there is some nuance between these variables that required specific
+definitions and examples for each variable.
+Quick Variable Reference Guide
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 27
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+0 = �� No
+1 = ���� Maybe
+2 = ������ Yes, Indirect
+3 = ✅ Yes, Direct
+Table 13: Quick Variable Reference Guide
+We then discussed and took notes on how each score would be defined for every variable. Here we
+noticed and discussed something that would simplify the extended definitions for the internal variables
+further, that the scores of “0”, “1”, and “2” were uniform across all internal variables. Therefore, we
+determined that for the internal variables all scores of “0” would be defined as, “Variable cannot be
+identified in the narrative,” all scores of “1” would be defined as, “Cannot definitively identify that the
+variable is not present,” and all scores of “2” would be defined as, “The narrative does not specify the
+Variable you are coding for, but certain audience(s) will take it as directed towards them.” For a score of
+“1”, we decided to define that variable as stating that the variable cannot be determined to be present, as
+it is easier to determine with higher confidence that a variable is present than not. This definition
+therefore allows coders to more confidently state that they cannot confirm the absence of the variable.
+This will allow for the covering of inherent ambiguity when coding for artifacts of an influence campaign
+or narrative targeted at a group that the analyst may not be as intricately familiar with. For example,
+messaging could not specifically or indirectly contain an emotional appeal, but the analyst could not
+precisely determine if a group would ascertain an emotional message from the artifact, therefore a coding
+of “1” does not eliminate the possibility of an emotional appeal entirely.
+For the score of “3” within the internal variables, we defined each variable so that the variable is directly
+stated within the artifact. The final definitions for the internal variables at score “3” are listed below in
+Table 14. For each variable, the definition is slightly changed to account for how the variable was listed in
+the surveys and other deliverables. For example, for Threats to Identity a score of “3” is defined as,
+“Messaging conveys imminent threat to a specific identity,” whereas for Victim Affirmation a score of “3”
+is defined as, “Messaging affirms that a specific identity/culture is a target of an external assault.” By
+defining the variables based on the nuance within the definitions, analysts will have a better
+understanding of what to look for regarding each variable. The full list of variables and definitions can be
+found within the tool.
+Internal Variables Score 3 Definitions
+Emotional Appeal 3 = ✅ Yes, Direct Messaging makes an emotional appeal to the
+target
+Threats to Identity 3 = ✅ Yes, Direct Messaging conveys imminent threat to a
+specific identity
+Threats to Culture
+(Way of Life) 3 = ✅ Yes, Direct Messaging conveys imminent threat to a
+specific way of life and/or culture
+Identity Affirmation 3 = ✅ Yes, Direct Messaging affirms a specific identity
+Victim Affirmation 3 = ✅ Yes, Direct
+Messaging affirms that a specific
+identity/culture is a target of an external
+assault
+Victimization 3 = ✅ Yes, Direct Messaging conveys the need to “right the
+wrong” or “fight against injustice”
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 28
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Table 14: Internal Variables Score 3 Definitions
+For the structural/societal variables we again determined that the score of “0” would be defined as,
+“Variable cannot be identified in the narrative.” However, for the additional scores 1-3, each score for
+every societal variable required a unique definition. We then defined each variable for those scores and
+included a brief clarifying definition to each variable generally and an example within scores 1-3 for each
+variable as well. Those definitions and examples are described in Table 15 below:
+Societal (Structural) Level Variables Score 1-3 Definitions and Examples
+Persistent and
+Increasing
+Threats
+(Things are
+getting out of
+hand)
+1 = ���� Maybe Threat is stated, but directionality of its persistence is not given
+(e.g., current, general statement about COVID)
+2 = ������ Yes,
+Indirect
+A threat is stated, and it is implied it is persistent and/or
+increasing (e.g., statement of a COVID new variant announced)
+3 = ✅ Yes,
+Direct
+Messaging conveys persistent and worsening conditions if
+something is not done to reverse the course (e.g., COVID
+messaging around the holidays)
+Clear
+Alternative
+Future
+(World would
+be better by
+doing
+something
+about it)
+1 = ���� Maybe Messaging identifies a need to change the future but does specify
+the direction (e.g., saving money for your kids)
+2 = ������ Yes,
+Indirect
+No good alternative future can be identified, but the messaging
+implies there will be one (e.g., decrease use of fossil fuels)
+3 = ✅ Yes,
+Direct
+Message clearly states a good alternative future (e.g., use more
+renewable energy to build a healthier future for our kids)
+Purported
+Lack of
+Response
+(Nothing is
+being done
+about it)
+1 = ���� Maybe Not enough is being done (e.g., politicians are not acting in regard
+to student loans)
+2 = ������ Yes,
+Indirect
+Something is being done, but more needs to happen (implying
+you need to be involved) (e.g., we need to support our politicians
+in the fight against gun control)
+3 = ✅ Yes,
+Direct
+Messaging conveys that “no one” is doing anything about the
+problem, so you need to (e.g., no one is ensuring the safety of our
+children in school, so you need to call your representatives now
+and demand action)
+Clearly
+Identified In-
+/Out-Group
+(It is the right
+thing to do for
+the "team")
+1 = ���� Maybe Implies or states there are multiple teams (e.g., our side is
+fighting…)
+2 = ������ Yes,
+Indirect
+Identifies “the team” and implies there is a right thing to do (e.g.,
+eco warriors, are we just going to sit around and wait for policy
+change?)
+3 = ✅ Yes,
+Direct
+It is the right thing for “the team” (e.g., our team needs you to
+step up and demand action for our core values)
+Social
+Validation 1 = ���� Maybe Implies there is a reputation to be had (e.g., our most respected
+members are doing this…)
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 29
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Societal (Structural) Level Variables Score 1-3 Definitions and Examples
+(Increases my
+reputation) 2 = ������ Yes,
+Indirect
+Messaging conveys the actions are “justified” and implies your
+reputation will increase (e.g., we know it is the necessary thing to
+do and our most respected members are doing it)
+3 = ✅ Yes,
+Direct
+Messaging conveys the actions are “justified” and will your
+increase reputation (e.g., we know it is the necessary thing to do
+and if you want more respect, you will do it)
+Table 15: Societal (Structural) Level Variables Score 1-3 Definitions and Examples
+Once we finalized the definitions and visual representation of the tool, we took the ascertained weights,
+specifically from the “I will Definitely Act” variable, as this variable represents the strongest action
+potential, and imported them into the Excel document. The resulting weights from the survey are
+described in Table 16 and Figure 22 below:
+Calculated Weights for “I will Definitely Act” Variable
+Individual (Internal) Level Variables
+Variable Names Standard Weight
+Emotional Appeal 0.53
+Threat to Identity 0.32
+Threat to Culture/Way of Life 0.44
+Identity Affirmation 0.77
+Victim Affirmation 0.52
+Victimization 0.81
+Societal (Environmental) Level Variables
+Persistent and Increasing Threat 0.96
+Clear Alternative Future 1.03
+Purported Lack of Response 0.9
+Clearly Identified In-/Out-Group 0.87
+Social Validation -0.5
+Table 16: Calculated Weights for "I will Definitely Act" Variable
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 30
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Figure 22: Factor Weights for "I will Definitely Act" Variable
+Prototype Tool Development Results
+Using this coding schema, we instantiated the tool (shown in Appendix C: Blank Influence-to-Action
+Campaign/Narrative Impact Assessment Tool) into a single table where an analyst could input the value
+for each variable. Additionally, we included administrative material rows to the beginning of the table to
+include a reference numbering column, campaign or narrative name column, and a date-time group
+column. For each artifact, there would be eleven columns for each variable, divided by internal versus
+societal level variables, with each cell preset to accept numerical inputs of 0-3. Finally, there would be a
+column that will automatically populate an aggregate score for the artifact using the weights of each
+variable as described previously.
+These weights and the scoring schema of 0-3 provided us with possible scores ranging from 0-21.45 for
+each artifact. From this range, we determined the threshold for the Campaign/Narrative Impact Index
+would be separated into three equally divided tiers, with the first tier representing the highest impact
+(aggregate scores from 14.301 to 21.45), the second tier representing a modest impact (aggregate scores
+from 7.151 to 14.30), and the third tier representing little or no impact (aggregate scores from 0 to 7.15).
+We additionally color-coded the tiers to create a quick visual reference as to which tier an artifact falls
+into. These tiers are described in Table 17 below.
+Campaign/Narrative Impact Index Tiers
+1st Tier 2nd Tier 3rd Tier
+Range: 14.301-21.45 7.151-14.30 0-7.15
+Table 17: Campaign/Narrative Impact Index Tiers
+The tool was specifically designed to be artifact agnostic and as such useful for the media types described
+previously and across a variety of purposes that include one artifact for multiple narratives, multiple
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 31
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+artifacts for one narrative, and multiple artifacts for multiple artifacts based around a specific theme,
+movement, time-period, or event. The initial version of the tool additionally included a page of variable
+definitions, identical to Table 1, and the codebook which was comprised of the variable coding schemas
+described prior. At this point, we conducted both internal and external testing of the tool using artifacts
+that represented a range of narratives, shown in Appendix D.
+Prototype Tool Testing and Results
+Our initial test of the tool included five screenshot image artifacts (specifically memes) surrounding
+multiple narratives. In selecting the images, we sought diversity in terms of targeted group or ideology,
+reliability of the source, and format to cover a variety of narrative themes in order to utilize narratives
+from groups or ideologies that the testers would have a range of knowledge regarding.
+These images and the resulting average scores are shown in Appendix D. We performed both internal and
+external testing of these images and then held discussions with both the internal and external testers to
+determine the strengths and weaknesses of the current tool iteration. These discussions revealed that the
+tool was effective and was easy to use, but that there were some slight formatting quirks and two
+supplemental items missing. These included an expanded instruction sheet and an additional linked tab
+where analysts could provide notes and justifications for each decision. We therefore compiled our
+existing instructions, some of which had thus far been only verbally communicated, into a cohesive
+instructional document. The full instructions can be found in Appendix E: Tool Instructions.
+Additionally, a tab was added entitled, “Analyst Notes & Justifications,” which we designed to match the
+columns from the main assessment tool with blank cells for analysts to record their decision-making
+process and justifications for each variable. The included administrative information columns were
+designed to automatically populate with the information entered in the main tool tab for easy reference
+between cases coded across the two documents. We also linked to each variable heading on this tab from
+each variable heading from the main tool to allow easier movement between the tabs.
+Following these revisions to the tool, the second version of the tool was then finalized the Influence-to-
+Action Campaign/Narrative Impact Assessment Tool prototype.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 32
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Conclusions and Recommendations
+The current literature on influence operations fails to address the impact and/or effectiveness of foreign
+influence operations on the target audience, specifically what factor(s) of the messaging is/are more likely to
+cause the target audience to act. As we sought to address this issue, we were able to identify several variables
+from psychological, sociological, marketing, and communications literature that have been shown to enhance
+people’s propensity to participate in action rather than simply receive passively. The literature, however, does
+not provide how these variables impact the actions of the target audience. Through the development of the I-
+AM, followed by several model validation case studies, and two rounds of public surveys, we were able to
+develop and instantiate the I-AM Assessment Tool prototype. Designed to measure various components of
+influence operation artifacts with the goal to provide a systematic methodology to analyze and assess artifacts
+collected from across multiple media platforms, end users can employ the assessment tool to assess images
+(e.g., memes, screenshots, etc.), short form writing (e.g., tweets, comments, etc.), blogs or news articles,
+long-form writing (e.g., journal articles, books, etc.), audio, and video, as well as forms of mixed media (to
+include comments on videos, chat between users, etc.).
+At the moment, the assessment tool currently employs a High-Medium-Low assessment metric to assess an
+artifact’s potential impact on the U.S. general population. While the current assessment metric does
+provide the end users information needed to make decisions and/or recommend future course(s) of
+action, end users would benefit much with development and incorporation of a more nuanced and
+granular assessment metric in the future iteration of the I-AM Assessment Tool. Nevertheless, even as a
+prototype, the I-AM Assessment Tool provides the end users a systematic methodology that one can use
+to analyze artifacts collected from across multiple media types and multiple platforms. This systematic
+methodology will allow the end users to conduct consistent analysis of foreign influence operations
+materials regardless of the “influencer” and their modes of delivery
+If there is an opportunity, further development of this tool will provide the U.S. military, intelligence
+community, and other government stakeholders a method to systematically measure the relative impact and
+effectiveness of foreign influence operations being conducted against the United States so that the United States
+national security enterprise can more effectively prepare for, counter, and neutralize nefarious influence
+operations.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool
+33
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Appendix A: General Population Survey Questions
+Q1 You certify that you are at least 18 years of age; you have read informed consent; and you voluntarily
+agree to participate in this research study.
+Your identity will remain confidential, and the research team will not receive any personally identifiable
+information (such as your name, phone number, etc.) about the participants of this survey from Qualtrics.
+The consent form is attached here in its entirety for your review: Informed Consent for Online Activities
+Survey
+By checking the box below, you agree to participate in the survey.
+o I have read and understand the informed consent, and I agree to participate in the survey.
+Q2 How old are you?
+o Under 18
+o 18-24
+o 25-34
+o 35-44
+o 45-54
+o 55 and over
+Q3 How would you describe your gender?
+o Male
+o Female
+o Non-binary / third gender
+Q4 How would you best describe yourself? Please select only one that you most identify yourself as.
+o Asian / Pacific Islander
+o Black or African American
+o Hispanic or Latino
+o Native American or American Indian
+o White (non-Hispanic)
+o Mixed
+o Other
+Q5 In which state do you currently reside?
+▼ Alabama ... I do not reside in the United States
+Q6 In which state did you spend the most time living in from ages 0-18?
+▼ Alabama ... I do not reside in the United States
+Q7 What is the highest level of education you have reached?
+o Some high school, no diploma
+o High school graduate, diploma or the equivalent (for example: GED)
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool
+34
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+o Some college credit, no degree
+o Trade/technical/vocational training
+o Associate degree
+o Bachelor’s degree
+o Master's / Professional
+o Doctoral degree
+Q8 What is your current employment status? Please select ONLY one choice that describes most closely
+your current employment status.
+o Employed full-time
+o Employed part-time
+o Self-employed
+o Unemployed, Looking for work
+o Unemployed, Not looking for work / Unable to work
+o Student (If you are a full-time student and work part-time to support yourself, please select this
+choice; if you are a part-time student and work part-time to support yourself, please select "Employed
+part-time" above)
+o Retired
+Q9 What is your current marital status?
+o Single, never married
+o Married or domestic partnership
+o Widowed
+o Divorced
+o Separated
+o Other
+Q10 How religious do you consider yourself?
+o Very religious
+o Moderately religious
+o Slightly religious
+o Spiritual but not religious
+o Not religious
+Q11 How would you describe your political beliefs?
+o Very conservative
+o Conservative
+o Moderate / Middle of the road
+o Liberal
+o Very Liberal
+o No political affiliation
+Q12 With which political party do you MOST identify with and/or a member of? (Note: You need not be
+affiliated or be a member of any political party to identify with a specific party for the purposes of this
+question)
+o Alliance Party
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool
+35
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+o American Solidarity Party
+o Constitution Party
+o Democratic Party
+o Green Party
+o Libertarian Party
+o Republican Party
+o Unity Party of America
+o Working Class Party
+o Working Families Party
+o Other political party not listed
+o None (Independent)
+Q13 Have you or your family experienced financial strain or struggle at any of the following periods of
+your life? Please select all that apply.
+▢ Early life or prior to birth (ages 0-4)
+▢ Childhood (ages 5-12)
+▢ Teenage years (ages 13-17)
+▢ Young adulthood (ages 18-25)
+▢ Adulthood (ages 26+)
+▢ None
+Q14 How many of the following situations have you experienced at least once throughout your life
+(including childhood). Please select all that apply.
+▢ Bankruptcy
+▢ Foreclosure
+▢ Loss of a business or financial asset (including car)
+▢ Period of unemployment (either self, partner, or parent)
+▢ Less than one month worth of salary (or $1,000) in an individual or family emergency savings
+account
+▢ Individual or family debt worth more than a year's salary or $25,000 (either credit, loans, or
+medical debt, not including home loan or mortgage)
+▢ Other delinquent debt
+▢ Other financial stressor or events not listed above
+▢ None
+Q15 For the next question, please think of a group that you identify strongly with. Your group could be a
+neighborhood organization, church or religious group, political group, or any group that you engage with
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool
+36
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+online or offline). Please refer to the images below and think of which option best represents the
+connection you feel between the group you selected and you.
+Q16 Please list the type of group that you identified with (for example: religious or political group, fitness
+class or gym, hobby or community organization, etc.).
+Please note that we are asking you to type in the group you most identify with personally and not select
+from the above diagram.
+________________________________________________________________
+Q17 Which image best represents the way you perceive your connection with your group?
+o A
+o B
+o C
+o D
+o E
+Q18 Of the following, which sources do you use to receive news or information? (select all that apply)
+▢ Television
+▢ Print (newspapers, magazines, etc.)
+▢ Radio or podcasts
+▢ Internet (media sites or apps [e.g., ABC, New York Times, Fox News, CNN, etc.] and/or other
+internet sites [e.g., YouTube, etc.])
+▢ Social media post from your network (individuals you follow, friends, family, celebrities, etc.)
+▢ Social media post from a news organization [e.g., tweets or posts from (New York Times, Fox
+News, etc.)]
+▢ Word of mouth either online or offline (friends, family, coworkers, etc.)
+Q19 Of the following, which source do you use MOST OFTEN to access the news?
+o Television
+o Print (newspapers, magazines, etc.)
+o Radio or podcasts
+o Internet (media sites or apps [e.g., ABC, New York Times, Fox News, CNN, etc.] and/or other
+internet sites [e.g., YouTube, etc.])
+o Social media post from your network (individuals you follow, friends, family, celebrities, etc.)
+o Social media post from a news organization [e.g. tweets or posts from (New York Times, Fox News,
+etc.)]
+o Word of mouth either online or offline (friends, family, coworkers, etc.)
+Q20 Of the following, which source do you use MOST OFTEN to access information overall (news and
+otherwise)?
+o Television
+o Print (newspapers, magazines, etc.)
+o Radio or podcasts
+o Internet (media sites or apps [e.g., ABC, New York Times, Fox News, CNN, etc.] and/or other
+internet sites [e.g., YouTube, etc.])
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool
+37
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+o Social media post from your network (individuals you follow, friends, family, celebrities, etc.)
+o Social media post from a news organization (New York Times, Fox News, etc.)
+o Word of mouth either online or offline (friends, family, coworkers, etc.)
+Q21 What sources do you use to share or forward news or information? Please select all that apply.
+▢ Print (letters, memos, etc.)
+▢ Internet chat (messages, chats, video conferencing, etc.)
+▢ Email forwarding
+▢ Social media (Facebook, Twitter, Reddit, etc.)
+▢ Word of mouth (friends, family, coworkers, etc.)
+▢ I do not share or forward news or information
+Q22 What source do you use MOST OFTEN to share or forward news or information?
+o Print (letters, memos, etc.)
+o Internet chat (messages, chats, video conferencing, etc.)
+o Email forwarding
+o Social media (Facebook, Twitter, Reddit, etc.)
+o Word of mouth (friends, family, coworkers, etc.)
+o I do not share or forward news or information
+Q23
+On a scale from 0 to 10 (with 0 = not at all, and 10 = absolute trust), how much do you trust information
+coming from each of the following sources?
+0 1 2 3 4 5 6 7 8 9 10
+Television national or international news
+Television local news
+Local print newspapers or magazines
+National or International print newspapers or magazines
+Radio or podcasts
+Internet national or international news sources
+Internet local news sources
+Social media post from your network (individuals you follow, friends, family, celebrities, etc.)
+Social media post from a news organization (New York Times, Fox News, etc.)
+Word of mouth (friends, family, coworkers, etc.)
+Q24 For the following two questions, please consider the content that you consume (i.e., read, watch, or
+listen to) online.
+Which of the following types of content do you consume online? Please select all that apply.
+▢ News (either local, national, or international)
+▢ Entertainment stories, pictures, and video (memes, dances, jokes, etc.)
+▢ Celebrity gossip
+▢ Sports information
+▢ Weather information
+▢ Food or recipes
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool
+38
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+▢ Shopping content
+▢ Other
+Q25 Of the previously mentioned categories, please rank the topics in the order you spend the most time
+consuming online (1 being the most time spent with that content).
+______ News (either local, national, or international)
+______ Entertainment stories, pictures, and video (memes, dances, jokes, etc.)
+______ Celebrity gossip
+______ Sports information
+______ Weather information
+______ Food or recipes
+______ Shopping content
+______ Other
+Q26 For the following two questions, please consider the content that you interact with (read, comment
+on, like/up-vote, share, save, etc.) online.
+Which of the following types of content do you interact with online? Please select all that apply.
+▢ News (either local, national, or international)
+▢ Entertainment stories, pictures, and video (memes, dances, jokes, etc.)
+▢ Celebrity gossip
+▢ Sports information
+▢ Weather information
+▢ Food or recipes
+▢ Shopping content
+▢ Other
+Q27 Of the previously mentioned categories, please rank the topics in the order you spend the most time
+interacting with them online (1 being the most time spent with that content).
+______ News (either local, national, or international)
+______ Entertainment stories, pictures, and video (memes, dances, jokes, etc.)
+______ Celebrity gossip
+______ Sports information
+______ Weather information
+______ Food or recipes
+______ Shopping content
+______ Other
+Q28 Which of the following activities do you do when interacting with content online? Please select all
+that apply.
+▢ Like posts
+▢ Comment on posts
+▢ Share posts publicly on social media site or forums (Reddit)
+▢ Share posts privately via messaging service
+▢ Discuss posts with people offline
+▢ Create original content
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool
+39
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+▢ Do nothing
+Q29 Have you ever encountered content that you think could be misinformation or false news?
+o Yes
+o No
+o Unknown
+Q30 For the following questions, the phrase "the message" is used repeatedly. We use this term to mean
+any posting that you could see on- or off-line that is discussing something newsworthy, political, or
+controversial. The exact meaning of the message is not important, however, try to consider messages that
+are more serious in nature and could potentially have an impact on your life or others.
+Q31 Please provide a short (think 5 to 10 words) description of what "threat to identity" means to you.
+________________________________________________________________
+Q32 Please provide a short (think 5 to 10 words) description of what "threat to way of life (and/or
+culture)" means to you.
+________________________________________________________________
+Q33 Please provide a short (think 5 to 10 words) description of what "identity affirmation" means to you.
+________________________________________________________________
+Q34 Please provide a short (think 5 to 10 words) description of what "victim affirmation" means to you.
+________________________________________________________________
+Q35 Please provide a short (think 5 to 10 words) description of what "victimization" means to you.
+________________________________________________________________
+Q36 Please drag the options below to rank the following options in order of importance: I am most likely
+to share a message (e.g. re-post/retweet, email, etc.) when it (the message)...
+______ makes me emotional (scared, happy, shocked, etc.)
+______ poses a threat to my identity
+______ poses a threat to my way of life (and/or culture)
+______ affirms/speaks to my identity (i.e., who I am and/or what I represent)
+______ affirms that I am being targeted for who I am or what I represent
+______ conveys the need to fight back against a threat to me or what I represent
+Q37 Please drag the options below to rank the following options in order of importance: I am most likely
+to respond to a message (e.g., comment, quote tweet, etc.) online when it (the message)...
+______ makes me emotional (scared, happy, shocked, etc.)
+______ poses a threat to my identity
+______ poses a threat to my way of life (and/or culture)
+______ affirms/speaks to my identity (i.e., who I am and/or what I represent)
+______ affirms that I am being targeted for who I am or what I represent
+______ conveys the need to fight back against a threat to me or what I represent
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool
+40
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Q38 Please drag the options below to rank the following options in order of importance: I am most likely
+to donate my time and/or money to a cause or movement if their message,,,
+______ makes me emotional (scared, happy, shocked, etc.)
+______ poses a threat to my identity
+______ poses a threat to my way of life (and/or culture)
+______ affirms/speaks to my identity (i.e., who I am and/or what I represent)
+______ affirms that I am being targeted for who I am or what I represent
+______ conveys the need to fight back against a threat to me or what I represent
+Q39 For the following question, please think back to the question you just responded to.
+Thinking about the top three (3) factors that you chose as being most important to you, when you
+compare them two factors at a time, as shown below, which factor is more important to you when you
+consider only those two factors and no other factors?
+Comparing only between Your First and Second Most Important Factors:
+Comparing only between Your First and Third Most Important Factors
+Comparing only between your Second and Third Most Important Factors
+Factor 1 Factor 2 Factor 1 Factor 3 Factor 2 Factor 3
+"I am most likely to donate my time and/or money to a cause or movement if their message,,,"
+o o o o o o
+Q40 For the immediately previous question, please describe what you mean by donating your time
+and/or money (For example, I would donate 20 hours per week for this; or I would donate at least
+$[dollar value] for this; etc.)
+________________________________________________________________
+Q41 Please drag the options below to rank the following options in order of importance: I will definitely
+donate my time and/or money to a cause or movement if their message,,,
+______ makes me emotional (scared, happy, shocked, etc.)
+______ poses a threat to my identity
+______ poses a threat to my way of life (and/or culture)
+______ affirms/speaks to my identity (i.e., who I am and/or what I represent)
+______ affirms that I am being targeted for who I am or what I represent
+______ conveys the need to fight back against a threat to me or what I represent
+Q42 For the following question, please think back to the question you just responded to.
+Thinking about the top three (3) factors that you chose as being most important to you, when you
+compare them two factors at a time, as shown below, which factor is more important to you when you
+consider only those two factors and no other factors?
+Comparing only between Your First and Second Most Important Factors:
+Comparing only between Your First and Third Most Important Factors
+Comparing only between your Second and Third Most Important Factors
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool
+41
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Factor 1 Factor 2 Factor 1 Factor 3 Factor 2 Factor 3
+"I will definitely donate my time and/or money to a cause or movement if their message,,,"
+o o o o o o
+Q43 Please describe what you mean by "will definitely donate time and/or money." (For example, I would
+donate 20 hours per week for this; or I would donate at least $[dollar value] for this; etc.)
+________________________________________________________________
+Q44 Please rate the following statements on whether you agree or disagree.
+For this question, please treat each statement as an independent case without relation to any other
+statements.
+Strongly disagree Somewhat disagree Neither agree nor disagree Somewhat agree Strongly agree
+I am most likely to donate my time and/or money to a cause or movement if their message elicits an
+emotional response.
+o o o o o
+I am most likely to donate my time and/or money to a cause or movement if their message presents a
+threat to my identity.
+o o o o o
+I am most likely to donate my time and/or money to a cause or movement if their message presents a
+threat to my way of life (and/or culture).
+o o o o o
+I am most likely to donate my time and/or money to a cause or movement if their message
+affirms/speaks to my identity (i.e., who I am and/or what I represent).
+o o o o o
+I am most likely to donate my time and/or money to a cause or movement if their message affirms that I
+am being targeted for who I am or what I represent.
+o o o o o
+I am most likely to donate my time and/or money to a cause or movement if their message motivates me
+to fight back against a threat to me or what I represent.
+o o o o o
+Q45 Please rate the following statements on whether you agree or disagree.
+For this question, please treat each statement as an independent case without relation to any other
+statements.
+Strongly disagree Somewhat disagree Neither agree nor disagree Somewhat agree Strongly agree
+I will definitely donate my time and/or money to a cause or movement if their message elicits an
+emotional response.
+o o o o o
+I will definitely donate my time and/or money to a cause or movement if their message presents a threat
+to my identity.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool
+42
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+o o o o o
+I will definitely donate my time and/or money to a cause or movement if their message presents a threat
+to my way of life (and/or culture).
+o o o o o
+I will definitely donate my time and/or money to a cause or movement if their message affirms/speaks to
+my identity (i.e., who I am and/or what I represent).
+o o o o o
+I will definitely donate my time and/or money to a cause or movement if their message affirms that I am
+being targeted for who I am or what I represent.
+o o o o o
+I will definitely donate my time and/or money to a cause or movement if their message motivates me to
+fight back against a threat to me or what I represent.
+o o o o o
+Q46 Please drag the options below to rank the following options in order of importance: I am most likely
+to share a message (e.g., re-post/retweet, email, etc.) if the message conveys...
+______ the problem is getting out of hand
+______ the world would be better if something is done and worse if nothing is done
+______ nothing is being done to fix the problem
+______ that I am doing the right thing
+______ it will increase my reputation
+Q47 Please drag the options below to rank the following options in order of importance: I am most likely
+to respond to a message (e.g., comment, quote tweet, etc.) online if the message conveys...
+______ the problem is getting out of hand
+______ the world would be better if something is done and worse if nothing is done
+______ nothing is being done to fix the problem
+______ that I am doing the right thing
+______ it will increase my reputation
+Q48 Please drag the options below to rank the following options in order of importance: I am most likely
+to donate my time and/or money to a cause if its messaging conveys...
+______ the problem is getting out of hand
+______ the world would be better if something is done and worse if nothing is done
+______ nothing is being done to fix the problem
+______ that I am doing the right thing
+______ it will increase my reputation
+Q49 For the following question, please think back to the question you just responded to.
+Thinking about the top three (3) factors that you chose as being most important to you, when you
+compare them two factors at a time, as shown below, which factor is more important to you when you
+consider only those two factors and no other factors?
+Comparing only between Your First and Second Most Important Factors:
+Comparing only between Your First and Third Most Important Factors
+Comparing only between your Second and Third Most Important Factors
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool
+43
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Factor 1 Factor 2 Factor 1 Factor 3 Factor 2 Factor 3
+"I am most likely to donate my time and/or money to a cause if its messaging conveys..."
+o o o o o o
+Q50 Please describe what you mean by "most likely to donate my time and/or money." (For example, I
+would donate 20 hours per week for this; or I would donate at least $[dollar value] for this; etc.)
+________________________________________________________________
+Q51 Please drag the options below to rank the following options in order of importance: I will definitely
+donate my time and/or money to a cause if its messaging conveys...
+______ the problem is getting out of hand
+______ the world would be better if something is done and worse if nothing is done
+______ nothing is being done to fix the problem
+______ that I am doing the right thing
+______ it will increase my reputation
+Q52 For the following question, please think back to the question you just responded to.
+Thinking about the top three (3) factors that you chose as being most important to you, when you
+compare them two factors at a time, as shown below, which factor is more important to you when you
+consider only those two factors and no other factors?
+Comparing only between Your First and Second Most Important Factors:
+Comparing only between Your First and Third Most Important Factors
+Comparing only between your Second and Third Most Important Factors
+Factor 1 Factor 2 Factor 1 Factor 3 Factor 2 Factor 3
+"I will definitely donate my time and/or money to a cause if its messaging conveys..."
+o o o o o o
+Q53 Please describe what you mean by "will definitely donate my time and/or money." (For example, I
+would donate 20 hours per week for this; or I would donate at least $[dollar value] for this; etc.)
+________________________________________________________________
+Q54 Please rate the following statements on whether you agree or disagree.
+For this question, please treat each statement as an independent case without relation to any other
+statements.
+Strongly disagree Somewhat disagree Neither agree nor disagree Somewhat agree Strongly agree
+I am most likely to donate my time and/or money to a cause if its messaging conveys the problem is
+getting out of hand.
+o o o o o
+I am most likely to donate my time and/or money to a cause if its messaging conveys the world would be
+better if something is done about it (and worse if nothing is done).
+o o o o o
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool
+44
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+I am most likely to donate my time and/or money to a cause if its messaging conveys nothing (or not
+enough) is being done to fix the problem.
+o o o o o
+I am most likely to donate my time and/or money to a cause if its messaging conveys "I am doing the
+right thing".
+o o o o o
+I am most likely to donate my time and/or money to a cause if its messaging conveys doing so will
+increase my reputation.
+o o o o o
+Q55 Please rate the following statements on whether you agree or disagree.
+For this question, please treat each statement as an independent case without relation to any other
+statements.
+Strongly disagree Somewhat disagree Neither agree nor disagree Somewhat agree Strongly agree
+I will definitely donate my time and/or money to a cause if its messaging conveys the problem is getting
+out of hand.
+o o o o o
+I will definitely donate my time and/or money to a cause if its messaging conveys the world would be
+better if something is done about it (and worse if nothing is done).
+o o o o o
+I will definitely donate my time and/or money to a cause if its messaging conveys nothing (or not
+enough) is being done to fix the problem.
+o o o o o
+I will definitely donate my time and/or money to a cause if its messaging conveys "I am doing the right
+thing".
+o o o o o
+I will definitely donate my time and/or money to a cause if its messaging conveys doing so will increase
+my reputation.
+o o o o o
+--- End of Survey ---
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool
+45
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Appendix B: Review of the Finalized Influence-to-Action Model (I-AM)
+The Influence-to-Action Model (I-AM) remained the same as the finalized Influence-to-Action Model (I-AM)
+presented in the Year 1 Final Report. Function 1, below, provides the function for the I-AM, and Table 18,
+also below, provides the variable names associated with each variable notation in the function:
+𝐼𝐼𝐼𝐼𝐼𝐼 = 𝑓𝑓(𝐸𝐸, 𝑇𝑇𝑖𝑖, 𝑇𝑇𝑐𝑐, 𝐴𝐴𝑖𝑖, 𝐴𝐴𝑣𝑣, 𝑉𝑉, 𝑇𝑇𝑝𝑝, 𝐹𝐹𝑎𝑎, 𝑅𝑅𝑙𝑙, 𝐺𝐺𝑖𝑖𝑖𝑖, 𝑆𝑆𝑣𝑣)
+Function 1: Finalized Influence-to-Action Model (I-AM) Function
+Variable Notation Variable Name
+Impact of Influence Operations
+𝐼𝐼𝐼𝐼𝐼𝐼 Influence Operation – Influence-to-Action
+Individual (Internal) Level Factors
+𝐸𝐸𝑐𝑐 Emotional Appeal
+𝑇𝑇𝑖𝑖 Threats to Identity
+𝑇𝑇𝑐𝑐 Threats to Way of Life (Culture)
+𝐴𝐴𝑖𝑖 Identity Affirmation
+𝐴𝐴𝑣𝑣 Victim Affirmation
+𝑉𝑉 Victimization
+Societal (Structural) Level Factors
+𝑇𝑇𝑝𝑝 Persistent and Increasing Threats
+𝐹𝐹𝑎𝑎 Clear Alternative Future (World will be
+better by doing something about it)
+𝑅𝑅𝑙𝑙 Purported Lack of Response
+𝐺𝐺𝑖𝑖𝑖𝑖 Clearly Identified In-/Out-Group (It is the
+right thing to do for the “team”)
+𝑆𝑆𝑣𝑣 Social Validation
+Table 18: Finalized Influence-to-Action Model (I-AM) Variable List
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 46
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Appendix C: Blank Influence-to-Action Campaign/Narrative Impact Assessment Tool
+Influence-to-Action Campaign / Narrative Impact Assessment Tool (version 0.1b)
+Administrative
+Information Individual (Internal) Level Variables Societal (Structural) Level Variables
+Campaign /
+Narrative Impact
+Index
+Ref.
+Num.
+Campaign /
+Narrative
+Name
+Date-Time
+Group
+Emotional
+Appeal
+Threat to
+Identity
+Threat to
+Culture /
+Way of
+Life
+Identity
+Affirmation
+Victim
+Affirmation Victimization
+Persistent /
+Increasing
+Threat
+(Things are
+getting out
+of hand)
+Clear
+Alternative
+Future
+(I can help
+make the
+world a
+better
+place)
+Purported
+Lack of
+Response
+(Not
+enough is
+being
+done)
+Clearly
+Defined
+In- / Out-
+Group(s)
+(It is the
+right
+thing to
+do for the
+"team")
+Social
+Validation
+(Everyone
+else is
+doing it; It
+increases
+my
+reputation)
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 47
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Appendix D: Sample of Tool Artifacts and Test Results
+Influence-to-Action Assessment Tool v0_1a Artifacts
+IMEG001 – “Refugees Welcome” IMEG002 – “Keep Your Country Clean” IMEG003 – “The world isn’t Getting worse…”
+IMEG004 – “Freedom is for the People…” IMEG005 – “Free COVID Tests…”
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 48
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Assessment Tool v0_1a Results
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 49
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Appendix E: Influence-to-Action Assessment Tool Instructions
+Instructions
+Usable artifacts
+This tool has been designed to be used across a variety of artifact types including images (e.g., memes, screen-shots,
+etc.), short-form writing (e.g., tweets, comments, etc.), blogs or news articles, long-form writing (e.g. journal articles,
+books, etc.), audio, and video, as well as forms of mixed-media (to include comments on videos, chat between users,
+etc.). There is no minimum number of artifacts required to make this a useful tool. It can be used as a quick check for
+a very small number of artifacts or used to aggregate and understand very large numbers of artifacts.
+Finding and storing artifacts
+Compile a selection of artifacts to be used for coding. It is helpful for the person compiling the artifacts not be the
+person coding, but is not required. It is important to make sure that the artifacts to be coded are stored somewhere
+that they can be accessed later, in case the artifacts are removed from their original source.
+Familiarize yourself with the
+variable definitions
+Please read through the definitions of each variable, paying particular attention to the differences between those
+with similar names or similar themes (e.g., victimization v. victim affirmation). Make sure that you are familiar with
+the definitions of these terms and use the provided examples to enhance your understanding.
+Read through the codebook
+Read through the codebook. The scorings are generally consistent across the board in regard to the simplified coding
+schema of 0 = no; 1 = maybe; 2 = yes, indirect; 3 = yes; direct, however there are nuances for each variable, so a close
+examination is necessary. Note that the scorings of 0 and 1 are the same for all internal variables and the scoring of 0
+is the same for all structural variables. The variables are all generally similar across variables for the scorings of 2 or
+3 and are primarily based in whether the specific variable is implied or directly stated within the artifact.
+Understand your specific
+purpose and goal for using the
+tool
+This tool has been designed to be used for a variety of purposes depending on the desired outcome of use. Some
+examples are described below:
+One artifact for
+multiple narratives
+This tool can be used to compare the effectiveness of singular artifacts across a range of
+narratives to determine what messaging may be more prolific than others in terms of
+generating action* within a population subset. For example, the tool could be used to look at a
+variety of artifacts coming from one twitter profile or a specific hate-group to determine
+where their counter-messaging campaigns should focus.
+Multiple artifacts
+for one narrative
+The tool can be used to compare artifacts within a campaign or group of narratives to help
+determine what messaging may be more prolific in terms of generating action* within the
+campaign's targeted population
+Multiple artifacts
+for multiple
+narratives based
+around a specific
+theme, movement,
+or event
+The tool can additionally be used with for more complicated analysis using multiple artifacts
+across multiple narratives, but for comparative purposes should be focused on a specific
+theme, movement, or event. The tool used in this manner can help analysts narrow down their
+focus on more specific types of messaging within a broader or global event. For example, this
+tool could be used to analyze artifacts with different messaging, from different angles or
+sources, and directed at different audiences, but with the overall theme of COVID-19 vaccine
+development.
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Influence-to-Action Model and Impact Assessment Tool 50
+UNCLASSIFIED//APPROVED FOR PUBLIC RELEASE (13 JULY 2022)
+Instructions
+Important reminders
+1. When coding, only use what is provided by the artifact. Do not infer potential meaning from the intended target
+audience or possible emotional responses from either the intended audience or opposing groups.
+2. It is helpful to have multiple analysts code at least a sample of the artifacts to ensure consistent coding throughout.
+3. Have the variable definitions and codebook available during coding in order to ensure consistent coding across the
+variables.
+Coding
+Begin coding by going through the tool one variable at a time for each artifact, coding your scoring 0-3 for each
+variable and providing justification for that score. The aggregate scoring will be automatically calculated at the far
+right of the tool and will provide a composite score for the artifact that is color-coded as described below.
+Ranges and ranking
+The tool automatically calculates a composite score for each artifact on the right, based on statistical weights that
+were determined by an American general population survey conducted by START at the University of Maryland.**
+The scores are sorted into three categories, marked by the color of the cell, with red having the highest score range
+and blue the lowest score range, as listed below. These color coding is designed to provide an easy visualization for
+the analysts on where the artifact scored on the scale for the tool as well as easy comparison between the artifacts on
+how they scored compared to each other.
+Range: 1st Tier = 14.301-21.45 2nd Tier = 7.151-14.30 3rd Tier = 0-
+7.15
+Analyzing results
+The ranges of scores and tiers indicate the potential for that artifact to sway consumers of the artifact into action. *
+The 1st tier (red) indicates a higher likelihood of action being taken as a result of consuming the artifact. The 2nd tier
+(yellow) indicates some potential for action and the 3rd tier (blue) indicates the lowest potential for action occurring
+from consuming that particular artifact. When looking across various artifacts, these ranges/tiers provide a ranking
+of artifacts that can inform analysts of what types of artifacts/messaging to focus their attention on or to further
+investigate.
+* Action refers to an outwardly observable act that is in direct/indirect response to the influence conveyance tool(s) (i.e., messaging) being presented to the target. For
+this research, term Action can be used interchangeably with the term mobilization. Further, we conceptualize “action” on a continuum of activities that range from “low
+intensity” active online participation to “high intensity” violence in the physical world.
+** For more information on the survey or the weighting of the variables please contact Dr. Steve Sin at sinss@umd.edu

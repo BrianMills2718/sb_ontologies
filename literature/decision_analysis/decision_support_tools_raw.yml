@@ -1,0 +1,635 @@
+citation: "Allen, John G. Decision Support Tools for Planning and Managing Unified Campaigns in Complex Contingencies. DARPA Integrated Battle Command Program, 2008."
+
+annotation: "Presents a comprehensive framework for decision support tools enabling commanders to design and manage unified military campaigns in complex contingencies through integrated modeling, visualization, and planning capabilities."
+
+model_type: "property_graph"
+
+rationale: "Property graph model best captures the complex network of interconnected elements including DIME actions, PMESII effects, models, tools, objectives, dependencies, and actors that form the integrated campaign planning ecosystem."
+
+schema_blueprint:
+  title: "Decision Support Tools for Unified Campaign Planning"
+  description: "A comprehensive schema modeling decision support tools, campaign planning frameworks, and integrated modeling approaches for complex military contingencies"
+  
+  root_properties:
+    nodes:
+      description: "Represents campaign elements, models, tools, objectives, actors, effects, and resources in the unified campaign planning system"
+      item_type: "Entity"
+    edges:
+      description: "Represents dependencies, interdependencies, interactions, modeling relationships, and planning connections between campaign elements"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Framework Components
+    - name: "unified-campaign"
+      category: "core-construct"
+      description: "Integrated military operation combining multiple lines of effort to achieve strategic objectives"
+    
+    - name: "complex-contingency"
+      category: "operational-context"
+      description: "Military situation involving multiple variables, actors, and uncertain outcomes requiring comprehensive planning"
+    
+    - name: "decision-support-tool"
+      category: "technology"
+      description: "Software system providing analytical capabilities to assist commanders in planning and execution"
+    
+    - name: "integrated-battle-command"
+      category: "core-construct"
+      description: "Unified command and control approach coordinating all aspects of military operations"
+    
+    # DIME Framework
+    - name: "dime-framework"
+      category: "theoretical-framework"
+      description: "Framework organizing national power instruments into Diplomatic, Information, Military, and Economic categories"
+    
+    - name: "diplomatic-instrument"
+      category: "power-instrument"
+      description: "Use of negotiation, treaties, and diplomatic engagement to achieve objectives"
+    
+    - name: "information-instrument"
+      category: "power-instrument"
+      description: "Use of information operations, messaging, and communication to influence outcomes"
+    
+    - name: "military-instrument"
+      category: "power-instrument"
+      description: "Use of armed forces and military capabilities to achieve objectives"
+    
+    - name: "economic-instrument"
+      category: "power-instrument"
+      description: "Use of economic incentives, sanctions, and trade to influence outcomes"
+    
+    # PMESII Framework
+    - name: "pmesii-framework"
+      category: "theoretical-framework"
+      description: "Framework analyzing operational environment through Political, Military, Economic, Social, Information, and Infrastructure dimensions"
+    
+    - name: "political-dimension"
+      category: "environmental-factor"
+      description: "Political structures, governance, and power relationships in the operational environment"
+    
+    - name: "military-dimension"
+      category: "environmental-factor"
+      description: "Military forces, capabilities, and security structures in the operational environment"
+    
+    - name: "economic-dimension"
+      category: "environmental-factor"
+      description: "Economic systems, resources, and financial structures in the operational environment"
+    
+    - name: "social-dimension"
+      category: "environmental-factor"
+      description: "Social structures, cultural factors, and population characteristics in the operational environment"
+    
+    - name: "information-dimension"
+      category: "environmental-factor"
+      description: "Information systems, media, and communication networks in the operational environment"
+    
+    - name: "infrastructure-dimension"
+      category: "environmental-factor"
+      description: "Physical infrastructure, utilities, and transportation systems in the operational environment"
+    
+    # Core Tool Categories
+    - name: "campaign-planning-tool"
+      category: "technology"
+      description: "Software supporting the development and management of military campaign plans"
+    
+    - name: "option-exploration-tool"
+      category: "technology"
+      description: "System enabling analysis of possible actions and their consequences"
+    
+    - name: "visualization-tool"
+      category: "technology"
+      description: "Interface providing graphical representation of plans, options, and relationships"
+    
+    - name: "modeling-system"
+      category: "technology"
+      description: "Computational system representing aspects of the operational environment"
+    
+    # Planning Elements
+    - name: "campaign-objective"
+      category: "planning-element"
+      description: "Specific goal or desired outcome in a military campaign"
+    
+    - name: "line-of-effort"
+      category: "planning-element"
+      description: "Coordinated series of activities directed toward achieving specific objectives"
+    
+    - name: "activity"
+      category: "planning-element"
+      description: "Specific action or operation within a line of effort"
+    
+    - name: "alternative"
+      category: "planning-element"
+      description: "Different course of action available to commanders"
+    
+    - name: "decision"
+      category: "planning-element"
+      description: "Choice made by commanders regarding courses of action"
+    
+    - name: "assumption"
+      category: "planning-element"
+      description: "Premise accepted as true for planning purposes without proof"
+    
+    - name: "dependency"
+      category: "relationship"
+      description: "Requirement for one element to rely on another for successful completion"
+      domain: ["activity", "objective"]
+      range: ["activity", "resource", "decision"]
+    
+    - name: "interdependency"
+      category: "relationship"
+      description: "Mutual reliance between elements where each depends on the other"
+      domain: ["activity", "objective"]
+      range: ["activity", "objective"]
+    
+    # Model Types
+    - name: "social-religious-model"
+      category: "model-type"
+      description: "Computational representation of social and religious factors in the operational environment"
+    
+    - name: "military-force-model"
+      category: "model-type"
+      description: "Computational representation of regular military forces and capabilities"
+    
+    - name: "insurgent-model"
+      category: "model-type"
+      description: "Computational representation of irregular forces and insurgent activities"
+    
+    - name: "economic-infrastructure-model"
+      category: "model-type"
+      description: "Computational representation of economic systems and infrastructure"
+    
+    - name: "social-information-model"
+      category: "model-type"
+      description: "Computational representation of information flow and social networks"
+    
+    - name: "political-economic-model"
+      category: "model-type"
+      description: "Computational representation of political and economic interactions"
+    
+    - name: "terrain-model"
+      category: "model-type"
+      description: "Computational representation of physical geography and terrain features"
+    
+    # Modeling Paradigms
+    - name: "conceptual-model"
+      category: "modeling-paradigm"
+      description: "Abstract representation focusing on concepts and relationships"
+    
+    - name: "object-model"
+      category: "modeling-paradigm"
+      description: "Representation using discrete objects and their properties"
+    
+    - name: "causal-model"
+      category: "modeling-paradigm"
+      description: "Representation focusing on cause-and-effect relationships"
+    
+    - name: "statistical-model"
+      category: "modeling-paradigm"
+      description: "Representation using statistical relationships and probabilities"
+    
+    - name: "bayesian-network"
+      category: "modeling-paradigm"
+      description: "Probabilistic model representing dependencies among variables"
+    
+    - name: "petri-net"
+      category: "modeling-paradigm"
+      description: "Mathematical modeling language for distributed systems"
+    
+    - name: "agent-based-simulation"
+      category: "modeling-paradigm"
+      description: "Simulation using autonomous agents and their interactions"
+    
+    - name: "event-based-simulation"
+      category: "modeling-paradigm"
+      description: "Simulation modeling system behavior as sequence of events"
+    
+    - name: "dynamic-system-model"
+      category: "modeling-paradigm"
+      description: "Mathematical model representing time-varying systems"
+    
+    - name: "semantic-network"
+      category: "modeling-paradigm"
+      description: "Knowledge representation using nodes and labeled relationships"
+    
+    - name: "influence-diagram"
+      category: "modeling-paradigm"
+      description: "Graphical representation of decision problems with uncertainties"
+    
+    # Tool Capabilities
+    - name: "explore-options"
+      category: "capability"
+      description: "Ability to analyze different courses of action and their implications"
+    
+    - name: "explore-consequences"
+      category: "capability"
+      description: "Ability to assess potential outcomes and effects of actions"
+    
+    - name: "plan-integration"
+      category: "capability"
+      description: "Ability to coordinate and synchronize multiple lines of effort"
+    
+    - name: "visualize-plans"
+      category: "capability"
+      description: "Ability to provide graphical representation of campaign plans"
+    
+    - name: "detect-interdependencies"
+      category: "capability"
+      description: "Ability to automatically identify relationships between plan elements"
+    
+    - name: "manage-interdependencies"
+      category: "capability"
+      description: "Ability to coordinate and resolve conflicts between interdependent elements"
+    
+    - name: "synchronize-actions"
+      category: "capability"
+      description: "Ability to coordinate timing of activities across lines of effort"
+    
+    - name: "deconflict-actions"
+      category: "capability"
+      description: "Ability to identify and resolve conflicts between planned activities"
+    
+    - name: "monitor-success"
+      category: "capability"
+      description: "Ability to track progress and assess achievement of objectives"
+    
+    # Analysis Types
+    - name: "bidirectional-analysis"
+      category: "analysis-method"
+      description: "Analytical approach examining both forward and backward causal relationships"
+    
+    - name: "multi-sided-analysis"
+      category: "analysis-method"
+      description: "Analytical approach considering multiple perspectives and stakeholders"
+    
+    - name: "what-if-analysis"
+      category: "analysis-method"
+      description: "Analytical method exploring hypothetical scenarios and their outcomes"
+    
+    - name: "multi-attribute-analysis"
+      category: "analysis-method"
+      description: "Analytical method evaluating alternatives across multiple criteria"
+    
+    # Actors and Roles
+    - name: "commander"
+      category: "actor-type"
+      description: "Military leader responsible for campaign planning and execution"
+    
+    - name: "planner"
+      category: "actor-type"
+      description: "Military staff officer responsible for developing detailed plans"
+    
+    - name: "analyst"
+      category: "actor-type"
+      description: "Military or civilian specialist providing analytical support"
+    
+    - name: "operational-level"
+      category: "command-level"
+      description: "Level of military operations linking strategic objectives to tactical actions"
+    
+    - name: "combatant-command"
+      category: "organizational-unit"
+      description: "Unified military command responsible for specific geographic or functional area"
+    
+    - name: "joint-force-headquarters"
+      category: "organizational-unit"
+      description: "Combined headquarters integrating multiple military services"
+    
+    # Campaign Phases
+    - name: "pre-conflict-phase"
+      category: "campaign-phase"
+      description: "Period before active military operations begin"
+    
+    - name: "conflict-phase"
+      category: "campaign-phase"
+      description: "Period of active military operations"
+    
+    - name: "post-conflict-phase"
+      category: "campaign-phase"
+      description: "Period after active military operations conclude"
+    
+    - name: "security-phase"
+      category: "campaign-phase"
+      description: "Phase focused on establishing and maintaining security"
+    
+    - name: "stability-phase"
+      category: "campaign-phase"
+      description: "Phase focused on creating stable conditions"
+    
+    - name: "transition-phase"
+      category: "campaign-phase"
+      description: "Phase transferring responsibilities to local authorities"
+    
+    - name: "reconstruction-phase"
+      category: "campaign-phase"
+      description: "Phase rebuilding infrastructure and institutions"
+    
+    # Strategic Concepts
+    - name: "effects-based-operations"
+      category: "strategic-concept"
+      description: "Military approach focusing on achieving desired effects rather than destroying targets"
+    
+    - name: "transformation-plan"
+      category: "strategic-concept"
+      description: "Comprehensive plan for changing political, social, and economic structures"
+    
+    - name: "power-transfer"
+      category: "strategic-concept"
+      description: "Process of transferring authority from hostile to friendly regime"
+    
+    - name: "legitimate-institutions"
+      category: "strategic-concept"
+      description: "Governmental and social structures accepted as valid by the population"
+    
+    - name: "democratic-regime"
+      category: "political-entity"
+      description: "Government system based on democratic principles and popular representation"
+    
+    - name: "hostile-regime"
+      category: "political-entity"
+      description: "Government or authority opposed to coalition objectives"
+    
+    - name: "obstructionist"
+      category: "actor-type"
+      description: "Individual or group actively opposing campaign objectives"
+    
+    # Outcomes and Effects
+    - name: "desired-effect"
+      category: "outcome"
+      description: "Intended result or consequence of planned actions"
+    
+    - name: "undesired-consequence"
+      category: "outcome"
+      description: "Negative or unintended result of actions"
+    
+    - name: "integrated-effect"
+      category: "outcome"
+      description: "Result achieved through coordination of multiple lines of effort"
+    
+    - name: "synergistic-effect"
+      category: "outcome"
+      description: "Result where combined actions produce greater impact than sum of parts"
+    
+    - name: "reinforcing-effect"
+      category: "outcome"
+      description: "Result where actions strengthen and support each other"
+    
+    - name: "end-state"
+      category: "outcome"
+      description: "Final desired condition achieved through campaign execution"
+    
+    # Resources and Constraints
+    - name: "resource"
+      category: "planning-element"
+      description: "Personnel, equipment, or capabilities available for campaign execution"
+    
+    - name: "node"
+      category: "system-element"
+      description: "Point of connection or interaction in a network or system"
+    
+    - name: "action"
+      category: "planning-element"
+      description: "Specific operation or activity undertaken to achieve objectives"
+    
+    - name: "status"
+      category: "planning-element"
+      description: "Current condition or state of a plan element"
+    
+    # Technical Infrastructure
+    - name: "siprnet"
+      category: "technical-infrastructure"
+      description: "Secret Internet Protocol Router Network for classified communications"
+    
+    - name: "niprnet"
+      category: "technical-infrastructure"
+      description: "Non-classified Internet Protocol Router Network"
+    
+    - name: "c4isr-infrastructure"
+      category: "technical-infrastructure"
+      description: "Command, Control, Communications, Computers, Intelligence, Surveillance, and Reconnaissance systems"
+    
+    - name: "operational-net-assessment"
+      category: "information-system"
+      description: "Database containing operational assessment data"
+    
+    - name: "collaborative-information-environment"
+      category: "information-system"
+      description: "Shared information space enabling collaboration among users"
+    
+    # Experimental and Development
+    - name: "experimentation"
+      category: "development-method"
+      description: "Systematic testing and evaluation of tools and concepts"
+    
+    - name: "phase-one-results"
+      category: "research-outcome"
+      description: "Findings and lessons learned from initial development phase"
+    
+    - name: "basal-capability"
+      category: "development-milestone"
+      description: "Basic functional capability achieved in development"
+    
+    - name: "comprehensive-capability"
+      category: "development-milestone"
+      description: "Full operational capability achieved in development"
+    
+    # Visualization Requirements
+    - name: "human-machine-interface"
+      category: "interface-type"
+      description: "System interface designed for human operators"
+    
+    - name: "role-tailored-interface"
+      category: "interface-type"
+      description: "User interface customized for specific user roles"
+    
+    - name: "dimensionality-reduction"
+      category: "visualization-technique"
+      description: "Method for simplifying complex data for human comprehension"
+    
+    - name: "shared-view"
+      category: "visualization-concept"
+      description: "Common visual representation accessible to multiple users"
+    
+    - name: "comprehensible-view"
+      category: "visualization-concept"
+      description: "Visual representation that can be easily understood by users"
+    
+    # Model Characteristics
+    - name: "selectable-model"
+      category: "model-characteristic"
+      description: "Model that can be chosen based on specific requirements"
+    
+    - name: "tailorable-model"
+      category: "model-characteristic"
+      description: "Model that can be customized for specific situations"
+    
+    - name: "detailed-model"
+      category: "model-characteristic"
+      description: "Model providing sufficient granularity for planning purposes"
+    
+    - name: "modifiable-model"
+      category: "model-characteristic"
+      description: "Model that can be changed during operation"
+    
+    - name: "adaptable-model"
+      category: "model-characteristic"
+      description: "Model that can be adjusted to different adversaries or situations"
+    
+    - name: "loosely-coupled-models"
+      category: "model-architecture"
+      description: "Collection of models with minimal interdependence"
+    
+    - name: "interacting-models"
+      category: "model-architecture"
+      description: "Collection of models that influence each other's behavior"
+    
+    - name: "model-hierarchy"
+      category: "model-architecture"
+      description: "Structured arrangement of models at different levels of abstraction"
+    
+    # Analytical Outputs
+    - name: "plausible-outcome"
+      category: "analytical-output"
+      description: "Possible result that is realistic and credible"
+    
+    - name: "surprising-outcome"
+      category: "analytical-output"
+      description: "Unexpected but legitimate result produced by analysis"
+    
+    - name: "astonishing-outcome"
+      category: "analytical-output"
+      description: "Highly unexpected but plausible result from model interaction"
+    
+    - name: "outcome-distribution"
+      category: "analytical-output"
+      description: "Range of possible results with associated probabilities"
+    
+    - name: "trend-insight"
+      category: "analytical-output"
+      description: "Understanding of general patterns or directions"
+    
+    - name: "specific-guidance"
+      category: "analytical-output"
+      description: "Detailed recommendations for particular situations"
+    
+    # Complexity Management
+    - name: "factorial-complexity"
+      category: "complexity-measure"
+      description: "Exponential growth in complexity as number of elements increases"
+    
+    - name: "cut-and-paste-capability"
+      category: "tool-feature"
+      description: "Ability to move plan elements and automatically repair dependencies"
+    
+    - name: "automatic-detection"
+      category: "tool-feature"
+      description: "System capability to identify relationships without manual input"
+    
+    # Relationships
+    - name: "enables"
+      category: "relationship"
+      description: "Relationship where one element provides capability for another"
+      domain: ["tool", "capability"]
+      range: ["objective", "outcome"]
+    
+    - name: "supports"
+      category: "relationship"
+      description: "Relationship where one element assists or reinforces another"
+      domain: ["activity", "tool"]
+      range: ["objective", "decision"]
+    
+    - name: "coordinates"
+      category: "relationship"
+      description: "Relationship involving synchronization of activities"
+      domain: ["commander", "tool"]
+      range: ["activity", "line-of-effort"]
+    
+    - name: "influences"
+      category: "relationship"
+      description: "Relationship where one element affects another"
+      domain: ["factor", "action"]
+      range: ["outcome", "decision"]
+    
+    - name: "requires"
+      category: "relationship"
+      description: "Relationship where one element needs another for completion"
+      domain: ["activity", "objective"]
+      range: ["resource", "capability"]
+    
+    - name: "produces"
+      category: "relationship"
+      description: "Relationship where one element generates another"
+      domain: ["action", "tool"]
+      range: ["effect", "outcome"]
+    
+    - name: "represents"
+      category: "relationship"
+      description: "Relationship where one element stands for or models another"
+      domain: ["model", "visualization"]
+      range: ["environment", "situation"]
+    
+    - name: "integrates"
+      category: "relationship"
+      description: "Relationship combining multiple elements into unified whole"
+      domain: ["tool", "framework"]
+      range: ["line-of-effort", "capability"]
+
+  schema:
+    type: "object"
+    properties:
+      nodes:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+            type:
+              type: "string"
+              enum: ["Entity"]
+            label:
+              type: "string"
+              enum: [
+                "unified-campaign", "complex-contingency", "decision-support-tool", "integrated-battle-command",
+                "diplomatic-instrument", "information-instrument", "military-instrument", "economic-instrument",
+                "political-dimension", "military-dimension", "economic-dimension", "social-dimension", "information-dimension", "infrastructure-dimension",
+                "campaign-planning-tool", "option-exploration-tool", "visualization-tool", "modeling-system",
+                "campaign-objective", "line-of-effort", "activity", "alternative", "decision", "assumption",
+                "social-religious-model", "military-force-model", "insurgent-model", "economic-infrastructure-model", "social-information-model", "political-economic-model", "terrain-model",
+                "conceptual-model", "object-model", "causal-model", "statistical-model", "bayesian-network", "petri-net", "agent-based-simulation", "event-based-simulation", "dynamic-system-model", "semantic-network", "influence-diagram",
+                "commander", "planner", "analyst", "operational-level", "combatant-command", "joint-force-headquarters",
+                "pre-conflict-phase", "conflict-phase", "post-conflict-phase", "security-phase", "stability-phase", "transition-phase", "reconstruction-phase",
+                "effects-based-operations", "transformation-plan", "power-transfer", "legitimate-institutions", "democratic-regime", "hostile-regime", "obstructionist",
+                "desired-effect", "undesired-consequence", "integrated-effect", "synergistic-effect", "reinforcing-effect", "end-state",
+                "resource", "node", "action", "status", "siprnet", "niprnet", "c4isr-infrastructure", "operational-net-assessment", "collaborative-information-environment",
+                "plausible-outcome", "surprising-outcome", "astonishing-outcome", "outcome-distribution", "trend-insight", "specific-guidance"
+              ]
+            properties:
+              type: "object"
+              additionalProperties: true
+          required: ["id", "type", "label"]
+      edges:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+            type:
+              type: "string"
+              enum: ["NaryTuple"]
+            label:
+              type: "string"
+              enum: [
+                "dependency", "interdependency", "enables", "supports", "coordinates", "influences", "requires", "produces", "represents", "integrates",
+                "explore-options", "explore-consequences", "plan-integration", "visualize-plans", "detect-interdependencies", "manage-interdependencies", "synchronize-actions", "deconflict-actions", "monitor-success",
+                "bidirectional-analysis", "multi-sided-analysis", "what-if-analysis", "multi-attribute-analysis",
+                "dime-framework", "pmesii-framework", "effects-based-operations", "transformation-plan", "power-transfer"
+              ]
+            source:
+              type: "string"
+            target:
+              type: "string"
+            properties:
+              type: "object"
+              additionalProperties: true
+          required: ["id", "type", "label", "source", "target"]
+    required: ["nodes", "edges"]

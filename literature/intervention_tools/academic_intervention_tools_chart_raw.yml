@@ -1,0 +1,282 @@
+citation: "National Center on Intensive Intervention. Academic Intervention Tools Chart. American Institutes for Research, Sept. 2021."
+annotation: "Systematic evaluation framework for academic interventions using technical rigor ratings, effect sizes, and study quality indicators across reading and mathematics domains."
+model_type: "property_graph"
+rationale: "The framework models complex relationships between interventions, studies, quality indicators, and outcomes requiring graph-structured representation."
+schema_blueprint:
+  title: "Academic Intervention Tools Evaluation Framework"
+  description: "A comprehensive evaluation system for assessing the technical rigor and effectiveness of academic intervention programs through standardized quality indicators and effect size measures."
+  root_properties:
+    nodes:
+      description: "Interventions, studies, quality indicators, effect sizes, student populations, and research outcomes in the evaluation framework."
+      item_type: "Entity"
+    edges:
+      description: "Evaluation relationships, quality assessments, effectiveness measures, and research connections between framework components."
+      item_type: "NaryTuple"
+  definitions:
+    - name: "academic_intervention"
+      category: "core-construct"
+      description: "Educational program designed to improve student performance in specific academic areas."
+      domain: ["Program"]
+      range: ["Student", "AcademicDomain"]
+    - name: "technical_rigor"
+      category: "measurement-method"
+      description: "Systematic assessment of research study quality using standardized criteria."
+      domain: ["Study"]
+      range: ["QualityRating"]
+    - name: "quality_of_design_and_results"
+      category: "evaluation-dimension"
+      description: "Assessment of study methodology and outcome validity."
+      domain: ["Study"]
+      range: ["QualityRating"]
+    - name: "quality_of_other_indicators"
+      category: "evaluation-dimension"
+      description: "Assessment of additional study quality factors beyond design and results."
+      domain: ["Study"]
+      range: ["QualityRating"]
+    - name: "intensity"
+      category: "evaluation-dimension"
+      description: "Assessment of intervention dosage and implementation fidelity."
+      domain: ["Intervention"]
+      range: ["IntensityLevel"]
+    - name: "additional_research"
+      category: "evaluation-dimension"
+      description: "Assessment of supporting research evidence beyond primary study."
+      domain: ["Intervention"]
+      range: ["ResearchSupport"]
+    - name: "convincing_evidence"
+      category: "quality-rating"
+      description: "Highest level of evidence quality indicating strong methodological rigor and reliable results."
+      subTypeOf: "evidence_level"
+    - name: "partially_convincing_evidence"
+      category: "quality-rating"
+      description: "Moderate level of evidence quality indicating adequate but not optimal methodological rigor."
+      subTypeOf: "evidence_level"
+    - name: "unconvincing_evidence"
+      category: "quality-rating"
+      description: "Lowest level of evidence quality indicating poor methodological rigor or unreliable results."
+      subTypeOf: "evidence_level"
+    - name: "data_unavailable"
+      category: "quality-rating"
+      description: "Rating indicating insufficient data to assess evidence quality."
+      subTypeOf: "evidence_level"
+    - name: "not_applicable"
+      category: "quality-rating"
+      description: "Rating indicating evaluation criterion does not apply to specific study design."
+      subTypeOf: "evidence_level"
+    - name: "effect_size"
+      category: "measurement-method"
+      description: "Standardized measure of intervention impact magnitude."
+      domain: ["Intervention", "Study"]
+      range: ["EffectMagnitude"]
+    - name: "targeted_measure"
+      category: "outcome-type"
+      description: "Primary outcome measure directly aligned with intervention goals."
+      domain: ["Study"]
+      range: ["OutcomeMeasure"]
+    - name: "broader_measure"
+      category: "outcome-type"
+      description: "Secondary outcome measure assessing generalization or transfer effects."
+      domain: ["Study"]
+      range: ["OutcomeMeasure"]
+    - name: "average_effect_size"
+      category: "statistical-measure"
+      description: "Mean effect size across multiple outcome measures or studies."
+      domain: ["Intervention"]
+      range: ["EffectMagnitude"]
+    - name: "statistically_significant"
+      category: "statistical-property"
+      description: "Effect size reaching predetermined threshold for statistical significance."
+      domain: ["EffectSize"]
+      range: ["SignificanceLevel"]
+    - name: "disaggregated_data"
+      category: "analytical-method"
+      description: "Effect size data broken down by student subgroups or characteristics."
+      domain: ["Study"]
+      range: ["SubgroupAnalysis"]
+    - name: "visual_analysis"
+      category: "analytical-method"
+      description: "Systematic examination of graphical data patterns in single-case research."
+      domain: ["SingleCaseStudy"]
+      range: ["VisualAnalysisRating"]
+    - name: "group_design"
+      category: "study-design"
+      description: "Research methodology comparing intervention and control groups."
+      subTypeOf: "research_design"
+    - name: "single_case"
+      category: "study-design"
+      description: "Research methodology examining individual participant responses across conditions."
+      subTypeOf: "research_design"
+    - name: "reading"
+      category: "academic-domain"
+      description: "Academic subject area focused on literacy and comprehension skills."
+      subTypeOf: "subject_area"
+    - name: "mathematics"
+      category: "academic-domain"
+      description: "Academic subject area focused on numerical and mathematical reasoning skills."
+      subTypeOf: "subject_area"
+    - name: "pre_k"
+      category: "grade-level"
+      description: "Educational level preceding kindergarten."
+      subTypeOf: "educational_level"
+    - name: "elementary"
+      category: "grade-level"
+      description: "Educational levels kindergarten through fifth grade."
+      subTypeOf: "educational_level"
+    - name: "middle_school"
+      category: "grade-level"
+      description: "Educational levels sixth through eighth grade."
+      subTypeOf: "educational_level"
+    - name: "high_school"
+      category: "grade-level"
+      description: "Educational levels ninth through twelfth grade."
+      subTypeOf: "educational_level"
+    - name: "twentieth_percentile_or_below"
+      category: "student-characteristic"
+      description: "Students performing in the lowest 20% of academic achievement distribution."
+      subTypeOf: "performance_level"
+    - name: "demographic_subgroup"
+      category: "student-characteristic"
+      description: "Students grouped by demographic characteristics such as race, ethnicity, or socioeconomic status."
+      subTypeOf: "student_classification"
+    - name: "technical_review_committee"
+      category: "organizational-entity"
+      description: "Independent panel of experts evaluating intervention research quality."
+      domain: ["Organization"]
+      range: ["EvaluationCriteria"]
+    - name: "evaluation_criteria"
+      category: "methodological-framework"
+      description: "Standardized set of standards for assessing research study quality."
+      domain: ["Committee"]
+      range: ["QualityStandard"]
+    - name: "scientific_rigor"
+      category: "research-quality"
+      description: "Adherence to systematic research methodology and validity standards."
+      domain: ["Study"]
+      range: ["RigorLevel"]
+    - name: "efficacy_demonstration"
+      category: "research-outcome"
+      description: "Evidence showing intervention effectiveness under controlled conditions."
+      domain: ["Intervention"]
+      range: ["EfficacyLevel"]
+    - name: "instructional_intervention"
+      category: "intervention-type"
+      description: "Educational program focused on academic skill development."
+      subTypeOf: "academic_intervention"
+    - name: "independent_evaluation"
+      category: "evaluation-process"
+      description: "Assessment conducted without bias or conflict of interest."
+      domain: ["Committee"]
+      range: ["Study"]
+    - name: "chart_inclusion"
+      category: "selection-process"
+      description: "Process for determining which interventions meet criteria for chart inclusion."
+      domain: ["EvaluationCriteria"]
+      range: ["Intervention"]
+    - name: "endorsement_disclaimer"
+      category: "methodological-caveat"
+      description: "Clarification that chart inclusion does not constitute recommendation."
+      domain: ["Chart"]
+      range: ["Intervention"]
+    - name: "consumer_information"
+      category: "dissemination-purpose"
+      description: "Educational resource for informed intervention selection."
+      domain: ["Chart"]
+      range: ["Educator", "Family"]
+    - name: "individual_needs_matching"
+      category: "selection-process"
+      description: "Process of aligning intervention characteristics with specific student requirements."
+      domain: ["Educator"]
+      range: ["Student", "Intervention"]
+    - name: "study_comparison_disclaimer"
+      category: "methodological-caveat"
+      description: "Clarification that studies are evaluated independently rather than comparatively."
+      domain: ["EvaluationProcess"]
+      range: ["Study"]
+    - name: "program_filtering"
+      category: "search-functionality"
+      description: "Capability to narrow intervention selection by specific criteria."
+      domain: ["User"]
+      range: ["Subject", "GradeLevel"]
+    - name: "effect_size_calculation"
+      category: "statistical-method"
+      description: "Mathematical procedure for determining intervention impact magnitude."
+      domain: ["Study"]
+      range: ["EffectSize"]
+    - name: "effect_size_unavailable"
+      category: "data-limitation"
+      description: "Situation where effect size cannot be calculated from available data."
+      domain: ["Study"]
+      range: ["EffectSize"]
+    - name: "targeted_measure_unavailable"
+      category: "data-limitation"
+      description: "Absence of primary outcome measures for study evaluation."
+      domain: ["Study"]
+      range: ["OutcomeMeasure"]
+    - name: "broader_measure_unavailable"
+      category: "data-limitation"
+      description: "Absence of secondary outcome measures for study evaluation."
+      domain: ["Study"]
+      range: ["OutcomeMeasure"]
+    - name: "research_evidence_synthesis"
+      category: "analytical-process"
+      description: "Integration of multiple studies to assess overall intervention effectiveness."
+      domain: ["ReviewCommittee"]
+      range: ["Intervention"]
+    - name: "quality_rating_system"
+      category: "evaluation-framework"
+      description: "Systematic approach to categorizing research study quality levels."
+      domain: ["EvaluationCriteria"]
+      range: ["QualityRating"]
+    - name: "bubble_rating_system"
+      category: "visual-representation"
+      description: "Graphical system using filled, half-filled, and empty circles to represent evidence quality."
+      domain: ["Chart"]
+      range: ["QualityRating"]
+    - name: "legend_interpretation"
+      category: "user-guidance"
+      description: "Explanatory system for understanding chart symbols and ratings."
+      domain: ["Chart"]
+      range: ["User"]
+    - name: "intervention_taxonomy"
+      category: "classification-system"
+      description: "Organized framework for categorizing intervention types and characteristics."
+      domain: ["Classification"]
+      range: ["Intervention"]
+    - name: "appropriateness_evaluation"
+      category: "selection-process"
+      description: "Assessment of intervention suitability for specific student populations."
+      domain: ["Educator"]
+      range: ["Student", "Intervention"]
+    - name: "study_quality_interpretation"
+      category: "user-guidance"
+      description: "Process of understanding and applying quality ratings to intervention selection."
+      domain: ["User"]
+      range: ["QualityRating", "EffectSize"]
+    - name: "joint_interpretation"
+      category: "analytical-approach"
+      description: "Combined consideration of study quality and effect size information."
+      domain: ["User"]
+      range: ["QualityRating", "EffectSize"]
+    - name: "chart_updating"
+      category: "maintenance-process"
+      description: "Regular revision of intervention information based on new research."
+      domain: ["Organization"]
+      range: ["Chart"]
+    - name: "evidence_level"
+      category: "abstract-construct"
+      description: "Hierarchical classification of research evidence quality."
+    - name: "research_design"
+      category: "abstract-construct"
+      description: "Methodological approach for conducting intervention research."
+    - name: "subject_area"
+      category: "abstract-construct"
+      description: "Academic domain for intervention focus."
+    - name: "educational_level"
+      category: "abstract-construct"
+      description: "Grade-based classification of student populations."
+    - name: "performance_level"
+      category: "abstract-construct"
+      description: "Academic achievement classification for student targeting."
+    - name: "student_classification"
+      category: "abstract-construct"
+      description: "System for grouping students by relevant characteristics."

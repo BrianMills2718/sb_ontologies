@@ -1,0 +1,846 @@
+A taxonomy of behaviour change methods: an Intervention
+Mapping approach
+Gerjo Koka , Nell H. Gottliebb
+, Gjalt-Jorn Y. Petersa,c
+, Patricia Dolan Mullenb
+, Guy S. Parcelb
+,
+Robert A.C. Ruiter a
+, María E. Fernándezb
+, Christine Markhamb and L. Kay Bartholomewb
+a
+School of Psychology & Neuroscience, Maastricht University, Maastricht, MD, The Netherlands; b School of Public
+Health, University of Texas, Houston, TX, USA; c School of Psychology, Open University, Heerlen, DL, The Netherlands
+ABSTRACT
+In this paper, we introduce the Intervention Mapping (IM) taxonomy of
+behaviour change methods and its potential to be developed into a
+coding taxonomy. That is, although IM and its taxonomy of behaviour
+change methods are not in fact new, because IM was originally developed
+as a tool for intervention development, this potential was not immediately
+apparent. Second, in explaining the IM taxonomy and defining the relevant
+constructs, we call attention to the existence of parameters for
+effectiveness of methods, and explicate the related distinction between
+theory-based methods and practical applications and the probability that
+poor translation of methods may lead to erroneous conclusions as to
+method-effectiveness. Third, we recommend a minimal set of intervention
+characteristics that may be reported when intervention descriptions and
+evaluations are published. Specifying these characteristics can greatly
+enhance the quality of our meta-analyses and other literature syntheses. In
+conclusion, the dynamics of behaviour change are such that any taxonomy
+of methods of behaviour change needs to acknowledge the importance of,
+and provide instruments for dealing with, three conditions for effectiveness
+for behaviour change methods. For a behaviour change method to be
+effective: (1) it must target a determinant that predicts behaviour; (2) it
+must be able to change that determinant; (3) it must be translated into a
+practical application in a way that preserves the parameters for
+effectiveness and fits with the target population, culture, and context. Thus,
+taxonomies of methods of behaviour change must distinguish the specific
+determinants that are targeted, practical, specific applications, and the
+theory-based methods they embody. In addition, taxonomies should
+acknowledge that the lists of behaviour change methods will be used by,
+and should be used by, intervention developers. Ideally, the taxonomy
+should be readily usable for this goal; but alternatively, it should be clear
+how the information in the taxonomy can be used in practice. The IM
+taxonomy satisfies these requirements, and it would be beneficial if other
+taxonomies would be extended to also meet these needs.
+ARTICLE HISTORY
+Received 24 July 2014
+Accepted 24 July 2015
+KEYWORDS
+Taxonomy; behaviour
+change; meta-analysis; meta-
+analyses; review;
+interventions
+Introduction
+Recent attempts to establish a cumulative science of behaviour change have used taxonomies of
+behaviour change techniques (or methods; BCTs) to derive effectiveness of such techniques
+through meta-analysis of intervention evaluations (Michie & Johnston, 2012). These taxonomies
+© 2015 The author(s). Published by Informa UK Limited, trading as Taylor & Francis Group.
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/Licenses/by/4.0/
+), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+CONTACT Gerjo Kok g.kok@maastrichtuniversity.nl
+Supplemental material for this article can be accessed here: http://dx.doi.org/10.1080/17437199.2015.1077155 or at http://osf.
+io/sqtuz.
+HEALTH PSYCHOLOGY REVIEW, 2016
+VOL. 10, NO. 3, 297–312
+http://dx.doi.org/10.1080/17437199.2015.1077155
+have been widely applied and developed further, for example, geared towards physical activity and
+diet (Michie et al., 2011). Useful though they are, being taxonomies that are developed as a means to
+categorise intervention content, ‘evidence of “efficacy” or “effectiveness” is not part of the definition
+of BCTs’ (Michie, Johnson, & Johnston, 2015, p. 25). This means that although these taxonomies
+contain effective behaviour change methods (techniques), they also contain ineffective methods,
+and may even contain counter-effective methods. Thus, while well-suited for intervention coding,
+such taxonomies are not a good basis for intervention development. Although a taxonomy for inter-
+vention development has existed for some time (Bartholomew, Parcel, & Kok, 1998), it has never been
+published as such. The current contribution presents this taxonomy, which is extracted from the
+Intervention Mapping (IM) protocol for the development, implementation, and evaluation of behav-
+iour change interventions (IM; Bartholomew, Parcel, Kok, Gottlieb, & Fernández, 2011).
+Whereas taxonomies for coding interventions generally consist of descriptions of BCTs, taxo-
+nomies for developing interventions need to acknowledge a number of additional aspects of the
+dynamics of behaviour change. Three such aspects emerged in a recent critique of the approach
+to use BCT taxonomies in meta-analyses (De Bruin, Crutzen, & Peters, 2015; Peters, de Bruin, &
+Crutzen, 2015). Specifically, first, the selection of behaviour change methods should include a
+careful match with determinants that they can in fact change (e.g., guided practice is an effective
+method to enhance self-efficacy or to train skills, but not to change subjective norms); second, a
+precursor to intervention development should assure that these determinants indeed predict the
+relevant behaviour (e.g., if a behaviour is exceptionally easy to perform, targeting self-efficacy will
+not yield behaviour change); and third, when change methods are applied, the parameters for a
+method’s effectiveness must be satisfied (e.g., successful modelling requires reinforcing an appropri-
+ate model). Before explaining this more in depth and providing definitions for these concepts, we will
+briefly introduce the IM protocol.
+Origins, the dynamics of behaviour change, and definitions of the proposed
+taxonomy
+The IM protocol (Bartholomew et al., 2011) describes the iterative path from problem identification to
+problem-solving or mitigation. Each of the six steps of IM comprises several tasks each of which inte-
+grates theory and evidence. The completion of the tasks within a step creates a product that is the
+guide for the subsequent step. The completion of all of the steps serves as a blueprint for designing,
+implementing, and evaluating an intervention based on a foundation of theoretical, empirical, and
+practical information. The six steps and related tasks of the IM process are: (1) conduct a needs assess-
+ment or problem analysis by identifying what, if anything, needs to be changed and for whom; (2)
+create matrices of change objectives by combining (sub-)behaviours with behavioural determinants
+to identify which beliefs should be targeted by the intervention; (3) select theory-based intervention
+methods that match the determinants into which the identified beliefs aggregate, and translate these
+into practical applications that satisfy the parameters for effectiveness of the selected methods; (4)
+integrate the practical applications into an organised programme; (5) plan for adoption, implemen-
+tation, and sustainability of the programme in real-life contexts by identifying programme users and
+supporters and determining what their needs are and how these should be fulfilled; (6) generate an
+evaluation plan to conduct effect and process evaluations to measure programme effectiveness. The
+keywords in IM are planning, research, and theory. IM provides a vocabulary for programme planning,
+procedures for planning activities, and technical assistance with identifying theory-based determi-
+nants and matching them with appropriate methods for change.
+Determinants
+Changing something requires understanding it first. In the case of behaviour change, it is necessary to
+understand why people engage (or do not engage) in the behaviour of interest. These reasons, as far
+298 G. KOK ET AL.
+as they exist within an individual, are commonly seen as ideas, or cognitions, or emotions, or beliefs,
+or processes, or automatic associations, etc. The literature commonly distinguishes two levels for such
+reasons; the lowest level, containing the individual thoughts, emotions, automatic associations, or
+elements of a process; and an aggregate level, where similar and related thoughts, emotions, auto-
+matic associations, and process elements exist aggregated in so-called ‘determinants’ (Peters, 2014).
+Thus, an individual might believe that condoms decrease the likelihood of contracting a sexually
+transmitted infection; that condoms decrease the sensations during intercourse; that most of her
+friends do not use condoms; and that her health-care provider endorses condom use. The first
+two beliefs are generally thought to aggregate into the determinant ‘attitude’; the last two beliefs
+into the determinant ‘social norm’. This aggregation is based on functional similarity; attitudinal
+beliefs have a similar structure, and influence behaviour similarly; beliefs underlying self-efficacy
+are also similar but different (i.e., they all concern ability and control, but cover different aspects of
+a behaviour), etc. This functional aggregation of similar beliefs into determinants has enabled devel-
+opment of theories that can be used to explain a wide variety of behaviours in a wide variety of popu-
+lations and contexts.
+Thus, behavioural determinants are generic aggregates of beliefs, which instead are specific to
+behaviour, population, and context. It follows from this that we define personal determinants as
+generic modifiable psychological variables or regulatory processes that are assumed, on the basis
+of empirical or theoretical evidence, to be causal antecedents of behaviour. We define beliefs as
+the specific lower level elements of these determinants that together make up each determinant.
+Note the breadth of this definition of a belief. Traditionally, beliefs are often defined to be similar
+to reasons for behaviour. Instead, in the current definition, beliefs can also be elements of a
+process (e.g., monitoring or goal selection), and therefore, determinants can also be processes
+(e.g., self-regulation or goal setting). Behaviour change methods try to change behaviour by trying
+to change determinants. However, as determinants are defined generically, they cannot be targeted
+directly. Instead, behaviour change methods target specific beliefs, and therefore, for any behaviour
+change method, it must be clear which belief(s) are targeted (and into which determinant(s) these
+beliefs aggregate). When a belief has been selected as intervention target, it is generally known as
+a ‘change objective’.
+It is very common in descriptions of behaviour change interventions in the scientific literature to
+include no, or only cursory, descriptions of the determinants targeted by the intervention. With no
+determinants hypothesised, it is impossible for a reader to judge whether the theory-based
+change methods chosen to influence behaviour are the correct ones. As has been argued before,
+‘[ … ] what is effective for a given behaviour, delivered in a particular way, in a given target group
+and a given context may not be effective for other behaviours [and] target groups [ … ]’, which is
+in no small part due to differences in relevant determinants or differential matched between deter-
+minants and methods (Michie & West, 2013, p. 14).
+Theory-based methods for change
+We define theory-based methods, or behaviour change methods, as general techniques or pro-
+cesses that have been shown to be able to change one or more determinants of behaviour of
+members of the at-risk group or of environmental decision-makers (Abraham & Michie, 2008;
+Bartholomew et al., 2011). Note that by ‘theory based’, we mean that the methods ‘have their
+origins in behavioural and social science theories’ (Bartholomew et al., 1998), and it is not uncom-
+mon that evidence for a method is provided in several theories. The theory explains how the
+mechanism of action works, and thus testifies as to why we can expect a causal link between
+application of the method and behaviour change. As such, theory-based methods are based
+on the literature regarding effective behaviour change. Such research almost never concerns
+methods for influencing behaviour directly: in almost all cases, general methods are studied for
+influencing generic determinants, such as attitude or self-efficacy, that in turn are supposed to
+HEALTH PSYCHOLOGY REVIEW 299
+influence the behaviour. The generic nature of these determinants and the methods to change
+them is consistent with psychologists’ aim to study human behaviour and psychology in
+general; yet at the same time, this means that such methods cannot immediately be applied in
+behaviour change interventions. After all, such interventions will always take place in specific
+populations and environments: they must contain specific messages that target selected beliefs
+within the determinants of interest, and require specific translation to practical applications to
+reach optimal fit.
+Practical applications
+We define practical applications as specific translations of theory-based methods for practical use in
+ways that fit the intervention population and the context in which the intervention will be conducted
+(Bartholomew et al., 2011). Note that practical applications therefore have as one of their character-
+istics one or more mode(s) of delivery, such as ‘face to face’, ‘internet’, or ‘telephone’ (Hoffmann et al.,
+2014). For example, a group discussion is an example of a practical application, and can be held face
+to face or using the internet (i.e., with different modes of delivery). In addition, specifying the mode of
+delivery would not suffice to describe the application: the exact content of group discussion proto-
+cols or a recording are also part of the application. This is important because any thorough descrip-
+tion of an application needs to make clear how satisfaction of the parameters of effectiveness of the
+embodied methods of behaviour change is secured. For example, group discussions can increase
+knowledge only if the correct schemata are activated in those discussions (see Table 2 in the sup-
+plementary materials or at http://osf.io/sqtuz). Therefore, a part of the application must be a
+system for ensuring that these schemata are addressed in the discussions, regardless of mode of
+delivery (e.g., face to face).
+For example, change objectives for an intervention might be to increase adolescents’ self-efficacy
+beliefs to resist social pressure to use drugs. The accompanying belief would be, for example, ‘When I
+am at a party and a friend offers drugs, it is hard to resist’. Successfully changing this belief into: ‘When
+I am at a party and a friend offers drugs, I am confident that I can resist’, would increase adolescents’
+self-efficacy (the overarching determinant) to refuse offered drugs. To achieve this change objective,
+theory-based methods might include modelling, guided practice with feedback, and reinforcement.
+One application for modelling in a school setting could be a videotaped step-by-step demonstration
+by adolescents of how to resist peer pressure in situations they commonly encounter. However, for a
+different population, such as low-income middle-aged migrants, a discussion session that incorpor-
+ates a role playing session with a professional actor might be more appropriate. Thus, the same
+method can be translated into a myriad of possible applications depending on the specific popu-
+lation and context. Similarly, one application can be a manifestation of multiple methods, as illus-
+trated in Table 15 in the supplementary materials or at http://osf.io/sqtuz (also see Figures 2 and 3
+in Kok, 2014).
+The situation commonly encountered in the ‘real world’ of intervention development (poss-
+ibly as compared to a tightly controlled research development situation) is that theory-based
+methods tend to disappear in translation. In other words, even when there is a clear plan for
+what determinants to target and what theory-based method to use to promote change, in the
+end, when translating these methods to actual materials and messages, programmes are
+often missing necessary methods. Some methods may be lost in translation because logistical
+issues of development and production of programme components and materials may begin
+to seem overwhelming and cuts are made to the plan. Other times, attempts are made to
+attach theory-based change methods to influence each determinant, but the ways in which
+the practical applications are conceptualised and delivered do a poor job of translating the
+methods. We explicate this problem further in the discussion in the next section – parameters
+for methods.
+300 G. KOK ET AL.
+Parameters for methods
+Translating methods into practical applications demands a sufficient understanding of the theory
+behind the method, especially the theoretical parameters under which the theoretical process is
+effective or not (Kok, Gottlieb, Panne, & Smerecnik, 2012; Schaalma & Kok, 2009). Parameters of effec-
+tiveness of a theoretical method are defined as the conditions that must be satisfied in practical appli-
+cations for the method to be effective. In other words, if a practical application embodies a given
+theoretical method but violates one or more parameters of effectiveness of that method, it will be
+less effective or may even be counter effective. For example, modelling is a strong method but
+only when certain parameters are met, for instance reinforcement of the modelled behaviour (McAl-
+ister, Perry, & Parcel, 2008). People or environmental decision-makers do not usually imitate behav-
+iour simply because a model demonstrates that behaviour; they behave comparably to the model
+only when the model exhibits certain characteristics, such as being reinforced for that particular
+behaviour and when they expect to be reinforced in a similar way. Translating the method modelling
+to a practical application includes taking care that in the actual programme, from the perspective of
+the programme participants, the model is reinforced (but see Table 1 in the supplementary materials
+or at http://osf.io/sqtuz for the other parameters). As a second example, goal setting can be a very
+effective method, but only when the goal is challenging as well as acceptable for the actor.
+People often choose goals outside those parameters (see Table 7 in the supplementary materials
+or at http://osf.io/sqtuz). A third classic example is provided by the method implementation intentions.
+While very effective when properly applied, violation of its parameter for effectiveness (a pre-existing
+intention to perform the behaviour) greatly reduces or eliminates this effectiveness. Finally, fear
+appeals are only effective when the at-risk population has high (self-)efficacy and they may be
+counter effective when efficacy is low (Peters, Ruiter, & Kok, 2013). Nevertheless, many expect fear
+appeals to be generally effective (Peters, Ruiter, & Kok, 2014; Ten Hoor et al., 2012).
+All theory-based methods have such parameters, which have to be taken into account when trans-
+lating a method into a practical application. These parameters are generally specified in the theoreti-
+cal evidence for a given method, which is why this basis in theory is so important. This also illustrates
+the importance of distinguishing between theoretical methods of behaviour change and practical
+applications. An intervention consisting entirely of effective methods of behaviour change can fail
+to show any effect if the applications of these methods fail to satisfy each method’s parameters of
+effectiveness (Kok, 2014).
+Methods at environmental levels: an ecological approach
+It is very difficult to imagine a health promotion intervention setting that is not embedded in some
+kind of social or physical system (Golden & Earp, 2012). A child with asthma is in an environment with
+parents, nurses, doctors, and other children with asthma. An adolescent in an HIV-prevention pro-
+gramme is in an environment with friends, sexual partners, parents, teachers, and community
+leaders. Worksite employees participating in a smoking-cessation programme are in an environment
+with colleagues, health professionals, supervisors, and worksite policies. However, most taxonomies
+focus on individual behaviour change and only a few also include behaviour change of environ-
+mental agents (Bartholomew et al., 2011; Khan et al., 2009). Environmental conditions are not
+likely to be under the direct control of the individuals at risk for the health problem. They are con-
+trolled by decision-makers, external agents such as peers, teachers, managers, and other gatekeepers.
+Such external agents exist at various environmental levels: interpersonal, organisational, community,
+and societal levels (Kok, Gottlieb, Commers, & Smerecnik, 2008). To select methods for changing
+environmental conditions, the first thing to do is to find out who may be in a position to make
+the expected change. The programme planner has to identify the desired behaviours for the
+agent who will actually change the environmental condition. The health promoter then applies
+methods for influencing the determinants of the agent’s behaviour using methods which are
+HEALTH PSYCHOLOGY REVIEW 301
+appropriate for changing determinants at environmental levels. For example, a basic method for all
+environmental levels is advocacy, a method for the interpersonal level is enhancing network linkages,
+for the organisational level sense-making, for the community level social action, and for the societal
+level agenda setting. Again, there are theoretical parameters for effectiveness of these environmental
+level methods; for example, agenda setting requires appropriate timing, and social action needs to
+start where the community is (Bartholomew et al., 2011).
+Because environmental change always requires human agency, methods at the individual level
+can also be used for agents at higher ecological levels (Kok et al., 2012). The theoretical process
+behind the method is the same for all levels (see Figure 1 in the supplementary materials or at
+http://osf.io/sqtuz); however, often the application of the method is somewhat different, depending
+on the target. For instance, a study integrating information from interventions to change environ-
+mental conditions (Kok et al., 2012) found that the method persuasion was applied targeting environ-
+mental agents at various levels, by actors who themselves were located at various levels (e.g.,
+organisational methods could be used by health promotion agencies to target the management
+of an organisation, or by the management of an organisation to target their employees). In a
+project to decrease carbon dioxide transmission (Kok et al., 2008), the health promoter reported a
+persuasion approach that illustrated to businesses, corporations, and other companies the advan-
+tages of approaching and dealing with the issue of carbon dioxide emissions. The health promoter
+showed them how carbon dioxide reduction is profitable and made it clear to companies that
+being environmentally friendly is positive for the company image. The potential effect on the
+image of and profit for the company are typical organisational level arguments.
+A taxonomy of behavioural change methods
+Behaviour change methods
+The taxonomy we propose in the accompanying tables (provided in the supplementary materials and
+at http://osf.io/sqtuz) includes behaviour change methods derived from theory and presented in the
+IM protocol (Bartholomew et al., 2011). We include the definition of the methods and the reference to
+an original theoretical foundation. The first series of tables presents basic methods and methods
+geared to changing certain determinants (e.g., attitude and skills) of the at-risk individuals. In the
+second series of tables, we present methods for change at environmental levels. It is important for
+health promotion planners to realise that individual behaviour change is almost always embedded
+in one or more environmental levels and that methods for individual change (Tables 1–8) need to
+be complemented with methods for change at those environmental levels (Tables 9–14).
+We combine comparable determinants from different theories, for example, attitudes, beliefs, and
+outcome expectations. The various determinants are not independent of each other; we will start
+with knowledge as the basis for many other determinants, such as risk perception, attitudes, and
+skills. Risk perception in turn is a specific part of attitude. Methods described for one determinant
+may sometimes be used for other determinants as well (e.g., Elaboration). If we think that a
+method may be applied to almost any determinant we present that method in the table of ‘Basic
+Methods’. The theoretical background for all methods is provided in Bartholomew et al. (2011)
+and mentioned in the tables (see the supplementary materials or http://osf.io/sqtuz).
+Origins of the definitions
+IM originated in response to questions by students how to use theory in intervention development.
+We began to examine programmes developed in our own work and to identify general principles and
+procedures we used in our development, which led to the stepwise process of conducting a needs
+assessment, creating matrices of change objectives, selecting theory-based intervention methods,
+and translating these into practical applications, developing the programme, planning for
+302 G. KOK ET AL.
+implementation, and planning for evaluation (Bartholomew et al., 1998). The description, definitions,
+parameters, and examples of the behaviour change methods are the product of a process of joint
+conceptual analysis that was repeated over time with the various editions (Bartholomew et al.,
+2011, 2016; Bartholomew, Parcel, Kok, & Gottlieb, 2001, 2006). Most of our definitions of intervention
+methods are directly derived from the theory involved as published in textbooks on theories of
+(health) behaviour and change or in reviews and meta-analyses. Some of our definitions are based
+on definitions by others (e.g., Abraham & Michie, 2008). At two moments we involved colleagues
+in the field of health promotion and health psychology for consensus building, evaluation, and
+improvement. Preparing the 2011 editions, we sent our definitions to 50 colleagues. About 40 col-
+leagues responded with suggestions and in Bartholomew et al. (2011) we reformulated the defi-
+nitions. For the current paper we adapted some definitions based on another round of comments
+from 20 of the same 40 colleagues (Kok et al., 2012). We do not presume to give the only possible
+definition; in our consensus studies we noticed that definitions differ among experts. Together
+with the definitions we provide the parameters for use: the conditions under which the theory-
+based method will be effective. We also adapted the parameters, based on recent meta-analyses
+and reviews (e.g. Peters et al., 2013). These lists of methods and parameters are not to be used as
+a cook book. The list is meant to stimulate programme planners to judge the evidence to support
+the potential of the methods on the list to produce change as well as to assure that the parameters,
+within which particular methods can be expected to work, are considered.
+Evidence base underlying these tables
+The first column of these tables includes a reference to literature syntheses that discuss the method’s
+effectiveness and the identified parameters that moderate this effectiveness. Often, these syntheses
+are narrative reviews, whereas ideally, one or more meta-analyses would be available for each
+method. However, recently, meta-analyses addressing the effectiveness of behaviour change
+methods have failed to take into account the four conditions for a method to effectively influence
+behaviour: first, a method can only influence behaviour if it targets beliefs that underlie a determinant
+that the method can change; second, these beliefs (and the overarching determinant) must in fact be
+relevant predictors of the behaviour; third, the method must be translated into a practical application
+that fits with the target population, its culture, and the relevant context; and fourth, the parameters
+for effectiveness of the method must be satisfied in the final application (De Bruin et al., 2015; Peters
+et al., 2015). This means that currently, the evidence base underlying these methods is less grounded
+in inferential statistics than is desirable. We therefore echo the call for more meta-analyses of funda-
+mental studies, and indeed, more fundamental studies, of Peters et al. (2015). Notwithstanding this
+urgent need for more research, note that these methods are derived from psychological theory, and
+theories in themselves are a codification of an accumulation of empirical evidence. Thus, all included
+methods, even those lacking meta-analytical support, do have an evidence base, albeit not always
+one that is quantified.
+How to use the tables
+This description assumes that the intervention developer has identified which behaviour to change,
+and whose behaviour this is (i.e., either of a target population individual or of an environmental
+agent). It also assumes that the relevant determinants and underlying beliefs have been identified.
+When selecting methods for individuals from the target population, for each determinant, Tables
+1–8 can be consulted to get an initial list of methods that can be used to change that determinant.
+For example, Table 1 contains methods that can be used for most determinants, whereas Table 3 con-
+tains methods to change awareness and risk perception, and Table 6 contains methods to change
+perceived social influence. For each potential method, inspect the definition and the parameters
+to determine whether the method is applicable given the situation. Then, use the references included
+HEALTH PSYCHOLOGY REVIEW 303
+in the tables to study the relevant literature, and use bibliographic databases such as Google Scholar
+to locate more recent literature. Repeat these steps for all determinants, until methods have been
+identified to target all determinants and beliefs. Then, translate these methods into practical appli-
+cations, making sure that the parameters for effectiveness are respected. It is important to note
+that these parameters for effectiveness are subject to change as new literature is published. Also,
+the strength of the evidence for each method varies, new methods can emerge, and evidence can
+accumulate that certain methods are better avoided (e.g., threatening communication in populations
+low in self-efficacy).
+When selecting methods to target environmental agents, the process is similar. Depending on the
+environmental level of the agent, consult Tables 9–14 to get an initial list of methods. For example,
+Table 9 contains basic methods that can be used for agents at all environmental levels, whereas Table
+11 contains methods that can be used to target agents at the organisational level. Because each
+environmental agent is a person (or several), in addition to these environmental methods, Tables
+1–8 can also be consulted to get a list of methods at the individual level. Of course, at the environ-
+mental level, it is also necessary to consult the literature, both those publications cited in the tables
+and recent updates.
+Discussion
+Development versus coding taxonomies
+In the same way that coding taxonomies are unfit for intervention development, the taxonomy we
+just described is unfit for coding in its current form. Because of the different goals of the two
+types of taxonomy, each type has been optimised for different uses. Instruments for intervention
+development have to acknowledge, and provide a procedure for dealing with, the dynamics of
+behaviour change as explained above; and instruments for intervention coding have to provide
+clear, mutually exclusive definitions and categories that are optimised for reliable coding. Nonethe-
+less, both types of taxonomies deal with behaviour change, and so both types can be developed
+further to meet both goals. For example, de Bruin, Viechtbauer, Hospers and Schaalma (2009) as
+well as Van Achterberg et al. (2011) successfully integrated both approaches in their coding
+systems. The practical difference is that for a coding taxonomy, the distinction between every pair
+of comparable methods has to be very clearly defined, while for a development taxonomy,
+methods drawn from different theories may overlap, and the goal is to provide a toolbox that
+most efficiently enables planners to select the method that fits their circumstances. A consequence
+is that in a development taxonomy, methods may vary in their level of specificity, and may even
+encompass each other. For example, providing arguments always entails persuasive communication;
+as explained before, methods on the environmental level are often bundles of other methods; and
+many methods are tailored (see e.g., Mullen, Green, & Persinger, 1985).
+These differences mean that there is still work to be done to integrate these two approaches. At
+the same time, working towards such integration seems beneficial. Coding with a taxonomy that
+both acknowledges the dynamics of behaviour change and provides mutually exclusive, reliably
+applicable categories has clear advantages. Such a coding procedure would yield not only a list of
+behaviour change methods used in an intervention, but a description of targeted determinants
+(and preferably beliefs or change objectives), behaviour change methods matched to those determi-
+nants, parameters for effectiveness for those methods, and the applications that together make up
+the intervention. This distinction of the different aspects of a behaviour change intervention
+makes coding easier and more accurate: furthermore, the resulting coding is more sensitive and
+specific, creating more powerful predictors, or study outcomes.
+Similarly, developing and describing interventions using the same taxonomy that is used to code
+intervention content in meta-analyses can significantly improve meta-analysis quality. After all,
+coding intervention descriptions is more like a necessary evil than desirable in itself. Fisher famously
+304 G. KOK ET AL.
+stated, ‘To call in the statistician after an experiment is finished is often no more than asking him to
+conduct a post mortem examination. He can perhaps say what the experiment died of’ (1938, p. 17);
+and something similar is true for intervention development. Ideally, coding is redundant because
+thorough documentation is provided detailing the intervention components, the decisions that
+were taken, and the justifications. To code the terse intervention descriptions that are currently fre-
+quently encountered can provide some indication as to which behaviour change methods were used,
+whether these matched the targeted determinants, and whether the parameters for effectiveness
+were preserved during the translation to applications; but much information will have been lost.
+Currently, many intervention developers do not yet develop their interventions systematically, as
+was shown by recent qualitative (Peters et al., 2014; Schaafsma, Stoffelen, Kok, & Curfs, 2013) and
+quantitative evidence (Godin, Gagnon, Alary, Levy, & Otis, 2007). Clearly, it is important not only to
+develop a toolbox of behaviour change methods, but also to explore how interventions are currently
+developed. Such studies will often yield qualitative data, and such data sets can also be successfully
+coded using the IM taxonomy, as was recently shown by Schaafsma et al. (2013). In such coding
+efforts, the more extensive vocabulary afforded by the IM taxonomy is valuable in describing inter-
+vention developers’ reasoning and choices in sufficient detail. Ideally, the same taxonomy that is used
+for meta-analyses can be used in such qualitative studies. After all, the ultimate goal of any taxonomy
+is to enhance the quality of intervention development, and this requires that the taxonomy can either
+be directly used by practitioners to develop interventions, or that it interfaces with a system for inter-
+vention development.
+Finally, using one system for both intervention development and description on the one hand and
+coding for meta-analyses on the other hand will provide a shared vocabulary that facilitates scientific
+communications. A recent initiative to establish such a vocabulary for knowledge translation illus-
+trates the need for such a unified vocabulary (Colquhoun et al., 2014). The integration of coding
+and development taxonomies, and the requisite acknowledgement of all aspects of behaviour
+change dynamics (e.g., the distinction between theoretical methods or BCTs and practical appli-
+cations, the role of determinants and beliefs as intervention targets, and the role of parameters for
+effectiveness in determining a method or BCTs effectiveness), would enable working towards such
+a shared vocabulary. A shared vocabulary would also greatly enhance reporting of intervention
+descriptions and evaluations in the literature conform reporting guidelines.
+The IM taxonomy and reporting guidelines
+Reporting guidelines such as consolidated standards of reporting trials (CONSORT) (published simul-
+taneously by three top medical journals in 2001, that is, Moher, Schultz, and Altman for the CONSORT
+Group and most recently updated in 2010 by Schultz, Altman, and Moher for the CONSORT Group)
+have had substantial impact on the completeness of reporting of study reports, that is, randomised
+controlled trials (Turner, Shamseer, Altman, Schulz, & Moher, 2012; Turner, Shamseer, Altman, Weeks,
+et al., 2012). Their primary impact has been on titles (specifying the study design), methods sections
+(i.e., blinding of data collectors), and results sections (i.e., the well-known CONSORT flowchart). Inter-
+vention descriptions have been far slower to catch up. The CONSORT family now numbering nine
+official extensions (http://consort-statement.org/extensions) only offers ‘non-pharmacologic inter-
+ventions’ to health promotion researchers, with checklist items regarding ‘details of the treatment’,
+tailoring, standardisation, and adherence to the protocol (Boutron, Moher, Altman, Schulz, &
+Ravaud, 2008). Previously, frustrated reviewers had a very low bar – provider, format, setting, recipi-
+ent, intensity, duration, and fidelity (Whitlock, Orleans, Pender, & Allan, 2002) – which was endorsed
+by Society for Behavioral Medicine members the next year (Davidson et al., 2003).
+Very recently, a new CONSORT extension was proposed: this checklist and guidance, the Template
+for Intervention Description and Replication (TIDieR), extends item five of the CONSORT statement
+(Hoffmann et al., 2014). Of the 12 items in the TIDieR checklist, 3 can be taken to deal with the
+aspects of behaviour change as just described. These are the second (‘any rationale, theory, or
+HEALTH PSYCHOLOGY REVIEW 305
+goal of the elements essential to the intervention’), third, ‘any physical or informational materials
+used in the intervention, including those provided to participants or used in intervention delivery
+or in training of intervention providers’, and the fourth (‘each of the procedures, activities, and/or pro-
+cesses used in the intervention, including any enabling or support activities’). The second checklist
+item could be used to provide detailed information about the targeted beliefs, determinants and
+behaviour change methods; the third about applications, how the chosen methods were translated,
+and how the parameters for effectiveness were safeguarded; and the fourth about behaviour change
+methods. However, the nature and level of detail of the information in the examples provided implies
+that this is not how the authors envision these checklist items (Hoffmann et al., 2014). Following the
+TIDieR checklist and guidance may still frequently yield intervention descriptions where it remains
+unclear which determinants and beliefs were targeted; which methods were chosen to target
+these determinants and beliefs; to which practical applications these methods were translated,
+and how the parameters for effectiveness, population characteristics, and context were respected
+in this translation.
+These guidelines are undisputedly a great step forwards in the completeness and transparency of
+the reporting of interventions, especially when combined with full disclosure of all intervention
+materials and documents used in the development (Peters, Abraham, & Crutzen, 2012). At the
+same time, there appears to remain room for improvement when it comes to behaviour change inter-
+ventions. For such interventions, adding the additional elements recommended here could make a
+needed contribution to clearer reporting of behavioural and multi-level interventions, with the poten-
+tial to improve intervention development (Popham et al., 2012). We suggest that authors include in
+their methods sections a table as follows: determinants targeted by the intervention, specific theor-
+etical method(s) used to address each determinant, with the parameters that were enlisted, the appli-
+cation(s) for each method, and how the population, context, and parameters were taken into account
+when the method was translated to application. An example can be found in Table 15 in the sup-
+plementary materials or at http://osf.io/sqtuz. Note that the last column of this table corresponds
+to the third item in the TIDieR checklist, while the first three cover the second and possibly fourth
+items. Finally, ideally the beliefs that were targeted within each determinant would be published
+as supplemental materials.
+Conclusion
+In this contribution, we have done three things. First, we introduced the IM taxonomy of behaviour
+change methods and its potential to be developed into a coding taxonomy. That is, although IM and
+its taxonomy of behaviour change methods are not in fact new (Bartholomew et al., 1998), because
+IM was originally developed as a tool for intervention development, this potential was not immedi-
+ately apparent (Schaalma & Kok, 2009). Second, in explaining the IM taxonomy and defining the rel-
+evant constructs, we called attention to the existence of parameters for effectiveness of methods, and
+explicated the related distinction between theory-based methods and practical applications and the
+probability that poor translation of methods may lead to erroneous conclusions as to method-effec-
+tiveness (Peters et al., 2015 explain the problems more in depth). Third, we have recommended a
+minimal set of intervention characteristics that may be reported when intervention descriptions
+and evaluations are published. Specifying these characteristics can greatly enhance the quality of
+our meta-analyses and other literature syntheses.
+In conclusion, the dynamics of behaviour change are such that any taxonomy of methods of
+behaviour change needs to acknowledge the importance of, and provide instruments for dealing
+with, three conditions for effectiveness for behaviour change methods. For a behaviour change
+method to be effective: (1) it must target a determinant that predicts behaviour; (2) it must be
+able to change that determinant; (3) it must be translated into a practical application in a way that
+preserves the parameters for effectiveness and fits with the target population, culture, and
+context. Thus, taxonomies of methods of behaviour change must distinguish the specific
+306 G. KOK ET AL.
+determinants that are targeted, practical, specific applications, and the theory-based methods they
+embody. In addition, taxonomies should acknowledge that the lists of behaviour change methods
+will be used by, and should be used by, intervention developers. Ideally, the taxonomy should be
+readily usable for this goal; but alternatively, it should be clear how the information in the taxonomy
+can be used in practice. The IM taxonomy satisfies these requirements, and it would be beneficial if
+other taxonomies would be extended to also meet these needs.
+Acknowledgements
+The authors thank Charles Abraham, Ph.D., and two anonymous reviewers for their insightful comments on earlier drafts
+of this paper.
+Disclosure statement
+No potential conflict of interest was reported by the authors.
+References
+Abraham, C., & Michie, S. (2008). A taxonomy of behavior change techniques used in interventions. Health Psychology:
+Official Journal of the Division of Health Psychology, American Psychological Association, 27(3), 379–387. doi:10.1037/
+0278-6133.27.3.379
+Achtziger, A., Gollwitzer, P. M., & Sheeran, P. (2008). Implementation intentions and shielding goal striving from unwanted
+thoughts and feelings. Personality and Social Psychology Bulletin, 34, 381–393. doi:10.1177/0146167207311201
+Ajzen, I., Czasch, C., & Flood, M. G. (2009). From intentions to implementation: Implementation intention, commitment,
+and conscientiousness. Journal of Applied Social Psychology, 39(6), 1356–1372.
+Aronson, E. (2011). The social animal (11th ed.). New York, NY: MacMillan Education.
+Bandura, A. (1986). Social foundations of thought and action: A social cognitive theory. Upper Saddle River, NJ: Prentice-
+Hall, Inc.
+Bandura, A. (1997). Self-efficacy: The exercise of control. New York, NY: W. H. Freeman.
+Bartholomew, L. K., Czyzewski, D. I., Swank, P. R., McCormick, L., & Parcel, G. S. (2000). Maximizing the impact of the cystic
+fibrosis family education program: Factors related to program diffusion. Family & Community Health, 22, 27–47.
+Bartholomew, L. K., Gold, R. S., Parcel, G. S., Czyzewski, D. I., Sockrider, M. M., Fernandez, M., … Berlin, N. (2000). Watch,
+discover, think, and act: Evaluation of computer-assisted instruction to improve asthma self-management in inner-
+city children. Patient Education and Counseling, 39(2–3), 269–280. Retrieved from www.sciencedirect.com/science?
+_ob=GatewayURL&_origin=SilverLinker&_urlversion=4&_method=citationSearch&_volkey=0738-3991#39#253&_
+version=1&md5=87623af09208064d8f37ae0f8bfc9749
+Bartholomew, L. K., Markham, C. M., Ruiter, R. A. C., Fernàndez, M. E., Kok, G., & Parcel, G. S. (2016). Planning health
+promotion programs: An intervention mapping approach (4th ed.). Hoboken, NJ: Wiley.
+Bartholomew, L. K., Parcel, G. S., & Kok, G. (1998). Intervention mapping: A process for developing theory- and evidence-
+based health education programs. Health Education and Behavior, 25(5), 545–563.
+Bartholomew, L. K., Parcel, G. S., Kok, G., & Gottlieb, N. H. (2001). Intervention mapping: Designing theory and evidence-
+based health promotion programs. Mountain View, CA: Mayfield Publishing.
+Bartholomew, L. K., Parcel, G. S., Kok, G., & Gottlieb, N. H. (2006). Intervention mapping: Designing theory and evidence-
+based health promotion programs. San Francisco, CA: Jossey-Bass.
+Bartholomew, L. K., Parcel, G. S., Kok, G., Gottlieb, N. H., & Fernández, M. E. (2011). Planning health promotion programs:
+An intervention mapping approach (3rd ed.). San Francisco, CA: Jossey-Bass.
+Batson, C. D., Chang, J., Orr, R., & Rowland, J. (2002). Empathy, attitudes, and action: Can feeling for a member of a stig-
+matized group motivate one to help the group? Personality and Social Psychology Bulletin, 28(12), 1656–1666. doi:10.
+1177/014616702237647
+Best, A., Greenhalgh, T., Lewis, S., Saul, J. E., Carroll, S., & Bitz, J. (2012). Large-scale transformation in health care: A realist
+view. The Milbank Quarterly, 90(3), 421–456.
+Bos, A. E. R., Schaalma, H. P., & Pryor, J. B. (2008). Reducing AIDS-related stigma in developing countries: The importance of
+theory- and evidence-based interventions. Psychology, Health & Medicine, 13(4), 450–460. doi:10.1080/
+13548500701687171
+Boutron, I., Moher, D., Altman, D. G., Schulz, K. F., & Ravaud, P. (2008). Extending the CONSORT statement to randomized
+trials of nonpharmacologic treatment: Explanation and elaboration. Annals of Internal Medicine, 148, 295–309. doi:10.
+1002/bjs.4954
+HEALTH PSYCHOLOGY REVIEW 307
+Brown, L. D., Bammer, G., Batliwala, S., & Kunreuther, F. (2003). Framing practice-research engagement for democratizing
+knowledge. Action Research, 1(1), 81–102. doi:10.1177/14767503030011006
+Butterfoss, F. D. (2007). Coalitions and partnerships in community health. San Francisco, CA: Jossey-Bass.
+Butterfoss, F. D., & Kegler, M. C. (2009). The community coalition action theory. In R. J. DiClemente, R. A. Crosby, & M. C.
+Kegler (Eds.), Emerging theories in health promotion practice and research (pp. 237–276). San Francisco, CA: Jossey-Bass.
+Butterfoss, F. D., Kegler, M. C., & Francisco, V. T. (2008). Mobilizing organizations for health promotion: Theories of organ-
+izational change. In K. Glanz, B. K. Rimer, & K. Viswanath (Eds.), Health behavior and health education: Theory, research,
+and practice (pp. 335–362). San Francisco, CA: Jossey-Bass.
+Christoffel, K. K. (2000). Public health advocacy: Process and product. American Journal of Public Health, 90(5), 722–726.
+doi:10.2105/AJPH.90.5.722
+Clavier, C., & de Leeuw, E. (2013). Health promotion and the policy process. Oxford: Oxford University Press.
+Cohen, G. L., & Sherman, D. K. (2014). The psychology of change: Self-affirmation and social psychological intervention.
+Annual Review of Psychology, 65, 333–371. doi:10.1146/annurev-psych-010213-115137
+Colquhoun, H., Leeman, J., Michie, S., Lokker, C., Bragge, P., Hempel, S., … Grimshaw, J. (2014). Towards a common
+terminology: A simplified framework of interventions to promote and integrate evidence into health practices,
+systems, and policies. Implementation Science, 9(1), 51.
+Creer, T. L. (2000). Self-management of chronic illness. In M. Boekaerts, P. R. Pintrich, & M. Zeidner (Eds.), Handbook of self-
+regulation (pp. 601–629). San Diego, CA: Academic Press.
+Cummings, T. G., & Worley, C. G. (2015). Organization development and change (10th ed.). Mason, OH: South-Western
+Cengage Learning.
+Davidson, K. W., Goldstein, M., Kaplan, R. M., Kaufman, P. G., Knatterud, G. L., Orleans, C. T., … Whitlock, E. P. (2003).
+Evidence-based behavioral medicine: What is it and how do we achieve it? Annals of Behavioral Medicine., 26(3),
+161–171.
+De Bruin, M., Crutzen, R., & Peters, G.-J. Y. (2015). Everything should be as simple as possible, but this will still be complex:
+A reply to various commentaries on IPEBA. Health Psychology Review, 9(1), 38–41. doi:10.1080/17437199.2014.981833
+De Bruin, M., Viechtbauer, W., Hospers, H. J., Schaalma, H. P., & Kok, G. (2009). Standard care quality determines treatment
+outcomes in control groups of HAART-adherence intervention studies: Implications for the interpretation and com-
+parison of intervention effects. Health Psychology, 28(6), 668–674. doi:10.1037/a0015989
+De Ridder, D. (2014). Nudging for beginners. The European Health Psychologist, 16(1), 2–6.
+Diamond, A. (2013). Executive functions. Annual Review of Psychology, 64, 135–168. doi:10.1146/annurev-psych-113011-
+143750
+Dorfman, L., & Krasnow, I. D. (2014). Public health and media advocacy. Annual Review of Public Health, 35, 293–306.
+doi:10.1146/annurev-publhealth-032013-182503
+Evans, R. I. (1984). A social inoculation strategy to deter smoking in adolescents. In J. D. Matarazzi, S. M. Weiss, J. A. Herd,
+N. E. Miller, & S. M. Weiss (Eds.), Behavioral health: A handbook of health enhancement and disease prevention (pp. 765–
+774). New York: John Wiley & Sons.
+Evans, R. I., Getz, J. G., & Raines, B. S. (1992). Applying social inoculation concepts to prevention of HIV/AIDS in adolescents:
+Just say no is obviously not enough. In the meeting of the Society of Behavioral Medicine, New York.
+Fishbein, M., & Ajzen, I. (2010). Predicting and changing behavior: The reasoned action approach. New York, NY: Psychology
+Press.
+Fisher, R. A. (1938). Presidential address. The Indian Journal of Statistics, 4(1), 14–17. doi:10.1038/157869b0
+Flaspohler, P., Duffy, J., Wandersman, A., Stillman, L., & Maras, M. A. (2008). Unpacking prevention capacity: An intersec-
+tion of research-to-practice models and community-centered models. American Journal of Community Psychology, 41
+(3–4), 182–196. doi:10.1007/s10464-008-9162-3
+Forsyth, D. R. (2014). Group dynamics (6th ed.). Belmont, CA: Thomson Higher Education.
+Freire, P. (1973a). Education for critical consciousness. New York, NY: Seabury Press.
+Freire, P. (1973b). Pedagogy of the oppressed. New York, NY: Seabury Press.
+Freudenberg, N., & Tsui, E. (2014). Evidence, power, and policy change in community-based participatory research.
+American Journal of Public Health, 104(1), 11–14. doi:10.2105/AJPH.2013.301471
+Galer-Unti, R. A., Tappe, M. K., & Lachenmayr, S. (2004). Advocacy 101: Getting started in health education advocacy.
+Health Promotion Practice, 5(3), 280–288. doi:10.1177/1524839903257697
+Gobet, F., Lane, P. C. R., Croker, S., Cheng, P. C.-H., Jones, G., Oliver, I., & Pine, J. M. (2001). Chunking mechanisms in human
+learning. Trends in Cognitive Sciences, 5(June), 236–243. doi:10.1016/S1364-6613(00)01662-4
+Godden, D. R., & Baddeley, A. D. (1975). Context-dependent memory in two natural environments: On land and under-
+water. British Journal of Psychology, 66(3), 325–331. doi:10.1111/j.2044-8295.1975.tb01468.x
+Godin, G., Gagnon, H., Alary, M., Levy, J. J., & Otis, J. (2007). Advancing knowledge the degree of planning: An indicator of
+the potential success of health education programs. Global Health Promotion, XIV(3), 138–142.
+Golden, S. D., & Earp, J. A. (2012). Social-ecological approaches to individuals and their contexts; Twenty years of health
+education & behavior health promotion interventions. Health Education & Behavior, 39(3), 365–372.
+Gollwitzer, P. M., & Sheeran, P. (2006). Implementation intentions and goal achievement: A meta-analysis of effects and
+processes. Advances in Experimental Social Psychology, 38(6), 69–119. doi:10.1016/S0065-2601(06)38002-1
+308 G. KOK ET AL.
+Harkin, B., Webb, T., Chang, B., Prestwich, A., Conner, M., Kellar, I., … Sheeran, P. (n.d.). Does monitoring goal progress
+promote goal attainment? A meta-analysis of the experimental evidence. Psychological Bulletin. Accepted for
+Publication.
+Hoffmann, T. C., Glasziou, P. P., Boutron, I., Milne, R., Moher, D., Altman, D. G., … Michie, S. (2014). Better reporting of inter-
+ventions: Template for intervention description and replication (TIDieR) checklist and guide. British Medical Journal,
+348(March), g1687. doi:10.1136/bmj.g1687
+Hofmann, W., Friese, M., & Wiers, R. W. (2008). Impulsive versus reflective influences on health behavior: A theoretical
+framework and empirical review. Health Psychology Review, 2(2), 111–137. doi:10.1080/17437190802617668
+Holt-Lunstad, J., & Uchino, B. (2015). Social support and health. In K. Glanz, B. K. Rimer, & K. Viswanath (Eds.), Health behav-
+ior: Theory, research and practice (pp. 183–204). San Francisco, CA: Jossey-Bass.
+Jones, G. R. (2004). Organizational theory, design, and change. Upper Saddle River, NJ: Pearson/Prentice-Hall.
+Kazdin, A. E. (2008). Behavior modification in applied settings (6th ed.). Long Grove, IL: Waveland Press.
+Kelder, S., Hoelscher, D., & Perry, C. L. (2015). How individuals, environments and health behaviors interact: Social cog-
+nitive theory. In K. Glanz, B. K. Rimer, & K. Viswanath (Eds.), Health behavior: Theory, research, and practice (5th ed.,
+pp. 159–182). San Francisco, CA: John Wiley & Sons.
+Khan, L. K., Sobush, K., Keener, D., Goodman, K., Lowry, A., Kakietek, J., & Zaro, S. (2009). Recommended community strat-
+egies and measurements to prevent obesity in the United States. Morbidity and Mortality Weekly Report, 58(RR-7), 1–26.
+Retrieved from http://www.ncbi.nlm.nih.gov/pubmed/19629029
+Kingdon, J. W. (2003). Agendas, alternatives, and public policies (2nd ed.). New York, NY: Longman.
+Kok, G. (2014). A practical guide to effective behavior change: How to apply theory- and evidence-based behavior change
+methods in an intervention. European Health Psychologist, 16(5), 156–170.
+Kok, G., Gottlieb, N., Commers, M., & Smerecnik, C. (2008). The ecological approach in health promotion programs:
+A decade later. American Journal of Health Promotion, 22, 437–442.
+Kok, G., Gottlieb, N. H., Panne, R., & Smerecnik, C. (2012). Methods for environmental change: An exploratory study. BMC
+Public Health, 12(1), 1037. doi:10.1186/1471-2458-12-1037
+Kok, G., Gurabardhi, Z., Gottlieb, N. H., & Zijlstra, F. R. H. (2015). Influencing organizations to promote health: Applying
+stakeholder theory. Health Education & Behavior, 42(1S), 123S–132S doi:10.1177/1090198115571363
+Kools, M. (2011). Making written materials easy to use. In C. Abraham & M. Kools (Eds.), Writing health communication: An
+evidence-based guide. (pp. 43–62) London: Sage.
+Kools, M., van de Wiel, M. W. J., Ruiter, R. A. C., Crüts, A., & Kok, G. (2006). The effect of graphic organizers on subjective and
+objective comprehension of a health education text. Health Education & Behavior: The Official Publication of the Society
+for Public Health Education, 33(6), 760–772. doi:10.1177/1090198106288950
+Kreuter, M. W., & McClure, S. M. (2004). The role of culture in health communication. Annual Review of Public Health, 25,
+439–455. doi:10.1146/annurev.publhealth.25.101802.123000
+Latham, G. P., & Locke, E. A. (2007). New developments in and directions for goal-setting research. European Psychologist,
+12(4), 290–300. doi:10.1027/1016-9040.12.4.290
+Link, B. G., & Phelan, J. C. (2001). Conceptualizing stigma. Annual Review of Sociology, 27, 363–385. doi:10.1146/annurev.
+soc.27.1.363
+Longest, B. B. (2006). Health policymaking in the United States (4th ed.). Chicago, IL: Health Administration Press.
+Lustria, M. L. A., Cortese, J., Noar, S. M., & Glueckauf, R. L. (2009). Computer-tailored health interventions delivered over the
+web: Review and analysis of key components. Patient Education and Counseling, 74(2), 156–173. doi:10.1016/j.pec.
+2008.08.023
+Maibach, E. W., & Cotton, D. (1995). Moving people to behavior change: A staged social cognitive approach to message
+design. In E. W. Maibach & R. L. Parrott (Eds.), Designing health messages: Approaches from communication theory and
+public health practice (pp. 41–64). Thousand Oaks, CA: Sage.
+Marlatt, G. A., & Donovan, D. M. (Eds.). (2005). Relapse prevention; maintenance strategies in the treatment of addictive beha-
+viors (2nd ed.). New York, NY: Guilford Press.
+McAlister, A., Johnson, W., Guenther-Grey, C., Fishbein, M., Higgins, D., & O’Reilly, K. (2000). Behavioral journalism for HIV
+prevention: Community newsletters influence risk-related attitudes and behavior. Journalism & Mass Communication
+Quarterly, 77(1), 143–159. doi:10.1177/107769900007700111
+McAlister, A., Perry, C., & Parcel, G. (2008). How individuals, environments and health behaviors interact: Social cognitive
+theory. In K. Glanz, B. K. Rimer, & K. Viswanath (Eds.), Health behavior and health education: Theory, research, and prac-
+tice (4th ed., pp. 169–188). San Fransisco, CA: John Wiley & Sons.
+McAlister, A. L. (1991). Population behavior change: A theory-based approach. Journal of Public Health Policy, 12(3),
+345–361. doi:10.2307/3342846
+McCullum, C., Pelletier, D., Barr, D., Wilkins, J., & Habicht, J.-P. (2004). Mechanisms of power within a community-based
+food security planning process. Health Education & Behavior, 31(2), 206–222. doi:10.1177/1090198103259163
+McGuire, W. J. (2012). McGuire’s classic input-output framework for constructing persuasive messages. In R. E. Rice & C. K.
+Atkin (Eds.), Public communication campaigns (4th ed., pp. 133–146). Thousand Oaks, CA: Sage.
+McSweeney, F. K., & Murphy, E. S. (2014). The Wiley Blackwell handbook of operant and classical conditioning. Chichester:
+John Wiley & Sons.
+HEALTH PSYCHOLOGY REVIEW 309
+Mevissen, F. E. F., Meertens, R. M., Ruiter, R. A. C., Feenstra, H., & Schaalma, H. P. (2009). HIV/STI risk communication:
+The effects of scenario-based risk information and frequency-based risk information on perceived susceptibility to
+chlamydia and HIV. Journal of Health Psychology, 14(1), 78–87. doi:10.1177/1359105308097948
+Michie, S., Ashford, S., Sniehotta, F. F., Dombrowski, S. U., Bishop, A., & French, D. P. (2011). A refined taxonomy of behav-
+iour change techniques to help people change their physical activity and healthy eating behaviours: The CALO-RE
+taxonomy. Psychology & Health, 26(11), 1479–1498. doi:10.1080/08870446.2010.540664
+Michie, S., Johnson, B. T., & Johnston, M. (2015). Advancing cumulative evidence on behaviour change techniques and
+interventions: A comment on Peters, de Bruin, and Crutzen. Health Psychology Review, 9(1), 25–29 doi:10.1080/
+17437199.2014.912538
+Michie, S., & Johnston, M. (2012). Theories and techniques of behaviour change: Developing a cumulative science of
+behaviour change. Health Psychology Review, 6(1), 1–6.
+Michie, S., & West, R. (2013). Behaviour change theory and evidence: A presentation to Government. Health Psychology
+Review, 7(1), 1–22. doi:10.1080/17437199.2011.649445
+Miller, W. R., & Rollnick, S. (2012). Motivational interviewing. New York, NY: Guilford Press.
+Minkler, M., & Wallerstein, N. (2012). Improving health through community organization and community building:
+Perspectives from health education and social work. In M. Minkler (Ed.), Community organizing and community building
+for health and welfare (3rd ed., pp. 37–58). New Brunswick, NJ: Rutgers University Press.
+Mitchell, R. E., Florin, P., & Stevenson, J. F. (2002). Supporting community-based prevention and health promotion initiat-
+ives: Developing effective technical assistance systems. Health Education & Behavior, 29(5), 620–639. doi:10.1177/
+109019802237029
+Mitchell, R. K., Agle, B. R., & Wood, D. J. (1997). Toward a theory of stakeholder identification and salience: Defining the
+principle of who and what really counts. Academy of Management Review, 22(4), 853–886. doi:10.5465/AMR.1997.
+9711022105
+Mollen, S., Ruiter, R. A. C., & Kok, G. (2010). Current issues and new directions in psychology and health: What are the
+oughts? The adverse effects of using social norms in health communication. Psychology & Health, 25(3), 265–270.
+doi:10.1080/08870440903262812
+Moyer-Gusé, E. (2008). Toward a theory of entertainment persuasion: Explaining the persuasive effects of entertainment-
+education messages. Communication Theory, 18(3), 407–425. doi:10.1111/j.1468-2885.2008.00328.x
+Mullen, P. D., Green, L. W., & Persinger, G. S. (1985). Clinical trials of patient education for chronic conditions: A compara-
+tive meta-analysis of intervention types. Preventive Medicine, 14, 753–781.
+National Cancer Institute. (2007). Greater than the sum: Systems thinking in tobacco control (Publication No. 06–6085,
+Tobacco Control Monograph No. 18). Bethesda, MD.
+Ng, J. Y. Y., Ntoumanis, N., Thogersen-Ntoumani, C., Deci, E. L., Ryan, R. M., Duda, J. L., & Williams, G. C. (2012). Self-deter-
+mination theory applied to health contexts: A meta-analysis. Perspectives on Psychological Science, 7(4), 325–340.
+Retrieved from http://cat.inist.fr/?aModele=afficheN&cpsidt=26177089
+Peters, G.-J. Y. (2014). A practical guide to effective behavior change: How to identify what to change in the first place.
+European Health Psychologist, 16(4), 142–155.
+Peters, G.-J. Y., Abraham, C. S., & Crutzen, R. (2012). Full disclosure: Doing behavioural science necessitates sharing. The
+European Health Psychologist, 14(4), 77–84.
+Peters, G.-J. Y., de Bruin, M., & Crutzen, R. (2015). Everything should be as simple as possible, but no simpler: Towards a
+protocol for accumulating evidence regarding the active content of health behaviour change interventions. Health
+Psychology Review, 9(1), 1–14. doi:10.1080/17437199.2013.848409
+Peters, G.-J. Y., Ruiter, R. A. C., & Kok, G. (2013). Threatening communication: A critical re-analysis and a revised meta-ana-
+lytic test of fear appeal theory. Health Psychology Review, 7(Suppl 1), S8–S31. doi:10.1080/17437199.2012.703527
+Peters, G.-J. Y., Ruiter, R. A. C., & Kok, G. (2014). Threatening communication: A qualitative study of fear appeal effective-
+ness beliefs among intervention developers, policymakers, politicians, scientists and advertising professionals.
+International Journal of Psychology, 49(2), 71–79. doi:10.1002/ijop.12000
+Petraglia, J. (2007). Narrative intervention in behavior and public health. Journal of Health Communication, 12(5), 493–505.
+doi:10.1080/10810730701441371
+Pettigrew, T. F., & Tropp, L. R. (2006). A meta-analytic test of intergroup contact theory. Journal of Personality and Social
+Psychology, 90(5), 751–783. doi:10.1037/0022-3514.90.5.751
+Petty, R. E., Barden, J., & Wheeler, S. C. (2009). The elaboration likelihood model of persuasion: Developing health pro-
+motions for sustained behavioral change. In R. J. DiClemente, R. A. Crosby, & M. Kegler (Eds.), Emerging theories in
+health promotion practice and research (2nd ed., pp. 185–214). San Francisco, CA: Jossey-Bass.
+Petty, R. E., & Wegener, D. T. (2010). Attitude change: Multiple roles for persuasion variables. In R. F. Baumeister & E. J.
+Finkel (Eds.), Advanced social psychology: The state of the science (pp. 217–259). Oxford: Oxford University Press.
+Popham, K., Calo, W. A., Carpentier, M. Y., Chen, N. E., Kamrudin, S. A., Le, Y. C. L., … Mullen, P. D. (2012). Reporting guide-
+lines: Optimal use in preventive medicine and public health. American Journal of Preventive Medicine, 43(4), e31–e42.
+doi:10.1016/j.amepre.2012.06.031
+310 G. KOK ET AL.
+Prochaska, J. O., Redding, C. A., & Evers, K. E. (2015). The transtheoretical model and stages of change. In K. Glanz, B. K.
+Rimer, & K. Viswanath (Eds.), Health behavior: Theory, research, and practice (pp. 125–148). San Francisco, CA: Jossey-
+Bass.
+Ramirez, A. G., Villarreal, R., McAlister, A., Gallion, K. J., Suarez, L., & Gomez, P. (2010). Advancing the role of participatory
+communication in the diffusion of cancer screening among Hispanics. Journal of Health Communication, 4(1), 31–36.
+doi:10.1080/108107399127075
+Reininger, B. M., Barroso, C. S., Mitchell-Bennett, L., Cantu, E., Fernandez, M. E., Gonzalez, D. A., … McAlister, A. (2010).
+Process evaluation and participatory methods in an obesity-prevention media campaign for Mexican Americans.
+Health Promotion Practice, 11(3), 347–357. doi:10.1177/1524839908321486
+Richard, R., van der Pligt, J., & de Vries, N. (1995). Anticipated affective reactions and prevention of AIDS. The British Journal
+of Social Psychology/The British Psychological Society, 34(Pt 1), 9–21. doi:10.1111/j.2044-8309.1995.tb01045.x
+Robbins, S. J., Schwartz, B., & Wasserman, E. A. (2001). Psychology of learning and behavior. New York, NY: Norton.
+Rogers, E. M. (2003). Diffusion of innovations. New York, NY: Free Press.
+Rothman, J. (2004). Three models of community organisation practice, their mixing and phasing. In F. M. Cox, J. L. Erlich, J.
+Rothman, & J. E. Tropman (Eds.), Strategies of community organisation: A book of readings (pp. 25–44). Itasca, IL:
+F. E. Peacock.
+Ruiter, R. A. C., Kessels, L. T. E., Peters, G.-J. Y., & Kok, G. (2014). Sixty years of fear appeal research: Current state of the
+evidence. International Journal of Psychology, 49(2), 63–70.
+Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development,
+and well-being. The American Psychologist, 55(1), 68–78. doi:10.1037/0003-066X.55.1.68
+Sabatier, P. A. (2003). Policy change over a decade or more. In P. R. Lee, C. L. Estes, & F. M. Rodriguez (Eds.), The nation’s
+health (pp. 143–174). Sudbury, MA: Jones and Bartlett.
+Schaafsma, D., Stoffelen, J. M. T., Kok, G., & Curfs, L. M. G. (2013). Exploring the development of existing sex education
+programmes for people with intellectual disabilities: An intervention mapping approach. Journal of Applied
+Research in Intellectual Disabilities: JARID, 26(2), 157–166. doi:10.1111/jar.12017
+Schaalma, H., & Kok, G. (2009). Decoding health education interventions: The times are a-changin’. Psychology & Health, 24
+(1), 5–9. doi:10.1080/08870440801995802
+Shen, F., & Han, J. (Ashley). (2014). Effectiveness of entertainment education in communicating health information: A
+systematic review. Asian Journal of Communication, 26(4), 605–616. doi:10.1080/01292986.2014.927895
+Skinner, C. S., Tiro, J., & Champion, V. L. (2015). The health belief model. In K. Glanz, B. Rimer, & K. Viswanath (Eds.), Health
+behavior: Theory, research, and practice (5th ed., pp. 131–167). San Francisco, CA: Jossey-Bass.
+Smith, R. M. (2008). Conquering the content: A step-by-step guide to web-based course development. San Francisco, CA:
+Jossey-Bass.
+Snow, D. A. (2004). Framing processes, ideology, and discursive fields. In D. A. Snow, S. A. Soule, & H. Kriesi (Eds.), Blackwell
+companion to social movements (pp. 380–412). Oxford: Blackwell.
+Steen, R. G. (2007). The evolving brain: The known and the unknown. Amherst, NY: Prometheus Books.
+Suls, J., Martin, R., & Wheeler, L. (2002). Social comparison: Why, with whom, and with what effect? Current Directions in
+Psychological Science, 11(5), 159–163. doi:10.1111/1467-8721.00191
+Ten Hoor, G. A, Peters, G.-J. Y., Kalagi, J., De Groot, L., Grootjans, K., Huschens, A., … Kok, G. (2012). Reactions to threaten-
+ing health messages. BMC Public Health, 12, 1011. doi:10.1186/1471-2458-12-1011
+Thaler, R. H., & Sunstein, C. R. (2008). Nudge: Improving decisions about health, wealth, and happiness. New Haven, CT: Yale
+University Press.
+Tolli, M. V. (2012). Effectiveness of peer education interventions for HIV prevention, adolescent pregnancy prevention and
+sexual health promotion for young people: A systematic review of European studies. Health Education Research, 27(5),
+904–913. doi:10.1093/her/cys055
+Turner, J. C. (2005). Explaining the nature of power: A three-process theory. European Journal of Social Psychology, 35(1),
+1–22. doi:10.1002/ejsp.244
+Turner, L., Shamseer, L., Altman, D. G., Schulz, K. F., & Moher, D. (2012). Does use of the CONSORT Statement impact the
+completeness of reporting of randomised controlled trials published in medical journals? A Cochrane review.
+Systematic Reviews, 1(1), 60. doi:10.1186/2046-4053-1-60
+Turner, L., Shamseer, L., Altman, D. G., Weeks, L., Peters, J., Kober, T., … Moher, D. (2012). Consolidated standards of report-
+ing trials (CONSORT) and the completeness of reporting of randomised controlled trials (RCTs) published in medical
+journals. The Cochrane Database of Systematic Reviews, 11(11), MR000030. doi:10.1002/14651858.MR000030.pub2
+Valente, T. (2012). Network interventions. Science, 337(6090), 49–53. doi:10.1126/science.1217330
+Valente, T. (2015). Social networks and health behavior. In K. Glanz, B. K. Rimer, & K. Viswanath (Eds.), Health behavior:
+Theory, research and practice (5th ed., pp. 204–222). San Francisco, CA: John Wiley & Sons.
+Van Achterberg, T., Huisman-de Waal, G. G. J., Ketelaar, N. A. B. M., Oostendorp, R. A., Jacobs, J. E., & Wollersheim, H. C. H.
+(2011). How to promote healthy behaviours in patients? An overview of evidence for behaviour change techniques.
+Health Promotion International, 26(2), 148–162. doi:10.1093/heapro/daq050
+HEALTH PSYCHOLOGY REVIEW 311
+Van’t Riet, J., Cox, A. D., Cox, D., Zimet, G. D., De Bruijn, G.-J., Van den Putte, B., … Ruiter, R. A. C. (2014). Does perceived risk
+influence the effects of message framing? A new investigation of a widely held notion. Psychology & Health, (March),
+37–41. doi:10.1080/08870446.2014.896916
+Verplanken, B., & Aarts, H. (1999). Habit, attitude, and planned behaviour: Is habit an empty construct or an interesting
+case of goal-directed automaticity? European Review of Social Psychology, 10(781062661), 101–134. doi:10.1080/
+14792779943000035
+Wallack, L. (2008). Media advocacy: A strategy for empowering people and communities. In M. Minkler (Ed.), Community
+organizing and community building for health (pp. 419–432). New Brunswick, NJ: Rutgers University Press.
+Wallack, L., Dorfman, L., Jernigan, D., & Themba, M. (1993). Media advocacy and public health: Power for prevention.
+Thousand Oaks, CA: Sage.
+Wallerstein, N., Minkler, M., Carter-Edwards, L., Avila, M., & Sanchez, V. (2015). Improving health through community
+engagement, community organization, and community building. In K. Glanz, B. K. Rimer, & K. Viswanath (Eds.),
+Health behavior: Theory, research, and practice (5th ed., pp. 277–300). San Francisco, CA: Jossey-Bass.
+Wallerstein, N., Sanchez, V., & Velarde, L. (2004). Freirian praxis in health education and community organizing: A case
+study of an adolescent prevention program. In M. Minkler (Ed.), Community organizing and community building for
+health (2nd ed., pp. 218–236). Piscataway, NJ: Rutgers University Press.
+Weible, C. M. (2008). Expert-based information and policy subsystems: A review and synthesis. Policy Studies Journal, 36
+(4), 615–635.
+Weible, C. M., Sabatier, P. A., & McQueen, K. (2009). Themes and variations: Taking stock of the advocacy coalition frame-
+work. Policy Studies Journal, 37(1), 121–140.
+Weick, K. E., & Quinn, R. E. (1999). Organizational change and development. Annual Review of Psychology, 50, 361–386.
+doi:10.1146/annurev.psych.50.1.361
+Weinstein, N. D., Sandman, P. M., & Blalock, S. J. (2008). The precaution adoption process model. In K. Glanz, B. K. Rimer, &
+K. Viswanath (Eds.), Health behavior and health education: Theory, research, and practice (4th ed., pp. 123–165).
+San Francisco, CA: Jossey-Bass.
+Werrij, M. Q., Ruiter, R. A. C., van’t Riet, J., & de Vries, H. (2012). Message framing. In C. Abraham & M. Kools (Eds.), Writing
+health communication: An evidence-based guide (pp. 123–143). London: Sage.
+Whitlock, E. P., Orleans, C. T., Pender, N., & Allan, J. (2002). Evaluating primary care behavioral counseling interventions.
+An evidence-based approach. American Journal of Preventive Medicine, 22(2), 267–284. doi:10.1016/S0749-3797(02)
+00415-4
+Wilkin, H. a, Valente, T. W., Murphy, S., Cody, M. J., Huang, G., & Beck, V. (2007). Does entertainment-education work with
+Latinos in the United States? Identification and the effects of a telenovela breast cancer storyline. Journal of Health
+Communication, 12(5), 455–469. doi:10.1080/10810730701438690
+Wood, W., & Neal, D. T. (2007). A new look at habits and the habit-goal interface. Psychological Review, 114(4), 843–863.
+doi:10.1037/0033-295X.114.4.843
+World Health Organization Regional Office for Europe. (2002). Community participation in local health and sustainable
+development: Approaches and techniques. Kopenhagen. Retrieved from http://euro.who.int/document/e78652.pdf
+Wright, P. (2011). Using graphics effectively in text. In C. Abraham & M. Kools (Eds.), Writing health communication:
+An evidence-based guide (pp. 63–82). London: Sage.
+Zahariadis, N. (2007). The multiple streams framework. In P. A. Sabatier (Ed.), Theories of the policy process (pp. 65–92).
+Boulder, CO: Westview Press.
+Zajonc, R. B. (2001). Mere exposure: A gateway to the subliminal. Current Directions in Psychological Science, 10(6), 224–228.
+doi:10.1111/1467-8721.00154
+312 G. KOK ET AL.

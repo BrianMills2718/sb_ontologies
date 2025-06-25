@@ -1,0 +1,803 @@
+
+Jump to Navigation
+Search:
+Literature Review 	Hypothesis 	Empirical Support Score ? 	Applicability Score ? 	Knopf Typology ? 	DIMEFIL ? 	Davis and Jenkins ? 	System Level Targeted ? 	IVEO Framework ? 	
+1 	Increased certainty of punishment for attacks deters VEOs from carrying out those attacks. 	3 	Direct 	
+Military Deterrence/Coercion
+	Military 	Deter 		Coercion 	Show Implications
+2 	The larger the size of a punishment, the less credible that it is. 	1 	Direct 	
+	Military 	Deter 			Show Implications
+3 	Failure to follow through on a deterrent threat leads to loss of credibility and increased VEO activity. 	1 	Direct 	
+Military Deterrence/Coercion
+	Military 	Deter 		Coercion 	Show Implications
+4 	VEOs are intimidated if state threats are executed or if states retaliate after a provocative terrorist attack. 	1 	Direct 	
+	Military 	Deter 	Leaders, Loyalists 		Show Implications
+5 	VEOs are emboldened by state passivity in the face of provocation, leading to escalation. 	2 	Direct 	
+		Deter 	Leaders, Loyalists 		Show Implications
+6 	Alternately, VEOs are emboldened if states retaliate, thus commencing a cycle of violence and counterviolence. 	3 	Direct 	
+	Military 	Deter 	Leaders, Loyalists 		Show Implications
+7 	Repression last month increases the likelihood of terrorist attacks this month; conciliatory actions last month decrease the likelihood. 	7 	Direct 	
+	Military 	Deter 	Leaders, Loyalists, Broader Audience 		Show Implications
+8 	Repression last month increases the likelihood of terrorist attacks this month; conciliatory actions last month decrease the likelihood. And the correlation actually gets stronger when the actions in question are indiscriminate--i.e., when they target a population rather than a person. 	7 	Direct 	
+	Military 	Deter 	Leaders, Loyalists, Broader Audience 		Show Implications
+9 	Increased severity of punishment for attacks deters VEOs from carrying out those attacks. 	2 	Direct 	
+Military Deterrence/Coercion
+		Deter 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Coercion 	Show Implications
+10 	Harsh reprisals, including threats of death, severe sanctions, public humiliation, or the killing of family members, may deter VEOs from action. 	2 	Direct 	
+Military Deterrence/Coercion
+	Military 	Deter 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Coercion 	Show Implications
+11 	As hard incentives (punishment) and soft incentives (rewards) for members to exit a VEO become more balanced, the chance of members deradicalizing or disengaging increases. 	3 	Direct 	
+Military Deterrence/Coercion
+	Military 		Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audience 	Coercion, Incentivize 	Show Implications
+12 	When pressure from the state is high with no parallel inducements, Islamist VEOs will not deradicalize and vice versa. 	3 	Direct 	
+Military Deterrence/Coercion
+	Military 		Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audiences 	Coercion, Incentivize 	Show Implications
+13 	Law enforcement and intelligence are more effective than military operations in lowering VEO activity. 	2 	Direct 	
+Military Deterrence/Coercion
+	Military 	Defeat 	Leaders, Loyalists, Active followers 	Denial 	Show Implications
+14 	Lowering of widespread effective repression and societal control will increase VEO activity. 	3 	Direct 	
+Military Deterrence/Coercion
+	Military 			Incentivize 	Show Implications
+15 	Deterrence will be enhanced if the government shows determination, that is, it is prepared to counter the VEOs in the long run; maintaining pressure is key. 	4 	Direct 	
+Military Deterrence/Coercion
+	Military 	Deter 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Coercion 	Show Implications
+16 	If the adversary perceives that the costs of action are acceptable, it will work against the deterring party. 	3 	Moderate confidence 	
+Military Deterrence/Coercion
+	Military 	Deter 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Coercion 	Show Implications
+17 	Attempts at deterrence lead to increased VEO activity. 	0 	N/A 	
+Military Deterrence/Coercion
+		Deter 	Leaders, Loyalists, Active followers, Broader audience 	Coercion 	Show Implications
+18 	Stopping VEOs from meeting "milestones" will decrease their lifespan. 	2 	Direct 	
+Military Deterrence/Coercion
+	Military 		Leaders, Loyalists, Active followers, Ideological influencers, Broader audience 	Denial 	Show Implications
+19 	Increasing punishment of VEO members does not reduce VEO activity. 	3 	Direct 	
+Military Deterrence/Coercion
+Direct Punishment
+	Military 	Defeat 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audience 	Coercion 	Show Implications
+20 	VEO perception of targets' ability to attribute the attack in a timely manner may deter VEO activity. 	0 	N/A 	
+Military Deterrence/Coercion
+Direct Punishment
+	Military 	Deter 	Leaders 	Coercion 	Show Implications
+21 	VEO perception of targets' ability to attribute the attack in a timely manner with a high degree of certainty may deter VEO activity. 	0 	N/A 	
+Military Deterrence/Coercion
+Direct Punishment
+	Military 	Deter 	Leaders 	Coercion 	Show Implications
+22 	Continually crushing VEOs deters future VEO formation and activities. 	3 	Direct 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against VEO
+	Military 	Destroy 	Leaders, Loyalists, Active followers 	Coercion 	Show Implications
+23 	Targeted killings of mid-level terrorist operatives can have a deterrent effect by increasing the personal risks for those who plan and prepare terrorist attacks. 	0 	N/A 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against VEO
+	Military 	Deter 	Loyalists 	Coercion 	Show Implications
+24 	Targeted assassination of leaders (decapitation) reduces VEO activity 	2 	Direct 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against VEO
+	Military 	Defeat 	Leaders 	Coercion 	Show Implications
+25 	Removal of the leader of a VEO leads to fragmentation and outbidding and escalation. 	0 	N/A 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against VEO
+	Military 	Defeat 	Leaders 	Coercion 	Show Implications
+26 	Killing political leaders leads to more backlash than killing operational leaders. 	0 	N/A 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against VEO
+	Military 	Defeat 	Leaders 	Coercion 	Show Implications
+27 	If a VEO has widespread popular support, then killing the leader (decapitation) is less effective. 	2 	Direct 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against VEO
+	Military 	Defeat 	Leaders 	Coercion 	Show Implications
+28 	Targeted killing will increase VEO activity. 	3 	Direct 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against VEO
+	Military 	Defeat 	Loyalists, Active followers, Ideological influencers, Material supporters 	Coercion 	Show Implications
+29 	Constant attack by state forces will lead to a lowering of VEO activity. 	1 	Low confidence 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against VEO
+	Military 	Defeat 	Leaders, Loyalists, Active followers 	Coercion 	Show Implications
+30 	State use of legitimate and limited force is less likely to increase public support for VEO activity. 	8 	Moderate confidence 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against VEO
+	Military, Law Enforcement 	Defeat 	Leaders, Loyalists, Active followers 	Coercion 	Show Implications
+31 	Long term attrition (constant and successful) can wear down VEOs and lead to their failure. 	6 	Direct 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against VEO
+	Military 	Defeat 	Leaders, Loyalists, Active followers 	Coercion 	Show Implications
+32 	Giving priority to countering political subversion rather than physical destruction of VEOs will be more effective in limiting VEO activity (long-term). 	4 	Direct 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against VEO
+	Military 	Destroy 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Deligitimize 	Show Implications
+33 	Targeting and threatening local political goals of (potential) franchise VEOs can deter globally networked VEOs. 	0 	N/A 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against VEO
+	Military 	Deter 	Leaders 	Coercion 	Show Implications
+34 	Locally oriented VEOs can be deterred from joining global terrorist campaigns by threatening to hold their local objectives at risk. 	4 	Direct 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against VEO
+	Military 	Deter 	Leaders 	Coercion 	Show Implications
+35 	Counterinsurgency strategies that match the VEOs' strategies in terms of direct vs. indirect lead to reduced VEO success. 	7 	Direct 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against VEO
+	Military 	Deter 	Leaders, Loyalists, Active followers 		Show Implications
+36 	Broad-front strategies are more effective at lowering VEO activities than center-of-gravity strategies. 	0 	N/A 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against VEO
+	Military 		Leaders, Loyalists, Active followers 		Show Implications
+37 	Widespread repression will reduce domestic VEO activity. 	2 	Direct 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against community/society VEO claims to represent
+	Military, Law Enforcement 	Defeat 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audience 	Coercion 	Show Implications
+38 	State use of force that causes civilian casualities among VEO constituents or community of identification aids VEO recruitment. 	3 	Direct 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against community/society VEO claims to represent
+	Military, Law Enforcement 	Defeat 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audience 	Coercion 	Show Implications
+39 	Widespread government repression (e.g., torture, disappearances, extrajudicial killings, political imprisonment) will increase transnational VEO activity. 	8 	Direct 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against community/society VEO claims to represent
+	Military, Law Enforcement 	Defeat 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audience 	Coercion 	Show Implications
+40 	Inconsistent application and levels of repression will lead to an increased level of VEO activity. 	3 	High confidence - Similar 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against community/society VEO claims to represent
+	Military, Law Enforcement 	Defeat 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audience 	Coercion 	Show Implications
+41 	Incompetent application of repression will lead to increased level of VEO activity. 	3 	Direct 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against community/society VEO claims to represent
+	Military, Law Enforcement 	Defeat 	Leaders, Loyalists, Active followers, Ideological influences, Material supporters, Broader audience 	Coercion 	Show Implications
+42 	More oppression will lead to more VEO activity. 	3 	Direct 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against community/society VEO claims to represent
+	Military, Law Enforcement 	Defeat 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audience 	Coercion 	Show Implications
+43 	If "buyers" (meaning the audience the organization seeks to serve) find the social and/or political change on offer by the VEO too costly, VEOs will modify their behavior. 	3 	Direct 	
+Military Deterrence/Coercion
+Direct Punishment
+Retaliate against community/society VEO claims to represent
+	Military 	Deter 	Broader Audience 	Deligitimize 	Show Implications
+44 	Threatening retaliation against third-party enablers can help prevent terrorist organizations from obtaining needed resources. 	0 		
+Indirect Punishment
+	Military 	Deter 	Material Supporters 		Show Implications
+45 	Investing in and publicizing forensic capabilities to identify the source of nuclear (or any WMD) materials used in an attack will decrease the likelihood of third parties supplying materials or allowing them to leak. 	1 	Direct 	
+Indirect Punishment
+		Deter 	Material Supporters 		Show Implications
+46 	Breaking VEO networks and connections can reduce VEO activity. 	3 	Direct 	
+Military Deterrence/Coercion
+Indirect Punishment
+		Defeat 	Material Supporters, State-based support 	Denial 	Show Implications
+47 	Breaking VEO networks and connections will reduce VEO activity in the short term only, if at all. 	0 	N/A 	
+Military Deterrence/Coercion
+Indirect Punishment
+		Defeat 	Material Supporters, State-based support 	Denial 	Show Implications
+48 	Breaking VEO networks and connections will reduce VEO activity in both the short and long term. 	0 	N/A 	
+Military Deterrence/Coercion
+Indirect Punishment
+	Law Enforcement 	Defeat 	Material Supporters, State-based support 	Denial 	Show Implications
+49 	State targeting of actors in the VEO support system will have little effect because networks can repair or replace themselves very quickly. 	2 	Direct 	
+Military Deterrence/Coercion
+Indirect Punishment
+		Defeat 	Material Supporters, State-based support 	Coercion 	Show Implications
+50 	The threatened or actual use of force against state sponsors will influence the behavior of VEOs. 	1 	Direct 	
+Indirect Punishment
+Against state sponsors/enablers
+	Military 		State-based Support 		Show Implications
+51 	Threatening punishment against state actors who sponsor or support VEOs will decrease that support and thereby reduce the operational capacity of the sponsored VEOs. 	1 	Direct 	
+Indirect Punishment
+Against state sponsors/enablers
+	Military 	Deter 	State-based Support 		Show Implications
+52 	Engaging in preventive or preemptive use of force against state sponsors of VEOs will deter the targeted and other states from sponsoring groups and thereby reduce the operational capacity of the sponsored VEOs. 	1 	Direct 	
+Indirect Punishment
+Against state sponsors/enablers
+	Military 		State-based Support 		Show Implications
+53 	Threatening punishment (up to and including the retaliatory use of WMD) against states will deter them from transferring or allowing negligent transfer of WMD to VEOs. 	1 	Direct 	
+Indirect Punishment
+Against state sponsors/enablers
+	Military 	Deter 	State-based Support 		Show Implications
+54 	Threatening automatic retaliation against any state that allows WMD materials to fall into the hands of VEOs can decrease the likelihood that the state will cooperate after an attack to track who obtained the WMD materials, and this increases the probability of follow-on terrorist attacks. 	1 	Direct 	
+Indirect Punishment
+Against state sponsors/enablers
+	Military 	Deter 	State-based Support 		Show Implications
+55 	Communicating and publicizing attribution capabilities and programs to state actors can deter support to VEO WMD acquisition. 	0 		
+Indirect Punishment
+Against state sponsors/enablers
+	Information 	Deter 	State-based Support 		Show Implications
+56 	Retaliation against foreign targets for VEO attacks against the US increases VEO activity. 	8 	Direct 	
+Military Deterrence/Coercion
+Indirect Punishment
+Against state sponsors/enablers
+	Military 	Deter 	State-based Support 	Coercion 	Show Implications
+57 	Preemptively targeting private, non-state enablers (e.g. financiers) may deter the provision of support terrorists need to carry out operations. 	1 		
+Indirect Punishment
+Against private supporters/enablers
+	Military, Law Enforcement 		Material Supporters 		Show Implications
+58 	Retaliating (post attack) against non-state supporters and enablers of terrorism may deter the future provision of support or facilitation of terrorist organizations by such actors. 	0 		
+Indirect Punishment
+Against private supporters/enablers
+	Military, Law Enforcement 	Deter 	Material Supporters 		Show Implications
+59 	"Get tough laws" will be ineffective in reducing VEO activity. 	5 	Direct 	
+	Law Enforcement 	Deter 	Leaders, Loyalists 		Show Implications
+60 	Reducing the anticipated benefits or likelihood of success of an attack can deter VEOs. 	2 	Direct 	
+Non-military Deterrence/Coercion
+Denial
+Strategic
+	Information 	Dissuade 	Leaders 	Denial 	Show Implications
+61 	Using measures to manage and mitigate the consequences of an attack and to speed recovery afterward can deter terrorists by showing that even successful terrorist attacks will not produce large-scale effects. 	0 	N/A 	
+Non-military Deterrence/Coercion
+Denial
+Strategic
+	Information, Military, Economic 	Be seen as able to defend 	Leaders 	Denial 	Show Implications
+62 	Cultivating doubt as to whether, even if operationally successful, the ultimate goals of the VEO in conducting attacks will be achieved, deters the VEO from engaging in violence. 	0 	N/A 	
+Non-military Deterrence/Coercion
+Denial
+Strategic
+	Information 	Be seen as able to defend 	Leaders 	Denial 	Show Implications
+63 	Greater social resilience bolsters deterrence by denial. 	1 	Direct 	
+Non-military Deterrence/Coercion
+Denial
+Strategic
+	Information 	Be seen as able to defend 	Leaders, Loyalists, Active followers 	Denial 	Show Implications
+64 	Reducing the anticipated level of publicity of an attack can help deter VEOs from carrying out that attack. 	0 	N/A 	
+Non-military Deterrence/Coercion
+Denial
+Operational
+	Information 	Dissuade 	Leaders 	Denial 	Show Implications
+65 	Reducing the anticipated reputational benefits of an attack can help deter VEOs from carrying out that attack. 	0 	N/A 	
+Non-military Deterrence/Coercion
+Denial
+Operational
+	Information 	Dissuade 	Leaders 	Denial 	Show Implications
+66 	Increased uncertainty about the ability to control the effects of biological weapons makes VEOs less likely to use them. 	0 	N/A 	
+Non-military Deterrence/Coercion
+Denial
+Operational
+	Information 	Raise risks and uncertainties 	Leaders 	Denial 	Show Implications
+67 	Media focus on VEO activity can increase VEO activity. 	2 	Direct 	
+Non-military Deterrence/Coercion
+Denial
+Operational
+	Information 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Denial 	Show Implications
+68 	Reducing the media's contribution to the perceived visibility of attacks increases deterrence. 	2 	Direct 	
+Non-military Deterrence/Coercion
+Denial
+Operational
+	Information 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Denial 	Show Implications
+69 	Content of media attention influences VEOs. 	8 	Direct 	
+Non-military Deterrence/Coercion
+Denial
+Operational
+	Information 		Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audience, Other populations 	Denial 	Show Implications
+70 	Media shaming of VEO activity can reduce VEO activity. 	0 	N/A 	
+Non-military Deterrence/Coercion
+Denial
+Operational
+	Information 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audience, Other populations 	Denial 	Show Implications
+71 	Media reports countering discrimination or demonization of VEO and/or its constituency can reduce VEO activity. 	0 	N/A 	
+Non-military Deterrence/Coercion
+Denial
+Operational
+	Information 	Induce 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audience, Other populations 	Denial 	Show Implications
+72 	Lack of press freedom can retard state efforts to influence VEOs. 	1 	Direct 	
+Non-military Deterrence/Coercion
+Denial
+Operational
+	Information 	Persuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audience, Other populations 	Incentivize 	Show Implications
+73 	Applying better defensive measures to targets, even if imperfect, can help deter VEO attacks on those targets by decreasing the likelihood of mission success for risk averse members and group members or by increasing the uncertainty of carrying out a successful attack. 	3 	Direct 	
+Non-military Deterrence/Coercion
+Denial
+Tactical
+	Information 	Be seen as able to defend 	Leaders 	Denial 	Show Implications
+74 	Metal detectors and increased law enforcement at airports decreases hijackings. 	9 	Direct 	
+Non-military Deterrence/Coercion
+Denial
+Tactical
+	Law Enforcement 	Raise risks and uncertainties 	Leaders 	Denial 	Show Implications
+75 	Visible variability in prevention measures is particularly effective for the effect of applying better defensive measures to targets. 	0 	N/A 	
+Non-military Deterrence/Coercion
+Denial
+Tactical
+	Law Enforcement 	Be seen as able to defend 	Leaders, Loyalists 	Denial 	Show Implications
+76 	Reducing the anticipated physical damage (direct and indirect) of an attack can help deter VEOs from carrying out that attack. 	0 	N/A 	
+Non-military Deterrence/Coercion
+Denial
+Tactical
+	Law Enforcement, Military, Economic 	Be seen as able to defend 	Leaders, Loyalists, Active followers 	Denial 	Show Implications
+77 	Targeting family members by suppressing financial compensation from suicide terror missions may deter individuals in a VEO from conceptualizing a positivie risk-benefit ratio. 	0 	N/A 	
+Non-military Deterrence/Coercion
+Denial
+Tactical
+	Financial 	Dissuade 	Loyalists 	Coercion 	Show Implications
+78 	Effective lower level policing (e.g. community level policing) can lower VEO activity. 	1 	Moderate confidence 	
+Non-military Deterrence/Coercion
+Denial
+Tactical
+	Law Enforcement 	Persuade 	Broader Audience 	Denial 	Show Implications
+79 	Development of human intelligence can lower VEO threat. 	3 	Direct 	
+Non-military Deterrence/Coercion
+Denial
+Tactical
+	Law Enforcement 	Defeat 	Leaders, Loyalists, Active followers 	Denial 	Show Implications
+80 	Strategic deterrence by denial is more important than tactical denial because VEOs may accept a few tactical failures if they believe their ultimate objectives are still achievable. 	1 	Direct 	
+Non-military Deterrence/Coercion
+Denial
+	Information 	Be seen as able to defend 	Leaders 	Denial 	Show Implications
+81 	Targeting foot soldiers with arrest and long-term, isolated punishment may deter individual VEO action as they perceive such to be greater deterrent than death. 	0 	N/A 	
+Non-military Deterrence/Coercion
+Alternative (non-military) Punishment Threats
+	Law Enforcement 	Deter 	Active Followers 	Coercion 	Show Implications
+82 	Arresting a VEO leader is a more effective means of influencing the VEO than killing him. 	1 	Direct 	
+Non-military Deterrence/Coercion
+Alternative (non-military) Punishment Threats
+	Law Enforcement 	Defeat 	Leaders 	Coercion 	Show Implications
+83 	Imprisonment of leaders leads to increased VEO activity. 	2 	Direct 	
+Non-military Deterrence/Coercion
+Alternative (non-military) Punishment Threats
+	Law Enforcement 	Defeat 	Leaders 	Coercion 	Show Implications
+84 	Discouraging state support for schools teaching radical ideologies will reduce VEO activity. 	0 	N/A 	
+Non-military Deterrence/Coercion
+Alternative (non-military) Punishment Threats
+Financial Sanctions
+	Financial 	Dissuade 	Ideological influencers 	Deligitimize 	Show Implications
+85 	Inability to block external assistance leads to more VEO activity. 	3 	Direct 	
+Non-military Deterrence/Coercion
+Alternative (non-military) Punishment Threats
+Financial Sanctions
+	Financial 	Deter 	Material Supporters, State-based support 	Denial 	Show Implications
+86 	Blocking VEO financial transactions will curtail VEO activity. 	0 	N/A 	
+Non-military Deterrence/Coercion
+Alternative (non-military) Punishment Threats
+Financial Sanctions
+	Financial 	Deter 	Material Supporters, State-based support 	Denial 	Show Implications
+87 	Increased apprehension of members can decrease VEO activity. 	7 	Direct 	
+Non-military Deterrence/Coercion
+Alternative (non-military) Punishment Threats
+Legal
+	Law Enforcement 	Defeat 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Coercion 	Show Implications
+88 	Concessions to VEOs do not increase VEO attacks. 	2 	Direct 	
+Negotiations
+	Diplomatic 	Induce 	Leaders, Loyalists 		Show Implications
+89 	Engagement with VEOs in negotiations reduces violence. 	2 	Direct 	
+Bargaining/Negotiations/Dialogue
+Negotiations
+Negotiations with VEO as a whole
+	Diplomatic 	Induce 	Leaders, Loyalists, Active followers 	Incentivize 	Show Implications
+90 	Only good faith, substantive engagement with VEOs in negotiations reduces violence. 	0 	N/A 	
+Bargaining/Negotiations/Dialogue
+Negotiations
+Negotiations with VEO as a whole
+	Diplomatic 	Induce 	Leaders, Loyalists, Active followers 	Incentivize 	Show Implications
+91 	In a domestic context, VEOs agree to negotiate if they can preserve their reputation (e.g., not be seen to lose) and there are credible guarantees that the government will not double-cross them. 	0 	N/A 	
+Bargaining/Negotiations/Dialogue
+Negotiations
+Negotiations with VEO as a whole
+	Diplomatic 	Induce 	Leaders, Loyalists, Active followers 	Incentivize 	Show Implications
+92 	It is generally in the government's best interest to negotiate with VEOs only when the group is gaining momentum. 	0 	N/A 	
+Bargaining/Negotiations/Dialogue
+Negotiations
+Negotiations with VEO as a whole
+	Diplomatic 	Induce 	Leaders, Loyalists, Active followers 	Incentivize 	Show Implications
+93 	VEOs are more likely to negotiate when they see themselves 'losing ground' (e.g., PLO) 	0 	N/A 	
+Bargaining/Negotiations/Dialogue
+Negotiations
+Negotiations with VEO as a whole
+	Diplomatic 	Induce 	Leaders, Loyalists, Active followers 	Incentivize 	Show Implications
+94 	Negotiations with VEOs can benefit from third party involvement as mediators or guarantors. 	0 	N/A 	
+Bargaining/Negotiations/Dialogue
+Negotiations
+Negotiations with VEO as a whole
+	Diplomatic 	Induce 	Leaders, Loyalists, Active followers 	Incentivize 	Show Implications
+95 	Negotiating with VEOs can lead to more terror as a result of spoilers. 	8 	Direct 	
+Bargaining/Negotiations/Dialogue
+Negotiations
+Negotiations with VEO as a whole
+	Diplomatic 	Induce 	Leaders, Loyalists, Active followers 	Incentivize 	Show Implications
+96 	Negotiations do not lead to the demise of the VEO. 	3 	Direct 	
+Bargaining/Negotiations/Dialogue
+Negotiations
+Negotiations with VEO as a whole
+	Diplomatic 	Induce 	Leaders, Loyalists, Active followers 	Incentivize 	Show Implications
+97 	Amnesty offered to VEO members can lead to desertions and weakening of the group. 	3 	Direct 	
+Bargaining/Negotiations/Dialogue
+Negotiations
+Negotiations with VEO as a whole
+	Diplomatic, Law enforcement 	Induce 	Active followers 	Incentivize 	Show Implications
+98 	In a country/issue context with multiple VEOs, negotiating with one VEO may lead to increased bad behavior by VEOs left out of negotiations. 	9 	Direct 	
+Bargaining/Negotiations/Dialogue
+Negotiations
+Negotiations with VEO as a whole
+	Diplomatic 	Co-opt 	Leaders 	Incentivize 	Show Implications
+99 	Opening up debate, irrespective of its impact on the prevalence of anti-Western sentiment, may reduce support for VEOs. 	1 	Direct 	
+Bargaining/Negotiations/Dialogue
+Dialogue
+Promote dialog among groups
+	Diplomatic 	Co-opt 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audience, Other populations 	Incentivize 	Show Implications
+100 	Intergroup conflict is often exacerbated by exaggerations of the differences between one group’s values/opinions/beliefs and another’s; facilitating dialogue and communications about the similarities between the values/goals, etc. of the two groups may decrease or eliminate the desire for violence against the outgroup. 	0 	Moderate confidence 	
+Bargaining/Negotiations/Dialogue
+Dialogue
+Promote dialog among groups
+	Diplomatic 	Persuade 	Ideological influencers, Material Supporters, Broader Audience 	Incentivize 	Show Implications
+101 	In conditions of inter-constituent group competition over scarce resources, encouraging groups to work in a cooperative fashion vis-à-vis resource allocation reduces VEO activity. 	6 	High confidence - Different 	
+Bargaining/Negotiations/Dialogue
+Dialogue
+Promote dialog among groups
+	Diplomatic 	Induce 	Broader Audience 	Incentivize 	Show Implications
+102 	VEOs are emboldened by state use of "soft power" in the face of provocation, leading to escalation. 	0 		
+	Diplomatic 	Persuade 	Leaders, Loyalists 		Show Implications
+103 	Addressing "root causes" and extremist rhetoric is more likely to have an effect on non- or less-committed (potential) members of VEOs than hardened members. 	0 	N/A 	
+Persuasion and Counternarrative
+	Information 	Persuade 		Deligitimize, Incentivize 	Show Implications
+104 	Hearts and minds strategies are more effective than repression in reducing VEO activities. 	3 	Direct 	
+Persuasion and Counternarrative
+Persuasion
+	Information 	Induce 	Broader Audience, Other populations - local 	Incentivize 	Show Implications
+105 	Providing evidence for (or reframing to sound like) the outgroup is not threatening the beliefs of the VEO’s constituency may reduce VEO activity. 	0 	N/A 	
+Persuasion and Counternarrative
+Persuasion
+	Information, Diplomatic 	Persuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Incentivize 	Show Implications
+106 	Reaffirming the esteem or prestige of the group may reduce VEO creation and activity. 	0 	N/A 	
+Persuasion and Counternarrative
+Persuasion
+	Information, Diplomatic 	Induce 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Incentivize 	Show Implications
+107 	Influencing a potential VEO member before he/she shifts from the "virtual jihad" to actual violence in the real world will be more effective. 	0 	N/A 	
+Persuasion and Counternarrative
+Persuasion
+	Information 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Deligitimize 	Show Implications
+108 	Countering the virulent Islamist ideology espoused by Al Qaeda will reduce current terrorism more than addressing any other cause. 	4 	Direct 	
+Persuasion and Counternarrative
+Persuasion
+Deradicalization
+		Persuade 	Leaders, Loyalists, Active followers 	Deligitimize 	Show Implications
+109 	Deradicalization programs can reduce VEO activity. 	3 	Direct 	
+Persuasion and Counternarrative
+Persuasion
+Deradicalization
+	Information 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Deligitimize 	Show Implications
+110 	Social interaction between the VEO and the 'other' helps chances for deradicalization. 	5 	Direct 	
+Persuasion and Counternarrative
+Persuasion
+Deradicalization
+	Information 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Deligitimize 	Show Implications
+111 	Deradicalization/disengagement is more likely to succeed when efforts are initiated by the VEO leadership. 	5 	Direct 	
+Persuasion and Counternarrative
+Persuasion
+Deradicalization
+	Information 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Incentivize 	Show Implications
+112 	VEO deradicalization/disengagement 'initiated at the top' is more likely to succeed if accompanied by 'inducements by the state'. 	4 	Direct 	
+Persuasion and Counternarrative
+Persuasion
+Deradicalization
+	Information 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Incentivize 	Show Implications
+113 	VEO Deradicalization/disengagement initiated at the top more is likely to succeed if accompanied by 'internal interactions between leadership and members of the movement.' [bottom up feedback] 	4 	Direct 	
+Persuasion and Counternarrative
+Persuasion
+Deradicalization
+	Information 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Incentivize 	Show Implications
+114 	On the whole, positive inducements seem more effective than negative ones in deradicalizing/disengaging. 	9 	Direct 	
+Persuasion and Counternarrative
+Persuasion
+Deradicalization
+	Information 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Incentivize 	Show Implications
+115 	Deradicalization/disengagement of VEO actors is often preceded by a traumatic/significant event. 	5 	Moderate confidence 	
+Persuasion and Counternarrative
+Persuasion
+Deradicalization
+	Information 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Deligitimize 	Show Implications
+116 	The more psychological and emotional support that an ex-member of a militant group has access to post deradicalization/disengagement, the less likely he/she is to rejoin the extremist group in the future. 	5 	Direct 	
+Persuasion and Counternarrative
+Persuasion
+Deradicalization
+	Information 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Incentivize 	Show Implications
+117 	Deradicalization efforts using religious arguments are relatively more effective in rural areas; in urban areas efforts to disengage will be more fruitful. 	0 	N/A 	
+Persuasion and Counternarrative
+Persuasion
+Deradicalization
+		Persuade 	Leaders, Loyalists, Active followers 	Deligitimize 	Show Implications
+118 	Applying pressure to a radical Islamist VEO with ‘no clear charismatic leader’ will lead to fractures in the group; subsequently some groups will de-radicalize while others will not. 	3 	Direct 	
+Persuasion and Counternarrative
+Persuasion
+Deradicalization
+		Persuade 	Leaders, Loyalists, Active followers 	Coercion 	Show Implications
+119 	A government's clear political aim makes countering propaganda easier, thereby reducing VEO activity. 	1 	Direct 	
+Persuasion and Counternarrative
+Deterrence by counternarrative/deligitimation
+	Information 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audience 	Deligitimize 	Show Implications
+120 	If "buyers" (meaning the audience the organization seeks to serve) find the social and/or political change on offer by the VEO unattractive, VEOs will modify their behavior. 	9 	High confidence - Similar 	
+Persuasion and Counternarrative
+Deterrence by counternarrative/deligitimation
+	Information 	Persuade 	Broader Audience 	Deligitimize 	Show Implications
+121 	If "buyers" (meaning the audience the organization seeks to serve) find the social and/or political change on offer by the VEO unattractive because it is not sought, VEOs will modify their behavior. 	3 	Direct 	
+Persuasion and Counternarrative
+Deterrence by counternarrative/deligitimation
+	Information 	Persuade 	Broader Audience 	Deligitimize 	Show Implications
+122 	If "buyers" (meaning the audience the organization seeks to serve) find the social and/or political change on offer by the VEO to be illegitimately provided, VEOs will modify their behavior. 	5 	Direct 	
+Persuasion and Counternarrative
+Deterrence by counternarrative/deligitimation
+	Information 	Persuade 	Broader Audience 	Deligitimize 	Show Implications
+123 	Popular revulsion at VEO behavior in the short run may not be enough to stem violence, as the VEO will seek to "market" more effectively or "rebrand" their product. 	2 	Direct 	
+Persuasion and Counternarrative
+Deterrence by counternarrative/deligitimation
+	Information 	Persuade 	Broader Audience 	Deligitimize 	Show Implications
+124 	VEOs that move into new strategies may be embarking on new forms of violence that are unacceptable to current resource providers. 	3 	Direct 	
+Persuasion and Counternarrative
+Deterrence by counternarrative/deligitimation
+	Information 	Persuade 	Broader Audience 	Deligitimize 	Show Implications
+125 	When VEOs change ideological platforms, it may alienate current constituent support base and suppliers. 	8 	Direct 	
+Persuasion and Counternarrative
+Deterrence by counternarrative/deligitimation
+	Information 	Persuade 	Broader Audience 	Deligitimize 	Show Implications
+126 	VEO 'targeting errors' can lead to erosion of popular support for the group. 	9 	Direct 	
+	Information 	Persuade 	Broader Audience 		Show Implications
+127 	Establishing norms ("taboos") against certain attack modalities will reduce VEO attacks of that modality. 	0 	N/A 	
+Persuasion and Counternarrative
+Deterrence by counternarrative/deligitimation
+	Information, Diplomatic 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Deligitimize 	Show Implications
+128 	Establishing norms ("taboos") against mass casualty attacks will reduce VEO attacks of that modality. 	0 	N/A 	
+Persuasion and Counternarrative
+Deterrence by counternarrative/deligitimation
+	Information, Diplomatic 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Deligitimize 	Show Implications
+129 	Developing an appropriate "counternarrative" will undermine the VEOs narrative. 	0 	N/A 	
+Persuasion and Counternarrative
+Deterrence by counternarrative/deligitimation
+	Information, Diplomatic 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Deligitimize 	Show Implications
+130 	Delegitimizing VEOs' religious or political messages will reduce the likelihood of an attack because their organization will be reduced to a common organization without political or ideological influence. 	0 	N/A 	
+Persuasion and Counternarrative
+Deterrence by counternarrative/deligitimation
+	Information, Diplomatic 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Deligitimize 	Show Implications
+131 	Manipulating religious debates in ways that delegitimize interpretations that condone terrorism can help inform broader deterrent strategies. 	0 	N/A 	
+Persuasion and Counternarrative
+Deterrence by counternarrative/deligitimation
+	Information, Diplomatic 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Deligitimize 	Show Implications
+132 	Creating a debate in the VEO milieu by engaging the VEO's narrative with moderate voices can undermine the VEO's narrative. 	0 	N/A 	
+Persuasion and Counternarrative
+Deterrence by counternarrative/deligitimation
+	Information 	Dissuade 	Ideological Influencers, Broader Audience 	Deligitimize 	Show Implications
+133 	Encouraging declarations against WMD use by the VEO's support community can discredit VEO ideological justification in support of WMDs. 	0 	N/A 	
+Persuasion and Counternarrative
+Deterrence by counternarrative/deligitimation
+Focus on WMD
+	Information 	Persuade 	Broader Audience 	Deligitimize 	Show Implications
+134 	Establishing norms ("taboos") against CBRN will reduce VEO attacks of that modality. 	1 	Low confidence 	
+Persuasion and Counternarrative
+Deterrence by counternarrative/deligitimation
+Focus on WMD
+	Information, Diplomatic 	Dissuade 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters 	Deligitimize 	Show Implications
+135 	Legitimate grievances make suppression on its own, without addressing grievances, insufficient to reduce VEO activity. 	0 	N/A 	
+Positive incentives/opening up alternative options
+	Economic 	Induce 	Leaders, Loyalists, Active followers, Broader audience 	Coercion 	Show Implications
+136 	Governments that maintain law and order will be more effective at reducing VEO activity. 	8 	Direct 	
+Positive incentives/opening up alternative options
+		Deter 			Show Implications
+137 	Inducements such as "political and economic reform" aimed at the potential support base of VEOs can move these actors away from VEO support. 	3 	Direct 	
+Positive incentives/opening up alternative options
+Economic Development & incentives
+	Economic 	Co-opt 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audiences 	Incentivize 	Show Implications
+138 	In conditions of inter-constitutent group competition over scarce resources, increases in resources reduces VEO activity. 	0 	N/A 	
+Positive incentives/opening up alternative options
+Economic Development & incentives
+	Economic 	Induce 	Broader Audience, Leaders, Loyalists, Active followers, Material Supporters, Ideological influencers 	Incentivize 	Show Implications
+139 	Effective VEO countering requires addressing underlying social and economic issues. 	2 	Direct 	
+Positive incentives/opening up alternative options
+Economic Development & incentives
+	Economic 	Induce 	Broader Audience, Leaders, Loyalists, Active followers, Material Supporters, Ideological influencers 	Incentivize 	Show Implications
+140 	State provision of social services where they have been lacking reduces recruitment. 	7 	Direct 	
+Positive incentives/opening up alternative options
+Economic Development & incentives
+	Economic 	Induce 	Broader Audience 	Incentivize 	Show Implications
+141 	Greater economic stability reduces VEO activity. 	3 	Direct 	
+Positive incentives/opening up alternative options
+Economic Development & incentives
+	Economic 	Induce 	Broader Audience 	Incentivize 	Show Implications
+142 	US commerce in a country will increase VEO activity from that country against the USA. 	3 	Direct 	
+Positive incentives/opening up alternative options
+Economic Development & incentives
+	Economic 				Show Implications
+143 	State tolerance of radical but nonviolent groups (NVEOs) provides a safety valve that reduces VEO recruitment. 	3 	Direct 	
+Positive incentives/opening up alternative options
+Opportunities for Peaceful Political Change
+	Diplomatic 	Induce 	Broader Audience, Other populations - local 	No Action 	Show Implications
+144 	Alternatively, state tolerance of NVEOs provides a transmission belt to VEOs. 	2 	Direct 	
+Positive incentives/opening up alternative options
+Opportunities for Peaceful Political Change
+	Diplomatic 	Induce 	Broader Audience, Other populations - local 	No Action 	Show Implications
+145 	Political reforms can lower VEO activity. 	9 	Direct 	
+Positive incentives/opening up alternative options
+Opportunities for Peaceful Political Change
+	Diplomatic 	Co-opt 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audiences 	Incentivize 	Show Implications
+146 	The existence of a substitute means or mechanism to achieve the VEOs' goals reduces VEOs' violent activities. 	3 	Direct 	
+Positive incentives/opening up alternative options
+Opportunities for Peaceful Political Change
+	Diplomatic 	Co-opt 	Leaders, Loyalists 	Incentivize 	Show Implications
+147 	Violence and nonviolence can be substitute means of achieving the same goals, therefore when a VEO pursues or engages in non-violent activities it will produce less violence. 	4 	Direct 	
+Positive incentives/opening up alternative options
+Opportunities for Peaceful Political Change
+	Diplomatic 	Co-opt 	Leaders, Loyalists 	Incentivize 	Show Implications
+148 	Freedom, openess and participation will lower VEO activity. 	2 	Direct 	
+Positive incentives/opening up alternative options
+Opportunities for Peaceful Political Change
+Democracy Promotion
+	Diplomatic 	Induce 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audience, Other populations 	Incentivize 	Show Implications
+149 	Policy deadlock can lead to increases in VEO attacks as actors go outside of institutional means to try to achieve their goals. 	7 	Direct 	
+Positive incentives/opening up alternative options
+Opportunities for Peaceful Political Change
+Democracy Promotion
+	Diplomatic 	Induce 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audience, Other populations 	Incentivize 	Show Implications
+150 	Political competition in a regime decreases terrorist attacks. 	7 	Direct 	
+Positive incentives/opening up alternative options
+Opportunities for Peaceful Political Change
+Democracy Promotion
+	Diplomatic 	Induce 	Leaders, Loyalists, Active followers, Ideological influencers, Material supporters, Broader audience, Other populations 	Incentivize 	Show Implications
+151 	Increasing the capability of the government will lower VEO activity. 	2 	Direct 	
+Other
+					Show Implications
+152 	Lack of strong institutions and control by government leads to more VEO activity. 	7 	Direct 	
+Other
+					Show Implications
+153 	Groups and individuals prefer to have an optimal level of uniqueness and distinctiveness; a group that is similar will threaten the group’s distinctiveness which may prompt intergroup issues. 	8 	High confidence - Similar 	
+Other
+	Information 				Show Implications
+154 	The more competition (Five Forces) VEOs face for constituent support, the more violence VEOs produce (outbidding). 	4 	Direct 	
+Other
+			Leaders, Loyalists, Active followers 	Denial 	Show Implications
+155 	Suicide terrorism is increased as the number of VEOs competing for societal support increases (outbidding). 	2 	Direct 	
+Other
+			Leaders, Loyalists, Active followers 	Denial 	Show Implications
+156 	VEOs may engage in violence/may increase the use of violence in order to forestall formation of competitor organizations. 	4 	Direct 	
+Other
+			Leaders, Loyalists 	Denial 	Show Implications
+157 	The more competition a terrorist group faces from rival VEOs, the more likely it is to fail. 	3 	Direct 	
+Other
+			Leaders, Loyalists 	Denial 	Show Implications
+158 	Government pressures and coercion cause fragmentation and splintering, leading to outbidding in extremism and escalation. 	2 	Direct 	
+Other
+				Coercion 	Show Implications
+159 	In conditions of inter-constitutent group competition over scarce resources, reframing the amount of resources to sound less scarce reduces VEO activity. 	0 	N/A 	
+Other
+	Economic 	Persuade 	Broader Audience 	Incentivize 	Show Implications
+160 	VEOs with diversified supplier relationships are harder to coerce, deter, and co-opt. 	7 	Moderate confidence 	
+Other
+			Material Supporters, State-based support 	Coercion 	Show Implications
+161 	When VEOs make new friends/connections, it may alienate current supporters and suppliers. 	1 	Direct 	
+Other
+				Deligitimize 	Show Implications
+162 	When VEOs change ideological platforms, it may reduce competition within the constituent base. 	8 	Direct 	
+Other
+				Deligitimize 	Show Implications
+163 	An extremist group's loss of operational control will increase its likelihood to de-radicalize or end altogether. 	1 	Direct 	
+Other
+				Deligitimize 	Show Implications
+164 	Increased American dominance in the international system has led to more terrorism. 	3 	Direct 	
+Other
+					Show Implications
+165 	As US military aid to and intervention in foreign countries increase, terrorist attacks by VEOs from those countries on US citizens increase. 	8 	Direct 	
+Other
+					Show Implications
+166 	US troops in a country that is not a democracy will increase VEO activity against the USA. 	7 	Direct 	
+Other
+					Show Implications
+167 	Persistence of safe havens will increase VEO activity 	3 	Direct 	
+Other
+				Denial 	Show Implications
+168 	Tolerance by a state of a VEO in its territory (e.g. safe haven) will lead to a reduction of that VEO’s domestic activity but increase its transnational activity. 	3 	Direct 	
+Other
+				Denial 	Show Implications
+169 	An increase in VEO attacks in one location will lead to an increase in adjacent locations (contagion effect). 	3 	Direct 	
+Other
+					Show Implications
+170 	International treaties do not decrease VEO activity. 	7 	Direct 	
+Other
+	Diplomatic 			Coercion 	Show Implications
+171 	Ineffective learning by counterinsurgency forces will lead to more VEO activity and success. 	6 	Direct 	
+Other
+					Show Implications
+172 	Indirect counterinsurgency methods are more successful than measures that interfere with the population (e.g. occupying forces increase VEO activity). 	8 	Direct 	
+Other
+		Induce 	Broader Audience 		Show Implications
+173 	Threatening what the terrorists and their supporters hold dear can be an effective method if we understand the values held by the different levels of a terrorist group and support network. 	1 	Direct 	
+				Coercion 	Show Implications
+174 	Population centric counterinsurgency (living in population and protecting them) is more effective than other counterinsurgency measures at reducing VEO activity. 	1 	Direct 	
+		Persuade 	Broader Audience, Other populations - local 		Show Implications
+175 	VEOs may be manipulated through five channels: suppliers, buyers, rivals, substitutes, and new entrants. 	9 	High confidence - Similar 	
+					Show Implications
+176 	If the adversary sees that there are no benefits to restraint, it will work against the deterring party. 	9 	Direct 	
+	Information 	Deter 	Leaders, Loyalists, Active followers 	Coercion 	Show Implications
+177 	Competition over resources leads to intergroup conflict. 	8 	High confidence - Different 	
+				Incentivize 	Show Implications
+178 	Loss of external popular support can hasten the demise of a VEO. 	1 	Direct 	
+		Persuade 	Broader Audience 	Deligitimize 	Show Implications
+179 	Attempts at deterrence lead to increased VEO activity by signaling salience to the state of attack modalities. 	0 	N/A 	
+	Diplomatic, Information 	Deter 	Leaders 	Coercion 	Show Implications
+180 	Localizing anti-VEO efforts (tailoring efforts to local values, etc.) will reduce VEO activities. 	0 	N/A 	
+					Show Implications
+181 	States' influence efforts will be more successful if they refrain from providing symbols of injustice that feed into the VEO narrative. 	7 	Direct 	
+		Persuade 	Broader Audience 	Deligitimize 	Show Implications
+182 	Counterinsurgency approaches will lose effectiveness over time. 	6 	Direct 	
+					Show Implications
+183 	Decentralization in decision making can lead to a decrease in VEO activity. 	-1 	Direct 	
+					Show Implications
+Showing 1 to 183 of 183 entries
+Main menu
+
+    Home
+    About
+    Descriptives
+    FAQs
+    Credits
+    Contact
+
+Design by CurlyRed · Website Development by Foxtrot Media, Inc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to Navigation
+Descriptives
+
+The Knowledge Matrix, as a tool, is meant to be investigated and interacted with by users. However, in order to provide an introduction to the Matrix as a whole, we present summary characteristics of some of the main Matrix variables below.
+
+Each hypothesis is categorized based on the amount of empirical support available in the open literature. (This scale is available by clicking the question mark next to Empirical Evidence Score in the Knowledge Matrix.) Fifty of the 183 hypotheses did not have any relevant empirical evidence to support or contradict the assertion. Fifty seven of the hypotheses had multiple qualitative and/or quantitative studies with contradictory conclusions (represented by empirical support scores 2 and 3).
+
+Since many of the hypotheses originated in other disciplines (besides traditional political science) and often in other contexts (such as interstate conflict or business strategy), each hypothesis was assigned an Applicability Score. The applicability is irresepective of the strength of support the hypothesis has received. (This scale is available by clicking the question mark next to Applicability Score in the Knowledge Matrix.) The empirical evidence in the majority of hypotheses was directly relevant to the context of VEOs.
+
+The default sorting of the matrix is a VEO influence typology developed by Jeffrey Knopf. The table below shows the breakdown of hypotheses in each facet of the typology.
+
+Influence operations can be intended to influence different groups of people: the organizations themselves, their leadership, their supporters, etc, which we refer to as ‘system levels’ in the VEO’s support network. Many of the hypotheses targeted multiple system levels.
+
+The hypotheses are also categorized by type of influence strategy. While hypotheses could be categorized by more than one Influence Spectrum Strategy, 61 hypotheses are classified as Coercive while only three of the hypotheses involved a No Action strategy.
+
+Finally, six particular hypotheses were the most supported by empirical research, while also directly applicable to the context of VEOs. Based on the relative confidence in these hypotheses they may be of particular interest. All of the hypotheses in the table received the highest level of empirical support that applies to the influence of VEOs. Note the numbers in parentheses are the hypothesis numbers, not a relative show of support for the hypothesis.
+
+ 
+
+Six Hypotheses that Received the Highest Ratings on both the Empirical and Applicability Scores
+
+    If the adversary sees that there are no benefits to restraint, it will work against the deterring party. (176)
+
+    In a country/issue context with multiple VEOs, negotiating with one VEO may lead to increased bad behavior by VEOs left out of negotiations. (98)
+
+    Metal detectors and increased law enforcement at airports decreases hijackings. (74)
+
+    On the whole, positive inducements seem more effective than negative ones in deradicalizing/disengaging. (114)
+
+    Political reforms can lower VEO activity. (145)
+
+    VEO 'targeting errors' can lead to erosion of popular support for the group. (126)
+
+ 
+Main menu
+
+    Home
+    About
+    Descriptives
+    FAQs
+    Credits
+    Contact
+
+Design by CurlyRed · Website Development by Foxtrot Media, Inc.

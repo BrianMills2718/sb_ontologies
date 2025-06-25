@@ -1,0 +1,1237 @@
+Work in progress – circulated for comment 1
+How to Innovate:
+The tools for social innovation
+Robin Murray, Geoff Mulgan & Julie Caulier‐Grice
+This paper provides a first output from a major study on the methods being used to generate
+and grow social innovation around the world. These methods come from many fields –
+public policy, design, technology, business, community organising, the professions and
+social entrepreneurship.
+Some are used consciously as distinct methods, but many are not. Indeed, our research
+suggests that relatively few people working in the field have had the chance to reflect on the
+methods that they already use, and that even fewer are aware of the other methods in
+neighbouring fields which they could be using. As a whole, the field is less self‐aware than
+business, medicine or science. This is in part a symptom of relative newness. But one of the
+premises of this project is that greater awareness of methods will improve the practice, and
+success, of social innovation in fields as diverse as ageing, the environment, mental health,
+education and welfare.
+The annex to this paper sets out a first collection of nearly 300 methods and supporting
+conditions which are either in use or being considered in the dynamic field of social
+innovation. These are set out both according to where they are used (in the non‐profit grant
+economy, the public sector, the market and the household) and according to their uses in the
+different stages of innovation, that take ideas from inception to impact.
+The methods are varied: they range from Finnish Complaints Choirs to Korean imagination
+banks, from Italy’s social enterprise bank to US venture philanthropy models, Danish public
+service laboratories to Brazilian participatory budgeting.
+The study is being done by a team at the Young Foundation with support from NESTA. The
+list draws in part on past research i, and in part on inputs from practitioners, intermediaries,
+and the many members of the Social Innovation Exchange across the world. We welcome
+comments, amendments, additions and examples to contribute to what will become an open
+website to guide practitioners in the field as well as a printed guide.
+The purpose of this material will be to guide and support the practice of all those who
+contribute to helping societies think, adapt and innovate: governments and policy‐makers
+who can do so much to create the conditions for innovation, or to crush them; foundations
+and philanthropists with free money; NGOs and associations trying to meet needs more
+effectively; as well as entrepreneurs and innovators themselves.
+This paper aims to prompt reflection, while also providing useful concepts, inspiration as
+well as practical tools. It has four parts:
+Work in progress – circulated for comment 2
+• I Background: the first part situates the context for this explosion of different
+methods. It addresses why social innovation is coming to be seen as such an
+important issue for governments, communities, businesses and places.
+• II The architecture of the social economy: the second part describes the growing
+social economy, which cuts across all sectors, with a variety of types of input, output,
+conceptions, as well as distinctive approaches to innovation.
+• III The process of social innovation. This identifies four stages of development of an
+innovation, not necessarily sequential, but looped, spun off, then re‐connected.
+• IV Methods and supports: the fourth part is an annex that provides an initial list of
+methods and enabling conditions
+I Background: why social innovation now?
+We are currently in the midst of a period of transformative innovation. Two sometimes
+clashing, sometimes coinciding, themes give it its distinctive character. One comes from
+technology: the spread of networks and global infrastructures for information and social
+networking tools. The other comes from culture and values: the growing emphasis on the
+human dimension, on putting people first, giving democratic voice and starting with the
+individual and relationships rather than systems and structures.
+The first of these has already revolutionised the economy. With hindsight it will seem
+astonishing that a company (Google) can within a decade of its founding grow to be in the
+top 10 companies in the world. Amazon, E Bay, MySpace, Apple, Linux, Microsoft – these
+are the new names, many of them having started their life in a garage, that have provided
+the infrastructure, the platforms and the tools of a post industrial age. The pace and extent of
+the present change is reminiscent of previous technological revolutions – the spread of the
+factory system, of the railway age, of those years when the principles of mass production
+finally took root in manufacturing. This time the revolution is in information and
+communication technologies, and in many fields where new knowledge is being applied,
+from genomics to materials. It is a revolution that has transformed the process of innovation
+itself.
+As in previous technological revolutions, the state – and in particular the military – has
+played a decisive role as a patron and incubator of innovation (including the Internet, the
+web and a substantial proportion of the investment in Silicon Valley). But much of the drive
+has come through private innovation via companies operating in the market, and through
+unprecedented citizen action which has mushroomed since 1989.
+For most of the 20 th century innovation policy and practice was primarily concerned with
+hardware and with the market economy. Social innovation took place – in daily life, social
+movements and around the state. But it has only recently come to be a conscious concern of
+policy discussion for three main reasons.
+Work in progress – circulated for comment 3
+First, there are a range of problems that existing structures and policies have found it
+impossible to crack – such as climate change, the world wide epidemic of chronic disease,
+and widening inequality. These are all issues that cut across boundaries, between the state,
+the market and the household, between different parts of the state, and between national
+states themselves. As a result the classic tools of government policy on the one hand, and
+market solutions on the other, have proved inadequate.
+Second, the prospective cost of dealing with these (quite apart from the rising costs of other
+social issues) threatens to swamp public budgets – and in the case of climate change, or
+health care in the US, private budgets as well. To take only one instance, if radical policies
+cannot stem the increase in chronic disease, the cost of healthcare is forecast to rise from 9%
+to 12.5% of GDP in the UK in 15 years and from 16% to 20% in the US within a decade. In
+this instance – as in climate change, pollution control, waste reduction, poverty and welfare
+programmes, and other fields such as criminal justice or traffic congestion – the most
+effective policies are preventative. End of pipe measures are costly and should be
+unnecessary. But effective prevention has been notoriously difficult to introduce, in spite of
+its transparent economic and social benefits. This is a challenge for social innovation.
+Third, as in earlier technological and social transformations, there is a disjunction between
+the structures and institutions formed in a previous period and the requirements of the new.
+This is as true for the private as for the social economy. New paradigms tend to flourish in
+areas where the institutions are most open to them, and where the forces of the old are
+weak. So, for example, there is more innovation around self‐management of diseases and
+public health than around hospitals; more innovation around recycling and energy
+efficiency than around large scale energy production; more innovation around public
+participation than in parliaments and assemblies; more innovation around active ageing
+than around pensions provision. Everywhere innovations give rise to pressures for a wider
+change – to the way the economies are managed, to the supply and housing of appropriate
+labour, to new infrastructure and sources of energy, to new forms of consumption, and to
+the organisation and financing of government.
+We are currently at one of the rare moments when a new set of paradigms challenges the
+previous ones. In place of the old world of mass production, with its standardised products
+and services, its reliance on deskilled labour, its cumbrous system of innovation, its focus on
+scale and all that enables it, its centralised structures of organisation and information, and
+the long standing disjunction of home and overseas markets, we have seen the emergence of
+a new world.
+This new world is one formed around distributed systems as much as centralised structures.
+It handles complexity not by standardisation and simplification imposed from the centre,
+but by distributing complexity to the margins – to the local managers and workers on the
+shop floor, as much as to the consumers themselves. Those at the margins have what central
+managers can never have – knowledge of specificity ‐ specificity of time, of place, of
+particular events and in the consumer’s case of need and desire. We enter a world of
+differentiation and the dissolution of the norm. The micro can now be aggregated to the
+Work in progress – circulated for comment 4
+macro. In place of scale (which is the simple issue) the new concerns are with economies of
+scope, of information, and most strikingly of trust.
+In factories and workshops we have witnessed over the past twenty years a radical re‐
+orientation of the governing principle of production – something like a magnetic reversal –
+from a push‐through to a pull‐through economy. Instead of the focus being on optimising
+the use of capacity of the mass production line, with a stock of products always in search of
+an average consumer, the supply and distribution chain has been re‐oriented to respond to
+real time consumer demand, ‘just in time’. This is itself a revolution within a revolution,
+enabling a whole productive system to meet a differentiated demand.
+The role of the consumer changes as a result, from a passive to an active player, not only as a
+navigator and even shaper of the emerging kingdom governed by the tyranny of choice, but
+as a producer in their own right – Alvin Toffler’s ‘prosumer.’ii It has at last been
+acknowledged that retail purchases that have been cast as the end point of the linear process
+of mass production are part of a circular process of household production and reproduction.
+The so‐called consumer doubles as a domestic producer ‐ a cook, a mother, a carer, a
+shopper, a driver, a nurse, a gardener, a teacher or student ‐ in short so much of what is
+entailed in making us human. This domestic sphere has previously been seen as outside the
+economy, as too complex and ungovernable, but has come now to be recognised as critical
+economically, with all the needs of support, tools, skills and advice that being a producer
+entails.
+Firms that have failed to adapt to this new world – whether they are bookshops, auctioneers,
+or steel makers – have either gone out of business or shifted production to the zones of
+cheaper labour in Eastern Europe and Asia. Those that are still standing, have recognised
+that it is their capacity to provide bespoke services – with products being reconceptualised
+as part of a service – and above all their capacity to innovate on which their future depends.
+Similar shifts can be seen in the social economy. The mechanisms of service and
+institutional transformation are different within government and in grant funded economies
+from those in competitive markets. They also differ around the world, shaped by
+institutional, political and cultural histories which have lent very different roles to the state,
+civil society and the market. But there are some common patterns, and new innovations
+from distance learning and microcredit, to open forms of governance, urban agriculture and
+patient‐led healthcare have flourished in different environments. Similar approaches can be
+found amongst some of the leading edge organisations in very different places – like the
+Hope Institute in Korea and Kennisland in the Netherlands, PLAN in Canada and Honeybee
+in India.
+In both the market and the state, the rise of distributed networks has coincided with a
+marked turn towards the human, the personal and the individual. This has brought a
+greater interest in the quality of relationships (what Jim Maxmin and Shoshanna Zuboff call
+the ‘support economy’ iii); it has led to lively innovation around personalisation (from new
+types of mentor to personal accounts); a new world rich in information and feedback (such
+as AMEE, tracking carbon outputs in 150 different countries); and growing interest in
+Work in progress – circulated for comment 5
+pathways (for example from early childhood into adulthood) and service journeys (whether
+of a patient through a health system or a passenger through an airport).
+With this emphasis on the individual has come an interest in experience as well as formal
+outcomes; in subjective feedback as well as the quantitative metrics of the late 20 th century
+state and economy (hence the rise of innovations like the expert patient, or Patient Opinion).
+Public policy has also turned towards the household, through innovations like nurse‐family
+partnerships and green concierges.
+Some of what is happening in the market entails the adoption of ideas from the social sector
+– collaboration, cooperation, trust‐based networks, user involvement in service design, for
+example, are all familiar concepts in the social field and are now seen as on the cutting edge
+of business. Yet some of the new methods are as challenging to existing charities, non‐
+governmental organisations and cooperatives as they are to mainstream businesses and
+public agencies. Indeed one of the common themes of social innovation is that it often
+challenges relationships of power, creating sites of contest and conflict. This is evident in
+relation to distributed networks which have the potential to devolve and spread power, but
+also great potential to concentrate power (think, for example of Google). Similar tensions are
+visible in the field of social entrepreneurship (which straddles decentralised models rooted
+in community organising and a powerful new cadre of entrepreneurs often educated in
+Western business schools, tied into global consultancies, and backed by foundations rooted
+in big business); and in relation to public policy (which often seeks to co‐opt grassroots
+innovators to serve the interests of big government).
+A Hybrid Economy
+So how can the innovations needed to address ever more pressing (and costly) social and
+environmental demands be generated in the social economy, and grown in ways that spread
+power rather than concentrating it?
+Traditionally, those social tasks for which the private market is inadequate have fallen to
+three quite different economies, the state, the household, and the grant economy. Each has
+its own means of obtaining resources, each its own structures of control and allocation, its
+own rules and customs for the distribution of its outputs, and its principles of reciprocity. In
+the industrial economies of the twentieth century, nations reached different settlements
+about the border lines and responsibilities of each. In Western Europe and Canada, the state
+played the leading role. In the USA a tradition of resistance to ‘big government’ left
+households to manage as best they could, with a greater role played by charitable
+foundations (though still with a large state by historical standards, and one that has played a
+role in funding a number of major commercial innovations).
+Social innovation, in this context, refers not to any particular sector of the economy, but to
+innovation in the creation of social outputs and outcomes regardless of where they spring
+from. This is illustrated by the shaded area in Diagram 1. None of the four economies is
+wholly concerned with the social economy as defined above ‐ production oriented to social
+needs and aspirations. The market economy itself, although largely private, nevertheless
+Work in progress – circulated for comment 6
+engages in the social economy in the form, for example, of corporate social responsibility or
+movements like fair trade. The household, like the market, is in part purely private, but
+forms a critical part of the social economy both through labour in the household, and via the
+contribution to the substance and direction of social production of informal networks,
+associations and social movements. The grant economy, on the other hand, is by its nature
+largely concerned with the delivery of services as a counterpoint to the private market, as is
+much state spending. The shaded area therefore represents those parts of each of the four
+sub economies that together constitute the social economy.
+Diagram 1. The Social Economy
+The boundaries and responsibilities of each of these social sectors as established in the
+period of mass production are being brought into question, as is the distinction between the
+market and the social economy. The binary opposition between the market and the state,
+which was the fulcrum of twentieth century politics (and its ideologies), is being
+contextualised into a more complex set of relations as the market reaches into the state, and
+the state into the market, and as both find new accommodations with civil society and the
+grant economy.
+The old boundary criteria of private and public goods, the one being assigned to the market
+and the other to the state, is no longer adequate. It is not just a question of the characteristics
+of a good or a service and its intrinsic capacity to be commodified that determines whether it
+should be undertaken in the private or the public sphere. It is also a question first of the
+kind of market, the kind of state, and the nature of the interface between them, and second
+of how the state and the market relate to those two other economic types, the household and
+the grant economy.
+When it comes to considering social innovation, therefore, the inquiry can in no way be
+confined to any one sector – such as the so called third sector. It has to cover all these sectors,
+Work in progress – circulated for comment 7
+and the dynamics of the relations between them. Its capacity to innovate will depend as
+much on innovation in the structures, the goals and the cross border relations of each of the
+four economic spheres, as on any specific role that each has traditionally played.
+Reaching beyond the limitations of categories allows us to explore how markets can be re‐
+institutionalised so that they meet the goals of the social economy – so those operating in the
+market can include in their goals and their calculus what was previously excluded. This is
+the burden of much recent environmental policy that seeks to redefine the responsibilities of
+private property, to internalise costs and benefits that were previously external, reframing
+regulations and incentives to this end. It runs in parallel with the question of how to re‐
+institutionalise the state, including transforming concepts of public property and the means
+of ‘commensurating’ social productioniv , and reshaping the state’s methods of allocation and
+control. All these have been threads in the fabric of British health service reform.
+Considering social innovation as stemming from multiple sources encourages us to
+recognise emergent trends from outside the state and the private market. One is new forms
+of mutual action between individuals within the household economy – whether in the form
+of open source software, or web based social networking around specific issues (there are
+reportedly 18 million cancer websites, the great majority generated by those affected by the
+disease). These are two examples of We‐Think innovation that inform Charles Leadbeater’s
+proposition that production for the masses is being replaced by production by the masses. In
+these instances the innovations are generated outside the market and outside the state, many
+of them explicitly so. They have had to develop their own protocols and codes of conduct,
+and in the case of open source software, the terms on which the uncommodified information
+can be used.
+The implications of peer‐to‐peer collaboration of this kind for many of the contemporary
+social economic issues have only begun to be explored, and prompt the question of whether
+and how such systems of highly distributed innovation and mutual support can be
+encouraged – how do they relate to the state and the market, and to their terms of funding
+and employment. Who will provide the necessary tools and platforms? Who will determine
+the protocols? Can they be self managed, or will they need hosts and intermediaries? These
+are some of the questions thrown up by this explosive area of innovation.
+Another striking development has been the growth of social enterprise operating within the
+market. These are companies with a social mission, often socially owned and investing their
+profits in pursuit of their mission. The Mondragon group of cooperatives in Spain (the
+world’s most successful social enterprise) has doubled in size each decade for thirty years,
+operating in sectors as diverse as banking, manufacturing and higher education. BRAC,
+now the developing world’s largest NGO, has spread from microcredit into an equally
+diverse range of activities in Bangladesh and around the world.
+One of the most visible examples of social enterprise is the Grameen Bank and its network of
+27 enterprises and imitators, whose driving goal is to improve the incomes and well being of
+the poorest. The rural villages of Bangledesh, where its work is centred, could hardly be
+farther from Silicon Valley, yet Grameen has many of the characteristics of the new
+Work in progress – circulated for comment 8
+paradigm – a highly distributed credit network in 39,000 villages, by far the most extensive
+in the country, a method for personalising loans and easing their repayment, and a support
+structure based on networks of women. As a social enterprise, it is majority owned and
+governed by its borrowers, 98% of them women. Significantly it calls its lending ‘micro’
+credit and it has grown both by the spread of its model internationally, and through its own
+diversification in Bangladesh into mobile communications, internet services, education, fish
+farming, weaving, housing and most recently yoghurt manufacture.
+How this is done and its underlying economic and organisational model has a significance
+that extends well beyond the rural poor of Bangladesh. Here the point is that Grameen
+operates in the market with the same freedom and discipline as a private company, but with
+a social goal, social ownership and a social distribution and re‐investment of profits.
+There has been a substantial growth of such firms in the past twenty years. They have had a
+marked impact on the nature and direction of growth in a number of sectors – in
+environmental technologies and services, for example, and the production and marketing of
+food, and in fair trade. In each of these cases innovation by social enterprises has provoked
+responses from the private sector and the state.
+Mohammed Yunus, the founder of Grameen, has established and extended his enterprises in
+spite of the obstacles and opposition of a weak and corrupt state, and an orthodox banking
+system. He argues that social enterprises – at times in partnership with private corporations
+– are the most hopeful forms of social innovation and the delivery of services rather than
+states or charities. His project is to socialise the market rather than replace it. Around the
+world new institutions have grown up to assist this transition – from Banca Prossima in Italy
+to Sitawi in Brazil, and from schools for social entrepreneurs in the UK to the many
+networks (like Skoll and Ashoka) based in the US.
+The economics of social innovation
+Over the past twenty five years the predominant economic discourse in relation to the social
+economy has been a modern version of the classical debate between Smith and Ricardo, the
+one emphasising micro commodity exchange through the market, the other macro
+distribution through the agency of the state. In modern dress, the former has been applied to
+the public sector as a means of reducing costs and increasing efficiency. It has been
+advanced through the actual or simulated commodification of what had previously been
+commensurated and distributed according to the non market conventions of public finance.
+The latter has struggled with the question of state led redistribution in the context of the
+international mobility of capital and entrepreneurial labour. Yet neither of these traditions
+adequately addressed the economy wide issues of accumulation and what Schumpeter later
+called capitalism’s process of creative destruction, with its focus on the material
+characteristics of production and technological innovation.
+We want to suggest a Schumpeterian approach to social innovation, that is, examining what
+type of economy can generate and accumulate social innovation, and what if any are the
+Work in progress – circulated for comment 9
+processes of creative destruction in the social economy that allow new ways of meeting
+social needs to supersede or reconstitute the old.
+Traditionally, the primary site of innovation has been taken to be the private market because
+it has well developed structures, mechanisms and incentives that drive innovation. States
+and the grant economy still dominate fundamental research into new cures and new
+technologies. But they cannot match the scope and diffusion of innovation seen in the
+market. The household – that most distributed of economic systems – generates ideas but
+on its own lacks the capital, surplus time and organisational capacity to fully develop them.
+The question suggested by developments such as social networking, open source software,
+and Grameen, is whether the social economy can develop a capacity to foster and generalise
+innovations that matches the private market. Can it move from a responsive filling of the
+gaps left by the private market, to generate an economic dynamic of its own?
+Posing the issue of social innovation in this way suggests that there are three principal levels
+of inquiry that we need to pursue. The first is a macro one about innovations in the
+structures and mechanisms of the social economy that would strengthen its capacity to
+develop and diffuse innovation. It asks what types of institutions and modes of economic
+operation are necessary to generate adequate responses to the social imperatives now
+confronting us.
+The second is a micro enquiry into the process of social innovation – also in the
+Schumpeterian tradition ‐ about how new ideas are generated and tested out in practice,
+how they can establish themselves sustainably, how they extend and spread, and how they
+can confront, by‐pass or transform the restrictive structures of the old order.
+The third is an inquiry into innovation in productive systems. What are the strategies and
+processes that lead to the re‐shaping of the complex topography of critical areas of social
+production and distribution ‐ of who does what, how and with whom – in ways that reflect
+the changing paradigm.
+The three levels of inquiry mark three areas of social innovation. The first analyses the
+institutional conditions for social innovation, the second the distinct processes of social
+innovation and the third the systemic innovations that are needed to address the
+imperatives of our era.
+II The architecture of the social economy
+Here, we outline the architecture for the inquiry, and our analysis of the shape of the social
+economy.
+The next three diagrams deal with the reconfiguration of the first of these spheres, the social
+economy. In diagram 2, we set out the four sub economies and suggest some of the key
+areas of change for the promotion of endogenous innovation.
+Diagram 2. The architecture for the analysis of social innovation.
+Work in progress – circulated for comment 10
+These sub economies are not in any way isolated. Though they have their own distinct
+economic mechanisms, they form part of an inter‐connected system, and it is the
+relationships between them which are as significant as the relationships within them. The
+enquiry will consider the key interfaces and how they can be modified in order to promote
+innovation.
+Formally, if there are four sub economies, there will be six interfaces, as shown in diagram 4
+below.
+Diagram 3. The six interfaces of the social economy.
+Work in progress – circulated for comment 11
+The first three interfaces are between the state and the other three sub‐economies.1 Central to
+these interfaces is the way finance crosses the borders, inwards in the form of taxation and
+fees, outwards in the form of grants, procurement and investment. There are many others,
+including the regulatory, fiscal and legal conditions determined by the state, and the
+platforms and tools provided by the state for the actors in other parts of the social economy.
+Each of these can be critical for innovation (for example changes in personal tax to allow
+new forms of caring ) and are subject to innovation in themselves (for example the creation
+of community interest company status as an element in company law).
+The fourth interface is between the private market and grant economy. These relations
+include, for example, corporate sponsorship, charitable donations, mentoring and various
+types of corporate social responsibility. There are also emergent forms of productive
+collaboration between private corporations and NGOs exemplified in the work of Philips in
+developing new models of healthcare, combining commercial provision of goods and
+services with mutual support and roles for NGOs.
+The fifth and sixth interfaces (along with the third) constitute the household economy’s
+relations with the other three sub‐economies. Taking that between the household and the
+private market first, this is of course the space where firms operate, selling products and
+services to households and engaging individuals as workers. In some cases firms have used
+the particular relations that characterise households as a channel for selling. The extent to
+which social networks and a gift economy operate in the sphere of consumption has long
+been remarked on by anthropologists for example (from Christmas presents to the purchase
+of rounds of beer). But there are broader connections as in the way social movements have
+allied with sections of the private sector to press for systemic changes – for example the
+current political economy of environmental change.
+Between the grant and the household economies there are also two way movements, of
+donations and volunteering from one direction to a multitude of services from the other.
+One of the most sensitive areas of this interface is when associations and movements from
+the household economy partially transfer themselves into the grant economy, appointing
+professionals paid for by subscriptions or grants.
+These examples are the tidy, analytical depiction of the interfaces. In practice, however, each
+sub economy may relate simultaneously to a number of the others.2 For example, the state
+can promote social innovation in the market as well as the grant economy by applying
+certain policy and regulatory levers such as minimum trading standards and compulsory
+targets for the employment of people with disabilities.
+1 The social components of these three sub economies outside the state are the economic parallel to civil society,
+and could be thought of as the civil economy, that it to say that part of the social economy that is outside the
+state.
+2 There are also interfaces within each sub economy, from example between the private and social markets.
+This may take the form of joint ventures, as in the recent case of Grameen-Danone and their collaboration in a
+social enterprise producing yoghurt for low income households in Bangladesh.
+Work in progress – circulated for comment 12
+This is also the case with household generated innovation; there are a number of areas to
+explore that cut across and apply to the three interfaces between the household and the
+other sub economies. First is the development of new systems of support economy as put
+forward by Jim Maxmin and Soshana Zuboff in their book of that name. This is closely
+linked to the development of co‐creation and co‐production representing a partnership
+between households and professionals. Personal budgets (introduced for people with
+disabilities in the UK in the 2000s), for example, are an important innovation in this space –
+allowing for new types of support service that combine informal relationships of friends and
+family with formal provision.
+There is then the whole subject of household time and how it relates to social production
+and innovation. One of the questions here is how if at all it would be possible to
+acknowledge the voluntary time contributed by the household sector, either individually or
+collectively, in some form of credits for cash or public rights and reduced obligations. This
+is already becoming a key issue in relation to ageing – how to recognise and reward
+different types of care and volunteering.
+Finally, there is the complex issue of managing space – moving beyond the sharp
+public/private distinction, to degrees of the social, and how public space is allocated and
+administered. This question is of course central to current discussions of urban and rural
+policy (from lighting, to curfews, to concierges and street wardens, and of course to many
+aspects of urban transport). Here we want to focus on how spatial issues of this kind bear on
+the capacity for the household sector to innovate – for example in forms of recreation or in
+the initiatives termed ‘guerrilla gardening’.
+In the following diagram, we have picked out a couple of key examples for each of the six
+interfaces. These examples are illustrative rather than exhaustive but are meant to highlight
+the issues of relevance to the present enquiry.
+Work in progress – circulated for comment 13
+Diagram 4. The Six Interfaces
+Work in progress – circulated for comment 14
+III The process of innovation
+We now move to the process of innovation, from the initial generation and trialling of ideas,
+to their establishment on a sustainable basis. This is often referred to as scaling, and in some
+cases the word is appropriate, as the innovation is generalised within an organisation (as in
+the state) or the organisation itself expands. But scaling is a concept from the mass
+production age, and we need to identify many other ways in which innovations take hold in
+the social economy. It may be through inspiration and emulation, or through the provision
+of support and know how from one to another.
+In many spheres the issue is as much about connecting many similar initiatives so that they
+become collectively stronger – developing some services in common where scale is
+important. What is notable is that as innovation spreads it will take its own form in different
+places. It is a strength that while there may be a common inspiration or model, there will be
+a process of continuous innovation where each part – including the pioneers – learn from
+each other.
+These processes are shown in Diagram 5. They are not linear but have feedback loops and
+leaps between them, but they do indicate a trend in the development of an innovation. In
+discussions of social innovation, the focus has been primarily on the generation of
+innovation on the one hand and the diffusion of innovation on the other. But from the point
+of view of the practitioner it is the ability to sustain an innovation that is often the greatest
+challenge – either through operating in the market or establishing a reliable, long term
+source of funding. That is the challenge for those operating outside the state, and constitutes
+the basis on which diffusion depends.
+Work in progress – circulated for comment 15
+Diagram 5. The Process of Social Innovation
+Work in progress – circulated for comment 16
+There is a second challenge. In the process of spreading, social innovations commonly come
+up against the barriers and hostility of an old order. Pilots and pioneers may side step these
+barriers, but the extent to which they can grow and diffuse will often depend on the creation
+of new conditions to make the innovations economically viable. These conditions include
+new technologies, supply chains, institutional forms, skills, and regulatory and fiscal
+framework. We refer to this stage as system innovation, and it commonly involves changes
+in all four sectors, usually over long periods of time.
+Diagram 6 sets out a number of intractable areas where systemic innovation is called for,
+and examines the issue of how such innovation has taken root, or been blocked, as a basis
+for informing a strategy for transformative social innovation.
+Diagram 6. Transformative Social Innovation
+Between the policy and its realisation lies the shadow. For many years politics centred on
+the content of policy. In the past 20 years it has been forced to turn its attention to the
+shadow, and recognise that policy and its means of realisation are interwoven. We live in a
+post‐Enlightenment world, where the pragmatic tradition of the interplay between thinking
+and doing, between theory and practice, offers an approach appropriate to the inquiry
+outlined here. We are, in other words, working in the tradition of John Dewey (and more
+recently of figures such as Roberto Mangabeira Unger) rather than that of social engineers
+and planners.
+In the annex that follows we have listed possible innovations under each of these headings,
+with examples of where they have been tried or realised. These too are provisional, to be
+filled out, revised and added to – not least to draw on a much wider body of experience of
+social innovation than is contained here.
+Work in progress – circulated for comment 17
+Annex
+IV The Methods
+This section provides a list of key methods that play a role in social innovation – from the
+methods that create the conditions for innovation to specific methods for funding, for
+design, for growth, inspiration and assessment. It draws on experiences from many
+countries and from many fields – including public policy, social entrepreneurship, business,
+design, technology, finance, professions as well as intermediaries and incubators.
+As outlined above, the list is structured in the following way:
+First, we look at the methods which help create the conditions for social innovation ‐ the
+structures, mechanisms, systems and flows of the social economy that would strengthen its
+capacity to develop and diffuse innovation. Finance is key, but so too are: skills; lesson
+sharing; how time is organised; metrics for assessment and platforms.
+Second, we look at the distinct processes of social innovation – how new ideas are
+generated, tested out in practice, how they become sustainable, how they spread, scale and
+mutate and how they move from the margins to the mainstream.
+Finally, we examine the nature of systemic innovation: the experience of disruptive
+innovation with particular regard to emergent patterns of diffusion and system
+transformation.
+The list is neither definitive nor comprehensive. During the course of the project we are
+building up more detailed descriptions and case studies to fill the list out. At this stage our
+aim is to elicit engagement: what are the key gaps? Which items should not be on the list?
+What might be the most useful typologies and organising principles?
+Work in progress – circulated for comment 18
+Index
+Section 1 ‐ Conditions for an innovative social economy 20
+A. The Public Economy 20
+I. Public Finance: methods to generate internal innovation 20
+a) Changing the tax relationship 21
+b) Budgetary practice to promote internal innovation 21
+c) Distributed accountability and democratic innovation 21
+d) A public medium of exchange 22
+e) Public investment, loans and means of payment 23
+II. Public labour: redesigning the labour contract 23
+III. Organisational forms 24
+a) Internal 24
+b) Brokers & intermediaries 24
+c) Professional collaboratives 24
+IV. Metrics and assessment 25
+V. The circuit of information 25
+B. The Grant Economy 25
+I. Generation of Innovative projects 26
+II. Finance 26
+a) Grant giving 26
+b) The grant relationship 27
+c) Purchasing and commissioning 27
+d) Investment 27
+e) Mission driven investment 27
+III. Packages of Support 28
+IV. Platforms, tools and protocols for innovation 28
+V. Governance and accountability 28
+VI. Regulatory, fiscal, legal and other conditions for extending the social economy 28
+C. Social Innovation in the Market Economy 29
+I. Generation and value creation 29
+II. Finance 29
+III. Organisations and ownership 30
+IV. Information 30
+V. Regulatory, fiscal, legal and other conditions for extending the social economy 30
+D. Social Innovation and the household 31
+I. Public spaces for social innovation 31
+II. Valorising household time 31
+III. The New Mutualism 32
+IV. Constructed households as sites of innovation 32
+Work in progress – circulated for comment 19
+V. Social Movements 32
+Section 2 ‐ The Process of Social Innovation 33
+I. Diagnosis, design, and development 33
+a) Triggers and Inspirations 33
+b) From symptom to cause: problem identification, awareness, assessment and reformulation 34
+c) Imagining solutions 35
+d) Trial and Error 35
+II. Sustaining innovation 35
+III. Scaling, diffusion and connecting 36
+IV. Systemic Innovation 36
+Section 3 ‐ Transformative Social Innovations 38
+I. Innovation in systems of prevention 38
+II. The Support Economy 38
+III. Complexity and Flow 39
+IV. Green systems 39
+V. Markets for the Marginalised 39
+Work in progress – circulated for comment 20
+Section 1
+Conditions for an innovative social economy
+This section covers some of the key enablers for social innovation – the background
+conditions, funding flows and institutions that support the emergence of new ideas in the
+four sub economies of the social economy, illustrated by the shaded area in the diagram
+below: the public, grant, market and household economies. We examine these sub
+economies one by one
+A. The Public Economy
+I. Public Finance: methods to generate internal innovation
+A key to transforming the conditions for encouraging the generation and adoption of
+innovation within the public sector and through its procurement, grants and investment
+programmes is a change in the tax relationship, in public budgeting and in the structure of
+financial accountability. Where the sources of funds and accountability shift from upwards
+to outwards there is greater scope for innovation and for the prompting of innovation.
+Work in progress – circulated for comment 21
+a) Changing the tax relationship
+1. Voluntary taxes, such as those introduced in Bogotá, Columbia but also including
+Community Pledgebanks, public subscriptions, lotteries, and competitions.
+2. Local bonds, including Tax Increment Financing (TIF) and Business Improvement
+Districts (BIDs).
+3. Quasi Currencies and environmental permits, such as Packaging Recovery Notes and
+emissions trading but also including targets, rewards and penalties.
+4. Hypothecated taxes and obligations for households and corporations, such as the BBC
+license fee, London Congestion Charge, Climate Change Levy or Extended Producer
+Responsibility as in British Columbia.
+5. Socialising risk: new forms of social insurance for, for example, long term care, to
+create incentives for providers to develop innovative solutions which will reduce
+demand for services.
+b) Budgetary practice to promote internal innovation
+6. Top slicing departmental budgets for innovation.
+7. Dedicated innovation funds and internal public venture funds, including the UK’s
+‘Invest to Save’ budget for cross‐cutting innovations and The Enterprise Challenge in
+Singapore.
+8. Outcome based budgets which can be used to promote innovation including cross
+cutting outcome based budgets such as those for Sure Start.
+9. Ring fencing financial gains from innovation for initiators and developers.
+10. Innovation‐related pay such as institutional, team and personal performance bonuses
+linked to innovation.
+c) Distributed accountability and democratic innovation
+Work in progress – circulated for comment 22
+11. Participatory budgeting, where citizens define local priorities and allocate public
+money accordingly, including the experiences of Ontario, Canada and Porto Alegre,
+Brazil.
+12. Large scale government‐led exercises to involve the public in generating ideas and
+possibilities, such as the Australia 2020 process initiated by Prime Minister Kevin
+Rudd in 2008.
+13. Citizen petitions. The German parliament now encourages citizen online petitions.
+The petitioners who receive the most support get the chance to discuss their ideas in
+parliament – requiring radical innovation to parliamentary procedure (see
+www.zebralog.de).
+14. Parliamentary structures to develop citizen ideas, like Korea’s Tribunis Plebis a
+committee of senior legislators committed to putting ideas into legislation.
+15. Methods for participation and ideas generation and deliberation such as the
+methods promoted by AmericaSpeaks, as well as Deliberation Days, Consensus
+Decision‐Making, Fishbowls.
+16. Online petitions – such as the No 10 website in the UK which allows citizens to
+petition the Prime Minister.
+17. ‘Open’ Government including open forms of consultation and participation such as
+the New Zealand Police Act wiki.
+18. Ideas and imagination Banks – to draw in public ideas for improving public services
+(for example Seoul Metropolitan government launched its Imagination Bank in 2006
+and in 2007 received 74000 proposals, 140 per day. All have to receive a reply within a
+week. 1300 were adopted wholesale and many others partially).
+19. Processes for involving children in generating innovations, decision‐making, urban
+design, planning, school management &c.
+20. Opt out rights for communities to design and run their own services.
+21. Audit and inspection regimes which overtly assess and support innovation.
+22. Open source auditing as a mechanism for public accountability.
+23. Tracking the public finances, including public balance sheet accounting and the
+example of transparency of public finance in Estonia.
+24. User feedback on service quality, including web based models such as
+patientopinion.org.uk and Iwantgreatcare.org that hold service providers to account,
+or the Kafka Brigades in the Netherlands.
+25. ‘Open Politics’, including online platforms such as MoveOn.org and MeetUp.org
+which mobilise and galvanise grassroots support for political parties.
+d) A public medium of exchange
+26. Direct payments and personal service budgets, such as the UK’s In Control, which
+enable people to choose, arrange and pay for their own care and services.
+27. Personal public accounts for credits and debits such as the Danish Nemkonto Easy
+Account. Here, Danish citizens and companies nominate one of their bank accounts as
+their Nemkonto Account into which all payments to and from public institutions are
+transferred directly. Such accounts would enable the design of new public products,
+including loans and payments.
+Work in progress – circulated for comment 23
+28. Smart cards, for example an extended version of the Oyster Card which would enable
+innovation by connecting service users with multiple providers and by enabling
+improved data flows.
+29. Transaction charges and payments, including fees, variable charges, penalties,
+rewards, discounts, and hypothecated fees for services by the state such as the
+transportation, waste and local food transactions scheme in Curitiba, Brazil.
+e) Public investment, loans and means of payment
+30. Hybrid financing and joint ventures such as the finance models used by Woking
+Borough Council and the London Climate Change Agency (LCCA) to develop
+sustainable energy programmes.
+31. Differential tax, credits, allowances and estate duties for personal public
+investment, such as those for higher education, elder care and environmental
+investment.
+32. Valorising public investment by internalising public returns for example,
+Community Land Trusts.
+33. Financial instruments for preventative and service investment including the UK
+‘Invest to Save’ budget, the US Justice Re‐Investment programme and contingent
+revenue bonds such as the proposed Social Savings or Social Impact Bonds.
+II. Public labour: redesigning the labour contract
+34. Public sector unions as sources of innovation but also to promote and accelerate its
+adoption. Examples include the Fire Brigades Union in the UK which helps firemen
+find part time employment as benefits advisors alongside their roles as firemen.
+35. Front line workers as innovators such as the nurses as social entrepreneurs
+programme developed at Oxford University’s Saïd Business School.
+36. Tithes of working time to generate collaborative public innovation, an extension of
+the Google model whereby staff spend one day a week developing their own projects.
+The parallel in the public sector could include making it easier to take sabbaticals to
+work on socially innovative projects.
+37. Incentives for successful innovation, such as pension increments for proven
+innovation.
+38. Secondments of public sector employees into skunk works, innovation teams and
+projects to develop service innovation.
+39. New professional definitions to promote service innovation to include, for example,
+intramediaries (such as nurse intramediaries in Birmingham who connect promising
+ideas to existing public service structures), intermediaries and innovation managers.
+40. New funding and management methods which separate project failure from
+redundancy including a move from project to career employment terms and
+conditions.
+41. Accreditation, search and recruitment of public innovators by commercial head
+hunters or government agencies.
+42. Innovation experience as a requirement for public advancement and formally
+integrated into the appraisal process.
+Work in progress – circulated for comment 24
+43. Formation and training for public innovation, through, for example bodies like the
+National School of Government (NSG) and the Improvement and Development
+Agency for local government (IDeA).
+III. Organisational forms
+a) Internal
+44. Individuals such as innovation champions and intrapreneurs, or individual
+consultants working as sole traders.
+45. Specialist innovation units, including skunk works.
+46. In house innovation and spin off teams, including, for example the Innovation Unit
+in the UK or Mindlab in Denmark which was set up by the Ministry of Economic and
+Business Affairs, the Ministry of Taxation, and the Ministry of Employment to bring
+together government, private enterprises and the research community under one roof
+to promote user‐centred innovation.
+47. Quality circles to drive continuous improvement (widespread in manufacturing,
+increasingly used in private and public services).
+48. Innovation agencies such as the NHS Institute for Innovation and Improvement in the
+UK.
+49. Public venturing such as the venture capital fund to promote green technologies
+being considered by the Indian government.
+b) Brokers & intermediaries
+50. Intermediaries such as Innovation Xchange in Australia and the Innovation Exchange
+and Innovation Unit in the UK.
+51. Mobile innovation units including specialised consultancies or service design
+agencies such as RED at the Design Council.
+52. Innovation accelerators such as NESTA’s Public Services Innovation Laboratory.
+53. Inside/outside grant administration and commissioning bodies such as
+Futurebuilders which offers financial support to third sector organisations to deliver
+publics services.
+54. Bridging foundations such as NESTA and Edge that aim to connect research and
+practice.
+55. Sector specialist institutions and academies such as WRAP and sectoral training
+colleges.
+c) Professional collaboratives
+56. Communities of practice (cf. 73) that bring together practitioners in formal mutual
+learning.
+57. Service collaboratives, such as health collaboratives.
+58. Professional action learning groups such as the Innovation Unit’s Next Practice
+model.
+Work in progress – circulated for comment 25
+IV. Metrics and assessment
+59. Operational metrics, such as those for statistical production control to spot emergent
+problems as prompts for innovation, including the example of renal treatment in the
+US.
+60. Comparative metrics, including benchmarking to identify sources for learning.
+61. Financial metrics including granular metrics of conventional methods and services.
+62. Social and environmental metrics including, Social Return on Investment (SROI),
+methods for measuring Social Impact and cost/benefit analyses.
+63. User oriented and generated metrics such as the sousveys used to gather chronic
+disease data in Sheffield and metrics geared to self‐monitoring such as those used by
+Activemobs in Kent.
+64. Cross government innovation metrics, such as the Government Innovation Index
+developed by the Government of South Korea to measure current levels of innovation,
+and the results of new innovation.
+65. Multi‐stakeholder dialogue and other forms of stakeholder assessment.
+66. Assessment as learning, including peer reviews and real time evaluation methods to
+promote cross‐pollination such as NESTA’s evaluation of Health Launchpad.
+67. Mission guardians, golden shares and independent reporting.
+V. The circuit of information
+68. Integrated user centred data such as Electronic Patient Records in the UK.
+69. Electronic data bases, such as the Electronic Court Records for King County,
+Washington.
+70. Search services for user and professional accessibility, including platforms such as
+NHS Direct.
+71. User generated feedback systems and response, including, for example,
+fixmystreet.com and petitions.number10.gov.uk.
+72. Citizen led traffic planning such as the use of web tools for changing travel patterns.
+73. Practitioner networks and communities of practice, such as those organised by the
+Improvement and Development Agency for local government (IDeA).
+74. Information brokers, editors, intermediaries and scouts to search out and highlight
+innovative practice.
+75. Engaging contributors and recipients in service innovation such as the work
+undertaken by design consultancies like Think Public, Participle, Live Work and RED
+at the Design Council, or the Hope Institute’s citizen teams around public service
+improvements (cf. 194).
+B. The Grant Economy
+Transforming the conditions for encouraging the generation and adoption of innovation
+within the grant economy requires new kinds of finance, platforms, packages of support,
+Work in progress – circulated for comment 26
+and regulatory, governance and accountability frameworks. There is a key role to be played
+by government and charitable foundations in re‐shaping these structures.
+I. Generation of Innovative projects
+76. Competitions for technology ideas, including Innocentive, X prizes, The Big Green
+Challenge and NESTA’s Innovation Challenge in Mental Health.
+77. Open Source soliciting of ideas for strategy, projects and grantees, including Ashoka
+Changemakers, the Case Foundation’s Make It Your Own Awards, the Nevada
+Community Foundation and the Omidyar Network.
+78. Community Angels for project generation, such as those supported by A Glimmer of
+Hope in Austin, Texas.
+79. Ideas banks like the Global Ideas Bank and the Hope Institute’s many methods for
+engaging citizens in promoting ideas.
+II. Finance
+a) Grant giving
+80. Direct funding for individuals, including the grants given by UnLtd, The Skoll
+Foundation and Ashoka.
+81. Fast grants such as those distributed by the Sobrato Family Foundation.
+82. Donor platforms, such as Kiva, GlobalGiving, Donors Choose, Altruistiq, Network for
+Good, Brazil’s Social and Environmental Stock Exchange.
+83. Initial Public Offerings (IPOs) such as Do Something or Teach for America.
+84. Creative destruction: term limited charities and spending down assets, such as the
+John M. Olin Foundation.
+85. Competitions, prizes and challenge funds such as the Community Development
+Fund’s Grassroots Grants programme in the UK.
+Work in progress – circulated for comment 27
+86. Grant allocation through public voting, such as the ITV/Big Lottery Fund competition
+‘The People’s 50 Million’.
+87. Grant recipient circles.
+88. Micro grants for R&D for concept development and prototyping.
+89. Grants as investment including tapered grant funding, public equity and preference
+shares.
+90. Grants as complements to innovation investment packages. Grant funding for off
+balance sheet expenditure, for example Cordaid’s investment and development
+packages for commodity development projects, or the UK’s DFID Frich grant
+programme for UK market development for African supply chains.
+91. Inverse tapering: grant growth based on performance.
+92. Endowment finance such as the National Endowment for Science, Technology and the
+Arts (NESTA) in the UK.
+93. Social innovation partnerships: tax holidays and contributions in kind.
+b) The grant relationship
+94. Intermediaries for contributions in kind: labour and skills matching for volunteering,
+such as the Taproot Foundation’s Service Grant program which provides not‐for‐
+profits with pro bono marketing, human resources and IT consulting services.
+95. Philanthropic eBays: philanthropic platforms such as Volunteer Match.
+c) Purchasing and commissioning
+96. Outcomes based commissioning.
+97. Procurement as collaborative venturing: promoting disruptive innovation through
+public procurement.
+98. Collaborative procuring for search, diversity, prototyping and scale.
+99. Public contracting methods that enable small scale and innovative commissioning
+and sub‐contracting.
+100. Pre‐finance of service innovation development.
+101. Contestability and multiple providers to promote diversity of innovation.
+102. Exploratory service contracts to ensure overt funding of innovation discovery.
+103. Secure service contracts as a basis for collateral.
+104. Independent progress review bodies as safe ‘holders’ of innovation
+d) Investment
+105. Investment guarantees with future year payment of guarantees such as the Sheffield
+model.
+106. Public venture funding (cf. 7 & 49)
+107. Public investment aimed at social innovation growth strategies such as the Social
+Investment Bank, the Toronto Atmospheric Fund and Enterprise Boards.
+108. R&D tax credits for the design and development of innovations.
+e) Mission driven investment
+Work in progress – circulated for comment 28
+109. Venture philanthropy, focused on innovation in particular sectors, such as the Robert
+Wood Johnson Foundation’s Pioneer Portfolio which specialises in health and IT.
+110. Philanthropic mutual funds such as the Acumen Fund and the Global Fund for
+Women.
+111. Strategic investments to transform social sectoral provisioning, for example, the Bill
+and Melinda Gates Foundation’s investment in High Schools across America.
+III. Packages of Support
+112. Support services for innovators: mentoring, information and advice, connections and
+networks, public visibility, such as Cleveland’s Civic Innovation Lab in Michigan and
+the Social Innovation Generator in Toronto, Canada.
+113. R&D mentored funding prior to start up lending, such as Mondragon’s Caja Laboral.
+IV. Platforms, tools and protocols for innovation
+114. Tools such as Diabetes Agenda cards that help people imagine innovative alternatives.
+115. Interactive platforms including internal platforms such as intranets, external
+platforms such as the BBC’s Community Channel, hosted chronic conditions networks,
+the Open University and Enabled by Design.
+116. Service infrastructure including digital spines.
+117. Support services such as personal health and fitness coaches.
+118. Found in translation: language facilities as sources of innovations for access and
+service design.
+119. Physical incubators and co‐housing to promote cross‐pollination such as the
+Mezzanine in the UK and the Centre for Social Innovation in Toronto.
+V. Governance and accountability
+120. User and beneficiary representation on management boards, board champions for
+innovation and pipeline reviews.
+121. Innovation assessments commissioned by users and beneficiaries.
+122. Members and associates as sources of innovation and review.
+123. Metrics for venture philanthropy for example those developed by Homeward Bound,
+a project to end homelessness in the US, or ‘blended value’ measures and Social
+Return on Investment measures used for stakeholder communications.
+VI. Regulatory, fiscal, legal and other conditions for extending the social economy
+124. Planning and tax rules to promote creative economies such as subsidised rent in arts
+districts including SoHo in New York.
+125. Legal forms and requirements such as Community Interest Companies (CICs) and the
+Charity Commission’s public benefit test.
+126. Local public currencies such as the Wörgl in Austria during the 1930s, or more
+recently, the Patacón in Argentina.
+Work in progress – circulated for comment 29
+127. New forms of property ownership: communities owning their assets such as the
+Goodwin Trust in Hull, and Community Land Trusts, enabling new uses of land and
+buildings.
+C. Social Innovation in the Market Economy
+I. Generation and value creation
+128. Pro‐ams as social innovators.
+129. Social markets such as Slivers of Time.
+130. CSR and social uses of marginal business assets.
+II. Finance
+131. Micro credit for micro production. Grameen and BRAC in Bangladesh, and the
+multiple versions of micro credit inspired by them, as well as much older traditions of
+micro‐credit in Europe.
+132. Planning gain and other devices for generating commercial funding for social value.
+133. Social stock markets, the subject of an ongoing Rockefeller Foundation study (and the
+Brazilian social stock market which provides an online platform linking donors with
+projects).
+134. Commercial investment aimed at social targets, such as Bridges Community
+Ventures in the UK.
+135. Bank‐based funding for social enterprises and not‐for‐profits including Banca
+Prossima in Italy.
+136. Philanthropic investment for growth such as the CAN Breakthrough Social
+Investment Fund.
+Work in progress – circulated for comment 30
+137. Crowd funding. Myfootballclub.com as a web based co‐op to purchase and run a
+football club.
+(See also Purchasing & Commissioning 96 ‐104; Investment 105 ‐108 and Mission‐driven
+investment 109‐111).
+III. Organisations and ownership
+138. Foundations as owners of corporations, such as the Bertelsmann Foundation and the
+Robert Bosch Foundation.
+139. Social enterprises, especially those with a strong asset base.
+140. Businesses with social missions built into governance, such as Banca Intesa, the Co‐
+op Bank and Welsh Water.
+141. Extending the co‐operative economy in production, including the ‘Third Italy’,
+Mondragon and Peruvian coffee co‐ops.
+142. Consumer co‐ops, such as the Japanese food co‐ops.
+143. Consumer shareholding as an instrument of social policy including, for example,
+Cafédirect.
+144. Social enterprise mutuals as aggregators of service provision from small social
+enterprises such as WorkVentures.
+145. Socialising intellectual property to meet social needs in the case of, for example,
+AIDS drugs in Africa.
+146. Social enterprise partnerships between corporations and not‐for‐distributed profits
+such as Grameen‐Danone.
+147. Corporate not for profit management of social provision such as Academy Schools in
+the UK and Charter Schools in the US.
+IV. Information
+148. Improving market information to achieve social goals, such as better food labelling,
+environmental performance ratings and carbon footprints.
+149. Social marks and brands to secure a premium for social innovation, such as
+‘organic’, ‘forest stewardship’ and ‘fair trade’.
+150. Consortia for co‐operatives to search out innovative practice and support its
+dissemination and adoption.
+151. Social movement campaigns around corporate conduct (e.g. the Nestle baby milk
+campaign, MacLibel).
+V. Regulatory, fiscal, legal and other conditions for generating innovation in the social
+economy.
+152. Policy instruments to re‐make markets in order to promote the social economy such
+as compulsory targets including the employment of people with disabilities,
+regulations for renewable energy, fiscal measures and planning conditions.
+153. Exemptions and assistance such as tax relief along the lines of the Enterprise
+Investment Scheme (EIS) for social enterprises.
+Work in progress – circulated for comment 31
+154. Obligations and expectations including innovation focused CSR.
+D. Social Innovation and the household economy
+I. Public spaces for social innovation
+155. Mobilising the street as a unit of innovation through concierges, guardians and
+wardens.
+156. Extending public spaces for domestic production such as allotments, parks, the new
+doctor’s surgeries, street markets, community centres, internet libraries and street
+festivals.
+157. Reclaiming the streets and managing public spaces with multiple uses, such as the
+‘Night for Women’ in Bogotá, Columbia, or car free periods in Canadian cities.
+158. Protests through activity, such as guerrilla gardening, or reverse strikes such as road
+building by the unemployed in Sicily.
+159. Complaints Choirs – which gather groups of citizens to discuss complaints and turn
+into lyrics and then perform as songs. The idea was first conceived in Finland; first
+put into practice in Birmingham in England, and has now spread around the world.
+There are for example 11 in Korea.http://www.complaintschoir.org/
+II. Valorising household time
+160. Recognising household time for social production by valorising voluntary work and
+support through, for example, public tax credits, community commissioning and grant
+supported projects.
+Work in progress – circulated for comment 32
+161. Inter household reciprocity and forms of exchange including time banks such as
+SPICE, Local Exchange Trading Systems (LETS), local currencies and airtime as
+currency.
+162. Creating productive time, such as social sabbaticals.
+163. Flexible terms of formal employment to enable a sustainable informal economy.
+164. The volunteer economy. Organisation, training, meaning and incentives for
+volunteers.
+III. The New Mutualism
+165. Enabling the informal social economy such as mobs and mutual support services,
+local networks like freecycle or lift share networks such as liftshare.org.
+166. The support economy: advising, coaching, mediating, supplementing and
+communicating for household production. This could include educational coaching
+service, relief and back up for home carers, health coaches, birthing and post birth
+support and support teams for end of life care.
+167. User groups such as rail user groups or park user associations.
+168. Informal‐formal partnerships: such as Green Communities, a national network of not
+for profit organisations developing and delivering innovative green solutions to
+households and communities across Canada.
+IV. Constructed households as sites of innovation
+169. Residential communities for care and cure, for example moving beyond addiction at
+San Patrignano.
+170. Group services for networks of households, generalising the principle of sheltered
+accommodation.
+V. Social Movements
+171. Social movements focused on lifestyle innovation and transformation, such as the
+feminist and green movements but also including, for example, transition towns.
+There is a key role for pioneers, the media and web‐based groupings.
+172. Our Space: web based platforms for the household economy such as freecycle.org.
+Work in progress – circulated for comment 33
+Section 2.
+The Process of Social Innovation
+In these sections we set out some of the methods that are used for taking ideas through the
+various stages that turn them from a creative spark to a practical possibility and then to a
+large scale reality. In some, innovators work separately from those affected by innovations.
+In others there is engagement with co‐creation, co‐design and ultimately co‐production of
+new models.
+I. Diagnosis, design, and development
+The early stages of innovation involve creative leaps, new combinations of existing things
+and pressures to change.
+a) Triggers and Inspirations
+Ideas come from many sources: theory, crisis, experience as well as formal methods.
+173. Generative paradigms, ideas and concepts such as the concept of citizen‐reporters
+and zero waste.
+174. Learning by visiting which remains the most powerful tool for ideas transfer.
+Work in progress – circulated for comment 34
+175. Learning through crisis such as the clothing industry in Prato, Italy or New Orleans’
+use of Hurricane Katrina to accelerate social innovation.
+176. Innovation prompted by new knowledge such as lessons from neuroscience being
+applied to childcare and early years’ interventions.
+177. Innovation prompted by wasted assets such as the regeneration of the
+Westergasfabriek in Amsterdam by ReUse.
+178. Innovation prompted by intangible community assets such as positive deviance in
+health and nutrition in Egypt and in North Lincolnshire schools or Stalker Lab’s work
+with members of the Roma community in Italy.
+179. Creative meeting formats such as open space, fishbowls &c, or the use of second life
+for public conferences (such as One World’s parallel Bali conference on climate
+change), or ‘Thinkathons’ involving thousands in ideas brainstorms.
+180. Symbolic moves to foster innovative cultures, such as Tirana’s move to repaint
+houses in vivid colours, Gateshead’s Angel of the North or the Waterfire in Rhode
+Island.
+b) From symptom to cause: problem identification, awareness, assessment and reformulation.
+A series of other methods can then help to refine and develop ideas.
+181. Beyond the hammer and the nail: methods for capturing user and producer
+experience with multi‐disciplinary evaluation to co‐create diagnoses.
+182. Ideas banks either within organisations or publicly as open spaces for people to
+propose ideas. The Institute of Social Invention in the UK pioneered them and created
+the online Global Ideas Bank which allows for comment and adaptation.
+183. Complaints Choirs: social innovation through song such as Complaints Choirs in
+Finland, Australia and Singapore.
+184. User research including ethnographic approaches such as user/citizen diaries.
+185. Identifying difference through market research, consumer categories and Psycho‐
+social demographics.
+186. Mapping the systems such as participative mapping and sectoral analysis, as
+practiced for example in the Kerala People’s Planning Campaign.
+187. Surveys and sousveys as vehicles of collaboration.
+188. Making problems visible and tangible: statistical production control, research, video
+interviews and artists in residence.
+189. Engagement through action. Tools for users inviting reflection such as box recycling
+schemes as prompters of environmental awareness and low income food box schemes
+as vehicles for engagement in food and nutrition.
+190. Learning through collaboration including international collaborative action networks
+such as the Clinton Global Initiative and action research collaboratives such as the
+Young Foundation’s work with local authorities on neighbourhoods and wellbeing.
+191. University based innovation ‐ includes action learning within universities and
+business schools such as the Innovation and Action Lab based in Brussels, developed
+by i‐propeller and including the London School of Economics, Harvard Business
+School, IESE Business School in Barcelona, SITE at the Stockholm School of Economics
+and the Catholic University of Leuven.
+Work in progress – circulated for comment 35
+c) Imagining solutions
+192. Creative thinking methods such as De Bono’s Six Thinking Hats and Lateral Thinking
+and the work of What If?
+193. Design methods such as brainstorming, visualisations, simulations and story boards
+used by design consultancies such as IDEO, Participle, Live Work and Think Public.
+194. Stakeholder methods including participatory design and Planning for Real.
+195. Reviewing extremes such as health services or energy production in remote
+communities.
+196. Arts based methods such as those used by Mierle Laderman Ukeles at the New York
+Sanitation Department, or the innovations in traffic management using mime artists by
+the Mayor of Bogota
+197. Continuous improvement methods such as Toyota’s performance management.
+198. Hunting and gathering. Scanning alternatives and inviting solutions through, for
+example, competitions and commissioning.
+199. Thinkers in Residence such as those in South Australia and Manitoba.
+200. A‐teams, young public servants commissioned to innovate solutions in South
+Australia, alongside film‐makers and artists.
+201. Innovation bazaars such as BarCamps and Innovation camps.
+202. Cross‐cutting think tanks such as the Forum for the Future and do tanks.
+203. Mass Collaboration such as the Open Source Software movement and Wikipedia.
+204. Distributed Problem Solving such as Innocentive.
+205. Tapping proprietary knowledge, for example, the Grameen‐Danone partnership.
+d) Trial and Error
+206. Fast prototyping methods which move quickly to test out a new idea either in a real or
+partially real environment.
+207. Slow prototyping methods which allow for more organic evolution of ideas and their
+testing.
+208. Formal pilots, such as randomised control trials (RCTs)
+209. Tracking of non‐experimental survey data to identify patterns.
+210. Real time process experiments, for example the application of just in time systems in
+hospitals
+211. Open testing such as the tracking of performance of different plug in hybrid cars
+through Google, and C40 city governments.
+212. Incubators and test beds to test alternative solutions.
+213. Proof of concept testing and Beta testing.
+214. Experimental zones such as enterprise, health and employment zones but also the
+Power to Innovate.
+II. Sustaining innovation
+215. Business models identifying effective demand, income streams and asset value.
+Work in progress – circulated for comment 36
+216. Bell‐Mason methods from venture capital for systematically turning ideas into
+sustainable business models
+217. Building networks of allies with voice, power and money.
+218. Demonstrating effective supply via evidence and value for money.
+219. Collaborative alliances with consumers and users such as disability not for profits.
+220. Maintaining and extending meaning to enable users to identify themselves as part of
+a social movement. Examples include slow food and fair trade products.
+221. Intellectual Property and intangible assets in order to generate income to support the
+development of further innovations.
+222. Organisational forms for sustaining innovation including consortia for technical and
+market feedback.
+223. Open Innovation as a new model for organising the production of information and
+culture.
+III. Scaling, diffusion and connecting
+There are many methods for growing innovations – from organisational growth, through to
+licensing and franchising to federations and looser diffusion. v
+224. Scaling through organisational growth: issues of organisational size, structure and
+process of continuous innovation.
+225. Scaling through takeover by or of larger organisations.
+226. Spin offs including associations, affiliations and federations and employee led spin
+offs with continued links to the original hub.
+227. Growth through people – i.e. putting an experienced manager in to run a new branch
+while promoting their deputy to take over from them. This is usually more efficient
+than franchising or recruiting a new team to run a new operating unit since the
+experienced manager brings tacit as well as explicit knowledge.
+228. Scaling through collaborative support. e.g. The Royal National Institute for the Blind
+229. Social franchising such as the School for Social Entrepreneurs.
+230. Licensing, such as Webster Stratton and their educational resources.
+231. Diffusion through purchasing policy and technical support.
+232. Brand awareness through kite marks and accreditation such as the ‘Organic’ and ‘Fair
+Trade’ labels.
+233. Replication within organisations as in the case of greening the Harvard University
+campus.
+234. Dissemination for collaboration and learning.
+235. Diffusion through television and the new media for example Jamie Oliver’s school
+dinners, or Castleford regeneration.
+IV. Systemic Innovation
+In this section we look at some of the conditions for more fundamental and systemic
+innovation. Systemic innovation generally has to involve all four sectors, and slow
+cumulative processes of change entailing changing infrastructures, behaviours and cultures.
+Work in progress – circulated for comment 37
+236. Strategies for systemic innovation, including the formation of progressive coalitions,
+pre‐empting inflexible conventional technologies that freeze disruptive forms of
+innovation, and accessing professional and other expertise for the contest of evidence
+(for example the Schiphol airport noise campaign).
+237. Self‐organising social movements for example the redesign of cities for those with
+disabilities.
+238. Creating new infrastructure, or adapting old ones, necessary for the expansion of new
+systems (such as charging points for plug in hybrid cars, or local regeneration
+networks for the distribution of heat, power and cooling).
+239. Rewiring economies – promoting new supply or processing chains, for example
+recycling industries to process secondary materials.
+240. Technical innovations for key points in the chain – such as home medical testing
+equipment or bio‐degradable plastic bags.
+241. Service innovations for the new systems – support services (such as personal health
+trainers or Ten UK’s support service for head teachers) new forms of finance and
+insurance, or the creation of new service, repair, and training hubs like the new model
+Applestores transposed to doctors’ surgeries.
+242. Establishing working prototypes of the new system, for example the low carbon
+housing in Hammarby Sjostad in Sweden, Vauban in Switzerland, and Bed Zed in the
+UK.
+243. Innovation academies embodying the new system principles for training, action
+research and formation, such as the College of Health or Forum for the Future
+244. Re‐calibrating markets through for example, fiscal and pricing regimes such as the
+German feed‐in tariffs.
+245. New legislative and regulatory architectures to unlock systemic change such as new
+trading or building standards, or social and environmental performance requirements,
+or new ways of handling value such as QALYs in health, valuations of carbon
+reductions &c (cf. 124 ‐127; 152‐155).
+Work in progress – circulated for comment 38
+Section 3.
+Transformative Social Innovations
+In this section we look at some of the fields where fundamental social innovation is
+underway bringing with it radically different models of organisation.
+I. Systems of prevention
+A common theme across many fields is more effective investment in prevention of problems
+and waste.
+246. Re‐inventing criminal justice, for example Oregon’s justice re‐investment
+programme, Canada’s support circles &c.
+247. Early years programmes such as the Abercedarian project and Sure Start providing
+intensive support for children to reduce risk factors.
+248. From waste to resources: reshaped systems for handling household and business
+waste (prompting use of the idea of zero waste as a frame for rethinking economic and
+social processes).
+249. Healthy living and positive health, for instance Finland’s public health programme in
+Karelia, and modern versions of the Peckham experiment to create holistic
+environments for health.
+II. The Support Economy
+Work in progress – circulated for comment 39
+250. Radical models for reshaping care for the elderly, combining new platforms,
+combinations of professional and mutual support (e.g. the digital spine for
+communication and service delivery in rural Maine).
+251. Tenant self‐management and spin‐offs to deal with multiple issues facing tenants
+(as with housing co‐ops in Canada).
+252. Supported self‐care for chronic disease combining rich data feedback and support
+structures such as innovations in the treatment of diabetes or multiple sclerosis.
+253. New models of learning including peer to peer models such as the School of
+Everything and digital learning environments such as colleges in second life.
+III. Complexity and flow
+254. Just in time in the social economy: queues, stocks and flows, for example the
+transformation of hospital care in the UK.
+255. Redesigning urban mobility: the experience of transport systems in Curitiba and
+Paris.
+IV. Green systems
+256. The growth of distributed energy systems, Woking, wind power and neighbourhood
+energy systems in Denmark and Manitoba, the rise of plug‐in hybrid vehicles.
+257. From fork to table: social movements like slow food as innovators in the production,
+preparation and consumption of food.
+V. Markets for the Marginalised
+258. The market turned upside down: Grameen’s social innovation through micro finance
+259. Fair trade: from social enterprise to social movement, spreading to ever more product
+fields.
+260. Sustaining local economies through collaborative networks: co‐operative industrial
+districts in the Third Italy.
+Work in progress – circulated for comment 40
+END NOTES
+i Mulgan, G. (2006) ‘Social Innovation: what it is, why it matters, how it can be accelerated.’ London:
+Basingstoke Press; Mulgan, G. (2007) ‘Ready or Not? Taking Innovation in the Public Sector
+Seriously.’ NESTA Provocation 03. London: NESTA.; Mulgan, G., Ali, R., Halkett, R. and Sanders, B.
+(2007) ‘In and Out of Sync: The challenge of growing social innovations.’ NESTA Research report.
+London: NESTA; Bacon, N., Faizullah, N., Mulgan, G., & Woodcraft, S. (2008) ‘Transformers: How
+local areas innovate to address changing social needs.‘ NESTA. Research report. London: NESTA.
+ii Toffler, A. (1980) The Third Wave, Collins: London
+iii Jim Maxmin and Soshana Zuboff, The Support Economy: Why Corporations are Failing Individuals
+and the Next Episode of Capitalism, Penguin 2004
+iv The question of how labour can be quantified and compared, and thus allocated socially, is one of
+the central themes of classical economics. From Smith to Marx there was agreement that the
+comparability took place indirectly through the exchange process, although there was a core debate
+about the relationship of labour and value. The German philosopher Alfred Sohn Rethel later used
+the term ‘commensurability’ to characterise this problem of comparability, and for him the striking
+development of the 20th century was the development of Taylorism, and the direct commensurability
+of social labour through time measurement. This was the basis for the planning of mass production,
+but also has clear relevance to those areas of the economy that lie outside commodity exchange – in
+particular many areas of the public sector. See A.Sohn Rethel, Intellectual and Manual Labour,
+Macmillan, 1978, Chapter 31.
+v Mulgan, G., Ali, R., Halkett, R. and Sanders, B. (2007), ‘In and Out of Sync: The challenge of growing
+social innovations’, NESTA Research report, NESTA, London.
+Work in progress – circulated for comment 41
+NESTA is the National Endowment for Science, Technology and the Arts ‐ a unique and
+independent body with a mission to make the UK more innovative.
+We invest in early‐stage companies, inform and shape policy, and deliver practical
+programmes that inspire others to solve the big challenges of the future.
+Our independence and ability to work across different sectors allows us to bring together
+ideas from a wide range of perspectives. And because we can take a longer‐term view, we
+are able to assume a greater burden of risk than others.
+NESTA does not work alone. Our success depends on the strength of the partnerships we
+form with innovators, policymakers, community organisations, educators and other
+investors. We bring the best ideas, new flows of capital and talented people together, and
+encourage others to develop them further.
+For more information, visit www.nesta.org.uk
+The Young Foundation is a centre for social innovation based in London, with a 50 year
+track record of success in creating new organizations ‐ public, private and non‐profit ‐ as
+well as influencing ideas and policies.
+The Launchpad team creates innovative new organisations in health and education. The
+Local Innovation team works on practical projects involving neighbourhoods, wellbeing and
+the future of cities. The Research team studies the dynamics of social innovation and
+changing needs. We work locally around our base in east London, throughout the UK as
+well as internationally.
+The Young Foundation was launched in 2005, but builds on a long history. Its predecessor
+organisations under Michael Young were responsible for far‐reaching innovations ranging
+from the creation of the Open University and Which? to the School for Social Entrepreneurs,
+as well as pioneering research on changing patterns of community and family life.
+For more information, visit www.youngfoundation.org

@@ -1,0 +1,304 @@
+{
+  "agents": [
+    {
+      "name": "Rep. Glenn Grothman",
+      "type": "Government \u2013 elected official",
+      "role": "Chairman of the Subcommittee; frames and moderates the hearing",
+      "motivations": [
+        "Political oversight",
+        "Government transparency",
+        "Responding to constituent interest"
+      ]
+    },
+    {
+      "name": "House Oversight Subcommittee on National Security, the Border, and Foreign Affairs",
+      "type": "Government institution",
+      "role": "Sets agenda, provides platform for testimony, disseminates official transcript",
+      "motivations": [
+        "Institutional accountability",
+        "Political signaling",
+        "Policy formulation"
+      ]
+    },
+    {
+      "name": "Ryan Graves",
+      "type": "Witness / NGO leader",
+      "role": "Creates and disseminates firsthand pilot data through Americans for Safe Aerospace",
+      "motivations": [
+        "Aviation safety",
+        "Public awareness",
+        "Organizational credibility"
+      ]
+    },
+    {
+      "name": "David Grusch",
+      "type": "Whistle-blower / Former intelligence officer",
+      "role": "Creates allegations of secret UAP retrieval programs; pushes narrative of government cover-up",
+      "motivations": [
+        "Transparency",
+        "Personal integrity",
+        "Psychological relief from secrecy",
+        "Possible financial/book/media opportunities"
+      ]
+    },
+    {
+      "name": "Cmdr. David Fravor (Ret.)",
+      "type": "Witness \u2013 former military officer",
+      "role": "Provides pilot encounter testimony (Tic-Tac incident); lends technical credibility",
+      "motivations": [
+        "Historical record accuracy",
+        "Support to fellow aviators",
+        "Public safety"
+      ]
+    },
+    {
+      "name": "AARO (All-domain Anomaly Resolution Office)",
+      "type": "Government agency",
+      "role": "Official investigator; controls classified data; gate-keeps information release",
+      "motivations": [
+        "National security",
+        "Bureaucratic self-preservation",
+        "Regulatory compliance"
+      ]
+    },
+    {
+      "name": "NASA Independent UAP Study Team",
+      "type": "Government science agency",
+      "role": "Produces scientific assessment; potential arbiter of credibility",
+      "motivations": [
+        "Scientific reputation",
+        "Public confidence in science"
+      ]
+    },
+    {
+      "name": "Media actors (Jeremy Corbell, George Knapp, NewsNation)",
+      "type": "Journalists/Media",
+      "role": "Package witness material into documentaries, articles, interviews; amplify to mass audience",
+      "motivations": [
+        "Financial revenue",
+        "Audience growth",
+        "Investigative zeal"
+      ]
+    },
+    {
+      "name": "Document platforms (govinfo.gov, docs.house.gov)",
+      "type": "Government information portals",
+      "role": "Disseminate official records to the public",
+      "motivations": [
+        "Legal compliance",
+        "Public service"
+      ]
+    },
+    {
+      "name": "Broader U.S. Intelligence & Defense apparatus",
+      "type": "Government bureaucracy",
+      "role": "Holds classified data, potentially withholds or sanitizes information",
+      "motivations": [
+        "Operational security",
+        "Avoiding political risk",
+        "Maintaining technological advantage"
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "content": "UAPs represent a credible national-security and public-safety concern that demands formal investigation and oversight.",
+      "information_type": "Verified-information (threat acknowledgment) mixed with speculation",
+      "source": "Opening statement by Chairman Grothman",
+      "credibility_indicators": [
+        "Official congressional platform",
+        "Bipartisan interest",
+        "Echoes DoD/NASA statements that UAP events are real objects"
+      ]
+    },
+    {
+      "content": "Government secrecy on UAPs has eroded public trust; AARO\u2019s classified budget prevents meaningful oversight.",
+      "information_type": "Partly verified, partly inferential",
+      "source": "Grothman remarks; Grusch allegations",
+      "credibility_indicators": [
+        "Direct quote on classified budget",
+        "Pattern of FOIA denials",
+        "Witness whistle-blower status"
+      ]
+    },
+    {
+      "content": "Military aviators (Graves, Fravor) have repeatedly encountered technologically advanced craft that defy known physics.",
+      "information_type": "Eyewitness testimony (unverified extraordinary claims)",
+      "source": "Oral statements (pp. 10-12)",
+      "credibility_indicators": [
+        "Pilot credentials",
+        "Multiple sensor corroborations",
+        "Publicly released Navy videos"
+      ]
+    },
+    {
+      "content": "Historical precedent: Presidents Ford and Carter reported UFO sightings, showing the phenomenon\u2019s legitimacy.",
+      "information_type": "Verified fact but used rhetorically",
+      "source": "Grothman anecdote",
+      "credibility_indicators": [
+        "Presidential public records",
+        "Longstanding public interest"
+      ]
+    },
+    {
+      "content": "Submitted documents (e.g., \u2018The UAP Puzzle,\u2019 Defense Intelligence Reference Document on spacetime engineering) imply exotic propulsion research is already underway.",
+      "information_type": "Mal-information potential (true documents repurposed) & speculation",
+      "source": "Hearing index of documents",
+      "credibility_indicators": [
+        "Authentic documents entered into record",
+        "Lack of peer-review on theoretical papers"
+      ]
+    },
+    {
+      "content": "The Biden Administration\u2019s slow response to the Chinese spy balloon illustrates broader transparency failures on aerial threats.",
+      "information_type": "Politicized narrative (mix of fact and interpretation)",
+      "source": "Grothman statement",
+      "credibility_indicators": [
+        "Widely reported balloon incident",
+        "Partisan framing may bias interpretation"
+      ]
+    }
+  ],
+  "interpreters": [
+    {
+      "audience_type": "Congressional members (hearing attendees)",
+      "likely_interpretation_mode": "Negotiated",
+      "cognitive_factors": [
+        "Partisan priors",
+        "Constituent pressure",
+        "Re-election calculus"
+      ]
+    },
+    {
+      "audience_type": "Defense & intelligence community",
+      "likely_interpretation_mode": "Oppositional",
+      "cognitive_factors": [
+        "Institutional protection",
+        "Need-to-know culture",
+        "Risk aversion"
+      ]
+    },
+    {
+      "audience_type": "Scientific skeptics",
+      "likely_interpretation_mode": "Oppositional",
+      "cognitive_factors": [
+        "Evidence standards",
+        "Methodological naturalism",
+        "Reputational risk"
+      ]
+    },
+    {
+      "audience_type": "UAP enthusiasts / UFO subculture",
+      "likely_interpretation_mode": "Hegemonic",
+      "cognitive_factors": [
+        "Confirmation bias",
+        "Community identity",
+        "Suspicion of authority"
+      ]
+    },
+    {
+      "audience_type": "General public",
+      "likely_interpretation_mode": "Mixed (hegemonic & negotiated)",
+      "cognitive_factors": [
+        "Media literacy",
+        "Trust in government",
+        "Entertainment framing of UFOs"
+      ]
+    }
+  ],
+  "information_phases": [
+    {
+      "phase": "Creation",
+      "description": "Witnesses encounter strange aerial objects and produce raw observations; journalists compile whistle-blower allegations; agencies generate classified reports.",
+      "key_actors": [
+        "Graves",
+        "Grusch",
+        "Fravor",
+        "DoD units",
+        "Journalists"
+      ]
+    },
+    {
+      "phase": "Production",
+      "description": "Testimonies are written, opening statements crafted, documents curated for submission; House staff package agenda and distribute hearing notice.",
+      "key_actors": [
+        "Witnesses",
+        "House committee staff",
+        "Media producers creating articles like NewsNation interview"
+      ]
+    },
+    {
+      "phase": "Dissemination",
+      "description": "Livestream of hearing, PDF transcript posted on govinfo, social-media clips circulate, news articles summarize claims.",
+      "key_actors": [
+        "C-SPAN/GPO",
+        "News outlets",
+        "Social media influencers",
+        "Public audiences"
+      ]
+    }
+  ],
+  "credibility_dynamics": [
+    {
+      "credibility_factor": "Military credentials of witnesses",
+      "impact": "Boost perceived expertise and trustworthiness",
+      "evidence": "Witness titles: \u2018Former Commanding Officer, U.S. Navy\u2019 ; \u2018Former NRO Representative\u2019"
+    },
+    {
+      "credibility_factor": "Classification barriers",
+      "impact": "Limits verifiability, breeds speculation, reduces empirical scrutiny",
+      "evidence": "Grothman: \u2018AARO\u2019s budget remains classified, prohibiting meaningful oversight.\u2019"
+    },
+    {
+      "credibility_factor": "Partisan framing",
+      "impact": "Can polarize interpretation, especially references to Biden Administration balloon response",
+      "evidence": "Hearing title explicitly links UAPs to \u2018National Security\u2019 and \u2018Government Transparency\u2019"
+    },
+    {
+      "credibility_factor": "Media amplification by UFO-centric journalists",
+      "impact": "May introduce sensational tone, potentially inflating expectations",
+      "evidence": "Documents submitted by Rep. Burchett authored by Jeremy Corbell (\u2018The UAP Puzzle\u2019)"
+    },
+    {
+      "credibility_factor": "Official congressional setting",
+      "impact": "Confers a veneer of legitimacy regardless of evidence strength",
+      "evidence": "Serial No. 118-53 hearing transcript published by the U.S. Government Publishing Office"
+    }
+  ],
+  "transparency_themes": [
+    {
+      "transparency_theme": "Classified budgets and programs (AARO, DoD)",
+      "position": "Witnesses & many members argue for de-classification and congressional access",
+      "supporting_evidence": "\u2018AARO\u2019s budget remains classified, prohibiting meaningful oversight.\u2019"
+    },
+    {
+      "transparency_theme": "Document disclosure vs. national-security secrecy",
+      "position": "Committee weighs public\u2019s right to know against security; hearing itself is a transparency exercise",
+      "supporting_evidence": "Hearing index publicly releases several technical documents and media articles"
+    },
+    {
+      "transparency_theme": "Executive branch responsiveness (Chinese balloon example)",
+      "position": "Chair uses balloon incident to critique opacity and slow disclosure",
+      "supporting_evidence": "\u2018The Biden Administration\u2019s handling of the Chinese spy balloon...\u2019"
+    }
+  ],
+  "potential_misinformation": [
+    "Implicit assumption that all UAPs are advanced technology rather than sensor error or mundane objects",
+    "Historical anecdotes of presidential UFO sightings presented without context of later explanations"
+  ],
+  "potential_disinformation": [
+    "If any agency is deliberately providing false narratives to downplay secret programs (alleged by Grusch), that would constitute disinformation, though evidence is not provided in the excerpt"
+  ],
+  "potential_malinformation": [
+    "Release of authentic but sensitive Defense Intelligence Reference Document on spacetime engineering could aid adversaries while fueling sensational claims"
+  ],
+  "dominant_narrative": "Credible military whistle-blowers are finally forcing the U.S. government to lift the veil of secrecy around unidentified anomalous phenomena, which pose real national-security and public-safety risks; Congress must compel transparency.",
+  "information_contest": "Witnesses and sympathetic members frame the issue as an urgent transparency problem, while parts of the defense establishment (absent in the room) maintain classification; media actors add sensational angles, and skeptics outside the hearing question the evidentiary basis\u2014creating a tug-of-war over who controls the UAP narrative.",
+  "framework_insights": [
+    "The hearing functions as a production and dissemination node converting individual eyewitness data into authoritative congressional records.",
+    "Credibility hinges less on hard evidence and more on institutional signifiers (rank, official hearing) and emotional appeals to secrecy/transparency.",
+    "The same factual statements (e.g., existence of UAP office) can be encoded into divergent narratives depending on interpreter priors.",
+    "Transparency rhetoric is a powerful mobilizer, but can unintentionally spread mal-information when true yet sensitive documents are publicized.",
+    "Information disorder risk is highest in the speculative gaps created by classification; absence of confirmatory data invites both mis- and dis- information to flourish."
+  ]
+}

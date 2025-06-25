@@ -1,0 +1,244 @@
+69
+leaks by the mainstream media in France, something which raised eyebrows amongst US
+journalists. The idea of strategic silence in the coverage of mal- and dis-information might sit
+uncomfortably with some, but we would argue there is a need for these conversations to take
+place.
+Identifying the sources of dis-information
+In Paul & Matthews report on Russian propaganda for the RAND corporation, they argue that
+one of the most effective ways of tackling the issue is to inoculate users, or to “forewarn
+audiences of mis-information, or merely reach them first with the truth, rather than
+retracting or refuting false ‘facts.’204
+However, the current trend is fact-checking initiatives.205 Since 2016, we have seen the
+creation of numerous fact-checking organizations, new teams206 and election-based initiatives
+like CrossCheck,207 which worked to debunk rumours and claims around the French election.
+The difficulty here is that if “fake news isn’t about facts, but about power, then independent
+fact-checking alone won’t fix it — particularly for readers who already distrust the
+organizations that are doing the fact-checking.”208 (Borel, 2017)
+However, as Jeff Jarvis argues, there are other techniques which are not currently a natural
+part of reporting. For example, “journalism should cover the manipulators’ methods but not
+their messages…. We should not assume that all our tried-and-true tools — articles,
+explainers, fact-checking — can counteract manipulators’ propaganda. We must experiment
+and learn what does and does not persuade people to favor facts and rationality.” (Jarvis,
+2017)
+A Belgium start-up, Saper Vedere is making a similar claim, based on its analysis of the
+effectiveness of fact-checks during the French election209. In its visualisation below, one can
+see the audience for the rumour that Macron was funded by Saudi Arabia, as well as the
+audience of its debunk. There is almost no overlap between these two groups.
+204 Paul and Matthews, (2016) p.9
+205 Mantzarlis, A. (2016) There’s been an explosion of international fact-checkers, but they face big challenges,
+Poynter, http://www.poynter.org/2016/theres-been-an-explosion-of-international-fact-checkers-but-they-face-
+big-challenges/415468/
+206 See the launch of the BBC’s Reality Check: Jackson, J. (Jan. 12, 2017) BBC sets up team to debunk fake news,
+The Guardian, https://www.theguardian.com/media/2017/jan/12/bbc-sets-up-team-to-debunk-fake-news
+207 https://firstdraftnews.com/project/crosscheck/
+208 Borel, B. (Jan. 4, 2017) Fact-checking Won’t Save Us from Fake News, FiveThirtyEight,
+https://fivethirtyeight.com/features/fact-checking-wont-save-us-from-fake-news/
+209 http://www.saper-vedere.eu/
+70
+Figure 14: Visualization of Twitter accounts discussion a rumour that Emmanuel Macron was being
+funded by Saudi Arabia. The accounts on the left in the green box were discussing the debunk. The
+account in red were discussing the rumour. The two communities hardly overlap. Credit: Alexandre
+Alaphilippe and Nicolas Vanderbiest.
+Instead, they argue that journalists need better tools to be able to identify the sources of dis-
+information in real-time: source-checking. When bot accounts who originated a rumour
+appear to be based in a country other than the one connected with said rumour, it could
+prove to be a faster way of encouraging skepticism in the audience than debunking the fact
+itself.
+Education
+In a large-scale exercise designed to evaluate students’ ability to evaluate information sources
+online, researchers at Stanford University were surprised by the degree to which respondents
+were unable to identify an advert from editorial content or question the partisan nature of
+facts presented to them.210 The call for more news literacy programs211 has been deafening
+recently, and they are one solution on which almost everyone can agree.
+Danah boyd in a provocative piece titled ‘Did Media Literacy Backfire’ from January 2017
+argued media literacy has actually taught students not to trust Wikipedia while failing to give
+210 Stanford History Education Group, (Nov. 22, 2016) Evaluation Information: The Cornerstone of Civic Online
+Reasoning. https://sheg.stanford.edu/upload/V3LessonPlans/Executive%20Summary%2011.21.16.pdf
+211 This document from 1999 titled ‘7 Great Debates in Media Literacy, is still incredibly relevant’
+http://files.eric.ed.gov/fulltext/ED439454.pdf
+71
+them sufficient critical research skills to know how to ascertain the credibility of any one piece
+of information.212 boyd identified a significant problem: news literacy has been distorted into
+distrust of the media and selective research that reaffirms beliefs.
+The specifics of how such programs should be rolled out, in terms of the format, structure and
+content of program curriculum, have supported very vibrant discussions. In addition to more
+traditional ideas around news literacy, such as how to differentiate between opinion and hard
+news, there have been calls to include elements like the critical assessment of statistical and
+quantitative statements in the media213, a deep understanding of algorithms and artificial
+intelligence214 and greater emotional skepticism.215
+There is also a need to educate people on the power of images to manipulate and persuade.
+As discussed earlier, the way we understand visuals is fundamentally different to how we
+think about text. While much of the ‘fake news’ debate to date has been about text-based
+dis-information, the election monitoring projects First Draft has worked on in the US, UK,
+France and Germany have shown how frequently dis-information appears in visual formats—
+whether doctored images, fabricated videos, misleading visualizations or ‘memes’ (striking
+images with text superimposed over top). In an investigation carried out in the run up to the
+French election, Buzzfeed discovered loose networks of US teenagers creating ‘meme shells’
+(generic images related to the candidates) that anyone could use to create memes for social
+media.
+A recent study at Stanford University observed 10 Ph.D. historians, 10 professional fact
+checkers and 25 Stanford University undergraduates as they evaluated live websites and
+searched for information on social and political issues. They found that “historians and
+students often fell victim to easily manipulated features of websites, such as official-looking
+logos and domain names. They read vertically, staying within a website to evaluate its
+reliability. In contrast, fact checkers read laterally, leaving a site after a quick scan and
+opening new browser tabs in order to judge the credibility of the original site. Compared to
+212 boyd, d. (Jan. 5, 2017) Did Media Literacy Backfire, Data and Society: Points
+https://points.datasociety.net/did-media-literacy-backfire-7418c084d88d
+213 Written evidence submitted by the Royal Statistical Society to the UK Parliamentary Inquiry on Fake News,
+https://www.parliament.uk/business/committees/committees-a-z/commons-select/culture-media-and-sport-
+committee/inquiries/parliament-2015/inquiry2/publications/
+214 Written evidence submitted by the UCL Knowledge Lab to the UK Parliamentary Inquiry on Fake News
+http://data.parliament.uk/writtenevidence/committeeevidence.svc/evidencedocument/culture-media-and-
+sport-committee/fake-news/written/48571.html
+215 On The Media, (2017) Rise and Fall of Fake News, WNYC, http://www.wnyc.org/story/rise-and-fall-fake-
+news/
+72
+the other groups, fact checkers arrived at more warranted conclusions in a fraction of the
+time.”216
+The question is how to make this type of ‘reading’ habitual amongst students.
+Ultimately, there is an acceptance that any curriculum should not lecture students. Telling
+students they are wrong is not a solution, and may even be counter-productive. As InformAll
+and the CILIP Information Literacy Group testified to the UK Parliament, “[t]he essence of any
+solution lies in stimulating curiosity and a spirit of enquiry, and crucially, finding effective
+ways of triggering this curiosity, in the education system and beyond.”217
+One of the most impressive initiatives is The Digital Polarization Initiative218, which was
+launched by the American Association of State Colleges and Universities and is led by Mike
+Caulfield. It is a national effort to build student civic, information and web literacy by having
+students participating in a broad, cross-institutional project to fact-check, annotate and
+provide context to the different news stories that show up in their Twitter and Facebook
+feeds. As Caulfield explains: “The point is to get students to understand the mechanisms and
+biases of Facebook and Twitter in ways that most digital literacy programs never touch. The
+point is not to simply decode what’s out there, but to analyze what is missing from our
+current online environment, and, if possible supply it.”219
+Programs that have focused on critical thinking, source evaluation and emotional
+manipulation have seen success. In Ukraine, the nongovernmental organization IREX, trained
+15,000 people on a program called Learn to Discern, which was designed to teach citizens
+how to separate fact from fiction and recognize manipulation and hate speech. In their
+evaluation of the project, they found an observed 24% increase in participants’ ability to
+distinguish trustworthy news from false news, a 22% increase in those who cross-check the
+information in the news they consume, and a 26% increase in participants' confidence in
+analyzing news.220
+216 McGrew, S., T. Ortega, J. Breakstone & S. Wineburg, (Fall 2017) The Challenge That’s Bigger Than Fake News:
+Teaching Students to Engage in Civic Online Reasoning. American Educator.
+217 Written evidence submitted by InformAll and the CILIP Information Literacy Group to the UK Parliamentary
+Inquiry on Fake News,
+http://data.parliament.uk/writtenevidence/committeeevidence.svc/evidencedocument/culture-media-and-
+sport-committee/fake-news/written/48215.html
+218 http://www.aascu.org/AcademicAffairs/ADP/DigiPo/
+219 Caulfield, M. (Dec 7. 2016) Announcing the Digital Polarization Initiative. Hapgood.
+https://hapgood.us/2016/12/07/announcing-the-digital-polarization-initiative-an-open-pedagogy-joint/
+220 Susman-Peña, T. and Vogt, Katya (June 12, 2017) Ukrainians’ self-defense against information war: What we
+learned from Learn to Discern, IREX, https://www.irex.org/insight/ukrainians-self-defense-against-information-
+war-what-we-learned-learn-discern
+73
+Established programs like the News Literacy Project221, which is focused on providing
+materials and curricula to High School students; the Stonybrook Center for News Literacy222,
+which offers skills training to University students; and a new online course being offered by
+Hong Kong University223 are all also currently leading the thinking on best practices in this
+area.
+It seems there is a need for a task force on the best approaches for teaching news literacy,
+creative thinking about a standardized curriculum and rigorous testing of new techniques.
+Suggested elements of any curriculum include: (i) traditional news literacy skills; (ii) forensic
+social media verification skills; (iii) information about the power of algorithms to shape what
+is presented to us; (iv) the possibilities but also the ethical implications offered by artificial
+intelligence; (v) techniques for developing emotional scepticism to override our brain’s
+tendency to be less critical of content that provokes an emotional response; and (vi) statistical
+numeracy.
+Regulation
+The First Amendment of the US Constitution means that, for all the discussion in the US about
+the impact of fabricated and manipulated content, there is very little appetite in the US for
+any type of regulatory intervention.224 In Europe however, the regulatory wheels have been
+turning slowly, and we are starting to see legislation directed at information disorder.
+Germany, for instance, recently passed the Network Enforcement Law, which concentrates
+primarily on hate speech, and introduces a possible imposition of fines on the social networks
+if they don’t take down hateful or defamatory content within twenty-four hours. The BBC
+World Service survey measuring attitudes to information and the internet of eighteen
+countries, showed that only in two of the eighteen countries, China and the UK, did a majority
+want their governments to regulate the internet.225
+However, there’s little denying that the regulatory discourse in Europe has been loud since
+late December 2016, when Giovanni Pitruzzella, the chairman of the Italian Competition
+221 http://www.thenewsliteracyproject.org/
+222 https://www.centerfornewsliteracy.org/
+223 https://www.coursera.org/learn/news-literacy
+224 Gillespie, T. (in press) Governance of and by platforms. In Burgess, J., Poell, T., & Marwick, A. (Eds), SAGE
+handbook of social media. Retrieved from http://culturedigitally.org/wp-content/uploads/2016/06/Gillespie-
+Governance-ofby-Platforms-PREPRINT.pdf
+225 Cellan-Jones, R. (Sept 22, 2017) Fake news worries 'are growing' suggests BBC poll, BBC News,
+http://www.bbc.com/news/technology-41319683
+74
+Authority, told the Financial Times that EU countries should deal with "post-truth" politics by
+setting up antitrust-like agencies devoted to spotting and removing fake news.226
+And then, in January 2017, Andrus Ansip, the European Commission (EC) Vice President for
+the Digital Single Market, warned that if Facebook and other tech companies didn’t take
+tougher stances on fake news, the EC might have to step in. Ansip told the Financial Times in
+an interview, “I really believe in self-regulatory measures, but if some kind of clarifications are
+needed then we will be ready for that.”227 However, on Twitter, he stressed228 that he was
+not referring to a ‘ministry of truth.’
+The European Commission has already pushed Facebook, Twitter, YouTube and Microsoft to
+sign up to a code of conduct229 that aims to tackle online hate speech and take down the
+majority of potentially illegal content within 24 hours. Many fear this code of conduct might
+become a blueprint for regulating fabricated content online.
+In the United Kingdom, the Culture, Media and Sport Committee set up a Fake News Inquiry,
+and evidence was submitted230 by 79 experts and organizations. The inquiry was closed when
+the election was called, and it is unknown whether it will reconvene.
+In the Czech Republic, officials are monitoring fake news directly. Ahead of the country’s
+general election in October, the Czech government has set up a “specialised analytical and
+communications unit”231 within the Ministry of the Interior that, as part of its work to monitor
+threats to internal security, will also target “dis-information campaigns.” According to the
+Ministry, it will “not force the ‘truth’ on anyone, or censor media content.” Rather, as the
+unit’s Twitter page explains, it will assess whether the dis-information seriously affects
+internal security, and, if so, it will respond by publicising available facts and data that disprove
+the fake story.
+Whatever happens in Europe will set an important global precedent. Already, Singapore’s
+Law and Home Affairs Minister K. Shanmugam stated that laws to tackle the “scourge of fake
+news” are expected to be introduced next year.232
+226 Politi, J. (Dec. 30, 2016) ‘Italy antitrust chief urges EU to help beat fake news’
+https://www.ft.com/content/e7280576-cddc-11e6-864f-20dcb35cede2?mhq5j=e2
+227 Bond, D. and Robinson, D. (Jan. 29, 2017), ‘European Commission fires warning at Facebook over fake news’
+Financial Times, https://www.ft.com/content/85683e08-e4a9-11e6-9645-c9357a75844a?mhq5j=e2
+228 https://twitter.com/Ansip_EU/status/826085369493995522
+229 http://europa.eu/rapid/press-release_IP-16-1937_en.htm
+230 https://www.parliament.uk/business/committees/committees-a-z/commons-select/culture-media-and-
+sport-committee/inquiries/parliament-2015/inquiry2/publications/
+231 http://www.mvcr.cz/cthh/clanek/centre-against-terrorism-and-hybrid-threats.aspx
+232 Yi, S.B. (June 19, 2017) ‘New legislation to combat fake news likely to be introduced next year: Shanmugam’,
+Straits Times, http://www.straitstimes.com/singapore/new-legislation-to-combat-fake-news-next-year-
+shanmugam
+75
+Any attempt to create a regulatory framework will be problematic without appropriate
+definitions for information disorder. When politicians or policymakers talk about ‘fake news’,
+what are they targeting? Fabricated news sites created for profit? Twitter raids created by
+loose networks of bored teens?
+As Jan Kleijssen, the Director of the Information Society and Action against Crime Department
+of the Council of Europe reminds us, “When we speak about freedom of expression today, we
+often hear a ‘but’ - and then mention is made of ‘hate speech’ and ‘fake news’. At the Council
+of Europe, we believe that we have to be very careful with that ‘but’ after freedom of
+expression. We are talking about one of the most important foundations of democracy, one
+of the most important foundations of democratic security.” The topics of mis-, mal- and dis-
+information are too important to start legislating and regulating around until we have a
+shared understanding of what we mean by these terms.
+Figure 15: Cartoon by Cathy Wilcox, drawn for UNESCO for World Press Freedom Day 2017.
+An easier regulatory move that we are likely to see soon is connected to online advertising on
+Facebook. With the news that Russia was buying ‘dark’ posts on Facebook and targeting them
+at US citizens in the run up to the 2016 US election, there is a growing pressure for increased
+76
+transparency around these types of advertisements.233 Without any oversight on what is
+being published and to whom, there can be no accountability. In most democracies paid-for
+election related communication is held to certain standards before it can be broadcast or
+published. In 2011, the Federal Communications Commission ruled that Facebook did not
+have to require disclaimers on its paid-for posts, but we expect this to be revisited as the
+opportunities presented by this technology, to those trying to sow dis-information, become
+clearer.
+While Mark Zuckerberg announced on September 21, 2017 that Facebook will ensure that
+anyone advertising on Facebook will have to disclose which page paid for an ad, and will also
+ensure that you can visit an advertiser’s page and see the ads that they are currently running
+to any audience on Facebook. While this seems like a positive step, as a group of
+distinguished academics wrote in response to the announcement via an open letter:
+Transparency is a first step in the right direction. Digital political advertising
+operates in a dynamic tension between data and humans, commerce and
+politics, power and participation. Some of these tensions can be resolved by
+transparency, others not. The way forward is to engage with governments,
+regulators, election monitoring bodies, civil society and academics to develop
+public policies and guidelines for ensuring fairness, equality, and democratic
+oversight in digital political campaigns.234

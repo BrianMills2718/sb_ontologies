@@ -1,0 +1,407 @@
+citation: "Michie, S., Ashford, S., Sniehotta, F. F., Dombrowski, S. U., Bishop, A., & French, D. P. (2011). A refined taxonomy of behaviour change techniques to help people change their physical activity and healthy eating behaviours: The CALO-RE taxonomy. Psychology and Health, 26(11), 1479-1498."
+
+annotation: "The CALO-RE taxonomy is a refined 40-item classification system of behaviour change techniques (BCTs) for physical activity and healthy eating interventions, developed through systematic coding of intervention descriptions across multiple study centers. It provides standardized definitions to improve intervention reporting, replication, and evidence synthesis."
+
+model_type: "property_graph"
+
+rationale: "The CALO-RE taxonomy represents a structured theoretical framework with clear hierarchical relationships between behavior change techniques, their applications, and mechanisms of action. A property graph model best captures the interconnected nature of techniques, their theoretical foundations, implementation contexts, and relationships to behavioral outcomes."
+
+schema_blueprint:
+  title: "CALO-RE Behaviour Change Techniques Taxonomy Schema"
+  description: "A comprehensive schema modeling the CALO-RE taxonomy of 40 behaviour change techniques for physical activity and healthy eating interventions, including technique definitions, categorizations, implementation contexts, and theoretical linkages."
+  
+  root_properties:
+    nodes:
+      description: "Represents behavior change techniques, theoretical constructs, intervention contexts, behavioral targets, mechanisms of action, and measurement approaches"
+      item_type: "Entity"
+    edges:
+      description: "Represents relationships between techniques, theoretical linkages, implementation dependencies, causal mechanisms, and methodological connections"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Behavior Change Techniques (40 BCTs)
+    - name: "provide-information-consequences-general"
+      category: "behavior-change-technique"
+      description: "Information about the relationship between the behaviour and its possible or likely consequences in the general case, usually based on epidemiological data, and not personalised for the individual"
+      
+    - name: "provide-information-consequences-individual"
+      category: "behavior-change-technique"
+      description: "Information about the benefits and costs of action or inaction to the individual or tailored to a relevant group based on that individual's characteristics"
+      
+    - name: "provide-information-others-approval"
+      category: "behavior-change-technique"
+      description: "Information about what other people think about the target person's behaviour, clarifying whether others will like, approve or disapprove"
+      
+    - name: "provide-normative-information"
+      category: "behavior-change-technique"
+      description: "Information about what other people are doing, indicating that a particular behaviour is common or uncommon amongst the population"
+      
+    - name: "goal-setting-behaviour"
+      category: "behavior-change-technique"
+      description: "Encouraging the person to make a behavioural resolution, directed towards encouraging people to decide to change or maintain change"
+      
+    - name: "goal-setting-outcome"
+      category: "behavior-change-technique"
+      description: "Encouraging the person to set a general goal that can be achieved by behavioural means but is not defined in terms of behaviour"
+      
+    - name: "action-planning"
+      category: "behavior-change-technique"
+      description: "Detailed planning of what the person will do including, as a minimum, when, in which situation and/or where to act"
+      
+    - name: "barrier-identification-problem-solving"
+      category: "behavior-change-technique"
+      description: "Prompting the person to think about potential barriers and identify ways of overcoming them"
+      
+    - name: "set-graded-tasks"
+      category: "behavior-change-technique"
+      description: "Breaking down the target behaviour into smaller easier to achieve tasks and enabling the person to build on small successes"
+      
+    - name: "prompt-review-behavioural-goals"
+      category: "behavior-change-technique"
+      description: "Review or analysis of the extent to which previously set behavioural goals were achieved"
+      
+    - name: "prompt-review-outcome-goals"
+      category: "behavior-change-technique"
+      description: "Review or analysis of the extent to which previously set outcome goals were achieved"
+      
+    - name: "prompt-rewards-contingent-effort"
+      category: "behavior-change-technique"
+      description: "Using praise or rewards for attempts at achieving a behavioural goal, including efforts made towards achieving the behaviour"
+      
+    - name: "provide-rewards-contingent-behaviour"
+      category: "behavior-change-technique"
+      description: "Reinforcing successful performance of the specific target behaviour with rewards explicitly linked to achievement"
+      
+    - name: "shaping"
+      category: "behavior-change-technique"
+      description: "Contingent rewards first provided for any approximation to the target behaviour, then gradually more demanding performance"
+      
+    - name: "prompting-generalisation"
+      category: "behavior-change-technique"
+      description: "Once behaviour is performed in a particular situation, encouraging or helping to try it in another situation"
+      
+    - name: "prompt-self-monitoring-behaviour"
+      category: "behavior-change-technique"
+      description: "Asking the person to keep a record of specified behaviour(s) as a method for changing behaviour"
+      
+    - name: "prompt-self-monitoring-outcome"
+      category: "behavior-change-technique"
+      description: "Asking the person to keep a record of specified measures expected to be influenced by the behaviour change"
+      
+    - name: "prompting-focus-past-success"
+      category: "behavior-change-technique"
+      description: "Instructing the person to think about or list previous successes in performing the behaviour"
+      
+    - name: "provide-feedback-performance"
+      category: "behavior-change-technique"
+      description: "Providing the participant with data about their own recorded behaviour or commenting on behavioural performance"
+      
+    - name: "provide-information-where-when"
+      category: "behavior-change-technique"
+      description: "Telling the person about when and where they might be able to perform the behaviour"
+      
+    - name: "provide-instruction-how"
+      category: "behavior-change-technique"
+      description: "Telling the person how to perform behaviour or preparatory behaviours, either verbally or in written form"
+      
+    - name: "model-demonstrate-behaviour"
+      category: "behavior-change-technique"
+      description: "Showing the person how to perform a behaviour through physical or visual demonstrations"
+      
+    - name: "teach-use-prompts-cues"
+      category: "behavior-change-technique"
+      description: "Teaching the person to identify environmental prompts which can be used to remind them to perform the behaviour"
+      
+    - name: "environmental-restructuring"
+      category: "behavior-change-technique"
+      description: "Prompting the person to alter the environment in ways so that it is more supportive of the target behaviour"
+      
+    - name: "agree-behavioural-contract"
+      category: "behavior-change-technique"
+      description: "Written agreement on the performance of an explicitly specified behaviour with written record witnessed by another"
+      
+    - name: "prompt-practice"
+      category: "behavior-change-technique"
+      description: "Prompting the person to rehearse and repeat the behaviour or preparatory behaviours numerous times"
+      
+    - name: "use-follow-up-prompts"
+      category: "behavior-change-technique"
+      description: "Intervention components gradually reduced in intensity, duration and frequency over time"
+      
+    - name: "facilitate-social-comparison"
+      category: "behavior-change-technique"
+      description: "Explicitly drawing attention to others' performance to elicit comparisons"
+      
+    - name: "plan-social-support"
+      category: "behavior-change-technique"
+      description: "Prompting the person to plan how to elicit social support from other people to help achieve their target behaviour"
+      
+    - name: "prompt-identification-role-model"
+      category: "behavior-change-technique"
+      description: "Focusing on how the person may be an example to others and affect their behaviour"
+      
+    - name: "prompt-anticipated-regret"
+      category: "behavior-change-technique"
+      description: "Inducing expectations of future regret about the performance or non-performance of a behaviour"
+      
+    - name: "fear-arousal"
+      category: "behavior-change-technique"
+      description: "Presentation of risk and/or mortality information relevant to the behaviour as emotive images designed to evoke a fearful response"
+      
+    - name: "prompt-self-talk"
+      category: "behavior-change-technique"
+      description: "Encouraging the person to use talk to themselves before and during planned behaviours to encourage, support and maintain action"
+      
+    - name: "prompt-use-imagery"
+      category: "behavior-change-technique"
+      description: "Teaching the person to imagine successfully performing the behaviour or finding it easy to perform the behaviour"
+      
+    - name: "relapse-prevention-coping"
+      category: "behavior-change-technique"
+      description: "Planning how to maintain behaviour that has been changed, identifying situations where changed behaviour may not be maintained"
+      
+    - name: "stress-management-emotional-control"
+      category: "behavior-change-technique"
+      description: "Specific techniques that seek to reduce anxiety and stress to facilitate the performance of the behaviour"
+      
+    - name: "motivational-interviewing"
+      category: "behavior-change-technique"
+      description: "Clinical method involving prompting the person to engage in change talk to minimise resistance and resolve ambivalence"
+      
+    - name: "time-management"
+      category: "behavior-change-technique"
+      description: "Techniques designed to teach a person how to manage their time in order to make time for the behaviour"
+      
+    - name: "communication-skills-training"
+      category: "behavior-change-technique"
+      description: "Techniques directed at general communication skills but not directed towards a particular behaviour change"
+      
+    - name: "stimulate-anticipation-future-rewards"
+      category: "behavior-change-technique"
+      description: "Creating anticipation of future rewards without necessarily reinforcing behaviour throughout the active period"
+      
+    # Behavioral Targets
+    - name: "physical-activity"
+      category: "behavioral-target"
+      description: "Target behaviour involving bodily movement produced by skeletal muscles that requires energy expenditure"
+      
+    - name: "healthy-eating"
+      category: "behavioral-target"
+      description: "Target behaviour involving consumption of nutritionally adequate food patterns that support health"
+      
+    - name: "preparatory-behaviour"
+      category: "behavioral-target"
+      description: "Behaviors that are necessary conditions for or directly related to the target behaviour"
+      
+    # Theoretical Constructs
+    - name: "self-efficacy"
+      category: "theoretical-construct"
+      description: "Person's belief in their capability to perform behaviors necessary to produce specific performance attainments"
+      
+    - name: "control-theory"
+      category: "theoretical-framework"
+      description: "Framework emphasizing self-regulation through goal setting, self-monitoring, and feedback processes"
+      
+    - name: "social-cognitive-theory"
+      category: "theoretical-framework"
+      description: "Theory emphasizing the interaction between behavior, personal factors, and environmental influences"
+      
+    - name: "self-regulation"
+      category: "theoretical-construct"
+      description: "The process of guiding one's own thoughts, behaviors, or feelings to reach goals"
+      
+    - name: "motivation"
+      category: "theoretical-construct"
+      description: "Psychological processes that drive the initiation, direction, intensity and persistence of behavior"
+      
+    # Implementation Context
+    - name: "intervention-fidelity"
+      category: "implementation-concept"
+      description: "The degree to which an intervention is delivered as intended"
+      
+    - name: "behavioral-counselling"
+      category: "intervention-modality"
+      description: "Professional guidance aimed at helping individuals change specific behaviors"
+      
+    - name: "group-intervention"
+      category: "intervention-modality"
+      description: "Interventions delivered to multiple participants simultaneously in a group setting"
+      
+    - name: "individual-intervention"
+      category: "intervention-modality" 
+      description: "Interventions delivered to single participants on a one-to-one basis"
+      
+    - name: "face-to-face-delivery"
+      category: "delivery-mode"
+      description: "Direct in-person delivery of intervention components"
+      
+    - name: "written-materials"
+      category: "delivery-mode"
+      description: "Delivery of intervention content through printed or written materials"
+      
+    # Measurement and Assessment
+    - name: "inter-rater-reliability"
+      category: "measurement-method"
+      description: "Degree of agreement among independent raters assessing the same phenomena"
+      
+    - name: "kappa-coefficient"
+      category: "reliability-measure"
+      description: "Statistical measure of inter-rater agreement for categorical items, accounting for chance agreement"
+      
+    - name: "systematic-review"
+      category: "research-method"
+      description: "Comprehensive and systematic approach to identifying, evaluating and synthesizing research evidence"
+      
+    - name: "meta-regression"
+      category: "statistical-method"
+      description: "Statistical technique to explore sources of heterogeneity in meta-analysis results"
+      
+    - name: "taxonomy-refinement"
+      category: "methodological-process"
+      description: "Iterative process of improving classification systems through empirical testing and expert consensus"
+      
+    # Processes and Mechanisms
+    - name: "behavior-change-mechanism"
+      category: "causal-process"
+      description: "The underlying psychological or social processes through which behavior change techniques exert their effects"
+      
+    - name: "implementation-intention"
+      category: "psychological-process"
+      description: "If-then plan that specifies when, where, and how to act in response to specific situational cues"
+      
+    - name: "social-support"
+      category: "social-process"
+      description: "Provision of assistance, encouragement, or resources from other people to help achieve behavioral goals"
+      
+    - name: "environmental-modification"
+      category: "intervention-process"
+      description: "Changing aspects of the physical or social environment to support desired behaviors"
+      
+    # Quality and Effectiveness Concepts
+    - name: "intervention-effectiveness"
+      category: "outcome-concept"
+      description: "The degree to which an intervention achieves its intended behavioral or health outcomes"
+      
+    - name: "replicability"
+      category: "scientific-quality"
+      description: "The ability to reproduce intervention results across different studies and contexts"
+      
+    - name: "evidence-synthesis"
+      category: "research-process"
+      description: "Systematic combination and analysis of evidence from multiple studies"
+      
+    - name: "active-ingredient"
+      category: "intervention-component"
+      description: "Specific elements within complex interventions that are responsible for producing behavior change"
+      
+    # Relationships and Connections
+    - name: "requires"
+      category: "relationship"
+      description: "Indicates that one technique or process is necessary for another"
+      domain: ["behavior-change-technique", "theoretical-construct"]
+      range: ["behavior-change-technique", "behavioral-target", "implementation-concept"]
+      
+    - name: "enhances"
+      category: "relationship"
+      description: "Indicates that one technique improves the effectiveness of another"
+      domain: ["behavior-change-technique"]
+      range: ["behavior-change-technique", "intervention-effectiveness"]
+      
+    - name: "targets"
+      category: "relationship"
+      description: "Indicates which behavioral outcomes a technique is designed to influence"
+      domain: ["behavior-change-technique"]
+      range: ["behavioral-target", "theoretical-construct"]
+      
+    - name: "operationalizes"
+      category: "relationship"
+      description: "Indicates how theoretical constructs are implemented through specific techniques"
+      domain: ["behavior-change-technique"]
+      range: ["theoretical-construct"]
+      
+    - name: "preceded-by"
+      category: "relationship"
+      description: "Indicates temporal or logical sequence in technique application"
+      domain: ["behavior-change-technique"]
+      range: ["behavior-change-technique"]
+      
+    - name: "conflicts-with"
+      category: "relationship"
+      description: "Indicates conceptual overlap or contradiction between techniques"
+      domain: ["behavior-change-technique"]
+      range: ["behavior-change-technique"]
+      
+    - name: "measured-by"
+      category: "relationship"
+      description: "Indicates the assessment methods used to evaluate constructs or outcomes"
+      domain: ["theoretical-construct", "intervention-effectiveness"]
+      range: ["measurement-method", "reliability-measure"]
+
+  json_schema:
+    BCT_Categories:
+      - "information-provision"
+      - "goal-setting-planning"
+      - "feedback-monitoring"
+      - "social-support"
+      - "shaping-knowledge"
+      - "natural-consequences"
+      - "comparison-behavior"
+      - "reward-threat"
+      - "regulation"
+      - "antecedents"
+      - "identity"
+      - "scheduled-consequences"
+      - "self-belief"
+      - "covert-learning"
+      - "environmental-context"
+      
+    Behavioral_Targets:
+      - "physical-activity"
+      - "healthy-eating"
+      - "preparatory-behaviour"
+      - "self-monitoring-behaviour"
+      - "goal-achievement"
+      
+    Theoretical_Frameworks:
+      - "control-theory"
+      - "social-cognitive-theory"
+      - "self-determination-theory"
+      - "theory-planned-behaviour"
+      - "transtheoretical-model"
+      
+    Implementation_Contexts:
+      - "individual-intervention"
+      - "group-intervention"
+      - "healthcare-setting"
+      - "community-setting"
+      - "workplace-setting"
+      - "home-based"
+      
+    Delivery_Modes:
+      - "face-to-face-delivery"
+      - "written-materials"
+      - "telephone-delivery"
+      - "digital-delivery"
+      - "peer-delivered"
+      - "professional-delivered"
+      
+    Measurement_Methods:
+      - "inter-rater-reliability"
+      - "content-analysis"
+      - "systematic-coding"
+      - "expert-consensus"
+      - "iterative-refinement"
+      
+    Effectiveness_Measures:
+      - "behavior-change-magnitude"
+      - "intervention-fidelity"
+      - "implementation-success"
+      - "replication-rate"
+      - "evidence-quality"
+      
+    Quality_Indicators:
+      - "conceptual-clarity"
+      - "definitional-precision"
+      - "taxonomic-comprehensiveness"
+      - "inter-rater-agreement"
+      - "theoretical-coherence"

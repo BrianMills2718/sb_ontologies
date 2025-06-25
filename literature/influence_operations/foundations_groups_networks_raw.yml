@@ -1,0 +1,495 @@
+citation: "Foundations of Effective Influence Operations Chapter 3: Influencing Groups and Networks"
+
+annotation: "Chapter analyzing theoretical frameworks and empirical research for influencing group dynamics, decision-making processes, and social networks, covering social power theory, influence models, rational choice perspectives, and social network analysis applications to influence operations."
+
+model_type: "property_graph"
+
+rationale: "Property graph model is optimal for representing the complex web of theoretical constructs, influence mechanisms, group processes, network structures, and their interconnected relationships. The chapter describes multiple overlapping theoretical frameworks with nodes representing concepts, actors, and processes, and edges representing influence relationships, causal mechanisms, and theoretical connections."
+
+schema_blueprint:
+  title: "Groups and Networks Influence Operations Schema"
+  description: "Comprehensive schema modeling theoretical frameworks for influencing group dynamics, decision-making processes, and social networks in influence operations context"
+  
+  root_properties:
+    nodes:
+      description: "Represents theoretical constructs, influence mechanisms, group processes, network structures, and actors in group/network influence operations"
+      item_type: "Entity"
+    edges:
+      description: "Represents relationships between constructs, influence pathways, causal mechanisms, and theoretical connections"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Theoretical Frameworks
+    - name: "social-power-theory"
+      category: "theoretical-framework"
+      description: "Bertram Raven's framework defining six bases of social power and power/interaction model of interpersonal influence"
+      
+    - name: "cialdini-influence-model"
+      category: "theoretical-framework"
+      description: "Robert Cialdini's model identifying six 'weapons of influence' for persuasion and compliance"
+      
+    - name: "social-exchange-theory"
+      category: "theoretical-framework"
+      description: "Thibaut and Kelley's theory of interpersonal relations based on game theoretic assumptions about reward/cost exchanges"
+      
+    - name: "coercive-persuasion-theory"
+      category: "theoretical-framework"
+      description: "Lewin and Schein's framework for understanding extreme group influence including thought reform and brainwashing"
+      
+    - name: "two-step-communication-theory"
+      category: "theoretical-framework"
+      description: "Katz and Lazarsfeld's model explaining diffusion of innovations through opinion leaders to other individuals"
+      
+    - name: "rational-choice-theory"
+      category: "theoretical-framework"
+      description: "Framework analyzing how individuals promote interests within social/institutional constraints using formal methods"
+      
+    - name: "social-choice-theory"
+      category: "theoretical-framework"
+      description: "Direct collective preference models that aggregate individual preferences into collective preference relations"
+      
+    - name: "game-theoretic-models"
+      category: "theoretical-framework"
+      description: "Indirect models where individuals make choices that jointly determine collective outcomes through strategic interaction"
+      
+    - name: "diffusion-of-innovations-theory"
+      category: "theoretical-framework"
+      description: "Framework explaining how new ideas and practices spread through interpersonal contacts in networks"
+      
+    - name: "social-network-analysis"
+      category: "theoretical-framework"
+      description: "Analytical approach for mapping and analyzing leadership, social, and influence networks"
+      
+    # Power Bases (Raven's Model)
+    - name: "informational-power"
+      category: "power-base"
+      description: "Power derived from possession of information that others need or value"
+      
+    - name: "coercive-power"
+      category: "power-base"
+      description: "Power based on ability to punish or impose negative consequences"
+      
+    - name: "reward-power"
+      category: "power-base"
+      description: "Power based on ability to provide rewards or positive consequences"
+      
+    - name: "legitimacy-power"
+      category: "power-base"
+      description: "Power derived from formal authority or position within institutional structure"
+      
+    - name: "expert-power"
+      category: "power-base"
+      description: "Power based on perceived expertise, knowledge, or competence in relevant domain"
+      
+    - name: "referent-power"
+      category: "power-base"
+      description: "Power based on identification, admiration, or desire to be associated with the influence agent"
+      
+    # Cialdini's Weapons of Influence
+    - name: "reciprocation-principle"
+      category: "influence-mechanism"
+      description: "Tendency for people to return favors and feel obligated to reciprocate"
+      
+    - name: "commitment-consistency"
+      category: "influence-mechanism"
+      description: "Tendency for people to honor commitments and remain consistent with previous positions"
+      
+    - name: "social-proof"
+      category: "influence-mechanism"
+      description: "Tendency for people to behave as they observe others behaving in similar situations"
+      
+    - name: "authority-compliance"
+      category: "influence-mechanism"
+      description: "Tendency to obey authority figures and defer to perceived expertise"
+      
+    - name: "likeability-influence"
+      category: "influence-mechanism"
+      description: "Increased persuasion effectiveness when influence agent is liked or perceived favorably"
+      
+    - name: "scarcity-demand"
+      category: "influence-mechanism"
+      description: "Perceptions of scarcity generate increased demand and compliance motivation"
+      
+    - name: "foot-in-the-door"
+      category: "influence-technique"
+      description: "Using small successful influence attempts to enable larger influence efforts"
+      
+    # Group Dynamics Constructs
+    - name: "group-performance"
+      category: "group-process"
+      description: "Collective effectiveness of group in achieving goals and completing tasks"
+      
+    - name: "group-decisionmaking"
+      category: "group-process"
+      description: "Collective process by which groups evaluate alternatives and select courses of action"
+      
+    - name: "social-loafing"
+      category: "group-phenomenon"
+      description: "Tendency for individuals to reduce effort when working in groups versus individually"
+      
+    - name: "brainstorming"
+      category: "group-technique"
+      description: "Group ideation technique for generating multiple solutions or ideas"
+      
+    - name: "decision-bias"
+      category: "cognitive-process"
+      description: "Systematic errors in judgment that can affect both individual and group decisions"
+      
+    - name: "information-sharing"
+      category: "group-process"
+      description: "Process by which group members exchange knowledge and insights"
+      
+    - name: "hidden-insights"
+      category: "information-phenomenon"
+      description: "Valuable information not widely shared among group members that could improve decisions"
+      
+    - name: "cognitive-centrality"
+      category: "network-position"
+      description: "Degree of overlap between information held by individual and other group members"
+      
+    - name: "consensus-based-decisionmaking"
+      category: "decision-process"
+      description: "Group decision process requiring agreement among members"
+      
+    # Opinion Leadership
+    - name: "opinion-leadership"
+      category: "social-role"
+      description: "Key individuals who influence others' opinions within groups, networks, and communities"
+      
+    - name: "opinion-leader"
+      category: "actor-type"
+      description: "Individual who influences opinions and behaviors of others in social system"
+      
+    - name: "early-adopter"
+      category: "actor-type"
+      description: "Individual who adopts innovations before others, often marginal network members providing bridges"
+      
+    - name: "isolate"
+      category: "actor-type"
+      description: "Individual identified by no one as opinion leader, typically assigned randomly to leaders"
+      
+    # Network Structures and Positions
+    - name: "centralized-network"
+      category: "network-structure"
+      description: "Network structure with power concentrated in one or few central nodes"
+      
+    - name: "hierarchical-network"
+      category: "network-structure"
+      description: "Network structure with clear levels of authority and influence flowing downward"
+      
+    - name: "hybrid-network"
+      category: "network-structure"
+      description: "Network combining individual leaders and large groups of followers at national level"
+      
+    - name: "betweenness-centrality"
+      category: "network-measure"
+      description: "Network position measure indicating extent to which node lies on paths between other nodes"
+      
+    - name: "degree-centrality"
+      category: "network-measure"
+      description: "Network position measure based on number of direct connections to other nodes"
+      
+    - name: "closeness-centrality"
+      category: "network-measure"
+      description: "Network position measure based on average distance to all other nodes in network"
+      
+    - name: "eigenvector-centrality"
+      category: "network-measure"
+      description: "Network position measure weighing connections to well-connected nodes more heavily"
+      
+    - name: "information-centrality"
+      category: "network-measure"
+      description: "Network position measure based on information flow and access within network"
+      
+    # Rational Choice Constructs
+    - name: "direct-preference-aggregation"
+      category: "decision-model"
+      description: "Model where individual preferences are directly aggregated into collective preference relation"
+      
+    - name: "indirect-game-theoretic-model"
+      category: "decision-model"
+      description: "Model where individuals make strategic choices that jointly determine collective outcomes"
+      
+    - name: "median-voter-theorem"
+      category: "theoretical-principle"
+      description: "Principle that median group member's position tends to dominate in democratic/consensus decisions"
+      
+    - name: "spatial-politics"
+      category: "analytical-approach"
+      description: "Representation and analysis of political actors' positions in spatial terms"
+      
+    - name: "institutional-constraints"
+      category: "structural-factor"
+      description: "Formal and informal rules that shape group decision-making procedures and outcomes"
+      
+    - name: "agenda-control"
+      category: "institutional-mechanism"
+      description: "Power to determine which issues are considered and in what order"
+      
+    - name: "voting-rules"
+      category: "institutional-mechanism"
+      description: "Formal procedures determining how group decisions are made (plurality, majority, unanimous)"
+      
+    - name: "veto-power"
+      category: "institutional-mechanism"
+      description: "Authority to block or prevent adoption of proposed decisions"
+      
+    # Fear and Attitude Change
+    - name: "fear-appeal"
+      category: "persuasion-technique"
+      description: "Communication strategy using threat or fear arousal to motivate attitude change"
+      
+    - name: "threat-severity"
+      category: "message-component"
+      description: "Degree of negative consequences presented in fear-based communications"
+      
+    - name: "threat-probability"
+      category: "message-component"
+      description: "Likelihood of negative consequences occurring as presented in fear appeals"
+      
+    - name: "coping-strategy"
+      category: "response-mechanism"
+      description: "Methods available to target audience for dealing with presented threats"
+      
+    - name: "moderate-fear-level"
+      category: "persuasion-principle"
+      description: "Optimal level of fear arousal for effective persuasion, avoiding interference with message processing"
+      
+    # Coercive Persuasion Process
+    - name: "unfreezing"
+      category: "attitude-change-stage"
+      description: "First stage of coercive persuasion involving destabilization of current attitudes"
+      
+    - name: "attitude-changing"
+      category: "attitude-change-stage"
+      description: "Second stage involving installation of new attitudes and beliefs"
+      
+    - name: "refreezing"
+      category: "attitude-change-stage"
+      description: "Third stage involving stabilization and reinforcement of new attitudes"
+      
+    - name: "thought-reform"
+      category: "influence-technique"
+      description: "Systematic program for changing fundamental beliefs and worldviews through environmental control"
+      
+    - name: "environmental-control"
+      category: "coercive-technique"
+      description: "Complete control of target's physical and social environment to facilitate attitude change"
+      
+    # Diffusion Processes
+    - name: "innovation-diffusion"
+      category: "social-process"
+      description: "Process by which new ideas, practices, or technologies spread through social networks"
+      
+    - name: "interpersonal-communication"
+      category: "diffusion-mechanism"
+      description: "Direct person-to-person communication as primary vehicle for spreading innovations"
+      
+    - name: "credibility-assessment"
+      category: "evaluation-process"
+      description: "Target audience's evaluation of opinion leader's trustworthiness and expertise"
+      
+    - name: "diffusion-acceleration"
+      category: "network-phenomenon"
+      description: "Increased rate of innovation spread when opinion leaders become early adopters"
+      
+    - name: "network-bridge"
+      category: "structural-role"
+      description: "Position connecting different networks or sub-networks, facilitating information flow"
+      
+    # Influence Strategy Components
+    - name: "motivation-assessment"
+      category: "planning-process"
+      description: "Analysis of both influence agent's and target audience's motivations"
+      
+    - name: "power-base-assessment"
+      category: "planning-process"
+      description: "Evaluation of available power bases for influence attempt"
+      
+    - name: "influence-cost-analysis"
+      category: "planning-process"
+      description: "Assessment of costs associated with different influence strategies"
+      
+    - name: "preparation-requirements"
+      category: "planning-process"
+      description: "Necessary preparations for implementing influence attempts"
+      
+    - name: "resistance-assessment"
+      category: "planning-process"
+      description: "Target audience's evaluation of motivations for resisting influence efforts"
+      
+    - name: "third-party-manipulation"
+      category: "influence-technique"
+      description: "Invoking or reducing power of other parties to influence target"
+      
+    - name: "environmental-manipulation"
+      category: "influence-technique"
+      description: "Modifying environmental variables that constrain target audience"
+      
+    # Target Identification
+    - name: "high-payoff-node"
+      category: "target-type"
+      description: "Network position that offers maximum influence potential for minimum effort"
+      
+    - name: "central-node"
+      category: "target-type"
+      description: "Network position with high centrality measures indicating influence potential"
+      
+    - name: "information-broker"
+      category: "actor-role"
+      description: "Individual who controls information flow between different parts of network"
+      
+    - name: "key-player"
+      category: "target-type"
+      description: "Individual whose influence, removal, or persuasion significantly affects network dynamics"
+      
+    # Network Analysis Tools
+    - name: "network-visualization"
+      category: "analytical-tool"
+      description: "Graphical representation of network structures and relationships"
+      
+    - name: "network-mapping"
+      category: "analytical-process"
+      description: "Systematic identification and documentation of network structure and relationships"
+      
+    - name: "influence-propagation"
+      category: "network-process"
+      description: "Mechanism by which influence spreads through network connections"
+      
+    - name: "contagion-model"
+      category: "analytical-model"
+      description: "Framework for predicting spread of behaviors, attitudes, or information through networks"
+      
+    # Measurement and Analysis
+    - name: "power-index"
+      category: "measurement-method"
+      description: "Quantitative measure of power distribution in committees and small groups"
+      
+    - name: "influence-measurement"
+      category: "measurement-challenge"
+      description: "Difficulty in quantifying actual influence exercised by network members over others"
+      
+    - name: "predictive-validity"
+      category: "methodological-issue"
+      description: "Extent to which network analysis tools can accurately predict influence outcomes"
+      
+    - name: "empirical-validation"
+      category: "methodological-requirement"
+      description: "Need for empirical support before network analysis tools can be reliably used for prediction"
+      
+    # Relationship Types
+    - name: "influence-relationship"
+      category: "relationship"
+      description: "Directional relationship where one actor affects another's attitudes, beliefs, or behaviors"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    - name: "power-relationship"
+      category: "relationship"
+      description: "Relationship based on differential access to power bases"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    - name: "information-flow"
+      category: "relationship"
+      description: "Directional relationship representing information transmission between actors"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    - name: "network-connection"
+      category: "relationship"
+      description: "Direct linkage between actors in social network"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    - name: "hierarchical-relationship"
+      category: "relationship"
+      description: "Formal or informal authority relationship between actors"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    - name: "aggregates-to"
+      category: "relationship"
+      description: "Relationship where individual preferences combine to form collective preferences"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    - name: "mediates"
+      category: "relationship"
+      description: "Relationship where one factor affects outcome through another factor"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    - name: "constrains"
+      category: "relationship"
+      description: "Relationship where institutional or environmental factors limit choices"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    - name: "facilitates"
+      category: "relationship"
+      description: "Relationship where one factor enables or enhances another"
+      domain: ["Entity"]
+      range: ["Entity"]
+      
+    - name: "diffuses-through"
+      category: "relationship"
+      description: "Relationship representing spread of innovation through network connections"
+      domain: ["Entity"]
+      range: ["Entity"]
+
+  json_schema:
+    properties:
+      nodes:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+            type:
+              type: "string"
+              enum: ["Entity"]
+            label:
+              type: "string"
+            category:
+              type: "string"
+              enum: [
+                "theoretical-framework", "power-base", "influence-mechanism", 
+                "influence-technique", "group-process", "group-phenomenon", 
+                "group-technique", "cognitive-process", "information-phenomenon", 
+                "network-position", "decision-process", "social-role", "actor-type", 
+                "network-structure", "network-measure", "decision-model", 
+                "theoretical-principle", "analytical-approach", "structural-factor", 
+                "institutional-mechanism", "persuasion-technique", "message-component", 
+                "response-mechanism", "persuasion-principle", "attitude-change-stage", 
+                "coercive-technique", "social-process", "diffusion-mechanism", 
+                "evaluation-process", "network-phenomenon", "structural-role", 
+                "planning-process", "target-type", "actor-role", "analytical-tool", 
+                "analytical-process", "network-process", "analytical-model", 
+                "measurement-method", "measurement-challenge", "methodological-issue", 
+                "methodological-requirement"
+              ]
+      edges:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+            type:
+              type: "string"
+              enum: ["NaryTuple"]
+            label:
+              type: "string"
+            source:
+              type: "string"
+            target:
+              type: "string"
+            relation_type:
+              type: "string"
+              enum: [
+                "influence-relationship", "power-relationship", "information-flow", 
+                "network-connection", "hierarchical-relationship", "aggregates-to", 
+                "mediates", "constrains", "facilitates", "diffuses-through"
+              ]

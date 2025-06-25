@@ -1,0 +1,345 @@
+20 Predicting and Changing Behavior
+by Fishbein allowed us to again start working together in 2001, when we
+began to reconcile the differences between our models.
+the reasoned action approach□
+We are now ready to provide an outline of our theory of behavioral pre-
+diction in its most current form. The starting point of our analysis is a
+particular behavior of interest to the investigator. It is therefore of utmost
+importance that the behavior under consideration be clearly identified
+and properly operationalized. This is not as easy as it might at first appear.
+We will discuss some of the problems associated with definition and mea-
+surement of behavior in Chapter 2.
+Once the behavior of interest is clearly identified we can begin to exam-
+ine its determinants. Basically, we assume that human social behavior fol-
+lows reasonably and often spontaneously from the information or beliefs
+people possess about the behavior under consideration. These beliefs
+originate in a variety of sources, such as personal experiences, formal
+education, radio, newspapers, TV, the Internet and other media, and inter-
+actions with family and friends. Individual differences (e.g., demographic
+characteristics, personality) can influence not only the experiences people
+have and the sources of information to which they are exposed but also
+the ways they interpret and remember this information. Consequently,
+individuals from different social backgrounds or with different personal-
+ity traits are also likely to differ in the beliefs they hold.
+No matter how beliefs associated with a given behavior are acquired,
+they serve to guide the decision to perform or not perform the behavior in
+question. Specifically, three kinds of beliefs are distinguished. First, peo-
+ple hold beliefs about the positive or negative consequences they might
+experience if they performed the behavior. These outcome expectancies or
+behavioral beliefs are assumed to determine people’s attitude toward person-
+ally performing the behavior—that is, their positive or negative evaluation of
+their performing the behavior in question. In general, to the extent that
+their performance of the behavior is perceived to result in more positive
+than negative outcomes, the attitude toward the behavior will be favor-
+able. Second, people form beliefs that important individuals or groups in
+their lives would approve or disapprove of their performing the behavior
+as well as beliefs that these referents themselves perform or don’t perform
+the behavior in question. In their totality, these injunctive and descriptive
+normative beliefs produce a perceived norm, that is, perceived social pres-
+sure to engage or not engage in the behavior. If more important others
+are believed to approve than disapprove, and if the majority of important
+others perform the behavior, people are likely to perceive social pressure
+Introduction 21
+to engage in the behavior. Finally, people also form beliefs about personal
+and environmental factors that can help or impede their attempts to carry
+out the behavior. In their aggregate, these control beliefs result in a sense of
+high or low self-efficacy (Bandura, 1986, 1997) or perceived behavioral control
+with regard to the behavior. If control beliefs identify more facilitating
+than inhibiting factors, perceived behavioral control should be high.
+Once attitudes, perceived norms, and perceived behavioral control
+have been formed they are directly accessible and available to guide
+intentions and behavior. Specifically, in combination, attitude toward the
+behavior, perceived norm, and perception of behavioral control lead to
+the formation of a behavioral intention, or a readiness to perform the behavior.
+As a general rule, the more favorable the attitude and perceived norm,
+and the greater the perceived behavioral control, the stronger should be
+the person’s intention to perform the behavior in question. However, the
+relative importance or weight of these three determinants of intentions is
+expected to vary from one behavior to another and from one population
+to another.
+The intention formed in this fashion is now available to determine per-
+formance of the behavior. The stronger the intention, the more likely it
+is that the behavior will be carried out. It is well recognized, however,
+that lack of requisite skills and abilities, or presence of environmental
+constraints, can prevent people from acting on their intentions. That is,
+they may lack actual control over performance of the behavior. It is only
+when people do have control over behavioral performance that intention
+is expected to be a good predictor of behavior. Actual behavioral control
+thus moderates the effect of intentions on behavior. To predict and under-
+stand behavior fully, we therefore have to assess not only intentions but
+also actual behavioral control (i.e., relevant skills and abilities as well as
+barriers to and facilitators of behavioral performance). For most behaviors,
+however, measures of actual control are not available. In those instances,
+we can use our measures of perceived behavioral control as a proxy. To the
+extent that perceived behavioral control accurately reflects actual control,
+it can be used to improve behavioral prediction.
+Figure 1.1 is a schematic representation of our reasoned action frame-
+work. The theory suggests that intention is the best single predictor of
+behavior but that it is also important to take skills and abilities as well as
+environmental factors (i.e., behavioral control) into account. At the low-
+est level of explanation, therefore, people are said to perform a behavior
+because they intend to do so, they have the requisite skills and abilities,
+and there are no environmental constraints to prevent them from car-
+rying out their intentions (i.e., they have favorable intentions and actual
+behavioral control). At the next level we achieve a deeper understanding
+by considering the determinants of intentions. We now learn that people
+will intend to (and thus will) perform a behavior if they have positive
+22 Predicting and Changing Behavior
+attitudes toward personally performing the behavior and if they perceive
+normative pressure to do so. However, even under these circumstances
+they may not form an intention to perform the behavior if they believe
+that they lack control over performing the behavior. Consider, for example,
+the decision faced by academics or other professionals to attend or not
+attend a professional conference or meeting. They may favorably evaluate
+attending the conference and experience social pressure to attend, but if
+they have made prior commitments they cannot break, or if they lack the
+financial resources to cover the cost of registration, transportation, food,
+and lodging, they will perceive that they cannot attend the meeting and
+thus may form an intention to not attend the conference.
+The fact that the three predictors of intentions can take on different
+weights tells us that the intention to perform a given behavior is based on
+a particular combination of attitudinal, normative, and control consider-
+ations. Thus, some people may attend a professional conference because
+they have positive attitudes toward this behavior, whereas other may do
+so because of perceived social pressure. The relative importance of the
+different predictors can vary from one population to another. Thus, at one
+university some professors may fail to attend a professional conference
+because of control issues, but at another they may not attend the confer-
+ence because they perceive social pressure against this behavior, that is,
+because their colleagues and other important referents don’t approve of
+their going to this particular conference.
+This level of analysis can also help explain why people with similar
+attitudes, perceived norms, and perceptions of control behave in different
+ways. Consider two professors at a given university, one male the other
+Background
+factors
+Actual control
+Skills/abilities
+Environmental
+factors
+Perceived
+behavioral
+control
+Perceived
+norm
+Attitude
+toward the
+behavior
+Behavioral
+beliefs
+Normative
+beliefs
+Control
+beliefs
+Intention Behavior
+Individual
+Personality
+Mood, emotion
+Values, stereotypes
+General attitudes
+Perceived risk
+Past behavior
+Social
+Education
+Age, gender
+Income
+Religion
+Race, ethnicity
+Culture
+Information
+Knowledge
+Media
+Intervention
+fIgure 1.1 Schematic presentation of the reasoned action model.
+Introduction 23
+female, who both value attending a conference and believe that they could
+do so but at the same time perceive social pressure not to attend. If among
+males the intention to attend the conference is primarily influenced by per-
+ceived norms whereas among females this intention is largely controlled
+by attitudes, we would expect that the female professor will attend the
+conference whereas the male professor will not.
+It is at the next level, the level of beliefs, that we gain most of the con-
+crete information unique to a given behavior. At this level we learn about
+the substantive considerations that guide people’s decisions to perform
+or not to perform the behavior of interest. This level of analysis offers
+insight into the ways people think about the behavior: about its likely
+consequences, the demands placed on them by others, as well as the
+required resources, possible barriers, and other issues of control. Thus, we
+may learn that many professors believe that attending a particular con-
+ference will enable them to acquire important information and to make
+new professional connections (behavioral beliefs), that their spouses and
+department chairs approve and most of their colleagues plan to attend
+(normative beliefs), and that they have the required time and financial
+resources (control beliefs). This pattern of beliefs would reasonably lead to
+a decision to attend the professional meeting. Other individuals, however,
+may be found to hold a different set of beliefs. Although they may also
+believe that they have the time and resources to attend the conference,
+they may believe that they would learn very little of professional value
+and that there is very little support among professional friends and col-
+leagues for attending this meeting. Clearly, these individuals would be
+much less likely to attend.
+It should also be clear that information of this kind can be used to
+design effective behavior change interventions. By identifying behav-
+ioral, normative, and control beliefs that discriminate between individu-
+als who perform the behavior of interest and individuals who do not, we
+can design properly targeted behavioral interventions.
+Note that Figure 1.1 provides an oversimplified representation of our
+theoretical framework, a representation that lacks important conceptual
+distinctions as well as feedback loops and other relations among the con-
+structs. Throughout this book we will expand on our theory, address a
+variety of issues raised by our earlier work, and fill in missing details.
+the nature of reasoned action
+At this point we must address a common misconception regarding our
+reasoned action approach. Because we have used the terms reasoned
+action and planned behavior in our past work, many investigators mistak-
+enly believe that we consider people to be rational and to deliberate at
+24 Predicting and Changing Behavior
+length before engaging in any behavior. This has never been our position.
+As we shall see in subsequent chapters, our theoretical framework does
+not assume rationality, and it encompasses both deliberative and spon-
+taneous decision making. The processes previously described whereby
+people arrive at their intentions represents a “reasoned” approach to
+the explanation and prediction of social behavior only in the sense that
+people’s behavioral intentions are assumed to follow in a reasonable, con-
+sistent, and often automatic fashion from their beliefs about performing
+the behavior. This does not mean that people are assumed to be always
+logical or rational. The beliefs they hold need not be veridical; they may
+be inaccurate, biased, or even irrational. However, once a set of beliefs is
+formed it provides the cognitive foundation from which attitudes, per-
+ceived norms, and perceptions of control—and ultimately intentions and
+behaviors—are assumed to follow in a reasonable and consistent fashion.
+Moreover, the formation of attitudes, perceived norms, and perceptions of
+control—and the intentions they produce—do not have to involve a great
+deal of deliberation but can follow spontaneously and automatically from
+the underlying cognitive foundation of beliefs. As a general rule, people
+are likely to engage in careful deliberation when they are confronted with
+a novel situation or when they confront an important decision. Under
+these conditions they may well evaluate the likely consequences of the
+behavioral options, imagine what other people would want them to do or
+what important others would do themselves and consider the factors that
+may make it easy or difficult for them to perform the behavior in question.
+Such elaborate information processing is much less likely when people
+are confronted with performing a familiar behavior or when they make a
+relatively unimportant behavioral decision. These issues are discussed in
+greater detail in Chapters 8 and 9.
+Background factors
+We saw that according to our reasoned action approach the major pre-
+dictors of intentions and actions follow reasonably from—and can be
+understood in terms of—behavioral, normative, and control beliefs. This
+approach, however, does not address the origins of these beliefs. Clearly,
+a multitude of variables could potentially influence the beliefs people
+hold: age, gender, ethnicity, socioeconomic status, education, nationality,
+religious affiliation, personality, mood, emotion, general attitudes and
+values, intelligence, group membership, past experiences, exposure to
+information, social support, and coping skills. Our model of behavioral
+prediction recognizes the potential importance of such background fac-
+tors. However, the dotted arrows in Figure 1.1 indicate that, although a
+given background factor may in fact influence behavioral, normative, or
+Introduction 25
+control beliefs, there is no necessary connection between background fac-
+tors and beliefs. Whether a given belief is or is not affected by a particular
+background factor is an empirical question. In light of the vast number of
+potentially relevant background factors, it is difficult to know which ones
+should be considered without a theory to guide selection in the behavioral
+domain of interest. Theories of this kind are not part of our conceptual
+framework but can complement it by identifying relevant background fac-
+tors and thereby deepen our understanding of a behavior’s determinants
+(see Petraitis, Flay, & Miller, 1995).
+In fact, we saw earlier that research in different behavioral domains
+has focused primarily on what we would now call background factors:
+general attitudinal and personality dispositions as well as demographic
+characteristics. The findings obtained in this research can serve as a guide
+for the kinds of background factors that are relevant for understanding
+the likely origins of behavioral, normative, and control beliefs concerning
+a given behavior. For example, it has been found that the decision to hire
+a member of a minority group is, to some extent, influenced by prejudice
+toward the group in question (e.g., Dovidio & Gaertner, 2000). Given this
+finding, it is reasonable to expect that prejudiced individuals will hold dif-
+ferent beliefs about hiring the minority applicant than will nonprejudiced
+individuals. For example, in comparison with nonprejudiced individu-
+als, people prejudiced toward African Americans may be more likely to
+believe that hiring an African American applicant would adversely affect
+productivity and create interpersonal problems in the workplace. They
+may also be more likely to believe that friends and current employees
+would disapprove of such a hiring decision. However, as we noted in our
+review of research on discriminatory behavior, most studies report little
+or no relation between prejudice and many specific behaviors directed
+at minority group members. Such negative findings are explained if it is
+found that people high and low in prejudice do not differ in their behav-
+ioral, normative, or control beliefs regarding the particular behaviors
+investigated. We have more to say about the role of background factors in
+Chapters 7 and 8.
+related reasoned action Models
+The notion that behavior follows reasonably from information or beliefs
+about the behavior is not unique to our model (see Fishbein et al., 2001). For
+example, Bandura’s (1986; 1997) well-known social cognitive theory relies
+in part on outcome expectancies or behavioral beliefs and, more impor-
+tantly, on the construct of self-efficacy (or perceived behavioral control)
+to explain behavior. In the theory of subjective culture and interpersonal
+relations, Triandis (1972; 1977) includes intentions, facilitating factors,
+26 Predicting and Changing Behavior
+perceived consequences of performing a behavior, and perceived social
+influences as important determinants of behavior. According to the health
+belief model (Rosenstock, Strecher, & Becker, 1994; Strecher, Champion,
+& Rosenstock, 1997), decisions to engage in health-related behaviors take
+into account one’s susceptibility or perceived risk of contracting an illness,
+perceptions of the severity of the illness, beliefs about the costs and ben-
+efits of performing the recommended health behavior (behavioral beliefs),
+as well as perceived self-efficacy in relation to the behavior. Other models
+of this kind include the information-motivation-behavioral skills model
+(Fisher & Fisher, 1992), the AIDS risk reduction model (Catania, Kegeles,
+& Coates, 1990), and the theory of trying (Bagozzi & Warshaw, 1990). Like
+our own reasoned action approach, all of these models assign a central
+role to behavioral beliefs or outcome expectancies. Most models also
+include variables dealing with control or self-efficacy and normative influ-
+ences. Beyond these basic constructs, some models suggest consideration
+of additional factors, such as habit and emotion (Triandis, 1977), knowl-
+edge (Fisher & Fisher, 1992), and motivation and goal pursuit (Bagozzi
+& Warshaw, 1990). We will encounter some of these additional factors in
+Chapter 9. We will also try to cover recent developments in the field that
+have potential implications for our approach. Among these developments
+are the distinction, already alluded to, between implicit and explicit atti-
+tudes; the role of mood, emotions, anticipated affect, and self-identity; the
+distinction between injunctive and descriptive norms; attitudinal ambiv-
+alence; framing; and a variety of other factors. These discussions address
+some of the issues that have been raised in relation to our approach and
+spell out our current position on these issues.
+Following this introductory chapter, we begin an in-depth consider-
+ation of our approach in Chapter 2 with a discussion of behavior, how it is
+defined and measured, and how it can be predicted from intentions and
+perceived behavioral control. Chapters 3 through 5 deal with the three
+major influences on intentions: attitudes toward a behavior, perceived
+norms, and perceived behavioral control, as well as with the behavioral,
+normative, and control beliefs that are assumed to determine these fac-
+tors. In Chapter 6 we combine all the elements in our model of behavioral
+prediction and consider its empirical support.
+The following two chapters deal with the role of background factors.
+Chapter 7 provides a general discussion of various kinds of background
+factors, including demographic characteristics and personality traits, while
+Chapter 8 focuses on one particular background factor that plays a promi-
+nent role in the social and behavioral sciences, namely, general attitudes
+toward objects, issues, and events. In Chapter 9 we take up challenges and
+issues raised by both supporters and opponents of our reasoned action
+approach. Finally, in Chapters 10 and 11 we discuss the implications of
+our theory for developing and evaluating behavior change interventions,
+Introduction 27
+and we describe a few sample interventions as illustrations. The last chap-
+ter, Chapter 12, summarizes the current state of our approach and draws
+out some of its implications.
+Conclusion□
+Ideally, a theory of human social behavior is general enough to permit us
+to predict and explain various kinds of behaviors in different domains. We
+have seen, however, that attempts to explain behavior often originate in
+the context of a single behavioral domain and potential determinants that
+are specific to that domain are identified. Not only have these attempts
+met with rather mixed success, but they also have done little to advance
+the development of a general theory of behavior. We have presented the
+outline of our reasoned action approach that we believe provides a unify-
+ing framework to account for any social behavior. At the same time, this
+framework allows us to include and examine the role of domain-specific
+factors that have previously been investigated or identified as possible
+determinants of specific behaviors. It is our hope that application of our
+theory will aid communication among investigators in different domains,
+will further the accumulation of general knowledge about the determi-
+nants of human behavior, and ultimately will contribute to the solution of
+personal and social problems caused by human behavior.

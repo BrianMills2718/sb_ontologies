@@ -1,0 +1,287 @@
+citation: "Michie, S., Richardson, M., Johnston, M., Abraham, C., Francis, J., Hardeman, W., Eccles, M. P., Cane, J., & Wood, C. E. (2013). The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques: building an international consensus for the reporting of behavior change interventions. Annals of Behavioral Medicine, 46(1), 81-95."
+
+annotation: "Presents BCT Taxonomy v1, a hierarchically structured classification system of 93 consensually agreed behavior change techniques organized into 16 clusters, developed through Delphi methods and international expert consensus to standardize intervention reporting and enable systematic accumulation of evidence about active ingredients in behavior change interventions."
+
+model_type: "property_graph"
+
+rationale: "The BCT taxonomy represents a complex hierarchical network where individual techniques (nodes) are connected through categorical relationships, implementation dependencies, and functional similarities (edges). The 16 clusters form meta-categories that group techniques by similar mechanisms of action, while specific techniques can be combined and cross-referenced, creating a interconnected semantic network ideal for property graph representation."
+
+schema_blueprint:
+  title: "Behavior Change Technique Taxonomy v1 Schema"
+  description: "A comprehensive schema modeling the hierarchical structure and relationships within the 93-technique behavior change taxonomy, including cluster organizations, technique definitions, implementation guidance, and methodological frameworks for intervention specification"
+  
+  root_properties:
+    nodes:
+      description: "Individual behavior change techniques, cluster categories, methodological components, and theoretical constructs that form the taxonomy structure"
+      item_type: "Entity"
+    edges:
+      description: "Hierarchical relationships, functional similarities, implementation dependencies, and methodological connections between techniques and clusters"  
+      item_type: "NaryTuple"
+
+  definitions:
+    # Core Taxonomy Structure
+    - name: "behavior-change-technique"
+      category: "core-construct"
+      description: "An observable, replicable, and irreducible component of an intervention designed to alter or redirect causal processes that regulate behavior; proposed active ingredient with measurable effect on specified behaviors"
+      
+    - name: "bct-cluster"
+      category: "core-construct"
+      description: "Empirically derived grouping of BCTs with similar active ingredients or mechanisms of change, determined through open-sort clustering analysis"
+      
+    - name: "hierarchical-taxonomy"
+      category: "theoretical-framework"
+      description: "Structured classification system organizing BCTs into nested categories to facilitate recall, access, and systematic application in intervention design and reporting"
+
+    # Methodological Components
+    - name: "delphi-consensus"
+      category: "measurement-method"
+      description: "Systematic consensus-building methodology using iterative expert rating to evaluate BCT labels, definitions, clarity, precision, and distinctiveness"
+      
+    - name: "open-sort-grouping"
+      category: "measurement-method"  
+      description: "Empirical clustering method where experts group BCTs by similar active ingredients to create hierarchical structure without theoretical bias"
+      
+    - name: "inter-rater-reliability"
+      category: "measurement-method"
+      description: "Assessment of agreement between coders when identifying BCTs in intervention descriptions, measured using adjusted kappa coefficients"
+      
+    - name: "hierarchical-cluster-analysis"
+      category: "analytical-method"
+      description: "Statistical technique using binary dissimilarity matrices and bootstrap methods to identify optimal BCT groupings with approximately unbiased p-values"
+
+    # BCT Cluster Categories (16 clusters)
+    - name: "goals-and-planning"
+      category: "bct-cluster"
+      description: "Techniques involving goal setting, action planning, problem solving, behavioral contracts, and goal review processes to structure behavior change efforts"
+      
+    - name: "feedback-and-monitoring"
+      category: "bct-cluster"
+      description: "Techniques for observing, recording, and providing informative feedback on behavior performance or outcomes to enhance self-awareness and motivation"
+      
+    - name: "social-support"
+      category: "bct-cluster"
+      description: "Techniques involving provision of general, practical, or emotional support from others to facilitate behavior change performance"
+      
+    - name: "shaping-knowledge"
+      category: "bct-cluster"
+      description: "Techniques focused on instruction, information provision, re-attribution, and behavioral experiments to modify understanding and cognitive frameworks"
+      
+    - name: "natural-consequences"
+      category: "bct-cluster"
+      description: "Techniques providing information about or emphasizing health, social, environmental, or emotional consequences of behavior performance"
+      
+    - name: "comparison-of-behavior"
+      category: "bct-cluster"
+      description: "Techniques using demonstration, social comparison, and information about others' approval to provide behavioral models and social norms"
+      
+    - name: "associations"
+      category: "bct-cluster"
+      description: "Techniques involving prompts, cues, classical conditioning, and stimulus-response associations to trigger or modify behavioral responses"
+      
+    - name: "repetition-and-substitution"
+      category: "bct-cluster"
+      description: "Techniques using behavioral practice, habit formation, behavior substitution, and graded tasks to establish new behavioral patterns"
+      
+    - name: "comparison-of-outcomes"
+      category: "bct-cluster"
+      description: "Techniques using credible sources, pros-and-cons analysis, and comparative imagining to facilitate decision-making about behavior change"
+      
+    - name: "reward-and-threat"
+      category: "bct-cluster"
+      description: "Techniques involving material or social incentives, rewards, and future punishment to motivate behavior performance through external consequences"
+      
+    - name: "regulation"
+      category: "bct-cluster"
+      description: "Techniques supporting behavioral self-regulation through pharmacological support, emotion regulation, mental resource conservation, and paradoxical instructions"
+      
+    - name: "antecedents"
+      category: "bct-cluster"  
+      description: "Techniques modifying physical or social environmental factors that precede and influence behavior through restructuring, distraction, and environmental modification"
+      
+    - name: "identity"
+      category: "bct-cluster"
+      description: "Techniques targeting self-concept and identity through role model identification, cognitive reframing, addressing incompatible beliefs, and identity affirmation"
+      
+    - name: "scheduled-consequences"
+      category: "bct-cluster"
+      description: "Techniques involving systematic application of rewards, punishments, and consequence schedules contingent on behavior performance using behavioral learning principles"
+      
+    - name: "self-belief"
+      category: "bct-cluster"
+      description: "Techniques enhancing self-efficacy and confidence through verbal persuasion, mental rehearsal, focusing on past success, and positive self-talk"
+      
+    - name: "covert-learning"
+      category: "bct-cluster"
+      description: "Techniques using imagination-based learning including imaginary punishment, imaginary reward, and vicarious consequences to modify behavior"
+
+    # Key BCT Examples (representative techniques from each cluster)
+    - name: "goal-setting-behavior"
+      category: "bct-technique"
+      description: "Set or agree a goal defined in terms of the behavior to be achieved, providing specific behavioral targets for intervention focus"
+      
+    - name: "self-monitoring-behavior"
+      category: "bct-technique"
+      description: "Establish a method for the person to monitor and record their behaviors as part of a behavior change strategy to increase self-awareness"
+      
+    - name: "social-support-practical"
+      category: "bct-technique"
+      description: "Advise on, arrange, or provide practical help from others for performance of the behavior to facilitate implementation"
+      
+    - name: "instruction-performance"
+      category: "bct-technique"
+      description: "Advise or agree on how to perform the behavior, including skills training to enhance behavioral competence"
+      
+    - name: "information-health-consequences"
+      category: "bct-technique"
+      description: "Provide information about health consequences of performing the behavior to inform decision-making"
+      
+    - name: "prompts-cues"
+      category: "bct-technique"
+      description: "Introduce environmental or social stimulus with the purpose of prompting or cueing the behavior at appropriate times"
+      
+    - name: "behavioral-practice-rehearsal"
+      category: "bct-technique"
+      description: "Prompt practice or rehearsal of behavior performance to increase habit and skill development"
+      
+    - name: "problem-solving"
+      category: "bct-technique"
+      description: "Analyze factors influencing behavior and generate strategies including overcoming barriers and increasing facilitators"
+
+    # Implementation and Measurement Concepts
+    - name: "intervention-fidelity"
+      category: "measurement-concept"
+      description: "The degree to which an intervention is delivered as intended, requiring precise specification of active components for accurate replication"
+      
+    - name: "active-ingredient"
+      category: "theoretical-concept"
+      description: "Specific behavioral change mechanism within an intervention that produces the desired behavior change effect"
+      
+    - name: "complex-intervention"
+      category: "intervention-concept"
+      description: "Multi-component intervention involving many interacting elements that require systematic specification for evaluation and replication"
+      
+    - name: "intervention-content"
+      category: "intervention-concept"
+      description: "The active components that bring about behavior change (the 'what' rather than the 'how' of interventions), distinguished from delivery mode"
+      
+    - name: "systematic-replication"
+      category: "methodological-concept"
+      description: "Ability to accurately reproduce interventions across different researchers, populations, and settings through precise specification of components"
+
+    # Quality and Validation Measures
+    - name: "consensual-agreement"
+      category: "validation-concept"
+      description: "International and interdisciplinary expert consensus on BCT labels, definitions, and distinctiveness achieved through systematic methodology"
+      
+    - name: "reliability-assessment"
+      category: "measurement-concept"
+      description: "Evaluation of consistency in BCT identification across multiple raters using adjusted kappa coefficients with thresholds for acceptable agreement"
+      
+    - name: "taxonomic-validity"
+      category: "validation-concept"
+      description: "Evidence supporting the hierarchical structure and categorical organization of BCTs through statistical clustering and expert validation"
+
+    # Application Contexts
+    - name: "intervention-design"
+      category: "application-domain"
+      description: "Use of BCT taxonomy to systematically select and combine techniques when developing new behavior change interventions"
+      
+    - name: "intervention-reporting"
+      category: "application-domain"
+      description: "Standardized specification of intervention content using BCT labels and definitions to meet CONSORT guidelines and enable evidence synthesis"
+      
+    - name: "systematic-review"
+      category: "application-domain"
+      description: "Application of BCT taxonomy to extract and synthesize intervention content across studies to identify effective component techniques"
+      
+    - name: "meta-regression-analysis"
+      category: "analytical-application"
+      description: "Statistical technique combining BCT classification with effect size analysis to identify which specific techniques are associated with intervention effectiveness"
+
+    # Relationships and Dependencies  
+    - name: "hierarchical-clustering"
+      category: "relationship"
+      description: "Statistical relationship grouping BCTs into increasingly inclusive categories based on similarity of active ingredients"
+      domain: ["bct-technique"]
+      range: ["bct-cluster"]
+      
+    - name: "implementation-dependency"
+      category: "relationship"
+      description: "Functional relationship where one BCT requires or enhances the application of another technique for optimal effectiveness"
+      domain: ["bct-technique"]
+      range: ["bct-technique"]
+      
+    - name: "mechanistic-similarity"
+      category: "relationship"  
+      description: "Theoretical relationship indicating BCTs operate through similar psychological or behavioral mechanisms of change"
+      domain: ["bct-technique"]
+      range: ["bct-technique"]
+      
+    - name: "categorical-membership"
+      category: "relationship"
+      description: "Taxonomic relationship indicating a BCT belongs to a specific cluster category based on empirical grouping"
+      domain: ["bct-technique"]
+      range: ["bct-cluster"]
+
+    # Theoretical and Practical Integration
+    - name: "theory-linking"
+      category: "theoretical-integration"
+      description: "Process of connecting BCTs to theories of behavior change to investigate possible mechanisms of action and guide theory-based intervention development"
+      
+    - name: "cross-domain-application"  
+      category: "practical-integration"
+      description: "Use of BCT taxonomy across different behavioral domains, populations, and cultural contexts to establish generalizability and adaptation requirements"
+      
+    - name: "training-standardization"
+      category: "implementation-process"
+      description: "Development of standardized training programs and competency frameworks for reliable BCT identification and application"
+      
+    - name: "continuous-development"
+      category: "methodological-process"
+      description: "Ongoing refinement and evolution of the taxonomy through user feedback, reliability testing, and international collaboration to maintain relevance and accuracy"
+
+  json_schema:
+    type: "object"
+    properties:
+      nodes:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id: { type: "string" }
+            entity_type: { type: "string" }
+            cluster_category:
+              type: "string"
+              enum: ["goals-and-planning", "feedback-and-monitoring", "social-support", "shaping-knowledge", "natural-consequences", "comparison-of-behavior", "associations", "repetition-and-substitution", "comparison-of-outcomes", "reward-and-threat", "regulation", "antecedents", "identity", "scheduled-consequences", "self-belief", "covert-learning"]
+            bct_technique:
+              type: "string"
+              enum: ["goal-setting-behavior", "problem-solving", "goal-setting-outcome", "action-planning", "review-behavior-goals", "discrepancy-current-goal", "review-outcome-goals", "behavioral-contract", "commitment", "monitoring-behavior-others", "feedback-behavior", "self-monitoring-behavior", "self-monitoring-outcome", "monitoring-outcome-others", "biofeedback", "feedback-outcome", "social-support-unspecified", "social-support-practical", "social-support-emotional", "instruction-performance", "information-antecedents", "re-attribution", "behavioral-experiments", "information-health-consequences", "salience-consequences", "information-social-environmental-consequences", "monitoring-emotional-consequences", "anticipated-regret", "information-emotional-consequences", "demonstration-behavior", "social-comparison", "information-others-approval", "prompts-cues", "cue-signalling-reward", "reduce-prompts-cues", "remove-access-reward", "remove-aversive-stimulus", "satiation", "exposure", "associative-learning", "behavioral-practice-rehearsal", "behavior-substitution", "habit-formation", "habit-reversal", "overcorrection", "generalisation-target-behavior", "graded-tasks", "credible-source", "pros-and-cons", "comparative-imagining-outcomes", "material-incentive-behavior", "material-reward-behavior", "non-specific-reward", "social-reward", "social-incentive", "non-specific-incentive", "self-incentive", "incentive-outcome", "self-reward", "reward-outcome", "future-punishment", "pharmacological-support", "reduce-negative-emotions", "conserving-mental-resources", "paradoxical-instructions", "restructuring-physical-environment", "restructuring-social-environment", "avoidance-reducing-exposure-cues", "distraction", "adding-objects-environment", "body-changes", "identification-self-role-model", "framing-reframing", "incompatible-beliefs", "valued-self-identity", "identity-associated-changed-behavior", "behavior-cost", "punishment", "remove-reward", "reward-approximation", "rewarding-completion", "situation-specific-reward", "reward-incompatible-behavior", "reward-alternative-behavior", "reduce-reward-frequency", "remove-punishment", "verbal-persuasion-capability", "mental-rehearsal-successful-performance", "focus-past-success", "self-talk", "imaginary-punishment", "imaginary-reward", "vicarious-consequences"]
+            methodology_component:
+              type: "string"
+              enum: ["delphi-consensus", "open-sort-grouping", "inter-rater-reliability", "hierarchical-cluster-analysis", "intervention-fidelity", "reliability-assessment", "consensual-agreement", "taxonomic-validity"]
+            application_domain:
+              type: "string"
+              enum: ["intervention-design", "intervention-reporting", "systematic-review", "meta-regression-analysis", "training-standardization", "cross-domain-application"]
+            theoretical_concept:
+              type: "string" 
+              enum: ["behavior-change-technique", "bct-cluster", "hierarchical-taxonomy", "active-ingredient", "complex-intervention", "intervention-content", "systematic-replication", "theory-linking", "continuous-development"]
+      edges:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id: { type: "string" }
+            relationship_type:
+              type: "string"
+              enum: ["hierarchical-clustering", "implementation-dependency", "mechanistic-similarity", "categorical-membership", "theoretical-integration", "practical-integration", "methodological-validation", "evidence-synthesis"]
+            source_id: { type: "string" }
+            target_id: { type: "string" }
+            reliability_measure: 
+              type: "string"
+              enum: ["high-reliability", "moderate-reliability", "low-reliability", "not-assessed"]
+            cluster_support:
+              type: "string"
+              enum: ["strong-support-95-plus", "good-support-90-95", "moderate-support-less-90"]
+            evidence_strength:
+              type: "string"
+              enum: ["strong-consensus", "moderate-consensus", "emerging-evidence", "preliminary-finding"]

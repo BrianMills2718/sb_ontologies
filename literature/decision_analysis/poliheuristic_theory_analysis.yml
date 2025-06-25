@@ -1,0 +1,341 @@
+citation: "Mintz, A. (2005). Applied Decision Analysis: Utilizing Poliheuristic Theory to Explain and Predict Foreign Policy and National Security Decisions. International Studies Perspectives, 6, 94-98."
+
+annotation: "Presents poliheuristic theory as a two-stage decision-making framework where leaders first use cognitive heuristics to eliminate alternatives based on the avoid-major-political-loss principle, then apply analytical calculations to select from remaining options. Includes the Poliheuristic Procedure for systematic analysis of foreign policy decisions."
+
+model_type: "property_graph"
+
+rationale: "Property graph model best captures the complex network of relationships between decision-makers, alternatives, dimensions, calculations, and outcomes. The theory involves multiple interconnected entities (leaders, decisions, alternatives, dimensions) with various relationships (eliminates, evaluates, influences) that form a comprehensive decision-making network structure."
+
+schema_blueprint:
+  title: "Poliheuristic Theory Decision-Making Framework"
+  description: "A comprehensive schema modeling the poliheuristic theory of foreign policy decision-making, including the two-stage decision process, decision matrices, and analytical procedures"
+  
+  root_properties:
+    nodes:
+      description: "Represents decision-makers, alternatives, dimensions, criteria, calculations, and outcomes in the poliheuristic decision-making process"
+      item_type: "Entity"
+    edges:
+      description: "Represents relationships between decision elements including elimination processes, evaluation procedures, influence patterns, and causal connections"
+      item_type: "NaryTuple"
+  
+  definitions:
+    # Core Theoretical Framework
+    - name: "poliheuristic-theory"
+      category: "theoretical-framework"
+      description: "Two-stage decision-making theory integrating rational choice and cognitive psychology approaches"
+    
+    - name: "two-stage-decision-process"
+      category: "core-construct"
+      description: "Decision process involving initial heuristic screening followed by analytical evaluation"
+    
+    - name: "poliheuristic-procedure"
+      category: "methodology"
+      description: "Systematic steps for analyzing leaders' decisions: identify decision matrix, apply PH calculations"
+    
+    # Decision-Making Stages
+    - name: "first-stage-screening"
+      category: "process"
+      description: "Initial stage using cognitive heuristics to eliminate unacceptable alternatives"
+    
+    - name: "second-stage-evaluation"
+      category: "process"
+      description: "Analytical stage using calculations to select best alternative from remaining options"
+    
+    - name: "heuristic-elimination"
+      category: "process"
+      description: "Use of cognitive shortcuts to discard alternatives in first stage"
+    
+    - name: "analytical-calculation"
+      category: "process"
+      description: "Systematic evaluation of alternatives using mathematical or logical analysis"
+    
+    # Key Principles
+    - name: "avoid-major-political-loss"
+      category: "core-construct"
+      description: "Primary heuristic principle where alternatives potentially harmful to leader are eliminated"
+    
+    - name: "non-compensatory-principle"
+      category: "core-construct"
+      description: "Decision rule where negative values on critical dimensions cannot be offset by positive values elsewhere"
+    
+    - name: "compensatory-principle"
+      category: "core-construct"
+      description: "Decision rule where negative values can be offset by positive values on other dimensions"
+    
+    # Decision Matrix Components
+    - name: "decision-matrix"
+      category: "measurement-method"
+      description: "Structured representation of alternatives, dimensions, and their implications"
+    
+    - name: "alternative-set"
+      category: "core-construct"
+      description: "Set of policy options available to the decision-maker"
+    
+    - name: "dimension-set"
+      category: "core-construct"
+      description: "Set of criteria or policy dimensions for evaluating alternatives"
+    
+    - name: "implications"
+      category: "core-construct"
+      description: "Consequences of each alternative on each dimension"
+    
+    - name: "ratings"
+      category: "measurement-method"
+      description: "Numerical scores assigned to implications, typically from -10 to +10"
+    
+    - name: "weights"
+      category: "measurement-method"
+      description: "Importance levels assigned to dimensions, typically from 0 to 10"
+    
+    # Types of Alternatives
+    - name: "do-nothing"
+      category: "alternative-type"
+      description: "Passive policy option involving no action"
+    
+    - name: "use-force"
+      category: "alternative-type"
+      description: "Military intervention or coercive action"
+    
+    - name: "apply-sanctions"
+      category: "alternative-type"
+      description: "Economic or diplomatic penalties"
+    
+    - name: "containment"
+      category: "alternative-type"
+      description: "Policy of preventing expansion or limiting influence"
+    
+    - name: "negotiate"
+      category: "alternative-type"
+      description: "Diplomatic engagement and bargaining"
+    
+    # Policy Dimensions
+    - name: "political-dimension"
+      category: "evaluation-criterion"
+      description: "Domestic political consequences and electoral considerations"
+    
+    - name: "military-dimension"
+      category: "evaluation-criterion"
+      description: "Military feasibility, costs, and strategic implications"
+    
+    - name: "economic-dimension"
+      category: "evaluation-criterion"
+      description: "Economic costs, benefits, and resource implications"
+    
+    - name: "diplomatic-dimension"
+      category: "evaluation-criterion"
+      description: "International relations and alliance considerations"
+    
+    # Decision Strategies
+    - name: "lexicographic-strategy"
+      category: "decision-strategy"
+      description: "Selecting alternative based on most important dimension"
+    
+    - name: "expected-utility-calculation"
+      category: "decision-strategy"
+      description: "Selecting alternative with highest net gain across all dimensions"
+    
+    - name: "satisficing-strategy"
+      category: "decision-strategy"
+      description: "Selecting first acceptable alternative meeting minimum criteria"
+    
+    # Actors and Roles
+    - name: "political-leader"
+      category: "actor-type"
+      description: "Primary decision-maker in political system"
+    
+    - name: "president"
+      category: "actor-type"
+      description: "Chief executive and primary foreign policy decision-maker"
+      subTypeOf: "political-leader"
+    
+    - name: "foreign-leader"
+      category: "actor-type"
+      description: "Non-domestic political leader or head of state"
+      subTypeOf: "political-leader"
+    
+    - name: "authoritarian-leader"
+      category: "actor-type"
+      description: "Leader in non-democratic political system"
+      subTypeOf: "political-leader"
+    
+    - name: "democratic-leader"
+      category: "actor-type"
+      description: "Leader in democratic political system"
+      subTypeOf: "political-leader"
+    
+    # Decision Contexts
+    - name: "foreign-policy-crisis"
+      category: "decision-context"
+      description: "International situation requiring urgent foreign policy response"
+    
+    - name: "national-security-decision"
+      category: "decision-context"
+      description: "Decision involving country's security and defense interests"
+    
+    - name: "use-of-force-decision"
+      category: "decision-context"
+      description: "Decision whether to employ military force"
+    
+    - name: "crisis-response"
+      category: "decision-context"
+      description: "Reaction to urgent international or domestic situation"
+    
+    # Cognitive Elements
+    - name: "cognitive-shortcut"
+      category: "cognitive-process"
+      description: "Mental heuristic used to simplify complex decision problems"
+    
+    - name: "heuristic"
+      category: "cognitive-process"
+      description: "Rule of thumb or mental shortcut for decision-making"
+    
+    - name: "political-calculation"
+      category: "cognitive-process"
+      description: "Assessment of domestic political consequences"
+    
+    - name: "rally-around-flag-effect"
+      category: "political-phenomenon"
+      description: "Temporary increase in public support during crisis or conflict"
+    
+    # Relationships and Processes
+    - name: "eliminates-alternative"
+      category: "relationship"
+      description: "Process of removing policy option from consideration"
+      domain: ["political-leader", "heuristic"]
+      range: ["alternative-set"]
+    
+    - name: "evaluates-alternative"
+      category: "relationship"
+      description: "Process of assessing policy option against criteria"
+      domain: ["political-leader"]
+      range: ["alternative-set"]
+    
+    - name: "influences-decision"
+      category: "relationship"
+      description: "Factor affecting decision-making process"
+      domain: ["political-dimension", "cognitive-process"]
+      range: ["decision-matrix"]
+    
+    - name: "applies-heuristic"
+      category: "relationship"
+      description: "Use of cognitive shortcut in decision process"
+      domain: ["political-leader"]
+      range: ["heuristic"]
+    
+    - name: "assigns-rating"
+      category: "relationship"
+      description: "Process of scoring implications on dimensions"
+      domain: ["political-leader"]
+      range: ["implications"]
+    
+    - name: "assigns-weight"
+      category: "relationship"
+      description: "Process of determining dimension importance"
+      domain: ["political-leader"]
+      range: ["dimension-set"]
+    
+    # Testing and Validation
+    - name: "experimental-test"
+      category: "measurement-method"
+      description: "Laboratory or controlled testing of theory predictions"
+    
+    - name: "statistical-analysis"
+      category: "measurement-method"
+      description: "Quantitative testing using empirical data"
+    
+    - name: "formal-model"
+      category: "measurement-method"
+      description: "Mathematical representation of theoretical relationships"
+    
+    - name: "case-study-analysis"
+      category: "measurement-method"
+      description: "In-depth examination of specific decision cases"
+    
+    # Decision Outcomes
+    - name: "policy-choice"
+      category: "outcome"
+      description: "Final decision selected by leader"
+    
+    - name: "alternative-elimination"
+      category: "outcome"
+      description: "Removal of options from consideration"
+    
+    - name: "net-gain-calculation"
+      category: "outcome"
+      description: "Overall benefit assessment of chosen alternative"
+    
+    # Empirical Applications
+    - name: "hostage-rescue-decision"
+      category: "case-study"
+      description: "Carter's Iran hostage rescue attempt analysis"
+    
+    - name: "kosovo-intervention"
+      category: "case-study"
+      description: "Clinton's decision to intervene in Kosovo"
+    
+    - name: "iraq-invasion-decision"
+      category: "case-study"
+      description: "Bush administration's decision to invade Iraq"
+    
+    - name: "grenada-intervention"
+      category: "case-study"
+      description: "Reagan's decision to intervene in Grenada"
+
+  schema:
+    type: "object"
+    properties:
+      nodes:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+            type:
+              type: "string"
+              enum: ["Entity"]
+            label:
+              type: "string"
+              enum: [
+                "political-leader", "president", "foreign-leader", "authoritarian-leader", "democratic-leader",
+                "decision-matrix", "alternative-set", "dimension-set", "implications", "ratings", "weights",
+                "do-nothing", "use-force", "apply-sanctions", "containment", "negotiate",
+                "political-dimension", "military-dimension", "economic-dimension", "diplomatic-dimension",
+                "foreign-policy-crisis", "national-security-decision", "use-of-force-decision", "crisis-response",
+                "cognitive-shortcut", "heuristic", "political-calculation", "rally-around-flag-effect",
+                "policy-choice", "alternative-elimination", "net-gain-calculation",
+                "hostage-rescue-decision", "kosovo-intervention", "iraq-invasion-decision", "grenada-intervention"
+              ]
+            properties:
+              type: "object"
+              additionalProperties: true
+          required: ["id", "type", "label"]
+      edges:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+            type:
+              type: "string"
+              enum: ["NaryTuple"]
+            label:
+              type: "string"
+              enum: [
+                "eliminates-alternative", "evaluates-alternative", "influences-decision", "applies-heuristic",
+                "assigns-rating", "assigns-weight", "two-stage-decision-process", "first-stage-screening",
+                "second-stage-evaluation", "heuristic-elimination", "analytical-calculation",
+                "avoid-major-political-loss", "non-compensatory-principle", "compensatory-principle",
+                "lexicographic-strategy", "expected-utility-calculation", "satisficing-strategy",
+                "experimental-test", "statistical-analysis", "formal-model", "case-study-analysis"
+              ]
+            source:
+              type: "string"
+            target:
+              type: "string"
+            properties:
+              type: "object"
+              additionalProperties: true
+          required: ["id", "type", "label", "source", "target"]
+    required: ["nodes", "edges"]
