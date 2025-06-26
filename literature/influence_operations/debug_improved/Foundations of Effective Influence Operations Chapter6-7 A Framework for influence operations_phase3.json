@@ -1,0 +1,479 @@
+{
+  "title": "Larson et al. (2009) Multi-Level Influence Operations Framework \u2013 Knowledge Schema",
+  "description": "This schema captures the RAND framework that links U.S. political-military objectives to concrete influence substrategies through nine planning questions, multi-level attitudes, stakeholder features, messaging actions, and dose-response assessment. It must support heterogeneous actors, cognitive structures, quantitative metrics, and phase-specific modifiers while preserving fine-grained relationships across individual, group, and mass-public levels.",
+  "model_type": "property_graph",
+  "rationale": "The theory is not a simple hierarchy, ordered sequence, or tidy matrix; instead it interweaves many heterogeneous entity classes (operations, stakeholders, objectives, messages, attitude structures, metrics, planning questions, curves) with a rich set of lateral relations (targets, measures, influences, employs, maps-to, etc.). A property-graph best supports these many-to-many, multi-level, richly-attributed links and allows quantitative edge/node properties required for dose\u2013response analytics.",
+  "node_types": [
+    {
+      "name": "InfluenceOperation",
+      "properties": [
+        "operation_id",
+        "name",
+        "phase",
+        "start_date",
+        "end_date",
+        "description"
+      ],
+      "description": "A discrete, planned set of activities undertaken to change stakeholder attitudes or behaviours in support of U.S. objectives.",
+      "subtypes": null,
+      "constraints": {
+        "phase": "must be one of OperationPhase modifier values"
+      }
+    },
+    {
+      "name": "Stakeholder",
+      "properties": [
+        "stakeholder_id",
+        "name",
+        "salience",
+        "group_discipline",
+        "within_group_heterogeneity",
+        "credibility",
+        "source_trustworthiness",
+        "type"
+      ],
+      "description": "Any collective or individual actor whose attitudes or behaviours are relevant to the operation.",
+      "subtypes": [
+        "TargetAudience",
+        "AdversaryStakeholder",
+        "AlliedStakeholder"
+      ],
+      "constraints": {
+        "type": "must equal one of the subtypes"
+      }
+    },
+    {
+      "name": "AttitudeStructure",
+      "properties": [
+        "structure_id",
+        "cognitive_priors",
+        "psychological_priors",
+        "emotional_priors",
+        "attitude_stability"
+      ],
+      "description": "The organised set of beliefs, feelings and behavioural intentions held by a stakeholder toward an attitude object.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "AttitudeObject",
+      "properties": [
+        "object_id",
+        "label",
+        "category"
+      ],
+      "description": "The issue, entity or behaviour toward which an attitude is directed.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Message",
+      "properties": [
+        "message_id",
+        "content",
+        "theme",
+        "medium",
+        "exposures",
+        "awareness_score",
+        "q_score"
+      ],
+      "description": "A discrete communication artefact delivered to stakeholders.",
+      "subtypes": null,
+      "constraints": {
+        "exposures": "non-negative integer"
+      }
+    },
+    {
+      "name": "Metric",
+      "properties": [
+        "metric_id",
+        "name",
+        "value",
+        "unit",
+        "timestamp"
+      ],
+      "description": "Quantitative observation used for assessment (e.g., message awareness, Q score).",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "DoseResponseCurve",
+      "properties": [
+        "curve_id",
+        "curve_type",
+        "parameters"
+      ],
+      "description": "Mathematical function linking message exposures to attitude or acceptance outcomes (dose\u2013response, diminishing, or negative returns).",
+      "subtypes": null,
+      "constraints": {
+        "curve_type": "dose_response | diminishing_returns | negative_returns"
+      }
+    },
+    {
+      "name": "USObjective",
+      "properties": [
+        "objective_id",
+        "description",
+        "priority",
+        "category"
+      ],
+      "description": "Declared U.S. political-military end-state or interim goal driving the influence campaign.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "DecisionMakingEnvironment",
+      "properties": [
+        "env_id",
+        "description",
+        "context_level"
+      ],
+      "description": "Key contextual factors (strategic-level issues, rules, constraints) shaping stakeholder decisions.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "DecisionMakingRule",
+      "properties": [
+        "rule_id",
+        "description",
+        "rule_type"
+      ],
+      "description": "Heuristic or rational choice rule stakeholders apply when processing messages.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "PlanningQuestion",
+      "properties": [
+        "pq_id",
+        "question_text",
+        "order_index",
+        "category"
+      ],
+      "description": "One of the nine canonical questions guiding influence-operation design and assessment.",
+      "subtypes": null,
+      "constraints": {
+        "order_index": "1-9 inclusive"
+      }
+    }
+  ],
+  "edge_types": [
+    {
+      "name": "targets",
+      "from_types": [
+        "InfluenceOperation"
+      ],
+      "to_types": [
+        "Stakeholder"
+      ],
+      "properties": null,
+      "description": "An operation designates a stakeholder as a target for persuasion, dissuasion, deterrence, or reassurance.",
+      "inverse": "is_targeted_by"
+    },
+    {
+      "name": "is_targeted_by",
+      "from_types": [
+        "Stakeholder"
+      ],
+      "to_types": [
+        "InfluenceOperation"
+      ],
+      "properties": null,
+      "description": "Inverse of targets.",
+      "inverse": "targets"
+    },
+    {
+      "name": "employs_message",
+      "from_types": [
+        "InfluenceOperation"
+      ],
+      "to_types": [
+        "Message"
+      ],
+      "properties": [
+        "delivery_frequency",
+        "start_date",
+        "end_date"
+      ],
+      "description": "Operation deploys a specific message as part of its campaign.",
+      "inverse": "is_employed_in"
+    },
+    {
+      "name": "is_employed_in",
+      "from_types": [
+        "Message"
+      ],
+      "to_types": [
+        "InfluenceOperation"
+      ],
+      "properties": null,
+      "description": "Inverse of employs_message.",
+      "inverse": "employs_message"
+    },
+    {
+      "name": "aims_at_objective",
+      "from_types": [
+        "InfluenceOperation"
+      ],
+      "to_types": [
+        "USObjective"
+      ],
+      "properties": null,
+      "description": "Operation is designed to advance a specific U.S. objective.",
+      "inverse": "supports_operation"
+    },
+    {
+      "name": "supports_operation",
+      "from_types": [
+        "USObjective"
+      ],
+      "to_types": [
+        "InfluenceOperation"
+      ],
+      "properties": null,
+      "description": "Inverse of aims_at_objective.",
+      "inverse": "aims_at_objective"
+    },
+    {
+      "name": "relates_to_environment",
+      "from_types": [
+        "InfluenceOperation"
+      ],
+      "to_types": [
+        "DecisionMakingEnvironment"
+      ],
+      "properties": null,
+      "description": "The contextual environment considered during operation planning.",
+      "inverse": null
+    },
+    {
+      "name": "influences_attitude",
+      "from_types": [
+        "Message"
+      ],
+      "to_types": [
+        "AttitudeStructure"
+      ],
+      "properties": [
+        "estimated_effect_size"
+      ],
+      "description": "Causal link hypothesised or measured between a message and changes in a stakeholder's attitude structure.",
+      "inverse": null
+    },
+    {
+      "name": "concerns",
+      "from_types": [
+        "Message"
+      ],
+      "to_types": [
+        "AttitudeObject"
+      ],
+      "properties": null,
+      "description": "Indicates the attitude object about which the message is crafted.",
+      "inverse": "is_addressed_by"
+    },
+    {
+      "name": "is_addressed_by",
+      "from_types": [
+        "AttitudeObject"
+      ],
+      "to_types": [
+        "Message"
+      ],
+      "properties": null,
+      "description": "Inverse of concerns.",
+      "inverse": "concerns"
+    },
+    {
+      "name": "stakeholder_has_attitude",
+      "from_types": [
+        "Stakeholder"
+      ],
+      "to_types": [
+        "AttitudeStructure"
+      ],
+      "properties": [
+        "baseline_score",
+        "measurement_time"
+      ],
+      "description": "Associates a stakeholder with its current attitude structure toward an object.",
+      "inverse": "attitude_of"
+    },
+    {
+      "name": "attitude_of",
+      "from_types": [
+        "AttitudeStructure"
+      ],
+      "to_types": [
+        "Stakeholder"
+      ],
+      "properties": null,
+      "description": "Inverse of stakeholder_has_attitude.",
+      "inverse": "stakeholder_has_attitude"
+    },
+    {
+      "name": "has_metric",
+      "from_types": [
+        "InfluenceOperation",
+        "Message"
+      ],
+      "to_types": [
+        "Metric"
+      ],
+      "properties": null,
+      "description": "Operational or message-level performance metric.",
+      "inverse": "metric_of"
+    },
+    {
+      "name": "metric_of",
+      "from_types": [
+        "Metric"
+      ],
+      "to_types": [
+        "InfluenceOperation",
+        "Message"
+      ],
+      "properties": null,
+      "description": "Inverse of has_metric.",
+      "inverse": "has_metric"
+    },
+    {
+      "name": "exhibits_curve",
+      "from_types": [
+        "Message"
+      ],
+      "to_types": [
+        "DoseResponseCurve"
+      ],
+      "properties": null,
+      "description": "Empirically estimated dose\u2013response relationship for a given message.",
+      "inverse": "curve_for"
+    },
+    {
+      "name": "curve_for",
+      "from_types": [
+        "DoseResponseCurve"
+      ],
+      "to_types": [
+        "Message"
+      ],
+      "properties": null,
+      "description": "Inverse of exhibits_curve.",
+      "inverse": "exhibits_curve"
+    },
+    {
+      "name": "answers_question",
+      "from_types": [
+        "InfluenceOperation"
+      ],
+      "to_types": [
+        "PlanningQuestion"
+      ],
+      "properties": [
+        "answer_text",
+        "evidence_reference"
+      ],
+      "description": "Stores the planner\u2019s explicit answer to each of the nine questions for a given operation.",
+      "inverse": "question_of"
+    },
+    {
+      "name": "question_of",
+      "from_types": [
+        "PlanningQuestion"
+      ],
+      "to_types": [
+        "InfluenceOperation"
+      ],
+      "properties": null,
+      "description": "Inverse of answers_question.",
+      "inverse": "answers_question"
+    },
+    {
+      "name": "uses_rule",
+      "from_types": [
+        "Stakeholder"
+      ],
+      "to_types": [
+        "DecisionMakingRule"
+      ],
+      "properties": null,
+      "description": "Specifies which decision-making rule governs the stakeholder\u2019s processing of information.",
+      "inverse": "rule_used_by"
+    },
+    {
+      "name": "rule_used_by",
+      "from_types": [
+        "DecisionMakingRule"
+      ],
+      "to_types": [
+        "Stakeholder"
+      ],
+      "properties": null,
+      "description": "Inverse of uses_rule.",
+      "inverse": "uses_rule"
+    }
+  ],
+  "property_definitions": {
+    "operation_id": "string \u2013 unique identifier",
+    "name": "string",
+    "phase": "string \u2013 enumerated modifier value",
+    "start_date": "date",
+    "end_date": "date",
+    "description": "string",
+    "stakeholder_id": "string",
+    "salience": "number \u2013 0-1 scale",
+    "group_discipline": "number \u2013 0-1 scale",
+    "within_group_heterogeneity": "number \u2013 0-1 scale",
+    "credibility": "number \u2013 0-1 scale",
+    "source_trustworthiness": "number \u2013 0-1 scale",
+    "type": "string \u2013 subtype label",
+    "structure_id": "string",
+    "cognitive_priors": "string or JSON blob",
+    "psychological_priors": "string or JSON blob",
+    "emotional_priors": "string or JSON blob",
+    "attitude_stability": "number \u2013 0-1",
+    "object_id": "string",
+    "category": "string",
+    "message_id": "string",
+    "content": "string",
+    "theme": "string",
+    "medium": "string",
+    "exposures": "integer",
+    "awareness_score": "number",
+    "q_score": "number",
+    "metric_id": "string",
+    "value": "number",
+    "unit": "string",
+    "timestamp": "datetime",
+    "curve_id": "string",
+    "curve_type": "string",
+    "parameters": "JSON array or object",
+    "objective_id": "string",
+    "priority": "integer or string",
+    "env_id": "string",
+    "context_level": "string",
+    "rule_id": "string",
+    "rule_type": "string",
+    "pq_id": "string",
+    "question_text": "string",
+    "order_index": "integer 1-9",
+    "delivery_frequency": "string or numeric rate",
+    "estimated_effect_size": "number",
+    "baseline_score": "number",
+    "measurement_time": "datetime",
+    "answer_text": "string",
+    "evidence_reference": "string"
+  },
+  "modifiers_supported": [
+    "peacetime influence operations",
+    "crisis influence operations",
+    "major combat operations influence",
+    "stability operations influence"
+  ],
+  "truth_values_supported": [
+    "probability (0-1 continuous)",
+    "binary true/false for factual context variables"
+  ],
+  "operators_supported": null
+}

@@ -1,0 +1,130 @@
+annotation: Young argues that importing the symbol-rich formalism of semantic networks
+  into cognitive mapping yields a more expressive, analyzable representation of political
+  belief systems. The WorldView tool demonstrates how richer relationship types, synonym
+  handling, and structural metrics can support dynamic models of belief change and
+  decision making.
+citation: Young, Michael D. 1996. "Cognitive Mapping Meets Semantic Networks." Journal
+  of Conflict Resolution 40(3):395-414.
+model_type: property_graph
+rationale: Key ideas revolve around nodes (concepts), edges (multiple relationship
+  types), node/edge attributes, and graph-level metrics—characteristics best captured
+  by a labeled property graph.
+schema_blueprint:
+  definitions:
+  - category: entity
+    description: Graph-based technique for modeling the causal beliefs of decision
+      makers.
+    name: Cognitive mapping
+  - category: entity
+    description: Knowledge structure of concepts linked by typed relationships (e.g.,
+      is-a, part-of).
+    name: Semantic network
+  - category: entity
+    description: Computer tool that fuses cognitive mapping with semantic-network
+      capabilities.
+    name: WorldView
+  - category: entity
+    description: Interconnected set of propositions held by an actor about the world.
+    name: Belief structure
+  - category: action
+    description: Process by which actors use beliefs to choose among alternatives.
+    domain:
+    - Entity
+    name: Decision making
+    range:
+    - Entity
+  - category: entity
+    description: Individual idea or object represented as a vertex in the map.
+    name: Concept node
+  - category: relationship
+    description: Link indicating that change in one concept produces change in another.
+    domain:
+    - Entity
+    name: Causal relationship
+    range:
+    - Entity
+  - category: relationship
+    description: Associative link (e.g., is-a, part-of) that is not strictly causal.
+    domain:
+    - Entity
+    name: Noncausal relationship
+    range:
+    - Entity
+  - category: entity
+    description: Square matrix recording which concept pairs are connected in a cognitive
+      map.
+    name: Adjacency matrix
+  - category: entity
+    description: Mechanism for collapsing semantically equivalent concepts.
+    name: Synonym facility
+  - category: action
+    description: Procedure that merges belief data across texts or respondents.
+    domain:
+    - Entity
+    name: Aggregation function
+    range:
+    - Entity
+  - category: measure
+    description: Graph metric (e.g., centrality, connectivity) applied to a belief
+      network.
+    name: Structural measure
+  - category: measure
+    description: Metric for evaluating differences between two belief structures.
+    name: Comparative measure
+  - category: action
+    description: Alteration of links or nodes within a belief structure over time.
+    domain:
+    - Entity
+    name: Belief change
+    range:
+    - Entity
+  - category: action
+    description: Human-coded extraction of subject-relation-object triples from text.
+    domain:
+    - Entity
+    name: Content analysis
+    range:
+    - Entity
+  - category: entity
+    description: Use of linear algebra operations to manipulate adjacency matrices.
+    name: Matrix mathematics
+  - category: property
+    description: Representation scheme employing lexical labels rather than numerical
+      weights.
+    name: Symbol-based formalism
+  - category: property
+    description: Tripartite grammatical pattern used to parse propositions.
+    name: Subject-relationship-object format
+  - category: property
+    description: Attribute marking a causal link as increasing or reinforcing.
+    name: Positive valence
+  - category: property
+    description: Attribute marking a causal link as decreasing or inhibiting.
+    name: Negative valence
+  - category: entity
+    description: Network in which edges have orientation from source to target.
+    name: Directed graph
+  - category: entity
+    description: Algorithmic simulation that manipulates belief structures to predict
+      decisions.
+    name: Process model
+  - category: property
+    description: Conceptual content lost when compound statements are collapsed into
+      single nodes.
+    name: Hidden information
+  - category: property
+    description: Proposition containing multiple embedded concepts or clauses.
+    name: Compound statement
+  - category: entity
+    description: Formal encoding of information so it can be stored, queried, and
+      reasoned over.
+    name: Knowledge representation
+  description: Schema generated from paper analysis
+  root_properties:
+    edges:
+      description: Relationships and actions
+      item_type: NaryTuple
+    nodes:
+      description: Entities and concepts
+      item_type: Entity
+  title: Simplified Schema

@@ -1,0 +1,707 @@
+{
+  "citation": "Larson, Eric V., et al. 2009. Foundations of Effective Influence Operations. Santa Monica, CA: RAND Corporation. (Chapter 6: \u201cA Framework for Influence Operations\u201d and Chapter 7 excerpt.)",
+  "annotation": "Chapter 6 synthesises a broad social-science literature into a practical, nine-question planning framework that links U.S. political-military objectives to concrete influence substrategies, diagnostic tools, and assessment methods.  It integrates rational\u2013choice modelling, attitude-structure measurement, and communication theory to show planners how to identify high-payoff stakeholders, craft differentiated message campaigns, and manage dose\u2013response trade-offs over time and across conflict phases.  The chapter\u2019s theoretical contribution is a multi-level, metrics-driven schema that connects individual cognitive processes, group dynamics, and mass-public persuasion with operational design and adaptive assessment.",
+  "theory_type": "social / behavioural / organisational (multi-level influence theory)",
+  "vocabulary": [
+    {
+      "term": "influence operations",
+      "definition": "Coordinated activities designed to change attitudes, beliefs, decisions or behaviours of selected audiences in support of U.S. objectives.",
+      "source_context": "We next provide a framework for planning and conducting influence operations\u2026",
+      "page_reference": "p.71\u201372",
+      "theoretical_category": "core-construct"
+    },
+    {
+      "term": "framework for influence operations",
+      "definition": "An overarching structure that organises theories, tools and lessons into a step-by-step planning and execution process.",
+      "source_context": "\u2026provide a framework for planning and conducting influence operations\u2026",
+      "page_reference": "p.71",
+      "theoretical_category": "model/architecture"
+    },
+    {
+      "term": "planning questions",
+      "definition": "Nine key analytic questions that guide top-down development of influence strategy.",
+      "source_context": "Our research led to a set of nine key planning questions\u2026",
+      "page_reference": "p.72",
+      "theoretical_category": "process element"
+    },
+    {
+      "term": "strategic-level issues",
+      "definition": "High-level political and military considerations that shape overall campaign design and desired outcomes.",
+      "source_context": "\u2026those dealing with strategic-level issues\u2026",
+      "page_reference": "p.72",
+      "theoretical_category": "context variable"
+    },
+    {
+      "term": "target audiences",
+      "definition": "Specific actors, groups, or publics whose attitudes or behaviour the operation seeks to influence.",
+      "source_context": "\u2026those dealing with target audiences.",
+      "page_reference": "p.72",
+      "theoretical_category": "core-construct"
+    },
+    {
+      "term": "U.S. objectives",
+      "definition": "The desired political, military, or informational end-states articulated by U.S. leadership.",
+      "source_context": "What are current U.S. objectives?",
+      "page_reference": "p.72\u201373",
+      "theoretical_category": "goal variable"
+    },
+    {
+      "term": "political-military outcomes",
+      "definition": "Observable results in the political and security domains that stem from interaction of actors.",
+      "source_context": "\u2026most influential in political-military outcomes?",
+      "page_reference": "p.72",
+      "theoretical_category": "outcome variable"
+    },
+    {
+      "term": "agent-based rational choice model",
+      "definition": "Simulation approach in which autonomous stakeholders choose actions that maximise expected utility within a policy space.",
+      "source_context": "agent-based rational choice or expected utility models appear\u2026",
+      "page_reference": "p.73",
+      "theoretical_category": "analytic tool"
+    },
+    {
+      "term": "expected utility model",
+      "definition": "Formal model that estimates actors\u2019 preferred options by weighting pay-offs by probabilities.",
+      "source_context": "\u2026expected utility models appear to us to be ideally suited\u2026",
+      "page_reference": "p.73",
+      "theoretical_category": "analytic tool"
+    },
+    {
+      "term": "stakeholders",
+      "definition": "Actors or groups that possess interests or resources relevant to campaign outcomes.",
+      "source_context": "\u2026analysis of stakeholders and simulation analyses of coalition maneuvering\u2026",
+      "page_reference": "p.73",
+      "theoretical_category": "actor category"
+    },
+    {
+      "term": "stakeholder salience",
+      "definition": "Relative importance of a stakeholder\u2019s position, resources, or attention to a given issue.",
+      "source_context": "\u2026sensitivity of outcomes to adjustments in various stakeholders\u2019 positions, resources, or salience\u2026",
+      "page_reference": "p.74",
+      "theoretical_category": "attribute"
+    },
+    {
+      "term": "coalition objectives",
+      "definition": "Shared goals agreed upon by allied actors collaborating with the United States.",
+      "source_context": "\u2026underlying political dynamics related to achievement of U.S. coalition objectives\u2026",
+      "page_reference": "p.72",
+      "theoretical_category": "goal variable"
+    },
+    {
+      "term": "influence strategy",
+      "definition": "An overall plan combining messages, inducements, and actions to shift stakeholder behaviour toward objectives.",
+      "source_context": "\u2026developing influence strategies that can contribute to the achievement of U.S. objectives.",
+      "page_reference": "p.72",
+      "theoretical_category": "strategy-type"
+    },
+    {
+      "term": "positive inducements",
+      "definition": "Rewards or benefits offered to elicit compliance or support.",
+      "source_context": "\u2026a conciliatory strategy relying exclusively on positive inducements\u2026",
+      "page_reference": "p.74",
+      "theoretical_category": "tactic"
+    },
+    {
+      "term": "negative inducements",
+      "definition": "Threats, punishments, or costs imposed to alter behaviour.",
+      "source_context": "\u2026some mix of positive and negative inducements\u2026",
+      "page_reference": "p.74",
+      "theoretical_category": "tactic"
+    },
+    {
+      "term": "conditional reciprocity",
+      "definition": "Strategy offering benefits contingent on the target\u2019s compliance with desired behaviour.",
+      "source_context": "\u2026or some form of conditional reciprocity is most likely to succeed\u2026",
+      "page_reference": "p.74",
+      "theoretical_category": "strategy-type"
+    },
+    {
+      "term": "threats / use of force",
+      "definition": "Cudgel component of influence leveraging potential or actual military action.",
+      "source_context": "\u2026a strategy of threats or use of force\u2026",
+      "page_reference": "p.74",
+      "theoretical_category": "tactic"
+    },
+    {
+      "term": "social power/interaction theory",
+      "definition": "Theory explaining how power relations and interactions within groups affect compliance.",
+      "source_context": "\u2026social power/interaction theory, social choice, and opinion leadership models.",
+      "page_reference": "p.74",
+      "theoretical_category": "theory"
+    },
+    {
+      "term": "social choice theory",
+      "definition": "Analytical framework examining collective decision rules and preference aggregation.",
+      "source_context": "\u2026social choice, and opinion leadership models.",
+      "page_reference": "p.74",
+      "theoretical_category": "theory"
+    },
+    {
+      "term": "opinion leadership model",
+      "definition": "Model positing that certain influential individuals mediate information flows to wider publics.",
+      "source_context": "\u2026opinion leadership models.",
+      "page_reference": "p.74",
+      "theoretical_category": "theory"
+    },
+    {
+      "term": "group leaders",
+      "definition": "Individuals possessing authority within a stakeholder group or network.",
+      "source_context": "\u2026identify a single leader with high social power\u2026",
+      "page_reference": "p.74",
+      "theoretical_category": "actor category"
+    },
+    {
+      "term": "followers",
+      "definition": "Members of a group who are influenced by, and often defer to, their leader.",
+      "source_context": "\u2026know that each leader\u2019s followers were sufficiently well-informed\u2026",
+      "page_reference": "p.74",
+      "theoretical_category": "actor category"
+    },
+    {
+      "term": "group discipline",
+      "definition": "Degree to which members comply with leadership directives.",
+      "source_context": "\u2026leadership, influence, followership, and group discipline are all important determinants\u2026",
+      "page_reference": "p.73\u201374",
+      "theoretical_category": "attribute"
+    },
+    {
+      "term": "within-group heterogeneity",
+      "definition": "Variation in beliefs, traits, or media habits among members of the same group.",
+      "source_context": "\u2026within-group heterogeneity may necessitate further efforts\u2026",
+      "page_reference": "p.74",
+      "theoretical_category": "attribute"
+    },
+    {
+      "term": "subgroup characteristics",
+      "definition": "Distinctive features of segments inside a larger audience affecting message reception.",
+      "source_context": "\u2026understand subgroup characteristics that will condition the likelihood\u2026",
+      "page_reference": "p.74",
+      "theoretical_category": "attribute"
+    },
+    {
+      "term": "information channels",
+      "definition": "Media or pathways\u2014e.g., radio, TV, interpersonal networks\u2014used to transmit messages.",
+      "source_context": "Which sources and information channels do target audiences use\u2026",
+      "page_reference": "p.75",
+      "theoretical_category": "medium"
+    },
+    {
+      "term": "credibility",
+      "definition": "Perceived accuracy and trustworthiness of a source or channel.",
+      "source_context": "\u2026find most credible?",
+      "page_reference": "p.75",
+      "theoretical_category": "attribute"
+    },
+    {
+      "term": "source trustworthiness",
+      "definition": "Judgement that a messenger is honest and reliable.",
+      "source_context": "\u2026credibility and trustworthiness of different opinion leaders\u2026",
+      "page_reference": "p.75\u201376",
+      "theoretical_category": "attribute"
+    },
+    {
+      "term": "attitude structure",
+      "definition": "Organisation and interrelationships of beliefs and evaluations within an individual.",
+      "source_context": "How are target audiences\u2019 attitudes structured\u2026",
+      "page_reference": "p.76",
+      "theoretical_category": "core-construct"
+    },
+    {
+      "term": "attitude stability",
+      "definition": "Degree to which an attitude persists unchanged over time.",
+      "source_context": "\u2026and how stable are they?",
+      "page_reference": "p.76",
+      "theoretical_category": "attribute"
+    },
+    {
+      "term": "decisionmaking environment",
+      "definition": "Procedures, organisational processes, and contextual factors framing how leaders choose.",
+      "source_context": "\u2026administrative, organisational, and other procedures and processes that establish the decisionmaking environment\u2026",
+      "page_reference": "p.76",
+      "theoretical_category": "context variable"
+    },
+    {
+      "term": "decisionmaking rules",
+      "definition": "Formal or informal doctrines leaders follow when selecting options.",
+      "source_context": "\u2026their decisionmaking rules or doctrine\u2026",
+      "page_reference": "p.76",
+      "theoretical_category": "process element"
+    },
+    {
+      "term": "OODA loop",
+      "definition": "Observe\u2013Orient\u2013Decide\u2013Act cycle; window in which influence must occur prior to decision.",
+      "source_context": "\u2026getting inside the OODA loop\u2026",
+      "page_reference": "p.76",
+      "theoretical_category": "process model"
+    },
+    {
+      "term": "cognitive priors",
+      "definition": "Pre-existing mental schemas shaping information processing.",
+      "source_context": "\u2026how individuals\u2019 cognitive, psychological, emotional, or normative priors affect their susceptibility\u2026",
+      "page_reference": "p.76",
+      "theoretical_category": "attribute"
+    },
+    {
+      "term": "psychological priors",
+      "definition": "Baseline mental states or traits influencing receptivity.",
+      "source_context": "\u2026cognitive, psychological, emotional, or normative priors\u2026",
+      "page_reference": "p.76",
+      "theoretical_category": "attribute"
+    },
+    {
+      "term": "emotional priors",
+      "definition": "Pre-existing affective dispositions relevant to message evaluation.",
+      "source_context": "\u2026cognitive, psychological, emotional, or normative priors\u2026",
+      "page_reference": "p.76",
+      "theoretical_category": "attribute"
+    },
+    {
+      "term": "normative priors",
+      "definition": "Value-based standards or cultural norms already held by an individual.",
+      "source_context": "\u2026cognitive, psychological, emotional, or normative priors\u2026",
+      "page_reference": "p.76",
+      "theoretical_category": "attribute"
+    },
+    {
+      "term": "attitude objects",
+      "definition": "Specific issues, persons, or entities toward which attitudes are held.",
+      "source_context": "\u2026how attitude objects are arranged in this larger multidimensional cultural space\u2026",
+      "page_reference": "p.78",
+      "theoretical_category": "core-construct"
+    },
+    {
+      "term": "metric multidimensional scaling",
+      "definition": "Statistical technique mapping similarities into geometric space to represent attitude distances.",
+      "source_context": "Prominent among the general approaches\u2026Woelfel\u2019s metric multidimensional scaling\u2026",
+      "page_reference": "p.76\u201377",
+      "theoretical_category": "analytic tool"
+    },
+    {
+      "term": "Woelfel\u2019s metric multidimensional scaling",
+      "definition": "Specific MDS approach developed by Woelfel for representing attitudes in communication research.",
+      "source_context": "Prominent among the general approaches\u2026Woelfel\u2019s metric multidimensional scaling\u2026",
+      "page_reference": "p.76\u201377",
+      "theoretical_category": "analytic tool"
+    },
+    {
+      "term": "Galileo theory",
+      "definition": "Software/theoretical implementation of metric MDS used to predict message effects in attitude space.",
+      "source_context": "Our judgment is that Galileo appears to us to be worthy of further testing\u2026",
+      "page_reference": "p.78",
+      "theoretical_category": "model"
+    },
+    {
+      "term": "attitude space",
+      "definition": "Multidimensional geometric representation of attitudes used to gauge distance and potential change.",
+      "source_context": "\u2026attitude objects are arranged in this larger multidimensional cultural space\u2026",
+      "page_reference": "p.78",
+      "theoretical_category": "concept"
+    },
+    {
+      "term": "message acceptance",
+      "definition": "Recipient\u2019s cognitive and/or behavioural agreement with conveyed content.",
+      "source_context": "\u2026ensuring that the format and content of a message motivate the audience\u2026ultimately to accept and act on it.",
+      "page_reference": "p.77",
+      "theoretical_category": "outcome variable"
+    },
+    {
+      "term": "message source",
+      "definition": "Individual or institution identified as the originator of a message.",
+      "source_context": "\u2026sourcing of messages to individuals who are trusted\u2026",
+      "page_reference": "p.77",
+      "theoretical_category": "message attribute"
+    },
+    {
+      "term": "message content",
+      "definition": "Substantive semantic information delivered to the audience.",
+      "source_context": "\u2026ensuring that the format and content of a message motivate the audience\u2026",
+      "page_reference": "p.77",
+      "theoretical_category": "message attribute"
+    },
+    {
+      "term": "message format",
+      "definition": "Structural presentation (e.g., text, visual, audio) of a message.",
+      "source_context": "\u2026ensure that the format and content of a message\u2026",
+      "page_reference": "p.77",
+      "theoretical_category": "message attribute"
+    },
+    {
+      "term": "message complexity",
+      "definition": "Cognitive difficulty imposed by a message\u2019s structure or vocabulary.",
+      "source_context": "\u2026avoiding unnecessary complexity that would increase the cognitive demands\u2026",
+      "page_reference": "p.77",
+      "theoretical_category": "message attribute"
+    },
+    {
+      "term": "cognitive demands",
+      "definition": "Mental effort required from the audience to process a message.",
+      "source_context": "\u2026increase the cognitive demands on the audience\u2026",
+      "page_reference": "p.77",
+      "theoretical_category": "processing factor"
+    },
+    {
+      "term": "motivational appeal",
+      "definition": "Elements of a message that arouse emotional or rational incentives to attend and comply.",
+      "source_context": "\u2026and ensuring that the format and content of a message motivate the audience\u2026",
+      "page_reference": "p.77",
+      "theoretical_category": "message attribute"
+    },
+    {
+      "term": "dose-response curve",
+      "definition": "Function describing how probability of message acceptance changes with number of exposures.",
+      "source_context": "Figure 6.1 suggests how the probability of message acceptance might be affected by the number of messages\u2026",
+      "page_reference": "p.79\u201380",
+      "theoretical_category": "relationship"
+    },
+    {
+      "term": "predisposition to accept",
+      "definition": "Baseline inclination of an individual or group to agree with a message prior to exposure.",
+      "source_context": "\u2026those who are highly predisposed to accept and act on the message\u2026",
+      "page_reference": "p.79\u201380",
+      "theoretical_category": "attribute"
+    },
+    {
+      "term": "high predisposition group",
+      "definition": "Audience segment already favourable toward the message content.",
+      "source_context": "\u2026those who are highly predisposed to accept\u2026(\"High\")",
+      "page_reference": "p.79\u201380",
+      "theoretical_category": "audience segment"
+    },
+    {
+      "term": "medium predisposition group",
+      "definition": "Audience segment moderately favourable or ambivalent toward the message.",
+      "source_context": "\u2026those who are moderately predisposed\u2026(\"Med\")",
+      "page_reference": "p.79\u201380",
+      "theoretical_category": "audience segment"
+    },
+    {
+      "term": "low predisposition group",
+      "definition": "Audience segment inclined to resist or reject the message.",
+      "source_context": "\u2026those who generally have a low predisposition to accept\u2026(\"Low\")",
+      "page_reference": "p.79\u201380",
+      "theoretical_category": "audience segment"
+    },
+    {
+      "term": "diminishing returns",
+      "definition": "Decreasing marginal effectiveness of additional message exposures after a certain point.",
+      "source_context": "\u2026diminishing\u2014and then negative\u2014returns to sending additional messages\u2026",
+      "page_reference": "p.80",
+      "theoretical_category": "relationship"
+    },
+    {
+      "term": "negative returns",
+      "definition": "Point at which further message exposures reduce acceptance probability.",
+      "source_context": "\u2026even in most cases, there are\u2026negative returns to sending additional messages.",
+      "page_reference": "p.80",
+      "theoretical_category": "relationship"
+    },
+    {
+      "term": "message repetition",
+      "definition": "Sending the same or similar content multiple times to the same audience.",
+      "source_context": "\u2026there is little evidence that simply repeating a message will break down a preexisting inclination\u2026",
+      "page_reference": "p.78\u201379",
+      "theoretical_category": "tactic"
+    },
+    {
+      "term": "war of ideas",
+      "definition": "Competitive information environment in which various actors propagate conflicting narratives.",
+      "source_context": "\u2026nature of any competition in the \u201cwar of ideas\u201d is fully understood\u2026",
+      "page_reference": "p.77",
+      "theoretical_category": "context"
+    },
+    {
+      "term": "content analysis",
+      "definition": "Systematic coding and quantitative analysis of communication content.",
+      "source_context": "We view content analysis of leadership and media streams\u2026",
+      "page_reference": "p.77",
+      "theoretical_category": "method"
+    },
+    {
+      "term": "focus groups",
+      "definition": "Small, moderated discussions used to explore perceptions and test messages.",
+      "source_context": "\u2026a mix of focus groups, public opinion attitude surveys\u2026would be required\u2026",
+      "page_reference": "p.75",
+      "theoretical_category": "method"
+    },
+    {
+      "term": "public opinion surveys",
+      "definition": "Structured questionnaires administered to probability samples to measure attitudes.",
+      "source_context": "\u2026public opinion attitude surveys\u2026",
+      "page_reference": "p.75",
+      "theoretical_category": "method"
+    },
+    {
+      "term": "attitude surveys",
+      "definition": "Instruments designed to capture specific belief and evaluation structures.",
+      "source_context": "\u2026focus group analyses and attitude surveys to tap audience exposure\u2026",
+      "page_reference": "p.77",
+      "theoretical_category": "method"
+    },
+    {
+      "term": "experiments",
+      "definition": "Controlled studies manipulating variables to observe causal effects on attitudes/behaviour.",
+      "source_context": "\u2026Conducting surveys of, or experiments with, target audiences\u2026",
+      "page_reference": "p.78",
+      "theoretical_category": "method"
+    },
+    {
+      "term": "follow-up surveys",
+      "definition": "Post-intervention measurement used to assess change and sustainability of effects.",
+      "source_context": "Conducting follow-up surveys of target audiences and assessing the impact\u2026",
+      "page_reference": "p.78",
+      "theoretical_category": "method"
+    },
+    {
+      "term": "influence substrategy",
+      "definition": "Tailored plan addressing a specific stakeholder segment within the overall influence strategy.",
+      "source_context": "\u2026differences among actors\u2026may require a differentiated set of substrategies\u2026",
+      "page_reference": "p.74",
+      "theoretical_category": "strategy-type"
+    },
+    {
+      "term": "communication channels",
+      "definition": "Specific conduits\u2014technical or interpersonal\u2014through which messages travel.",
+      "source_context": "\u2026identify the communication channels, themes, and messages to be directed\u2026",
+      "page_reference": "p.81",
+      "theoretical_category": "medium"
+    },
+    {
+      "term": "themes",
+      "definition": "Overarching ideas or narratives woven through message content.",
+      "source_context": "\u2026identify the communication channels, themes, and messages\u2026",
+      "page_reference": "p.81",
+      "theoretical_category": "message attribute"
+    },
+    {
+      "term": "messaging campaign",
+      "definition": "Coordinated series of messages designed to achieve influence objectives over time.",
+      "source_context": "Refining or revising the campaign, as needed.",
+      "page_reference": "p.78",
+      "theoretical_category": "process"
+    },
+    {
+      "term": "synchronise influence operations",
+      "definition": "Align timing and content of influence activities with other policy, military, or informational actions.",
+      "source_context": "Synchronizing influence operations with policy adjustments, carrots and sticks, kinetics\u2026",
+      "page_reference": "p.81",
+      "theoretical_category": "process"
+    },
+    {
+      "term": "carrots and sticks",
+      "definition": "Combination of rewards (carrots) and punishments (sticks) used as levers of influence.",
+      "source_context": "\u2026carrots and sticks\u2026",
+      "page_reference": "p.81",
+      "theoretical_category": "tactic"
+    },
+    {
+      "term": "kinetic actions",
+      "definition": "Physical military operations involving force application.",
+      "source_context": "\u2026synchronizing influence operations with\u2026kinetics\u2026",
+      "page_reference": "p.81",
+      "theoretical_category": "context"
+    },
+    {
+      "term": "monitoring and assessment",
+      "definition": "Ongoing measurement of indicator data to judge strategy effectiveness.",
+      "source_context": "Monitoring and assessing the influence strategy.",
+      "page_reference": "p.81",
+      "theoretical_category": "process"
+    },
+    {
+      "term": "metrics",
+      "definition": "Quantitative indicators linked to objectives for evaluating progress.",
+      "source_context": "\u2026links metrics in a systematic way to political and campaign objectives\u2026",
+      "page_reference": "p.81",
+      "theoretical_category": "measurement"
+    },
+    {
+      "term": "adaptation",
+      "definition": "Revising strategies and messages based on assessment feedback.",
+      "source_context": "Refining or revising the campaign, as needed.",
+      "page_reference": "p.78",
+      "theoretical_category": "process"
+    },
+    {
+      "term": "peacetime influence operations",
+      "definition": "Activities aimed at shaping the environment during periods absent overt conflict.",
+      "source_context": "In peacetime, influence operations seek to shape the environment by persuading, dissuading, deterring, and reassuring\u2026",
+      "page_reference": "p.82",
+      "theoretical_category": "phase"
+    },
+    {
+      "term": "crisis influence operations",
+      "definition": "Efforts during heightened tension to persuade or coerce and manage escalation.",
+      "source_context": "Influence operations during a crisis may aim to persuade or coerce an adversary\u2026",
+      "page_reference": "p.82",
+      "theoretical_category": "phase"
+    },
+    {
+      "term": "major combat operations influence",
+      "definition": "Persuasion activities integrated into conventional warfare to support favourable termination.",
+      "source_context": "Influence operations during major combat operations generally aim to terminate the war\u2026",
+      "page_reference": "p.82",
+      "theoretical_category": "phase"
+    },
+    {
+      "term": "stability operations influence",
+      "definition": "Persuasion aimed at re-establishing order and political equilibrium after conflict.",
+      "source_context": "Influence operations during stability operations generally aim to reestablish a stable postwar political equilibrium\u2026",
+      "page_reference": "p.82",
+      "theoretical_category": "phase"
+    },
+    {
+      "term": "persuade",
+      "definition": "Induce an actor to adopt a desired belief or action through argument or appeal.",
+      "source_context": "\u2026seeks to shape the environment by persuading\u2026",
+      "page_reference": "p.82",
+      "theoretical_category": "action"
+    },
+    {
+      "term": "dissuade",
+      "definition": "Convince an actor not to take an undesirable action.",
+      "source_context": "\u2026by persuading, dissuading, deterring, and reassuring\u2026",
+      "page_reference": "p.82",
+      "theoretical_category": "action"
+    },
+    {
+      "term": "deter",
+      "definition": "Prevent action by threatening credible consequences.",
+      "source_context": "\u2026dissuading, deterring, and reassuring\u2026",
+      "page_reference": "p.82",
+      "theoretical_category": "action"
+    },
+    {
+      "term": "reassure",
+      "definition": "Provide confidence to allies or populations to maintain desired behaviour.",
+      "source_context": "\u2026deterring, and reassuring\u2014activities that are supported by intelligence\u2026",
+      "page_reference": "p.82",
+      "theoretical_category": "action"
+    },
+    {
+      "term": "control escalation",
+      "definition": "Manage the intensity of conflict to prevent undesired widening.",
+      "source_context": "\u2026or to control escalation, again supported by intelligence\u2026",
+      "page_reference": "p.82",
+      "theoretical_category": "goal"
+    },
+    {
+      "term": "terminate the war",
+      "definition": "Achieve conditions leading to cessation of hostilities on favourable terms.",
+      "source_context": "\u2026aim to terminate the war on favorable terms.",
+      "page_reference": "p.82",
+      "theoretical_category": "goal"
+    },
+    {
+      "term": "stable postwar political equilibrium",
+      "definition": "Desired balance of power and governance following conflict that sustains peace.",
+      "source_context": "\u2026aim to reestablish a stable postwar political equilibrium\u2026",
+      "page_reference": "p.82",
+      "theoretical_category": "goal"
+    },
+    {
+      "term": "heterogeneous population",
+      "definition": "Audience composed of diverse subgroups with varying receptivity and characteristics.",
+      "source_context": "\u2026receptivity to messages can vary greatly in a heterogeneous population.",
+      "page_reference": "p.78\u201379",
+      "theoretical_category": "context"
+    },
+    {
+      "term": "rally effect",
+      "definition": "Surge in public support for leaders often following external threat or crisis.",
+      "source_context": "\u2026so-called \u201crallies\u201d in support for presidents\u2026",
+      "page_reference": "p.80",
+      "theoretical_category": "phenomenon"
+    },
+    {
+      "term": "Q score",
+      "definition": "Metric of a spokesperson\u2019s familiarity and likeability used in message source selection.",
+      "source_context": "\u2026those whose\u2026high Q score make them effective spokespersons.",
+      "page_reference": "p.85\u201386",
+      "theoretical_category": "metric"
+    },
+    {
+      "term": "messenger source characteristics",
+      "definition": "Attributes such as competence, likeability, credibility, trustworthiness, confidence affecting persuasion.",
+      "source_context": "\u2026messengers with compelling source characteristics, i.e., those whose professional or technical competence, likeability, credibility, trustworthiness or confidence\u2026",
+      "page_reference": "p.85\u201386",
+      "theoretical_category": "attribute"
+    },
+    {
+      "term": "message characteristics",
+      "definition": "Features of a message\u2014content, format, cognitive and emotional appeal\u2014that influence effectiveness.",
+      "source_context": "\u2026messages with compelling message characteristics, i.e., those whose content, format, cognitive and emotional appeal\u2026",
+      "page_reference": "p.85\u201386",
+      "theoretical_category": "attribute"
+    },
+    {
+      "term": "top-down planning approach",
+      "definition": "Method starting from strategic objectives and decomposing requirements down to tactics.",
+      "source_context": "\u2026provide an efficient, top-down basis for developing influence strategies\u2026",
+      "page_reference": "p.72",
+      "theoretical_category": "process"
+    },
+    {
+      "term": "robust planning and assessment process",
+      "definition": "Resilient methodological cycle allowing iteration under uncertainty.",
+      "source_context": "\u2026requirement for an adaptive, robust, metrics-based planning, execution, and assessment process\u2026",
+      "page_reference": "p.86",
+      "theoretical_category": "process"
+    },
+    {
+      "term": "metrics-based process",
+      "definition": "Planning and assessment approach anchored in quantitative indicators linked to objectives.",
+      "source_context": "\u2026metrics-based planning and assessment process\u2026",
+      "page_reference": "p.81, 86",
+      "theoretical_category": "process"
+    },
+    {
+      "term": "information environment",
+      "definition": "Aggregate of media, channels, and competing messages surrounding a target audience.",
+      "source_context": "\u2026individuals in Western\u2014and many non-Western\u2014societies live in highly competitive, media-saturated environments\u2026",
+      "page_reference": "p.76\u201377",
+      "theoretical_category": "context"
+    },
+    {
+      "term": "leadership vacuum",
+      "definition": "Situation in which existing authority structures have collapsed, creating uncertainty.",
+      "source_context": "\u2026insufficient to restore security in the leadership vacuum that followed\u2026",
+      "page_reference": "p.73",
+      "theoretical_category": "context"
+    },
+    {
+      "term": "prolonged insurgency",
+      "definition": "Extended, organised violent resistance following initial conflict phase.",
+      "source_context": "\u2026and that a prolonged insurgency should be expected to organize\u2026",
+      "page_reference": "p.73",
+      "theoretical_category": "phenomenon"
+    },
+    {
+      "term": "resource allocation",
+      "definition": "Distribution of finite assets (e.g., funds, troops, airtime) across influence tasks.",
+      "source_context": "As suggested earlier, given that available resources are finite, it is important that influence operations focus\u2026",
+      "page_reference": "p.74",
+      "theoretical_category": "process constraint"
+    },
+    {
+      "term": "high-payoff stakeholder groups",
+      "definition": "Actors whose attitude shift would most improve likelihood of achieving objectives.",
+      "source_context": "\u2026illuminate high-payoff areas for the development of policy and strategy options.",
+      "page_reference": "p.74",
+      "theoretical_category": "actor category"
+    },
+    {
+      "term": "message awareness",
+      "definition": "Extent to which target audience has encountered the message.",
+      "source_context": "\u2026probability of individuals becoming aware of and accepting these messages.",
+      "page_reference": "p.80",
+      "theoretical_category": "measurement"
+    },
+    {
+      "term": "behaviour change",
+      "definition": "Observable modification in actions of target audience attributable to influence efforts.",
+      "source_context": "\u2026desired change in a key attitude, belief, preferred policy, or behavior\u2026",
+      "page_reference": "p.85",
+      "theoretical_category": "outcome"
+    }
+  ]
+}

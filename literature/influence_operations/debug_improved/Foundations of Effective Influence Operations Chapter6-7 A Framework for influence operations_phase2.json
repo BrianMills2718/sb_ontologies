@@ -1,0 +1,1113 @@
+{
+  "entities": [
+    {
+      "term": "influence operations",
+      "term_type": "entity",
+      "subtype": "core-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "target audiences",
+      "term_type": "entity",
+      "subtype": "core-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": "influence operations",
+      "constraints": {
+        "cardinality": "one-to-many with influence operations"
+      }
+    },
+    {
+      "term": "attitude structure",
+      "term_type": "entity",
+      "subtype": "core-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": "attitudes",
+      "constraints": null
+    },
+    {
+      "term": "attitude objects",
+      "term_type": "entity",
+      "subtype": "core-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": "attitudes",
+      "constraints": null
+    },
+    {
+      "term": "framework for influence operations",
+      "term_type": "entity",
+      "subtype": "model/architecture",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "planning questions",
+      "term_type": "entity",
+      "subtype": "process element",
+      "domain": null,
+      "range": null,
+      "parent_concept": "framework for influence operations",
+      "constraints": {
+        "count": "nine"
+      }
+    },
+    {
+      "term": "decisionmaking rules",
+      "term_type": "entity",
+      "subtype": "process element",
+      "domain": null,
+      "range": null,
+      "parent_concept": "decisionmaking environment",
+      "constraints": null
+    },
+    {
+      "term": "strategic-level issues",
+      "term_type": "entity",
+      "subtype": "context variable",
+      "domain": null,
+      "range": null,
+      "parent_concept": "operational context",
+      "constraints": null
+    },
+    {
+      "term": "decisionmaking environment",
+      "term_type": "entity",
+      "subtype": "context variable",
+      "domain": null,
+      "range": null,
+      "parent_concept": "operational context",
+      "constraints": null
+    },
+    {
+      "term": "U.S. objectives",
+      "term_type": "entity",
+      "subtype": "goal variable",
+      "domain": null,
+      "range": null,
+      "parent_concept": "objective",
+      "constraints": null
+    },
+    {
+      "term": "coalition objectives",
+      "term_type": "entity",
+      "subtype": "goal variable",
+      "domain": null,
+      "range": null,
+      "parent_concept": "objective",
+      "constraints": null
+    },
+    {
+      "term": "political-military outcomes",
+      "term_type": "entity",
+      "subtype": "outcome variable",
+      "domain": null,
+      "range": null,
+      "parent_concept": "outcome",
+      "constraints": null
+    },
+    {
+      "term": "message acceptance",
+      "term_type": "entity",
+      "subtype": "outcome variable",
+      "domain": null,
+      "range": null,
+      "parent_concept": "attitude/behaviour outcome",
+      "constraints": null
+    },
+    {
+      "term": "agent-based rational choice model",
+      "term_type": "entity",
+      "subtype": "analytic tool",
+      "domain": null,
+      "range": null,
+      "parent_concept": "expected utility model",
+      "constraints": null
+    },
+    {
+      "term": "expected utility model",
+      "term_type": "entity",
+      "subtype": "analytic tool",
+      "domain": null,
+      "range": null,
+      "parent_concept": "decision theory model",
+      "constraints": null
+    },
+    {
+      "term": "metric multidimensional scaling",
+      "term_type": "entity",
+      "subtype": "analytic tool",
+      "domain": null,
+      "range": null,
+      "parent_concept": "multivariate statistics",
+      "constraints": null
+    },
+    {
+      "term": "Woelfel\u2019s metric multidimensional scaling",
+      "term_type": "entity",
+      "subtype": "analytic tool",
+      "domain": null,
+      "range": null,
+      "parent_concept": "metric multidimensional scaling",
+      "constraints": null
+    },
+    {
+      "term": "stakeholders",
+      "term_type": "entity",
+      "subtype": "actor category",
+      "domain": null,
+      "range": null,
+      "parent_concept": "actor",
+      "constraints": null
+    },
+    {
+      "term": "group leaders",
+      "term_type": "entity",
+      "subtype": "actor category",
+      "domain": null,
+      "range": null,
+      "parent_concept": "stakeholders",
+      "constraints": null
+    },
+    {
+      "term": "followers",
+      "term_type": "entity",
+      "subtype": "actor category",
+      "domain": null,
+      "range": null,
+      "parent_concept": "stakeholders",
+      "constraints": null
+    },
+    {
+      "term": "high-payoff stakeholder groups",
+      "term_type": "entity",
+      "subtype": "actor category",
+      "domain": null,
+      "range": null,
+      "parent_concept": "stakeholders",
+      "constraints": {
+        "selection_criterion": "marginal utility gain"
+      }
+    },
+    {
+      "term": "influence strategy",
+      "term_type": "entity",
+      "subtype": "strategy-type",
+      "domain": null,
+      "range": null,
+      "parent_concept": "plan",
+      "constraints": null
+    },
+    {
+      "term": "conditional reciprocity",
+      "term_type": "entity",
+      "subtype": "strategy-type",
+      "domain": null,
+      "range": null,
+      "parent_concept": "influence strategy",
+      "constraints": null
+    },
+    {
+      "term": "influence substrategy",
+      "term_type": "entity",
+      "subtype": "strategy-type",
+      "domain": null,
+      "range": null,
+      "parent_concept": "influence strategy",
+      "constraints": null
+    },
+    {
+      "term": "social power/interaction theory",
+      "term_type": "entity",
+      "subtype": "theory",
+      "domain": null,
+      "range": null,
+      "parent_concept": "social theory",
+      "constraints": null
+    },
+    {
+      "term": "social choice theory",
+      "term_type": "entity",
+      "subtype": "theory",
+      "domain": null,
+      "range": null,
+      "parent_concept": "decision theory",
+      "constraints": null
+    },
+    {
+      "term": "opinion leadership model",
+      "term_type": "entity",
+      "subtype": "theory",
+      "domain": null,
+      "range": null,
+      "parent_concept": "diffusion of innovation theory",
+      "constraints": null
+    },
+    {
+      "term": "information channels",
+      "term_type": "entity",
+      "subtype": "medium",
+      "domain": null,
+      "range": null,
+      "parent_concept": "communication medium",
+      "constraints": null
+    },
+    {
+      "term": "communication channels",
+      "term_type": "entity",
+      "subtype": "medium",
+      "domain": null,
+      "range": null,
+      "parent_concept": "information channels",
+      "constraints": null
+    },
+    {
+      "term": "OODA loop",
+      "term_type": "entity",
+      "subtype": "process model",
+      "domain": null,
+      "range": null,
+      "parent_concept": "decision cycle",
+      "constraints": null
+    },
+    {
+      "term": "Galileo theory",
+      "term_type": "entity",
+      "subtype": "model",
+      "domain": null,
+      "range": null,
+      "parent_concept": "metric multidimensional scaling",
+      "constraints": null
+    },
+    {
+      "term": "attitude space",
+      "term_type": "entity",
+      "subtype": "concept",
+      "domain": null,
+      "range": null,
+      "parent_concept": "attitude structure",
+      "constraints": null
+    },
+    {
+      "term": "high predisposition group",
+      "term_type": "entity",
+      "subtype": "audience segment",
+      "domain": null,
+      "range": null,
+      "parent_concept": "target audiences",
+      "constraints": null
+    },
+    {
+      "term": "medium predisposition group",
+      "term_type": "entity",
+      "subtype": "audience segment",
+      "domain": null,
+      "range": null,
+      "parent_concept": "target audiences",
+      "constraints": null
+    },
+    {
+      "term": "low predisposition group",
+      "term_type": "entity",
+      "subtype": "audience segment",
+      "domain": null,
+      "range": null,
+      "parent_concept": "target audiences",
+      "constraints": null
+    },
+    {
+      "term": "war of ideas",
+      "term_type": "entity",
+      "subtype": "context",
+      "domain": null,
+      "range": null,
+      "parent_concept": "information environment",
+      "constraints": null
+    },
+    {
+      "term": "kinetic actions",
+      "term_type": "entity",
+      "subtype": "context",
+      "domain": null,
+      "range": null,
+      "parent_concept": "military operations",
+      "constraints": null
+    },
+    {
+      "term": "heterogeneous population",
+      "term_type": "entity",
+      "subtype": "context",
+      "domain": null,
+      "range": null,
+      "parent_concept": "population",
+      "constraints": null
+    },
+    {
+      "term": "information environment",
+      "term_type": "entity",
+      "subtype": "context",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "leadership vacuum",
+      "term_type": "entity",
+      "subtype": "context",
+      "domain": null,
+      "range": null,
+      "parent_concept": "decisionmaking environment",
+      "constraints": null
+    },
+    {
+      "term": "content analysis",
+      "term_type": "entity",
+      "subtype": "method",
+      "domain": null,
+      "range": null,
+      "parent_concept": "measurement method",
+      "constraints": null
+    },
+    {
+      "term": "focus groups",
+      "term_type": "entity",
+      "subtype": "method",
+      "domain": null,
+      "range": null,
+      "parent_concept": "qualitative method",
+      "constraints": null
+    },
+    {
+      "term": "public opinion surveys",
+      "term_type": "entity",
+      "subtype": "method",
+      "domain": null,
+      "range": null,
+      "parent_concept": "quantitative method",
+      "constraints": null
+    },
+    {
+      "term": "attitude surveys",
+      "term_type": "entity",
+      "subtype": "method",
+      "domain": null,
+      "range": null,
+      "parent_concept": "public opinion surveys",
+      "constraints": null
+    },
+    {
+      "term": "experiments",
+      "term_type": "entity",
+      "subtype": "method",
+      "domain": null,
+      "range": null,
+      "parent_concept": "research method",
+      "constraints": null
+    },
+    {
+      "term": "follow-up surveys",
+      "term_type": "entity",
+      "subtype": "method",
+      "domain": null,
+      "range": null,
+      "parent_concept": "public opinion surveys",
+      "constraints": null
+    },
+    {
+      "term": "rally effect",
+      "term_type": "entity",
+      "subtype": "phenomenon",
+      "domain": null,
+      "range": null,
+      "parent_concept": "political behaviour phenomenon",
+      "constraints": null
+    },
+    {
+      "term": "prolonged insurgency",
+      "term_type": "entity",
+      "subtype": "phenomenon",
+      "domain": null,
+      "range": null,
+      "parent_concept": "conflict phenomenon",
+      "constraints": null
+    },
+    {
+      "term": "behaviour change",
+      "term_type": "entity",
+      "subtype": "outcome",
+      "domain": null,
+      "range": null,
+      "parent_concept": "message acceptance",
+      "constraints": null
+    },
+    {
+      "term": "resource allocation",
+      "term_type": "entity",
+      "subtype": "process constraint",
+      "domain": null,
+      "range": null,
+      "parent_concept": "planning constraint",
+      "constraints": null
+    }
+  ],
+  "relationships": [
+    {
+      "term": "dose-response curve",
+      "term_type": "relationship",
+      "subtype": null,
+      "domain": [
+        "Message Exposures"
+      ],
+      "range": [
+        "Message Acceptance Probability"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "monotonic_until": "threshold"
+      }
+    },
+    {
+      "term": "diminishing returns",
+      "term_type": "relationship",
+      "subtype": null,
+      "domain": [
+        "Message Exposures"
+      ],
+      "range": [
+        "Marginal Acceptance Gain"
+      ],
+      "parent_concept": "dose-response curve",
+      "constraints": {
+        "second_derivative": "negative"
+      }
+    },
+    {
+      "term": "negative returns",
+      "term_type": "relationship",
+      "subtype": null,
+      "domain": [
+        "Message Exposures"
+      ],
+      "range": [
+        "Message Acceptance Probability"
+      ],
+      "parent_concept": "diminishing returns",
+      "constraints": {
+        "slope": "<0 beyond saturation point"
+      }
+    }
+  ],
+  "properties": [
+    {
+      "term": "stakeholder salience",
+      "term_type": "property",
+      "subtype": "attribute",
+      "domain": [
+        "stakeholders"
+      ],
+      "range": [
+        "importance score"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "group discipline",
+      "term_type": "property",
+      "subtype": "attribute",
+      "domain": [
+        "group leaders",
+        "followers"
+      ],
+      "range": [
+        "compliance level"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "within-group heterogeneity",
+      "term_type": "property",
+      "subtype": "attribute",
+      "domain": [
+        "stakeholders"
+      ],
+      "range": [
+        "variance measure"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "subgroup characteristics",
+      "term_type": "property",
+      "subtype": "attribute",
+      "domain": [
+        "target audiences"
+      ],
+      "range": [
+        "feature set"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "credibility",
+      "term_type": "property",
+      "subtype": "attribute",
+      "domain": [
+        "message source"
+      ],
+      "range": [
+        "credibility score"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "source trustworthiness",
+      "term_type": "property",
+      "subtype": "attribute",
+      "domain": [
+        "message source"
+      ],
+      "range": [
+        "trust score"
+      ],
+      "parent_concept": "credibility",
+      "constraints": null
+    },
+    {
+      "term": "attitude stability",
+      "term_type": "property",
+      "subtype": "attribute",
+      "domain": [
+        "attitude structure"
+      ],
+      "range": [
+        "time persistence index"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "cognitive priors",
+      "term_type": "property",
+      "subtype": "attribute",
+      "domain": [
+        "target audiences"
+      ],
+      "range": [
+        "schema set"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "psychological priors",
+      "term_type": "property",
+      "subtype": "attribute",
+      "domain": [
+        "target audiences"
+      ],
+      "range": [
+        "trait profile"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "emotional priors",
+      "term_type": "property",
+      "subtype": "attribute",
+      "domain": [
+        "target audiences"
+      ],
+      "range": [
+        "affective baseline"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "normative priors",
+      "term_type": "property",
+      "subtype": "attribute",
+      "domain": [
+        "target audiences"
+      ],
+      "range": [
+        "value set"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "predisposition to accept",
+      "term_type": "property",
+      "subtype": "attribute",
+      "domain": [
+        "target audiences"
+      ],
+      "range": [
+        "probability"
+      ],
+      "parent_concept": "cognitive/emotional priors",
+      "constraints": null
+    },
+    {
+      "term": "messenger source characteristics",
+      "term_type": "property",
+      "subtype": "attribute",
+      "domain": [
+        "message source"
+      ],
+      "range": [
+        "attribute vector"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "message characteristics",
+      "term_type": "property",
+      "subtype": "attribute",
+      "domain": [
+        "message content"
+      ],
+      "range": [
+        "feature vector"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "message source",
+      "term_type": "property",
+      "subtype": "message attribute",
+      "domain": [
+        "message"
+      ],
+      "range": [
+        "actor"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "message content",
+      "term_type": "property",
+      "subtype": "message attribute",
+      "domain": [
+        "message"
+      ],
+      "range": [
+        "semantic payload"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "message format",
+      "term_type": "property",
+      "subtype": "message attribute",
+      "domain": [
+        "message"
+      ],
+      "range": [
+        "media type"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "message complexity",
+      "term_type": "property",
+      "subtype": "message attribute",
+      "domain": [
+        "message"
+      ],
+      "range": [
+        "reading grade/entropy"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "motivational appeal",
+      "term_type": "property",
+      "subtype": "message attribute",
+      "domain": [
+        "message"
+      ],
+      "range": [
+        "appeal type"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "themes",
+      "term_type": "property",
+      "subtype": "message attribute",
+      "domain": [
+        "message"
+      ],
+      "range": [
+        "narrative set"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "cognitive demands",
+      "term_type": "property",
+      "subtype": "processing factor",
+      "domain": [
+        "message"
+      ],
+      "range": [
+        "mental effort units"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    }
+  ],
+  "actions": [
+    {
+      "term": "persuade",
+      "term_type": "action",
+      "subtype": null,
+      "domain": [
+        "Influence Operator"
+      ],
+      "range": [
+        "target audiences"
+      ],
+      "parent_concept": "influence strategy",
+      "constraints": {
+        "requires": "message + inducement"
+      }
+    },
+    {
+      "term": "dissuade",
+      "term_type": "action",
+      "subtype": null,
+      "domain": [
+        "Influence Operator"
+      ],
+      "range": [
+        "adversary stakeholders"
+      ],
+      "parent_concept": "influence strategy",
+      "constraints": {
+        "focus": "undesired behaviour"
+      }
+    },
+    {
+      "term": "deter",
+      "term_type": "action",
+      "subtype": null,
+      "domain": [
+        "Influence Operator"
+      ],
+      "range": [
+        "adversary stakeholders"
+      ],
+      "parent_concept": "influence strategy",
+      "constraints": {
+        "mechanism": "credible threat"
+      }
+    },
+    {
+      "term": "reassure",
+      "term_type": "action",
+      "subtype": null,
+      "domain": [
+        "Influence Operator"
+      ],
+      "range": [
+        "allied stakeholders"
+      ],
+      "parent_concept": "influence strategy",
+      "constraints": null
+    },
+    {
+      "term": "positive inducements",
+      "term_type": "action",
+      "subtype": "tactic",
+      "domain": [
+        "Influence Operator"
+      ],
+      "range": [
+        "stakeholders"
+      ],
+      "parent_concept": "persuade",
+      "constraints": null
+    },
+    {
+      "term": "negative inducements",
+      "term_type": "action",
+      "subtype": "tactic",
+      "domain": [
+        "Influence Operator"
+      ],
+      "range": [
+        "stakeholders"
+      ],
+      "parent_concept": "deter",
+      "constraints": null
+    },
+    {
+      "term": "threats / use of force",
+      "term_type": "action",
+      "subtype": "tactic",
+      "domain": [
+        "U.S. military forces"
+      ],
+      "range": [
+        "adversary stakeholders"
+      ],
+      "parent_concept": "negative inducements",
+      "constraints": null
+    },
+    {
+      "term": "message repetition",
+      "term_type": "action",
+      "subtype": "tactic",
+      "domain": [
+        "Influence Operator"
+      ],
+      "range": [
+        "target audiences"
+      ],
+      "parent_concept": "messaging campaign",
+      "constraints": {
+        "frequency": ">1"
+      }
+    },
+    {
+      "term": "carrots and sticks",
+      "term_type": "action",
+      "subtype": "tactic",
+      "domain": [
+        "Influence Operator"
+      ],
+      "range": [
+        "stakeholders"
+      ],
+      "parent_concept": "mixed inducement strategy",
+      "constraints": null
+    },
+    {
+      "term": "messaging campaign",
+      "term_type": "action",
+      "subtype": "process",
+      "domain": [
+        "Influence Operator"
+      ],
+      "range": [
+        "target audiences"
+      ],
+      "parent_concept": "influence strategy",
+      "constraints": {
+        "temporal_extent": "multi-message"
+      }
+    },
+    {
+      "term": "synchronise influence operations",
+      "term_type": "action",
+      "subtype": "process",
+      "domain": [
+        "Influence Operator"
+      ],
+      "range": [
+        "other military/policy actions"
+      ],
+      "parent_concept": "messaging campaign",
+      "constraints": null
+    },
+    {
+      "term": "monitoring and assessment",
+      "term_type": "action",
+      "subtype": "process",
+      "domain": [
+        "Influence Operator"
+      ],
+      "range": [
+        "metrics"
+      ],
+      "parent_concept": "messaging campaign",
+      "constraints": null
+    },
+    {
+      "term": "adaptation",
+      "term_type": "action",
+      "subtype": "process",
+      "domain": [
+        "Influence Operator"
+      ],
+      "range": [
+        "influence strategy"
+      ],
+      "parent_concept": "monitoring and assessment",
+      "constraints": null
+    },
+    {
+      "term": "top-down planning approach",
+      "term_type": "action",
+      "subtype": "process",
+      "domain": [
+        "influence planners"
+      ],
+      "range": [
+        "strategy/tactics decomposition"
+      ],
+      "parent_concept": "planning process",
+      "constraints": null
+    },
+    {
+      "term": "robust planning and assessment process",
+      "term_type": "action",
+      "subtype": "process",
+      "domain": [
+        "influence planners"
+      ],
+      "range": [
+        "influence campaign"
+      ],
+      "parent_concept": "planning process",
+      "constraints": {
+        "property": "iterative"
+      }
+    },
+    {
+      "term": "metrics-based process",
+      "term_type": "action",
+      "subtype": "process",
+      "domain": [
+        "influence planners"
+      ],
+      "range": [
+        "quantitative indicators"
+      ],
+      "parent_concept": "robust planning and assessment process",
+      "constraints": null
+    },
+    {
+      "term": "resource allocation",
+      "term_type": "action",
+      "subtype": "process constraint",
+      "domain": [
+        "Influence Operator"
+      ],
+      "range": [
+        "influence tasks"
+      ],
+      "parent_concept": "planning process",
+      "constraints": {
+        "total_resources": "finite"
+      }
+    }
+  ],
+  "measures": [
+    {
+      "term": "metrics",
+      "term_type": "measure",
+      "subtype": "measurement",
+      "domain": [
+        "influence campaign"
+      ],
+      "range": [
+        "indicator values"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "message awareness",
+      "term_type": "measure",
+      "subtype": "measurement",
+      "domain": [
+        "target audiences"
+      ],
+      "range": [
+        "percentage exposed"
+      ],
+      "parent_concept": "metrics",
+      "constraints": {
+        "scale": "0-100%"
+      }
+    },
+    {
+      "term": "Q score",
+      "term_type": "measure",
+      "subtype": "metric",
+      "domain": [
+        "message source"
+      ],
+      "range": [
+        "0-100 familiarity/likeability"
+      ],
+      "parent_concept": "metrics",
+      "constraints": {
+        "industry_standard": "advertising"
+      }
+    }
+  ],
+  "modifiers": [
+    {
+      "term": "peacetime influence operations",
+      "term_type": "modifier",
+      "subtype": "phase",
+      "domain": null,
+      "range": null,
+      "parent_concept": "influence operations",
+      "constraints": {
+        "temporal": "pre-conflict"
+      }
+    },
+    {
+      "term": "crisis influence operations",
+      "term_type": "modifier",
+      "subtype": "phase",
+      "domain": null,
+      "range": null,
+      "parent_concept": "influence operations",
+      "constraints": {
+        "temporal": "acute tension"
+      }
+    },
+    {
+      "term": "major combat operations influence",
+      "term_type": "modifier",
+      "subtype": "phase",
+      "domain": null,
+      "range": null,
+      "parent_concept": "influence operations",
+      "constraints": {
+        "temporal": "active combat"
+      }
+    },
+    {
+      "term": "stability operations influence",
+      "term_type": "modifier",
+      "subtype": "phase",
+      "domain": null,
+      "range": null,
+      "parent_concept": "influence operations",
+      "constraints": {
+        "temporal": "post-conflict"
+      }
+    }
+  ],
+  "truth_values": [],
+  "operators": []
+}

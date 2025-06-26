@@ -39,3 +39,29 @@
 
   The current prompt essentially trains the AI to follow the property_graph template rather than genuinely evaluate which model type best fits
   each theory.
+
+## Domain/Range Logical Inconsistency
+
+**Problem**: The prompt instructs AI to specify domain/range for entities/concepts, which is semantically incorrect.
+
+**Example from foundations_framework_chapters6-7_raw.yml**:
+```yaml
+- name: "us_objective"
+  category: "core-construct"  # This is an ENTITY
+  domain: ["USGovernment"]    # But domain/range are for RELATIONSHIPS
+  range: ["PoliticalOutcome", "CampaignOutcome"]
+```
+
+**Issue**: Domain and range constraints are logical properties of relationships (predicates), not entities (subjects/objects). When applied to entities, they create meaningless constraints.
+
+**Correct Usage**: Domain/range should only be specified for relationship types:
+```yaml
+- name: "has_objective"
+  category: "relationship"
+  domain: ["USGovernment"] 
+  range: ["PoliticalOutcome", "CampaignOutcome"]
+```
+
+**Systemic Impact**: This error appears across multiple YAML files, indicating the prompt guidance about "domain and range" specification is causing fundamental logical confusion between entities and relations.
+
+**Fix Needed**: Clarify in prompt that domain/range constraints only apply to relationship definitions, not entity definitions.

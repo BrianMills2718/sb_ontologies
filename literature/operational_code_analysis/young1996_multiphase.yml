@@ -1,0 +1,157 @@
+annotation: Young argues that importing the symbol-rich formalism of semantic networks
+  into cognitive mapping—implemented in the WorldView system—greatly expands what
+  scholars can extract about actors’ belief systems and decision processes. The paper
+  reviews limits of matrix-based maps, introduces WorldView’s enhanced coding, aggregation,
+  and measurement tools, and positions the approach for dynamic modeling of belief
+  change.
+citation: 'Young, Michael D. 1996. “Cognitive Mapping Meets Semantic Networks.” Journal
+  of Conflict Resolution 40(3): 395-414.'
+model_type: property_graph
+rationale: The core ideas revolve around concepts (nodes) connected by typed links
+  (edges) with attributes and metrics; this structure is naturally captured by a property
+  graph that can store entities, relationships, properties, actions, and measures.
+schema_blueprint:
+  definitions:
+  - category: entity
+    description: Graph-based technique for representing how individuals causally link
+      concepts in their belief systems.
+    name: Cognitive mapping
+  - category: entity
+    description: Knowledge representation scheme that connects concepts with labeled,
+      symbolic links such as is-a or part-of.
+    name: Semantic network
+  - category: entity
+    description: Computer tool that merges cognitive mapping with semantic network
+      formalisms to code, store, and analyze belief structures.
+    name: WorldView
+  - category: entity
+    description: Interconnected set of propositions an actor holds about the world,
+      often modeled as a network of concepts and relations.
+    name: Belief structure
+  - category: entity
+    description: Individual idea or node within a map that can be linked to other
+      ideas via relationships.
+    name: Concept
+  - category: entity
+    description: Square matrix representation indicating whether pairs of concepts
+      are connected in traditional cognitive maps.
+    name: Adjacency matrix
+  - category: entity
+    description: Network of nodes connected by arrows indicating directionality of
+      influence or association.
+    name: Directed graph
+  - category: relationship
+    description: Link asserting that change in one concept produces change in another.
+    domain:
+    - Entity
+    name: Causal relationship
+    range:
+    - Entity
+  - category: relationship
+    description: Association between concepts that does not specify cause-effect,
+      such as similarity or membership.
+    domain:
+    - Entity
+    name: Noncausal relationship
+    range:
+    - Entity
+  - category: relationship
+    description: Hierarchical link stating that one concept is a subtype of another.
+    domain:
+    - Entity
+    name: Is-a relationship
+    range:
+    - Entity
+  - category: relationship
+    description: Link indicating that one concept constitutes a component of a larger
+      whole.
+    domain:
+    - Entity
+    name: Part-of relationship
+    range:
+    - Entity
+  - category: relationship
+    description: Influence where an increase in one concept increases the linked concept.
+    domain:
+    - Entity
+    name: Positive causal link
+    range:
+    - Entity
+  - category: relationship
+    description: Influence where an increase in one concept decreases the linked concept.
+    domain:
+    - Entity
+    name: Negative causal link
+    range:
+    - Entity
+  - category: property
+    description: WorldView feature that collapses different lexical forms of the same
+      idea into a single concept.
+    name: Synonym facility
+  - category: property
+    description: Capability to merge multiple texts or respondents into one composite
+      belief map.
+    name: Aggregation
+  - category: measure
+    description: Quantitative indicator that captures topological features of a belief
+      network (e.g., centrality).
+    name: Structural measure
+  - category: measure
+    description: Metric that contrasts two or more belief structures to detect similarities
+      or differences.
+    name: Comparative measure
+  - category: property
+    description: Conceptual content lost when complex statements are encapsulated
+      as single nodes in basic maps.
+    name: Hidden information
+  - category: property
+    description: Compound idea treated as one node, masking its internal components.
+    name: Encapsulated concept
+  - category: action
+    description: Systematic coding procedure used to extract subject-relation-object
+      triples from textual data.
+    domain:
+    - Entity
+    name: Content analysis
+    range:
+    - Entity
+  - category: action
+    description: Process by which an actor updates or revises elements of their belief
+      structure.
+    domain:
+    - Entity
+    name: Belief change
+    range:
+    - Entity
+  - category: action
+    description: Selection among alternatives informed by an actor’s belief map and
+      preferences.
+    domain:
+    - Entity
+    name: Decision making
+    range:
+    - Entity
+  - category: action
+    description: Dynamic manipulation of belief structures to infer consequences or
+      evaluate options.
+    domain:
+    - Entity
+    name: Reasoning
+    range:
+    - Entity
+  - category: measure
+    description: Measure of how important or influential a concept is within a network.
+    name: Centrality
+  - category: measure
+    description: Extent to which nodes in a belief network are linked, reflecting
+      integration or fragmentation.
+    name: Connectivity
+  description: Schema generated from paper analysis
+  root_properties:
+    edges:
+      description: Relationships and actions
+      item_type: NaryTuple
+    nodes:
+      description: Entities and concepts
+      item_type: Entity
+  title: Simplified Schema

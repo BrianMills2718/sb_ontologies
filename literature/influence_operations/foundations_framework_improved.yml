@@ -1,0 +1,575 @@
+citation: 'Larson, Eric V., et al. 2009. Foundations of Effective Influence Operations.
+  Santa Monica, CA: RAND Corporation. (Chapter 6: “A Framework for Influence Operations”
+  and Chapter 7 excerpt.)'
+annotation: Chapter 6 synthesises a broad social-science literature into a practical,
+  nine-question planning framework that links U.S. political-military objectives to
+  concrete influence substrategies, diagnostic tools, and assessment methods.  It
+  integrates rational–choice modelling, attitude-structure measurement, and communication
+  theory to show planners how to identify high-payoff stakeholders, craft differentiated
+  message campaigns, and manage dose–response trade-offs over time and across conflict
+  phases.  The chapter’s theoretical contribution is a multi-level, metrics-driven
+  schema that connects individual cognitive processes, group dynamics, and mass-public
+  persuasion with operational design and adaptive assessment.
+model_type: property_graph
+rationale: The theory is not a simple hierarchy, ordered sequence, or tidy matrix;
+  instead it interweaves many heterogeneous entity classes (operations, stakeholders,
+  objectives, messages, attitude structures, metrics, planning questions, curves)
+  with a rich set of lateral relations (targets, measures, influences, employs, maps-to,
+  etc.). A property-graph best supports these many-to-many, multi-level, richly-attributed
+  links and allows quantitative edge/node properties required for dose–response analytics.
+schema_blueprint:
+  title: Larson et al. (2009) Multi-Level Influence Operations Framework – Knowledge
+    Schema
+  description: This schema captures the RAND framework that links U.S. political-military
+    objectives to concrete influence substrategies through nine planning questions,
+    multi-level attitudes, stakeholder features, messaging actions, and dose-response
+    assessment. It must support heterogeneous actors, cognitive structures, quantitative
+    metrics, and phase-specific modifiers while preserving fine-grained relationships
+    across individual, group, and mass-public levels.
+  root_properties:
+    nodes:
+      description: The entities and concepts in the theoretical model
+      item_type: Entity
+    edges:
+      description: The relationships and actions connecting entities
+      item_type: NaryTuple
+  definitions:
+  - name: influence operations
+    category: core-construct
+    description: Coordinated activities designed to change attitudes, beliefs, decisions
+      or behaviours of selected audiences in support of U.S. objectives.
+  - name: target audiences
+    category: core-construct
+    description: Specific actors, groups, or publics whose attitudes or behaviour
+      the operation seeks to influence.
+    subTypeOf: influence operations
+    cardinality: one-to-many with influence operations
+  - name: attitude structure
+    category: core-construct
+    description: Organisation and interrelationships of beliefs and evaluations within
+      an individual.
+    subTypeOf: attitudes
+  - name: attitude objects
+    category: core-construct
+    description: Specific issues, persons, or entities toward which attitudes are
+      held.
+    subTypeOf: attitudes
+  - name: framework for influence operations
+    category: model/architecture
+    description: An overarching structure that organises theories, tools and lessons
+      into a step-by-step planning and execution process.
+  - name: planning questions
+    category: process element
+    description: Nine key analytic questions that guide top-down development of influence
+      strategy.
+    subTypeOf: framework for influence operations
+    count: nine
+  - name: decisionmaking rules
+    category: process element
+    description: Formal or informal doctrines leaders follow when selecting options.
+    subTypeOf: decisionmaking environment
+  - name: strategic-level issues
+    category: context variable
+    description: High-level political and military considerations that shape overall
+      campaign design and desired outcomes.
+    subTypeOf: operational context
+  - name: decisionmaking environment
+    category: context variable
+    description: Procedures, organisational processes, and contextual factors framing
+      how leaders choose.
+    subTypeOf: operational context
+  - name: U.S. objectives
+    category: goal variable
+    description: The desired political, military, or informational end-states articulated
+      by U.S. leadership.
+    subTypeOf: objective
+  - name: coalition objectives
+    category: goal variable
+    description: Shared goals agreed upon by allied actors collaborating with the
+      United States.
+    subTypeOf: objective
+  - name: political-military outcomes
+    category: outcome variable
+    description: Observable results in the political and security domains that stem
+      from interaction of actors.
+    subTypeOf: outcome
+  - name: message acceptance
+    category: outcome variable
+    description: Recipient’s cognitive and/or behavioural agreement with conveyed
+      content.
+    subTypeOf: attitude/behaviour outcome
+  - name: agent-based rational choice model
+    category: analytic tool
+    description: Simulation approach in which autonomous stakeholders choose actions
+      that maximise expected utility within a policy space.
+    subTypeOf: expected utility model
+  - name: expected utility model
+    category: analytic tool
+    description: Formal model that estimates actors’ preferred options by weighting
+      pay-offs by probabilities.
+    subTypeOf: decision theory model
+  - name: metric multidimensional scaling
+    category: analytic tool
+    description: Statistical technique mapping similarities into geometric space to
+      represent attitude distances.
+    subTypeOf: multivariate statistics
+  - name: Woelfel’s metric multidimensional scaling
+    category: analytic tool
+    description: Specific MDS approach developed by Woelfel for representing attitudes
+      in communication research.
+    subTypeOf: metric multidimensional scaling
+  - name: stakeholders
+    category: actor category
+    description: Actors or groups that possess interests or resources relevant to
+      campaign outcomes.
+    subTypeOf: actor
+  - name: group leaders
+    category: actor category
+    description: Individuals possessing authority within a stakeholder group or network.
+    subTypeOf: stakeholders
+  - name: followers
+    category: actor category
+    description: Members of a group who are influenced by, and often defer to, their
+      leader.
+    subTypeOf: stakeholders
+  - name: high-payoff stakeholder groups
+    category: actor category
+    description: Actors whose attitude shift would most improve likelihood of achieving
+      objectives.
+    subTypeOf: stakeholders
+    selection_criterion: marginal utility gain
+  - name: influence strategy
+    category: strategy-type
+    description: An overall plan combining messages, inducements, and actions to shift
+      stakeholder behaviour toward objectives.
+    subTypeOf: plan
+  - name: conditional reciprocity
+    category: strategy-type
+    description: Strategy offering benefits contingent on the target’s compliance
+      with desired behaviour.
+    subTypeOf: influence strategy
+  - name: influence substrategy
+    category: strategy-type
+    description: Tailored plan addressing a specific stakeholder segment within the
+      overall influence strategy.
+    subTypeOf: influence strategy
+  - name: social power/interaction theory
+    category: theory
+    description: Theory explaining how power relations and interactions within groups
+      affect compliance.
+    subTypeOf: social theory
+  - name: social choice theory
+    category: theory
+    description: Analytical framework examining collective decision rules and preference
+      aggregation.
+    subTypeOf: decision theory
+  - name: opinion leadership model
+    category: theory
+    description: Model positing that certain influential individuals mediate information
+      flows to wider publics.
+    subTypeOf: diffusion of innovation theory
+  - name: information channels
+    category: medium
+    description: Media or pathways—e.g., radio, TV, interpersonal networks—used to
+      transmit messages.
+    subTypeOf: communication medium
+  - name: communication channels
+    category: medium
+    description: Specific conduits—technical or interpersonal—through which messages
+      travel.
+    subTypeOf: information channels
+  - name: OODA loop
+    category: process model
+    description: Observe–Orient–Decide–Act cycle; window in which influence must occur
+      prior to decision.
+    subTypeOf: decision cycle
+  - name: Galileo theory
+    category: model
+    description: Software/theoretical implementation of metric MDS used to predict
+      message effects in attitude space.
+    subTypeOf: metric multidimensional scaling
+  - name: attitude space
+    category: concept
+    description: Multidimensional geometric representation of attitudes used to gauge
+      distance and potential change.
+    subTypeOf: attitude structure
+  - name: high predisposition group
+    category: audience segment
+    description: Audience segment already favourable toward the message content.
+    subTypeOf: target audiences
+  - name: medium predisposition group
+    category: audience segment
+    description: Audience segment moderately favourable or ambivalent toward the message.
+    subTypeOf: target audiences
+  - name: low predisposition group
+    category: audience segment
+    description: Audience segment inclined to resist or reject the message.
+    subTypeOf: target audiences
+  - name: war of ideas
+    category: context
+    description: Competitive information environment in which various actors propagate
+      conflicting narratives.
+    subTypeOf: information environment
+  - name: kinetic actions
+    category: context
+    description: Physical military operations involving force application.
+    subTypeOf: military operations
+  - name: heterogeneous population
+    category: context
+    description: Audience composed of diverse subgroups with varying receptivity and
+      characteristics.
+    subTypeOf: population
+  - name: information environment
+    category: context
+    description: Aggregate of media, channels, and competing messages surrounding
+      a target audience.
+  - name: leadership vacuum
+    category: context
+    description: Situation in which existing authority structures have collapsed,
+      creating uncertainty.
+    subTypeOf: decisionmaking environment
+  - name: content analysis
+    category: method
+    description: Systematic coding and quantitative analysis of communication content.
+    subTypeOf: measurement method
+  - name: focus groups
+    category: method
+    description: Small, moderated discussions used to explore perceptions and test
+      messages.
+    subTypeOf: qualitative method
+  - name: public opinion surveys
+    category: method
+    description: Structured questionnaires administered to probability samples to
+      measure attitudes.
+    subTypeOf: quantitative method
+  - name: attitude surveys
+    category: method
+    description: Instruments designed to capture specific belief and evaluation structures.
+    subTypeOf: public opinion surveys
+  - name: experiments
+    category: method
+    description: Controlled studies manipulating variables to observe causal effects
+      on attitudes/behaviour.
+    subTypeOf: research method
+  - name: follow-up surveys
+    category: method
+    description: Post-intervention measurement used to assess change and sustainability
+      of effects.
+    subTypeOf: public opinion surveys
+  - name: rally effect
+    category: phenomenon
+    description: Surge in public support for leaders often following external threat
+      or crisis.
+    subTypeOf: political behaviour phenomenon
+  - name: prolonged insurgency
+    category: phenomenon
+    description: Extended, organised violent resistance following initial conflict
+      phase.
+    subTypeOf: conflict phenomenon
+  - name: behaviour change
+    category: outcome
+    description: Observable modification in actions of target audience attributable
+      to influence efforts.
+    subTypeOf: message acceptance
+  - name: resource allocation
+    category: process constraint
+    description: Distribution of finite assets (e.g., funds, troops, airtime) across
+      influence tasks.
+    subTypeOf: planning constraint
+  - name: dose-response curve
+    category: relationship
+    description: Function describing how probability of message acceptance changes
+      with number of exposures.
+    domain:
+    - Message Exposures
+    range:
+    - Message Acceptance Probability
+    monotonic_until: threshold
+  - name: diminishing returns
+    category: relationship
+    description: Decreasing marginal effectiveness of additional message exposures
+      after a certain point.
+    domain:
+    - Message Exposures
+    range:
+    - Marginal Acceptance Gain
+    subTypeOf: dose-response curve
+    second_derivative: negative
+  - name: negative returns
+    category: relationship
+    description: Point at which further message exposures reduce acceptance probability.
+    domain:
+    - Message Exposures
+    range:
+    - Message Acceptance Probability
+    subTypeOf: diminishing returns
+    slope: <0 beyond saturation point
+  - name: stakeholder salience
+    category: attribute
+    description: Relative importance of a stakeholder’s position, resources, or attention
+      to a given issue.
+  - name: group discipline
+    category: attribute
+    description: Degree to which members comply with leadership directives.
+  - name: within-group heterogeneity
+    category: attribute
+    description: Variation in beliefs, traits, or media habits among members of the
+      same group.
+  - name: subgroup characteristics
+    category: attribute
+    description: Distinctive features of segments inside a larger audience affecting
+      message reception.
+  - name: credibility
+    category: attribute
+    description: Perceived accuracy and trustworthiness of a source or channel.
+  - name: source trustworthiness
+    category: attribute
+    description: Judgement that a messenger is honest and reliable.
+    subTypeOf: credibility
+  - name: attitude stability
+    category: attribute
+    description: Degree to which an attitude persists unchanged over time.
+  - name: cognitive priors
+    category: attribute
+    description: Pre-existing mental schemas shaping information processing.
+  - name: psychological priors
+    category: attribute
+    description: Baseline mental states or traits influencing receptivity.
+  - name: emotional priors
+    category: attribute
+    description: Pre-existing affective dispositions relevant to message evaluation.
+  - name: normative priors
+    category: attribute
+    description: Value-based standards or cultural norms already held by an individual.
+  - name: predisposition to accept
+    category: attribute
+    description: Baseline inclination of an individual or group to agree with a message
+      prior to exposure.
+    subTypeOf: cognitive/emotional priors
+  - name: messenger source characteristics
+    category: attribute
+    description: Attributes such as competence, likeability, credibility, trustworthiness,
+      confidence affecting persuasion.
+  - name: message characteristics
+    category: attribute
+    description: Features of a message—content, format, cognitive and emotional appeal—that
+      influence effectiveness.
+  - name: message source
+    category: message attribute
+    description: Individual or institution identified as the originator of a message.
+  - name: message content
+    category: message attribute
+    description: Substantive semantic information delivered to the audience.
+  - name: message format
+    category: message attribute
+    description: Structural presentation (e.g., text, visual, audio) of a message.
+  - name: message complexity
+    category: message attribute
+    description: Cognitive difficulty imposed by a message’s structure or vocabulary.
+  - name: motivational appeal
+    category: message attribute
+    description: Elements of a message that arouse emotional or rational incentives
+      to attend and comply.
+  - name: themes
+    category: message attribute
+    description: Overarching ideas or narratives woven through message content.
+  - name: cognitive demands
+    category: processing factor
+    description: Mental effort required from the audience to process a message.
+  - name: persuade
+    category: action
+    description: Induce an actor to adopt a desired belief or action through argument
+      or appeal.
+    domain:
+    - Influence Operator
+    range:
+    - target audiences
+    subTypeOf: influence strategy
+    requires: message + inducement
+  - name: dissuade
+    category: action
+    description: Convince an actor not to take an undesirable action.
+    domain:
+    - Influence Operator
+    range:
+    - adversary stakeholders
+    subTypeOf: influence strategy
+    focus: undesired behaviour
+  - name: deter
+    category: action
+    description: Prevent action by threatening credible consequences.
+    domain:
+    - Influence Operator
+    range:
+    - adversary stakeholders
+    subTypeOf: influence strategy
+    mechanism: credible threat
+  - name: reassure
+    category: action
+    description: Provide confidence to allies or populations to maintain desired behaviour.
+    domain:
+    - Influence Operator
+    range:
+    - allied stakeholders
+    subTypeOf: influence strategy
+  - name: positive inducements
+    category: tactic
+    description: Rewards or benefits offered to elicit compliance or support.
+    domain:
+    - Influence Operator
+    range:
+    - stakeholders
+    subTypeOf: persuade
+  - name: negative inducements
+    category: tactic
+    description: Threats, punishments, or costs imposed to alter behaviour.
+    domain:
+    - Influence Operator
+    range:
+    - stakeholders
+    subTypeOf: deter
+  - name: threats / use of force
+    category: tactic
+    description: Cudgel component of influence leveraging potential or actual military
+      action.
+    domain:
+    - U.S. military forces
+    range:
+    - adversary stakeholders
+    subTypeOf: negative inducements
+  - name: message repetition
+    category: tactic
+    description: Sending the same or similar content multiple times to the same audience.
+    domain:
+    - Influence Operator
+    range:
+    - target audiences
+    subTypeOf: messaging campaign
+    frequency: '>1'
+  - name: carrots and sticks
+    category: tactic
+    description: Combination of rewards (carrots) and punishments (sticks) used as
+      levers of influence.
+    domain:
+    - Influence Operator
+    range:
+    - stakeholders
+    subTypeOf: mixed inducement strategy
+  - name: messaging campaign
+    category: process
+    description: Coordinated series of messages designed to achieve influence objectives
+      over time.
+    domain:
+    - Influence Operator
+    range:
+    - target audiences
+    subTypeOf: influence strategy
+    temporal_extent: multi-message
+  - name: synchronise influence operations
+    category: process
+    description: Align timing and content of influence activities with other policy,
+      military, or informational actions.
+    domain:
+    - Influence Operator
+    range:
+    - other military/policy actions
+    subTypeOf: messaging campaign
+  - name: monitoring and assessment
+    category: process
+    description: Ongoing measurement of indicator data to judge strategy effectiveness.
+    domain:
+    - Influence Operator
+    range:
+    - metrics
+    subTypeOf: messaging campaign
+  - name: adaptation
+    category: process
+    description: Revising strategies and messages based on assessment feedback.
+    domain:
+    - Influence Operator
+    range:
+    - influence strategy
+    subTypeOf: monitoring and assessment
+  - name: top-down planning approach
+    category: process
+    description: Method starting from strategic objectives and decomposing requirements
+      down to tactics.
+    domain:
+    - influence planners
+    range:
+    - strategy/tactics decomposition
+    subTypeOf: planning process
+  - name: robust planning and assessment process
+    category: process
+    description: Resilient methodological cycle allowing iteration under uncertainty.
+    domain:
+    - influence planners
+    range:
+    - influence campaign
+    subTypeOf: planning process
+    property: iterative
+  - name: metrics-based process
+    category: process
+    description: Planning and assessment approach anchored in quantitative indicators
+      linked to objectives.
+    domain:
+    - influence planners
+    range:
+    - quantitative indicators
+    subTypeOf: robust planning and assessment process
+  - name: resource allocation
+    category: process constraint
+    description: Distribution of finite assets (e.g., funds, troops, airtime) across
+      influence tasks.
+    domain:
+    - Influence Operator
+    range:
+    - influence tasks
+    subTypeOf: planning process
+    total_resources: finite
+  - name: metrics
+    category: measurement
+    description: Quantitative indicators linked to objectives for evaluating progress.
+  - name: message awareness
+    category: measurement
+    description: Extent to which target audience has encountered the message.
+    subTypeOf: metrics
+    scale: 0-100%
+  - name: Q score
+    category: metric
+    description: Metric of a spokesperson’s familiarity and likeability used in message
+      source selection.
+    subTypeOf: metrics
+    industry_standard: advertising
+  - name: peacetime influence operations
+    category: phase
+    description: Activities aimed at shaping the environment during periods absent
+      overt conflict.
+    subTypeOf: influence operations
+    temporal: pre-conflict
+  - name: crisis influence operations
+    category: phase
+    description: Efforts during heightened tension to persuade or coerce and manage
+      escalation.
+    subTypeOf: influence operations
+    temporal: acute tension
+  - name: major combat operations influence
+    category: phase
+    description: Persuasion activities integrated into conventional warfare to support
+      favourable termination.
+    subTypeOf: influence operations
+    temporal: active combat
+  - name: stability operations influence
+    category: phase
+    description: Persuasion aimed at re-establishing order and political equilibrium
+      after conflict.
+    subTypeOf: influence operations
+    temporal: post-conflict
+  modifiers_supported:
+  - peacetime influence operations
+  - crisis influence operations
+  - major combat operations influence
+  - stability operations influence
+  truth_values_supported:
+  - probability (0-1 continuous)
+  - binary true/false for factual context variables

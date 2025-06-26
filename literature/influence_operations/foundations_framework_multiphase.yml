@@ -1,0 +1,137 @@
+annotation: Chapter Six distills a multi-level social-science review into nine planning
+  questions that link U.S. strategic aims to concrete influence tactics. It highlights
+  the need to map actors, select tailored strategies, and measure outcomes through
+  formal analytic models.
+citation: 'Larson, Eric V., et al. "Foundations of Effective Influence Operations,"
+  Chapter Six: A Framework for Influence Operations, RAND Corporation, 2009.'
+model_type: property_graph
+rationale: The framework is best represented as a property graph in which actors,
+  groups, and audiences are nodes, linked by edges denoting influence, credibility,
+  authority, and information flow; node and edge properties capture attributes such
+  as salience, attitudes, and resource levels, while actions (e.g., inducements) are
+  modeled as labeled relationships or events.
+schema_blueprint:
+  definitions:
+  - category: entity
+    description: Stated political-military end-states the United States seeks to achieve
+      in a given theater.
+    name: U.S. objectives
+  - category: entity
+    description: A collective actor whose preferences and resources can affect political-military
+      outcomes.
+    name: Stakeholder group
+  - category: entity
+    description: A specific population segment selected for influence efforts.
+    name: Target audience
+  - category: entity
+    description: Simulation tool that treats each actor as a utility-maximizer to
+      forecast interactive outcomes.
+    name: Agent-based rational choice model
+  - category: entity
+    description: Quantitative decision framework estimating the payoff-weighted likelihood
+      of alternative actions.
+    name: Expected utility model
+  - category: action
+    description: Coordinated plan combining messages and actions to shift stakeholder
+      behavior toward desired ends.
+    domain:
+    - Entity
+    name: Influence strategy
+    range:
+    - Entity
+  - category: action
+    description: Offer of benefits or rewards intended to motivate compliance.
+    domain:
+    - Entity
+    name: Positive inducement
+    range:
+    - Entity
+  - category: action
+    description: Threat or application of punishment or costs to deter undesired behavior.
+    domain:
+    - Entity
+    name: Negative inducement
+    range:
+    - Entity
+  - category: relationship
+    description: Strategy of matching concessions or punishments in response to another
+      actor's moves.
+    domain:
+    - Entity
+    name: Conditional reciprocity
+    range:
+    - Entity
+  - category: property
+    description: Perceived legitimate power of a leader to issue binding directives.
+    name: Authority
+  - category: property
+    description: Capacity of an individual to influence others within a network.
+    name: Social power
+  - category: entity
+    description: Medium—such as TV, radio, print, or Internet—through which messages
+      are transmitted.
+    name: Information channel
+  - category: property
+    description: Degree to which a source or channel is trusted by the audience.
+    name: Credibility
+  - category: property
+    description: Resistance of an individual’s beliefs to change over time or under
+      persuasion.
+    name: Attitude stability
+  - category: property
+    description: Substantive information or appeals delivered to the audience.
+    name: Message content
+  - category: property
+    description: Importance an actor assigns to an issue when evaluating options.
+    name: Salience
+  - category: entity
+    description: Influential individual who interprets information for others and
+      shapes their attitudes.
+    name: Opinion leader
+  - category: entity
+    description: Alliance of key leaders coordinating positions across groups.
+    name: Leadership coalition
+  - category: property
+    description: Extent to which members comply with directives from their leadership.
+    name: Group discipline
+  - category: entity
+    description: Tailored set of influence actions targeting a single group or audience
+      within the broader campaign.
+    name: Substrategy
+  - category: action
+    description: Reliance on coercive military power to compel behavior.
+    domain:
+    - Entity
+    name: Force strategy
+    range:
+    - Entity
+  - category: action
+    description: Use of dialogue and bargaining to reach mutually acceptable outcomes.
+    domain:
+    - Entity
+    name: Negotiation strategy
+    range:
+    - Entity
+  - category: measure
+    description: Amount of personnel, funds, or matériel allocated to achieve objectives.
+    name: Resource commitment
+  - category: measure
+    description: Probability that a particular political-military end-state will occur.
+    name: Outcome likelihood
+  - category: measure
+    description: Number of times a target audience receives a particular communication
+      over a given period.
+    name: Message frequency
+  - category: property
+    description: Variation in demographics, beliefs, or behavior among members of
+      the same group.
+    name: Within-group heterogeneity
+  description: Schema generated from paper analysis
+  root_properties:
+    edges:
+      description: Relationships and actions
+      item_type: NaryTuple
+    nodes:
+      description: Entities and concepts
+      item_type: Entity
+  title: Simplified Schema
