@@ -2,14 +2,16 @@
 
 ## Strategic Goal
 
-This project aims to transform academic papers in social and behavioral sciences into structured, machine-readable knowledge representations. We seek to create a unified knowledge base that preserves theoretical richness while enabling computational analysis.
+This project aims to transform academic papers in social and behavioral sciences into structured, machine-readable knowledge representations that can be optimally modeled using diverse representation paradigms. We seek to create a unified yet flexible knowledge base that preserves theoretical richness while enabling multiple forms of computational analysis.
 
 ### Core Objectives
 
-1. **High-Fidelity Modeling**: Capture the complete theoretical vocabulary, relationships, and logical structures without oversimplification
-2. **Semantic Accuracy**: Maintain proper ontological distinctions (entities vs. relationships, domain/range constraints)
-3. **Computational Accessibility**: Enable querying, visualization, and cross-theory analysis
-4. **Theoretical Preservation**: Retain discipline-specific terminology and conceptual hierarchies
+1. **Multi-Paradigm Representation**: Support multiple model types (graphs, tables, sequences, trees, timelines) based on each theory's inherent structure
+2. **High-Fidelity Modeling**: Capture the complete theoretical vocabulary, relationships, and logical structures without oversimplification
+3. **Semantic Accuracy**: Maintain proper ontological distinctions (entities vs. relationships, domain/range constraints)
+4. **Computational Accessibility**: Enable diverse query methods (SPARQL, Cypher, SQL) and reasoning engines (OWL, RDF)
+5. **Interoperability**: Create schemas that can be translated between representation paradigms when needed
+6. **Theoretical Preservation**: Retain discipline-specific terminology and conceptual hierarchies
 
 ## Current Methodology: Three-Phase Processing
 
@@ -27,9 +29,15 @@ This project aims to transform academic papers in social and behavioral sciences
 
 ### Phase 3: Theory-Adaptive Schema Generation
 - **Goal**: Create appropriate knowledge representation structure
-- **Process**: Select optimal model type (graph, matrix, sequence, tree, timeline) based on theory structure
-- **Output**: Complete JSON Schema with theory-specific design
-- **Key Innovation**: Genuinely evaluates model type rather than defaulting to property graphs
+- **Process**: Select optimal model type based on theory's inherent structure:
+  - **property_graph**: For theories with rich interconnected relationships
+  - **table_matrix**: For classification systems, typologies, or cross-tabulated data
+  - **sequence**: For stage models, processes, or ordered progressions
+  - **tree**: For hierarchical taxonomies or decision structures
+  - **timeline**: For temporal evolution or historical development
+  - **other**: For unique structures requiring custom representation
+- **Output**: Complete JSON Schema with model-specific root properties
+- **Key Innovation**: Genuinely evaluates and selects appropriate model type with detailed rationale
 
 ## Technical Architecture
 
@@ -52,6 +60,65 @@ YAML Schema (.yml)
 3. **Theoretical Nuance**: Preserves subcategories like "core-construct", "process-element"
 4. **Hierarchical Support**: Maintains subTypeOf relationships
 5. **Complete Ontology**: Includes modifiers, truth values, and operators
+
+## Representation Paradigms and Interoperability
+
+### Model Type Selection Criteria
+Each theory has an inherent structure that suggests an optimal representation:
+
+- **Property Graph**: When relationships are as important as entities (e.g., social networks, causal models)
+- **Table/Matrix**: When data is naturally cross-tabulated (e.g., 2x2 classifications, feature matrices)
+- **Sequence**: When order and progression matter (e.g., stage theories, process models)
+- **Tree**: When hierarchical relationships dominate (e.g., taxonomies, decision trees)
+- **Timeline**: When temporal evolution is central (e.g., historical theories, developmental models)
+
+### Computational Capabilities by Model Type
+
+#### Property Graphs
+- **Query Languages**: Cypher, Gremlin, SPARQL
+- **Reasoning**: OWL-DL, RDF inference
+- **Operations**: Path finding, centrality, clustering
+- **Use Cases**: Network analysis, causal reasoning
+
+#### Tables/Matrices
+- **Query Languages**: SQL, Datalog
+- **Reasoning**: Relational algebra, constraint satisfaction
+- **Operations**: Joins, aggregations, statistical analysis
+- **Use Cases**: Classification, cross-tabulation, feature analysis
+
+#### Sequences & Timelines
+- **Query Languages**: Temporal SQL, process algebra
+- **Reasoning**: Temporal logic, event calculus
+- **Operations**: Pattern matching, sequence alignment
+- **Use Cases**: Process mining, historical analysis
+
+### Interoperability Strategy
+- **Common Vocabulary**: All models share core definitions (Entity, Role, etc.)
+- **Cross-Model Mappings**: Define transformation rules between representations
+- **Hybrid Queries**: Support queries that span multiple model types
+- **Format Translation**: Enable export to RDF, SQL schemas, Neo4j, etc.
+
+### Example: Theory-Specific Representations
+
+**Cognitive Mapping (Young 1996)**: Property Graph
+- Concepts as nodes, causal relationships as edges
+- Enables path analysis and belief propagation
+
+**2x2 Game Theory**: Table Matrix
+- Players as rows/columns, payoffs in cells
+- Enables equilibrium analysis via matrix operations
+
+**Stages of Change Model**: Sequence
+- Ordered stages with transition conditions
+- Enables process mining and progression tracking
+
+**Taxonomic Classification**: Tree
+- Hierarchical categories with inheritance
+- Enables subsumption reasoning and classification
+
+**Historical Development Theory**: Timeline
+- Events and periods with temporal relations
+- Enables temporal queries and trend analysis
 
 ## Output Schema Structure
 
@@ -100,11 +167,21 @@ YAML Schema (.yml)
 
 ## Future Directions
 
-1. **Automated Cross-Theory Linking**: Identify equivalent concepts across theories
-2. **Validation Framework**: Automated checks for schema completeness and accuracy
-3. **Visualization Tools**: Generate theory diagrams from schemas
-4. **Query Interface**: Natural language queries across the knowledge base
-5. **Theory Evolution Tracking**: Model how theories change over time
+1. **Multi-Paradigm Query Engine**: Unified interface for querying across different model types
+2. **Automated Model Type Selection**: ML-based recommendation of optimal representation
+3. **Cross-Model Transformation**: Automated translation between representations (e.g., graph to table)
+4. **Reasoning Engine Integration**: Connect to OWL reasoners, Prolog engines, constraint solvers
+5. **Hybrid Representations**: Support theories that need multiple model types
+6. **Export Pipeline**: Generate Neo4j, SQL, RDF/OWL, Prolog from schemas
+7. **Federated Queries**: Query across multiple theories regardless of their model type
+8. **Visualization Adapters**: Model-specific visualization (network diagrams, matrices, trees)
+
+### Extended Model Types Under Consideration
+- **Hypergraphs**: For n-ary relationships beyond binary edges
+- **Category Theory**: For mathematical theories with morphisms
+- **Petri Nets**: For concurrent process theories
+- **Feature Structures**: For linguistic and cognitive theories
+- **Probabilistic Models**: For theories with uncertainty
 
 ## Success Metrics
 
