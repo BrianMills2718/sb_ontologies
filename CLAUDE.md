@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a literature review and knowledge modeling project that processes academic papers through an improved multiphase workflow to create structured, machine-readable representations of academic theories using JSON Schema and semantic networks.
 
+For detailed project goals and methodology, see **PROJECT_OVERVIEW.md**.
+
 ## Current System Architecture
 
 ### Multiphase Processing System (Primary Approach)
