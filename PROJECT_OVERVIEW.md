@@ -68,20 +68,27 @@ Each theory has an inherent structure that suggests an optimal representation:
 
 - **Property Graph**: When relationships are as important as entities (e.g., social networks, causal models)
 - **Table/Matrix**: When data is naturally cross-tabulated (e.g., 2x2 classifications, feature matrices)
+  - Represented as n-ary relations in schema, convertible to SQL tables later
 - **Sequence**: When order and progression matter (e.g., stage theories, process models)
 - **Tree**: When hierarchical relationships dominate (e.g., taxonomies, decision trees)
 - **Timeline**: When temporal evolution is central (e.g., historical theories, developmental models)
+- **Hybrid**: When theories require multiple representations for different aspects
+  - Example: Social-Ecological Systems with graph relationships AND access rights matrices
+- **Statistical**: For probabilistic theories (factor analysis, SEM, Bayesian networks)
+- **Logical**: For formal reasoning systems (argumentation, deontic logic, action theories)
 
 ### Computational Capabilities by Model Type
 
 #### Property Graphs
 - **Query Languages**: Cypher, Gremlin, SPARQL
-- **Reasoning**: OWL-DL, RDF inference
+- **Reasoning**: OWL-DL, RDF inference (with appropriate axioms)
 - **Operations**: Path finding, centrality, clustering
 - **Use Cases**: Network analysis, causal reasoning
+- **Schema Features**: Flexible properties, domain/range constraints, reasoning axioms
 
-#### Tables/Matrices
-- **Query Languages**: SQL, Datalog
+#### Tables/Matrices (as N-ary Relations)
+- **Representation**: N-ary relations in schema, preserving logical structure
+- **Query Languages**: SQL (after transformation), Datalog
 - **Reasoning**: Relational algebra, constraint satisfaction
 - **Operations**: Joins, aggregations, statistical analysis
 - **Use Cases**: Classification, cross-tabulation, feature analysis
@@ -92,11 +99,32 @@ Each theory has an inherent structure that suggests an optimal representation:
 - **Operations**: Pattern matching, sequence alignment
 - **Use Cases**: Process mining, historical analysis
 
+#### Statistical Models
+- **Representation**: Entities with statistical properties, relationships with parameters
+- **Schema Features**: Distribution specifications, covariance structures, loadings
+- **Operations**: Parameter estimation, model fitting, hypothesis testing
+- **Use Cases**: Factor analysis, SEM, Bayesian inference
+
+#### Logical Models
+- **Representation**: Propositions as entities, inference rules as relationships
+- **Schema Features**: Logical axioms, defeasibility conditions, inference patterns
+- **Reasoning**: Description logic, first-order logic, defeasible reasoning
+- **Use Cases**: Argumentation, normative systems, planning
+
 ### Interoperability Strategy
-- **Common Vocabulary**: All models share core definitions (Entity, Role, etc.)
+- **Unified Semantic Model**: All structures expressible as entities and n-ary relations
+- **Common Vocabulary**: All models share core definitions (Entity, Role, NaryTuple, etc.)
+- **Property Specifications**: Required/optional, predefined/ad-hoc, typed constraints
 - **Cross-Model Mappings**: Define transformation rules between representations
-- **Hybrid Queries**: Support queries that span multiple model types
-- **Format Translation**: Enable export to RDF, SQL schemas, Neo4j, etc.
+- **Format Translation**: Transform unified representation to target formats (SQL, RDF/OWL, Neo4j)
+
+### Key Design Principles
+
+1. **Tables as N-ary Relations**: Tables represented as n-ary relations in schema, preserving logical structure while enabling SQL transformation later
+2. **Properties vs Structure**: Network models differentiated by constrained vs flexible property schemas, not fundamental differences
+3. **Reasoning in Schema**: Include OWL characteristics (transitive, symmetric) and axioms in definitions when theories require reasoning
+4. **Hybrid Support**: Explicit support for theories needing multiple representation paradigms
+5. **Statistical/Logical Metadata**: Embed statistical parameters and logical axioms directly in schema
 
 ### Example: Theory-Specific Representations
 
@@ -158,6 +186,25 @@ Each theory has an inherent structure that suggests an optimal representation:
 4. **Literature Synthesis**: Identify patterns and gaps across research domains
 5. **Educational Tools**: Create interactive visualizations of complex theories
 
+## Current Implementation Gaps
+
+### Prompt Enhancements Needed
+1. **Reasoning Requirements**: Prompt should ask for OWL property characteristics (transitive, symmetric, etc.)
+2. **Statistical Specifications**: Prompt should capture distribution types, parameters for statistical theories
+3. **Logical Axioms**: Prompt should extract inference rules and logical constraints
+4. **Hybrid Model Recognition**: Prompt should identify when theories need multiple representations
+
+### Schema Enhancements Needed
+1. **Property Constraints**: Add required/optional, predefined/ad-hoc specifications
+2. **Statistical Metadata**: Support for distributions, covariance structures, parameters
+3. **Logical Axioms**: Formal representation of inference rules and constraints
+4. **Hybrid Structures**: Explicit support for multi-component theories
+
+### Processing Enhancements Needed
+1. **Model Type Expansion**: Add statistical, logical, hybrid to existing typology
+2. **Deeper Root Properties**: Generate model-specific structures, not just terminology swaps
+3. **Reasoning Capabilities**: Extract and encode what reasoning engines are needed
+
 ## Technical Requirements
 
 - **LLM**: OpenAI O3 (for superior analytical capabilities)
@@ -190,5 +237,9 @@ Each theory has an inherent structure that suggests an optimal representation:
 - **Domain/Range Specificity**: No generic Entity→Entity relationships
 - **Model Type Diversity**: Using all model types where appropriate
 - **Theoretical Fidelity**: Preserving discipline-specific terminology
+- **Reasoning Capability**: Capturing logical/statistical requirements in schema
+- **Transformation Ready**: Schemas convertible to SQL, RDF/OWL, Cypher, etc.
+- **Unified Representation**: All structures expressible in entity/relation framework
+- **Hybrid Support**: Complex theories properly represented with multiple paradigms
 
 This project represents a significant advance in making academic knowledge computationally accessible while maintaining theoretical integrity.
