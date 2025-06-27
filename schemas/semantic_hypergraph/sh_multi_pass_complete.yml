@@ -1,0 +1,208 @@
+citation: Menezes, Telmo & Roth, Camille (2021). "Semantic Hypergraphs." arXiv:1908.10784v2
+  [cs.IR] 18 Feb 2021.
+annotation: The paper introduces the Semantic Hypergraph (SH), a recursive, ordered
+  hypergraph formalism that serves as a hybrid knowledge-representation language bridging
+  symbolic and machine-learning approaches to natural-language understanding. It theorises
+  a compact type system, inference rules, and parsing architecture (α-stage classifier
+  and β-stage search) enabling open-adaptive NLP, and demonstrates SH’s explanatory
+  power through tasks such as conjunction decomposition, open information extraction,
+  taxonomy induction and socio-semantic claim/conflict analysis.
+model_type: recursive ordered hypergraph (knowledge-representation language)
+rationale: Provide a single machine-readable artifact usable to (a) build parsers
+  and reasoners, (b) guide knowledge-graph storage, (c) document every formal element
+  appearing in the publication.
+schema_blueprint:
+  title: Semantic Hypergraph Theory – Complete Formal Schema
+  description: Integrated formal specification for Menezes & Roth (2021) ‘Semantic
+    Hypergraphs’. All 71 vocabulary terms are represented as node types; notation
+    system, pattern language, algorithms, and domain-specific rules are captured.
+  root_properties: {}
+  definitions: []
+multi_pass_extraction:
+  timestamp: '2025-06-27T06:35:33.331005'
+  passes_completed: 5
+  notation_system:
+    type_codes: {}
+    argument_roles: {}
+    special_symbols:
+      (: Opens a hyperedge / S-expression or tuple.
+      ): Closes a hyperedge / S-expression or tuple.
+      '{': Opens a mathematical set.
+      '}': Closes a mathematical set.
+      〈 〉: Angle-brackets used for ordered tuples (e.g. 〈actor, predicate, negotiation_point〉).
+      …: Ellipsis indicating continuation of a sequence (e.g. v1, …, vn).
+      ×: Cartesian-product operator (e.g. V × V).
+      ⊂: Proper-subset relation (e.g. E ⊂ V × V).
+      ∈: Element-of relation.
+      P(): Power-set operator (e.g. P(V)).
+      ∀: Universal quantifier appearing in the recursive definition of EV.
+      '|': Such-that separator in set-builder notation.
+      '=': Equality/definition operator (e.g. H = (V, E)).
+      1..n: Range notation for integer indices.
+      λ: Greek letter lambda used when referring to λ-calculus.
+    composite_notations:
+    - G = (V, E)
+    - H = (V, E)
+    - ei = {v1, …, vn} ∈ P(V)
+    - EV = {(ei)i ∈ {1..n} | n ∈ N, ∀i ∈ {1..n}, ei ∈ V ∪ EV}
+    - (is berlin (very nice))
+    - (is berlin nice)
+    - (very nice)
+    - is(Berlin, City)
+    - 〈actor, predicate, negotiation_point〉
+    examples:
+    - notation: G = (V, E)
+      context: Conventional graph definition (vertex set V, edge set E).
+    - notation: H = (V, E)
+      context: Semantic hypergraph definition sharing the same vertex/edge notation.
+    - notation: ei = {v1, …, vn} ∈ P(V)
+      context: Definition of a hyperedge as an n-ary set of vertices drawn from V.
+    - notation: EV = {(ei)i ∈ {1..n} | n ∈ N, ∀i ∈ {1..n}, ei ∈ V ∪ EV}
+      context: Recursive construction of all possible hyperedges using set-builder
+        notation with quantifiers.
+    - notation: (is berlin (very nice))
+      context: Full hyperedge expressing the sentence “Berlin is very nice”; illustrates
+        recursivity.
+    - notation: (very nice)
+      context: Nested hyperedge acting as an argument in the previous example.
+    - notation: is(Berlin, City)
+      context: Classic subject-predicate-object triplet example given when discussing
+        relationship extraction.
+    - notation: 〈actor, predicate, negotiation_point〉
+      context: Ordered triple used in prior literature for representing claims in
+        negotiation contexts.
+  formal_rules:
+    tables: []
+    inference_rules: []
+    constraints:
+    - The first element in a non-atomic hyperedge must be a connector.
+    - If a hyperedge is not atomic, each of its (inner) hyperedges must also start
+      with a connector (recursively).
+    - Hyperedges in a Semantic Hypergraph are ordered (the position of a vertex inside
+      the hyperedge is relevant).
+    - Hyperedges in a Semantic Hypergraph are recursive (a hyperedge may participate
+      as a vertex in another hyperedge).
+    formal_definitions:
+      Graph: G = (V, E) where V is a vertex set and E ⊂ V × V describes dyadic (binary)
+        connections.
+      Hypergraph: H = (V, E) where V is a vertex set and E is a set of hyperedges
+        (e_i) connecting an arbitrary number of vertices; formally e_i = {v₁,…,vₙ}
+        ∈ E = 𝒫(V).
+      Recursive Ordered Hypergraph (Semantic Hypergraph): H = (V, E) where E ⊂ E_V,
+        the recursive set E_V = {(e_i)_{i∈{1..n}} | n ∈ ℕ, ∀ i ∈ {1..n}, e_i ∈ V ∪
+        E_V}. V forms the set of irreducible size-one hyperedges (atoms).
+      Atom (Atomic Hyperedge): A hyperedge of size one that cannot be decomposed further;
+        an element of V.
+      Hyperedge: An ordered, possibly recursive tuple (e₁,…,eₙ) whose first element
+        is a connector and whose remaining elements are arguments (each an atom or
+        another hyperedge).
+      Connector: A special hyperedge (often atomic) that appears as the first element
+        of every non-atomic hyperedge and specifies how its arguments are related
+        (e.g., predicates, prepositions, adverbs).
+  algorithms:
+  - name: Hyperedge Type Inference
+    description: Determines the type of a (possibly nested) hyperedge in the Semantic-Hypergraph
+      (SH) formalism by matching the connector/argument signature against five inference
+      rules (Table 2 in the paper).
+    steps:
+    - Receive a hyperedge H and read its first element (the connector).
+    - 'Identify the connector’s atomic type: M, B, T, P, or J.'
+    - 'Pattern-match the overall signature (connector type + argument types) against
+      the following rules in order:'
+    - '  • (M x)              →   type(x)'
+    - '  • (B C C+)           →   C'
+    - '  • (T [C|R])          →   S'
+    - '  • (P [C|R|S]+)       →   R'
+    - '  • (J x y’+)          →   x'
+    - If exactly one rule matches, assign the resulting type to H.
+    - If no rule or multiple rules match, raise a type error.
+    - Recurse into inner hyperedges until all non-atomic structures are typed.
+  - name: Concept Hypernym Identification in Builder Hyperedges
+    description: Infers the main concept (hypernym) inside a concept hyperedge created
+      by a builder connector, and annotates argument roles accordingly.
+    steps:
+    - Check whether H’s connector is a builder (B).
+    - If it is the compound-noun builder (+/B), use part-of-speech and dependency
+      labels to locate the syntactic head; mark that argument with role ’m’ (main)
+      and the others with ’a’ (auxiliary).
+    - If the builder is derived from a preposition (e.g., of/B), select the first
+      argument after the connector as the main concept (role ’m’); mark remaining
+      arguments as ’a’.
+    - Store the role annotation as a suffix on the builder (e.g., "+/B.am").
+  - name: Predicate Argument-Role Annotation
+    description: Decorates predicate connectors with an ordered string of semantic
+      role codes so downstream components know what each argument does in the relation.
+    steps:
+    - Detect that the connector is of type P (predicate).
+    - Create an argument-role string consisting of single-letter codes in the exact
+      order of the arguments (e.g., ’sio’ for subject, indirect object, direct object).
+    - Append this string to the predicate label using a dot separator (e.g., gave/P.sio).
+    - Emit the fully decorated relation hyperedge with the arguments in place.
+  implementation:
+    pseudocode: []
+    complexity:
+      Hyperedge Type Inference: Not specified in paper (straightforward O(k) where
+        k is number of arguments in the hyperedge).
+      Concept Hypernym Identification in Builder Hyperedges: Not specified in paper
+        (typically O(k) for k arguments; additional POS/dependency lookup assumed
+        O(1) per argument).
+      Predicate Argument-Role Annotation: Not specified in paper (linear O(k) for
+        k arguments).
+    notes:
+    - 'Connector atomic types: P (predicate), M (modifier), B (builder), T (trigger),
+      J (conjunction).'
+    - Atomic concepts carry the /C suffix; other atom types use /P, /M, /B, /T, /J.
+    - Special builder (+/B) and conjunction (:/J) atoms have no lexical surface form;
+      they are inserted by the parser to capture compounds and implicit sequences.
+    - 'Role codes for predicates include: s (active subject), p (passive subject),
+      a (agent), c (subject complement), o (direct object), i (indirect object), etc.'
+    - Type inference can be executed bottom-up during S-expression parsing, ensuring
+      every non-atomic hyperedge receives a unique type before higher-level reasoning.
+  evaluation:
+    metrics:
+    - name: accuracy
+      description: Percentage of correctly classified tokens or parsed elements.
+    - name: p-value
+      description: Statistical significance value used to compare model/feature-set
+        performance.
+    benchmarks:
+    - name: spaCy fine-grained POS tagging
+      dataset: Evaluation set reported in [67] (exact corpus not specified, likely
+        OntoNotes-style data)
+      results:
+        accuracy: 0.97
+    - name: spaCy unlabeled dependency parsing
+      dataset: Evaluation set reported in [67] (likely Universal Dependencies corpus)
+      results:
+        accuracy: 0.92
+    - name: spaCy labeled dependency parsing
+      dataset: Evaluation set reported in [67] (likely Universal Dependencies corpus)
+      results:
+        accuracy: 0.9
+    baselines:
+    - All-features random-forest classifier
+    - GA-selected-features random-forest classifier
+    - F5 feature subset random-forest classifier
+    - F3 feature subset random-forest classifier
+    - spaCy English model (en_core_web_lg-2.0.0)
+    results:
+      fine_grained_POS_accuracy: 0.97
+      unlabeled_dependency_accuracy: 0.92
+      labeled_dependency_accuracy: 0.9
+      significant_difference_p_value_between_F5_and_F3: <0.005
+    statistical_tests:
+    - test_name: Kolmogorov–Smirnov test (iterative ablation)
+      results: Used to decide feature exclusion with thresholds p = .05 and p = .005.
+    - test_name: Accuracy comparison between F5 and F3 feature subsets
+      results: F5 accuracy significantly higher than F3 with p < .005.
+  complete_examples:
+  - description: Constructing a nested semantic hypergraph that represents the sentence
+      “Berlin is very nice”.
+    input: 'Atomic hyperedges (atoms): (berlin), (is), (very), (nice)'
+    process:
+    - Combine the atoms (is), (berlin) and (nice) to create the hyperedge (is berlin
+      nice).
+    - Combine the atoms (very) and (nice) to create the hyperedge (very nice).
+    - Nest the hyperedge (very nice) inside the first hyperedge as its third argument,
+      yielding (is berlin (very nice)).
+    output: 'Nested hyperedge: (is berlin (very nice))'

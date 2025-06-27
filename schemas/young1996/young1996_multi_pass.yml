@@ -1,0 +1,409 @@
+citation: Young, Michael D. 1996. “Cognitive Mapping Meets Semantic Networks.” Journal
+  of Conflict Resolution 40(3):395-414.
+annotation: Young introduces WorldView, a computer-assisted, semantic-network–based
+  extension of cognitive mapping for the study of foreign-policy belief systems. By
+  replacing the binary, matrix representation of causal maps with symbol-rich semantic
+  networks, WorldView preserves compound statements, differentiates relationship types,
+  adds truth-values and temporal or modal modifiers, aggregates texts, and supplies
+  structural and comparative metrics. The article therefore advances both the conceptual
+  vocabulary and methodological toolkit for modelling belief content and decision
+  processes in international relations research.
+model_type: directed, typed, labelled semantic network (multi-modal, truth-valued)
+rationale: Provide implementers with a one-stop, machine-readable specification covering
+  representational primitives, typing codes, parsing/aggregation rules, reasoning
+  and metric algorithms, and IR-specific applications.
+schema_blueprint:
+  title: WorldView Semantic-Network Cognitive Mapping Theory – Full Formal Schema
+  description: Comprehensive schema for Michael D. Young’s (1996) WorldView framework
+    that converts traditional cognitive maps into rich semantic networks. The schema
+    enumerates all formal elements (82 vocabulary terms), the notation layer, extraction
+    patterns, algorithms, and domain-specific applications.
+  root_properties: {}
+  definitions: []
+multi_pass_extraction:
+  timestamp: '2025-06-27T07:01:55.817910'
+  passes_completed: 5
+  notation_system:
+    type_codes: {}
+    argument_roles: {}
+    special_symbols:
+      +: positive-cause relationship between two concepts (increases influence)
+      '-': negative-cause relationship between two concepts (decreases, hinders)
+      ->: directed link/arrow showing the subject–object direction of any relationship
+      '=': equal relationship (identity or synonymy)
+      '>': preference / greater-than relationship
+      if-then: explicit conditional (used as a relationship label)
+      and: conjunction indicating joint or simultaneous action/states
+      or: conjunction indicating alternatives or decision options
+      (true): truth-value tag marking a proposition as asserted fact
+      (false): truth-value tag marking a proposition as asserted false
+      (partial): truth-value tag – statement true of some but not all instances
+      (possible): truth-value tag – could become true or expresses capability
+      (impossible): truth-value tag – cannot become true
+      past: relationship modifier – temporal, action completed
+      present: relationship modifier – temporal, action ongoing / relationship currently
+        holds
+      future: relationship modifier – temporal, expected to hold in future
+      goal: relationship modifier – desiderative, something the actor wants to bring
+        about
+      hypothetical: relationship modifier – conditional or conjectural statement
+      normative: relationship modifier – expresses ideal, obligation or moral judgement
+      attribute: relationship label indicating a property or characteristic link
+      strategy: relationship label indicating means–end or hierarchical goal link
+      location: relationship label indicating spatial association
+      possess: relationship label indicating ownership/containment
+      know: relationship label indicating knowledge of a proposition
+      warrant-for: relationship label giving justification for another claim
+    composite_notations:
+    - oil-pollution - -> sea-birds
+    - SALT + -> lowest-common-denominator
+    - SALT attribute (true hypothetical) lowest-common-denominator-that-can-be-agreed-upon-easily
+    - '[strategy (true present)]'
+    - united-states attribute true goal (and competent compassionate)
+    examples:
+    - notation: oil-pollution - -> sea-birds
+      meaning: Oil pollution is believed to have a negative causal influence on seabirds.
+    - notation: SALT + -> lowest-common-denominator
+      meaning: The Strategic Arms Limitation Treaty is asserted to increase or support
+        a lowest-common-denominator outcome.
+    - notation: SALT attribute (true hypothetical) lowest-common-denominator-that-can-be-agreed-upon-easily
+      meaning: Hypothetically, SALT has the attribute of being the lowest common denominator
+        that can be agreed upon easily.
+    - notation: '[strategy (true present)]  world-safer  <- goal/means hierarchy ->  (United-States
+        reduce-nuclear-threat)'
+      meaning: At present, it is truly believed that reducing the nuclear threat is
+        a strategy for achieving the goal of making the world safer.
+    - notation: united-states attribute true goal (and competent compassionate)
+      meaning: It is a true goal that the United States be both competent and compassionate.
+  formal_rules:
+    tables:
+    - title: 'Table 1: WorldView Coding Categories'
+      headers:
+      - Category type
+      - Items
+      rows:
+      - - Relationships
+        - equal =, condition, component, preference/greater-than >, if-then, possess,
+          positive-cause +, is-a, strategy, negative-cause -, know, warrant-for, attribute,
+          location
+      - - Actions
+        - accept, feel, purchase, allow, honor, ratify, assert, ignore, reduce, assist,
+          influence, release, attack, intervene, restore, cause, invade, share, lose,
+          lead, sign, confront, limit, stop, consider, maintain, support, consult,
+          meet, threaten, control, monitor, use, cooperate, negotiate, verify, decide,
+          open, visit, defend, order, vote-on, delay, organize, withdraw, enforce,
+          perform, yield-to, enhance, propose
+      footnotes: ''
+    inference_rules:
+    - name: Dependency measure
+      formula: Dependency(G) = (number_of_bridges / total_number_of_relationships_G)
+        / number_of_structures_G
+      description: Measures how many relationships in cognitive map G are critical
+        “bridges”. Range 0–1.
+    - name: Logical precedence of truth-values
+      formula: true, partial  >  possible   and   impossible  >  false
+      description: In the WorldView logic, true and partial truth-values dominate
+        possible; impossible dominates false.
+    constraints:
+    - True and partial truth-values take logical precedent over possible truth-values.
+    - Impossible truth-values take logical precedent over false truth-values.
+    - The ‘and’ conjunction is used only when two or more actors are engaged in joint
+      action.
+    - The ‘or’ conjunction is used primarily to indicate a set of decision alternatives.
+    - A past relationship modifier indicates that the action is complete; a present
+      modifier indicates it is ongoing; a future modifier indicates expectation at
+      a future time.
+    formal_definitions:
+      truth-values:
+        'true': statement holds for all instances of the referenced class(es).
+        'false': statement does not hold for any instance of the referenced class(es).
+        partial: statement holds for some but not all instances of the referenced
+          class(es).
+        possible: statement could become true at some unspecified time (includes capabilities).
+        impossible: statement cannot become true at any time.
+      relationship_modifiers:
+        past: relationship/action occurred and is now complete.
+        present: relationship/action is currently ongoing.
+        future: relationship/action is expected to hold in the future.
+        goal: author wants the statement to become true (goal driven).
+        hypothetical: statement may become true—captures hypothetico-deductive reasoning.
+        normative: statement expresses a normative obligation or ideal, distinguished
+          from a goal.
+  algorithms:
+  - name: ComputeDependency
+    description: Calculates the Dependency (D_G) score of a cognitive map, reflecting
+      the proportion of ‘bridge’ relationships (paths that are the only route to a
+      concept) normalized by the number of disconnected sub-structures.
+    steps:
+    - 'Input: cognitive map G = (V = concepts, E = relationships).'
+    - For every concept v in V count indegree(v).
+    - Mark every relationship e = (u→v) as a bridge if indegree(v) == 1.
+    - bridges ← count of relationships marked as bridges.
+    - structures ← number of weakly–connected components in G.
+    - relationships ← |E|.
+    - Return D_G = (bridges / relationships) / structures.
+  - name: ComputeConnectedness
+    description: Measures how densely concepts are inter-linked.  Values approach
+      1 as relationships dominate the structure.
+    steps:
+    - 'Input: cognitive map G = (V, E).'
+    - relationships ← |E|.
+    - concepts ← |V|.
+    - Return C_G = relationships / (relationships + concepts).
+  - name: ComputeUniformityOfSalience
+    description: Quantifies how evenly the salience (frequency) of relationships is
+      distributed.
+    steps:
+    - 'Input: List S containing salience value of each relationship in E.'
+    - μ ← arithmetic mean of S.
+    - σ ← sqrt( Σ (s − μ)^2 / |S| ).
+    - Return σ  (standard deviation; σ = 0 means perfect uniformity).
+  - name: ConceptComparison
+    description: Produces a 3-way partition of concepts when comparing two cognitive
+      maps (A, B).
+    steps:
+    - 'Input: maps A = (V_A, E_A) and B = (V_B, E_B).'
+    - common ← V_A ∩ V_B.
+    - identical ← { v ∈ common | outgoing(v) and incoming(v) are identical in A and
+      B }.
+    - modified ← common \ identical.
+    - unique_A ← V_A \ V_B.
+    - unique_B ← V_B \ V_A.
+    - Return (identical, modified, unique_A, unique_B).
+  - name: TransformationCost
+    description: Levenshtein-style edit distance between two cognitive maps; each
+      primitive change costs 1.
+    steps:
+    - 'Define primitive edits: Relationship-Add, Relationship-Delete, Salience±1,
+      Concept-Add, Concept-Delete (implies deletion of attached relationships).'
+    - 'Input: maps A and B.'
+    - Apply dynamic programming (or informed search) to find the minimal-cost sequence
+      of edits that converts B into A.
+    - Return cost = number_of_edits.
+  - name: IncongruenceMeasure
+    description: Time-series metric combining ConceptComparison and TransformationCost
+      while ignoring concepts not present in both maps.
+    steps:
+    - 'Input: consecutive maps A (earlier) and B (later).'
+    - Extract common sub-maps A' and B' that include only concepts present in both.
+    - cost ← TransformationCost(A', B').
+    - Return incongruence = cost.
+  - name: ConceptListMaker
+    description: Generates an alphabetized list of the unique concepts in a data set
+      to aid synonym identification.
+    steps:
+    - 'Input: collection of data statements.'
+    - Tokenize each statement and extract concept tokens.
+    - Insert each concept into a set to remove duplicates.
+    - Sort the set alphabetically.
+    - Output the sorted list.
+  - name: SynonymReplacement
+    description: Rewrites data statements by substituting user-defined synonyms before
+      map compilation, leaving raw data intact.
+    steps:
+    - 'Input: data statements + synonym dictionary D where each key has a canonical
+      representative.'
+    - 'For each statement: for every concept token t, if t ∈ D then replace t with
+      D[t].'
+    - Return rewritten statements.
+  - name: CompileCognitiveMap
+    description: Builds the semantic-network representation used by WorldView from
+      pre-coded data statements.
+    steps:
+    - 'Input: list of (subject, relationship, object, truth-value, modifiers, salience).'
+    - For every unique concept create a node with subject-list and object-list fields
+      (if not already present).
+    - 'For every unique relationship create a node storing: subject(s), object(s),
+      truth-value, modifiers, salience counter.'
+    - For every conjunction (‘and’, ‘or’) create a node and link its members.
+    - Increment salience each time an identical relationship re-appears.
+    - Return semantic network G.
+  implementation:
+    pseudocode:
+    - name: ComputeDependency
+      code: "function ComputeDependency(G):\n    indeg ← array[|V|] initialized to\
+        \ 0\n    for (u,v) in G.E:\n        indeg[v] ← indeg[v] + 1\n    bridges ←\
+        \ 0\n    for (u,v) in G.E:\n        if indeg[v] == 1:\n            bridges\
+        \ ← bridges + 1\n    structures ← CountWeaklyConnectedComponents(G)\n    return\
+        \ (bridges / |G.E|) / structures"
+    - name: TransformationCost
+      code: "function TransformationCost(A, B):\n    edits ← PriorityQueue()   # (cost,\
+        \ state)\n    start ← EncodeMap(B)\n    goal  ← EncodeMap(A)\n    push edits\
+        \ (0, start)\n    visited ← ∅\n    while edits not empty:\n        (cost,\
+        \ state) ← pop edits\n        if state == goal:\n            return cost\n\
+        \        if state in visited: continue\n        visited.add(state)\n     \
+        \   for each primitive_edit applicable to state:\n            next_state ←\
+        \ Apply(edit, state)\n            push edits (cost+1, next_state)"
+    complexity:
+      ComputeDependency: O(|E|)  – single pass to count indegrees plus component search
+        O(|V|+|E|)
+      ComputeConnectedness: O(1) once |V| and |E| are known (counts usually cached)
+      ComputeUniformityOfSalience: O(|E|) to accumulate frequencies
+      ConceptComparison: O(|V_A| + |V_B| + |E_A| + |E_B|)
+      TransformationCost: O(N × M) in the DP version where N = |V_A|+|E_A| and M =
+        |V_B|+|E_B|; exponential in uninformed search
+      IncongruenceMeasure: Same order as TransformationCost but on smaller (common)
+        sub-maps
+      ConceptListMaker: O(T log T) where T = number of unique concepts (due to sort)
+      SynonymReplacement: O(L) where L = total tokens in data statements
+      CompileCognitiveMap: O(S) where S = number of data statements (assuming hash-table
+        insertion)
+    notes:
+    - WorldView is implemented in Macintosh Common Lisp; early source code is published
+      in Young (1994).
+    - 'The semantic-network data structure stores for every node: pointers to outgoing
+      and incoming relationships; relationships store truth-value, modifier list and
+      salience counter.'
+    - Conjunctions (‘and’, ‘or’) are represented as special nodes whose subject/object
+      lists span all joined concepts.
+    - Salience is updated incrementally as duplicate relationships are read, requiring
+      only a hash-lookup and counter increment.
+    - The synonym facility is applied at compile-time, allowing analysts to experiment
+      with different synonym granularities without altering original coded data.
+    - Multiple text files can be merged; identical relationships are coalesced and
+      their salience tallied automatically, enabling very large composite maps.
+    - Inter-coder reliability above 0.80 was achieved after limited training using
+      the detailed coding manual referenced by the author.
+  evaluation:
+    metrics:
+    - name: Dependency
+      description: Extent to which relationships form a vertical (hierarchical) structure
+        in a cognitive map; range 0–1 (1 when every relationship is a bridge).
+    - name: Connectedness
+      description: Ratio of relationships to (relationships + concepts); captures
+        lateral interconnectedness of concepts; asymptotic range 0–1.
+    - name: Size
+      description: Count of concepts (nodes) in the cognitive map.
+    - name: Uniformity of Salience
+      description: Standard deviation of salience (frequency) values assigned to relationships;
+        0 indicates perfect uniformity.
+    - name: Concept Comparison
+      description: Categorical measure listing concepts/relationships that are identical,
+        different, or unique across two maps.
+    - name: Transformation Cost
+      description: Minimum number of discrete edits (add/delete concept or relationship,
+        salience change) needed to convert one map into another.
+    - name: Incongruence
+      description: Time-series measure combining transformation cost and concept comparison;
+        0 only for identical maps.
+    benchmarks:
+    - name: Figure 9 Example Maps
+      dataset: Illustrative cognitive maps (two structures)
+      results:
+        dependency: 1
+    - name: Figure 10 Example Map
+      dataset: Illustrative cognitive map
+      results:
+        connectedness: 0.66
+        size: 4
+    - name: String Edit Example
+      dataset: Word transformation 'Michael' → 'Michelle'
+      results:
+        transformation_cost: 5
+    - name: Carter Foreign-Policy / National-Security Speeches (pre-Afghanistan)
+      dataset: 22 speeches delivered before 4 Jan 1980
+      results:
+        dependency_range:
+        - 0.021
+        - 0.057
+    - name: Carter Speech 4 Jan 1980
+      dataset: Speech immediately after Soviet entry into Afghanistan
+      results:
+        dependency: highest recorded value (exact number not reported)
+    - name: Carter Subsequent 4 Speeches (Feb–Aug 1980)
+      dataset: Next four foreign-policy / national-security speeches
+      results:
+        dependency: rapid decline back to 0.021–0.057 range
+        connectedness: sharp dip to lowest recorded value, then recovery by final
+          two speeches
+    baselines:
+    - Axelrod Cognitive Mapping Technique
+    - Bonham & Shapiro Cognitive Mapping Technique
+    results:
+      dependency_example_values:
+        Figure9: 1
+        Carter_pre_Afghanistan_min: 0.021
+        Carter_pre_Afghanistan_max: 0.057
+      connectedness_example_values:
+        Figure10: 0.66
+      size_example_values:
+        Figure10: 4
+      transformation_cost_example:
+        Michael_to_Michelle: 5
+    statistical_tests:
+    - test_name: Correlation between Dependency and Days-in-Office (Carter study)
+      results: No statistically significant relationship found
+  complete_examples:
+  - description: Basic cognitive map representation
+    input: If SALT becomes only the lowest common denominator that can be agreed upon
+      easily, this will produce only the illusion of progress and a backlash against
+      the entire arms control process.
+    process: Convert each noun phrase into a concept node and link them with + (positive-cause)
+      or – (negative-cause) arcs.
+    output: Figure 1 cognitive map linking SALT → (+) lowest-common-denominator-that-can-be-agreed-upon-easily
+      → (+) illusion-of-progress and (–) arms-control-process.
+  - description: Compound relationship as explicit nodes
+    input: Same SALT sentence as above.
+    process: Promote each relationship itself to a node so that it can act as the
+      subject or object of other relations.
+    output: Figure 2 in which the clause ‘SALT becomes …’ and the clause ‘this will
+      produce …’ appear as separate relationship‐nodes linked to their respective
+      concepts.
+  - description: Attribute (differentiated) relationship
+    input: Same SALT sentence.
+    process: Replace the ambiguous ‘+’ arc with an ATTRIBUTE relation that states
+      ‘SALT has the property of being the lowest common denominator’.
+    output: Figure 3 showing SALT —attribute→ lowest-common-denominator, which in
+      turn (+) illusion-of-progress and (–) arms-control-process.
+  - description: Goal hierarchy encoded with a strategy relation
+    input: The world must be safer; perhaps the best way to do this is for the United
+      States to reduce the nuclear threat.
+    process: Tag ‘reduce the nuclear threat’ as a goal (true-present) and link it
+      via a STRATEGY relation to the higher-level goal ‘world safer’.
+    output: Figure 4 where [reduce-nuclear-threat] STRATEGY(true-present)→ [world-safer].
+  - description: Full use of truth-values and modifiers
+    input: If SALT becomes only the lowest common denominator that can be agreed upon
+      easily, this will produce only the illusion of progress and a backlash against
+      the entire arms control process.
+    process: Add the modifiers HYPOTHETICAL and PRESENT plus the truth-value TRUE/POSSIBLE
+      to the appropriate relationship nodes.
+    output: Figure 5 in which the conditional clause is tagged (true hypothetical)
+      and its effects tagged (possible present).
+  - description: Joint action represented with an AND-conjunction
+    input: Both the United States and the Soviet Union want to make the world safer;
+      perhaps the best way to do this is for them to reduce the nuclear threat.
+    process: Create an AND-conjunction node to bind the two actors and attach the
+      shared goal and strategy relations to this compound subject.
+    output: Figure 6 showing (AND United-States Soviet-Union) —want→ world-safer and
+      —strategy→ reduce-nuclear-threat.
+  - description: Worked content-analysis example
+    input: Our government must at the same time be both competent and compassionate.
+    process: '1) Replace pronoun ‘our government’ with the concept UNITED-STATES.
+
+      2) Detect ‘must’ as GOAL modifier.
+
+      3) Identify ‘be’ as ATTRIBUTE relation.
+
+      4) Recognise ‘both … and …’ as an AND-conjunction joining COMPETENT and COMPASSIONATE.'
+    output: 'Data statement: united-states ATTRIBUTE true goal (AND competent compassionate).
+      (Figure 7)'
+  - description: Truth-value = TRUE example
+    input: All humans are animals, I am human, therefore I am an animal.
+    process: Evaluate deductive syllogism; statement holds universally.
+    output: Assign truth-value TRUE.
+  - description: Truth-value = FALSE example
+    input: No human is a giraffe, I am human, therefore I am not a giraffe.
+    process: Evaluate deduction; conclusion contradicts class membership for all instances.
+    output: Assign truth-value FALSE.
+  - description: Truth-value = PARTIAL example
+    input: Not all politicians have committed fraud, but some have.
+    process: Statement applies only to a subset of the class.
+    output: Assign truth-value PARTIAL.
+  - description: Truth-value = POSSIBLE example
+    input: The United States can fight two wars simultaneously.
+    process: Identified as a capability/contingent claim about the future.
+    output: Assign truth-value POSSIBLE.
+  - description: Truth-value = IMPOSSIBLE example
+    input: The Soviet Union can never be resurrected.
+    process: Claim asserts absolute impossibility.
+    output: Assign truth-value IMPOSSIBLE.
