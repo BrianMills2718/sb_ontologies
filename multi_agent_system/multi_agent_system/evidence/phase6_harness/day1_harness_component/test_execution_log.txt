@@ -1,0 +1,40 @@
+INFO:__main__:🚀 Starting HarnessComponent comprehensive tests
+INFO:__main__:🧪 Running TestComponentStatus.test_component_status_initialization
+INFO:ComponentStatus.test_component:✨ ComponentStatus created for 'test_component' in state created
+INFO:__main__:✅ TestComponentStatus.test_component_status_initialization PASSED
+INFO:__main__:🧪 Running TestComponentStatus.test_valid_state_transitions
+INFO:ComponentStatus.test_component:✨ ComponentStatus created for 'test_component' in state created
+INFO:ComponentStatus.test_component:✅ Component 'test_component' transitioned created → ready
+INFO:ComponentStatus.test_component:✅ Component 'test_component' transitioned ready → running
+INFO:ComponentStatus.test_component:✅ Component 'test_component' transitioned running → stopping
+INFO:ComponentStatus.test_component:✅ Component 'test_component' transitioned stopping → stopped
+INFO:__main__:✅ TestComponentStatus.test_valid_state_transitions PASSED
+INFO:__main__:🧪 Running TestComponentStatus.test_invalid_state_transitions
+INFO:ComponentStatus.test_component:✨ ComponentStatus created for 'test_component' in state created
+ERROR:ComponentStatus.test_component:❌ Invalid transition from created to running for component 'test_component'
+ERROR:ComponentStatus.test_component:❌ Invalid transition from created to stopped for component 'test_component'
+INFO:__main__:✅ TestComponentStatus.test_invalid_state_transitions PASSED
+INFO:__main__:🧪 Running TestComponentStatus.test_error_handling
+INFO:ComponentStatus.test_component:✨ ComponentStatus created for 'test_component' in state created
+INFO:ComponentStatus.test_component:✅ Component 'test_component' transitioned created → ready
+ERROR:ComponentStatus.test_component:🚨 Error recorded for component 'test_component': Test error
+INFO:__main__:🚀 Starting HarnessComponent comprehensive tests
+INFO:__main__:🧪 Running TestComponentStatus.test_component_status_initialization
+INFO:ComponentStatus.test_component:✨ ComponentStatus created for 'test_component' in state created
+INFO:__main__:✅ TestComponentStatus.test_component_status_initialization PASSED
+INFO:__main__:🧪 Running TestComponentStatus.test_valid_state_transitions
+INFO:ComponentStatus.test_component:✨ ComponentStatus created for 'test_component' in state created
+INFO:ComponentStatus.test_component:✅ Component 'test_component' transitioned created → ready
+INFO:ComponentStatus.test_component:✅ Component 'test_component' transitioned ready → running
+INFO:ComponentStatus.test_component:✅ Component 'test_component' transitioned running → stopping
+INFO:ComponentStatus.test_component:✅ Component 'test_component' transitioned stopping → stopped
+INFO:__main__:✅ TestComponentStatus.test_valid_state_transitions PASSED
+INFO:__main__:🧪 Running TestComponentStatus.test_invalid_state_transitions
+INFO:ComponentStatus.test_component:✨ ComponentStatus created for 'test_component' in state created
+ERROR:ComponentStatus.test_component:❌ Invalid transition from created to running for component 'test_component'
+ERROR:ComponentStatus.test_component:❌ Invalid transition from created to stopped for component 'test_component'
+INFO:__main__:✅ TestComponentStatus.test_invalid_state_transitions PASSED
+INFO:__main__:🧪 Running TestComponentStatus.test_error_handling
+INFO:ComponentStatus.test_component:✨ ComponentStatus created for 'test_component' in state created
+INFO:ComponentStatus.test_component:✅ Component 'test_component' transitioned created → ready
+ERROR:ComponentStatus.test_component:🚨 Error recorded for component 'test_component': Test error

@@ -1,0 +1,306 @@
+{
+  "title": "Carter 1977 U.S.\u2013Soviet Relations Speech \u2013 Strategic-Decision Schema",
+  "description": "Schema capturing the conceptual network introduced in President Jimmy Carter\u2019s March-1977 address.  The speech presents interacting actors (states, coalitions, Congress, public), strategic processes (SALT, arms-limitation), guiding principles (balance of power, democratic oversight), and patterned relationships (antagonism, deterrence, rivalry).  A property-graph best represents this web of heterogeneous entities and directed ties.",
+  "model_type": "property_graph",
+  "rationale": "The theory is neither a strict hierarchy, temporal narrative, nor stepwise sequence; instead it interrelates multiple kinds of entities (actors, constructs, principles, processes) through specific strategic and deliberative relationships.  These cross-cutting links (e.g., deterrence State\u2192State, public-debate Citizen\u2192Policy-Issue) require rich typed edges and node properties\u2014capabilities unique to a property graph.",
+  "node_types": [
+    {
+      "name": "Actor",
+      "properties": [
+        "name",
+        "type_label",
+        "democratic_accountability",
+        "strategic_strength"
+      ],
+      "description": "Any collective or institutional body capable of intentional action in the speech.",
+      "subtypes": [
+        "State",
+        "GreatPower",
+        "Coalition",
+        "Institution",
+        "CitizenCollective",
+        "StakeholderGroup",
+        "NegotiatingDelegation",
+        "President",
+        "ExecutiveActor"
+      ],
+      "constraints": {
+        "democratic_accountability": "0\u20131 scale where 1 = directly electorally accountable"
+      }
+    },
+    {
+      "name": "CoreConstruct",
+      "properties": [
+        "name",
+        "description",
+        "legitimacy_score"
+      ],
+      "description": "Abstract strategic or policy construct (e.g., national security, foreign policy).",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "PolicyDomain",
+      "properties": [
+        "name",
+        "policy_transparency"
+      ],
+      "description": "Issue-area referenced in the speech (e.g., arms control).",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Principle",
+      "properties": [
+        "name",
+        "description"
+      ],
+      "description": "Guiding principle invoked (e.g., balance of power).",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "StructuralContext",
+      "properties": [
+        "name",
+        "description"
+      ],
+      "description": "Macro-structural setting such as bipolar international system.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "NegotiationProcess",
+      "properties": [
+        "name",
+        "phase",
+        "complexity_level"
+      ],
+      "description": "Bilateral or multilateral negotiations (e.g., SALT).",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "StrategyType",
+      "properties": [
+        "name",
+        "description"
+      ],
+      "description": "Named strategic approach (e.g., comprehensive proposal).",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Action",
+      "properties": [
+        "name",
+        "timestamp",
+        "modifier"
+      ],
+      "description": "Deliberate act performed by actors (strategic arms limitation, arms reduction, decision-making, public debate, collective deliberation).",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "PolicyArtifact",
+      "properties": [
+        "name",
+        "category"
+      ],
+      "description": "Things acted upon: strategic weapons category/system, policy choice/issue/option.",
+      "subtypes": [
+        "StrategicWeaponsCategory",
+        "StrategicWeaponsSystem",
+        "PolicyChoice",
+        "PolicyIssue",
+        "PolicyOption"
+      ],
+      "constraints": null
+    }
+  ],
+  "edge_types": [
+    {
+      "name": "antagonism",
+      "from_types": [
+        "Coalition"
+      ],
+      "to_types": [
+        "Coalition"
+      ],
+      "properties": null,
+      "description": "Hostile stance between coalitions.",
+      "inverse": "antagonism"
+    },
+    {
+      "name": "military_competition",
+      "from_types": [
+        "State",
+        "Coalition"
+      ],
+      "to_types": [
+        "State",
+        "Coalition"
+      ],
+      "properties": [
+        "balanced_strategic_strength"
+      ],
+      "description": "Ongoing competition in military capabilities.",
+      "inverse": "military_competition"
+    },
+    {
+      "name": "strategic_rivalry",
+      "from_types": [
+        "GreatPower"
+      ],
+      "to_types": [
+        "GreatPower"
+      ],
+      "properties": [
+        "strategic_strength"
+      ],
+      "description": "Great-power rivalry context.",
+      "inverse": "strategic_rivalry"
+    },
+    {
+      "name": "deterrence",
+      "from_types": [
+        "State"
+      ],
+      "to_types": [
+        "State"
+      ],
+      "properties": [
+        "strategic_strength"
+      ],
+      "description": "Deterrent threat from deterrer to potential aggressor.",
+      "inverse": "is_deterred_by"
+    },
+    {
+      "name": "is_deterred_by",
+      "from_types": [
+        "State"
+      ],
+      "to_types": [
+        "State"
+      ],
+      "properties": null,
+      "description": "Inverse of deterrence.",
+      "inverse": "deterrence"
+    },
+    {
+      "name": "zero_sum_competition",
+      "from_types": [
+        "Actor"
+      ],
+      "to_types": [
+        "Actor"
+      ],
+      "properties": null,
+      "description": "Interaction where one side\u2019s gain is the other\u2019s loss.",
+      "inverse": "zero_sum_competition"
+    },
+    {
+      "name": "strategic_arms_limitation",
+      "from_types": [
+        "State",
+        "NegotiatingDelegation"
+      ],
+      "to_types": [
+        "StrategicWeaponsCategory"
+      ],
+      "properties": [
+        "genuine_reduction"
+      ],
+      "description": "Negotiation or agreement to limit categories of strategic weapons.",
+      "inverse": null
+    },
+    {
+      "name": "arms_reduction",
+      "from_types": [
+        "State",
+        "NegotiatingDelegation"
+      ],
+      "to_types": [
+        "StrategicWeaponsSystem"
+      ],
+      "properties": [
+        "genuine_reduction"
+      ],
+      "description": "Agreement to reduce specific weapons systems.",
+      "inverse": null
+    },
+    {
+      "name": "decision_making",
+      "from_types": [
+        "President",
+        "ExecutiveActor"
+      ],
+      "to_types": [
+        "PolicyChoice"
+      ],
+      "properties": [
+        "timestamp"
+      ],
+      "description": "Formal selection of a policy choice.",
+      "inverse": null
+    },
+    {
+      "name": "public_debate",
+      "from_types": [
+        "CitizenCollective",
+        "Institution"
+      ],
+      "to_types": [
+        "PolicyIssue"
+      ],
+      "properties": [
+        "complexity_level",
+        "understanding_level"
+      ],
+      "description": "Open discussion over an issue.",
+      "inverse": null
+    },
+    {
+      "name": "collective_deliberation",
+      "from_types": [
+        "StakeholderGroup"
+      ],
+      "to_types": [
+        "PolicyOption"
+      ],
+      "properties": [
+        "legitimacy_score"
+      ],
+      "description": "Stakeholder deliberation on options.",
+      "inverse": null
+    }
+  ],
+  "property_definitions": {
+    "name": "Primary string label.",
+    "type_label": "Human-friendly classification such as State or Coalition.",
+    "democratic_accountability": "Degree of accountability (0\u20131 float).",
+    "strategic_strength": "Scalar measure of relative strategic capability.",
+    "policy_transparency": "Visibility of policy process (0\u20131).",
+    "legitimacy_score": "Perceived legitimacy on 0\u20131 scale.",
+    "complexity_level": "Ordinal 1\u20135: 1=simple, 5=highly complex.",
+    "understanding_level": "Estimated public comprehension 0\u20131.",
+    "balanced_strategic_strength": "Boolean indicating parity.",
+    "genuine_reduction": "Boolean denoting real as opposed to nominal cuts.",
+    "phase": "Negotiation phase string (e.g., proposal, ratification).",
+    "timestamp": "ISO-8601 datetime of action."
+  },
+  "modifiers_supported": [
+    "temporal (past/present/future)",
+    "modal (hypothetical, desired, obligatory)"
+  ],
+  "truth_values_supported": [
+    "true",
+    "false",
+    "undetermined"
+  ],
+  "operators_supported": [
+    "AND",
+    "OR",
+    "NOT"
+  ]
+}

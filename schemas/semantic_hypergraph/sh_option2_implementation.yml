@@ -1,0 +1,116 @@
+# RAW EXTRACTION OUTPUT
+# ==================================================
+# IMPLEMENTATION SPECIFICATION  
+# (paper: “Semantic Hypergraphs”, Menezes & Roth, 2021)
+# 
+# ────────────────────────────────────────
+# NOTATION SYSTEM
+# ────────────────────────────────────────
+# Type codes  (exactly the 8 codes used in the paper)
+# 
+# C – CONCEPT  
+#  Any nominal, named-entity, pronoun, numeral or multi-word expression that denotes an entity, an abstract notion or a set.
+# 
+# P – PREDICATE  
+#  Any finite or non-finite verb that can head a clause, including auxiliaries and copulas.
+# 
+# M – MODIFIER  
+#  Adjectives, adverbs, modal auxiliaries, comparative markers, negation particles, quantity words and any syntactic element that restricts or qualifies a C or a P.
+# 
+# J – JUNCTION  
+#  Co-ordinating conjunctions and the punctuation marks that fulfil the same role (“and”, “or”, comma, semicolon, slash …).
+# 
+# R – REFERENCE  
+#  Relative pronouns, wh-words (“who”, “which”, “when”…), complementisers (“that”, “whether”) and demonstratives that open relative or subordinate clauses.
+# 
+# T – TEMPORAL  
+#  Explicit expressions of date or time (absolute or relative).
+# 
+# L – LITERAL  
+#  Quoted strings, URLs, equations, emojis or any token purposely kept as in-text literal.
+# 
+# G – GROUP / SYNTHETIC  
+#  Parser-generated helper nodes that collapse multi-word terms (“New York City”), idioms or that serve as a higher-order container when a sub-graph has to be referred to as one unit.
+# 
+# ──────────────────
+# Argument-role labels  
+# (the directed labelled arcs of the hypergraph)
+# 
+# sa  – semantic agent (external argument, “nsubj” in UD)  
+# pa  – patient / theme (object, complement)  
+# io  – indirect object / beneficiary / recipient  
+# cop – copula link between P and predicative complement  
+# at  – attribute (adjectival complement, predicative nominal)  
+# mm  – general modifier of either C or P  
+# pg  – possessive / part-of / genitive  
+# co  – coordination member (edge from J to each conjunct)  
+# cj  – conjunctive link (edge from conjunct back to J)  
+# cc  – clausal complement (verb-headed subordinate clause)  
+# cm  – complementiser (R node to its governed clause)  
+# ty  – type-of / hypernym (taxonomy building)  
+# rf  – refer-to (coreference link established by algorithm)  
+# qt  – quantity (numeric argument of a C)  
+# in  – index (order of appearance in original sentence)
+# 
+# ──────────────────
+# Special pattern symbols
+# 
+# $X       variable that matches any node  
+# $X:T     variable constrained to type T (e.g. $p:P)  
+# $X/role  path descent through one outgoing role  
+# …        Kleene star (0-N repetitions)  
+# |        alternation  
+# +        logical AND of sub-patterns inside a rule head  
+# ^        negation (pattern must not be present)  
+# ->       rule-arrow (“when HEAD is found, create BODY”)  
+# =/B      bidirectional equality test (structural identity)  
+# ()       parentheses to group a sub-pattern
+# 
+# ──────────────────
+# Complete notation examples
+# 
+# (P sa C)         A predicate linked by ‘sa’ to a concept  
+# (J +co C …)      A junction holding 2+ conjunct concepts  
+# $ev:P sa $ag:C   pattern variables for later re-use  
+# (C ty C)         “car ty vehicle” (taxonomy edge)  
+# (R cm P …)       relative pronoun governing a clause  
+# ($p mm $m:M)^    negated: there is NO modifier on $p
+# 
+# ────────────────────────────────────────
+# PATTERN LIBRARY
+# ────────────────────────────────────────
+# All patterns are themselves valid SH hypergraphs; they
+# are applied by the generic matcher exactly as described in
+# Sect. 5.2 of the paper.
+# 
+# ① Simple transitive clause  
+# Pattern   : ($v:P sa $sub:C) + ($v pa $obj:C)  
+# Matches   : Active voice predicate with one direct object  
+# Example   : “John eats apples.”  
+# Result    : triple(John, eat, apple)
+# 
+# ② Copular definition  
+# Pattern   : ($copP:P cop $attr:C) + ($copP sa $ent:C)  
+# Matches   : “X is Y” (nominal or adjectival predicate)  
+# Example   : “Water is liquid.”  
+# Result    : is_a(Water, liquid)
+# 
+# ③ Conjunction expansion  
+# Pattern   : ($j:J co $x:C) + ($j co $y:C) + ($pred:P sa $j)  
+# Matches   : Predicate whose subject is a junction of ≥2 Cs  
+# Example   : “Alice and Bob founded a company.”  
+# Result    : two assertions  
+# ==================================================
+
+implementation_specification:
+  notation_system:
+    type_codes: {}
+    argument_roles: {}
+    special_symbols: {}
+    examples: []
+  pattern_library: []
+  algorithms: []
+  evaluation:
+    metrics: []
+    results: []
+  examples: []

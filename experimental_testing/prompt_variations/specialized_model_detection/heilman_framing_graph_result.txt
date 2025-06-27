@@ -1,0 +1,17 @@
+SPECIALIZED DETECTOR TEST
+Input: validation_results/cross_domain/framing_theory_core.txt
+Detector: experimental_testing/prompt_variations/specialized_model_detection/property_graph_detector.txt
+==================================================
+
+detection_confidence: 0.95  
+structure_type: "property_graph"  
+evidence:
+  - "The theory is built on multiple interrelated concepts such as Decision Maker, Decisional Alternative, Frame, Reference Point, Risk Preference, and Loss Aversion."
+  - "It exhibits semantic relationships (e.g., framing effects modifying risk preferences) and causal links (e.g., how framing causes preference reversals) which are typical of rich network structures."  
+extracted_structure:
+  node_types: ["Theoretical Construct", "Decision Component", "Cognitive Bias", "Outcome Evaluator", "Experimental Paradigm"]
+  relationship_types: ["influences", "contradicts", "explains", "correlates with", "violates"]
+  key_nodes: ["Framing Effect", "Decision Maker", "Prospect Theory", "Risk Preference", "Reference Point"]
+  relationship_richness: "Multiple layers of relationships are present: conceptual relationships (e.g., invariance violation relates to economic rationality), causal dependencies (e.g., framing causing risk behavior shifts), and evaluative contrasts (e.g., loss aversion vs. gain evaluation)."
+network_characteristics: "The theory is organized as a network because it emphasizes connections among various conceptual nodes with labeled, directional interrelations—ranging from causal dependencies to conceptual hierarchies—demonstrating emergent properties typical of a property graph rather than a simple tabular or sequential format."
+alternative_representations: "While aspects of the theory could be abstracted into a table or a sequence (e.g., listing components and their definitions), such representations would lose the intricate interdependencies and multi-typed relationships that define its network structure."

@@ -1,0 +1,11 @@
+aiopg>=1.4.0
+asyncio-extras>=1.3.0
+databases>=0.7.0
+flask-cors>=4.0.0
+flask>=2.3.0
+gunicorn>=21.0.0
+prometheus-flask-exporter>=0.21.0
+psycopg2-binary>=2.9.0
+pyyaml>=6.0
+sqlalchemy>=2.0.0
+werkzeug>=2.3.0

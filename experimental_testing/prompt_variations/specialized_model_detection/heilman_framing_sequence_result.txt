@@ -1,0 +1,17 @@
+SPECIALIZED DETECTOR TEST
+Input: validation_results/cross_domain/framing_theory_core.txt
+Detector: experimental_testing/prompt_variations/specialized_model_detection/sequence_detector.txt
+==================================================
+
+detection_confidence: 0.1  
+structure_type: "sequence"  
+evidence:  
+  - "The theory outlines different components (e.g., decisional alternatives, frames, and reference points) that interact, but it does not prescribe or imply a fixed ordered progression of stages or steps."  
+  - "Examples like the Asian Disease Problem and Prospect Theory are used to demonstrate differences in outcomes based on framing, rather than to map out a sequential process."  
+extracted_structure:  
+  steps: []  
+  ordering_logic: "There is no explicit step‐by‐step process; instead, the theory compares how different descriptions (frames) affect evaluation of options rather than presenting a chronological, developmental, or procedural progression."  
+  progression_type: "temporal|procedural"  
+  prerequisites: "No sequential prerequisites are defined; rather, the theory assumes that individuals evaluate options based on provided frames, without a systematic sequence of decision stages."  
+sequential_characteristics: "The theoretical components are interrelated (e.g., risk preference, reference point, and loss aversion) but are not organized in a clear order of stages or steps; they function more as interacting variables than as a chain of events."  
+alternative_representations: "This framework might be better captured using a network diagram or table that shows interrelationships among components rather than a linear or strictly ordered sequence."

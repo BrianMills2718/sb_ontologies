@@ -1,0 +1,456 @@
+{
+  "entities": [
+    {
+      "term": "Natural Language Processing (NLP)",
+      "term_type": "entity",
+      "subtype": "domain-field",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "scope": "computational processing of human language"
+      }
+    },
+    {
+      "term": "Semantic Hypergraph (SH)",
+      "term_type": "entity",
+      "subtype": "core-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": "knowledge representation",
+      "constraints": {
+        "structure": "recursive ordered hypergraph"
+      }
+    },
+    {
+      "term": "knowledge representation",
+      "term_type": "entity",
+      "subtype": "core-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "atom",
+      "term_type": "entity",
+      "subtype": "element-type",
+      "domain": null,
+      "range": null,
+      "parent_concept": "Semantic Hypergraph (SH)",
+      "constraints": {
+        "size": "@/assistant to=import sys }}"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "term": "predicate (type P)",
+      "term_type": "relationship",
+      "subtype": "SH-connector",
+      "domain": [
+        "concept (type C)",
+        "relation (type R)"
+      ],
+      "range": [
+        "relation (type R)"
+      ],
+      "parent_concept": "connector",
+      "constraints": {
+        "arity": "\u22651 ordered arguments",
+        "produces": "non-atomic hyperedge of type R"
+      }
+    },
+    {
+      "term": "builder (type B)",
+      "term_type": "relationship",
+      "subtype": "SH-connector",
+      "domain": [
+        "concept (type C)"
+      ],
+      "range": [
+        "concept (type C)"
+      ],
+      "parent_concept": "connector",
+      "constraints": {
+        "arity": "\u22652 ordered arguments",
+        "semantics": "compositional concept construction"
+      }
+    },
+    {
+      "term": "trigger (type T)",
+      "term_type": "relationship",
+      "subtype": "SH-connector",
+      "domain": [
+        "relation (type R)"
+      ],
+      "range": [
+        "specifier (type S)"
+      ],
+      "parent_concept": "connector",
+      "constraints": {
+        "adds": "temporal/causal/conditional context"
+      }
+    },
+    {
+      "term": "relation (type R)",
+      "term_type": "relationship",
+      "subtype": "SH-hyperedge",
+      "domain": [
+        "predicate (type P)"
+      ],
+      "range": [
+        "concept (type C)",
+        "relation (type R)"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "forms": "fact / question / order"
+      }
+    },
+    {
+      "term": "specifier (type S)",
+      "term_type": "relationship",
+      "subtype": "SH-hyperedge",
+      "domain": [
+        "trigger (type T)"
+      ],
+      "range": [
+        "relation (type R)"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "role": "peripheral information (time, location, condition)"
+      }
+    }
+  ],
+  "properties": [
+    {
+      "term": "open/opaque dichotomy",
+      "term_type": "property",
+      "subtype": "meta-property",
+      "domain": [
+        "computational method"
+      ],
+      "range": [
+        "open",
+        "opaque"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "strict/adaptive dichotomy",
+      "term_type": "property",
+      "subtype": "meta-property",
+      "domain": [
+        "computational method"
+      ],
+      "range": [
+        "strict",
+        "adaptive"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "recursive hypergraph",
+      "term_type": "property",
+      "subtype": "structural-property",
+      "domain": [
+        "hypergraph"
+      ],
+      "range": [
+        "boolean"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "definition": "hyperedges can re-enter as vertices"
+      }
+    },
+    {
+      "term": "ordered hyperedge",
+      "term_type": "property",
+      "subtype": "structural-property",
+      "domain": [
+        "hyperedge"
+      ],
+      "range": [
+        "boolean"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "definition": "vertex order is semantically significant"
+      }
+    },
+    {
+      "term": "argument role",
+      "term_type": "property",
+      "subtype": "semantic-annotation",
+      "domain": [
+        "hyperedge argument"
+      ],
+      "range": [
+        "role code \u2018s\u2019",
+        "role code \u2018o\u2019",
+        "relative relation role \u2018r\u2019"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "role code \u2018s\u2019",
+      "term_type": "property",
+      "subtype": "role-value",
+      "domain": [
+        "argument role"
+      ],
+      "range": [
+        "subject"
+      ],
+      "parent_concept": "argument role",
+      "constraints": null
+    },
+    {
+      "term": "role code \u2018o\u2019",
+      "term_type": "property",
+      "subtype": "role-value",
+      "domain": [
+        "argument role"
+      ],
+      "range": [
+        "direct object"
+      ],
+      "parent_concept": "argument role",
+      "constraints": null
+    },
+    {
+      "term": "relative relation role \u2018r\u2019",
+      "term_type": "property",
+      "subtype": "role-value",
+      "domain": [
+        "argument role"
+      ],
+      "range": [
+        "clausal argument"
+      ],
+      "parent_concept": "argument role",
+      "constraints": null
+    },
+    {
+      "term": "deep learning opacity",
+      "term_type": "property",
+      "subtype": "problem-statement",
+      "domain": [
+        "deep learning model"
+      ],
+      "range": [
+        "opaque"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "linguistic intelligibility compromise",
+      "term_type": "property",
+      "subtype": "design-principle",
+      "domain": [
+        "Semantic Hypergraph (SH)"
+      ],
+      "range": [
+        "trade-off value"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "goal": "balance human readability & machine tractability"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "term": "conjunction decomposition",
+      "term_type": "action",
+      "subtype": "pattern operation",
+      "domain": [
+        "relation (type R)"
+      ],
+      "range": [
+        "relation (type R)"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "precondition": "relation contains conjunction (type J)",
+        "effect": "yields independent simpler relations"
+      }
+    },
+    {
+      "term": "probabilistic seed assignment",
+      "term_type": "action",
+      "subtype": "heuristic-rule",
+      "domain": [
+        "ambiguous atom"
+      ],
+      "range": [
+        "coreference set"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "criterion": "relative degree ratios"
+      }
+    },
+    {
+      "term": "actor detection",
+      "term_type": "action",
+      "subtype": "task-definition",
+      "domain": [
+        "relation (type R)"
+      ],
+      "range": [
+        "concept (type C)"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "uses": "role codes indicating agency"
+      }
+    },
+    {
+      "term": "pattern learning template",
+      "term_type": "action",
+      "subtype": "methodology",
+      "domain": [
+        "corpus hyperedge"
+      ],
+      "range": [
+        "inference rule (SH)"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "human_in_loop": "yes"
+      }
+    },
+    {
+      "term": "pattern compression/generalization",
+      "term_type": "action",
+      "subtype": "pattern-operation",
+      "domain": [
+        "set of SH patterns"
+      ],
+      "range": [
+        "generalised SH pattern"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "must_not": "over-generalise (precision drop)"
+      }
+    },
+    {
+      "term": "linguistic feature ablation",
+      "term_type": "action",
+      "subtype": "experimental-method",
+      "domain": [
+        "alpha classifier feature set"
+      ],
+      "range": [
+        "accuracy metric"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "genetic algorithm feature selection",
+      "term_type": "action",
+      "subtype": "algorithmic-method",
+      "domain": [
+        "feature mask population"
+      ],
+      "range": [
+        "optimized feature set"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "objective": "maximize classifier accuracy"
+      }
+    }
+  ],
+  "measures": [
+    {
+      "term": "deep degree (\u03b4)",
+      "term_type": "measure",
+      "subtype": "hypergraph metric",
+      "domain": [
+        "edge"
+      ],
+      "range": [
+        "integer"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "definition": "counts recursive co-participations"
+      }
+    },
+    {
+      "term": "hypergraphic degree (d)",
+      "term_type": "measure",
+      "subtype": "hypergraph metric",
+      "domain": [
+        "edge"
+      ],
+      "range": [
+        "integer"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "definition": "sum over outer hyperedges (size-1)"
+      }
+    },
+    {
+      "term": "defect size (relative)",
+      "term_type": "measure",
+      "subtype": "error metric",
+      "domain": [
+        "defective subedge"
+      ],
+      "range": [
+        "ratio"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    }
+  ],
+  "modifiers": [
+    {
+      "term": "modifier (type M)",
+      "term_type": "modifier",
+      "subtype": "SH-connector",
+      "domain": [
+        "hyperedge"
+      ],
+      "range": [
+        "hyperedge (same type)"
+      ],
+      "parent_concept": "connector",
+      "constraints": {
+        "arity": "1 argument",
+        "examples": "negation, adjective"
+      }
+    }
+  ],
+  "truth_values": [],
+  "operators": [
+    {
+      "term": "conjunction (type J)",
+      "term_type": "operator",
+      "subtype": "SH-connector",
+      "domain": [
+        "hyperedge"
+      ],
+      "range": [
+        "hyperedge"
+      ],
+      "parent_concept": "connector",
+      "constraints": {
+        "role": "sequence/coordinate multiple hyperedges"
+      }
+    }
+  ]
+}

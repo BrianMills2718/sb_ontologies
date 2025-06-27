@@ -1,0 +1,20 @@
+{
+  "speakers": [
+    {
+      "id": "a1",
+      "name": "David_Leonhardt"
+    },
+    {
+      "id": "a2",
+      "name": "Bret_Stephens"
+    },
+    {
+      "id": "a3",
+      "name": "Rosemary_Kelanic"
+    }
+  ],
+  "claims": [],
+  "agreements": [],
+  "disagreements": [],
+  "conditionals": []
+}

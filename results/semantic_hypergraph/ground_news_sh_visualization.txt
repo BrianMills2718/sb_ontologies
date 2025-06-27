@@ -1,0 +1,37 @@
+SEMANTIC HYPERGRAPH INSTANCE
+==================================================
+
+ATOMS:
+  a1: spain_pm_sanchez/C
+  a2: gaza/C
+  a3: genocide/C
+  a4: describe/P
+  a5: condemn/P
+  a6: israel_offensive/C
+  a7: israel_military_campaign/C
+  a8: kill/P
+  a9: num_56259/C
+  a10: civilians/C
+  a11: mostly/M
+  a12: health_ministry_gaza/C
+  a13: num_550/C
+  a14: aid_centres/C
+  a15: unspecified_agent/C
+  a16: near/T
+  a17: rescuers/C
+  a18: num_56/C
+  a19: say/P
+  a20: and/B
+
+HYPEREDGES:
+  h1: (describe/P a1 a2 a3)
+  h2: (condemn/P a1 a6)
+  h3: (kill/P a7 a9) [a11, a10]
+  h4: (say/P a12 h3)
+  h5: (kill/P a15 a13) [a16, a14]
+  h6: (say/P a12 h5)
+  h7: (kill/P a15 a18)
+  h8: (say/P a17 h7)
+  h9: (and/B h1 h2 h4 h6 h8)
+
+MAIN: h9

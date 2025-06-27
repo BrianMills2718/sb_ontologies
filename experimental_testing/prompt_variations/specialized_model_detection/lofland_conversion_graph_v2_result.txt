@@ -1,0 +1,18 @@
+REFINED DETECTOR TEST
+Input: validation_results/complexity_testing/lofland_stark_simple_theory.txt
+Detector: experimental_testing/prompt_variations/specialized_model_detection/property_graph_detector_v2.txt
+==================================================
+
+detection_confidence: 0.2  
+structure_type: "property_graph"  
+evidence:
+  - "The theory describes conversion as a sequential, funnel-like process with seven ordered conditions rather than as a network of interconnected entities."
+  - "Although affective bonds are mentioned, they serve as one among several conditions rather than representing a complex network of interrelations with network-level emergent properties."
+network_centrality_evidence:
+  - "There is no discussion of network metrics, graph structures, or network effects as central to the theoretical predictions."
+  - "The concept of 'intensive interaction' is mentioned, but it is not developed into an analysis of network topology or centrality."
+relationship_richness_evidence:
+  - "Relationships are mentioned (e.g., affective bonds and extra-cult attachments), but these are used in a linear, conditional progression rather than forming a rich, interdependent network with multiple types of links."
+  - "The focus is on a value-added, accumulative model rather than on mapping complex interconnections among a set of nodes or entities."
+alternative_structure_analysis: "The theory is more akin to a sequential, condition-based model (a funnel or stepwise process) than a systematic network/graph structure analysis."
+confidence_justification: "The overall emphasis on a sequential accumulation of factors rather than on interconnected network dynamics leads to a low confidence rating for classifying this theory as primarily organized as a network (property graph). While there are relational aspects, they are not the main theoretical insight."

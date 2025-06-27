@@ -1,0 +1,20 @@
+YOUNG 1996 DETECTOR TEST
+Input: validation_results/academic_papers/young1996_cognitive_mapping.txt
+Detector: experimental_testing/prompt_variations/specialized_model_detection/table_matrix_detector.txt
+==================================================
+
+detection_confidence: 0.95  
+structure_type: "table_matrix"  
+evidence:  
+  - "The article explicitly discusses the use of an 'adjacency matrix' for representing cognitive maps – each concept is given a row and a column, with cell entries indicating a relationship (1 or 0)."  
+  - "TABLE 1 (WorldView Coding Categories) is provided as a formal tabular listing of different relationship and action types, showing a systematic, column‐and‐row comparison of coding categories."  
+  - "The discussion of transformation cost, dependency, and connectedness includes matrix-like formulations comparing concepts and relationships, evidencing an underlying structured, comparative format."  
+extracted_structure:  
+  rows:  
+    - "Concepts (e.g., SALT, lowest-common-denominator, arms-control-process, etc.) or coding category groups (e.g., Relationships vs. Actions)"  
+  columns:  
+    - "Concepts (in adjacency matrix representation) or subcategories (e.g., specific relationship types, actions) as per TABLE 1"  
+  cells: "Each cell contains the value or symbol that indicates whether a relationship exists between the concept in the row and the concept in the column (e.g., 1/0 in an adjacency matrix or specific coded symbol in TABLE 1)"  
+  dimensions: "For an adjacency matrix: N x N where N = number of unique concepts; for TABLE 1: typically 2 columns (Relationships, Actions) with multiple rows listing specific categories"  
+primary_comparison: "The theory systematically compares and classifies beliefs, cognitive elements, and the relationships between them (or between coding categories) to construct manipulable cognitive maps."  
+alternative_representations: "While the theory is organized in a tabular/matrix format (via adjacency matrices and coding tables), these structures could alternatively be represented as network graphs (nodes and edges) or sequential process models highlighting decision flows."

@@ -1,0 +1,144 @@
+annotation: Lofland and Stark propose a seven-stage, value-added sequence that explains
+  how individuals convert to a deviant religious outlook, moving from personal tension
+  through intensive interaction to become active propagators. Their model highlights
+  how structural conditions and interpersonal ties filter and transform potential
+  recruits into committed cult members.
+citation: 'Lofland, John, and Rodney Stark. 1965. "Becoming a World-Saver: A Theory
+  of Conversion to a Deviant Perspective." American Sociological Review 30(6): 862-875.'
+model_type: sequence
+rationale: The theory is explicitly structured as a fixed temporal/causal sequence
+  of seven cumulative conditions, so a sequence model best captures the ordered logic
+  and gate-like progression required for conversion.
+schema_blueprint:
+  definitions:
+  - category: action
+    description: The process by which an individual adopts a deviant religious perspective
+      and identity.
+    domain:
+    - Entity
+    name: Conversion
+    range:
+    - Entity
+  - category: entity
+    description: A system of beliefs that departs from mainstream cultural or religious
+      norms.
+    name: Deviant Perspective
+  - category: entity
+    description: The conceptual framework positing seven cumulative conditions necessary
+      and sufficient for conversion.
+    name: Value-Added Model
+  - category: property
+    description: An acutely felt discrepancy between ideal and real circumstances
+      that motivates change.
+    name: Tension
+  - category: property
+    description: A cognitive orientation that frames personal problems in religious
+      terms and seeks religious solutions.
+    name: Religious Problem-Solving Perspective
+  - category: property
+    description: Self-definition as an active searcher for a satisfactory system of
+      religious meaning.
+    name: Seekership
+  - category: property
+    description: A life juncture that heightens receptivity to new solutions and provides
+      opportunity for change.
+    name: Turning Point
+  - category: entity
+    description: The deviant religious group offering the new perspective and community.
+    name: Cult
+  - category: relationship
+    description: Positive emotional relationship linking a recruit to one or more
+      cult members.
+    domain:
+    - Entity
+    name: Affective Bond
+    range:
+    - Entity
+  - category: relationship
+    description: Social ties outside the cult that can discourage conversion.
+    domain:
+    - Entity
+    name: Extra-Cult Attachment
+    range:
+    - Entity
+  - category: action
+    description: Actions or processes that weaken or remove opposing extra-cult attachments.
+    domain:
+    - Entity
+    name: Neutralization
+    range:
+    - Entity
+  - category: action
+    description: High-frequency, high-involvement contact with cult members that socializes
+      and commits the recruit.
+    domain:
+    - Entity
+    name: Intensive Interaction
+    range:
+    - Entity
+  - category: entity
+    description: A fully committed convert prepared to actively spread the deviant
+      perspective.
+    name: Deployable Agent
+  - category: entity
+    description: An individual who professes belief but does not actively participate
+      in missionary activity.
+    name: Verbal Convert
+  - category: entity
+    description: An individual whose commitment is demonstrated in both words and
+      deeds.
+    name: Total Convert
+  - category: measure
+    description: The sequential narrowing of the pool of potential converts as each
+      condition is applied.
+    name: Recruitment Funnel
+  - category: action
+    description: The moment a condition becomes operative in the conversion sequence.
+    domain:
+    - Entity
+    name: Activation
+    range:
+    - Entity
+  - category: entity
+    description: A role identity of someone exploring alternative religious meanings.
+    name: Religious Seeker
+  - category: action
+    description: The cognitive shift from prior worldview to the deviant perspective.
+    domain:
+    - Entity
+    name: Perspective Change
+    range:
+    - Entity
+  - category: property
+    description: The depth and durability of attachment to the new perspective and
+      group.
+    name: Commitment
+  - category: property
+    description: Any factor that discourages conversion by making exit costs from
+      prior ties salient.
+    name: Counter-Incentive
+  - category: measure
+    description: The size of the population still meeting all prior conditions and
+      thus reachable for conversion.
+    name: Recruitment Availability
+  - category: relationship
+    description: The ordered set of prerequisites that must all be satisfied for conversion
+      to occur.
+    domain:
+    - Entity
+    name: Sequential Conditions
+    range:
+    - Entity
+  - category: measure
+    description: Observable behaviors that signal the recruit’s full allegiance, distinguishing
+      total from verbal converts.
+    name: Commitment Demonstration
+  description: Schema generated from paper analysis
+  root_properties:
+    edges:
+      description: Relationships and actions
+      item_type: NaryTuple
+    nodes:
+      description: Entities and concepts
+      item_type: Entity
+  title: Simplified Schema

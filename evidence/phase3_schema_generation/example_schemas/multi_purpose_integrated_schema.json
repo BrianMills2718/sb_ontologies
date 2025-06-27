@@ -1,0 +1,86 @@
+{
+  "schema_type": "multi_purpose_integrated",
+  "model_type": "comprehensive_social_theory",
+  "sophistication_level": 8,
+  "purposes": ["descriptive", "explanatory", "predictive", "causal", "intervention"],
+  "integrated_capabilities": {
+    "descriptive_capabilities": {
+      "sophistication_level": 8,
+      "core_functions": ["taxonomic_classification", "typological_analysis", "structural_description"],
+      "equal_to_others": true
+    },
+    "explanatory_capabilities": {
+      "sophistication_level": 8,
+      "core_functions": ["mechanism_analysis", "process_modeling", "interpretive_analysis"],
+      "equal_to_others": true
+    },
+    "predictive_capabilities": {
+      "sophistication_level": 8,
+      "core_functions": ["forecasting_systems", "predictive_modeling", "risk_assessment"],
+      "equal_to_others": true
+    },
+    "causal_capabilities": {
+      "sophistication_level": 8,
+      "core_functions": ["causal_identification", "causal_inference", "intervention_design"],
+      "equal_to_others": true
+    },
+    "intervention_capabilities": {
+      "sophistication_level": 8,
+      "core_functions": ["strategy_design", "execution_management", "outcome_optimization"],
+      "equal_to_others": true
+    }
+  },
+  "cross_purpose_integration": {
+    "multi_purpose_operations": {
+      "descriptive_explanatory": {
+        "operations": ["classify_and_explain", "describe_mechanisms"],
+        "workflow": "describe → analyze → explain"
+      },
+      "explanatory_predictive": {
+        "operations": ["explain_and_predict", "model_mechanisms"],
+        "workflow": "explain → model → predict"
+      },
+      "predictive_causal": {
+        "operations": ["predict_and_infer", "forecast_effects"],
+        "workflow": "predict → test → infer"
+      },
+      "causal_intervention": {
+        "operations": ["infer_and_intervene", "design_from_causes"],
+        "workflow": "infer → design → implement"
+      },
+      "intervention_descriptive": {
+        "operations": ["implement_and_classify", "operationalize_types"],
+        "workflow": "implement → observe → classify"
+      }
+    },
+    "unified_workflows": {
+      "theory_to_action": {
+        "stages": ["theorize", "operationalize", "implement", "evaluate"],
+        "purposes_involved": ["explanatory", "intervention", "causal", "descriptive"]
+      },
+      "data_to_intervention": {
+        "stages": ["describe", "explain", "predict", "infer", "intervene"],
+        "purposes_involved": ["descriptive", "explanatory", "predictive", "causal", "intervention"]
+      },
+      "problem_to_solution": {
+        "stages": ["characterize", "analyze", "design", "implement"],
+        "purposes_involved": ["descriptive", "explanatory", "intervention"]
+      }
+    }
+  },
+  "balance_validation": {
+    "equal_sophistication": true,
+    "balance_score": 1.0,
+    "balance_status": "BALANCED",
+    "sophistication_scores": {
+      "descriptive": 8,
+      "explanatory": 8,
+      "predictive": 8,
+      "causal": 8,
+      "intervention": 8
+    },
+    "no_causal_over_emphasis": true,
+    "comprehensive_coverage": true,
+    "cross_purpose_integration_complete": true
+  }
+}

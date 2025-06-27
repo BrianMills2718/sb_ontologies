@@ -1,0 +1,17 @@
+SPECIALIZED DETECTOR TEST
+Input: validation_results/cross_domain/framing_theory_core.txt
+Detector: experimental_testing/prompt_variations/specialized_model_detection/table_matrix_detector.txt
+==================================================
+
+detection_confidence: 0.3
+structure_type: "table_matrix"
+evidence:
+  - "The Asian Disease Problem is described by contrasting two framing conditions (gain frame vs. loss frame) along with two decision alternatives (sure vs. probabilistic), which suggests a 2×2 comparison."
+  - "The Taxonomy of Framing Effects and the discussion on domain differences imply that one may classify phenomena (e.g., risky choice, attribute, goal framing) across distinct dimensions."
+extracted_structure:
+  rows: ["Gain Frame", "Loss Frame"]
+  columns: ["Sure Alternative", "Probabilistic Alternative"]
+  cells: "Cells could denote key outcome measures such as risk aversion (e.g., 28% rate) and risk seeking (e.g., 78% rate), linking frames with observed decision preferences."
+  dimensions: "2x2"
+primary_comparison: "The theory systematically compares how equivalent decision options (framed in terms of gains or losses) lead to different risk preferences in decision making."
+alternative_representations: "Although it contains elements of a table/matrix (e.g., systematic comparison of frames and outcomes), the theory is largely presented in narrative form and could also be represented as a flow diagram showing the decision process or as a sequence of events."

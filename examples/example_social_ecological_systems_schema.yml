@@ -1,0 +1,251 @@
+citation: "Ostrom, Elinor. 2009. A General Framework for Analyzing Sustainability of Social-Ecological Systems. Science 325(5939): 419-422."
+annotation: "Presents a multi-tier framework for analyzing complex social-ecological systems, identifying key variables and their interactions across multiple subsystems including resource systems, resource units, governance systems, and actors."
+model_type: "hybrid"
+rationale: "Social-ecological systems require multiple representations: property graphs for actor-resource-governance relationships, matrices for resource access rights and rule configurations, and hierarchical trees for nested governance levels. No single model can capture the full complexity of coupled human-natural systems."
+
+# Hybrid model specification
+hybrid_components:
+  - component_id: "ses_core_relationships"
+    component_type: "property_graph"
+    description: "Core subsystems and their interactions"
+    
+  - component_id: "resource_access_matrix"
+    component_type: "table_matrix"
+    description: "Actor groups × Resource types × Access rights"
+    
+  - component_id: "governance_hierarchy"
+    component_type: "tree"
+    description: "Nested levels of governance from local to global"
+
+inter_component_mappings:
+  - from_component: "ses_core_relationships"
+    from_element: "Actor"
+    to_component: "resource_access_matrix"
+    to_element: "actor_group"
+    mapping_type: "entity_correspondence"
+    
+  - from_component: "ses_core_relationships"
+    from_element: "GovernanceSystem"
+    to_component: "governance_hierarchy"
+    to_element: "governance_node"
+    mapping_type: "entity_correspondence"
+
+schema_blueprint:
+  title: "Social-Ecological Systems Framework Schema"
+  description: "Multi-tier framework for analyzing sustainability of coupled human-natural systems"
+  
+  # Component 1: Property Graph Structure
+  component_ses_core:
+    root_properties:
+      nodes:
+        description: "Core subsystems and their components"
+        item_type: "Entity"
+      edges:
+        description: "Interactions and feedbacks between subsystems"
+        item_type: "NaryTuple"
+    
+    definitions:
+      # Core Subsystems (Entities)
+      - name: "ResourceSystem"
+        category: "core-subsystem"
+        description: "Biophysical system providing resource units (e.g., forest, fishery)"
+        properties:
+          - name: "system_size"
+            type: "numeric"
+            required: true
+          - name: "productivity"
+            type: "numeric"
+            required: true
+          - name: "predictability"
+            type: "categorical"
+            values: ["high", "medium", "low"]
+            required: true
+            
+      - name: "ResourceUnit"
+        category: "core-subsystem"
+        description: "Extractable components of resource systems (e.g., trees, fish)"
+        properties:
+          - name: "mobility"
+            type: "numeric"
+            required: true
+          - name: "growth_rate"
+            type: "numeric"
+            required: false
+          - name: "economic_value"
+            type: "numeric"
+            required: true
+            
+      - name: "GovernanceSystem"
+        category: "core-subsystem"
+        description: "Institutions and rules governing resource use"
+        properties:
+          - name: "governance_level"
+            type: "categorical"
+            values: ["local", "regional", "national", "international"]
+            required: true
+          - name: "property_rights_system"
+            type: "categorical"
+            values: ["private", "common", "public", "mixed"]
+            required: true
+            
+      - name: "Actor"
+        category: "core-subsystem"
+        description: "Individuals or organizations using or managing resources"
+        properties:
+          - name: "group_size"
+            type: "numeric"
+            required: true
+          - name: "social_capital"
+            type: "numeric"
+            range: [0, 1]
+            required: false
+          - name: "knowledge_system"
+            type: "categorical"
+            values: ["traditional", "scientific", "hybrid"]
+            
+      # Relationships with reasoning requirements
+      - name: "harvests"
+        category: "action"
+        description: "Actor extracts resource units from system"
+        domain: ["Actor"]
+        range: ["ResourceUnit"]
+        properties:
+          - name: "extraction_rate"
+            type: "numeric"
+            required: true
+          - name: "technology_used"
+            type: "string"
+        constraints:
+          sustainability_condition: "extraction_rate <= ResourceSystem.productivity"
+          
+      - name: "governs"
+        category: "relationship"
+        description: "Governance system regulates actor behavior"
+        domain: ["GovernanceSystem"]
+        range: ["Actor"]
+        properties:
+          - name: "rule_types"
+            type: "array"
+            items: ["access", "extraction", "provision", "monitoring", "sanctioning"]
+        owl:characteristics: ["functional"]  # One governance system per actor at each level
+        
+      - name: "monitors"
+        category: "action"
+        description: "Actor observes resource system conditions"
+        domain: ["Actor"]
+        range: ["ResourceSystem"]
+        properties:
+          - name: "monitoring_frequency"
+            type: "temporal"
+          - name: "monitoring_cost"
+            type: "numeric"
+            
+      - name: "affects"
+        category: "relationship"
+        description: "Bidirectional effects between subsystems"
+        domain: ["ResourceSystem", "ResourceUnit", "GovernanceSystem", "Actor"]
+        range: ["ResourceSystem", "ResourceUnit", "GovernanceSystem", "Actor"]
+        properties:
+          - name: "effect_type"
+            type: "categorical"
+            values: ["positive", "negative", "neutral", "non-linear"]
+          - name: "time_lag"
+            type: "temporal"
+        owl:characteristics: ["symmetric"]
+        
+      # Collective Action Entities
+      - name: "CollectiveAction"
+        category: "emergent-phenomenon"
+        description: "Coordinated behavior among actors for resource management"
+        properties:
+          - name: "cooperation_level"
+            type: "numeric"
+            range: [0, 1]
+            
+      - name: "participates_in"
+        category: "relationship"
+        description: "Actor engages in collective action"
+        domain: ["Actor"]
+        range: ["CollectiveAction"]
+        properties:
+          - name: "contribution_level"
+            type: "numeric"
+            
+  # Component 2: Resource Access Matrix (as n-ary relation)
+  component_access_rights:
+    root_properties:
+      access_relation:
+        description: "N-ary relation capturing access rights"
+        item_type: "NaryTuple"
+        arity: 4
+        
+    definitions:
+      - name: "resource_access"
+        category: "n-ary-relation"
+        description: "Maps actors to resources with specific rights and conditions"
+        arity: 4
+        roles:
+          - name: "actor_group"
+            type: "Actor"
+            description: "Group holding access rights"
+          - name: "resource_type"
+            type: "ResourceUnit"
+            description: "Type of resource being accessed"
+          - name: "access_right"
+            type: "AccessRight"
+            description: "Type of permitted use"
+          - name: "seasonal_constraint"
+            type: "TemporalPeriod"
+            description: "When access is permitted"
+        constraints:
+          exclusivity: "multiple actors can have same access right"
+          
+      - name: "AccessRight"
+        category: "right-type"
+        description: "Specific type of resource use permission"
+        enum: ["harvest", "exclude_others", "manage", "alienate", "access"]
+        
+  # Component 3: Governance Hierarchy (Tree)
+  component_governance_tree:
+    root_properties:
+      root:
+        description: "Top-level governance institution"
+        item_type: "Entity"
+      hierarchy:
+        description: "Parent-child governance relationships"
+        item_type: "Hierarchy"
+        
+    definitions:
+      - name: "nests_within"
+        category: "hierarchical-relationship"
+        description: "Lower-level governance nested in higher level"
+        domain: ["GovernanceSystem"]
+        range: ["GovernanceSystem"]
+        owl:characteristics: ["transitive", "antisymmetric"]
+        constraints:
+          level_ordering: "domain.governance_level < range.governance_level"
+          
+  # Cross-cutting features
+  modifiers_supported:
+    - "equilibrium"  # System in balance
+    - "transitioning"  # System changing states
+    - "collapsed"  # System degraded
+    
+  reasoning_requirements:
+    - type: "constraint_satisfaction"
+      description: "Check sustainability conditions"
+    - type: "game_theoretic"
+      description: "Analyze collective action dilemmas"
+    - type: "dynamic_systems"
+      description: "Model feedback loops and time delays"
+    - type: "institutional_analysis"
+      description: "Evaluate rule configurations"
+      
+  statistical_parameters:
+    - name: "system_resilience"
+      type: "derived_measure"
+      formula: "function of diversity, connectivity, feedback_strength"
+    - name: "cooperation_probability"
+      type: "stochastic"
+      distribution: "beta"
+      parameters: ["group_size", "social_capital", "sanctioning_strength"]

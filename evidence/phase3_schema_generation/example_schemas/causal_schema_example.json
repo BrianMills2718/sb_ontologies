@@ -1,0 +1,103 @@
+{
+  "schema_type": "causal_analysis",
+  "model_type": "causal_inference_system",
+  "sophistication_level": 8,
+  "purpose": "causal",
+  "core_capabilities": {
+    "causal_identification": {
+      "identification_strategies": [
+        "randomized_experiments",
+        "natural_experiments",
+        "quasi_experiments",
+        "observational_studies",
+        "instrumental_variables"
+      ],
+      "causal_discovery": [
+        "constraint_based_methods",
+        "score_based_methods", 
+        "hybrid_approaches",
+        "causal_structure_learning",
+        "intervention_based_discovery"
+      ],
+      "confounding_control": [
+        "randomization",
+        "matching",
+        "stratification",
+        "regression_adjustment",
+        "propensity_scoring"
+      ]
+    },
+    "causal_inference": {
+      "effect_estimation": [
+        "average_treatment_effect",
+        "local_average_treatment_effect",
+        "conditional_average_treatment_effect",
+        "heterogeneous_treatment_effects",
+        "dynamic_treatment_effects"
+      ],
+      "inference_methods": [
+        "potential_outcomes_framework",
+        "structural_causal_models",
+        "directed_acyclic_graphs",
+        "structural_equation_modeling",
+        "machine_learning_methods"
+      ],
+      "validity_assessment": [
+        "internal_validity",
+        "external_validity",
+        "construct_validity",
+        "statistical_conclusion_validity",
+        "generalizability"
+      ]
+    },
+    "intervention_design": {
+      "target_identification": [
+        "leverage_points",
+        "intervention_points",
+        "policy_targets",
+        "behavioral_targets",
+        "structural_targets"
+      ],
+      "mechanism_specification": [
+        "theory_of_change",
+        "logic_models",
+        "causal_pathways",
+        "intervention_mechanisms",
+        "implementation_strategies"
+      ],
+      "effect_prediction": [
+        "intended_effects",
+        "unintended_effects",
+        "spillover_effects",
+        "long_term_effects",
+        "heterogeneous_effects"
+      ]
+    }
+  },
+  "analytical_operations": [
+    "cause",
+    "influence",
+    "affect", 
+    "determine",
+    "infer",
+    "trigger",
+    "enable",
+    "prevent"
+  ],
+  "output_formats": [
+    "causal_models",
+    "causal_diagrams",
+    "effect_estimates",
+    "intervention_designs",
+    "causal_pathways",
+    "mechanism_maps"
+  ],
+  "balance_validation": {
+    "sophistication_equal_to_others": true,
+    "no_over_emphasis": true,
+    "equal_to_descriptive": true,
+    "equal_to_explanatory": true,
+    "equal_to_predictive": true,
+    "equal_to_intervention": true
+  }
+}

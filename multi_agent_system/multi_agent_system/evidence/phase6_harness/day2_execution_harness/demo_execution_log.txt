@@ -1,0 +1,264 @@
+2025-06-23 08:28:28,142 - MockHarness.simple-demo - INFO - Registered component 'source' with 0 dependencies
+2025-06-23 08:28:28,142 - MockHarness.simple-demo - INFO - Registered component 'processor' with 1 dependencies
+2025-06-23 08:28:28,142 - MockHarness.simple-demo - INFO - Registered component 'sink' with 1 dependencies
+2025-06-23 08:28:28,142 - MockHarness.simple-demo - INFO - Connected source.output -> processor.input
+2025-06-23 08:28:28,142 - MockHarness.simple-demo - INFO - Connected processor.output -> sink.input
+2025-06-23 08:28:28,142 - MockHarness.simple-demo - INFO - Initializing harness with 3 components
+2025-06-23 08:28:28,142 - MockComponent.data-source - INFO - Component data-source setup completed
+2025-06-23 08:28:28,142 - MockComponent.data-processor - INFO - Component data-processor setup completed
+2025-06-23 08:28:28,142 - MockComponent.data-sink - INFO - Component data-sink setup completed
+2025-06-23 08:28:28,142 - MockHarness.simple-demo - INFO - Starting harness execution
+2025-06-23 08:28:28,142 - MockComponent.data-source - INFO - Component data-source starting process
+2025-06-23 08:28:28,142 - MockComponent.data-processor - INFO - Component data-processor starting process
+2025-06-23 08:28:28,142 - MockComponent.data-sink - INFO - Component data-sink starting process
+2025-06-23 08:28:28,243 - MockComponent.data-source - INFO - Component data-source processed cycle 1
+2025-06-23 08:28:28,243 - MockComponent.data-processor - INFO - Component data-processor processed cycle 1
+2025-06-23 08:28:28,243 - MockComponent.data-sink - INFO - Component data-sink processed cycle 1
+2025-06-23 08:28:28,343 - MockComponent.data-sink - INFO - Component data-sink completed processing
+2025-06-23 08:28:28,444 - MockComponent.data-source - INFO - Component data-source processed cycle 3
+2025-06-23 08:28:28,444 - MockComponent.data-source - INFO - Component data-source completed processing
+2025-06-23 08:28:28,444 - MockComponent.data-processor - INFO - Component data-processor processed cycle 3
+2025-06-23 08:28:28,544 - MockComponent.data-processor - INFO - Component data-processor completed processing
+2025-06-23 08:28:28,544 - MockHarness.simple-demo - INFO - Starting harness shutdown
+2025-06-23 08:28:28,544 - MockComponent.data-source - INFO - Component data-source cleanup completed
+2025-06-23 08:28:28,544 - MockComponent.data-processor - INFO - Component data-processor cleanup completed
+2025-06-23 08:28:28,544 - MockComponent.data-sink - INFO - Component data-sink cleanup completed
+2025-06-23 08:28:28,544 - MockHarness.simple-demo - INFO - Harness shutdown completed. Uptime: 0.40s
+2025-06-23 08:28:28,544 - MockHarness.complex-demo - INFO - Registered component 'input1' with 0 dependencies
+2025-06-23 08:28:28,545 - MockHarness.complex-demo - INFO - Registered component 'input2' with 0 dependencies
+2025-06-23 08:28:28,545 - MockHarness.complex-demo - INFO - Registered component 'proc1' with 1 dependencies
+2025-06-23 08:28:28,545 - MockHarness.complex-demo - INFO - Registered component 'proc2' with 1 dependencies
+2025-06-23 08:28:28,545 - MockHarness.complex-demo - INFO - Registered component 'agg' with 2 dependencies
+2025-06-23 08:28:28,545 - MockHarness.complex-demo - INFO - Registered component 'output' with 1 dependencies
+2025-06-23 08:28:28,545 - MockHarness.complex-demo - INFO - Registered component 'logger' with 0 dependencies
+2025-06-23 08:28:28,545 - MockHarness.complex-demo - INFO - Connected input1.data -> proc1.input
+2025-06-23 08:28:28,545 - MockHarness.complex-demo - INFO - Connected input2.data -> proc2.input
+2025-06-23 08:28:28,545 - MockHarness.complex-demo - INFO - Connected proc1.output -> agg.input1
+2025-06-23 08:28:28,545 - MockHarness.complex-demo - INFO - Connected proc2.output -> agg.input2
+2025-06-23 08:28:28,545 - MockHarness.complex-demo - INFO - Connected agg.output -> output.input
+2025-06-23 08:28:28,545 - MockHarness.complex-demo - INFO - Connected agg.logs -> logger.input
+2025-06-23 08:28:28,545 - MockHarness.complex-demo - INFO - Initializing harness with 7 components
+2025-06-23 08:28:28,545 - MockComponent.input-stream-1 - INFO - Component input-stream-1 setup completed
+2025-06-23 08:28:28,545 - MockComponent.input-stream-2 - INFO - Component input-stream-2 setup completed
+2025-06-23 08:28:28,545 - MockComponent.processor-1 - INFO - Component processor-1 setup completed
+2025-06-23 08:28:28,545 - MockComponent.processor-2 - INFO - Component processor-2 setup completed
+2025-06-23 08:28:28,545 - MockComponent.aggregator - INFO - Component aggregator setup completed
+2025-06-23 08:28:28,545 - MockComponent.output-stream - INFO - Component output-stream setup completed
+2025-06-23 08:28:28,545 - MockComponent.logger - INFO - Component logger setup completed
+2025-06-23 08:28:28,545 - MockHarness.complex-demo - INFO - Starting harness execution
+2025-06-23 08:28:28,545 - MockComponent.input-stream-1 - INFO - Component input-stream-1 starting process
+2025-06-23 08:28:28,545 - MockComponent.input-stream-2 - INFO - Component input-stream-2 starting process
+2025-06-23 08:28:28,545 - MockComponent.processor-1 - INFO - Component processor-1 starting process
+2025-06-23 08:28:28,545 - MockComponent.processor-2 - INFO - Component processor-2 starting process
+2025-06-23 08:28:28,545 - MockComponent.aggregator - INFO - Component aggregator starting process
+2025-06-23 08:28:28,545 - MockComponent.output-stream - INFO - Component output-stream starting process
+2025-06-23 08:28:28,545 - MockComponent.logger - INFO - Component logger starting process
+2025-06-23 08:28:28,646 - MockComponent.input-stream-1 - INFO - Component input-stream-1 processed cycle 1
+2025-06-23 08:28:28,646 - MockComponent.input-stream-2 - INFO - Component input-stream-2 processed cycle 1
+2025-06-23 08:28:28,646 - MockComponent.processor-1 - INFO - Component processor-1 processed cycle 1
+2025-06-23 08:28:28,646 - MockComponent.processor-2 - INFO - Component processor-2 processed cycle 1
+2025-06-23 08:28:28,646 - MockComponent.aggregator - INFO - Component aggregator processed cycle 1
+2025-06-23 08:28:28,646 - MockComponent.output-stream - INFO - Component output-stream processed cycle 1
+2025-06-23 08:28:28,646 - MockComponent.logger - INFO - Component logger processed cycle 1
+2025-06-23 08:28:28,846 - MockComponent.input-stream-1 - INFO - Component input-stream-1 processed cycle 3
+2025-06-23 08:28:28,846 - MockComponent.input-stream-2 - INFO - Component input-stream-2 processed cycle 3
+2025-06-23 08:28:28,846 - MockComponent.processor-1 - INFO - Component processor-1 processed cycle 3
+2025-06-23 08:28:28,847 - MockComponent.processor-2 - INFO - Component processor-2 processed cycle 3
+2025-06-23 08:28:28,847 - MockComponent.aggregator - INFO - Component aggregator processed cycle 3
+2025-06-23 08:28:28,847 - MockComponent.output-stream - INFO - Component output-stream processed cycle 3
+2025-06-23 08:28:28,847 - MockComponent.output-stream - INFO - Component output-stream completed processing
+2025-06-23 08:28:28,847 - MockComponent.logger - INFO - Component logger processed cycle 3
+2025-06-23 08:28:28,947 - MockComponent.input-stream-2 - INFO - Component input-stream-2 completed processing
+2025-06-23 08:28:29,047 - MockComponent.input-stream-1 - INFO - Component input-stream-1 processed cycle 5
+2025-06-23 08:28:29,047 - MockComponent.input-stream-1 - INFO - Component input-stream-1 completed processing
+2025-06-23 08:28:29,047 - MockComponent.processor-1 - INFO - Component processor-1 processed cycle 5
+2025-06-23 08:28:29,047 - MockComponent.processor-2 - INFO - Component processor-2 processed cycle 5
+2025-06-23 08:28:29,047 - MockComponent.processor-2 - INFO - Component processor-2 completed processing
+2025-06-23 08:28:29,047 - MockComponent.aggregator - INFO - Component aggregator processed cycle 5
+2025-06-23 08:28:29,047 - MockComponent.logger - INFO - Component logger processed cycle 5
+2025-06-23 08:28:29,148 - MockComponent.processor-1 - INFO - Component processor-1 completed processing
+2025-06-23 08:28:29,248 - MockComponent.aggregator - INFO - Component aggregator processed cycle 7
+2025-06-23 08:28:29,248 - MockComponent.logger - INFO - Component logger processed cycle 7
+2025-06-23 08:28:29,348 - MockComponent.aggregator - INFO - Component aggregator completed processing
+2025-06-23 08:28:29,449 - MockComponent.logger - INFO - Component logger processed cycle 9
+2025-06-23 08:28:29,549 - MockComponent.logger - INFO - Component logger completed processing
+2025-06-23 08:28:29,549 - MockHarness.complex-demo - INFO - Starting harness shutdown
+2025-06-23 08:28:29,549 - MockComponent.input-stream-1 - INFO - Component input-stream-1 cleanup completed
+2025-06-23 08:28:29,549 - MockComponent.input-stream-2 - INFO - Component input-stream-2 cleanup completed
+2025-06-23 08:28:29,549 - MockComponent.processor-1 - INFO - Component processor-1 cleanup completed
+2025-06-23 08:28:29,549 - MockComponent.processor-2 - INFO - Component processor-2 cleanup completed
+2025-06-23 08:28:29,549 - MockComponent.aggregator - INFO - Component aggregator cleanup completed
+2025-06-23 08:28:29,549 - MockComponent.output-stream - INFO - Component output-stream cleanup completed
+2025-06-23 08:28:29,549 - MockComponent.logger - INFO - Component logger cleanup completed
+2025-06-23 08:28:29,549 - MockHarness.complex-demo - INFO - Harness shutdown completed. Uptime: 1.00s
+2025-06-23 08:28:29,549 - MockHarness.error-demo - INFO - Registered component 'good' with 0 dependencies
+2025-06-23 08:28:29,549 - MockHarness.error-demo - INFO - Registered component 'error_prone' with 0 dependencies
+2025-06-23 08:28:29,549 - MockHarness.error-demo - INFO - Connected good.output -> error_prone.input
+2025-06-23 08:28:29,549 - MockHarness.error-demo - INFO - Initializing harness with 2 components
+2025-06-23 08:28:29,549 - MockComponent.reliable-component - INFO - Component reliable-component setup completed
+2025-06-23 08:28:29,549 - MockComponent.error-prone-component - INFO - Component error-prone-component setup completed
+2025-06-23 08:28:29,549 - MockHarness.error-demo - INFO - Starting harness execution
+2025-06-23 08:28:29,549 - MockComponent.reliable-component - INFO - Component reliable-component starting process
+2025-06-23 08:28:29,549 - MockComponent.error-prone-component - INFO - Component error-prone-component starting process
+2025-06-23 08:28:29,650 - MockComponent.reliable-component - INFO - Component reliable-component processed cycle 1
+2025-06-23 08:28:29,650 - MockComponent.error-prone-component - INFO - Component error-prone-component processed cycle 1
+2025-06-23 08:28:29,750 - MockComponent.error-prone-component - INFO - Component error-prone-component completed processing
+2025-06-23 08:28:29,850 - MockComponent.reliable-component - INFO - Component reliable-component processed cycle 3
+2025-06-23 08:28:29,850 - MockComponent.reliable-component - INFO - Component reliable-component completed processing
+2025-06-23 08:28:29,850 - MockHarness.error-demo - INFO - Starting harness shutdown
+2025-06-23 08:28:29,850 - MockComponent.reliable-component - INFO - Component reliable-component cleanup completed
+2025-06-23 08:28:29,850 - MockComponent.error-prone-component - INFO - Component error-prone-component cleanup completed
+2025-06-23 08:28:29,850 - MockHarness.error-demo - INFO - Harness shutdown completed. Uptime: 0.30s
+2025-06-23 08:28:29,850 - MockHarness.health-demo - INFO - Registered component 'healthy' with 0 dependencies
+2025-06-23 08:28:29,850 - MockHarness.health-demo - INFO - Registered component 'degrading' with 0 dependencies
+2025-06-23 08:28:29,850 - MockHarness.health-demo - INFO - Initializing harness with 2 components
+2025-06-23 08:28:29,850 - MockComponent.always-healthy - INFO - Component always-healthy setup completed
+2025-06-23 08:28:29,850 - MockComponent.degrading-health - INFO - Component degrading-health setup completed
+2025-06-23 08:28:29,850 - MockHarness.health-demo - INFO - Starting harness execution
+2025-06-23 08:28:29,850 - MockComponent.always-healthy - INFO - Component always-healthy starting process
+2025-06-23 08:28:29,850 - MockComponent.degrading-health - INFO - Component degrading-health starting process
+2025-06-23 08:28:29,951 - MockComponent.always-healthy - INFO - Component always-healthy processed cycle 1
+2025-06-23 08:28:29,951 - MockComponent.degrading-health - INFO - Component degrading-health processed cycle 1
+2025-06-23 08:28:30,151 - MockComponent.always-healthy - INFO - Component always-healthy processed cycle 3
+2025-06-23 08:28:30,151 - MockComponent.degrading-health - INFO - Component degrading-health processed cycle 3
+2025-06-23 08:28:30,151 - MockComponent.degrading-health - INFO - Component degrading-health completed processing
+2025-06-23 08:28:30,251 - MockComponent.always-healthy - INFO - Component always-healthy completed processing
+2025-06-23 08:28:30,252 - MockHarness.health-demo - INFO - Starting harness shutdown
+2025-06-23 08:28:30,252 - MockComponent.always-healthy - INFO - Component always-healthy cleanup completed
+2025-06-23 08:28:30,252 - MockComponent.degrading-health - INFO - Component degrading-health cleanup completed
+2025-06-23 08:28:30,252 - MockHarness.health-demo - INFO - Harness shutdown completed. Uptime: 0.40s
+============================================================
+SYSTEM EXECUTION HARNESS DEMONSTRATION
+============================================================
+Demo started at: 2025-06-23 08:28:28
+
+==================================================
+SIMPLE HARNESS DEMONSTRATION
+==================================================
+1. Registering components...
+2. Creating connections...
+3. Initializing harness...
+   Components: 3
+   Connections: 2
+   Healthy: 3
+
+4. Running harness...
+
+5. Final Results:
+   Uptime: 0.40 seconds
+   Errors: 0
+   All components healthy: True
+
+==================================================
+COMPLEX SYSTEM DEMONSTRATION
+==================================================
+1. Creating complex component topology...
+2. Creating connection topology...
+3. Initializing complex system...
+   Total components: 7
+   Total connections: 6
+
+4. Running complex system...
+
+5. Complex System Results:
+   Execution time: 1.00 seconds
+   System uptime: 1.00 seconds
+   Total errors: 0
+
+6. Component Performance Summary:
+   input1:
+     - Messages: 5
+     - Uptime: 1.00s
+     - State: stopped
+     - Dependencies: []
+   input2:
+     - Messages: 4
+     - Uptime: 1.00s
+     - State: stopped
+     - Dependencies: []
+   proc1:
+     - Messages: 6
+     - Uptime: 1.00s
+     - State: stopped
+     - Dependencies: ['input1']
+   proc2:
+     - Messages: 5
+     - Uptime: 1.00s
+     - State: stopped
+     - Dependencies: ['input2']
+   agg:
+     - Messages: 8
+     - Uptime: 1.00s
+     - State: stopped
+     - Dependencies: ['proc1', 'proc2']
+   output:
+     - Messages: 3
+     - Uptime: 1.00s
+     - State: stopped
+     - Dependencies: ['agg']
+   logger:
+     - Messages: 10
+     - Uptime: 1.00s
+     - State: stopped
+     - Dependencies: []
+
+==================================================
+ERROR HANDLING DEMONSTRATION
+==================================================
+1. Setting up system with error-prone component...
+2. Running system with errors...
+
+3. Error Handling Results:
+   good:
+     - State: stopped
+     - Errors: 0
+     - Healthy: True
+   error_prone:
+     - State: stopped
+     - Errors: 2
+     - Healthy: True
+
+   System handled errors gracefully: True
+   Healthy components: 2/2
+
+==================================================
+HEALTH MONITORING DEMONSTRATION
+==================================================
+1. Setting up health monitoring system...
+2. Monitoring health during execution...
+   Health check 1:
+     - System healthy: True
+     - healthy: Healthy
+     - degrading: Healthy
+   Health check 2:
+     - System healthy: True
+     - healthy: Healthy
+     - degrading: Healthy
+   Health check 3:
+     - System healthy: True
+     - healthy: Healthy
+     - degrading: Healthy
+
+3. Final health status:
+   Healthy components: 2/2
+
+============================================================
+🎉 ALL DEMONSTRATIONS COMPLETED!
+============================================================
+Demo Results:
+✓ Simple Harness: SUCCESS
+✓ Complex System: SUCCESS
+✓ Error Handling: SUCCESS
+✓ Health Monitoring: SUCCESS
+
+Key SystemExecutionHarness features demonstrated:
+✓ Component registration with dependency management
+✓ Stream-based inter-component communication
+✓ Concurrent execution with anyio structured concurrency
+✓ Health monitoring and status reporting
+✓ Error handling and system resilience
+✓ Graceful startup and shutdown sequences
+✓ Performance metrics collection
+✓ Complex system topology support
+
+Demo completed at: 2025-06-23 08:28:31

@@ -1,0 +1,246 @@
+citation: 'Young, Michael D. 1996. Cognitive Mapping Meets Semantic Networks. Journal
+  of Conflict Resolution 40(3): 395-414.'
+cognitive_map:
+  concepts:
+  - frequency: 4
+    id: C1
+    label: United States
+    node_type: Concept
+  - frequency: 9
+    id: C2
+    label: Soviet Union
+    node_type: Concept
+  - frequency: 3
+    id: C3
+    label: cooperation
+    node_type: Concept
+  - frequency: 3
+    id: C4
+    label: strategic arms limitation talks (SALT)
+    node_type: Concept
+  - frequency: 2
+    id: C5
+    label: nuclear threat
+    node_type: Concept
+  - frequency: 3
+    id: C6
+    label: arms limitations
+    node_type: Concept
+  - frequency: 4
+    id: C7
+    label: security
+    node_type: Concept
+  - frequency: 6
+    id: C8
+    label: peace
+    node_type: Concept
+  - frequency: 2
+    id: C9
+    label: trade
+    node_type: Concept
+  - frequency: 6
+    id: C10
+    label: human rights
+    node_type: Concept
+  - frequency: 2
+    id: C11
+    label: arms race
+    node_type: Concept
+  - frequency: 1
+    id: C12
+    label: energy crisis
+    node_type: Concept
+  - frequency: 2
+    id: C13
+    label: interdependence
+    node_type: Concept
+  - frequency: 1
+    id: C14
+    label: freedom differences
+    node_type: Concept
+  - frequency: 7
+    id: C15
+    label: world
+    node_type: Concept
+  - frequency: 1
+    id: C16
+    label: U.S. cruise missiles
+    node_type: Concept
+  relationships:
+  - from: C1
+    id: R1
+    modifiers:
+    - present
+    relationship_category: strategy
+    salience: 2
+    text_evidence: "\u2026enlarge the areas of cooperation between us on a basis of\
+      \ equality and mutual respect."
+    to: C2
+    truth_value: true
+  - from: C1
+    id: R2
+    modifiers:
+    - present
+    relationship_category: strategy
+    salience: 2
+    text_evidence: "In the talks on strategic arms limitations, the SALT talks, we\
+      \ advanced a comprehensive proposal\u2026"
+    to: C4
+    truth_value: true
+  - from: C4
+    id: R3
+    modifiers:
+    - present
+    relationship_category: strategy
+    salience: 1
+    text_evidence: "\u2026strategic arms limitation talks, confirming and then building\
+      \ on Vladivostok accords, we need to make steady progress toward our long-term\
+      \ goals of genuine reductions and strict limitations\u2026"
+    to: C6
+    truth_value: true
+  - from: C6
+    id: R4
+    modifiers:
+    - present
+    relationship_category: +
+    salience: 1
+    text_evidence: "But none of these proposals \u2026 involves a sacrifice of security.\
+      \ All of them are meant to increase the security of both sides."
+    to: C7
+    truth_value: true
+  - from: C6
+    id: R5
+    modifiers:
+    - present
+    relationship_category: +
+    salience: 1
+    text_evidence: "If we can relax this tension by reducing the nuclear threat, not\
+      \ only will we make the world a safer place\u2026"
+    to: C5
+    truth_value: true
+  - from: C5
+    id: R6
+    modifiers:
+    - present
+    relationship_category: '-'
+    salience: 1
+    text_evidence: "\u2026knowledge \u2026 that the leaders of our two countries have\
+      \ the capacity to destroy human society\u2026 If we can relax this tension by\
+      \ reducing the nuclear threat\u2026"
+    to: C8
+    truth_value: true
+  - from: C9
+    id: R7
+    modifiers:
+    - present
+    relationship_category: +
+    salience: 1
+    text_evidence: Increased trade between the United States and the Soviet Union
+      would help us both.
+    to: C1
+    truth_value: true
+  - from: C9
+    id: R8
+    modifiers:
+    - present
+    relationship_category: +
+    salience: 1
+    text_evidence: Increased trade between the United States and the Soviet Union
+      would help us both.
+    to: C2
+    truth_value: true
+  - from: C10
+    id: R9
+    modifiers:
+    - present
+    relationship_category: '-'
+    salience: 1
+    text_evidence: "\u2026specifically not designed to heat up the arms race or bring\
+      \ back the cold war."
+    to: C11
+    truth_value: true
+  - from: C2
+    id: R10
+    modifiers:
+    - present
+    relationship_category: attribute
+    salience: 1
+    text_evidence: "The Soviets are worried about our cruise missiles\u2026"
+    to: C16
+    truth_value: true
+  - from: C12
+    id: R11
+    modifiers:
+    - present
+    relationship_category: +
+    salience: 1
+    text_evidence: "As two industrial giants, we face long-term, worldwide energy\
+      \ crises. Whatever our political differences, both of us are compelled to begin\
+      \ conserving world energy\u2026"
+    to: C13
+    truth_value: true
+  - from: C13
+    id: R12
+    modifiers:
+    - present
+    relationship_category: +
+    salience: 1
+    text_evidence: "This interdependence stretches from the health of our economy\u2026\
+      \ It\u2019s a new world in which we cannot afford to be narrow in our vision\u2026"
+    to: C3
+    truth_value: true
+directed_walk_example:
+  steps:
+  - from: United States
+    reasoning: Activated highest salience relationship (salience=2)
+    relationship: strategy
+    salience: 2
+    step: 1
+    to: Soviet Union
+  - from: Soviet Union
+    reasoning: Activated highest salience relationship (salience=1)
+    relationship: attribute
+    salience: 1
+    step: 2
+    to: U.S. cruise missiles
+  - reasoning: End of walk - reached terminal concept
+    step: 3
+    termination: No outgoing relationships from U.S. cruise missiles
+  total_steps: 3
+schema_applied: Young 1996 Complete Implementation
+structural_measures:
+  connectedness:
+    calculation: 12 / (16 + 12) = 0.429
+    formula: relationships / (concepts + relationships)
+    symbol: C_G
+    value: 0.429
+  dependency:
+    bridges_identified: 9
+    calculation: (9 / 12) / 5 = 0.150
+    formula: (bridges / relationships) / structures
+    structures_found: 5
+    symbol: D_G
+    value: 0.15
+  size: 16
+  uniformity_of_salience:
+    definition: Standard deviation of relationship salience values
+    interpretation: Lower values indicate more uniform belief strength
+    salience_values:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    value: 0.389
+validation:
+  all_structural_measures_calculated: true
+  directed_walk_reasoning_implemented: true
+  faithful_to_young_1996: true
+  salience_counting_implemented: true

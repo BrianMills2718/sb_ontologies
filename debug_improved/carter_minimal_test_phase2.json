@@ -1,0 +1,428 @@
+{
+  "entities": [
+    {
+      "term": "national security",
+      "term_type": "entity",
+      "subtype": "core-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": "security",
+      "constraints": {
+        "referent_scope": "United States overall safety vis-\u00e0-vis Soviet power"
+      }
+    },
+    {
+      "term": "foreign policy",
+      "term_type": "entity",
+      "subtype": "core-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": "policy",
+      "constraints": {
+        "referent_scope": "U.S. external relations, historically centred on U.S.\u2013Soviet relations"
+      }
+    },
+    {
+      "term": "coalition",
+      "term_type": "entity",
+      "subtype": "actor-collective",
+      "domain": null,
+      "range": null,
+      "parent_concept": "collective actor",
+      "constraints": {
+        "alignment": "Led by either the United States or the Soviet Union"
+      }
+    },
+    {
+      "term": "American people",
+      "term_type": "entity",
+      "subtype": "actor-collective",
+      "domain": null,
+      "range": null,
+      "parent_concept": "domestic public",
+      "constraints": {
+        "nationality": "United States"
+      }
+    },
+    {
+      "term": "Strategic Arms Limitation Talks (SALT)",
+      "term_type": "entity",
+      "subtype": "bilateral-negotiation-process",
+      "domain": null,
+      "range": null,
+      "parent_concept": "international negotiation",
+      "constraints": {
+        "participants": "United States & Soviet Union",
+        "goal": "cap and reduce strategic weapons"
+      }
+    },
+    {
+      "term": "comprehensive proposal",
+      "term_type": "entity",
+      "subtype": "strategy-type",
+      "domain": null,
+      "range": null,
+      "parent_concept": "proposal",
+      "constraints": {
+        "coverage": "multiple arms-control elements"
+      }
+    },
+    {
+      "term": "Congress",
+      "term_type": "entity",
+      "subtype": "institution",
+      "domain": null,
+      "range": null,
+      "parent_concept": "legislative branch",
+      "constraints": {
+        "country": "United States"
+      }
+    },
+    {
+      "term": "bipolar international system",
+      "term_type": "entity",
+      "subtype": "structural context",
+      "domain": null,
+      "range": null,
+      "parent_concept": "international system",
+      "constraints": {
+        "power_poles": "two (U.S. & USSR)"
+      }
+    },
+    {
+      "term": "arms control",
+      "term_type": "entity",
+      "subtype": "policy domain",
+      "domain": null,
+      "range": null,
+      "parent_concept": "policy area",
+      "constraints": {
+        "focus": "negotiated weapons limitations"
+      }
+    },
+    {
+      "term": "balance of power",
+      "term_type": "entity",
+      "subtype": "principle",
+      "domain": null,
+      "range": null,
+      "parent_concept": "equilibrium principle",
+      "constraints": {
+        "prevent": "dominance by any single actor"
+      }
+    },
+    {
+      "term": "participatory governance",
+      "term_type": "entity",
+      "subtype": "governance model",
+      "domain": null,
+      "range": null,
+      "parent_concept": "governance model",
+      "constraints": {
+        "participation": "citizens & representatives"
+      }
+    },
+    {
+      "term": "strategic stability",
+      "term_type": "entity",
+      "subtype": "outcome state",
+      "domain": null,
+      "range": null,
+      "parent_concept": "system state",
+      "constraints": {
+        "incentive_to_first_strike": "none"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "term": "antagonism",
+      "term_type": "relationship",
+      "subtype": "hostility",
+      "domain": [
+        "coalition"
+      ],
+      "range": [
+        "coalition"
+      ],
+      "parent_concept": "hostile relationship",
+      "constraints": {
+        "valence": "negative",
+        "persistence": "ongoing"
+      }
+    },
+    {
+      "term": "military competition",
+      "term_type": "relationship",
+      "subtype": "arms-race relationship",
+      "domain": [
+        "state",
+        "coalition"
+      ],
+      "range": [
+        "state",
+        "coalition"
+      ],
+      "parent_concept": "competition",
+      "constraints": {
+        "resource_dimension": "armed forces & weapons systems"
+      }
+    },
+    {
+      "term": "strategic rivalry",
+      "term_type": "relationship",
+      "subtype": "great-power rivalry",
+      "domain": [
+        "great power"
+      ],
+      "range": [
+        "great power"
+      ],
+      "parent_concept": "competition",
+      "constraints": {
+        "scope": "military and political advantage"
+      }
+    },
+    {
+      "term": "deterrence",
+      "term_type": "relationship",
+      "subtype": "security mechanism",
+      "domain": [
+        "state (deterrer)"
+      ],
+      "range": [
+        "state (potential aggressor)"
+      ],
+      "parent_concept": "coercive relationship",
+      "constraints": {
+        "mechanism": "threat of credible retaliation"
+      }
+    },
+    {
+      "term": "zero-sum competition",
+      "term_type": "relationship",
+      "subtype": "game-logic",
+      "domain": [
+        "competitor"
+      ],
+      "range": [
+        "competitor"
+      ],
+      "parent_concept": "competitive logic",
+      "constraints": {
+        "utility": "one side\u2019s gain = other side\u2019s loss"
+      }
+    }
+  ],
+  "properties": [
+    {
+      "term": "democratic accountability",
+      "term_type": "property",
+      "subtype": "norm",
+      "domain": [
+        "policy decision",
+        "government process"
+      ],
+      "range": [
+        "accountability level"
+      ],
+      "parent_concept": "accountability",
+      "constraints": {
+        "requires": "justification to legislature & public"
+      }
+    },
+    {
+      "term": "policy transparency",
+      "term_type": "property",
+      "subtype": "norm",
+      "domain": [
+        "policy",
+        "proposal"
+      ],
+      "range": [
+        "transparency degree"
+      ],
+      "parent_concept": "transparency",
+      "constraints": {
+        "dimension": "openness of strategic intentions"
+      }
+    },
+    {
+      "term": "complex questions",
+      "term_type": "property",
+      "subtype": "problem attribute",
+      "domain": [
+        "policy issue"
+      ],
+      "range": [
+        "complexity level"
+      ],
+      "parent_concept": "problem complexity",
+      "constraints": {
+        "multifaceted": "true"
+      }
+    },
+    {
+      "term": "understanding",
+      "term_type": "property",
+      "subtype": "cognitive state",
+      "domain": [
+        "stakeholder"
+      ],
+      "range": [
+        "comprehension degree"
+      ],
+      "parent_concept": "cognition",
+      "constraints": {
+        "pre-decision": "required"
+      }
+    },
+    {
+      "term": "legitimacy",
+      "term_type": "property",
+      "subtype": "outcome attribute",
+      "domain": [
+        "government decision",
+        "policy outcome"
+      ],
+      "range": [
+        "acceptance level"
+      ],
+      "parent_concept": "social acceptance",
+      "constraints": {
+        "perceived_appropriateness": "true"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "term": "strategic arms limitation",
+      "term_type": "action",
+      "subtype": "policy objective",
+      "domain": [
+        "state",
+        "negotiating delegation"
+      ],
+      "range": [
+        "strategic weapons category"
+      ],
+      "parent_concept": "arms-control action",
+      "constraints": {
+        "action_type": "placing ceilings"
+      }
+    },
+    {
+      "term": "arms reduction",
+      "term_type": "action",
+      "subtype": "policy objective",
+      "domain": [
+        "state",
+        "negotiating delegation"
+      ],
+      "range": [
+        "strategic weapons system"
+      ],
+      "parent_concept": "arms-control action",
+      "constraints": {
+        "action_type": "decrease existing systems"
+      }
+    },
+    {
+      "term": "decision-making",
+      "term_type": "action",
+      "subtype": "presidential process",
+      "domain": [
+        "president",
+        "executive actor"
+      ],
+      "range": [
+        "policy choice"
+      ],
+      "parent_concept": "governance process",
+      "constraints": {
+        "complexity": "high"
+      }
+    },
+    {
+      "term": "public debate",
+      "term_type": "action",
+      "subtype": "deliberative process",
+      "domain": [
+        "citizen",
+        "institution"
+      ],
+      "range": [
+        "policy issue"
+      ],
+      "parent_concept": "deliberation",
+      "constraints": {
+        "openness": "public"
+      }
+    },
+    {
+      "term": "collective deliberation",
+      "term_type": "action",
+      "subtype": "deliberative process",
+      "domain": [
+        "stakeholder group"
+      ],
+      "range": [
+        "policy option"
+      ],
+      "parent_concept": "deliberation",
+      "constraints": {
+        "joint_assessment": "true"
+      }
+    }
+  ],
+  "measures": [
+    {
+      "term": "strategic strength",
+      "term_type": "measure",
+      "subtype": "capability index",
+      "domain": [
+        "state"
+      ],
+      "range": [
+        "numeric index / qualitative category"
+      ],
+      "parent_concept": "military capability measure",
+      "constraints": {
+        "components": "aggregate nuclear forces"
+      }
+    },
+    {
+      "term": "genuine reductions",
+      "term_type": "measure",
+      "subtype": "outcome measure",
+      "domain": [
+        "weapons inventory"
+      ],
+      "range": [
+        "verified quantity/percentage reduced"
+      ],
+      "parent_concept": "reduction metric",
+      "constraints": {
+        "verification": "required"
+      }
+    },
+    {
+      "term": "balanced strategic strength",
+      "term_type": "measure",
+      "subtype": "condition metric",
+      "domain": [
+        "strategic arsenal (US & USSR combined)"
+      ],
+      "range": [
+        "parity ratio \u2248 1"
+      ],
+      "parent_concept": "capability balance",
+      "constraints": {
+        "advantage": "neither side"
+      }
+    }
+  ],
+  "modifiers": [],
+  "truth_values": [],
+  "operators": []
+}

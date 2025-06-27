@@ -1,0 +1,21 @@
+HYBRID THEORY DETECTION TEST
+Input: validation_results/academic_papers/young1996_cognitive_mapping.txt
+==================================================
+
+hybrid_detected: true
+confidence: 0.95
+primary_components:
+  - component_name: "Cognitive Mapping"
+    model_type: "table_matrix"
+    evidence: "The traditional cognitive mapping is based on directed graph theory using adjacency matrices to represent relationships between concepts. The article discusses extracting information into matrices and shows examples of matrix representation of belief structures."
+    theoretical_role: "Provides a quantitative, structure‐oriented representation of belief systems and causal relationships, forming the foundation of the analysis."
+  - component_name: "Semantic Networks"
+    model_type: "property_graph"
+    evidence: "The paper introduces WorldView to employ a symbol‐based formalism, using nodes for both concepts and relationships (including truth-values and modifiers), which captures qualitative aspects like conditionality and compound relationships."
+    theoretical_role: "Enhances traditional mapping by integrating nuanced, symbolic data about relationships, modifiers, and noncausal associations that matrices cannot capture."
+integration_mechanisms:
+  - "Combines the numerical clarity of adjacency matrices with the symbolic, flexible representation of semantic networks."
+  - "Integrates quantitative structural measures (e.g., dependency, connectedness) alongside qualitative modifiers (truth-values, relationship types) to form a comprehensive cognitive model."
+integration_type: synthesis
+unified_framework_name: "WorldView Cognitive Mapping and Semantic Network Framework"
+alternative_single_model: "No; a single model type would be insufficient to capture both the quantitative structure and the qualitative, symbolic detail required by the theory."

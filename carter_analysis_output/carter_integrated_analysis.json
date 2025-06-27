@@ -1,0 +1,35 @@
+{
+  "integration_timestamp": "2025-06-26T17:02:29.372780",
+  "theories_integrated": [
+    "Young (1996) Cognitive Mapping Meets Semantic Networks",
+    "Chong & Druckman (2007) Framing Theory"
+  ],
+  "integration_approach": "Multi-paradigm balanced analysis",
+  "theoretical_synthesis": {
+    "cognitive_framing_connection": "Carter's cognitive map structures his framing strategy",
+    "belief_frame_alignment": "Framing choices reflect underlying belief system organization",
+    "prediction_convergence": "Both theories predict similar audience processing patterns",
+    "multilevel_analysis": "Individual cognition + Communication processes"
+  },
+  "balanced_integration_validation": {
+    "cognitive_mapping_sophistication": "Full application of Young 1996 concepts",
+    "framing_theory_sophistication": "Full application of Chong & Druckman 2007 concepts",
+    "equal_treatment_verified": true,
+    "causal_over_emphasis_detected": false,
+    "overall_balance_score": 1.0
+  },
+  "computational_social_science_insights": {
+    "who": "Carter (cognitive mapper) + Legislative audience (frame processors)",
+    "what": "Peace-oriented beliefs + Strategic framing of US-Soviet relations",
+    "to_whom": "Southern legislators + American public via media cascade",
+    "channels": "Formal speech + Semantic networks + Psychological mechanisms",
+    "settings": "Cold War competition + Post-Vietnam credibility crisis",
+    "effects": {
+      "descriptive": "Systematic categorization using actual academic theory schemas",
+      "explanatory": "Belief formation + Framing mechanisms from literature",
+      "predictive": "Belief change + Framing effects models from theories",
+      "causal": "Cognitive causal networks + Framing causal pathways (balanced)",
+      "intervention": "Belief modification + Strategic framing from theory"
+    }
+  }
+}

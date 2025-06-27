@@ -1,0 +1,48 @@
+system:
+  name: phase8_test_api
+  description: Test API system for Phase 8 production-ready generation validation
+  version: 1.0.0
+  
+  components:
+    - name: test_api
+      type: APIEndpoint
+      description: Production test API endpoint
+      configuration:
+        port: 8080
+        host: "0.0.0.0"
+        auth_required: false
+        rate_limiting: false
+      inputs:
+        - name: input
+          schema: TestData
+      outputs:
+        - name: output
+          schema: ProcessedData
+          
+    - name: test_store
+      type: Store
+      description: V5 enhanced test data store
+      configuration:
+        storage_type: postgresql
+        database:
+          type: postgresql
+          connection_string: postgresql://postgres:test123@localhost:5432/phase8_test_db
+          pool_size: 20
+        testing_mode: true
+        schema_validation: true
+      inputs:
+        - name: input
+          schema: ProcessedData
+      outputs:
+        - name: output
+          schema: StoredData
+          
+  bindings:
+    - from: test_api.output
+      to: test_store.input
+
+configuration:
+  environment: production
+  timeouts:
+    component_startup: 30
+    graceful_shutdown: 10

@@ -1,0 +1,99 @@
+{
+  "1": {
+    "phase_number": 1,
+    "status": "PLANNED",
+    "evidence_completion": 1.0,
+    "documentation_quality": 0.0,
+    "last_activity": "2025-06-22T14:46:53.260929",
+    "estimated_completion": null,
+    "blockers": [
+      "Insufficient documentation"
+    ],
+    "key_achievements": []
+  },
+  "2": {
+    "phase_number": 2,
+    "status": "COMPLETE",
+    "evidence_completion": 1.0,
+    "documentation_quality": 1.0,
+    "last_activity": "2025-06-23T09:28:21.105660",
+    "estimated_completion": null,
+    "blockers": [],
+    "key_achievements": []
+  },
+  "3": {
+    "phase_number": 3,
+    "status": "COMPLETE",
+    "evidence_completion": 1.0,
+    "documentation_quality": 1.0,
+    "last_activity": "2025-06-22T22:22:42.071479",
+    "estimated_completion": null,
+    "blockers": [],
+    "key_achievements": []
+  },
+  "4": {
+    "phase_number": 4,
+    "status": "COMPLETE",
+    "evidence_completion": 0.1,
+    "documentation_quality": 0.6666666666666666,
+    "last_activity": "2025-06-22T15:57:36.615438",
+    "estimated_completion": null,
+    "blockers": [],
+    "key_achievements": []
+  },
+  "5": {
+    "phase_number": 5,
+    "status": "IN_PROGRESS",
+    "evidence_completion": 1.0,
+    "documentation_quality": 1.0,
+    "last_activity": "2025-06-23T15:31:04.348273",
+    "estimated_completion": "1-2 days",
+    "blockers": [],
+    "key_achievements": []
+  },
+  "6": {
+    "phase_number": 6,
+    "status": "COMPLETE",
+    "evidence_completion": 1.0,
+    "documentation_quality": 1.0,
+    "last_activity": "2025-06-23T09:51:31.983158",
+    "estimated_completion": null,
+    "blockers": [],
+    "key_achievements": []
+  },
+  "7": {
+    "phase_number": 7,
+    "status": "COMPLETE",
+    "evidence_completion": 1.0,
+    "documentation_quality": 1.0,
+    "last_activity": "2025-06-23T11:00:02.437755",
+    "estimated_completion": null,
+    "blockers": [],
+    "key_achievements": []
+  },
+  "100": {
+    "phase_number": 100,
+    "status": "COMPLETE",
+    "evidence_completion": 0.0,
+    "documentation_quality": 0.3333333333333333,
+    "last_activity": "No recent activity",
+    "estimated_completion": null,
+    "blockers": [
+      "Insufficient documentation"
+    ],
+    "key_achievements": []
+  },
+  "8": {
+    "phase_number": 8,
+    "status": "IN_PROGRESS",
+    "evidence_completion": 0.0,
+    "documentation_quality": 0.3333333333333333,
+    "last_activity": "No recent activity",
+    "estimated_completion": "1-2 weeks",
+    "blockers": [
+      "Low evidence completion",
+      "Insufficient documentation"
+    ],
+    "key_achievements": []
+  }
+}

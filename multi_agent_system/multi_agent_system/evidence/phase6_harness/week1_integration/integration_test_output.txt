@@ -1,0 +1,44 @@
+2025-06-23 09:14:45,803 - __main__ - INFO - 🎯 SystemExecutionHarness Full Integration Test Suite
+2025-06-23 09:14:45,803 - __main__ - INFO - 🎯 Testing complete Phase 6 architecture with realistic workloads
+2025-06-23 09:14:45,803 - __main__ - INFO - 🚀 Starting Full Harness Integration Tests
+2025-06-23 09:14:45,803 - __main__ - INFO - ================================================================================
+2025-06-23 09:14:45,803 - __main__ - INFO - 📋 Running test scenario 1/2
+2025-06-23 09:14:45,803 - __main__ - INFO - 🧪 Starting Integration Test Scenario 1: Basic Pipeline
+2025-06-23 09:14:45,803 - StreamManager - INFO - ✨ StreamManager initialized with default buffer size: 200
+2025-06-23 09:14:45,804 - SystemExecutionHarness.eae33cfe - INFO - ✨ SystemExecutionHarness created with ID: eae33cfe
+2025-06-23 09:14:45,804 - __main__ - ERROR - ❌ Integration test scenario 1 failed: can't set attribute 'is_running'
+2025-06-23 09:14:45,804 - __main__ - INFO - ❌ FAILED Basic Pipeline Functionality
+2025-06-23 09:14:45,804 - __main__ - INFO -    Duration: 0.00s
+2025-06-23 09:14:45,804 - __main__ - INFO -    Messages: 0
+2025-06-23 09:14:45,804 - __main__ - INFO -    Errors: 1
+2025-06-23 09:14:45,804 - __main__ - INFO -    Test failed with error: can't set attribute 'is_running'
+2025-06-23 09:14:46,804 - __main__ - INFO - 📋 Running test scenario 2/2
+2025-06-23 09:14:46,804 - __main__ - INFO - 🧪 Starting Integration Test Scenario 2: Error Recovery
+2025-06-23 09:14:46,804 - StreamManager - INFO - ✨ StreamManager initialized with default buffer size: 100
+2025-06-23 09:14:46,804 - SystemExecutionHarness.e2888363 - INFO - ✨ SystemExecutionHarness created with ID: e2888363
+2025-06-23 09:14:46,804 - __main__ - ERROR - ❌ Integration test scenario 2 failed: can't set attribute 'is_running'
+2025-06-23 09:14:46,804 - __main__ - INFO - ❌ FAILED Error Recovery and Resilience
+2025-06-23 09:14:46,804 - __main__ - INFO -    Duration: 0.00s
+2025-06-23 09:14:46,804 - __main__ - INFO -    Messages: 0
+2025-06-23 09:14:46,804 - __main__ - INFO -    Errors: 1
+2025-06-23 09:14:46,804 - __main__ - INFO -    Test failed with error: can't set attribute 'is_running'
+2025-06-23 09:14:47,805 - __main__ - INFO - ================================================================================
+2025-06-23 09:14:47,806 - __main__ - INFO - 📊 Integration Test Summary
+2025-06-23 09:14:47,806 - __main__ - INFO -    Tests passed: 0/2
+2025-06-23 09:14:47,806 - __main__ - INFO -    Success rate: 0.0%
+2025-06-23 09:14:47,806 - __main__ - INFO -    Total duration: 2.00s
+2025-06-23 09:14:47,806 - __main__ - INFO -    Total messages processed: 0
+2025-06-23 09:14:47,806 - __main__ - INFO -    Total errors encountered: 2
+2025-06-23 09:14:47,806 - __main__ - INFO - 
+📋 Detailed Test Results:
+2025-06-23 09:14:47,806 - __main__ - INFO -    ❌ Basic Pipeline Functionality
+2025-06-23 09:14:47,806 - __main__ - INFO -       Duration: 0.00s
+2025-06-23 09:14:47,806 - __main__ - INFO -       Components: 5
+2025-06-23 09:14:47,806 - __main__ - INFO -       Messages: 0
+2025-06-23 09:14:47,806 - __main__ - INFO -       Errors: 1
+2025-06-23 09:14:47,806 - __main__ - INFO -    ❌ Error Recovery and Resilience
+2025-06-23 09:14:47,806 - __main__ - INFO -       Duration: 0.00s
+2025-06-23 09:14:47,806 - __main__ - INFO -       Components: 3
+2025-06-23 09:14:47,806 - __main__ - INFO -       Messages: 0
+2025-06-23 09:14:47,806 - __main__ - INFO -       Errors: 1
+2025-06-23 09:14:47,806 - __main__ - INFO - ❌ Some integration tests FAILED!

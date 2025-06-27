@@ -1,0 +1,1522 @@
+{
+  "entities": [
+    {
+      "term": "cognitive mapping",
+      "term_type": "entity",
+      "subtype": "core-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "represents": "Actor Belief Structure",
+        "formalised_as": "Directed graph of Concept Nodes + Causal Links"
+      }
+    },
+    {
+      "term": "semantic network",
+      "term_type": "entity",
+      "subtype": "core-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": "cognitive mapping",
+      "constraints": {
+        "structure": "Nodes & labelled links; symbol\u2013based"
+      }
+    },
+    {
+      "term": "belief structure",
+      "term_type": "entity",
+      "subtype": "core-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "composition": "Propositions + Concepts + Relationships",
+        "holder": "Political Actor"
+      }
+    },
+    {
+      "term": "WorldView",
+      "term_type": "entity",
+      "subtype": "model/tool",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "implements": "cognitive mapping + semantic network",
+        "capabilities": "extraction, aggregation, analysis"
+      }
+    },
+    {
+      "term": "decision process",
+      "term_type": "entity",
+      "subtype": "cognitive-process",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "sequence": "Perception \u2192 Beliefs \u2192 Choice"
+      }
+    },
+    {
+      "term": "symbol-based formalism",
+      "term_type": "entity",
+      "subtype": "methodological concept",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "symbols": "relation\u2010labels (is-a, part-of \u2026 )"
+      }
+    },
+    {
+      "term": "matrix mathematics",
+      "term_type": "entity",
+      "subtype": "methodological concept",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "used_for": "Adjacency-matrix manipulation"
+      }
+    },
+    {
+      "term": "adjacency matrix",
+      "term_type": "entity",
+      "subtype": "representation technique",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "dimension": "n \u00d7 n where n = |Concept Nodes|",
+        "cell_value": "1 = link present; 0 = absent"
+      }
+    },
+    {
+      "term": "directed graph theory",
+      "term_type": "entity",
+      "subtype": "theoretical foundation",
+      "domain": null,
+      "range": null,
+      "parent_concept": "graph theory",
+      "constraints": null
+    },
+    {
+      "term": "associative network model of memory",
+      "term_type": "entity",
+      "subtype": "theoretical foundation",
+      "domain": null,
+      "range": null,
+      "parent_concept": "semantic network",
+      "constraints": {
+        "psychological_basis": "Human memory"
+      }
+    },
+    {
+      "term": "relationship-type list",
+      "term_type": "entity",
+      "subtype": "catalogue",
+      "domain": null,
+      "range": null,
+      "parent_concept": "WorldView",
+      "constraints": {
+        "members": "[equal, condition, component, preference/greater-than, if-then, possess, attribute, location, is-a, strategy, know, warrant-for]"
+      }
+    },
+    {
+      "term": "compound statement",
+      "term_type": "entity",
+      "subtype": "linguistic/analytic unit",
+      "domain": null,
+      "range": null,
+      "parent_concept": "proposition",
+      "constraints": {
+        "contains": "\u2265 2 embedded clauses or relations"
+      }
+    },
+    {
+      "term": "relationship node",
+      "term_type": "entity",
+      "subtype": "representation element",
+      "domain": null,
+      "range": null,
+      "parent_concept": "Concept Node",
+      "constraints": {
+        "elevated_from": "Relationship edge"
+      }
+    },
+    {
+      "term": "synonym facility",
+      "term_type": "entity",
+      "subtype": "analytic tool",
+      "domain": null,
+      "range": null,
+      "parent_concept": "WorldView",
+      "constraints": {
+        "function": "Collapse lexical variants to single node"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "term": "causal relationship",
+      "term_type": "relationship",
+      "subtype": "link-type",
+      "domain": [
+        "Concept Node"
+      ],
+      "range": [
+        "Concept Node"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "polarity": "positive or negative"
+      }
+    },
+    {
+      "term": "positive cause (+)",
+      "term_type": "relationship",
+      "subtype": "causal-positive",
+      "domain": [
+        "Concept Node"
+      ],
+      "range": [
+        "Concept Node"
+      ],
+      "parent_concept": "causal relationship",
+      "constraints": {
+        "semantics": "\u0394source \u2191  \u21d2  \u0394target \u2191"
+      }
+    },
+    {
+      "term": "negative cause (\u2212)",
+      "term_type": "relationship",
+      "subtype": "causal-negative",
+      "domain": [
+        "Concept Node"
+      ],
+      "range": [
+        "Concept Node"
+      ],
+      "parent_concept": "causal relationship",
+      "constraints": {
+        "semantics": "\u0394source \u2191  \u21d2  \u0394target \u2193"
+      }
+    },
+    {
+      "term": "equal",
+      "term_type": "relationship",
+      "subtype": "identity",
+      "domain": [
+        "Concept Node"
+      ],
+      "range": [
+        "Concept Node"
+      ],
+      "parent_concept": "relationship-type list",
+      "constraints": {
+        "symmetry": "reflexive, symmetric, transitive"
+      }
+    },
+    {
+      "term": "condition",
+      "term_type": "relationship",
+      "subtype": "precondition-for",
+      "domain": [
+        "Concept Node"
+      ],
+      "range": [
+        "Concept Node"
+      ],
+      "parent_concept": "relationship-type list",
+      "constraints": {
+        "direction": "If Domain then Range"
+      }
+    },
+    {
+      "term": "component",
+      "term_type": "relationship",
+      "subtype": "part-of",
+      "domain": [
+        "Whole Concept Node"
+      ],
+      "range": [
+        "Part Concept Node"
+      ],
+      "parent_concept": "relationship-type list",
+      "constraints": {
+        "inverse": "has-component"
+      }
+    },
+    {
+      "term": "preference/greater-than",
+      "term_type": "relationship",
+      "subtype": "ordinal preference",
+      "domain": [
+        "Concept Node"
+      ],
+      "range": [
+        "Concept Node"
+      ],
+      "parent_concept": "relationship-type list",
+      "constraints": {
+        "semantics": "Domain preferred over Range"
+      }
+    },
+    {
+      "term": "if-then",
+      "term_type": "relationship",
+      "subtype": "implication",
+      "domain": [
+        "Proposition Node"
+      ],
+      "range": [
+        "Proposition Node"
+      ],
+      "parent_concept": "relationship-type list",
+      "constraints": null
+    },
+    {
+      "term": "possess",
+      "term_type": "relationship",
+      "subtype": "ownership",
+      "domain": [
+        "Actor Node",
+        "Container Node"
+      ],
+      "range": [
+        "Object Node"
+      ],
+      "parent_concept": "relationship-type list",
+      "constraints": null
+    },
+    {
+      "term": "attribute",
+      "term_type": "relationship",
+      "subtype": "has-attribute",
+      "domain": [
+        "Object Node"
+      ],
+      "range": [
+        "Attribute Node"
+      ],
+      "parent_concept": "relationship-type list",
+      "constraints": null
+    },
+    {
+      "term": "location",
+      "term_type": "relationship",
+      "subtype": "located-in",
+      "domain": [
+        "Actor Node",
+        "Object Node"
+      ],
+      "range": [
+        "Place Node"
+      ],
+      "parent_concept": "relationship-type list",
+      "constraints": null
+    },
+    {
+      "term": "is-a",
+      "term_type": "relationship",
+      "subtype": "class-inclusion",
+      "domain": [
+        "Subclass Node"
+      ],
+      "range": [
+        "Superclass Node"
+      ],
+      "parent_concept": "relationship-type list",
+      "constraints": {
+        "transitive": "true"
+      }
+    },
+    {
+      "term": "strategy",
+      "term_type": "relationship",
+      "subtype": "actor-strategy",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Action Node"
+      ],
+      "parent_concept": "relationship-type list",
+      "constraints": null
+    },
+    {
+      "term": "know",
+      "term_type": "relationship",
+      "subtype": "epistemic",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Concept Node"
+      ],
+      "parent_concept": "relationship-type list",
+      "constraints": null
+    },
+    {
+      "term": "warrant-for",
+      "term_type": "relationship",
+      "subtype": "justification",
+      "domain": [
+        "Evidence/Reason Node"
+      ],
+      "range": [
+        "Claim Node"
+      ],
+      "parent_concept": "relationship-type list",
+      "constraints": null
+    },
+    {
+      "term": "bridge",
+      "term_type": "relationship",
+      "subtype": "critical-link",
+      "domain": [
+        "Concept Node"
+      ],
+      "range": [
+        "Concept Node"
+      ],
+      "parent_concept": "causal relationship",
+      "constraints": {
+        "unique_path": "Only one path connects Range via this link"
+      }
+    }
+  ],
+  "properties": [
+    {
+      "term": "belief system content",
+      "term_type": "property",
+      "subtype": "attribute of belief structure",
+      "domain": [
+        "belief structure"
+      ],
+      "range": [
+        "Concept Node",
+        "Proposition Node"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    }
+  ],
+  "actions": [
+    {
+      "term": "aggregation (over texts)",
+      "term_type": "action",
+      "subtype": "methodological operation",
+      "domain": [
+        "WorldView"
+      ],
+      "range": [
+        "Composite Cognitive Map"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "spreading activation",
+      "term_type": "action",
+      "subtype": "cognitive search process",
+      "domain": [
+        "Concept Node"
+      ],
+      "range": [
+        "Concept Node"
+      ],
+      "parent_concept": "decision process",
+      "constraints": {
+        "propagation_rule": "Activation decays with path-length"
+      }
+    },
+    {
+      "term": "directed-walk",
+      "term_type": "action",
+      "subtype": "reasoning model",
+      "domain": [
+        "WorldView"
+      ],
+      "range": [
+        "Inference Path"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "selection_criterion": "salience heuristic"
+      }
+    },
+    {
+      "term": "salience heuristic",
+      "term_type": "action",
+      "subtype": "heuristic",
+      "domain": [
+        "Inference Engine"
+      ],
+      "range": [
+        "Proposition Node"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "selection_rule": "max(Relationship Salience)"
+      }
+    },
+    {
+      "term": "human-coded content analysis",
+      "term_type": "action",
+      "subtype": "method",
+      "domain": [
+        "Analyst"
+      ],
+      "range": [
+        "Text Corpus"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "output": "Coded Concept & Relationship Instances"
+      }
+    },
+    {
+      "term": "relationship-addition",
+      "term_type": "action",
+      "subtype": "change operation",
+      "domain": [
+        "Cognitive Map"
+      ],
+      "range": [
+        "New Relationship Edge"
+      ],
+      "parent_concept": "transformation cost",
+      "constraints": null
+    },
+    {
+      "term": "relationship-deletion",
+      "term_type": "action",
+      "subtype": "change operation",
+      "domain": [
+        "Cognitive Map"
+      ],
+      "range": [
+        "Removed Relationship Edge"
+      ],
+      "parent_concept": "transformation cost",
+      "constraints": null
+    },
+    {
+      "term": "relationship salience increase or decrease",
+      "term_type": "action",
+      "subtype": "change operation",
+      "domain": [
+        "Relationship Edge"
+      ],
+      "range": [
+        "Adjusted Salience Value"
+      ],
+      "parent_concept": "transformation cost",
+      "constraints": {
+        "unit_change": "\u00b11 count"
+      }
+    },
+    {
+      "term": "concept-deletion",
+      "term_type": "action",
+      "subtype": "change operation",
+      "domain": [
+        "Cognitive Map"
+      ],
+      "range": [
+        "Removed Concept Node"
+      ],
+      "parent_concept": "transformation cost",
+      "constraints": null
+    },
+    {
+      "term": "concept-addition",
+      "term_type": "action",
+      "subtype": "change operation",
+      "domain": [
+        "Cognitive Map"
+      ],
+      "range": [
+        "New Concept Node"
+      ],
+      "parent_concept": "transformation cost",
+      "constraints": null
+    },
+    {
+      "term": "accept",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Proposition Node",
+        "Request"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "allow",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Actor Node",
+        "Action Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "assert",
+      "term_type": "action",
+      "subtype": "speech-act",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Proposition Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "assist",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Actor Node",
+        "Action Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "attack",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Actor Node",
+        "Target Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "cause",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node",
+        "Event Node"
+      ],
+      "range": [
+        "Event Node",
+        "State Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "confront",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Actor Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "consult",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Actor Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "control",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Resource Node",
+        "Actor Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "cooperate",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Actor Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "decide",
+      "term_type": "action",
+      "subtype": "cognitive-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Proposition Node",
+        "Action Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "defend",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Actor Node",
+        "Territory Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "delay",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Event Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "enforce",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Rule Node",
+        "Agreement Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "enhance",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Capability Node",
+        "State Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "feel",
+      "term_type": "action",
+      "subtype": "cognitive-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Emotion Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "honour",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Agreement Node",
+        "Actor Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "ignore",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Actor Node",
+        "Proposition Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "influence",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Actor Node",
+        "State Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "intervene",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Conflict Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "invade",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Territory Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "lead",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Actor Node",
+        "Organisation Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "limit",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Action Node",
+        "Capability Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "lose",
+      "term_type": "action",
+      "subtype": "event",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Resource Node",
+        "Conflict Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "maintain",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "State Node",
+        "Capability Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "meet",
+      "term_type": "action",
+      "subtype": "interaction",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Actor Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "monitor",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Process Node",
+        "Actor Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "negotiate",
+      "term_type": "action",
+      "subtype": "interaction",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Agreement Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "open",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Facility Node",
+        "Channel Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "order",
+      "term_type": "action",
+      "subtype": "speech-act",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Actor Node",
+        "Action Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "organise",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Event Node",
+        "Group Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "perform",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Action Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "propose",
+      "term_type": "action",
+      "subtype": "speech-act",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Proposition Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "purchase",
+      "term_type": "action",
+      "subtype": "economic action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Goods Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "ratify",
+      "term_type": "action",
+      "subtype": "institutional action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Agreement Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "reduce",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Capability Node",
+        "Threat Level Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "release",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Actor Node",
+        "Resource Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "restore",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "State Node",
+        "Object Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "share",
+      "term_type": "action",
+      "subtype": "interaction",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Resource Node",
+        "Information Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "sign",
+      "term_type": "action",
+      "subtype": "institutional action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Agreement Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "stop",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Action Node",
+        "Process Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "support",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Actor Node",
+        "Policy Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "threaten",
+      "term_type": "action",
+      "subtype": "speech-act",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Actor Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "use",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Resource Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "verify",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "State Node",
+        "Proposition Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "visit",
+      "term_type": "action",
+      "subtype": "interaction",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Place Node",
+        "Actor Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "vote-on",
+      "term_type": "action",
+      "subtype": "institutional action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Proposal Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "withdraw",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Territory Node",
+        "Proposal Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    },
+    {
+      "term": "yield-to",
+      "term_type": "action",
+      "subtype": "agent-action",
+      "domain": [
+        "Actor Node"
+      ],
+      "range": [
+        "Actor Node"
+      ],
+      "parent_concept": "action-type list",
+      "constraints": null
+    }
+  ],
+  "measures": [
+    {
+      "term": "dependency",
+      "term_type": "measure",
+      "subtype": "structural measure",
+      "domain": [
+        "Cognitive Map"
+      ],
+      "range": [
+        "Ratio"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "formula": "Bridge Relations / Total Relations"
+      }
+    },
+    {
+      "term": "connectedness",
+      "term_type": "measure",
+      "subtype": "structural measure",
+      "domain": [
+        "Cognitive Map"
+      ],
+      "range": [
+        "Ratio"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "formula": "Links / Nodes"
+      }
+    },
+    {
+      "term": "size",
+      "term_type": "measure",
+      "subtype": "structural measure",
+      "domain": [
+        "Cognitive Map"
+      ],
+      "range": [
+        "Integer"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "definition": "|Concept Nodes|"
+      }
+    },
+    {
+      "term": "uniformity of salience",
+      "term_type": "measure",
+      "subtype": "structural measure",
+      "domain": [
+        "Cognitive Map"
+      ],
+      "range": [
+        "Standard Deviation"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "salience (of relationship)",
+      "term_type": "measure",
+      "subtype": "link weight",
+      "domain": [
+        "Relationship Edge"
+      ],
+      "range": [
+        "Integer Count"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "concept comparison",
+      "term_type": "measure",
+      "subtype": "comparative measure",
+      "domain": [
+        "Cognitive Map",
+        "Cognitive Map"
+      ],
+      "range": [
+        "Overlap Statistics"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "transformation cost",
+      "term_type": "measure",
+      "subtype": "comparative measure",
+      "domain": [
+        "Cognitive Map",
+        "Cognitive Map"
+      ],
+      "range": [
+        "Integer Edit Distance"
+      ],
+      "parent_concept": "Levenshtein measure",
+      "constraints": null
+    },
+    {
+      "term": "incongruence",
+      "term_type": "measure",
+      "subtype": "comparative measure",
+      "domain": [
+        "Cognitive Map",
+        "Cognitive Map"
+      ],
+      "range": [
+        "Composite Score"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "Levenshtein measure",
+      "term_type": "measure",
+      "subtype": "metric analogy",
+      "domain": [
+        "String",
+        "String"
+      ],
+      "range": [
+        "Integer Edit Distance"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    }
+  ],
+  "modifiers": [
+    {
+      "term": "relationship modifier",
+      "term_type": "modifier",
+      "subtype": "qualifier tag",
+      "domain": [
+        "Relationship Edge"
+      ],
+      "range": [
+        "Modifier Value"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "allowed_values": "[past, present, future, goal, hypothetical, normative]"
+      }
+    },
+    {
+      "term": "past",
+      "term_type": "modifier",
+      "subtype": "temporal",
+      "domain": [
+        "Relationship Edge",
+        "Action Node"
+      ],
+      "range": null,
+      "parent_concept": "relationship modifier",
+      "constraints": null
+    },
+    {
+      "term": "present",
+      "term_type": "modifier",
+      "subtype": "temporal",
+      "domain": [
+        "Relationship Edge",
+        "Action Node"
+      ],
+      "range": null,
+      "parent_concept": "relationship modifier",
+      "constraints": null
+    },
+    {
+      "term": "future",
+      "term_type": "modifier",
+      "subtype": "temporal",
+      "domain": [
+        "Relationship Edge",
+        "Action Node"
+      ],
+      "range": null,
+      "parent_concept": "relationship modifier",
+      "constraints": null
+    },
+    {
+      "term": "goal",
+      "term_type": "modifier",
+      "subtype": "modal",
+      "domain": [
+        "Relationship Edge",
+        "Proposition Node"
+      ],
+      "range": null,
+      "parent_concept": "relationship modifier",
+      "constraints": null
+    },
+    {
+      "term": "hypothetical",
+      "term_type": "modifier",
+      "subtype": "modal",
+      "domain": [
+        "Proposition Node"
+      ],
+      "range": null,
+      "parent_concept": "relationship modifier",
+      "constraints": null
+    },
+    {
+      "term": "normative",
+      "term_type": "modifier",
+      "subtype": "modal",
+      "domain": [
+        "Proposition Node"
+      ],
+      "range": null,
+      "parent_concept": "relationship modifier",
+      "constraints": null
+    }
+  ],
+  "truth_values": [
+    {
+      "term": "truth-value",
+      "term_type": "truth-value",
+      "subtype": "logical attribute",
+      "domain": [
+        "Proposition Node"
+      ],
+      "range": [
+        "Truth State"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "allowed_values": "[true,false,partial,possible,impossible]"
+      }
+    },
+    {
+      "term": "true",
+      "term_type": "truth-value",
+      "subtype": "certainty",
+      "domain": [
+        "Proposition Node"
+      ],
+      "range": null,
+      "parent_concept": "truth-value",
+      "constraints": null
+    },
+    {
+      "term": "false",
+      "term_type": "truth-value",
+      "subtype": "certainty",
+      "domain": [
+        "Proposition Node"
+      ],
+      "range": null,
+      "parent_concept": "truth-value",
+      "constraints": null
+    },
+    {
+      "term": "partial",
+      "term_type": "truth-value",
+      "subtype": "certainty",
+      "domain": [
+        "Proposition Node"
+      ],
+      "range": null,
+      "parent_concept": "truth-value",
+      "constraints": null
+    },
+    {
+      "term": "possible",
+      "term_type": "truth-value",
+      "subtype": "modal possibility",
+      "domain": [
+        "Proposition Node"
+      ],
+      "range": null,
+      "parent_concept": "truth-value",
+      "constraints": null
+    },
+    {
+      "term": "impossible",
+      "term_type": "truth-value",
+      "subtype": "modal possibility",
+      "domain": [
+        "Proposition Node"
+      ],
+      "range": null,
+      "parent_concept": "truth-value",
+      "constraints": null
+    }
+  ],
+  "operators": [
+    {
+      "term": "conjunction (and / or)",
+      "term_type": "operator",
+      "subtype": "logical connector",
+      "domain": [
+        "Set of Concept Nodes",
+        "Set of Action Nodes"
+      ],
+      "range": [
+        "Compound Concept Node"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "suboperators": "AND (intersection), OR (union)"
+      }
+    }
+  ]
+}

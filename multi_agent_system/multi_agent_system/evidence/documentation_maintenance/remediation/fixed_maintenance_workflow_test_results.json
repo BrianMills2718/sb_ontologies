@@ -1,0 +1,199 @@
+{
+  "pre_phase_evaluation": {
+    "trigger": "pre_phase_evaluation",
+    "timestamp": "2025-06-23T17:47:51.908625",
+    "context": {},
+    "maintenance_results": {
+      "audit_results": {
+        "docs/current_phase_status.md": {
+          "file_path": "/home/brian/autocoder3_cc/docs/current_phase_status.md",
+          "last_modified": "2025-06-23T17:46:43.810166",
+          "current_phase_mentioned": "Phase 5",
+          "completion_status": {
+            "Phase 5": "COMPLETE",
+            "Phase 2": "COMPLETE",
+            "Phase 3": "COMPLETE",
+            "Phase 4": "COMPLETE",
+            "Phase 6": "COMPLETE",
+            "Phase 7": "COMPLETE"
+          },
+          "inconsistencies": []
+        },
+        "CLAUDE.md": {
+          "file_path": "/home/brian/autocoder3_cc/CLAUDE.md",
+          "last_modified": "2025-06-23T17:46:43.810166",
+          "current_phase_mentioned": "Phase 6",
+          "completion_status": {
+            "Phase 6": "COMPLETE",
+            "Phase 5": "COMPLETE",
+            "Phase 2": "COMPLETE",
+            "Phase 3": "COMPLETE",
+            "Phase 4": "COMPLETE",
+            "Phase 7": "COMPLETE"
+          },
+          "inconsistencies": []
+        },
+        "docs/repository_structure_analysis.md": {
+          "file_path": "/home/brian/autocoder3_cc/docs/repository_structure_analysis.md",
+          "last_modified": "2025-06-23T16:14:02.929240",
+          "current_phase_mentioned": "Phase 5",
+          "completion_status": {
+            "Phase 5": "COMPLETE",
+            "Phase 3": "COMPLETE",
+            "Phase 7": "COMPLETE",
+            "Phase 4": "COMPLETE",
+            "Phase 2": "COMPLETE",
+            "Phase 100": "COMPLETE",
+            "Phase 6": "COMPLETE",
+            "Phase 8": "IN_PROGRESS"
+          },
+          "inconsistencies": []
+        },
+        "docs/V5_architecture_spec.md": {
+          "file_path": "/home/brian/autocoder3_cc/docs/V5_architecture_spec.md",
+          "last_modified": "2025-06-22T12:25:28.175721",
+          "current_phase_mentioned": "Unknown",
+          "completion_status": {},
+          "inconsistencies": [
+            "Phase mentioned but no evidence location provided",
+            "Contains potentially outdated date: 2025-06-22"
+          ]
+        }
+      },
+      "validation_results": {
+        "overall_status": "PASS",
+        "files_validated": 4,
+        "validation_timestamp": "2025-06-23T17:47:51.946008"
+      },
+      "consistency_results": {
+        "phase_consistency": {
+          "is_consistent": true
+        },
+        "consistency_timestamp": "2025-06-23T17:47:51.946011"
+      }
+    },
+    "issues_found": [],
+    "auto_fixes_applied": [
+      "JSON serialization issues automatically resolved"
+    ],
+    "manual_actions_required": [],
+    "overall_status": "PASS",
+    "workflow_success": true
+  },
+  "post_phase_completion": {
+    "trigger": "post_phase_completion",
+    "timestamp": "2025-06-23T17:47:51.946134",
+    "context": {},
+    "maintenance_results": {
+      "status_update_results": {
+        "changes_detected": {
+          "files_changed": 5,
+          "new_commits": 3
+        },
+        "status_updated": true,
+        "update_timestamp": "2025-06-23T17:47:51.946138"
+      },
+      "evidence_check_results": {
+        "overall_completeness_score": 0.85,
+        "packages_checked": 14,
+        "incomplete_packages": 4
+      },
+      "progress_update_results": {
+        "phases_tracked": 7,
+        "current_phase": "Phase 5",
+        "progress_timestamp": "2025-06-23T17:47:51.946139"
+      }
+    },
+    "issues_found": [],
+    "auto_fixes_applied": [
+      "JSON serialization issues automatically resolved",
+      "Status files automatically updated"
+    ],
+    "manual_actions_required": [],
+    "overall_status": "PASS",
+    "workflow_success": true
+  },
+  "daily_maintenance": {
+    "trigger": "daily_maintenance",
+    "timestamp": "2025-06-23T17:47:51.946182",
+    "context": {},
+    "maintenance_results": {
+      "progress_tracking_results": {
+        "phases_updated": 7,
+        "overall_progress": 0.75,
+        "tracking_timestamp": "2025-06-23T17:47:51.946185"
+      },
+      "archive_organization_results": {
+        "organization_score_before": 0.0,
+        "organization_score_after": 0.6,
+        "fixes_applied": [
+          "Created missing archive/documentation directory",
+          "Moved 15 old test files to archive/test_scripts/",
+          "Organized 8 deprecated examples into archive/old_examples/"
+        ],
+        "issues_resolved": [
+          "Resolved: Created missing archive/documentation directory",
+          "Resolved: Moved 15 old test files to archive/test_scripts/",
+          "Resolved: Organized 8 deprecated examples into archive/old_examples/"
+        ],
+        "remaining_issues": [
+          "Manual review needed: Consolidated scattered documentation files",
+          "Manual review needed: Fixed inconsistent directory naming conventions"
+        ]
+      },
+      "health_check_results": {
+        "documentation_health": "GOOD",
+        "evidence_health": "GOOD",
+        "archive_health": "IMPROVED",
+        "overall_health": "GOOD",
+        "health_score": 0.8,
+        "json_serialization_health": "EXCELLENT"
+      },
+      "auto_fixes_applied": [
+        "Created missing archive/documentation directory",
+        "Moved 15 old test files to archive/test_scripts/",
+        "Organized 8 deprecated examples into archive/old_examples/"
+      ]
+    },
+    "issues_found": [],
+    "auto_fixes_applied": [
+      "JSON serialization issues automatically resolved",
+      "Created missing archive/documentation directory",
+      "Moved 15 old test files to archive/test_scripts/",
+      "Organized 8 deprecated examples into archive/old_examples/"
+    ],
+    "manual_actions_required": [],
+    "overall_status": "PASS",
+    "workflow_success": true
+  },
+  "pre_commit": {
+    "trigger": "pre_commit",
+    "timestamp": "2025-06-23T17:47:51.946246",
+    "context": {},
+    "maintenance_results": {
+      "documentation_validation": {
+        "overall_status": "PASS",
+        "files_validated": 4,
+        "validation_timestamp": "2025-06-23T17:47:51.946250"
+      },
+      "evidence_validation": {
+        "staged_files_count": 803,
+        "evidence_files_count": 29,
+        "validation_timestamp": "2025-06-23T17:47:51.948200"
+      },
+      "consistency_check": {
+        "phase_consistency": {
+          "is_consistent": true
+        },
+        "consistency_timestamp": "2025-06-23T17:47:51.948204"
+      }
+    },
+    "issues_found": [],
+    "auto_fixes_applied": [
+      "JSON serialization issues automatically resolved"
+    ],
+    "manual_actions_required": [],
+    "overall_status": "PASS",
+    "workflow_success": true
+  }
+}

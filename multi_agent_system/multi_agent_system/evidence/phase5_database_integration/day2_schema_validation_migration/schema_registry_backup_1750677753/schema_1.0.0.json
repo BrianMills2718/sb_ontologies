@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "name": "default_store_schema",
+  "fields": [
+    {
+      "name": "id",
+      "field_type": "string",
+      "required": true,
+      "default": null,
+      "constraints": {},
+      "description": "Unique identifier"
+    },
+    {
+      "name": "timestamp",
+      "field_type": "number",
+      "required": true,
+      "default": null,
+      "constraints": {},
+      "description": "Event timestamp"
+    },
+    {
+      "name": "event_type",
+      "field_type": "string",
+      "required": true,
+      "default": null,
+      "constraints": {},
+      "description": "Type of event"
+    },
+    {
+      "name": "data",
+      "field_type": "object",
+      "required": true,
+      "default": null,
+      "constraints": {},
+      "description": "Event data payload"
+    },
+    {
+      "name": "user_id",
+      "field_type": "string",
+      "required": false,
+      "default": null,
+      "constraints": {},
+      "description": "User identifier"
+    },
+    {
+      "name": "session_id",
+      "field_type": "string",
+      "required": false,
+      "default": null,
+      "constraints": {},
+      "description": "Session identifier"
+    },
+    {
+      "name": "metadata",
+      "field_type": "object",
+      "required": false,
+      "default": null,
+      "constraints": {},
+      "description": "Additional metadata"
+    }
+  ],
+  "indexes": [
+    "id",
+    "timestamp",
+    "event_type",
+    "user_id"
+  ],
+  "constraints": [
+    "UNIQUE(id)",
+    "CHECK(timestamp > 0)"
+  ],
+  "metadata": {
+    "created_by": "system",
+    "purpose": "default_store_schema",
+    "version_type": "initial"
+  },
+  "created_at": 1750677753.365633
+}

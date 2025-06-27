@@ -1,0 +1,320 @@
+{
+  "title": "Semantic Hypergraph (SH) Knowledge-Representation Schema",
+  "description": "A complete, machine-readable schema for the Semantic Hypergraph theory (Menezes & Roth 2021).  The schema captures SH\u2019s eight node-types, ordered/recursive n-ary hyperedges, argument-role notation (s|o|r), open/opaque & strict/adaptive stances, pattern language, extraction rules, and the two-stage (\u03b1-classifier \u2192 \u03b2-search) parsing pipeline.  It is explicitly hypergraph-oriented: hyperedges are first-class nodes whose incident \u2018argument\u2019 edges are ordered and role-typed, allowing edges-to-edge recursion and operator / modifier attachment.",
+  "model_type": "hypergraph",
+  "rationale": "SH is defined as \u201c\u2026a hybrid, recursive, ordered hypergraph\u2026\u201d.  Core relations (predicate, relation, builder, trigger, specifier) connect 3+ participants, may contain other relations as arguments, and must preserve participant order.  Hyperedges themselves possess properties (e.g. open/opaque, strict/adaptive).  These are canonical hypergraph indicators; a simpler property-graph or tree would lose ordering and n-ary semantics.",
+  "node_types": [
+    {
+      "name": "Atom",
+      "properties": [
+        "id",
+        "surface_form",
+        "lemma",
+        "type_code",
+        "open_opaque",
+        "strict_adaptive"
+      ],
+      "description": "Minimal SH element; super-class for the eight specialised types.",
+      "subtypes": [
+        "Concept",
+        "Relation",
+        "Predicate",
+        "Builder",
+        "Trigger",
+        "Specifier",
+        "Modifier",
+        "Literal"
+      ],
+      "constraints": {
+        "type_code": "one of {C,R,P,B,T,S,M,L}"
+      }
+    },
+    {
+      "name": "Concept",
+      "properties": [
+        "id",
+        "surface_form",
+        "lemma",
+        "deep_degree",
+        "hypergraphic_degree"
+      ],
+      "description": "Type-C atoms denoting entities or abstract concepts.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Relation",
+      "properties": [
+        "id",
+        "role_code",
+        "ordered",
+        "defect_size",
+        "open_opaque",
+        "strict_adaptive"
+      ],
+      "description": "General hyperedge (type-R) that may itself take part in other relations (recursion).",
+      "subtypes": [
+        "Predicate",
+        "Builder",
+        "Trigger",
+        "Specifier"
+      ],
+      "constraints": {
+        "ordered": "boolean"
+      }
+    },
+    {
+      "name": "Predicate",
+      "properties": [
+        "id",
+        "surface_form",
+        "lemma",
+        "role_code"
+      ],
+      "description": "Subtype of Relation (type-P).  Canonical verb-like relation mapping subjects/objects to new relations.",
+      "subtypes": null,
+      "constraints": {
+        "must_have_roles": "s & o"
+      }
+    },
+    {
+      "name": "Builder",
+      "properties": [
+        "id",
+        "operator_symbol"
+      ],
+      "description": "Subtype of Relation (type-B) marked in SH notation by \u201c+/B\u201d.  Creates new concept compounds.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Trigger",
+      "properties": [
+        "id",
+        "surface_form"
+      ],
+      "description": "Subtype of Relation (type-T) that activates Specifiers.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Specifier",
+      "properties": [
+        "id",
+        "surface_form"
+      ],
+      "description": "Subtype of Relation (type-S) applying constraints introduced by a Trigger.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Modifier",
+      "properties": [
+        "id",
+        "modifier_kind"
+      ],
+      "description": "Type-M node expressing temporal/modal modification.",
+      "subtypes": null,
+      "constraints": {
+        "modifier_kind": "enum{temporal,modal,aspectual}"
+      }
+    },
+    {
+      "name": "Literal",
+      "properties": [
+        "id",
+        "value",
+        "datatype"
+      ],
+      "description": "Type-L node for numbers, dates, strings, etc.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Operator",
+      "properties": [
+        "id",
+        "operator_type"
+      ],
+      "description": "J-type operator nodes such as conjunction (: /J).",
+      "subtypes": null,
+      "constraints": {
+        "operator_type": "must be \u2018conjunction\u2019 for v1"
+      }
+    },
+    {
+      "name": "Pattern",
+      "properties": [
+        "id",
+        "pattern_string",
+        "compression_level"
+      ],
+      "description": "Learnt SH extraction pattern used by \u03b2-search.",
+      "subtypes": null,
+      "constraints": null
+    }
+  ],
+  "edge_types": [
+    {
+      "name": "hasSubject",
+      "from_types": [
+        "Predicate",
+        "Relation",
+        "Builder",
+        "Trigger",
+        "Specifier"
+      ],
+      "to_types": [
+        "Concept",
+        "Relation"
+      ],
+      "properties": [
+        "position",
+        "role_code"
+      ],
+      "description": "Ordered subject (role \u2018s\u2019) argument of an n-ary hyperedge.",
+      "inverse": "subjectOf"
+    },
+    {
+      "name": "hasObject",
+      "from_types": [
+        "Predicate",
+        "Relation",
+        "Builder",
+        "Trigger",
+        "Specifier"
+      ],
+      "to_types": [
+        "Concept",
+        "Relation"
+      ],
+      "properties": [
+        "position",
+        "role_code"
+      ],
+      "description": "Ordered object (role \u2018o\u2019) argument of an n-ary hyperedge.",
+      "inverse": "objectOf"
+    },
+    {
+      "name": "hasRelative",
+      "from_types": [
+        "Predicate",
+        "Relation"
+      ],
+      "to_types": [
+        "Relation"
+      ],
+      "properties": [
+        "position",
+        "role_code"
+      ],
+      "description": "Relative relation (role \u2018r\u2019) argument enabling recursive embedding.",
+      "inverse": "relativeOf"
+    },
+    {
+      "name": "modifies",
+      "from_types": [
+        "Modifier"
+      ],
+      "to_types": [
+        "Relation",
+        "Predicate",
+        "Builder",
+        "Trigger",
+        "Specifier"
+      ],
+      "properties": [
+        "scope"
+      ],
+      "description": "Applies temporal/modal modification.",
+      "inverse": "isModifiedBy"
+    },
+    {
+      "name": "usesOperator",
+      "from_types": [
+        "Relation",
+        "Predicate"
+      ],
+      "to_types": [
+        "Operator"
+      ],
+      "properties": null,
+      "description": "Attaches logical operator (currently only conjunction).",
+      "inverse": "operatorOf"
+    },
+    {
+      "name": "subHyperedge",
+      "from_types": [
+        "Relation",
+        "Predicate",
+        "Builder",
+        "Trigger",
+        "Specifier"
+      ],
+      "to_types": [
+        "Relation",
+        "Predicate",
+        "Builder",
+        "Trigger",
+        "Specifier"
+      ],
+      "properties": [
+        "order_index"
+      ],
+      "description": "Recursive containment\u2014hyperedge used as ordered argument inside another hyperedge.",
+      "inverse": "superHyperedge"
+    },
+    {
+      "name": "derivesPattern",
+      "from_types": [
+        "Pattern"
+      ],
+      "to_types": [
+        "Relation"
+      ],
+      "properties": [
+        "confidence"
+      ],
+      "description": "Pattern instantiates a Relation during \u03b2-search inference.",
+      "inverse": "instantiatedByPattern"
+    }
+  ],
+  "property_definitions": {
+    "id": "unique identifier (URI/IRI)",
+    "surface_form": "string \u2013 original NL token sequence",
+    "lemma": "string \u2013 canonical lemma",
+    "type_code": "char in {C,R,P,B,T,S,M,L}",
+    "open_opaque": "enum{open,opaque}",
+    "strict_adaptive": "enum{strict,adaptive}",
+    "role_code": "char role marker {s,o,r,\u2026}",
+    "ordered": "boolean \u2013 maintains participant order",
+    "operator_symbol": "string representation of operator (e.g. \u201c+/B\u201d)",
+    "deep_degree": "float \u03b4 per SH definition",
+    "hypergraphic_degree": "integer d per SH definition",
+    "defect_size": "float in [0,1]",
+    "position": "integer argument index (1-n)",
+    "scope": "textual span or edge-set id",
+    "order_index": "integer \u2013 nesting order",
+    "modifier_kind": "enum{temporal,modal,aspectual}",
+    "value": "scalar value for Literal",
+    "datatype": "xsd-datatype IRI",
+    "operator_type": "enum{conjunction}",
+    "pattern_string": "compressed pattern language string",
+    "compression_level": "float 0\u20131",
+    "confidence": "probability 0-1"
+  },
+  "modifiers_supported": [
+    "temporal",
+    "modal",
+    "aspectual"
+  ],
+  "truth_values_supported": [
+    "true",
+    "false",
+    "uncertain",
+    "probabilistic"
+  ],
+  "operators_supported": [
+    "conjunction"
+  ]
+}

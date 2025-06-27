@@ -1,0 +1,469 @@
+{
+  "title": "Semantic Hypergraph Theory (SH) \u2013 Schema for Cognitive / Organisational Hybrid Representation",
+  "description": "This schema captures the formal system introduced by Menezes & Roth (2021).  The paper defines a recursive, ordered hypergraph formalism (Semantic Hypergraph) for natural\u2013language understanding, together with a supporting type-system, parsing pipeline, pattern language and inference rules.  Because relations routinely involve 3+ ordered participants, can embed other relations, and treat hyperedges as first-class objects with their own properties, a hypergraph data model is mandatory.  The schema models (1) conceptual entities (core constructs, components, strategy types, properties, measures, operators, modifiers), (2) hyperedge types and instances, (3) actors, topics and patterns, and (4) actions / rules that transform or derive hyperedges.",
+  "model_type": "hypergraph",
+  "rationale": "SH\u2019s defining features match every hypergraph indicator:  \u2022 N-ary relations (Predicate P, Relation R, Conflict, etc.)   \u2022 Explicit ordering of arguments   \u2022 Recursion (hyperedges may contain other hyperedges)   \u2022 Hyperedges are first-class objects with their own type, truth value and modifiers.  A conventional property graph (binary edges) or tree/sequence would lose ordering, role labels and the ability to embed relations; table_matrix would miss connectivity.  Therefore a hypergraph representation is optimal.",
+  "node_types": [
+    {
+      "name": "Concept",
+      "properties": [
+        "name",
+        "description",
+        "category",
+        "openness",
+        "adaptivity"
+      ],
+      "description": "Any domain concept talked about in SH, including linguistic constructs and abstract properties.",
+      "subtypes": [
+        "CoreConstruct",
+        "Component",
+        "StrategyType",
+        "Property",
+        "Measure",
+        "Operator",
+        "Modifier",
+        "Topic",
+        "ContextualConcept"
+      ],
+      "constraints": {
+        "category": "MUST be one of the declared subtypes"
+      }
+    },
+    {
+      "name": "CoreConstruct",
+      "properties": [
+        "name",
+        "description"
+      ],
+      "description": "High-level theoretical constructs.",
+      "subtypes": [
+        "NaturalLanguageProcessing",
+        "SemanticHypergraph",
+        "Pattern",
+        "HybridKnowledgeRepresentation"
+      ],
+      "constraints": null
+    },
+    {
+      "name": "Component",
+      "properties": [
+        "name",
+        "description"
+      ],
+      "description": "Structural building blocks inside an SH graph.",
+      "subtypes": [
+        "Hyperedge",
+        "Atom",
+        "Connector",
+        "Variable"
+      ],
+      "constraints": null
+    },
+    {
+      "name": "StrategyType",
+      "properties": [
+        "name",
+        "description"
+      ],
+      "description": "Categorical positions in the open/opaque\u2013strict/adaptive space.",
+      "subtypes": [
+        "OpenAdaptiveCategory",
+        "OpacityAdaptiveModel"
+      ],
+      "constraints": null
+    },
+    {
+      "name": "Property",
+      "properties": [
+        "name",
+        "description"
+      ],
+      "description": "Binary or scalar properties used by the theory.",
+      "subtypes": [
+        "OpenOpaqueDichotomy",
+        "StrictAdaptiveDichotomy",
+        "ExplainabilityPerformanceTradeoff",
+        "RecursiveHyperedge",
+        "OrderedHyperedge",
+        "ImplicitTaxonomy",
+        "TopicHierarchy",
+        "ArgumentRole",
+        "OpacityNLP",
+        "SubjectRole"
+      ],
+      "constraints": null
+    },
+    {
+      "name": "Measure",
+      "properties": [
+        "name",
+        "description",
+        "numeric_value"
+      ],
+      "description": "Quantitative measures defined by the theory.",
+      "subtypes": [
+        "FeatureSetF5",
+        "SHDegree",
+        "DeepDegree"
+      ],
+      "constraints": null
+    },
+    {
+      "name": "Modifier",
+      "properties": [
+        "name",
+        "description",
+        "modifier_type"
+      ],
+      "description": "Modal or temporal modifiers that can decorate a hyperedge.",
+      "subtypes": [
+        "ModifierM",
+        "TriggerT"
+      ],
+      "constraints": null
+    },
+    {
+      "name": "Operator",
+      "properties": [
+        "name",
+        "description",
+        "symbol"
+      ],
+      "description": "Symbolic operators used inside patterns.",
+      "subtypes": [
+        "ConjunctionJ",
+        "LexicalWildcard",
+        "SequenceWildcard",
+        "ArgRoleSetNotation"
+      ],
+      "constraints": null
+    },
+    {
+      "name": "Actor",
+      "properties": [
+        "name",
+        "description"
+      ],
+      "description": "Entity that can issue claims or be in conflict.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "HyperedgeType",
+      "properties": [
+        "name",
+        "description",
+        "ordered",
+        "recursive",
+        "argument_roles"
+      ],
+      "description": "Schema-level declaration for a class of hyperedges (Predicate P, Builder B \u2026).",
+      "subtypes": [
+        "PredicateP",
+        "BuilderB",
+        "CompoundNounBuilder",
+        "RelationR",
+        "SpecifierS",
+        "ClaimEdge",
+        "ConflictEdge"
+      ],
+      "constraints": null
+    },
+    {
+      "name": "HyperedgeInstance",
+      "properties": [
+        "uuid",
+        "text_span",
+        "stage",
+        "confidence",
+        "truth_value"
+      ],
+      "description": "Concrete hyperedge occurring in text or inference; links to its HyperedgeType and participants.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Pattern",
+      "properties": [
+        "pattern_string",
+        "description"
+      ],
+      "description": "\u03b1/\u03b2-stage patterns against which text or graphs are matched.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Rule",
+      "properties": [
+        "name",
+        "description",
+        "rule_type",
+        "antecedent",
+        "consequent"
+      ],
+      "description": "Transformational or inference rules (Type Inference Rule, Inference Rule, etc.).",
+      "subtypes": [
+        "TypeInferenceRule",
+        "InferenceRule",
+        "CliqueBasedCoreferenceRule",
+        "ConjunctionDecompositionRule",
+        "AnaphoraResolutionRule",
+        "KnowledgeInferenceRule"
+      ],
+      "constraints": null
+    },
+    {
+      "name": "ProcessingStageArtifact",
+      "properties": [
+        "artifact_type",
+        "content"
+      ],
+      "description": "Intermediate data products (TokenSequence, TypedTokens, FeatureVector, CoreferenceSet).",
+      "subtypes": [
+        "TokenSequence",
+        "TypedTokens",
+        "FeatureVector",
+        "CoreferenceSet"
+      ],
+      "constraints": null
+    },
+    {
+      "name": "Topic",
+      "properties": [
+        "name",
+        "description"
+      ],
+      "description": "Subject area involved in Conflict edges.",
+      "subtypes": null,
+      "constraints": null
+    }
+  ],
+  "edge_types": [
+    {
+      "name": "INSTANCE_OF",
+      "from_types": [
+        "HyperedgeInstance"
+      ],
+      "to_types": [
+        "HyperedgeType"
+      ],
+      "properties": null,
+      "description": "Links a concrete hyperedge to its type template.",
+      "inverse": "HAS_INSTANCE"
+    },
+    {
+      "name": "PARTICIPANT",
+      "from_types": [
+        "HyperedgeInstance"
+      ],
+      "to_types": [
+        "Concept",
+        "Actor",
+        "Topic",
+        "Pattern",
+        "HyperedgeInstance",
+        "ProcessingStageArtifact"
+      ],
+      "properties": [
+        "role",
+        "position"
+      ],
+      "description": "Connects a hyperedge instance to one of its ordered participants.  role = semantic role label; position = integer order.",
+      "inverse": "PARTICIPATES_IN"
+    },
+    {
+      "name": "PREDICATE_P",
+      "from_types": [
+        "Concept",
+        "Relation"
+      ],
+      "to_types": [
+        "Concept",
+        "Relation"
+      ],
+      "properties": [
+        "role",
+        "position"
+      ],
+      "description": "Hyperedge Type-P: ordered predicate between two concept/relation nodes.",
+      "inverse": null
+    },
+    {
+      "name": "BUILDER_B",
+      "from_types": [
+        "Concept"
+      ],
+      "to_types": [
+        "Concept"
+      ],
+      "properties": [
+        "position"
+      ],
+      "description": "Hyperedge Type-B: builder relation creating complex concepts.",
+      "inverse": null
+    },
+    {
+      "name": "COMPOUND_NOUN_BUILDER",
+      "from_types": [
+        "Concept"
+      ],
+      "to_types": [
+        "Concept"
+      ],
+      "properties": [
+        "position"
+      ],
+      "description": "Specialised builder for compound nouns (+/B).",
+      "inverse": null
+    },
+    {
+      "name": "RELATION_R",
+      "from_types": [
+        "Predicate"
+      ],
+      "to_types": [
+        "Concept",
+        "Relation"
+      ],
+      "properties": [
+        "role",
+        "position"
+      ],
+      "description": "Hyperedge Type-R: maps a predicate onto its arguments or sub-relations.",
+      "inverse": null
+    },
+    {
+      "name": "SPECIFIER_S",
+      "from_types": [
+        "Relation"
+      ],
+      "to_types": [
+        "ContextualConcept"
+      ],
+      "properties": [
+        "role"
+      ],
+      "description": "Provides contextual specification for a relation.",
+      "inverse": null
+    },
+    {
+      "name": "CLAIM",
+      "from_types": [
+        "Actor"
+      ],
+      "to_types": [
+        "Relation"
+      ],
+      "properties": [
+        "stance",
+        "time"
+      ],
+      "description": "Actor asserts that a given relation holds.",
+      "inverse": "CLAIMED_BY"
+    },
+    {
+      "name": "CONFLICT",
+      "from_types": [
+        "Actor"
+      ],
+      "to_types": [
+        "Actor",
+        "Topic"
+      ],
+      "properties": [
+        "topic_focus",
+        "intensity"
+      ],
+      "description": "Conflict hyperedge between actors, optionally over a topic.",
+      "inverse": null
+    },
+    {
+      "name": "DERIVES",
+      "from_types": [
+        "Rule"
+      ],
+      "to_types": [
+        "HyperedgeInstance"
+      ],
+      "properties": [
+        "derivation_step"
+      ],
+      "description": "Indicates that applying a rule produced (or will produce) a hyperedge.",
+      "inverse": null
+    },
+    {
+      "name": "CONSUMES",
+      "from_types": [
+        "Rule"
+      ],
+      "to_types": [
+        "HyperedgeInstance",
+        "Pattern",
+        "ProcessingStageArtifact"
+      ],
+      "properties": [
+        "role"
+      ],
+      "description": "Inputs required for a rule\u2019s antecedent.",
+      "inverse": null
+    },
+    {
+      "name": "TRANSFORMS",
+      "from_types": [
+        "ProcessingStageArtifact"
+      ],
+      "to_types": [
+        "ProcessingStageArtifact",
+        "HyperedgeInstance"
+      ],
+      "properties": [
+        "stage"
+      ],
+      "description": "Captures \u03b1-stage, \u03b2-stage and other pipeline steps.",
+      "inverse": null
+    }
+  ],
+  "property_definitions": {
+    "name": "Human-readable identifier.",
+    "description": "Explanatory text.",
+    "category": "Enum distinguishing Concept specialisations.",
+    "openness": "open | opaque",
+    "adaptivity": "strict | adaptive",
+    "ordered": "Boolean flag on HyperedgeType.",
+    "recursive": "Boolean flag on HyperedgeType.",
+    "argument_roles": "Ordered list of role labels for a HyperedgeType.",
+    "uuid": "Unique identifier of HyperedgeInstance.",
+    "text_span": "Character offsets in source text.",
+    "stage": "alpha | beta | inference.",
+    "confidence": "Real number 0\u20131.",
+    "truth_value": "one of truth_values_supported.",
+    "modifier_type": "modal | temporal",
+    "symbol": "Literal operator symbol.",
+    "role": "Semantic participant role.",
+    "position": "Integer position within ordered argument list.",
+    "numeric_value": "Float.",
+    "stance": "support | oppose | neutral",
+    "time": "ISO-8601 timestamp",
+    "topic_focus": "Topic label for conflict.",
+    "intensity": "low | medium | high",
+    "derivation_step": "Integer ordering of multi-step derivations",
+    "artifact_type": "token_sequence | typed_tokens | feature_vector | coreference_set",
+    "content": "Raw content payload"
+  },
+  "modifiers_supported": [
+    "modal",
+    "temporal"
+  ],
+  "truth_values_supported": [
+    "true",
+    "false",
+    "inferred",
+    "uncertain"
+  ],
+  "operators_supported": [
+    "Conjunction",
+    "LexicalWildcard",
+    "SequenceWildcard",
+    "ArgRoleSetNotation"
+  ]
+}

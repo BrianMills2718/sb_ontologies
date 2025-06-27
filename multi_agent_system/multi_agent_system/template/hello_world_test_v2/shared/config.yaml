@@ -1,0 +1,24 @@
+project_name: "hello_world_test_v2"
+description: "Test real isolation multi-agent system with hello world example"
+
+phases:
+  - name: "create_file"
+    description: "Create a simple hello world text file"
+  - name: "modify_file"  
+    description: "Modify the file to add additional content"
+  - name: "verify_result"
+    description: "Verify the final file has expected content"
+
+isolation:
+  shared_evidence_dir: "shared/evidence"
+  implementation_context: |
+    # Implementation Agent Context
+    You are an implementation agent working in isolation.
+    Your task is defined in instructions.md.
+    Store all outputs in ../shared/evidence/
+  evaluation_context: |
+    # Evaluation Agent Context  
+    You are an evaluation agent working in isolation.
+    Your task is defined in evaluation.md.
+    Examine evidence in ./evidence/ directory.
+    Provide objective PASS/FAIL assessment.

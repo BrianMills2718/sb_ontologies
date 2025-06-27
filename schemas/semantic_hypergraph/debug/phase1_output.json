@@ -1,0 +1,511 @@
+{
+  "citation": "Menezes, T., & Roth, C. (2021). Semantic Hypergraphs. arXiv pre-print arXiv:1908.10784v2.",
+  "annotation": "The paper introduces the Semantic Hypergraph (SH), a recursive, ordered hypergraph formalism that serves as a hybrid, semi-symbolic knowledge-representation language for natural-language understanding. It theorises a double dichotomy (open/opaque \u2013 strict/adaptive) in NLP, positions SH in the open-adaptive quadrant, and details the full type system, parsing pipeline (\u03b1/\u03b2 stages), pattern language, and inference mechanisms. Empirical sections show how SH supports information-extraction, taxonomy induction, coreference resolution and social-science analyses, demonstrating that few, human-readable rules can equal specialised black-box models. The work thus contributes a cognitively-inspired, organisational theory of language representation that balances intelligibility and adaptivity.",
+  "theory_type": "cognitive / organisational (hybrid representational theory for language understanding)",
+  "vocabulary": [
+    {
+      "term": "Natural Language Processing (NLP)",
+      "definition": "Computational approaches to analysing and understanding human language.",
+      "source_context": "Natural language processing (NLP) approaches generally belong to either one of two main strands",
+      "page_reference": "p.1 Introduction",
+      "theoretical_category": "core-construct"
+    },
+    {
+      "term": "Open/Opaque Dichotomy",
+      "definition": "Axis describing whether internal processing rules of an NLP model are inspectable (open) or not (opaque).",
+      "source_context": "Approaches to NLP may be classified along a double dichotomy open/opaque \u2013 strict/adaptive.",
+      "page_reference": "Abstract",
+      "theoretical_category": "relationship-type"
+    },
+    {
+      "term": "Strict/Adaptive Dichotomy",
+      "definition": "Axis describing whether an NLP method uses fixed rules (strict) or rules learnt/adjusted from data (adaptive).",
+      "source_context": "The former axis relates to the possibility of inspecting the underlying processing rules, the latter to the use of fixed or adaptive rules.",
+      "page_reference": "Abstract",
+      "theoretical_category": "relationship-type"
+    },
+    {
+      "term": "Open-Adaptive Category",
+      "definition": "NLP approaches that are simultaneously intelligible and capable of adapting their rules from data.",
+      "source_context": "Our contribution takes steps in the open-adaptive direction",
+      "page_reference": "Abstract",
+      "theoretical_category": "strategy-type"
+    },
+    {
+      "term": "Semantic Hypergraph (SH)",
+      "definition": "A recursive, ordered hypergraph model used as a hybrid knowledge-representation language that preserves natural-language hierarchical richness while allowing algorithmic manipulation.",
+      "source_context": "The central idea of our approach is the Semantic Hypergraph (SH)",
+      "page_reference": "Abstract",
+      "theoretical_category": "core-construct"
+    },
+    {
+      "term": "Hyperedge",
+      "definition": "An ordered set that connects an arbitrary number of vertices (or inner hyperedges) and can itself participate as a vertex in other hyperedges.",
+      "source_context": "we simply call these recursive ordered hyperedges as 'hyperedges'",
+      "page_reference": "\u00a73.1 Structure",
+      "theoretical_category": "component"
+    },
+    {
+      "term": "Recursive Hyperedge",
+      "definition": "A hyperedge allowed to act as a vertex inside another hyperedge, enabling nesting and hierarchy.",
+      "source_context": "Recursivity means that hyperedges can participate as vertices in other hyperedges.",
+      "page_reference": "\u00a73.1",
+      "theoretical_category": "property"
+    },
+    {
+      "term": "Ordered Hyperedge",
+      "definition": "A hyperedge where the sequence position of each inner element is semantically relevant, similar to direction in graphs.",
+      "source_context": "hyperedges may be ordered ... position ... is relevant",
+      "page_reference": "\u00a73.1",
+      "theoretical_category": "property"
+    },
+    {
+      "term": "Atom (Atomic Hyperedge)",
+      "definition": "An irreducible hyperedge of size one; basic symbol such as individual words.",
+      "source_context": "V configures a set of irreducible hyperedges of size one i.e., atomic hyperedges which we also denote as atoms",
+      "page_reference": "\u00a73.1",
+      "theoretical_category": "component"
+    },
+    {
+      "term": "Connector",
+      "definition": "First element of any non-atomic hyperedge that determines how subsequent arguments are semantically connected.",
+      "source_context": "the first element in a non-atomic hyperedge must be a connector",
+      "page_reference": "\u00a73.2 Syntax",
+      "theoretical_category": "component"
+    },
+    {
+      "term": "Concept (Type C)",
+      "definition": "An atomic hyperedge representing a stand-alone entity or idea, commonly a single noun.",
+      "source_context": "the first, simplest and most fundamental role that atoms can play is that of a concept",
+      "page_reference": "\u00a73.3 Types",
+      "theoretical_category": "type-code"
+    },
+    {
+      "term": "Predicate (Type P)",
+      "definition": "Connector that establishes a relation between arguments, often corresponding to verbs.",
+      "source_context": "The most straightforward connector is the predicate, whose code is \u201cP\u201d.",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "type-code"
+    },
+    {
+      "term": "Modifier (Type M)",
+      "definition": "Connector that applies to a single existing hyperedge to create a modified hyperedge of the same type.",
+      "source_context": "The modifier type (\u201cM\u201d) applies to one (and only one) existing hyperedge and defines a new hyperedge",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "type-code"
+    },
+    {
+      "term": "Builder (Type B)",
+      "definition": "Connector combining several concepts to construct a new composite concept (e.g., 'capital of Germany').",
+      "source_context": "The builder type (\u201cB\u201d) combines several concepts to create a new one.",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "type-code"
+    },
+    {
+      "term": "Compound-Noun Builder (+/B)",
+      "definition": "Special builder atom denoting implicit combination of adjacent concepts into a compound noun.",
+      "source_context": "we introduce a special builder atom that we call (+/B)",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "type-code"
+    },
+    {
+      "term": "Conjunction (Type J)",
+      "definition": "Connector joining or coordinating hyperedges (concepts or relations), analogous to linguistic conjunctions.",
+      "source_context": "Conjunctions (\u201cJ\u201d), like the English grammatical construct of the same name, join",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "type-code"
+    },
+    {
+      "term": "Trigger (Type T)",
+      "definition": "Connector introducing supplementary specifications such as temporal, locative or conditional context.",
+      "source_context": "triggers (T), concerns additional specifications of a relationship",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "type-code"
+    },
+    {
+      "term": "Relation (Type R)",
+      "definition": "Non-atomic hyperedge produced by predicates that expresses a fact, statement, question or order.",
+      "source_context": "Relations are typically used to state some fact",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "type-code"
+    },
+    {
+      "term": "Specifier (Type S)",
+      "definition": "Hyperedge adding peripheral information (time, condition, location) to a relation, produced by triggers.",
+      "source_context": "Specifications, as the name implies, add precisions to relations",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "type-code"
+    },
+    {
+      "term": "Type Inference Rules",
+      "definition": "Deterministic patterns that infer the type of a hyperedge from its connector and argument types.",
+      "source_context": "Table 2 lists all type inference rules",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "rule"
+    },
+    {
+      "term": "Argument Role",
+      "definition": "Single-letter code attached to predicates indicating semantic role of each argument (e.g., s=subject, o=direct object).",
+      "source_context": "We introduce a last notion ... argument roles for builders and predicates",
+      "page_reference": "\u00a73.4",
+      "theoretical_category": "attribute"
+    },
+    {
+      "term": "Subject Role (s)",
+      "definition": "Argument role marking the active subject of a predicate.",
+      "source_context": "Role Code active subject s",
+      "page_reference": "Table 3",
+      "theoretical_category": "role"
+    },
+    {
+      "term": "Passive Subject Role (p)",
+      "definition": "Argument role indicating the grammatical subject in a passive construction.",
+      "source_context": "passive subject p",
+      "page_reference": "Table 3",
+      "theoretical_category": "role"
+    },
+    {
+      "term": "Direct Object Role (o)",
+      "definition": "Argument role for the patient or thing acted upon by the predicate.",
+      "source_context": "direct object o",
+      "page_reference": "Table 3",
+      "theoretical_category": "role"
+    },
+    {
+      "term": "Indirect Object Role (i)",
+      "definition": "Argument role for recipient/beneficiary arguments of a predicate.",
+      "source_context": "indirect object i",
+      "page_reference": "Table 3",
+      "theoretical_category": "role"
+    },
+    {
+      "term": "Modifier Role Codes (m, a)",
+      "definition": "Labels inside builders indicating which argument is main (m) or auxiliary (a) in compound concepts.",
+      "source_context": "There are only two possible roles: 'main' (m) and 'auxiliary' (a).",
+      "page_reference": "\u00a73.4 Concept builders",
+      "theoretical_category": "role"
+    },
+    {
+      "term": "\u03b1-Stage",
+      "definition": "First stage of SH parsing pipeline: a supervised classifier assigns SH atomic types to each token.",
+      "source_context": "The first (\u03b1-stage) is a classifier that assigns a type to each token",
+      "page_reference": "\u00a74 Translating NL into SH",
+      "theoretical_category": "process"
+    },
+    {
+      "term": "\u03b2-Stage",
+      "definition": "Second parsing stage that recursively applies type-inference patterns to assemble typed tokens into a well-formed hyperedge.",
+      "source_context": "The \u03b2-stage transforms the sequence of atoms ... into a semantic hyperedge",
+      "page_reference": "\u00a74.2",
+      "theoretical_category": "process"
+    },
+    {
+      "term": "Feature Set F5",
+      "definition": "Selected subset of five linguistic features (TAG, DEP, HDEP, HPOS, POS_AFTER) yielding highest \u03b1-stage accuracy.",
+      "source_context": "For subsequent experiments we will use F5, given that it has the best accuracy",
+      "page_reference": "Figure 1 discussion",
+      "theoretical_category": "measure"
+    },
+    {
+      "term": "Random Forest Classifier",
+      "definition": "Ensemble decision-tree algorithm used to implement the \u03b1-stage token type predictor.",
+      "source_context": "used to train a random forest classifier ... we employed the one included with scikit-learn",
+      "page_reference": "\u00a74.1",
+      "theoretical_category": "algorithm"
+    },
+    {
+      "term": "Heuristic Function h",
+      "definition": "Tie-breaking scoring function guiding \u03b2-stage pattern application, favouring dependency-tree proximity and depth.",
+      "source_context": "we use a heuristic function (this is function h in algorithm 1)",
+      "page_reference": "\u00a74.2",
+      "theoretical_category": "algorithm component"
+    },
+    {
+      "term": "Pattern",
+      "definition": "Hyperedge template with variables and wildcards used to match structures in SH graphs.",
+      "source_context": "With variables we can define patterns, that can then be matched against other hyperedges.",
+      "page_reference": "\u00a75.1",
+      "theoretical_category": "core-construct"
+    },
+    {
+      "term": "Variable (in Pattern)",
+      "definition": "Placeholder (capital letters) inside a pattern that can match any hyperedge fulfilling type constraints.",
+      "source_context": "A variable simply indicates a placeholder that can match a hyperedge",
+      "page_reference": "\u00a75.1",
+      "theoretical_category": "component"
+    },
+    {
+      "term": "Inference Rule",
+      "definition": "Couple of patterns (antecedent ` consequent) causing creation of new hyperedge knowledge when matched.",
+      "source_context": "we may now define rules which we denote with a couple of patterns separated by the symbol \u201c`\u201d",
+      "page_reference": "\u00a75.1",
+      "theoretical_category": "rule"
+    },
+    {
+      "term": "Conjunction Decomposition",
+      "definition": "Set of SH rules that split relations containing conjunctions into simpler independent relations.",
+      "source_context": "We show the three rules that we developed manually to perform conjunction decomposition",
+      "page_reference": "\u00a75.2",
+      "theoretical_category": "process"
+    },
+    {
+      "term": "Pattern Learning Template",
+      "definition": "Human-in-the-loop procedure (select example, generalise, test, refine) for discovering useful SH patterns.",
+      "source_context": "On the left side of figure 3 we present the general template for such a process.",
+      "page_reference": "\u00a75.3",
+      "theoretical_category": "method"
+    },
+    {
+      "term": "Open Information Extraction (OIE)",
+      "definition": "Domain-independent task of extracting relational tuples from text.",
+      "source_context": "One formulation of such a task that attracts significant attention is that of Open Information Extraction",
+      "page_reference": "\u00a71 Introduction & \u00a75.4",
+      "theoretical_category": "task"
+    },
+    {
+      "term": "SH Degree (d)",
+      "definition": "Metric counting, for a hyperedge, the sum over outer hyperedges of (size\u22121); analogous to graph degree.",
+      "source_context": "We define the degree of a hyperedge e as: d(e) = \u03a3(|ei|\u22121)",
+      "page_reference": "\u00a76.3",
+      "theoretical_category": "metric"
+    },
+    {
+      "term": "Deep Degree (\u03b4)",
+      "definition": "Metric counting connections of a hyperedge across all recursive nesting levels.",
+      "source_context": "We can now define the deep degree, which considers edges connected ... at any level",
+      "page_reference": "\u00a76.3",
+      "theoretical_category": "metric"
+    },
+    {
+      "term": "Co-occurrence Graph",
+      "definition": "Graph linking auxiliary concepts that co-appear with a seed concept inside compound builders, used for coreference.",
+      "source_context": "it is possible then to build a graph of all the auxiliary concepts that appear together with the seed.",
+      "page_reference": "\u00a76.2",
+      "theoretical_category": "representation"
+    },
+    {
+      "term": "Coreference Set",
+      "definition": "Group of compound concepts inferred to refer to the same external entity via co-occurrence clique analysis.",
+      "source_context": "The co-occurrence graph method produces the coreference sets seen on the right of the figure",
+      "page_reference": "\u00a76.2",
+      "theoretical_category": "construct"
+    },
+    {
+      "term": "Probabilistic Seed Assignment",
+      "definition": "Heuristic assigning ambiguous seed concepts to the most probable coreference set based on degree ratios.",
+      "source_context": "we attribute a score si j ... if p is above a certain threshold \u03b8",
+      "page_reference": "\u00a76.4",
+      "theoretical_category": "algorithm"
+    },
+    {
+      "term": "Implicit Taxonomy",
+      "definition": "Hierarchy of concepts derived from builder and modifier structures without explicit separate ontology.",
+      "source_context": "it is possible to extract concepts from inner edges ... indicating that SH implicitly builds a taxonomy.",
+      "page_reference": "\u00a76.1",
+      "theoretical_category": "property"
+    },
+    {
+      "term": "Claim Predicate",
+      "definition": "Predicate lemma (e.g., 'say', 'claim') used to detect relations expressing an attributed statement.",
+      "source_context": "we identified a set of \u201cclaim predicates\u201d",
+      "page_reference": "\u00a77.1",
+      "theoretical_category": "classification"
+    },
+    {
+      "term": "Conflict Predicate",
+      "definition": "Predicate lemma set (e.g., 'accuse', 'warn') signalling expressions of conflict between actors.",
+      "source_context": "and a set of \u201cconflict predicates\u201d",
+      "page_reference": "\u00a77.1",
+      "theoretical_category": "classification"
+    },
+    {
+      "term": "Actor",
+      "definition": "Hyperedge (often compound noun) playing subject role in claim/conflict relations, representing people or institutions.",
+      "source_context": "implies that the hyperedge playing the role of subject in the relation is an actor",
+      "page_reference": "\u00a77.1",
+      "theoretical_category": "entity"
+    },
+    {
+      "term": "Topic (in SH analysis)",
+      "definition": "Concept or compound concept that is the complement/object of a relation, representing the issue addressed.",
+      "source_context": "The very definition of topic ... Our topics are firstly inferred from the meaning of sentences.",
+      "page_reference": "\u00a77.2",
+      "theoretical_category": "entity"
+    },
+    {
+      "term": "Faction Detection Algorithm",
+      "definition": "Simple heuristic assigning actors to opposing camps based on conflict-graph degrees and edge ordering.",
+      "source_context": "We devised a very simple algorithm to identify two factions in this conflict graph.",
+      "page_reference": "\u00a77.5",
+      "theoretical_category": "algorithm"
+    },
+    {
+      "term": "Graphbrain Library",
+      "definition": "Open-source software implementing the SH representation, parser, and analysis tools.",
+      "source_context": "We created the Graphbrain open-source software library that implements all the ideas",
+      "page_reference": "Conclusion",
+      "theoretical_category": "instrument"
+    },
+    {
+      "term": "Hybrid Knowledge Representation",
+      "definition": "Approach combining symbolic hypergraph structures with statistical/ML components for language understanding.",
+      "source_context": "The SH model is hybrid in two senses. First, it attempts to combine the strengths of ML and symbolic approaches.",
+      "page_reference": "Abstract & \u00a71",
+      "theoretical_category": "core-construct"
+    },
+    {
+      "term": "Opacity (in NLP)",
+      "definition": "Property whereby the internal reasoning of a model is too complex for human inspection.",
+      "source_context": "adaptive models based on machine learning which are usually opaque to inspection",
+      "page_reference": "\u00a71",
+      "theoretical_category": "attribute"
+    },
+    {
+      "term": "Intelligibility",
+      "definition": "Ability for humans or complementary algorithms to inspect and understand the reasoning/structure of a model.",
+      "source_context": "a good compromise for intelligibility both for humans and machines",
+      "page_reference": "Abstract",
+      "theoretical_category": "criterion"
+    },
+    {
+      "term": "Explainable Artificial Intelligence (XAI)",
+      "definition": "Field concerned with making AI models' operations understandable; SH is positioned as an XAI tool.",
+      "source_context": "Keywords: ... explainable artificial intelligence",
+      "page_reference": "Keywords",
+      "theoretical_category": "context"
+    },
+    {
+      "term": "Dependency Parse Tree (DPT)",
+      "definition": "Grammatical parse structure representing head-dependent relations; used as intermediary in SH parsing.",
+      "source_context": "our own parser takes advantage of DPTs (among other ...)",
+      "page_reference": "\u00a72 Related Work",
+      "theoretical_category": "reference construct"
+    },
+    {
+      "term": "Universal Dependencies",
+      "definition": "Cross-lingual scheme of dependency labels used as coverage guarantee for SH\u2019s type system.",
+      "source_context": "SH completeness is based instead on Universal Dependencies",
+      "page_reference": "\u00a72 Related Work",
+      "theoretical_category": "standard"
+    },
+    {
+      "term": "Abstract Meaning Representation (AMR)",
+      "definition": "Alternative graph-based meaning representation contrasted with SH for its lack of tolerated ambiguity.",
+      "source_context": "A model that shares similarities with ours but purely aims at solving a meaning matching problem is ... AMR",
+      "page_reference": "\u00a72",
+      "theoretical_category": "comparative construct"
+    },
+    {
+      "term": "Knowledge Base",
+      "definition": "Structured repository of symbolic facts; SH can integrate or replace traditional triplet knowledge bases.",
+      "source_context": "we propose that a language representation that is convenient for both humans and machines",
+      "page_reference": "\u00a71 & \u00a72",
+      "theoretical_category": "domain concept"
+    },
+    {
+      "term": "Pattern Compression",
+      "definition": "Process of generalising multiple specific patterns into fewer broader ones while preserving correctness.",
+      "source_context": "We then compressed these 36 patterns into the most general ones",
+      "page_reference": "\u00a75.4",
+      "theoretical_category": "method"
+    },
+    {
+      "term": "Lexical Wildcard (\u2018*\u2019)",
+      "definition": "Symbol in pattern language matching any hyperedge of a specified type.",
+      "source_context": "replacing each element of a hyperedge with its corresponding type-annotated wildcard",
+      "page_reference": "\u00a75.4",
+      "theoretical_category": "notation"
+    },
+    {
+      "term": "Sequence Wildcard ('...')",
+      "definition": "Pattern notation allowing an arbitrary number of hyperedges at a location.",
+      "source_context": "can indicate the optional presence of certain arguments by listing them as \u201c...\u201c",
+      "page_reference": "\u00a75.1",
+      "theoretical_category": "notation"
+    },
+    {
+      "term": "Arg-Role Set Notation ('{ }')",
+      "definition": "Curly-brace syntax in patterns specifying order-indifferent collections of argument roles.",
+      "source_context": "we often allow the various pattern elements to appear in any order, denoting ... inside curly brackets",
+      "page_reference": "\u00a75.1",
+      "theoretical_category": "notation"
+    },
+    {
+      "term": "Relative Relation Role (r)",
+      "definition": "Argument role indicating an embedded relation used as an argument of an outer relation.",
+      "source_context": "finally, a relative relation is a nested relation, that acts as a building block",
+      "page_reference": "\u00a73.4",
+      "theoretical_category": "role"
+    },
+    {
+      "term": "Claim",
+      "definition": "Relation in which an actor asserts a statement expressed by a subordinate relation/specifier.",
+      "source_context": "a claim is essentially a relation, based on a predicate of lemma \u201csay\u201d or \u201cclaim\u201d",
+      "page_reference": "\u00a77.1",
+      "theoretical_category": "construct"
+    },
+    {
+      "term": "Conflict (Expression of Conflict)",
+      "definition": "Relation where an actor accuses, condemns, clashes with or otherwise opposes a target over a topic.",
+      "source_context": "expression of conflict, if the following conjunction of patterns is satisfied",
+      "page_reference": "\u00a77.1",
+      "theoretical_category": "construct"
+    },
+    {
+      "term": "Anaphora Resolution",
+      "definition": "Process of replacing pronouns with their referent actors within nested relations.",
+      "source_context": "we perform simple anaphora resolution: if the inner subject is a pronoun",
+      "page_reference": "\u00a77.1 Subjects and actors",
+      "theoretical_category": "process"
+    },
+    {
+      "term": "Topic Hierarchy",
+      "definition": "Nested structure where detailed topics contain or specialise more general subtopics through builder relations.",
+      "source_context": "topics can be composed of other topics or concepts, forming a hierarchical structure.",
+      "page_reference": "\u00a77.2",
+      "theoretical_category": "property"
+    },
+    {
+      "term": "Conflict Graph",
+      "definition": "Directed network of actors connected by conflict relations filtered on specific topics.",
+      "source_context": "From this set of hyperedges we extracted a directed network connecting actors engaging in expressions of conflict",
+      "page_reference": "\u00a77.5",
+      "theoretical_category": "representation"
+    },
+    {
+      "term": "Clique-Based Coreference",
+      "definition": "Criterion grouping compound concepts when their auxiliary words form the same maximal clique in co-occurrence graph.",
+      "source_context": "We then apply a simple rule: two compound concepts are assumed to refer to the same entity if all of their auxiliary concepts belong to the same maximal clique.",
+      "page_reference": "\u00a76.2",
+      "theoretical_category": "rule"
+    },
+    {
+      "term": "Opacity-Adaptive Model",
+      "definition": "Modern machine-learning systems (e.g., neural networks) that are powerful yet non-transparent.",
+      "source_context": "we have adaptive models based on machine learning ... too complex for their reasoning to be intelligible",
+      "page_reference": "\u00a71",
+      "theoretical_category": "strategy-type"
+    },
+    {
+      "term": "Open-Strict Approach",
+      "definition": "Traditional symbolic NLP methods with inspectable but rigid rule sets.",
+      "source_context": "existing approaches generally fall into either the open-strict or opaque-adaptive categories",
+      "page_reference": "\u00a71",
+      "theoretical_category": "strategy-type"
+    },
+    {
+      "term": "Knowledge Inference",
+      "definition": "Process of deriving new hyperedges (facts) from existing ones via symbolic or probabilistic rules.",
+      "source_context": "we will naturally generalize SH to represent patterns and inference rules",
+      "page_reference": "\u00a75",
+      "theoretical_category": "process"
+    },
+    {
+      "term": "Explainability\u2013Performance Trade-off",
+      "definition": "Observed compromise where more adaptive models gain accuracy at the cost of intelligibility.",
+      "source_context": "Why do we observe this apparent trade-off between openness and adaptivity?",
+      "page_reference": "\u00a71",
+      "theoretical_category": "relationship-type"
+    }
+  ]
+}

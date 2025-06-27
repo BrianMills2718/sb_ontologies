@@ -1,0 +1,68 @@
+HYBRID THEORY DETECTION PROMPT
+
+You are analyzing a theory to determine if it requires HYBRID representation - meaning it fundamentally integrates multiple structural paradigms that cannot be captured by a single model type.
+
+HYBRID THEORY INDICATORS:
+
+MULTIPLE STRUCTURAL COMPONENTS:
+- Theory explicitly combines different representational approaches
+- Different aspects require different structural representations
+- Theory integrates previously separate paradigms
+- Multiple model types needed to capture full theoretical complexity
+
+STRUCTURAL INTEGRATION LANGUAGE:
+- "Combines X with Y", "integrates A and B", "merges C and D"
+- "Building on both X and Y approaches"
+- "Synthesizes network/table/sequence structures"
+- "Multi-level model", "multi-component framework"
+
+CROSS-PARADIGM VOCABULARY:
+- Network terms + experimental terms + sequential terms
+- Statistical parameters + logical axioms + causal graphs
+- Matrix representations + graph structures + process flows
+- Quantitative + qualitative + structural elements
+
+EXPLICIT MULTI-COMPONENT DESIGN:
+- Different theory sections require different representations
+- Component A (network) + Component B (table) + Component C (sequence)
+- Methodological integration of multiple approaches
+- Systematic combination of different model types
+
+INTEGRATION MAPPINGS:
+- How components interact or connect
+- Cross-component relationships specified
+- Integration mechanisms described
+- Unified framework spanning multiple paradigms
+
+EXAMPLES OF HYBRID THEORIES:
+- Cognitive mapping + semantic networks + matrix mathematics
+- Social network analysis + experimental design + temporal sequences
+- Game theory matrices + causal graphs + statistical models
+- Property graphs + classification tables + process flows
+
+NON-HYBRID INDICATORS (SINGLE PARADIGM):
+- Single clear structural focus
+- Consistent model type throughout
+- No explicit paradigm integration
+- Single representational approach adequate
+
+OUTPUT FORMAT:
+hybrid_detected: [true|false]
+confidence: [0.0 to 1.0]
+primary_components:
+  - component_name: "Component 1 Name"
+    model_type: "table_matrix|property_graph|sequence|statistical|logical"
+    evidence: "Evidence for this component"
+    theoretical_role: "What this component contributes"
+  - component_name: "Component 2 Name"
+    model_type: "table_matrix|property_graph|sequence|statistical|logical"
+    evidence: "Evidence for this component"
+    theoretical_role: "What this component contributes"
+integration_mechanisms:
+  - "How components connect or interact"
+  - "Cross-component relationships"
+integration_type: [synthesis|combination|extension|layered]
+unified_framework_name: "Name of integrated theory if applicable"
+alternative_single_model: "Could this be captured by single model type instead?"
+
+CRITICAL: Only detect hybrid when multiple paradigms are NECESSARY. Many theories mention multiple concepts but have single structural focus.

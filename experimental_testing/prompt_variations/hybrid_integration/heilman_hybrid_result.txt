@@ -1,0 +1,11 @@
+HYBRID THEORY DETECTION TEST
+Input: validation_results/cross_domain/framing_theory_core.txt
+==================================================
+
+hybrid_detected: false
+confidence: 0.85
+primary_components: []
+integration_mechanisms: []
+integration_type: 
+unified_framework_name: ""
+alternative_single_model: "The theory’s core ideas can be captured within a single representational framework based on decision and prospect theory principles, without needing to integrate multiple distinct structural paradigms."

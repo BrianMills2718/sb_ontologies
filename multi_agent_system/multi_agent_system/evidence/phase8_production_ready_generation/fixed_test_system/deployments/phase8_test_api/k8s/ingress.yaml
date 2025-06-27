@@ -1,0 +1,29 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: phase8_test_api
+  namespace: phase8_test_api
+  labels:
+    app: phase8_test_api
+    component: ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+spec:
+  ingressClassName: nginx
+  tls:
+  - hosts:
+    - phase8_test_api.example.com
+    secretName: phase8_test_api-tls
+  rules:
+  - host: phase8_test_api.example.com
+    http:
+      paths:
+          - path: /test_api
+            pathType: Prefix
+            backend:
+              service:
+                name: phase8_test_api
+                port:
+                  number: 8080

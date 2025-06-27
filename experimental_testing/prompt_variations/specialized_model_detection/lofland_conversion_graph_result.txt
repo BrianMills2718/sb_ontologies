@@ -1,0 +1,17 @@
+SPECIALIZED DETECTOR TEST
+Input: validation_results/complexity_testing/lofland_stark_simple_theory.txt
+Detector: experimental_testing/prompt_variations/specialized_model_detection/property_graph_detector.txt
+==================================================
+
+detection_confidence: 0.85
+structure_type: "property_graph"
+evidence:
+  - "The theory identifies multiple conditions (tension, seekership, turning point, affective bonds, etc.) that are interconnected and form a funnel-like process, suggesting nodes (conditions and actors) linked by various types of relationships."
+  - "Relationships such as affective bonds, intensive interaction, and the neutralization of external ties indicate rich, directional, and potentially weighted connections among individuals and their social environments, akin to edges in a property graph."
+extracted_structure:
+  node_types: ["emotional state (tension)", "cognitive frame (religious problem-solving perspective)", "self-identity (seekership)", "life event (turning point)", "affective bond", "social attachment (extra-cult ties)", "interaction pattern (intensive interaction)", "conversion type (verbal/total)"]
+  relationship_types: ["funneling/accumulation", "activation", "influence", "bond formation", "inhibition/neutralization", "sequential dependency", "conversion outcome linkage"]
+  key_nodes: ["tension", "turning point", "affective bonds", "intensive interaction"]
+  relationship_richness: "The model exhibits multiple, heterogeneous relationship types that are directional (e.g., tension leading to seekership; turning point triggering affective bonds) and context-dependent (neutralization of extra-cult ties versus fostering intensive interaction), indicating a complex web of interdependencies."
+network_characteristics: "This theory is organized as a network because it maps out a set of interconnected conditions and processes where entities (individuals, their states, and group interactions) are linked through various types of relationships. The sequential funnel acts like a pathway in a graph with multiple, overlapping causal and affective links that give rise to emergent conversion outcomes."
+alternative_representations: "While the theory could be represented in a table or as a sequential flow chart, such representations would fail to capture the rich, multidirectional interactions and the heterogeneity of the relationships that a property graph/network structure reveals."

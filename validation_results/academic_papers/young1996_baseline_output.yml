@@ -1,0 +1,885 @@
+citation: 'Young, Michael D. 1996. “Cognitive Mapping Meets Semantic Networks.” Journal
+  of Conflict Resolution 40(3): 395-414.'
+annotation: Young introduces WorldView, a computer-assisted content-analysis and modeling
+  system that merges cognitive mapping with the symbol-based formalism of semantic
+  networks.  By enlarging the repertoire of representable relationships (truth-values,
+  temporal and modal modifiers, differentiated links, action predicates) and by adding
+  structural and comparative metrics, WorldView enables richer descriptions of belief
+  systems and supplies manipulable semantic-network data structures for process models
+  of reasoning and policy choice.
+model_type: property_graph
+rationale: The theory’s core representation is a semantic network of concepts and
+  propositions linked by many qualitatively different relationships that carry salience
+  values, truth values, and temporal/modal modifiers.  These rich, typed, many-to-many
+  connections – plus additional action/process links – are modelled most naturally
+  as a property graph.  Alternatives such as table_matrix (for typologies), tree (for
+  hierarchies) or timeline (for historical evolution) would lose the central emphasis
+  on heterogeneous relational structure.
+schema_blueprint:
+  title: WorldView Cognitive-Mapping Semantic-Network Schema
+  description: A property-graph schema for representing the enriched cognitive maps,
+    semantic networks, analytical tools, and reasoning processes described in Young
+    (1996).  The schema captures typed concept nodes, highly differentiated relationship
+    edges with salience, truth and temporal/modal qualifiers, as well as process/action
+    edges that trace WorldView’s analytic and inferential operations.  It supports
+    structural metrics (size, dependency, connectedness, etc.) as properties on CognitiveMap
+    nodes.
+  root_properties:
+    nodes:
+      description: The entities and concepts in the theoretical model
+      item_type: Entity
+    edges:
+      description: The relationships and actions connecting entities
+      item_type: NaryTuple
+  definitions:
+  - name: cognitive mapping
+    category: core-construct
+    description: A method for modeling and studying the beliefs and decision processes
+      that guide actors’ behaviour by representing concepts and causal links among
+      them.
+    represents: Actor Belief Structure
+    formalised_as: Directed graph of Concept Nodes + Causal Links
+  - name: semantic network
+    category: core-construct
+    description: A symbol-based knowledge representation scheme comprising nodes (concepts)
+      and labeled links (relations) connecting them.
+    subTypeOf: cognitive mapping
+    structure: Nodes & labelled links; symbol–based
+  - name: belief structure
+    category: core-construct
+    description: The organised set of propositions, concepts, and relationships that
+      together form an actor’s worldview.
+    composition: Propositions + Concepts + Relationships
+    holder: Political Actor
+  - name: WorldView
+    category: model/tool
+    description: Young’s computer-based tool that integrates cognitive mapping with
+      semantic-network techniques to extract, aggregate, and analyse belief structures.
+    implements: cognitive mapping + semantic network
+    capabilities: extraction, aggregation, analysis
+  - name: decision process
+    category: cognitive-process
+    description: The sequence of cognitive operations through which an actor moves
+      from perceptions and beliefs to choice.
+    sequence: Perception → Beliefs → Choice
+  - name: symbol-based formalism
+    category: methodological concept
+    description: A representational approach that uses meaningful symbols (e.g., is-a,
+      part-of) rather than numeric values to label relations in a network.
+    symbols: relation‐labels (is-a, part-of … )
+  - name: matrix mathematics
+    category: methodological concept
+    description: Use of matrix algebra techniques for manipulating adjacency matrices
+      that represent cognitive maps.
+    used_for: Adjacency-matrix manipulation
+  - name: adjacency matrix
+    category: representation technique
+    description: A square matrix that records the presence (1) or absence (0) of a
+      link between every pair of concepts in a cognitive map.
+    dimension: n × n where n = |Concept Nodes|
+    cell_value: 1 = link present; 0 = absent
+  - name: directed graph theory
+    category: theoretical foundation
+    description: Branch of graph theory dealing with nodes connected by ordered (directional)
+      edges, used to formalise cognitive maps.
+    subTypeOf: graph theory
+  - name: associative network model of memory
+    category: theoretical foundation
+    description: Psychological theory viewing memory as a network of concepts linked
+      by associations; complementary to semantic networks.
+    subTypeOf: semantic network
+    psychological_basis: Human memory
+  - name: relationship-type list
+    category: catalogue
+    description: ''
+    subTypeOf: WorldView
+    members: '[equal, condition, component, preference/greater-than, if-then, possess,
+      attribute, location, is-a, strategy, know, warrant-for]'
+  - name: compound statement
+    category: linguistic/analytic unit
+    description: A proposition containing more than one embedded clause or relational
+      assertion, posing difficulties for simple causal mapping.
+    subTypeOf: proposition
+    contains: ≥ 2 embedded clauses or relations
+  - name: relationship node
+    category: representation element
+    description: In WorldView, a treated relationship elevated to the status of a
+      node so it can itself be the subject or object of other relations.
+    subTypeOf: Concept Node
+    elevated_from: Relationship edge
+  - name: synonym facility
+    category: analytic tool
+    description: WorldView feature allowing analysts to collapse different lexical
+      items into a single concept node for analysis.
+    subTypeOf: WorldView
+    function: Collapse lexical variants to single node
+  - name: causal relationship
+    category: link-type
+    description: A directional link indicating that a change in one concept produces
+      change in another; coded as positive (+) or negative (−) in traditional maps.
+    domain:
+    - Concept Node
+    range:
+    - Concept Node
+    polarity: positive or negative
+  - name: positive cause (+)
+    category: causal-positive
+    description: A causal link specifying that an increase in the source concept increases
+      the target concept.
+    domain:
+    - Concept Node
+    range:
+    - Concept Node
+    subTypeOf: causal relationship
+    semantics: Δsource ↑  ⇒  Δtarget ↑
+  - name: negative cause (−)
+    category: causal-negative
+    description: A causal link specifying that an increase in the source concept decreases
+      the target concept.
+    domain:
+    - Concept Node
+    range:
+    - Concept Node
+    subTypeOf: causal relationship
+    semantics: Δsource ↑  ⇒  Δtarget ↓
+  - name: equal
+    category: identity
+    description: ''
+    domain:
+    - Concept Node
+    range:
+    - Concept Node
+    subTypeOf: relationship-type list
+    symmetry: reflexive, symmetric, transitive
+  - name: condition
+    category: precondition-for
+    description: ''
+    domain:
+    - Concept Node
+    range:
+    - Concept Node
+    subTypeOf: relationship-type list
+    direction: If Domain then Range
+  - name: component
+    category: part-of
+    description: ''
+    domain:
+    - Whole Concept Node
+    range:
+    - Part Concept Node
+    subTypeOf: relationship-type list
+    inverse: has-component
+  - name: preference/greater-than
+    category: ordinal preference
+    description: ''
+    domain:
+    - Concept Node
+    range:
+    - Concept Node
+    subTypeOf: relationship-type list
+    semantics: Domain preferred over Range
+  - name: if-then
+    category: implication
+    description: ''
+    domain:
+    - Proposition Node
+    range:
+    - Proposition Node
+    subTypeOf: relationship-type list
+  - name: possess
+    category: ownership
+    description: ''
+    domain:
+    - Actor Node
+    - Container Node
+    range:
+    - Object Node
+    subTypeOf: relationship-type list
+  - name: attribute
+    category: has-attribute
+    description: ''
+    domain:
+    - Object Node
+    range:
+    - Attribute Node
+    subTypeOf: relationship-type list
+  - name: location
+    category: located-in
+    description: ''
+    domain:
+    - Actor Node
+    - Object Node
+    range:
+    - Place Node
+    subTypeOf: relationship-type list
+  - name: is-a
+    category: class-inclusion
+    description: ''
+    domain:
+    - Subclass Node
+    range:
+    - Superclass Node
+    subTypeOf: relationship-type list
+    transitive: 'true'
+  - name: strategy
+    category: actor-strategy
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Action Node
+    subTypeOf: relationship-type list
+  - name: know
+    category: epistemic
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Concept Node
+    subTypeOf: relationship-type list
+  - name: warrant-for
+    category: justification
+    description: ''
+    domain:
+    - Evidence/Reason Node
+    range:
+    - Claim Node
+    subTypeOf: relationship-type list
+  - name: bridge
+    category: critical-link
+    description: ''
+    domain:
+    - Concept Node
+    range:
+    - Concept Node
+    subTypeOf: causal relationship
+    unique_path: Only one path connects Range via this link
+  - name: belief system content
+    category: attribute of belief structure
+    description: The substantive ideas (concepts and propositions) contained within
+      an actor’s belief structure.
+  - name: aggregation (over texts)
+    category: methodological operation
+    description: The capability of WorldView to combine data from several documents
+      or respondents into a single composite cognitive map.
+    domain:
+    - WorldView
+    range:
+    - Composite Cognitive Map
+  - name: spreading activation
+    category: cognitive search process
+    description: Search mechanism that propagates activation from one node to adjacent
+      nodes to retrieve related information.
+    domain:
+    - Concept Node
+    range:
+    - Concept Node
+    subTypeOf: decision process
+    propagation_rule: Activation decays with path-length
+  - name: directed-walk
+    category: reasoning model
+    description: A reasoning model implemented by Young that traverses the WorldView
+      network using a salience heuristic.
+    domain:
+    - WorldView
+    range:
+    - Inference Path
+    selection_criterion: salience heuristic
+  - name: salience heuristic
+    category: heuristic
+    description: Decision rule in which the proposition with the highest salience
+      is selected for processing during reasoning.
+    domain:
+    - Inference Engine
+    range:
+    - Proposition Node
+    selection_rule: max(Relationship Salience)
+  - name: human-coded content analysis
+    category: method
+    description: Method in which trained coders identify and classify units of meaning
+      in texts according to a coding scheme.
+    domain:
+    - Analyst
+    range:
+    - Text Corpus
+    output: Coded Concept & Relationship Instances
+  - name: relationship-addition
+    category: change operation
+    description: Discrete change operation of adding a new link between two concepts
+      during transformation cost calculation.
+    domain:
+    - Cognitive Map
+    range:
+    - New Relationship Edge
+    subTypeOf: transformation cost
+  - name: relationship-deletion
+    category: change operation
+    description: Discrete change operation of removing an existing link.
+    domain:
+    - Cognitive Map
+    range:
+    - Removed Relationship Edge
+    subTypeOf: transformation cost
+  - name: relationship salience increase or decrease
+    category: change operation
+    description: Discrete change operation representing a unit change in strength
+      of an existing link.
+    domain:
+    - Relationship Edge
+    range:
+    - Adjusted Salience Value
+    subTypeOf: transformation cost
+    unit_change: ±1 count
+  - name: concept-deletion
+    category: change operation
+    description: Discrete change operation of removing a node (and its incident links)
+      from the map.
+    domain:
+    - Cognitive Map
+    range:
+    - Removed Concept Node
+    subTypeOf: transformation cost
+  - name: concept-addition
+    category: change operation
+    description: Discrete change operation of inserting a new node, usually accompanied
+      by new links.
+    domain:
+    - Cognitive Map
+    range:
+    - New Concept Node
+    subTypeOf: transformation cost
+  - name: accept
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Proposition Node
+    - Request
+    subTypeOf: action-type list
+  - name: allow
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Actor Node
+    - Action Node
+    subTypeOf: action-type list
+  - name: assert
+    category: speech-act
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Proposition Node
+    subTypeOf: action-type list
+  - name: assist
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Actor Node
+    - Action Node
+    subTypeOf: action-type list
+  - name: attack
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Actor Node
+    - Target Node
+    subTypeOf: action-type list
+  - name: cause
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    - Event Node
+    range:
+    - Event Node
+    - State Node
+    subTypeOf: action-type list
+  - name: confront
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Actor Node
+    subTypeOf: action-type list
+  - name: consult
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Actor Node
+    subTypeOf: action-type list
+  - name: control
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Resource Node
+    - Actor Node
+    subTypeOf: action-type list
+  - name: cooperate
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Actor Node
+    subTypeOf: action-type list
+  - name: decide
+    category: cognitive-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Proposition Node
+    - Action Node
+    subTypeOf: action-type list
+  - name: defend
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Actor Node
+    - Territory Node
+    subTypeOf: action-type list
+  - name: delay
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Event Node
+    subTypeOf: action-type list
+  - name: enforce
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Rule Node
+    - Agreement Node
+    subTypeOf: action-type list
+  - name: enhance
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Capability Node
+    - State Node
+    subTypeOf: action-type list
+  - name: feel
+    category: cognitive-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Emotion Node
+    subTypeOf: action-type list
+  - name: honour
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Agreement Node
+    - Actor Node
+    subTypeOf: action-type list
+  - name: ignore
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Actor Node
+    - Proposition Node
+    subTypeOf: action-type list
+  - name: influence
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Actor Node
+    - State Node
+    subTypeOf: action-type list
+  - name: intervene
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Conflict Node
+    subTypeOf: action-type list
+  - name: invade
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Territory Node
+    subTypeOf: action-type list
+  - name: lead
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Actor Node
+    - Organisation Node
+    subTypeOf: action-type list
+  - name: limit
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Action Node
+    - Capability Node
+    subTypeOf: action-type list
+  - name: lose
+    category: event
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Resource Node
+    - Conflict Node
+    subTypeOf: action-type list
+  - name: maintain
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - State Node
+    - Capability Node
+    subTypeOf: action-type list
+  - name: meet
+    category: interaction
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Actor Node
+    subTypeOf: action-type list
+  - name: monitor
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Process Node
+    - Actor Node
+    subTypeOf: action-type list
+  - name: negotiate
+    category: interaction
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Agreement Node
+    subTypeOf: action-type list
+  - name: open
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Facility Node
+    - Channel Node
+    subTypeOf: action-type list
+  - name: order
+    category: speech-act
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Actor Node
+    - Action Node
+    subTypeOf: action-type list
+  - name: organise
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Event Node
+    - Group Node
+    subTypeOf: action-type list
+  - name: perform
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Action Node
+    subTypeOf: action-type list
+  - name: propose
+    category: speech-act
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Proposition Node
+    subTypeOf: action-type list
+  - name: purchase
+    category: economic action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Goods Node
+    subTypeOf: action-type list
+  - name: ratify
+    category: institutional action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Agreement Node
+    subTypeOf: action-type list
+  - name: reduce
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Capability Node
+    - Threat Level Node
+    subTypeOf: action-type list
+  - name: release
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Actor Node
+    - Resource Node
+    subTypeOf: action-type list
+  - name: restore
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - State Node
+    - Object Node
+    subTypeOf: action-type list
+  - name: share
+    category: interaction
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Resource Node
+    - Information Node
+    subTypeOf: action-type list
+  - name: sign
+    category: institutional action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Agreement Node
+    subTypeOf: action-type list
+  - name: stop
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Action Node
+    - Process Node
+    subTypeOf: action-type list
+  - name: support
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Actor Node
+    - Policy Node
+    subTypeOf: action-type list
+  - name: threaten
+    category: speech-act
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Actor Node
+    subTypeOf: action-type list
+  - name: use
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Resource Node
+    subTypeOf: action-type list
+  - name: verify
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - State Node
+    - Proposition Node
+    subTypeOf: action-type list
+  - name: visit
+    category: interaction
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Place Node
+    - Actor Node
+    subTypeOf: action-type list
+  - name: vote-on
+    category: institutional action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Proposal Node
+    subTypeOf: action-type list
+  - name: withdraw
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Territory Node
+    - Proposal Node
+    subTypeOf: action-type list
+  - name: yield-to
+    category: agent-action
+    description: ''
+    domain:
+    - Actor Node
+    range:
+    - Actor Node
+    subTypeOf: action-type list
+  - name: dependency
+    category: structural measure
+    description: ''
+    formula: Bridge Relations / Total Relations
+  - name: connectedness
+    category: structural measure
+    description: ''
+    formula: Links / Nodes
+  - name: size
+    category: structural measure
+    description: ''
+    definition: '|Concept Nodes|'
+  - name: uniformity of salience
+    category: structural measure
+    description: Structural metric operationalised as the standard deviation of relationship
+      salience values across the map.
+  - name: salience (of relationship)
+    category: link weight
+    description: A numeric count of how often a unique relationship occurs in the
+      data set, used as a strength indicator.
+  - name: concept comparison
+    category: comparative measure
+    description: Comparative procedure for identifying identical, divergent, and unique
+      concepts when two cognitive maps are matched.
+  - name: transformation cost
+    category: comparative measure
+    description: Quantitative index of change based on the minimum number of additions/deletions
+      required to convert one map into another.
+    subTypeOf: Levenshtein measure
+  - name: incongruence
+    category: comparative measure
+    description: ''
+  - name: Levenshtein measure
+    category: metric analogy
+    description: String-editing distance metric inspiring transformation-cost computation
+      for cognitive maps.
+  - name: relationship modifier
+    category: qualifier tag
+    description: A tag (past, present, future, goal, hypothetical, normative) that
+      qualifies when or in what mode a relationship holds.
+    allowed_values: '[past, present, future, goal, hypothetical, normative]'
+  - name: past
+    category: temporal
+    description: ''
+    subTypeOf: relationship modifier
+  - name: present
+    category: temporal
+    description: ''
+    subTypeOf: relationship modifier
+  - name: future
+    category: temporal
+    description: ''
+    subTypeOf: relationship modifier
+  - name: goal
+    category: modal
+    description: ''
+    subTypeOf: relationship modifier
+  - name: hypothetical
+    category: modal
+    description: ''
+    subTypeOf: relationship modifier
+  - name: normative
+    category: modal
+    description: ''
+    subTypeOf: relationship modifier
+  - name: truth-value
+    category: logical attribute
+    description: Designation (true, false, partial, possible, impossible) indicating
+      an actor’s asserted certainty about a proposition.
+    allowed_values: '[true,false,partial,possible,impossible]'
+  - name: 'true'
+    category: certainty
+    description: ''
+    subTypeOf: truth-value
+  - name: 'false'
+    category: certainty
+    description: ''
+    subTypeOf: truth-value
+  - name: partial
+    category: certainty
+    description: ''
+    subTypeOf: truth-value
+  - name: possible
+    category: modal possibility
+    description: ''
+    subTypeOf: truth-value
+  - name: impossible
+    category: modal possibility
+    description: ''
+    subTypeOf: truth-value
+  - name: conjunction (and / or)
+    category: logical connector
+    description: Logical connectors used in WorldView to represent joint actions (and)
+      or alternative sets (or) within compound concepts.
+    suboperators: AND (intersection), OR (union)
+  modifiers_supported:
+  - past
+  - present
+  - future
+  - goal
+  - hypothetical
+  - normative
+  - relationship_modifier
+  truth_values_supported:
+  - 'true'
+  - 'false'
+  - partial
+  - possible
+  - impossible
+  operators_supported:
+  - AND
+  - OR

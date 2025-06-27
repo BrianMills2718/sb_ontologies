@@ -1,0 +1,10 @@
+M	autocoder/components/api_endpoint.py
+D	autocoder/components/fallback_server.py
+M	autocoder/healing/semantic_healer.py
+M	autocoder/testing/__init__.py
+D	autocoder/testing/mock_framework.py
+M	blueprint_language/deterministic_test_runner.py
+M	blueprint_language/natural_language_to_blueprint.py
+M	blueprint_language/semantic_validator.py
+M	blueprint_language/test_generator.py
+M	blueprint_language/validation_framework.py

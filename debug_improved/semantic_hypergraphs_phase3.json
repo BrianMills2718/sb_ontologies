@@ -1,0 +1,853 @@
+{
+  "title": "Semantic Hypergraph (SH) Knowledge-Representation Schema",
+  "description": "Comprehensive schema for the theory introduced in Menezes & Roth (2021).  It formalises every Phase-1 vocabulary term inside a recursive, ordered hypergraph data model.  Hyperedges are first-class nodes that (1) can themselves take part in other hyperedges, (2) preserve participant order, (3) store argument-role codes, and (4) may have their own properties and truth-values.  Processes (\u03b1-stage, \u03b2-stage, etc.), rules, metrics and derived artefacts are also modelled as nodes so they can be referenced by edges, queried, and reasoned upon.  Extraction notations (argument-role suffixes such as \u201c.s\u201d, special connector codes like \u201c+/B\u201d or \u201c:/J\u201d, variables starting with an upper-case letter, single \u2018*\u2019 and ellipsis \u2018\u2026\u2019 wild-cards) are captured as property values of Pattern nodes and can be validated through regular-expression constraints that are included in the property definitions section.",
+  "model_type": "hypergraph",
+  "rationale": "The theory\u2019s very name and formal core are a recursive, ordered HYPERGRAPH.  Connectors yield true n-ary relations; hyperedges can recursively contain other hyperedges; participant order is significant; hyperedges themselves possess properties (e.g., type-code, truth-value).  All five hypergraph indicators are satisfied, so a property graph or tree cannot faithfully encode the structure without loss of semantics or the need for work-arounds.",
+  "node_types": [
+    {
+      "name": "Semantic Hypergraph (SH)",
+      "properties": [
+        "id",
+        "language",
+        "creation_timestamp",
+        "provenance",
+        "root_edges"
+      ],
+      "description": "Complete ordered, recursive hypergraph representing all meaning parsed from a corpus.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "hyperedge",
+      "properties": [
+        "id",
+        "edge_type_code",
+        "# one of R,S,C etc.",
+        "ordered_size",
+        "truth_value",
+        "modality",
+        "deep_degree",
+        "hypergraphic_degree"
+      ],
+      "description": "First-class, n-ary, ordered, possibly recursive relation node.",
+      "subtypes": [
+        "atom",
+        "relation (R)",
+        "specifier (S)",
+        "concept (C)"
+      ],
+      "constraints": {
+        "edge_type_code": "^[RSC]$|^C$"
+      }
+    },
+    {
+      "name": "atom",
+      "properties": [
+        "id",
+        "token",
+        "lemma",
+        "pos_tag",
+        "language"
+      ],
+      "description": "Atomic hyperedge of arity 1; lexical leaf.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "recursive ordered hypergraph",
+      "properties": [
+        "id",
+        "root_edge"
+      ],
+      "description": "Meta-node describing the mathematical class of SH itself (links to papers, proof objects, etc.).",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "connector",
+      "properties": [
+        "id",
+        "code",
+        "surface_form"
+      ],
+      "description": "Atom that can occupy position 0 of a non-atomic hyperedge and specifies its semantics.",
+      "subtypes": [
+        "predicate (P)",
+        "modifier (M)",
+        "builder (B)",
+        "trigger (T)",
+        "conjunction (J)",
+        "implicit builder (+/B)"
+      ],
+      "constraints": {
+        "code": "^[PMBTJ]|\\+/B$"
+      }
+    },
+    {
+      "name": "predicate (P)",
+      "properties": [
+        "id",
+        "lemma",
+        "argument_signature"
+      ],
+      "description": "Connector expressing factual relations; yields relation (R) hyperedges.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "modifier (M)",
+      "properties": [
+        "id",
+        "lemma"
+      ],
+      "description": "Connector changing one existing hyperedge into another of the same type.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "builder (B)",
+      "properties": [
+        "id",
+        "lemma"
+      ],
+      "description": "Connector creating compound concepts from multiple arguments.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "implicit builder (+/B)",
+      "properties": [
+        "id"
+      ],
+      "description": "Special builder used for compound nouns without overt prepositions.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "trigger (T)",
+      "properties": [
+        "id",
+        "lemma"
+      ],
+      "description": "Connector adding temporal, conditional, locative or other specifications.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "conjunction (J)",
+      "properties": [
+        "id",
+        "lemma"
+      ],
+      "description": "Connector joining or coordinating hyperedges.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "relation (R)",
+      "properties": [
+        "id",
+        "truth_value",
+        "tense",
+        "source_text_span"
+      ],
+      "description": "Non-atomic hyperedge expressing a fact, question or command.",
+      "subtypes": [
+        "claim (in SH)",
+        "conflict expression"
+      ],
+      "constraints": null
+    },
+    {
+      "name": "specifier (S)",
+      "properties": [
+        "id",
+        "specifier_type"
+      ],
+      "description": "Peripheral hyperedge (e.g. time, location) attached to relations.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "concept (C)",
+      "properties": [
+        "id",
+        "label",
+        "taxonomy_pointer"
+      ],
+      "description": "Atomic concept node; base unit of meaning.",
+      "subtypes": [
+        "actor (SH)",
+        "topic (SH)"
+      ],
+      "constraints": null
+    },
+    {
+      "name": "actor (SH)",
+      "properties": [
+        "id",
+        "entity_type"
+      ],
+      "description": "Entity capable of making claims or engaging in conflicts.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "topic (SH)",
+      "properties": [
+        "id",
+        "broader_topic"
+      ],
+      "description": "Concept or compound hyperedge that is the focus of a claim/conflict.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "argument role",
+      "properties": [
+        "code"
+      ],
+      "description": "Symbolic suffix (s, o, i, ...) indicating participant function inside a hyperedge.",
+      "subtypes": null,
+      "constraints": {
+        "code": "^[a-z]$"
+      }
+    },
+    {
+      "name": "type inference rule",
+      "properties": [
+        "id",
+        "lhs_pattern",
+        "rhs_type",
+        "priority"
+      ],
+      "description": "Rule stating resulting hyperedge type from connector + argument types.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "inference rule",
+      "properties": [
+        "id",
+        "lhs_pattern",
+        "rhs_pattern",
+        "probability"
+      ],
+      "description": "Coupled SH patterns for knowledge deduction.",
+      "subtypes": [
+        "anaphora resolution (simple)",
+        "claim tense detection"
+      ],
+      "constraints": null
+    },
+    {
+      "name": "pattern (SH pattern)",
+      "properties": [
+        "id",
+        "pattern_string",
+        "regex",
+        "extraction_example"
+      ],
+      "description": "Template with variables and wild-cards to match/transform hyperedges.",
+      "subtypes": [
+        "specifier pattern \u2018\u2026\u2019"
+      ],
+      "constraints": null
+    },
+    {
+      "name": "variable (SH pattern)",
+      "properties": [
+        "name",
+        "type_constraint"
+      ],
+      "description": "Capitalised placeholder inside patterns.",
+      "subtypes": null,
+      "constraints": {
+        "name": "^[A-Z][A-Za-z0-9_]*$"
+      }
+    },
+    {
+      "name": "wildcard",
+      "properties": [
+        "symbol"
+      ],
+      "description": "\u2018*\u2019 matches one element, \u2018\u2026\u2019 matches sequence in patterns.",
+      "subtypes": null,
+      "constraints": {
+        "symbol": "^\\*$|^\\.\\.\\.$"
+      }
+    },
+    {
+      "name": "specifier pattern \u2018\u2026\u2019",
+      "properties": [
+        "id"
+      ],
+      "description": "Ellipsis notation that allows optional trailing hyperedges.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "alpha-stage (\u03b1-stage)",
+      "properties": [
+        "id",
+        "classifier_model",
+        "alpha_feature_set"
+      ],
+      "description": "First parsing phase: supervised typing of tokens.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "beta-stage (\u03b2-stage)",
+      "properties": [
+        "id",
+        "search_tree_heuristic"
+      ],
+      "description": "Second parsing phase: applies type-inference rules to form SH.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "pattern learning template",
+      "properties": [
+        "id",
+        "human_iterations"
+      ],
+      "description": "Workflow node for interactive generalisation of patterns.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "conjunction decomposition",
+      "properties": [
+        "id"
+      ],
+      "description": "Transformation procedure expanding conjunctive relations.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "pattern compression / generalisation",
+      "properties": [
+        "id"
+      ],
+      "description": "Process combining specific patterns into generic ones.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "alpha feature set (F5, F3)",
+      "properties": [
+        "id",
+        "feature_list"
+      ],
+      "description": "Hand-selected linguistic features feeding the \u03b1-classifier.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "knowledge inference",
+      "properties": [
+        "id"
+      ],
+      "description": "Process that creates new hyperedges from existing ones via rules.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "deep degree",
+      "properties": [
+        "value"
+      ],
+      "description": "Metric counting recursive co-participations of a node.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "hypergraphic degree",
+      "properties": [
+        "value"
+      ],
+      "description": "Metric \u2211(|edge|\u22121) over outer edges containing a node.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "co-occurrence graph (SH)",
+      "properties": [
+        "id",
+        "seed_concept"
+      ],
+      "description": "Derived graph connecting auxiliary concepts co-appearing with a seed.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "coreference set",
+      "properties": [
+        "id",
+        "confidence"
+      ],
+      "description": "Group of hyperedges referring to the same external entity.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "claim (in SH)",
+      "properties": [
+        "id",
+        "tense",
+        "source_sentence"
+      ],
+      "description": "Relation where an actor asserts a proposition.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "conflict expression",
+      "properties": [
+        "id",
+        "polarity",
+        "source_sentence"
+      ],
+      "description": "Relation indicating criticism/antagonism between actors.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "open-adaptive quadrant",
+      "properties": [
+        "id"
+      ],
+      "description": "Meta-framework category targeted by SH.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "open-strict category",
+      "properties": [
+        "id"
+      ],
+      "description": "Transparent rule-based NLP approaches.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "opaque-adaptive category",
+      "properties": [
+        "id"
+      ],
+      "description": "Adaptive but non-transparent ML approaches.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "search tree heuristic (\u03b2-stage)",
+      "properties": [
+        "id",
+        "priority_function"
+      ],
+      "description": "Heuristic guiding rule application during \u03b2-parsing.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Kolmogorov\u2013Smirnov test (feature ablation)",
+      "properties": [
+        "id",
+        "p_value_threshold"
+      ],
+      "description": "Statistical method for feature elimination.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "genetic algorithm feature selection",
+      "properties": [
+        "id",
+        "population_size"
+      ],
+      "description": "Evolutionary optimisation of feature subsets.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Open Information Extraction (OIE)",
+      "properties": [
+        "id",
+        "precision",
+        "recall"
+      ],
+      "description": "Task node representing domain-independent extraction of relation triples.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "implicit taxonomy",
+      "properties": [
+        "id"
+      ],
+      "description": "Emergent hierarchical concept structure.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "lingua franca (for hybrid agents)",
+      "properties": [
+        "id"
+      ],
+      "description": "Vision of SH as common language for symbolic & ML agents.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "explainable artificial intelligence (XAI)",
+      "properties": [
+        "id"
+      ],
+      "description": "Field context to which SH contributes.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Graphbrain library",
+      "properties": [
+        "id",
+        "version",
+        "repository_url"
+      ],
+      "description": "Open-source implementation of SH parsing & inference.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "S-expression isomorphism",
+      "properties": [
+        "id"
+      ],
+      "description": "Theoretical insight linking hyperedges to Lisp S-expressions.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "dependency parse tree (DPT)",
+      "properties": [
+        "id",
+        "parser_tool"
+      ],
+      "description": "Syntactic tree used as intermediary representation.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Universal Dependencies",
+      "properties": [
+        "id",
+        "version"
+      ],
+      "description": "External grammatical relation inventory aligned with SH types.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "automatic programming analogy",
+      "properties": [
+        "id"
+      ],
+      "description": "Conceptual analogy for ML opacity criticised by authors.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "open text corpus (training)",
+      "properties": [
+        "id",
+        "source_categories",
+        "size_tokens"
+      ],
+      "description": "Heterogeneous corpus used to train & evaluate SH parser.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "faction detection heuristic",
+      "properties": [
+        "id"
+      ],
+      "description": "Algorithm for assigning actors to opposing groups.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "context edge",
+      "properties": [
+        "id"
+      ],
+      "description": "Edge connected to claim/conflict via :/J sequences providing context.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "lemma/J edge",
+      "properties": [
+        "id"
+      ],
+      "description": "Auxiliary hyperedge linking word forms to lemmas.",
+      "subtypes": null,
+      "constraints": null
+    }
+  ],
+  "edge_types": [
+    {
+      "name": "has_participant",
+      "from_types": [
+        "hyperedge"
+      ],
+      "to_types": [
+        "atom",
+        "hyperedge",
+        "connector",
+        "concept (C)",
+        "actor (SH)",
+        "topic (SH)"
+      ],
+      "properties": [
+        "argument_role",
+        "position_index"
+      ],
+      "description": "Ordered membership edge from a hyperedge to each of its participants.",
+      "inverse": "participant_of"
+    },
+    {
+      "name": "participant_of",
+      "from_types": [
+        "atom",
+        "hyperedge",
+        "connector",
+        "concept (C)",
+        "actor (SH)",
+        "topic (SH)"
+      ],
+      "to_types": [
+        "hyperedge"
+      ],
+      "properties": [
+        "argument_role",
+        "position_index"
+      ],
+      "description": "Inverse of has_participant.",
+      "inverse": "has_participant"
+    },
+    {
+      "name": "produces",
+      "from_types": [
+        "alpha-stage (\u03b1-stage)",
+        "beta-stage (\u03b2-stage)",
+        "knowledge inference",
+        "conjunction decomposition",
+        "pattern compression / generalisation",
+        "Open Information Extraction (OIE)"
+      ],
+      "to_types": [
+        "Semantic Hypergraph (SH)",
+        "hyperedge",
+        "relation (R)",
+        "pattern (SH pattern)"
+      ],
+      "properties": null,
+      "description": "Edge indicating that a process outputs a graph object.",
+      "inverse": "produced_by"
+    },
+    {
+      "name": "consumes",
+      "from_types": [
+        "alpha-stage (\u03b1-stage)",
+        "beta-stage (\u03b2-stage)",
+        "knowledge inference"
+      ],
+      "to_types": [
+        "open text corpus (training)",
+        "dependency parse tree (DPT)",
+        "Semantic Hypergraph (SH)",
+        "hyperedge"
+      ],
+      "properties": null,
+      "description": "Process input edge.",
+      "inverse": "consumed_by"
+    },
+    {
+      "name": "actor_in_claim",
+      "from_types": [
+        "actor (SH)"
+      ],
+      "to_types": [
+        "claim (in SH)"
+      ],
+      "properties": [
+        "role = subject"
+      ],
+      "description": "Links actor that utters the claim.",
+      "inverse": "claim_of_actor"
+    },
+    {
+      "name": "topic_of_claim",
+      "from_types": [
+        "topic (SH)"
+      ],
+      "to_types": [
+        "claim (in SH)"
+      ],
+      "properties": [
+        "role = object"
+      ],
+      "description": "Links topic that a claim is about.",
+      "inverse": "claim_has_topic"
+    },
+    {
+      "name": "conflict_source",
+      "from_types": [
+        "actor (SH)"
+      ],
+      "to_types": [
+        "conflict expression"
+      ],
+      "properties": [
+        "role = aggressor"
+      ],
+      "description": "Actor who expresses conflict.",
+      "inverse": "conflict_from_actor"
+    },
+    {
+      "name": "conflict_target",
+      "from_types": [
+        "actor (SH)"
+      ],
+      "to_types": [
+        "conflict expression"
+      ],
+      "properties": [
+        "role = target"
+      ],
+      "description": "Actor receiving the conflict.",
+      "inverse": "conflict_against_actor"
+    },
+    {
+      "name": "member_of_coreference_set",
+      "from_types": [
+        "hyperedge",
+        "concept (C)"
+      ],
+      "to_types": [
+        "coreference set"
+      ],
+      "properties": [
+        "probability"
+      ],
+      "description": "Indicates that two hyperedges are considered coreferential.",
+      "inverse": "coreference_set_contains"
+    },
+    {
+      "name": "context_of_edge",
+      "from_types": [
+        "context edge"
+      ],
+      "to_types": [
+        "claim (in SH)",
+        "conflict expression"
+      ],
+      "properties": [
+        "distance"
+      ],
+      "description": "Connects contextual information to claim/conflict.",
+      "inverse": "has_context"
+    },
+    {
+      "name": "lemma_of",
+      "from_types": [
+        "lemma/J edge"
+      ],
+      "to_types": [
+        "atom"
+      ],
+      "properties": null,
+      "description": "Links lemma hyperedge to word-form atom.",
+      "inverse": "has_lemma_edge"
+    },
+    {
+      "name": "uses_feature",
+      "from_types": [
+        "alpha-stage (\u03b1-stage)"
+      ],
+      "to_types": [
+        "alpha feature set (F5, F3)"
+      ],
+      "properties": null,
+      "description": "\u03b1-classifier configuration link.",
+      "inverse": "feature_used_by"
+    },
+    {
+      "name": "guided_by_heuristic",
+      "from_types": [
+        "beta-stage (\u03b2-stage)"
+      ],
+      "to_types": [
+        "search tree heuristic (\u03b2-stage)"
+      ],
+      "properties": null,
+      "description": "\u03b2-parser\u2019s priority function source.",
+      "inverse": "heuristic_guides"
+    },
+    {
+      "name": "defined_by_rule",
+      "from_types": [
+        "hyperedge"
+      ],
+      "to_types": [
+        "inference rule"
+      ],
+      "properties": null,
+      "description": "Edge resulting from rule application.",
+      "inverse": "rule_defines_edge"
+    }
+  ],
+  "property_definitions": {
+    "id": "Unique stable identifier.",
+    "edge_type_code": "Single-letter SH type code (R,S,C, etc.).",
+    "ordered_size": "Number of participants in the hyperedge.",
+    "truth_value": "One of {true,false,unknown,probabilistic}.",
+    "modality": "Modal qualifications such as necessity, possibility, negation (captured via modifier M).",
+    "deep_degree": "Integer; see metric definition node.",
+    "hypergraphic_degree": "Integer; see metric definition node.",
+    "token": "Surface string in source text.",
+    "lemma": "Canonical dictionary form.",
+    "pos_tag": "Universal-Dependencies POS tag.",
+    "argument_role": "Role code (s,o,i,...) appended after participant.",
+    "position_index": "0-based participant order inside its parent hyperedge.",
+    "tense": "past|present|future; detected via claim tense detection heuristic.",
+    "probability": "Real number 0-1 for uncertain inference links.",
+    "pattern_string": "Human-readable pattern representation.",
+    "regex": "Regular expression automatically compiled from pattern_string to support matching.",
+    "priority": "Numeric priority used by \u03b2-stage search tree.",
+    "feature_list": "List of feature codes included in a feature set."
+  },
+  "modifiers_supported": [
+    "negation (not/M)",
+    "tense (will/M, was/P)",
+    "conditional (if/T)",
+    "temporal (when/T)",
+    "locative (in/T)"
+  ],
+  "truth_values_supported": [
+    "true",
+    "false",
+    "unknown",
+    "probabilistic"
+  ],
+  "operators_supported": [
+    "conjunction (J)",
+    "modifier (M acting as NOT)",
+    "builder (B composition)",
+    "trigger (T modal/temporal)",
+    "AND / OR via pattern lists"
+  ]
+}

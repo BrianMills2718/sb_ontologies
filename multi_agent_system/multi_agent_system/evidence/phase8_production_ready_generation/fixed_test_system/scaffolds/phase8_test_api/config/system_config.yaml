@@ -1,0 +1,21 @@
+system:
+  name: phase8_test_api
+  version: 1.0.0
+  environment: development
+test_api:
+  port: 8080
+  host: 0.0.0.0
+  auth_required: false
+  rate_limiting: false
+test_store:
+  storage_type: postgresql
+  database:
+    type: postgresql
+    connection_string: postgresql://postgres:test123@localhost:5432/phase8_test_db
+    pool_size: 20
+  testing_mode: true
+  schema_validation: true
+metrics:
+  port: ${METRICS_PORT}
+  host: 0.0.0.0
+  enabled: true

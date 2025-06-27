@@ -1,0 +1,63 @@
+Framing Effects Theory in Decision Making
+Based on Heilman & Miclea research
+
+Core Theory
+
+The framing effect refers to presenting equivalent decisional alternatives in different terms, resulting in preference for one alternative over the other, depending on the description format. This represents a violation of the principle of invariance, a cornerstone of decision maker's rationality.
+
+Principle of Invariance: A preference for a decisional option should be independent of the terms in which it is described (Tversky & Kahneman, 1986). Different wordings should not influence the decision maker's preference for a particular alternative.
+
+However, people lack the computational resources to make decisions consistent with economic rationality (Simon, 1955). People are prone to predictable sources of distortion (Kahneman, 2011).
+
+Asian Disease Problem
+
+The classic demonstration involves a hypothetical disease affecting 600 people. Decision-makers choose between two intervention programs described either in:
+- Gain terms: how many people will be saved
+- Loss terms: how many people will die
+
+Each frame presents:
+- Sure alternative: specific number who will surely survive/die  
+- Probabilistic alternative: probabilities that all people survive/die
+
+Results show preference reversal:
+- Loss frame: 78% choose probabilistic alternative (risk seeking)
+- Gain frame: 28% choose probabilistic alternative (risk aversion)
+
+Taxonomy of Framing Effects (Levin et al., 1998)
+
+1. Risky Choice Framing: Different formulations applied to decisional alternatives involving varying risk levels. Shows preference reversal between sure and probabilistic outcomes.
+
+2. Attribute Framing: Characteristics of objects/events are differently formulated. Affects how objects are evaluated based on descriptive valence.
+
+3. Goal Framing: Manipulation applied to formulation of behavioral goals. Highlights benefits of performing action vs. risks of not performing.
+
+Prospect Theory Explanation
+
+Prospect Theory (Kahneman & Tversky, 1979) explains framing effects through:
+- Evaluation of outcomes as gains/losses relative to baseline
+- Loss aversion: losses loom larger than equivalent gains
+- Greater sensitivity to losses than comparable gains
+- Negatively framed information has more impact than positive
+
+Domain Differences
+
+Framing effects vary across decisional domains:
+- Health domain: Strong framing effects present
+- Financial domain: No significant framing effects
+- Nature/objects domain: Framing effects present
+- Within-domain variation: Different problems show varying effect magnitudes
+
+Emotional reactions triggered by decisional problems may explain domain differences.
+
+Theoretical Components
+
+Decision Maker: Individual making choices under uncertainty
+Decisional Alternative: Option available for selection
+Frame: Terms used to describe alternatives (gain vs. loss)
+Reference Point: Baseline for evaluating outcomes as gains/losses
+Risk Preference: Tendency toward risk seeking vs. risk aversion
+Preference Reversal: Change in choice pattern due to framing
+Invariance Violation: Failure to maintain consistent preferences across equivalent descriptions
+Economic Rationality: Normative standard for optimal decision making
+Loss Aversion: Greater sensitivity to losses than equivalent gains
+Prospect Theory: Descriptive theory of decision making under risk

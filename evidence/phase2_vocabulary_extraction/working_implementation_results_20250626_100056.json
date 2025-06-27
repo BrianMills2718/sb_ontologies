@@ -1,0 +1,1855 @@
+{
+  "timestamp": "2025-06-26T10:00:56.610462",
+  "theories_processed": [
+    "social_cognitive_theory",
+    "systems_theory",
+    "complexity_theory"
+  ],
+  "extraction_results": {
+    "social_cognitive_theory": {
+      "descriptive_terms": {
+        "taxonomies": [
+          "social",
+          "cognitive",
+          "theory"
+        ],
+        "classifications": [
+          "theory",
+          "categorizes",
+          "learning"
+        ],
+        "categories": [
+          "theory",
+          "categorizes",
+          "learning"
+        ],
+        "typologies": [],
+        "attributes": [
+          "self-efficacy",
+          "outcome expectations",
+          "behavioral capability"
+        ],
+        "dimensions": [
+          "social",
+          "cognitive",
+          "theory"
+        ],
+        "patterns": [
+          "triadic",
+          "reciprocal",
+          "causation"
+        ]
+      },
+      "explanatory_terms": {
+        "mechanisms": [
+          "each   contributes",
+          "triadic reciprocal causation",
+          "dynamic interaction"
+        ],
+        "processes": [
+          "how",
+          "model",
+          "the dynamic",
+          "complex interplay",
+          "trial and"
+        ],
+        "systems": [],
+        "frameworks": [],
+        "structures": [],
+        "components": [],
+        "interactions": [
+          "interaction  of",
+          "dynamic  interaction",
+          "dynamic  feedback",
+          "personal-behavioral-environmental"
+        ],
+        "principles": []
+      },
+      "predictive_terms": {
+        "variables": [
+          "key",
+          "environmental",
+          "these",
+          "personal",
+          "self-efficacy"
+        ],
+        "models": [
+          "causation",
+          "triadic model",
+          "reciprocal model"
+        ],
+        "indicators": [
+          "target behaviors",
+          "behavioral engagement"
+        ],
+        "measures": [],
+        "forecasting_terms": [],
+        "statistical_terms": [],
+        "correlations": [],
+        "parameters": []
+      },
+      "causal_terms": {
+        "causes": [
+          "environmental factors",
+          "personal cognitions"
+        ],
+        "effects": [
+          "behavioral outcomes",
+          "behavioral choices"
+        ],
+        "relationships": [
+          "interaction",
+          "feedback",
+          "personal, behavioral, \n            and environmental factors",
+          "triadic reciprocal causation"
+        ],
+        "pathways": [
+          "pathways demonstrate",
+          "causal",
+          "environmental factors influence personal cognitions and \n            emotional states, which in turn affect behavioral choices and outcomes",
+          "personal cognitions"
+        ],
+        "mediators": [],
+        "moderators": [],
+        "determinants": [],
+        "consequences": []
+      },
+      "intervention_terms": {
+        "interventions": [
+          "these",
+          "self",
+          "self-efficacy enhancement",
+          "theory-based interventions"
+        ],
+        "strategies": [
+          "intervention",
+          "mastery experiences",
+          "vicarious learning",
+          "verbal persuasion"
+        ],
+        "methods": [
+          "skill building",
+          "modeling",
+          "coaching",
+          "method"
+        ],
+        "implementations": [],
+        "policies": [],
+        "practices": [],
+        "tools": [
+          "arousal management",
+          "emotional regulation",
+          "approach"
+        ],
+        "solutions": []
+      },
+      "cross_purpose_terms": {
+        "multi_purpose_terms": {
+          "self-efficacy": [
+            "descriptive",
+            "predictive"
+          ],
+          "causation": [
+            "descriptive",
+            "predictive"
+          ],
+          "triadic reciprocal causation": [
+            "explanatory",
+            "causal"
+          ],
+          "these": [
+            "predictive",
+            "intervention"
+          ]
+        },
+        "purpose_overlap_matrix": {
+          "descriptive_predictive": [
+            "self-efficacy",
+            "causation"
+          ],
+          "explanatory_causal": [
+            "triadic reciprocal causation"
+          ],
+          "predictive_intervention": [
+            "these"
+          ]
+        },
+        "shared_concepts": []
+      },
+      "extraction_balance": {
+        "purpose_counts": {
+          "descriptive": 18,
+          "explanatory": 12,
+          "predictive": 10,
+          "causal": 12,
+          "intervention": 15
+        },
+        "balance_scores": {
+          "descriptive": 1.3432835820895521,
+          "explanatory": 0.8955223880597015,
+          "predictive": 0.7462686567164178,
+          "causal": 0.8955223880597015,
+          "intervention": 1.1194029850746268
+        },
+        "balance_ratio": 0.5555555555555556,
+        "is_balanced": false,
+        "recommendations": [
+          "Increase extraction for: predictive",
+          "Reduce emphasis on: descriptive"
+        ]
+      }
+    },
+    "systems_theory": {
+      "descriptive_terms": {
+        "taxonomies": [
+          "general",
+          "systems",
+          "theory"
+        ],
+        "classifications": [
+          "systems",
+          "classification",
+          "distinguishes"
+        ],
+        "categories": [
+          "each",
+          "type",
+          "exhibits"
+        ],
+        "typologies": [
+          "systems",
+          "classification",
+          "distinguishes"
+        ],
+        "attributes": [
+          "each",
+          "type",
+          "exhibits"
+        ],
+        "dimensions": [
+          "interconnected networks",
+          "components"
+        ],
+        "patterns": [
+          "each",
+          "type",
+          "exhibits"
+        ]
+      },
+      "explanatory_terms": {
+        "mechanisms": [
+          "homeostatic mechanisms",
+          "input-throughput-output"
+        ],
+        "processes": [
+          "interconnected \n            subsystems",
+          "feedback loops",
+          "organizational understanding",
+          "system functioning"
+        ],
+        "systems": [],
+        "frameworks": [],
+        "structures": [],
+        "components": [],
+        "interactions": [
+          "interconnected networks",
+          "component relationships"
+        ],
+        "principles": []
+      },
+      "predictive_terms": {
+        "variables": [
+          "input-throughput-output",
+          "system perturbations"
+        ],
+        "models": [
+          "predictive models",
+          "systems models"
+        ],
+        "indicators": [
+          "system health",
+          "feedback loops",
+          "adaptive capacity"
+        ],
+        "measures": [],
+        "forecasting_terms": [
+          "forecast",
+          "organizational performance"
+        ],
+        "statistical_terms": [],
+        "correlations": [],
+        "parameters": []
+      },
+      "causal_terms": {
+        "causes": [
+          "leverage points",
+          "small changes",
+          "cause"
+        ],
+        "effects": [
+          "system-wide transformations",
+          "effect"
+        ],
+        "relationships": [
+          "interconnected networks",
+          "system perturbations",
+          "relationship"
+        ],
+        "pathways": [
+          "analysis in",
+          "multiple",
+          "propagate through subsystems",
+          "pathway"
+        ],
+        "mediators": [],
+        "moderators": [],
+        "determinants": [],
+        "consequences": []
+      },
+      "intervention_terms": {
+        "interventions": [
+          "and",
+          "successful",
+          "system-wide transformations"
+        ],
+        "strategies": [
+          "intervention",
+          "reductionist",
+          "mathematical",
+          "intervention strategies"
+        ],
+        "methods": [
+          "small changes",
+          "boundary modification"
+        ],
+        "implementations": [],
+        "policies": [],
+        "practices": [],
+        "tools": [
+          "feedback adjustment",
+          "capacity building"
+        ],
+        "solutions": []
+      },
+      "cross_purpose_terms": {
+        "multi_purpose_terms": {
+          "interconnected networks": [
+            "descriptive",
+            "explanatory",
+            "causal"
+          ],
+          "input-throughput-output": [
+            "explanatory",
+            "predictive"
+          ],
+          "feedback loops": [
+            "explanatory",
+            "predictive"
+          ],
+          "system perturbations": [
+            "predictive",
+            "causal"
+          ],
+          "small changes": [
+            "causal",
+            "intervention"
+          ],
+          "system-wide transformations": [
+            "causal",
+            "intervention"
+          ]
+        },
+        "purpose_overlap_matrix": {
+          "descriptive_explanatory": [
+            "interconnected networks"
+          ],
+          "descriptive_causal": [
+            "interconnected networks"
+          ],
+          "explanatory_predictive": [
+            "input-throughput-output",
+            "feedback loops"
+          ],
+          "explanatory_causal": [
+            "interconnected networks"
+          ],
+          "predictive_causal": [
+            "system perturbations"
+          ],
+          "causal_intervention": [
+            "small changes",
+            "system-wide transformations"
+          ]
+        },
+        "shared_concepts": [
+          "interconnected networks"
+        ]
+      },
+      "extraction_balance": {
+        "purpose_counts": {
+          "descriptive": 20,
+          "explanatory": 8,
+          "predictive": 9,
+          "causal": 12,
+          "intervention": 11
+        },
+        "balance_scores": {
+          "descriptive": 1.6666666666666667,
+          "explanatory": 0.6666666666666666,
+          "predictive": 0.75,
+          "causal": 1.0,
+          "intervention": 0.9166666666666666
+        },
+        "balance_ratio": 0.4,
+        "is_balanced": false,
+        "recommendations": [
+          "Increase extraction for: explanatory, predictive",
+          "Reduce emphasis on: descriptive"
+        ]
+      }
+    },
+    "complexity_theory": {
+      "descriptive_terms": {
+        "taxonomies": [
+          "complexity",
+          "theory",
+          "analyzes"
+        ],
+        "classifications": [
+          "framework",
+          "distinguishes",
+          "between"
+        ],
+        "categories": [
+          "these",
+          "classifications",
+          "help"
+        ],
+        "typologies": [
+          "these",
+          "classifications",
+          "help"
+        ],
+        "attributes": [
+          "complexity",
+          "theory",
+          "analyzes"
+        ],
+        "dimensions": [
+          "these",
+          "factors",
+          "combine"
+        ],
+        "patterns": [
+          "key",
+          "variables",
+          "influencing"
+        ]
+      },
+      "explanatory_terms": {
+        "mechanisms": [
+          "emergent properties",
+          "nonlinear dynamics"
+        ],
+        "processes": [
+          "skillful perturbations",
+          "sensitive \n            dependence",
+          "system evolution",
+          "adaptive processes"
+        ],
+        "systems": [],
+        "frameworks": [],
+        "structures": [],
+        "components": [],
+        "interactions": [
+          "interaction  rules",
+          "agent interactions",
+          "nonlinear interactions"
+        ],
+        "principles": []
+      },
+      "predictive_terms": {
+        "variables": [
+          "key",
+          "these",
+          "connectivity",
+          "diversity",
+          "adaptive capacity"
+        ],
+        "models": [
+          "emergent properties",
+          "nonlinear dynamics"
+        ],
+        "indicators": [
+          "attractor states",
+          "phase transitions"
+        ],
+        "measures": [],
+        "forecasting_terms": [
+          "predictive capabilities",
+          "pattern recognition"
+        ],
+        "statistical_terms": [],
+        "correlations": [],
+        "parameters": []
+      },
+      "causal_terms": {
+        "causes": [
+          "system agents",
+          "connectivity patterns"
+        ],
+        "effects": [
+          "emergent properties",
+          "nonlinear interactions"
+        ],
+        "relationships": [
+          "causal relationships",
+          "circular relationships",
+          "multi-directional"
+        ],
+        "pathways": [
+          "relationships in",
+          "causation",
+          "sensitive dependence",
+          "initial conditions"
+        ],
+        "mediators": [],
+        "moderators": [],
+        "determinants": [],
+        "consequences": []
+      },
+      "intervention_terms": {
+        "interventions": [
+          "system resilience",
+          "direct control mechanisms"
+        ],
+        "strategies": [
+          "analytical",
+          "statistical",
+          "intervention",
+          "intervention approaches"
+        ],
+        "methods": [
+          "creating conditions",
+          "skillful perturbations"
+        ],
+        "implementations": [],
+        "policies": [],
+        "practices": [],
+        "tools": [
+          "evolutionary pressures",
+          "self-organization"
+        ],
+        "solutions": []
+      },
+      "cross_purpose_terms": {
+        "multi_purpose_terms": {
+          "key": [
+            "descriptive",
+            "predictive"
+          ],
+          "these": [
+            "descriptive",
+            "predictive"
+          ],
+          "nonlinear dynamics": [
+            "explanatory",
+            "predictive"
+          ],
+          "nonlinear interactions": [
+            "explanatory",
+            "causal"
+          ],
+          "emergent properties": [
+            "explanatory",
+            "predictive",
+            "causal"
+          ],
+          "skillful perturbations": [
+            "explanatory",
+            "intervention"
+          ]
+        },
+        "purpose_overlap_matrix": {
+          "descriptive_predictive": [
+            "key",
+            "these"
+          ],
+          "explanatory_predictive": [
+            "nonlinear dynamics",
+            "emergent properties"
+          ],
+          "explanatory_causal": [
+            "nonlinear interactions",
+            "emergent properties"
+          ],
+          "explanatory_intervention": [
+            "skillful perturbations"
+          ],
+          "predictive_causal": [
+            "emergent properties"
+          ]
+        },
+        "shared_concepts": [
+          "emergent properties"
+        ]
+      },
+      "extraction_balance": {
+        "purpose_counts": {
+          "descriptive": 21,
+          "explanatory": 9,
+          "predictive": 11,
+          "causal": 11,
+          "intervention": 10
+        },
+        "balance_scores": {
+          "descriptive": 1.6935483870967742,
+          "explanatory": 0.7258064516129032,
+          "predictive": 0.8870967741935484,
+          "causal": 0.8870967741935484,
+          "intervention": 0.8064516129032258
+        },
+        "balance_ratio": 0.42857142857142855,
+        "is_balanced": false,
+        "recommendations": [
+          "Increase extraction for: explanatory",
+          "Reduce emphasis on: descriptive"
+        ]
+      }
+    }
+  },
+  "integration_analysis": {
+    "social_cognitive_theory": {
+      "multi_purpose_terms": {
+        "terms_by_count": {
+          "2": [
+            {
+              "term": "self-efficacy",
+              "purposes": [
+                "descriptive",
+                "predictive"
+              ]
+            },
+            {
+              "term": "causation",
+              "purposes": [
+                "descriptive",
+                "predictive"
+              ]
+            },
+            {
+              "term": "triadic reciprocal causation",
+              "purposes": [
+                "explanatory",
+                "causal"
+              ]
+            },
+            {
+              "term": "these",
+              "purposes": [
+                "predictive",
+                "intervention"
+              ]
+            }
+          ]
+        },
+        "terms_by_purposes": {
+          "self-efficacy": [
+            "descriptive",
+            "predictive"
+          ],
+          "causation": [
+            "descriptive",
+            "predictive"
+          ],
+          "triadic reciprocal causation": [
+            "explanatory",
+            "causal"
+          ],
+          "these": [
+            "predictive",
+            "intervention"
+          ]
+        },
+        "high_integration_terms": [],
+        "pair_specific_terms": {
+          "descriptive_predictive": [
+            "self-efficacy",
+            "causation"
+          ],
+          "explanatory_causal": [
+            "triadic reciprocal causation"
+          ],
+          "predictive_intervention": [
+            "these"
+          ]
+        }
+      },
+      "purpose_pairs_analysis": {
+        "descriptive_explanatory": {
+          "purposes": [
+            "descriptive",
+            "explanatory"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "Terms that both categorize and explain mechanisms",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "descriptive_predictive": {
+          "purposes": [
+            "descriptive",
+            "predictive"
+          ],
+          "overlap_count": 2,
+          "overlap_terms": [
+            "self-efficacy",
+            "causation"
+          ],
+          "jaccard_similarity": 0.10526315789473684,
+          "integration_pattern": "Terms that both categorize and serve as predictive measures",
+          "bridge_terms_found": [],
+          "strength": "Weak"
+        },
+        "descriptive_causal": {
+          "purposes": [
+            "descriptive",
+            "causal"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "Terms that both describe and determine causal relationships",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "descriptive_intervention": {
+          "purposes": [
+            "descriptive",
+            "intervention"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "Terms that both categorize and describe intervention methods",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "descriptive_cross_purpose": {
+          "purposes": [
+            "descriptive",
+            "cross_purpose"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "No specific pattern",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "explanatory_predictive": {
+          "purposes": [
+            "explanatory",
+            "predictive"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "Terms that both explain mechanisms and enable prediction",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "explanatory_causal": {
+          "purposes": [
+            "explanatory",
+            "causal"
+          ],
+          "overlap_count": 1,
+          "overlap_terms": [
+            "triadic reciprocal causation"
+          ],
+          "jaccard_similarity": 0.045454545454545456,
+          "integration_pattern": "Terms that both explain how things work and show causal flow",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "explanatory_intervention": {
+          "purposes": [
+            "explanatory",
+            "intervention"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "Terms that both explain processes and guide implementation",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "explanatory_cross_purpose": {
+          "purposes": [
+            "explanatory",
+            "cross_purpose"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "No specific pattern",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "predictive_causal": {
+          "purposes": [
+            "predictive",
+            "causal"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "Terms that both predict outcomes and identify causal relationships",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "predictive_intervention": {
+          "purposes": [
+            "predictive",
+            "intervention"
+          ],
+          "overlap_count": 1,
+          "overlap_terms": [
+            "these"
+          ],
+          "jaccard_similarity": 0.041666666666666664,
+          "integration_pattern": "Terms that both predict results and measure intervention effects",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "predictive_cross_purpose": {
+          "purposes": [
+            "predictive",
+            "cross_purpose"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "No specific pattern",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "causal_intervention": {
+          "purposes": [
+            "causal",
+            "intervention"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "Terms that both identify causes and suggest interventions",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "causal_cross_purpose": {
+          "purposes": [
+            "causal",
+            "cross_purpose"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "No specific pattern",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "intervention_cross_purpose": {
+          "purposes": [
+            "intervention",
+            "cross_purpose"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "No specific pattern",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        }
+      },
+      "semantic_bridges": {
+        "foundational_bridges": [
+          "model",
+          "theory"
+        ],
+        "methodological_bridges": [],
+        "operational_bridges": [
+          "approach",
+          "method"
+        ],
+        "custom_bridges": []
+      },
+      "integration_matrix": {
+        "similarity_matrix": {
+          "descriptive": {
+            "descriptive": 1.0,
+            "explanatory": 0.0,
+            "predictive": 0.105,
+            "causal": 0.0,
+            "intervention": 0.0,
+            "cross_purpose": 0.0
+          },
+          "explanatory": {
+            "descriptive": 0.0,
+            "explanatory": 1.0,
+            "predictive": 0.0,
+            "causal": 0.045,
+            "intervention": 0.0,
+            "cross_purpose": 0.0
+          },
+          "predictive": {
+            "descriptive": 0.105,
+            "explanatory": 0.0,
+            "predictive": 1.0,
+            "causal": 0.0,
+            "intervention": 0.042,
+            "cross_purpose": 0.0
+          },
+          "causal": {
+            "descriptive": 0.0,
+            "explanatory": 0.045,
+            "predictive": 0.0,
+            "causal": 1.0,
+            "intervention": 0.0,
+            "cross_purpose": 0.0
+          },
+          "intervention": {
+            "descriptive": 0.0,
+            "explanatory": 0.0,
+            "predictive": 0.042,
+            "causal": 0.0,
+            "intervention": 1.0,
+            "cross_purpose": 0.0
+          },
+          "cross_purpose": {
+            "descriptive": 0.0,
+            "explanatory": 0.0,
+            "predictive": 0.0,
+            "causal": 0.0,
+            "intervention": 0.0,
+            "cross_purpose": 1.0
+          }
+        },
+        "average_similarity": 0.012799999999999999,
+        "max_similarity": 0.105,
+        "min_similarity": 0.0,
+        "integration_strength": "Minimal Integration"
+      },
+      "foundational_concepts": [],
+      "integration_quality": {
+        "integration_completeness": 0.24242424242424243,
+        "balance_across_purposes": 0.0,
+        "cross_purpose_coverage": 0.0,
+        "semantic_coherence": 0.7272727272727273,
+        "overall_quality": 0.24242424242424243,
+        "quality_issues": [
+          "Low integration completeness",
+          "Imbalanced extraction across purposes",
+          "Limited cross-purpose coverage"
+        ],
+        "recommendations": [
+          "Increase identification of multi-purpose terms",
+          "Improve balance in vocabulary extraction",
+          "Enhance identification of terms serving multiple purposes"
+        ]
+      }
+    },
+    "systems_theory": {
+      "multi_purpose_terms": {
+        "terms_by_count": {
+          "4": [
+            {
+              "term": "interconnected networks",
+              "purposes": [
+                "descriptive",
+                "explanatory",
+                "causal",
+                "cross_purpose"
+              ]
+            }
+          ],
+          "2": [
+            {
+              "term": "input-throughput-output",
+              "purposes": [
+                "explanatory",
+                "predictive"
+              ]
+            },
+            {
+              "term": "feedback loops",
+              "purposes": [
+                "explanatory",
+                "predictive"
+              ]
+            },
+            {
+              "term": "system perturbations",
+              "purposes": [
+                "predictive",
+                "causal"
+              ]
+            },
+            {
+              "term": "small changes",
+              "purposes": [
+                "causal",
+                "intervention"
+              ]
+            },
+            {
+              "term": "system-wide transformations",
+              "purposes": [
+                "causal",
+                "intervention"
+              ]
+            }
+          ]
+        },
+        "terms_by_purposes": {
+          "interconnected networks": [
+            "descriptive",
+            "explanatory",
+            "causal",
+            "cross_purpose"
+          ],
+          "input-throughput-output": [
+            "explanatory",
+            "predictive"
+          ],
+          "feedback loops": [
+            "explanatory",
+            "predictive"
+          ],
+          "system perturbations": [
+            "predictive",
+            "causal"
+          ],
+          "small changes": [
+            "causal",
+            "intervention"
+          ],
+          "system-wide transformations": [
+            "causal",
+            "intervention"
+          ]
+        },
+        "high_integration_terms": [
+          "interconnected networks"
+        ],
+        "pair_specific_terms": {
+          "descriptive_explanatory": [
+            "interconnected networks"
+          ],
+          "explanatory_predictive": [
+            "input-throughput-output",
+            "feedback loops"
+          ],
+          "predictive_causal": [
+            "system perturbations"
+          ],
+          "causal_intervention": [
+            "small changes",
+            "system-wide transformations"
+          ],
+          "descriptive_causal": [
+            "interconnected networks"
+          ],
+          "explanatory_causal": [
+            "interconnected networks"
+          ]
+        }
+      },
+      "purpose_pairs_analysis": {
+        "descriptive_explanatory": {
+          "purposes": [
+            "descriptive",
+            "explanatory"
+          ],
+          "overlap_count": 1,
+          "overlap_terms": [
+            "interconnected networks"
+          ],
+          "jaccard_similarity": 0.058823529411764705,
+          "integration_pattern": "Terms that both categorize and explain mechanisms",
+          "bridge_terms_found": [],
+          "strength": "Weak"
+        },
+        "descriptive_predictive": {
+          "purposes": [
+            "descriptive",
+            "predictive"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "Terms that both categorize and serve as predictive measures",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "descriptive_causal": {
+          "purposes": [
+            "descriptive",
+            "causal"
+          ],
+          "overlap_count": 1,
+          "overlap_terms": [
+            "interconnected networks"
+          ],
+          "jaccard_similarity": 0.047619047619047616,
+          "integration_pattern": "Terms that both describe and determine causal relationships",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "descriptive_intervention": {
+          "purposes": [
+            "descriptive",
+            "intervention"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "Terms that both categorize and describe intervention methods",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "descriptive_cross_purpose": {
+          "purposes": [
+            "descriptive",
+            "cross_purpose"
+          ],
+          "overlap_count": 1,
+          "overlap_terms": [
+            "interconnected networks"
+          ],
+          "jaccard_similarity": 0.1,
+          "integration_pattern": "No specific pattern",
+          "bridge_terms_found": [],
+          "strength": "Weak"
+        },
+        "explanatory_predictive": {
+          "purposes": [
+            "explanatory",
+            "predictive"
+          ],
+          "overlap_count": 2,
+          "overlap_terms": [
+            "input-throughput-output",
+            "feedback loops"
+          ],
+          "jaccard_similarity": 0.13333333333333333,
+          "integration_pattern": "Terms that both explain mechanisms and enable prediction",
+          "bridge_terms_found": [],
+          "strength": "Weak"
+        },
+        "explanatory_causal": {
+          "purposes": [
+            "explanatory",
+            "causal"
+          ],
+          "overlap_count": 1,
+          "overlap_terms": [
+            "interconnected networks"
+          ],
+          "jaccard_similarity": 0.05263157894736842,
+          "integration_pattern": "Terms that both explain how things work and show causal flow",
+          "bridge_terms_found": [],
+          "strength": "Weak"
+        },
+        "explanatory_intervention": {
+          "purposes": [
+            "explanatory",
+            "intervention"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "Terms that both explain processes and guide implementation",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "explanatory_cross_purpose": {
+          "purposes": [
+            "explanatory",
+            "cross_purpose"
+          ],
+          "overlap_count": 1,
+          "overlap_terms": [
+            "interconnected networks"
+          ],
+          "jaccard_similarity": 0.125,
+          "integration_pattern": "No specific pattern",
+          "bridge_terms_found": [],
+          "strength": "Weak"
+        },
+        "predictive_causal": {
+          "purposes": [
+            "predictive",
+            "causal"
+          ],
+          "overlap_count": 1,
+          "overlap_terms": [
+            "system perturbations"
+          ],
+          "jaccard_similarity": 0.05,
+          "integration_pattern": "Terms that both predict outcomes and identify causal relationships",
+          "bridge_terms_found": [],
+          "strength": "Weak"
+        },
+        "predictive_intervention": {
+          "purposes": [
+            "predictive",
+            "intervention"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "Terms that both predict results and measure intervention effects",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "predictive_cross_purpose": {
+          "purposes": [
+            "predictive",
+            "cross_purpose"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "No specific pattern",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "causal_intervention": {
+          "purposes": [
+            "causal",
+            "intervention"
+          ],
+          "overlap_count": 2,
+          "overlap_terms": [
+            "small changes",
+            "system-wide transformations"
+          ],
+          "jaccard_similarity": 0.09523809523809523,
+          "integration_pattern": "Terms that both identify causes and suggest interventions",
+          "bridge_terms_found": [],
+          "strength": "Weak"
+        },
+        "causal_cross_purpose": {
+          "purposes": [
+            "causal",
+            "cross_purpose"
+          ],
+          "overlap_count": 1,
+          "overlap_terms": [
+            "interconnected networks"
+          ],
+          "jaccard_similarity": 0.08333333333333333,
+          "integration_pattern": "No specific pattern",
+          "bridge_terms_found": [],
+          "strength": "Weak"
+        },
+        "intervention_cross_purpose": {
+          "purposes": [
+            "intervention",
+            "cross_purpose"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "No specific pattern",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        }
+      },
+      "semantic_bridges": {
+        "foundational_bridges": [
+          "theory",
+          "relationship"
+        ],
+        "methodological_bridges": [],
+        "operational_bridges": [],
+        "custom_bridges": [
+          "interconnected networks"
+        ]
+      },
+      "integration_matrix": {
+        "similarity_matrix": {
+          "descriptive": {
+            "descriptive": 1.0,
+            "explanatory": 0.059,
+            "predictive": 0.0,
+            "causal": 0.048,
+            "intervention": 0.0,
+            "cross_purpose": 0.1
+          },
+          "explanatory": {
+            "descriptive": 0.059,
+            "explanatory": 1.0,
+            "predictive": 0.133,
+            "causal": 0.053,
+            "intervention": 0.0,
+            "cross_purpose": 0.125
+          },
+          "predictive": {
+            "descriptive": 0.0,
+            "explanatory": 0.133,
+            "predictive": 1.0,
+            "causal": 0.05,
+            "intervention": 0.0,
+            "cross_purpose": 0.0
+          },
+          "causal": {
+            "descriptive": 0.048,
+            "explanatory": 0.053,
+            "predictive": 0.05,
+            "causal": 1.0,
+            "intervention": 0.095,
+            "cross_purpose": 0.083
+          },
+          "intervention": {
+            "descriptive": 0.0,
+            "explanatory": 0.0,
+            "predictive": 0.0,
+            "causal": 0.095,
+            "intervention": 1.0,
+            "cross_purpose": 0.0
+          },
+          "cross_purpose": {
+            "descriptive": 0.1,
+            "explanatory": 0.125,
+            "predictive": 0.0,
+            "causal": 0.083,
+            "intervention": 0.0,
+            "cross_purpose": 1.0
+          }
+        },
+        "average_similarity": 0.04973333333333334,
+        "max_similarity": 0.133,
+        "min_similarity": 0.0,
+        "integration_strength": "Minimal Integration"
+      },
+      "foundational_concepts": [],
+      "integration_quality": {
+        "integration_completeness": 0.46511627906976744,
+        "balance_across_purposes": 0.05,
+        "cross_purpose_coverage": 0.16666666666666666,
+        "semantic_coherence": 0.6976744186046512,
+        "overall_quality": 0.3448643410852713,
+        "quality_issues": [
+          "Low integration completeness",
+          "Imbalanced extraction across purposes",
+          "Limited cross-purpose coverage"
+        ],
+        "recommendations": [
+          "Increase identification of multi-purpose terms",
+          "Improve balance in vocabulary extraction",
+          "Enhance identification of terms serving multiple purposes"
+        ]
+      }
+    },
+    "complexity_theory": {
+      "multi_purpose_terms": {
+        "terms_by_count": {
+          "2": [
+            {
+              "term": "key",
+              "purposes": [
+                "descriptive",
+                "predictive"
+              ]
+            },
+            {
+              "term": "these",
+              "purposes": [
+                "descriptive",
+                "predictive"
+              ]
+            },
+            {
+              "term": "nonlinear dynamics",
+              "purposes": [
+                "explanatory",
+                "predictive"
+              ]
+            },
+            {
+              "term": "nonlinear interactions",
+              "purposes": [
+                "explanatory",
+                "causal"
+              ]
+            },
+            {
+              "term": "skillful perturbations",
+              "purposes": [
+                "explanatory",
+                "intervention"
+              ]
+            }
+          ],
+          "4": [
+            {
+              "term": "emergent properties",
+              "purposes": [
+                "explanatory",
+                "predictive",
+                "causal",
+                "cross_purpose"
+              ]
+            }
+          ]
+        },
+        "terms_by_purposes": {
+          "key": [
+            "descriptive",
+            "predictive"
+          ],
+          "these": [
+            "descriptive",
+            "predictive"
+          ],
+          "nonlinear dynamics": [
+            "explanatory",
+            "predictive"
+          ],
+          "nonlinear interactions": [
+            "explanatory",
+            "causal"
+          ],
+          "emergent properties": [
+            "explanatory",
+            "predictive",
+            "causal",
+            "cross_purpose"
+          ],
+          "skillful perturbations": [
+            "explanatory",
+            "intervention"
+          ]
+        },
+        "high_integration_terms": [
+          "emergent properties"
+        ],
+        "pair_specific_terms": {
+          "explanatory_predictive": [
+            "nonlinear dynamics",
+            "emergent properties"
+          ],
+          "predictive_causal": [
+            "emergent properties"
+          ],
+          "descriptive_predictive": [
+            "key",
+            "these"
+          ],
+          "explanatory_causal": [
+            "nonlinear interactions",
+            "emergent properties"
+          ],
+          "explanatory_intervention": [
+            "skillful perturbations"
+          ]
+        }
+      },
+      "purpose_pairs_analysis": {
+        "descriptive_explanatory": {
+          "purposes": [
+            "descriptive",
+            "explanatory"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "Terms that both categorize and explain mechanisms",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "descriptive_predictive": {
+          "purposes": [
+            "descriptive",
+            "predictive"
+          ],
+          "overlap_count": 2,
+          "overlap_terms": [
+            "key",
+            "these"
+          ],
+          "jaccard_similarity": 0.08695652173913043,
+          "integration_pattern": "Terms that both categorize and serve as predictive measures",
+          "bridge_terms_found": [],
+          "strength": "Weak"
+        },
+        "descriptive_causal": {
+          "purposes": [
+            "descriptive",
+            "causal"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "Terms that both describe and determine causal relationships",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "descriptive_intervention": {
+          "purposes": [
+            "descriptive",
+            "intervention"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "Terms that both categorize and describe intervention methods",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "descriptive_cross_purpose": {
+          "purposes": [
+            "descriptive",
+            "cross_purpose"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "No specific pattern",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "explanatory_predictive": {
+          "purposes": [
+            "explanatory",
+            "predictive"
+          ],
+          "overlap_count": 2,
+          "overlap_terms": [
+            "nonlinear dynamics",
+            "emergent properties"
+          ],
+          "jaccard_similarity": 0.1111111111111111,
+          "integration_pattern": "Terms that both explain mechanisms and enable prediction",
+          "bridge_terms_found": [],
+          "strength": "Weak"
+        },
+        "explanatory_causal": {
+          "purposes": [
+            "explanatory",
+            "causal"
+          ],
+          "overlap_count": 2,
+          "overlap_terms": [
+            "nonlinear interactions",
+            "emergent properties"
+          ],
+          "jaccard_similarity": 0.1111111111111111,
+          "integration_pattern": "Terms that both explain how things work and show causal flow",
+          "bridge_terms_found": [],
+          "strength": "Weak"
+        },
+        "explanatory_intervention": {
+          "purposes": [
+            "explanatory",
+            "intervention"
+          ],
+          "overlap_count": 1,
+          "overlap_terms": [
+            "skillful perturbations"
+          ],
+          "jaccard_similarity": 0.05555555555555555,
+          "integration_pattern": "Terms that both explain processes and guide implementation",
+          "bridge_terms_found": [],
+          "strength": "Weak"
+        },
+        "explanatory_cross_purpose": {
+          "purposes": [
+            "explanatory",
+            "cross_purpose"
+          ],
+          "overlap_count": 1,
+          "overlap_terms": [
+            "emergent properties"
+          ],
+          "jaccard_similarity": 0.1111111111111111,
+          "integration_pattern": "No specific pattern",
+          "bridge_terms_found": [],
+          "strength": "Weak"
+        },
+        "predictive_causal": {
+          "purposes": [
+            "predictive",
+            "causal"
+          ],
+          "overlap_count": 1,
+          "overlap_terms": [
+            "emergent properties"
+          ],
+          "jaccard_similarity": 0.047619047619047616,
+          "integration_pattern": "Terms that both predict outcomes and identify causal relationships",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "predictive_intervention": {
+          "purposes": [
+            "predictive",
+            "intervention"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "Terms that both predict results and measure intervention effects",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "predictive_cross_purpose": {
+          "purposes": [
+            "predictive",
+            "cross_purpose"
+          ],
+          "overlap_count": 1,
+          "overlap_terms": [
+            "emergent properties"
+          ],
+          "jaccard_similarity": 0.09090909090909091,
+          "integration_pattern": "No specific pattern",
+          "bridge_terms_found": [],
+          "strength": "Weak"
+        },
+        "causal_intervention": {
+          "purposes": [
+            "causal",
+            "intervention"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "Terms that both identify causes and suggest interventions",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        },
+        "causal_cross_purpose": {
+          "purposes": [
+            "causal",
+            "cross_purpose"
+          ],
+          "overlap_count": 1,
+          "overlap_terms": [
+            "emergent properties"
+          ],
+          "jaccard_similarity": 0.09090909090909091,
+          "integration_pattern": "No specific pattern",
+          "bridge_terms_found": [],
+          "strength": "Weak"
+        },
+        "intervention_cross_purpose": {
+          "purposes": [
+            "intervention",
+            "cross_purpose"
+          ],
+          "overlap_count": 0,
+          "overlap_terms": [],
+          "jaccard_similarity": 0.0,
+          "integration_pattern": "No specific pattern",
+          "bridge_terms_found": [],
+          "strength": "Minimal"
+        }
+      },
+      "semantic_bridges": {
+        "foundational_bridges": [
+          "framework",
+          "theory"
+        ],
+        "methodological_bridges": [],
+        "operational_bridges": [],
+        "custom_bridges": [
+          "emergent properties"
+        ]
+      },
+      "integration_matrix": {
+        "similarity_matrix": {
+          "descriptive": {
+            "descriptive": 1.0,
+            "explanatory": 0.0,
+            "predictive": 0.087,
+            "causal": 0.0,
+            "intervention": 0.0,
+            "cross_purpose": 0.0
+          },
+          "explanatory": {
+            "descriptive": 0.0,
+            "explanatory": 1.0,
+            "predictive": 0.111,
+            "causal": 0.111,
+            "intervention": 0.056,
+            "cross_purpose": 0.111
+          },
+          "predictive": {
+            "descriptive": 0.087,
+            "explanatory": 0.111,
+            "predictive": 1.0,
+            "causal": 0.048,
+            "intervention": 0.0,
+            "cross_purpose": 0.091
+          },
+          "causal": {
+            "descriptive": 0.0,
+            "explanatory": 0.111,
+            "predictive": 0.048,
+            "causal": 1.0,
+            "intervention": 0.0,
+            "cross_purpose": 0.091
+          },
+          "intervention": {
+            "descriptive": 0.0,
+            "explanatory": 0.056,
+            "predictive": 0.0,
+            "causal": 0.0,
+            "intervention": 1.0,
+            "cross_purpose": 0.0
+          },
+          "cross_purpose": {
+            "descriptive": 0.0,
+            "explanatory": 0.111,
+            "predictive": 0.091,
+            "causal": 0.091,
+            "intervention": 0.0,
+            "cross_purpose": 1.0
+          }
+        },
+        "average_similarity": 0.047066666666666666,
+        "max_similarity": 0.111,
+        "min_similarity": 0.0,
+        "integration_strength": "Minimal Integration"
+      },
+      "foundational_concepts": [],
+      "integration_quality": {
+        "integration_completeness": 0.4166666666666667,
+        "balance_across_purposes": 0.047619047619047616,
+        "cross_purpose_coverage": 0.16666666666666666,
+        "semantic_coherence": 0.6249999999999999,
+        "overall_quality": 0.31398809523809523,
+        "quality_issues": [
+          "Low integration completeness",
+          "Imbalanced extraction across purposes",
+          "Limited cross-purpose coverage"
+        ],
+        "recommendations": [
+          "Increase identification of multi-purpose terms",
+          "Improve balance in vocabulary extraction",
+          "Enhance identification of terms serving multiple purposes"
+        ]
+      }
+    }
+  },
+  "balance_assessment": {
+    "aggregate_counts": {
+      "descriptive": 59,
+      "explanatory": 29,
+      "predictive": 30,
+      "causal": 35,
+      "intervention": 36
+    },
+    "theory_balances": {
+      "social_cognitive_theory": {
+        "descriptive": 18,
+        "explanatory": 12,
+        "predictive": 10,
+        "causal": 12,
+        "intervention": 15
+      },
+      "systems_theory": {
+        "descriptive": 20,
+        "explanatory": 8,
+        "predictive": 9,
+        "causal": 12,
+        "intervention": 11
+      },
+      "complexity_theory": {
+        "descriptive": 21,
+        "explanatory": 9,
+        "predictive": 11,
+        "causal": 11,
+        "intervention": 10
+      }
+    },
+    "overall_balance_ratio": 0.4915254237288136,
+    "is_system_balanced": false,
+    "balance_quality": "Poor"
+  },
+  "cross_purpose_findings": {
+    "total_multi_purpose_terms": 15,
+    "total_high_integration_terms": 2,
+    "sample_multi_purpose_terms": [
+      "triadic reciprocal causation",
+      "system perturbations",
+      "self-efficacy",
+      "causation",
+      "input-throughput-output",
+      "key",
+      "nonlinear dynamics",
+      "nonlinear interactions",
+      "emergent properties",
+      "small changes"
+    ],
+    "sample_high_integration_terms": [
+      "emergent properties",
+      "interconnected networks"
+    ],
+    "average_pair_strengths": {
+      "descriptive_explanatory": 0.0196078431372549,
+      "descriptive_predictive": 0.06407322654462243,
+      "descriptive_causal": 0.015873015873015872,
+      "descriptive_intervention": 0.0,
+      "descriptive_cross_purpose": 0.03333333333333333,
+      "explanatory_predictive": 0.08148148148148147,
+      "explanatory_causal": 0.06973241183767499,
+      "explanatory_intervention": 0.018518518518518517,
+      "explanatory_cross_purpose": 0.0787037037037037,
+      "predictive_causal": 0.03253968253968254,
+      "predictive_intervention": 0.013888888888888888,
+      "predictive_cross_purpose": 0.030303030303030304,
+      "causal_intervention": 0.031746031746031744,
+      "causal_cross_purpose": 0.05808080808080809,
+      "intervention_cross_purpose": 0.0
+    },
+    "strongest_pairs": [
+      [
+        "explanatory_predictive",
+        0.08148148148148147
+      ],
+      [
+        "explanatory_cross_purpose",
+        0.0787037037037037
+      ],
+      [
+        "explanatory_causal",
+        0.06973241183767499
+      ]
+    ],
+    "cross_purpose_quality": "Fair"
+  },
+  "demonstration_summary": {
+    "theories_processed": 3,
+    "balanced_theories": 0,
+    "balance_success_rate": 0.0,
+    "total_terms_extracted": 191,
+    "total_multi_purpose_terms": 16,
+    "overall_balance_ratio": 0.4915254237288136,
+    "cross_purpose_quality": "Fair",
+    "demonstration_success": "Poor",
+    "key_achievements": [
+      "Successfully identified extensive cross-purpose vocabulary",
+      "Demonstrated system robustness across multiple theory types"
+    ],
+    "areas_for_improvement": [
+      "Improve balance between theoretical purposes",
+      "Increase consistency of balanced extraction across theories"
+    ]
+  }
+}

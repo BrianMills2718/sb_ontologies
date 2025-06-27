@@ -1,0 +1,77 @@
+# Default values for phase8_test_api
+# 
+# PRODUCTION CONFIGURATION:
+# Update ingress.host to your actual production domain before deploying
+# Example: mycompany.com, app.mycompany.com, etc.
+# 
+# For staging: Update ingress.stagingHost for staging environment
+# These defaults use example.com for demonstration only
+#
+replicaCount: 1
+
+image:
+  repository: phase8_test_api
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: ClusterIP
+  ports:
+    - name: http
+      port: 8080
+    - name: metrics
+      port: 10919
+
+ingress:
+  enabled: true
+  className: "nginx"
+  annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+  # Configure your production domain here
+  host: phase8_test_api.example.com
+  stagingHost: phase8_test_api-staging.example.com
+  hosts:
+    - host: "{{ .Values.ingress.host }}"
+      paths:
+        - path: /
+          pathType: Prefix
+  tls:
+    - secretName: phase8_test_api-tls
+      hosts:
+        - "{{ .Values.ingress.host }}"
+
+resources:
+  limits:
+    cpu: 1000m
+    memory: 1Gi
+  requests:
+    cpu: 250m
+    memory: 512Mi
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 80
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
+
+postgresql:
+  enabled: true
+  auth:
+    database: phase8_test_api_db
+    username: postgres
+
+redis:
+  enabled: true
+  auth:
+    enabled: true
+
+monitoring:
+  enabled: true
+  serviceMonitor:
+    enabled: true

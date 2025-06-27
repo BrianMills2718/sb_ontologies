@@ -1,0 +1,86 @@
+version: '3.8'
+
+services:
+
+  phase8_test_api:
+    build: .
+    ports:
+      - "10919:10919"
+      - "10919:10919"  # metrics
+    environment:
+      - database_url=postgresql://postgres:${DATABASE_PASSWORD}@phase8_test_api-postgres:5432/phase8_test_api_db
+      - redis_url=redis://:${REDIS_PASSWORD}@phase8_test_api-redis:6379/0
+      - API_SECRET_KEY=${API_SECRET_KEY}
+      - ENVIRONMENT=development
+    volumes:
+      - ./config:/app/config:ro
+      - ./logs:/app/logs
+    depends_on:
+      phase8_test_api-postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:10919/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    restart: unless-stopped
+    networks:
+      - phase8_test_api-network
+
+  phase8_test_api-postgres:
+    image: postgres:15
+    environment:
+      - POSTGRES_DB=phase8_test_api_db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=${DATABASE_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./scripts/init_db.sql:/docker-entrypoint-initdb.d/init_db.sql:ro
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - phase8_test_api-network
+
+  phase8_test_api-prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "15273:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+    networks:
+      - phase8_test_api-network
+
+  phase8_test_api-grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=uGSAD&fhbwg1Qq2#Bu&#Wc&qaR0eWaDt
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./monitoring/grafana/dashboards:/var/lib/grafana/dashboards:ro
+      - ./monitoring/grafana/provisioning:/etc/grafana/provisioning:ro
+    networks:
+      - phase8_test_api-network
+
+volumes:
+  prometheus_data:
+  grafana_data:
+  postgres_data:
+
+networks:
+  phase8_test_api-network:
+    driver: bridge

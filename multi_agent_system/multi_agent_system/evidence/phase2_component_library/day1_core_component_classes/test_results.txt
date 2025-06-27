@@ -1,0 +1,32 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.13, pytest-7.4.4, pluggy-1.6.0 -- /home/brian/miniconda3/bin/python
+cachedir: .pytest_cache
+hypothesis profile 'default'
+metadata: {'Python': '3.10.13', 'Platform': 'Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39', 'Packages': {'pytest': '7.4.4', 'pluggy': '1.6.0'}, 'Plugins': {'respx': '0.22.0', 'xdist': '3.7.0', 'hypothesis': '6.135.10', 'json-report': '1.5.0', 'asyncio': '0.23.8', 'timeout': '2.4.0', 'metadata': '3.1.1', 'cov': '4.1.0', 'html': '4.1.1', 'mock': '3.14.1', 'anyio': '4.9.0'}}
+rootdir: /home/brian/autocoder3_cc
+plugins: respx-0.22.0, xdist-3.7.0, hypothesis-6.135.10, json-report-1.5.0, asyncio-0.23.8, timeout-2.4.0, metadata-3.1.1, cov-4.1.0, html-4.1.1, mock-3.14.1, anyio-4.9.0
+asyncio: mode=strict
+collecting ... collected 20 items
+
+tests/test_phase2_component_library.py::TestEnhancedComponentBase::test_source_component_validation PASSED [  5%]
+tests/test_phase2_component_library.py::TestEnhancedComponentBase::test_source_component_fails_with_inputs PASSED [ 10%]
+tests/test_phase2_component_library.py::TestEnhancedComponentBase::test_transformer_component_validation PASSED [ 15%]
+tests/test_phase2_component_library.py::TestEnhancedComponentBase::test_transformer_fails_without_inputs PASSED [ 20%]
+tests/test_phase2_component_library.py::TestEnhancedComponentBase::test_transformer_fails_without_outputs PASSED [ 25%]
+tests/test_phase2_component_library.py::TestEnhancedComponentBase::test_sink_component_validation PASSED [ 30%]
+tests/test_phase2_component_library.py::TestEnhancedComponentBase::test_sink_component_fails_with_outputs PASSED [ 35%]
+tests/test_phase2_component_library.py::TestEnhancedComponentBase::test_dependency_validation_fails_hard PASSED [ 40%]
+tests/test_phase2_component_library.py::TestComponentRegistry::test_component_creation_and_registration PASSED [ 45%]
+tests/test_phase2_component_library.py::TestComponentRegistry::test_duplicate_name_fails_hard PASSED [ 50%]
+tests/test_phase2_component_library.py::TestComponentRegistry::test_unknown_component_type_fails_hard PASSED [ 55%]
+tests/test_phase2_component_library.py::TestComponentRegistry::test_invalid_component_logic_fails_hard PASSED [ 60%]
+tests/test_phase2_component_library.py::TestComponentRegistry::test_missing_required_config_fails_hard PASSED [ 65%]
+tests/test_phase2_component_library.py::TestSchemaFramework::test_schema_registration_and_validation PASSED [ 70%]
+tests/test_phase2_component_library.py::TestSchemaFramework::test_schema_validation_fails_hard_on_missing_fields PASSED [ 75%]
+tests/test_phase2_component_library.py::TestSchemaFramework::test_unregistered_schema_fails_hard PASSED [ 80%]
+tests/test_phase2_component_library.py::TestSchemaFramework::test_schema_compatibility_validation PASSED [ 85%]
+tests/test_phase2_component_library.py::TestSchemaFramework::test_incompatible_schemas_fail_hard PASSED [ 90%]
+tests/test_phase2_component_library.py::TestPhase2Integration::test_complete_component_lifecycle PASSED [ 95%]
+tests/test_phase2_component_library.py::TestPhase2Integration::test_fail_hard_principles_maintained PASSED [100%]
+
+============================== 20 passed in 0.17s ==============================

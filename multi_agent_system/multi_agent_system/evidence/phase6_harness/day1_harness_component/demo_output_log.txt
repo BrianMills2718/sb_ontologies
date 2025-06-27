@@ -1,0 +1,35 @@
+2025-06-23 08:20:45,039 - Component.demo_counter - INFO - Component demo_counter setup completed
+2025-06-23 08:20:45,039 - Component.demo_counter - WARNING - Component demo_counter has no stream connections
+2025-06-23 08:20:45,039 - Component.demo_counter - INFO - HarnessComponent demo_counter setup completed successfully
+2025-06-23 08:20:45,039 - Component.demo_counter - INFO - Component demo_counter starting process loop
+2025-06-23 08:20:45,039 - Component.demo_counter - INFO - DemoCounter: Starting counting
+2025-06-23 08:20:45,039 - Component.demo_counter - INFO - DemoCounter: Message 1 received
+2025-06-23 08:20:45,140 - Component.demo_counter - INFO - DemoCounter: Message 2 received
+2025-06-23 08:20:45,240 - Component.demo_counter - INFO - DemoCounter: Message 3 received
+2025-06-23 08:20:45,341 - Component.demo_counter - INFO - DemoCounter: Final count: 3 messages in 0.30s (10.0 msg/sec)
+2025-06-23 08:20:45,341 - Component.demo_counter - INFO - Starting cleanup for component demo_counter
+2025-06-23 08:20:45,341 - Component.demo_counter - INFO - Component demo_counter cleanup completed
+2025-06-23 08:20:45,341 - Component.error_demo - INFO - Component error_demo setup completed
+2025-06-23 08:20:45,341 - Component.error_demo - WARNING - Component error_demo has no stream connections
+2025-06-23 08:20:45,341 - Component.error_demo - INFO - HarnessComponent error_demo setup completed successfully
+2025-06-23 08:20:45,341 - Component.error_demo - INFO - Starting cleanup for component error_demo
+2025-06-23 08:20:45,341 - Component.error_demo - INFO - Component error_demo cleanup completed
+2025-06-23 08:20:45,341 - Component.demo_gen - INFO - Component demo_gen setup completed
+2025-06-23 08:20:45,341 - Component.demo_gen - INFO - HarnessComponent demo_gen setup completed successfully
+2025-06-23 08:20:45,341 - Component.demo_proc - INFO - Component demo_proc setup completed
+2025-06-23 08:20:45,341 - Component.demo_proc - INFO - HarnessComponent demo_proc setup completed successfully
+2025-06-23 08:20:45,341 - Component.demo_count - INFO - Component demo_count setup completed
+2025-06-23 08:20:45,341 - Component.demo_count - INFO - HarnessComponent demo_count setup completed successfully
+2025-06-23 08:20:45,341 - Component.demo_gen - INFO - Component demo_gen starting process loop
+2025-06-23 08:20:45,341 - Component.demo_gen - INFO - DataGenerator: Starting generation of 3 items
+2025-06-23 08:20:45,341 - Component.demo_proc - INFO - Component demo_proc starting process loop
+2025-06-23 08:20:45,341 - Component.demo_proc - INFO - DemoProcessor: Starting processing loop
+2025-06-23 08:20:45,341 - Component.demo_count - INFO - Component demo_count starting process loop
+2025-06-23 08:20:45,341 - Component.demo_count - INFO - DemoCounter: Starting counting
+2025-06-23 08:20:45,342 - Component.demo_proc - INFO - DemoProcessor: Processed message 1
+2025-06-23 08:20:45,342 - Component.demo_count - INFO - DemoCounter: Message 1 received
+2025-06-23 08:20:45,542 - Component.demo_proc - INFO - DemoProcessor: Processed message 2
+2025-06-23 08:20:45,542 - Component.demo_count - INFO - DemoCounter: Message 2 received
+2025-06-23 08:20:45,743 - Component.demo_proc - INFO - DemoProcessor: Processed message 3
+2025-06-23 08:20:45,743 - Component.demo_count - INFO - DemoCounter: Message 3 received
+2025-06-23 08:20:45,943 - Component.demo_gen - INFO - DataGenerator: Generation complete

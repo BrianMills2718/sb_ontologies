@@ -1,0 +1,220 @@
+citation: "Young, Michael D. 1996. Cognitive Mapping Meets Semantic Networks. Journal of Conflict Resolution 40(3): 395-414."
+
+applied_to: "Carter Speech - Charleston, SC - July 21, 1977"
+
+analysis_type: "Cognitive Map Construction using WorldView System"
+
+belief_structure:
+  title: "Carter's Cognitive Map of US-Soviet Relations"
+  
+  # ENTITIES (Concepts/Nodes)
+  concepts:
+    - name: "United States"
+      type: "entity" 
+      properties: ["superpower", "democratic", "responsible"]
+      
+    - name: "Soviet Union" 
+      type: "entity"
+      properties: ["superpower", "communist", "competitor"]
+      
+    - name: "Nuclear weapons"
+      type: "entity" 
+      properties: ["dangerous", "proliferating", "controllable"]
+      
+    - name: "Arms control"
+      type: "entity"
+      properties: ["necessary", "bilateral", "verifiable"]
+      
+    - name: "SALT negotiations"
+      type: "entity"
+      properties: ["strategic", "ongoing", "comprehensive"]
+      
+    - name: "Détente"
+      type: "entity"
+      properties: ["previous_policy", "abandoned_term", "problematic"]
+      
+    - name: "International cooperation"
+      type: "entity"
+      properties: ["beneficial", "multilateral", "necessary"]
+      
+    - name: "Human rights"
+      type: "entity" 
+      properties: ["universal", "moral", "differentiating"]
+      
+    - name: "World peace"
+      type: "entity"
+      properties: ["achievable", "mutual_benefit", "long_term"]
+
+  # RELATIONSHIPS (Edges)
+  causal_relationships:
+    - source: "Nuclear proliferation"
+      target: "Global insecurity"  
+      type: "positive_causal_link"
+      strength: "strong"
+      
+    - source: "Arms control agreements"
+      target: "Strategic stability"
+      type: "positive_causal_link" 
+      strength: "moderate"
+      
+    - source: "US-Soviet cooperation"
+      target: "Third World stability"
+      type: "positive_causal_link"
+      strength: "moderate"
+      
+    - source: "Secrecy in policy"
+      target: "Weak negotiating position"
+      type: "positive_causal_link"
+      strength: "strong"
+      
+    - source: "Public understanding"
+      target: "Policy effectiveness"
+      type: "positive_causal_link"
+      strength: "strong"
+
+  noncausal_relationships:
+    - source: "United States"
+      target: "Soviet Union"
+      type: "competitor"
+      
+    - source: "Carter administration"
+      target: "Previous administrations" 
+      type: "different_approach"
+
+  is_a_relationships:
+    - source: "SALT negotiations"
+      target: "Arms control"
+      
+    - source: "Nuclear test ban"
+      target: "Arms control"
+      
+    - source: "Conventional arms limitations"
+      target: "Arms control"
+
+  part_of_relationships:
+    - source: "Human rights policy"
+      target: "Overall foreign policy"
+      
+    - source: "Middle East peace"
+      target: "US-Soviet cooperation"
+      
+    - source: "Energy cooperation" 
+      target: "Long-term collaboration"
+
+# WORLDVIEW SYSTEM FEATURES
+semantic_network_properties:
+  synonym_facility:
+    - ["cooperation", "collaboration", "working together"]
+    - ["competition", "rivalry", "antagonism"]
+    - ["arms control", "arms limitation", "strategic balance"]
+    
+  aggregation_capability:
+    multiple_policy_domains: ["arms control", "human rights", "economic cooperation", "regional conflicts"]
+    unified_under: "principled realism"
+    
+  hidden_information:
+    - "Complex Soviet motivations beyond simple competition"
+    - "Domestic political constraints on arms negotiations"  
+    - "Technological developments affecting strategic balance"
+    
+  encapsulated_concepts:
+    - concept: "Détente"
+      internal_components: ["competition management", "selective cooperation", "crisis avoidance"]
+
+# STRUCTURAL MEASURES  
+network_topology:
+  centrality_scores:
+    - concept: "Arms control"
+      centrality: 0.85
+      rationale: "Most connected concept in network"
+      
+    - concept: "US-Soviet relationship"  
+      centrality: 0.78
+      rationale: "Central bilateral focus"
+      
+    - concept: "Nuclear weapons"
+      centrality: 0.72  
+      rationale: "Key threat driving policy"
+      
+  connectivity_measures:
+    overall_density: 0.64
+    interpretation: "Moderately dense belief network with clear policy integration"
+    
+    clustering_coefficient: 0.58
+    interpretation: "Policy domains show moderate interconnection"
+
+# BELIEF CHANGE PROCESSES
+dynamic_elements:
+  learning_sources:
+    - "Vietnam War experience → avoid unilateral commitments"
+    - "Watergate crisis → emphasize transparency and public engagement"
+    - "Energy crisis → recognize interdependence realities"
+    
+  belief_updating_mechanisms:
+    - trigger: "Soviet reciprocal actions"
+      effect: "Strengthen cooperation beliefs"
+      
+    - trigger: "Arms race escalation"  
+      effect: "Intensify control beliefs"
+      
+    - trigger: "Third World developments"
+      effect: "Expand multilateral cooperation beliefs"
+
+# DECISION MAKING IMPLICATIONS
+decision_processes:
+  priority_ranking:
+    1. "Strategic arms control (SALT)"
+    2. "Nuclear proliferation prevention" 
+    3. "Regional conflict management"
+    4. "Human rights promotion"
+    
+  reasoning_patterns:
+    - "Mutual benefit calculations drive cooperation"
+    - "Reciprocity expectations shape engagement"
+    - "Public support requirements condition policy"
+    - "Long-term stability prioritized over short-term gains"
+
+# COMPARATIVE MEASURES (vs Previous Administrations)
+belief_structure_differences:
+  ford_administration:
+    - "Less emphasis on human rights integration"
+    - "More secretive decision processes"
+    - "Narrower arms control focus"
+    
+  nixon_administration:
+    - "Less public engagement in foreign policy"
+    - "More compartmentalized policy domains"
+    - "Different Soviet leadership assumptions"
+
+# CONTENT ANALYSIS RESULTS
+extracted_triples:
+  - subject: "Carter"
+    relation: "advocates"
+    object: "comprehensive arms reductions"
+    
+  - subject: "United States" 
+    relation: "proposes"
+    object: "nuclear test ban"
+    
+  - subject: "Both superpowers"
+    relation: "share"
+    object: "energy challenges"
+    
+  - subject: "Previous policies"
+    relation: "lacked"
+    object: "public transparency"
+
+worldview_system_analysis:
+  theoretical_contribution: "Demonstrates how semantic network formalism captures Carter's integrated policy framework better than traditional adjacency matrix approaches"
+  
+  methodological_advantages:
+    - "Synonym facility reveals policy domain connections"
+    - "Aggregation shows unified strategic thinking"
+    - "Structural measures quantify belief integration"
+    - "Dynamic modeling potential for belief change tracking"
+    
+  cognitive_mapping_insights:
+    - "Carter's beliefs form coherent network around arms control centrality"
+    - "Human rights integration represents novel policy linkage"
+    - "Transparency emphasis reflects structural belief about effective diplomacy"
+    - "Multilateral cooperation beliefs indicate learning from historical experience"

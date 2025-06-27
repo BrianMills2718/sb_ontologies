@@ -1,0 +1,451 @@
+Socio-Semantic Networks
+Nikita Basov1 (0000-0003-3630-6119) and Camille Roth2,3,4 (0000-0003-3925-7957) ∗
+1University of Manchester, UK
+2CNRS, France
+3Computational Social Science team, Centre Marc Bloch (CNRS/HU), Berlin, Germany
+4Centre d’Analyse et de Mathématique Sociales (CNRS/EHESS), Paris, France
+in ‘Handbook of Social Network Analysis and Culture’, ed. by Nick Crossley and Paul Widdop
+Introduction
+Recent revitalization of ‘networks and culture’ studies is closely connected with the emergence of a new an-
+alytical framework and the corresponding interdisciplinary research area: socio-semantic network analysis
+(Roth and Cointet, 2010; Basov, Breiger, and Hellsten, 2020). It relies on explicit linking of social relationships
+(e.g., collaboration, advice, or friendship) and semantic associations (e.g., co-definitions or similarities be-
+tween words, notions, or ideas). Socio-semantic network analysis offers conceptual perspectives and meth-
+ods to structurally unfold and explain the – traditionally implicit and interpretively addressed – relation
+between collectivity and meaning. It does so by directly observing the interplay between social structures
+of groups (e.g., organizations, communities, movements) and semantic structures of culture (e.g., discourses,
+knowledge, tastes), rather than indirectly implying the laer in the former, or vice versa. As such, this an-
+alytical perspective strives to make a crucial step in understanding society, where social relationships and
+semantic associations alike are ontologically defined by their relative structural positions both within and
+across the two realms: Social relationships between actors (e.g., through interaction) give meaning to seman-
+tic associations with regard to the social context in which these relationships are embedded and semantic
+associations constitute the meaning of social relationships (e.g., ‘we are friends’) against the background of
+other semantic associations which they elaborate on or distinguish from (White, 1992; Godart and White,
+2010). Since social and semantic relations are co-constitutive they can only be fully understood together
+(Mohr and Duquenne, 1997). For some authors, they are even joint and second-order manifestations of a
+“deeper set of forces, namely identity and control” (Breiger, 2010, referring to White and Godart [2007])
+Socio-semantic network analysis is, thus, concerned with the duality of (1) semantic systems underlying
+opinions, views, values, schemata, perspectives, frames, or ideas and (2) systems of social relationships to
+which they correspond and to the participants of which they constitute a given reality. Scholars of socio-
+semantic networks aim to reveal network-level relations between these systems as well as the specific mech-
+anisms of socio-semantic bundling through which the duality of the social and the semantic operates. It
+sheds light on co-dependencies between similarity in expressions and dyadic friendships, paerns of collab-
+oration and co-creation of ideas, discursive struggle and differences in social network positions. Research
+contexts range from global scientific fields to artistic communes, from contemporary online social media -
+to medieval politics.
+Synthetic by birth, socio-semantic network analysis thrives on the combination of its two fundamental
+pillars: structure and content. As such, it inherits their customary syntheses, especially of quantitative and
+qualitative methods, of ‘Big’ and ‘thick’ data, of micro and macro analytical levels. Being such a crossroad,
+socio-semantic network analysis is a point of joint growth for multiple disciplines aiming to understand the
+co-constitution of the social and the semantic.
+The remainder of this chapter outlines the story behind the socio-semantic framework, the possibilities
+it opens, the challenges it struggles with, and its prospects.
+∗Both authors contributed equally. Correspondance: nikita.basov@manchester.ac.uk and camille.roth@cnrs.fr
+1
+1 The Past: Origination of socio-semantic network analysis
+Semantic networks. The becoming of the socio-semantic framework consists in a gradual drift of its
+two constituent components towards each other. On the side of semantic network analysis, rooted in psy-
+cholinguistics (Raphael, 1964; illian, 1968; Johnson-Laird, Herrmann Jr., and Chaffin, 1984) and structural
+linguistics (Harris, 1963; Saussure, [1916] 1959), the related movement was from positions in structures of co-
+definition between words towards appreciation of the social contexts in which these chains of co-definition
+make sense, in a sociolinguistic stream of thinking (Wigenstein, 1953; Labov, 1972). Further reinforced by
+the evidence on idiomatic expressions in corpus linguistics, such as in the work of Sinclair (1991), the idea of
+semantic networks as associated with particular social seings became persistent. Similarly, actor-network
+theory (Callon and Latour, 1981) proposed an approach accommodating interactions between human and
+non-human actors, emphasizing in particular how word associations could account for semantic (semiotic)
+connections, between ideas as well as between ideas and actors.
+Studies of science and technology, and more specifically scientometrics, were among the first research
+areas to develop a massive effort for the quantitative mapping of semantic networks in social systems. One
+technique to do so was the mapping of co-occurring words or references in large bibliographic corpora (Mc-
+Cain, 1986; Leydesdorff, 1989; Callon, Courtial, and Laville, 1991) that ultimately aimed at describing the
+relative arrangement of scientific subfields as clusters of semantic links automatically extracted from tex-
+tual data. Leydesdorff (e.g., 1997), further, focused on the relation between social actors in communication
+and discourse, and on meanings as continuously re-created at different levels of social actors. He has de-
+veloped the ideas underlying actor-network theory to apply to large-scale data sets, shifting the focus from
+qualitative case studies to a quantitative system-level approach (e.g., Leydesdorff, 2001), while proposing
+automated tools for mapping word co-occurrences in the context of specific societal issues (e.g., Leydes-
+dorff and Hellsten, 2005; Hellsten, Dawson, and Leydesdorff, 2010) or geing closer to actor-network theory
+by gathering co-occurring hashtags and addressed actors in social media data within the same semantic
+network (Hellsten and Leydesdorff, 2020).
+Subsequent decades witnessed a rapid growth in the amount of accessible cultural data, especially in
+online communication, even though such data were largely decontextualized, hence departing further from
+the ethnographic perspective of scholars close to actor-network theory. This led to a burgeoning of semantic
+network analyses in communication science (Corman et al., 2002; Nerghes et al., 2015; Kwon et al., 2016; Vel-
+tri and Atanasova, 2017), which already had the tradition of associating semantic networks with particular
+social groups (Danowski, 1982; Doerfel, 1998; Doerfel and Barne, 1999). Simultaneously, rapid progress on
+semantic networks, especially of word associations, was made in adjacent fields and at the interface with
+computational linguistics, including in cognitive science (Steyvers and Tenenbaum, 2005; Austerweil, Abbo,
+and Griffiths, 2012; Nelson et al., 2013; Lerique and Roth, 2018), political science (Van Aeveldt, Kleinnijen-
+huis, and Ruigrok, 2008; S. Yang and González-Bailón, 2018) as well as complex systems (Borge-Holthoefer
+and Arenas, 2010; Teixeira et al., 2010). On the whole, researchers derived relations between words from
+various types of textual data and proposed natural language processing extensions, such as syntax-based
+approaches to enhancing word associations with information about parts of speech, grammatical relations
+between words, and ontologies (Jäschke et al., 2008; Evans and Aceves, 2016; Stuhler, 2021) to map a range of
+co-occurring constructs in news articles, political discourses, and, increasingly often, online ‘Big’ data (Rule,
+Cointet, and Bearman, 2015; Sudhahar, Veltri, and Cristianini, 2015; Hellsten, Jacobs, and Wonneberger,
+2019).
+Progressing in automated text data mining and analysis (Srivastava and Sahami, 2009; Grimmer and
+Stewart, 2013; Wilkerson and Casas, 2017), this stream of studies often focuses on online data and frequently
+abstracts from social contexts, as pinpointed by its internal critics (Bail, 2014). The junction of computational
+automated analyses of large-scale data and of in-depth contextual analyses utilizing ethnographic data
+was achieved in sociology. There, the interest in semantic networks in the 1990s brought together the
+perspectives and techniques of communication science, cognitive science and sociolinguistics in a movement
+known as formal analysis of culture. Led by John Mohr (Mohr, 1994, 1998, 2000; Kirchner and Mohr, 2010),
+this movement is largely responsible for the growing popularity of semantic network analysis in sociology
+2
+nowadays (Hoffman et al., 2018; Kozlowski, Taddy, and Evans, 2019). Formal analysts approach culture as
+“relations between rather individual elements and the paerns arising in these” (Edelmann and Mohr, 2018).
+They aim at theorizing cultural mechanisms and applying formal methods to cultural data in search of the
+corresponding cultural paerns.
+One of the major contributions to this movement, apart from John Mohr’s own works, is to be found in
+the ‘quantitative narrative analysis’ of Roberto Franzosi (1999, 2004, 2010), whose methodological project
+created a profound basis for enhancement of word collocation semantic network analysis with syntax-based
+techniques. Alternative, yet also essentially mixed-method-based network analyses of culture in sociology
+have notably been developed by the teams of Peter Bearman and John Padge (McLean, 1998; Bearman
+and Stovel, 2000; McLean, 2007; Padge, 2018). A recent step in taking advantage of the combination of
+computer-analytical techniques and qualitative interpretation in formal analysis of culture is ‘computational
+hermeneutics’ puing together machine-performed ‘distant reading’ of text and human ‘close reading’, a
+combination that enables understanding of cultural statistical regularities in their social contexts (Mohr,
+Wagner-Pacifici, Breiger, and Bogdanov, 2013; Mohr, Wagner-Pacifici, and Breiger, 2015; Breiger, Wagner-
+Pacifici, and Mohr, 2018).
+Elements of convergence of social and semantic networks. Notwithstanding these developments
+in the analysis of cultural structure, the point of convergence of social and semantic networks lies at the
+junction of formal analysis of meanings and social network analysis. This, however, was not straightfor-
+ward. Traditionally, social network research has purposively bracketed culture for the sake of focusing on
+the structures of relations among social actors (Barnes, 1954; White, Boorman, and Breiger, 1976; Wellman,
+1988; Wellman and Berkowitz, 1988). Cultural sociology appears to have given the key impulse for the con-
+vergence in the study of structure and culture. Already in the 1990s, calls to jointly study both realms could
+build upon a wealth of pioneering intuitions and works revolving around three main ideas: the critique of a
+strict social structuralism, the dependence of networks on meaning, and the need to introduce the cultural
+level directly into social network analysis. Sewell (1992) recalls how sociology and, more precisely, a large
+part of social network analysis typically diverge from anthropology in the interpretation of what counts
+primarily as “structure”. For the former, the “material” (or interactional) realm prevails over the “mental”
+(or cultural) realm, which is thus secondary. The opposite holds for the laer. In effect, social network anal-
+ysis has a long history of recovering social order from the network structure exclusively rather than using
+preexisting social or semantic categories, even if typical node paerns such as structural equivalence (Lor-
+rain and White, 1971) have more to do with meaning than cohesion, and even though early social network
+analyses could mobilize cultural features in their depictions (see Fuhse, 2009). Assuming the primacy of
+structure over culture or, more concretely, of relations over “categories” (in the broad sense) may have led to
+overlook or at least to neglect the crucial contribution of the cultural and semiotic dimensions to the forma-
+tion of structure (Emirbayer and Goodwin, 1994). Cultural sociology forcefully rejected a strong structural
+viewpoint whereby networks alone would somehow reveal enough about the constraints that apply to indi-
+viduals, while the study of motives, beliefs and identities should be left to other fields, be it anthropology or
+psychology (see Vaisey and Lizardo, 2010). Instead, it underlined how social networks depend on identities,
+contexts, meanings (White, 1992; Pachucki and Breiger, 2010), to the point that each interaction context
+could configure a different network, echoing the earlier notion of “multi-purpose ties” introduced by Fine
+and Kleinman (1983) and the later conflict-based actor networks of Tilly (1997).
+In a way, culture had to be ‘smuggled’ (Emirbayer and Goodwin, 1994) into network analysis by a range
+of network and culture studies (for overviews, see Pachucki and Breiger, 2010; Fuhse, 2015a). These studies
+empirically tested theories related to specific network mechanisms affecting culture, such as transmission
+(Erickson, 1982; Krackhardt and Kilduff, 1990; Mark, 1998; Krackhardt and Kilduff, 2002), proximity (Rice and
+Aydin, 1991; Rice, 1993; Meyer, 1994), or socialization (Kandel, 1978). These and similar theories argue that
+social ties enable exchange with cultural elements — pieces of information, preferences, aitudes, choices,
+or aributions — which condition similarities in individuals’ cognitive systems, perspectives, and tastes,
+combining these elements (Carley, 1986; DiMaggio, 1987; Erickson, 1988; Kilduff, 1990; Mark, 1998). While
+the main focus was on culture associated with dyadic relationships between social actors (Krackhardt and
+3
+Kilduff, 1990; Rice and Aydin, 1991) researchers have also been increasingly going beyond the dyadic level
+(see Krackhardt and Kilduff, 2002; Basov and Brennecke, 2017).
+Kathleen Carley was, perhaps, the one who triggered change in the aitude of social network analysts
+to culture. Her offer was to treat not only the social but also the cultural realm structurally, and to apply so-
+cial network analysis techniques to semantic networks of culture (Carley, 1994, 1997). Her pioneering work
+(Carley, 1986) introduced a framework that precisely comprised all the building blocks required to jointly
+appraise the social and the semantic structure: first by defining them separately, then by connecting them.
+Her work was seled in the context of collective decision-making: a social cognitive process where the anal-
+ysis of facts by individuals heavily depends on social structure, locally and collectively. Social structure takes
+the typical form of a social network whose clusters are block-modeled (White, Boorman, and Breiger, 1976),
+semantic structure is figured by concept maps i.e., semantic networks. Typical social network analysis mea-
+sures such as centrality and transitivity are computed on both networks, while actor-centric concept maps
+may be studied and compared for groups of actors, which achieves the hybridation of connections of all
+types — social, semantic, and socio-semantic. Carley and her team further applied social network measures
+to semantic networks (Carley and Kaufer, 1993), intersected semantic networks to represent group culture
+(Carley, 1997), and extracted social networks from texts (Carley, Diesner, et al., 2007; Diesner, 2013). More-
+over, she and colleagues created software for (semi-)automated mapping, intuitive visualization and analysis
+of semantic networks: ‘AutoMap’ and ‘ORA’ (Diesner and Carley, 2011; Pfeffer and Carley, 2013). Concep-
+tually Carley (1991), Carley proposed a ‘constructural theory’ of networks and culture interplay, which still
+inspires researchers decades after (Lizardo, 2006; Breiger and Puetz, 2015). Classical social network analysis
+methods were further applied to cultural connections, such as blockmodeling to co-occurrences of semantic
+categories (Mohr, 1994; Tilly, 1997), and led to the emergence of hybrid notions, like ‘cultural holes’ or ‘weak
+cultural ties’ (Pachucki and Breiger, 2010; Schultz and Breiger, 2010; Lizardo, 2014).
+Towards a symmetric appraisal. Foundational as they were, most of the earlier networks and culture
+studies treated culture as secondary, would it be disconnected elements that travel through social networks
+or aributes of actors. Subjected to multiple criticisms (e.g., Brint, 1992; Emirbayer and Goodwin, 1994),
+networks scholars gradually started looking into the inverse effect of cultural meanings on social networks
+(Mark, 1998; Lizardo, 2006; Boero, 2009; Vaisey and Lizardo, 2010; Boero and Crossley, 2011; Lewis and
+Kaufman, 2018). This movement, led by one of the founding fathers of the contemporary social network anal-
+ysis, Harrison White, resonated with the cultural turn in social sciences overall (Alexander and Smith, 1993;
+Alexander, 2003; Friedland and Mohr, 2004). White built his relational sociology on the premise that net-
+works and culture are naturally intertwined as actors seek sensible footing in the social space (White, 1992;
+Emirbayer, 1997; Kirchner and Mohr, 2010; Mische, 2011; Fuhse, 2015b), which makes networks ’culturally
+constituted’ (Mische, 2003). Therefore, understanding of social networks and cultural processes underlying
+them are to be part of the same project (Mische and White, 1998; Fuhse and Mützel, 2011). White’s notion
+of netdom (White, 1992; Godart and White, 2010) – a term which stands for “social networks” and “semiotic
+domains” denotes a cultural domain and a social network corresponding to it – concluded the synthesis.
+Netdoms crucially rely on the concept of “stories”, construed as sets of semantic relationships which may
+precede actual interactions.
+As Carley – a PhD student of White – approached also the cultural realm structurally, and White’s
+notion of netdom explicitly brought the two realms together, the idea of cultural and social duality was
+locked (Mohr and Duquenne, 1997; Breiger, 2000), aligned with one of the main fundamental dualities of
+social sciences (Mead, 1934; Berger and Luckmann, 1966; Bourdieu, 1985; Mohr and Neely, 2009). The
+corresponding perspective treats culture as a system of meaningful associations between cultural elements,
+a system ’objective’ to any subset of actors in the social network associated with it, and as such, distinct
+and self-consistent, having an ‘equal weight’ to social structure (Mohr, 2000). Social and cultural structures
+started being explicitly put together (Mohr, 1998). For instance, it was shown that social institutions classify
+individuals into groups, assign them similar identities, and impose corresponding meanings on them (Mohr
+and H. K. Lee, 2000; Jancsary et al., 2017).
+On the whole, cultural sociology has developed formal frameworks that connect, to some extent, so-
+4
+cial and semantic networks, or semantics with social networks, or semantic networks with actors (beyond
+the above-mentioned works, see also Leenders, 1997; Lazega and Paison, 1999; Snijders, Steglich, and
+Schweinberger, 2007; Godart and White, 2010; P. Wang et al., 2013). Few works pushed the generalization
+of connection types much further than Krackhardt and Carley (1998) who introduced networks between
+several kinds of entities (actors, resources, tasks, skills) and their various potential projections, denoted as
+“meta network” in Carley (2002) and leading to a further operationalization in Diesner and Carley (2005)
+where a myriad of, inter alia, actor-actor, actor-concept, concept-concept relationships are extracted from
+text corpuses. Nevertheless, this was not yet juxtaposing of social and cultural structures.
+The first to propose socio-semantic network analysis was Camille Roth (Roth and Bourgine, 2003; Roth,
+2006, 2007), with clear connections with two-mode (Breiger, 1974) and even three-mode (Fararo and Doreian,
+1984) approaches initially concerned with group affiliations, that opened a path to direct representation
+of relations between social and cultural structures. Modeling joint evolution of semantic communication
+networks in scientific communities and in social media, Roth and coauthors revealed stable paerns of this
+co-evolution, associated with centralization, clustering and transitivity, and contraction and diversification
+(see Roth, 2006; Roth and Cointet, 2010; Roth, 2013). Along a similar line of reasoning, Taramasco, Cointet,
+and Roth (2010) appraised the joint social and semantic novelty of teams involved in collaborative articles
+using a mixed approach considering hybrid groups of authors and concepts. These developments were met
+with interest by social network analysts, who started puing together social and semantic networks, and
+the relations between the two (Shi, Foster, and Evans, 2015).
+Notwithstanding, a few adjacent fields had also explicitly coined notions and expressions combining
+‘social’ and ‘semantic’. Such is obviously the case of the socio-semantic web or social semantic web (Zacklad,
+Cahier, and Pétard, 2003; S. Wang and Groth, 2010), aimed at integrating social aspects into the so-called
+‘semantic web’ — an engineering field, already thriving in the early 2000s, focused on ontologies and the
+conception of specifications and protocols to deal with relationships between various types of entities. The
+socio-semantic web intended to augment semantic web ontologies with a social layer, and the social web
+(i.e., essentially ontologies of people) with a semantic layer, in order to improve the cooperative manage-
+ment of ontologies and to foster the emergence of knowledge-oriented user groups. While some ontologies
+connected almost indifferently actors and concepts in all directions (e.g., ‘FOAF’, Friend Of A Friend, Finin
+et al., 2005), by contrast, semantic-social networks (Mika, 2007) extended classical ontologies by adding the
+notion that meaning depends on actors and by specifying which actor is behind which ontological relation-
+ship. Such tripartite actor-concept-instance graphs resemble very much both social tagging systems and
+the precursor cognitive social structures proposed by Krackhardt (1987): the resulting macro-level structure
+is essentially a knowledge map whose implicit connectors are agents or, more precisely, their beliefs on
+concepts.
+Hybrid networks of actors and concepts, featuring in all generality hybrid interactional and semantic
+relationships, were increasingly introduced around the turn of the 2010s. They were variously denoted as
+semantic social networks (Gloor et al., 2009), aribute-augmented graphs (Zhou, Cheng, and Yu, 2009), bi-type
+information networks (Sun et al., 2009), content-based social networks (Cucchiarelli, D’Antonio, and Velardi,
+2010), social content networks (S. Wang and Groth, 2010), augmented social networks (Cruz, Bothorel, and
+Poulet, 2013), or heterogeneous graphs (Liu et al., 2017), to cite a few. These works typically involve both
+social and semantic nodes, and describe links and clusters of interest in a unified representation. This also
+relates to a longer effort in the information visualization community to propose hybrid social and semantic
+representations, starting with Sack (2003) who put side by side semantic and social networks (term rela-
+tionships and user replies), responding to the short yet much older call of Dourish and Chalmers (1994) to
+do so. Hybrid visualizations have since become much more familiar, including pivot graphs (Waenberg,
+2006), where node placement is influenced by aributes, pivot paths (Dörk et al., 2012), which alternates
+between actor- and concept-centric navigation. Various types of projections of social graphs on semantic
+maps (Korff, Oberg, and Powell, 2015) or the other way around (Gaumont, Panahi, and Chavalarias, 2018)
+are now rather common.
+5
+2 The Present: Strengths of socio-semantic network analysis
+The present of socio-semantic network analysis starts, perhaps, with its rapid expansion when a group of
+researchers took up Roth’s perspective to relate construction of culture to social network positions (Basov,
+J.-S. Lee, and Antoniuk, 2017), to approach meanings as paerns that simultaneously include semantic as-
+sociations and social relationships (Basov, Nooy, and Nenko, [2018] 2021), and to examine relation between
+social network ties and discoursive similarities (Saint-Charles and Mongeau, 2018). Aracting aention to
+socio-semantic approach among social networks scholars, this triggered several strands of socio-semantic
+network analysis that today co-exist and enrich each other both methodologically and substantially, while
+developing their own styles of research, specific approaches, and combinations of analytical techniques
+(Basov, Breiger, and Hellsten, 2020).
+With respect to the type of empirical material, one fast-growing strand utilizes social media data for
+(semi-) automated reconstruction of social and semantic networks (Baltzer, Karsai, and Roth, 2019; Hell-
+sten, Jacobs, and Wonneberger, 2019; Hellsten and Leydesdorff, 2020; Radicioni et al., 2021). This allows for
+socio-semantic analysis of ‘Big’ data using computational methods. Another strand focuses on scientific
+communities. For instance, Deichmann et al. (2020) examine how socio-semantic connectivity of ideas and
+research teams facilitates diffusion of ideas in academic conference publications. Within this strand lay also
+hybrid approaches to visualization of socio-semantic data (such as Roth and Basov, 2020), still rather rare
+in the literature. Yet another strand utilizes archival epistolary data subjected to computational network
+analysis and in-depth interpretation which, again, allows not only to explain relations between cultural
+similarity and social closeness but also to interpret them contextually (M. Lee, 2017). Going beyond purely
+text-based analysis and examining dynamics of word associations in records of debates, supplemented with
+statistical and qualitative analyses of social actors’ similarities in speeches, archival socio-semantic schol-
+ars manage to infer co-evolution of social and semantic structures over years (Fuhse, Stuhler, et al., 2020;
+Padge, Prajda, et al., 2020; Padge, Schoots, et al., 2020).
+A distinct direction of socio-semantic investigation looks into small-group interactions. In doing so, it
+contributes to the growing mixed method movement in networks and culture studies (Fuhse and Mützel,
+2011; Belloi, 2014; Ibrahim and Crossley, 2016). This enables shedding light on the non-trivial correlation
+between semantic similarity to other group members and social network centrality, positive only up to a
+threshold point after which the relation inverts (Saint-Charles and Mongeau, 2018).
+Socio-semantic analysis of small groups also allows for conceptual advances in ’networks and culture’
+thinking. Unlike highly regulated meaning structures imposed by institutions, small group cultures are far
+less regulated and context-specific, and hence researcher categorization – would it be a priori (formulation
+of survey questions) or a posteriori (coding) – is not fair to the data (for an extensive discussion see M. Lee
+and Martin, 2015). Motivated by the observation that categorization on the researcher’s side is not suitable
+for studying emergence of meaning in practice-driven interaction, Basov, Nooy, and Nenko ([2018] 2021)
+propose inductive mapping of socio-semantic paerns, where associations between words are affiliated with
+social network ties between the individuals who use these associations, thus – in contrast to topic or co-
+word models (see Leydesdorff, 1997; Bail, 2014) – puing forward an account of meaning that does justice
+to its contextual embeddedness in practice and interaction.
+Exploring the meaningful ways in which social network measures can be applied to semantic networks
+remains an important methodological direction, especially around the combination of two social network
+centrality measures: betweenness centrality as a measure of concept connectivity, and degree centrality as
+an indication of concept popularity (Godart and Galunic, 2019; Deichmann et al., 2020). Computationally
+finding central concepts and frequent associations shared in a certain group signals where to look for the
+focal meaning structures of that group and allows for distinguishing a certain group from others. This allows
+for finding stable paerns evading human eye when closely examining ethnographic data. However, only the
+combination of computational and qualitative analyses secures understanding (Verstehen) of these meaning
+structures in their practical contexts (Basov, Nooy, and Nenko, [2018] 2021). With a socio-semantic network
+approach, paerns of links between words and individuals can be related to ethnographic data on verbal
+expressions and interactions. Among other things, this enables relating socio-semantic micro structures
+6
+of small groups driven by practice to socio-semantic macro structures, such as those of social fields, to
+reveal how practice contests macro-scale social forces, literally, between the lines, at the very basic level
+of concept associations statistically occurring throughout practical contexts but not visible when merely
+reading interview transcripts or wrien texts (Basov, 2020; Basov, Nooy, and Nenko, [2018] 2021).
+A corresponding – and largely intertwining – methodological strand is the usage of statistical model-
+ing of socio-semantic networks in multilayer frameworks (multiplex and multilevel included), which make it
+possible to characterize hybrid paerns made of different types of links that bear different meanings (Lazega
+and Paison, 1999; Lazega, Jourda, et al., 2008; P. Wang et al., 2013). They enable tests for interdependencies
+between social and semantic networks in ways compatible with the social and cultural duality perspective.
+Particularly aractive is identifying the fundamental principles and mechanisms of co-evolution of social
+and cultural structures as interplaying and mutually affecting – as soon as the paerns corresponding to
+these principles and mechanisms are conceptualized (Basov and Brennecke, 2017). Most recent multilayer
+extensions combine computational text analysis and statistical network analysis, such as stochastic actor-
+oriented models with topic modelling (Karell and Freedman, 2020) and exponential random graph modelling
+– with word collocation networks (Basov, 2020). These extensions enable shedding light on the principles
+underlying dynamic relations between social and semantic structures. Importantly, the authors map net-
+works using mixtures of qualitative and quantitative data, thus both accounting for interpretive context
+and statistical explanation. Mixed statistical and qualitative analyses inform each other and enable insights
+impossible for either of these separately.
+Socio-semantic network analysis not only benefits from multilayer statistical network modelling tech-
+niques, but also stimulates their development in return. Puing forward new multilayer network configura-
+tions driven by its conceptual developments, it poses new modelling challenges, which results in modelling
+extensions and even new modelling frameworks, such as ’networks of networks’ (Koskinen et al., 2020).
+Extensions of socio-semantic dimensionality within a single matrix (Hellsten, Opthof, and Leydesdorff,
+2020) constitute one more direction in the methodological development of socio-semantic network analysis.
+This line of work addresses calls for hybrid methods in science and technology studies (Janssens, Glänzel,
+and De Moor, 2008; Glänzel and Thijs, 2017), such as in actor-network theory taking into account different
+types of agencies by different types of actors. Socio-semantic network analysis also recently appeared to
+be highly scalable. Using state-of-the-art computational methods for automated reconstruction of both
+social and semantic networks, it is possible to explore how global cultural properties co-constitute with
+characteristics of global social network structures connecting millions of nodes (Li, Wu, and Evans, 2020).
+Socio-semantic hypergraphs, introduced as epistemic hypergraphs in Taramasco, Cointet, and Roth (2010),
+are at the junction between socio-semantic networks and hypergraphs, a generalization of graphs currently
+raising substantial interest in the network analysis community. They versatilely accommodate most of the
+operational socio-semantic frameworks of the literature reviewed hitherto (Roth, 2021). This formalism
+also distinguishes social and semantic nodes, yet it configures a single type of n-adic relation over the
+hybrid set of all nodes, social or semantic. Most digraphs used to empirically connect social and semantic
+structures may be construed as some restriction of this n-adic relation. Trivially, restricting it to social (resp.
+semantic) dyadic relations configures a classical binary social (resp. semantic) network. Socio-semantic
+relationships between social and semantic entities may be defined as the intersection of this relation with
+the cross product of social and semantic node sets, while projected social networks and traditional co-
+affiliation networks may be defined analogously using simple conditions. Socio-semantic hypergraphs cover
+many other usual and hybrid uses, including when distinct actors ascribing different semantic relationships
+between terms, or different meanings (Fuhse, 2009; Medeuov et al., 2021). It enables the definition of multi-
+actor-multi-concept paerns, and the comparison between actors of their respective semantic networks.
+Socio-semantic “diamonds” (Roth and Cointet, 2010) describing the joint use by a couple of actors of a
+couple of concepts are also easily expressable. These hybrid paerns are currently at the root of a burgeoning
+literature building in part upon the above socio-semantic formalisms (see e.g., Basov, Breiger, and Hellsten,
+2020; Fuhse, Stuhler, et al., 2020; Basov, Nooy, and Nenko, [2018] 2021).
+7
+3 The Future: Challenges and prospects for socio-semantic network anal-
+ysis
+While making a significant step forward, socio-semantic scholarship is not free from a range of problems
+and tasks for future investigations. Some of these are rooted in the ‘original sin’ of the socio-semantic
+junction. A first challenge consists in the fundamental asymmetry in the burden of defining what counts
+as an entity in each realm. On the social side, it appears considerably easier, if not straightforward in some
+contexts, than on the semantic side. Social nodes typically represent individuals (such as authors, users),
+rarely collective entities (such as organizations, websites) whose boundaries are admiedly less well-defined.
+Semantic nodes and, thus, semantic categories, pose significantly more definitional questions, especially as
+they are often abstracted from text corpora (Evans and Aceves, 2016), be it interview transcripts or digital
+publications. Shall we focus on words, n-grams, or terms? This goes further than mere technical processing
+issues since meaning of semantic nodes across different contexts and/or different pieces of expression is not
+obviously stable (Leydesdorff, 1997). Even if we dismiss this problem, shall we use terms, or “topics” as term
+sets or distributions (Grimmer and Stewart, 2013)? “Statements” or “clauses” as syntactically articulated
+terms (Mausam et al., 2012; Vossen et al., 2016; Van Aeveldt, Sheafer, et al., 2017)? Whole “sentences”
+as syntactically consistent units (Leskovec, Backstrom, and Kleinberg, 2009)? Vectors in some opinion or
+epistemic space (Gilbert, 1997; Sim et al., 2013)? Vector models (Salton, Wong, and C. S. Yang, 1975) up to
+the most recent machine learning approaches aimed at geometrically embeddinging words, sentences or
+documents, or both (Mikolov et al., 2013; Le and Mikolov, 2014; Kozlowski, Taddy, and Evans, 2019; Angelov,
+2020, which, to some extent, take implicitly into account an underlying relational and contextual structure)?
+Answers and decisions considerably vary across the state of the art.
+Defining links across the two realms is not easier. On the social side, they are admiedly an abstraction
+of reality, all the more when the same data induce various types of relationships (affiliation vs. interaction;
+retweets vs. mentions, see Conover et al., 2011; Lietz et al., 2014) or layers (Kivelä et al., 2014). The same goes
+with the aribution of weights to edges, or arcs, and why. Such discussions nevertheless remain generally
+short: binarization is very frequent and weights oftentimes correspond to interaction frequency, whatever
+the interaction. On the semantic side, the meaning of links is relatively straightforward when nodes are
+terms (whereby co-occurrence frequency is a consensual choice), yet much less otherwise: a myriad of
+similarity metrics are available (Jaccard, cosine, edit distances in some space) to express the relatedness of
+words, sentences or documents. Last but not least, there is no less freedom for defining connections between
+social and semantic entities and most of these issues remain equally acute.
+Furthermore, the measures developed for social networks are often applied to semantic networks, which
+they are not necessarily applicable to. For one, betweenness centrality makes lile sense for semantic net-
+works, as being on the shortest paths of information or resource flows is irrelevant to them, constituted
+by relations of meaning. At the same time, reflection about the same measures across social and semantic
+planes may be fruitful. For example, having high degree centrality (i.e., having many relations of meaning
+to other semantic nodes), the focal node is often considered to be rich in meaning. However, this may also
+indicate that it fits any context, which signals triviality. if these are predominantly strong ties, in contrast
+to weak, far-reaching ties. Where is the ’triviality threshold’ for semantic node degree and how does it re-
+late to the proportion of strong and weak semantic associations (representing weak culture, see Schultz and
+Breiger, 2010))? Could the loss of originality, like in social networks, happen through contagion mechanisms,
+when associated semantic nodes grow similar in meaning? Or may homophily be involved? In either case,
+for semantic networks these considerations would imply looking at embeddings, the network surroundings
+of semantic nodes that constitute their meanings more directly than alters of actors - their originality (or
+the lack of it). Can we, the other way around, think of an actor having social ties to many others as prone
+to becoming less innovative because their perspective does not contradict others too often? The operation
+of disentangling and re-entangling social and semantic realms may bring new conceptual ideas. It is clear
+that measures should not be blindly applied across the two realms, but only after careful conceptual consid-
+eration. The same goes for network mechanisms. For instance, semantic nodes are not socially pressed to
+reciprocate directed connections. Neither they are pressed to connect because of having alters in common
+8
+and therefore having greater chances of meeting and liking each other.
+Meanwhile, the mechanisms of co-evolution of social and semantic networks offer a whole new ground
+to cover. Correspondingly, socio-semantic paerns are to be proposed, would these rely on multilayer, mul-
+tilevel, multiplex or new forms of representation – to empirically investigate sociocultural dynamics (Basov,
+2020; Karell and Freedman, 2020; Koskinen et al., 2020). To some extent these developments can rely on
+the mechanisms and paerns known from social networks (such as multiplex triadic closure or two-level
+tetradic closure).
+A related challenge consists in linking of local and global dynamics of socio-semantic networks. Partic-
+ularly for semantic networks the need to account for structures beyond dyads, triads, and tetrads is visible,
+since the meaning of alters of a given semantic node is further constituted by a circle of alters to the first
+alters - and so on, vast structures of definition are relevant to any given node, as is the case with semantic
+hypergraphs (Menezes and Roth, 2019). Nevertheless, such non-local notions as ‘path’ or ‘flow’ are rele-
+vant to social networks. These, however, are not accounted by the approaches focused on micro-paerns.
+Socio-semantic scholarship implies development of such accounts. Furthermore, network mechanisms and
+paerns, would these be local or global, are yet to be linked to the macro structures of society (social fields,
+classes, and strata). The work in this direction has already started both in socio-semantic scholarship and
+in related areas (Rawlings and Childress, 2019; Basov, 2020). A challenging task here is accounting not
+only for layering of socio-semantic structures, but also nesting of small-scale paerns into large-scale pat-
+terns, e.g., of individuals and words in organizations and themes. When formulated in terms of meso-level
+structures –namely asking which social groups are semantically homogeneous, or not, and vice versa– this
+question remains significantly unexplored in the literature, at least in empirical studies i.e., beyond works
+proposing normative models that connect micro-level processes with the existence of specific macro-level
+configurations (Roth, 2022). For instance, social clusters may indeed cover a variety of semantic clusters,
+while semantic clusters may spread over many social clusters, which indicates that there is a myriad of
+possible meta-structural arrangements between social and semantic communities (as demonstrated in spe-
+cific situations, see Ding, 2011; Garimella et al., 2016). For the moment, the diversity of the structure of
+socio-semantic structures remains largely unknown, both at the meso and the macro levels. Socio-semantic
+scholarship should endeavor at examining and classifying social systems in terms of whether they exhibit
+more or less aligned social & semantic clusters, from core-periphery systems (a socio-semantic core commu-
+nity, and various peripheries) to polycentric systems (many socio-semantic communities), and any variation
+in between.
+Like almost any network analysis relying on the cases of observed network structure, socio-semantic
+scholarship struggles with limitations in generalizability and comparability. These limitations are even
+greater than in other network analyses, given the contextual nature of meaning and of its dual relation
+with social structure. Similarly to social network analysis, focusing on the network-generating mechanisms
+and the corresponding paerns could be a solution. However, in the case of socio-semantic mechanisms
+and paerns, when affiliation even of the same concept with different types of social ties and cultural con-
+texts may yield completely different meanings, maintaining connections to the background is particularly
+important. Variations in the arbitrary choices in the procedures used to map semantic associations further
+complicate the maer. One solution could consist in keeping track of the categories of ties and cultural
+contexts associated with a mechanism/paern. Another, non-exclusive solution, could reside in registering
+differences in the procedural parameters used to map semantic associations (such as, for instance, different
+collocation window sizes or part-of-speech filtering in subject-verb-object triplet extraction approaches).
+Mixed methods supplementing computational techniques with ethnographic ones (at least selectively) dur-
+ing cross-case comparisons or data aggregations could be the means to secure proper interpretation of the
+structural similarities found across cases. This does not exclude the efforts on mapping socio-semantic land-
+scapes as a whole (Li, Wu, and Evans, 2020). However, such efforts are to be pillared in qualitative in-depth
+inquiries (Bail, 2014; Basov and Kholodova, 2022). A related issue is balancing of the rapidly growing body of
+big online data by broadening the collection of ethnographic socio-semantic data on (particularly, real-time)
+in-presence interaction. The complexity of socio-semantic framework makes such in-depth dynamic data -
+not easy to collect in themselves - precious for the field.
+9

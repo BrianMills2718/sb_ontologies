@@ -1,0 +1,199 @@
+{
+  "theory_applied": "Chong & Druckman (2007) Framing Theory",
+  "model_type": "property_graph",
+  "timestamp": "2025-06-26T17:02:29.372768",
+  "speech_length": 20636,
+  "analysis_type": "balanced_multi_purpose",
+  "descriptive_analysis": {
+    "purpose": "Classify frame types and communication structure",
+    "frames_in_communication": [
+      {
+        "frame": "Peace Frame",
+        "considerations": [
+          "mutual benefit",
+          "shared humanity",
+          "cooperation"
+        ],
+        "type": "emphasis_framing"
+      },
+      {
+        "frame": "Security Frame",
+        "considerations": [
+          "strategic balance",
+          "deterrence",
+          "arms control"
+        ],
+        "type": "emphasis_framing"
+      },
+      {
+        "frame": "Values Frame",
+        "considerations": [
+          "human rights",
+          "moral leadership",
+          "principles"
+        ],
+        "type": "issue_framing"
+      },
+      {
+        "frame": "Realism Frame",
+        "considerations": [
+          "self-interest",
+          "power balance",
+          "reciprocity"
+        ],
+        "type": "valence_framing"
+      }
+    ],
+    "frame_taxonomy": {
+      "emphasis_framing": "Peace vs Security considerations",
+      "equivalency_framing": "Cooperation = Peace = Stability",
+      "issue_framing": "Arms control as cooperation vs competition management",
+      "valence_framing": "Positive cooperation outcomes vs negative competition"
+    },
+    "communication_factors": {
+      "source_credibility": "Presidential authority + Personal Southern identity",
+      "frame_strength": "Appeals to values + logical coherence",
+      "cultural_resonance": "Southern pragmatism + American idealism",
+      "frame_repetition": "Peace theme repeated throughout speech"
+    }
+  },
+  "explanatory_analysis": {
+    "purpose": "Explain psychological mechanisms and frame processing",
+    "psychological_mechanisms": {
+      "availability": "Peace concepts made available through repetition and emphasis",
+      "accessibility": "Vietnam/Watergate memories activate credibility concerns",
+      "applicability": "Universal human values connect with audience beliefs",
+      "motivated_reasoning": "Appeals designed to align with Southern values"
+    },
+    "individual_moderators": {
+      "predisposition": "Southern audience values independence and skepticism of Washington",
+      "political_knowledge": "Legislative audience has high political sophistication",
+      "motivation": "High motivation due to foreign policy responsibilities",
+      "partisanship": "Bipartisan foreign policy tradition appeals across parties",
+      "ideology": "Conservative pragmatism + liberal idealism synthesis",
+      "core_values": "Peace, self-reliance, moral leadership, practical results"
+    },
+    "expectancy_value_model": {
+      "attitude_formation": "Attitude = \u03a3(value_i \u00d7 weight_i)",
+      "key_values": [
+        "peace",
+        "security",
+        "credibility",
+        "moral_leadership"
+      ],
+      "salience_weights": "Speech attempts to increase peace/cooperation weights"
+    }
+  },
+  "predictive_analysis": {
+    "purpose": "Forecast framing effects and audience responses",
+    "frame_competition_predictions": [
+      {
+        "competing_frame": "Hardline security frame",
+        "advantage": "Peace frame cultural resonance"
+      },
+      {
+        "competing_frame": "Isolationist frame",
+        "advantage": "Realism frame self-interest appeal"
+      },
+      {
+        "competing_frame": "Idealistic frame",
+        "advantage": "Values frame moral authority"
+      }
+    ],
+    "audience_response_forecasts": {
+      "high_knowledge_effect": "Complex frame engagement due to political sophistication",
+      "predisposition_interaction": "Southern pragmatism will moderate idealistic elements",
+      "motivation_amplification": "High political motivation increases frame processing",
+      "source_credibility_boost": "Presidential + Southern identity enhances acceptance"
+    },
+    "framing_effects_timeline": {
+      "immediate": "Frame availability increased through speech exposure",
+      "short_term": "Accessibility heightened through media coverage",
+      "medium_term": "Applicability tested through policy implementation",
+      "long_term": "Learning over time may reduce framing susceptibility"
+    }
+  },
+  "causal_analysis": {
+    "purpose": "Identify framing causal pathways and effects (balanced treatment)",
+    "framing_effects_causation": [
+      {
+        "pathway": "Frame Exposure \u2192 Consideration Activation \u2192 Attitude Formation",
+        "mechanism": "accessibility"
+      },
+      {
+        "pathway": "Source Credibility \u2192 Frame Acceptance \u2192 Opinion Change",
+        "mechanism": "trust"
+      },
+      {
+        "pathway": "Cultural Resonance \u2192 Applicability \u2192 Persuasive Impact",
+        "mechanism": "value_alignment"
+      },
+      {
+        "pathway": "Frame Strength \u2192 Competitive Advantage \u2192 Public Opinion",
+        "mechanism": "superior_appeal"
+      }
+    ],
+    "moderating_causation": [
+      {
+        "moderator": "Political Knowledge",
+        "effect": "Conditions frame acceptance based on consistency"
+      },
+      {
+        "moderator": "Prior Attitudes",
+        "effect": "Filters frame processing through existing beliefs"
+      },
+      {
+        "moderator": "Motivation",
+        "effect": "Amplifies or reduces consideration processing depth"
+      },
+      {
+        "moderator": "Context",
+        "effect": "Shapes frame interpretation and relevance"
+      }
+    ],
+    "competitive_dynamics": {
+      "frame_competition": "Multiple frames compete for influence",
+      "frame_cancellation": "Opposing frames may neutralize effects",
+      "competitive_advantage": "Stronger frames dominate weaker ones"
+    }
+  },
+  "intervention_analysis": {
+    "purpose": "Design strategic framing interventions and campaigns",
+    "framing_strategies": [
+      {
+        "strategy": "Frame Appropriation",
+        "application": "Use conservative values for liberal policies"
+      },
+      {
+        "strategy": "Cultural Resonance",
+        "application": "Connect to Southern pragmatic traditions"
+      },
+      {
+        "strategy": "Source Credibility",
+        "application": "Leverage presidential authority"
+      },
+      {
+        "strategy": "Audience Anticipation",
+        "application": "Tailor frames to legislative audience"
+      }
+    ],
+    "competitive_framing_interventions": {
+      "preemptive_framing": "Shape issue interpretation before opposition frames",
+      "multi_venue_reinforcement": "Repeat frames across legislative and public venues",
+      "frame_in_thought_targeting": "Activate desired considerations in audience minds",
+      "elite_frame_cascade": "Use legislative leaders to amplify frame reach"
+    },
+    "strategic_considerations": {
+      "opinion_manipulation_avoidance": "Maintain democratic deliberation standards",
+      "frame_strength_optimization": "Maximize cultural resonance and logical appeal",
+      "inoculation_effect_management": "Prepare for competing frame exposure",
+      "learning_facilitation": "Support informed rather than manipulated opinion"
+    }
+  },
+  "balance_validation": {
+    "equal_sophistication_check": true,
+    "causal_over_emphasis_detected": false,
+    "purpose_balance_score": 1.0,
+    "theoretical_fidelity": "High - Uses Chong & Druckman 2007 concepts directly"
+  }
+}

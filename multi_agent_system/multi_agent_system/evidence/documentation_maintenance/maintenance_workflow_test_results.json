@@ -1,0 +1,70 @@
+{
+  "pre_phase_evaluation": {
+    "trigger": "pre_phase_evaluation",
+    "timestamp": "2025-06-23T17:46:40.032727",
+    "context": {},
+    "maintenance_results": {
+      "audit_results": {},
+      "validation_results": {},
+      "consistency_results": {},
+      "error": "Pre-phase evaluation error: name 'DocumentationAuditor' is not defined"
+    },
+    "issues_found": [],
+    "auto_fixes_applied": [],
+    "manual_actions_required": [],
+    "overall_status": "PASS",
+    "workflow_success": true
+  },
+  "post_phase_completion": {
+    "trigger": "post_phase_completion",
+    "timestamp": "2025-06-23T17:46:40.032814",
+    "context": {},
+    "maintenance_results": {
+      "status_update_results": {},
+      "evidence_check_results": {},
+      "progress_update_results": {},
+      "error": "Post-phase completion error: name 'AutomatedStatusTracker' is not defined"
+    },
+    "issues_found": [
+      "Evidence completeness below threshold"
+    ],
+    "auto_fixes_applied": [
+      "Status files automatically updated"
+    ],
+    "manual_actions_required": [],
+    "overall_status": "WARN",
+    "workflow_success": true
+  },
+  "daily_maintenance": {
+    "trigger": "daily_maintenance",
+    "timestamp": "2025-06-23T17:46:40.033033",
+    "context": {},
+    "maintenance_results": {
+      "progress_tracking_results": {},
+      "archive_organization_results": {},
+      "health_check_results": {},
+      "error": "Daily maintenance error: name 'PhaseProgressTracker' is not defined"
+    },
+    "issues_found": [],
+    "auto_fixes_applied": [],
+    "manual_actions_required": [],
+    "overall_status": "PASS",
+    "workflow_success": true
+  },
+  "pre_commit": {
+    "trigger": "pre_commit",
+    "timestamp": "2025-06-23T17:46:40.033069",
+    "context": {},
+    "maintenance_results": {
+      "documentation_validation": {},
+      "evidence_validation": {},
+      "consistency_check": {},
+      "error": "Pre-commit hook error: name 'DocumentationValidator' is not defined"
+    },
+    "issues_found": [],
+    "auto_fixes_applied": [],
+    "manual_actions_required": [],
+    "overall_status": "PASS",
+    "workflow_success": true
+  }
+}

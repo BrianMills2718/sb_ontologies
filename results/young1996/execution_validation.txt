@@ -1,0 +1,76 @@
+VALIDATION SCORE  
+0.34 / 1.00  (overall compliance with Young 1996 ≈ 34 %)
+
+────────────────────────────────────────
+DETAILED ASSESSMENT AGAINST THE FIVE CRITERIA
+────────────────────────────────────────
+
+1. Correct use of Young‐style relationship categories
+   • Young (1996) recognises three primitive link types in the Carter corpus:  
+     (+) positive causal, (–) negative causal, (↔) mutual/equivalent.  
+     Conditional (“if–then”), “attribute”, “strategy”, “=” and “decision-security” links do not occur in the original coding rules.  
+   • 7 / 14 links in the execution employ non-Young categories; 3 links mix category and logical operator (“if-then”) in a single field.  
+   • Result: partial compliance (≈ 0.45).
+
+2. Salience scores should reflect empirical frequency
+   • Concept frequencies are supplied, but link salience is hard-coded to 1 for every relation.  
+   • In Young’s procedure the salience of a link equals the count of its textual occurrences; therefore the present output under-reports salience variance.  
+   • Result: non-compliant (0.20).
+
+3. Structural measures
+   • Young’s dependency = (number of bridges / number of arcs).  
+     Using the 14 arcs reported, dependency should be 14/14 = 1.00 if every arc is a bridge, or lower if bridges < arcs. A value of 0.1429 implies 2 bridges out of 14, yet the JSON lists “bridges: 14”. Formula and value are inconsistent.  
+   • Connectedness in Young = arcs / [n (n–1)], where n = number of nodes.  
+     With 31 nodes and 14 arcs the theoretical value is 14 / (31 × 30) ≈ 0.0151, not 0.3111.  
+   • Result: non-compliant (0.10).
+
+4. Methodological comparability
+   • Concept set overlaps but diverges. Important Young nodes such as “Arms Control (SALT)”, “Human Rights”, “Cooperation”, “Agreements”, etc. are missing; conversely, “Decision security” and “Presidential voice” are absent in Young.  
+   • Relationship density (14 links) is far below the 75+ links in the faithful Young map, preventing comparable structural statistics.  
+   • Result: low comparability (0.30).
+
+5. Truth values and modifiers
+   • Young’s scheme does not attach Boolean truth values; it records only the existence and polarity of a causal claim.  
+   • Modifiers like “future”, “hypothetical” or “present” are descriptive but not part of Young’s quantitative coding.  
+   • Consequently these fields neither add validity nor violate it, yet their presence indicates deviation.  
+   • Result: moderate compliance (0.50).
+
+────────────────────────────────────────
+COMPUTATIONAL COMPLETENESS
+────────────────────────────────────────
+Strengths
+• Concepts are tokenised and frequency counts for nodes are recorded.  
+• Positive and negative causal links are present and correctly signed where used.  
+
+Weaknesses
+• Link typology diverges from Young’s three-category scheme.  
+• Salience and structural statistics are mis-calculated.  
+• Link coverage is too sparse to replicate Young’s network-level findings (centrality ordering, dependency, hierarchy, etc.).  
+
+────────────────────────────────────────
+COMPARISON TO FAITHFUL YOUNG 1996 MAP
+────────────────────────────────────────
+Area                     | Young 1996 | Current Execution
+-------------------------|------------|-------------------
+Nodes                    | 45+        | 31
+Arcs                     | 75–90      | 14
+Permitted link types     | +, –, ↔    | +, –, =, attribute, strategy, if-then
+Salience (links)         | counts 1–6 | fixed 1
+Dependency               | ≈ 0.60     | 0.1429 (inconsistent)
+Connectedness            | ≈ 0.050    | 0.3111 (mis-computed)
+
+────────────────────────────────────────
+MISSING ELEMENTS / IMPROVEMENTS NEEDED
+────────────────────────────────────────
+1. Restrict the relation “category” field to +, –, ↔ (or rename “=” to ↔) to meet Young’s taxonomy; treat conditions (“if-then”) as a separate logical annotation, not as a link type.  
+2. Re-compute link salience from frequency counts in the source text.  
+3. Recalculate structural measures with Young’s formulas:  
+   • connectedness = L / [N (N–1)]  
+   • hierarchy (H) and feedback (F) if further analysis is desired.  
+4. Expand extraction to include at least the full set of high-frequency concepts and their interrelations found in Young’s article (Arms-control, Human-rights, Cooperation, Agreements, etc.).  
+5. Eliminate “truth_value” and “modifiers” or house them in metadata outside the core map, so as not to conflict with Young’s simpler schema.  
+6. Verify bridge counts; “bridges” cannot exceed number of arcs.  
+7. Provide weights (0–1 or –1 to +1) on arcs if you wish to retain fuzzy magnitudes; otherwise adopt Young’s binary presence/absence.
+
+────────────────────────────────────────
+END OF VALIDATION

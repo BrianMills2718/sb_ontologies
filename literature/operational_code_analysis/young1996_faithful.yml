@@ -1,0 +1,140 @@
+
+citation: "Young, Michael D. 1996. Cognitive Mapping Meets Semantic Networks. Journal of Conflict Resolution 40(3): 395-414."
+
+model_type: "WorldView enhanced cognitive mapping using semantic‐network formalism"
+
+rationale: >
+  Young introduces WorldView to eliminate the limits of adjacency–matrix cognitive maps by
+  (a) elevating relationships to nodes within a semantic network,
+  (b) differentiating relationship kinds, truth-values and modifiers,
+  (c) retaining conjunctions, actions and salience counts,
+  (d) supplying a synonym facility and aggregation routines, and
+  (e) providing structural and comparative measures (dependency, connectedness, size,
+  uniformity of salience, concept comparison, transformation cost, incongruence).
+
+schema_blueprint:
+  title: "Young 1996 Cognitive Mapping Schema (Faithful Extraction)"
+  description: >
+    A direct transcription of the representational elements, relationship categories,
+    modifiers, truth-values, conjunctions, measures and support features that Young
+    explicitly defines for the WorldView system.
+  definitions:
+
+    node_types:
+      Concept: "Unique term appearing in the text; becomes a node."
+      Relationship: "A node that links concepts; carries truth-value, modifier, salience."
+      Conjunction: "Node representing 'and' or 'or' used with compound concepts."
+
+    relationship_categories:  # Table 1 and text
+      "=":        "equal"
+      ">":        "condition component preference / greater-than"
+      "+":        "positive-cause"
+      "-":        "negative-cause"
+      "attribute": "property (attribute) relationship"
+      "is-a":      "class inclusion"
+      "if-then":   "conditional relationship"
+      "possess":   "ownership relationship"
+      "strategy":  "means–ends relationship"
+      "know":      "knowledge relationship"
+      "warrant-for": "justification relationship"
+      "location":  "spatial relationship"
+
+    action_categories:  # Young’s explicit list
+      - accept
+      - feel
+      - purchase
+      - allow
+      - honor
+      - ratify
+      - assert
+      - ignore
+      - reduce
+      - assist
+      - influence
+      - release
+      - attack
+      - intervene
+      - restore
+      - lose
+      - lead
+      - sign
+      - confront
+      - limit
+      - stop
+      - consider
+      - maintain
+      - support
+      - consult
+      - meet
+      - threaten
+      - control
+      - monitor
+      - use
+      - cooperate
+      - negotiate
+      - verify
+      - decide
+      - open
+      - visit
+      - defend
+      - order
+      - vote-on
+      - delay
+      - organize
+      - withdraw
+      - enforce
+      - perform
+      - yield-to
+
+    truth_values:  # Young 1996
+      - true
+      - false
+      - partial
+      - possible
+      - impossible
+
+    relationship_modifiers:  # Young 1996
+      - past
+      - present
+      - future
+      - goal
+      - hypothetical
+      - normative
+
+    conjunctions:  # Young 1996
+      - and
+      - or
+
+    salience:
+      definition: "Integer count of how often a unique relationship occurs in the data set."
+
+    structural_measures:  # formulas exactly as given
+      dependency:
+        symbol: "D_G"
+        formula: "D_G = ( Σ bridges_G / Σ relationships_G ) / Σ structures_G"
+        interpretation: "Vertical organization; proportion of bridges per structure."
+      connectedness:
+        symbol: "C_G"
+        formula: "C_G = Σ relationships_G / ( Σ concepts_G + Σ relationships_G )"
+        interpretation: "Degree to which concepts are interrelated."
+      size:
+        definition: "Count of concepts in the cognitive map."
+      uniformity_of_salience:
+        definition: "Standard deviation of relationship salience values within the map."
+
+    comparative_measures:
+      concept_comparison: "Lists identical, altered and unique concepts across two maps."
+      transformation_cost:
+        definition: >
+          Minimum number of discrete changes (relationship-addition, relationship-deletion,
+          salience increment/decrement, concept-deletion, concept-addition) needed to turn
+          one map into another; each change has cost 1.
+      incongruence:
+        definition: >
+          Measure combining transformation cost and concept comparison, restricted to
+          concepts common to both maps; zero only for identical structures.
+
+    support_features:
+      synonym_facility: "User-defined mapping that collapses synonymous concepts during compilation."
+      aggregation: "Combines multiple texts or subject responses into a composite map."
+      manipulable_map: "Semantic-network format that reasoning models (e.g., directed-walk) can traverse."

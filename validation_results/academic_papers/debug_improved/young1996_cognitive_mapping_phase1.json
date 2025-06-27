@@ -1,0 +1,378 @@
+{
+  "citation": "Young, Michael D. 1996. \u201cCognitive Mapping Meets Semantic Networks.\u201d Journal of Conflict Resolution 40(3): 395-414.",
+  "annotation": "Young introduces WorldView, a computer-assisted content-analysis and modeling system that merges cognitive mapping with the symbol-based formalism of semantic networks.  By enlarging the repertoire of representable relationships (truth-values, temporal and modal modifiers, differentiated links, action predicates) and by adding structural and comparative metrics, WorldView enables richer descriptions of belief systems and supplies manipulable semantic-network data structures for process models of reasoning and policy choice.",
+  "theory_type": "Cognitive / Social-cognitive (political decision-making)",
+  "vocabulary": [
+    {
+      "term": "cognitive mapping",
+      "definition": "A method for modeling and studying the beliefs and decision processes that guide actors\u2019 behaviour by representing concepts and causal links among them.",
+      "source_context": "\u201cSince its introduction in the early 1970s \u2026 cognitive mapping has been available to model and study the beliefs and decision processes that ultimately lead to state behavior.\u201d",
+      "page_reference": "396",
+      "theoretical_category": "core-construct"
+    },
+    {
+      "term": "semantic network",
+      "definition": "A symbol-based knowledge representation scheme comprising nodes (concepts) and labeled links (relations) connecting them.",
+      "source_context": "\u201cWorldView, which uses the symbol-based formalism of semantic networks.\u201d",
+      "page_reference": "396-397",
+      "theoretical_category": "core-construct"
+    },
+    {
+      "term": "WorldView",
+      "definition": "Young\u2019s computer-based tool that integrates cognitive mapping with semantic-network techniques to extract, aggregate, and analyse belief structures.",
+      "source_context": "\u201cThe purpose of this article is to present a new computer-based tool for enhanced cognitive mapping\u2014WorldView.\u201d",
+      "page_reference": "396",
+      "theoretical_category": "model/tool"
+    },
+    {
+      "term": "belief structure",
+      "definition": "The organised set of propositions, concepts, and relationships that together form an actor\u2019s worldview.",
+      "source_context": "\u201c\u2026necessary for modelling belief structures and supporting process models of decision making.\u201d",
+      "page_reference": "397",
+      "theoretical_category": "core-construct"
+    },
+    {
+      "term": "belief system content",
+      "definition": "The substantive ideas (concepts and propositions) contained within an actor\u2019s belief structure.",
+      "source_context": "\u201cWorldView provides important advantages \u2026 assists in the systematic study of belief system content.\u201d",
+      "page_reference": "396",
+      "theoretical_category": "property/attribute"
+    },
+    {
+      "term": "decision process",
+      "definition": "The sequence of cognitive operations through which an actor moves from perceptions and beliefs to choice.",
+      "source_context": "\u201c\u2026and decision process.\u201d",
+      "page_reference": "396",
+      "theoretical_category": "process"
+    },
+    {
+      "term": "symbol-based formalism",
+      "definition": "A representational approach that uses meaningful symbols (e.g., is-a, part-of) rather than numeric values to label relations in a network.",
+      "source_context": "\u201c\u2026uses the symbol-based formalism of semantic networks.\u201d",
+      "page_reference": "396-397",
+      "theoretical_category": "methodological concept"
+    },
+    {
+      "term": "adjacency matrix",
+      "definition": "A square matrix that records the presence (1) or absence (0) of a link between every pair of concepts in a cognitive map.",
+      "source_context": "\u201cEach cognitive map is represented by an adjacency matrix, a square matrix with a row and column for each concept\u2026\u201d",
+      "page_reference": "396",
+      "theoretical_category": "representation technique"
+    },
+    {
+      "term": "directed graph theory",
+      "definition": "Branch of graph theory dealing with nodes connected by ordered (directional) edges, used to formalise cognitive maps.",
+      "source_context": "\u201c\u2026advantage of a correspondence between directed graph theory and matrix mathematics.\u201d",
+      "page_reference": "396",
+      "theoretical_category": "theoretical foundation"
+    },
+    {
+      "term": "matrix mathematics",
+      "definition": "Use of matrix algebra techniques for manipulating adjacency matrices that represent cognitive maps.",
+      "source_context": "\u201c\u2026correspondence between directed graph theory and matrix mathematics.\u201d",
+      "page_reference": "396",
+      "theoretical_category": "methodological concept"
+    },
+    {
+      "term": "causal relationship",
+      "definition": "A directional link indicating that a change in one concept produces change in another; coded as positive (+) or negative (\u2212) in traditional maps.",
+      "source_context": "\u201cCognitive mapping procedures treat concepts as nodes \u2026 with either positive (+) or negative (\u2212) causal relationships as the connections.\u201d",
+      "page_reference": "397-398",
+      "theoretical_category": "relationship-type"
+    },
+    {
+      "term": "positive cause (+)",
+      "definition": "A causal link specifying that an increase in the source concept increases the target concept.",
+      "source_context": "\u201c\u2026positive (+) or negative (\u2212) causal relationships\u2026\u201d",
+      "page_reference": "397-398",
+      "theoretical_category": "relationship-type"
+    },
+    {
+      "term": "negative cause (\u2212)",
+      "definition": "A causal link specifying that an increase in the source concept decreases the target concept.",
+      "source_context": "\u201c\u2026positive (+) or negative (\u2212) causal relationships\u2026\u201d",
+      "page_reference": "397-398",
+      "theoretical_category": "relationship-type"
+    },
+    {
+      "term": "compound statement",
+      "definition": "A proposition containing more than one embedded clause or relational assertion, posing difficulties for simple causal mapping.",
+      "source_context": "\u201cThe inability of cognitive mapping to handle compound statements can be illustrated\u2026\u201d",
+      "page_reference": "398",
+      "theoretical_category": "linguistic/analytic unit"
+    },
+    {
+      "term": "relationship node",
+      "definition": "In WorldView, a treated relationship elevated to the status of a node so it can itself be the subject or object of other relations.",
+      "source_context": "\u201c\u2026if relationships are elevated from labelled connections to nodes in their own right\u2026\u201d",
+      "page_reference": "398-399",
+      "theoretical_category": "representation element"
+    },
+    {
+      "term": "relationship modifier",
+      "definition": "A tag (past, present, future, goal, hypothetical, normative) that qualifies when or in what mode a relationship holds.",
+      "source_context": "\u201cTo capture information about when a statement holds true, six relationship modifiers\u2014past, present, future, goal, hypothetical, and normative\u2014were developed.\u201d",
+      "page_reference": "400-401",
+      "theoretical_category": "modifier"
+    },
+    {
+      "term": "truth-value",
+      "definition": "Designation (true, false, partial, possible, impossible) indicating an actor\u2019s asserted certainty about a proposition.",
+      "source_context": "\u201cTo capture these negations, truth-values were developed\u2026",
+      "page_reference": "401-402",
+      "theoretical_category": "logical attribute"
+    },
+    {
+      "term": "past (modifier)",
+      "definition": "Marks a relationship as pertaining to a completed or historical state of affairs.",
+      "source_context": "\u201cA past relationship modifier indicates that the relationship referred to is in the past.\u201d",
+      "page_reference": "400",
+      "theoretical_category": "temporal modifier"
+    },
+    {
+      "term": "present (modifier)",
+      "definition": "Marks a relationship as currently holding or an action as ongoing.",
+      "source_context": "\u201cA present relationship modifier indicates that the action is ongoing or that the indicated relationship currently holds.\u201d",
+      "page_reference": "400",
+      "theoretical_category": "temporal modifier"
+    },
+    {
+      "term": "future (modifier)",
+      "definition": "Marks a relationship as expected to hold at some future time.",
+      "source_context": "\u201cThe future relationship modifier is used to represent statements that the actor believes will be true at some future point in time.\u201d",
+      "page_reference": "400",
+      "theoretical_category": "temporal modifier"
+    },
+    {
+      "term": "goal (modifier)",
+      "definition": "Marks a proposition as expressing something the actor desires to bring about.",
+      "source_context": "\u201cA goal relationship modifier indicates that the author of the text wants the statement to become true.\u201d",
+      "page_reference": "400-401",
+      "theoretical_category": "modal modifier"
+    },
+    {
+      "term": "hypothetical (modifier)",
+      "definition": "Marks a proposition as conditional or speculative (if-then reasoning).",
+      "source_context": "\u201cThe hypothetical relationship modifier is used to capture hypothetico-deductive reasoning.\u201d",
+      "page_reference": "401",
+      "theoretical_category": "modal modifier"
+    },
+    {
+      "term": "normative (modifier)",
+      "definition": "Marks a proposition as reflecting an ideal, obligation, or evaluative judgement rather than an operational goal.",
+      "source_context": "\u201cThe normative relationship modifier indicates that the relationship is normatively valued.\u201d",
+      "page_reference": "401",
+      "theoretical_category": "modal modifier"
+    },
+    {
+      "term": "true (truth-value)",
+      "definition": "Indicates the speaker believes the statement holds universally for the referenced class or instance.",
+      "source_context": "\u201cThe true truth-value indicates that the statement is true\u2026\u201d",
+      "page_reference": "401",
+      "theoretical_category": "truth-value"
+    },
+    {
+      "term": "false (truth-value)",
+      "definition": "Indicates the speaker asserts the statement does not hold for any referenced instance.",
+      "source_context": "\u201cThe false truth-value indicates that the statement is not true\u2026\u201d",
+      "page_reference": "401",
+      "theoretical_category": "truth-value"
+    },
+    {
+      "term": "partial (truth-value)",
+      "definition": "Marks a statement as true for some but not all members of a class.",
+      "source_context": "\u201cThe partial truth-value is a qualified indication of truth\u2026\u201d",
+      "page_reference": "401-402",
+      "theoretical_category": "truth-value"
+    },
+    {
+      "term": "possible (truth-value)",
+      "definition": "Indicates a statement could become true at some time; includes capability assertions.",
+      "source_context": "\u201cA possible truth-value indicates that the statement could become true\u2026\u201d",
+      "page_reference": "402",
+      "theoretical_category": "truth-value"
+    },
+    {
+      "term": "impossible (truth-value)",
+      "definition": "Marks a statement as incapable of ever becoming true.",
+      "source_context": "\u201cAn impossible truth-value indicates that the statement cannot become true at any time.\u201d",
+      "page_reference": "402",
+      "theoretical_category": "truth-value"
+    },
+    {
+      "term": "synonym facility",
+      "definition": "WorldView feature allowing analysts to collapse different lexical items into a single concept node for analysis.",
+      "source_context": "\u201cThe synonym facility allows analysis to determine whether varying the inclusiveness of synonyms will result in different political choices.\u201d",
+      "page_reference": "404",
+      "theoretical_category": "analytic tool"
+    },
+    {
+      "term": "aggregation (over texts)",
+      "definition": "The capability of WorldView to combine data from several documents or respondents into a single composite cognitive map.",
+      "source_context": "\u201c\u2026provides aggregation over texts or subject responses\u2026\u201d",
+      "page_reference": "396",
+      "theoretical_category": "methodological operation"
+    },
+    {
+      "term": "dependency (measure)",
+      "definition": "Structural metric reflecting the proportion of bridge relations, indicating how vertically organised the map is.",
+      "source_context": "\u201cDependency reflects the number of pathways \u2026 over which it is possible to travel to concepts\u2026\u201d",
+      "page_reference": "406",
+      "theoretical_category": "structural-measure"
+    },
+    {
+      "term": "bridge (relationship)",
+      "definition": "A relationship through which only one path leads to a concept, making that link critical.",
+      "source_context": "\u201cIf only one relationship leads to a concept, that relationship is defined as a bridge.\u201d",
+      "page_reference": "406",
+      "theoretical_category": "network property"
+    },
+    {
+      "term": "connectedness (measure)",
+      "definition": "Structural metric capturing how interrelated the concepts are, based on ratio of links to nodes.",
+      "source_context": "\u201cConnectedness reflects the number of relationships between concepts in the cognitive map\u2026\u201d",
+      "page_reference": "406-407",
+      "theoretical_category": "structural-measure"
+    },
+    {
+      "term": "size (measure)",
+      "definition": "The count of distinct concept nodes in a cognitive map.",
+      "source_context": "\u201cSize is the number of concepts in the cognitive map.\u201d",
+      "page_reference": "407",
+      "theoretical_category": "structural-measure"
+    },
+    {
+      "term": "uniformity of salience",
+      "definition": "Structural metric operationalised as the standard deviation of relationship salience values across the map.",
+      "source_context": "\u201cUniformity of salience reflects the firmness with which each component belief is held\u2026\u201d",
+      "page_reference": "407-408",
+      "theoretical_category": "structural-measure"
+    },
+    {
+      "term": "salience (of relationship)",
+      "definition": "A numeric count of how often a unique relationship occurs in the data set, used as a strength indicator.",
+      "source_context": "\u201cSalience is measured by counting how often a belief is expressed\u2026\u201d",
+      "page_reference": "407-408",
+      "theoretical_category": "metric"
+    },
+    {
+      "term": "concept comparison",
+      "definition": "Comparative procedure for identifying identical, divergent, and unique concepts when two cognitive maps are matched.",
+      "source_context": "\u201cConcept comparison is \u2026 indicates which particular concepts are in both maps and have identical relationships\u2026\u201d",
+      "page_reference": "408",
+      "theoretical_category": "comparative-measure"
+    },
+    {
+      "term": "transformation cost",
+      "definition": "Quantitative index of change based on the minimum number of additions/deletions required to convert one map into another.",
+      "source_context": "\u201c\u2026transformation cost provides an indicator of change in cognitive maps that measures the amount of change\u2026\u201d",
+      "page_reference": "408-409",
+      "theoretical_category": "comparative-measure"
+    },
+    {
+      "term": "relationship-addition",
+      "definition": "Discrete change operation of adding a new link between two concepts during transformation cost calculation.",
+      "source_context": "\u201c(a) Relationship-addition: the creation of a relational link between two concepts.\u201d",
+      "page_reference": "409",
+      "theoretical_category": "change operation"
+    },
+    {
+      "term": "relationship-deletion",
+      "definition": "Discrete change operation of removing an existing link.",
+      "source_context": "\u201c(b) Relationship-deletion: the removal of a relational link\u2026\u201d",
+      "page_reference": "409",
+      "theoretical_category": "change operation"
+    },
+    {
+      "term": "relationship salience increase or decrease",
+      "definition": "Discrete change operation representing a unit change in strength of an existing link.",
+      "source_context": "\u201c(c) Relationship salience increase or decrease: a unit change in the strength\u2026\u201d",
+      "page_reference": "409",
+      "theoretical_category": "change operation"
+    },
+    {
+      "term": "concept-deletion",
+      "definition": "Discrete change operation of removing a node (and its incident links) from the map.",
+      "source_context": "\u201c(d) Concept-deletion: the removal of a concept. Concept-deletion requires that all connecting relationships are deleted.\u201d",
+      "page_reference": "409",
+      "theoretical_category": "change operation"
+    },
+    {
+      "term": "concept-addition",
+      "definition": "Discrete change operation of inserting a new node, usually accompanied by new links.",
+      "source_context": "\u201c(e) Concept-addition: the creation of a new node that reflects the addition of new information\u2026\u201d",
+      "page_reference": "409",
+      "theoretical_category": "change operation"
+    },
+    {
+      "term": "incongruence (measure)",
+      "definition": "Comparative metric combining transformation cost and concept overlap to capture substantive differences between two maps over time.",
+      "source_context": "\u201cIncongruence is expected to have a relatively high value for maps that precede large changes in behaviour.\u201d",
+      "page_reference": "409-410",
+      "theoretical_category": "comparative-measure"
+    },
+    {
+      "term": "spreading activation",
+      "definition": "Search mechanism that propagates activation from one node to adjacent nodes to retrieve related information.",
+      "source_context": "\u201cDirected-walk uses spreading activation to generate the definition of the situation\u2026\u201d",
+      "page_reference": "410",
+      "theoretical_category": "cognitive process"
+    },
+    {
+      "term": "directed-walk",
+      "definition": "A reasoning model implemented by Young that traverses the WorldView network using a salience heuristic.",
+      "source_context": "\u201cOne such model, directed-walk, is modelled on the cognitive process model of Bonham and his colleagues.\u201d",
+      "page_reference": "410",
+      "theoretical_category": "reasoning model"
+    },
+    {
+      "term": "salience heuristic",
+      "definition": "Decision rule in which the proposition with the highest salience is selected for processing during reasoning.",
+      "source_context": "\u201cThe salience heuristic uses the strength of a proposition in a belief system to direct memory search.\u201d",
+      "page_reference": "410",
+      "theoretical_category": "heuristic"
+    },
+    {
+      "term": "associative network model of memory",
+      "definition": "Psychological theory viewing memory as a network of concepts linked by associations; complementary to semantic networks.",
+      "source_context": "\u201cTechniques from semantic network research were chosen \u2026 complementary to the associative network model of memory (Estes 1991).\u201d",
+      "page_reference": "403",
+      "theoretical_category": "theoretical foundation"
+    },
+    {
+      "term": "human-coded content analysis",
+      "definition": "Method in which trained coders identify and classify units of meaning in texts according to a coding scheme.",
+      "source_context": "\u201cThe first function of WorldView \u2026 is accomplished with a human-coded content analysis system.\u201d",
+      "page_reference": "397",
+      "theoretical_category": "method"
+    },
+    {
+      "term": "relationship-type list (equal, condition, component, preference/greater-than, if-then, possess, attribute, location, is-a, strategy, know, warrant-for)",
+      "definition": "Catalogue of specific relational predicates WorldView recognises for coding interconcept links beyond causal ones.",
+      "source_context": "\u201cTable 1 WorldView Coding Categories \u2013 Relationships.\u201d",
+      "page_reference": "399",
+      "theoretical_category": "relationship-type"
+    },
+    {
+      "term": "action-type list (accept, allow, assert, assist, attack, cause, confront, consult, control, cooperate, decide, defend, delay, enforce, enhance, feel, honour, ignore, influence, intervene, invade, lead, limit, lose, maintain, meet, monitor, negotiate, open, order, organise, perform, propose, purchase, ratify, reduce, release, restore, share, sign, stop, support, threaten, use, verify, visit, vote-on, withdraw, yield-to)",
+      "definition": "Set of verbs constituting WorldView\u2019s coding categories for agent actions/events used in mapping belief structures.",
+      "source_context": "\u201cTable 1 WorldView Coding Categories \u2013 Actions.\u201d",
+      "page_reference": "399",
+      "theoretical_category": "action-type"
+    },
+    {
+      "term": "conjunction (and / or)",
+      "definition": "Logical connectors used in WorldView to represent joint actions (and) or alternative sets (or) within compound concepts.",
+      "source_context": "\u201cIn addition \u2026 the WorldView system also recognises two conjunctions, and and or\u2026\u201d",
+      "page_reference": "402",
+      "theoretical_category": "logical operator"
+    },
+    {
+      "term": "Levenshtein measure",
+      "definition": "String-editing distance metric inspiring transformation-cost computation for cognitive maps.",
+      "source_context": "\u201cTransformation cost is similar to a Levenshtein measure of difference (Kruskal 1983)\u2026\u201d",
+      "page_reference": "408",
+      "theoretical_category": "metric analogy"
+    }
+  ]
+}

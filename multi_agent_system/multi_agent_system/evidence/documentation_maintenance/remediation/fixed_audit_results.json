@@ -1,0 +1,55 @@
+{
+  "docs/current_phase_status.md": {
+    "file_path": "/home/brian/autocoder3_cc/docs/current_phase_status.md",
+    "last_modified": "2025-06-23T16:34:18.847333",
+    "current_phase_mentioned": "Phase 5",
+    "completion_status": {
+      "Phase 5": "COMPLETE",
+      "Phase 2": "COMPLETE",
+      "Phase 3": "COMPLETE",
+      "Phase 4": "COMPLETE",
+      "Phase 6": "COMPLETE",
+      "Phase 7": "COMPLETE"
+    },
+    "inconsistencies": []
+  },
+  "CLAUDE.md": {
+    "file_path": "/home/brian/autocoder3_cc/CLAUDE.md",
+    "last_modified": "2025-06-23T15:47:58.809699",
+    "current_phase_mentioned": "Phase 5",
+    "completion_status": {
+      "Phase 5": "COMPLETE",
+      "Phase 3": "COMPLETE",
+      "Phase 4": "COMPLETE",
+      "Phase 6": "COMPLETE",
+      "Phase 7": "COMPLETE"
+    },
+    "inconsistencies": []
+  },
+  "docs/repository_structure_analysis.md": {
+    "file_path": "/home/brian/autocoder3_cc/docs/repository_structure_analysis.md",
+    "last_modified": "2025-06-23T16:14:02.929240",
+    "current_phase_mentioned": "Phase 5",
+    "completion_status": {
+      "Phase 5": "COMPLETE",
+      "Phase 3": "COMPLETE",
+      "Phase 7": "COMPLETE",
+      "Phase 4": "COMPLETE",
+      "Phase 2": "COMPLETE",
+      "Phase 100": "COMPLETE",
+      "Phase 6": "COMPLETE",
+      "Phase 8": "IN_PROGRESS"
+    },
+    "inconsistencies": []
+  },
+  "docs/V5_architecture_spec.md": {
+    "file_path": "/home/brian/autocoder3_cc/docs/V5_architecture_spec.md",
+    "last_modified": "2025-06-22T12:25:28.175721",
+    "current_phase_mentioned": "Unknown",
+    "completion_status": {},
+    "inconsistencies": [
+      "Phase mentioned but no evidence location provided",
+      "Contains potentially outdated date: 2025-06-22"
+    ]
+  }
+}

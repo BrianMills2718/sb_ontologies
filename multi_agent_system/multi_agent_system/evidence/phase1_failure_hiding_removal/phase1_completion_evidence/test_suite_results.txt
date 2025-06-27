@@ -1,0 +1,23 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.13, pytest-7.4.4, pluggy-1.6.0 -- /home/brian/miniconda3/bin/python
+cachedir: .pytest_cache
+hypothesis profile 'default'
+metadata: {'Python': '3.10.13', 'Platform': 'Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39', 'Packages': {'pytest': '7.4.4', 'pluggy': '1.6.0'}, 'Plugins': {'respx': '0.22.0', 'xdist': '3.7.0', 'hypothesis': '6.135.10', 'json-report': '1.5.0', 'asyncio': '0.23.8', 'timeout': '2.4.0', 'metadata': '3.1.1', 'cov': '4.1.0', 'html': '4.1.1', 'mock': '3.14.1', 'anyio': '4.9.0'}}
+rootdir: /home/brian/autocoder3_cc
+plugins: respx-0.22.0, xdist-3.7.0, hypothesis-6.135.10, json-report-1.5.0, asyncio-0.23.8, timeout-2.4.0, metadata-3.1.1, cov-4.1.0, html-4.1.1, mock-3.14.1, anyio-4.9.0
+asyncio: mode=strict
+collecting ... collected 11 items
+
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_missing_llm_fails_hard_semantic_healer SKIPPED [  9%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_missing_llm_fails_hard_validation_framework SKIPPED [ 18%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_mock_framework_exists PASSED [ 27%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_fallback_server_exists PASSED [ 36%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_mock_mode_patterns_remain PASSED [ 45%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_fallback_patterns_remain PASSED [ 54%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_semantic_healer_has_no_mock_methods PASSED [ 63%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_validation_framework_no_component_skipping SKIPPED [ 72%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_all_healing_systems_have_bounded_attempts SKIPPED [ 81%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_infinite_retry_patterns PASSED [ 90%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_codebase_scan_clean PASSED [100%]
+
+========================= 7 passed, 4 skipped in 5.09s =========================

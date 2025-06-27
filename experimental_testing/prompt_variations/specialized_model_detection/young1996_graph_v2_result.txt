@@ -1,0 +1,18 @@
+YOUNG 1996 DETECTOR TEST
+Input: validation_results/academic_papers/young1996_cognitive_mapping.txt
+Detector: experimental_testing/prompt_variations/specialized_model_detection/property_graph_detector_v2.txt
+==================================================
+
+detection_confidence: 0.9
+structure_type: "property_graph"
+evidence:
+  - "The theory explicitly re-conceptualizes cognitive maps as semantic networks, where concepts and relationships are represented as nodes, clearly signaling a network representation."
+  - "It details how relationships (multiple types such as causal, attribute, goal, and more) are elevated to node status, emphasizing a network structure rather than simple linear associations."
+network_centrality_evidence:
+  - "The development of measures such as dependency and connectedness demonstrates an emphasis on network properties and topology to understand belief structures."
+  - "The discussion of network-level emergent properties (e.g., transformation cost, uniformity of salience) shows that the structure of the network is central to theoretical predictions."
+relationship_richness_evidence:
+  - "The theory distinguishes between multiple relationship types (e.g., positive-cause, negative-cause, attribute, is-a, condition) among the same set of concepts, highlighting rich interconnectivity."
+  - "The method’s capacity to handle compound statements by representing relationships as nodes underscores that relationship complexity is a core theoretical contribution."
+alternative_structure_analysis: "The structure is not merely a sequential process or a tabular comparison; it fundamentally relies on a network (graph) topology to represent and analyze interconnected beliefs."
+confidence_justification: "The theory’s primary innovation lies in its explicit use of semantic network models to represent complex cognitive maps, incorporating diverse relationship types and network measures. This network-centric approach is a fundamental shift from traditional, linear cognitive mapping, justifying the high confidence level."

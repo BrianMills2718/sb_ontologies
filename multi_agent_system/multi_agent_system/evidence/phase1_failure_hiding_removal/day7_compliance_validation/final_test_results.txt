@@ -1,0 +1,224 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.13, pytest-7.4.4, pluggy-1.6.0 -- /home/brian/miniconda3/bin/python
+cachedir: .pytest_cache
+hypothesis profile 'default'
+metadata: {'Python': '3.10.13', 'Platform': 'Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39', 'Packages': {'pytest': '7.4.4', 'pluggy': '1.6.0'}, 'Plugins': {'respx': '0.22.0', 'xdist': '3.7.0', 'hypothesis': '6.135.10', 'json-report': '1.5.0', 'asyncio': '0.23.8', 'timeout': '2.4.0', 'metadata': '3.1.1', 'cov': '4.1.0', 'html': '4.1.1', 'mock': '3.14.1', 'anyio': '4.9.0'}}
+rootdir: /home/brian/autocoder3_cc
+plugins: respx-0.22.0, xdist-3.7.0, hypothesis-6.135.10, json-report-1.5.0, asyncio-0.23.8, timeout-2.4.0, metadata-3.1.1, cov-4.1.0, html-4.1.1, mock-3.14.1, anyio-4.9.0
+asyncio: mode=strict
+collecting ... collected 11 items
+
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_missing_llm_fails_hard_semantic_healer FAILED [  9%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_missing_llm_fails_hard_validation_framework FAILED [ 18%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_mock_framework_exists PASSED [ 27%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_fallback_server_exists PASSED [ 36%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_mock_mode_patterns_remain PASSED [ 45%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_fallback_patterns_remain PASSED [ 54%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_semantic_healer_has_no_mock_methods FAILED [ 63%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_validation_framework_no_component_skipping FAILED [ 72%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_all_healing_systems_have_bounded_attempts FAILED [ 81%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_infinite_retry_patterns PASSED [ 90%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_codebase_scan_clean PASSED [100%]
+
+=================================== FAILURES ===================================
+______ TestFailHardCompliance.test_missing_llm_fails_hard_semantic_healer ______
+
+self = <tests.test_fail_hard_compliance.TestFailHardCompliance object at 0x7f8697a87010>
+
+    def test_missing_llm_fails_hard_semantic_healer(self):
+        """Verify missing LLM causes immediate hard failure in SemanticHealer"""
+        # Clear environment variables
+        original_openai = os.environ.pop('OPENAI_API_KEY', None)
+        original_anthropic = os.environ.pop('ANTHROPIC_API_KEY', None)
+    
+        try:
+>           from autocoder.healing.semantic_healer import SemanticHealer, SemanticHealingConfigurationError
+
+tests/test_fail_hard_compliance.py:30: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+autocoder/healing/__init__.py:12: in <module>
+    from .semantic_healer import SemanticHealer, heal_business_logic
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    #!/usr/bin/env python3
+    """
+    Semantic Healer for Autocoder v5.0
+    
+    Uses LLM to fix business logic issues:
+    - Corrects unreasonable transformations
+    - Enhances test data to be domain-specific
+    - Injects output validation
+    - Fixes business logic errors
+    """
+    
+    import logging
+    import ast
+    import json
+    from typing import Dict, Any, List, Optional, Tuple
+    from dataclasses import dataclass
+    import os
+    
+    # Import semantic validator for reasonableness checking
+    try:
+>       from blueprint_language.semantic_validator import SemanticValidator
+E         File "/home/brian/autocoder3_cc/blueprint_language/semantic_validator.py", line 35
+E           \"\"\"Exception raised when semantic validation fails due to missing dependencies\"\"\"
+E            ^
+E       SyntaxError: unexpected character after line continuation character
+
+autocoder/healing/semantic_healer.py:21: SyntaxError
+___ TestFailHardCompliance.test_missing_llm_fails_hard_validation_framework ____
+
+self = <tests.test_fail_hard_compliance.TestFailHardCompliance object at 0x7f8697a843a0>
+
+        def test_missing_llm_fails_hard_validation_framework(self):
+            """Verify missing LLM causes immediate hard failure in ValidationFramework"""
+            # Clear environment variables
+            original_openai = os.environ.pop('OPENAI_API_KEY', None)
+            original_anthropic = os.environ.pop('ANTHROPIC_API_KEY', None)
+    
+            try:
+                from blueprint_language.validation_framework import ValidationFramework, ValidationFailureError
+                from blueprint_language.system_blueprint_parser import SystemBlueprintParser
+    
+                # Create test blueprint
+                test_blueprint_yaml = """
+    system:
+      name: test_system
+      description: Test system for LLM requirement
+      components:
+        - name: test_component
+          type: Source
+          outputs:
+            - name: data
+              schema: TestData
+      bindings: []
+    """
+    
+                parser = SystemBlueprintParser()
+                system_blueprint = parser.parse_string(test_blueprint_yaml)
+    
+                validator = ValidationFramework(Path("./test_validation"))
+    
+>               with pytest.raises(ValidationFailureError) as exc_info:
+E               Failed: DID NOT RAISE <class 'blueprint_language.validation_framework.ValidationFailureError'>
+
+tests/test_fail_hard_compliance.py:76: Failed
+_______ TestFailHardCompliance.test_semantic_healer_has_no_mock_methods ________
+
+self = <tests.test_fail_hard_compliance.TestFailHardCompliance object at 0x7f8697a86bf0>
+
+    def test_semantic_healer_has_no_mock_methods(self):
+        """Verify SemanticHealer no longer has mock methods"""
+>       from autocoder.healing.semantic_healer import SemanticHealer
+
+tests/test_fail_hard_compliance.py:184: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+autocoder/healing/__init__.py:12: in <module>
+    from .semantic_healer import SemanticHealer, heal_business_logic
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    #!/usr/bin/env python3
+    """
+    Semantic Healer for Autocoder v5.0
+    
+    Uses LLM to fix business logic issues:
+    - Corrects unreasonable transformations
+    - Enhances test data to be domain-specific
+    - Injects output validation
+    - Fixes business logic errors
+    """
+    
+    import logging
+    import ast
+    import json
+    from typing import Dict, Any, List, Optional, Tuple
+    from dataclasses import dataclass
+    import os
+    
+    # Import semantic validator for reasonableness checking
+    try:
+>       from blueprint_language.semantic_validator import SemanticValidator
+E         File "/home/brian/autocoder3_cc/blueprint_language/semantic_validator.py", line 35
+E           \"\"\"Exception raised when semantic validation fails due to missing dependencies\"\"\"
+E            ^
+E       SyntaxError: unexpected character after line continuation character
+
+autocoder/healing/semantic_healer.py:21: SyntaxError
+____ TestFailHardCompliance.test_validation_framework_no_component_skipping ____
+
+self = <tests.test_fail_hard_compliance.TestFailHardCompliance object at 0x7f8697a869b0>
+
+        def test_validation_framework_no_component_skipping(self):
+            """Verify ValidationFramework no longer skips unsupported components"""
+            from blueprint_language.validation_framework import ValidationFramework, ValidationFailureError
+            from blueprint_language.system_blueprint_parser import SystemBlueprintParser
+    
+            # Create blueprint with unsupported component type
+            test_blueprint_yaml = """
+    system:
+      name: test_unsupported_system
+      description: Test system with unsupported component
+      components:
+        - name: unsupported_component
+          type: UnsupportedType
+          description: This should cause hard failure
+      bindings: []
+    """
+    
+            parser = SystemBlueprintParser()
+            system_blueprint = parser.parse_string(test_blueprint_yaml)
+    
+            validator = ValidationFramework(Path("./test_validation"))
+    
+            # This should fail hard when it encounters unsupported component
+>           with pytest.raises(ValidationFailureError) as exc_info:
+E           Failed: DID NOT RAISE <class 'blueprint_language.validation_framework.ValidationFailureError'>
+
+tests/test_fail_hard_compliance.py:226: Failed
+____ TestFailHardCompliance.test_all_healing_systems_have_bounded_attempts _____
+
+self = <tests.test_fail_hard_compliance.TestFailHardCompliance object at 0x7f8697a87b50>
+
+    def test_all_healing_systems_have_bounded_attempts(self):
+        """Verify all healing systems have maximum attempt limits"""
+>       from blueprint_language.ast_self_healing import SelfHealingSystem
+
+tests/test_fail_hard_compliance.py:235: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    #!/usr/bin/env python3
+    """
+    AST-Based Self-Healing System - Phase 7 Implementation
+    Automatically fixes component validation failures using Abstract Syntax Tree manipulation
+    
+    This implements the core self-healing capability by:
+    1. Analyzing component validation failures
+    2. Generating precise AST-based fixes
+    3. Applying fixes automatically
+    4. Re-validating components after healing
+    5. Retrying system generation with healed components
+    """
+    import ast
+    import inspect
+    import logging
+    import time
+    from pathlib import Path
+    from typing import Dict, Any, List, Optional, Tuple, Union
+    from dataclasses import dataclass
+    from enum import Enum
+    
+>   from tests.component_test_runner import ComponentTestResult
+E     File "/home/brian/autocoder3_cc/tests/component_test_runner.py", line 384
+E       except NotImplementedError as nie:
+E       ^^^^^^
+E   SyntaxError: invalid syntax
+
+blueprint_language/ast_self_healing.py:22: SyntaxError
+=========================== short test summary info ============================
+FAILED tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_missing_llm_fails_hard_semantic_healer
+FAILED tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_missing_llm_fails_hard_validation_framework
+FAILED tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_semantic_healer_has_no_mock_methods
+FAILED tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_validation_framework_no_component_skipping
+FAILED tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_all_healing_systems_have_bounded_attempts
+========================= 5 failed, 6 passed in 4.77s ==========================

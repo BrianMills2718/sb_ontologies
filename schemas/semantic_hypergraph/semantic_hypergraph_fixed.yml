@@ -1,0 +1,427 @@
+citation: Menezes, Telmo and Camille Roth. 2021. "Semantic Hypergraphs." arXiv preprint
+  arXiv:1908.10784v2 (18 Feb 2021).
+annotation: The paper proposes the Semantic Hypergraph (SH) – a hybrid, recursively
+  ordered hyper-graph model that formally represents the hierarchical and ambiguous
+  richness of natural language while remaining intelligible to humans and machines.
+  It introduces a compact eight-type system, a pattern language, and a two-stage (α
+  / β) parsing pipeline that fuses machine-learning classifiers with symbolic search
+  to translate free text into SH. The authors show how SH enables transparent knowledge
+  extraction (e.g., open information extraction, taxonomy induction, coreference resolution)
+  and provide quantitative evidence of its competitive performance, positioning SH
+  as an ‘open-adaptive’ alternative bridging symbolic and statistical NLP approaches.
+model_type: hypergraph
+rationale: The theory’s central artefact is a recursively ordered hypergraph in which
+  hyperedges may contain any number of participants, other hyperedges, and where participant
+  order conveys argument roles.  Hyperedges themselves are first-class, carry types,
+  and may be referenced by other hyperedges.  These are textbook hypergraph indicators;
+  consequently, a hypergraph model – not a simple property graph – is the only faithful
+  choice.
+schema_blueprint:
+  title: Semantic Hypergraph (SH) Schema for Menezes & Roth (2021)
+  description: Comprehensive hypergraph-based schema that formalises all concepts,
+    metrics, processes, rules and notations introduced in the paper “Semantic Hypergraphs”.  The
+    schema makes every Phase-1 term addressable as either a NodeType, EdgeType or
+    Property while preserving SH’s intrinsic n-ary, ordered and recursive nature.
+  root_properties:
+    vertices:
+      description: Vertices/nodes in the hypergraph
+      item_type: Entity
+    hyperedges:
+      description: N-ary relationships connecting multiple vertices
+      item_type: Hyperedge
+    atoms:
+      description: Atomic semantic units if using SH model
+      item_type: Atom
+    connectors:
+      description: Leading elements defining hyperedge semantics
+      item_type: Connector
+  definitions:
+  - name: Natural Language Processing (NLP)
+    category: domain-context
+    description: The computational field concerned with automatic processing and understanding
+      of human language.
+  - name: open-adaptive quadrant
+    category: strategic-goal
+    description: Design space combining inspectability with adaptivity; targeted by
+      SH.
+    subTypeOf: Natural Language Processing (NLP)
+    located_in_design_space_axes: open/opaque × strict/adaptive
+  - name: Semantic Hypergraph (SH)
+    category: core-construct
+    description: A novel, intrinsically recursive, ordered hypergraph knowledge-representation
+      model capturing natural language semantics.
+    structure: intrinsically recursive, ordered hypergraph
+  - name: hyperedge
+    category: core-construct
+    description: An n-ary, ordered, possibly recursive connection in an SH that unifies
+      other hyperedges or atoms.
+    subTypeOf: Semantic Hypergraph (SH)
+    arity: n-ary
+    ordered: 'true'
+    recursive: may contain other hyperedges
+  - name: atom
+    category: core-construct
+    description: An irreducible hyperedge of size one in SH; basic labeled unit (e.g.,
+      a word).
+    subTypeOf: hyperedge
+    size: '1'
+    irreducible: 'true'
+  - name: connector
+    category: core-construct
+    description: First element of any non-atomic hyperedge specifying how inner hyperedges
+      are semantically linked.
+    subTypeOf: hyperedge
+    position_in_edge: first
+  - name: concept (C)
+    category: type
+    description: Atomic type representing a single-word semantic concept.
+    subTypeOf: hyperedge type
+    atomic: 'true'
+  - name: predicate (P)
+    category: type
+    description: Connector type that builds relations between arguments, usually corresponding
+      to verbs.
+    subTypeOf: hyperedge type
+    forms_relation: 'true'
+  - name: modifier (M)
+    category: type
+    description: Connector type applying to a single hyperedge to create a modified
+      version of the same type.
+    subTypeOf: hyperedge type
+    arity: '1'
+  - name: builder (B)
+    category: type
+    description: Connector type combining several concepts to construct a new compound
+      concept.
+    subTypeOf: hyperedge type
+    combines: several concepts
+  - name: trigger (T)
+    category: type
+    description: Connector adding contextual specifications (e.g., time, location,
+      condition) to a relation.
+    subTypeOf: hyperedge type
+    adds_context: time/location/condition
+  - name: conjunction (J)
+    category: type
+    description: Connector that aggregates or sequences multiple concepts or relations
+      (e.g., and, or).
+    subTypeOf: hyperedge type
+    aggregates: multiple concepts or relations
+  - name: relation (R)
+    category: type
+    description: Non-atomic hyperedge type expressing statements, questions, commands,
+      etc.
+    subTypeOf: hyperedge type
+    sentence_speech_act: statement/question/command
+  - name: specifier (S)
+    category: type
+    description: Hyperedge type encoding supplemental information that modifies a
+      relation (e.g., temporal spec).
+    subTypeOf: hyperedge type
+    modifies: relation R
+  - name: Dependency Parse Tree (DPT)
+    category: referenced-construct
+    description: Syntactic tree representation capturing grammatical dependencies
+      between words.
+    represents: syntactic dependencies
+  - name: pattern language
+    category: language
+    description: SH-based notation with variables, wild-cards and role sets used to
+      specify match/inference templates.
+    alphabet: SH connectors, variables, wild-cards
+  - name: variable (in SH patterns)
+    category: symbol
+    description: Placeholder (capitalised atom) that can match any hyperedge of compatible
+      type.
+    match: any hyperedge of compatible type
+  - name: wildcard
+    category: symbol
+    description: Generic type-annotated element in a pattern that can match arbitrary
+      hyperedges.
+    match: arbitrary hyperedge
+  - name: Open Information Extraction (OIE)
+    category: application-domain
+    description: Domain-independent extraction of relational tuples from text; used
+      as benchmark for SH patterns.
+    subTypeOf: Natural Language Processing (NLP)
+  - name: co-occurrence graph
+    category: derivative-structure
+    description: Graph whose vertices are auxiliary concepts that co-participate with
+      a seed in compound concepts.
+    vertices: auxiliary concepts
+  - name: seed concept
+    category: anchor
+    description: Main atomic concept used to initiate coreference analysis among compound
+      nouns.
+    subTypeOf: concept (C)
+  - name: coreference set
+    category: result-construct
+    description: Group of SH compound concepts determined to refer to the same external
+      entity.
+    members: compound concepts referring to same entity
+  - name: hypergraph database
+    category: infrastructure
+    description: Persistent store of SH edges enabling queries and pattern matching
+      over large corpora.
+    stores: SH edges
+  - name: (+/B) special builder
+    category: special-case
+    description: Builder connector denoting compound noun formed by juxtaposed concepts.
+    subTypeOf: builder (B)
+    forms: compound noun by juxtaposition
+  - name: Universal Dependencies (UD)
+    category: external-standard
+    description: Cross-lingual dependency grammar annotation scheme used as coverage
+      benchmark for SH.
+    coverage_benchmark_for: SH
+  - name: topic
+    category: analytic-construct
+    description: ''
+    hierarchical: 'true'
+  - name: claim predicate
+    category: semantic-category
+    description: Predicate lemmas (e.g., say, claim) signalling that an actor asserts
+      a proposition.
+    subTypeOf: predicate (P)
+  - name: conflict predicate
+    category: semantic-category
+    description: Predicate lemmas (e.g., accuse, condemn) indicating opposition or
+      conflict between actors.
+    subTypeOf: predicate (P)
+  - name: lemma/J edge
+    category: auxiliary-construct
+    description: Auxiliary SH edge linking an inflected word form to its lemma using
+      special connector lemma/J.
+    domain:
+    - InflectedWordFormAtom
+    range:
+    - LemmaAtom
+    connector: lemma/J
+    arity: '2'
+  - name: open/opaque dichotomy
+    category: processing-transparency-axis
+    description: Axis characterising whether processing rules and internal representations
+      are inspectable (open) or not (opaque).
+    allowed_values: open | opaque
+  - name: strict/adaptive dichotomy
+    category: processing-adaptivity-axis
+    description: Axis distinguishing fixed-rule (‘strict’) from data-driven, learning
+      (‘adaptive’) NLP systems.
+    allowed_values: strict | adaptive
+  - name: ordered hypergraph
+    category: graph-topology
+    description: Hypergraph variant where the position of vertices inside a hyperedge
+      is meaningful (akin to edge direction).
+    true_means: vertex positions are meaningful
+  - name: recursive hypergraph
+    category: graph-topology
+    description: Hypergraph allowing hyperedges to appear as vertices of other hyperedges,
+      enabling nesting.
+    true_means: hyperedges may be vertices
+  - name: hyperedge type
+    category: classification
+    description: Semantic role category attached to atoms/connectors governing SH
+      syntax and inference.
+    allowed_values: C|P|M|B|T|J|R|S
+  - name: argument role
+    category: attribute
+    description: Symbolic label indicating the semantic function each argument plays
+      with respect to a predicate.
+    allowed_values: s,p,a,c,o,i,t,x,r
+  - name: active subject (s)
+    category: role
+    description: Argument role marking the doer of an action in active voice.
+    subTypeOf: argument role
+  - name: passive subject (p)
+    category: role
+    description: Argument role marking the patient subject in passive constructions.
+    subTypeOf: argument role
+  - name: agent (a)
+    category: role
+    description: Role indicating performer of action in a passive clause.
+    subTypeOf: argument role
+  - name: subject complement (c)
+    category: role
+    description: Role for predicate nominals/adjectives completing the subject.
+    subTypeOf: argument role
+  - name: direct object (o)
+    category: role
+    description: Argument role marking entity directly affected by action.
+    subTypeOf: argument role
+  - name: indirect object (i)
+    category: role
+    description: Role for beneficiary/recipient of action.
+    subTypeOf: argument role
+  - name: parataxis role (t)
+    category: role
+    description: Role marking syntactically disjoint but related clauses.
+    subTypeOf: argument role
+  - name: specification role (x)
+    category: role
+    description: Role designating additional specifier information inside relations.
+    subTypeOf: argument role
+  - name: relative relation role (r)
+    category: role
+    description: Role indicating a nested relation functioning as relative clause.
+    subTypeOf: argument role
+  - name: threshold θ / θ′
+    category: parameter
+    description: Empirical cut-off parameters controlling probabilistic seed assignment.
+    usage: coreference seed assignment
+  - name: α-stage
+    category: parsing-process
+    description: ''
+    domain:
+    - TokenStream
+    range:
+    - TypedAtoms
+    implemented_by: machine-learning classifier
+  - name: β-stage
+    category: parsing-process
+    description: ''
+    domain:
+    - TypedAtoms
+    range:
+    - WellFormedSHEdges
+    search_strategy: rule-based with heuristic h
+  - name: conjunction decomposition
+    category: rule-set
+    description: Set of rules that split SH relations containing conjunctions into
+      simpler, atomic relations.
+    domain:
+    - RelationWithConjunction
+    range:
+    - AtomicRelations
+    splits: J connectors
+  - name: feature selection (genetic algorithm)
+    category: learning-method
+    description: Evolutionary search over feature subsets to optimize α-classifier
+      accuracy.
+    domain:
+    - FeatureSubsets
+    range:
+    - ClassifierAccuracy
+    optimisation: evolutionary search
+  - name: iterative ablation
+    category: evaluation-method
+    description: Feature-elimination technique measuring accuracy impact to retain
+      informative features.
+    domain:
+    - FeatureSet
+    range:
+    - AccuracyImpact
+  - name: pattern learning template
+    category: human-in-the-loop workflow
+    description: Human-in-the-loop workflow that generalises observed SH edges into
+      reusable extraction patterns.
+    domain:
+    - ObservedSHEdges
+    range:
+    - ReusableExtractionPatterns
+  - name: faction detection algorithm
+    category: heuristic-algorithm
+    description: Heuristic assigning actors to antagonistic groups using conflict
+      edge scores si j.
+    domain:
+    - ActorConflictEdges
+    range:
+    - ActorGroups
+    edge_weight: s_ij
+  - name: probabilistic seed assignment
+    category: heuristic-algorithm
+    description: Heuristic assigning ambiguous seed atoms to a coreference set based
+      on degree ratios and thresholds.
+    domain:
+    - SeedAtoms
+    range:
+    - CoreferenceMembership
+    controlled_by: threshold θ / θ′
+  - name: BetaTransformation
+    category: recursive-procedure
+    description: Recursive procedure building final SH edge by repeated pattern application
+      until convergence.
+    domain:
+    - InitialSHEdge
+    range:
+    - FinalSHEdge
+    applies_until: convergence
+  - name: GenerateΔ(e) function
+    category: graph-algorithm
+    description: Recursive algorithm computing the neighbourhood Δe for deep-degree
+      calculation.
+    domain:
+    - Hyperedge e
+    range:
+    - NeighbourhoodSet Δe
+  - name: ApplyPattern function
+    category: β-stage subroutine
+    description: β-stage subroutine that replaces matching sequence with a single
+      hyperedge conforming to a pattern.
+    domain:
+    - HyperedgeSequence
+    range:
+    - SingleHyperedge
+  - name: heuristic function h
+    category: scoring-function
+    description: Scoring function guiding β-stage when multiple pattern matches compete,
+      leveraging dependency links.
+    domain:
+    - CompetingPatternMatches
+    range:
+    - RealScore
+    uses: dependency links
+  - name: type inference rule
+    category: formal-rule
+    description: Formal pattern that infers resulting hyperedge type from connector
+      and argument types.
+    domain:
+    - Connector + ArgumentTypes
+    range:
+    - ResultHyperedgeType
+  - name: inference rule
+    category: formal-rule
+    description: Coupled pattern pair (lhs ⇒ rhs) that, when lhs matches, generates
+      a derived SH edge defined by rhs.
+    domain:
+    - LeftHandSidePattern
+    range:
+    - DerivedSHEdge
+  - name: hypergraphic degree d(e)
+    category: structural-metric
+    description: Number of pairwise connections a hyperedge has via the outer hyperedges
+      it participates in.
+  - name: deep degree δ(e)
+    category: structural-metric
+    description: Degree counting recursive co-participations of a hyperedge at any
+      nesting depth.
+  - name: F1 score
+    category: performance-metric
+    description: Harmonic mean of precision and recall used to compare OIE systems.
+    formula: 2 * Prec * Rec / (Prec + Rec)
+  - name: precision (Prec.)
+    category: performance-metric
+    description: Proportion of extracted tuples that are correct.
+  - name: recall
+    category: performance-metric
+    description: Proportion of gold standard tuples correctly extracted.
+  - name: accuracy
+    category: classification-metric
+    description: Fraction of correctly classified items (used for α-stage evaluation).
+  - name: score s_ij
+    category: edge-weight
+    description: Edge weight defined as min(di,dj) used in faction identification.
+    definition: min(d_i,d_j)
+  - name: probability p (seed use)
+    category: probability-estimate
+    description: Estimated chance that a seed atom alone denotes a specific entity,
+      computed from degree ratios.
+  modifiers_supported:
+  - temporal
+  - modal
+  - contextual
+  operators_supported:
+  - +/B
+  - :/J
+  - ⇒
+  - ⇔
+  - '` (rule separator)'

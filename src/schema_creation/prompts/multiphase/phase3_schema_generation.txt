@@ -1,0 +1,66 @@
+You are an expert in schema design for knowledge representation.
+
+Given the classified vocabulary from an academic theory, design a comprehensive schema that:
+
+1. **Selects the optimal model type** based on the theory's actual structure:
+   - property_graph: Rich relationships between diverse entities
+   - hypergraph: N-ary relationships where edges connect multiple vertices, recursive/nested structures
+   - table_matrix: Structured classifications or typologies
+   - sequence: Ordered processes or stages
+   - tree: Hierarchical taxonomies or decision trees
+   - timeline: Temporal evolution or historical development
+   - other: Unique structures requiring custom representation
+
+2. **Considers hypergraph indicators**:
+   - Relationships involving 3+ participants (n-ary relations)
+   - Recursive or nested relationship structures
+   - Ordered sequences of participants in relationships
+   - Relations that reference other relations
+   - Hyperedges as first-class objects with properties
+
+3. **Designs comprehensive node types** with:
+   - Specific node types matching the theory's entities
+   - All relevant properties for each node type
+   - Hierarchical subtypes where applicable
+   - Semantic constraints
+
+4. **Defines precise edge types** with:
+   - Specific from/to type constraints (not generic)
+   - Edge properties where applicable
+   - Inverse relationships where relevant
+   - For hypergraphs: participant roles and ordering
+
+5. **Includes all supporting elements**:
+   - Complete property definitions
+   - Modifiers (temporal/modal) used in the theory
+   - Truth value system if applicable
+   - Logical operators if used
+
+6. **Adapts to the specific theory**:
+   - Title should reference the theory name
+   - Description should explain the theory's focus
+   - Structure should match the theory's conceptual model
+
+7. **CRITICAL - Extracts notation systems**:
+   - Argument role codes (e.g., P.sa for predicate with subject-argument roles)
+   - Special symbols and operators (e.g., +/B for builder, :/J for conjunction)
+   - Position-based meanings in notations
+   - Abbreviated forms and their expansions
+
+8. **CRITICAL - Documents extraction patterns**:
+   - Pattern matching rules or regular expressions used by the theory
+   - Transformation rules (e.g., "X of Y" → predicate(Y,X))
+   - Type inference rules from context
+   - Syntactic patterns for identifying structures
+
+9. **Includes implementation details**:
+   - Step-by-step algorithms if provided
+   - Edge cases and exceptions
+   - Validation constraints and rules
+   - Ordering requirements for arguments
+
+Do not default to property_graph - genuinely evaluate which model type best represents this specific theory. Pay special attention to n-ary relationships and recursive structures that may indicate a hypergraph representation.
+
+IMPORTANT: Look for any notation systems, symbolic representations, or pattern languages that the theory uses for extraction or representation. These are often found in methodology sections or examples.
+
+CRITICAL REQUIREMENT: You will receive the COMPLETE Phase 1 vocabulary. Your schema MUST include ALL terms from this vocabulary - do not omit any terms. If a term appears in Phase 1, it must appear in your final schema definitions.

@@ -1,0 +1,169 @@
+annotation: The paper introduces the Semantic Hypergraph (SH), a recursive knowledge-representation
+  model that merges symbolic transparency with machine-learning adaptability for natural-language
+  understanding. It situates SH within an open–adaptive paradigm and empirically demonstrates
+  its utility across several NLP tasks using hybrid ML-symbolic pipelines.
+citation: Menezes, T., & Roth, C. (2021). Semantic Hypergraphs. arXiv:1908.10784v2.
+model_type: hypergraph
+rationale: SH explicitly models sentences as nested hyperedges that capture n-ary
+  and recursive semantic relations, making the hypergraph paradigm the most faithful
+  representation of the theory.
+schema_blueprint:
+  definitions:
+  - category: entity
+    description: A recursive, hybrid knowledge representation structure where nodes
+      and hyperedges encode the semantic constituents of natural language.
+    name: Semantic Hypergraph
+  - category: entity
+    description: A general graph form in which an edge (hyperedge) can connect any
+      number of nodes, underpinning the SH model.
+    name: Hypergraph
+  - category: entity
+    description: The computational study and manipulation of human language data.
+    name: Natural Language Processing
+  - category: relationship
+    description: The classification axis that contrasts inspectable reasoning systems
+      with black-box models.
+    domain:
+    - Entity
+    name: Open/Opaque Dichotomy
+    range:
+    - Entity
+  - category: relationship
+    description: The axis distinguishing fixed-rule approaches from those that learn
+      rules from data.
+    domain:
+    - Entity
+    name: Strict/Adaptive Dichotomy
+    range:
+    - Entity
+  - category: property
+    description: The property of a system whose internal rules and inferences are
+      accessible and human-readable.
+    name: Openness
+  - category: property
+    description: The capacity of a model to adjust its parameters or rules in response
+      to data.
+    name: Adaptivity
+  - category: entity
+    description: Data-driven algorithms that automatically infer models or rules,
+      supplying the adaptive component in SH pipelines.
+    name: Machine Learning
+  - category: entity
+    description: Rule-based computational techniques relying on explicit linguistic
+      or logical formalisms.
+    name: Symbolic Methods
+  - category: entity
+    description: An ensemble ML algorithm of decision trees used in the paper to help
+      map text fragments into SH structures.
+    name: Random Forest Classifier
+  - category: entity
+    description: An ordered exploration structure that guides the parser when converting
+      sentences into SH.
+    name: Search Tree
+  - category: action
+    description: The action of identifying recurrent structural or semantic motifs
+      within SHs.
+    domain:
+    - Entity
+    name: Pattern Detection
+    range:
+    - Entity
+  - category: action
+    description: The process of transforming raw text into SH representations through
+      combined ML-symbolic procedures.
+    domain:
+    - Entity
+    name: Parsing
+    range:
+    - Entity
+  - category: entity
+    description: A meta-language, itself representable as SH, for specifying detectable
+      patterns and inference templates.
+    name: Pattern Language
+  - category: entity
+    description: A formal transformation that derives new SH hyperedges from existing
+      ones.
+    name: Knowledge Inference Rule
+  - category: action
+    description: The action of splitting coordinated phrases into their individual
+      propositional components within SH.
+    domain:
+    - Entity
+    name: Conjunction Decomposition
+    range:
+    - Entity
+  - category: action
+    description: The task of automatically retrieving relational tuples from unrestricted
+      text using SH patterns.
+    domain:
+    - Entity
+    name: Open Information Extraction
+    range:
+    - Entity
+  - category: action
+    description: The action of deriving hierarchical concept structures from SH-encoded
+      corpora.
+    domain:
+    - Entity
+    name: Concept Taxonomy Inference
+    range:
+    - Entity
+  - category: action
+    description: The action of linking SH nodes that refer to the same real-world
+      entity across a discourse.
+    domain:
+    - Entity
+    name: Co-reference Resolution
+    range:
+    - Entity
+  - category: action
+    description: The action of isolating and structuring assertions made by actors
+      in text via SH.
+    domain:
+    - Entity
+    name: Claim Analysis
+    range:
+    - Entity
+  - category: action
+    description: The SH-based action of identifying contradictory claims or positions
+      within or across documents.
+    domain:
+    - Entity
+    name: Conflict Analysis
+    range:
+    - Entity
+  - category: measure
+    description: The proportion of SH outputs that are correct, used to evaluate parser
+      accuracy.
+    name: Precision
+  - category: measure
+    description: A quantitative measure of meaning proximity between language units,
+      often computed via embeddings.
+    name: Semantic Similarity
+  - category: measure
+    description: A statistical weight reflecting how important a word is to a document
+      relative to a corpus.
+    name: TF-IDF
+  - category: measure
+    description: A scalar sentiment measure indicating positive or negative affect
+      in text.
+    name: Valence
+  - category: entity
+    description: A continuous vector representation of words capturing their contextual
+      semantics.
+    name: Word Embedding
+  description: Schema generated from paper analysis
+  root_properties:
+    vertices:
+      description: Vertices/nodes in the hypergraph
+      item_type: Entity
+    hyperedges:
+      description: N-ary relationships connecting multiple vertices
+      item_type: Hyperedge
+    atoms:
+      description: Atomic semantic units (words/concepts)
+      item_type: Atom
+    connectors:
+      description: Leading elements defining hyperedge semantics
+      item_type: Connector
+  title: Semantic Hypergraph Schema

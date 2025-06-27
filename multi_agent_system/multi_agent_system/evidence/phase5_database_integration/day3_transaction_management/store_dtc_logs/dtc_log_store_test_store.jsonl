@@ -1,0 +1,5 @@
+{"timestamp": 1750678436.9631488, "global_txn_id": "b809f92c-76d4-47eb-83e6-5cfcb9b5f5b6", "coordinator_id": "store_test_store", "event_type": "BEGIN", "data": {"participants": ["test_store", "remote_store"], "isolation_level": "READ_COMMITTED", "timeout": 300.0}}
+{"timestamp": 1750678436.9632785, "global_txn_id": "b809f92c-76d4-47eb-83e6-5cfcb9b5f5b6", "coordinator_id": "store_test_store", "event_type": "PREPARE_START", "data": {}}
+{"timestamp": 1750678436.963405, "global_txn_id": "b809f92c-76d4-47eb-83e6-5cfcb9b5f5b6", "coordinator_id": "store_test_store", "event_type": "PREPARED", "data": {"participants": ["test_store", "remote_store"]}}
+{"timestamp": 1750678436.9634647, "global_txn_id": "b809f92c-76d4-47eb-83e6-5cfcb9b5f5b6", "coordinator_id": "store_test_store", "event_type": "COMMIT_START", "data": {}}
+{"timestamp": 1750678436.9635575, "global_txn_id": "b809f92c-76d4-47eb-83e6-5cfcb9b5f5b6", "coordinator_id": "store_test_store", "event_type": "COMMITTED", "data": {"prepare_time": 0.00018405914306640625, "commit_time": 9.226799011230469e-05}}

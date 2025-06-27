@@ -1,0 +1,35 @@
+Natural Language Parsing Examples - All Successfully Parsed
+
+✅ SOURCE EXAMPLES:
+"Create a data source component called ApiDataSource that reads JSON data from API endpoints"
+→ Class: ApiDataSource, Type: SOURCE, Data: json, Method: api
+
+"Generate a source component called DatabaseReader that fetches CSV data from database tables"
+→ Class: DatabaseReader, Type: SOURCE, Data: csv, Method: database
+
+✅ TRANSFORMER EXAMPLES:
+"Build a transformer component called FilterComponent that filters JSON data based on conditions"
+→ Class: FilterComponent, Type: TRANSFORMER, Data: json, Method: filter
+
+"Create a transformer component called DataMapper that transforms CSV data using map operations"
+→ Class: DataMapper, Type: TRANSFORMER, Data: csv, Method: map
+
+✅ SINK EXAMPLES:
+"Make a sink component called DatabaseWriter that stores JSON data to database tables"
+→ Class: DatabaseWriter, Type: SINK, Data: json, Method: database
+
+"Generate a file sink component called FileStorage that saves CSV data to filesystem"
+→ Class: FileStorage, Type: SINK, Data: csv, Method: file
+
+✅ FAIL-HARD VALIDATION EXAMPLES:
+❌ "Create a data processor" → FAILS: No class name specified
+❌ "Make a class called InvalidName" → FAILS: No component type detected
+❌ "Create a source called TestSource" → FAILS: No data type detected
+❌ "Build a component that handles stuff" → FAILS: Multiple validation errors
+
+PARSING PRINCIPLES:
+- No ambiguous interpretations allowed
+- All specifications must be explicit and complete
+- Predefined pattern matching only (no AI inference)
+- Strict validation with fail-hard behavior
+- No fallback modes or best-guess parsing

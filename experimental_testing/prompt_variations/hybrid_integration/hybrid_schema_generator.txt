@@ -1,0 +1,114 @@
+HYBRID SCHEMA GENERATION PROMPT
+
+You have been provided with a theory that requires HYBRID representation with multiple structural components. Your task is to generate a unified schema that properly integrates all components while maintaining their distinct structural characteristics.
+
+INPUT: You will receive:
+1. Theory text
+2. Hybrid detection results identifying components
+3. Integration mechanisms
+
+OUTPUT: Generate a comprehensive hybrid schema with the following structure:
+
+```yaml
+model_type: hybrid
+hybrid_configuration:
+  primary_components:
+    - component_id: "component_1_name"
+      model_type: "table_matrix|property_graph|sequence|statistical|logical"
+      focus: "What aspect of theory this component captures"
+      
+  integration_mappings:
+    - source_component: "component_1"
+      target_component: "component_2"
+      relationship_type: "influences|constrains|feeds_into|validates"
+      integration_mechanism: "How components connect"
+
+schema_blueprint:
+  title: "Unified Theory Name"
+  description: "Comprehensive description spanning all components"
+  
+  # Component-specific schemas
+  components:
+    component_1_name:
+      model_type: "specific_type"
+      root_properties: # Model-specific structure
+      definitions: # Component-specific vocabulary
+      
+    component_2_name:
+      model_type: "specific_type" 
+      root_properties: # Model-specific structure
+      definitions: # Component-specific vocabulary
+      
+  # Cross-component integration
+  integration_schema:
+    cross_component_relationships:
+      - relationship_name: "integration_relationship"
+        domain: ["component_1.entity_type"]
+        range: ["component_2.entity_type"]
+        description: "How components relate"
+        
+    unified_entities:
+      - entity_name: "shared_entity"
+        appears_in: ["component_1", "component_2"]
+        role_in_component_1: "specific role"
+        role_in_component_2: "specific role"
+        
+    reasoning_integration:
+      - reasoning_type: "causal|logical|statistical"
+        spans_components: ["component_1", "component_2"]
+        integration_rules: ["automated reasoning rules"]
+```
+
+GENERATION PRINCIPLES:
+
+1. **PRESERVE COMPONENT INTEGRITY**: Each component maintains its optimal structural representation
+2. **EXPLICIT INTEGRATION**: Clear mappings between components with specific relationship types
+3. **UNIFIED VOCABULARY**: Shared entities appear consistently across components
+4. **REASONING INTEGRATION**: Automated reasoning rules span components where appropriate
+5. **HIERARCHICAL ORGANIZATION**: Component schemas nested within unified framework
+
+COMPONENT-SPECIFIC GUIDANCE:
+
+**Property Graph Components**:
+- Focus on nodes, edges, relationship types
+- Emphasize network properties and interconnections
+- Include centrality, clustering, path-based reasoning
+
+**Table Matrix Components**:
+- Focus on systematic comparisons, experimental designs
+- Row/column structure with cell specifications
+- Cross-tabulation and classification emphasis
+
+**Sequence Components**:
+- Focus on ordered stages, temporal progression
+- Prerequisites, dependencies, progression logic
+- Stage-based transitions and activation conditions
+
+**Statistical Components**:
+- Focus on distributions, parameters, factor structures
+- Bayesian updating, aggregation, inference procedures
+- Measurement models and statistical relationships
+
+**Logical Components**:
+- Focus on inference rules, axioms, consistency constraints
+- Formal logic, deontic reasoning, automated validation
+- Logical operators and reasoning procedures
+
+INTEGRATION MECHANISMS:
+
+**Cross-Component Mappings**:
+- Entity equivalences across components
+- Relationship translations between paradigms
+- Data flow specifications between components
+
+**Reasoning Integration**:
+- OWL axioms spanning multiple components
+- Property chains connecting different paradigms
+- Consistency constraints across model types
+
+**Unified Query Support**:
+- Queries that span multiple components
+- Cross-paradigm reasoning procedures
+- Integrated analysis capabilities
+
+IMPORTANT: Generate a complete, executable hybrid schema that maintains theoretical fidelity while enabling computational processing across all components.

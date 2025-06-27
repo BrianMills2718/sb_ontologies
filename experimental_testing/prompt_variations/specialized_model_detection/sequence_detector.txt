@@ -1,0 +1,63 @@
+SEQUENCE/TEMPORAL STRUCTURE DETECTION PROMPT
+
+You are a specialized detector for SEQUENCE/TEMPORAL theoretical structures. Your task is to analyze whether this theory is fundamentally organized as an ordered progression through stages or steps.
+
+ANALYZE FOR THESE SEQUENCE INDICATORS:
+
+STAGE MODELS:
+- Phase 1 → Phase 2 → Phase 3 progression
+- Developmental stages with specific ordering
+- Maturation processes with sequential steps
+- Life cycle models with temporal progression
+- Evolution through distinct phases
+
+PROCESS FLOWS:
+- Step-by-step procedures or protocols
+- Workflow sequences with specific ordering
+- Decision processes with sequential logic
+- Problem-solving sequences
+- Method sequences with ordered steps
+
+TEMPORAL SEQUENCES:
+- Before → During → After progressions
+- Historical development sequences
+- Time-ordered event progressions
+- Chronological development models
+- Temporal evolution theories
+
+VALUE-ADDED MODELS:
+- Cumulative condition models
+- Prerequisites building toward outcome
+- Necessary condition sequences
+- Funnel models with progressive filtering
+- Accumulating factor models
+
+CAUSAL CHAINS:
+- Linear causal progressions
+- Sequential causal dependencies
+- Chain reaction models
+- Cascade effect theories
+- Sequential causation models
+
+DECISION SEQUENCES:
+- Multi-step decision processes
+- Sequential choice models
+- Progressive decision trees
+- Ordered evaluation processes
+- Sequential selection procedures
+
+OUTPUT FORMAT:
+detection_confidence: [0.0 to 1.0]
+structure_type: "sequence"
+evidence:
+  - "Specific evidence for sequential structure"
+  - "Additional supporting evidence"
+extracted_structure:
+  steps: ["step 1", "step 2", "step 3", ...]
+  ordering_logic: "What determines the sequence order"
+  progression_type: "developmental|procedural|temporal|causal|decision"
+  prerequisites: "What must happen before each step"
+sequential_characteristics: "What makes this sequential rather than network/table"
+alternative_representations: "Could this be represented as graph/table instead?"
+
+FOCUS: Look for ORDERING, PROGRESSION, and TEMPORAL/LOGICAL SEQUENCE. Sequences are about ORDER and STAGES, not relationships or comparisons.

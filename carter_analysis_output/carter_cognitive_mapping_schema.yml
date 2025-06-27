@@ -1,0 +1,147 @@
+analysis_type: balanced_multi_purpose
+balance_validation:
+  causal_over_emphasis_detected: false
+  equal_sophistication_check: true
+  purpose_balance_score: 1.0
+  theoretical_fidelity: High - Uses Young 1996 concepts directly
+causal_analysis:
+  causal_pathways:
+  - chain: "Arms Competition \u2192 Security Dilemma \u2192 Increased Tensions"
+    type: negative_feedback
+  - chain: "Successful Negotiation \u2192 Trust Building \u2192 Expanded Cooperation"
+    type: positive_feedback
+  - chain: "Public Understanding \u2192 Political Support \u2192 Policy Sustainability"
+    type: domestic_support
+  - chain: "Economic Interdependence \u2192 Shared Interests \u2192 Peace Incentives"
+    type: structural_change
+  causal_relationships_identified:
+    bidirectional_links:
+    - "Trust \u2194 Cooperation"
+    - "Understanding \u2194 Peace"
+    negative_causal_links:
+    - "Secrecy \u2192 Weakness"
+    - "Arms buildup \u2192 Mistrust"
+    positive_causal_links:
+    - "Mutual understanding \u2192 Cooperation"
+    - "Transparency \u2192 Credibility"
+  intervention_points:
+  - leverage: High
+    location: Arms control negotiations
+    mechanism: Reciprocal reductions
+  - leverage: Medium
+    location: Public communication
+    mechanism: Transparency
+  - leverage: Medium
+    location: Economic cooperation
+    mechanism: Joint projects
+  purpose: Identify causal pathways and intervention points (balanced treatment)
+descriptive_analysis:
+  adjacency_matrix_structure: Dense connections around peace/cooperation concepts
+  core_concepts:
+  - category: entity
+    concept: US-Soviet Relationship
+    properties:
+    - bilateral
+    - competitive
+    - cooperative
+  - category: entity
+    concept: Nuclear Weapons
+    properties:
+    - threatening
+    - deterrent
+    - controllable
+  - category: entity
+    concept: International System
+    properties:
+    - bipolar
+    - evolving
+    - interdependent
+  - category: entity
+    concept: Peace
+    properties:
+    - achievable
+    - mutual
+    - principled
+  - category: entity
+    concept: Human Rights
+    properties:
+    - universal
+    - principled
+    - non-threatening
+  purpose: Taxonomic classification of cognitive map structure
+  semantic_network_types:
+    causal_relationships:
+    - "Competition \u2192 Security dilemma"
+    - "Understanding \u2192 Cooperation"
+    is_a_relationships:
+    - "D\xE9tente IS-A managed competition"
+    - Arms control IS-A security measure
+    part_of_relationships:
+    - Human rights PART-OF foreign policy
+    - Trade PART-OF cooperation
+explanatory_analysis:
+  belief_change_processes:
+    adaptation_mechanism: Public engagement + moral clarity
+    learning_source: Vietnam/Watergate experience
+    update_triggers: Soviet reciprocal actions
+  purpose: Explain belief formation and decision-making mechanisms
+  semantic_network_mechanisms:
+    aggregation_capability: Multiple domains unified under peace framework
+    encapsulated_concepts: "D\xE9tente encapsulates competition + cooperation"
+    hidden_information: Complex statements about Soviet motivations
+    synonym_facility:
+    - "Cooperation = Peaceful coexistence = D\xE9tente"
+  worldview_system:
+    belief_structure: Hierarchical with peace as core value
+    causal_logic: Interdependence theory + Liberal institutionalism
+    central_belief: Peace through principled engagement
+    decision_framework: Evidence-based negotiation with transparency
+intervention_analysis:
+  belief_modification_strategies:
+  - method: Consistent reciprocal actions
+    target: Soviet beliefs
+    theory_basis: Cognitive mapping
+  - method: Educational transparency
+    target: Public beliefs
+    theory_basis: WorldView aggregation
+  - method: Policy coherence demonstration
+    target: Elite beliefs
+    theory_basis: Structural measures
+  communication_interventions:
+    aggregation_strategy: Unify multiple policy domains
+    reasoning_support: Provide logical frameworks for evaluation
+    semantic_network_activation: Reinforce peace-cooperation linkages
+    synonym_facility_usage: Consistent terminology across venues
+  decision_making_interventions:
+  - intervention: Multiple negotiation tracks
+    rationale: Increase belief network density
+  - intervention: Public engagement
+    rationale: Strengthen policy belief structure
+  - intervention: Principled consistency
+    rationale: Maintain cognitive map coherence
+  purpose: Specify actions to modify belief structures and decision processes
+model_type: property_graph
+predictive_analysis:
+  belief_change_predictions:
+  - mechanism: Reciprocal engagement
+    target: Soviet leadership
+    timeframe: Medium-term
+  - mechanism: Transparency
+    target: American public
+    timeframe: Short-term
+  - mechanism: Successful cooperation
+    target: International system
+    timeframe: Long-term
+  decision_making_forecasts:
+    communication_strategy: Public diplomacy + private negotiation
+    flexibility_approach: Principled but pragmatic
+    negotiation_style: Multiple simultaneous tracks
+    priority_ordering: Mutual benefit calculations first
+  purpose: Forecast belief evolution and decision outcomes
+  structural_measures:
+    centrality_predictions: Peace concept will increase centrality
+    connectivity_evolution: Security-economic domains will integrate
+    network_density_change: Cooperation concepts will densify
+speech_length: 20636
+theory_applied: Young (1996) Cognitive Mapping Meets Semantic Networks
+timestamp: '2025-06-26T17:02:29.372752'

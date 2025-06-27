@@ -1,0 +1,82 @@
+{
+  "schema_type": "descriptive_analysis",
+  "model_type": "social_ecological_system",
+  "sophistication_level": 8,
+  "purpose": "descriptive",
+  "core_capabilities": {
+    "taxonomic_classification": {
+      "entity_types": [
+        "individual_actors",
+        "collective_actors", 
+        "institutional_actors",
+        "ecological_components",
+        "social_structures"
+      ],
+      "classification_dimensions": [
+        "scale_level",
+        "functional_role",
+        "structural_position",
+        "temporal_persistence",
+        "adaptive_capacity"
+      ],
+      "hierarchical_levels": ["micro", "meso", "macro"]
+    },
+    "typological_analysis": {
+      "ideal_types": [
+        "purely_individual",
+        "purely_collective", 
+        "hybrid_governance",
+        "market_coordination",
+        "hierarchical_control"
+      ],
+      "dimensional_mapping": {
+        "coordination_mechanism": ["market", "hierarchy", "network"],
+        "decision_authority": ["centralized", "distributed", "hybrid"],
+        "resource_control": ["private", "common", "public"]
+      }
+    },
+    "structural_description": {
+      "component_identification": [
+        "resource_systems",
+        "governance_systems", 
+        "user_groups",
+        "institutional_arrangements"
+      ],
+      "relationship_patterns": [
+        "hierarchical_relationships",
+        "network_relationships",
+        "market_relationships",
+        "hybrid_relationships"
+      ],
+      "configuration_types": [
+        "simple_systems",
+        "complex_systems",
+        "complicated_systems",
+        "chaotic_systems"
+      ]
+    }
+  },
+  "analytical_operations": [
+    "classify",
+    "categorize", 
+    "describe",
+    "characterize",
+    "differentiate",
+    "distinguish",
+    "profile",
+    "map"
+  ],
+  "output_formats": [
+    "taxonomies",
+    "typologies",
+    "classifications",
+    "profiles",
+    "descriptions", 
+    "structural_maps"
+  ],
+  "balance_validation": {
+    "sophistication_equal_to_others": true,
+    "no_over_emphasis": true,
+    "comprehensive_coverage": true
+  }
+}

@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: phase8_test_api
+  namespace: phase8_test_api
+  labels:
+    app: phase8_test_api
+    component: service
+spec:
+  selector:
+    app: phase8_test_api
+  ports:
+  - name: test_api
+    port: 8080
+    targetPort: 8080
+    protocol: TCP
+  - name: metrics
+    port: 10919
+    targetPort: 10919
+    protocol: TCP
+  type: ClusterIP

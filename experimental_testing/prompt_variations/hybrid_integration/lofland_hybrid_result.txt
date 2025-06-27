@@ -1,0 +1,16 @@
+HYBRID THEORY DETECTION TEST
+Input: validation_results/complexity_testing/lofland_stark_simple_theory.txt
+==================================================
+
+hybrid_detected: false
+confidence: 0.9
+primary_components:
+  - component_name: "Sequential Funnel Structure"
+    model_type: "sequence"
+    evidence: "The theory organizes seven necessary conditions in a specific order (a funnel) through which potential converts are progressively filtered."
+    theoretical_role: "It outlines a stepwise process leading to conversion, with each condition building sequentially on the previous one."
+integration_mechanisms:
+  - "Although the theory distinguishes between different conditions and even conversion types (verbal versus total), they are integrated solely via their sequential interdependence rather than through multiple, fundamentally different representational paradigms."
+integration_type: layered
+unified_framework_name: "Value-Added Sequential Conversion Model"
+alternative_single_model: "Yes – the entire theory is adequately captured using a single sequential process model rather than requiring multiple structural or representational modalities."

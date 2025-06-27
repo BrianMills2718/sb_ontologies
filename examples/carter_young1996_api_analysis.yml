@@ -1,0 +1,97 @@
+```yaml
+# Cognitive map extracted from Carter’s July 21 1977 speech
+# Represented with the Young 1996 property-graph schema
+
+nodes:
+  - id: C1
+    category: Concept
+    name: Reducing nuclear threat
+    properties: 
+      - Encapsulated concept          # multi-step idea summed up as one node
+  - id: C2
+    category: Concept
+    name: World safety
+  - id: C3
+    category: Concept
+    name: Freedom to pursue constructive action
+  - id: C4
+    category: Concept
+    name: Atmosphere of peaceful cooperation
+  - id: C5
+    category: Concept
+    name: Respect for human rights
+  - id: C6
+    category: Concept
+    name: Persistent struggle for human rights
+  - id: C7
+    category: Concept
+    name: Personal freedom and human dignity
+  - id: C8
+    category: Concept
+    name: Arms-race acceleration
+  - id: C9
+    category: Concept
+    name: Cold-War revival
+  - id: C10
+    category: Concept
+    name: Control of threats to U.S. deterrent
+  - id: C11
+    category: Concept
+    name: Limitation of U.S. strategic programs
+  - id: C12
+    category: Concept
+    name: Failure to reach a SALT agreement
+  - id: C13
+    category: Concept
+    name: U.S. measures to protect security
+  - id: C14
+    category: Concept
+    name: Progress in SALT negotiations
+  - id: C15
+    category: Concept
+    name: Improvement in political relations
+
+edges:
+  # causal chains Carter states or implies
+  - type: Positive causal link
+    source: C1              # “reducing the nuclear threat”
+    target: C2              # → “world a safer place”
+
+  - type: Positive causal link
+    source: C1
+    target: C3              # → “free ourselves to concentrate on constructive action”
+
+  - type: Positive causal link
+    source: C4              # “atmosphere of peaceful cooperation”
+    target: C5              # → “greater respect for human rights”
+
+  - type: Positive causal link
+    source: C6              # “persistent struggle for human rights”
+    target: C7              # → “enhanced personal freedom & dignity”
+
+  - type: Negative causal link
+    source: C6              # Carter insists HR policy
+    target: C8              # → is “not designed to heat up the arms race”
+
+  - type: Negative causal link
+    source: C6
+    target: C9              # → “not designed … to bring back the cold war”
+
+  - type: Positive causal link
+    source: C10             # “if these threats can be controlled …”
+    target: C11             # → “we are prepared to limit our own strategic programs”
+
+  - type: Positive causal link
+    source: C12             # “if an agreement cannot be reached …”
+    target: C13             # → “U.S. will do what it must to protect security”
+
+  - type: Positive causal link
+    source: C14             # “genuine progress in SALT”
+    target: C15             # → “provide a basis for improvement in political relations”
+
+  - type: Positive causal link
+    source: C14
+    target: C4              # SALT progress helps “relax tensions”
+
+# no measures (e.g., centrality) are included because Carter did not state any
+```

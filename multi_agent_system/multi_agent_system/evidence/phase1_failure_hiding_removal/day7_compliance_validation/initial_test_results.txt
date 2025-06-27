@@ -1,0 +1,326 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.13, pytest-7.4.4, pluggy-1.6.0 -- /home/brian/miniconda3/bin/python
+cachedir: .pytest_cache
+hypothesis profile 'default'
+metadata: {'Python': '3.10.13', 'Platform': 'Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39', 'Packages': {'pytest': '7.4.4', 'pluggy': '1.6.0'}, 'Plugins': {'respx': '0.22.0', 'xdist': '3.7.0', 'hypothesis': '6.135.10', 'json-report': '1.5.0', 'asyncio': '0.23.8', 'timeout': '2.4.0', 'metadata': '3.1.1', 'cov': '4.1.0', 'html': '4.1.1', 'mock': '3.14.1', 'anyio': '4.9.0'}}
+rootdir: /home/brian/autocoder3_cc
+plugins: respx-0.22.0, xdist-3.7.0, hypothesis-6.135.10, json-report-1.5.0, asyncio-0.23.8, timeout-2.4.0, metadata-3.1.1, cov-4.1.0, html-4.1.1, mock-3.14.1, anyio-4.9.0
+asyncio: mode=strict
+collecting ... collected 11 items
+
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_missing_llm_fails_hard_semantic_healer FAILED [  9%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_missing_llm_fails_hard_validation_framework FAILED [ 18%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_mock_framework_exists FAILED [ 27%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_fallback_server_exists FAILED [ 36%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_mock_mode_patterns_remain FAILED [ 45%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_fallback_patterns_remain FAILED [ 54%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_semantic_healer_has_no_mock_methods PASSED [ 63%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_validation_framework_no_component_skipping FAILED [ 72%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_all_healing_systems_have_bounded_attempts FAILED [ 81%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_infinite_retry_patterns FAILED [ 90%]
+tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_codebase_scan_clean PASSED [100%]
+
+=================================== FAILURES ===================================
+______ TestFailHardCompliance.test_missing_llm_fails_hard_semantic_healer ______
+
+self = <tests.test_fail_hard_compliance.TestFailHardCompliance object at 0x7f29b5cb6bc0>
+
+    def test_missing_llm_fails_hard_semantic_healer(self):
+        """Verify missing LLM causes immediate hard failure in SemanticHealer"""
+        # Clear environment variables
+        original_openai = os.environ.pop('OPENAI_API_KEY', None)
+        original_anthropic = os.environ.pop('ANTHROPIC_API_KEY', None)
+    
+        try:
+            from autocoder.healing.semantic_healer import SemanticHealer, SemanticHealingConfigurationError
+    
+>           with pytest.raises(SemanticHealingConfigurationError) as exc_info:
+E           Failed: DID NOT RAISE <class 'autocoder.healing.semantic_healer.SemanticHealingConfigurationError'>
+
+tests/test_fail_hard_compliance.py:32: Failed
+___ TestFailHardCompliance.test_missing_llm_fails_hard_validation_framework ____
+
+self = <tests.test_fail_hard_compliance.TestFailHardCompliance object at 0x7f29b5cb6ef0>
+
+        def test_missing_llm_fails_hard_validation_framework(self):
+            """Verify missing LLM causes immediate hard failure in ValidationFramework"""
+            # Clear environment variables
+            original_openai = os.environ.pop('OPENAI_API_KEY', None)
+            original_anthropic = os.environ.pop('ANTHROPIC_API_KEY', None)
+    
+            try:
+                from blueprint_language.validation_framework import ValidationFramework, ValidationFailureError
+                from blueprint_language.system_blueprint_parser import SystemBlueprintParser
+    
+                # Create test blueprint
+                test_blueprint_yaml = """
+    system:
+      name: test_system
+      description: Test system for LLM requirement
+      components:
+        - name: test_component
+          type: Source
+          outputs:
+            - name: data
+              schema: TestData
+      bindings: []
+    """
+    
+                parser = SystemBlueprintParser()
+                system_blueprint = parser.parse_string(test_blueprint_yaml)
+    
+                validator = ValidationFramework(Path("./test_validation"))
+    
+>               with pytest.raises(ValidationFailureError) as exc_info:
+E               Failed: DID NOT RAISE <class 'blueprint_language.validation_framework.ValidationFailureError'>
+
+tests/test_fail_hard_compliance.py:76: Failed
+_____________ TestFailHardCompliance.test_no_mock_framework_exists _____________
+
+self = <tests.test_fail_hard_compliance.TestFailHardCompliance object at 0x7f29b5cb6e90>
+
+    def test_no_mock_framework_exists(self):
+        """Verify mock_framework.py has been completely deleted"""
+        mock_framework_paths = [
+            "autocoder/testing/mock_framework.py",
+            "./autocoder/testing/mock_framework.py",
+        ]
+    
+        for path in mock_framework_paths:
+            assert not Path(path).exists(), f"Mock framework still exists at {path}"
+    
+        # Also check that no files contain mock_framework imports
+        result = subprocess.run(['find', '.', '-name', '*.py', '-exec', 'grep', '-l', 'mock_framework', '{}', ';'],
+                              capture_output=True, text=True)
+    
+        if result.returncode == 0 and result.stdout.strip():
+>           pytest.fail(f"Found files still importing mock_framework: {result.stdout}")
+E           Failed: Found files still importing mock_framework: ./tests/test_fail_hard_compliance.py
+
+tests/test_fail_hard_compliance.py:106: Failed
+____________ TestFailHardCompliance.test_no_fallback_server_exists _____________
+
+self = <tests.test_fail_hard_compliance.TestFailHardCompliance object at 0x7f29b5cb6e30>
+
+    def test_no_fallback_server_exists(self):
+        """Verify fallback_server.py has been completely deleted"""
+        fallback_server_paths = [
+            "autocoder/components/fallback_server.py",
+            "./autocoder/components/fallback_server.py",
+        ]
+    
+        for path in fallback_server_paths:
+            assert not Path(path).exists(), f"Fallback server still exists at {path}"
+    
+        # Also check that no files contain fallback_server imports
+        result = subprocess.run(['find', '.', '-name', '*.py', '-exec', 'grep', '-l', 'fallback_server', '{}', ';'],
+                              capture_output=True, text=True)
+    
+        if result.returncode == 0 and result.stdout.strip():
+>           pytest.fail(f"Found files still importing fallback_server: {result.stdout}")
+E           Failed: Found files still importing fallback_server: ./tests/test_fail_hard_compliance.py
+
+tests/test_fail_hard_compliance.py:123: Failed
+___________ TestFailHardCompliance.test_no_mock_mode_patterns_remain ___________
+
+self = <tests.test_fail_hard_compliance.TestFailHardCompliance object at 0x7f29b5cb4340>
+
+    def test_no_mock_mode_patterns_remain(self):
+        """Scan codebase for remaining mock_mode patterns"""
+        # Search for mock_mode patterns in Python files
+        result = subprocess.run(['grep', '-r', 'mock_mode', '.', '--include=*.py'],
+                              capture_output=True, text=True)
+    
+        if result.returncode == 0:
+            # Filter out acceptable patterns (like this test file)
+            lines = result.stdout.split('\n')
+            problematic_lines = []
+    
+            for line in lines:
+                if not line.strip():
+                    continue
+                # Skip this test file and documentation
+                if 'test_fail_hard_compliance.py' in line or 'evidence/' in line:
+                    continue
+                # Skip comments explaining that mock_mode was removed
+                if 'removed' in line.lower() or 'no mock' in line.lower():
+                    continue
+                problematic_lines.append(line)
+    
+            if problematic_lines:
+>               pytest.fail(f"Found problematic mock_mode patterns:\n" + "\n".join(problematic_lines))
+E               Failed: Found problematic mock_mode patterns:
+E               ./blueprint_language/semantic_validator.py:    def __init__(self, llm_provider: str = "openai", api_key: Optional[str] = None, mock_mode: bool = False):
+E               ./blueprint_language/semantic_validator.py:            mock_mode: If True, use rule-based validation instead of LLM
+E               ./blueprint_language/semantic_validator.py:        self.mock_mode = mock_mode or llm_provider == "mock"
+E               ./blueprint_language/semantic_validator.py:        if self.mock_mode:
+E               ./blueprint_language/semantic_validator.py:        if self.mock_mode:
+
+tests/test_fail_hard_compliance.py:148: Failed
+___________ TestFailHardCompliance.test_no_fallback_patterns_remain ____________
+
+self = <tests.test_fail_hard_compliance.TestFailHardCompliance object at 0x7f29b5cb6440>
+
+    def test_no_fallback_patterns_remain(self):
+        """Scan codebase for remaining fallback patterns"""
+        fallback_patterns = ['fallback_mode', 'default_response', 'fall_back', 'fallback.*if']
+    
+        for pattern in fallback_patterns:
+            result = subprocess.run(['grep', '-r', '-i', pattern, '.', '--include=*.py'],
+                                  capture_output=True, text=True)
+    
+            if result.returncode == 0:
+                # Filter out acceptable patterns
+                lines = result.stdout.split('\n')
+                problematic_lines = []
+    
+                for line in lines:
+                    if not line.strip():
+                        continue
+                    # Skip this test file and evidence documentation
+                    if 'test_fail_hard_compliance.py' in line or 'evidence/' in line:
+                        continue
+                    # Skip comments explaining removal and fail hard replacements
+                    if any(skip in line.lower() for skip in ['removed', 'deleted', 'no longer', 'eliminated', 'fail hard', 'no fallback']):
+                        continue
+                    problematic_lines.append(line)
+    
+                if problematic_lines:
+>                   pytest.fail(f"Found problematic {pattern} patterns:\n" + "\n".join(problematic_lines))
+E                   Failed: Found problematic fallback_mode patterns:
+E                   ./archive/generated_systems/blueprint_language_generated_fraud_detection_system/components/kafka_consumer_real.py:        self.fallback_mode = False
+E                   ./archive/generated_systems/blueprint_language_generated_fraud_detection_system/components/kafka_consumer_real.py:            self.fallback_mode = True
+E                   ./archive/generated_systems/blueprint_language_generated_fraud_detection_system/components/kafka_consumer_real.py:        if self.fallback_mode:
+E                   ./archive/generated_systems/blueprint_language_generated_fraud_detection_system/components/kafka_consumer_real.py:        if self.fallback_mode:
+
+tests/test_fail_hard_compliance.py:175: Failed
+____ TestFailHardCompliance.test_validation_framework_no_component_skipping ____
+
+self = <tests.test_fail_hard_compliance.TestFailHardCompliance object at 0x7f29b5cb7220>
+
+        def test_validation_framework_no_component_skipping(self):
+            """Verify ValidationFramework no longer skips unsupported components"""
+            from blueprint_language.validation_framework import ValidationFramework, ValidationFailureError
+            from blueprint_language.system_blueprint_parser import SystemBlueprintParser
+    
+            # Create blueprint with unsupported component type
+            test_blueprint_yaml = """
+    system:
+      name: test_unsupported_system
+      description: Test system with unsupported component
+      components:
+        - name: unsupported_component
+          type: UnsupportedType
+          description: This should cause hard failure
+      bindings: []
+    """
+    
+            parser = SystemBlueprintParser()
+            system_blueprint = parser.parse_string(test_blueprint_yaml)
+    
+            validator = ValidationFramework(Path("./test_validation"))
+    
+            # This should fail hard when it encounters unsupported component
+>           with pytest.raises(ValidationFailureError) as exc_info:
+E           Failed: DID NOT RAISE <class 'blueprint_language.validation_framework.ValidationFailureError'>
+
+tests/test_fail_hard_compliance.py:221: Failed
+____ TestFailHardCompliance.test_all_healing_systems_have_bounded_attempts _____
+
+self = <tests.test_fail_hard_compliance.TestFailHardCompliance object at 0x7f29b5cb7fa0>
+
+    def test_all_healing_systems_have_bounded_attempts(self):
+        """Verify all healing systems have maximum attempt limits"""
+>       from blueprint_language.ast_self_healing import SelfHealingSystem
+
+tests/test_fail_hard_compliance.py:230: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    #!/usr/bin/env python3
+    """
+    AST-Based Self-Healing System - Phase 7 Implementation
+    Automatically fixes component validation failures using Abstract Syntax Tree manipulation
+    
+    This implements the core self-healing capability by:
+    1. Analyzing component validation failures
+    2. Generating precise AST-based fixes
+    3. Applying fixes automatically
+    4. Re-validating components after healing
+    5. Retrying system generation with healed components
+    """
+    import ast
+    import inspect
+    import logging
+    import time
+    from pathlib import Path
+    from typing import Dict, Any, List, Optional, Tuple, Union
+    from dataclasses import dataclass
+    from enum import Enum
+    
+>   from tests.component_test_runner import ComponentTestResult
+E     File "/home/brian/autocoder3_cc/tests/component_test_runner.py", line 384
+E       except NotImplementedError as nie:
+E       ^^^^^^
+E   SyntaxError: invalid syntax
+
+blueprint_language/ast_self_healing.py:22: SyntaxError
+____________ TestFailHardCompliance.test_no_infinite_retry_patterns ____________
+
+self = <tests.test_fail_hard_compliance.TestFailHardCompliance object at 0x7f29b5cb5b10>
+
+    def test_no_infinite_retry_patterns(self):
+        """Scan for infinite retry patterns in healing code"""
+        # Search for potentially infinite while loops without proper exit conditions
+        result = subprocess.run(['grep', '-r', '-A5', '-B5', 'while.*True', '.', '--include=*.py'],
+                              capture_output=True, text=True)
+    
+        if result.returncode == 0:
+            lines = result.stdout.split('\n')
+            problematic_sections = []
+    
+            for i, line in enumerate(lines):
+                if 'while' in line and 'True' in line:
+                    # Check if this is in healing-related code
+                    if any(keyword in line.lower() for keyword in ['heal', 'retry', 'attempt']):
+                        # Look for proper exit conditions in surrounding lines
+                        context = lines[max(0, i-5):i+6]
+                        context_text = '\n'.join(context)
+    
+                        # Check for proper exit conditions
+                        has_max_attempts = any('max_' in ctx_line for ctx_line in context)
+                        has_break = any('break' in ctx_line for ctx_line in context)
+                        has_return = any('return' in ctx_line for ctx_line in context)
+                        has_counter = any('attempt' in ctx_line and ('++' in ctx_line or '+=' in ctx_line) for ctx_line in context)
+    
+                        if not (has_max_attempts or has_break or has_return or has_counter):
+                            problematic_sections.append(context_text)
+    
+            if problematic_sections:
+>               pytest.fail(f"Found potentially infinite retry patterns:\n" + "\n---\n".join(problematic_sections))
+E               Failed: Found potentially infinite retry patterns:
+E               ./archive/generated_systems/complete_pipeline_test_output/healed_components/flawed_sink.py-        """Setup method"""
+E               ./archive/generated_systems/complete_pipeline_test_output/healed_components/flawed_sink.py-        self.config.update(config)
+E               ./archive/generated_systems/complete_pipeline_test_output/healed_components/flawed_sink.py-    
+E               ./archive/generated_systems/complete_pipeline_test_output/healed_components/flawed_sink.py-    async def process(self) -> None:
+E               ./archive/generated_systems/complete_pipeline_test_output/healed_components/flawed_sink.py-        """Broken process method - infinite loop"""
+E               ./archive/generated_systems/complete_pipeline_test_output/healed_components/flawed_sink.py:        while True:  # Infinite loop - no shutdown check
+E               ./archive/generated_systems/complete_pipeline_test_output/healed_components/flawed_sink.py-            await asyncio.sleep(1.0)
+E               ./archive/generated_systems/complete_pipeline_test_output/healed_components/flawed_sink.py-            # Missing input/output queue handling
+E               ./archive/generated_systems/complete_pipeline_test_output/healed_components/flawed_sink.py-    
+E               ./archive/generated_systems/complete_pipeline_test_output/healed_components/flawed_sink.py-    async def cleanup(self) -> None:
+E               ./archive/generated_systems/complete_pipeline_test_output/healed_components/flawed_sink.py-        """Cleanup method"""
+
+tests/test_fail_hard_compliance.py:273: Failed
+=========================== short test summary info ============================
+FAILED tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_missing_llm_fails_hard_semantic_healer
+FAILED tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_missing_llm_fails_hard_validation_framework
+FAILED tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_mock_framework_exists
+FAILED tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_fallback_server_exists
+FAILED tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_mock_mode_patterns_remain
+FAILED tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_fallback_patterns_remain
+FAILED tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_validation_framework_no_component_skipping
+FAILED tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_all_healing_systems_have_bounded_attempts
+FAILED tests/test_fail_hard_compliance.py::TestFailHardCompliance::test_no_infinite_retry_patterns
+========================= 9 failed, 2 passed in 5.06s ==========================
+sys:1: RuntimeWarning: coroutine 'ValidationFramework.validate_system' was never awaited
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback

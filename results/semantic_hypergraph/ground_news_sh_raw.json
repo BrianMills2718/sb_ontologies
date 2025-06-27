@@ -1,0 +1,252 @@
+{
+  "atoms": [
+    {
+      "id": "a1",
+      "term": "spain_pm_sanchez",
+      "type": "C"
+    },
+    {
+      "id": "a2",
+      "term": "gaza",
+      "type": "C"
+    },
+    {
+      "id": "a3",
+      "term": "genocide",
+      "type": "C"
+    },
+    {
+      "id": "a4",
+      "term": "describe",
+      "type": "P"
+    },
+    {
+      "id": "a5",
+      "term": "condemn",
+      "type": "P"
+    },
+    {
+      "id": "a6",
+      "term": "israel_offensive",
+      "type": "C"
+    },
+    {
+      "id": "a7",
+      "term": "israel_military_campaign",
+      "type": "C"
+    },
+    {
+      "id": "a8",
+      "term": "kill",
+      "type": "P"
+    },
+    {
+      "id": "a9",
+      "term": "num_56259",
+      "type": "C"
+    },
+    {
+      "id": "a10",
+      "term": "civilians",
+      "type": "C"
+    },
+    {
+      "id": "a11",
+      "term": "mostly",
+      "type": "M"
+    },
+    {
+      "id": "a12",
+      "term": "health_ministry_gaza",
+      "type": "C"
+    },
+    {
+      "id": "a13",
+      "term": "num_550",
+      "type": "C"
+    },
+    {
+      "id": "a14",
+      "term": "aid_centres",
+      "type": "C"
+    },
+    {
+      "id": "a15",
+      "term": "unspecified_agent",
+      "type": "C"
+    },
+    {
+      "id": "a16",
+      "term": "near",
+      "type": "T"
+    },
+    {
+      "id": "a17",
+      "term": "rescuers",
+      "type": "C"
+    },
+    {
+      "id": "a18",
+      "term": "num_56",
+      "type": "C"
+    },
+    {
+      "id": "a19",
+      "term": "say",
+      "type": "P"
+    },
+    {
+      "id": "a20",
+      "term": "and",
+      "type": "B"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "h1",
+      "connector": {
+        "id": "a4",
+        "term": "describe",
+        "type": "P"
+      },
+      "arguments": [
+        "a1",
+        "a2",
+        "a3"
+      ],
+      "ordered": true,
+      "truth_value": null,
+      "modifiers": null
+    },
+    {
+      "id": "h2",
+      "connector": {
+        "id": "a5",
+        "term": "condemn",
+        "type": "P"
+      },
+      "arguments": [
+        "a1",
+        "a6"
+      ],
+      "ordered": true,
+      "truth_value": null,
+      "modifiers": null
+    },
+    {
+      "id": "h3",
+      "connector": {
+        "id": "a8",
+        "term": "kill",
+        "type": "P"
+      },
+      "arguments": [
+        "a7",
+        "a9"
+      ],
+      "ordered": true,
+      "truth_value": null,
+      "modifiers": [
+        "a11",
+        "a10"
+      ]
+    },
+    {
+      "id": "h4",
+      "connector": {
+        "id": "a19",
+        "term": "say",
+        "type": "P"
+      },
+      "arguments": [
+        "a12",
+        "h3"
+      ],
+      "ordered": true,
+      "truth_value": null,
+      "modifiers": null
+    },
+    {
+      "id": "h5",
+      "connector": {
+        "id": "a8",
+        "term": "kill",
+        "type": "P"
+      },
+      "arguments": [
+        "a15",
+        "a13"
+      ],
+      "ordered": true,
+      "truth_value": null,
+      "modifiers": [
+        "a16",
+        "a14"
+      ]
+    },
+    {
+      "id": "h6",
+      "connector": {
+        "id": "a19",
+        "term": "say",
+        "type": "P"
+      },
+      "arguments": [
+        "a12",
+        "h5"
+      ],
+      "ordered": true,
+      "truth_value": null,
+      "modifiers": null
+    },
+    {
+      "id": "h7",
+      "connector": {
+        "id": "a8",
+        "term": "kill",
+        "type": "P"
+      },
+      "arguments": [
+        "a15",
+        "a18"
+      ],
+      "ordered": true,
+      "truth_value": null,
+      "modifiers": null
+    },
+    {
+      "id": "h8",
+      "connector": {
+        "id": "a19",
+        "term": "say",
+        "type": "P"
+      },
+      "arguments": [
+        "a17",
+        "h7"
+      ],
+      "ordered": true,
+      "truth_value": null,
+      "modifiers": null
+    },
+    {
+      "id": "h9",
+      "connector": {
+        "id": "a20",
+        "term": "and",
+        "type": "B"
+      },
+      "arguments": [
+        "h1",
+        "h2",
+        "h4",
+        "h6",
+        "h8"
+      ],
+      "ordered": false,
+      "truth_value": null,
+      "modifiers": null
+    }
+  ],
+  "main_hyperedge": "h9"
+}

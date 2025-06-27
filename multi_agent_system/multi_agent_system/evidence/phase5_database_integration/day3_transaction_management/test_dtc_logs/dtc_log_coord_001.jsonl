@@ -1,0 +1,8 @@
+{"timestamp": 1750678241.5800402, "global_txn_id": "9e0b6891-e121-4b9e-92e5-f35aca2731c2", "coordinator_id": "coord_001", "event_type": "BEGIN", "data": {"participants": ["db1", "db2"], "isolation_level": "READ_COMMITTED", "timeout": 60.0}}
+{"timestamp": 1750678241.5801308, "global_txn_id": "9e0b6891-e121-4b9e-92e5-f35aca2731c2", "coordinator_id": "coord_001", "event_type": "PREPARE_START", "data": {}}
+{"timestamp": 1750678241.5976164, "global_txn_id": "9e0b6891-e121-4b9e-92e5-f35aca2731c2", "coordinator_id": "coord_001", "event_type": "PREPARED", "data": {"participants": ["db1", "db2"]}}
+{"timestamp": 1750678241.5977287, "global_txn_id": "9e0b6891-e121-4b9e-92e5-f35aca2731c2", "coordinator_id": "coord_001", "event_type": "COMMIT_START", "data": {}}
+{"timestamp": 1750678241.6121705, "global_txn_id": "9e0b6891-e121-4b9e-92e5-f35aca2731c2", "coordinator_id": "coord_001", "event_type": "COMMITTED", "data": {"prepare_time": 0.01759481430053711, "commit_time": 0.014438867568969727}}
+{"timestamp": 1750678241.6123056, "global_txn_id": "71b74a6e-5a76-49d2-8dbc-27e16db3c9d5", "coordinator_id": "coord_001", "event_type": "BEGIN", "data": {"participants": ["db1", "db2"], "isolation_level": "READ_COMMITTED", "timeout": 60.0}}
+{"timestamp": 1750678241.612358, "global_txn_id": "71b74a6e-5a76-49d2-8dbc-27e16db3c9d5", "coordinator_id": "coord_001", "event_type": "ABORT_START", "data": {}}
+{"timestamp": 1750678241.6248236, "global_txn_id": "71b74a6e-5a76-49d2-8dbc-27e16db3c9d5", "coordinator_id": "coord_001", "event_type": "ABORTED", "data": {}}

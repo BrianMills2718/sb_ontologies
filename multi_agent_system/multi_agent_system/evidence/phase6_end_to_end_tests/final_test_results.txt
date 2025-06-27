@@ -1,0 +1,33 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.13, pytest-7.4.4, pluggy-1.6.0 -- /home/brian/miniconda3/bin/python
+cachedir: .pytest_cache
+hypothesis profile 'default'
+metadata: {'Python': '3.10.13', 'Platform': 'Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39', 'Packages': {'pytest': '7.4.4', 'pluggy': '1.6.0'}, 'Plugins': {'respx': '0.22.0', 'xdist': '3.7.0', 'hypothesis': '6.135.10', 'json-report': '1.5.0', 'asyncio': '0.23.8', 'timeout': '2.4.0', 'metadata': '3.1.1', 'cov': '4.1.0', 'html': '4.1.1', 'mock': '3.14.1', 'anyio': '4.9.0'}}
+rootdir: /home/brian/autocoder3_cc
+plugins: respx-0.22.0, xdist-3.7.0, hypothesis-6.135.10, json-report-1.5.0, asyncio-0.23.8, timeout-2.4.0, metadata-3.1.1, cov-4.1.0, html-4.1.1, mock-3.14.1, anyio-4.9.0
+asyncio: mode=strict
+collecting ... collected 21 items
+
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/blueprint_to_system_test.py::TestCompleteV5Pipeline::test_complete_v5_pipeline_basic PASSED [  4%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/blueprint_to_system_test.py::TestCompleteV5Pipeline::test_v5_blueprint_parsing PASSED [  9%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/blueprint_to_system_test.py::TestCompleteV5Pipeline::test_v5_enhanced_store_integration PASSED [ 14%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/blueprint_to_system_test.py::TestCompleteV5Pipeline::test_validation_hierarchy_integration PASSED [ 19%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/blueprint_to_system_test.py::TestCompleteV5Pipeline::test_blueprint_yaml_structure_validation PASSED [ 23%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/blueprint_to_system_test.py::TestCompleteV5Pipeline::test_error_propagation_through_pipeline PASSED [ 28%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/database_integration_test.py::TestDatabaseIntegrationPipeline::test_enhanced_store_in_pipeline PASSED [ 33%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/database_integration_test.py::TestDatabaseIntegrationPipeline::test_database_validation_in_pipeline PASSED [ 38%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/database_integration_test.py::TestDatabaseIntegrationPipeline::test_multi_database_support_in_pipeline PASSED [ 42%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/database_integration_test.py::TestDatabaseIntegrationPipeline::test_database_performance_monitoring PASSED [ 47%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/database_integration_test.py::TestDatabaseIntegrationPipeline::test_database_migration_in_pipeline PASSED [ 52%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/database_integration_test.py::TestDatabaseIntegrationPipeline::test_database_error_handling_in_pipeline PASSED [ 57%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/database_integration_test.py::TestDatabaseIntegrationPipeline::test_database_component_configuration PASSED [ 61%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/validation_pipeline_test.py::TestValidationPipelineHierarchy::test_level_1_framework_validation PASSED [ 66%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/validation_pipeline_test.py::TestValidationPipelineHierarchy::test_level_2_component_logic_validation PASSED [ 71%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/validation_pipeline_test.py::TestValidationPipelineHierarchy::test_level_3_system_integration_validation PASSED [ 76%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/validation_pipeline_test.py::TestValidationPipelineHierarchy::test_level_4_semantic_validation PASSED [ 80%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/validation_pipeline_test.py::TestValidationPipelineHierarchy::test_validation_level_progression PASSED [ 85%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/validation_pipeline_test.py::TestValidationPipelineHierarchy::test_validation_error_types PASSED [ 90%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/validation_pipeline_test.py::TestValidationPipelineHierarchy::test_validation_levels_enum PASSED [ 95%]
+evidence/phase6_end_to_end_tests/day1_pipeline_integration_tests/validation_pipeline_test.py::TestValidationPipelineHierarchy::test_validation_with_v5_features PASSED [100%]
+
+============================== 21 passed in 3.01s ==============================

@@ -1,0 +1,223 @@
+{
+  "theory_applied": "Young (1996) Cognitive Mapping Meets Semantic Networks",
+  "model_type": "property_graph",
+  "timestamp": "2025-06-26T17:02:29.372752",
+  "speech_length": 20636,
+  "analysis_type": "balanced_multi_purpose",
+  "descriptive_analysis": {
+    "purpose": "Taxonomic classification of cognitive map structure",
+    "core_concepts": [
+      {
+        "concept": "US-Soviet Relationship",
+        "category": "entity",
+        "properties": [
+          "bilateral",
+          "competitive",
+          "cooperative"
+        ]
+      },
+      {
+        "concept": "Nuclear Weapons",
+        "category": "entity",
+        "properties": [
+          "threatening",
+          "deterrent",
+          "controllable"
+        ]
+      },
+      {
+        "concept": "International System",
+        "category": "entity",
+        "properties": [
+          "bipolar",
+          "evolving",
+          "interdependent"
+        ]
+      },
+      {
+        "concept": "Peace",
+        "category": "entity",
+        "properties": [
+          "achievable",
+          "mutual",
+          "principled"
+        ]
+      },
+      {
+        "concept": "Human Rights",
+        "category": "entity",
+        "properties": [
+          "universal",
+          "principled",
+          "non-threatening"
+        ]
+      }
+    ],
+    "semantic_network_types": {
+      "is_a_relationships": [
+        "D\u00e9tente IS-A managed competition",
+        "Arms control IS-A security measure"
+      ],
+      "part_of_relationships": [
+        "Human rights PART-OF foreign policy",
+        "Trade PART-OF cooperation"
+      ],
+      "causal_relationships": [
+        "Competition \u2192 Security dilemma",
+        "Understanding \u2192 Cooperation"
+      ]
+    },
+    "adjacency_matrix_structure": "Dense connections around peace/cooperation concepts"
+  },
+  "explanatory_analysis": {
+    "purpose": "Explain belief formation and decision-making mechanisms",
+    "worldview_system": {
+      "central_belief": "Peace through principled engagement",
+      "belief_structure": "Hierarchical with peace as core value",
+      "causal_logic": "Interdependence theory + Liberal institutionalism",
+      "decision_framework": "Evidence-based negotiation with transparency"
+    },
+    "semantic_network_mechanisms": {
+      "synonym_facility": [
+        "Cooperation = Peaceful coexistence = D\u00e9tente"
+      ],
+      "aggregation_capability": "Multiple domains unified under peace framework",
+      "hidden_information": "Complex statements about Soviet motivations",
+      "encapsulated_concepts": "D\u00e9tente encapsulates competition + cooperation"
+    },
+    "belief_change_processes": {
+      "learning_source": "Vietnam/Watergate experience",
+      "adaptation_mechanism": "Public engagement + moral clarity",
+      "update_triggers": "Soviet reciprocal actions"
+    }
+  },
+  "predictive_analysis": {
+    "purpose": "Forecast belief evolution and decision outcomes",
+    "belief_change_predictions": [
+      {
+        "target": "Soviet leadership",
+        "mechanism": "Reciprocal engagement",
+        "timeframe": "Medium-term"
+      },
+      {
+        "target": "American public",
+        "mechanism": "Transparency",
+        "timeframe": "Short-term"
+      },
+      {
+        "target": "International system",
+        "mechanism": "Successful cooperation",
+        "timeframe": "Long-term"
+      }
+    ],
+    "decision_making_forecasts": {
+      "negotiation_style": "Multiple simultaneous tracks",
+      "priority_ordering": "Mutual benefit calculations first",
+      "communication_strategy": "Public diplomacy + private negotiation",
+      "flexibility_approach": "Principled but pragmatic"
+    },
+    "structural_measures": {
+      "centrality_predictions": "Peace concept will increase centrality",
+      "connectivity_evolution": "Security-economic domains will integrate",
+      "network_density_change": "Cooperation concepts will densify"
+    }
+  },
+  "causal_analysis": {
+    "purpose": "Identify causal pathways and intervention points (balanced treatment)",
+    "causal_pathways": [
+      {
+        "chain": "Arms Competition \u2192 Security Dilemma \u2192 Increased Tensions",
+        "type": "negative_feedback"
+      },
+      {
+        "chain": "Successful Negotiation \u2192 Trust Building \u2192 Expanded Cooperation",
+        "type": "positive_feedback"
+      },
+      {
+        "chain": "Public Understanding \u2192 Political Support \u2192 Policy Sustainability",
+        "type": "domestic_support"
+      },
+      {
+        "chain": "Economic Interdependence \u2192 Shared Interests \u2192 Peace Incentives",
+        "type": "structural_change"
+      }
+    ],
+    "causal_relationships_identified": {
+      "positive_causal_links": [
+        "Mutual understanding \u2192 Cooperation",
+        "Transparency \u2192 Credibility"
+      ],
+      "negative_causal_links": [
+        "Secrecy \u2192 Weakness",
+        "Arms buildup \u2192 Mistrust"
+      ],
+      "bidirectional_links": [
+        "Trust \u2194 Cooperation",
+        "Understanding \u2194 Peace"
+      ]
+    },
+    "intervention_points": [
+      {
+        "location": "Arms control negotiations",
+        "leverage": "High",
+        "mechanism": "Reciprocal reductions"
+      },
+      {
+        "location": "Public communication",
+        "leverage": "Medium",
+        "mechanism": "Transparency"
+      },
+      {
+        "location": "Economic cooperation",
+        "leverage": "Medium",
+        "mechanism": "Joint projects"
+      }
+    ]
+  },
+  "intervention_analysis": {
+    "purpose": "Specify actions to modify belief structures and decision processes",
+    "belief_modification_strategies": [
+      {
+        "target": "Soviet beliefs",
+        "method": "Consistent reciprocal actions",
+        "theory_basis": "Cognitive mapping"
+      },
+      {
+        "target": "Public beliefs",
+        "method": "Educational transparency",
+        "theory_basis": "WorldView aggregation"
+      },
+      {
+        "target": "Elite beliefs",
+        "method": "Policy coherence demonstration",
+        "theory_basis": "Structural measures"
+      }
+    ],
+    "communication_interventions": {
+      "semantic_network_activation": "Reinforce peace-cooperation linkages",
+      "synonym_facility_usage": "Consistent terminology across venues",
+      "aggregation_strategy": "Unify multiple policy domains",
+      "reasoning_support": "Provide logical frameworks for evaluation"
+    },
+    "decision_making_interventions": [
+      {
+        "intervention": "Multiple negotiation tracks",
+        "rationale": "Increase belief network density"
+      },
+      {
+        "intervention": "Public engagement",
+        "rationale": "Strengthen policy belief structure"
+      },
+      {
+        "intervention": "Principled consistency",
+        "rationale": "Maintain cognitive map coherence"
+      }
+    ]
+  },
+  "balance_validation": {
+    "equal_sophistication_check": true,
+    "causal_over_emphasis_detected": false,
+    "purpose_balance_score": 1.0,
+    "theoretical_fidelity": "High - Uses Young 1996 concepts directly"
+  }
+}

@@ -1,0 +1,103 @@
+schema_reference: /home/brian/lit_review/schemas/semantic_hypergraph/semantic_hypergraph_enhanced.yml
+model_type: hypergraph
+instance:
+  atoms:
+  - id: A1
+    term: debate
+    type: C
+    roles: null
+    notation: null
+  - id: A2
+    term: moderate
+    type: P
+    roles: sa
+    notation: P.sa
+  - id: A3
+    term: applaud
+    type: P
+    roles: sa
+    notation: P.sa
+  - id: A4
+    term: warn
+    type: P
+    roles: soa
+    notation: P.soa
+  - id: A5
+    term: David Leonhardt
+    type: C
+    roles: null
+    notation: null
+  - id: A6
+    term: Bret Stephens
+    type: C
+    roles: null
+    notation: null
+  - id: A7
+    term: Rosemary Kelanic
+    type: C
+    roles: null
+    notation: null
+  - id: A8
+    term: U.S. military action on Iran
+    type: C
+    roles: null
+    notation: null
+  - id: A9
+    term: warning against striking Iran
+    type: C
+    roles: null
+    notation: null
+  hyperedges:
+  - id: H1
+    connector:
+      id: A2
+      term: moderate
+      type: P
+      roles: sa
+      notation: P.sa
+    arguments:
+    - A5
+    - A1
+    argument_roles:
+    - sa
+    - pa
+    ordered: true
+    modifiers: null
+    truth_value: null
+  - id: H2
+    connector:
+      id: A3
+      term: applaud
+      type: P
+      roles: sa
+      notation: P.sa
+    arguments:
+    - A6
+    - A8
+    argument_roles:
+    - sa
+    - pa
+    ordered: true
+    modifiers: null
+    truth_value: null
+  - id: H3
+    connector:
+      id: A4
+      term: warn
+      type: P
+      roles: soa
+      notation: P.soa
+    arguments:
+    - A7
+    - A9
+    argument_roles:
+    - sa
+    - pa
+    ordered: true
+    modifiers: null
+    truth_value: null
+  main_hyperedge: H1
+  notation_notes:
+    Argument Roles: sa=subject-agent (P.sa), pa=patient/direct-object (P.pa), ioa=indirect-object/addressee
+      (P.ioa), soa=subject-or-object underspecified (P.soa), ma=modifier-argument
+      (B.ma)

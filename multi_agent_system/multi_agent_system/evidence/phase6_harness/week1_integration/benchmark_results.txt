@@ -1,0 +1,55 @@
+INFO:__main__:🎯 SystemExecutionHarness Performance Benchmark Suite
+INFO:__main__:🎯 Measuring startup time, throughput, latency, and resource usage
+INFO:__main__:🏁 Starting Complete Performance Benchmark Suite
+INFO:__main__:================================================================================
+INFO:__main__:📋 Running Component Startup Benchmark
+INFO:__main__:🚀 Starting Component Startup Benchmark
+INFO:__main__:   Testing startup with 1 components
+ERROR:__main__:❌ Component startup benchmark failed: can't set attribute 'is_running'
+INFO:__main__:❌ FAILED Component Startup Performance
+INFO:__main__:   Duration: 0.000s
+INFO:__main__:📋 Running Message Throughput Benchmark
+INFO:__main__:📈 Starting Message Throughput Benchmark
+INFO:StreamManager:✨ StreamManager initialized with default buffer size: 1000
+ERROR:__main__:❌ Throughput benchmark failed: can't set attribute 'is_running'
+INFO:__main__:❌ FAILED Message Throughput Performance
+INFO:__main__:   Duration: 0.000s
+INFO:__main__:📋 Running Message Latency Benchmark
+INFO:__main__:⏱️ Starting Message Latency Benchmark
+INFO:StreamManager:✨ StreamManager initialized with default buffer size: 100
+ERROR:__main__:❌ Latency benchmark failed: can't set attribute 'is_running'
+INFO:__main__:❌ FAILED Message Latency Performance
+INFO:__main__:   Duration: 0.000s
+INFO:__main__:📋 Running Message Protocol Benchmark
+INFO:__main__:📦 Starting Message Protocol Benchmark
+INFO:MessageProtocol:✨ MessageProtocol initialized (compression: True, validation: True)
+ERROR:MessageProtocol:❌ Serialization failed: Cannot serialize object of type <class 'mappingproxy'>
+ERROR:__main__:❌ Protocol benchmark failed: Failed to serialize message: Cannot serialize object of type <class 'mappingproxy'>
+INFO:__main__:❌ FAILED Message Protocol Performance
+INFO:__main__:   Duration: 0.000s
+INFO:__main__:📋 Running Resource Usage Benchmark
+INFO:__main__:🔧 Starting Resource Usage Benchmark
+INFO:StreamManager:✨ StreamManager initialized with default buffer size: 100
+ERROR:__main__:❌ Resource usage benchmark failed: can't set attribute 'is_running'
+INFO:__main__:❌ FAILED Resource Usage Performance
+INFO:__main__:   Duration: 0.000s
+INFO:__main__:================================================================================
+INFO:__main__:📊 Performance Benchmark Summary
+INFO:__main__:   Benchmarks passed: 0/5
+INFO:__main__:   Success rate: 0.0%
+INFO:__main__:   Total duration: 5.01s
+INFO:__main__:
+🎯 Performance Requirements Check:
+INFO:__main__:
+📋 Detailed Benchmark Results:
+INFO:__main__:   ❌ Component Startup Performance
+INFO:__main__:      Duration: 0.000s
+INFO:__main__:   ❌ Message Throughput Performance
+INFO:__main__:      Duration: 0.000s
+INFO:__main__:   ❌ Message Latency Performance
+INFO:__main__:      Duration: 0.000s
+INFO:__main__:   ❌ Message Protocol Performance
+INFO:__main__:      Duration: 0.000s
+INFO:__main__:   ❌ Resource Usage Performance
+INFO:__main__:      Duration: 0.000s
+INFO:__main__:❌ Some performance benchmarks FAILED!

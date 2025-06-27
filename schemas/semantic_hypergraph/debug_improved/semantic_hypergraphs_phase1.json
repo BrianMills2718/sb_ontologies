@@ -1,0 +1,476 @@
+{
+  "citation": "Menezes, Telmo and Camille Roth. 2021. \"Semantic Hypergraphs.\" arXiv preprint arXiv:1908.10784v2 (18 Feb 2021).",
+  "annotation": "The paper proposes the Semantic Hypergraph (SH) \u2013 a hybrid, recursively ordered hyper-graph model that formally represents the hierarchical and ambiguous richness of natural language while remaining intelligible to humans and machines. It introduces a compact eight-type system, a pattern language, and a two-stage (\u03b1 / \u03b2) parsing pipeline that fuses machine-learning classifiers with symbolic search to translate free text into SH. The authors show how SH enables transparent knowledge extraction (e.g., open information extraction, taxonomy induction, coreference resolution) and provide quantitative evidence of its competitive performance, positioning SH as an \u2018open-adaptive\u2019 alternative bridging symbolic and statistical NLP approaches.",
+  "theory_type": "Cognitive / Computational-linguistic / Knowledge-representation",
+  "vocabulary": [
+    {
+      "term": "Natural Language Processing (NLP)",
+      "definition": "The computational field concerned with automatic processing and understanding of human language.",
+      "source_context": "\u201cApproaches to Natural language processing (NLP) may be classified along a double dichotomy\u2026\u201d (Introduction)",
+      "page_reference": "\u00a71 Introduction",
+      "theoretical_category": "domain-context"
+    },
+    {
+      "term": "open/opaque dichotomy",
+      "definition": "Axis characterising whether processing rules and internal representations are inspectable (open) or not (opaque).",
+      "source_context": "\u201c\u2026a double dichotomy open/opaque \u2013 strict/adaptive.\u201d",
+      "page_reference": "\u00a71",
+      "theoretical_category": "relationship"
+    },
+    {
+      "term": "strict/adaptive dichotomy",
+      "definition": "Axis distinguishing fixed-rule (\u2018strict\u2019) from data-driven, learning (\u2018adaptive\u2019) NLP systems.",
+      "source_context": "\u201c\u2026open/opaque \u2013 strict/adaptive.\u201d",
+      "page_reference": "\u00a71",
+      "theoretical_category": "relationship"
+    },
+    {
+      "term": "open-adaptive quadrant",
+      "definition": "Design space combining inspectability with adaptivity; targeted by SH.",
+      "source_context": "\u201cOur contribution takes steps in the open-adaptive direction\u2026\u201d",
+      "page_reference": "\u00a71",
+      "theoretical_category": "strategic-goal"
+    },
+    {
+      "term": "Semantic Hypergraph (SH)",
+      "definition": "A novel, intrinsically recursive, ordered hypergraph knowledge-representation model capturing natural language semantics.",
+      "source_context": "\u201cThe central idea of our approach is the Semantic Hypergraph (SH) \u2026\u201d",
+      "page_reference": "Abstract; \u00a73",
+      "theoretical_category": "core-construct"
+    },
+    {
+      "term": "hyperedge",
+      "definition": "An n-ary, ordered, possibly recursive connection in an SH that unifies other hyperedges or atoms.",
+      "source_context": "\u201c\u2026we simply call these recursive ordered hyperedges as \u2018hyperedges\u2019\u2026\u201d",
+      "page_reference": "\u00a73.1",
+      "theoretical_category": "core-construct"
+    },
+    {
+      "term": "atom",
+      "definition": "An irreducible hyperedge of size one in SH; basic labeled unit (e.g., a word).",
+      "source_context": "\u201c\u2026V configures a set of irreducible hyperedges of size one i.e., atomic hyperedges which we also denote as atoms\u2026\u201d",
+      "page_reference": "\u00a73.1",
+      "theoretical_category": "core-construct"
+    },
+    {
+      "term": "ordered hypergraph",
+      "definition": "Hypergraph variant where the position of vertices inside a hyperedge is meaningful (akin to edge direction).",
+      "source_context": "\u201c\u2026hyper-edges may be ordered\u2026 Ordering entails that the position\u2026 is relevant\u201d",
+      "page_reference": "\u00a73.1",
+      "theoretical_category": "property"
+    },
+    {
+      "term": "recursive hypergraph",
+      "definition": "Hypergraph allowing hyperedges to appear as vertices of other hyperedges, enabling nesting.",
+      "source_context": "\u201c\u2026hyper-edges may be \u2026 recursive\u2026 hyperedges can participate as vertices in other hyperedges.\u201d",
+      "page_reference": "\u00a73.1",
+      "theoretical_category": "property"
+    },
+    {
+      "term": "connector",
+      "definition": "First element of any non-atomic hyperedge specifying how inner hyperedges are semantically linked.",
+      "source_context": "\u201cThe purpose of the connector is to specify in which sense inner hyperedges are connected.\u201d",
+      "page_reference": "\u00a73.2",
+      "theoretical_category": "core-construct"
+    },
+    {
+      "term": "hyperedge type",
+      "definition": "Semantic role category attached to atoms/connectors governing SH syntax and inference.",
+      "source_context": "\u201cWe now describe a type system that further clarifies the role each entity plays in a hyperedge.\u201d",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "classification"
+    },
+    {
+      "term": "concept (C)",
+      "definition": "Atomic type representing a single-word semantic concept.",
+      "source_context": "\u201cThe first\u2026 role that atoms can play is that of a concept\u2026 code \u2018C\u2019.\u201d",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "type"
+    },
+    {
+      "term": "predicate (P)",
+      "definition": "Connector type that builds relations between arguments, usually corresponding to verbs.",
+      "source_context": "\u201cThe most straightforward connector is the predicate, whose code is \u2018P\u2019. It is used to define relations.\u201d",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "type"
+    },
+    {
+      "term": "modifier (M)",
+      "definition": "Connector type applying to a single hyperedge to create a modified version of the same type.",
+      "source_context": "\u201cThe modifier type (\u2018M\u2019) applies to one (and only one) existing hyperedge and defines a new hyperedge\u2026\u201d",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "type"
+    },
+    {
+      "term": "builder (B)",
+      "definition": "Connector type combining several concepts to construct a new compound concept.",
+      "source_context": "\u201cThe builder type (\u2018B\u2019) combines several concepts to create a new one.\u201d",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "type"
+    },
+    {
+      "term": "trigger (T)",
+      "definition": "Connector adding contextual specifications (e.g., time, location, condition) to a relation.",
+      "source_context": "\u201cThe remaining case, triggers (T), concerns additional specifications of a relationship\u2026\u201d",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "type"
+    },
+    {
+      "term": "conjunction (J)",
+      "definition": "Connector that aggregates or sequences multiple concepts or relations (e.g., and, or).",
+      "source_context": "\u201cConjunctions (\u2018J\u2019) \u2026 join or coordinate concepts or relations.\u201d",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "type"
+    },
+    {
+      "term": "relation (R)",
+      "definition": "Non-atomic hyperedge type expressing statements, questions, commands, etc.",
+      "source_context": "\u201cRelations are typically used to state some fact\u2026 produced by predicates.\u201d",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "type"
+    },
+    {
+      "term": "specifier (S)",
+      "definition": "Hyperedge type encoding supplemental information that modifies a relation (e.g., temporal spec).",
+      "source_context": "\u201cSpecifiers are types that play a more peripheral role\u2026 produced by triggers.\u201d",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "type"
+    },
+    {
+      "term": "argument role",
+      "definition": "Symbolic label indicating the semantic function each argument plays with respect to a predicate.",
+      "source_context": "\u201cWe introduce a last notion\u2026 argument roles for builders and predicates.\u201d",
+      "page_reference": "\u00a73.4",
+      "theoretical_category": "attribute"
+    },
+    {
+      "term": "active subject (s)",
+      "definition": "Argument role marking the doer of an action in active voice.",
+      "source_context": "Table 3 lists roles such as \u2018active subject s\u2019.",
+      "page_reference": "Table 3",
+      "theoretical_category": "role"
+    },
+    {
+      "term": "passive subject (p)",
+      "definition": "Argument role marking the patient subject in passive constructions.",
+      "source_context": "Table 3.",
+      "page_reference": "Table 3",
+      "theoretical_category": "role"
+    },
+    {
+      "term": "agent (a)",
+      "definition": "Role indicating performer of action in a passive clause.",
+      "source_context": "Table 3 lists \u2018agent (passive) a\u2019.",
+      "page_reference": "Table 3",
+      "theoretical_category": "role"
+    },
+    {
+      "term": "subject complement (c)",
+      "definition": "Role for predicate nominals/adjectives completing the subject.",
+      "source_context": "Table 3.",
+      "page_reference": "Table 3",
+      "theoretical_category": "role"
+    },
+    {
+      "term": "direct object (o)",
+      "definition": "Argument role marking entity directly affected by action.",
+      "source_context": "Table 3.",
+      "page_reference": "Table 3",
+      "theoretical_category": "role"
+    },
+    {
+      "term": "indirect object (i)",
+      "definition": "Role for beneficiary/recipient of action.",
+      "source_context": "Table 3.",
+      "page_reference": "Table 3",
+      "theoretical_category": "role"
+    },
+    {
+      "term": "parataxis role (t)",
+      "definition": "Role marking syntactically disjoint but related clauses.",
+      "source_context": "Table 3 lists \u2018parataxis t\u2019.",
+      "page_reference": "Table 3",
+      "theoretical_category": "role"
+    },
+    {
+      "term": "specification role (x)",
+      "definition": "Role designating additional specifier information inside relations.",
+      "source_context": "Table 3 shows code \u2018x\u2019.",
+      "page_reference": "Table 3",
+      "theoretical_category": "role"
+    },
+    {
+      "term": "relative relation role (r)",
+      "definition": "Role indicating a nested relation functioning as relative clause.",
+      "source_context": "Table 3 lists \u2018relative relation r\u2019.",
+      "page_reference": "Table 3",
+      "theoretical_category": "role"
+    },
+    {
+      "term": "type inference rule",
+      "definition": "Formal pattern that infers resulting hyperedge type from connector and argument types.",
+      "source_context": "\u201cTable 2 lists all type inference rules\u2026\u201d",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "rule"
+    },
+    {
+      "term": "\u03b1-stage (alpha stage)",
+      "definition": "First parsing stage: ML classifier assigns atomic SH types to tokens.",
+      "source_context": "\u201cThe first (\u03b1-stage) is a classifier that assigns a type to each token\u2026\u201d",
+      "page_reference": "\u00a74",
+      "theoretical_category": "process"
+    },
+    {
+      "term": "\u03b2-stage (beta stage)",
+      "definition": "Second parsing stage: rule-based search tree recursively builds well-formed hyperedges.",
+      "source_context": "\u201cThe second (\u03b2-stage) is a search tree-based algorithm that recursively applies the rules\u2026\u201d",
+      "page_reference": "\u00a74",
+      "theoretical_category": "process"
+    },
+    {
+      "term": "heuristic function h",
+      "definition": "Scoring function guiding \u03b2-stage when multiple pattern matches compete, leveraging dependency links.",
+      "source_context": "\u201c\u2026we use a heuristic function (this is function h in algorithm 1).\u201d",
+      "page_reference": "Algorithm 1 description",
+      "theoretical_category": "algorithm-parameter"
+    },
+    {
+      "term": "Dependency Parse Tree (DPT)",
+      "definition": "Syntactic tree representation capturing grammatical dependencies between words.",
+      "source_context": "\u201c\u2026DPTs themselves can be considered as a type of hypergraphic representation\u2026\u201d",
+      "page_reference": "\u00a72 Related Work",
+      "theoretical_category": "referenced-construct"
+    },
+    {
+      "term": "feature selection (genetic algorithm)",
+      "definition": "Evolutionary search over feature subsets to optimize \u03b1-classifier accuracy.",
+      "source_context": "\u201c\u2026tested two approaches\u2026 a very simple genetic algorithm (GA)\u2026",
+      "page_reference": "\u00a74.1",
+      "theoretical_category": "method"
+    },
+    {
+      "term": "iterative ablation",
+      "definition": "Feature-elimination technique measuring accuracy impact to retain informative features.",
+      "source_context": "\u201cThe iterative ablation procedure starts with the set of all candidate features\u2026\u201d",
+      "page_reference": "\u00a74.1",
+      "theoretical_category": "method"
+    },
+    {
+      "term": "pattern language",
+      "definition": "SH-based notation with variables, wild-cards and role sets used to specify match/inference templates.",
+      "source_context": "\u201cWe introduce the concept of variable\u2026 With variables we can define patterns\u2026\u201d",
+      "page_reference": "\u00a75.1",
+      "theoretical_category": "language"
+    },
+    {
+      "term": "variable (in SH patterns)",
+      "definition": "Placeholder (capitalised atom) that can match any hyperedge of compatible type.",
+      "source_context": "\u201cA variable simply indicates a placeholder that can match a hyperedge\u2026\u201d",
+      "page_reference": "\u00a75.1",
+      "theoretical_category": "symbol"
+    },
+    {
+      "term": "wildcard",
+      "definition": "Generic type-annotated element in a pattern that can match arbitrary hyperedges.",
+      "source_context": "\u201c\u2026remaining sub-edges are replaced by wildcards\u2026\u201d",
+      "page_reference": "\u00a75.1",
+      "theoretical_category": "symbol"
+    },
+    {
+      "term": "inference rule",
+      "definition": "Coupled pattern pair (lhs \u21d2 rhs) that, when lhs matches, generates a derived SH edge defined by rhs.",
+      "source_context": "\u201c\u2026rules which we denote with a couple of patterns separated by the symbol \u2018`\u2019\u2026\u201d",
+      "page_reference": "\u00a75.1",
+      "theoretical_category": "rule"
+    },
+    {
+      "term": "conjunction decomposition",
+      "definition": "Set of rules that split SH relations containing conjunctions into simpler, atomic relations.",
+      "source_context": "\u201cDecomposing relations that include conjunctions into simpler relations\u2026\u201d",
+      "page_reference": "\u00a75.2",
+      "theoretical_category": "process"
+    },
+    {
+      "term": "pattern learning template",
+      "definition": "Human-in-the-loop workflow that generalises observed SH edges into reusable extraction patterns.",
+      "source_context": "\u201c\u2026we employed a simple process of generalization to transform hyperedges into abstract patterns.\u201d",
+      "page_reference": "\u00a75.3",
+      "theoretical_category": "method"
+    },
+    {
+      "term": "Open Information Extraction (OIE)",
+      "definition": "Domain-independent extraction of relational tuples from text; used as benchmark for SH patterns.",
+      "source_context": "\u201c\u2026show that 5 simple hyperedge patterns are sufficient to rank first in a recent OIE benchmark.\u201d",
+      "page_reference": "\u00a75.4",
+      "theoretical_category": "application-domain"
+    },
+    {
+      "term": "co-occurrence graph",
+      "definition": "Graph whose vertices are auxiliary concepts that co-participate with a seed in compound concepts.",
+      "source_context": "\u201c\u2026possible then to build a graph of all the auxiliary concepts that appear together with the seed.\u201d",
+      "page_reference": "\u00a76.2",
+      "theoretical_category": "derivative-structure"
+    },
+    {
+      "term": "seed concept",
+      "definition": "Main atomic concept used to initiate coreference analysis among compound nouns.",
+      "source_context": "\u201c\u2026we start taking advantage of the hypergraph \u2026 using the seed concept (obama/C).\u201d",
+      "page_reference": "\u00a76.2",
+      "theoretical_category": "anchor"
+    },
+    {
+      "term": "coreference set",
+      "definition": "Group of SH compound concepts determined to refer to the same external entity.",
+      "source_context": "\u201c\u2026produces the coreference sets seen on the right of the figure\u2026\u201d",
+      "page_reference": "\u00a76.2",
+      "theoretical_category": "result-construct"
+    },
+    {
+      "term": "probabilistic seed assignment",
+      "definition": "Heuristic assigning ambiguous seed atoms to a coreference set based on degree ratios and thresholds.",
+      "source_context": "\u201c\u2026we employ another simple method, this time of a more probabilistic nature.\u201d",
+      "page_reference": "\u00a76.4",
+      "theoretical_category": "algorithm"
+    },
+    {
+      "term": "hypergraphic degree d(e)",
+      "definition": "Number of pairwise connections a hyperedge has via the outer hyperedges it participates in.",
+      "source_context": "\u201cWe define the degree of a hyperedge e as: d(e)=\u03a3(|ei|\u22121).\u201d",
+      "page_reference": "\u00a76.3",
+      "theoretical_category": "metric"
+    },
+    {
+      "term": "deep degree \u03b4(e)",
+      "definition": "Degree counting recursive co-participations of a hyperedge at any nesting depth.",
+      "source_context": "\u201cAnother useful metric \u2026 deep degree, which considers edges connected \u2026 at any level.\u201d",
+      "page_reference": "\u00a76.3",
+      "theoretical_category": "metric"
+    },
+    {
+      "term": "claim predicate",
+      "definition": "Predicate lemmas (e.g., say, claim) signalling that an actor asserts a proposition.",
+      "source_context": "\u201c\u2026set of \u2018claim predicates\u2019 \u2026 lemmas \u2018say\u2019, \u2018claim\u2019.\u201d",
+      "page_reference": "\u00a77.1",
+      "theoretical_category": "semantic-category"
+    },
+    {
+      "term": "conflict predicate",
+      "definition": "Predicate lemmas (e.g., accuse, condemn) indicating opposition or conflict between actors.",
+      "source_context": "\u201c\u2026a set of \u2018conflict predicates\u2019, that we detail below.\u201d",
+      "page_reference": "\u00a77.1",
+      "theoretical_category": "semantic-category"
+    },
+    {
+      "term": "topic (in SH analysis)",
+      "definition": "Hyperedge (concept or relation) representing the subject matter of a claim or conflict; can be hierarchical.",
+      "source_context": "\u201cThe topics presented here correspond to the detailed topics discussed in the previous section.\u201d",
+      "page_reference": "\u00a77.2",
+      "theoretical_category": "analytic-construct"
+    },
+    {
+      "term": "hypergraph database",
+      "definition": "Persistent store of SH edges enabling queries and pattern matching over large corpora.",
+      "source_context": "\u201cIn practice, all resulting hyperedges are stored in a proper SH database.\u201d",
+      "page_reference": "\u00a75.1",
+      "theoretical_category": "infrastructure"
+    },
+    {
+      "term": "lemma/J edge",
+      "definition": "Auxiliary SH edge linking an inflected word form to its lemma using special connector lemma/J.",
+      "source_context": "\u201c\u2026we also store auxiliary hyperedges connecting every atom \u2026 with the lemma of that word\u2026\u201d",
+      "page_reference": "\u00a76.1",
+      "theoretical_category": "auxiliary-construct"
+    },
+    {
+      "term": "(+/B) special builder",
+      "definition": "Builder connector denoting compound noun formed by juxtaposed concepts.",
+      "source_context": "\u201c\u2026we introduce a special builder atom that we call (+/B).\u201d",
+      "page_reference": "\u00a73.3",
+      "theoretical_category": "special-case"
+    },
+    {
+      "term": "Universal Dependencies (UD)",
+      "definition": "Cross-lingual dependency grammar annotation scheme used as coverage benchmark for SH.",
+      "source_context": "\u201cSH completeness is based instead on Universal Dependencies\u2026\u201d",
+      "page_reference": "\u00a72",
+      "theoretical_category": "external-standard"
+    },
+    {
+      "term": "ApplyPattern function",
+      "definition": "\u03b2-stage subroutine that replaces matching sequence with a single hyperedge conforming to a pattern.",
+      "source_context": "Algorithm 1 \u2013 ApplyPattern(seq,pos,pat).",
+      "page_reference": "Algorithm 1",
+      "theoretical_category": "algorithm-component"
+    },
+    {
+      "term": "BetaTransformation",
+      "definition": "Recursive procedure building final SH edge by repeated pattern application until convergence.",
+      "source_context": "Algorithm 1 \u2013 BetaTransformation(seq).",
+      "page_reference": "Algorithm 1",
+      "theoretical_category": "algorithm"
+    },
+    {
+      "term": "Generate\u0394(e) function",
+      "definition": "Recursive algorithm computing the neighbourhood \u0394e for deep-degree calculation.",
+      "source_context": "Algorithm 2 \u2013 Generate\u0394(e).",
+      "page_reference": "Algorithm 2",
+      "theoretical_category": "algorithm"
+    },
+    {
+      "term": "F1 score",
+      "definition": "Harmonic mean of precision and recall used to compare OIE systems.",
+      "source_context": "Table 7 reports \u2018F1\u2019.",
+      "page_reference": "\u00a75.4",
+      "theoretical_category": "metric"
+    },
+    {
+      "term": "precision (Prec.)",
+      "definition": "Proportion of extracted tuples that are correct.",
+      "source_context": "Table 7 lists Prec.",
+      "page_reference": "\u00a75.4",
+      "theoretical_category": "metric"
+    },
+    {
+      "term": "recall",
+      "definition": "Proportion of gold standard tuples correctly extracted.",
+      "source_context": "Table 7 lists Recall.",
+      "page_reference": "\u00a75.4",
+      "theoretical_category": "metric"
+    },
+    {
+      "term": "accuracy",
+      "definition": "Fraction of correctly classified items (used for \u03b1-stage evaluation).",
+      "source_context": "Figure 1 reports accuracy of the \u03b1-classifier.",
+      "page_reference": "\u00a74.1",
+      "theoretical_category": "metric"
+    },
+    {
+      "term": "probability p (seed use)",
+      "definition": "Estimated chance that a seed atom alone denotes a specific entity, computed from degree ratios.",
+      "source_context": "\u201c\u2026probabilities are thus the ratio between the sum of the degrees\u2026\u201d",
+      "page_reference": "\u00a76.4",
+      "theoretical_category": "measure"
+    },
+    {
+      "term": "threshold \u03b8 / \u03b8\u2032",
+      "definition": "Empirical cut-off parameters controlling probabilistic seed assignment.",
+      "source_context": "\u201cWe set the threshold to the values \u03b8=.7 and \u03b8\u2032=.05\u2026\u201d",
+      "page_reference": "\u00a76.4",
+      "theoretical_category": "parameter"
+    },
+    {
+      "term": "faction detection algorithm",
+      "definition": "Heuristic assigning actors to antagonistic groups using conflict edge scores si j.",
+      "source_context": "\u201c\u2026we devised a very simple algorithm to identify two factions in this conflict graph.\u201d",
+      "page_reference": "\u00a77.5",
+      "theoretical_category": "method"
+    },
+    {
+      "term": "score s_ij",
+      "definition": "Edge weight defined as min(di,dj) used in faction identification.",
+      "source_context": "\u201cFirstly, we attribute a score si j to every hyperedge (ei j): si j = min(di , dj).\u201d",
+      "page_reference": "\u00a77.5",
+      "theoretical_category": "metric"
+    }
+  ]
+}

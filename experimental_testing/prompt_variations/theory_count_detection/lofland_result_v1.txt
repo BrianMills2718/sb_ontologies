@@ -1,0 +1,12 @@
+THEORY COUNT DETECTION TEST
+Input: validation_results/complexity_testing/lofland_stark_simple_theory.txt
+Prompt: experimental_testing/prompt_variations/theory_count_detection/theory_count_prompt_v1.txt
+==================================================
+
+theory_count: single
+
+relationships_between_theories: extension
+
+confidence: high
+
+reasoning: This paper develops one unified "value-added" model of conversion, laying out a sequential set of seven necessary (and jointly sufficient) conditions that explain the process of conversion to a deviant perspective. It does not compare multiple separate theories, review a range of theoretical approaches, or synthesize distinct theories into a new framework. All components serve a coherent explanatory purpose in one integrated model, indicating a single unified theoretical approach.

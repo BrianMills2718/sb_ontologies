@@ -1,0 +1,22 @@
+{
+  "active_version": "1.0.0",
+  "version_history": [
+    "1.0.0"
+  ],
+  "metadata": {
+    "1.0.0": {
+      "name": "default_store_schema",
+      "version": "1.0.0",
+      "hash": "0dbfa84a51468d4ca5259566504af57ac0e3abb26d0c09f16dce0f4dfc691bdc",
+      "created_at": 1750677753.3656714,
+      "created_by": "system",
+      "description": "Default schema for V5.0 store components",
+      "tags": [
+        "default",
+        "initial"
+      ],
+      "is_active": true
+    }
+  },
+  "last_updated": 1750677753.3660939
+}

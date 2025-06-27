@@ -1,0 +1,537 @@
+citation: "Synthetic Theory. 2024. Adaptive Governance and Collective Intelligence: A Multi-level Framework for Complex Social Systems. Journal of Advanced Social Theory 1(1): 1-50."
+annotation: "Presents a comprehensive theory of how collective intelligence emerges from individual cognitive processes through social networks, institutional structures, and adaptive governance mechanisms, incorporating game-theoretic dynamics, Bayesian belief updating, and deontic logic for normative reasoning."
+model_type: "hybrid"
+rationale: "This theory requires multiple representations: (1) property graph for agent beliefs and social influence networks, (2) table matrix for game-theoretic payoff structures and institutional configurations, (3) sequence for adaptive governance stages, (4) statistical model for belief aggregation and collective intelligence emergence, and (5) logical model for normative reasoning and institutional rules."
+
+# Hybrid model specification with 5 components
+hybrid_components:
+  - component_id: "belief_influence_network"
+    component_type: "property_graph"
+    description: "Agent beliefs, social influences, and information propagation"
+    
+  - component_id: "institutional_payoff_matrix"
+    component_type: "table_matrix"
+    description: "Game-theoretic payoffs under different institutional configurations"
+    
+  - component_id: "governance_adaptation_sequence"
+    component_type: "sequence"
+    description: "Stages of institutional adaptation based on collective performance"
+    
+  - component_id: "collective_intelligence_model"
+    component_type: "statistical"
+    description: "Bayesian belief aggregation and intelligence emergence"
+    
+  - component_id: "normative_reasoning_system"
+    component_type: "logical"
+    description: "Deontic logic for institutional rules and obligations"
+
+# Complex inter-component mappings
+inter_component_mappings:
+  # Agent entities appear across all components
+  - from_component: "belief_influence_network"
+    from_element: "Agent"
+    to_component: "institutional_payoff_matrix"
+    to_element: "player"
+    mapping_type: "entity_correspondence"
+    cardinality: "one_to_one"
+    
+  - from_component: "belief_influence_network"
+    from_element: "Agent.belief_state"
+    to_component: "collective_intelligence_model"
+    to_element: "individual_belief_vector"
+    mapping_type: "property_transformation"
+    transformation: "vectorize_beliefs"
+    
+  - from_component: "governance_adaptation_sequence"
+    from_element: "InstitutionalConfiguration"
+    to_component: "institutional_payoff_matrix"
+    to_element: "game_structure"
+    mapping_type: "parameter_binding"
+    
+  - from_component: "normative_reasoning_system"
+    from_element: "InstitutionalRule"
+    to_component: "belief_influence_network"
+    to_element: "normative_constraint"
+    mapping_type: "constraint_propagation"
+    
+  # Collective outcomes flow back to governance
+  - from_component: "collective_intelligence_model"
+    from_element: "collective_performance_metric"
+    to_component: "governance_adaptation_sequence"
+    to_element: "adaptation_trigger"
+    mapping_type: "feedback_loop"
+    time_lag: "1_period"
+
+schema_blueprint:
+  title: "Adaptive Governance and Collective Intelligence Framework"
+  description: "Multi-level theory integrating cognitive, social, institutional, and emergent collective phenomena"
+  
+  # Component 1: Belief and Influence Network (Property Graph)
+  component_belief_network:
+    root_properties:
+      nodes:
+        description: "Agents, beliefs, information sources"
+        item_type: "Entity"
+      edges:
+        description: "Influence relationships, belief updates, information flows"
+        item_type: "NaryTuple"
+    
+    definitions:
+      # Core Entities
+      - name: "Agent"
+        category: "actor"
+        description: "Individual cognitive agent in the system"
+        properties:
+          - name: "cognitive_capacity"
+            type: "numeric"
+            range: [0, 1]
+            required: true
+            description: "Bounded rationality parameter"
+          - name: "belief_state"
+            type: "object"
+            structure:
+              beliefs: "array[Belief]"
+              confidence: "array[numeric]"
+            required: true
+          - name: "social_position"
+            type: "numeric"
+            description: "Network centrality measure"
+            
+      - name: "Belief"
+        category: "cognitive-construct"
+        description: "Proposition held by agent with uncertainty"
+        properties:
+          - name: "proposition"
+            type: "string"
+            required: true
+          - name: "truth_value"
+            type: "numeric"
+            range: [0, 1]
+            description: "Subjective probability"
+          - name: "justification_strength"
+            type: "numeric"
+            range: [0, 1]
+            
+      - name: "InformationSource"
+        category: "environmental-element"
+        description: "External source of signals about world state"
+        properties:
+          - name: "reliability"
+            type: "numeric"
+            range: [0, 1]
+            stochastic: true
+            distribution: "beta"
+            parameters: ["alpha", "beta"]
+          - name: "bias"
+            type: "numeric"
+            range: [-1, 1]
+            
+      # Relationships with OWL characteristics
+      - name: "influences"
+        category: "social-relationship"
+        description: "Social influence between agents"
+        domain: ["Agent"]
+        range: ["Agent"]
+        properties:
+          - name: "influence_weight"
+            type: "numeric"
+            range: [0, 1]
+            required: true
+          - name: "influence_type"
+            type: "categorical"
+            values: ["informational", "normative", "coercive"]
+        owl:characteristics: ["asymmetric"]
+        constraints:
+          row_normalization: "sum(influence_weight) = 1 for each agent"
+          
+      - name: "updates_belief"
+        category: "cognitive-action"
+        description: "Bayesian belief updating based on evidence"
+        domain: ["Agent"]
+        range: ["Belief"]
+        properties:
+          - name: "prior_belief"
+            type: "numeric"
+            range: [0, 1]
+          - name: "likelihood"
+            type: "numeric"
+            range: [0, 1]
+          - name: "posterior_belief"
+            type: "numeric"
+            range: [0, 1]
+        constraints:
+          bayes_rule: "posterior = (likelihood * prior) / evidence"
+          
+      - name: "receives_signal"
+        category: "information-flow"
+        description: "Agent receives information from source"
+        domain: ["Agent"]
+        range: ["InformationSource"]
+        properties:
+          - name: "signal_strength"
+            type: "numeric"
+          - name: "signal_noise"
+            type: "numeric"
+            distribution: "normal"
+            parameters: ["mean=0", "variance"]
+            
+  # Component 2: Institutional Payoff Matrix (Table as N-ary Relation)
+  component_payoff_matrix:
+    root_properties:
+      payoff_structure:
+        description: "N-ary relation for game-theoretic payoffs"
+        item_type: "NaryTuple"
+        arity: 5
+        
+    definitions:
+      - name: "institutional_game"
+        category: "game-structure"
+        description: "Payoff matrix under institutional configuration"
+        arity: 5
+        roles:
+          - name: "player"
+            type: "Agent"
+            description: "Strategic actor"
+          - name: "action"
+            type: "Action"
+            description: "Available strategic choice"
+          - name: "others_action_profile"
+            type: "ActionProfile"
+            description: "Actions of other players"
+          - name: "institution"
+            type: "InstitutionalConfiguration"
+            description: "Current institutional rules"
+          - name: "payoff"
+            type: "Payoff"
+            description: "Resulting utility"
+        constraints:
+          completeness: "defined for all action combinations"
+          institution_dependent: "payoffs vary by institutional configuration"
+          
+      - name: "Action"
+        category: "strategic-choice"
+        description: "Strategic action available to agents"
+        properties:
+          - name: "action_type"
+            type: "categorical"
+            values: ["cooperate", "defect", "punish", "exit"]
+          - name: "cost"
+            type: "numeric"
+            
+      - name: "Payoff"
+        category: "outcome"
+        description: "Multi-dimensional utility"
+        properties:
+          - name: "material_payoff"
+            type: "numeric"
+          - name: "social_payoff"
+            type: "numeric"
+          - name: "normative_payoff"
+            type: "numeric"
+            description: "Utility from norm compliance"
+            
+      - name: "equilibrium_correspondence"
+        category: "solution-concept"
+        description: "Maps institutions to equilibrium outcomes"
+        arity: 3
+        roles:
+          - name: "institution"
+            type: "InstitutionalConfiguration"
+          - name: "equilibrium_type"
+            type: "EquilibriumConcept"
+            values: ["nash", "correlated", "evolutionary_stable"]
+          - name: "equilibrium_profile"
+            type: "ActionProfile"
+            
+  # Component 3: Governance Adaptation Sequence
+  component_governance_sequence:
+    root_properties:
+      stages:
+        description: "Ordered stages of institutional adaptation"
+        item_type: "Sequence"
+        order_type: "temporal"
+        
+    definitions:
+      - name: "AdaptationStage"
+        category: "process-stage"
+        description: "Phase in governance adaptation cycle"
+        properties:
+          - name: "stage_name"
+            type: "categorical"
+            values: ["performance_assessment", "deliberation", "proposal_generation", "collective_choice", "implementation", "monitoring"]
+          - name: "duration"
+            type: "temporal"
+            unit: "periods"
+          - name: "participation_threshold"
+            type: "numeric"
+            range: [0, 1]
+            
+      - name: "transitions_to"
+        category: "stage-transition"
+        description: "Movement between adaptation stages"
+        domain: ["AdaptationStage"]
+        range: ["AdaptationStage"]
+        properties:
+          - name: "transition_condition"
+            type: "logical_expression"
+            example: "collective_performance < threshold AND participation > 0.5"
+          - name: "transition_probability"
+            type: "numeric"
+            range: [0, 1]
+        owl:characteristics: ["antisymmetric", "antitransitive"]
+        
+      - name: "InstitutionalConfiguration"
+        category: "governance-state"
+        description: "Complete specification of institutional rules"
+        properties:
+          - name: "rule_set"
+            type: "array[InstitutionalRule]"
+          - name: "enforcement_mechanism"
+            type: "categorical"
+            values: ["peer_punishment", "central_authority", "reputation", "none"]
+          - name: "decision_rule"
+            type: "categorical"
+            values: ["unanimity", "majority", "supermajority", "dictator"]
+            
+  # Component 4: Collective Intelligence Statistical Model
+  component_statistical_model:
+    root_properties:
+      model_structure:
+        description: "Bayesian hierarchical model for belief aggregation"
+        item_type: "StatisticalModel"
+        model_type: "hierarchical_bayesian"
+        
+    definitions:
+      - name: "BeliefAggregation"
+        category: "statistical-process"
+        description: "Weighted aggregation of individual beliefs"
+        properties:
+          - name: "aggregation_rule"
+            type: "functional"
+            specification: "weighted_sum"
+            weight_determination: "competence_based"
+          - name: "individual_weights"
+            type: "array[numeric]"
+            constraint: "sum(weights) = 1"
+            
+      - name: "CollectiveIntelligence"
+        category: "emergent-property"
+        description: "System-level cognitive performance"
+        properties:
+          - name: "accuracy"
+            type: "numeric"
+            range: [0, 1]
+            formula: "correlation(collective_belief, true_state)"
+          - name: "diversity_bonus"
+            type: "numeric"
+            formula: "f(belief_variance, network_modularity)"
+            
+      - name: "CompetenceEstimation"
+        category: "latent-variable"
+        description: "Inferred agent competence from performance"
+        properties:
+          - name: "prior_distribution"
+            type: "distribution"
+            family: "beta"
+            hyperparameters: ["alpha_0", "beta_0"]
+          - name: "likelihood_function"
+            type: "functional"
+            form: "bernoulli"
+          - name: "posterior_distribution"
+            type: "distribution"
+            family: "beta"
+            update_rule: "conjugate"
+            
+      # Statistical dependencies
+      - name: "conditions_on"
+        category: "statistical-dependency"
+        description: "Conditional probability relationship"
+        domain: ["BeliefAggregation", "CompetenceEstimation"]
+        range: ["CollectiveIntelligence"]
+        properties:
+          - name: "dependency_type"
+            type: "categorical"
+            values: ["deterministic", "stochastic"]
+          - name: "correlation_structure"
+            type: "matrix"
+            
+  # Component 5: Normative Reasoning System (Logical Model)
+  component_logical_model:
+    root_properties:
+      axiom_system:
+        description: "Deontic logic for institutional rules"
+        item_type: "LogicalSystem"
+        logic_type: "deontic"
+        
+    definitions:
+      - name: "InstitutionalRule"
+        category: "normative-proposition"
+        description: "Deontic statement about obligations/permissions"
+        properties:
+          - name: "deontic_operator"
+            type: "categorical"
+            values: ["obligatory", "permitted", "forbidden"]
+          - name: "action_content"
+            type: "Action"
+          - name: "condition"
+            type: "logical_expression"
+          - name: "sanction"
+            type: "Payoff"
+            
+      - name: "implies"
+        category: "logical-relationship"
+        description: "Logical implication between rules"
+        domain: ["InstitutionalRule"]
+        range: ["InstitutionalRule"]
+        owl:characteristics: ["transitive", "reflexive"]
+        properties:
+          - name: "implication_strength"
+            type: "categorical"
+            values: ["strict", "defeasible"]
+            
+      - name: "conflicts_with"
+        category: "logical-relationship"
+        description: "Normative conflict between rules"
+        domain: ["InstitutionalRule"]
+        range: ["InstitutionalRule"]
+        owl:characteristics: ["symmetric", "irreflexive"]
+        resolution_mechanism: "priority_ordering"
+        
+      # Meta-rules
+      - name: "MetaRule"
+        category: "second-order-norm"
+        description: "Rules about rule-making and modification"
+        properties:
+          - name: "modification_procedure"
+            type: "AdaptationStage"
+          - name: "authority_required"
+            type: "numeric"
+            range: [0, 1]
+            description: "Proportion of agents needed"
+            
+  # Cross-cutting features
+  modifiers_supported:
+    - "necessarily"  # Modal necessity
+    - "possibly"     # Modal possibility
+    - "eventually"   # Temporal
+    - "always"       # Temporal
+    - "defeasibly"   # Defeasible logic
+    
+  truth_values_supported:
+    - "true"
+    - "false"
+    - "unknown"
+    - "probabilistic[0,1]"
+    
+  operators_supported:
+    - name: "belief_revision"
+      type: "AGM"
+      description: "Belief revision operators"
+    - name: "social_choice"
+      type: "voting"
+      description: "Aggregation operators"
+    - name: "deontic_inference"
+      type: "SDL"
+      description: "Standard deontic logic"
+      
+  reasoning_requirements:
+    - type: "bayesian_inference"
+      description: "Update beliefs based on evidence"
+      implementation: "hierarchical_bayes"
+    - type: "game_theoretic_equilibrium"
+      description: "Compute equilibria under different institutions"
+      implementation: "gambit_solver"
+    - type: "deontic_reasoning"
+      description: "Check normative consistency and derive obligations"
+      implementation: "deontic_prover"
+    - type: "network_analysis"
+      description: "Compute influence propagation and centrality"
+      implementation: "networkx"
+    - type: "constraint_satisfaction"
+      description: "Ensure consistency across components"
+      implementation: "z3_solver"
+      
+  statistical_parameters:
+    # Network parameters
+    - name: "homophily_parameter"
+      type: "numeric"
+      range: [0, 1]
+      affects: "influence_network_formation"
+    - name: "information_decay_rate"
+      type: "numeric"
+      range: [0, 1]
+      affects: "belief_persistence"
+      
+    # Collective intelligence parameters  
+    - name: "diversity_productivity"
+      type: "functional"
+      form: "inverted_u"
+      parameters: ["peak_diversity", "curvature"]
+    - name: "network_efficiency"
+      type: "derived"
+      formula: "small_world_coefficient"
+      
+    # Institutional parameters
+    - name: "enforcement_effectiveness"
+      type: "stochastic"
+      distribution: "beta"
+      updated_by: "observed_compliance_rate"
+    - name: "rule_complexity_cost"
+      type: "numeric"
+      formula: "log(number_of_rules) * average_rule_conditions"
+      
+  validation_constraints:
+    - name: "belief_coherence"
+      description: "Agent beliefs must be probabilistically coherent"
+      formula: "P(A and B) <= min(P(A), P(B))"
+    - name: "influence_conservation"
+      description: "Total influence weights sum to 1"
+      scope: "per_agent"
+    - name: "equilibrium_existence"
+      description: "Every game has at least one Nash equilibrium"
+      theorem: "kakutani_fixed_point"
+    - name: "normative_consistency"
+      description: "No direct contradictions in rule set"
+      check: "not (obligatory(A) and forbidden(A))"
+      
+  example_queries:
+    - description: "Find belief cascades"
+      query: |
+        MATCH path = (a1:Agent)-[:influences*]->(a2:Agent)
+        WHERE a1.belief_state.confidence > 0.8
+        AND a2.belief_state.confidence < 0.3
+        RETURN path as BeliefCascade
+        
+    - description: "Identify institutional configurations supporting cooperation"
+      query: |
+        SELECT institution, AVG(payoff) as avg_cooperation_payoff
+        FROM institutional_game
+        WHERE action = 'cooperate'
+        AND equilibrium_profile.contains('cooperate') > 0.5
+        GROUP BY institution
+        ORDER BY avg_cooperation_payoff DESC
+        
+    - description: "Trace governance adaptation path"
+      query: |
+        MATCH sequence = (:AdaptationStage {stage_name: 'performance_assessment'})
+                        -[:transitions_to*]->
+                        (:AdaptationStage {stage_name: 'implementation'})
+        WHERE ALL(transition IN relationships(sequence) 
+                  WHERE transition.transition_probability > 0.3)
+        RETURN sequence as AdaptationPath
+        
+    - description: "Compute collective intelligence emergence"
+      query: |
+        WITH BeliefAggregation.aggregate(Agent.belief_state) as collective_belief,
+             CompetenceEstimation.estimate(Agent.performance_history) as competence_weights
+        COMPUTE CollectiveIntelligence.accuracy as 
+                correlation(collective_belief, GroundTruth.state)
+        RETURN CollectiveIntelligence.metrics
+        
+    - description: "Check normative consistency under adaptation"
+      query: |
+        FORALL rule IN InstitutionalConfiguration.rule_set:
+          CHECK NOT EXISTS (rule2 IN InstitutionalConfiguration.rule_set:
+                           rule CONFLICTS_WITH rule2)
+        AND PROVE USING deontic_prover:
+          InstitutionalConfiguration |= CollectiveWelfare.improvement

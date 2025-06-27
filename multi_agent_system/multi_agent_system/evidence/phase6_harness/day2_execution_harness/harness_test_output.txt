@@ -1,0 +1,72 @@
+INFO:__main__:🚀 Starting SystemExecutionHarness integration tests
+INFO:__main__:🧪 Running TestStreamManager.test_stream_creation
+INFO:StreamManager:✨ StreamManager initialized with default buffer size: 50
+INFO:StreamManager:📤📥 Created stream 021bf4c9: comp1 → comp2 (buffer: 100, creation time: 0.033ms)
+INFO:StreamManager:📤📥 Created stream 4fedd765: comp2 → comp3 (buffer: 50, creation time: 0.006ms)
+INFO:StreamManager:🔒 Closing all 2 active streams
+INFO:StreamManager:🔒 Explicitly closed stream 021bf4c9
+INFO:StreamManager:🔒 Explicitly closed stream 4fedd765
+INFO:StreamManager:✅ All streams closed
+INFO:__main__:✅ TestStreamManager.test_stream_creation PASSED
+INFO:__main__:🧪 Running TestStreamManager.test_stream_health_monitoring
+INFO:StreamManager:✨ StreamManager initialized with default buffer size: 100
+INFO:StreamManager:📤📥 Created stream 36c657a4: comp0 → comp1 (buffer: 100, creation time: 0.006ms)
+INFO:StreamManager:📤📥 Created stream c37fc6e1: comp1 → comp2 (buffer: 100, creation time: 0.005ms)
+INFO:StreamManager:📤📥 Created stream f9e1bf6d: comp2 → comp3 (buffer: 100, creation time: 0.004ms)
+ERROR:__main__:❌ TestStreamManager.test_stream_health_monitoring FAILED: 'total_streams'
+INFO:__main__:🧪 Running TestSystemExecutionHarness.test_harness_initialization
+INFO:StreamManager:✨ StreamManager initialized with default buffer size: 200
+INFO:SystemExecutionHarness.8fc5b5b1:✨ SystemExecutionHarness created with ID: 8fc5b5b1
+INFO:__main__:✅ TestSystemExecutionHarness.test_harness_initialization PASSED
+INFO:__main__:🧪 Running TestSystemExecutionHarness.test_component_registration
+INFO:StreamManager:✨ StreamManager initialized with default buffer size: 100
+INFO:SystemExecutionHarness.a8d766c0:✨ SystemExecutionHarness created with ID: a8d766c0
+ERROR:__main__:❌ TestSystemExecutionHarness.test_component_registration FAILED: can't set attribute 'is_running'
+INFO:__main__:🧪 Running TestSystemExecutionHarness.test_stream_connections
+INFO:StreamManager:✨ StreamManager initialized with default buffer size: 100
+INFO:SystemExecutionHarness.139b5b59:✨ SystemExecutionHarness created with ID: 139b5b59
+ERROR:__main__:❌ TestSystemExecutionHarness.test_stream_connections FAILED: can't set attribute 'is_running'
+INFO:__main__:🧪 Running TestSystemExecutionHarness.test_simple_pipeline_execution
+INFO:StreamManager:✨ StreamManager initialized with default buffer size: 100
+INFO:SystemExecutionHarness.ed912eec:✨ SystemExecutionHarness created with ID: ed912eec
+ERROR:__main__:❌ TestSystemExecutionHarness.test_simple_pipeline_execution FAILED: can't set attribute 'is_running'
+INFO:__main__:🧪 Running TestSystemExecutionHarness.test_dependency_order_startup
+INFO:StreamManager:✨ StreamManager initialized with default buffer size: 100
+INFO:SystemExecutionHarness.e9b26dc9:✨ SystemExecutionHarness created with ID: e9b26dc9
+ERROR:__main__:❌ TestSystemExecutionHarness.test_dependency_order_startup FAILED: can't set attribute 'is_running'
+INFO:__main__:🧪 Running TestSystemExecutionHarness.test_error_handling_during_setup
+INFO:StreamManager:✨ StreamManager initialized with default buffer size: 100
+INFO:SystemExecutionHarness.2621468e:✨ SystemExecutionHarness created with ID: 2621468e
+ERROR:__main__:❌ TestSystemExecutionHarness.test_error_handling_during_setup FAILED: can't set attribute 'is_running'
+INFO:__main__:🧪 Running TestSystemExecutionHarness.test_component_failure_isolation
+INFO:StreamManager:✨ StreamManager initialized with default buffer size: 100
+INFO:SystemExecutionHarness.77eb3416:✨ SystemExecutionHarness created with ID: 77eb3416
+ERROR:__main__:❌ TestSystemExecutionHarness.test_component_failure_isolation FAILED: can't set attribute 'is_running'
+INFO:__main__:🧪 Running TestSystemExecutionHarness.test_health_monitoring
+INFO:StreamManager:✨ StreamManager initialized with default buffer size: 100
+INFO:SystemExecutionHarness.9cd21f76:✨ SystemExecutionHarness created with ID: 9cd21f76
+ERROR:__main__:❌ TestSystemExecutionHarness.test_health_monitoring FAILED: can't set attribute 'is_running'
+INFO:__main__:🧪 Running TestSystemExecutionHarness.test_harness_status_reporting
+INFO:StreamManager:✨ StreamManager initialized with default buffer size: 100
+INFO:SystemExecutionHarness.3b0f7c7f:✨ SystemExecutionHarness created with ID: 3b0f7c7f
+ERROR:__main__:❌ TestSystemExecutionHarness.test_harness_status_reporting FAILED: can't set attribute 'is_running'
+INFO:__main__:🧪 Running TestSystemExecutionHarness.test_concurrent_component_execution
+INFO:StreamManager:✨ StreamManager initialized with default buffer size: 100
+INFO:SystemExecutionHarness.c39815b4:✨ SystemExecutionHarness created with ID: c39815b4
+ERROR:__main__:❌ TestSystemExecutionHarness.test_concurrent_component_execution FAILED: can't set attribute 'is_running'
+INFO:__main__:📊 Test Results Summary:
+INFO:__main__:   ✅ Passed: 2
+INFO:__main__:   ❌ Failed: 10
+INFO:__main__:   📈 Success Rate: 16.7%
+INFO:__main__:🚨 Failures:
+INFO:__main__:   ❌ TestStreamManager.test_stream_health_monitoring FAILED: 'total_streams'
+INFO:__main__:   ❌ TestSystemExecutionHarness.test_component_registration FAILED: can't set attribute 'is_running'
+INFO:__main__:   ❌ TestSystemExecutionHarness.test_stream_connections FAILED: can't set attribute 'is_running'
+INFO:__main__:   ❌ TestSystemExecutionHarness.test_simple_pipeline_execution FAILED: can't set attribute 'is_running'
+INFO:__main__:   ❌ TestSystemExecutionHarness.test_dependency_order_startup FAILED: can't set attribute 'is_running'
+INFO:__main__:   ❌ TestSystemExecutionHarness.test_error_handling_during_setup FAILED: can't set attribute 'is_running'
+INFO:__main__:   ❌ TestSystemExecutionHarness.test_component_failure_isolation FAILED: can't set attribute 'is_running'
+INFO:__main__:   ❌ TestSystemExecutionHarness.test_health_monitoring FAILED: can't set attribute 'is_running'
+INFO:__main__:   ❌ TestSystemExecutionHarness.test_harness_status_reporting FAILED: can't set attribute 'is_running'
+INFO:__main__:   ❌ TestSystemExecutionHarness.test_concurrent_component_execution FAILED: can't set attribute 'is_running'
+WARNING:StreamManager:⚠️ StreamManager destroyed with 3 active streams

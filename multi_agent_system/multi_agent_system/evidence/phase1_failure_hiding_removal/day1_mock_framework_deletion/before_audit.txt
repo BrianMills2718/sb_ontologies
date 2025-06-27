@@ -1,0 +1,340 @@
+#!/usr/bin/env python3
+"""
+Mock Framework for Level 2 Component Validation
+
+Provides hermetically sealed test environments with mocked external dependencies
+as required by Autocoder V5.0's validation-driven architecture.
+"""
+
+import json
+import asyncio
+from typing import Dict, Any, List, Optional, Callable, Union
+from dataclasses import dataclass
+from contextlib import asynccontextmanager
+import logging
+
+
+@dataclass
+class MockInteraction:
+    """A single mock interaction (request/response pair)"""
+    request: Dict[str, Any]
+    response: Dict[str, Any]
+    delay_ms: int = 0
+    call_count: int = 0
+    max_calls: Optional[int] = None
+
+
+@dataclass
+class MockServiceConfig:
+    """Configuration for a mock service"""
+    service_name: str
+    service_type: str  # 'http_api', 'database', 'grpc', etc.
+    base_url: Optional[str] = None
+    interactions: List[MockInteraction] = None
+    default_response: Optional[Dict[str, Any]] = None
+
+
+class MockHTTPService:
+    """Mock HTTP API service for Level 2 validation"""
+    
+    def __init__(self, config: MockServiceConfig):
+        self.config = config
+        self.interactions = config.interactions or []
+        self.logger = logging.getLogger(f"MockHTTP.{config.service_name}")
+        self._reset_call_counts()
+    
+    def _reset_call_counts(self):
+        """Reset call counts for all interactions"""
+        for interaction in self.interactions:
+            interaction.call_count = 0
+    
+    async def make_request(self, method: str, path: str, 
+                          data: Optional[Dict[str, Any]] = None,
+                          params: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+        """
+        Simulate HTTP request and return mocked response.
+        
+        Args:
+            method: HTTP method (GET, POST, etc.)
+            path: Request path
+            data: Request body data
+            params: Query parameters
+            
+        Returns:
+            Mocked response data
+        """
+        request_info = {
+            "method": method.upper(),
+            "path": path,
+            "data": data,
+            "params": params
+        }
+        
+        # Find matching interaction
+        for interaction in self.interactions:
+            if self._request_matches(request_info, interaction.request):
+                # Check call limits
+                if interaction.max_calls and interaction.call_count >= interaction.max_calls:
+                    raise MockException(f"Mock interaction exceeded max calls ({interaction.max_calls})")
+                
+                interaction.call_count += 1
+                
+                # Simulate delay if specified
+                if interaction.delay_ms > 0:
+                    await asyncio.sleep(interaction.delay_ms / 1000.0)
+                
+                self.logger.debug(f"Mock response for {method} {path}: {interaction.response}")
+                return interaction.response
+        
+        # No matching interaction, use default or raise error
+        if self.config.default_response:
+            self.logger.warning(f"No mock interaction found for {method} {path}, using default response")
+            return self.config.default_response
+        
+        raise MockException(f"No mock interaction configured for {method} {path}")
+    
+    def _request_matches(self, request: Dict[str, Any], pattern: Dict[str, Any]) -> bool:
+        """Check if request matches the interaction pattern"""
+        # Match method
+        if pattern.get("method") and request.get("method") != pattern.get("method"):
+            return False
+        
+        # Match path (exact or pattern matching)
+        if pattern.get("path") and request.get("path") != pattern.get("path"):
+            return False
+        
+        # Match data if specified in pattern
+        if pattern.get("data"):
+            if not self._data_matches(request.get("data"), pattern.get("data")):
+                return False
+        
+        return True
+    
+    def _data_matches(self, actual: Any, expected: Any) -> bool:
+        """Check if actual data matches expected pattern"""
+        if expected is None:
+            return True
+        
+        if isinstance(expected, dict) and isinstance(actual, dict):
+            for key, value in expected.items():
+                if key not in actual or not self._data_matches(actual[key], value):
+                    return False
+            return True
+        
+        return actual == expected
+
+
+class MockDatabaseService:
+    """Mock database service for Level 2 validation"""
+    
+    def __init__(self, config: MockServiceConfig):
+        self.config = config
+        self.interactions = config.interactions or []
+        self.logger = logging.getLogger(f"MockDB.{config.service_name}")
+        self._reset_call_counts()
+    
+    def _reset_call_counts(self):
+        """Reset call counts for all interactions"""
+        for interaction in self.interactions:
+            interaction.call_count = 0
+    
+    async def execute_query(self, query: str, params: Optional[List[Any]] = None) -> Dict[str, Any]:
+        """
+        Simulate database query execution.
+        
+        Args:
+            query: SQL query string
+            params: Query parameters
+            
+        Returns:
+            Mocked query result
+        """
+        request_info = {
+            "query": query.strip(),
+            "params": params or []
+        }
+        
+        # Find matching interaction
+        for interaction in self.interactions:
+            if self._query_matches(request_info, interaction.request):
+                # Check call limits
+                if interaction.max_calls and interaction.call_count >= interaction.max_calls:
+                    raise MockException(f"Mock query exceeded max calls ({interaction.max_calls})")
+                
+                interaction.call_count += 1
+                
+                # Simulate delay if specified
+                if interaction.delay_ms > 0:
+                    await asyncio.sleep(interaction.delay_ms / 1000.0)
+                
+                self.logger.debug(f"Mock query result for '{query}': {interaction.response}")
+                return interaction.response
+        
+        # No matching interaction, use default or raise error
+        if self.config.default_response:
+            self.logger.warning(f"No mock interaction found for query '{query}', using default response")
+            return self.config.default_response
+        
+        raise MockException(f"No mock interaction configured for query: {query}")
+    
+    def _query_matches(self, request: Dict[str, Any], pattern: Dict[str, Any]) -> bool:
+        """Check if query request matches the interaction pattern"""
+        # Normalize query strings for comparison
+        actual_query = " ".join(request.get("query", "").split()).upper()
+        pattern_query = " ".join(pattern.get("query", "").split()).upper()
+        
+        # Simple substring matching for SQL queries
+        return pattern_query in actual_query
+
+
+class MockException(Exception):
+    """Exception raised by mock services"""
+    pass
+
+
+class MockServiceProvider:
+    """
+    Central provider for all mock services in a test environment.
+    
+    This creates the hermetically sealed test environment required by Level 2 validation.
+    """
+    
+    def __init__(self):
+        self.services: Dict[str, Union[MockHTTPService, MockDatabaseService]] = {}
+        self.logger = logging.getLogger("MockServiceProvider")
+    
+    def register_service(self, config: MockServiceConfig):
+        """Register a mock service with the provider"""
+        if config.service_type == "http_api":
+            service = MockHTTPService(config)
+        elif config.service_type == "database":
+            service = MockDatabaseService(config)
+        else:
+            raise ValueError(f"Unsupported mock service type: {config.service_type}")
+        
+        self.services[config.service_name] = service
+        self.logger.info(f"Registered mock service: {config.service_name} ({config.service_type})")
+    
+    def get_service(self, service_name: str) -> Union[MockHTTPService, MockDatabaseService]:
+        """Get a registered mock service"""
+        if service_name not in self.services:
+            raise MockException(f"Mock service not found: {service_name}")
+        return self.services[service_name]
+    
+    async def reset_all_services(self):
+        """Reset all mock services to initial state"""
+        for service in self.services.values():
+            service._reset_call_counts()
+        self.logger.info("Reset all mock services")
+    
+    @asynccontextmanager
+    async def test_environment(self):
+        """
+        Create hermetically sealed test environment context.
+        
+        This ensures Level 2 validation runs in complete isolation.
+        """
+        try:
+            await self.reset_all_services()
+            self.logger.info("Created hermetically sealed test environment")
+            yield self
+        finally:
+            await self.reset_all_services()
+            self.logger.info("Cleaned up test environment")
+
+
+def create_mock_interactions_from_blueprint(mock_dependencies: List[Dict[str, Any]]) -> List[MockServiceConfig]:
+    """
+    Create mock service configurations from blueprint mock_dependencies specification.
+    
+    Args:
+        mock_dependencies: List of mock dependency specifications from blueprint
+        
+    Returns:
+        List of MockServiceConfig objects ready for registration
+    """
+    configs = []
+    
+    for mock_dep in mock_dependencies:
+        service_name = mock_dep.get("service_name", "unknown")
+        service_type = mock_dep.get("type", mock_dep.get("service_type", "http_api"))
+        
+        interactions = []
+        for interaction_spec in mock_dep.get("interactions", []):
+            interaction = MockInteraction(
+                request=interaction_spec.get("request", {}),
+                response=interaction_spec.get("response", {}),
+                delay_ms=interaction_spec.get("delay_ms", 0),
+                max_calls=interaction_spec.get("max_calls")
+            )
+            interactions.append(interaction)
+        
+        config = MockServiceConfig(
+            service_name=service_name,
+            service_type=service_type,
+            base_url=mock_dep.get("base_url"),
+            interactions=interactions,
+            default_response=mock_dep.get("default_response")
+        )
+        
+        configs.append(config)
+    
+    return configs
+
+
+# Example usage for Level 2 validation
+async def example_level2_validation():
+    """
+    Example of how to use mock framework for Level 2 component validation.
+    
+    This demonstrates the hermetically sealed test environment required by V5.0.
+    """
+    # Create mock service provider
+    provider = MockServiceProvider()
+    
+    # Configure mock services from blueprint specification
+    fraud_api_config = MockServiceConfig(
+        service_name="fraud_model_api",
+        service_type="http_api",
+        interactions=[
+            MockInteraction(
+                request={"method": "POST", "path": "/predict"},
+                response={"status": 200, "body": {"fraud_score": 0.85, "confidence": 0.92}}
+            )
+        ]
+    )
+    
+    database_config = MockServiceConfig(
+        service_name="user_reputation_db", 
+        service_type="database",
+        interactions=[
+            MockInteraction(
+                request={"query": "SELECT reputation FROM users WHERE id = ?"},
+                response={"rows": [{"reputation": "good", "account_age": 365}]}
+            )
+        ]
+    )
+    
+    # Register services
+    provider.register_service(fraud_api_config)
+    provider.register_service(database_config)
+    
+    # Use hermetically sealed test environment
+    async with provider.test_environment():
+        # Test component logic with mocked dependencies
+        fraud_api = provider.get_service("fraud_model_api")
+        user_db = provider.get_service("user_reputation_db")
+        
+        # Simulate component making requests to external services
+        fraud_result = await fraud_api.make_request("POST", "/predict", {"transaction": "data"})
+        user_data = await user_db.execute_query("SELECT reputation FROM users WHERE id = ?", ["user_123"])
+        
+        # Validate component behavior
+        assert fraud_result["body"]["fraud_score"] == 0.85
+        assert user_data["rows"][0]["reputation"] == "good"
+        
+        print("✅ Level 2 validation passed - component logic works correctly with mocked dependencies")
+
+
+if __name__ == "__main__":
+    asyncio.run(example_level2_validation())

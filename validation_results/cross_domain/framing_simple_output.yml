@@ -1,0 +1,143 @@
+annotation: This paper reviews how different verbal frames (gain vs. loss) systematically
+  shift risk preferences, violating invariance and supporting Prospect Theory’s account
+  of loss aversion. It catalogues framing sub-types, demonstrates domain variability,
+  and highlights cognitive–emotional mechanisms behind preference reversals.
+citation: Heilman & Miclea, "Framing Effects Theory in Decision Making" (synthesizing
+  Tversky & Kahneman, 1979, 1986; Levin et al., 1998).
+model_type: property_graph
+rationale: Key concepts are discrete entities (frames, alternatives, domains), connected
+  by relationships (preference reversal, loss aversion) and qualified by properties
+  (risk preference, emotional reaction); a property-graph cleanly represents nodes,
+  edges, and attributes.
+schema_blueprint:
+  definitions:
+  - category: entity
+    description: Systematic shift in choice that occurs when equivalent options are
+      described in different verbal frames.
+    name: Framing Effect
+  - category: entity
+    description: Normative rule stating that preferences should remain constant across
+      equivalent descriptions of the same options.
+    name: Principle of Invariance
+  - category: relationship
+    description: Switch in option preference produced by changing the descriptive
+      frame.
+    domain:
+    - Entity
+    name: Preference Reversal
+    range:
+    - Entity
+  - category: entity
+    description: Individual who evaluates alternatives and selects an option under
+      risk or uncertainty.
+    name: Decision Maker
+  - category: entity
+    description: Specific option available for selection in a choice task (e.g., sure
+      or probabilistic program).
+    name: Decisional Alternative
+  - category: entity
+    description: Linguistic formulation (gain or loss) used to describe decisional
+      outcomes.
+    name: Frame
+  - category: property
+    description: Description that highlights positive outcomes such as lives saved
+      or money earned.
+    name: Gain Frame
+  - category: property
+    description: Description that emphasizes negative outcomes such as deaths or money
+      lost.
+    name: Loss Frame
+  - category: property
+    description: General tendency of a decision maker toward seeking or avoiding risk.
+    name: Risk Preference
+  - category: action
+    description: Behavior of favoring alternatives with uncertain but potentially
+      better outcomes.
+    domain:
+    - Entity
+    name: Risk Seeking
+    range:
+    - Entity
+  - category: action
+    description: Behavior of preferring sure outcomes over probabilistic ones with
+      equal expected value.
+    domain:
+    - Entity
+    name: Risk Aversion
+    range:
+    - Entity
+  - category: entity
+    description: Baseline outcome against which gains and losses are psychologically
+      evaluated.
+    name: Reference Point
+  - category: entity
+    description: Descriptive model positing value functions defined over gains and
+      losses and nonlinear probability weighting.
+    name: Prospect Theory
+  - category: property
+    description: Property that losses are psychologically weighted more heavily than
+      equivalent gains.
+    name: Loss Aversion
+  - category: entity
+    description: Canonical experimental scenario illustrating the framing effect with
+      health outcomes for 600 people.
+    name: Asian Disease Problem
+  - category: entity
+    description: Subtype of framing that manipulates wording of risky versus sure
+      alternatives.
+    name: Risky Choice Framing
+  - category: entity
+    description: Subtype in which evaluative language (positive vs. negative) alters
+      judgments of object attributes.
+    name: Attribute Framing
+  - category: entity
+    description: Subtype that changes the emphasis on benefits of acting versus costs
+      of not acting to influence compliance.
+    name: Goal Framing
+  - category: property
+    description: Normative benchmark assuming unlimited cognitive resources and invariant
+      preferences.
+    name: Economic Rationality
+  - category: property
+    description: Cognitive capacity required to analyze all options in accordance
+      with rational choice theory.
+    name: Computational Resources
+  - category: entity
+    description: Context area (e.g., health, finance, nature) within which choices
+      are framed.
+    name: Decisional Domain
+  - category: property
+    description: Affective response elicited by a decision scenario that can modulate
+      framing sensitivity.
+    name: Emotional Reaction
+  - category: action
+    description: Cognitive process of judging potential results as gains or losses
+      relative to a reference point.
+    domain:
+    - Entity
+    name: Outcome Evaluation
+    range:
+    - Entity
+  - category: entity
+    description: Option that yields a fixed, guaranteed outcome.
+    name: Sure Alternative
+  - category: entity
+    description: Option that yields different outcomes with specified probabilities.
+    name: Probabilistic Alternative
+  - category: relationship
+    description: Failure to maintain stable preferences across equivalent descriptions,
+      evidencing irrational choice.
+    domain:
+    - Entity
+    name: Invariance Violation
+    range:
+    - Entity
+  description: Schema generated from paper analysis
+  root_properties:
+    edges:
+      description: Relationships and actions
+      item_type: NaryTuple
+    nodes:
+      description: Entities and concepts
+      item_type: Entity
+  title: Simplified Schema

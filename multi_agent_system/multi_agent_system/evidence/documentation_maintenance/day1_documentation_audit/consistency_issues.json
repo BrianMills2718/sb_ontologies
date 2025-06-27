@@ -1,0 +1,72 @@
+[
+  {
+    "issue_type": "PHASE_STATUS_CONFLICT",
+    "severity": "HIGH",
+    "description": "Phase 5 has conflicting statuses: ['COMPLETE', 'IN_PROGRESS']",
+    "affected_files": [
+      "docs/current_phase_status.md",
+      "docs/repository_structure_analysis.md"
+    ],
+    "suggested_fix": "Standardize Phase 5 status across all files to the most recent/accurate status"
+  },
+  {
+    "issue_type": "PHASE_STATUS_CONFLICT",
+    "severity": "HIGH",
+    "description": "Phase 6 has conflicting statuses: ['COMPLETE', 'IN_PROGRESS']",
+    "affected_files": [
+      "docs/current_phase_status.md",
+      "docs/repository_structure_analysis.md"
+    ],
+    "suggested_fix": "Standardize Phase 6 status across all files to the most recent/accurate status"
+  },
+  {
+    "issue_type": "MISSING_EVIDENCE_LOCATION",
+    "severity": "MEDIUM",
+    "description": "Evidence location '`' referenced but does not exist",
+    "affected_files": [
+      "docs/current_phase_status.md"
+    ],
+    "suggested_fix": "Create evidence directory at /home/brian/autocoder3_cc/evidence/` or update references"
+  },
+  {
+    "issue_type": "MISSING_EVIDENCE_LOCATION",
+    "severity": "MEDIUM",
+    "description": "Evidence location 'evidence/phase5_database_integration_mainline/' referenced but does not exist",
+    "affected_files": [
+      "docs/current_phase_status.md"
+    ],
+    "suggested_fix": "Create evidence directory at /home/brian/autocoder3_cc/evidence/evidence/phase5_database_integration_mainline/ or update references"
+  },
+  {
+    "issue_type": "MISSING_EVIDENCE_LOCATION",
+    "severity": "MEDIUM",
+    "description": "Evidence location '`)**' referenced but does not exist",
+    "affected_files": [
+      "docs/repository_structure_analysis.md"
+    ],
+    "suggested_fix": "Create evidence directory at /home/brian/autocoder3_cc/evidence/`)** or update references"
+  },
+  {
+    "issue_type": "MISSING_EVIDENCE_LOCATION",
+    "severity": "MEDIUM",
+    "description": "Evidence location 'phaseN_*' referenced but does not exist",
+    "affected_files": [
+      "docs/repository_structure_analysis.md",
+      "docs/repository_structure_analysis.md"
+    ],
+    "suggested_fix": "Create evidence directory at /home/brian/autocoder3_cc/evidence/phaseN_* or update references"
+  },
+  {
+    "issue_type": "MIXED_VERSION_REFERENCES",
+    "severity": "MEDIUM",
+    "description": "Multiple versions referenced: ['V5.0', 'V4.3', 'V3.4', 'V1.0', 'V5.1']",
+    "affected_files": [
+      "docs/repository_structure_analysis.md",
+      "README.md",
+      "docs/V5_architecture_spec.md",
+      "CLAUDE.md",
+      "docs/current_phase_status.md"
+    ],
+    "suggested_fix": "Standardize on a single version number across all documentation"
+  }
+]

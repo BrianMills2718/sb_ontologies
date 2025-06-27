@@ -1,0 +1,217 @@
+{
+  "citation": "Carter, Jimmy. 1977. \u201cPresidential Speech on Soviet Relations.\u201d Washington, D.C., March 1977.",
+  "annotation": "President Carter\u2019s brief address frames U.S.\u2013Soviet relations in terms of democratic deliberation and strategic arms control.  Conceptually, the speech shifts national\u2010security discourse from bipolar military antagonism toward cooperative arms-limitation, while stressing the domestic legitimacy that comes from public and congressional debate.  Although short, the text introduces a compact vocabulary of Cold-War strategy, democratic oversight, and balance-of-power reasoning.",
+  "theory_type": "Political / International-Relations (strategic & organizational decision-making)",
+  "vocabulary": [
+    {
+      "term": "national security",
+      "definition": "The overall safety and defense of the United States, framed primarily in relation to the Soviet Union.",
+      "source_context": "\u201cOur national security was often defined\u2026 in terms of military competition with the Soviet Union.\u201d",
+      "page_reference": null,
+      "theoretical_category": "core-construct"
+    },
+    {
+      "term": "foreign policy",
+      "definition": "The strategic course of action the United States pursues toward other nations, historically centered on U.S.\u2013Soviet relations.",
+      "source_context": "\u201cFor decades, our foreign policy revolved around antagonism between two coalitions\u2026\u201d",
+      "page_reference": null,
+      "theoretical_category": "core-construct"
+    },
+    {
+      "term": "antagonism",
+      "definition": "A hostile or oppositional relationship between rival coalitions.",
+      "source_context": "\u201c\u2026revolved around antagonism between two coalitions\u2026\u201d",
+      "page_reference": null,
+      "theoretical_category": "relationship"
+    },
+    {
+      "term": "coalition",
+      "definition": "A bloc of states aligned under a leading power (U.S. or Soviet Union).",
+      "source_context": "\u201c\u2026between two coalitions, one headed by the United States and the other headed by the Soviet Union.\u201d",
+      "page_reference": null,
+      "theoretical_category": "actor-collective"
+    },
+    {
+      "term": "military competition",
+      "definition": "Rival accumulation and deployment of armed forces and weapons systems.",
+      "source_context": "\u201c\u2026defined almost exclusively in terms of military competition with the Soviet Union.\u201d",
+      "page_reference": null,
+      "theoretical_category": "relationship"
+    },
+    {
+      "term": "Strategic Arms Limitation Talks (SALT)",
+      "definition": "Bilateral negotiations aimed at capping and reducing U.S. and Soviet strategic weapons.",
+      "source_context": "\u201cIn the talks on strategic arms limitations, the SALT talks\u2026\u201d",
+      "page_reference": null,
+      "theoretical_category": "institution/process"
+    },
+    {
+      "term": "strategic arms limitation",
+      "definition": "The act of placing ceilings on long-range nuclear weapons and delivery systems.",
+      "source_context": "\u201c\u2026strategic arms limitations\u2026\u201d",
+      "page_reference": null,
+      "theoretical_category": "policy-objective"
+    },
+    {
+      "term": "comprehensive proposal",
+      "definition": "A wide-ranging plan covering multiple elements of arms control.",
+      "source_context": "\u201c\u2026we advanced a comprehensive proposal for genuine reductions\u2026\u201d",
+      "page_reference": null,
+      "theoretical_category": "strategy-type"
+    },
+    {
+      "term": "genuine reductions",
+      "definition": "Authentic, verifiable decreases in the number or capability of strategic weapons.",
+      "source_context": "\u201c\u2026a comprehensive proposal for genuine reductions and limitations\u2026\u201d",
+      "page_reference": null,
+      "theoretical_category": "outcome-measure"
+    },
+    {
+      "term": "balanced strategic strength",
+      "definition": "A parity of military capability that neither advantages nor disadvantages either superpower.",
+      "source_context": "\u201c\u2026that would maintain balanced strategic strength.\u201d",
+      "page_reference": null,
+      "theoretical_category": "condition"
+    },
+    {
+      "term": "decision-making",
+      "definition": "The presidential process of selecting courses of action on complex issues.",
+      "source_context": "\u201cI feel more secure as President making decisions if I know\u2026\u201d",
+      "page_reference": null,
+      "theoretical_category": "process"
+    },
+    {
+      "term": "public debate",
+      "definition": "Open discussion among citizens and institutions regarding policy choices.",
+      "source_context": "\u201c\u2026have been understood and debated by Congress and the American people.\u201d",
+      "page_reference": null,
+      "theoretical_category": "process"
+    },
+    {
+      "term": "democratic accountability",
+      "definition": "The requirement that elected officials justify and expose decisions to legislative and popular scrutiny.",
+      "source_context": "Implicit in the President\u2019s wish that Congress and the American people debate security issues.",
+      "page_reference": null,
+      "theoretical_category": "norm/principle"
+    },
+    {
+      "term": "complex questions",
+      "definition": "Multifaceted policy issues requiring deliberation and expertise.",
+      "source_context": "\u201c\u2026the most difficult, complex questions that face me\u2026\u201d",
+      "page_reference": null,
+      "theoretical_category": "problem-attribute"
+    },
+    {
+      "term": "Congress",
+      "definition": "The U.S. legislative branch as a deliberative actor in foreign-policy oversight.",
+      "source_context": "\u201c\u2026debated by Congress and the American people.\u201d",
+      "page_reference": null,
+      "theoretical_category": "institution"
+    },
+    {
+      "term": "American people",
+      "definition": "The domestic public constituency whose understanding legitimates foreign policy.",
+      "source_context": "\u201c\u2026debated by Congress and the American people.\u201d",
+      "page_reference": null,
+      "theoretical_category": "actor-collective"
+    },
+    {
+      "term": "understanding",
+      "definition": "Cognitive grasp of the issues by stakeholders prior to decision implementation.",
+      "source_context": "\u201c\u2026have been understood and debated\u2026\u201d",
+      "page_reference": null,
+      "theoretical_category": "cognitive-state"
+    },
+    {
+      "term": "bipolar international system",
+      "definition": "A world order dominated by two superpower blocs (U.S. and USSR).",
+      "source_context": "Implied by reference to \u201ctwo coalitions\u2026 headed by the United States\u2026 [and] Soviet Union.\u201d",
+      "page_reference": null,
+      "theoretical_category": "structural-context"
+    },
+    {
+      "term": "strategic rivalry",
+      "definition": "Competition for military and political advantage between great powers.",
+      "source_context": "\u201c\u2026military competition with the Soviet Union.\u201d",
+      "page_reference": null,
+      "theoretical_category": "relationship"
+    },
+    {
+      "term": "arms control",
+      "definition": "Negotiated limitations on the development, deployment or use of weapons.",
+      "source_context": "Entire discussion of SALT talks and proposals for reductions.",
+      "page_reference": null,
+      "theoretical_category": "policy-domain"
+    },
+    {
+      "term": "arms reduction",
+      "definition": "The quantitative decrease of existing weapons systems.",
+      "source_context": "\u201c\u2026genuine reductions and limitations\u2026\u201d",
+      "page_reference": null,
+      "theoretical_category": "policy-objective"
+    },
+    {
+      "term": "balance of power",
+      "definition": "Equilibrium of capabilities that prevents dominance by any single actor.",
+      "source_context": "\u201c\u2026maintain balanced strategic strength.\u201d",
+      "page_reference": null,
+      "theoretical_category": "principle"
+    },
+    {
+      "term": "strategic strength",
+      "definition": "Aggregate capability of strategic (usually nuclear) forces.",
+      "source_context": "\u201c\u2026balanced strategic strength.\u201d",
+      "page_reference": null,
+      "theoretical_category": "measure"
+    },
+    {
+      "term": "collective deliberation",
+      "definition": "Joint assessment and discussion by multiple stakeholders before action.",
+      "source_context": "\u201c\u2026debated by Congress and the American people.\u201d",
+      "page_reference": null,
+      "theoretical_category": "process"
+    },
+    {
+      "term": "legitimacy",
+      "definition": "Perceived appropriateness and acceptance of governmental decisions.",
+      "source_context": "Implied rationale for seeking public and congressional debate.",
+      "page_reference": null,
+      "theoretical_category": "outcome-attribute"
+    },
+    {
+      "term": "participatory governance",
+      "definition": "Decision processes that actively involve citizens and representatives.",
+      "source_context": "President\u2019s emphasis on debate beyond the executive branch.",
+      "page_reference": null,
+      "theoretical_category": "governance-model"
+    },
+    {
+      "term": "deterrence",
+      "definition": "The prevention of hostile action by fear of retaliatory capability; underlies strategic strength.",
+      "source_context": "Implicit in references to balanced strategic strength and arms limitation.",
+      "page_reference": null,
+      "theoretical_category": "security-mechanism"
+    },
+    {
+      "term": "zero-sum competition",
+      "definition": "A rivalry in which one side\u2019s gain is perceived as the other\u2019s loss.",
+      "source_context": "\u201c\u2026national security\u2026 defined\u2026 in terms of military competition\u2026\u201d",
+      "page_reference": null,
+      "theoretical_category": "game-logic"
+    },
+    {
+      "term": "policy transparency",
+      "definition": "Open disclosure of strategic intentions and proposals.",
+      "source_context": "The President\u2019s willingness to advance and publicize a comprehensive proposal.",
+      "page_reference": null,
+      "theoretical_category": "norm/principle"
+    },
+    {
+      "term": "strategic stability",
+      "definition": "A condition in which neither superpower has incentive to launch a first strike, fostered by balanced forces and arms limits.",
+      "source_context": "Goal implied by \u201cbalanced strategic strength\u201d and limitation talks.",
+      "page_reference": null,
+      "theoretical_category": "outcome-state"
+    }
+  ]
+}

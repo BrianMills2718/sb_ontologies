@@ -1,0 +1,195 @@
+{
+  "session_summary": {
+    "total_duration": 40.37512016296387,
+    "total_steps": 7,
+    "completed_steps": 6,
+    "failed_steps": 0,
+    "total_files_generated": 18,
+    "end_time": "2025-06-24T01:21:33.283474"
+  },
+  "all_steps": [
+    {
+      "step_id": "pre_validation",
+      "step_name": "Pre-Generation Validation",
+      "start_time": 1750753252.957302,
+      "end_time": 1750753252.957557,
+      "status": "completed",
+      "details": {},
+      "sub_steps": [],
+      "generated_files": [],
+      "error_message": null,
+      "duration": 0.0002548694610595703
+    },
+    {
+      "step_id": "scaffold_generation",
+      "step_name": "Generate System Scaffold",
+      "start_time": 1750753252.957645,
+      "end_time": 1750753252.961166,
+      "status": "completed",
+      "details": {},
+      "sub_steps": [],
+      "generated_files": [
+        "main.py",
+        "config/system_config.yaml",
+        "requirements.txt",
+        "Dockerfile"
+      ],
+      "error_message": null,
+      "duration": 0.003520965576171875
+    },
+    {
+      "step_id": "component_generation",
+      "step_name": "Generate Component Implementations",
+      "start_time": 1750753252.9612544,
+      "end_time": 1750753252.9655583,
+      "status": "completed",
+      "details": {},
+      "sub_steps": [],
+      "generated_files": [],
+      "error_message": null,
+      "duration": 0.004303932189941406
+    },
+    {
+      "step_id": "test_generation",
+      "step_name": "Generate Component Tests",
+      "start_time": 1750753252.965645,
+      "end_time": 1750753293.2700999,
+      "status": "completed",
+      "details": {},
+      "sub_steps": [],
+      "generated_files": [
+        "tests/test_test_api.py",
+        "tests/test_test_store.py"
+      ],
+      "error_message": null,
+      "duration": 40.3044548034668
+    },
+    {
+      "step_id": "deployment_generation",
+      "step_name": "Generate Production Deployment",
+      "start_time": 1750753293.2702453,
+      "end_time": 1750753293.2796824,
+      "status": "completed",
+      "details": {},
+      "sub_steps": [],
+      "generated_files": [
+        "k8s/namespace.yaml",
+        "k8s/configmap.yaml",
+        "k8s/secrets.yaml",
+        "k8s/deployment.yaml",
+        "k8s/service.yaml",
+        "k8s/ingress.yaml",
+        "k8s/postgres.yaml",
+        "k8s/servicemonitor.yaml",
+        "docker-compose.yml",
+        "helm/Chart.yaml",
+        "helm/values.yaml",
+        "helm/templates/deployment.yaml"
+      ],
+      "error_message": null,
+      "duration": 0.009437084197998047
+    },
+    {
+      "step_id": "system_assembly",
+      "step_name": "Assemble Final System",
+      "start_time": 1750753293.2797685,
+      "end_time": 1750753293.2825882,
+      "status": "completed",
+      "details": {},
+      "sub_steps": [],
+      "generated_files": [],
+      "error_message": null,
+      "duration": 0.0028197765350341797
+    },
+    {
+      "step_id": "system_generation",
+      "step_name": "Generate System: phase8_test_api",
+      "start_time": 1750753252.956837,
+      "end_time": 1750753293.2832284,
+      "status": "incomplete",
+      "details": {
+        "system_name": "phase8_test_api",
+        "component_count": 2,
+        "binding_count": 1
+      },
+      "sub_steps": [],
+      "generated_files": [],
+      "error_message": null,
+      "duration": 40.32639145851135
+    }
+  ],
+  "all_files": {
+    "main.py": {
+      "size": 9715,
+      "lines": 268
+    },
+    "config/system_config.yaml": {
+      "size": 446,
+      "lines": 21
+    },
+    "requirements.txt": {
+      "size": 202,
+      "lines": 10
+    },
+    "Dockerfile": {
+      "size": 922,
+      "lines": 35
+    },
+    "tests/test_test_api.py": {
+      "size": 4985,
+      "lines": 106
+    },
+    "tests/test_test_store.py": {
+      "size": 5846,
+      "lines": 124
+    },
+    "k8s/namespace.yaml": {
+      "size": 153,
+      "lines": 8
+    },
+    "k8s/configmap.yaml": {
+      "size": 509,
+      "lines": 19
+    },
+    "k8s/secrets.yaml": {
+      "size": 866,
+      "lines": 20
+    },
+    "k8s/deployment.yaml": {
+      "size": 1831,
+      "lines": 75
+    },
+    "k8s/service.yaml": {
+      "size": 367,
+      "lines": 21
+    },
+    "k8s/ingress.yaml": {
+      "size": 724,
+      "lines": 29
+    },
+    "k8s/postgres.yaml": {
+      "size": 1478,
+      "lines": 74
+    },
+    "k8s/servicemonitor.yaml": {
+      "size": 320,
+      "lines": 16
+    },
+    "docker-compose.yml": {
+      "size": 2376,
+      "lines": 86
+    },
+    "helm/Chart.yaml": {
+      "size": 362,
+      "lines": 15
+    },
+    "helm/values.yaml": {
+      "size": 1431,
+      "lines": 77
+    },
+    "helm/templates/deployment.yaml": {
+      "size": 1369,
+      "lines": 46
+    }
+  }
+}

@@ -1,0 +1,1583 @@
+{
+  "demonstration_results": {
+    "classification_results": {
+      "descriptive_example": {
+        "primary_purpose": "descriptive",
+        "secondary_purposes": [],
+        "purpose_confidence": {
+          "descriptive": 0.40344827586206894,
+          "explanatory": 0.0,
+          "predictive": 0.0,
+          "causal": 0.0,
+          "intervention": 0.0
+        },
+        "balanced_analysis": {
+          "balance_check": "passed",
+          "causal_overemphasis_detected": false,
+          "score_distribution": {
+            "descriptive": 0.40344827586206894,
+            "explanatory": 0.0,
+            "predictive": 0.0,
+            "causal": 0.0,
+            "intervention": 0.0
+          },
+          "balance_metrics": {
+            "score_range": 0.40344827586206894,
+            "mean_score": 0.08068965517241379,
+            "max_score": 0.40344827586206894,
+            "min_score": 0.0,
+            "coefficient_of_variation": 2.0
+          },
+          "equal_sophistication_applied": true,
+          "sophistication_evidence": {
+            "descriptive": "taxonomic_structures, classification_systems, typological_frameworks, dimensional_analyses",
+            "explanatory": "mechanisms, processes, structural_relationships, functional_explanations",
+            "predictive": "forecasting_frameworks, variable_specifications, probabilistic_models, outcome_predictions",
+            "causal": "causal_relationships, intervention_points, causal_mechanisms, treatment_effects",
+            "intervention": "action_specifications, implementation_strategies, policy_recommendations, practical_applications"
+          }
+        },
+        "detailed_analyses": {
+          "descriptive": {
+            "taxonomic_structures": [
+              "taxonomy of organizational"
+            ],
+            "classification_systems": [
+              "systematic classification"
+            ],
+            "typological_frameworks": [],
+            "dimensional_analyses": [
+              "dimensional analysis"
+            ],
+            "pattern_score": 0.1724137931034483,
+            "sophistication_level": "high",
+            "evidence_count": 3
+          },
+          "explanatory": {
+            "mechanisms": [],
+            "processes": [],
+            "structural_relationships": [],
+            "functional_explanations": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "predictive": {
+            "forecasting_frameworks": [],
+            "variable_specifications": [],
+            "probabilistic_models": [],
+            "outcome_predictions": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "causal": {
+            "causal_relationships": [],
+            "intervention_points": [],
+            "causal_mechanisms": [],
+            "treatment_effects": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "intervention": {
+            "action_specifications": [],
+            "implementation_strategies": [],
+            "policy_recommendations": [],
+            "practical_applications": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          }
+        }
+      },
+      "explanatory_example": {
+        "primary_purpose": "explanatory",
+        "secondary_purposes": [],
+        "purpose_confidence": {
+          "descriptive": 0.0,
+          "explanatory": 0.3857142857142857,
+          "predictive": 0.0,
+          "causal": 0.0,
+          "intervention": 0.02
+        },
+        "balanced_analysis": {
+          "balance_check": "passed",
+          "causal_overemphasis_detected": false,
+          "score_distribution": {
+            "descriptive": 0.0,
+            "explanatory": 0.3857142857142857,
+            "predictive": 0.0,
+            "causal": 0.0,
+            "intervention": 0.02
+          },
+          "balance_metrics": {
+            "score_range": 0.3857142857142857,
+            "mean_score": 0.08114285714285714,
+            "max_score": 0.3857142857142857,
+            "min_score": 0.0,
+            "coefficient_of_variation": 1.8791867888803602
+          },
+          "equal_sophistication_applied": true,
+          "sophistication_evidence": {
+            "descriptive": "taxonomic_structures, classification_systems, typological_frameworks, dimensional_analyses",
+            "explanatory": "mechanisms, processes, structural_relationships, functional_explanations",
+            "predictive": "forecasting_frameworks, variable_specifications, probabilistic_models, outcome_predictions",
+            "causal": "causal_relationships, intervention_points, causal_mechanisms, treatment_effects",
+            "intervention": "action_specifications, implementation_strategies, policy_recommendations, practical_applications"
+          }
+        },
+        "detailed_analyses": {
+          "descriptive": {
+            "taxonomic_structures": [],
+            "classification_systems": [],
+            "typological_frameworks": [],
+            "dimensional_analyses": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "explanatory": {
+            "mechanisms": [
+              "mechanisms within",
+              "mechanisms reduce"
+            ],
+            "processes": [],
+            "structural_relationships": [
+              "structural relationship"
+            ],
+            "functional_explanations": [],
+            "pattern_score": 0.14285714285714285,
+            "sophistication_level": "high",
+            "evidence_count": 3
+          },
+          "predictive": {
+            "forecasting_frameworks": [],
+            "variable_specifications": [],
+            "probabilistic_models": [],
+            "outcome_predictions": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "causal": {
+            "causal_relationships": [],
+            "intervention_points": [],
+            "causal_mechanisms": [],
+            "treatment_effects": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "intervention": {
+            "action_specifications": [],
+            "implementation_strategies": [],
+            "policy_recommendations": [],
+            "practical_applications": [],
+            "pattern_score": 0.03333333333333333,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          }
+        }
+      },
+      "predictive_example": {
+        "primary_purpose": "predictive",
+        "secondary_purposes": [],
+        "purpose_confidence": {
+          "descriptive": 0.0,
+          "explanatory": 0.0,
+          "predictive": 0.54,
+          "causal": 0.0,
+          "intervention": 0.0
+        },
+        "balanced_analysis": {
+          "balance_check": "passed",
+          "causal_overemphasis_detected": false,
+          "score_distribution": {
+            "descriptive": 0.0,
+            "explanatory": 0.0,
+            "predictive": 0.54,
+            "causal": 0.0,
+            "intervention": 0.0
+          },
+          "balance_metrics": {
+            "score_range": 0.54,
+            "mean_score": 0.10800000000000001,
+            "max_score": 0.54,
+            "min_score": 0.0,
+            "coefficient_of_variation": 2.0
+          },
+          "equal_sophistication_applied": true,
+          "sophistication_evidence": {
+            "descriptive": "taxonomic_structures, classification_systems, typological_frameworks, dimensional_analyses",
+            "explanatory": "mechanisms, processes, structural_relationships, functional_explanations",
+            "predictive": "forecasting_frameworks, variable_specifications, probabilistic_models, outcome_predictions",
+            "causal": "causal_relationships, intervention_points, causal_mechanisms, treatment_effects",
+            "intervention": "action_specifications, implementation_strategies, policy_recommendations, practical_applications"
+          }
+        },
+        "detailed_analyses": {
+          "descriptive": {
+            "taxonomic_structures": [],
+            "classification_systems": [],
+            "typological_frameworks": [],
+            "dimensional_analyses": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "explanatory": {
+            "mechanisms": [],
+            "processes": [],
+            "structural_relationships": [],
+            "functional_explanations": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "predictive": {
+            "forecasting_frameworks": [
+              "predictive framework"
+            ],
+            "variable_specifications": [
+              "variables including",
+              "predictor variable"
+            ],
+            "probabilistic_models": [
+              "statistical model",
+              "probability of voting"
+            ],
+            "outcome_predictions": [
+              "predicts voter"
+            ],
+            "pattern_score": 0.23333333333333334,
+            "sophistication_level": "high",
+            "evidence_count": 6
+          },
+          "causal": {
+            "causal_relationships": [],
+            "intervention_points": [],
+            "causal_mechanisms": [],
+            "treatment_effects": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "intervention": {
+            "action_specifications": [],
+            "implementation_strategies": [],
+            "policy_recommendations": [],
+            "practical_applications": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          }
+        }
+      },
+      "causal_example": {
+        "primary_purpose": "causal",
+        "secondary_purposes": [],
+        "purpose_confidence": {
+          "descriptive": 0.0,
+          "explanatory": 0.24285714285714285,
+          "predictive": 0.0,
+          "causal": 0.4827586206896552,
+          "intervention": 0.02
+        },
+        "balanced_analysis": {
+          "balance_check": "failed",
+          "causal_overemphasis_detected": true,
+          "score_distribution": {
+            "descriptive": 0.0,
+            "explanatory": 0.24285714285714285,
+            "predictive": 0.0,
+            "causal": 0.4827586206896552,
+            "intervention": 0.02
+          },
+          "balance_metrics": {
+            "score_range": 0.4827586206896552,
+            "mean_score": 0.1491231527093596,
+            "max_score": 0.4827586206896552,
+            "min_score": 0.0,
+            "coefficient_of_variation": 1.2767480987903415
+          },
+          "causal_bias_ratio": 7.34632683658171,
+          "equal_sophistication_applied": true,
+          "sophistication_evidence": {
+            "descriptive": "taxonomic_structures, classification_systems, typological_frameworks, dimensional_analyses",
+            "explanatory": "mechanisms, processes, structural_relationships, functional_explanations",
+            "predictive": "forecasting_frameworks, variable_specifications, probabilistic_models, outcome_predictions",
+            "causal": "causal_relationships, intervention_points, causal_mechanisms, treatment_effects",
+            "intervention": "action_specifications, implementation_strategies, policy_recommendations, practical_applications"
+          }
+        },
+        "detailed_analyses": {
+          "descriptive": {
+            "taxonomic_structures": [],
+            "classification_systems": [],
+            "typological_frameworks": [],
+            "dimensional_analyses": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "explanatory": {
+            "mechanisms": [
+              "mechanism operates",
+              "causal mechanism"
+            ],
+            "processes": [],
+            "structural_relationships": [],
+            "functional_explanations": [],
+            "pattern_score": 0.07142857142857142,
+            "sophistication_level": "high",
+            "evidence_count": 2
+          },
+          "predictive": {
+            "forecasting_frameworks": [],
+            "variable_specifications": [],
+            "probabilistic_models": [],
+            "outcome_predictions": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "causal": {
+            "causal_relationships": [
+              "cause measurable",
+              "leads to productivity"
+            ],
+            "intervention_points": [],
+            "causal_mechanisms": [
+              "causal mechanism",
+              "causal pathway",
+              "causal process"
+            ],
+            "treatment_effects": [
+              "treatment effect"
+            ],
+            "pattern_score": 0.13793103448275862,
+            "sophistication_level": "high",
+            "evidence_count": 6
+          },
+          "intervention": {
+            "action_specifications": [],
+            "implementation_strategies": [],
+            "policy_recommendations": [],
+            "practical_applications": [],
+            "pattern_score": 0.03333333333333333,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          }
+        }
+      },
+      "intervention_example": {
+        "primary_purpose": "intervention",
+        "secondary_purposes": [],
+        "purpose_confidence": {
+          "descriptive": 0.0,
+          "explanatory": 0.0,
+          "predictive": 0.0,
+          "causal": 0.0,
+          "intervention": 0.64
+        },
+        "balanced_analysis": {
+          "balance_check": "passed",
+          "causal_overemphasis_detected": false,
+          "score_distribution": {
+            "descriptive": 0.0,
+            "explanatory": 0.0,
+            "predictive": 0.0,
+            "causal": 0.0,
+            "intervention": 0.64
+          },
+          "balance_metrics": {
+            "score_range": 0.64,
+            "mean_score": 0.128,
+            "max_score": 0.64,
+            "min_score": 0.0,
+            "coefficient_of_variation": 2.0
+          },
+          "equal_sophistication_applied": true,
+          "sophistication_evidence": {
+            "descriptive": "taxonomic_structures, classification_systems, typological_frameworks, dimensional_analyses",
+            "explanatory": "mechanisms, processes, structural_relationships, functional_explanations",
+            "predictive": "forecasting_frameworks, variable_specifications, probabilistic_models, outcome_predictions",
+            "causal": "causal_relationships, intervention_points, causal_mechanisms, treatment_effects",
+            "intervention": "action_specifications, implementation_strategies, policy_recommendations, practical_applications"
+          }
+        },
+        "detailed_analyses": {
+          "descriptive": {
+            "taxonomic_structures": [],
+            "classification_systems": [],
+            "typological_frameworks": [],
+            "dimensional_analyses": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "explanatory": {
+            "mechanisms": [],
+            "processes": [],
+            "structural_relationships": [],
+            "functional_explanations": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "predictive": {
+            "forecasting_frameworks": [],
+            "variable_specifications": [],
+            "probabilistic_models": [],
+            "outcome_predictions": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "causal": {
+            "causal_relationships": [],
+            "intervention_points": [],
+            "causal_mechanisms": [],
+            "treatment_effects": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "intervention": {
+            "action_specifications": [
+              "action plan",
+              "specific action",
+              "actionable framework"
+            ],
+            "implementation_strategies": [
+              "implementation strategy"
+            ],
+            "policy_recommendations": [
+              "policy recommendation"
+            ],
+            "practical_applications": [
+              "practical application"
+            ],
+            "pattern_score": 0.4,
+            "sophistication_level": "high",
+            "evidence_count": 6
+          }
+        }
+      }
+    },
+    "balance_results": {
+      "primary_purpose": "explanatory",
+      "secondary_purposes": [],
+      "purpose_confidence": {
+        "descriptive": 0.041379310344827586,
+        "explanatory": 0.22142857142857145,
+        "predictive": 0.2,
+        "causal": 0.1206896551724138,
+        "intervention": 0.02
+      },
+      "balanced_analysis": {
+        "balance_check": "passed",
+        "causal_overemphasis_detected": false,
+        "score_distribution": {
+          "descriptive": 0.041379310344827586,
+          "explanatory": 0.22142857142857145,
+          "predictive": 0.2,
+          "causal": 0.1206896551724138,
+          "intervention": 0.02
+        },
+        "balance_metrics": {
+          "score_range": 0.20142857142857146,
+          "mean_score": 0.12069950738916257,
+          "max_score": 0.22142857142857145,
+          "min_score": 0.02,
+          "coefficient_of_variation": 0.6717219079887361
+        },
+        "equal_sophistication_applied": true,
+        "sophistication_evidence": {
+          "descriptive": "taxonomic_structures, classification_systems, typological_frameworks, dimensional_analyses",
+          "explanatory": "mechanisms, processes, structural_relationships, functional_explanations",
+          "predictive": "forecasting_frameworks, variable_specifications, probabilistic_models, outcome_predictions",
+          "causal": "causal_relationships, intervention_points, causal_mechanisms, treatment_effects",
+          "intervention": "action_specifications, implementation_strategies, policy_recommendations, practical_applications"
+        }
+      },
+      "detailed_analyses": {
+        "descriptive": {
+          "taxonomic_structures": [],
+          "classification_systems": [],
+          "typological_frameworks": [],
+          "dimensional_analyses": [],
+          "pattern_score": 0.06896551724137931,
+          "sophistication_level": "high",
+          "evidence_count": 0
+        },
+        "explanatory": {
+          "mechanisms": [
+            "mechanisms show"
+          ],
+          "processes": [
+            "systematic process"
+          ],
+          "structural_relationships": [],
+          "functional_explanations": [],
+          "pattern_score": 0.03571428571428571,
+          "sophistication_level": "high",
+          "evidence_count": 2
+        },
+        "predictive": {
+          "forecasting_frameworks": [],
+          "variable_specifications": [
+            "variables while"
+          ],
+          "probabilistic_models": [],
+          "outcome_predictions": [
+            "predicts achievement"
+          ],
+          "pattern_score": 0.0,
+          "sophistication_level": "high",
+          "evidence_count": 2
+        },
+        "causal": {
+          "causal_relationships": [
+            "cause learning"
+          ],
+          "intervention_points": [],
+          "causal_mechanisms": [],
+          "treatment_effects": [],
+          "pattern_score": 0.034482758620689655,
+          "sophistication_level": "high",
+          "evidence_count": 1
+        },
+        "intervention": {
+          "action_specifications": [],
+          "implementation_strategies": [],
+          "policy_recommendations": [],
+          "practical_applications": [],
+          "pattern_score": 0.03333333333333333,
+          "sophistication_level": "high",
+          "evidence_count": 0
+        }
+      }
+    },
+    "prompt_results": {
+      "balance_maintained": true,
+      "equal_sophistication_confirmed": true,
+      "causal_overemphasis_detected": false,
+      "prompt_analysis": {
+        "descriptive": {
+          "has_equal_priority": true,
+          "has_sophistication_requirement": true,
+          "marker_count": 8,
+          "prompt_length": 929,
+          "analytical_depth_indicators": 5
+        },
+        "explanatory": {
+          "has_equal_priority": true,
+          "has_sophistication_requirement": true,
+          "marker_count": 8,
+          "prompt_length": 909,
+          "analytical_depth_indicators": 6
+        },
+        "predictive": {
+          "has_equal_priority": true,
+          "has_sophistication_requirement": true,
+          "marker_count": 8,
+          "prompt_length": 911,
+          "analytical_depth_indicators": 3
+        },
+        "causal": {
+          "has_equal_priority": true,
+          "has_sophistication_requirement": true,
+          "marker_count": 8,
+          "prompt_length": 884,
+          "analytical_depth_indicators": 4,
+          "overemphasis_prevention": true
+        },
+        "intervention": {
+          "has_equal_priority": true,
+          "has_sophistication_requirement": true,
+          "marker_count": 8,
+          "prompt_length": 919,
+          "analytical_depth_indicators": 3
+        }
+      }
+    },
+    "multi_purpose_results": {
+      "primary_purpose": "predictive",
+      "secondary_purposes": [
+        "intervention"
+      ],
+      "purpose_confidence": {
+        "descriptive": 0.020689655172413793,
+        "explanatory": 0.12142857142857143,
+        "predictive": 0.36,
+        "causal": 0.020689655172413793,
+        "intervention": 0.28
+      },
+      "balanced_analysis": {
+        "balance_check": "passed",
+        "causal_overemphasis_detected": false,
+        "score_distribution": {
+          "descriptive": 0.020689655172413793,
+          "explanatory": 0.12142857142857143,
+          "predictive": 0.36,
+          "causal": 0.020689655172413793,
+          "intervention": 0.28
+        },
+        "balance_metrics": {
+          "score_range": 0.3393103448275862,
+          "mean_score": 0.1605615763546798,
+          "max_score": 0.36,
+          "min_score": 0.020689655172413793,
+          "coefficient_of_variation": 0.8571374675530151
+        },
+        "equal_sophistication_applied": true,
+        "sophistication_evidence": {
+          "descriptive": "taxonomic_structures, classification_systems, typological_frameworks, dimensional_analyses",
+          "explanatory": "mechanisms, processes, structural_relationships, functional_explanations",
+          "predictive": "forecasting_frameworks, variable_specifications, probabilistic_models, outcome_predictions",
+          "causal": "causal_relationships, intervention_points, causal_mechanisms, treatment_effects",
+          "intervention": "action_specifications, implementation_strategies, policy_recommendations, practical_applications"
+        }
+      },
+      "detailed_analyses": {
+        "descriptive": {
+          "taxonomic_structures": [],
+          "classification_systems": [],
+          "typological_frameworks": [],
+          "dimensional_analyses": [],
+          "pattern_score": 0.034482758620689655,
+          "sophistication_level": "high",
+          "evidence_count": 0
+        },
+        "explanatory": {
+          "mechanisms": [
+            "mechanisms through"
+          ],
+          "processes": [],
+          "structural_relationships": [],
+          "functional_explanations": [],
+          "pattern_score": 0.03571428571428571,
+          "sophistication_level": "high",
+          "evidence_count": 1
+        },
+        "predictive": {
+          "forecasting_frameworks": [
+            "forecasts outcomes"
+          ],
+          "variable_specifications": [
+            "variables while"
+          ],
+          "probabilistic_models": [],
+          "outcome_predictions": [
+            "predicts future"
+          ],
+          "pattern_score": 0.1,
+          "sophistication_level": "high",
+          "evidence_count": 3
+        },
+        "causal": {
+          "causal_relationships": [],
+          "intervention_points": [],
+          "causal_mechanisms": [],
+          "treatment_effects": [],
+          "pattern_score": 0.034482758620689655,
+          "sophistication_level": "high",
+          "evidence_count": 0
+        },
+        "intervention": {
+          "action_specifications": [
+            "actionable policy"
+          ],
+          "implementation_strategies": [],
+          "policy_recommendations": [
+            "policy recommendation"
+          ],
+          "practical_applications": [],
+          "pattern_score": 0.13333333333333333,
+          "sophistication_level": "high",
+          "evidence_count": 2
+        }
+      }
+    },
+    "summary": {
+      "classification_accuracy": 5,
+      "balance_passed": true,
+      "prompt_balance_passed": true,
+      "multi_purpose_passed": true,
+      "all_demos_passed": true
+    }
+  },
+  "test_results": {
+    "descriptive": {
+      "theory_text": "\n        This theory establishes a comprehensive taxonomy of organizational structures in modern societies.\n        The classification system distinguishes between hierarchical, network, and hybrid organizational types.\n        Each organizational type is characterized by specific structural dimensions including centralization,\n        formalization, and complexity. The typological framework provides systematic categorization of\n        organizational forms based on their structural attributes. The dimensional analysis reveals\n        that organizations can be classified along multiple systematic dimensions that capture\n        their essential characteristics and variations.\n        ",
+      "classification_result": {
+        "primary_purpose": "descriptive",
+        "secondary_purposes": [],
+        "purpose_confidence": {
+          "descriptive": 0.503448275862069,
+          "explanatory": 0.0,
+          "predictive": 0.0,
+          "causal": 0.0,
+          "intervention": 0.0
+        },
+        "balanced_analysis": {
+          "balance_check": "passed",
+          "causal_overemphasis_detected": false,
+          "score_distribution": {
+            "descriptive": 0.503448275862069,
+            "explanatory": 0.0,
+            "predictive": 0.0,
+            "causal": 0.0,
+            "intervention": 0.0
+          },
+          "balance_metrics": {
+            "score_range": 0.503448275862069,
+            "mean_score": 0.1006896551724138,
+            "max_score": 0.503448275862069,
+            "min_score": 0.0,
+            "coefficient_of_variation": 2.0000000000000004
+          },
+          "equal_sophistication_applied": true,
+          "sophistication_evidence": {
+            "descriptive": "taxonomic_structures, classification_systems, typological_frameworks, dimensional_analyses",
+            "explanatory": "mechanisms, processes, structural_relationships, functional_explanations",
+            "predictive": "forecasting_frameworks, variable_specifications, probabilistic_models, outcome_predictions",
+            "causal": "causal_relationships, intervention_points, causal_mechanisms, treatment_effects",
+            "intervention": "action_specifications, implementation_strategies, policy_recommendations, practical_applications"
+          }
+        },
+        "detailed_analyses": {
+          "descriptive": {
+            "taxonomic_structures": [
+              "taxonomy of organizational"
+            ],
+            "classification_systems": [
+              "classification system"
+            ],
+            "typological_frameworks": [
+              "typological framework"
+            ],
+            "dimensional_analyses": [
+              "dimensional analysis",
+              "systematic dimensions"
+            ],
+            "pattern_score": 0.1724137931034483,
+            "sophistication_level": "high",
+            "evidence_count": 5
+          },
+          "explanatory": {
+            "mechanisms": [],
+            "processes": [],
+            "structural_relationships": [],
+            "functional_explanations": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "predictive": {
+            "forecasting_frameworks": [],
+            "variable_specifications": [],
+            "probabilistic_models": [],
+            "outcome_predictions": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "causal": {
+            "causal_relationships": [],
+            "intervention_points": [],
+            "causal_mechanisms": [],
+            "treatment_effects": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "intervention": {
+            "action_specifications": [],
+            "implementation_strategies": [],
+            "policy_recommendations": [],
+            "practical_applications": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          }
+        }
+      },
+      "primary_purpose_correct": true,
+      "descriptive_confidence": 0.503448275862069,
+      "descriptive_elements_detected": {
+        "taxonomic_structures": [
+          "taxonomy of organizational"
+        ],
+        "classification_systems": [
+          "classification system"
+        ],
+        "typological_frameworks": [
+          "typological framework"
+        ],
+        "dimensional_analyses": [
+          "dimensional analysis",
+          "systematic dimensions"
+        ],
+        "pattern_score": 0.1724137931034483,
+        "sophistication_level": "high",
+        "evidence_count": 5
+      },
+      "equal_sophistication_applied": true,
+      "test_passed": true
+    },
+    "explanatory": {
+      "theory_text": "\n        This theory explains how social capital emerges through systematic interaction mechanisms\n        within community networks. The underlying mechanism involves repeated social exchanges\n        that generate trust and reciprocity norms. The process operates through structural\n        relationships between individuals, groups, and institutions. The systematic process\n        of social capital formation involves multiple stages of interaction, norm development,\n        and relationship consolidation. The functional explanation shows how these mechanisms\n        serve to reduce transaction costs and enable collective action in communities.\n        ",
+      "classification_result": {
+        "primary_purpose": "explanatory",
+        "secondary_purposes": [],
+        "purpose_confidence": {
+          "descriptive": 0.0,
+          "explanatory": 0.6142857142857143,
+          "predictive": 0.0,
+          "causal": 0.0,
+          "intervention": 0.02
+        },
+        "balanced_analysis": {
+          "balance_check": "passed",
+          "causal_overemphasis_detected": false,
+          "score_distribution": {
+            "descriptive": 0.0,
+            "explanatory": 0.6142857142857143,
+            "predictive": 0.0,
+            "causal": 0.0,
+            "intervention": 0.02
+          },
+          "balance_metrics": {
+            "score_range": 0.6142857142857143,
+            "mean_score": 0.12685714285714286,
+            "max_score": 0.6142857142857143,
+            "min_score": 0.0,
+            "coefficient_of_variation": 1.922141269389928
+          },
+          "equal_sophistication_applied": true,
+          "sophistication_evidence": {
+            "descriptive": "taxonomic_structures, classification_systems, typological_frameworks, dimensional_analyses",
+            "explanatory": "mechanisms, processes, structural_relationships, functional_explanations",
+            "predictive": "forecasting_frameworks, variable_specifications, probabilistic_models, outcome_predictions",
+            "causal": "causal_relationships, intervention_points, causal_mechanisms, treatment_effects",
+            "intervention": "action_specifications, implementation_strategies, policy_recommendations, practical_applications"
+          }
+        },
+        "detailed_analyses": {
+          "descriptive": {
+            "taxonomic_structures": [],
+            "classification_systems": [],
+            "typological_frameworks": [],
+            "dimensional_analyses": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "explanatory": {
+            "mechanisms": [
+              "mechanism involves",
+              "underlying mechanism"
+            ],
+            "processes": [
+              "systematic process"
+            ],
+            "structural_relationships": [],
+            "functional_explanations": [
+              "functional explanation"
+            ],
+            "pattern_score": 0.35714285714285715,
+            "sophistication_level": "high",
+            "evidence_count": 4
+          },
+          "predictive": {
+            "forecasting_frameworks": [],
+            "variable_specifications": [],
+            "probabilistic_models": [],
+            "outcome_predictions": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "causal": {
+            "causal_relationships": [],
+            "intervention_points": [],
+            "causal_mechanisms": [],
+            "treatment_effects": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "intervention": {
+            "action_specifications": [],
+            "implementation_strategies": [],
+            "policy_recommendations": [],
+            "practical_applications": [],
+            "pattern_score": 0.03333333333333333,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          }
+        }
+      },
+      "primary_purpose_correct": true,
+      "explanatory_confidence": 0.6142857142857143,
+      "explanatory_elements_detected": {
+        "mechanisms": [
+          "mechanism involves",
+          "underlying mechanism"
+        ],
+        "processes": [
+          "systematic process"
+        ],
+        "structural_relationships": [],
+        "functional_explanations": [
+          "functional explanation"
+        ],
+        "pattern_score": 0.35714285714285715,
+        "sophistication_level": "high",
+        "evidence_count": 4
+      },
+      "equal_sophistication_applied": true,
+      "test_passed": true
+    },
+    "predictive": {
+      "theory_text": "\n        This theory predicts voter turnout based on systematic analysis of demographic and\n        political variables. The forecasting framework incorporates predictor variables\n        including age, education, income, and political efficacy. The statistical model\n        estimates the probability of voting participation using regression analysis.\n        The predictive model projects future voting patterns based on demographic trends\n        and political engagement indicators. The probabilistic framework forecasts\n        election outcomes with specified confidence intervals and predictive validity measures.\n        ",
+      "classification_result": {
+        "primary_purpose": "predictive",
+        "secondary_purposes": [],
+        "purpose_confidence": {
+          "descriptive": 0.0,
+          "explanatory": 0.0,
+          "predictive": 0.6,
+          "causal": 0.0,
+          "intervention": 0.0
+        },
+        "balanced_analysis": {
+          "balance_check": "passed",
+          "causal_overemphasis_detected": false,
+          "score_distribution": {
+            "descriptive": 0.0,
+            "explanatory": 0.0,
+            "predictive": 0.6,
+            "causal": 0.0,
+            "intervention": 0.0
+          },
+          "balance_metrics": {
+            "score_range": 0.6,
+            "mean_score": 0.12,
+            "max_score": 0.6,
+            "min_score": 0.0,
+            "coefficient_of_variation": 2.0000000000000004
+          },
+          "equal_sophistication_applied": true,
+          "sophistication_evidence": {
+            "descriptive": "taxonomic_structures, classification_systems, typological_frameworks, dimensional_analyses",
+            "explanatory": "mechanisms, processes, structural_relationships, functional_explanations",
+            "predictive": "forecasting_frameworks, variable_specifications, probabilistic_models, outcome_predictions",
+            "causal": "causal_relationships, intervention_points, causal_mechanisms, treatment_effects",
+            "intervention": "action_specifications, implementation_strategies, policy_recommendations, practical_applications"
+          }
+        },
+        "detailed_analyses": {
+          "descriptive": {
+            "taxonomic_structures": [],
+            "classification_systems": [],
+            "typological_frameworks": [],
+            "dimensional_analyses": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "explanatory": {
+            "mechanisms": [],
+            "processes": [],
+            "structural_relationships": [],
+            "functional_explanations": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "predictive": {
+            "forecasting_frameworks": [],
+            "variable_specifications": [
+              "predictor variable"
+            ],
+            "probabilistic_models": [
+              "statistical model",
+              "probability of voting"
+            ],
+            "outcome_predictions": [
+              "predicts voter"
+            ],
+            "pattern_score": 0.3333333333333333,
+            "sophistication_level": "high",
+            "evidence_count": 4
+          },
+          "causal": {
+            "causal_relationships": [],
+            "intervention_points": [],
+            "causal_mechanisms": [],
+            "treatment_effects": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "intervention": {
+            "action_specifications": [],
+            "implementation_strategies": [],
+            "policy_recommendations": [],
+            "practical_applications": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          }
+        }
+      },
+      "primary_purpose_correct": true,
+      "predictive_confidence": 0.6,
+      "predictive_elements_detected": {
+        "forecasting_frameworks": [],
+        "variable_specifications": [
+          "predictor variable"
+        ],
+        "probabilistic_models": [
+          "statistical model",
+          "probability of voting"
+        ],
+        "outcome_predictions": [
+          "predicts voter"
+        ],
+        "pattern_score": 0.3333333333333333,
+        "sophistication_level": "high",
+        "evidence_count": 4
+      },
+      "equal_sophistication_applied": true,
+      "test_passed": true
+    },
+    "causal": {
+      "theory_text": "\n        This theory identifies relationships between educational investment and economic\n        development outcomes. The underlying mechanism operates through human capital formation\n        that leads to increased productivity and innovation. Educational interventions cause\n        measurable improvements in economic indicators through systematic pathways.\n        The treatment effect of education programs results in higher income levels and\n        reduced poverty rates. The analytical framework identifies intervention points\n        where policy changes can produce desired economic outcomes through these processes.\n        ",
+      "classification_result": {
+        "primary_purpose": "causal",
+        "secondary_purposes": [
+          "explanatory"
+        ],
+        "purpose_confidence": {
+          "descriptive": 0.0,
+          "explanatory": 0.2642857142857143,
+          "predictive": 0.0,
+          "causal": 0.5862068965517242,
+          "intervention": 0.06
+        },
+        "balanced_analysis": {
+          "balance_check": "failed",
+          "causal_overemphasis_detected": true,
+          "score_distribution": {
+            "descriptive": 0.0,
+            "explanatory": 0.2642857142857143,
+            "predictive": 0.0,
+            "causal": 0.5862068965517242,
+            "intervention": 0.06
+          },
+          "balance_metrics": {
+            "score_range": 0.5862068965517242,
+            "mean_score": 0.1820985221674877,
+            "max_score": 0.5862068965517242,
+            "min_score": 0.0,
+            "coefficient_of_variation": 1.2310985344904313
+          },
+          "causal_bias_ratio": 7.230745860549902,
+          "equal_sophistication_applied": true,
+          "sophistication_evidence": {
+            "descriptive": "taxonomic_structures, classification_systems, typological_frameworks, dimensional_analyses",
+            "explanatory": "mechanisms, processes, structural_relationships, functional_explanations",
+            "predictive": "forecasting_frameworks, variable_specifications, probabilistic_models, outcome_predictions",
+            "causal": "causal_relationships, intervention_points, causal_mechanisms, treatment_effects",
+            "intervention": "action_specifications, implementation_strategies, policy_recommendations, practical_applications"
+          }
+        },
+        "detailed_analyses": {
+          "descriptive": {
+            "taxonomic_structures": [],
+            "classification_systems": [],
+            "typological_frameworks": [],
+            "dimensional_analyses": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "explanatory": {
+            "mechanisms": [
+              "mechanism operates",
+              "underlying mechanism"
+            ],
+            "processes": [],
+            "structural_relationships": [],
+            "functional_explanations": [],
+            "pattern_score": 0.10714285714285714,
+            "sophistication_level": "high",
+            "evidence_count": 2
+          },
+          "predictive": {
+            "forecasting_frameworks": [],
+            "variable_specifications": [],
+            "probabilistic_models": [],
+            "outcome_predictions": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "causal": {
+            "causal_relationships": [
+              "effect of education",
+              "leads to increased",
+              "results in higher"
+            ],
+            "intervention_points": [
+              "intervention point"
+            ],
+            "causal_mechanisms": [],
+            "treatment_effects": [
+              "treatment effect"
+            ],
+            "pattern_score": 0.3103448275862069,
+            "sophistication_level": "high",
+            "evidence_count": 5
+          },
+          "intervention": {
+            "action_specifications": [],
+            "implementation_strategies": [],
+            "policy_recommendations": [],
+            "practical_applications": [],
+            "pattern_score": 0.1,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          }
+        }
+      },
+      "primary_purpose_correct": true,
+      "causal_confidence": 0.5862068965517242,
+      "causal_elements_detected": {
+        "causal_relationships": [
+          "effect of education",
+          "leads to increased",
+          "results in higher"
+        ],
+        "intervention_points": [
+          "intervention point"
+        ],
+        "causal_mechanisms": [],
+        "treatment_effects": [
+          "treatment effect"
+        ],
+        "pattern_score": 0.3103448275862069,
+        "sophistication_level": "high",
+        "evidence_count": 5
+      },
+      "equal_sophistication_applied": true,
+      "no_overemphasis_confirmed": false,
+      "test_passed": true
+    },
+    "intervention": {
+      "theory_text": "\n        This theory provides actionable framework for implementing community development\n        programs in urban areas. The implementation strategy specifies systematic approaches\n        to program design and delivery. Policy recommendations include specific action plans\n        for addressing housing, education, and employment challenges. The practical application\n        framework guides implementation of evidence-based interventions with detailed\n        implementation strategies. The intervention design incorporates systematic approaches\n        to community engagement and program evaluation for real-world application.\n        ",
+      "classification_result": {
+        "primary_purpose": "intervention",
+        "secondary_purposes": [],
+        "purpose_confidence": {
+          "descriptive": 0.0,
+          "explanatory": 0.0,
+          "predictive": 0.0,
+          "causal": 0.020689655172413793,
+          "intervention": 0.76
+        },
+        "balanced_analysis": {
+          "balance_check": "passed",
+          "causal_overemphasis_detected": false,
+          "score_distribution": {
+            "descriptive": 0.0,
+            "explanatory": 0.0,
+            "predictive": 0.0,
+            "causal": 0.020689655172413793,
+            "intervention": 0.76
+          },
+          "balance_metrics": {
+            "score_range": 0.76,
+            "mean_score": 0.15613793103448276,
+            "max_score": 0.76,
+            "min_score": 0.0,
+            "coefficient_of_variation": 1.934426470192768
+          },
+          "equal_sophistication_applied": true,
+          "sophistication_evidence": {
+            "descriptive": "taxonomic_structures, classification_systems, typological_frameworks, dimensional_analyses",
+            "explanatory": "mechanisms, processes, structural_relationships, functional_explanations",
+            "predictive": "forecasting_frameworks, variable_specifications, probabilistic_models, outcome_predictions",
+            "causal": "causal_relationships, intervention_points, causal_mechanisms, treatment_effects",
+            "intervention": "action_specifications, implementation_strategies, policy_recommendations, practical_applications"
+          }
+        },
+        "detailed_analyses": {
+          "descriptive": {
+            "taxonomic_structures": [],
+            "classification_systems": [],
+            "typological_frameworks": [],
+            "dimensional_analyses": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "explanatory": {
+            "mechanisms": [],
+            "processes": [],
+            "structural_relationships": [],
+            "functional_explanations": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "predictive": {
+            "forecasting_frameworks": [],
+            "variable_specifications": [],
+            "probabilistic_models": [],
+            "outcome_predictions": [],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "causal": {
+            "causal_relationships": [],
+            "intervention_points": [],
+            "causal_mechanisms": [],
+            "treatment_effects": [],
+            "pattern_score": 0.034482758620689655,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "intervention": {
+            "action_specifications": [
+              "action plan",
+              "specific action",
+              "actionable framework"
+            ],
+            "implementation_strategies": [
+              "implementation strategy"
+            ],
+            "policy_recommendations": [
+              "policy recommendation"
+            ],
+            "practical_applications": [
+              "practical application",
+              "real-world application"
+            ],
+            "pattern_score": 0.6,
+            "sophistication_level": "high",
+            "evidence_count": 7
+          }
+        }
+      },
+      "primary_purpose_correct": true,
+      "intervention_confidence": 0.76,
+      "intervention_elements_detected": {
+        "action_specifications": [
+          "action plan",
+          "specific action",
+          "actionable framework"
+        ],
+        "implementation_strategies": [
+          "implementation strategy"
+        ],
+        "policy_recommendations": [
+          "policy recommendation"
+        ],
+        "practical_applications": [
+          "practical application",
+          "real-world application"
+        ],
+        "pattern_score": 0.6,
+        "sophistication_level": "high",
+        "evidence_count": 7
+      },
+      "equal_sophistication_applied": true,
+      "test_passed": true
+    },
+    "multi_purpose": {
+      "theory_text": "\n        This comprehensive theory explains the mechanisms of social inequality through\n        systematic classification of inequality types and their causal relationships.\n        The theory predicts future inequality trends based on economic and social variables\n        while providing actionable policy recommendations for reducing disparities.\n        The explanatory framework identifies processes that generate inequality, while\n        the predictive model forecasts inequality outcomes. The intervention component\n        specifies implementation strategies for inequality reduction programs.\n        ",
+      "classification_result": {
+        "primary_purpose": "intervention",
+        "secondary_purposes": [
+          "predictive"
+        ],
+        "purpose_confidence": {
+          "descriptive": 0.1206896551724138,
+          "explanatory": 0.12142857142857143,
+          "predictive": 0.26,
+          "causal": 0.020689655172413793,
+          "intervention": 0.28
+        },
+        "balanced_analysis": {
+          "balance_check": "passed",
+          "causal_overemphasis_detected": false,
+          "score_distribution": {
+            "descriptive": 0.1206896551724138,
+            "explanatory": 0.12142857142857143,
+            "predictive": 0.26,
+            "causal": 0.020689655172413793,
+            "intervention": 0.28
+          },
+          "balance_metrics": {
+            "score_range": 0.25931034482758625,
+            "mean_score": 0.16056157635467982,
+            "max_score": 0.28,
+            "min_score": 0.020689655172413793,
+            "coefficient_of_variation": 0.6028045243554093
+          },
+          "equal_sophistication_applied": true,
+          "sophistication_evidence": {
+            "descriptive": "taxonomic_structures, classification_systems, typological_frameworks, dimensional_analyses",
+            "explanatory": "mechanisms, processes, structural_relationships, functional_explanations",
+            "predictive": "forecasting_frameworks, variable_specifications, probabilistic_models, outcome_predictions",
+            "causal": "causal_relationships, intervention_points, causal_mechanisms, treatment_effects",
+            "intervention": "action_specifications, implementation_strategies, policy_recommendations, practical_applications"
+          }
+        },
+        "detailed_analyses": {
+          "descriptive": {
+            "taxonomic_structures": [],
+            "classification_systems": [
+              "systematic classification"
+            ],
+            "typological_frameworks": [],
+            "dimensional_analyses": [],
+            "pattern_score": 0.034482758620689655,
+            "sophistication_level": "high",
+            "evidence_count": 1
+          },
+          "explanatory": {
+            "mechanisms": [
+              "mechanisms of"
+            ],
+            "processes": [],
+            "structural_relationships": [],
+            "functional_explanations": [],
+            "pattern_score": 0.03571428571428571,
+            "sophistication_level": "high",
+            "evidence_count": 1
+          },
+          "predictive": {
+            "forecasting_frameworks": [
+              "forecasts inequality"
+            ],
+            "variable_specifications": [],
+            "probabilistic_models": [],
+            "outcome_predictions": [
+              "predicts future"
+            ],
+            "pattern_score": 0.1,
+            "sophistication_level": "high",
+            "evidence_count": 2
+          },
+          "causal": {
+            "causal_relationships": [],
+            "intervention_points": [],
+            "causal_mechanisms": [],
+            "treatment_effects": [],
+            "pattern_score": 0.034482758620689655,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "intervention": {
+            "action_specifications": [
+              "actionable policy"
+            ],
+            "implementation_strategies": [],
+            "policy_recommendations": [
+              "policy recommendation"
+            ],
+            "practical_applications": [],
+            "pattern_score": 0.13333333333333333,
+            "sophistication_level": "high",
+            "evidence_count": 2
+          }
+        }
+      },
+      "primary_purpose_identified": true,
+      "secondary_purposes_found": true,
+      "multi_purpose_detected": true,
+      "balanced_analysis_maintained": true,
+      "test_passed": true
+    },
+    "balance_validation": {
+      "theory_text": "\n        This theory explains how educational systems develop through systematic\n        classification of institutional types and their causal relationships with\n        student outcomes. The framework predicts achievement patterns based on\n        systematic variables while providing implementation strategies for educational\n        interventions. The explanatory mechanisms show how institutional structures\n        cause learning improvements through systematic processes, while the descriptive\n        taxonomy categorizes different educational approaches and their effectiveness.\n        ",
+      "classification_result": {
+        "primary_purpose": "explanatory",
+        "secondary_purposes": [],
+        "purpose_confidence": {
+          "descriptive": 0.041379310344827586,
+          "explanatory": 0.22142857142857145,
+          "predictive": 0.2,
+          "causal": 0.1206896551724138,
+          "intervention": 0.02
+        },
+        "balanced_analysis": {
+          "balance_check": "passed",
+          "causal_overemphasis_detected": false,
+          "score_distribution": {
+            "descriptive": 0.041379310344827586,
+            "explanatory": 0.22142857142857145,
+            "predictive": 0.2,
+            "causal": 0.1206896551724138,
+            "intervention": 0.02
+          },
+          "balance_metrics": {
+            "score_range": 0.20142857142857146,
+            "mean_score": 0.12069950738916257,
+            "max_score": 0.22142857142857145,
+            "min_score": 0.02,
+            "coefficient_of_variation": 0.6717219079887361
+          },
+          "equal_sophistication_applied": true,
+          "sophistication_evidence": {
+            "descriptive": "taxonomic_structures, classification_systems, typological_frameworks, dimensional_analyses",
+            "explanatory": "mechanisms, processes, structural_relationships, functional_explanations",
+            "predictive": "forecasting_frameworks, variable_specifications, probabilistic_models, outcome_predictions",
+            "causal": "causal_relationships, intervention_points, causal_mechanisms, treatment_effects",
+            "intervention": "action_specifications, implementation_strategies, policy_recommendations, practical_applications"
+          }
+        },
+        "detailed_analyses": {
+          "descriptive": {
+            "taxonomic_structures": [],
+            "classification_systems": [],
+            "typological_frameworks": [],
+            "dimensional_analyses": [],
+            "pattern_score": 0.06896551724137931,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          },
+          "explanatory": {
+            "mechanisms": [
+              "mechanisms show"
+            ],
+            "processes": [
+              "systematic process"
+            ],
+            "structural_relationships": [],
+            "functional_explanations": [],
+            "pattern_score": 0.03571428571428571,
+            "sophistication_level": "high",
+            "evidence_count": 2
+          },
+          "predictive": {
+            "forecasting_frameworks": [],
+            "variable_specifications": [
+              "variables while"
+            ],
+            "probabilistic_models": [],
+            "outcome_predictions": [
+              "predicts achievement"
+            ],
+            "pattern_score": 0.0,
+            "sophistication_level": "high",
+            "evidence_count": 2
+          },
+          "causal": {
+            "causal_relationships": [
+              "cause learning"
+            ],
+            "intervention_points": [],
+            "causal_mechanisms": [],
+            "treatment_effects": [],
+            "pattern_score": 0.034482758620689655,
+            "sophistication_level": "high",
+            "evidence_count": 1
+          },
+          "intervention": {
+            "action_specifications": [],
+            "implementation_strategies": [],
+            "policy_recommendations": [],
+            "practical_applications": [],
+            "pattern_score": 0.03333333333333333,
+            "sophistication_level": "high",
+            "evidence_count": 0
+          }
+        }
+      },
+      "balance_check_passed": true,
+      "causal_overemphasis_detected": false,
+      "equal_sophistication_confirmed": true,
+      "purpose_confidence_scores": {
+        "descriptive": 0.041379310344827586,
+        "explanatory": 0.22142857142857145,
+        "predictive": 0.2,
+        "causal": 0.1206896551724138,
+        "intervention": 0.02
+      },
+      "balance_metrics": {
+        "score_range": 0.20142857142857146,
+        "mean_score": 0.12069950738916257,
+        "max_score": 0.22142857142857145,
+        "min_score": 0.02,
+        "coefficient_of_variation": 0.6717219079887361
+      },
+      "critical_test_passed": true,
+      "prompt_balance_validation": {
+        "balance_maintained": true,
+        "equal_sophistication_confirmed": true,
+        "causal_overemphasis_detected": false,
+        "prompt_analysis": {
+          "descriptive": {
+            "has_equal_priority": true,
+            "has_sophistication_requirement": true,
+            "marker_count": 8,
+            "prompt_length": 929,
+            "analytical_depth_indicators": 5
+          },
+          "explanatory": {
+            "has_equal_priority": true,
+            "has_sophistication_requirement": true,
+            "marker_count": 8,
+            "prompt_length": 909,
+            "analytical_depth_indicators": 6
+          },
+          "predictive": {
+            "has_equal_priority": true,
+            "has_sophistication_requirement": true,
+            "marker_count": 8,
+            "prompt_length": 911,
+            "analytical_depth_indicators": 3
+          },
+          "causal": {
+            "has_equal_priority": true,
+            "has_sophistication_requirement": true,
+            "marker_count": 8,
+            "prompt_length": 884,
+            "analytical_depth_indicators": 4,
+            "overemphasis_prevention": true
+          },
+          "intervention": {
+            "has_equal_priority": true,
+            "has_sophistication_requirement": true,
+            "marker_count": 8,
+            "prompt_length": 919,
+            "analytical_depth_indicators": 3
+          }
+        }
+      }
+    },
+    "overall_assessment": {
+      "success_criteria_met": {
+        "balanced_classification": true,
+        "no_causal_overemphasis": true,
+        "comprehensive_detection": true,
+        "multi_purpose_support": true,
+        "production_ready": true
+      },
+      "overall_score": 100.0,
+      "critical_failures": [],
+      "system_ready": true
+    }
+  },
+  "execution_timestamp": "2025-06-26T09:03:22.956382",
+  "system_ready": true
+}

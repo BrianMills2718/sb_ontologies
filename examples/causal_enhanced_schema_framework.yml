@@ -1,0 +1,566 @@
+# Causal-Enhanced Schema Framework
+# Extends OWL reasoning with Pearl's causal inference and do-calculus capabilities
+
+schema_type: "causal_computational_social_science"
+framework_version: "1.0"
+extends: "owl_enhanced_stress_test_schema.yml"
+
+# ===============================================================================
+# CAUSAL INFERENCE FOUNDATION
+# ===============================================================================
+
+causal_framework:
+  theoretical_basis: "Pearl's Causal Hierarchy (Association, Intervention, Counterfactuals)"
+  implementation: "Causal DAGs with do-calculus and structural causal models"
+  multi_level_support: true
+  integration: "OWL reasoning + causal inference engines"
+
+# ===============================================================================
+# CAUSAL DAG STRUCTURE SPECIFICATIONS
+# ===============================================================================
+
+causal_dag_schema:
+  
+  # Core causal structure metadata
+  causal_structure_properties:
+    - name: "causal_dag"
+      description: "Directed acyclic graph representing causal relationships"
+      components: ["nodes", "directed_edges", "confounders", "colliders"]
+      
+    - name: "causal_node"
+      description: "Variable in the causal model"
+      properties:
+        - name: "variable_type"
+          values: ["endogenous", "exogenous", "instrumental", "mediator"]
+        - name: "measurement_level"  
+          values: ["individual", "group", "institutional", "systemic"]
+        - name: "temporal_order"
+          type: "integer"
+          description: "Causal ordering (0=exogenous, higher=later in causal chain)"
+        - name: "observability"
+          values: ["observed", "latent", "counterfactual"]
+          
+    - name: "causal_edge"
+      description: "Directed causal relationship between variables"
+      properties:
+        - name: "causal_mechanism"
+          type: "string"
+          description: "Theoretical mechanism underlying causal relationship"
+        - name: "effect_size"
+          type: "numeric"
+          range: "[-∞, ∞]"
+          description: "Estimated magnitude of causal effect"
+        - name: "effect_certainty"
+          type: "numeric" 
+          range: "[0, 1]"
+          description: "Confidence in causal relationship"
+        - name: "time_lag"
+          type: "temporal"
+          description: "Time delay between cause and effect"
+        - name: "effect_type"
+          values: ["linear", "nonlinear", "threshold", "interactive"]
+
+# ===============================================================================
+# INTERVENTION MODELING FRAMEWORK
+# ===============================================================================
+
+intervention_modeling:
+  
+  # Intervention specifications
+  intervention_schema:
+    - name: "Intervention"
+      description: "Formal specification of a possible intervention"
+      properties:
+        - name: "target_variable"
+          type: "causal_node"
+          description: "Variable being intervened upon"
+        - name: "intervention_type"
+          values: ["do_operation", "conditioning", "structural_change"]
+        - name: "intervention_value"
+          type: "value_specification"
+          description: "Value to set target variable to"
+        - name: "feasibility"
+          type: "numeric"
+          range: "[0, 1]"
+          description: "Practical feasibility of implementing intervention"
+        - name: "cost"
+          type: "numeric"
+          description: "Resource cost of intervention"
+        - name: "actor_authority"
+          type: "Agent"
+          description: "Who has authority to implement intervention"
+        - name: "implementation_mechanism"
+          type: "string"
+          description: "Practical method for implementing intervention"
+        - name: "side_effects"
+          type: "array[causal_effect]"
+          description: "Unintended consequences of intervention"
+          
+  # Do-calculus query specifications  
+  do_calculus_queries:
+    - name: "DoQuery"
+      description: "Pearl's do-calculus intervention query"
+      structure: "P(Y | do(X = x), Z = z)"
+      components:
+        - name: "outcome_variable"
+          description: "Y - variable whose distribution we want to know"
+        - name: "intervention_variable" 
+          description: "X - variable we intervene on"
+        - name: "intervention_value"
+          description: "x - value we set X to"
+        - name: "conditioning_variables"
+          description: "Z - variables we condition on"
+        - name: "conditioning_values"
+          description: "z - values of conditioning variables"
+          
+    - name: "CounterfactualQuery"
+      description: "Counterfactual reasoning query"
+      structure: "P(Y_x = y | X = x', Y = y')"
+      components:
+        - name: "counterfactual_outcome"
+          description: "What Y would have been under intervention"
+        - name: "actual_values"
+          description: "Actually observed values"
+        - name: "counterfactual_intervention"
+          description: "Hypothetical intervention value"
+
+# ===============================================================================
+# MULTI-LEVEL CAUSAL MODELING
+# ===============================================================================
+
+multi_level_causal_framework:
+  
+  # Cross-level causal relationships
+  cross_level_causation:
+    - name: "MicroMacroLink"
+      description: "Causal relationship from individual to system level"
+      mechanism_types: ["aggregation", "emergence", "collective_action"]
+      examples:
+        - "Individual beliefs → Collective intelligence"
+        - "Individual actions → Institutional change"
+        - "Agent strategies → System equilibrium"
+        
+    - name: "MacroMicroLink" 
+      description: "Causal relationship from system to individual level"
+      mechanism_types: ["constraint", "incentive", "socialization"]
+      examples:
+        - "Institutional rules → Individual behavior"
+        - "System equilibrium → Agent strategies"
+        - "Collective beliefs → Individual beliefs"
+        
+    - name: "LateralCausation"
+      description: "Causal relationships within same level"
+      examples:
+        - "Individual → Individual (social influence)"
+        - "Institution → Institution (policy diffusion)"
+        - "System → System (international spillovers)"
+  
+  # Level-specific causal mechanisms
+  causal_mechanisms_by_level:
+    individual_level:
+      mechanisms: ["belief_updating", "preference_change", "learning", "adaptation"]
+      time_scales: ["immediate", "short_term"]
+      
+    group_level:
+      mechanisms: ["social_influence", "norm_formation", "collective_decision", "coordination"]
+      time_scales: ["short_term", "medium_term"]
+      
+    institutional_level:
+      mechanisms: ["policy_change", "rule_modification", "structural_reform", "regime_change"]
+      time_scales: ["medium_term", "long_term"]
+      
+    systemic_level:
+      mechanisms: ["equilibrium_shift", "structural_transformation", "regime_transition"]
+      time_scales: ["long_term", "very_long_term"]
+
+# ===============================================================================
+# CAUSAL IDENTIFICATION STRATEGIES
+# ===============================================================================
+
+causal_identification:
+  
+  # Identification methods for causal inference from observational discourse data
+  identification_strategies:
+    - name: "BackdoorAdjustment"
+      description: "Control for confounders via backdoor criterion"
+      requirements: ["complete_confounder_set", "no_unobserved_confounding"]
+      discourse_application: "Control for speaker characteristics, context variables"
+      
+    - name: "InstrumentalVariables"
+      description: "Use variables that affect treatment but not outcome directly"
+      requirements: ["valid_instrument", "exclusion_restriction"]
+      discourse_application: "Speech timing, venue selection as instruments"
+      
+    - name: "NaturalExperiments"
+      description: "Exploit random or quasi-random variation"
+      requirements: ["as_if_random_assignment"]
+      discourse_application: "Random speech scheduling, unexpected events"
+      
+    - name: "DiscontinuityDesign"
+      description: "Exploit threshold-based assignment rules"
+      requirements: ["threshold_discontinuity", "local_randomization"]
+      discourse_application: "Electoral margins, policy thresholds"
+      
+    - name: "DifferenceInDifferences"
+      description: "Compare changes before/after treatment across groups"
+      requirements: ["parallel_trends", "no_anticipation"]
+      discourse_application: "Policy announcements, leadership changes"
+  
+  # Confounding control for discourse analysis
+  discourse_confounders:
+    speaker_characteristics:
+      - "political_position"
+      - "institutional_role" 
+      - "historical_context"
+      - "audience_characteristics"
+      
+    temporal_factors:
+      - "time_trends"
+      - "seasonal_effects"
+      - "event_timing"
+      - "electoral_cycles"
+      
+    contextual_factors:
+      - "media_environment"
+      - "competing_events"
+      - "international_context"
+      - "economic_conditions"
+
+# ===============================================================================
+# CAUSAL MODEL SPECIFICATION FOR CARTER EXAMPLE
+# ===============================================================================
+
+carter_causal_model_specification:
+  
+  # Causal DAG structure
+  causal_dag:
+    nodes:
+      # Individual level
+      - name: "Carter_SecurityBeliefs"
+        variable_type: "endogenous"
+        measurement_level: "individual"
+        temporal_order: 1
+        
+      - name: "Carter_SpeechContent"
+        variable_type: "endogenous" 
+        measurement_level: "individual"
+        temporal_order: 2
+        
+      # Group level  
+      - name: "Public_Opinion"
+        variable_type: "endogenous"
+        measurement_level: "group"
+        temporal_order: 3
+        
+      - name: "Congressional_Position"
+        variable_type: "endogenous"
+        measurement_level: "group"
+        temporal_order: 4
+        
+      # Institutional level
+      - name: "SALT_NegotiationStrategy"
+        variable_type: "endogenous"
+        measurement_level: "institutional"
+        temporal_order: 5
+        
+      - name: "US_Policy_Position"
+        variable_type: "endogenous"
+        measurement_level: "institutional"
+        temporal_order: 6
+        
+      # Systemic level
+      - name: "Soviet_Response"
+        variable_type: "endogenous"
+        measurement_level: "systemic"
+        temporal_order: 7
+        
+      - name: "Arms_Control_Regime"
+        variable_type: "endogenous"
+        measurement_level: "systemic"
+        temporal_order: 8
+        
+      # Confounders
+      - name: "Cold_War_Context"
+        variable_type: "exogenous"
+        measurement_level: "systemic"
+        temporal_order: 0
+        
+      - name: "Domestic_Political_Pressure"
+        variable_type: "exogenous"
+        measurement_level: "institutional"
+        temporal_order: 0
+        
+    edges:
+      # Individual → Individual
+      - from: "Carter_SecurityBeliefs"
+        to: "Carter_SpeechContent"
+        causal_mechanism: "Belief expression in political communication"
+        effect_type: "linear"
+        time_lag: "immediate"
+        
+      # Individual → Group
+      - from: "Carter_SpeechContent"
+        to: "Public_Opinion"
+        causal_mechanism: "Presidential persuasion via mass communication"
+        effect_type: "nonlinear"
+        time_lag: "weeks"
+        
+      # Group → Group
+      - from: "Public_Opinion"
+        to: "Congressional_Position"
+        causal_mechanism: "Electoral pressure and democratic representation"
+        effect_type: "linear"
+        time_lag: "months"
+        
+      # Group → Institutional
+      - from: "Congressional_Position"
+        to: "SALT_NegotiationStrategy"
+        causal_mechanism: "Legislative oversight and authorization"
+        effect_type: "threshold"
+        time_lag: "months"
+        
+      # Institutional → Institutional
+      - from: "SALT_NegotiationStrategy"
+        to: "US_Policy_Position"
+        causal_mechanism: "Negotiation outcomes shape policy"
+        effect_type: "linear"
+        time_lag: "months"
+        
+      # Institutional → Systemic
+      - from: "US_Policy_Position"
+        to: "Soviet_Response"
+        causal_mechanism: "Strategic interaction and reciprocity"
+        effect_type: "interactive"
+        time_lag: "months"
+        
+      # Systemic → Systemic
+      - from: "Soviet_Response"
+        to: "Arms_Control_Regime"
+        causal_mechanism: "Bilateral agreement creation"
+        effect_type: "threshold"
+        time_lag: "years"
+        
+      # Confounders
+      - from: "Cold_War_Context"
+        to: "Carter_SecurityBeliefs"
+        causal_mechanism: "Historical context shapes worldview"
+        
+      - from: "Cold_War_Context"
+        to: "Soviet_Response"
+        causal_mechanism: "Structural constraints on behavior"
+        
+      - from: "Domestic_Political_Pressure"
+        to: "Carter_SpeechContent"
+        causal_mechanism: "Political constraints on messaging"
+        
+      - from: "Domestic_Political_Pressure"
+        to: "Congressional_Position"
+        causal_mechanism: "Interest group influence"
+
+# ===============================================================================
+# INTERVENTION SPECIFICATIONS FOR CARTER EXAMPLE
+# ===============================================================================
+
+carter_intervention_specifications:
+  
+  # Individual-level interventions
+  individual_interventions:
+    - target_variable: "Carter_SecurityBeliefs"
+      intervention_type: "do_operation"
+      intervention_description: "Modify presidential beliefs about cooperation effectiveness"
+      implementation_mechanism: "Intelligence briefings emphasizing mutual benefits"
+      feasibility: 0.8
+      cost: "low"
+      actor_authority: "Intelligence_Community"
+      expected_effects:
+        - variable: "Carter_SpeechContent"
+          effect_size: 0.6
+        - variable: "SALT_NegotiationStrategy"
+          effect_size: 0.4
+          
+  # Group-level interventions  
+  group_interventions:
+    - target_variable: "Public_Opinion"
+      intervention_type: "do_operation"
+      intervention_description: "Public education campaign on arms control benefits"
+      implementation_mechanism: "Coordinated media strategy and public speeches"
+      feasibility: 0.9
+      cost: "medium"
+      actor_authority: "Executive_Branch"
+      expected_effects:
+        - variable: "Congressional_Position"
+          effect_size: 0.5
+        - variable: "SALT_NegotiationStrategy"
+          effect_size: 0.3
+          
+  # Institutional-level interventions
+  institutional_interventions:
+    - target_variable: "SALT_NegotiationStrategy"
+      intervention_type: "structural_change"
+      intervention_description: "Modify negotiation procedures to enhance cooperation"
+      implementation_mechanism: "Diplomatic protocol changes, venue selection"
+      feasibility: 0.7
+      cost: "medium"
+      actor_authority: "State_Department"
+      expected_effects:
+        - variable: "Soviet_Response"
+          effect_size: 0.4
+        - variable: "Arms_Control_Regime"
+          effect_size: 0.6
+          
+  # Systemic-level interventions
+  systemic_interventions:
+    - target_variable: "Cold_War_Context"
+      intervention_type: "structural_change"
+      intervention_description: "Broader detente initiatives to reduce systemic tension"
+      implementation_mechanism: "Multilateral diplomacy, economic cooperation"
+      feasibility: 0.3
+      cost: "high"
+      actor_authority: "International_Community"
+      expected_effects:
+        - variable: "Carter_SecurityBeliefs"
+          effect_size: 0.3
+        - variable: "Soviet_Response"
+          effect_size: 0.7
+
+# ===============================================================================
+# COUNTERFACTUAL QUERY TEMPLATES
+# ===============================================================================
+
+counterfactual_query_framework:
+  
+  # Template for counterfactual analysis
+  counterfactual_templates:
+    - query_type: "individual_counterfactual"
+      template: "What would have happened to arms control if Carter had different security beliefs?"
+      formal_query: "P(Arms_Control_Regime_cooperative | do(Carter_SecurityBeliefs = pessimistic))"
+      baseline_scenario: "Carter_SecurityBeliefs = optimistic (actual)"
+      counterfactual_scenario: "Carter_SecurityBeliefs = pessimistic"
+      
+    - query_type: "institutional_counterfactual"
+      template: "What if the Charleston speech had not been given?"
+      formal_query: "P(Public_Opinion_supportive | do(Carter_SpeechContent = none))"
+      baseline_scenario: "Charleston speech delivered (actual)"
+      counterfactual_scenario: "No public speech"
+      
+    - query_type: "systemic_counterfactual"
+      template: "How would Soviet response differ under alternative US approaches?"
+      formal_query: "P(Soviet_Response_cooperative | do(US_Policy_Position = hardline))"
+      baseline_scenario: "US_Policy_Position = cooperative (Carter approach)"
+      counterfactual_scenario: "US_Policy_Position = hardline"
+      
+  # Counterfactual validation framework
+  counterfactual_validation:
+    consistency_checks:
+      - "Counterfactual worlds must be logically possible"
+      - "Interventions must respect causal structure"
+      - "Time ordering must be preserved"
+      
+    identification_requirements:
+      - "Structural causal model fully specified"
+      - "All relevant confounders measured"
+      - "Causal assumptions validated"
+
+# ===============================================================================
+# CAUSAL DISCOVERY FROM DISCOURSE
+# ===============================================================================
+
+causal_discovery_framework:
+  
+  # Methods for discovering causal structure from discourse data
+  discovery_methods:
+    - name: "TemporalOrdering"
+      description: "Use temporal sequence in discourse to infer causal order"
+      implementation: "Parse discourse for temporal markers and sequence"
+      
+    - name: "ConditionalLanguage"
+      description: "Identify causal claims via conditional statements"
+      indicators: ["if...then", "because", "leads to", "results in", "causes"]
+      
+    - name: "CounterfactualStatements"
+      description: "Extract causal information from counterfactual language"
+      indicators: ["would have", "if only", "had...not", "instead"]
+      
+    - name: "CausalMarkers"
+      description: "Linguistic markers indicating causal relationships"
+      markers: ["due to", "as a result", "consequently", "therefore", "thus"]
+      
+  # Causal structure learning
+  structure_learning:
+    constraints:
+      - "Temporal ordering constrains causal direction"
+      - "Institutional authority constrains who can influence what"
+      - "Theoretical priors constrain possible relationships"
+      
+    validation:
+      - "Cross-reference with theoretical literature"
+      - "Test against known causal relationships"
+      - "Validate with expert knowledge"
+
+# ===============================================================================
+# INTEGRATION WITH OWL REASONING
+# ===============================================================================
+
+owl_causal_integration:
+  
+  # Extend OWL classes with causal properties
+  causal_owl_extensions:
+    - name: "CausalAgent"
+      equivalent_to: "Agent ⊓ ∃causally_affects.Variable"
+      description: "Agents that can causally affect other variables"
+      
+    - name: "CausallyEffective"
+      equivalent_to: "Action ⊓ ∃has_causal_effect.Outcome"
+      description: "Actions that have measurable causal effects"
+      
+    - name: "InterventionPoint"
+      equivalent_to: "Variable ⊓ ∃controllable_by.Agent ⊓ ∃affects.Outcome"
+      description: "Variables that can be intervened upon to affect outcomes"
+      
+  # Causal property chains
+  causal_property_chains:
+    - chain: "causally_affects ∘ causally_affects"
+      implies: "indirectly_affects"
+      description: "Transitive causal influence"
+      
+    - chain: "intervenes_on ∘ causally_affects"
+      implies: "can_influence"
+      description: "Intervention capability through causal chains"
+
+# ===============================================================================
+# VALIDATION AND TESTING FRAMEWORK
+# ===============================================================================
+
+causal_validation_framework:
+  
+  # Tests for causal model validity
+  validation_tests:
+    - test_name: "DAG_Acyclicity"
+      description: "Verify causal graph has no cycles"
+      implementation: "Topological sort algorithm"
+      
+    - test_name: "Identification_Validity"
+      description: "Check if causal effects are identifiable"
+      implementation: "Backdoor/frontdoor criterion checking"
+      
+    - test_name: "Cross_Level_Consistency"
+      description: "Verify consistent causal relationships across levels"
+      implementation: "Coleman's boat validation"
+      
+    - test_name: "Temporal_Consistency"
+      description: "Ensure causes precede effects"
+      implementation: "Temporal ordering validation"
+      
+  # Performance metrics
+  causal_performance_metrics:
+    - metric: "Causal_Discovery_Accuracy"
+      description: "Proportion of true causal relationships discovered"
+      
+    - metric: "Intervention_Prediction_Accuracy"
+      description: "How well model predicts intervention effects"
+      
+    - metric: "Counterfactual_Plausibility"
+      description: "Expert assessment of counterfactual scenarios"
+
+# This framework provides comprehensive causal inference capabilities
+# integrated with OWL reasoning for computational social science applications

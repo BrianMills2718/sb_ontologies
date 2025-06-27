@@ -1,0 +1,133 @@
+analysis_type: balanced_multi_purpose
+balance_validation:
+  causal_over_emphasis_detected: false
+  equal_sophistication_check: true
+  purpose_balance_score: 1.0
+  theoretical_fidelity: High - Uses Chong & Druckman 2007 concepts directly
+causal_analysis:
+  competitive_dynamics:
+    competitive_advantage: Stronger frames dominate weaker ones
+    frame_cancellation: Opposing frames may neutralize effects
+    frame_competition: Multiple frames compete for influence
+  framing_effects_causation:
+  - mechanism: accessibility
+    pathway: "Frame Exposure \u2192 Consideration Activation \u2192 Attitude Formation"
+  - mechanism: trust
+    pathway: "Source Credibility \u2192 Frame Acceptance \u2192 Opinion Change"
+  - mechanism: value_alignment
+    pathway: "Cultural Resonance \u2192 Applicability \u2192 Persuasive Impact"
+  - mechanism: superior_appeal
+    pathway: "Frame Strength \u2192 Competitive Advantage \u2192 Public Opinion"
+  moderating_causation:
+  - effect: Conditions frame acceptance based on consistency
+    moderator: Political Knowledge
+  - effect: Filters frame processing through existing beliefs
+    moderator: Prior Attitudes
+  - effect: Amplifies or reduces consideration processing depth
+    moderator: Motivation
+  - effect: Shapes frame interpretation and relevance
+    moderator: Context
+  purpose: Identify framing causal pathways and effects (balanced treatment)
+descriptive_analysis:
+  communication_factors:
+    cultural_resonance: Southern pragmatism + American idealism
+    frame_repetition: Peace theme repeated throughout speech
+    frame_strength: Appeals to values + logical coherence
+    source_credibility: Presidential authority + Personal Southern identity
+  frame_taxonomy:
+    emphasis_framing: Peace vs Security considerations
+    equivalency_framing: Cooperation = Peace = Stability
+    issue_framing: Arms control as cooperation vs competition management
+    valence_framing: Positive cooperation outcomes vs negative competition
+  frames_in_communication:
+  - considerations:
+    - mutual benefit
+    - shared humanity
+    - cooperation
+    frame: Peace Frame
+    type: emphasis_framing
+  - considerations:
+    - strategic balance
+    - deterrence
+    - arms control
+    frame: Security Frame
+    type: emphasis_framing
+  - considerations:
+    - human rights
+    - moral leadership
+    - principles
+    frame: Values Frame
+    type: issue_framing
+  - considerations:
+    - self-interest
+    - power balance
+    - reciprocity
+    frame: Realism Frame
+    type: valence_framing
+  purpose: Classify frame types and communication structure
+explanatory_analysis:
+  expectancy_value_model:
+    attitude_formation: "Attitude = \u03A3(value_i \xD7 weight_i)"
+    key_values:
+    - peace
+    - security
+    - credibility
+    - moral_leadership
+    salience_weights: Speech attempts to increase peace/cooperation weights
+  individual_moderators:
+    core_values: Peace, self-reliance, moral leadership, practical results
+    ideology: Conservative pragmatism + liberal idealism synthesis
+    motivation: High motivation due to foreign policy responsibilities
+    partisanship: Bipartisan foreign policy tradition appeals across parties
+    political_knowledge: Legislative audience has high political sophistication
+    predisposition: Southern audience values independence and skepticism of Washington
+  psychological_mechanisms:
+    accessibility: Vietnam/Watergate memories activate credibility concerns
+    applicability: Universal human values connect with audience beliefs
+    availability: Peace concepts made available through repetition and emphasis
+    motivated_reasoning: Appeals designed to align with Southern values
+  purpose: Explain psychological mechanisms and frame processing
+intervention_analysis:
+  competitive_framing_interventions:
+    elite_frame_cascade: Use legislative leaders to amplify frame reach
+    frame_in_thought_targeting: Activate desired considerations in audience minds
+    multi_venue_reinforcement: Repeat frames across legislative and public venues
+    preemptive_framing: Shape issue interpretation before opposition frames
+  framing_strategies:
+  - application: Use conservative values for liberal policies
+    strategy: Frame Appropriation
+  - application: Connect to Southern pragmatic traditions
+    strategy: Cultural Resonance
+  - application: Leverage presidential authority
+    strategy: Source Credibility
+  - application: Tailor frames to legislative audience
+    strategy: Audience Anticipation
+  purpose: Design strategic framing interventions and campaigns
+  strategic_considerations:
+    frame_strength_optimization: Maximize cultural resonance and logical appeal
+    inoculation_effect_management: Prepare for competing frame exposure
+    learning_facilitation: Support informed rather than manipulated opinion
+    opinion_manipulation_avoidance: Maintain democratic deliberation standards
+model_type: property_graph
+predictive_analysis:
+  audience_response_forecasts:
+    high_knowledge_effect: Complex frame engagement due to political sophistication
+    motivation_amplification: High political motivation increases frame processing
+    predisposition_interaction: Southern pragmatism will moderate idealistic elements
+    source_credibility_boost: Presidential + Southern identity enhances acceptance
+  frame_competition_predictions:
+  - advantage: Peace frame cultural resonance
+    competing_frame: Hardline security frame
+  - advantage: Realism frame self-interest appeal
+    competing_frame: Isolationist frame
+  - advantage: Values frame moral authority
+    competing_frame: Idealistic frame
+  framing_effects_timeline:
+    immediate: Frame availability increased through speech exposure
+    long_term: Learning over time may reduce framing susceptibility
+    medium_term: Applicability tested through policy implementation
+    short_term: Accessibility heightened through media coverage
+  purpose: Forecast framing effects and audience responses
+speech_length: 20636
+theory_applied: Chong & Druckman (2007) Framing Theory
+timestamp: '2025-06-26T17:02:29.372768'

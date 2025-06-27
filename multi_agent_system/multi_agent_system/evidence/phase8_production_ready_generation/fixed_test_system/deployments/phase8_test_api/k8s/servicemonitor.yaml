@@ -1,0 +1,16 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: phase8_test_api-monitor
+  namespace: phase8_test_api
+  labels:
+    app: phase8_test_api
+    component: monitoring
+spec:
+  selector:
+    matchLabels:
+      app: phase8_test_api
+  endpoints:
+  - port: metrics
+    interval: 30s
+    path: /metrics

@@ -1,0 +1,44 @@
+REMOVED FALLBACK LOGIC FROM validation_framework.py:
+
+1. REMOVED LLM FALLBACK TO MOCK MODE:
+   BEFORE:
+   ```python
+   # Fall back to mock mode if no API keys available
+   self.logger.warning("No LLM API keys found, using mock mode for semantic validation")
+   validator = SemanticValidator(mock_mode=True)
+   ```
+   
+   AFTER:
+   ```python
+   # Fail hard if no LLM configuration available
+   raise ValidationFailureError(
+       "Level 4 semantic validation requires LLM configuration. "
+       "Set OPENAI_API_KEY or ANTHROPIC_API_KEY. "
+       "NO FALLBACK MODES AVAILABLE - this exposes real dependency issues."
+   )
+   ```
+
+2. REMOVED COMPONENT SKIPPING:
+   BEFORE:
+   ```python
+   return ValidationResult(
+       level="Level 4",
+       passed=False,
+       error_message=f"System incomplete: {len(skipped_components)} components skipped due to unsupported types: {', '.join(skipped_components)}",
+       ...
+   )
+   ```
+   
+   AFTER:
+   ```python
+   # Fail hard instead of allowing incomplete systems
+   raise ValidationFailureError(
+       f"System generation incomplete: {len(unsupported_components)} components have unsupported types: {', '.join(unsupported_components)}. "
+       f"All component types must be supported. No component skipping allowed - this hides system incompleteness."
+   )
+   ```
+
+3. ADDED ValidationFailureError EXCEPTION:
+   - New exception class for hard failures
+   - Clear error messages explaining dependency requirements
+   - No silent fallbacks or degraded modes

@@ -1,0 +1,18 @@
+REFINED DETECTOR TEST
+Input: validation_results/cross_domain/framing_theory_core.txt
+Detector: experimental_testing/prompt_variations/specialized_model_detection/property_graph_detector_v2.txt
+==================================================
+
+detection_confidence: 0.0  
+structure_type: "property_graph"  
+evidence:
+  - "The theory does not use explicit network terminology such as nodes, edges, or network metrics."
+  - "There is no discussion of network-level emergent properties or complex interconnection patterns."
+network_centrality_evidence:
+  - "There is no mention of network centrality, clustering, density, or other graph-theoretic properties as a basis for theoretical prediction."
+  - "The theory does not examine network positions or topological influences on decision-making."
+relationship_richness_evidence:
+  - "While the theory involves relationships between concepts (e.g., framing, risk preference, loss aversion), these are not depicted as a rich network of interconnected entities."
+  - "The relationships are primarily linear or causal rather than constituting multiple types of interconnections among the same entities."
+alternative_structure_analysis: "The theory is primarily a comparison of decision alternatives influenced by framing conditions, reflecting a sequential and causal process rather than a network structure."
+confidence_justification: "The decision-making framework focuses on how framing affects individual choices and risk preferences, without emphasizing networked or interconnected relationships as the core theoretical innovation. Therefore, network structure is not the primary theoretical contribution in this theory."

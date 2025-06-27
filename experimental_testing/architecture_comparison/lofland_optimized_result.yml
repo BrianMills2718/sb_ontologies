@@ -1,0 +1,88 @@
+input_file: validation_results/complexity_testing/lofland_stark_simple_theory.txt
+processing_pipeline: optimized_experimental
+theory_count_detection: 'theory_count: single
+
+  relationships_between_theories: none
+
+  confidence: high
+
+  reasoning: "The paper proposes a unified ''value-added'' model for conversion to
+  a deviant perspective, describing a single, coherent framework based on seven sequential
+  conditions. There is no presentation of competing theoretical approaches or an integration
+  of separate existing theories."'
+specialized_detection:
+  table_matrix: "detection_confidence: 0.2\nstructure_type: \"table_matrix\"\nevidence:\n\
+    \  - \"The paper outlines a sequential, funnel-like process (seven conditions)\
+    \ and a classification (verbal vs. total converts) without systematic cross-tabulation.\"\
+    \n  - \"While it lists multiple factors and outcome types, it does so in narrative\
+    \ form and does not organize these elements explicitly as rows and columns for\
+    \ direct matrix comparison.\"\nextracted_structure:\n  rows: [\"Sequential Conversion\
+    \ Conditions\", \"Conversion Outcomes (Types)\"]\n  columns: [\"Narrative Description\"\
+    , \"Role/Impact in Conversion\"]\n  cells: \"Each cell would ideally indicate\
+    \ how a specific condition contributes to or differentiates between conversion\
+    \ outcomes, but in the theory these relationships are described sequentially rather\
+    \ than tabulated.\"\n  dimensions: \"Approximately 2xN (where N = number of conditions)\
+    \ if forced into a table, but not explicitly defined in the text\"\nprimary_comparison:\
+    \ \"The theory implicitly contrasts the accumulation of conversion conditions\
+    \ against the eventual conversion type (verbal vs. total), suggesting a progression\
+    \ rather than an explicit matrix of factors versus outcomes.\"\nalternative_representations:\
+    \ \"A flow diagram or process model (e.g., a funnel or decision tree) would more\
+    \ naturally represent the sequential and conditional nature of the theory compared\
+    \ to a table/matrix format.\""
+  property_graph: "detection_confidence: 0.1\nstructure_type: \"property_graph\"\n\
+    evidence:\n  - \"The theory is structured as a sequence of seven accumulating\
+    \ conditions (a funnel), not as a network of interconnected nodes.\"\n  - \"It\
+    \ does not use explicit network terminology such as nodes, edges, or network metrics.\"\
+    \nnetwork_centrality_evidence:\n  - \"There is no discussion of network properties\
+    \ like centrality, clustering, or density as key predictors.\"\n  - \"Network-level\
+    \ emergent properties are not a focus or predictive component of the theory.\"\
+    \nrelationship_richness_evidence:\n  - \"While affective bonds and extra-cult\
+    \ attachments indicate relational aspects, they are treated simply as factors\
+    \ within a sequential process rather than multiple relationship types creating\
+    \ emergent network properties.\"\n  - \"The relationships are not complexly structured\
+    \ to form a dynamic network; instead, they are conditions needed in a linear conversion\
+    \ process.\"\nalternative_structure_analysis: \"This theory is better characterized\
+    \ as a sequential, funnel-like model of conversion rather than a network or graph\
+    \ structure. It emphasizes an ordered process, not the interconnectivity of an\
+    \ entity network.\"\nconfidence_justification: \"The primary theoretical contribution\
+    \ is a series of sequential conditions for conversion rather than an exploration\
+    \ or application of network properties. Although some relational ideas are present,\
+    \ they lack the multilayered connectivity and network-level emergent characteristics\
+    \ that would indicate a property graph structure.\""
+  sequence: "detection_confidence: 1.0\nstructure_type: \"sequence\"\nevidence:\n\
+    \  - \"The theory explicitly outlines seven conditions arranged in a specific\
+    \ order (from tension to intensive interaction) that must be met successively\
+    \ for conversion.\"\n  - \"The 'value-added' model functions as a funnel, where\
+    \ each successive stage (or prerequisite) reduces the pool of potential converts,\
+    \ emphasizing a clear sequential progression.\"\nextracted_structure:\n  steps:\n\
+    \    - \"Tension\"\n    - \"Religious Problem-Solving Perspective\"\n    - \"\
+    Seekership\"\n    - \"Turning Point\"\n    - \"Affective Bonds\"\n    - \"Neutralization\
+    \ of Extra-Cult Attachments\"\n    - \"Intensive Interaction\"\n  ordering_logic:\
+    \ \"Each condition acts as a necessary prerequisite that must be activated in\
+    \ order to enable the next stage, forming a funnel-like progression where prior\
+    \ stages condition the emergence and impact of subsequent ones.\"\n  progression_type:\
+    \ \"developmental\"\n  prerequisites: \"Each step requires the prior establishment\
+    \ or activation of conditions (e.g., tension must be felt before one adopts a\
+    \ religious problem-solving perspective, and so on), ensuring that conversion\
+    \ only proceeds when the cumulative prerequisites are met.\"\nsequential_characteristics:\
+    \ \"The theory is sequential because it posits a stepwise accumulation of necessary\
+    \ conditions where each stage must be activated before progressing to the next,\
+    \ rather than a simultaneous or non-ordered relationship among factors.\"\nalternative_representations:\
+    \ \"While the process could potentially be depicted in a graph or table outlining\
+    \ the key conditions and their interdependencies, the inherent funnel structure\u2014\
+    emphasizing cumulative filtering and ordered activation\u2014is best captured\
+    \ by a sequential stage or flowchart model.\""
+hybrid_detection: "hybrid_detected: false\nconfidence: 0.95\nprimary_components:\n\
+  \  - component_name: \"Sequential Funnel Model\"\n    model_type: \"sequence\"\n\
+  \    evidence: \"The theory is built around a sequence of seven conditions arranged\
+  \ in a funnel, where each stage (from tension to intensive interaction) sequentially\
+  \ narrows the set of potential converts.\"\n    theoretical_role: \"It accounts\
+  \ for the progressive accumulation of necessary factors to achieve conversion, serving\
+  \ as a process-flow model.\"\nintegration_mechanisms:\n  - \"There is no evidence\
+  \ of distinct structural paradigms (e.g., network, table/matrix, or statistical\
+  \ models) that require integration; all conditions are represented within the sequential\
+  \ process.\"\nintegration_type: layerd\nunified_framework_name: \"Value-Added Conversion\
+  \ Model\"\nalternative_single_model: \"Yes, the theory is adequately captured by\
+  \ a single sequential model type without the necessity for hybrid representations.\""
+model_type: sequence
+confidence: 0.8

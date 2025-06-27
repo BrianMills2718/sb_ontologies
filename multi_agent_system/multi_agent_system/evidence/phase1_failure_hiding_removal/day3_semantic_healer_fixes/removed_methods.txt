@@ -1,0 +1,8 @@
+Removed mock_mode parameter from SemanticHealer.__init__()
+Removed _mock_llm_healing() method
+Removed _mock_test_data_generation() method
+Removed auto_mock_mode logic
+Removed mock_mode conditional checks
+Added SemanticHealingConfigurationError exception class
+Added _is_llm_available() method
+Updated constructor to fail hard when LLM not available

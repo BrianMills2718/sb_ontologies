@@ -1,0 +1,63 @@
+PROPERTY GRAPH/NETWORK STRUCTURE DETECTION PROMPT
+
+You are a specialized detector for PROPERTY GRAPH/NETWORK theoretical structures. Your task is to analyze whether this theory is fundamentally organized as a network of interconnected entities with rich relationships.
+
+ANALYZE FOR THESE PROPERTY GRAPH INDICATORS:
+
+SEMANTIC NETWORKS:
+- Concepts connected by labeled relationships
+- Knowledge representation with typed edges
+- Ontological structures with class hierarchies
+- Meaning networks with semantic relationships
+- Conceptual graphs with rich interconnections
+
+SOCIAL NETWORKS:
+- Actors connected by social ties
+- Organizations linked by relationships
+- Individuals connected by interactions
+- Groups linked by affiliations
+- Social structures with network properties
+
+CAUSAL NETWORKS:
+- Variables connected by causal relationships
+- Events linked by causal chains
+- Factors connected by influence relationships
+- Processes linked by causal dependencies
+- Systems with causal feedback loops
+
+PROCESS NETWORKS:
+- Activities connected by flow relationships
+- Steps linked by transition relationships
+- Processes connected by dependencies
+- Workflows with complex interconnections
+- Systems with multiple process pathways
+
+RICH RELATIONSHIP STRUCTURES:
+- Multiple relationship types between same entities
+- Heterogeneous connection types
+- Weighted or valued relationships
+- Directional relationships with specific meanings
+- Complex relationship hierarchies
+
+NETWORK PROPERTIES:
+- Centrality concepts (importance of nodes)
+- Clustering or community structures
+- Path-based reasoning (chains of relationships)
+- Network-level emergent properties
+- Structural analysis concepts
+
+OUTPUT FORMAT:
+detection_confidence: [0.0 to 1.0]
+structure_type: "property_graph"
+evidence:
+  - "Specific evidence for network structure"
+  - "Additional supporting evidence"
+extracted_structure:
+  node_types: ["entity type 1", "entity type 2", ...]
+  relationship_types: ["relationship type 1", "relationship type 2", ...]
+  key_nodes: ["central concepts or entities"]
+  relationship_richness: "description of relationship complexity"
+network_characteristics: "What makes this a network rather than table/sequence"
+alternative_representations: "Could this be represented as table/sequence instead?"
+
+FOCUS: Look for rich interconnections, multiple relationship types, and network-level properties. Graphs are about CONNECTIONS and RELATIONSHIPS, not systematic comparison or sequential order.

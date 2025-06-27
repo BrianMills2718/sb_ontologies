@@ -1,0 +1,327 @@
+schema_reference: /home/brian/lit_review/schemas/semantic_hypergraph/semantic_hypergraph_complete.yml
+model_type: hypergraph
+instance:
+  vertices:
+  - id: a1
+    label: David Leonhardt
+    type: concept
+  - id: a2
+    label: Bret Stephens
+    type: concept
+  - id: a3
+    label: Rosemary Kelanic
+    type: concept
+  - id: a4
+    label: President Trump
+    type: concept
+  - id: a5
+    label: Israel
+    type: concept
+  - id: a6
+    label: Iran
+    type: concept
+  - id: a7
+    label: United States
+    type: concept
+  - id: a8
+    label: war in Iran
+    type: concept
+  - id: a9
+    label: 12 day war
+    type: concept
+  - id: a10
+    label: nuclear program
+    type: concept
+  - id: a11
+    label: ballistic missile capabilities
+    type: concept
+  - id: a12
+    label: cease fire
+    type: concept
+  - id: a13
+    label: hostilities
+    type: concept
+  - id: a14
+    label: Fordo facilities
+    type: concept
+  - id: a15
+    label: strategic military goals
+    type: concept
+  - id: a16
+    label: over state
+    type: concept
+  - id: a17
+    label: striking Iran
+    type: concept
+  - id: a18
+    label: US military action in Iran
+    type: concept
+  hyperedges:
+  - id: h1
+    connector_id: a19
+    connector_type: P
+    arguments:
+    - a2
+    - a18
+    ordered: true
+    connector_roles: sa
+    argument_roles:
+    - s
+    - a
+    truth_value: claim_Bret
+  - id: h2
+    connector_id: a20
+    connector_type: P
+    arguments:
+    - a3
+    - a7
+    - a17
+    ordered: true
+    connector_roles: soa
+    argument_roles:
+    - s
+    - o
+    - a
+    truth_value: claim_Rosemary
+  - id: h3a
+    connector_id: a21
+    connector_type: P
+    arguments:
+    - a1
+    - a2
+    ordered: true
+    connector_roles: so
+    argument_roles:
+    - s
+    - o
+  - id: h3b
+    connector_id: a21
+    connector_type: P
+    arguments:
+    - a1
+    - a3
+    ordered: true
+    connector_roles: so
+    argument_roles:
+    - s
+    - o
+  - id: h5a
+    connector_id: a31
+    connector_type: B
+    arguments:
+    - a5
+    - a6
+    ordered: false
+  - id: h5
+    connector_id: a25
+    connector_type: P
+    arguments:
+    - a4
+    - h5a
+    ordered: true
+    connector_roles: so
+    argument_roles:
+    - s
+    - o
+  - id: h4
+    connector_id: a23
+    connector_type: P
+    arguments:
+    - a4
+    - a8
+    - a9
+    ordered: true
+    connector_roles: soc
+    argument_roles:
+    - s
+    - o
+    - c
+  - id: h6a
+    connector_id: a33
+    connector_type: P
+    arguments:
+    - a8
+    - a16
+    ordered: true
+    connector_roles: sc
+    argument_roles:
+    - s
+    - c
+  - id: h6
+    connector_id: a24
+    connector_type: P
+    arguments:
+    - a4
+    - h6a
+    ordered: true
+    connector_roles: sa
+    argument_roles:
+    - s
+    - a
+  - id: h7
+    connector_id: a26
+    connector_type: P
+    arguments:
+    - a5
+    - a15
+    ordered: true
+    connector_roles: so
+    argument_roles:
+    - s
+    - o
+    truth_value: claim_Bret
+  - id: h8
+    connector_id: a27
+    connector_type: P
+    arguments:
+    - a5
+    - a11
+    ordered: true
+    connector_roles: so
+    argument_roles:
+    - s
+    - o
+    truth_value: claim_Bret
+  - id: hMain
+    connector_id: a31
+    connector_type: B
+    arguments:
+    - h1
+    - h2
+    - h6
+    ordered: false
+  atoms:
+  - id: a1
+    term: David_Leonhardt
+    type: C
+  - id: a2
+    term: Bret_Stephens
+    type: C
+  - id: a3
+    term: Rosemary_Kelanic
+    type: C
+  - id: a4
+    term: President_Trump
+    type: C
+  - id: a5
+    term: Israel
+    type: C
+  - id: a6
+    term: Iran
+    type: C
+  - id: a7
+    term: United_States
+    type: C
+  - id: a8
+    term: war_in_Iran
+    type: C
+  - id: a9
+    term: 12_day_war
+    type: C
+  - id: a10
+    term: nuclear_program
+    type: C
+  - id: a11
+    term: ballistic_missile_capabilities
+    type: C
+  - id: a12
+    term: cease_fire
+    type: C
+  - id: a13
+    term: hostilities
+    type: C
+  - id: a14
+    term: Fordo_facilities
+    type: C
+  - id: a15
+    term: strategic_military_goals
+    type: C
+  - id: a16
+    term: over_state
+    type: C
+  - id: a17
+    term: striking_Iran
+    type: C
+  - id: a18
+    term: US_military_action_in_Iran
+    type: C
+  - id: a19
+    term: applaud
+    type: P
+    roles: sa
+  - id: a20
+    term: warn
+    type: P
+    roles: soa
+  - id: a21
+    term: invite
+    type: P
+    roles: so
+  - id: a23
+    term: refer_to
+    type: P
+    roles: soc
+  - id: a24
+    term: suggest
+    type: P
+    roles: sa
+  - id: a25
+    term: lash_out
+    type: P
+    roles: so
+  - id: a26
+    term: accomplish
+    type: P
+    roles: so
+  - id: a27
+    term: degrade
+    type: P
+    roles: so
+  - id: a33
+    term: be
+    type: P
+    roles: sc
+  - id: a31
+    term: +
+    type: B
+  connectors:
+  - id: a19
+    term: applaud
+    type: P
+    roles: sa
+  - id: a20
+    term: warn
+    type: P
+    roles: soa
+  - id: a21
+    term: invite
+    type: P
+    roles: so
+  - id: a23
+    term: refer_to
+    type: P
+    roles: soc
+  - id: a24
+    term: suggest
+    type: P
+    roles: sa
+  - id: a25
+    term: lash_out
+    type: P
+    roles: so
+  - id: a26
+    term: accomplish
+    type: P
+    roles: so
+  - id: a27
+    term: degrade
+    type: P
+    roles: so
+  - id: a33
+    term: be
+    type: P
+    roles: sc
+  - id: a31
+    term: +
+    type: B
+  main_hyperedge: hMain

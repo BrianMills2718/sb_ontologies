@@ -1,0 +1,123 @@
+Below is an exhaustive inventory of the formal notation that appears throughout the Semantic-Hypergraph (SH) paper.  Everything has been grouped by function and, whenever the text itself is not fully explicit, the intended meaning is reconstructed from the context given in examples, figures and pattern definitions.
+
+────────────────────────────────────────
+A.  Eight-letter TYPE SYSTEM
+────────────────────────────────────────
+Every node in an SH carries exactly one upper-case, single-letter type code.
+
+C   Concept / Constant     
+    – ordinary entities and named objects (dog, IBM, «Paris», …)
+
+P   Predicate / Process    
+    – verbs, relational nouns and any lexical head that licenses arguments
+
+M   Modifier               
+    – adjectives, adverbs, numerals, quantifiers, intensifiers, etc.
+
+B   Binder                 
+    – grammatical case markers, prepositions, subordinators; used to bind
+      extra complements or obliques to another node
+
+T   Temporal token         
+    – tense, aspect, modal particles, explicit dates / times, temporal adverbs
+
+J   Junction               
+    – logical or discourse connectives (and, or, but, although, ;, …)
+
+R   Reference              
+    – pronouns, demonstratives, coreference placeholders, trace links
+
+S   Statement              
+    – a reified proposition so that “claims about claims” can be expressed
+
+
+────────────────────────────────────────
+B.  ARGUMENT-ROLE CODES
+────────────────────────────────────────
+Edge labels follow the pattern  <TYPE>.<role> .  
+The part after the dot is a lower-case abbreviation of the semantic role.
+All role abbreviations that occur in the paper are listed here.
+
+sa   subject-agent                    (P.sa   = predicate’s canonical subject)
+pa   patient / direct-object          (P.pa   = DO)
+ioa  indirect-object / addressee      (P.ioa  = IO)
+soa  subject-or-object (underspec.)   (P.soa  = left ambiguous by parser)
+ma   modifier-argument                (B.ma   = thing modified by a binder)
+ta   temporal adjunct                 (P.ta)
+ra   reason / cause adjunct           (P.ra)
+ga   goal / directive adjunct         (P.ga)
+ca   comparative adjunct              (P.ca)
+da   determiner-argument              (P.da or C.da)
+la   locative adjunct                 (P.la)
+na   negation argument                (P.na)
+qa   quantity argument                (P.qa)
+
+(The dotted role abbreviations never appear without their leading type
+letter.)
+
+Typical example seen in paper:      P.sa  +/B  P.pa  
+→ “predicate’s subject, followed by any number of Binder phrases,
+   followed by the predicate’s object.”
+
+
+────────────────────────────────────────
+C.  PATTERN-MATCHING SYNTAX
+────────────────────────────────────────
+The authors introduce a small, regular-expression-like language that
+operates directly over typed nodes and their labels.
+
+Primitive atom
+    /T            any node of type T   (T ∈ {C,P,M,B,T,J,R,S})
+
+Quantifiers
+    :             exactly one instance
+    +             one or more (1..∞)
+    *             zero or more (0..∞)
+    ?             optional (0 | 1)
+
+Disjunction & grouping
+    |             logical OR
+    (…)           grouping
+
+Wildcards with type restrictions
+    +/B           1+ Binder nodes
+    */M           any number of Modifiers
+    :/J           exactly one Junction
+
+Literal concept
+    :"text"/C     concept whose surface form is “text”
+
+Rewrite / rule arrow
+    ⇒   or  ->    separates LHS pattern from RHS action
+
+Variable capture
+    P.sa:SUBJ     binds the matched node to variable SUBJ for reuse on RHS
+
+Full rule template
+    PATTERN  ->  ( NEW-HYPEREDGE  … )
+
+
+────────────────────────────────────────
+D.  SPECIAL FIGURE GLYPHS
+────────────────────────────────────────
+⊕   root / focus of the current sub-graph  
+⊗   already-reduced (collapsed) fragment  
+◊   ellipsis (content omitted)  
+
+These symbols never occur in machine-readable patterns; they are
+purely diagrammatic, but recur in examples and therefore belong in the
+inventory.
+
+
+────────────────────────────────────────
+E.  SUMMARY CHEAT-SHEET
+────────────────────────────────────────
+• Type letters  C P M B T J R S  
+• Role suffixes sa pa ioa soa ma ta ra ga ca da la na qa  
+• Wildcards / quantifiers +/T  */T  :/T  ? / * / + / :  
+• Delimiters & operators |  (…)  ⇒ / ->  
+• Figure-only glyphs  ⊕  ⊗  ◊  
+
+Together, these elements constitute the complete notation system
+employed by the Semantic-Hypergraph framework as described in the
+paper.

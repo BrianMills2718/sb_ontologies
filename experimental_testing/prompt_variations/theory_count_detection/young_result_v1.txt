@@ -1,0 +1,22 @@
+THEORY COUNT DETECTION TEST
+Input: validation_results/academic_papers/young1996_cognitive_mapping.txt
+Prompt: experimental_testing/prompt_variations/theory_count_detection/theory_count_prompt_v1.txt
+==================================================
+
+theory_count: integration
+
+base_theories:
+  - name: "Cognitive Mapping"
+    source: "Axelrod, Bonham, Shapiro, and others (1970s)"
+  - name: "Semantic Networks"
+    source: "Ross Quillian (1968) and related work"
+
+integration_type: combination
+
+new_framework_name: "WorldView"
+
+relationships_between_theories: synthesis
+
+confidence: high
+
+reasoning: "The paper does not introduce multiple conflicting theories or just a single theory; instead, it integrates two established approaches—cognitive mapping and semantic networks—into a new, unified framework called WorldView. The author builds on earlier methods in cognitive mapping and enhances them by incorporating symbolic, relation-differentiated features of semantic networks, providing a combined and enriched approach to representing belief structures and decision processes."

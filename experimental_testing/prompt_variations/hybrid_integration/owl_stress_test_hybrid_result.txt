@@ -1,0 +1,38 @@
+COMPLEX HYBRID THEORY DETECTION TEST
+Input: owl_enhanced_stress_test_schema.yml
+==================================================
+
+hybrid_detected: true
+confidence: 1.0
+primary_components:
+  - component_name: "Belief Influence Network"
+    model_type: "property_graph"
+    evidence: "Describes agent beliefs, social influences, and information propagation using OWL class hierarchies to capture network relationships."
+    theoretical_role: "Represents the social and cognitive network that underpins collective intelligence."
+  - component_name: "Institutional Payoff Matrix"
+    model_type: "table_matrix"
+    evidence: "Details game-theoretic payoff structures across various institutional configurations with automated game classification."
+    theoretical_role: "Captures strategic interactions and decision payoffs in institutional settings."
+  - component_name: "Governance Adaptation Sequence"
+    model_type: "sequence"
+    evidence: "Outlines temporal stages of institutional adaptation, incorporating temporal reasoning and stage inference."
+    theoretical_role: "Models the dynamic, stepwise transitions in adaptive governance mechanisms."
+  - component_name: "Collective Intelligence Model"
+    model_type: "statistical"
+    evidence: "Uses Bayesian belief updating and competence-based classification to aggregate individual cognitive inputs."
+    theoretical_role: "Quantifies and aggregates individual contributions to form collective intelligence outcomes."
+  - component_name: "Normative Reasoning System"
+    model_type: "logical"
+    evidence: "Uses deontic logic for specifying normative rules along with automated consistency checking."
+    theoretical_role: "Provides the formal normative grounding that constrains individual and institutional actions."
+  - component_name: "OWL Reasoning Engine"
+    model_type: "logical_inference"
+    evidence: "Enables complex automated reasoning across all components through OWL-based class inference, property chains, and consistency checks."
+    theoretical_role: "Integrates and cross-validates the outputs of the other components ensuring unified automated inference."
+integration_mechanisms:
+  - "Cross-component OWL axioms that map belief networks to game theoretic structures and institutional adaptation processes."
+  - "Property chain axioms (e.g., influences ∘ participatesIn) that enable transitive and indirect inferences across components."
+  - "Automated inference rules and consistency constraints that connect logical, statistical, and sequential representations."
+integration_type: synthesis
+unified_framework_name: "Adaptive Governance and Collective Intelligence Framework"
+alternative_single_model: "No – the theory necessitates multiple representational paradigms that a single model cannot capture."

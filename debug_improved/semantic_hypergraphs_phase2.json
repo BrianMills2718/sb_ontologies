@@ -1,0 +1,752 @@
+{
+  "entities": [
+    {
+      "term": "Semantic Hypergraph (SH)",
+      "term_type": "entity",
+      "subtype": "core-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": "recursive ordered hypergraph",
+      "constraints": {
+        "recursive": "hyperedges may nest as vertices",
+        "ordered": "arguments keep left-to-right textual order",
+        "tolerates_ambiguity": "multiple incompatible parses may co-exist"
+      }
+    },
+    {
+      "term": "hyperedge",
+      "term_type": "entity",
+      "subtype": "structural-element",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "arity": "n-ary (n \u2265 1)",
+        "ordered": "argument sequence matters",
+        "can_be_vertex": "supports recursion"
+      }
+    },
+    {
+      "term": "atom",
+      "term_type": "entity",
+      "subtype": "structural-element",
+      "domain": null,
+      "range": null,
+      "parent_concept": "hyperedge",
+      "constraints": {
+        "size": "exactly 1 argument",
+        "indivisible": "cannot be further decomposed"
+      }
+    },
+    {
+      "term": "recursive ordered hypergraph",
+      "term_type": "entity",
+      "subtype": "structural-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": "hypergraph",
+      "constraints": {
+        "recursion": "edges can participate as vertices",
+        "order": "vertex order is preserved"
+      }
+    },
+    {
+      "term": "connector",
+      "term_type": "entity",
+      "subtype": "role-marker",
+      "domain": null,
+      "range": null,
+      "parent_concept": "atom",
+      "constraints": {
+        "position": "1st element of every non-atomic hyperedge",
+        "semantics": "determines semantic relation of edge"
+      }
+    },
+    {
+      "term": "predicate (P)",
+      "term_type": "entity",
+      "subtype": "type-code.connector",
+      "domain": null,
+      "range": null,
+      "parent_concept": "connector",
+      "constraints": {
+        "produces": "relation (R) hyperedge",
+        "function": "states factual relation among arguments"
+      }
+    },
+    {
+      "term": "modifier (M)",
+      "term_type": "entity",
+      "subtype": "type-code.connector",
+      "domain": null,
+      "range": null,
+      "parent_concept": "connector",
+      "constraints": {
+        "arity": "unary over an existing hyperedge",
+        "result_type": "same as input edge"
+      }
+    },
+    {
+      "term": "builder (B)",
+      "term_type": "entity",
+      "subtype": "type-code.connector",
+      "domain": null,
+      "range": null,
+      "parent_concept": "connector",
+      "constraints": {
+        "goal": "construct compound concept",
+        "typical_surface_form": "prepositional noun-phrases"
+      }
+    },
+    {
+      "term": "trigger (T)",
+      "term_type": "entity",
+      "subtype": "type-code.connector",
+      "domain": null,
+      "range": null,
+      "parent_concept": "connector",
+      "constraints": {
+        "adds": "extra situational information",
+        "yields": "specifier (S) edge"
+      }
+    },
+    {
+      "term": "relation (R)",
+      "term_type": "entity",
+      "subtype": "type-code.edge-type",
+      "domain": null,
+      "range": null,
+      "parent_concept": "hyperedge",
+      "constraints": {
+        "origin": "produced by a predicate connector",
+        "usage": "represents facts/questions/commands"
+      }
+    },
+    {
+      "term": "specifier (S)",
+      "term_type": "entity",
+      "subtype": "type-code.edge-type",
+      "domain": null,
+      "range": null,
+      "parent_concept": "hyperedge",
+      "constraints": {
+        "origin": "produced by trigger (T)",
+        "role": "attaches circumstances to a relation"
+      }
+    },
+    {
+      "term": "concept (C)",
+      "term_type": "entity",
+      "subtype": "type-code.edge-type",
+      "domain": null,
+      "range": null,
+      "parent_concept": "atom",
+      "constraints": {
+        "lexical": "corresponds to lexeme or WordNet synset"
+      }
+    },
+    {
+      "term": "type inference rule",
+      "term_type": "entity",
+      "subtype": "rule-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "format": "lhs pattern  \u21d2 resulting-type",
+        "deterministic": "no ambiguity in output type"
+      }
+    },
+    {
+      "term": "inference rule",
+      "term_type": "entity",
+      "subtype": "rule-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "structure": "lhs \u2011> rhs SH pattern pair",
+        "effect": "materialises new hyperedge when lhs matches"
+      }
+    },
+    {
+      "term": "open-adaptive quadrant",
+      "term_type": "entity",
+      "subtype": "meta-framework",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "axes": "open/opaque \u00d7 strict/adaptive",
+        "target": "desired region for SH methods"
+      }
+    },
+    {
+      "term": "pattern (SH pattern)",
+      "term_type": "entity",
+      "subtype": "inference-template",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "contents": "variables, wildcards, ellipsis",
+        "purpose": "matching & transforming SH graphs"
+      }
+    },
+    {
+      "term": "pattern learning template",
+      "term_type": "entity",
+      "subtype": "methodological-framework",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "workflow": "human-in-the-loop iterative generalisation"
+      }
+    },
+    {
+      "term": "co-occurrence graph (SH)",
+      "term_type": "entity",
+      "subtype": "derived-representation",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "vertices": "auxiliary concepts",
+        "edge_definition": "co-appear with seed concept in same SH edge"
+      }
+    },
+    {
+      "term": "coreference set",
+      "term_type": "entity",
+      "subtype": "inferred-entity",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "membership": "compound concepts referring to same real-world entity",
+        "induction": "probabilistic heuristics on co-occurrence graph"
+      }
+    },
+    {
+      "term": "alpha feature set (F5, F3)",
+      "term_type": "entity",
+      "subtype": "model-feature",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "examples": "TAG, DEP, POS_AFTER",
+        "selection": "optimised via GA & ablation"
+      }
+    },
+    {
+      "term": "actor (SH)",
+      "term_type": "entity",
+      "subtype": "role-entity",
+      "domain": null,
+      "range": null,
+      "parent_concept": "concept (C)",
+      "constraints": {
+        "semantic_type": "person/organisation/country"
+      }
+    },
+    {
+      "term": "topic (SH)",
+      "term_type": "entity",
+      "subtype": "content-entity",
+      "domain": null,
+      "range": null,
+      "parent_concept": "concept (C)",
+      "constraints": null
+    },
+    {
+      "term": "lingua franca (for hybrid agents)",
+      "term_type": "entity",
+      "subtype": "vision-concept",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "role": "shared representation language between symbolic & ML agents"
+      }
+    },
+    {
+      "term": "explainable artificial intelligence (XAI)",
+      "term_type": "entity",
+      "subtype": "field-context",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "Graphbrain library",
+      "term_type": "entity",
+      "subtype": "tool-artifact",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "implementation": "parsing, storage, inference for SH"
+      }
+    },
+    {
+      "term": "S-expression isomorphism",
+      "term_type": "entity",
+      "subtype": "theoretical-insight",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "equivalence": "hyperedge  \u2194  Lisp S-expression"
+      }
+    },
+    {
+      "term": "dependency parse tree (DPT)",
+      "term_type": "entity",
+      "subtype": "external-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "usage": "intermediate representation for \u03b1/\u03b2 stages"
+      }
+    },
+    {
+      "term": "Universal Dependencies",
+      "term_type": "entity",
+      "subtype": "external-standard",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "coverage_goal": "SH type system aligns to UD tags"
+      }
+    },
+    {
+      "term": "automatic programming analogy",
+      "term_type": "entity",
+      "subtype": "conceptual-analogy",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "idea": "ML as generating latent programs via optimisation"
+      }
+    },
+    {
+      "term": "open-strict category",
+      "term_type": "entity",
+      "subtype": "approach-classification",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "characteristics": "transparent, hand-crafted rules, low adaptivity"
+      }
+    },
+    {
+      "term": "opaque-adaptive category",
+      "term_type": "entity",
+      "subtype": "approach-classification",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "characteristics": "black-box ML, high adaptivity"
+      }
+    },
+    {
+      "term": "implicit builder (+/B)",
+      "term_type": "entity",
+      "subtype": "connector-variant",
+      "domain": null,
+      "range": null,
+      "parent_concept": "builder (B)",
+      "constraints": {
+        "surface_form": "noun concatenation without explicit preposition"
+      }
+    },
+    {
+      "term": "context edge",
+      "term_type": "entity",
+      "subtype": "support-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": "hyperedge",
+      "constraints": {
+        "link": "attached through \u2018:/J\u2019 chain to claim/conflict"
+      }
+    },
+    {
+      "term": "lemma/J edge",
+      "term_type": "entity",
+      "subtype": "auxiliary-edge",
+      "domain": null,
+      "range": null,
+      "parent_concept": "hyperedge",
+      "constraints": {
+        "function": "connect token form to lemma for synonymy handling"
+      }
+    },
+    {
+      "term": "open text corpus (training)",
+      "term_type": "entity",
+      "subtype": "dataset",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "composition": "fiction, non-fiction, news, science, Wikipedia"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "term": "claim (in SH)",
+      "term_type": "relationship",
+      "subtype": "semantic-construct",
+      "domain": [
+        "actor (SH)"
+      ],
+      "range": [
+        "relation (R)",
+        "topic (SH)"
+      ],
+      "parent_concept": "relation (R)",
+      "constraints": {
+        "trigger_predicates": "lemma 'say', 'claim', etc."
+      }
+    },
+    {
+      "term": "conflict expression",
+      "term_type": "relationship",
+      "subtype": "semantic-construct",
+      "domain": [
+        "actor (SH)"
+      ],
+      "range": [
+        "actor (SH)",
+        "topic (SH)"
+      ],
+      "parent_concept": "relation (R)",
+      "constraints": {
+        "predicate_set": "criticise, accuse, warn, etc."
+      }
+    }
+  ],
+  "properties": [
+    {
+      "term": "argument role",
+      "term_type": "property",
+      "subtype": "semantic-marker",
+      "domain": [
+        "hyperedge argument"
+      ],
+      "range": [
+        "role code (s,o,i,...)"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "injective": "each argument gets exactly one role code per edge"
+      }
+    },
+    {
+      "term": "implicit taxonomy",
+      "term_type": "property",
+      "subtype": "emergent-property",
+      "domain": [
+        "concept (C)"
+      ],
+      "range": [
+        "concept (C)"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "induction": "hierarchy emerges from builder & modifier chains"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "term": "alpha-stage (\u03b1-stage)",
+      "term_type": "action",
+      "subtype": "process-step",
+      "domain": [
+        "token sequence"
+      ],
+      "range": [
+        "typed atom list"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "method": "supervised classifier over alpha feature set"
+      }
+    },
+    {
+      "term": "beta-stage (\u03b2-stage)",
+      "term_type": "action",
+      "subtype": "process-step",
+      "domain": [
+        "typed atom list"
+      ],
+      "range": [
+        "Semantic Hypergraph (SH)"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "algorithm": "search-tree applying type-inference rules"
+      }
+    },
+    {
+      "term": "conjunction decomposition",
+      "term_type": "action",
+      "subtype": "transformation-procedure",
+      "domain": [
+        "relation (R) containing conjunction (J)"
+      ],
+      "range": [
+        "set of relation (R)"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "expansion": "creates independent edges for each conjunct"
+      }
+    },
+    {
+      "term": "Open Information Extraction (OIE)",
+      "term_type": "action",
+      "subtype": "application-task",
+      "domain": [
+        "text corpus"
+      ],
+      "range": [
+        "extracted relation tuples"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "domain_independent": "works across any textual genre"
+      }
+    },
+    {
+      "term": "knowledge inference",
+      "term_type": "action",
+      "subtype": "process-concept",
+      "domain": [
+        "existing SH edges"
+      ],
+      "range": [
+        "new SH edges"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "rule_types": "deterministic or probabilistic inference rules"
+      }
+    },
+    {
+      "term": "pattern compression / generalisation",
+      "term_type": "action",
+      "subtype": "pattern-optimization",
+      "domain": [
+        "multiple specific SH patterns"
+      ],
+      "range": [
+        "generalised pattern set"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "goal": "reduce pattern inventory without increasing false positives"
+      }
+    },
+    {
+      "term": "search tree heuristic (\u03b2-stage)",
+      "term_type": "action",
+      "subtype": "algorithmic-strategy",
+      "domain": [
+        "candidate pattern matches"
+      ],
+      "range": [
+        "ordered application schedule"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "priority": "DEP distance, depth, rule specificity"
+      }
+    },
+    {
+      "term": "Kolmogorov\u2013Smirnov test (feature ablation)",
+      "term_type": "action",
+      "subtype": "statistical-method",
+      "domain": [
+        "feature importance distributions"
+      ],
+      "range": [
+        "retain / drop decision"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "significance_level": "p < 0.05 by default"
+      }
+    },
+    {
+      "term": "genetic algorithm feature selection",
+      "term_type": "action",
+      "subtype": "optimization-technique",
+      "domain": [
+        "feature inclusion vector"
+      ],
+      "range": [
+        "optimised feature subset"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "fitness": "\u03b1-stage classification accuracy"
+      }
+    },
+    {
+      "term": "faction detection heuristic",
+      "term_type": "action",
+      "subtype": "heuristic-algorithm",
+      "domain": [
+        "actor conflict graph"
+      ],
+      "range": [
+        "actor \u2192 faction mapping"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "iteration": "merge actors linked by high-score conflict edges"
+      }
+    },
+    {
+      "term": "anaphora resolution (simple)",
+      "term_type": "action",
+      "subtype": "resolution-rule",
+      "domain": [
+        "nested claim relations with pronoun inner subject"
+      ],
+      "range": [
+        "resolved claim relations"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "strategy": "replace pronoun by outer actor subject"
+      }
+    },
+    {
+      "term": "claim tense detection",
+      "term_type": "action",
+      "subtype": "heuristic-rule",
+      "domain": [
+        "claim (in SH)"
+      ],
+      "range": [
+        "tense label"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "cues": "future via 'will/M', past via auxiliary was/P etc."
+      }
+    }
+  ],
+  "measures": [
+    {
+      "term": "deep degree",
+      "term_type": "measure",
+      "subtype": "measure-metric",
+      "domain": [
+        "hyperedge"
+      ],
+      "range": [
+        "integer"
+      ],
+      "parent_concept": "hypergraphic degree",
+      "constraints": {
+        "definition": "counts recursive co-participations of edge"
+      }
+    },
+    {
+      "term": "hypergraphic degree",
+      "term_type": "measure",
+      "subtype": "measure-metric",
+      "domain": [
+        "hyperedge"
+      ],
+      "range": [
+        "integer"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "formula": "\u2211(|E|\u22121) over outer edges E containing edge"
+      }
+    }
+  ],
+  "modifiers": [],
+  "truth_values": [],
+  "operators": [
+    {
+      "term": "conjunction (J)",
+      "term_type": "operator",
+      "subtype": "type-code.connector",
+      "domain": [
+        "concept (C)",
+        "relation (R)"
+      ],
+      "range": [
+        "compound hyperedge"
+      ],
+      "parent_concept": "connector",
+      "constraints": {
+        "logical_equivalent": "AND / OR coordination depending on marker"
+      }
+    },
+    {
+      "term": "variable (SH pattern)",
+      "term_type": "operator",
+      "subtype": "pattern-element",
+      "domain": [
+        "SH pattern"
+      ],
+      "range": [
+        "matched hyperedge"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "notation": "Capitalised symbol",
+        "type_restriction": "must match compatible edge type"
+      }
+    },
+    {
+      "term": "wildcard",
+      "term_type": "operator",
+      "subtype": "pattern-element",
+      "domain": [
+        "SH pattern"
+      ],
+      "range": [
+        "matched hyperedge(s)"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "symbols": "* (single) or ... (sequence)",
+        "greedy": "matches longest possible by default"
+      }
+    },
+    {
+      "term": "specifier pattern \u2018\u2026\u2019",
+      "term_type": "operator",
+      "subtype": "pattern-syntax",
+      "domain": [
+        "SH pattern"
+      ],
+      "range": [
+        "optional trailing hyperedges"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "usage": "allows variable-length suffix after required pattern"
+      }
+    }
+  ]
+}

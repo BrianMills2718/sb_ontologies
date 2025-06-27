@@ -1,0 +1,75 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: phase8_test_api
+  namespace: phase8_test_api
+  labels:
+    app: phase8_test_api
+    version: "1.0.0"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: phase8_test_api
+  template:
+    metadata:
+      labels:
+        app: phase8_test_api
+        version: "1.0.0"
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "10919"
+        prometheus.io/path: "/metrics"
+    spec:
+      containers:
+      - name: phase8_test_api
+        image: phase8_test_api:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - name: metrics
+          containerPort: 10919
+          protocol: TCP
+        env:
+        - name: ENVIRONMENT
+          value: "production"
+        - name: LOG_LEVEL
+          value: "INFO"
+        - name: METRICS_ENABLED
+          value: "true"
+        envFrom:
+        - configMapRef:
+            name: phase8_test_api-config
+        - secretRef:
+            name: phase8_test_api-secrets
+        resources:
+          requests:
+            memory: "704Mi"
+            cpu: "500m"
+          limits:
+            memory: "1408Mi"
+            cpu: "1000m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 10919
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 10919
+          initialDelaySeconds: 5
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 3
+        volumeMounts:
+        - name: config-volume
+          mountPath: /app/config
+          readOnly: true
+      volumes:
+      - name: config-volume
+        configMap:
+          name: phase8_test_api-config
+      restartPolicy: Always

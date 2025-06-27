@@ -1,0 +1,312 @@
+schema_reference: /home/brian/lit_review/schemas/semantic_hypergraph/semantic_hypergraph_complete.yml
+model_type: hypergraph
+content_type: debate_transcript
+instance:
+  atoms:
+  - id: a1
+    term: David_Leonhardt
+    type: C
+    roles: null
+  - id: a2
+    term: Bret_Stephens
+    type: C
+    roles: null
+  - id: a3
+    term: Rosemary_Kelanic
+    type: C
+    roles: null
+  - id: a4
+    term: President_Trump
+    type: C
+    roles: null
+  - id: a5
+    term: Israel
+    type: C
+    roles: null
+  - id: a6
+    term: Iran
+    type: C
+    roles: null
+  - id: a7
+    term: United_States
+    type: C
+    roles: null
+  - id: a8
+    term: war_in_Iran
+    type: C
+    roles: null
+  - id: a9
+    term: 12_day_war
+    type: C
+    roles: null
+  - id: a10
+    term: nuclear_program
+    type: C
+    roles: null
+  - id: a11
+    term: ballistic_missile_capabilities
+    type: C
+    roles: null
+  - id: a12
+    term: cease_fire
+    type: C
+    roles: null
+  - id: a13
+    term: hostilities
+    type: C
+    roles: null
+  - id: a14
+    term: Fordo_facilities
+    type: C
+    roles: null
+  - id: a15
+    term: strategic_military_goals
+    type: C
+    roles: null
+  - id: a16
+    term: over_state
+    type: C
+    roles: null
+  - id: a17
+    term: striking_Iran
+    type: C
+    roles: null
+  - id: a18
+    term: US_military_action_in_Iran
+    type: C
+    roles: null
+  - id: a19
+    term: applaud
+    type: P
+    roles: sa
+  - id: a20
+    term: warn
+    type: P
+    roles: soa
+  - id: a21
+    term: invite
+    type: P
+    roles: so
+  - id: a23
+    term: refer_to
+    type: P
+    roles: soc
+  - id: a24
+    term: suggest
+    type: P
+    roles: sa
+  - id: a25
+    term: lash_out
+    type: P
+    roles: so
+  - id: a26
+    term: accomplish
+    type: P
+    roles: so
+  - id: a27
+    term: degrade
+    type: P
+    roles: so
+  - id: a33
+    term: be
+    type: P
+    roles: sc
+  - id: a31
+    term: +
+    type: B
+    roles: null
+  hyperedges:
+  - id: h1
+    connector:
+      id: a19
+      term: applaud
+      type: P
+      roles: sa
+    arguments:
+    - a2
+    - a18
+    argument_roles:
+    - s
+    - a
+    ordered: true
+    truth_value: claim_Bret
+    modifiers: null
+  - id: h2
+    connector:
+      id: a20
+      term: warn
+      type: P
+      roles: soa
+    arguments:
+    - a3
+    - a7
+    - a17
+    argument_roles:
+    - s
+    - o
+    - a
+    ordered: true
+    truth_value: claim_Rosemary
+    modifiers: null
+  - id: h3a
+    connector:
+      id: a21
+      term: invite
+      type: P
+      roles: so
+    arguments:
+    - a1
+    - a2
+    argument_roles:
+    - s
+    - o
+    ordered: true
+    truth_value: null
+    modifiers: null
+  - id: h3b
+    connector:
+      id: a21
+      term: invite
+      type: P
+      roles: so
+    arguments:
+    - a1
+    - a3
+    argument_roles:
+    - s
+    - o
+    ordered: true
+    truth_value: null
+    modifiers: null
+  - id: h5a
+    connector:
+      id: a31
+      term: +
+      type: B
+      roles: null
+    arguments:
+    - a5
+    - a6
+    argument_roles: null
+    ordered: false
+    truth_value: null
+    modifiers: null
+  - id: h5
+    connector:
+      id: a25
+      term: lash_out
+      type: P
+      roles: so
+    arguments:
+    - a4
+    - h5a
+    argument_roles:
+    - s
+    - o
+    ordered: true
+    truth_value: null
+    modifiers: null
+  - id: h4
+    connector:
+      id: a23
+      term: refer_to
+      type: P
+      roles: soc
+    arguments:
+    - a4
+    - a8
+    - a9
+    argument_roles:
+    - s
+    - o
+    - c
+    ordered: true
+    truth_value: null
+    modifiers: null
+  - id: h6a
+    connector:
+      id: a33
+      term: be
+      type: P
+      roles: sc
+    arguments:
+    - a8
+    - a16
+    argument_roles:
+    - s
+    - c
+    ordered: true
+    truth_value: null
+    modifiers: null
+  - id: h6
+    connector:
+      id: a24
+      term: suggest
+      type: P
+      roles: sa
+    arguments:
+    - a4
+    - h6a
+    argument_roles:
+    - s
+    - a
+    ordered: true
+    truth_value: null
+    modifiers: null
+  - id: h7
+    connector:
+      id: a26
+      term: accomplish
+      type: P
+      roles: so
+    arguments:
+    - a5
+    - a15
+    argument_roles:
+    - s
+    - o
+    ordered: true
+    truth_value: claim_Bret
+    modifiers: null
+  - id: h8
+    connector:
+      id: a27
+      term: degrade
+      type: P
+      roles: so
+    arguments:
+    - a5
+    - a11
+    argument_roles:
+    - s
+    - o
+    ordered: true
+    truth_value: claim_Bret
+    modifiers: null
+  - id: hMain
+    connector:
+      id: a31
+      term: +
+      type: B
+      roles: null
+    arguments:
+    - h1
+    - h2
+    - h6
+    argument_roles: null
+    ordered: false
+    truth_value: null
+    modifiers: null
+  main_hyperedge: hMain
+  debate_metadata:
+    speakers:
+    - id: a1
+      name: David_Leonhardt
+    - id: a2
+      name: Bret_Stephens
+    - id: a3
+      name: Rosemary_Kelanic
+    claims: []
+    agreements: []
+    disagreements: []
+    conditionals: []

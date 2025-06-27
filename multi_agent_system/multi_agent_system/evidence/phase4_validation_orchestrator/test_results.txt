@@ -1,0 +1,62 @@
+⚠️  Component logic validation failed: test_web_service (1 errors)
+⚠️  Component logic validation failed: test_database (1 errors)
+⚠️  Component logic validation failed: 2 errors in 2 components
+⚠️  Service integration_web not reachable on port 8090
+⚠️  System integration testing failed: connectivity=False, conflicts=True, dependencies=False
+⚠️  System semantic validation failed: 2 issues found
+No database configuration found
+External service 'auth_service' at localhost:80 connection failed: [Errno 111] Connect call failed ('127.0.0.1', 80)
+❌ Pre-flight dependency validation failed: 2 missing dependencies
+❌ Validation-driven system generation failed after 0.39s: Cannot proceed with validation - missing required dependencies:
+  - Database (DATABASE_URL or POSTGRES_HOST required for Level 3 integration testing)
+  - External service 'auth_service' required by component 'main_web_service'
+
+All dependencies must be configured and available during development. NO MOCK MODES OR FALLBACKS AVAILABLE.
+⚠️  Phase 2 integration issues found: 2
+⚠️  Phase 3 integration issues found: 4
+⚠️  Component logic validation failed: small_web (3 errors)
+⚠️  Component logic validation failed: 3 errors in 1 components
+⚠️  Component logic validation failed: medium_component_0 (3 errors)
+⚠️  Component logic validation failed: medium_component_1 (1 errors)
+⚠️  Component logic validation failed: medium_component_2 (3 errors)
+⚠️  Component logic validation failed: medium_component_3 (1 errors)
+⚠️  Component logic validation failed: medium_component_4 (3 errors)
+⚠️  Component logic validation failed: 11 errors in 5 components
+❌ Component logic validation error for : 'str' object has no attribute 'get'
+⚠️  Component logic validation failed: 1 errors in 1 components
+🧪 Starting ValidationDrivenOrchestrator Integration Test Suite
+
+📊 Integration Test Results Summary:
+  Total time: 0.48s
+  Overall success: ❌ FAILED
+  Tests run: 16
+  Tests passed: 11
+  Tests failed: 5
+  Success rate: 68.8%
+
+📋 Test Categories:
+  four_tier_pipeline: ❌ FAILED (2/5)
+  healing_integration: ✅ PASSED (3/3)
+  phase_integration: ❌ FAILED (0/2)
+  end_to_end: ✅ PASSED (2/2)
+  performance: ✅ PASSED (2/2)
+  failure_recovery: ✅ PASSED (2/2)
+
+⚡ Performance Metrics:
+  small_system: ✅ PASSED (0.00s / 10.0s)
+  medium_system: ✅ PASSED (0.00s / 30.0s)
+
+⚠️  Issues Found (12):
+    - Component type 'web_service' not registered in Phase 2 component registry
+    - Component type 'database' not registered in Phase 2 component registry
+    - Service component integration_db (database) has no dependents
+    - User-facing system should consider authentication service
+    - Reasonableness validation error: local variable 're' referenced before assignment
+    - Web service 'web_app' does not depend on any database, but ['data_store'] are available
+    - Component type 'web_service' not registered in Phase 2 registry
+    - Component type 'database' not registered in Phase 2 registry
+    - Schema parser validation error: 'TempParsedBlueprint' object has no attribute '_convert_component'
+    - Reasonableness validation error: local variable 're' referenced before assignment
+    ... and 2 more
+
+🎯 Integration test suite complete!

@@ -1,0 +1,25 @@
+SPECIALIZED DETECTOR TEST
+Input: validation_results/complexity_testing/lofland_stark_simple_theory.txt
+Detector: experimental_testing/prompt_variations/specialized_model_detection/sequence_detector.txt
+==================================================
+
+detection_confidence: 1.0
+structure_type: "sequence"
+evidence:
+  - "The theory explicitly outlines a series of seven successively accumulating factors (or stages) that must be met for conversion."
+  - "The sequential arrangement is described as a funnel, with each condition narrowing the range of potential converts, indicating an ordered progression."
+extracted_structure:
+  steps: [
+    "Tension",
+    "Religious Problem-Solving Perspective",
+    "Seekership",
+    "Turning Point",
+    "Affective Bonds",
+    "Neutralization of Extra-Cult Attachments",
+    "Intensive Interaction"
+  ]
+  ordering_logic: "Each condition builds on its predecessor in an accumulating, necessary series, forming a funnel that progressively reduces the pool of potential converts. The activation of each condition is sequentially ordered based on their role in conversion, even if their temporal occurrence can vary."
+  progression_type: "value-added|procedural"
+  prerequisites: "Each step requires the necessary emotional or cognitive state established by the preceding condition; for example, a religious problem-solving perspective must preexist before seekership can occur, and intensive interaction is needed after the establishment of all previous bonds and conditions."
+sequential_characteristics: "The theory is sequential because it posits that the cumulative, step-by-step addition of conditions is necessary for conversion. This ordered progression is based on logical activation and a funnel-like narrowing, rather than a network of interrelated factors or a simple comparative structure."
+alternative_representations: "While the structure is clearly sequential, it could also be represented as a funnel diagram or a flowchart to visualize the ordered stages and the narrowing process; however, a table may not adequately capture the dynamic, progressive filtering process inherent in the model."

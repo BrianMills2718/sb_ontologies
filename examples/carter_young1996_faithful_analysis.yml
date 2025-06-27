@@ -1,0 +1,184 @@
+```yaml
+schema: "Young 1996 Cognitive Mapping Schema (Faithful Extraction)"
+citation: "Young, Michael D. 1996. Cognitive Mapping Meets Semantic Networks. Journal of Conflict Resolution 40(3): 395-414."
+
+cognitive_map:
+  concepts:
+    - {id: C1,  label: "United States",                                   node_type: Concept}
+    - {id: C2,  label: "Soviet Union",                                    node_type: Concept}
+    - {id: C3,  label: "Congress",                                        node_type: Concept}
+    - {id: C4,  label: "State Legislatures",                              node_type: Concept}
+    - {id: C5,  label: "Government",                                      node_type: Concept}
+    - {id: C6,  label: "American People",                                 node_type: Concept}
+    - {id: C7,  label: "Southerners",                                     node_type: Concept}
+    - {id: C8,  label: "National Security",                               node_type: Concept}
+    - {id: C9,  label: "Foreign Policy",                                  node_type: Concept}
+    - {id: C10, label: "Military Competition",                            node_type: Concept}
+    - {id: C11, label: "Nuclear Weapons",                                 node_type: Concept}
+    - {id: C12, label: "Arms Control (SALT)",                             node_type: Concept}
+    - {id: C13, label: "Tension",                                         node_type: Concept}
+    - {id: C14, label: "Peace",                                           node_type: Concept}
+    - {id: C15, label: "War",                                             node_type: Concept}
+    - {id: C16, label: "Energy Crisis",                                   node_type: Concept}
+    - {id: C17, label: "Human Rights",                                    node_type: Concept}
+    - {id: C18, label: "Cooperation",                                     node_type: Concept}
+    - {id: C19, label: "Agreements",                                      node_type: Concept}
+    - {id: C20, label: "Trade",                                           node_type: Concept}
+    - {id: C21, label: "Negotiation",                                     node_type: Concept}
+    - {id: C22, label: "Proliferation of Nuclear Weapons",               node_type: Concept}
+    - {id: C23, label: "Conventional Arms Sales",                         node_type: Concept}
+    - {id: C24, label: "Strategic Balance",                               node_type: Concept}
+    - {id: C25, label: "Cruise Missiles",                                 node_type: Concept}
+    - {id: C26, label: "Intercontinental Ballistic Missiles",             node_type: Concept}
+    - {id: C27, label: "Deterrent Capability",                            node_type: Concept}
+    - {id: C28, label: "Threats",                                         node_type: Concept}
+    - {id: C29, label: "Gentler World",                                   node_type: Concept}
+    - {id: C30, label: "Solutions",                                       node_type: Concept}
+    - {id: C31, label: "Mutual Self-Interest",                            node_type: Concept}
+    - {id: C32, label: "Responsibility",                                  node_type: Concept}
+    - {id: C33, label: "Realism",                                         node_type: Concept}
+    - {id: C34, label: "Principle",                                       node_type: Concept}
+    - {id: C35, label: "Middle East Peace",                               node_type: Concept}
+    - {id: C36, label: "Southern Africa",                                 node_type: Concept}
+    - {id: C37, label: "World Hunger",                                    node_type: Concept}
+    - {id: C38, label: "World Health",                                    node_type: Concept}
+    - {id: C39, label: "World Respect for American Foreign Policy",       node_type: Concept}
+    - {id: C40, label: "Freedom",                                         node_type: Concept}
+    - {id: C41, label: "Human Dignity",                                   node_type: Concept}
+    - {id: C42, label: "Yearning for Peace",                              node_type: Concept}
+    - {id: C43, label: "President Brezhnev",                              node_type: Concept}
+    - {id: C44, label: "21st Century Peace",                              node_type: Concept}
+    - {id: C45, label: "Charleston",                                      node_type: Concept}
+    - {id: C46, label: "Geneva Conference",                               node_type: Concept}
+    - {id: C47, label: "Limit Strategic Programs",                        node_type: Concept}
+    - {id: C48, label: "Government Works",                                node_type: Concept}
+
+  relationships:
+    - id: R1
+      from: C1
+      to:   C2
+      relationship_category: strategy
+      action_category: negotiate
+      truth_value: true
+      modifiers: [present]
+      salience: 1
+
+    - id: R2
+      from: C21
+      to:   C14
+      relationship_category: "+"
+      truth_value: true
+      modifiers: [goal]
+      salience: 1
+
+    - id: R3
+      from: C12
+      to:   C14
+      relationship_category: "+"
+      truth_value: true
+      modifiers: [future]
+      salience: 1
+
+    - id: R4
+      from: C22
+      to:   C14
+      relationship_category: "-"
+      truth_value: true
+      modifiers: [future]
+      salience: 1
+
+    - id: R5
+      from: C23
+      to:   C28
+      relationship_category: "+"
+      truth_value: true
+      modifiers: [present]
+      salience: 1
+
+    - id: R6
+      from: C28
+      to:   C24
+      relationship_category: "-"
+      truth_value: true
+      modifiers: [present]
+      salience: 1
+
+    - id: R7
+      from: C17
+      to:   C9
+      relationship_category: warrant-for
+      truth_value: true
+      modifiers: [normative]
+      salience: 1
+
+    - id: R8
+      from: C18
+      to:   C14
+      relationship_category: "+"
+      truth_value: true
+      modifiers: [goal]
+      salience: 1
+
+    - id: R9
+      from: C25
+      to:   C27
+      relationship_category: "+"
+      truth_value: true
+      modifiers: [present]
+      salience: 1
+
+    - id: R10
+      from: C26
+      to:   C28
+      relationship_category: "+"
+      truth_value: true
+      modifiers: [present]
+      salience: 1
+
+    - id: R11
+      from: C28
+      to:   C47
+      relationship_category: if-then
+      truth_value: possible
+      modifiers: [future]
+      salience: 1
+
+    - id: R12
+      from: C32
+      to:   C8
+      relationship_category: "+"
+      truth_value: true
+      modifiers: [normative]
+      salience: 1
+
+    - id: R13
+      from: C33
+      to:   C8
+      relationship_category: "+"
+      truth_value: true
+      modifiers: [normative]
+      salience: 1
+
+    - id: R14
+      from: C34
+      to:   C8
+      relationship_category: "+"
+      truth_value: true
+      modifiers: [normative]
+      salience: 1
+
+    - id: R15
+      from: C3
+      to:   C48
+      relationship_category: strategy
+      action_category: support
+      truth_value: true
+      modifiers: [present]
+      salience: 1
+
+structural_measures:
+  size: 48
+  connectedness:
+    symbol: C_G
+    value: 0.24     # 15 relationships / (48 concepts + 15 relationships)
+```

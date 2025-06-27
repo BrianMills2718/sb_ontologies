@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-06-23T17:47:17.257658",
+  "target_types": [
+    "temp_files",
+    "debug_output"
+  ],
+  "scan_results": {
+    "temp_files": [],
+    "debug_output": []
+  },
+  "archive_operations": [],
+  "files_processed": 0,
+  "files_archived": 0,
+  "errors": [],
+  "dry_run": true,
+  "summary": {
+    "total_candidates_found": 0,
+    "total_files_processed": 0,
+    "total_files_archived": 0,
+    "total_errors": 0,
+    "archival_rate": 0.0,
+    "categories_processed": [],
+    "space_freed_estimate": "Unknown",
+    "recommendations": [
+      "Many files could not be archived - review approval settings"
+    ]
+  }
+}

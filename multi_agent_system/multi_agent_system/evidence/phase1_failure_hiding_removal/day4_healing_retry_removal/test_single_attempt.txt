@@ -1,0 +1,26 @@
+SELF-HEALING RETRY LOGIC ANALYSIS
+
+The ast_self_healing.py file implements LEGITIMATE self-healing with proper bounds and visibility:
+
+1. VISIBLE HEALING ATTEMPTS:
+   - "🔄 Healing attempt {attempt + 1}/{max_healing_attempts}"
+   - "🔧 Applied healing to {len(healed_components)} components" 
+   - "⚠️ {len(components_stuck_in_loop)} components stuck in loops"
+
+2. HARD FAILURE AFTER MAX ATTEMPTS:
+   - Circuit breaker: "max_healing_attempts = 3"
+   - Hard failure: "❌ Self-healing failed after {attempt + 1} attempts"
+   - Error visibility: "❌ All failing components are stuck in healing loops"
+
+3. PROGRESS TRACKING:
+   - Detects code oscillation: "Oscillating changes detected"
+   - Prevents infinite loops: "No progress detected - code unchanged"
+   - Component-level circuit breaker
+
+This is NOT failure-hiding but proper self-healing that:
+- Makes healing attempts visible
+- Fails hard when max attempts reached  
+- Provides clear error messages
+- Prevents infinite loops
+
+NO CHANGES REQUIRED - this file implements correct patterns.

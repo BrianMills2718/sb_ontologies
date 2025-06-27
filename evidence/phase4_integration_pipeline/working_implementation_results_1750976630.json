@@ -1,0 +1,2769 @@
+{
+  "social_cognitive_theory": {
+    "pipeline_results": {
+      "pipeline_id": "pipeline_1750976630",
+      "input_theory_length": 1323,
+      "processing_stages": [
+        "PipelineStage(stage_name='theory_count_detection', input_data={'text_length': 1323}, output_data={'theory_count': 1, 'complexity_level': 'single_theory', 'theory_mentions_total': 4, 'specific_theories_identified': ['social cognitive theory'], 'theory_density': 0.02877697841726619, 'analysis_confidence': 0.8, 'detection_metadata': {'text_length': 1323, 'word_count': 139, 'pattern_matches': 4}}, processing_time=0.00029540061950683594, balance_metrics={'balance_score': 1.0})",
+        "PipelineStage(stage_name='purpose_classification', input_data={'detected_theory_count': 1}, output_data={'primary_purposes': ['explanatory'], 'secondary_purposes': ['predictive', 'causal'], 'all_purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention'], 'purpose_confidences': {'descriptive': 0.0, 'explanatory': 0.3398081534772182, 'predictive': 0.3398081534772182, 'causal': 0.3398081534772182, 'intervention': 0.0}, 'purpose_analyses': {'descriptive': {'pattern_matches': 0, 'context_relevance': 0.0, 'sophistication_level': 8, 'evidence_quality': 0.0}, 'explanatory': {'pattern_matches': 1, 'context_relevance': 0.7194244604316548, 'sophistication_level': 8, 'evidence_quality': 0.2}, 'predictive': {'pattern_matches': 1, 'context_relevance': 0.7194244604316548, 'sophistication_level': 8, 'evidence_quality': 0.2}, 'causal': {'pattern_matches': 1, 'context_relevance': 0.7194244604316548, 'sophistication_level': 8, 'evidence_quality': 0.2}, 'intervention': {'pattern_matches': 0, 'context_relevance': 0.0, 'sophistication_level': 8, 'evidence_quality': 0.0}}, 'balanced_analysis': {'balance_status': 'imbalanced', 'balance_score': 0.0, 'balance_metrics': {'max_confidence': 0.3398081534772182, 'min_confidence': 0.0, 'score_range': 0.3398081534772182, 'coefficient_of_variation': 0.816496580927726}}, 'classification_metadata': {'threshold_used': 0.25, 'total_purposes_analyzed': 5, 'above_threshold_count': 3}}, processing_time=0.0017285346984863281, balance_metrics={'max_confidence': 0.3398081534772182, 'min_confidence': 0.0, 'score_range': 0.3398081534772182, 'coefficient_of_variation': 0.816496580927726})",
+        "PipelineStage(stage_name='vocabulary_extraction', input_data={'purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']}, output_data={'descriptive_terms': {'taxonomies': ['cognitive', 'The', 'this', 'comprehensive'], 'classifications': [], 'categories': ['type', 'class', 'group'], 'attributes': ['characteristic', 'property', 'feature']}, 'explanatory_terms': {'mechanisms': [], 'processes': [], 'systems': ['system', 'framework', 'structure'], 'functions': ['function', 'operation', 'procedure']}, 'predictive_terms': {'variables': [], 'models': [], 'forecasting': ['predict', 'forecast', 'estimate'], 'indicators': ['indicator', 'measure', 'metric']}, 'causal_terms': {'causes': [], 'effects': [], 'relationships': ['relationship', 'connection', 'link'], 'pathways': ['pathway', 'route', 'channel']}, 'intervention_terms': {'interventions': [], 'strategies': [], 'implementations': ['implement', 'apply', 'deploy'], 'actions': ['action', 'measure', 'step']}, 'cross_purpose_analysis': {'cross_purpose_terms': {'measure': ['predictive', 'intervention']}, 'total_unique_terms': 33, 'cross_purpose_count': 1, 'cross_purpose_ratio': 0.030303030303030304}, 'extraction_balance': {'purpose_counts': {'descriptive': 10, 'explanatory': 6, 'predictive': 6, 'causal': 6, 'intervention': 6}, 'balance_ratio': 0.6, 'is_balanced': False, 'balance_status': 'needs_rebalancing'}}, processing_time=0.0016300678253173828, balance_metrics={'purpose_counts': {'descriptive': 10, 'explanatory': 6, 'predictive': 6, 'causal': 6, 'intervention': 6}, 'balance_ratio': 0.6, 'is_balanced': False, 'balance_status': 'needs_rebalancing'})",
+        "PipelineStage(stage_name='schema_generation', input_data={'model_type': 'multi_purpose_property_graph', 'purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']}, output_data={'model_type': 'multi_purpose_property_graph', 'theoretical_purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention'], 'purpose_capabilities': {'descriptive': {'purpose': 'descriptive', 'sophistication_level': 8, 'model_type': 'multi_purpose_property_graph', 'core_functions': {'taxonomic_classification': {'enabled': True}, 'typological_analysis': {'enabled': True}, 'structural_mapping': {'enabled': True}}, 'analytical_operations': ['classify', 'categorize', 'describe', 'characterize'], 'output_formats': ['taxonomies', 'typologies', 'classifications'], 'integration_interfaces': {}}, 'explanatory': {'purpose': 'explanatory', 'sophistication_level': 8, 'model_type': 'multi_purpose_property_graph', 'core_functions': {'mechanism_analysis': {'enabled': True}, 'process_modeling': {'enabled': True}, 'structural_explanation': {'enabled': True}}, 'analytical_operations': ['explain', 'analyze', 'interpret', 'trace'], 'output_formats': ['explanatory_models', 'process_diagrams', 'mechanism_maps'], 'integration_interfaces': {}}, 'predictive': {'purpose': 'predictive', 'sophistication_level': 8, 'model_type': 'multi_purpose_property_graph', 'core_functions': {'forecasting_models': {'enabled': True}, 'predictive_modeling': {'enabled': True}, 'risk_assessment': {'enabled': True}}, 'analytical_operations': ['predict', 'forecast', 'model', 'estimate'], 'output_formats': ['predictions', 'forecasts', 'models', 'scenarios'], 'integration_interfaces': {}}, 'causal': {'purpose': 'causal', 'sophistication_level': 8, 'model_type': 'multi_purpose_property_graph', 'core_functions': {'causal_identification': {'enabled': True}, 'causal_inference': {'enabled': True}, 'intervention_design': {'enabled': True}}, 'analytical_operations': ['cause', 'influence', 'affect', 'intervene'], 'output_formats': ['causal_models', 'causal_diagrams', 'effect_estimates'], 'integration_interfaces': {}}, 'intervention': {'purpose': 'intervention', 'sophistication_level': 8, 'model_type': 'multi_purpose_property_graph', 'core_functions': {'action_design': {'enabled': True}, 'implementation_planning': {'enabled': True}, 'outcome_optimization': {'enabled': True}}, 'analytical_operations': ['implement', 'execute', 'deploy', 'apply'], 'output_formats': ['action_plans', 'implementation_strategies', 'intervention_designs'], 'integration_interfaces': {}}}, 'schema_blueprint': {'schema_type': 'multi_purpose_balanced', 'model_type': 'multi_purpose_property_graph', 'capabilities_integrated': 5, 'structure': {'entities': ['Actor', 'System', 'Process', 'Outcome', 'Intervention'], 'relationships': ['influences', 'causes', 'implements', 'describes', 'predicts'], 'attributes': ['intensity', 'duration', 'scope', 'effectiveness', 'complexity']}, 'operations': {'analytical': ['categorize', 'cause', 'influence', 'affect', 'analyze', 'explain', 'deploy', 'apply', 'model', 'forecast', 'characterize', 'implement', 'classify', 'describe', 'interpret', 'intervene', 'trace', 'predict', 'estimate', 'execute'], 'computational': ['compute', 'calculate', 'simulate', 'optimize'], 'integration': ['integrate', 'synthesize', 'combine', 'unify']}}, 'cross_purpose_integration': {'integration_type': 'cross_purpose', 'total_interfaces': 20, 'integration_interfaces': {'descriptive_to_explanatory': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'descriptive -> explanatory', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'descriptive_to_predictive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'descriptive -> predictive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'descriptive_to_causal': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'descriptive -> causal', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'descriptive_to_intervention': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'descriptive -> intervention', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'explanatory_to_descriptive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'explanatory -> descriptive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'explanatory_to_predictive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'explanatory -> predictive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'explanatory_to_causal': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'explanatory -> causal', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'explanatory_to_intervention': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'explanatory -> intervention', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'predictive_to_descriptive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'predictive -> descriptive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'predictive_to_explanatory': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'predictive -> explanatory', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'predictive_to_causal': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'predictive -> causal', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'predictive_to_intervention': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'predictive -> intervention', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'causal_to_descriptive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'causal -> descriptive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'causal_to_explanatory': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'causal -> explanatory', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'causal_to_predictive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'causal -> predictive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'causal_to_intervention': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'causal -> intervention', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'intervention_to_descriptive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'intervention -> descriptive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'intervention_to_explanatory': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'intervention -> explanatory', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'intervention_to_predictive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'intervention -> predictive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'intervention_to_causal': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'intervention -> causal', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}}, 'unified_workflows': {'comprehensive_analysis': {'steps': ['describe', 'explain', 'predict', 'infer', 'intervene'], 'purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention'], 'workflow_type': 'sequential'}, 'parallel_analysis': {'steps': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention'], 'purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention'], 'workflow_type': 'parallel'}, 'iterative_refinement': {'steps': ['initial_analysis', 'cross_validation', 'refinement', 'integration'], 'purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention'], 'workflow_type': 'iterative'}}, 'integration_metadata': {'full_connectivity': True, 'bidirectional_support': True, 'workflow_count': 3, 'purposes_integrated': 5}}, 'balance_validation': {'validation_type': 'schema_balance', 'balance_score': 1.0, 'balance_status': 'BALANCED', 'sophistication_scores': {'descriptive': 8, 'explanatory': 8, 'predictive': 8, 'causal': 8, 'intervention': 8}, 'equal_capabilities': True}, 'generation_metadata': {'purposes_count': 5, 'capabilities_generated': 5, 'integration_interfaces': 20}}, processing_time=4.673004150390625e-05, balance_metrics={'validation_type': 'schema_balance', 'balance_score': 1.0, 'balance_status': 'BALANCED', 'sophistication_scores': {'descriptive': 8, 'explanatory': 8, 'predictive': 8, 'causal': 8, 'intervention': 8}, 'equal_capabilities': True})",
+        "PipelineStage(stage_name='balance_validation', input_data={'all_stages': 4}, output_data={'validation_type': 'pipeline_balance_validation', 'overall_balance_score': 1.0, 'overall_balance_status': 'BALANCED', 'stage_balance_metrics': {'theory_count_detection': {'balance_score': 1.0}, 'purpose_classification': {'max_confidence': 0.3398081534772182, 'min_confidence': 0.0, 'score_range': 0.3398081534772182, 'coefficient_of_variation': 0.816496580927726}, 'vocabulary_extraction': {'purpose_counts': {'descriptive': 10, 'explanatory': 6, 'predictive': 6, 'causal': 6, 'intervention': 6}, 'balance_ratio': 0.6, 'is_balanced': False, 'balance_status': 'needs_rebalancing'}, 'schema_generation': {'validation_type': 'schema_balance', 'balance_score': 1.0, 'balance_status': 'BALANCED', 'sophistication_scores': {'descriptive': 8, 'explanatory': 8, 'predictive': 8, 'causal': 8, 'intervention': 8}, 'equal_capabilities': True}}, 'purpose_representation': {'purposes_found': ['explanatory', 'descriptive', 'causal', 'predictive', 'intervention'], 'representation_ratio': 1.0, 'balance_score': 1.0, 'missing_purposes': []}, 'sophistication_balance': {'sophistication_levels': [8, 8, 8, 8, 8], 'balance_score': 1.0, 'equal_sophistication': True}, 'integration_completeness': {'integration_count': 20, 'expected_interfaces': 20, 'completeness_score': 1.0}, 'final_balance_metrics': {'balance_threshold_met': True, 'balance_score': 1.0, 'recommendations': ['Improve balance in purpose_classification stage', 'Improve balance in vocabulary_extraction stage']}}, processing_time=3.790855407714844e-05, balance_metrics={'balance_threshold_met': True, 'balance_score': 1.0, 'recommendations': ['Improve balance in purpose_classification stage', 'Improve balance in vocabulary_extraction stage']})"
+      ],
+      "balance_validation": {
+        "validation_type": "pipeline_balance_validation",
+        "overall_balance_score": 1.0,
+        "overall_balance_status": "BALANCED",
+        "stage_balance_metrics": {
+          "theory_count_detection": {
+            "balance_score": 1.0
+          },
+          "purpose_classification": {
+            "max_confidence": 0.3398081534772182,
+            "min_confidence": 0.0,
+            "score_range": 0.3398081534772182,
+            "coefficient_of_variation": 0.816496580927726
+          },
+          "vocabulary_extraction": {
+            "purpose_counts": {
+              "descriptive": 10,
+              "explanatory": 6,
+              "predictive": 6,
+              "causal": 6,
+              "intervention": 6
+            },
+            "balance_ratio": 0.6,
+            "is_balanced": false,
+            "balance_status": "needs_rebalancing"
+          },
+          "schema_generation": {
+            "validation_type": "schema_balance",
+            "balance_score": 1.0,
+            "balance_status": "BALANCED",
+            "sophistication_scores": {
+              "descriptive": 8,
+              "explanatory": 8,
+              "predictive": 8,
+              "causal": 8,
+              "intervention": 8
+            },
+            "equal_capabilities": true
+          }
+        },
+        "purpose_representation": {
+          "purposes_found": [
+            "explanatory",
+            "descriptive",
+            "causal",
+            "predictive",
+            "intervention"
+          ],
+          "representation_ratio": 1.0,
+          "balance_score": 1.0,
+          "missing_purposes": []
+        },
+        "sophistication_balance": {
+          "sophistication_levels": [
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "balance_score": 1.0,
+          "equal_sophistication": true
+        },
+        "integration_completeness": {
+          "integration_count": 20,
+          "expected_interfaces": 20,
+          "completeness_score": 1.0
+        },
+        "final_balance_metrics": {
+          "balance_threshold_met": true,
+          "balance_score": 1.0,
+          "recommendations": [
+            "Improve balance in purpose_classification stage",
+            "Improve balance in vocabulary_extraction stage"
+          ]
+        }
+      },
+      "pipeline_metrics": {
+        "total_processing_time": 0.0040130615234375,
+        "stage_breakdown": {
+          "theory_count_detection": 0.00029540061950683594,
+          "purpose_classification": 0.0017285346984863281,
+          "vocabulary_extraction": 0.0016300678253173828,
+          "schema_generation": 4.673004150390625e-05,
+          "balance_validation": 3.790855407714844e-05,
+          "optimization": 2.1219253540039062e-05
+        },
+        "efficiency_metrics": {
+          "efficiency_analysis": {
+            "stage_count": 5,
+            "theory_complexity": 1323,
+            "purposes_count": 5
+          },
+          "efficiency_score": 0.8831581736288968,
+          "optimization_recommendations": [
+            "Enable purpose-specific caching"
+          ],
+          "performance_metrics": {
+            "estimated_optimal_time": 0.6615,
+            "efficiency_rating": "high",
+            "scalability_assessment": "good"
+          }
+        },
+        "balance_success": true,
+        "quality_indicators": {
+          "completion_rate": 1.0,
+          "balance_achieved": true,
+          "purposes_covered": 5,
+          "integration_quality": 1.0
+        }
+      },
+      "theory_count": {
+        "theory_count": 1,
+        "complexity_level": "single_theory",
+        "theory_mentions_total": 4,
+        "specific_theories_identified": [
+          "social cognitive theory"
+        ],
+        "theory_density": 0.02877697841726619,
+        "analysis_confidence": 0.8,
+        "detection_metadata": {
+          "text_length": 1323,
+          "word_count": 139,
+          "pattern_matches": 4
+        }
+      },
+      "purpose_classification": {
+        "primary_purposes": [
+          "explanatory"
+        ],
+        "secondary_purposes": [
+          "predictive",
+          "causal"
+        ],
+        "all_purposes": [
+          "descriptive",
+          "explanatory",
+          "predictive",
+          "causal",
+          "intervention"
+        ],
+        "purpose_confidences": {
+          "descriptive": 0.0,
+          "explanatory": 0.3398081534772182,
+          "predictive": 0.3398081534772182,
+          "causal": 0.3398081534772182,
+          "intervention": 0.0
+        },
+        "purpose_analyses": {
+          "descriptive": {
+            "pattern_matches": 0,
+            "context_relevance": 0.0,
+            "sophistication_level": 8,
+            "evidence_quality": 0.0
+          },
+          "explanatory": {
+            "pattern_matches": 1,
+            "context_relevance": 0.7194244604316548,
+            "sophistication_level": 8,
+            "evidence_quality": 0.2
+          },
+          "predictive": {
+            "pattern_matches": 1,
+            "context_relevance": 0.7194244604316548,
+            "sophistication_level": 8,
+            "evidence_quality": 0.2
+          },
+          "causal": {
+            "pattern_matches": 1,
+            "context_relevance": 0.7194244604316548,
+            "sophistication_level": 8,
+            "evidence_quality": 0.2
+          },
+          "intervention": {
+            "pattern_matches": 0,
+            "context_relevance": 0.0,
+            "sophistication_level": 8,
+            "evidence_quality": 0.0
+          }
+        },
+        "balanced_analysis": {
+          "balance_status": "imbalanced",
+          "balance_score": 0.0,
+          "balance_metrics": {
+            "max_confidence": 0.3398081534772182,
+            "min_confidence": 0.0,
+            "score_range": 0.3398081534772182,
+            "coefficient_of_variation": 0.816496580927726
+          }
+        },
+        "classification_metadata": {
+          "threshold_used": 0.25,
+          "total_purposes_analyzed": 5,
+          "above_threshold_count": 3
+        }
+      },
+      "vocabulary_extraction": {
+        "descriptive_terms": {
+          "taxonomies": [
+            "cognitive",
+            "The",
+            "this",
+            "comprehensive"
+          ],
+          "classifications": [],
+          "categories": [
+            "type",
+            "class",
+            "group"
+          ],
+          "attributes": [
+            "characteristic",
+            "property",
+            "feature"
+          ]
+        },
+        "explanatory_terms": {
+          "mechanisms": [],
+          "processes": [],
+          "systems": [
+            "system",
+            "framework",
+            "structure"
+          ],
+          "functions": [
+            "function",
+            "operation",
+            "procedure"
+          ]
+        },
+        "predictive_terms": {
+          "variables": [],
+          "models": [],
+          "forecasting": [
+            "predict",
+            "forecast",
+            "estimate"
+          ],
+          "indicators": [
+            "indicator",
+            "measure",
+            "metric"
+          ]
+        },
+        "causal_terms": {
+          "causes": [],
+          "effects": [],
+          "relationships": [
+            "relationship",
+            "connection",
+            "link"
+          ],
+          "pathways": [
+            "pathway",
+            "route",
+            "channel"
+          ]
+        },
+        "intervention_terms": {
+          "interventions": [],
+          "strategies": [],
+          "implementations": [
+            "implement",
+            "apply",
+            "deploy"
+          ],
+          "actions": [
+            "action",
+            "measure",
+            "step"
+          ]
+        },
+        "cross_purpose_analysis": {
+          "cross_purpose_terms": {
+            "measure": [
+              "predictive",
+              "intervention"
+            ]
+          },
+          "total_unique_terms": 33,
+          "cross_purpose_count": 1,
+          "cross_purpose_ratio": 0.030303030303030304
+        },
+        "extraction_balance": {
+          "purpose_counts": {
+            "descriptive": 10,
+            "explanatory": 6,
+            "predictive": 6,
+            "causal": 6,
+            "intervention": 6
+          },
+          "balance_ratio": 0.6,
+          "is_balanced": false,
+          "balance_status": "needs_rebalancing"
+        }
+      },
+      "schema_generation": {
+        "model_type": "multi_purpose_property_graph",
+        "theoretical_purposes": [
+          "descriptive",
+          "explanatory",
+          "predictive",
+          "causal",
+          "intervention"
+        ],
+        "purpose_capabilities": {
+          "descriptive": {
+            "purpose": "descriptive",
+            "sophistication_level": 8,
+            "model_type": "multi_purpose_property_graph",
+            "core_functions": {
+              "taxonomic_classification": {
+                "enabled": true
+              },
+              "typological_analysis": {
+                "enabled": true
+              },
+              "structural_mapping": {
+                "enabled": true
+              }
+            },
+            "analytical_operations": [
+              "classify",
+              "categorize",
+              "describe",
+              "characterize"
+            ],
+            "output_formats": [
+              "taxonomies",
+              "typologies",
+              "classifications"
+            ],
+            "integration_interfaces": {}
+          },
+          "explanatory": {
+            "purpose": "explanatory",
+            "sophistication_level": 8,
+            "model_type": "multi_purpose_property_graph",
+            "core_functions": {
+              "mechanism_analysis": {
+                "enabled": true
+              },
+              "process_modeling": {
+                "enabled": true
+              },
+              "structural_explanation": {
+                "enabled": true
+              }
+            },
+            "analytical_operations": [
+              "explain",
+              "analyze",
+              "interpret",
+              "trace"
+            ],
+            "output_formats": [
+              "explanatory_models",
+              "process_diagrams",
+              "mechanism_maps"
+            ],
+            "integration_interfaces": {}
+          },
+          "predictive": {
+            "purpose": "predictive",
+            "sophistication_level": 8,
+            "model_type": "multi_purpose_property_graph",
+            "core_functions": {
+              "forecasting_models": {
+                "enabled": true
+              },
+              "predictive_modeling": {
+                "enabled": true
+              },
+              "risk_assessment": {
+                "enabled": true
+              }
+            },
+            "analytical_operations": [
+              "predict",
+              "forecast",
+              "model",
+              "estimate"
+            ],
+            "output_formats": [
+              "predictions",
+              "forecasts",
+              "models",
+              "scenarios"
+            ],
+            "integration_interfaces": {}
+          },
+          "causal": {
+            "purpose": "causal",
+            "sophistication_level": 8,
+            "model_type": "multi_purpose_property_graph",
+            "core_functions": {
+              "causal_identification": {
+                "enabled": true
+              },
+              "causal_inference": {
+                "enabled": true
+              },
+              "intervention_design": {
+                "enabled": true
+              }
+            },
+            "analytical_operations": [
+              "cause",
+              "influence",
+              "affect",
+              "intervene"
+            ],
+            "output_formats": [
+              "causal_models",
+              "causal_diagrams",
+              "effect_estimates"
+            ],
+            "integration_interfaces": {}
+          },
+          "intervention": {
+            "purpose": "intervention",
+            "sophistication_level": 8,
+            "model_type": "multi_purpose_property_graph",
+            "core_functions": {
+              "action_design": {
+                "enabled": true
+              },
+              "implementation_planning": {
+                "enabled": true
+              },
+              "outcome_optimization": {
+                "enabled": true
+              }
+            },
+            "analytical_operations": [
+              "implement",
+              "execute",
+              "deploy",
+              "apply"
+            ],
+            "output_formats": [
+              "action_plans",
+              "implementation_strategies",
+              "intervention_designs"
+            ],
+            "integration_interfaces": {}
+          }
+        },
+        "schema_blueprint": {
+          "schema_type": "multi_purpose_balanced",
+          "model_type": "multi_purpose_property_graph",
+          "capabilities_integrated": 5,
+          "structure": {
+            "entities": [
+              "Actor",
+              "System",
+              "Process",
+              "Outcome",
+              "Intervention"
+            ],
+            "relationships": [
+              "influences",
+              "causes",
+              "implements",
+              "describes",
+              "predicts"
+            ],
+            "attributes": [
+              "intensity",
+              "duration",
+              "scope",
+              "effectiveness",
+              "complexity"
+            ]
+          },
+          "operations": {
+            "analytical": [
+              "categorize",
+              "cause",
+              "influence",
+              "affect",
+              "analyze",
+              "explain",
+              "deploy",
+              "apply",
+              "model",
+              "forecast",
+              "characterize",
+              "implement",
+              "classify",
+              "describe",
+              "interpret",
+              "intervene",
+              "trace",
+              "predict",
+              "estimate",
+              "execute"
+            ],
+            "computational": [
+              "compute",
+              "calculate",
+              "simulate",
+              "optimize"
+            ],
+            "integration": [
+              "integrate",
+              "synthesize",
+              "combine",
+              "unify"
+            ]
+          }
+        },
+        "cross_purpose_integration": {
+          "integration_type": "cross_purpose",
+          "total_interfaces": 20,
+          "integration_interfaces": {
+            "descriptive_to_explanatory": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "descriptive -> explanatory",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "descriptive_to_predictive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "descriptive -> predictive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "descriptive_to_causal": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "descriptive -> causal",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "descriptive_to_intervention": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "descriptive -> intervention",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "explanatory_to_descriptive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "explanatory -> descriptive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "explanatory_to_predictive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "explanatory -> predictive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "explanatory_to_causal": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "explanatory -> causal",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "explanatory_to_intervention": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "explanatory -> intervention",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "predictive_to_descriptive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "predictive -> descriptive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "predictive_to_explanatory": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "predictive -> explanatory",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "predictive_to_causal": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "predictive -> causal",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "predictive_to_intervention": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "predictive -> intervention",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "causal_to_descriptive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "causal -> descriptive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "causal_to_explanatory": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "causal -> explanatory",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "causal_to_predictive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "causal -> predictive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "causal_to_intervention": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "causal -> intervention",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "intervention_to_descriptive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "intervention -> descriptive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "intervention_to_explanatory": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "intervention -> explanatory",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "intervention_to_predictive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "intervention -> predictive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "intervention_to_causal": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "intervention -> causal",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            }
+          },
+          "unified_workflows": {
+            "comprehensive_analysis": {
+              "steps": [
+                "describe",
+                "explain",
+                "predict",
+                "infer",
+                "intervene"
+              ],
+              "purposes": [
+                "descriptive",
+                "explanatory",
+                "predictive",
+                "causal",
+                "intervention"
+              ],
+              "workflow_type": "sequential"
+            },
+            "parallel_analysis": {
+              "steps": [
+                "descriptive",
+                "explanatory",
+                "predictive",
+                "causal",
+                "intervention"
+              ],
+              "purposes": [
+                "descriptive",
+                "explanatory",
+                "predictive",
+                "causal",
+                "intervention"
+              ],
+              "workflow_type": "parallel"
+            },
+            "iterative_refinement": {
+              "steps": [
+                "initial_analysis",
+                "cross_validation",
+                "refinement",
+                "integration"
+              ],
+              "purposes": [
+                "descriptive",
+                "explanatory",
+                "predictive",
+                "causal",
+                "intervention"
+              ],
+              "workflow_type": "iterative"
+            }
+          },
+          "integration_metadata": {
+            "full_connectivity": true,
+            "bidirectional_support": true,
+            "workflow_count": 3,
+            "purposes_integrated": 5
+          }
+        },
+        "balance_validation": {
+          "validation_type": "schema_balance",
+          "balance_score": 1.0,
+          "balance_status": "BALANCED",
+          "sophistication_scores": {
+            "descriptive": 8,
+            "explanatory": 8,
+            "predictive": 8,
+            "causal": 8,
+            "intervention": 8
+          },
+          "equal_capabilities": true
+        },
+        "generation_metadata": {
+          "purposes_count": 5,
+          "capabilities_generated": 5,
+          "integration_interfaces": 20
+        }
+      }
+    },
+    "quality_summary": {
+      "overall_quality": "excellent",
+      "overall_score": 0.9999950151443482,
+      "balance_status": "moderately_balanced",
+      "balance_score": 0.8266666666666665
+    },
+    "balance_validation": {
+      "balance_validated": true,
+      "requirements_met": {
+        "equal_sophistication": {
+          "passed": true,
+          "score": 1.0,
+          "sophistication_levels": [
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "variance": 0,
+          "issues": []
+        },
+        "purpose_representation": {
+          "passed": true,
+          "score": 1.0,
+          "purposes_found": [
+            "explanatory",
+            "descriptive",
+            "causal",
+            "predictive",
+            "intervention"
+          ],
+          "missing_purposes": [],
+          "representation_ratio": 1.0,
+          "issues": []
+        },
+        "integration_completeness": {
+          "passed": true,
+          "score": 1.0,
+          "total_interfaces": 20,
+          "expected_interfaces": 20,
+          "completeness_ratio": 1.0,
+          "workflow_count": 3,
+          "issues": []
+        },
+        "no_causal_overemphasis": {
+          "passed": true,
+          "score": 0.5,
+          "causal_confidence": 0.3398081534772182,
+          "avg_other_confidence": 0.1699040767386091,
+          "emphasis_ratio": 2.0,
+          "issues": []
+        },
+        "vocabulary_balance": {
+          "passed": true,
+          "score": 1.0,
+          "balance_ratio": 0.6,
+          "purpose_counts": {
+            "descriptive": 10,
+            "explanatory": 6,
+            "predictive": 6,
+            "causal": 6,
+            "intervention": 6
+          },
+          "issues": []
+        }
+      },
+      "violations": [],
+      "score": 0.9
+    },
+    "performance_summary": {
+      "overall_performance": {
+        "score": 0.8832895434072242,
+        "rating": "excellent",
+        "recommendations": []
+      },
+      "timing_analysis": {
+        "total_time": 0.0040130615234375,
+        "stage_times": {
+          "theory_count_detection": 0.00029540061950683594,
+          "purpose_classification": 0.0017285346984863281,
+          "vocabulary_extraction": 0.0016300678253173828,
+          "schema_generation": 4.673004150390625e-05,
+          "balance_validation": 3.790855407714844e-05,
+          "optimization": 2.1219253540039062e-05
+        },
+        "efficiency_score": 1.0
+      }
+    },
+    "total_processing_time": 0.004101276397705078
+  },
+  "systems_theory": {
+    "pipeline_results": {
+      "pipeline_id": "pipeline_1750976630",
+      "input_theory_length": 1400,
+      "processing_stages": [
+        "PipelineStage(stage_name='theory_count_detection', input_data={'text_length': 1400}, output_data={'theory_count': 1, 'complexity_level': 'single_theory', 'theory_mentions_total': 6, 'specific_theories_identified': ['systems theory'], 'theory_density': 0.041666666666666664, 'analysis_confidence': 1.0, 'detection_metadata': {'text_length': 1400, 'word_count': 144, 'pattern_matches': 6}}, processing_time=0.00014328956604003906, balance_metrics={'balance_score': 1.0})",
+        "PipelineStage(stage_name='purpose_classification', input_data={'detected_theory_count': 1}, output_data={'primary_purposes': ['predictive'], 'secondary_purposes': ['intervention'], 'all_purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention'], 'purpose_confidences': {'descriptive': 0.0, 'explanatory': 0.0, 'predictive': 0.3314814814814815, 'causal': 0.0, 'intervention': 0.3314814814814815}, 'purpose_analyses': {'descriptive': {'pattern_matches': 0, 'context_relevance': 0.0, 'sophistication_level': 8, 'evidence_quality': 0.0}, 'explanatory': {'pattern_matches': 0, 'context_relevance': 0.0, 'sophistication_level': 8, 'evidence_quality': 0.0}, 'predictive': {'pattern_matches': 1, 'context_relevance': 0.6944444444444444, 'sophistication_level': 8, 'evidence_quality': 0.2}, 'causal': {'pattern_matches': 0, 'context_relevance': 0.0, 'sophistication_level': 8, 'evidence_quality': 0.0}, 'intervention': {'pattern_matches': 1, 'context_relevance': 0.6944444444444444, 'sophistication_level': 8, 'evidence_quality': 0.2}}, 'balanced_analysis': {'balance_status': 'imbalanced', 'balance_score': 0.0, 'balance_metrics': {'max_confidence': 0.3314814814814815, 'min_confidence': 0.0, 'score_range': 0.3314814814814815, 'coefficient_of_variation': 1.2247448713915892}}, 'classification_metadata': {'threshold_used': 0.25, 'total_purposes_analyzed': 5, 'above_threshold_count': 2}}, processing_time=0.0011608600616455078, balance_metrics={'max_confidence': 0.3314814814814815, 'min_confidence': 0.0, 'score_range': 0.3314814814814815, 'coefficient_of_variation': 1.2247448713915892})",
+        "PipelineStage(stage_name='vocabulary_extraction', input_data={'purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']}, output_data={'descriptive_terms': {'taxonomies': ['Systems', 'Systems', 'systems', 'comprehensive', 'The'], 'classifications': [], 'categories': ['type', 'class', 'group'], 'attributes': ['characteristic', 'property', 'feature']}, 'explanatory_terms': {'mechanisms': [], 'processes': [], 'systems': ['system', 'framework', 'structure'], 'functions': ['function', 'operation', 'procedure']}, 'predictive_terms': {'variables': [], 'models': [], 'forecasting': ['predict', 'forecast', 'estimate'], 'indicators': ['indicator', 'measure', 'metric']}, 'causal_terms': {'causes': [], 'effects': [], 'relationships': ['relationship', 'connection', 'link'], 'pathways': ['pathway', 'route', 'channel']}, 'intervention_terms': {'interventions': ['strategies'], 'strategies': [], 'implementations': ['implement', 'apply', 'deploy'], 'actions': ['action', 'measure', 'step']}, 'cross_purpose_analysis': {'cross_purpose_terms': {'measure': ['predictive', 'intervention']}, 'total_unique_terms': 34, 'cross_purpose_count': 1, 'cross_purpose_ratio': 0.029411764705882353}, 'extraction_balance': {'purpose_counts': {'descriptive': 11, 'explanatory': 6, 'predictive': 6, 'causal': 6, 'intervention': 7}, 'balance_ratio': 0.5454545454545454, 'is_balanced': False, 'balance_status': 'needs_rebalancing'}}, processing_time=0.000629425048828125, balance_metrics={'purpose_counts': {'descriptive': 11, 'explanatory': 6, 'predictive': 6, 'causal': 6, 'intervention': 7}, 'balance_ratio': 0.5454545454545454, 'is_balanced': False, 'balance_status': 'needs_rebalancing'})",
+        "PipelineStage(stage_name='schema_generation', input_data={'model_type': 'multi_purpose_property_graph', 'purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']}, output_data={'model_type': 'multi_purpose_property_graph', 'theoretical_purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention'], 'purpose_capabilities': {'descriptive': {'purpose': 'descriptive', 'sophistication_level': 8, 'model_type': 'multi_purpose_property_graph', 'core_functions': {'taxonomic_classification': {'enabled': True}, 'typological_analysis': {'enabled': True}, 'structural_mapping': {'enabled': True}}, 'analytical_operations': ['classify', 'categorize', 'describe', 'characterize'], 'output_formats': ['taxonomies', 'typologies', 'classifications'], 'integration_interfaces': {}}, 'explanatory': {'purpose': 'explanatory', 'sophistication_level': 8, 'model_type': 'multi_purpose_property_graph', 'core_functions': {'mechanism_analysis': {'enabled': True}, 'process_modeling': {'enabled': True}, 'structural_explanation': {'enabled': True}}, 'analytical_operations': ['explain', 'analyze', 'interpret', 'trace'], 'output_formats': ['explanatory_models', 'process_diagrams', 'mechanism_maps'], 'integration_interfaces': {}}, 'predictive': {'purpose': 'predictive', 'sophistication_level': 8, 'model_type': 'multi_purpose_property_graph', 'core_functions': {'forecasting_models': {'enabled': True}, 'predictive_modeling': {'enabled': True}, 'risk_assessment': {'enabled': True}}, 'analytical_operations': ['predict', 'forecast', 'model', 'estimate'], 'output_formats': ['predictions', 'forecasts', 'models', 'scenarios'], 'integration_interfaces': {}}, 'causal': {'purpose': 'causal', 'sophistication_level': 8, 'model_type': 'multi_purpose_property_graph', 'core_functions': {'causal_identification': {'enabled': True}, 'causal_inference': {'enabled': True}, 'intervention_design': {'enabled': True}}, 'analytical_operations': ['cause', 'influence', 'affect', 'intervene'], 'output_formats': ['causal_models', 'causal_diagrams', 'effect_estimates'], 'integration_interfaces': {}}, 'intervention': {'purpose': 'intervention', 'sophistication_level': 8, 'model_type': 'multi_purpose_property_graph', 'core_functions': {'action_design': {'enabled': True}, 'implementation_planning': {'enabled': True}, 'outcome_optimization': {'enabled': True}}, 'analytical_operations': ['implement', 'execute', 'deploy', 'apply'], 'output_formats': ['action_plans', 'implementation_strategies', 'intervention_designs'], 'integration_interfaces': {}}}, 'schema_blueprint': {'schema_type': 'multi_purpose_balanced', 'model_type': 'multi_purpose_property_graph', 'capabilities_integrated': 5, 'structure': {'entities': ['Actor', 'System', 'Process', 'Outcome', 'Intervention'], 'relationships': ['influences', 'causes', 'implements', 'describes', 'predicts'], 'attributes': ['intensity', 'duration', 'scope', 'effectiveness', 'complexity']}, 'operations': {'analytical': ['categorize', 'cause', 'influence', 'affect', 'analyze', 'explain', 'deploy', 'apply', 'model', 'forecast', 'characterize', 'implement', 'classify', 'describe', 'interpret', 'intervene', 'trace', 'predict', 'estimate', 'execute'], 'computational': ['compute', 'calculate', 'simulate', 'optimize'], 'integration': ['integrate', 'synthesize', 'combine', 'unify']}}, 'cross_purpose_integration': {'integration_type': 'cross_purpose', 'total_interfaces': 20, 'integration_interfaces': {'descriptive_to_explanatory': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'descriptive -> explanatory', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'descriptive_to_predictive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'descriptive -> predictive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'descriptive_to_causal': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'descriptive -> causal', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'descriptive_to_intervention': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'descriptive -> intervention', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'explanatory_to_descriptive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'explanatory -> descriptive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'explanatory_to_predictive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'explanatory -> predictive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'explanatory_to_causal': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'explanatory -> causal', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'explanatory_to_intervention': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'explanatory -> intervention', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'predictive_to_descriptive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'predictive -> descriptive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'predictive_to_explanatory': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'predictive -> explanatory', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'predictive_to_causal': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'predictive -> causal', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'predictive_to_intervention': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'predictive -> intervention', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'causal_to_descriptive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'causal -> descriptive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'causal_to_explanatory': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'causal -> explanatory', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'causal_to_predictive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'causal -> predictive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'causal_to_intervention': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'causal -> intervention', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'intervention_to_descriptive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'intervention -> descriptive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'intervention_to_explanatory': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'intervention -> explanatory', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'intervention_to_predictive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'intervention -> predictive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'intervention_to_causal': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'intervention -> causal', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}}, 'unified_workflows': {'comprehensive_analysis': {'steps': ['describe', 'explain', 'predict', 'infer', 'intervene'], 'purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention'], 'workflow_type': 'sequential'}, 'parallel_analysis': {'steps': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention'], 'purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention'], 'workflow_type': 'parallel'}, 'iterative_refinement': {'steps': ['initial_analysis', 'cross_validation', 'refinement', 'integration'], 'purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention'], 'workflow_type': 'iterative'}}, 'integration_metadata': {'full_connectivity': True, 'bidirectional_support': True, 'workflow_count': 3, 'purposes_integrated': 5}}, 'balance_validation': {'validation_type': 'schema_balance', 'balance_score': 1.0, 'balance_status': 'BALANCED', 'sophistication_scores': {'descriptive': 8, 'explanatory': 8, 'predictive': 8, 'causal': 8, 'intervention': 8}, 'equal_capabilities': True}, 'generation_metadata': {'purposes_count': 5, 'capabilities_generated': 5, 'integration_interfaces': 20}}, processing_time=6.318092346191406e-05, balance_metrics={'validation_type': 'schema_balance', 'balance_score': 1.0, 'balance_status': 'BALANCED', 'sophistication_scores': {'descriptive': 8, 'explanatory': 8, 'predictive': 8, 'causal': 8, 'intervention': 8}, 'equal_capabilities': True})",
+        "PipelineStage(stage_name='balance_validation', input_data={'all_stages': 4}, output_data={'validation_type': 'pipeline_balance_validation', 'overall_balance_score': 1.0, 'overall_balance_status': 'BALANCED', 'stage_balance_metrics': {'theory_count_detection': {'balance_score': 1.0}, 'purpose_classification': {'max_confidence': 0.3314814814814815, 'min_confidence': 0.0, 'score_range': 0.3314814814814815, 'coefficient_of_variation': 1.2247448713915892}, 'vocabulary_extraction': {'purpose_counts': {'descriptive': 11, 'explanatory': 6, 'predictive': 6, 'causal': 6, 'intervention': 7}, 'balance_ratio': 0.5454545454545454, 'is_balanced': False, 'balance_status': 'needs_rebalancing'}, 'schema_generation': {'validation_type': 'schema_balance', 'balance_score': 1.0, 'balance_status': 'BALANCED', 'sophistication_scores': {'descriptive': 8, 'explanatory': 8, 'predictive': 8, 'causal': 8, 'intervention': 8}, 'equal_capabilities': True}}, 'purpose_representation': {'purposes_found': ['explanatory', 'descriptive', 'causal', 'predictive', 'intervention'], 'representation_ratio': 1.0, 'balance_score': 1.0, 'missing_purposes': []}, 'sophistication_balance': {'sophistication_levels': [8, 8, 8, 8, 8], 'balance_score': 1.0, 'equal_sophistication': True}, 'integration_completeness': {'integration_count': 20, 'expected_interfaces': 20, 'completeness_score': 1.0}, 'final_balance_metrics': {'balance_threshold_met': True, 'balance_score': 1.0, 'recommendations': ['Improve balance in purpose_classification stage', 'Improve balance in vocabulary_extraction stage']}}, processing_time=3.123283386230469e-05, balance_metrics={'balance_threshold_met': True, 'balance_score': 1.0, 'recommendations': ['Improve balance in purpose_classification stage', 'Improve balance in vocabulary_extraction stage']})"
+      ],
+      "balance_validation": {
+        "validation_type": "pipeline_balance_validation",
+        "overall_balance_score": 1.0,
+        "overall_balance_status": "BALANCED",
+        "stage_balance_metrics": {
+          "theory_count_detection": {
+            "balance_score": 1.0
+          },
+          "purpose_classification": {
+            "max_confidence": 0.3314814814814815,
+            "min_confidence": 0.0,
+            "score_range": 0.3314814814814815,
+            "coefficient_of_variation": 1.2247448713915892
+          },
+          "vocabulary_extraction": {
+            "purpose_counts": {
+              "descriptive": 11,
+              "explanatory": 6,
+              "predictive": 6,
+              "causal": 6,
+              "intervention": 7
+            },
+            "balance_ratio": 0.5454545454545454,
+            "is_balanced": false,
+            "balance_status": "needs_rebalancing"
+          },
+          "schema_generation": {
+            "validation_type": "schema_balance",
+            "balance_score": 1.0,
+            "balance_status": "BALANCED",
+            "sophistication_scores": {
+              "descriptive": 8,
+              "explanatory": 8,
+              "predictive": 8,
+              "causal": 8,
+              "intervention": 8
+            },
+            "equal_capabilities": true
+          }
+        },
+        "purpose_representation": {
+          "purposes_found": [
+            "explanatory",
+            "descriptive",
+            "causal",
+            "predictive",
+            "intervention"
+          ],
+          "representation_ratio": 1.0,
+          "balance_score": 1.0,
+          "missing_purposes": []
+        },
+        "sophistication_balance": {
+          "sophistication_levels": [
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "balance_score": 1.0,
+          "equal_sophistication": true
+        },
+        "integration_completeness": {
+          "integration_count": 20,
+          "expected_interfaces": 20,
+          "completeness_score": 1.0
+        },
+        "final_balance_metrics": {
+          "balance_threshold_met": true,
+          "balance_score": 1.0,
+          "recommendations": [
+            "Improve balance in purpose_classification stage",
+            "Improve balance in vocabulary_extraction stage"
+          ]
+        }
+      },
+      "pipeline_metrics": {
+        "total_processing_time": 0.0022940635681152344,
+        "stage_breakdown": {
+          "theory_count_detection": 0.00014328956604003906,
+          "purpose_classification": 0.0011608600616455078,
+          "vocabulary_extraction": 0.000629425048828125,
+          "schema_generation": 6.318092346191406e-05,
+          "balance_validation": 3.123283386230469e-05,
+          "optimization": 3.3855438232421875e-05
+        },
+        "efficiency_metrics": {
+          "efficiency_analysis": {
+            "stage_count": 5,
+            "theory_complexity": 1400,
+            "purposes_count": 5
+          },
+          "efficiency_score": 0.8771929824561403,
+          "optimization_recommendations": [
+            "Enable purpose-specific caching"
+          ],
+          "performance_metrics": {
+            "estimated_optimal_time": 0.7000000000000001,
+            "efficiency_rating": "high",
+            "scalability_assessment": "good"
+          }
+        },
+        "balance_success": true,
+        "quality_indicators": {
+          "completion_rate": 1.0,
+          "balance_achieved": true,
+          "purposes_covered": 5,
+          "integration_quality": 1.0
+        }
+      },
+      "theory_count": {
+        "theory_count": 1,
+        "complexity_level": "single_theory",
+        "theory_mentions_total": 6,
+        "specific_theories_identified": [
+          "systems theory"
+        ],
+        "theory_density": 0.041666666666666664,
+        "analysis_confidence": 1.0,
+        "detection_metadata": {
+          "text_length": 1400,
+          "word_count": 144,
+          "pattern_matches": 6
+        }
+      },
+      "purpose_classification": {
+        "primary_purposes": [
+          "predictive"
+        ],
+        "secondary_purposes": [
+          "intervention"
+        ],
+        "all_purposes": [
+          "descriptive",
+          "explanatory",
+          "predictive",
+          "causal",
+          "intervention"
+        ],
+        "purpose_confidences": {
+          "descriptive": 0.0,
+          "explanatory": 0.0,
+          "predictive": 0.3314814814814815,
+          "causal": 0.0,
+          "intervention": 0.3314814814814815
+        },
+        "purpose_analyses": {
+          "descriptive": {
+            "pattern_matches": 0,
+            "context_relevance": 0.0,
+            "sophistication_level": 8,
+            "evidence_quality": 0.0
+          },
+          "explanatory": {
+            "pattern_matches": 0,
+            "context_relevance": 0.0,
+            "sophistication_level": 8,
+            "evidence_quality": 0.0
+          },
+          "predictive": {
+            "pattern_matches": 1,
+            "context_relevance": 0.6944444444444444,
+            "sophistication_level": 8,
+            "evidence_quality": 0.2
+          },
+          "causal": {
+            "pattern_matches": 0,
+            "context_relevance": 0.0,
+            "sophistication_level": 8,
+            "evidence_quality": 0.0
+          },
+          "intervention": {
+            "pattern_matches": 1,
+            "context_relevance": 0.6944444444444444,
+            "sophistication_level": 8,
+            "evidence_quality": 0.2
+          }
+        },
+        "balanced_analysis": {
+          "balance_status": "imbalanced",
+          "balance_score": 0.0,
+          "balance_metrics": {
+            "max_confidence": 0.3314814814814815,
+            "min_confidence": 0.0,
+            "score_range": 0.3314814814814815,
+            "coefficient_of_variation": 1.2247448713915892
+          }
+        },
+        "classification_metadata": {
+          "threshold_used": 0.25,
+          "total_purposes_analyzed": 5,
+          "above_threshold_count": 2
+        }
+      },
+      "vocabulary_extraction": {
+        "descriptive_terms": {
+          "taxonomies": [
+            "Systems",
+            "Systems",
+            "systems",
+            "comprehensive",
+            "The"
+          ],
+          "classifications": [],
+          "categories": [
+            "type",
+            "class",
+            "group"
+          ],
+          "attributes": [
+            "characteristic",
+            "property",
+            "feature"
+          ]
+        },
+        "explanatory_terms": {
+          "mechanisms": [],
+          "processes": [],
+          "systems": [
+            "system",
+            "framework",
+            "structure"
+          ],
+          "functions": [
+            "function",
+            "operation",
+            "procedure"
+          ]
+        },
+        "predictive_terms": {
+          "variables": [],
+          "models": [],
+          "forecasting": [
+            "predict",
+            "forecast",
+            "estimate"
+          ],
+          "indicators": [
+            "indicator",
+            "measure",
+            "metric"
+          ]
+        },
+        "causal_terms": {
+          "causes": [],
+          "effects": [],
+          "relationships": [
+            "relationship",
+            "connection",
+            "link"
+          ],
+          "pathways": [
+            "pathway",
+            "route",
+            "channel"
+          ]
+        },
+        "intervention_terms": {
+          "interventions": [
+            "strategies"
+          ],
+          "strategies": [],
+          "implementations": [
+            "implement",
+            "apply",
+            "deploy"
+          ],
+          "actions": [
+            "action",
+            "measure",
+            "step"
+          ]
+        },
+        "cross_purpose_analysis": {
+          "cross_purpose_terms": {
+            "measure": [
+              "predictive",
+              "intervention"
+            ]
+          },
+          "total_unique_terms": 34,
+          "cross_purpose_count": 1,
+          "cross_purpose_ratio": 0.029411764705882353
+        },
+        "extraction_balance": {
+          "purpose_counts": {
+            "descriptive": 11,
+            "explanatory": 6,
+            "predictive": 6,
+            "causal": 6,
+            "intervention": 7
+          },
+          "balance_ratio": 0.5454545454545454,
+          "is_balanced": false,
+          "balance_status": "needs_rebalancing"
+        }
+      },
+      "schema_generation": {
+        "model_type": "multi_purpose_property_graph",
+        "theoretical_purposes": [
+          "descriptive",
+          "explanatory",
+          "predictive",
+          "causal",
+          "intervention"
+        ],
+        "purpose_capabilities": {
+          "descriptive": {
+            "purpose": "descriptive",
+            "sophistication_level": 8,
+            "model_type": "multi_purpose_property_graph",
+            "core_functions": {
+              "taxonomic_classification": {
+                "enabled": true
+              },
+              "typological_analysis": {
+                "enabled": true
+              },
+              "structural_mapping": {
+                "enabled": true
+              }
+            },
+            "analytical_operations": [
+              "classify",
+              "categorize",
+              "describe",
+              "characterize"
+            ],
+            "output_formats": [
+              "taxonomies",
+              "typologies",
+              "classifications"
+            ],
+            "integration_interfaces": {}
+          },
+          "explanatory": {
+            "purpose": "explanatory",
+            "sophistication_level": 8,
+            "model_type": "multi_purpose_property_graph",
+            "core_functions": {
+              "mechanism_analysis": {
+                "enabled": true
+              },
+              "process_modeling": {
+                "enabled": true
+              },
+              "structural_explanation": {
+                "enabled": true
+              }
+            },
+            "analytical_operations": [
+              "explain",
+              "analyze",
+              "interpret",
+              "trace"
+            ],
+            "output_formats": [
+              "explanatory_models",
+              "process_diagrams",
+              "mechanism_maps"
+            ],
+            "integration_interfaces": {}
+          },
+          "predictive": {
+            "purpose": "predictive",
+            "sophistication_level": 8,
+            "model_type": "multi_purpose_property_graph",
+            "core_functions": {
+              "forecasting_models": {
+                "enabled": true
+              },
+              "predictive_modeling": {
+                "enabled": true
+              },
+              "risk_assessment": {
+                "enabled": true
+              }
+            },
+            "analytical_operations": [
+              "predict",
+              "forecast",
+              "model",
+              "estimate"
+            ],
+            "output_formats": [
+              "predictions",
+              "forecasts",
+              "models",
+              "scenarios"
+            ],
+            "integration_interfaces": {}
+          },
+          "causal": {
+            "purpose": "causal",
+            "sophistication_level": 8,
+            "model_type": "multi_purpose_property_graph",
+            "core_functions": {
+              "causal_identification": {
+                "enabled": true
+              },
+              "causal_inference": {
+                "enabled": true
+              },
+              "intervention_design": {
+                "enabled": true
+              }
+            },
+            "analytical_operations": [
+              "cause",
+              "influence",
+              "affect",
+              "intervene"
+            ],
+            "output_formats": [
+              "causal_models",
+              "causal_diagrams",
+              "effect_estimates"
+            ],
+            "integration_interfaces": {}
+          },
+          "intervention": {
+            "purpose": "intervention",
+            "sophistication_level": 8,
+            "model_type": "multi_purpose_property_graph",
+            "core_functions": {
+              "action_design": {
+                "enabled": true
+              },
+              "implementation_planning": {
+                "enabled": true
+              },
+              "outcome_optimization": {
+                "enabled": true
+              }
+            },
+            "analytical_operations": [
+              "implement",
+              "execute",
+              "deploy",
+              "apply"
+            ],
+            "output_formats": [
+              "action_plans",
+              "implementation_strategies",
+              "intervention_designs"
+            ],
+            "integration_interfaces": {}
+          }
+        },
+        "schema_blueprint": {
+          "schema_type": "multi_purpose_balanced",
+          "model_type": "multi_purpose_property_graph",
+          "capabilities_integrated": 5,
+          "structure": {
+            "entities": [
+              "Actor",
+              "System",
+              "Process",
+              "Outcome",
+              "Intervention"
+            ],
+            "relationships": [
+              "influences",
+              "causes",
+              "implements",
+              "describes",
+              "predicts"
+            ],
+            "attributes": [
+              "intensity",
+              "duration",
+              "scope",
+              "effectiveness",
+              "complexity"
+            ]
+          },
+          "operations": {
+            "analytical": [
+              "categorize",
+              "cause",
+              "influence",
+              "affect",
+              "analyze",
+              "explain",
+              "deploy",
+              "apply",
+              "model",
+              "forecast",
+              "characterize",
+              "implement",
+              "classify",
+              "describe",
+              "interpret",
+              "intervene",
+              "trace",
+              "predict",
+              "estimate",
+              "execute"
+            ],
+            "computational": [
+              "compute",
+              "calculate",
+              "simulate",
+              "optimize"
+            ],
+            "integration": [
+              "integrate",
+              "synthesize",
+              "combine",
+              "unify"
+            ]
+          }
+        },
+        "cross_purpose_integration": {
+          "integration_type": "cross_purpose",
+          "total_interfaces": 20,
+          "integration_interfaces": {
+            "descriptive_to_explanatory": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "descriptive -> explanatory",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "descriptive_to_predictive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "descriptive -> predictive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "descriptive_to_causal": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "descriptive -> causal",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "descriptive_to_intervention": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "descriptive -> intervention",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "explanatory_to_descriptive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "explanatory -> descriptive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "explanatory_to_predictive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "explanatory -> predictive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "explanatory_to_causal": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "explanatory -> causal",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "explanatory_to_intervention": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "explanatory -> intervention",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "predictive_to_descriptive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "predictive -> descriptive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "predictive_to_explanatory": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "predictive -> explanatory",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "predictive_to_causal": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "predictive -> causal",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "predictive_to_intervention": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "predictive -> intervention",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "causal_to_descriptive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "causal -> descriptive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "causal_to_explanatory": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "causal -> explanatory",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "causal_to_predictive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "causal -> predictive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "causal_to_intervention": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "causal -> intervention",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "intervention_to_descriptive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "intervention -> descriptive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "intervention_to_explanatory": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "intervention -> explanatory",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "intervention_to_predictive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "intervention -> predictive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "intervention_to_causal": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "intervention -> causal",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            }
+          },
+          "unified_workflows": {
+            "comprehensive_analysis": {
+              "steps": [
+                "describe",
+                "explain",
+                "predict",
+                "infer",
+                "intervene"
+              ],
+              "purposes": [
+                "descriptive",
+                "explanatory",
+                "predictive",
+                "causal",
+                "intervention"
+              ],
+              "workflow_type": "sequential"
+            },
+            "parallel_analysis": {
+              "steps": [
+                "descriptive",
+                "explanatory",
+                "predictive",
+                "causal",
+                "intervention"
+              ],
+              "purposes": [
+                "descriptive",
+                "explanatory",
+                "predictive",
+                "causal",
+                "intervention"
+              ],
+              "workflow_type": "parallel"
+            },
+            "iterative_refinement": {
+              "steps": [
+                "initial_analysis",
+                "cross_validation",
+                "refinement",
+                "integration"
+              ],
+              "purposes": [
+                "descriptive",
+                "explanatory",
+                "predictive",
+                "causal",
+                "intervention"
+              ],
+              "workflow_type": "iterative"
+            }
+          },
+          "integration_metadata": {
+            "full_connectivity": true,
+            "bidirectional_support": true,
+            "workflow_count": 3,
+            "purposes_integrated": 5
+          }
+        },
+        "balance_validation": {
+          "validation_type": "schema_balance",
+          "balance_score": 1.0,
+          "balance_status": "BALANCED",
+          "sophistication_scores": {
+            "descriptive": 8,
+            "explanatory": 8,
+            "predictive": 8,
+            "causal": 8,
+            "intervention": 8
+          },
+          "equal_capabilities": true
+        },
+        "generation_metadata": {
+          "purposes_count": 5,
+          "capabilities_generated": 5,
+          "integration_interfaces": 20
+        }
+      }
+    },
+    "quality_summary": {
+      "overall_quality": "excellent",
+      "overall_score": 0.9999972960154216,
+      "balance_status": "moderately_balanced",
+      "balance_score": 0.8333333333333333
+    },
+    "balance_validation": {
+      "balance_validated": true,
+      "requirements_met": {
+        "equal_sophistication": {
+          "passed": true,
+          "score": 1.0,
+          "sophistication_levels": [
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "variance": 0,
+          "issues": []
+        },
+        "purpose_representation": {
+          "passed": true,
+          "score": 1.0,
+          "purposes_found": [
+            "explanatory",
+            "descriptive",
+            "causal",
+            "predictive",
+            "intervention"
+          ],
+          "missing_purposes": [],
+          "representation_ratio": 1.0,
+          "issues": []
+        },
+        "integration_completeness": {
+          "passed": true,
+          "score": 1.0,
+          "total_interfaces": 20,
+          "expected_interfaces": 20,
+          "completeness_ratio": 1.0,
+          "workflow_count": 3,
+          "issues": []
+        },
+        "no_causal_overemphasis": {
+          "passed": true,
+          "score": 1.0,
+          "causal_confidence": 0.0,
+          "avg_other_confidence": 0.16574074074074074,
+          "emphasis_ratio": 0.0,
+          "issues": []
+        },
+        "vocabulary_balance": {
+          "passed": false,
+          "score": 0.9090909090909091,
+          "balance_ratio": 0.5454545454545454,
+          "purpose_counts": {
+            "descriptive": 11,
+            "explanatory": 6,
+            "predictive": 6,
+            "causal": 6,
+            "intervention": 7
+          },
+          "issues": [
+            "Vocabulary extraction imbalanced: ratio 0.545"
+          ]
+        }
+      },
+      "violations": [
+        "Vocabulary extraction imbalanced: ratio 0.545"
+      ],
+      "score": 0.9818181818181818
+    },
+    "performance_summary": {
+      "overall_performance": {
+        "score": 0.8817982456140351,
+        "rating": "excellent",
+        "recommendations": []
+      },
+      "timing_analysis": {
+        "total_time": 0.0022940635681152344,
+        "stage_times": {
+          "theory_count_detection": 0.00014328956604003906,
+          "purpose_classification": 0.0011608600616455078,
+          "vocabulary_extraction": 0.000629425048828125,
+          "schema_generation": 6.318092346191406e-05,
+          "balance_validation": 3.123283386230469e-05,
+          "optimization": 3.3855438232421875e-05
+        },
+        "efficiency_score": 1.0
+      }
+    },
+    "total_processing_time": 0.0023331642150878906
+  },
+  "complexity_theory": {
+    "pipeline_results": {
+      "pipeline_id": "pipeline_1750976630",
+      "input_theory_length": 1362,
+      "processing_stages": [
+        "PipelineStage(stage_name='theory_count_detection', input_data={'text_length': 1362}, output_data={'theory_count': 1, 'complexity_level': 'single_theory', 'theory_mentions_total': 6, 'specific_theories_identified': ['complexity theory'], 'theory_density': 0.04195804195804196, 'analysis_confidence': 1.0, 'detection_metadata': {'text_length': 1362, 'word_count': 143, 'pattern_matches': 6}}, processing_time=0.0001404285430908203, balance_metrics={'balance_score': 1.0})",
+        "PipelineStage(stage_name='purpose_classification', input_data={'detected_theory_count': 1}, output_data={'primary_purposes': ['causal'], 'secondary_purposes': ['intervention'], 'all_purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention'], 'purpose_confidences': {'descriptive': 0.0, 'explanatory': 0.0, 'predictive': 0.0, 'causal': 0.5333333333333333, 'intervention': 0.3331002331002331}, 'purpose_analyses': {'descriptive': {'pattern_matches': 0, 'context_relevance': 0.0, 'sophistication_level': 8, 'evidence_quality': 0.0}, 'explanatory': {'pattern_matches': 0, 'context_relevance': 0.0, 'sophistication_level': 8, 'evidence_quality': 0.0}, 'predictive': {'pattern_matches': 0, 'context_relevance': 0.0, 'sophistication_level': 8, 'evidence_quality': 0.0}, 'causal': {'pattern_matches': 2, 'context_relevance': 1.0, 'sophistication_level': 8, 'evidence_quality': 0.4}, 'intervention': {'pattern_matches': 1, 'context_relevance': 0.6993006993006994, 'sophistication_level': 8, 'evidence_quality': 0.2}}, 'balanced_analysis': {'balance_status': 'imbalanced', 'balance_score': 0.0, 'balance_metrics': {'max_confidence': 0.5333333333333333, 'min_confidence': 0.0, 'score_range': 0.5333333333333333, 'coefficient_of_variation': 1.278091713896143}}, 'classification_metadata': {'threshold_used': 0.25, 'total_purposes_analyzed': 5, 'above_threshold_count': 2}}, processing_time=0.001130819320678711, balance_metrics={'max_confidence': 0.5333333333333333, 'min_confidence': 0.0, 'score_range': 0.5333333333333333, 'coefficient_of_variation': 1.278091713896143})",
+        "PipelineStage(stage_name='vocabulary_extraction', input_data={'purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']}, output_data={'descriptive_terms': {'taxonomies': ['Complexity', 'complexity', 'The', 'powerful'], 'classifications': [], 'categories': ['type', 'class', 'group'], 'attributes': ['characteristic', 'property', 'feature']}, 'explanatory_terms': {'mechanisms': [], 'processes': [], 'systems': ['system', 'framework', 'structure'], 'functions': ['function', 'operation', 'procedure']}, 'predictive_terms': {'variables': [], 'models': [], 'forecasting': ['predict', 'forecast', 'estimate'], 'indicators': ['indicator', 'measure', 'metric']}, 'causal_terms': {'causes': ['nonlinear'], 'effects': [], 'relationships': ['relationship', 'connection', 'link'], 'pathways': ['pathway', 'route', 'channel']}, 'intervention_terms': {'interventions': ['approaches'], 'strategies': [], 'implementations': ['implement', 'apply', 'deploy'], 'actions': ['action', 'measure', 'step']}, 'cross_purpose_analysis': {'cross_purpose_terms': {'measure': ['predictive', 'intervention']}, 'total_unique_terms': 35, 'cross_purpose_count': 1, 'cross_purpose_ratio': 0.02857142857142857}, 'extraction_balance': {'purpose_counts': {'descriptive': 10, 'explanatory': 6, 'predictive': 6, 'causal': 7, 'intervention': 7}, 'balance_ratio': 0.6, 'is_balanced': False, 'balance_status': 'needs_rebalancing'}}, processing_time=0.0006253719329833984, balance_metrics={'purpose_counts': {'descriptive': 10, 'explanatory': 6, 'predictive': 6, 'causal': 7, 'intervention': 7}, 'balance_ratio': 0.6, 'is_balanced': False, 'balance_status': 'needs_rebalancing'})",
+        "PipelineStage(stage_name='schema_generation', input_data={'model_type': 'multi_purpose_property_graph', 'purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']}, output_data={'model_type': 'multi_purpose_property_graph', 'theoretical_purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention'], 'purpose_capabilities': {'descriptive': {'purpose': 'descriptive', 'sophistication_level': 8, 'model_type': 'multi_purpose_property_graph', 'core_functions': {'taxonomic_classification': {'enabled': True}, 'typological_analysis': {'enabled': True}, 'structural_mapping': {'enabled': True}}, 'analytical_operations': ['classify', 'categorize', 'describe', 'characterize'], 'output_formats': ['taxonomies', 'typologies', 'classifications'], 'integration_interfaces': {}}, 'explanatory': {'purpose': 'explanatory', 'sophistication_level': 8, 'model_type': 'multi_purpose_property_graph', 'core_functions': {'mechanism_analysis': {'enabled': True}, 'process_modeling': {'enabled': True}, 'structural_explanation': {'enabled': True}}, 'analytical_operations': ['explain', 'analyze', 'interpret', 'trace'], 'output_formats': ['explanatory_models', 'process_diagrams', 'mechanism_maps'], 'integration_interfaces': {}}, 'predictive': {'purpose': 'predictive', 'sophistication_level': 8, 'model_type': 'multi_purpose_property_graph', 'core_functions': {'forecasting_models': {'enabled': True}, 'predictive_modeling': {'enabled': True}, 'risk_assessment': {'enabled': True}}, 'analytical_operations': ['predict', 'forecast', 'model', 'estimate'], 'output_formats': ['predictions', 'forecasts', 'models', 'scenarios'], 'integration_interfaces': {}}, 'causal': {'purpose': 'causal', 'sophistication_level': 8, 'model_type': 'multi_purpose_property_graph', 'core_functions': {'causal_identification': {'enabled': True}, 'causal_inference': {'enabled': True}, 'intervention_design': {'enabled': True}}, 'analytical_operations': ['cause', 'influence', 'affect', 'intervene'], 'output_formats': ['causal_models', 'causal_diagrams', 'effect_estimates'], 'integration_interfaces': {}}, 'intervention': {'purpose': 'intervention', 'sophistication_level': 8, 'model_type': 'multi_purpose_property_graph', 'core_functions': {'action_design': {'enabled': True}, 'implementation_planning': {'enabled': True}, 'outcome_optimization': {'enabled': True}}, 'analytical_operations': ['implement', 'execute', 'deploy', 'apply'], 'output_formats': ['action_plans', 'implementation_strategies', 'intervention_designs'], 'integration_interfaces': {}}}, 'schema_blueprint': {'schema_type': 'multi_purpose_balanced', 'model_type': 'multi_purpose_property_graph', 'capabilities_integrated': 5, 'structure': {'entities': ['Actor', 'System', 'Process', 'Outcome', 'Intervention'], 'relationships': ['influences', 'causes', 'implements', 'describes', 'predicts'], 'attributes': ['intensity', 'duration', 'scope', 'effectiveness', 'complexity']}, 'operations': {'analytical': ['categorize', 'cause', 'influence', 'affect', 'analyze', 'explain', 'deploy', 'apply', 'model', 'forecast', 'characterize', 'implement', 'classify', 'describe', 'interpret', 'intervene', 'trace', 'predict', 'estimate', 'execute'], 'computational': ['compute', 'calculate', 'simulate', 'optimize'], 'integration': ['integrate', 'synthesize', 'combine', 'unify']}}, 'cross_purpose_integration': {'integration_type': 'cross_purpose', 'total_interfaces': 20, 'integration_interfaces': {'descriptive_to_explanatory': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'descriptive -> explanatory', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'descriptive_to_predictive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'descriptive -> predictive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'descriptive_to_causal': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'descriptive -> causal', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'descriptive_to_intervention': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'descriptive -> intervention', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'explanatory_to_descriptive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'explanatory -> descriptive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'explanatory_to_predictive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'explanatory -> predictive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'explanatory_to_causal': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'explanatory -> causal', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'explanatory_to_intervention': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'explanatory -> intervention', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'predictive_to_descriptive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'predictive -> descriptive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'predictive_to_explanatory': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'predictive -> explanatory', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'predictive_to_causal': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'predictive -> causal', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'predictive_to_intervention': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'predictive -> intervention', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'causal_to_descriptive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'causal -> descriptive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'causal_to_explanatory': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'causal -> explanatory', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'causal_to_predictive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'causal -> predictive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'causal_to_intervention': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'causal -> intervention', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'intervention_to_descriptive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'intervention -> descriptive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'intervention_to_explanatory': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'intervention -> explanatory', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'intervention_to_predictive': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'intervention -> predictive', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}, 'intervention_to_causal': {'type': 'bidirectional', 'operations': ['transform', 'integrate', 'synthesize'], 'data_flow': 'intervention -> causal', 'compatibility_score': 0.9, 'integration_complexity': 'moderate'}}, 'unified_workflows': {'comprehensive_analysis': {'steps': ['describe', 'explain', 'predict', 'infer', 'intervene'], 'purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention'], 'workflow_type': 'sequential'}, 'parallel_analysis': {'steps': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention'], 'purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention'], 'workflow_type': 'parallel'}, 'iterative_refinement': {'steps': ['initial_analysis', 'cross_validation', 'refinement', 'integration'], 'purposes': ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention'], 'workflow_type': 'iterative'}}, 'integration_metadata': {'full_connectivity': True, 'bidirectional_support': True, 'workflow_count': 3, 'purposes_integrated': 5}}, 'balance_validation': {'validation_type': 'schema_balance', 'balance_score': 1.0, 'balance_status': 'BALANCED', 'sophistication_scores': {'descriptive': 8, 'explanatory': 8, 'predictive': 8, 'causal': 8, 'intervention': 8}, 'equal_capabilities': True}, 'generation_metadata': {'purposes_count': 5, 'capabilities_generated': 5, 'integration_interfaces': 20}}, processing_time=4.506111145019531e-05, balance_metrics={'validation_type': 'schema_balance', 'balance_score': 1.0, 'balance_status': 'BALANCED', 'sophistication_scores': {'descriptive': 8, 'explanatory': 8, 'predictive': 8, 'causal': 8, 'intervention': 8}, 'equal_capabilities': True})",
+        "PipelineStage(stage_name='balance_validation', input_data={'all_stages': 4}, output_data={'validation_type': 'pipeline_balance_validation', 'overall_balance_score': 1.0, 'overall_balance_status': 'BALANCED', 'stage_balance_metrics': {'theory_count_detection': {'balance_score': 1.0}, 'purpose_classification': {'max_confidence': 0.5333333333333333, 'min_confidence': 0.0, 'score_range': 0.5333333333333333, 'coefficient_of_variation': 1.278091713896143}, 'vocabulary_extraction': {'purpose_counts': {'descriptive': 10, 'explanatory': 6, 'predictive': 6, 'causal': 7, 'intervention': 7}, 'balance_ratio': 0.6, 'is_balanced': False, 'balance_status': 'needs_rebalancing'}, 'schema_generation': {'validation_type': 'schema_balance', 'balance_score': 1.0, 'balance_status': 'BALANCED', 'sophistication_scores': {'descriptive': 8, 'explanatory': 8, 'predictive': 8, 'causal': 8, 'intervention': 8}, 'equal_capabilities': True}}, 'purpose_representation': {'purposes_found': ['explanatory', 'descriptive', 'causal', 'predictive', 'intervention'], 'representation_ratio': 1.0, 'balance_score': 1.0, 'missing_purposes': []}, 'sophistication_balance': {'sophistication_levels': [8, 8, 8, 8, 8], 'balance_score': 1.0, 'equal_sophistication': True}, 'integration_completeness': {'integration_count': 20, 'expected_interfaces': 20, 'completeness_score': 1.0}, 'final_balance_metrics': {'balance_threshold_met': True, 'balance_score': 1.0, 'recommendations': ['Improve balance in purpose_classification stage', 'Improve balance in vocabulary_extraction stage']}}, processing_time=2.5272369384765625e-05, balance_metrics={'balance_threshold_met': True, 'balance_score': 1.0, 'recommendations': ['Improve balance in purpose_classification stage', 'Improve balance in vocabulary_extraction stage']})"
+      ],
+      "balance_validation": {
+        "validation_type": "pipeline_balance_validation",
+        "overall_balance_score": 1.0,
+        "overall_balance_status": "BALANCED",
+        "stage_balance_metrics": {
+          "theory_count_detection": {
+            "balance_score": 1.0
+          },
+          "purpose_classification": {
+            "max_confidence": 0.5333333333333333,
+            "min_confidence": 0.0,
+            "score_range": 0.5333333333333333,
+            "coefficient_of_variation": 1.278091713896143
+          },
+          "vocabulary_extraction": {
+            "purpose_counts": {
+              "descriptive": 10,
+              "explanatory": 6,
+              "predictive": 6,
+              "causal": 7,
+              "intervention": 7
+            },
+            "balance_ratio": 0.6,
+            "is_balanced": false,
+            "balance_status": "needs_rebalancing"
+          },
+          "schema_generation": {
+            "validation_type": "schema_balance",
+            "balance_score": 1.0,
+            "balance_status": "BALANCED",
+            "sophistication_scores": {
+              "descriptive": 8,
+              "explanatory": 8,
+              "predictive": 8,
+              "causal": 8,
+              "intervention": 8
+            },
+            "equal_capabilities": true
+          }
+        },
+        "purpose_representation": {
+          "purposes_found": [
+            "explanatory",
+            "descriptive",
+            "causal",
+            "predictive",
+            "intervention"
+          ],
+          "representation_ratio": 1.0,
+          "balance_score": 1.0,
+          "missing_purposes": []
+        },
+        "sophistication_balance": {
+          "sophistication_levels": [
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "balance_score": 1.0,
+          "equal_sophistication": true
+        },
+        "integration_completeness": {
+          "integration_count": 20,
+          "expected_interfaces": 20,
+          "completeness_score": 1.0
+        },
+        "final_balance_metrics": {
+          "balance_threshold_met": true,
+          "balance_score": 1.0,
+          "recommendations": [
+            "Improve balance in purpose_classification stage",
+            "Improve balance in vocabulary_extraction stage"
+          ]
+        }
+      },
+      "pipeline_metrics": {
+        "total_processing_time": 0.0021643638610839844,
+        "stage_breakdown": {
+          "theory_count_detection": 0.0001404285430908203,
+          "purpose_classification": 0.001130819320678711,
+          "vocabulary_extraction": 0.0006253719329833984,
+          "schema_generation": 4.506111145019531e-05,
+          "balance_validation": 2.5272369384765625e-05,
+          "optimization": 1.3828277587890625e-05
+        },
+        "efficiency_metrics": {
+          "efficiency_analysis": {
+            "stage_count": 5,
+            "theory_complexity": 1362,
+            "purposes_count": 5
+          },
+          "efficiency_score": 0.880126738250308,
+          "optimization_recommendations": [
+            "Enable purpose-specific caching"
+          ],
+          "performance_metrics": {
+            "estimated_optimal_time": 0.6809999999999999,
+            "efficiency_rating": "high",
+            "scalability_assessment": "good"
+          }
+        },
+        "balance_success": true,
+        "quality_indicators": {
+          "completion_rate": 1.0,
+          "balance_achieved": true,
+          "purposes_covered": 5,
+          "integration_quality": 1.0
+        }
+      },
+      "theory_count": {
+        "theory_count": 1,
+        "complexity_level": "single_theory",
+        "theory_mentions_total": 6,
+        "specific_theories_identified": [
+          "complexity theory"
+        ],
+        "theory_density": 0.04195804195804196,
+        "analysis_confidence": 1.0,
+        "detection_metadata": {
+          "text_length": 1362,
+          "word_count": 143,
+          "pattern_matches": 6
+        }
+      },
+      "purpose_classification": {
+        "primary_purposes": [
+          "causal"
+        ],
+        "secondary_purposes": [
+          "intervention"
+        ],
+        "all_purposes": [
+          "descriptive",
+          "explanatory",
+          "predictive",
+          "causal",
+          "intervention"
+        ],
+        "purpose_confidences": {
+          "descriptive": 0.0,
+          "explanatory": 0.0,
+          "predictive": 0.0,
+          "causal": 0.5333333333333333,
+          "intervention": 0.3331002331002331
+        },
+        "purpose_analyses": {
+          "descriptive": {
+            "pattern_matches": 0,
+            "context_relevance": 0.0,
+            "sophistication_level": 8,
+            "evidence_quality": 0.0
+          },
+          "explanatory": {
+            "pattern_matches": 0,
+            "context_relevance": 0.0,
+            "sophistication_level": 8,
+            "evidence_quality": 0.0
+          },
+          "predictive": {
+            "pattern_matches": 0,
+            "context_relevance": 0.0,
+            "sophistication_level": 8,
+            "evidence_quality": 0.0
+          },
+          "causal": {
+            "pattern_matches": 2,
+            "context_relevance": 1.0,
+            "sophistication_level": 8,
+            "evidence_quality": 0.4
+          },
+          "intervention": {
+            "pattern_matches": 1,
+            "context_relevance": 0.6993006993006994,
+            "sophistication_level": 8,
+            "evidence_quality": 0.2
+          }
+        },
+        "balanced_analysis": {
+          "balance_status": "imbalanced",
+          "balance_score": 0.0,
+          "balance_metrics": {
+            "max_confidence": 0.5333333333333333,
+            "min_confidence": 0.0,
+            "score_range": 0.5333333333333333,
+            "coefficient_of_variation": 1.278091713896143
+          }
+        },
+        "classification_metadata": {
+          "threshold_used": 0.25,
+          "total_purposes_analyzed": 5,
+          "above_threshold_count": 2
+        }
+      },
+      "vocabulary_extraction": {
+        "descriptive_terms": {
+          "taxonomies": [
+            "Complexity",
+            "complexity",
+            "The",
+            "powerful"
+          ],
+          "classifications": [],
+          "categories": [
+            "type",
+            "class",
+            "group"
+          ],
+          "attributes": [
+            "characteristic",
+            "property",
+            "feature"
+          ]
+        },
+        "explanatory_terms": {
+          "mechanisms": [],
+          "processes": [],
+          "systems": [
+            "system",
+            "framework",
+            "structure"
+          ],
+          "functions": [
+            "function",
+            "operation",
+            "procedure"
+          ]
+        },
+        "predictive_terms": {
+          "variables": [],
+          "models": [],
+          "forecasting": [
+            "predict",
+            "forecast",
+            "estimate"
+          ],
+          "indicators": [
+            "indicator",
+            "measure",
+            "metric"
+          ]
+        },
+        "causal_terms": {
+          "causes": [
+            "nonlinear"
+          ],
+          "effects": [],
+          "relationships": [
+            "relationship",
+            "connection",
+            "link"
+          ],
+          "pathways": [
+            "pathway",
+            "route",
+            "channel"
+          ]
+        },
+        "intervention_terms": {
+          "interventions": [
+            "approaches"
+          ],
+          "strategies": [],
+          "implementations": [
+            "implement",
+            "apply",
+            "deploy"
+          ],
+          "actions": [
+            "action",
+            "measure",
+            "step"
+          ]
+        },
+        "cross_purpose_analysis": {
+          "cross_purpose_terms": {
+            "measure": [
+              "predictive",
+              "intervention"
+            ]
+          },
+          "total_unique_terms": 35,
+          "cross_purpose_count": 1,
+          "cross_purpose_ratio": 0.02857142857142857
+        },
+        "extraction_balance": {
+          "purpose_counts": {
+            "descriptive": 10,
+            "explanatory": 6,
+            "predictive": 6,
+            "causal": 7,
+            "intervention": 7
+          },
+          "balance_ratio": 0.6,
+          "is_balanced": false,
+          "balance_status": "needs_rebalancing"
+        }
+      },
+      "schema_generation": {
+        "model_type": "multi_purpose_property_graph",
+        "theoretical_purposes": [
+          "descriptive",
+          "explanatory",
+          "predictive",
+          "causal",
+          "intervention"
+        ],
+        "purpose_capabilities": {
+          "descriptive": {
+            "purpose": "descriptive",
+            "sophistication_level": 8,
+            "model_type": "multi_purpose_property_graph",
+            "core_functions": {
+              "taxonomic_classification": {
+                "enabled": true
+              },
+              "typological_analysis": {
+                "enabled": true
+              },
+              "structural_mapping": {
+                "enabled": true
+              }
+            },
+            "analytical_operations": [
+              "classify",
+              "categorize",
+              "describe",
+              "characterize"
+            ],
+            "output_formats": [
+              "taxonomies",
+              "typologies",
+              "classifications"
+            ],
+            "integration_interfaces": {}
+          },
+          "explanatory": {
+            "purpose": "explanatory",
+            "sophistication_level": 8,
+            "model_type": "multi_purpose_property_graph",
+            "core_functions": {
+              "mechanism_analysis": {
+                "enabled": true
+              },
+              "process_modeling": {
+                "enabled": true
+              },
+              "structural_explanation": {
+                "enabled": true
+              }
+            },
+            "analytical_operations": [
+              "explain",
+              "analyze",
+              "interpret",
+              "trace"
+            ],
+            "output_formats": [
+              "explanatory_models",
+              "process_diagrams",
+              "mechanism_maps"
+            ],
+            "integration_interfaces": {}
+          },
+          "predictive": {
+            "purpose": "predictive",
+            "sophistication_level": 8,
+            "model_type": "multi_purpose_property_graph",
+            "core_functions": {
+              "forecasting_models": {
+                "enabled": true
+              },
+              "predictive_modeling": {
+                "enabled": true
+              },
+              "risk_assessment": {
+                "enabled": true
+              }
+            },
+            "analytical_operations": [
+              "predict",
+              "forecast",
+              "model",
+              "estimate"
+            ],
+            "output_formats": [
+              "predictions",
+              "forecasts",
+              "models",
+              "scenarios"
+            ],
+            "integration_interfaces": {}
+          },
+          "causal": {
+            "purpose": "causal",
+            "sophistication_level": 8,
+            "model_type": "multi_purpose_property_graph",
+            "core_functions": {
+              "causal_identification": {
+                "enabled": true
+              },
+              "causal_inference": {
+                "enabled": true
+              },
+              "intervention_design": {
+                "enabled": true
+              }
+            },
+            "analytical_operations": [
+              "cause",
+              "influence",
+              "affect",
+              "intervene"
+            ],
+            "output_formats": [
+              "causal_models",
+              "causal_diagrams",
+              "effect_estimates"
+            ],
+            "integration_interfaces": {}
+          },
+          "intervention": {
+            "purpose": "intervention",
+            "sophistication_level": 8,
+            "model_type": "multi_purpose_property_graph",
+            "core_functions": {
+              "action_design": {
+                "enabled": true
+              },
+              "implementation_planning": {
+                "enabled": true
+              },
+              "outcome_optimization": {
+                "enabled": true
+              }
+            },
+            "analytical_operations": [
+              "implement",
+              "execute",
+              "deploy",
+              "apply"
+            ],
+            "output_formats": [
+              "action_plans",
+              "implementation_strategies",
+              "intervention_designs"
+            ],
+            "integration_interfaces": {}
+          }
+        },
+        "schema_blueprint": {
+          "schema_type": "multi_purpose_balanced",
+          "model_type": "multi_purpose_property_graph",
+          "capabilities_integrated": 5,
+          "structure": {
+            "entities": [
+              "Actor",
+              "System",
+              "Process",
+              "Outcome",
+              "Intervention"
+            ],
+            "relationships": [
+              "influences",
+              "causes",
+              "implements",
+              "describes",
+              "predicts"
+            ],
+            "attributes": [
+              "intensity",
+              "duration",
+              "scope",
+              "effectiveness",
+              "complexity"
+            ]
+          },
+          "operations": {
+            "analytical": [
+              "categorize",
+              "cause",
+              "influence",
+              "affect",
+              "analyze",
+              "explain",
+              "deploy",
+              "apply",
+              "model",
+              "forecast",
+              "characterize",
+              "implement",
+              "classify",
+              "describe",
+              "interpret",
+              "intervene",
+              "trace",
+              "predict",
+              "estimate",
+              "execute"
+            ],
+            "computational": [
+              "compute",
+              "calculate",
+              "simulate",
+              "optimize"
+            ],
+            "integration": [
+              "integrate",
+              "synthesize",
+              "combine",
+              "unify"
+            ]
+          }
+        },
+        "cross_purpose_integration": {
+          "integration_type": "cross_purpose",
+          "total_interfaces": 20,
+          "integration_interfaces": {
+            "descriptive_to_explanatory": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "descriptive -> explanatory",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "descriptive_to_predictive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "descriptive -> predictive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "descriptive_to_causal": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "descriptive -> causal",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "descriptive_to_intervention": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "descriptive -> intervention",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "explanatory_to_descriptive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "explanatory -> descriptive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "explanatory_to_predictive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "explanatory -> predictive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "explanatory_to_causal": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "explanatory -> causal",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "explanatory_to_intervention": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "explanatory -> intervention",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "predictive_to_descriptive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "predictive -> descriptive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "predictive_to_explanatory": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "predictive -> explanatory",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "predictive_to_causal": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "predictive -> causal",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "predictive_to_intervention": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "predictive -> intervention",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "causal_to_descriptive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "causal -> descriptive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "causal_to_explanatory": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "causal -> explanatory",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "causal_to_predictive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "causal -> predictive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "causal_to_intervention": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "causal -> intervention",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "intervention_to_descriptive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "intervention -> descriptive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "intervention_to_explanatory": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "intervention -> explanatory",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "intervention_to_predictive": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "intervention -> predictive",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            },
+            "intervention_to_causal": {
+              "type": "bidirectional",
+              "operations": [
+                "transform",
+                "integrate",
+                "synthesize"
+              ],
+              "data_flow": "intervention -> causal",
+              "compatibility_score": 0.9,
+              "integration_complexity": "moderate"
+            }
+          },
+          "unified_workflows": {
+            "comprehensive_analysis": {
+              "steps": [
+                "describe",
+                "explain",
+                "predict",
+                "infer",
+                "intervene"
+              ],
+              "purposes": [
+                "descriptive",
+                "explanatory",
+                "predictive",
+                "causal",
+                "intervention"
+              ],
+              "workflow_type": "sequential"
+            },
+            "parallel_analysis": {
+              "steps": [
+                "descriptive",
+                "explanatory",
+                "predictive",
+                "causal",
+                "intervention"
+              ],
+              "purposes": [
+                "descriptive",
+                "explanatory",
+                "predictive",
+                "causal",
+                "intervention"
+              ],
+              "workflow_type": "parallel"
+            },
+            "iterative_refinement": {
+              "steps": [
+                "initial_analysis",
+                "cross_validation",
+                "refinement",
+                "integration"
+              ],
+              "purposes": [
+                "descriptive",
+                "explanatory",
+                "predictive",
+                "causal",
+                "intervention"
+              ],
+              "workflow_type": "iterative"
+            }
+          },
+          "integration_metadata": {
+            "full_connectivity": true,
+            "bidirectional_support": true,
+            "workflow_count": 3,
+            "purposes_integrated": 5
+          }
+        },
+        "balance_validation": {
+          "validation_type": "schema_balance",
+          "balance_score": 1.0,
+          "balance_status": "BALANCED",
+          "sophistication_scores": {
+            "descriptive": 8,
+            "explanatory": 8,
+            "predictive": 8,
+            "causal": 8,
+            "intervention": 8
+          },
+          "equal_capabilities": true
+        },
+        "generation_metadata": {
+          "purposes_count": 5,
+          "capabilities_generated": 5,
+          "integration_interfaces": 20
+        }
+      }
+    },
+    "quality_summary": {
+      "overall_quality": "excellent",
+      "overall_score": 0.9999973773956299,
+      "balance_status": "moderately_balanced",
+      "balance_score": 0.8400000000000001
+    },
+    "balance_validation": {
+      "balance_validated": true,
+      "requirements_met": {
+        "equal_sophistication": {
+          "passed": true,
+          "score": 1.0,
+          "sophistication_levels": [
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "variance": 0,
+          "issues": []
+        },
+        "purpose_representation": {
+          "passed": true,
+          "score": 1.0,
+          "purposes_found": [
+            "explanatory",
+            "descriptive",
+            "causal",
+            "predictive",
+            "intervention"
+          ],
+          "missing_purposes": [],
+          "representation_ratio": 1.0,
+          "issues": []
+        },
+        "integration_completeness": {
+          "passed": true,
+          "score": 1.0,
+          "total_interfaces": 20,
+          "expected_interfaces": 20,
+          "completeness_ratio": 1.0,
+          "workflow_count": 3,
+          "issues": []
+        },
+        "no_causal_overemphasis": {
+          "passed": false,
+          "score": 0,
+          "causal_confidence": 0.5333333333333333,
+          "avg_other_confidence": 0.08327505827505828,
+          "emphasis_ratio": 6.404478656403079,
+          "issues": [
+            "Causal over-emphasis detected: 6.40x other purposes"
+          ]
+        },
+        "vocabulary_balance": {
+          "passed": true,
+          "score": 1.0,
+          "balance_ratio": 0.6,
+          "purpose_counts": {
+            "descriptive": 10,
+            "explanatory": 6,
+            "predictive": 6,
+            "causal": 7,
+            "intervention": 7
+          },
+          "issues": []
+        }
+      },
+      "violations": [
+        "Causal over-emphasis detected: 6.40x other purposes"
+      ],
+      "score": 0.8
+    },
+    "performance_summary": {
+      "overall_performance": {
+        "score": 0.882531684562577,
+        "rating": "excellent",
+        "recommendations": []
+      },
+      "timing_analysis": {
+        "total_time": 0.0021643638610839844,
+        "stage_times": {
+          "theory_count_detection": 0.0001404285430908203,
+          "purpose_classification": 0.001130819320678711,
+          "vocabulary_extraction": 0.0006253719329833984,
+          "schema_generation": 4.506111145019531e-05,
+          "balance_validation": 2.5272369384765625e-05,
+          "optimization": 1.3828277587890625e-05
+        },
+        "efficiency_score": 1.0
+      }
+    },
+    "total_processing_time": 0.0021851062774658203
+  }
+}

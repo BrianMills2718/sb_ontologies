@@ -1,0 +1,201 @@
+schema_reference: /home/brian/lit_review/schemas/semantic_hypergraph/semantic_hypergraph_complete.yml
+model_type: hypergraph
+instance:
+  vertices:
+  - id: a1
+    label: spain_pm_sanchez
+    type: concept
+  - id: a2
+    label: gaza
+    type: concept
+  - id: a3
+    label: genocide
+    type: concept
+  - id: a6
+    label: israel_offensive
+    type: concept
+  - id: a7
+    label: israel_military_campaign
+    type: concept
+  - id: a9
+    label: num_56259
+    type: concept
+  - id: a10
+    label: civilians
+    type: concept
+  - id: a12
+    label: health_ministry_gaza
+    type: concept
+  - id: a13
+    label: num_550
+    type: concept
+  - id: a14
+    label: aid_centres
+    type: concept
+  - id: a15
+    label: unspecified_agent
+    type: concept
+  - id: a17
+    label: rescuers
+    type: concept
+  - id: a18
+    label: num_56
+    type: concept
+  hyperedges:
+  - id: h1
+    connector_id: a4
+    connector_type: P
+    arguments:
+    - a1
+    - a2
+    - a3
+    ordered: true
+  - id: h2
+    connector_id: a5
+    connector_type: P
+    arguments:
+    - a1
+    - a6
+    ordered: true
+  - id: h3
+    connector_id: a8
+    connector_type: P
+    arguments:
+    - a7
+    - a9
+    ordered: true
+    modifiers:
+    - a11
+    - a10
+  - id: h4
+    connector_id: a19
+    connector_type: P
+    arguments:
+    - a12
+    - h3
+    ordered: true
+  - id: h5
+    connector_id: a8
+    connector_type: P
+    arguments:
+    - a15
+    - a13
+    ordered: true
+    modifiers:
+    - a16
+    - a14
+  - id: h6
+    connector_id: a19
+    connector_type: P
+    arguments:
+    - a12
+    - h5
+    ordered: true
+  - id: h7
+    connector_id: a8
+    connector_type: P
+    arguments:
+    - a15
+    - a18
+    ordered: true
+  - id: h8
+    connector_id: a19
+    connector_type: P
+    arguments:
+    - a17
+    - h7
+    ordered: true
+  - id: h9
+    connector_id: a20
+    connector_type: B
+    arguments:
+    - h1
+    - h2
+    - h4
+    - h6
+    - h8
+    ordered: false
+  atoms:
+  - id: a1
+    term: spain_pm_sanchez
+    type: C
+  - id: a2
+    term: gaza
+    type: C
+  - id: a3
+    term: genocide
+    type: C
+  - id: a4
+    term: describe
+    type: P
+  - id: a5
+    term: condemn
+    type: P
+  - id: a6
+    term: israel_offensive
+    type: C
+  - id: a7
+    term: israel_military_campaign
+    type: C
+  - id: a8
+    term: kill
+    type: P
+  - id: a9
+    term: num_56259
+    type: C
+  - id: a10
+    term: civilians
+    type: C
+  - id: a11
+    term: mostly
+    type: M
+  - id: a12
+    term: health_ministry_gaza
+    type: C
+  - id: a13
+    term: num_550
+    type: C
+  - id: a14
+    term: aid_centres
+    type: C
+  - id: a15
+    term: unspecified_agent
+    type: C
+  - id: a16
+    term: near
+    type: T
+  - id: a17
+    term: rescuers
+    type: C
+  - id: a18
+    term: num_56
+    type: C
+  - id: a19
+    term: say
+    type: P
+  - id: a20
+    term: and
+    type: B
+  connectors:
+  - id: a4
+    term: describe
+    type: P
+  - id: a5
+    term: condemn
+    type: P
+  - id: a8
+    term: kill
+    type: P
+  - id: a11
+    term: mostly
+    type: M
+  - id: a16
+    term: near
+    type: T
+  - id: a19
+    term: say
+    type: P
+  - id: a20
+    term: and
+    type: B
+  main_hyperedge: h9

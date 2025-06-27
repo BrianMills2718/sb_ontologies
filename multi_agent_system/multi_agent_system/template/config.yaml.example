@@ -1,0 +1,29 @@
+# Multi-Agent Project Configuration V2 - Real Isolation
+# Copy this to config.yaml and customize
+
+project_name: "my_automation_project"
+description: "Multi-phase automation with real context isolation"
+
+# Phases definition
+phases:
+  - name: "setup_files"
+    description: "Create initial project files"
+  - name: "modify_content"  
+    description: "Modify and enhance the files"
+  - name: "validate_results"
+    description: "Verify everything works correctly"
+
+# Isolation settings
+isolation:
+  shared_evidence_dir: "shared/evidence"
+  implementation_context: |
+    # Implementation Agent Context
+    You are an implementation agent working in isolation.
+    Your task is defined in instructions.md.
+    Store all outputs in ../shared/evidence/
+  evaluation_context: |
+    # Evaluation Agent Context  
+    You are an evaluation agent working in isolation.
+    Your task is defined in evaluation.md.
+    Examine evidence in ./evidence/ directory.
+    Provide objective PASS/FAIL assessment.

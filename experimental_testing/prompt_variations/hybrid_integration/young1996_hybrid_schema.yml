@@ -1,0 +1,62 @@
+HYBRID SCHEMA GENERATION TEST
+Theory: validation_results/academic_papers/young1996_cognitive_mapping.txt
+Detection: experimental_testing/prompt_variations/hybrid_integration/young1996_hybrid_result.txt
+==================================================
+
+model_type: hybrid
+hybrid_configuration:
+  primary_components:
+    - component_id: "Cognitive Mapping"
+      model_type: "table_matrix"
+      focus: "Captures quantitative belief structures using adjacency matrices and measures like dependency, connectedness, size, and uniformity of salience."
+    - component_id: "Semantic Networks"
+      model_type: "property_graph"
+      focus: "Represents qualitative and symbolic aspects of belief systems using nodes and edges enriched with truth-values, modifiers, and compound relationship handling."
+  integration_mappings:
+    - source_component: "Cognitive Mapping"
+      target_component: "Semantic Networks"
+      relationship_type: "feeds_into"
+      integration_mechanism: "Combines numerical clarity from matrix representations with symbolic detail from semantic nodes, integrating quantitative structure with qualitative modifiers for a unified cognitive model."
+
+schema_blueprint:
+  title: "WorldView Cognitive Mapping and Semantic Network Framework"
+  description: "A comprehensive framework that unifies quantitative cognitive mapping with qualitative semantic network representations. This hybrid model leverages structured adjacency matrices to quantify belief structures while incorporating symbolic, property-rich nodes and edges to capture nuanced relationships, modifiers, and truth assessments essential for understanding complex decision-making processes."
+  
+  components:
+    Cognitive Mapping:
+      model_type: "table_matrix"
+      root_properties:
+        - "Adjacency Matrix Representation: A square matrix with rows and columns representing concepts."
+        - "Structural Measures: Dependency, Connectedness, Size, Uniformity of Salience calculated from relationships."
+      definitions:
+        concept: "A fundamental unit representing a belief or idea, numerically indexed in the matrix."
+        relationship: "A numeric indicator (1 or 0) denoting the presence or absence of a causal link between concepts."
+    
+    Semantic Networks:
+      model_type: "property_graph"
+      root_properties:
+        - "Node-based Representation: Every concept and relationship is a node with attached properties."
+        - "Attributes: Truth-values, Modifiers (past, present, future, hypothetical, normative), and Salience for each relationship."
+      definitions:
+        node: "An entity representing a concept or relationship, capable of holding symbolic information."
+        edge: "A connection between nodes that carries specific semantic properties such as type, conditionality, and strength."
+  
+  integration_schema:
+    cross_component_relationships:
+      - relationship_name: "integration_relationship"
+        domain: ["Cognitive Mapping.concept"]
+        range: ["Semantic Networks.node"]
+        description: "Establishes a mapping from numeric concepts in the matrix to enriched semantic nodes, enabling the translation of quantitative data into qualitative insights."
+        
+    unified_entities:
+      - entity_name: "Concept"
+        appears_in: ["Cognitive Mapping", "Semantic Networks"]
+        role_in_component_1: "Serves as an indexed element within the adjacency matrix to define belief structures."
+        role_in_component_2: "Acts as a node enriched with symbolic details (truth-values, modifiers) for nuanced reasoning."
+        
+    reasoning_integration:
+      - reasoning_type: "logical"
+        spans_components: ["Cognitive Mapping", "Semantic Networks"]
+        integration_rules:
+          - "Utilize quantitative structural measures to identify key belief nodes."
+          - "Apply logical inference rules across both numeric and symbolic representations to update and validate cognitive maps."

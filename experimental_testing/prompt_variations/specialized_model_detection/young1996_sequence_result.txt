@@ -1,0 +1,19 @@
+YOUNG 1996 DETECTOR TEST
+Input: validation_results/academic_papers/young1996_cognitive_mapping.txt
+Detector: experimental_testing/prompt_variations/specialized_model_detection/sequence_detector.txt
+==================================================
+
+detection_confidence: 0.8
+structure_type: "sequence"
+evidence:
+  - "The method is described in terms of a defined, step‐by‐step process – for example, first performing a human-coded content analysis to identify beliefs, then compiling these into nodes, and finally generating and manipulating a cognitive map."
+  - "The directed‑walk reasoning model is explicitly described as a sequential procedure (steps 1 through 8) that selects, activates, and processes the most salient propositions."
+extracted_structure:
+  steps: [
+    "Conduct human-coded content analysis to extract subject‑relationship‑object statements from texts",
+    "Identify and code belief elements and the various types of relationships (causal, attribute, etc.) with associated truth‑values and modifiers",
+    "Aggregate the coded data into nodes representing concepts, relationships, and conjunctions",
+    "Compile the individual data statements into a manipulable cognitive map using a computer program",
+    "Apply structural measures and process models (e.g., transformation cost, directed‑walk) to capture changes and reasoning flows"
+  ]
+  ordering_logic: "The procedure is ordered from initial data capture (content analysis

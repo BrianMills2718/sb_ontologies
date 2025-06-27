@@ -1,0 +1,17 @@
+SPECIALIZED DETECTOR TEST
+Input: validation_results/complexity_testing/lofland_stark_simple_theory.txt
+Detector: experimental_testing/prompt_variations/specialized_model_detection/table_matrix_detector.txt
+==================================================
+
+detection_confidence: 0.1
+structure_type: "table_matrix"
+evidence:
+  - "The theory outlines a series of seven sequential conditions for conversion rather than presenting them in a multi-dimensional table layout."
+  - "Although two conversion types (verbal vs. total) are distinguished and the factors accumulate, there is no systematic cross-tabulation (e.g., rows × columns) comparing conditions against conversion types or outcomes."
+extracted_structure:
+  rows: ["Conversion Condition 1: Tension", "Conversion Condition 2: Religious Problem-Solving Perspective", "Conversion Condition 3: Seekership", "Conversion Condition 4: Turning Point", "Conversion Condition 5: Affective Bonds", "Conversion Condition 6: Neutralization of Extra-Cult Attachments", "Conversion Condition 7: Intensive Interaction"]
+  columns: ["Narrative description", "Role in Conversion Process"]
+  cells: "Each cell would have to describe the element’s role and its relationship to conversion if mapped in a table, but the original text presents these sequentially rather than in a tabular data format"
+  dimensions: "7x2 (hypothetically, if forced into a table) but not explicitly provided"
+primary_comparison: "The theory primarily compares the presence and accumulation of specific conditions (factors) in leading to conversion rather than systematically comparing different dimensions in a matrix format."
+alternative_representations: "The sequential model might be better represented as a flowchart or sequence diagram rather than a graph or a multi-dimensional table/matrix."

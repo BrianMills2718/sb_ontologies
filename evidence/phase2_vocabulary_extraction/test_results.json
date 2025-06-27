@@ -1,0 +1,13 @@
+{
+  "tests_run": 12,
+  "failures": 1,
+  "errors": 0,
+  "success_rate": 0.9166666666666666,
+  "detailed_results": [
+    {
+      "test": "test_08_multi_purpose_theory_vocabulary_handling (__main__.TestMultiPurposeVocabularyExtraction)",
+      "status": "FAILURE",
+      "details": "Traceback (most recent call last):\n  File \"/home/brian/lit_review/evidence/phase2_vocabulary_extraction/test_vocabulary_extraction.py\", line 317, in test_08_multi_purpose_theory_vocabulary_handling\n    self.assertGreater(quality['overall_quality'], 0.3,\nAssertionError: 0.23681506849315068 not greater than 0.3 : Integration quality too low for multi-purpose theory\n"
+    }
+  ]
+}

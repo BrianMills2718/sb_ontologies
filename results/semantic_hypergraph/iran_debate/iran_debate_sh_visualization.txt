@@ -1,0 +1,48 @@
+SEMANTIC HYPERGRAPH - IRAN DEBATE
+============================================================
+
+ATOMS:
+  a1: David_Leonhardt/C
+  a2: Bret_Stephens/C
+  a3: Rosemary_Kelanic/C
+  a4: President_Trump/C
+  a5: Israel/C
+  a6: Iran/C
+  a7: United_States/C
+  a8: war_in_Iran/C
+  a9: 12_day_war/C
+  a10: nuclear_program/C
+  a11: ballistic_missile_capabilities/C
+  a12: cease_fire/C
+  a13: hostilities/C
+  a14: Fordo_facilities/C
+  a15: strategic_military_goals/C
+  a16: over_state/C
+  a17: striking_Iran/C
+  a18: US_military_action_in_Iran/C
+  a19: applaud/P.sa
+  a20: warn/P.soa
+  a21: invite/P.so
+  a23: refer_to/P.soc
+  a24: suggest/P.sa
+  a25: lash_out/P.so
+  a26: accomplish/P.so
+  a27: degrade/P.so
+  a33: be/P.sc
+  a31: +/B
+
+HYPEREDGES:
+  h1: (applaud/P.sa a2:s a18:a) <claim_Bret>
+  h2: (warn/P.soa a3:s a7:o a17:a) <claim_Rosemary>
+  h3a: (invite/P.so a1:s a2:o)
+  h3b: (invite/P.so a1:s a3:o)
+  h5a: (+/B a5 a6)
+  h5: (lash_out/P.so a4:s h5a:o)
+  h4: (refer_to/P.soc a4:s a8:o a9:c)
+  h6a: (be/P.sc a8:s a16:c)
+  h6: (suggest/P.sa a4:s h6a:a)
+  h7: (accomplish/P.so a5:s a15:o) <claim_Bret>
+  h8: (degrade/P.so a5:s a11:o) <claim_Bret>
+  hMain: (+/B h1 h2 h6)
+
+MAIN: hMain

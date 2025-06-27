@@ -1,0 +1,93 @@
+input_file: validation_results/cross_domain/framing_theory_core.txt
+processing_pipeline: optimized_experimental
+theory_count_detection: "theory_count: multiple\n\nindividual_theories:\n  - name:\
+  \ \"Framing Effects Theory\"\n    source: \"Heilman & Miclea research\"\n    description:\
+  \ \"Proposes that presenting equivalent decision alternatives in different terms\
+  \ leads to preference reversals, violating the principle of invariance.\"\n    section:\
+  \ \"Core Theory\"\n    \n  - name: \"Taxonomy of Framing Effects\"\n    source:\
+  \ \"Levin et al., 1998\"\n    description: \"Classifies framing into distinct types\
+  \ such as risky choice framing, attribute framing, and goal framing to explain different\
+  \ manifestations of framing in decision contexts.\"\n    section: \"Taxonomy of\
+  \ Framing Effects\"\n    \n  - name: \"Prospect Theory\"\n    source: \"Kahneman\
+  \ & Tversky, 1979\"\n    description: \"Explains decision making under risk by emphasizing\
+  \ outcome evaluation relative to a reference point and loss aversion, thereby providing\
+  \ an explanation for framing effects.\"\n    section: \"Prospect Theory Explanation\"\
+  \n\nrelationships_between_theories: comparison\nconfidence: high\nreasoning: \"\
+  The paper discusses multiple distinct theoretical approaches. It outlines Framing\
+  \ Effects Theory as a core perspective, supplements it with a detailed taxonomy\
+  \ of framing variants from Levin et al. (1998), and contrasts these with Prospect\
+  \ Theory\u2019s explanation of decision making. Each theory is discussed in a different\
+  \ section and contributes unique insights into the phenomenon, confirming that the\
+  \ paper presents multiple separate theories.\""
+specialized_detection:
+  table_matrix: "detection_confidence: 0.3\nstructure_type: \"table_matrix\"\nevidence:\n\
+    \  - \"The theory includes systematic comparisons such as gain vs. loss framing\
+    \ and lists a taxonomy of framing types (risky choice framing, attribute framing,\
+    \ goal framing), which suggests multi-dimensional categorization.\"\n  - \"There\
+    \ are comparisons across domains (health, financial, objects) and documented preference\
+    \ reversals with different experimental conditions, hinting at experimental design\
+    \ elements typically found in matrix structures.\"\nextracted_structure:\n  rows:\
+    \ [\"Framing types (e.g., Risky Choice, Attribute, Goal)\"]\n  columns: [\"Decisional\
+    \ Alternative outcomes (e.g., sure vs. probabilistic options)\", \"Domain effects\
+    \ (e.g., Health, Financial, Objects)\"]\n  cells: \"Each cell would detail how\
+    \ a particular framing type influences decision maker\u2019s behavior under specific\
+    \ conditions (e.g., percentage shifts in risk preference)\"\n  dimensions: \"\
+    NxM where N is the number of framing types and M is the number of comparison dimensions\
+    \ (such as outcome description and domain)\"\nprimary_comparison: \"The systematic\
+    \ comparison of how different framing conditions (gain vs. loss) affect decision\
+    \ making and preference reversals across different domains and experimental conditions\"\
+    \nalternative_representations: \"While the theory is presented in narrative and\
+    \ list formats, it could alternatively be represented as a graph or flow diagram\
+    \ showing causal relationships, or as a sequence outlining conceptual steps instead\
+    \ of a table/matrix\""
+  property_graph: "detection_confidence: 0.1\nstructure_type: \"property_graph\"\n\
+    evidence:\n  - \"The theory does not explicitly discuss network properties such\
+    \ as centrality, clustering, or density.\"\n  - \"The primary focus is on how\
+    \ different presentations (frames) of decisional alternatives affect choice, not\
+    \ on emergent network-level properties.\"\nnetwork_centrality_evidence:\n  - \"\
+    There is no mention of network metrics or analysis of node positions that influence\
+    \ theoretical outcomes.\"\n  - \"Network-level emergent properties are not a part\
+    \ of the theory\u2019s predictions.\"\nrelationship_richness_evidence:\n  - \"\
+    While several concepts (e.g., decision maker, decisional alternative, frame) are\
+    \ involved, their relationships are used to explain framing effects rather than\
+    \ to form a complex network of interconnected entities.\"\n  - \"There is no indication\
+    \ of multiple relationship types or complex interconnections that drive the central\
+    \ findings.\"\nalternative_structure_analysis: \"This theory is better characterized\
+    \ as a behavioral/psychological model explaining biases in decision-making rather\
+    \ than as a network or property graph structure.\"\nconfidence_justification:\
+    \ \"The analysis reveals that although there are relationships between concepts,\
+    \ they serve to explain decision-making biases rather than forming a network whose\
+    \ topology is central to the theory\u2019s contribution. Hence, the network structure\
+    \ is not the primary theoretical insight.\""
+  sequence: "detection_confidence: 0.2\nstructure_type: \"sequence\"\nevidence:\n\
+    \  - \"The theory presents various components (e.g., framing, reference points,\
+    \ risk preference) and examples (e.g., Asian Disease Problem) without a clear,\
+    \ ordered progression of stages.\"\n  - \"There is no defined step-by-step progression\
+    \ (e.g., Phase 1 \u2192 Phase 2 \u2192 Phase 3) nor a sequential decision protocol;\
+    \ instead, it outlines theoretical elements and experimental findings that interact.\"\
+    \nextracted_structure:\n  steps: []\n  ordering_logic: \"There is no explicit\
+    \ ordering of processes or stages; the elements are presented as factors influencing\
+    \ decision-making rather than steps that unfold in a temporal or procedural sequence.\"\
+    \n  progression_type: \"none\"\n  prerequisites: \"Not applicable \u2013 the theory\
+    \ does not specify that one component must occur before another in a temporal\
+    \ or developmental order.\"\nsequential_characteristics: \"The theory is primarily\
+    \ descriptive and comparative in nature (comparing outcomes under different frames)\
+    \ rather than being organized into a temporal, developmental, procedural, or causal\
+    \ sequential framework.\"\nalternative_representations: \"Yes; the theory could\
+    \ instead be represented using a network or table that shows relationships and\
+    \ influences among its constructs rather than a linear or step-by-step progression.\""
+hybrid_detection: "hybrid_detected: false\nconfidence: 0.95\nprimary_components:\n\
+  \  - component_name: \"Decision Evaluation Process\"\n    model_type: \"statistical\"\
+  \n    evidence: \"The theory centers on quantitatively comparing outcomes (gains\
+  \ vs. losses) and observing preference reversals across different frames, consistent\
+  \ with Prospect Theory\u2019s modeling of risk and value.\"\n    theoretical_role:\
+  \ \"It explains how decision makers evaluate alternatives based on reference points\
+  \ and loss aversion under risk.\"\nintegration_mechanisms:\n  - \"Not applicable\
+  \ \u2013 the theory does not require integrating distinct structural models; all\
+  \ phenomena are captured within a single probabilistic/psychological framework.\"\
+  \nintegration_type: extension\nunified_framework_name: \"Prospect Theory\"\nalternative_single_model:\
+  \ \"Yes \u2013 the framing effects in decision making can be fully represented using\
+  \ a single, integrated probabilistic model (Prospect Theory) without necessitating\
+  \ multiple structural paradigms.\""
+model_type: sequence
+confidence: 0.8

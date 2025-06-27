@@ -1,113 +1,133 @@
-# CLAUDE.md
+# Automated Theory Extraction and Application System
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+## 🎯 **PROJECT GOAL**
+Create an automated system that reads academic papers, extracts theoretical schemas with high fidelity, and applies them to data to produce results comparable to the original paper.
 
-## Project Overview
+**Core Workflow**: Academic Paper → Schema Extraction → Data Application → Comparable Results
 
-This is a literature review and knowledge modeling project that processes academic papers through an improved multiphase workflow to create structured, machine-readable representations of academic theories using JSON Schema and semantic networks.
+## 📂 **CODEBASE ORGANIZATION** (MANDATORY STRUCTURE)
 
-For detailed project goals and methodology, see **PROJECT_OVERVIEW.md**.
+### **Required Directory Structure**
+```
+/home/brian/lit_review/
+├── src/                              # ALL CODE GOES HERE
+│   ├── schema_creation/              # Schema generation scripts
+│   │   ├── multiphase_processor_improved.py    # Main 3-phase processor
+│   │   ├── multiphase_processor_expanded.py    # Option 1: Integrated notation
+│   │   ├── implementation_extractor.py         # Option 2: Separate implementation
+│   │   └── prompts/                            # External prompt files
+│   ├── schema_application/           # Scripts that apply schemas to data  
+│   ├── visualization/                # Network plots, diagrams, charts
+│   ├── testing/                      # Test scripts and validation
+│   └── ui/                          # User interface and analysis tools
+├── schemas/                          # Generated schemas organized by theory
+│   └── {theory_name}/               # One folder per theory
+├── results/                          # Test results and validation reports
+│   └── {theory_name}/               # Results organized by theory
+├── data/                            # All data files
+│   ├── papers/                      # PDF/txt source papers
+│   └── test_texts/                  # Text files for testing schemas
+├── examples/                        # Example schemas and analyses
+└── docs/                           # Documentation files
+```
 
-## Current System Architecture
+### **File Naming Rules**
+1. **ALL new code** must go in appropriate `src/` subdirectory
+2. **Schemas**: Save to `schemas/{theory_name}/schema_name.yml`
+3. **Results**: Save to `results/{theory_name}/result_name.txt`
+4. **NO loose Python files** in root directory
 
-### Multiphase Processing System (Primary Approach)
+## 🛠️ **CURRENT CAPABILITIES**
 
-The project uses a three-phase processing pipeline that separates concerns for better semantic accuracy:
+### **Schema Extraction** (3-Phase Process)
+1. **Phase 1**: Extract ALL vocabulary terms with definitions
+2. **Phase 2**: Classify into entities, relationships, properties, actions, etc.
+3. **Phase 3**: Generate theory-adaptive schema with appropriate model type
+   - **NEW**: Full Phase 1 vocabulary passed to Phase 3 (prevents information loss)
 
-1. **Phase 1: Vocabulary Extraction** - Comprehensively extracts all theoretical terms from papers
-2. **Phase 2: Ontological Classification** - Classifies terms into proper categories with specific domain/range
-3. **Phase 3: Schema Generation** - Creates theory-adaptive schemas based on the classified vocabulary
+### **Model Types Supported**
+- `property_graph`: Rich relationships between entities
+- `hypergraph`: N-ary relationships, recursive structures ✅ NEW
+- `table_matrix`: Classifications, typologies
+- `sequence`: Ordered processes, stages
+- `tree`: Hierarchical taxonomies
+- `timeline`: Temporal evolution
+- `other`: Custom representations
 
-#### Key Processors:
-- **multiphase_processor_improved.py** - Main processor with O3 support and comprehensive extraction
-- **multiphase_processor_simple.py** - Simplified version for quick testing
-- **multiphase_processor.py** - Original basic version (legacy)
+### **Notation Extraction** (Two Approaches)
+1. **Option 1**: Expanded schema with integrated notation/patterns
+2. **Option 2**: Separate implementation specification
+3. **Recommendation**: Use hybrid approach for theories with formal notation
 
-#### Supporting Files:
-- **MULTIPHASE_README.md** - Detailed documentation of the multiphase approach
-- **compare_processors.py** - Tool to compare outputs between different processors
-- **problems_to_fix.txt** - Identified issues with original approach
+## 🔄 **CURRENT STATUS**
 
-### Archive
+### **Recent Improvements**
+1. ✅ Fixed information loss between phases (was losing 40% of terms)
+2. ✅ Added explicit hypergraph model type
+3. ✅ Implemented notation extraction (Options 1 & 2)
+4. ✅ Separated prompts from code for maintainability
 
-Old schemas and raw outputs have been moved to `archive/old_schemas/` for reference.
+### **Test Case: Young 1996**
+- **Current**: 34% fidelity 
+- **Target**: Match `examples/carter_young1996_faithful_analysis.yml`
+- **Status**: Need to apply improved extraction methods
 
-## Key Improvements in Current System
+### **Semantic Hypergraph Case Study**
+- Successfully extracted basic schema
+- Option 2 captured 60% of implementation details
+- Missing: Type inference rules, algorithms, complete patterns
 
-1. **No Domain/Range on Entities** - Only relationships and actions have domain/range constraints
-2. **Comprehensive Extraction** - No artificial limits on vocabulary size
-3. **Specific Domain/Range** - Uses theory-specific types (Actor→Statement, not Entity→Entity)
-4. **Preserved Subcategories** - Maintains theory-specific categories
-5. **Complete Ontology** - Includes modifiers, truth values, and operators
-6. **Theory-Adaptive Schemas** - Genuinely selects appropriate model type
-7. **Hierarchical Support** - Preserves subTypeOf relationships
+## 📋 **NEXT STEPS**
 
-## Processing Workflow
+### **1. Multi-Pass Extraction** (Priority: HIGH)
+Implement specialized extractors for:
+- Pass 1: Notation and symbols
+- Pass 2: Tables and formal rules  
+- Pass 3: Algorithms and pseudocode
+- Pass 4: Metrics and evaluation
+- Pass 5: Complete examples
+
+### **2. Test Improved Young 1996 Extraction**
+Apply enhanced methods to achieve target fidelity
+
+### **3. Create Hybrid Pipeline**
+Combine Option 1 (structure) + Option 2 (detail) for optimal extraction
+
+## 💡 **KEY INSIGHTS**
+
+### **Information Preservation**
+- Phase 3 must receive FULL Phase 1 vocabulary
+- Implementation details need dedicated extraction
+- Notation systems are part of theory, not just implementation
+
+### **Extraction Strategies**
+- **Simple theories**: Standard 3-phase sufficient
+- **Formal theories**: Need multi-pass + notation extraction
+- **Complex theories**: Hybrid approach recommended
+
+## 🚀 **QUICK START COMMANDS**
 
 ```bash
-# Process a new paper with the improved processor
-python multiphase_processor_improved.py "path/to/paper.txt" "path/to/output.yml"
+# Standard extraction
+python -m src.schema_creation.multiphase_processor_improved paper.txt schemas/theory/schema.yml
 
-# Compare different processor outputs
-python compare_processors.py
+# With notation (Option 1)
+python src/schema_creation/multiphase_processor_expanded.py paper.txt schemas/theory/expanded.yml
+
+# Implementation details (Option 2)
+python src/schema_creation/implementation_extractor.py paper.txt schemas/theory/implementation.yml
+
+# Apply schema to data
+python src/schema_application/apply_schema.py schema.yml data.txt results/output.yml
 ```
 
-### Input Requirements
-- Academic papers in plain text format (.txt)
-- Papers should be placed in appropriate subdirectories under `literature/`
+## 📐 **TECHNICAL CONFIG**
+- **Model**: OpenAI O3
+- **Environment**: Set OPENAI_API_KEY in .env
+- **Python**: 3.10+
 
-### Output Structure
-```yaml
-citation: Full bibliographic citation
-annotation: 2-3 sentence summary
-model_type: property_graph|table_matrix|sequence|tree|timeline|other
-rationale: Detailed justification for model type
-schema_blueprint:
-  title: Theory-specific title
-  description: Comprehensive description
-  root_properties: Model-specific structure
-  definitions: All terms with proper categorization
-  modifiers_supported: Temporal/modal modifiers
-  truth_values_supported: Truth value system
-```
-
-## Model Requirements
-
-- **OpenAI Model**: O3 (configured in .env)
-- **API Key**: Required in .env file
-- **Dependencies**: See requirements.txt
-
-## Data Organization
-
-```
-literature/
-├── category_name/
-│   ├── paper_name.txt (input)
-│   ├── paper_name_improved.yml (output)
-│   └── debug_improved/ (phase outputs)
-└── Index.md (paper registry)
-
-archive/
-└── old_schemas/ (legacy outputs)
-```
-
-## Quality Standards
-
-1. **Entities** must NOT have domain/range properties
-2. **Relationships/Actions** must have specific domain/range types
-3. **Subcategories** should preserve theoretical terminology
-4. **Model Type** must match theory structure with detailed rationale
-5. **Modifiers** should be included when present in the theory
-
-## Debugging
-
-Check `debug_improved/` folders for intermediate phase outputs:
-- `*_phase1.json` - Extracted vocabulary
-- `*_phase2.json` - Classified terms
-- `*_phase3.json` - Generated schema
-
-## Notes
-
-- O3 model does not support temperature parameters
-- Processing may take 1-2 minutes per paper with O3
-- Always verify outputs maintain theoretical accuracy
+## 🎯 **SUCCESS METRICS**
+- Extract 90%+ of theoretical terms
+- Capture formal notation when present
+- Match fidelity of manual extraction
+- Reproduce paper's original results

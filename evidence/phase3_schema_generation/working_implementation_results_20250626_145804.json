@@ -1,0 +1,277 @@
+{
+  "timestamp": "2025-06-26T14:58:04.666057",
+  "demonstration_type": "balanced_multi_purpose_schema_generation",
+  "demos": {
+    "single_purpose": {
+      "purpose_schemas": {
+        "descriptive": {
+          "model_type": "descriptive_theory_model",
+          "sophistication_level": 8,
+          "core_functions_count": 3,
+          "analytical_operations_count": 8,
+          "output_formats_count": 6,
+          "balance_status": "BALANCED",
+          "schema_generated": true
+        },
+        "explanatory": {
+          "model_type": "explanatory_theory_model",
+          "sophistication_level": 8,
+          "core_functions_count": 3,
+          "analytical_operations_count": 8,
+          "output_formats_count": 6,
+          "balance_status": "BALANCED",
+          "schema_generated": true
+        },
+        "predictive": {
+          "model_type": "predictive_theory_model",
+          "sophistication_level": 8,
+          "core_functions_count": 3,
+          "analytical_operations_count": 8,
+          "output_formats_count": 8,
+          "balance_status": "BALANCED",
+          "schema_generated": true
+        },
+        "causal": {
+          "model_type": "causal_theory_model",
+          "sophistication_level": 8,
+          "core_functions_count": 3,
+          "analytical_operations_count": 8,
+          "output_formats_count": 6,
+          "balance_status": "BALANCED",
+          "schema_generated": true
+        },
+        "intervention": {
+          "model_type": "intervention_theory_model",
+          "sophistication_level": 8,
+          "core_functions_count": 3,
+          "analytical_operations_count": 8,
+          "output_formats_count": 6,
+          "balance_status": "BALANCED",
+          "schema_generated": true
+        }
+      },
+      "equal_sophistication_verified": true,
+      "sophistication_levels": {
+        "descriptive": 8,
+        "explanatory": 8,
+        "predictive": 8,
+        "causal": 8,
+        "intervention": 8
+      },
+      "balance_requirement_met": true
+    },
+    "multi_purpose": {
+      "model_type": "comprehensive_social_theory",
+      "purposes_integrated": 5,
+      "multi_purpose_operations_count": 6,
+      "unified_workflows_count": 4,
+      "sophistication_scores": {
+        "descriptive": 10.0,
+        "explanatory": 10.0,
+        "predictive": 10.0,
+        "causal": 10.0,
+        "intervention": 10.0
+      },
+      "balance_status": "BALANCED",
+      "balance_score": 1.0,
+      "equal_capabilities": true,
+      "integration_successful": true
+    },
+    "enhanced_schemas": {
+      "purposes_enhanced": [
+        "explanatory",
+        "causal"
+      ],
+      "enhancement_comparison": {
+        "explanatory": {
+          "base_sophistication": 8,
+          "enhanced_sophistication": 0,
+          "base_functions": 3,
+          "enhanced_functions": 3,
+          "enhancement_present": false
+        },
+        "causal": {
+          "base_sophistication": 8,
+          "enhanced_sophistication": 0,
+          "base_functions": 3,
+          "enhanced_functions": 3,
+          "enhancement_present": false
+        }
+      },
+      "enhancement_validation": {
+        "balance_status": "UNKNOWN",
+        "sophistication_scores": {},
+        "balance_metrics": {},
+        "enhancement_quality": {
+          "completeness": 0.0,
+          "sophistication": 0.0,
+          "integration": 0.0,
+          "balance": 0.0
+        },
+        "recommendations": []
+      },
+      "balance_maintained": false
+    },
+    "balance_verification": {
+      "balance_validation": {
+        "validation_type": "balance_validation",
+        "sophistication_scores": {
+          "descriptive": 10.0,
+          "explanatory": 10.0,
+          "predictive": 10.0,
+          "causal": 10.0,
+          "intervention": 10.0
+        },
+        "balance_score": 1.0,
+        "balance_status": "BALANCED",
+        "equal_capabilities": true,
+        "cross_purpose_integration": {
+          "integration_present": true,
+          "multi_purpose_operations": 6,
+          "unified_workflows": 4
+        },
+        "recommendations": []
+      },
+      "balance_metrics": {
+        "score_range": 0.0,
+        "score_mean": 10.0,
+        "score_std": 0.0,
+        "coefficient_of_variation": 0.0
+      },
+      "sophistication_scores": {
+        "descriptive": 10.0,
+        "explanatory": 10.0,
+        "predictive": 10.0,
+        "causal": 10.0,
+        "intervention": 10.0
+      },
+      "causal_over_emphasis_detected": false,
+      "balance_verified": true,
+      "equal_sophistication_achieved": true
+    },
+    "cross_purpose_integration": {
+      "purposes_integrated": [
+        "descriptive",
+        "explanatory",
+        "predictive",
+        "intervention"
+      ],
+      "integration_patterns": {
+        "descriptive_explanatory": {
+          "integration_type": "descriptive_explanatory",
+          "operations_count": 2,
+          "interfaces_present": false
+        },
+        "explanatory_predictive": {
+          "integration_type": "explanatory_predictive",
+          "operations_count": 2,
+          "interfaces_present": false
+        },
+        "predictive_causal": {
+          "integration_type": "predictive_causal",
+          "operations_count": 2,
+          "interfaces_present": false
+        },
+        "causal_intervention": {
+          "integration_type": "causal_intervention",
+          "operations_count": 2,
+          "interfaces_present": false
+        },
+        "intervention_descriptive": {
+          "integration_type": "intervention_descriptive",
+          "operations_count": 2,
+          "interfaces_present": false
+        },
+        "all_purpose_synthesis": {
+          "integration_type": "all_purposes",
+          "operations_count": 2,
+          "interfaces_present": false
+        }
+      },
+      "workflow_completeness": {
+        "theory_to_action": {
+          "workflow_type": "theory_to_action",
+          "stages_count": 3,
+          "capabilities_specified": false,
+          "outputs_defined": false
+        },
+        "data_to_intervention": {
+          "workflow_type": "data_to_intervention",
+          "stages_count": 4,
+          "capabilities_specified": false,
+          "outputs_defined": false
+        },
+        "analysis_to_implementation": {
+          "workflow_type": "analysis_to_implementation",
+          "stages_count": 4,
+          "capabilities_specified": false,
+          "outputs_defined": false
+        },
+        "comprehensive_analysis": {
+          "workflow_type": "comprehensive_analysis",
+          "stages_count": 5,
+          "capabilities_specified": false,
+          "outputs_defined": false
+        }
+      },
+      "cross_validation": {
+        "consistency_checks": {
+          "checks": [
+            "terminology_consistency",
+            "method_compatibility",
+            "output_alignment"
+          ]
+        },
+        "integration_validation": {
+          "validation": [
+            "cross_purpose_coherence",
+            "workflow_completeness",
+            "interface_compatibility"
+          ]
+        },
+        "purpose_alignment": {
+          "alignment": "verified",
+          "purposes": [
+            "descriptive",
+            "explanatory",
+            "predictive",
+            "intervention"
+          ]
+        },
+        "interface_completeness": {
+          "completeness_status": "complete",
+          "interface_counts": {
+            "descriptive": 3,
+            "explanatory": 3,
+            "predictive": 3,
+            "intervention": 3
+          },
+          "total_interfaces": 12,
+          "expected_minimum": 12,
+          "expected_per_purpose": 3
+        }
+      },
+      "integration_successful": true,
+      "comprehensive_integration": true
+    }
+  },
+  "summary": {
+    "total_demos": 5,
+    "successful_demos": 4,
+    "balance_verifications": {
+      "single_purpose_equal_sophistication": true,
+      "multi_purpose_balanced": true,
+      "enhancement_balance_maintained": false,
+      "comprehensive_balance_verified": true,
+      "no_causal_over_emphasis": true
+    },
+    "critical_requirements_met": {
+      "equal_sophistication_across_purposes": true,
+      "no_causal_bias": true,
+      "comprehensive_integration": true,
+      "enhancement_capabilities": false
+    },
+    "overall_success": false,
+    "success_rate": 80.0
+  }
+}

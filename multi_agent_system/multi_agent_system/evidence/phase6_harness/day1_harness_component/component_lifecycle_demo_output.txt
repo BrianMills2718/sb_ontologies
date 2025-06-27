@@ -1,0 +1,48 @@
+2025-06-23 09:05:08,536 - __main__ - INFO - 🎯 HarnessComponent Day 1 Lifecycle Demonstration
+2025-06-23 09:05:08,536 - __main__ - INFO - 🎯 Showing complete component lifecycle with stream communication
+2025-06-23 09:05:08,536 - __main__ - INFO - 🚀 Starting Component Lifecycle Demonstration
+2025-06-23 09:05:08,536 - __main__ - INFO - ============================================================
+2025-06-23 09:05:08,536 - __main__ - INFO - 📋 Phase 1: Creating Components
+
+Traceback (most recent call last):
+  File "/home/brian/autocoder3_cc/evidence/phase6_harness/day1_harness_component/component_lifecycle_demo.py", line 451, in <module>
+    asyncio.run(main())
+  File "/home/brian/miniconda3/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/brian/miniconda3/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/home/brian/autocoder3_cc/evidence/phase6_harness/day1_harness_component/component_lifecycle_demo.py", line 439, in main
+    await demonstrate_component_lifecycle()
+  File "/home/brian/autocoder3_cc/evidence/phase6_harness/day1_harness_component/component_lifecycle_demo.py", line 246, in demonstrate_component_lifecycle
+    generator = DataGeneratorComponent("data_generator")
+  File "/home/brian/autocoder3_cc/evidence/phase6_harness/day1_harness_component/component_lifecycle_demo.py", line 48, in __init__
+    super().__init__(config)
+  File "/home/brian/autocoder3_cc/evidence/phase6_harness/day1_harness_component/../../../evidence/phase6_harness/day1_harness_component/harness_component.py", line 91, in __init__
+    super().__init__(config)
+  File "/home/brian/autocoder3_cc/evidence/phase6_harness/day1_harness_component/../../../evidence/phase2_component_library/day1_core_component_classes/enhanced_base.py", line 79, in __init__
+    self.is_running = False
+AttributeError: can't set attribute 'is_running'
+2025-06-23 09:05:13,014 - __main__ - INFO - 🎯 HarnessComponent Day 1 Lifecycle Demonstration
+2025-06-23 09:05:13,014 - __main__ - INFO - 🎯 Showing complete component lifecycle with stream communication
+2025-06-23 09:05:13,014 - __main__ - INFO - 🚀 Starting Component Lifecycle Demonstration
+2025-06-23 09:05:13,014 - __main__ - INFO - ============================================================
+2025-06-23 09:05:13,014 - __main__ - INFO - 📋 Phase 1: Creating Components
+
+Traceback (most recent call last):
+  File "/home/brian/autocoder3_cc/evidence/phase6_harness/day1_harness_component/component_lifecycle_demo.py", line 451, in <module>
+    asyncio.run(main())
+  File "/home/brian/miniconda3/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/brian/miniconda3/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/home/brian/autocoder3_cc/evidence/phase6_harness/day1_harness_component/component_lifecycle_demo.py", line 439, in main
+    await demonstrate_component_lifecycle()
+  File "/home/brian/autocoder3_cc/evidence/phase6_harness/day1_harness_component/component_lifecycle_demo.py", line 246, in demonstrate_component_lifecycle
+    generator = DataGeneratorComponent("data_generator")
+  File "/home/brian/autocoder3_cc/evidence/phase6_harness/day1_harness_component/component_lifecycle_demo.py", line 48, in __init__
+    super().__init__(config)
+  File "/home/brian/autocoder3_cc/evidence/phase6_harness/day1_harness_component/../../../evidence/phase6_harness/day1_harness_component/harness_component.py", line 91, in __init__
+    super().__init__(config)
+  File "/home/brian/autocoder3_cc/evidence/phase6_harness/day1_harness_component/../../../evidence/phase2_component_library/day1_core_component_classes/enhanced_base.py", line 79, in __init__
+    self.is_running = False
+AttributeError: can't set attribute 'is_running'

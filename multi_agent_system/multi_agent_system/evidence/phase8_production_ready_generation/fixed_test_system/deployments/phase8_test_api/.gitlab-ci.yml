@@ -1,0 +1,104 @@
+stages:
+  - test
+  - build
+  - deploy
+
+variables:
+  DOCKER_DRIVER: overlay2
+  DOCKER_TLS_CERTDIR: "/certs"
+  IMAGE_TAG: $CI_REGISTRY_IMAGE/phase8_test_api:$CI_COMMIT_SHA
+
+services:
+  - docker:dind
+  - postgres:15
+  - redis:7-alpine
+
+variables:
+  POSTGRES_DB: test_db
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: postgres
+  POSTGRES_HOST_AUTH_METHOD: trust
+
+test:
+  stage: test
+  image: python:3.11
+  
+  before_script:
+    - pip install --upgrade pip
+    - pip install -r requirements.txt
+    - pip install pytest pytest-asyncio pytest-cov
+  
+  script:
+    - export DATABASE_URL="postgresql://postgres:postgres@postgres:5432/test_db"
+    - export redis_url="redis://:E37qqibF3tQq0pVRGP13@N8YWg&E*4hU@redis:6379/0"
+    - pytest tests/ -v --cov=./ --cov-report=xml --cov-report=term
+  
+  coverage: '/TOTAL.*\s+(\d+%)$/'
+  
+  artifacts:
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
+
+build:
+  stage: build
+  image: docker:latest
+  
+  services:
+    - docker:dind
+  
+  before_script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+  
+  script:
+    - docker build -t $IMAGE_TAG .
+    - docker push $IMAGE_TAG
+    - docker tag $IMAGE_TAG $CI_REGISTRY_IMAGE/phase8_test_api:latest
+    - docker push $CI_REGISTRY_IMAGE/phase8_test_api:latest
+  
+  only:
+    - main
+    - develop
+
+deploy_staging:
+  stage: deploy
+  image: bitnami/kubectl:latest
+  
+  before_script:
+    - echo "$KUBE_CONFIG" | base64 -d > kubeconfig
+    - export KUBECONFIG=kubeconfig
+  
+  script:
+    - kubectl set image deployment/phase8_test_api phase8_test_api=$IMAGE_TAG -n phase8_test_api-staging
+    - kubectl rollout status deployment/phase8_test_api -n phase8_test_api-staging --timeout=300s
+    - kubectl get pods -n phase8_test_api-staging
+  
+  environment:
+    name: staging
+    url: https://phase8_test_api-staging.example.com
+  
+  only:
+    - develop
+
+deploy_production:
+  stage: deploy
+  image: bitnami/kubectl:latest
+  
+  before_script:
+    - echo "$KUBE_CONFIG_PROD" | base64 -d > kubeconfig
+    - export KUBECONFIG=kubeconfig
+  
+  script:
+    - kubectl set image deployment/phase8_test_api phase8_test_api=$IMAGE_TAG -n phase8_test_api
+    - kubectl rollout status deployment/phase8_test_api -n phase8_test_api --timeout=300s
+    - kubectl get pods -n phase8_test_api
+    - kubectl get services -n phase8_test_api
+  
+  environment:
+    name: production
+    url: https://phase8_test_api.example.com
+  
+  when: manual
+  only:
+    - main

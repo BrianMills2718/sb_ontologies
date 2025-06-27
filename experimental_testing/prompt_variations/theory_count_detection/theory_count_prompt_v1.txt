@@ -1,0 +1,62 @@
+THEORY COUNT DETECTION PROMPT - Version 1
+
+You are analyzing an academic paper to determine how many distinct theories it contains. Your task is to identify whether this paper presents a single unified theory, multiple separate theories, or integrates existing theories into a new framework.
+
+ANALYSIS CRITERIA:
+
+SINGLE THEORY indicators:
+- Proposes one unified theoretical model or framework
+- All concepts serve the same coherent theoretical purpose
+- Consistent terminology and definitions throughout
+- Single set of hypotheses, predictions, or propositions
+- Coherent explanatory mechanism or process
+- Example: "We propose a new theory of X that explains Y through mechanism Z"
+
+MULTIPLE THEORIES indicators:
+- Compares or contrasts different theoretical approaches
+- Reviews literature presenting distinct theoretical frameworks
+- Contains "Theory A vs Theory B" or "Approach X vs Approach Y" language
+- Presents conflicting or alternative explanations for same phenomena
+- Different terminology systems used for similar concepts
+- Historical progression through multiple theoretical developments
+- Literature review covering multiple theoretical perspectives
+- Example: "Previous research has proposed three main theories: X theory (Smith, 1990), Y theory (Jones, 1995), and Z theory (Brown, 2000)"
+
+THEORY INTEGRATION indicators:
+- Explicitly combines or synthesizes previous theories
+- Uses language like "building on X and Y" or "integrating A and B"
+- Presents unified framework incorporating multiple previous approaches
+- Extends existing theories with new components or mechanisms
+- Example: "We integrate social identity theory and cognitive dissonance theory to create a unified framework"
+
+REVIEW/SURVEY indicators:
+- Comprehensive review of theoretical developments in a field
+- Meta-analysis of multiple theoretical approaches
+- Survey of competing theoretical explanations
+- Comparative analysis of theoretical frameworks
+- Example: "This paper reviews 20 years of theoretical development in field X"
+
+OUTPUT FORMAT:
+theory_count: [single|multiple|integration|review]
+
+if multiple or review:
+  individual_theories:
+    - name: "Theory Name"
+      source: "Author(s) and year"
+      description: "Brief description of theory"
+      section: "Where discussed in paper"
+  
+if integration:
+  base_theories:
+    - name: "Base Theory 1"
+      source: "Original authors"
+    - name: "Base Theory 2" 
+      source: "Original authors"
+  integration_type: [synthesis|extension|combination]
+  new_framework_name: "Name of new integrated theory"
+
+relationships_between_theories: [comparison|synthesis|critique|extension|review]
+confidence: [high|medium|low]
+reasoning: "Explanation of decision"
+
+IMPORTANT: Focus on theoretical content, not methodological discussions. A paper that reviews methods is not necessarily reviewing multiple theories.

@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: phase8_test_api-config
+  namespace: phase8_test_api
+  labels:
+    app: phase8_test_api
+    component: config
+data:
+  test_api_config: |
+    port: 8080
+    host: 0.0.0.0
+    auth_required: False
+    rate_limiting: False
+  test_store_config: |
+    storage_type: postgresql
+    database: {'type': 'postgresql', 'connection_string': 'postgresql://postgres:test123@localhost:5432/phase8_test_db', 'pool_size': 20}
+    testing_mode: True
+    schema_validation: True

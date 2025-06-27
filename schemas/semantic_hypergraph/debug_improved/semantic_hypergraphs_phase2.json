@@ -1,0 +1,860 @@
+{
+  "entities": [
+    {
+      "term": "Natural Language Processing (NLP)",
+      "term_type": "entity",
+      "subtype": "domain-context",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "open-adaptive quadrant",
+      "term_type": "entity",
+      "subtype": "strategic-goal",
+      "domain": null,
+      "range": null,
+      "parent_concept": "Natural Language Processing (NLP)",
+      "constraints": {
+        "located_in_design_space_axes": "open/opaque \u00d7 strict/adaptive"
+      }
+    },
+    {
+      "term": "Semantic Hypergraph (SH)",
+      "term_type": "entity",
+      "subtype": "core-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "structure": "intrinsically recursive, ordered hypergraph"
+      }
+    },
+    {
+      "term": "hyperedge",
+      "term_type": "entity",
+      "subtype": "core-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": "Semantic Hypergraph (SH)",
+      "constraints": {
+        "arity": "n-ary",
+        "ordered": "true",
+        "recursive": "may contain other hyperedges"
+      }
+    },
+    {
+      "term": "atom",
+      "term_type": "entity",
+      "subtype": "core-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": "hyperedge",
+      "constraints": {
+        "size": "1",
+        "irreducible": "true"
+      }
+    },
+    {
+      "term": "connector",
+      "term_type": "entity",
+      "subtype": "core-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": "hyperedge",
+      "constraints": {
+        "position_in_edge": "first"
+      }
+    },
+    {
+      "term": "concept (C)",
+      "term_type": "entity",
+      "subtype": "type",
+      "domain": null,
+      "range": null,
+      "parent_concept": "hyperedge type",
+      "constraints": {
+        "atomic": "true"
+      }
+    },
+    {
+      "term": "predicate (P)",
+      "term_type": "entity",
+      "subtype": "type",
+      "domain": null,
+      "range": null,
+      "parent_concept": "hyperedge type",
+      "constraints": {
+        "forms_relation": "true"
+      }
+    },
+    {
+      "term": "modifier (M)",
+      "term_type": "entity",
+      "subtype": "type",
+      "domain": null,
+      "range": null,
+      "parent_concept": "hyperedge type",
+      "constraints": {
+        "arity": "1"
+      }
+    },
+    {
+      "term": "builder (B)",
+      "term_type": "entity",
+      "subtype": "type",
+      "domain": null,
+      "range": null,
+      "parent_concept": "hyperedge type",
+      "constraints": {
+        "combines": "several concepts"
+      }
+    },
+    {
+      "term": "trigger (T)",
+      "term_type": "entity",
+      "subtype": "type",
+      "domain": null,
+      "range": null,
+      "parent_concept": "hyperedge type",
+      "constraints": {
+        "adds_context": "time/location/condition"
+      }
+    },
+    {
+      "term": "conjunction (J)",
+      "term_type": "entity",
+      "subtype": "type",
+      "domain": null,
+      "range": null,
+      "parent_concept": "hyperedge type",
+      "constraints": {
+        "aggregates": "multiple concepts or relations"
+      }
+    },
+    {
+      "term": "relation (R)",
+      "term_type": "entity",
+      "subtype": "type",
+      "domain": null,
+      "range": null,
+      "parent_concept": "hyperedge type",
+      "constraints": {
+        "sentence_speech_act": "statement/question/command"
+      }
+    },
+    {
+      "term": "specifier (S)",
+      "term_type": "entity",
+      "subtype": "type",
+      "domain": null,
+      "range": null,
+      "parent_concept": "hyperedge type",
+      "constraints": {
+        "modifies": "relation R"
+      }
+    },
+    {
+      "term": "Dependency Parse Tree (DPT)",
+      "term_type": "entity",
+      "subtype": "referenced-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "represents": "syntactic dependencies"
+      }
+    },
+    {
+      "term": "pattern language",
+      "term_type": "entity",
+      "subtype": "language",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "alphabet": "SH connectors, variables, wild-cards"
+      }
+    },
+    {
+      "term": "variable (in SH patterns)",
+      "term_type": "entity",
+      "subtype": "symbol",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "match": "any hyperedge of compatible type"
+      }
+    },
+    {
+      "term": "wildcard",
+      "term_type": "entity",
+      "subtype": "symbol",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "match": "arbitrary hyperedge"
+      }
+    },
+    {
+      "term": "Open Information Extraction (OIE)",
+      "term_type": "entity",
+      "subtype": "application-domain",
+      "domain": null,
+      "range": null,
+      "parent_concept": "Natural Language Processing (NLP)",
+      "constraints": null
+    },
+    {
+      "term": "co-occurrence graph",
+      "term_type": "entity",
+      "subtype": "derivative-structure",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "vertices": "auxiliary concepts"
+      }
+    },
+    {
+      "term": "seed concept",
+      "term_type": "entity",
+      "subtype": "anchor",
+      "domain": null,
+      "range": null,
+      "parent_concept": "concept (C)",
+      "constraints": null
+    },
+    {
+      "term": "coreference set",
+      "term_type": "entity",
+      "subtype": "result-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "members": "compound concepts referring to same entity"
+      }
+    },
+    {
+      "term": "hypergraph database",
+      "term_type": "entity",
+      "subtype": "infrastructure",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "stores": "SH edges"
+      }
+    },
+    {
+      "term": "(+/B) special builder",
+      "term_type": "entity",
+      "subtype": "special-case",
+      "domain": null,
+      "range": null,
+      "parent_concept": "builder (B)",
+      "constraints": {
+        "forms": "compound noun by juxtaposition"
+      }
+    },
+    {
+      "term": "Universal Dependencies (UD)",
+      "term_type": "entity",
+      "subtype": "external-standard",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "coverage_benchmark_for": "SH"
+      }
+    },
+    {
+      "term": "topic",
+      "term_type": "entity",
+      "subtype": "analytic-construct",
+      "domain": null,
+      "range": null,
+      "parent_concept": null,
+      "constraints": {
+        "hierarchical": "true"
+      }
+    },
+    {
+      "term": "claim predicate",
+      "term_type": "entity",
+      "subtype": "semantic-category",
+      "domain": null,
+      "range": null,
+      "parent_concept": "predicate (P)",
+      "constraints": null
+    },
+    {
+      "term": "conflict predicate",
+      "term_type": "entity",
+      "subtype": "semantic-category",
+      "domain": null,
+      "range": null,
+      "parent_concept": "predicate (P)",
+      "constraints": null
+    }
+  ],
+  "relationships": [
+    {
+      "term": "lemma/J edge",
+      "term_type": "relationship",
+      "subtype": "auxiliary-construct",
+      "domain": [
+        "InflectedWordFormAtom"
+      ],
+      "range": [
+        "LemmaAtom"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "connector": "lemma/J",
+        "arity": "2"
+      }
+    }
+  ],
+  "properties": [
+    {
+      "term": "open/opaque dichotomy",
+      "term_type": "property",
+      "subtype": "processing-transparency-axis",
+      "domain": [
+        "NLP_System"
+      ],
+      "range": [
+        "TransparencyStatus"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "allowed_values": "open | opaque"
+      }
+    },
+    {
+      "term": "strict/adaptive dichotomy",
+      "term_type": "property",
+      "subtype": "processing-adaptivity-axis",
+      "domain": [
+        "NLP_System"
+      ],
+      "range": [
+        "AdaptivityStatus"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "allowed_values": "strict | adaptive"
+      }
+    },
+    {
+      "term": "ordered hypergraph",
+      "term_type": "property",
+      "subtype": "graph-topology",
+      "domain": [
+        "Hypergraph"
+      ],
+      "range": [
+        "Boolean"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "true_means": "vertex positions are meaningful"
+      }
+    },
+    {
+      "term": "recursive hypergraph",
+      "term_type": "property",
+      "subtype": "graph-topology",
+      "domain": [
+        "Hypergraph"
+      ],
+      "range": [
+        "Boolean"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "true_means": "hyperedges may be vertices"
+      }
+    },
+    {
+      "term": "hyperedge type",
+      "term_type": "property",
+      "subtype": "classification",
+      "domain": [
+        "hyperedge"
+      ],
+      "range": [
+        "TypeSymbol"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "allowed_values": "C|P|M|B|T|J|R|S"
+      }
+    },
+    {
+      "term": "argument role",
+      "term_type": "property",
+      "subtype": "attribute",
+      "domain": [
+        "HyperedgeArgument"
+      ],
+      "range": [
+        "RoleSymbol"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "allowed_values": "s,p,a,c,o,i,t,x,r"
+      }
+    },
+    {
+      "term": "active subject (s)",
+      "term_type": "property",
+      "subtype": "role",
+      "domain": [
+        "HyperedgeArgument"
+      ],
+      "range": [
+        "Boolean"
+      ],
+      "parent_concept": "argument role",
+      "constraints": null
+    },
+    {
+      "term": "passive subject (p)",
+      "term_type": "property",
+      "subtype": "role",
+      "domain": [
+        "HyperedgeArgument"
+      ],
+      "range": [
+        "Boolean"
+      ],
+      "parent_concept": "argument role",
+      "constraints": null
+    },
+    {
+      "term": "agent (a)",
+      "term_type": "property",
+      "subtype": "role",
+      "domain": [
+        "HyperedgeArgument"
+      ],
+      "range": [
+        "Boolean"
+      ],
+      "parent_concept": "argument role",
+      "constraints": null
+    },
+    {
+      "term": "subject complement (c)",
+      "term_type": "property",
+      "subtype": "role",
+      "domain": [
+        "HyperedgeArgument"
+      ],
+      "range": [
+        "Boolean"
+      ],
+      "parent_concept": "argument role",
+      "constraints": null
+    },
+    {
+      "term": "direct object (o)",
+      "term_type": "property",
+      "subtype": "role",
+      "domain": [
+        "HyperedgeArgument"
+      ],
+      "range": [
+        "Boolean"
+      ],
+      "parent_concept": "argument role",
+      "constraints": null
+    },
+    {
+      "term": "indirect object (i)",
+      "term_type": "property",
+      "subtype": "role",
+      "domain": [
+        "HyperedgeArgument"
+      ],
+      "range": [
+        "Boolean"
+      ],
+      "parent_concept": "argument role",
+      "constraints": null
+    },
+    {
+      "term": "parataxis role (t)",
+      "term_type": "property",
+      "subtype": "role",
+      "domain": [
+        "HyperedgeArgument"
+      ],
+      "range": [
+        "Boolean"
+      ],
+      "parent_concept": "argument role",
+      "constraints": null
+    },
+    {
+      "term": "specification role (x)",
+      "term_type": "property",
+      "subtype": "role",
+      "domain": [
+        "HyperedgeArgument"
+      ],
+      "range": [
+        "Boolean"
+      ],
+      "parent_concept": "argument role",
+      "constraints": null
+    },
+    {
+      "term": "relative relation role (r)",
+      "term_type": "property",
+      "subtype": "role",
+      "domain": [
+        "HyperedgeArgument"
+      ],
+      "range": [
+        "Boolean"
+      ],
+      "parent_concept": "argument role",
+      "constraints": null
+    },
+    {
+      "term": "threshold \u03b8 / \u03b8\u2032",
+      "term_type": "property",
+      "subtype": "parameter",
+      "domain": [
+        "Probability"
+      ],
+      "range": [
+        "BooleanDecision"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "usage": "coreference seed assignment"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "term": "\u03b1-stage",
+      "term_type": "action",
+      "subtype": "parsing-process",
+      "domain": [
+        "TokenStream"
+      ],
+      "range": [
+        "TypedAtoms"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "implemented_by": "machine-learning classifier"
+      }
+    },
+    {
+      "term": "\u03b2-stage",
+      "term_type": "action",
+      "subtype": "parsing-process",
+      "domain": [
+        "TypedAtoms"
+      ],
+      "range": [
+        "WellFormedSHEdges"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "search_strategy": "rule-based with heuristic h"
+      }
+    },
+    {
+      "term": "conjunction decomposition",
+      "term_type": "action",
+      "subtype": "rule-set",
+      "domain": [
+        "RelationWithConjunction"
+      ],
+      "range": [
+        "AtomicRelations"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "splits": "J connectors"
+      }
+    },
+    {
+      "term": "feature selection (genetic algorithm)",
+      "term_type": "action",
+      "subtype": "learning-method",
+      "domain": [
+        "FeatureSubsets"
+      ],
+      "range": [
+        "ClassifierAccuracy"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "optimisation": "evolutionary search"
+      }
+    },
+    {
+      "term": "iterative ablation",
+      "term_type": "action",
+      "subtype": "evaluation-method",
+      "domain": [
+        "FeatureSet"
+      ],
+      "range": [
+        "AccuracyImpact"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "pattern learning template",
+      "term_type": "action",
+      "subtype": "human-in-the-loop workflow",
+      "domain": [
+        "ObservedSHEdges"
+      ],
+      "range": [
+        "ReusableExtractionPatterns"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "faction detection algorithm",
+      "term_type": "action",
+      "subtype": "heuristic-algorithm",
+      "domain": [
+        "ActorConflictEdges"
+      ],
+      "range": [
+        "ActorGroups"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "edge_weight": "s_ij"
+      }
+    },
+    {
+      "term": "probabilistic seed assignment",
+      "term_type": "action",
+      "subtype": "heuristic-algorithm",
+      "domain": [
+        "SeedAtoms"
+      ],
+      "range": [
+        "CoreferenceMembership"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "controlled_by": "threshold \u03b8 / \u03b8\u2032"
+      }
+    },
+    {
+      "term": "BetaTransformation",
+      "term_type": "action",
+      "subtype": "recursive-procedure",
+      "domain": [
+        "InitialSHEdge"
+      ],
+      "range": [
+        "FinalSHEdge"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "applies_until": "convergence"
+      }
+    },
+    {
+      "term": "Generate\u0394(e) function",
+      "term_type": "action",
+      "subtype": "graph-algorithm",
+      "domain": [
+        "Hyperedge e"
+      ],
+      "range": [
+        "NeighbourhoodSet \u0394e"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "ApplyPattern function",
+      "term_type": "action",
+      "subtype": "\u03b2-stage subroutine",
+      "domain": [
+        "HyperedgeSequence"
+      ],
+      "range": [
+        "SingleHyperedge"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "heuristic function h",
+      "term_type": "action",
+      "subtype": "scoring-function",
+      "domain": [
+        "CompetingPatternMatches"
+      ],
+      "range": [
+        "RealScore"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "uses": "dependency links"
+      }
+    },
+    {
+      "term": "type inference rule",
+      "term_type": "action",
+      "subtype": "formal-rule",
+      "domain": [
+        "Connector + ArgumentTypes"
+      ],
+      "range": [
+        "ResultHyperedgeType"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "inference rule",
+      "term_type": "action",
+      "subtype": "formal-rule",
+      "domain": [
+        "LeftHandSidePattern"
+      ],
+      "range": [
+        "DerivedSHEdge"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    }
+  ],
+  "measures": [
+    {
+      "term": "hypergraphic degree d(e)",
+      "term_type": "measure",
+      "subtype": "structural-metric",
+      "domain": [
+        "Hyperedge"
+      ],
+      "range": [
+        "Integer"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "deep degree \u03b4(e)",
+      "term_type": "measure",
+      "subtype": "structural-metric",
+      "domain": [
+        "Hyperedge"
+      ],
+      "range": [
+        "Integer"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "F1 score",
+      "term_type": "measure",
+      "subtype": "performance-metric",
+      "domain": [
+        "ExtractionSystem"
+      ],
+      "range": [
+        "RealNumber"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "formula": "2 * Prec * Rec / (Prec + Rec)"
+      }
+    },
+    {
+      "term": "precision (Prec.)",
+      "term_type": "measure",
+      "subtype": "performance-metric",
+      "domain": [
+        "ExtractionSystem"
+      ],
+      "range": [
+        "RealNumber"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "recall",
+      "term_type": "measure",
+      "subtype": "performance-metric",
+      "domain": [
+        "ExtractionSystem"
+      ],
+      "range": [
+        "RealNumber"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "accuracy",
+      "term_type": "measure",
+      "subtype": "classification-metric",
+      "domain": [
+        "Classifier"
+      ],
+      "range": [
+        "RealNumber"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    },
+    {
+      "term": "score s_ij",
+      "term_type": "measure",
+      "subtype": "edge-weight",
+      "domain": [
+        "ActorPair"
+      ],
+      "range": [
+        "RealNumber"
+      ],
+      "parent_concept": null,
+      "constraints": {
+        "definition": "min(d_i,d_j)"
+      }
+    },
+    {
+      "term": "probability p (seed use)",
+      "term_type": "measure",
+      "subtype": "probability-estimate",
+      "domain": [
+        "SeedAtom"
+      ],
+      "range": [
+        "Probability"
+      ],
+      "parent_concept": null,
+      "constraints": null
+    }
+  ],
+  "modifiers": [],
+  "truth_values": [],
+  "operators": []
+}

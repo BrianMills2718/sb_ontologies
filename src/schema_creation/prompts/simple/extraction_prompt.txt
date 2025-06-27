@@ -1,0 +1,17 @@
+Extract key theoretical terms from this academic paper and classify each as:
+- entity (things that exist)
+- relationship (connections between things) 
+- property (attributes)
+- action (behaviors)
+- measure (metrics)
+
+Also provide citation, 2-sentence annotation, and recommend the best model type from:
+- property_graph: for rich binary relationships between entities
+- hypergraph: for n-ary relationships, recursive structures, or hyperedges
+- table_matrix: for classifications or typologies  
+- sequence: for ordered processes or stages
+- tree: for hierarchical taxonomies
+- timeline: for temporal evolution
+- other: for unique structures
+
+Be concise - extract only the most important 20-30 terms.

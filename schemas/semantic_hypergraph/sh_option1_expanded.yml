@@ -1,0 +1,414 @@
+citation: Menezes, Telmo, and Camille Roth. 2021. “Semantic Hypergraphs.” arXiv preprint
+  arXiv:1908.10784v2 (18 Feb 2021).
+annotation: The paper introduces Semantic Hypergraphs (SH), a novel, recursive and
+  ordered hypergraph formalism that unifies symbolic and statistical NLP by offering
+  an open, intelligible yet adaptive knowledge-representation layer. It specifies
+  an eight-element type system, parsing architecture (α/β stages), pattern-language
+  for inference, and demonstrates SH’s utility across tasks such as open information
+  extraction, taxonomy induction, coreference resolution and socio-semantic claim/conflict
+  analysis. SH positions itself in the ‘open-adaptive’ quadrant, aiming to bridge
+  machine-learning performance with human-readable reasoning.
+model_type: Recursive ordered hypergraph knowledge-representation model for natural-language
+  understanding
+rationale: Provide an executable, machine-readable specification that simultaneously
+  enables symbolic reasoning, statistical learning and human interpretability – situating
+  SH in the open-adaptive quadrant and bridging the open/strict–opaque/adaptive dichotomy.
+schema_blueprint:
+  title: Semantic Hypergraph (SH) Comprehensive Theory Schema
+  description: Complete formal schema capturing all theoretical elements, notation,
+    patterns, algorithms and application-specific rules described in Menezes & Roth
+    (2021).  All 62 controlled vocabulary terms are explicitly represented as node
+    or edge types, algorithm artefacts, pattern entries or notation codes.
+  root_properties: {}
+  definitions:
+  - name: Semantic Hypergraph (SH)
+    category: core-construct
+    description: A recursive, ordered hypergraph model that explicitly represents
+      the hierarchical and n-ary semantic structure of natural language utterances.
+  - name: Hyperedge
+    category: core-construct
+    description: An n-ary, possibly recursive and ordered connection between vertices
+      (atoms or other hyperedges) in an SH; the basic informational unit.
+  - name: Atom
+    category: core-construct
+    description: An irreducible hyperedge of size one; the minimal vertex in an SH
+      that carries a label and a type code.
+  - name: Connector
+    category: structural-role
+    description: An atom that occupies the first position of a non-atomic hyperedge
+      and specifies how subsequent arguments are semantically associated.
+  - name: Concept (type C)
+    category: type
+    description: An atomic hyperedge representing a lexical concept expressible by
+      a single word.
+  - name: Predicate (type P)
+    category: type
+    description: A connector that builds relations between arguments, often corresponding
+      to verbs.
+  - name: Modifier (type M)
+    category: type
+    description: A connector that applies to exactly one hyperedge to create a modified
+      hyperedge of the same resulting type.
+  - name: Builder (type B)
+    category: type
+    description: A connector that combines two or more concepts to construct a new
+      composite concept.
+  - name: Trigger (type T)
+    category: type
+    description: A connector that attaches additional specifications (e.g., temporal,
+      conditional) to a relation.
+  - name: Conjunction (type J)
+    category: type
+    description: A connector that joins or coordinates concepts or relations, optionally
+      representing implicit sequences.
+  - name: Relation (type R)
+    category: type
+    description: A non-atomic hyperedge resulting from a predicate that expresses
+      a fact, question, order or statement.
+  - name: Specifier (type S)
+    category: type
+    description: A non-atomic hyperedge produced by a trigger that adds supplemental
+      information (e.g., time, location) to a relation.
+  - name: Type Inference Rule
+    category: rule
+    description: Deterministic mapping that derives the resulting hyperedge type from
+      the connector type and argument types.
+  - name: Argument Role
+    category: annotation
+    description: A code indicating the semantic role (e.g., subject, object) played
+      by each argument relative to a predicate or builder.
+  - name: Recursive Ordered Hypergraph
+    category: core-construct
+    description: A hypergraph where hyperedges can themselves appear as vertices and
+      where argument order is meaningful.
+  - name: S-Expression Analogy
+    category: conceptual-link
+    description: The observation that SH hyperedges are isomorphic to Lisp S-expressions,
+      linking SH to λ-calculus semantics.
+  - name: Open-Adaptive Quadrant
+    category: framework-dimension
+    description: An envisioned methodological space where systems are both inspectable
+      (open) and learning-based (adaptive).
+  - name: α-Stage (alpha stage)
+    category: process-stage
+    description: First phase of NL-to-SH parsing which classifies each token into
+      one of the six atomic types via supervised ML.
+  - name: β-Stage (beta stage)
+    category: process-stage
+    description: Second parsing phase that recursively applies type-inference patterns
+      to impose hypergraphic structure.
+  - name: Heuristic Function h
+    category: algorithmic-component
+    description: A scoring function used during β-stage to pick among competing pattern
+      matches based on dependency links and depth.
+  - name: Pattern
+    category: representation
+    description: A hyperedge template containing typed variables used to match and
+      manipulate substructures in SH.
+  - name: Inference Rule
+    category: rule
+    description: A pair of patterns (antecedent and consequent) indicating how matching
+      sub-hyperedges generate new knowledge.
+  - name: Conjunction Decomposition
+    category: strategy
+    description: A set of rules that splits relations containing conjunctions into
+      simpler individual relations.
+  - name: Pattern Learning Template
+    category: methodology
+    description: A human-in-the-loop iterative procedure to generalize concrete hyperedges
+      into reusable extraction patterns.
+  - name: Open Information Extraction (OIE)
+    category: task
+    description: Domain-independent extraction of relational tuples from text; used
+      as evaluation task for SH patterns.
+  - name: Implicit Taxonomy
+    category: relationship
+    description: The hierarchical relation whereby builder or modifier constructs
+      imply hypernym-hyponym links among concepts.
+  - name: Coreference Set
+    category: data-structure
+    description: A group of compound concepts identified as referring to the same
+      external entity via co-occurrence analysis.
+  - name: Seed Concept
+    category: operational-term
+    description: The shared main atomic concept used to initiate coreference resolution
+      among compound nouns.
+  - name: Degree (d)
+    category: metric
+    description: Metric counting the number of outer hyperedges in which a given hyperedge
+      participates, minus self.
+  - name: Deep Degree (δ)
+    category: metric
+    description: Metric counting participations of a hyperedge at any recursive level
+      within containing hyperedges.
+  - name: Co-Occurrence Graph
+    category: derived-structure
+    description: A graph whose vertices are auxiliary concepts co-appearing with a
+      seed; edges represent joint participation in compound concepts.
+  - name: Probabilistic Seed Assignment
+    category: heuristic
+    description: Heuristic that assigns ambiguous seed atoms to coreference sets based
+      on degree ratios and popularity thresholds.
+  - name: Claim Predicate
+    category: category-tag
+    description: A predicate lemma (e.g., say, claim) indicating attribution of a
+      statement by an actor in SH analysis.
+  - name: Conflict Predicate
+    category: category-tag
+    description: Predicate lemmas (e.g., accuse, condemn) signalling expressions of
+      conflict between actors over topics.
+  - name: Topic (in SH)
+    category: semantic-role
+    description: A concept or composite concept that serves as the thematic object
+      of a claim or conflict, extractable from relation complements and specifiers.
+  - name: Faction Detection Algorithm
+    category: algorithm
+    description: A simple degree-weighted heuristic assigning actors to opposing camps
+      in a conflict network derived from SH relations.
+  - name: Relative Defect Size
+    category: evaluation-metric
+    description: Ratio of atoms involved in erroneous sub-edges to total atoms in
+      a hyperedge, used for parser evaluation.
+  - name: Open/Strict vs Opaque/Adaptive Dichotomy
+    category: analytical-dimension
+    description: Framework distinguishing NLP methods by inspectability (open vs opaque)
+      and rule mutability (strict vs adaptive).
+  - name: Feature Set F3 / F5
+    category: experimental-variable
+    description: Selected groups of linguistic features used in the α-stage classifier
+      obtained via iterative ablation.
+  - name: Genetic Algorithm Feature Selection
+    category: method
+    description: Mutation-only GA used to choose informative features for token type
+      classification.
+  - name: One-Hot Encoding
+    category: data-representation
+    description: Representation converting categorical linguistic features into binary
+      indicator vectors for classifier input.
+  - name: Random Forest Classifier
+    category: tool
+    description: Ensemble decision-tree model used in α-stage to assign SH atom types
+      without hyperparameter tuning.
+  - name: Dependency Parse Tree (DPT)
+    category: input-structure
+    description: Syntactic structure exposing head-dependent relations; used as intermediary
+      representation feeding SH parsing.
+  - name: Universal Dependencies
+    category: external-standard
+    description: Cross-lingual set of dependency labels whose coverage guided completeness
+      of SH type system.
+  - name: Speculative Extraction Pattern 1
+    category: extraction-pattern
+    description: Generic OIE pattern (REL/P.{[sp][cora]x} ARG1/C ARG2 ARG3...) capturing
+      subject-predicate-object-specifier tuples.
+  - name: (+/B) Special Builder
+    category: special-case
+    description: Builder without lexical surface marking, used to encode compound
+      nouns where adjacency implies conceptual combination.
+  - name: Variable (in patterns)
+    category: syntactic-element
+    description: Capitalized placeholder in pattern definitions that binds to matching
+      hyperedges during rule application.
+  - name: Wildcard (*/C etc.)
+    category: syntactic-element
+    description: Shorthand in a pattern matching any hyperedge of a specified type
+      regardless of label.
+  - name: Expansion Depth
+    category: parameter
+    description: Limit on recursive pattern generalization when deriving abstract
+      patterns from concrete hyperedges.
+  - name: Open Source Software Library Graphbrain
+    category: artifact
+    description: Python implementation of SH parsing, storage and querying released
+      for reproducibility and extension.
+  - name: Knowledge Inference
+    category: process
+    description: The generation of new hyperedges from existing ones through symbolic
+      or probabilistic rules within SH.
+  - name: Actor (in SH analysis)
+    category: role
+    description: An entity participating as subject (active or passive) in claim or
+      conflict relations.
+  - name: Claim
+    category: relational-schema
+    description: A relation where an actor attributes a proposition (possibly another
+      relation) via a claim predicate.
+  - name: Conflict
+    category: relational-schema
+    description: A relation expressing opposition or critique from a source actor
+      toward a target actor over a topic using conflict predicates.
+  - name: Context Edge
+    category: auxiliary-structure
+    description: A relation or specifier hyperedge linked to a claim/conflict through
+      (:/J) sequences providing surrounding details.
+  - name: Relative Relation (role r)
+    category: annotation
+    description: Nested relation acting as argument within an outer relation; used
+      to model propositions about propositions.
+  - name: (:/J) Implicit Sequence Conjunction
+    category: special-case
+    description: Special conjunction symbol representing generic relatedness when
+      no explicit connector exists.
+  - name: Specification Edge
+    category: auxiliary-structure
+    description: Trigger-based specifier attached to a relation conveying circumstantial
+      information like time or condition.
+  - name: Heuristic Threshold θ
+    category: parameter
+    description: Minimum probability required for assigning a seed concept to a coreference
+      set.
+  - name: Dependency Label Translation
+    category: mapping-rule
+    description: Direct mapping from parsed dependency labels to SH argument roles
+      during α/β processing.
+  - name: Feature Ablation
+    category: method
+    description: Iterative feature-removal procedure evaluating classifier accuracy
+      to select minimal effective feature sets.
+  - name: One Rule Pattern (Pattern 1)
+    category: result
+    description: Simplest SH OIE pattern alone surpassing several baselines, showing
+      power of generic subject-predicate-object extraction.
+notation_system:
+  type_codes:
+    C: Concept
+    P: Predicate
+    M: Modifier
+    B: Builder
+    T: Trigger
+    J: Conjunction
+    R: Relation
+    S: Specifier
+  role_codes:
+    sa: subject-active
+    pa: patient-argument
+    ma: modifier-argument
+    ca: complement-argument
+    ra: relative-relation
+    co: coordinated
+    sp: specifier
+  special_symbols:
+    +/B: Special Builder without surface form
+    :/J: Implicit sequence conjunction
+    '*/C': Wildcard concept
+    '*/R': Wildcard relation
+  composite_notations:
+  - P.sa
+  - B.ca
+  - R.sp.time
+  - Predicate+Specifier
+  - (+/B).co
+  - J.co
+  - '*/C.pa'
+  - R.sa.*/C
+pattern_library:
+- pattern: REL/P.{[sp][cora]x} ARG1/C ARG2 ARG3*
+  description: 'Speculative Extraction Pattern 1: matches any predicate relation with
+    subject/object/specifier arguments to yield OIE tuples.'
+  example: (is/P.sa obama/C president/C)
+  action: Extract ⟨ARG1, REL, ARG2, optional_specifiers⟩
+- pattern: (and/J X Y)
+  description: 'Conjunction Decomposition Rule 1: splits a binary conjunction into
+    two relations sharing the same predicate.'
+  example: (eat/P.sa (and/J apples/C oranges/C) john/C)
+  action: Produce (eat/P.sa apples/C john/C) and (eat/P.sa oranges/C john/C)
+- pattern: (+/B X/C Y/C)
+  description: Compound-Noun Builder pattern generating implicit hypernym-hyponym
+    links (Implicit Taxonomy).
+  example: (+/B solar/C panel/C)
+  action: Infer hypernym(solar_panel/C, panel/C)
+- pattern: (claim/P.sa ACTOR/C REL/R)
+  description: Claim Extraction pattern identifying relations expressing attribution.
+  example: (claim/P.sa trump/C (is/P.sa virus/C chinese/C))
+  action: Create Claim node linking ACTOR to REL
+- pattern: (accuse/P.sa SRC/C TGT/C TOPIC/R?)
+  description: Conflict Extraction pattern detecting opposition between actors.
+  example: (accuse/P.sa democrats/C trump/C (is/P.sa policy/C unfair/C))
+  action: Instantiate Conflict relation with source, target, topic
+algorithms:
+- name: NL-to-SH Parsing (α/β Pipeline)
+  purpose: Transform raw sentence into fully-typed semantic hyperedge.
+  steps:
+  - step: 1
+    description: Run external dependency parser to obtain Dependency Parse Tree (DPT).
+  - step: 2
+    description: 'α-Stage: classify each token into {C,P,M,B,T,J} atoms.'
+    substeps:
+    - Features → One-Hot Encoding
+    - Random Forest Classifier with Feature Set F5
+    - Possible feature selection via Genetic Algorithm Feature Selection
+  - step: 3
+    description: Translate dependency labels to argument-role codes (Dependency Label
+      Translation).
+  - step: 4
+    description: 'β-Stage: build search tree of candidate hyperedges by applying Type-Inference
+      Rules in dependency order.'
+    substeps:
+    - Score each candidate with Heuristic Function h (dependency distance, depth penalties).
+    - Keep highest-scoring hyperedge; prune others.
+  - step: 5
+    description: Return final Relation or Specifier hyperedge representing sentence
+      meaning.
+  complexity: Approx. O(n · b^d) worst-case; practical complexity bounded by heuristic
+    pruning.
+- name: Pattern Learning Template
+  purpose: Human-in-loop derivation of reusable inference/extraction patterns.
+  steps:
+  - step: 1
+    description: Select concrete hyperedge(s) relevant to task.
+  - step: 2
+    description: Replace atoms with typed Wildcards to generalize.
+  - step: 3
+    description: Recursively generalize inner hyperedges up to Expansion Depth.
+  - step: 4
+    description: Validate pattern against corpus; refine with human feedback.
+  - step: 5
+    description: Add validated pattern to pattern library.
+- name: Conjunction Decomposition
+  purpose: Split relations with conjunctions into atomic relations.
+  steps:
+  - step: 1
+    description: Search for Conjunction (type J) inside Relation hyperedges.
+  - step: 2
+    description: For each matching pattern, instantiate Inference Rule to duplicate
+      predicate with individual conjuncts.
+  - step: 3
+    description: Recursively process nested conjunctions.
+  complexity: Linear in number of conjunctions.
+- name: Coreference Resolution via Co-Occurrence Graph
+  purpose: Identify Coreference Sets among compound concepts.
+  steps:
+  - step: 1
+    description: For each Seed Concept, build Co-Occurrence Graph of auxiliary concepts
+      (nodes) and co-occurrence edges (weights).
+  - step: 2
+    description: Compute Degree and Deep Degree for each node.
+  - step: 3
+    description: Apply Probabilistic Seed Assignment using Heuristic Threshold θ.
+  - step: 4
+    description: Merge concepts with probability ≥ θ into Coreference Set.
+  complexity: Depends on graph size; ~O(V+E).
+- name: Faction Detection Algorithm
+  purpose: Assign actors to opposing camps in conflict network.
+  steps:
+  - step: 1
+    description: Build actor-actor graph weighted by count(conflicts_with).
+  - step: 2
+    description: Pick highest-degree node as seed for Camp A.
+  - step: 3
+    description: Assign neighbors of Camp A to Camp B; iterate degree-weighted expansion
+      until all actors assigned.
+  complexity: Near-linear.
+domain_applications:
+  open_information_extraction:
+  - Speculative Extraction Pattern 1
+  - One Rule Pattern (Pattern 1)
+  taxonomy_induction:
+  - Compound-Noun Builder pattern
+  - Implicit Taxonomy inference rule
+  coreference_resolution:
+  - Coreference Resolution via Co-Occurrence Graph
+  claim_conflict_analysis:
+  - Claim Extraction pattern
+  - Conflict Extraction pattern
+  - Faction Detection Algorithm

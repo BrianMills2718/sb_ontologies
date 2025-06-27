@@ -1,0 +1,120 @@
+annotation: The paper introduces hypergraphs as a natural extension of graphs in which
+  hyperedges can join any subset of vertices, enabling direct representation of n-ary
+  relationships. It argues that this structure captures complex connections more effectively
+  than simple binary edges.
+citation: Test Author (2024), “Simple Hypergraph Theory.”
+model_type: property_graph
+rationale: A property-graph (or hypergraph-enabled graph) model is ideal because terms
+  revolve around vertices, hyperedges, and their annotated properties/metrics, all
+  of which map cleanly onto nodes, edges, and edge attributes.
+schema_blueprint:
+  definitions:
+  - category: entity
+    description: A combinatorial structure consisting of a set of vertices and a set
+      of hyperedges that each connect an arbitrary subset of those vertices.
+    name: Hypergraph
+  - category: entity
+    description: A fundamental node or element in a hypergraph that may belong to
+      one or more hyperedges.
+    name: Vertex
+  - category: entity
+    description: An edge in a hypergraph capable of joining any number of vertices
+      simultaneously.
+    name: Hyperedge
+  - category: entity
+    description: A traditional structure of vertices connected pairwise by edges;
+      a special case of a hypergraph.
+    name: Graph
+  - category: entity
+    description: A graph with at most one edge between any two vertices and no self-loops;
+      contrasts with hypergraphs in edge arity.
+    name: Simple Graph
+  - category: relationship
+    description: A connection that involves n (more than two) participating entities,
+      naturally represented by a hyperedge.
+    domain:
+    - Entity
+    name: n-ary Relationship
+    range:
+    - Entity
+  - category: relationship
+    description: The relationship indicating which vertices belong to which hyperedges
+      (or edges).
+    domain:
+    - Entity
+    name: Incidence
+    range:
+    - Entity
+  - category: relationship
+    description: A relation describing whether two vertices share at least one hyperedge.
+    domain:
+    - Entity
+    name: Adjacency
+    range:
+    - Entity
+  - category: relationship
+    description: The set-theoretic relation where a hyperedge is defined as a subset
+      of the vertex set.
+    domain:
+    - Entity
+    name: Subset Containment
+    range:
+    - Entity
+  - category: property
+    description: The count of vertices contained in a single hyperedge.
+    name: Arity
+  - category: property
+    description: A property specifying that all hyperedges in a hypergraph have the
+      same arity (k-uniform).
+    name: Uniformity
+  - category: property
+    description: The total number of vertices in a hypergraph.
+    name: Order
+  - category: property
+    description: The total number of hyperedges in a hypergraph.
+    name: Size
+  - category: property
+    description: For a vertex, the number of hyperedges to which it belongs.
+    name: Degree
+  - category: measure
+    description: A numerical measure of the number of elements in a set, used for
+      vertices or hyperedges.
+    name: Cardinality
+  - category: measure
+    description: A measure of how intricate or computationally demanding a hypergraph-based
+      model or algorithm is.
+    name: Complexity
+  - category: entity
+    description: A binary matrix representation indicating vertex–hyperedge memberships
+      in a hypergraph.
+    name: Incidence Matrix
+  - category: action
+    description: The act of representing real-world phenomena with hypergraphs.
+    domain:
+    - Entity
+    name: Modeling
+    range:
+    - Entity
+  - category: action
+    description: The action of extending graph concepts to hypergraph settings.
+    domain:
+    - Entity
+    name: Generalization
+    range:
+    - Entity
+  - category: action
+    description: The action of linking multiple vertices via a hyperedge.
+    domain:
+    - Entity
+    name: Connect
+    range:
+    - Entity
+  description: Schema generated from paper analysis
+  root_properties:
+    edges:
+      description: Relationships and actions
+      item_type: NaryTuple
+    nodes:
+      description: Entities and concepts
+      item_type: Entity
+  title: Simplified Schema

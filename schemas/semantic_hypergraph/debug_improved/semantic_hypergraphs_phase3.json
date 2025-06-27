@@ -1,0 +1,640 @@
+{
+  "title": "Semantic Hypergraph (SH) Schema for Menezes & Roth (2021)",
+  "description": "Comprehensive hypergraph-based schema that formalises all concepts, metrics, processes, rules and notations introduced in the paper \u201cSemantic Hypergraphs\u201d.  The schema makes every Phase-1 term addressable as either a NodeType, EdgeType or Property while preserving SH\u2019s intrinsic n-ary, ordered and recursive nature.",
+  "model_type": "hypergraph",
+  "rationale": "The theory\u2019s central artefact is a recursively ordered hypergraph in which hyperedges may contain any number of participants, other hyperedges, and where participant order conveys argument roles.  Hyperedges themselves are first-class, carry types, and may be referenced by other hyperedges.  These are textbook hypergraph indicators; consequently, a hypergraph model \u2013 not a simple property graph \u2013 is the only faithful choice.",
+  "node_types": [
+    {
+      "name": "Semantic Hypergraph (SH)",
+      "properties": [
+        "ordered hypergraph",
+        "recursive hypergraph"
+      ],
+      "description": "Root container object representing an SH instance.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Hyperedge",
+      "properties": [
+        "hyperedge type",
+        "ordered hypergraph",
+        "recursive hypergraph",
+        "hypergraphic degree d(e)",
+        "deep degree \u03b4(e)"
+      ],
+      "description": "N-ary ordered container that may recursively embed other hyperedges.",
+      "subtypes": [
+        "Atom",
+        "Relation (R)",
+        "Specifier (S)"
+      ],
+      "constraints": {
+        "minParticipants": ", "
+      }
+    },
+    {
+      "name": "Atom",
+      "properties": [
+        "hyperedge type"
+      ],
+      "description": "Irreducible hyperedge of size 1; building block of Concepts and Tokens.",
+      "subtypes": [
+        "Concept (C)",
+        "Inflected Word Form Atom",
+        "Lemma Atom"
+      ],
+      "constraints": null
+    },
+    {
+      "name": "Connector",
+      "properties": [
+        "hyperedge type"
+      ],
+      "description": "First participant of every non-atomic hyperedge.  Determines how inner hyperedges are semantically linked.",
+      "subtypes": [
+        "Predicate (P)",
+        "Modifier (M)",
+        "Builder (B)",
+        "Trigger (T)",
+        "Conjunction (J)",
+        "(+/B) Special Builder"
+      ],
+      "constraints": null
+    },
+    {
+      "name": "Concept (C)",
+      "properties": [],
+      "description": "Atomic semantic concept (usually one lemma).",
+      "subtypes": null,
+      "constraints": {
+        "maxSize": "}    ,\u0539    "
+      }
+    },
+    {
+      "name": "Predicate (P)",
+      "properties": [
+        "claim predicate",
+        "conflict predicate"
+      ],
+      "description": "Connector that builds relations among arguments; usually verbal lemmas.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Modifier (M)",
+      "properties": [],
+      "description": "Connector that applies to exactly one hyperedge to create its modified variant (e.g. tense, polarity).",
+      "subtypes": null,
+      "constraints": {
+        "arity": "}    ,\u0ba4    "
+      }
+    },
+    {
+      "name": "Builder (B)",
+      "properties": [],
+      "description": "Connector that combines multiple concepts into a new compound concept.",
+      "subtypes": [
+        "(+/B) Special Builder"
+      ],
+      "constraints": null
+    },
+    {
+      "name": "Trigger (T)",
+      "properties": [],
+      "description": "Connector adding contextual specifications (time, location, condition) to a relation.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Conjunction (J)",
+      "properties": [],
+      "description": "Connector that aggregates or sequences concepts or relations (and/or).",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Relation (R)",
+      "properties": [],
+      "description": "Non-atomic hyperedge expressing a statement, question, command, etc.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Specifier (S)",
+      "properties": [],
+      "description": "Hyperedge encoding supplemental information that modifies a relation.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Variable (in SH patterns)",
+      "properties": [],
+      "description": "Placeholder that can match any compatible hyperedge during rule application.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Wildcard",
+      "properties": [],
+      "description": "Type-annotated generic element that can match arbitrary hyperedges in patterns.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Type Inference Rule",
+      "properties": [],
+      "description": "Formal rule that infers the resulting hyperedge type from connector plus arguments.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Inference Rule",
+      "properties": [],
+      "description": "Pattern pair (lhs \u21d2 rhs) that derives new SH edges once lhs is matched.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Pattern Language",
+      "properties": [],
+      "description": "Collection of variables, wild-cards and role sets used to express extraction/derivation templates.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Dependency Parse Tree (DPT)",
+      "properties": [],
+      "description": "External syntactic tree representation used as additional feature source.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Natural Language Processing (NLP)",
+      "properties": [
+        "open/opaque dichotomy",
+        "strict/adaptive dichotomy"
+      ],
+      "description": "Parent research domain of SH.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "open-adaptive quadrant",
+      "properties": [],
+      "description": "Design space combining inspectability with adaptivity; occupied by SH.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "\u03b1-stage (alpha stage)",
+      "properties": [
+        "accuracy"
+      ],
+      "description": "First parsing stage assigning SH atomic types to tokens via machine-learning classifier.",
+      "subtypes": null,
+      "constraints": {
+        "input": "TokenStream",
+        "output": "TypedAtoms"
+      }
+    },
+    {
+      "name": "\u03b2-stage (beta stage)",
+      "properties": [],
+      "description": "Second parsing stage that recursively builds well-formed hyperedges using rules.",
+      "subtypes": null,
+      "constraints": {
+        "input": "TypedAtoms",
+        "output": "WellFormedSHEdges"
+      }
+    },
+    {
+      "name": "Heuristic Function h",
+      "properties": [],
+      "description": "Scoring function guiding \u03b2-stage when several patterns compete; exploits DPT links.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Feature Selection (Genetic Algorithm)",
+      "properties": [
+        "accuracy"
+      ],
+      "description": "Evolutionary search over feature subsets to optimise \u03b1-classifier accuracy.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Iterative Ablation",
+      "properties": [
+        "accuracy"
+      ],
+      "description": "Greedy feature-elimination technique that retains only informative features.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Conjunction Decomposition",
+      "properties": [],
+      "description": "Process that splits relations containing conjunctions into simpler atomic relations.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Pattern Learning Template",
+      "properties": [],
+      "description": "Human-in-the-loop workflow that generalises observed SH edges into reusable patterns.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Open Information Extraction (OIE)",
+      "properties": [
+        "F1 score",
+        "precision (Prec.)",
+        "recall"
+      ],
+      "description": "Benchmark task used to evaluate SH pattern performance.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Co-occurrence Graph",
+      "properties": [],
+      "description": "Graph of auxiliary concepts that co-participate with a seed concept in compounds.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Seed Concept",
+      "properties": [],
+      "description": "Main atomic concept used to initiate coreference analysis.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Coreference Set",
+      "properties": [],
+      "description": "Group of compound concepts that refer to the same real-world entity.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Probabilistic Seed Assignment",
+      "properties": [
+        "probability p (seed use)",
+        "threshold \u03b8 / \u03b8\u2032"
+      ],
+      "description": "Heuristic assigning ambiguous seed atoms to a coreference set.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Hypergraph Database",
+      "properties": [],
+      "description": "Persistent store of SH edges enabling large-scale queries and pattern matching.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Topic (in SH analysis)",
+      "properties": [],
+      "description": "Hyperedge (concept or relation) representing the subject matter of a claim or conflict.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Claim Predicate",
+      "properties": [],
+      "description": "Predicate lemma signalling that an actor asserts a proposition (say, claim, etc.).",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Conflict Predicate",
+      "properties": [],
+      "description": "Predicate lemma indicating opposition or conflict (accuse, condemn, etc.).",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "(+/B) Special Builder",
+      "properties": [],
+      "description": "Builder connector denoting compound noun formed by juxtaposed concepts.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Universal Dependencies (UD)",
+      "properties": [],
+      "description": "External dependency annotation scheme used as coverage benchmark for SH.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "ApplyPattern Function",
+      "properties": [],
+      "description": "\u03b2-stage sub-routine that replaces a matching sequence with a single hyperedge.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "BetaTransformation",
+      "properties": [],
+      "description": "Recursive procedure that builds final SH edge by repeated pattern application.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Generate\u0394(e) Function",
+      "properties": [],
+      "description": "Recursive algorithm that computes the neighbourhood \u0394e for deep-degree calculation.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Faction Detection Algorithm",
+      "properties": [
+        "score s_ij"
+      ],
+      "description": "Heuristic assigning actors to antagonistic groups using conflict edge scores.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Inflected Word Form Atom",
+      "properties": [],
+      "description": "Atom that stores the surface form of a token.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Lemma Atom",
+      "properties": [],
+      "description": "Atom that stores the canonical lemma of a word.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Hypergraphic Degree d(e)",
+      "properties": [],
+      "description": "Metric: number of pairwise connections a hyperedge has via its outer hyperedges.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Deep Degree \u03b4(e)",
+      "properties": [],
+      "description": "Metric counting recursive co-participations of a hyperedge at any depth.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "F1 Score",
+      "properties": [],
+      "description": "Harmonic mean of precision and recall.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Precision (Prec.)",
+      "properties": [],
+      "description": "Proportion of extracted tuples that are correct.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Recall",
+      "properties": [],
+      "description": "Proportion of gold-standard tuples correctly extracted.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Accuracy",
+      "properties": [],
+      "description": "Fraction of correctly classified items (used for \u03b1-stage evaluation).",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Probability p (seed use)",
+      "properties": [],
+      "description": "Estimated chance that a seed atom alone denotes a specific entity.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Threshold \u03b8 / \u03b8\u2032",
+      "properties": [],
+      "description": "Empirical cut-off parameters controlling probabilistic seed assignment.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Score s_ij",
+      "properties": [],
+      "description": "Edge weight defined as min(di, dj) used in faction identification.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Argument Role",
+      "properties": [
+        "active subject (s)",
+        "passive subject (p)",
+        "agent (a)",
+        "subject complement (c)",
+        "direct object (o)",
+        "indirect object (i)",
+        "parataxis role (t)",
+        "specification role (x)",
+        "relative relation role (r)"
+      ],
+      "description": "Symbolic label indicating the semantic function of an argument with respect to a predicate.",
+      "subtypes": null,
+      "constraints": null
+    }
+  ],
+  "edge_types": [
+    {
+      "name": "hasConnector",
+      "from_types": [
+        "Hyperedge"
+      ],
+      "to_types": [
+        "Connector"
+      ],
+      "properties": [
+        "position"
+      ],
+      "description": "First ordered link inside every non-atomic hyperedge.",
+      "inverse": "isConnectorOf"
+    },
+    {
+      "name": "hasArgument",
+      "from_types": [
+        "Hyperedge"
+      ],
+      "to_types": [
+        "Hyperedge"
+      ],
+      "properties": [
+        "argument role",
+        "position"
+      ],
+      "description": "Ordered participant link.  The \u2018argument role\u2019 property uses codes s,p,a,c,o,i,t,x,r.",
+      "inverse": "isArgumentOf"
+    },
+    {
+      "name": "lemma/J edge",
+      "from_types": [
+        "Inflected Word Form Atom"
+      ],
+      "to_types": [
+        "Lemma Atom"
+      ],
+      "properties": [],
+      "description": "Auxiliary edge linking an inflected word form to its lemma using connector lemma/J.",
+      "inverse": null
+    },
+    {
+      "name": "participatesIn",
+      "from_types": [
+        "Hyperedge"
+      ],
+      "to_types": [
+        "Hyperedge"
+      ],
+      "properties": [
+        "position"
+      ],
+      "description": "Inverse of hasArgument; useful for deep-degree queries.",
+      "inverse": "hasArgument"
+    },
+    {
+      "name": "buildsCompoundConcept",
+      "from_types": [
+        "(+/B) Special Builder"
+      ],
+      "to_types": [
+        "Concept (C)"
+      ],
+      "properties": [],
+      "description": "Connects the special builder to the newly created compound Concept.",
+      "inverse": null
+    },
+    {
+      "name": "coOccursWith",
+      "from_types": [
+        "Concept (C)"
+      ],
+      "to_types": [
+        "Concept (C)"
+      ],
+      "properties": [
+        "hypergraphic degree d(e)"
+      ],
+      "description": "Edge inside the Co-occurrence Graph linking concepts appearing in the same compound.",
+      "inverse": "coOccursWith"
+    },
+    {
+      "name": "belongsToCoreferenceSet",
+      "from_types": [
+        "Seed Concept"
+      ],
+      "to_types": [
+        "Coreference Set"
+      ],
+      "properties": [
+        "probability p (seed use)"
+      ],
+      "description": "Membership relation created by Probabilistic Seed Assignment.",
+      "inverse": null
+    },
+    {
+      "name": "hasTopic",
+      "from_types": [
+        "Claim Predicate",
+        "Conflict Predicate"
+      ],
+      "to_types": [
+        "Topic (in SH analysis)"
+      ],
+      "properties": [],
+      "description": "Associates a claim or conflict with its topic.",
+      "inverse": "isTopicOf"
+    },
+    {
+      "name": "generatedBy",
+      "from_types": [
+        "Hyperedge"
+      ],
+      "to_types": [
+        "\u03b2-stage (beta stage)",
+        "ApplyPattern Function",
+        "BetaTransformation"
+      ],
+      "properties": [],
+      "description": "Indicates which process generated a given SH edge.",
+      "inverse": null
+    },
+    {
+      "name": "computedMetric",
+      "from_types": [
+        "Process"
+      ],
+      "to_types": [
+        "F1 Score",
+        "accuracy",
+        "precision (Prec.)",
+        "recall",
+        "hypergraphic degree d(e)",
+        "deep degree \u03b4(e)",
+        "score s_ij"
+      ],
+      "properties": [],
+      "description": "Links algorithms to the metrics they compute.",
+      "inverse": null
+    }
+  ],
+  "property_definitions": {
+    "open/opaque dichotomy": "Boolean or enum describing whether an NLP system\u2019s rules and representations are inspectable.",
+    "strict/adaptive dichotomy": "Enum {strict, adaptive} describing rule-fixed vs. data-driven nature.",
+    "ordered hypergraph": "Boolean flag; true for every SH hyperedge.",
+    "recursive hypergraph": "Boolean flag; true when a hyperedge contains other hyperedges.",
+    "hyperedge type": "Enumeration {C,P,M,B,T,J,R,S}.",
+    "argument role": "Enumeration {s,p,a,c,o,i,t,x,r}.",
+    "active subject (s)": "Role code meaning the doer of an action in active voice.",
+    "passive subject (p)": "Role code marking patient subject in passive voice.",
+    "agent (a)": "Role code for performer of action in a passive clause.",
+    "subject complement (c)": "Role code for predicate nominals/adjectives completing the subject.",
+    "direct object (o)": "Role code marking entity directly affected by action.",
+    "indirect object (i)": "Role code marking beneficiary/recipient.",
+    "parataxis role (t)": "Role for syntactically disjoint but related clauses.",
+    "specification role (x)": "Role for additional specifier information.",
+    "relative relation role (r)": "Role indicating nested relative relations.",
+    "hypergraphic degree d(e)": "Integer measure \u03a3(|ei|-1) over outer hyperedges.",
+    "deep degree \u03b4(e)": "Integer measure counting recursive co-participations.",
+    "F1 score": "Float metric 2PR/(P+R).",
+    "precision (Prec.)": "Float metric correct_extractions / total_extractions.",
+    "recall": "Float metric correct_extractions / gold_total.",
+    "accuracy": "Float metric correct_classifications / total.",
+    "score s_ij": "Integer weight = min(di, dj) on conflict edges.",
+    "probability p (seed use)": "Float estimation for seed atom specificity.",
+    "threshold \u03b8 / \u03b8\u2032": "Float parameters controlling probabilistic seed assignment."
+  },
+  "modifiers_supported": [
+    "temporal",
+    "modal",
+    "contextual"
+  ],
+  "truth_values_supported": null,
+  "operators_supported": [
+    "+/B",
+    ":/J",
+    "\u21d2",
+    "\u21d4",
+    "` (rule separator)"
+  ]
+}

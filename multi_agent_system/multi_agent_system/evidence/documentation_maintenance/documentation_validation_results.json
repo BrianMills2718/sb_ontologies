@@ -1,0 +1,276 @@
+{
+  "timestamp": "2025-06-23T17:46:24.242325",
+  "overall_status": "WARN",
+  "file_validations": {
+    "CLAUDE.md": {
+      "file_exists": true,
+      "file_readable": true,
+      "file_age_days": 0.08223880416541188,
+      "required_sections_check": {
+        "V5.0 Multi-Agent Implementation": false,
+        "Current Situation": false,
+        "Multi-Agent Process": false
+      },
+      "required_patterns_check": {
+        "ACTIVE PHASE": true,
+        "STATUS:": false,
+        "Phase \\d+": true
+      },
+      "markdown_syntax_check": {
+        "has_broken_links": false,
+        "has_malformed_headers": false,
+        "has_unclosed_code_blocks": false,
+        "broken_links": [],
+        "malformed_headers": [],
+        "issues": []
+      },
+      "issues": [],
+      "warnings": [],
+      "status": "FAIL"
+    },
+    "docs/current_phase_status.md": {
+      "file_exists": true,
+      "file_readable": true,
+      "file_age_days": 0.050062454163476273,
+      "required_sections_check": {
+        "Phase Status Overview": false,
+        "Current Active Phase": false
+      },
+      "required_patterns_check": {
+        "Phase \\d+.*\u2705": true,
+        "Phase \\d+.*\ud83d\udd04": false,
+        "evidence/": true
+      },
+      "markdown_syntax_check": {
+        "has_broken_links": false,
+        "has_malformed_headers": false,
+        "has_unclosed_code_blocks": false,
+        "broken_links": [],
+        "malformed_headers": [],
+        "issues": []
+      },
+      "issues": [],
+      "warnings": [],
+      "status": "FAIL"
+    },
+    "docs/MULTI_AGENT_SYSTEM_GUIDE.md": {
+      "file_exists": true,
+      "file_readable": true,
+      "file_age_days": 0.07985473379216812,
+      "required_sections_check": {
+        "Multi-Agent Process": false,
+        "How It Works": false,
+        "Success Rate": false
+      },
+      "required_patterns_check": {
+        "100%": true,
+        "external.*evaluation": true,
+        "isolated.*implementation": true
+      },
+      "markdown_syntax_check": {
+        "has_broken_links": false,
+        "has_malformed_headers": false,
+        "has_unclosed_code_blocks": false,
+        "broken_links": [],
+        "malformed_headers": [],
+        "issues": []
+      },
+      "issues": [],
+      "warnings": [],
+      "status": "FAIL"
+    }
+  },
+  "structure_validation": {
+    "evidence_structure": {
+      "evidence_dir_exists": true,
+      "phase_evidence_dirs": [
+        "phase6_end_to_end_tests",
+        "phase7_generation",
+        "phase4_validation_orchestrator",
+        "phase5_database_integration",
+        "phase3_blueprint_schema",
+        "phase3_blueprint_schema_v5",
+        "phase4_enhanced_component_generation",
+        "phase1_failure_hiding_removal",
+        "phase2_validation_driven_orchestrator",
+        "phase5_database_integration_mainline",
+        "phase3_enhanced_generation",
+        "phase2_component_library",
+        "phase6_harness"
+      ],
+      "missing_phase_evidence": [],
+      "well_structured_phases": [
+        "phase6_end_to_end_tests",
+        "phase7_generation",
+        "phase4_validation_orchestrator",
+        "phase5_database_integration",
+        "phase3_blueprint_schema",
+        "phase3_blueprint_schema_v5",
+        "phase4_enhanced_component_generation",
+        "phase1_failure_hiding_removal",
+        "phase2_validation_driven_orchestrator",
+        "phase5_database_integration_mainline",
+        "phase3_enhanced_generation",
+        "phase2_component_library",
+        "phase6_harness"
+      ],
+      "issues": []
+    },
+    "docs_structure": {
+      "docs_dir_exists": true,
+      "required_docs_present": {
+        "current_phase_status.md": true,
+        "MULTI_AGENT_SYSTEM_GUIDE.md": true
+      },
+      "docs_count": 8,
+      "issues": []
+    },
+    "phase_structure": {
+      "phases_dir_exists": true,
+      "phase_dirs": [
+        "phase_documentation_maintenance_isolated",
+        "phase2_isolated",
+        "phase5_database_integration_isolated",
+        "phase4_orchestrator_isolated",
+        "phase7_generation_isolated",
+        "phase6_harness_isolated",
+        "phase3_blueprint_isolated"
+      ],
+      "isolated_phases": [
+        "phase_documentation_maintenance_isolated",
+        "phase2_isolated",
+        "phase5_database_integration_isolated",
+        "phase4_orchestrator_isolated",
+        "phase7_generation_isolated",
+        "phase6_harness_isolated",
+        "phase3_blueprint_isolated"
+      ],
+      "issues": []
+    },
+    "required_files": {
+      "CLAUDE.md": true,
+      "README.md": true
+    }
+  },
+  "content_validation": {
+    "phase_status_consistency": {
+      "phase_statuses": {
+        "CLAUDE.md": {
+          "Phase 5": "COMPLETE"
+        },
+        "docs/current_phase_status.md": {
+          "Phase 5": "FAILED",
+          "Phase 2": "FAILED",
+          "Phase 3": "COMPLETE",
+          "Phase 4": "COMPLETE",
+          "Phase 6": "COMPLETE",
+          "Phase 7": "COMPLETE"
+        }
+      },
+      "conflicts": [
+        {
+          "phase": "Phase 5",
+          "conflicting_statuses": {
+            "CLAUDE.md": "COMPLETE",
+            "docs/current_phase_status.md": "FAILED"
+          }
+        }
+      ],
+      "is_consistent": false
+    },
+    "evidence_path_consistency": {
+      "evidence_references": {
+        "CLAUDE.md": [
+          "evidence/phase5_database_integration_mainline/`"
+        ],
+        "docs/current_phase_status.md": [
+          "evidence/phase5_database_integration_mainline/`",
+          "evidence/phase2_component_library/`",
+          "evidence/phase3_blueprint_schema_v5/`",
+          "evidence/phase4_validation_orchestrator/`",
+          "evidence/phase6_harness/`",
+          "evidence/phase7_generation/`",
+          "evidence/`"
+        ],
+        "docs/MULTI_AGENT_SYSTEM_GUIDE.md": [
+          "evidence/*",
+          "evidence/phase{N}_*/*",
+          "evidence/.",
+          "evidence/phase{N}_*/.",
+          "evidence/phase{N}_{description}/",
+          "evidence/phase{N}_*/`",
+          "evidence/phase{N}_*/."
+        ]
+      },
+      "broken_paths": [
+        {
+          "referenced_in": "docs/MULTI_AGENT_SYSTEM_GUIDE.md",
+          "path": "evidence/*",
+          "clean_path": "evidence/*"
+        },
+        {
+          "referenced_in": "docs/MULTI_AGENT_SYSTEM_GUIDE.md",
+          "path": "evidence/phase{N}_*/*",
+          "clean_path": "evidence/phase{N}_*/*"
+        },
+        {
+          "referenced_in": "docs/MULTI_AGENT_SYSTEM_GUIDE.md",
+          "path": "evidence/phase{N}_*/.",
+          "clean_path": "evidence/phase{N}_*/."
+        },
+        {
+          "referenced_in": "docs/MULTI_AGENT_SYSTEM_GUIDE.md",
+          "path": "evidence/phase{N}_{description}/",
+          "clean_path": "evidence/phase{N}_{description}"
+        },
+        {
+          "referenced_in": "docs/MULTI_AGENT_SYSTEM_GUIDE.md",
+          "path": "evidence/phase{N}_*/`",
+          "clean_path": "evidence/phase{N}_*"
+        },
+        {
+          "referenced_in": "docs/MULTI_AGENT_SYSTEM_GUIDE.md",
+          "path": "evidence/phase{N}_*/.",
+          "clean_path": "evidence/phase{N}_*/."
+        }
+      ],
+      "all_paths_valid": false
+    },
+    "date_consistency": {
+      "CLAUDE.md": {
+        "file_modified": "2025-06-23T15:47:58.809699",
+        "content_dates": [],
+        "file_age_days": 0
+      },
+      "docs/current_phase_status.md": {
+        "file_modified": "2025-06-23T16:34:18.847333",
+        "content_dates": [
+          "2025-06-23",
+          "2025-06-23",
+          "2025-06-23",
+          "2025-06-23",
+          "2025-06-23",
+          "2025-06-23",
+          "2025-06-23",
+          "2025-06-23",
+          "2025-06-23",
+          "2025-06-23",
+          "2025-06-23"
+        ],
+        "file_age_days": 0
+      }
+    },
+    "cross_references": {
+      "internal_links": {},
+      "broken_internal_links": [],
+      "phase_references": {}
+    }
+  },
+  "summary": {
+    "total_files_checked": 3,
+    "files_passed": 0,
+    "files_failed": 3,
+    "critical_issues": 0,
+    "warnings": 0
+  }
+}

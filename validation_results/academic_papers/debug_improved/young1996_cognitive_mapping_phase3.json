@@ -1,0 +1,518 @@
+{
+  "title": "WorldView Cognitive-Mapping Semantic-Network Schema",
+  "description": "A property-graph schema for representing the enriched cognitive maps, semantic networks, analytical tools, and reasoning processes described in Young (1996).  The schema captures typed concept nodes, highly differentiated relationship edges with salience, truth and temporal/modal qualifiers, as well as process/action edges that trace WorldView\u2019s analytic and inferential operations.  It supports structural metrics (size, dependency, connectedness, etc.) as properties on CognitiveMap nodes.",
+  "model_type": "property_graph",
+  "rationale": "The theory\u2019s core representation is a semantic network of concepts and propositions linked by many qualitatively different relationships that carry salience values, truth values, and temporal/modal modifiers.  These rich, typed, many-to-many connections \u2013 plus additional action/process links \u2013 are modelled most naturally as a property graph.  Alternatives such as table_matrix (for typologies), tree (for hierarchies) or timeline (for historical evolution) would lose the central emphasis on heterogeneous relational structure.",
+  "node_types": [
+    {
+      "name": "ConceptNode",
+      "properties": [
+        "label",
+        "belief_content",
+        "truth_value",
+        "salience",
+        "temporal_modifier",
+        "modal_modifier"
+      ],
+      "description": "A mental construct appearing in an actor\u2019s belief system or in an analyst\u2019s cognitive map.",
+      "subtypes": [
+        "ActorNode",
+        "ObjectNode",
+        "AttributeNode",
+        "PropositionNode",
+        "WholeConceptNode",
+        "PartConceptNode"
+      ],
+      "constraints": {
+        "unique": "label within a single CognitiveMap"
+      }
+    },
+    {
+      "name": "ActorNode",
+      "properties": [
+        "label",
+        "belief_content",
+        "truth_value",
+        "salience"
+      ],
+      "description": "Concept node referring to an individual or collective actor (decision maker, state, organisation).",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "ObjectNode",
+      "properties": [
+        "label",
+        "belief_content",
+        "truth_value",
+        "salience"
+      ],
+      "description": "Concept node referring to concrete or abstract objects possessed or acted upon.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "AttributeNode",
+      "properties": [
+        "label",
+        "belief_content",
+        "truth_value",
+        "salience"
+      ],
+      "description": "Concept node referring to qualities or attributes of objects or actors.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "PropositionNode",
+      "properties": [
+        "label",
+        "belief_content",
+        "truth_value",
+        "salience"
+      ],
+      "description": "A complex statement that can serve as antecedent or consequent in if\u2013then rules.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "WholeConceptNode",
+      "properties": [
+        "label",
+        "belief_content"
+      ],
+      "description": "Concept treated as a whole in whole-part (component) relationships.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "PartConceptNode",
+      "properties": [
+        "label",
+        "belief_content"
+      ],
+      "description": "Concept treated as a component part of another concept.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "CognitiveMap",
+      "properties": [
+        "label",
+        "size",
+        "connectedness",
+        "dependency",
+        "uniformity_of_salience",
+        "transformation_cost",
+        "incongruence"
+      ],
+      "description": "A directed network of ConceptNodes and Relationship edges representing an individual or group belief system.",
+      "subtypes": null,
+      "constraints": {
+        "must_contain": "\u22651 ConceptNode"
+      }
+    },
+    {
+      "name": "CompositeCognitiveMap",
+      "properties": [
+        "label",
+        "size",
+        "connectedness",
+        "dependency",
+        "uniformity_of_salience"
+      ],
+      "description": "An aggregated cognitive map produced from multiple base maps.",
+      "subtypes": null,
+      "constraints": {
+        "inherits": "CognitiveMap"
+      }
+    },
+    {
+      "name": "WorldView",
+      "properties": [
+        "version",
+        "capabilities"
+      ],
+      "description": "Computer-assisted system that stores, manipulates, and analyses cognitive maps.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "InferenceEngine",
+      "properties": [
+        "version",
+        "heuristics_supported"
+      ],
+      "description": "WorldView subsystem that executes spreading activation, salience heuristics, and directed inference walks.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "InferencePath",
+      "properties": [
+        "path_length",
+        "truth_value",
+        "salience"
+      ],
+      "description": "A sequence of concept nodes and relationship edges traversed during an inference.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "Analyst",
+      "properties": [
+        "name",
+        "affiliation"
+      ],
+      "description": "Human coder who performs content analysis and interacts with WorldView.",
+      "subtypes": null,
+      "constraints": null
+    },
+    {
+      "name": "TextCorpus",
+      "properties": [
+        "source",
+        "language",
+        "date_range"
+      ],
+      "description": "Set of textual materials coded into cognitive maps.",
+      "subtypes": null,
+      "constraints": null
+    }
+  ],
+  "edge_types": [
+    {
+      "name": "causal",
+      "from_types": [
+        "ConceptNode"
+      ],
+      "to_types": [
+        "ConceptNode"
+      ],
+      "properties": [
+        "salience",
+        "truth_value",
+        "temporal_modifier",
+        "modal_modifier"
+      ],
+      "description": "General causal link (unspecified polarity) between two concepts.",
+      "inverse": "caused_by"
+    },
+    {
+      "name": "positive_cause",
+      "from_types": [
+        "ConceptNode"
+      ],
+      "to_types": [
+        "ConceptNode"
+      ],
+      "properties": [
+        "salience",
+        "truth_value",
+        "temporal_modifier",
+        "modal_modifier"
+      ],
+      "description": "Increase/increase or decrease/decrease causal relationship (+).",
+      "inverse": "positive_caused_by"
+    },
+    {
+      "name": "negative_cause",
+      "from_types": [
+        "ConceptNode"
+      ],
+      "to_types": [
+        "ConceptNode"
+      ],
+      "properties": [
+        "salience",
+        "truth_value",
+        "temporal_modifier",
+        "modal_modifier"
+      ],
+      "description": "Increase/decrease or decrease/increase causal relationship (\u2212).",
+      "inverse": "negative_caused_by"
+    },
+    {
+      "name": "equal",
+      "from_types": [
+        "ConceptNode"
+      ],
+      "to_types": [
+        "ConceptNode"
+      ],
+      "properties": [
+        "truth_value"
+      ],
+      "description": "Concepts are equivalent or synonymous.",
+      "inverse": "equal"
+    },
+    {
+      "name": "condition",
+      "from_types": [
+        "ConceptNode"
+      ],
+      "to_types": [
+        "ConceptNode"
+      ],
+      "properties": [
+        "truth_value",
+        "modal_modifier"
+      ],
+      "description": "The first concept is a pre-condition for the second.",
+      "inverse": "condition_for"
+    },
+    {
+      "name": "component",
+      "from_types": [
+        "WholeConceptNode"
+      ],
+      "to_types": [
+        "PartConceptNode"
+      ],
+      "properties": [],
+      "description": "Whole-part (component) relationship.",
+      "inverse": "part_of"
+    },
+    {
+      "name": "preference",
+      "from_types": [
+        "ConceptNode"
+      ],
+      "to_types": [
+        "ConceptNode"
+      ],
+      "properties": [
+        "salience"
+      ],
+      "description": "Greater-than / preference ordering.",
+      "inverse": "less_preferred_than"
+    },
+    {
+      "name": "if_then",
+      "from_types": [
+        "PropositionNode"
+      ],
+      "to_types": [
+        "PropositionNode"
+      ],
+      "properties": [
+        "truth_value"
+      ],
+      "description": "Conditional rule edge (antecedent \u21d2 consequent).",
+      "inverse": null
+    },
+    {
+      "name": "possess",
+      "from_types": [
+        "ActorNode",
+        "ObjectNode"
+      ],
+      "to_types": [
+        "ObjectNode"
+      ],
+      "properties": [],
+      "description": "Ownership or containment relation.",
+      "inverse": "possessed_by"
+    },
+    {
+      "name": "attribute",
+      "from_types": [
+        "ObjectNode"
+      ],
+      "to_types": [
+        "AttributeNode"
+      ],
+      "properties": [],
+      "description": "Object has an attribute.",
+      "inverse": "attribute_of"
+    },
+    {
+      "name": "aggregation",
+      "from_types": [
+        "WorldView"
+      ],
+      "to_types": [
+        "CompositeCognitiveMap"
+      ],
+      "properties": [
+        "action_timestamp"
+      ],
+      "description": "WorldView aggregates multiple maps into a composite.",
+      "inverse": null
+    },
+    {
+      "name": "spreading_activation",
+      "from_types": [
+        "ConceptNode"
+      ],
+      "to_types": [
+        "ConceptNode"
+      ],
+      "properties": [
+        "path_length",
+        "action_timestamp"
+      ],
+      "description": "Activation flows from one concept to another during inference.",
+      "inverse": null
+    },
+    {
+      "name": "directed_walk",
+      "from_types": [
+        "WorldView"
+      ],
+      "to_types": [
+        "InferencePath"
+      ],
+      "properties": [
+        "action_timestamp"
+      ],
+      "description": "System executes a directed walk to build an inference path.",
+      "inverse": null
+    },
+    {
+      "name": "salience_heuristic",
+      "from_types": [
+        "InferenceEngine"
+      ],
+      "to_types": [
+        "PropositionNode"
+      ],
+      "properties": [
+        "action_timestamp"
+      ],
+      "description": "Inference engine selects propositions by salience.",
+      "inverse": null
+    },
+    {
+      "name": "content_analysis",
+      "from_types": [
+        "Analyst"
+      ],
+      "to_types": [
+        "TextCorpus"
+      ],
+      "properties": [
+        "action_timestamp",
+        "method"
+      ],
+      "description": "Human-coded content analysis performed on a corpus.",
+      "inverse": null
+    },
+    {
+      "name": "relationship_addition",
+      "from_types": [
+        "CognitiveMap"
+      ],
+      "to_types": [
+        "RelationshipEdge"
+      ],
+      "properties": [
+        "action_timestamp"
+      ],
+      "description": "A new relationship edge is inserted into a map.",
+      "inverse": null
+    },
+    {
+      "name": "relationship_deletion",
+      "from_types": [
+        "CognitiveMap"
+      ],
+      "to_types": [
+        "RelationshipEdge"
+      ],
+      "properties": [
+        "action_timestamp"
+      ],
+      "description": "A relationship edge is removed from a map.",
+      "inverse": null
+    },
+    {
+      "name": "relationship_salience_change",
+      "from_types": [
+        "RelationshipEdge"
+      ],
+      "to_types": [
+        "salience"
+      ],
+      "properties": [
+        "action_timestamp",
+        "delta_salience"
+      ],
+      "description": "Salience value of a relationship is incremented or decremented.",
+      "inverse": null
+    },
+    {
+      "name": "concept_addition",
+      "from_types": [
+        "CognitiveMap"
+      ],
+      "to_types": [
+        "ConceptNode"
+      ],
+      "properties": [
+        "action_timestamp"
+      ],
+      "description": "New concept node added to map.",
+      "inverse": null
+    },
+    {
+      "name": "concept_deletion",
+      "from_types": [
+        "CognitiveMap"
+      ],
+      "to_types": [
+        "ConceptNode"
+      ],
+      "properties": [
+        "action_timestamp"
+      ],
+      "description": "Concept node removed from map.",
+      "inverse": null
+    }
+  ],
+  "property_definitions": {
+    "label": "string: human-readable name of node or edge",
+    "belief_content": "string: substantive content of a belief",
+    "truth_value": "enum{true,false,partial,possible,impossible}",
+    "salience": "number[0,1]: importance weight",
+    "temporal_modifier": "enum{past,present,future}",
+    "modal_modifier": "enum{goal,hypothetical,normative}",
+    "size": "integer: # of concept nodes",
+    "connectedness": "number[0,1]: proportion of reachable node pairs",
+    "dependency": "number: average in-degree",
+    "uniformity_of_salience": "number[0,1]",
+    "transformation_cost": "number: cost measure for map comparison",
+    "incongruence": "number: belief inconsistency metric",
+    "version": "string",
+    "capabilities": "string",
+    "heuristics_supported": "string",
+    "path_length": "integer",
+    "source": "string",
+    "language": "string",
+    "date_range": "string",
+    "affiliation": "string",
+    "action_timestamp": "datetime-iso",
+    "method": "string",
+    "delta_salience": "number"
+  },
+  "modifiers_supported": [
+    "past",
+    "present",
+    "future",
+    "goal",
+    "hypothetical",
+    "normative",
+    "relationship_modifier"
+  ],
+  "truth_values_supported": [
+    "true",
+    "false",
+    "partial",
+    "possible",
+    "impossible"
+  ],
+  "operators_supported": [
+    "AND",
+    "OR"
+  ]
+}

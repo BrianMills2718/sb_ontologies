@@ -1,0 +1,26 @@
+THEORY COUNT DETECTION TEST
+Input: validation_results/cross_domain/framing_theory_core.txt
+Prompt: experimental_testing/prompt_variations/theory_count_detection/theory_count_prompt_v1.txt
+==================================================
+
+theory_count: multiple
+
+individual_theories:
+  - name: "Core Framing Effects Theory"
+    source: "Heilman & Miclea research (with references to Tversky & Kahneman, Simon)"
+    description: "Describes the phenomenon where presenting equivalent decisional alternatives in different terms leads to preference reversals, violating the principle of invariance."
+    section: "Core Theory"
+  - name: "Taxonomy of Framing Effects"
+    source: "Levin et al., 1998"
+    description: "Classifies framing effects into distinct categories such as Risky Choice Framing, Attribute Framing, and Goal Framing, highlighting different manifestations of framing in decision making."
+    section: "Taxonomy of Framing Effects"
+  - name: "Prospect Theory Explanation"
+    source: "Kahneman & Tversky, 1979"
+    description: "Provides a theoretical explanation for framing effects by evaluating outcomes as gains or losses relative to a baseline, incorporating loss aversion and risk preferences."
+    section: "Prospect Theory Explanation"
+
+relationships_between_theories: comparison
+
+confidence: high
+
+reasoning: "The paper does not propose a single unified framework or integrate the theories into a new model. Instead, it presents multiple distinct theoretical approaches—each with its own terminology, emphasis, and explanatory mechanisms—to account for framing effects in decision making. The Core Framing Effects Theory establishes the basic phenomenon, the Taxonomy of Framing Effects breaks down the phenomenon into categories, and the Prospect Theory Explanation offers a detailed account of the underlying cognitive processes. These clearly meet the criteria for multiple distinct theories."

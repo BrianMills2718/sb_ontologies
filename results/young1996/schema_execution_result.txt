@@ -1,0 +1,62 @@
+{
+  "concepts": [
+    {"id": "C1", "label": "President Carter", "frequency": 5},
+    {"id": "C2", "label": "Congress", "frequency": 4},
+    {"id": "C3", "label": "State legislators", "frequency": 4},
+    {"id": "C4", "label": "Southern Legislative Conference", "frequency": 2},
+    {"id": "C5", "label": "Government", "frequency": 5},
+    {"id": "C6", "label": "American people", "frequency": 2},
+    {"id": "C7", "label": "Southerners", "frequency": 2},
+    {"id": "C8", "label": "Foreign affairs", "frequency": 2},
+    {"id": "C9", "label": "Soviet Union", "frequency": 2},
+    {"id": "C10", "label": "United States", "frequency": 2},
+    {"id": "C11", "label": "National security", "frequency": 1},
+    {"id": "C12", "label": "Military competition", "frequency": 2},
+    {"id": "C13", "label": "Nuclear weapons", "frequency": 1},
+    {"id": "C14", "label": "Interdependence", "frequency": 1},
+    {"id": "C15", "label": "Economy", "frequency": 1},
+    {"id": "C16", "label": "War", "frequency": 2},
+    {"id": "C17", "label": "Peace", "frequency": 2},
+    {"id": "C18", "label": "Energy supplies", "frequency": 1},
+    {"id": "C19", "label": "Problems", "frequency": 1},
+    {"id": "C20", "label": "Solutions", "frequency": 1},
+    {"id": "C21", "label": "Debate", "frequency": 2},
+    {"id": "C22", "label": "Secrecy", "frequency": 1},
+    {"id": "C23", "label": "Responsibility", "frequency": 2},
+    {"id": "C24", "label": "White-House–Congress relationship", "frequency": 1},
+    {"id": "C25", "label": "World issues", "frequency": 1},
+    {"id": "C26", "label": "Leadership", "frequency": 2},
+    {"id": "C27", "label": "Other nations", "frequency": 1},
+    {"id": "C28", "label": "Antagonism", "frequency": 1},
+    {"id": "C29", "label": "Presidential voice", "frequency": 1},
+    {"id": "C30", "label": "Decision security", "frequency": 1},
+    {"id": "C31", "label": "Danger", "frequency": 1}
+  ],
+  "relationships": [
+    {"from": "C1", "to": "C2", "category": "+", "truth_value": "true", "modifiers": ["present"], "salience": 1},
+    {"from": "C3", "to": "C26", "category": "attribute", "truth_value": "true", "modifiers": ["present"], "salience": 1},
+    {"from": "C14", "to": "C15", "category": "+", "truth_value": "true", "modifiers": ["present"], "salience": 1},
+    {"from": "C14", "to": "C16", "category": "+", "truth_value": "true", "modifiers": ["present"], "salience": 1},
+    {"from": "C14", "to": "C17", "category": "+", "truth_value": "true", "modifiers": ["present"], "salience": 1},
+    {"from": "C14", "to": "C18", "category": "+", "truth_value": "true", "modifiers": ["present"], "salience": 1},
+    {"from": "C28", "to": "C16", "category": "+", "truth_value": "true", "modifiers": ["present"], "salience": 1},
+    {"from": "C12", "to": "C17", "category": "-", "truth_value": "true", "modifiers": ["present"], "salience": 1},
+    {"from": "C22", "to": "C29", "category": "-", "truth_value": "true", "modifiers": ["present"], "salience": 1},
+    {"from": "C21", "to": "C30", "category": "+", "truth_value": "true", "modifiers": ["present"], "salience": 1},
+    {"from": "C13", "to": "C31", "category": "if-then", "truth_value": "possible", "modifiers": ["future", "hypothetical"], "salience": 1},
+    {"from": "C1", "to": "C20", "category": "strategy", "truth_value": "true", "modifiers": ["present"], "salience": 1},
+    {"from": "C10", "to": "C27", "category": "=", "truth_value": "true", "modifiers": ["present"], "salience": 1},
+    {"from": "C1", "to": "C23", "category": "attribute", "truth_value": "true", "modifiers": ["present"], "salience": 1}
+  ],
+  "structural_measures": {
+    "dependency": {
+      "value": 0.1429,
+      "bridges": 14,
+      "structures": 7
+    },
+    "connectedness": {
+      "value": 0.3111
+    },
+    "size": 31
+  }
+}

@@ -1,0 +1,89 @@
+Execute Young 1996 cognitive mapping analysis using computational algorithms.
+
+RELATIONSHIP CATEGORIES TO USE:
+{'+': 'positive-cause', '-': 'negative-cause', '=': 'equal', '>': 'condition component preference / greater-than', 'attribute': 'property (attribute) relationship', 'is-a': 'class inclusion', 'if-then': 'conditional relationship', 'possess': 'ownership relationship', 'strategy': 'means–ends relationship', 'know': 'knowledge relationship', 'warrant-for': 'justification relationship', 'location': 'spatial relationship'}
+
+TRUTH VALUES TO USE:
+['true', 'false', 'partial', 'possible', 'impossible']
+
+MODIFIERS TO USE:
+['past', 'present', 'future', 'goal', 'hypothetical', 'normative']
+
+STEP-BY-STEP EXECUTION:
+
+1. CONCEPT EXTRACTION:
+[{'step': 1, 'action': 'identify_entities', 'implementation': 'Extract nouns, noun phrases, and proper names from text', 'instruction': 'Find all unique entities mentioned (people, places, concepts, objects)'}, {'step': 2, 'action': 'create_concept_nodes', 'implementation': 'Assign unique IDs (C1, C2, etc.) and canonical labels', 'instruction': 'Create concept objects with id, label, and node_type=Concept'}, {'step': 3, 'action': 'apply_synonym_facility', 'implementation': 'Merge synonymous concepts into single nodes', 'instruction': 'Identify and collapse different terms for same concept'}]
+
+2. RELATIONSHIP EXTRACTION:
+[{'step': 1, 'action': 'identify_subject_relation_object_triples', 'implementation': 'Parse sentences for subject-verb-object patterns', 'instruction': 'Find statements connecting concepts through verbs or relationships'}, {'step': 2, 'action': 'classify_relationship_type', 'implementation': 'Match verbs/phrases to relationship_categories', 'instruction': 'Use Young category list: +, -, =, strategy, is-a, if-then, etc.'}, {'step': 3, 'action': 'assign_truth_values', 'implementation': 'Detect certainty indicators in text', 'instruction': 'Assign true/false/partial/possible/impossible based on language'}, {'step': 4, 'action': 'assign_modifiers', 'implementation': 'Detect temporal and logical modifiers', 'instruction': 'Apply past/present/future/goal/hypothetical/normative from context'}]
+
+3. SALIENCE CALCULATION:
+[{'step': 1, 'action': 'normalize_relationships', 'implementation': 'Standardize relationship representations', 'instruction': 'Convert all relationships to canonical subject-relation-object form'}, {'step': 2, 'action': 'count_frequencies', 'implementation': 'Count occurrences of identical relationships across text', 'instruction': 'For each unique relationship, count how many times it appears'}, {'step': 3, 'action': 'assign_salience_scores', 'implementation': 'Set salience = frequency count for each relationship', 'instruction': 'Replace default salience=1 with actual frequency counts'}]
+
+4. STRUCTURAL MEASURES:
+- Dependency: [{'step': 1, 'action': 'create_network_graph', 'implementation': 'Build graph with concepts as nodes, relationships as edges', 'instruction': 'Create undirected graph for structural analysis'}, {'step': 2, 'action': 'identify_bridges', 'implementation': 'Find edges whose removal increases connected components', 'instruction': 'Bridge = relationship that is only path to a concept'}, {'step': 3, 'action': 'count_structures', 'implementation': 'Count number of disconnected components', 'instruction': 'Structure = connected subgraph in cognitive map'}, {'step': 4, 'action': 'calculate_dependency', 'implementation': 'Apply Young formula: D_G = (bridges/relationships)/structures', 'instruction': 'Compute final dependency score (0 to 1)'}]
+- Connectedness: [{'step': 1, 'action': 'count_elements', 'implementation': 'Count total concepts and relationships', 'instruction': 'Get len(concepts) and len(relationships)'}, {'step': 2, 'action': 'calculate_connectedness', 'implementation': 'Apply Young formula: C_G = relationships/(concepts+relationships)', 'instruction': 'Compute connectedness ratio (0 to 1)'}]
+
+TEXT TO ANALYZE:
+
+Jimmy Carter
+39th President of the United States: 1977 ‐ 1981
+Charleston, South Carolina Remarks at the 31st Annual Meeting of the Southern Legislative Conference.
+July 21, 1977
+
+Senator Hollings and Senator Eastland, Senator Stennis, Governor Edwards, Chairman Bragg, distinguished Members of Congress, those representatives from State government, who share the leadership of America, and my friends in a personal way who come out to welcome me back to the South:
+
+It's not often that a President comes as a substitute speaker. I realize that my brother, Billy, was the first choice. [Laughter] I understand that the Southern Legislative Conference--[laughter]couldn't afford Billy here.
+
+I was going to go by Plains on this trip, but I couldn't get a room there. [Laughter] I'm going to go to Yazoo City tonight and then to New Orleans later on.
+
+I'm very grateful to be here as President of our country. I've learned a lot in this first 6 months. When I got to Washington and sought advice, someone said, "Just act like you're a President and treat Congress like the Georgia Legislature." It didn't work at first. [Laughter]
+
+Very quickly I realized that the Congress was treating me like I was still Governor of Georgia, but now, with the help of a great number of friends in the Congress, we've formed a kind of relationship that ought to exist between the White House and our Nation's Capitol. I think there's a genuine sense of sharing of responsibility and the burden of government, and you are a part of that circle of leaders in the State legislature and the Governors' offices, who join in with the President, the Congress, and others in making sure that our government works.
+
+I've become even more proud of being an American. And I have become even more proud of being a southerner, too. I'm also proud to be with you today where two great rivers come together, as they say in Charleston, to form the Atlantic Ocean. This is one of our Nation's most gracious cities.
+
+And I want to talk to you today about the hopes and problems that we as southerners and as Americans share together. I feel a special kinship with your State legislators. For 4 years I was a member of the Georgia Senate, and I still prize State government not only for the talents of those who work in it but, as Fritz Hollings says, for the closeness to the people it represents.
+
+Our Southern States have a proud tradition of local, independent government, and now you're the heirs of that tradition. But we in the South have also felt, perhaps more directly than many others, some of the rapid changes that have taken place in this modern age. More and more our own lives are shaped by events in other cities, decisions in other States, tensions in other parts of the world.
+
+And as Americans we cannot overlook the way that our fate is bound to that of other nations. This interdependence stretches from the health of our economy, through war and peace, to the security of our own energy supplies. It's a new world in which we cannot afford to be narrow in our vision, limited in our foresight, or selfish in our purpose.
+
+When I took office almost exactly 6 months ago, our Nation was faced with a series of problems around the world--in southern Africa, the Middle East, in our relationships with our NATO allies, and on such tough questions as nuclear proliferation, negotiations with our former adversaries, a Panama Canal treaty, human rights, world poverty.
+
+We have openly and publicly addressed these and other many difficult and controversial issues--some of which had been either skirted or postponed in the past.
+
+As I pointed out in a recent press conference, a period of debate, disagreement, probing was inevitable. Our goal has not been to reach easy or transient agreements, but to find solutions that are meaningful, balanced, and lasting.
+
+Now, a President has a responsibility to present to the people of this Nation reports and summations of complex and important matters. I feel more secure as President making decisions if I know that either the most difficult, the most complex questions that face me have been understood and debated by you and understood and debated by the Congress.
+
+In the past I think our Nation's leaders have been guilty of making decisions in secret. And even when the decision turns out to be the fight one, it makes the President, the Secretary of State speak with a weak voice when they speak alone.
+
+Today, I want to discuss a vitally important aspect of our foreign relations, the one that may most directly shape the chances for peace for us and for our children. I would like to spell out my view of what we have done and where we are going in our relations with the Soviet Union and to reaffirm the basic principles of our national policy.
+
+I don't have any apology for talking about foreign affairs at a southern legislative conference, because foreign affairs and those difficult decisions ought never to be made with a concept that we can abandon common sense and the sound judgment and the constructive influence of the American people.
+
+For decades, the central problems of our foreign policy revolved around antagonism between two coalitions, one headed by the United States and the other headed by the Soviet Union.
+
+Our national security was often defined almost exclusively in terms of military competition with the Soviet Union. This competition is still critical, because it does involve issues which could lead to war. But however important this relationship of military balance, it cannot be our sole preoccupation to the exclusion of other world issues which also concern us both.
+
+Even if we succeed in relaxing tensions with the U.S.S.R., we could still awake one day to find that nuclear weapons have been spread to dozens of other nations who may not be as responsible as are we. Or we could struggle to limit the conventional arsenals of our two nations, to reduce the danger of war, only to undo our efforts by continuing without constrain
+
+EXECUTE EACH ALGORITHM STEP-BY-STEP. 
+COUNT ACTUAL FREQUENCIES FOR SALIENCE.
+CALCULATE MEASURES USING FORMULAS.
+
+OUTPUT JSON:
+{
+  "concepts": [
+    {"id": "C1", "label": "concept name", "frequency": count}
+  ],
+  "relationships": [
+    {"from": "C1", "to": "C2", "category": "+", "truth_value": "true", "modifiers": ["present"], "salience": actual_count}
+  ],
+  "structural_measures": {
+    "dependency": {"value": calculated_value, "bridges": count, "structures": count},
+    "connectedness": {"value": calculated_value},
+    "size": concept_count
+  }
+}

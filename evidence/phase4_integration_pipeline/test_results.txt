@@ -1,0 +1,321 @@
+================================================================================
+COMPREHENSIVE TEST SUITE FOR BALANCED INTEGRATION PIPELINE
+================================================================================
+test_01_single_purpose_theory_processing (__main__.TestIntegrationPipeline)
+Test 1: Single-purpose theory processing (each of the 5 purposes) ... INFO:balanced_pipeline:Starting balanced theory processing pipeline
+INFO:balanced_pipeline:Stage 1: Theory count detection
+INFO:balanced_pipeline:Detecting theory count and complexity
+INFO:balanced_pipeline:Stage 2: Purpose classification with balanced analysis
+INFO:balanced_pipeline:Classifying theoretical purposes with balanced analysis
+INFO:balanced_pipeline:Stage 3: Comprehensive vocabulary extraction
+INFO:balanced_pipeline:Extracting vocabulary for purposes: ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']
+INFO:balanced_pipeline:Stage 4: Balanced schema generation
+INFO:balanced_pipeline:Generating balanced schema for model type: multi_purpose_property_graph
+INFO:balanced_pipeline:Stage 5: Pipeline balance validation
+INFO:balanced_pipeline:Validating pipeline balance across all stages
+INFO:balanced_pipeline:Stage 6: Pipeline optimization and metrics
+INFO:balanced_pipeline:Optimizing pipeline efficiency
+INFO:balanced_pipeline:Pipeline completed successfully in 0.003 seconds
+INFO:balanced_pipeline:Starting balanced theory processing pipeline
+INFO:balanced_pipeline:Stage 1: Theory count detection
+INFO:balanced_pipeline:Detecting theory count and complexity
+INFO:balanced_pipeline:Stage 2: Purpose classification with balanced analysis
+INFO:balanced_pipeline:Classifying theoretical purposes with balanced analysis
+INFO:balanced_pipeline:Stage 3: Comprehensive vocabulary extraction
+INFO:balanced_pipeline:Extracting vocabulary for purposes: ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']
+INFO:balanced_pipeline:Stage 4: Balanced schema generation
+INFO:balanced_pipeline:Generating balanced schema for model type: multi_purpose_property_graph
+INFO:balanced_pipeline:Stage 5: Pipeline balance validation
+INFO:balanced_pipeline:Validating pipeline balance across all stages
+INFO:balanced_pipeline:Stage 6: Pipeline optimization and metrics
+INFO:balanced_pipeline:Optimizing pipeline efficiency
+INFO:balanced_pipeline:Pipeline completed successfully in 0.001 seconds
+INFO:balanced_pipeline:Starting balanced theory processing pipeline
+INFO:balanced_pipeline:Stage 1: Theory count detection
+INFO:balanced_pipeline:Detecting theory count and complexity
+INFO:balanced_pipeline:Stage 2: Purpose classification with balanced analysis
+INFO:balanced_pipeline:Classifying theoretical purposes with balanced analysis
+INFO:balanced_pipeline:Stage 3: Comprehensive vocabulary extraction
+INFO:balanced_pipeline:Extracting vocabulary for purposes: ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']
+INFO:balanced_pipeline:Stage 4: Balanced schema generation
+INFO:balanced_pipeline:Generating balanced schema for model type: multi_purpose_property_graph
+INFO:balanced_pipeline:Stage 5: Pipeline balance validation
+INFO:balanced_pipeline:Validating pipeline balance across all stages
+INFO:balanced_pipeline:Stage 6: Pipeline optimization and metrics
+INFO:balanced_pipeline:Optimizing pipeline efficiency
+INFO:balanced_pipeline:Pipeline completed successfully in 0.001 seconds
+INFO:balanced_pipeline:Starting balanced theory processing pipeline
+INFO:balanced_pipeline:Stage 1: Theory count detection
+INFO:balanced_pipeline:Detecting theory count and complexity
+INFO:balanced_pipeline:Stage 2: Purpose classification with balanced analysis
+INFO:balanced_pipeline:Classifying theoretical purposes with balanced analysis
+INFO:balanced_pipeline:Stage 3: Comprehensive vocabulary extraction
+INFO:balanced_pipeline:Extracting vocabulary for purposes: ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']
+INFO:balanced_pipeline:Stage 4: Balanced schema generation
+INFO:balanced_pipeline:Generating balanced schema for model type: multi_purpose_property_graph
+INFO:balanced_pipeline:Stage 5: Pipeline balance validation
+INFO:balanced_pipeline:Validating pipeline balance across all stages
+INFO:balanced_pipeline:Stage 6: Pipeline optimization and metrics
+INFO:balanced_pipeline:Optimizing pipeline efficiency
+INFO:balanced_pipeline:Pipeline completed successfully in 0.001 seconds
+INFO:balanced_pipeline:Starting balanced theory processing pipeline
+INFO:balanced_pipeline:Stage 1: Theory count detection
+INFO:balanced_pipeline:Detecting theory count and complexity
+INFO:balanced_pipeline:Stage 2: Purpose classification with balanced analysis
+INFO:balanced_pipeline:Classifying theoretical purposes with balanced analysis
+INFO:balanced_pipeline:Stage 3: Comprehensive vocabulary extraction
+INFO:balanced_pipeline:Extracting vocabulary for purposes: ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']
+INFO:balanced_pipeline:Stage 4: Balanced schema generation
+INFO:balanced_pipeline:Generating balanced schema for model type: multi_purpose_property_graph
+INFO:balanced_pipeline:Stage 5: Pipeline balance validation
+INFO:balanced_pipeline:Validating pipeline balance across all stages
+INFO:balanced_pipeline:Stage 6: Pipeline optimization and metrics
+INFO:balanced_pipeline:Optimizing pipeline efficiency
+INFO:balanced_pipeline:Pipeline completed successfully in 0.001 seconds
+
+=== Test 1: Single-Purpose Theory Processing ===
+
+Testing descriptive theory...
+✓ Descriptive theory processed successfully
+
+Testing explanatory theory...
+✓ Explanatory theory processed successfully
+
+Testing predictive theory...
+✓ Predictive theory processed successfully
+
+Testing causal theory...
+✓ Causal theory processed successfully
+
+Testing intervention theory...
+✓ Intervention theory processed successfully
+
+✓ All 5 single-purpose theories processed successfully
+ok
+test_02_multi_purpose_theory_processing (__main__.TestIntegrationPipeline)
+Test 2: Multi-purpose theory processing ... INFO:balanced_pipeline:Starting balanced theory processing pipeline
+INFO:balanced_pipeline:Stage 1: Theory count detection
+INFO:balanced_pipeline:Detecting theory count and complexity
+INFO:balanced_pipeline:Stage 2: Purpose classification with balanced analysis
+INFO:balanced_pipeline:Classifying theoretical purposes with balanced analysis
+INFO:balanced_pipeline:Stage 3: Comprehensive vocabulary extraction
+INFO:balanced_pipeline:Extracting vocabulary for purposes: ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']
+INFO:balanced_pipeline:Rebalancing vocabulary extraction
+INFO:balanced_pipeline:Stage 4: Balanced schema generation
+INFO:balanced_pipeline:Generating balanced schema for model type: multi_purpose_property_graph
+INFO:balanced_pipeline:Stage 5: Pipeline balance validation
+INFO:balanced_pipeline:Validating pipeline balance across all stages
+INFO:balanced_pipeline:Stage 6: Pipeline optimization and metrics
+INFO:balanced_pipeline:Optimizing pipeline efficiency
+INFO:balanced_pipeline:Pipeline completed successfully in 0.002 seconds
+
+=== Test 2: Multi-Purpose Theory Processing ===
+✓ Multi-purpose theory processed with balanced capabilities
+ok
+test_03_theory_count_detection_accuracy (__main__.TestIntegrationPipeline)
+Test 3: Theory count detection accuracy ... INFO:balanced_pipeline:Detecting theory count and complexity
+INFO:balanced_pipeline:Detecting theory count and complexity
+
+=== Test 3: Theory Count Detection Accuracy ===
+✓ Single theory count: 1
+✓ Multi-theory count: 3
+✓ Theory count detection working correctly
+ok
+test_04_end_to_end_pipeline_balance_validation (__main__.TestIntegrationPipeline)
+Test 4: End-to-end pipeline balance validation ... INFO:balanced_pipeline:Starting balanced theory processing pipeline
+INFO:balanced_pipeline:Stage 1: Theory count detection
+INFO:balanced_pipeline:Detecting theory count and complexity
+INFO:balanced_pipeline:Stage 2: Purpose classification with balanced analysis
+INFO:balanced_pipeline:Classifying theoretical purposes with balanced analysis
+INFO:balanced_pipeline:Stage 3: Comprehensive vocabulary extraction
+INFO:balanced_pipeline:Extracting vocabulary for purposes: ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']
+INFO:balanced_pipeline:Rebalancing vocabulary extraction
+INFO:balanced_pipeline:Stage 4: Balanced schema generation
+INFO:balanced_pipeline:Generating balanced schema for model type: multi_purpose_property_graph
+INFO:balanced_pipeline:Stage 5: Pipeline balance validation
+INFO:balanced_pipeline:Validating pipeline balance across all stages
+INFO:balanced_pipeline:Stage 6: Pipeline optimization and metrics
+INFO:balanced_pipeline:Optimizing pipeline efficiency
+INFO:balanced_pipeline:Pipeline completed successfully in 0.005 seconds
+
+=== Test 4: End-to-End Pipeline Balance Validation ===
+✓ Overall balance score: 0.900
+✓ Balance status: BALANCED
+✓ End-to-end balance validation successful
+ok
+test_05_pipeline_efficiency_and_performance (__main__.TestIntegrationPipeline)
+Test 5: Pipeline efficiency and performance ... INFO:balanced_pipeline:Starting balanced theory processing pipeline
+INFO:balanced_pipeline:Stage 1: Theory count detection
+INFO:balanced_pipeline:Detecting theory count and complexity
+INFO:balanced_pipeline:Stage 2: Purpose classification with balanced analysis
+INFO:balanced_pipeline:Classifying theoretical purposes with balanced analysis
+INFO:balanced_pipeline:Stage 3: Comprehensive vocabulary extraction
+INFO:balanced_pipeline:Extracting vocabulary for purposes: ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']
+INFO:balanced_pipeline:Rebalancing vocabulary extraction
+INFO:balanced_pipeline:Stage 4: Balanced schema generation
+INFO:balanced_pipeline:Generating balanced schema for model type: multi_purpose_property_graph
+INFO:balanced_pipeline:Stage 5: Pipeline balance validation
+INFO:balanced_pipeline:Validating pipeline balance across all stages
+INFO:balanced_pipeline:Stage 6: Pipeline optimization and metrics
+INFO:balanced_pipeline:Optimizing pipeline efficiency
+INFO:balanced_pipeline:Pipeline completed successfully in 0.004 seconds
+
+=== Test 5: Pipeline Efficiency and Performance ===
+✓ Total processing time: 0.004s
+✓ Pipeline efficiency score: 0.924
+✓ All stages completed within time limits
+ok
+test_06_quality_assurance_across_all_purposes (__main__.TestIntegrationPipeline)
+Test 6: Quality assurance across all purposes ... INFO:balanced_pipeline:Starting balanced theory processing pipeline
+INFO:balanced_pipeline:Stage 1: Theory count detection
+INFO:balanced_pipeline:Detecting theory count and complexity
+INFO:balanced_pipeline:Stage 2: Purpose classification with balanced analysis
+INFO:balanced_pipeline:Classifying theoretical purposes with balanced analysis
+INFO:balanced_pipeline:Stage 3: Comprehensive vocabulary extraction
+INFO:balanced_pipeline:Extracting vocabulary for purposes: ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']
+INFO:balanced_pipeline:Rebalancing vocabulary extraction
+INFO:balanced_pipeline:Stage 4: Balanced schema generation
+INFO:balanced_pipeline:Generating balanced schema for model type: multi_purpose_property_graph
+INFO:balanced_pipeline:Stage 5: Pipeline balance validation
+INFO:balanced_pipeline:Validating pipeline balance across all stages
+INFO:balanced_pipeline:Stage 6: Pipeline optimization and metrics
+INFO:balanced_pipeline:Optimizing pipeline efficiency
+INFO:balanced_pipeline:Pipeline completed successfully in 0.002 seconds
+INFO:quality_assurance:Starting comprehensive quality assessment
+INFO:quality_assurance:Quality assessment completed in 0.000s
+INFO:quality_assurance:Overall quality: excellent, Balance: moderately_balanced
+
+=== Test 6: Quality Assurance Across All Purposes ===
+✓ Overall quality: excellent
+✓ Balance status: moderately_balanced
+✓ Quality metrics: 4 assessed
+✓ Balance metrics: 5 purposes evaluated
+✓ Quality assurance validation successful
+ok
+test_07_edge_case_handling_complex_theories (__main__.TestIntegrationPipeline)
+Test 7: Edge case handling (complex theories) ... INFO:balanced_pipeline:Starting balanced theory processing pipeline
+INFO:balanced_pipeline:Stage 1: Theory count detection
+INFO:balanced_pipeline:Detecting theory count and complexity
+INFO:balanced_pipeline:Stage 2: Purpose classification with balanced analysis
+INFO:balanced_pipeline:Classifying theoretical purposes with balanced analysis
+INFO:balanced_pipeline:Stage 3: Comprehensive vocabulary extraction
+INFO:balanced_pipeline:Extracting vocabulary for purposes: ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']
+INFO:balanced_pipeline:Stage 4: Balanced schema generation
+INFO:balanced_pipeline:Generating balanced schema for model type: multi_purpose_property_graph
+INFO:balanced_pipeline:Stage 5: Pipeline balance validation
+INFO:balanced_pipeline:Validating pipeline balance across all stages
+INFO:balanced_pipeline:Stage 6: Pipeline optimization and metrics
+INFO:balanced_pipeline:Optimizing pipeline efficiency
+INFO:balanced_pipeline:Pipeline completed successfully in 0.000 seconds
+INFO:balanced_pipeline:Starting balanced theory processing pipeline
+INFO:balanced_pipeline:Stage 1: Theory count detection
+INFO:balanced_pipeline:Detecting theory count and complexity
+INFO:balanced_pipeline:Stage 2: Purpose classification with balanced analysis
+INFO:balanced_pipeline:Classifying theoretical purposes with balanced analysis
+INFO:balanced_pipeline:Stage 3: Comprehensive vocabulary extraction
+INFO:balanced_pipeline:Extracting vocabulary for purposes: ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']
+INFO:balanced_pipeline:Rebalancing vocabulary extraction
+INFO:balanced_pipeline:Stage 4: Balanced schema generation
+INFO:balanced_pipeline:Generating balanced schema for model type: multi_purpose_property_graph
+INFO:balanced_pipeline:Stage 5: Pipeline balance validation
+INFO:balanced_pipeline:Validating pipeline balance across all stages
+INFO:balanced_pipeline:Stage 6: Pipeline optimization and metrics
+INFO:balanced_pipeline:Optimizing pipeline efficiency
+INFO:balanced_pipeline:Pipeline completed successfully in 0.006 seconds
+INFO:balanced_pipeline:Starting balanced theory processing pipeline
+INFO:balanced_pipeline:Stage 1: Theory count detection
+INFO:balanced_pipeline:Detecting theory count and complexity
+INFO:balanced_pipeline:Stage 2: Purpose classification with balanced analysis
+INFO:balanced_pipeline:Classifying theoretical purposes with balanced analysis
+INFO:balanced_pipeline:Stage 3: Comprehensive vocabulary extraction
+INFO:balanced_pipeline:Extracting vocabulary for purposes: ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']
+INFO:balanced_pipeline:Stage 4: Balanced schema generation
+INFO:balanced_pipeline:Generating balanced schema for model type: multi_purpose_property_graph
+INFO:balanced_pipeline:Stage 5: Pipeline balance validation
+INFO:balanced_pipeline:Validating pipeline balance across all stages
+INFO:balanced_pipeline:Stage 6: Pipeline optimization and metrics
+INFO:balanced_pipeline:Optimizing pipeline efficiency
+INFO:balanced_pipeline:Pipeline completed successfully in 0.001 seconds
+INFO:balanced_pipeline:Starting balanced theory processing pipeline
+INFO:balanced_pipeline:Stage 1: Theory count detection
+INFO:balanced_pipeline:Detecting theory count and complexity
+INFO:balanced_pipeline:Stage 2: Purpose classification with balanced analysis
+INFO:balanced_pipeline:Classifying theoretical purposes with balanced analysis
+INFO:balanced_pipeline:Stage 3: Comprehensive vocabulary extraction
+INFO:balanced_pipeline:Extracting vocabulary for purposes: ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']
+INFO:balanced_pipeline:Stage 4: Balanced schema generation
+INFO:balanced_pipeline:Generating balanced schema for model type: multi_purpose_property_graph
+INFO:balanced_pipeline:Stage 5: Pipeline balance validation
+INFO:balanced_pipeline:Validating pipeline balance across all stages
+INFO:balanced_pipeline:Stage 6: Pipeline optimization and metrics
+INFO:balanced_pipeline:Optimizing pipeline efficiency
+INFO:balanced_pipeline:Pipeline completed successfully in 0.001 seconds
+INFO:quality_assurance:Validating balance requirements
+
+=== Test 7: Edge Case Handling (Complex Theories) ===
+✓ Short theory processed successfully
+✓ Long theory processed successfully
+✓ Minimal theory processed successfully
+✓ Causal-heavy theory processed (over-emphasis check: True)
+✓ All edge cases handled successfully
+ok
+test_08_integration_with_experimental_validation_results (__main__.TestIntegrationPipeline)
+Test 8: Integration with existing validated experimental components ... INFO:balanced_pipeline:Starting balanced theory processing pipeline
+INFO:balanced_pipeline:Stage 1: Theory count detection
+INFO:balanced_pipeline:Detecting theory count and complexity
+INFO:balanced_pipeline:Stage 2: Purpose classification with balanced analysis
+INFO:balanced_pipeline:Classifying theoretical purposes with balanced analysis
+INFO:balanced_pipeline:Stage 3: Comprehensive vocabulary extraction
+INFO:balanced_pipeline:Extracting vocabulary for purposes: ['descriptive', 'explanatory', 'predictive', 'causal', 'intervention']
+INFO:balanced_pipeline:Rebalancing vocabulary extraction
+INFO:balanced_pipeline:Stage 4: Balanced schema generation
+INFO:balanced_pipeline:Generating balanced schema for model type: multi_purpose_property_graph
+INFO:balanced_pipeline:Stage 5: Pipeline balance validation
+INFO:balanced_pipeline:Validating pipeline balance across all stages
+INFO:balanced_pipeline:Stage 6: Pipeline optimization and metrics
+INFO:balanced_pipeline:Optimizing pipeline efficiency
+INFO:balanced_pipeline:Pipeline completed successfully in 0.002 seconds
+
+=== Test 8: Integration with Experimental Validation ===
+✓ Integration interfaces: 10
+✓ Unified workflows: 1
+✓ Model type: multi_purpose_property_graph
+✓ Experimental validation integration successful
+ok
+test_configuration_validation (__main__.TestPipelineConfiguration)
+Test configuration validation ... ok
+test_predefined_configurations (__main__.TestPipelineConfiguration)
+Test predefined configuration creation ... ok
+test_balance_validation (__main__.TestQualityAssurance)
+Test balance requirements validation ... INFO:quality_assurance:Validating balance requirements
+ok
+test_certification (__main__.TestQualityAssurance)
+Test balanced implementation certification ... INFO:quality_assurance:Certifying balanced implementation
+INFO:quality_assurance:Starting comprehensive quality assessment
+INFO:quality_assurance:Quality assessment completed in 0.000s
+INFO:quality_assurance:Overall quality: good, Balance: imbalanced
+INFO:quality_assurance:Validating balance requirements
+INFO:quality_assurance:Monitoring pipeline performance
+WARNING:quality_assurance:✗ Balanced implementation certification FAILED
+ok
+test_quality_assessment (__main__.TestQualityAssurance)
+Test quality assessment functionality ... INFO:quality_assurance:Starting comprehensive quality assessment
+INFO:quality_assurance:Quality assessment completed in 0.000s
+INFO:quality_assurance:Overall quality: good, Balance: imbalanced
+ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.031s
+
+OK
+
+================================================================================
+TEST EXECUTION SUMMARY
+================================================================================
+Total tests run: 13
+Successful: 13
+Failures: 0
+Errors: 0
+Success rate: 100.0%
+
+✓ ALL TESTS PASSED - BALANCED INTEGRATION PIPELINE VALIDATED

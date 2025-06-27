@@ -1,0 +1,76 @@
+====================================================================================================
+CARTER'S COGNITIVE MAP - YOUNG 1996 NETWORK VISUALIZATION
+====================================================================================================
+
+KEY CONCEPTS:
+
+[C1] United States
+    ⟹ Soviet Union
+
+[C2] Soviet Union
+    United States ⟸
+
+[C14] Peace
+    Negotiation +→
+    Arms Control (SALT) +→
+    Proliferation of Nuc -→
+    ... and 1 more
+
+[C12] Arms Control (SALT)
+    →+ Peace
+
+[C11] Nuclear Weapons
+
+[C17] Human Rights
+    →! Foreign Policy
+
+RELATIONSHIP NETWORK STRUCTURE:
+
+POSITIVE CAUSAL CHAINS:
+  Negotiation ──(+)──> Peace [goal]
+  Arms Control (S ──(+)──> Peace [future]
+  Conventional Ar ──(+)──> Threats [present]
+  Cooperation ──(+)──> Peace [goal]
+  Cruise Missiles ──(+)──> Deterrent Capab [present]
+  Intercontinenta ──(+)──> Threats [present]
+  Responsibility ──(+)──> National Securi [normative]
+  Realism ──(+)──> National Securi [normative]
+  Principle ──(+)──> National Securi [normative]
+
+NEGATIVE CAUSAL CHAINS:
+  Proliferation o ──(-)──> Peace [future]
+  Threats ──(-)──> Strategic Balan [present]
+
+STRATEGY RELATIONSHIPS:
+  United States ══════> Soviet Union [negotiate]
+  Congress ══════> Government Work [support]
+
+CONCEPT CENTRALITY (connections):
+
+  ★★★★  Peace (4 connections)
+  ★★★★  Threats (4 connections)
+  ★★★   National Security (3 connections)
+  ★     United States (1 connections)
+  ★     Soviet Union (1 connections)
+  ★     Negotiation (1 connections)
+  ★     Arms Control (SALT) (1 connections)
+  ★     Proliferation of Nuclear  (1 connections)
+
+YOUNG'S STRUCTURAL MEASURES:
+  Size: 48 concepts
+  Connectedness (C_G): 0.24
+  Formula: C_G = relationships / (concepts + relationships)
+  Total relationships: 15
+
+LEGEND:
+  ──(+)──>  Positive causal relationship
+  ──(-)──>  Negative causal relationship
+  ══════>   Strategy relationship
+  ──(?)──>  If-then conditional
+  ──(!)──>  Warrant-for justification
+  ★         Connection strength indicator
+
+YOUNG 1996 VALIDATION:
+✓ Faithful to original Young framework
+✓ No contamination from generic network concepts
+✓ Uses Young's exact terminology and measures

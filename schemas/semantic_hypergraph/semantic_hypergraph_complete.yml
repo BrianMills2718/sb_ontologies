@@ -1,0 +1,503 @@
+citation: Menezes, T., & Roth, C. (2021). Semantic Hypergraphs. arXiv pre-print arXiv:1908.10784v2.
+annotation: The paper introduces the Semantic Hypergraph (SH), a recursive, ordered
+  hypergraph formalism that serves as a hybrid, semi-symbolic knowledge-representation
+  language for natural-language understanding. It theorises a double dichotomy (open/opaque
+  – strict/adaptive) in NLP, positions SH in the open-adaptive quadrant, and details
+  the full type system, parsing pipeline (α/β stages), pattern language, and inference
+  mechanisms. Empirical sections show how SH supports information-extraction, taxonomy
+  induction, coreference resolution and social-science analyses, demonstrating that
+  few, human-readable rules can equal specialised black-box models. The work thus
+  contributes a cognitively-inspired, organisational theory of language representation
+  that balances intelligibility and adaptivity.
+model_type: hypergraph
+rationale: 'SH’s defining features match every hypergraph indicator:  • N-ary relations
+  (Predicate P, Relation R, Conflict, etc.)   • Explicit ordering of arguments   •
+  Recursion (hyperedges may contain other hyperedges)   • Hyperedges are first-class
+  objects with their own type, truth value and modifiers.  A conventional property
+  graph (binary edges) or tree/sequence would lose ordering, role labels and the ability
+  to embed relations; table_matrix would miss connectivity.  Therefore a hypergraph
+  representation is optimal.'
+schema_blueprint:
+  title: Semantic Hypergraph Theory (SH) – Schema for Cognitive / Organisational Hybrid
+    Representation
+  description: This schema captures the formal system introduced by Menezes & Roth
+    (2021).  The paper defines a recursive, ordered hypergraph formalism (Semantic
+    Hypergraph) for natural–language understanding, together with a supporting type-system,
+    parsing pipeline, pattern language and inference rules.  Because relations routinely
+    involve 3+ ordered participants, can embed other relations, and treat hyperedges
+    as first-class objects with their own properties, a hypergraph data model is mandatory.  The
+    schema models (1) conceptual entities (core constructs, components, strategy types,
+    properties, measures, operators, modifiers), (2) hyperedge types and instances,
+    (3) actors, topics and patterns, and (4) actions / rules that transform or derive
+    hyperedges.
+  root_properties:
+    vertices:
+      description: Vertices/nodes in the hypergraph
+      item_type: Entity
+    hyperedges:
+      description: N-ary relationships connecting multiple vertices
+      item_type: Hyperedge
+    atoms:
+      description: Atomic semantic units if using SH model
+      item_type: Atom
+    connectors:
+      description: Leading elements defining hyperedge semantics
+      item_type: Connector
+  definitions:
+  - name: Natural Language Processing (NLP)
+    category: core-construct
+    description: Computational approaches to analysing and understanding human language.
+  - name: Semantic Hypergraph (SH)
+    category: core-construct
+    description: A recursive, ordered hypergraph model used as a hybrid knowledge-representation
+      language that preserves natural-language hierarchical richness while allowing
+      algorithmic manipulation.
+    is_recursive_ordered_hypergraph: ''
+  - name: Pattern
+    category: core-construct
+    description: Hyperedge template with variables and wildcards used to match structures
+      in SH graphs.
+    template_for: hyperedge
+  - name: Hybrid Knowledge Representation
+    category: core-construct
+    description: Approach combining symbolic hypergraph structures with statistical/ML
+      components for language understanding.
+    combines: symbolic+statistical
+  - name: Hyperedge
+    category: component
+    description: An ordered set that connects an arbitrary number of vertices (or
+      inner hyperedges) and can itself participate as a vertex in other hyperedges.
+    arity: ≥0
+  - name: Atom (Atomic Hyperedge)
+    category: component
+    description: An irreducible hyperedge of size one; basic symbol such as individual
+      words.
+    subTypeOf: Hyperedge
+    size: '1'
+  - name: Connector
+    category: component
+    description: First element of any non-atomic hyperedge that determines how subsequent
+      arguments are semantically connected.
+    subTypeOf: Hyperedge
+    position: first-element
+  - name: Variable (in Pattern)
+    category: component
+    description: Placeholder (capital letters) inside a pattern that can match any
+      hyperedge fulfilling type constraints.
+    matches: any-hyperedge respecting type-constraints
+  - name: Open-Adaptive Category
+    category: strategy-type
+    description: NLP approaches that are simultaneously intelligible and capable of
+      adapting their rules from data.
+    open_processing: +
+    adaptive_rules: +
+  - name: Opacity-Adaptive Model
+    category: strategy-type
+    description: Modern machine-learning systems (e.g., neural networks) that are
+      powerful yet non-transparent.
+    open_processing: '-'
+    adaptive_rules: +
+  - name: Open-Strict Approach
+    category: strategy-type
+    description: Traditional symbolic NLP methods with inspectable but rigid rule
+      sets.
+    open_processing: +
+    adaptive_rules: '-'
+  - name: Co-occurrence Graph
+    category: representation
+    description: Graph linking auxiliary concepts that co-appear with a seed concept
+      inside compound builders, used for coreference.
+    nodes: aux-concepts
+    edges: within same compound builder
+  - name: Conflict Graph
+    category: representation
+    description: Directed network of actors connected by conflict relations filtered
+      on specific topics.
+    directed: ''
+  - name: Coreference Set
+    category: construct
+    description: Group of compound concepts inferred to refer to the same external
+      entity via co-occurrence clique analysis.
+    members: compound concepts referring to same entity
+  - name: Claim Predicate
+    category: classification
+    description: Predicate lemma (e.g., 'say', 'claim') used to detect relations expressing
+      an attributed statement.
+    subTypeOf: Predicate (Type P)
+    lemma_set: '{''say'',''claim'',…}'
+  - name: Conflict Predicate
+    category: classification
+    description: Predicate lemma set (e.g., 'accuse', 'warn') signalling expressions
+      of conflict between actors.
+    subTypeOf: Predicate (Type P)
+    lemma_set: '{''accuse'',''warn'',…}'
+  - name: Actor
+    category: domain entity
+    description: Hyperedge (often compound noun) playing subject role in claim/conflict
+      relations, representing people or institutions.
+    subTypeOf: Concept (Type C)
+    plays_role: s | p
+  - name: Topic (in SH analysis)
+    category: domain entity
+    description: Concept or compound concept that is the complement/object of a relation,
+      representing the issue addressed.
+    subTypeOf: Concept (Type C)
+  - name: Graphbrain Library
+    category: instrument
+    description: Open-source software implementing the SH representation, parser,
+      and analysis tools.
+    implements: SH parsing & analysis
+  - name: Explainable Artificial Intelligence (XAI)
+    category: context
+    description: Field concerned with making AI models' operations understandable;
+      SH is positioned as an XAI tool.
+  - name: Dependency Parse Tree (DPT)
+    category: reference construct
+    description: Grammatical parse structure representing head-dependent relations;
+      used as intermediary in SH parsing.
+  - name: Universal Dependencies
+    category: standard
+    description: Cross-lingual scheme of dependency labels used as coverage guarantee
+      for SH’s type system.
+    label_scheme: language-agnostic
+  - name: Abstract Meaning Representation (AMR)
+    category: comparative construct
+    description: Alternative graph-based meaning representation contrasted with SH
+      for its lack of tolerated ambiguity.
+  - name: Knowledge Base
+    category: domain concept
+    description: Structured repository of symbolic facts; SH can integrate or replace
+      traditional triplet knowledge bases.
+  - name: Predicate (Type P)
+    category: type-code
+    description: Connector that establishes a relation between arguments, often corresponding
+      to verbs.
+    domain:
+    - Concept
+    - Relation
+    range:
+    - Concept
+    - Relation
+    subTypeOf: Connector
+    ordered_arguments: ''
+  - name: Builder (Type B)
+    category: type-code
+    description: Connector combining several concepts to construct a new composite
+      concept (e.g., 'capital of Germany').
+    domain:
+    - Concept
+    range:
+    - Concept
+    subTypeOf: Connector
+    arity: '>=2'
+    creates: composite concept
+  - name: Compound-Noun Builder (+/B)
+    category: type-code
+    description: Special builder atom denoting implicit combination of adjacent concepts
+      into a compound noun.
+    domain:
+    - Concept
+    range:
+    - Concept
+    subTypeOf: Builder (Type B)
+    implicit: adjacent nouns
+  - name: Relation (Type R)
+    category: type-code
+    description: Non-atomic hyperedge produced by predicates that expresses a fact,
+      statement, question or order.
+    domain:
+    - Predicate
+    range:
+    - Concept
+    - Relation
+    subTypeOf: Hyperedge
+    represents: fact|question|order
+  - name: Specifier (Type S)
+    category: type-code
+    description: Hyperedge adding peripheral information (time, condition, location)
+      to a relation, produced by triggers.
+    domain:
+    - Relation
+    range:
+    - Contextual Concept
+    subTypeOf: Hyperedge
+    adds: time|location|condition
+  - name: Claim
+    category: construct
+    description: Relation in which an actor asserts a statement expressed by a subordinate
+      relation/specifier.
+    domain:
+    - Actor
+    range:
+    - Relation
+    subTypeOf: Relation (Type R)
+    predicate_in: Claim Predicate set
+  - name: Conflict
+    category: construct
+    description: ''
+    domain:
+    - Actor
+    range:
+    - Actor
+    - Topic
+    subTypeOf: Relation (Type R)
+    predicate_in: Conflict Predicate set
+  - name: Open/Opaque Dichotomy
+    category: relationship-type
+    description: Axis describing whether internal processing rules of an NLP model
+      are inspectable (open) or not (opaque).
+  - name: Strict/Adaptive Dichotomy
+    category: relationship-type
+    description: Axis describing whether an NLP method uses fixed rules (strict) or
+      rules learnt/adjusted from data (adaptive).
+  - name: Explainability–Performance Trade-off
+    category: relationship-type
+    description: Observed compromise where more adaptive models gain accuracy at the
+      cost of intelligibility.
+    inverse_correlation: ''
+  - name: Recursive Hyperedge
+    category: structural-property
+    description: A hyperedge allowed to act as a vertex inside another hyperedge,
+      enabling nesting and hierarchy.
+  - name: Ordered Hyperedge
+    category: structural-property
+    description: A hyperedge where the sequence position of each inner element is
+      semantically relevant, similar to direction in graphs.
+  - name: Implicit Taxonomy
+    category: structural-property
+    description: Hierarchy of concepts derived from builder and modifier structures
+      without explicit separate ontology.
+    derived_from: builder & modifier nesting
+  - name: Topic Hierarchy
+    category: structural-property
+    description: Nested structure where detailed topics contain or specialise more
+      general subtopics through builder relations.
+    subTypeOf: Implicit Taxonomy
+    built_by: builder relations
+  - name: Argument Role
+    category: attribute
+    description: Single-letter code attached to predicates indicating semantic role
+      of each argument (e.g., s=subject, o=direct object).
+  - name: Opacity (in NLP)
+    category: attribute
+    description: Property whereby the internal reasoning of a model is too complex
+      for human inspection.
+  - name: Subject Role (s)
+    category: role
+    description: Argument role marking the active subject of a predicate.
+    subTypeOf: Argument Role
+  - name: Passive Subject Role (p)
+    category: role
+    description: Argument role indicating the grammatical subject in a passive construction.
+    subTypeOf: Argument Role
+  - name: Direct Object Role (o)
+    category: role
+    description: Argument role for the patient or thing acted upon by the predicate.
+    subTypeOf: Argument Role
+  - name: Indirect Object Role (i)
+    category: role
+    description: Argument role for recipient/beneficiary arguments of a predicate.
+    subTypeOf: Argument Role
+  - name: Modifier Role Codes (m, a)
+    category: role
+    description: Labels inside builders indicating which argument is main (m) or auxiliary
+      (a) in compound concepts.
+    subTypeOf: Argument Role
+  - name: Relative Relation Role (r)
+    category: role
+    description: Argument role indicating an embedded relation used as an argument
+      of an outer relation.
+    subTypeOf: Argument Role
+  - name: Intelligibility
+    category: criterion
+    description: Ability for humans or complementary algorithms to inspect and understand
+      the reasoning/structure of a model.
+  - name: Type Inference Rules
+    category: rule
+    description: Deterministic patterns that infer the type of a hyperedge from its
+      connector and argument types.
+    domain:
+    - Connector
+    - Argument Types
+    range:
+    - Assigned Type
+    deterministic: ''
+  - name: Inference Rule
+    category: rule
+    description: Couple of patterns (antecedent ` consequent) causing creation of
+      new hyperedge knowledge when matched.
+    domain:
+    - Antecedent Pattern
+    range:
+    - Consequent Hyperedge
+  - name: Clique-Based Coreference
+    category: rule
+    description: Criterion grouping compound concepts when their auxiliary words form
+      the same maximal clique in co-occurrence graph.
+    domain:
+    - Compound Concepts
+    range:
+    - Coreference Set
+    maximal_clique: auxiliary words
+  - name: α-Stage
+    category: process
+    description: 'First stage of SH parsing pipeline: a supervised classifier assigns
+      SH atomic types to each token.'
+    domain:
+    - Token Sequence
+    range:
+    - Typed Tokens
+    implemented_by: Random Forest
+  - name: β-Stage
+    category: process
+    description: Second parsing stage that recursively applies type-inference patterns
+      to assemble typed tokens into a well-formed hyperedge.
+    domain:
+    - Typed Tokens
+    range:
+    - Well-formed SH Hyperedge
+    uses: Type Inference Rules & h
+  - name: Conjunction Decomposition
+    category: process
+    description: Set of SH rules that split relations containing conjunctions into
+      simpler independent relations.
+    domain:
+    - Relation with Conjunction
+    range:
+    - Set of Simple Relations
+  - name: Anaphora Resolution
+    category: process
+    description: Process of replacing pronouns with their referent actors within nested
+      relations.
+    domain:
+    - Relation containing Pronoun
+    range:
+    - Pronoun-free Relation
+  - name: Knowledge Inference
+    category: process
+    description: Process of deriving new hyperedges (facts) from existing ones via
+      symbolic or probabilistic rules.
+    domain:
+    - Existing Hyperedges
+    range:
+    - Derived Hyperedges
+    symbolic_or_probabilistic: ''
+  - name: Random Forest Classifier
+    category: algorithm
+    description: Ensemble decision-tree algorithm used to implement the α-stage token
+      type predictor.
+    domain:
+    - Feature Vector
+    range:
+    - Token Type
+    ensemble_size: ''
+  - name: Probabilistic Seed Assignment
+    category: algorithm
+    description: Heuristic assigning ambiguous seed concepts to the most probable
+      coreference set based on degree ratios.
+    domain:
+    - Ambiguous Seed Concept
+    range:
+    - Coreference Set
+    degree_ratio_threshold: ''
+  - name: Faction Detection Algorithm
+    category: algorithm
+    description: Simple heuristic assigning actors to opposing camps based on conflict-graph
+      degrees and edge ordering.
+    domain:
+    - Conflict Graph
+    range:
+    - Actor→Faction Mapping
+    uses: edge ordering
+  - name: Heuristic Function h
+    category: algorithm component
+    description: Tie-breaking scoring function guiding β-stage pattern application,
+      favouring dependency-tree proximity and depth.
+    domain:
+    - Pattern Application Candidates
+    range:
+    - Score
+    prefers: dependency proximity + shallow depth
+  - name: Pattern Learning Template
+    category: method
+    description: Human-in-the-loop procedure (select example, generalise, test, refine)
+      for discovering useful SH patterns.
+    domain:
+    - Example Hyperedge
+    range:
+    - Generalised Pattern
+    human_in_loop: ''
+  - name: Pattern Compression
+    category: method
+    description: Process of generalising multiple specific patterns into fewer broader
+      ones while preserving correctness.
+    domain:
+    - Specific Patterns
+    range:
+    - Compressed Pattern Set
+  - name: Open Information Extraction (OIE)
+    category: task
+    description: Domain-independent task of extracting relational tuples from text.
+    domain:
+    - Text
+    range:
+    - Relational Tuples
+    domain_independent: ''
+  - name: Feature Set F5
+    category: feature subset
+    description: Selected subset of five linguistic features (TAG, DEP, HDEP, HPOS,
+      POS_AFTER) yielding highest α-stage accuracy.
+    TAG,DEP,HDEP,HPOS,POS_AFTER: ''
+  - name: SH Degree (d)
+    category: metric
+    description: Metric counting, for a hyperedge, the sum over outer hyperedges of
+      (size−1); analogous to graph degree.
+    formula: Σ(size_out_edge−1)
+  - name: Deep Degree (δ)
+    category: metric
+    description: Metric counting connections of a hyperedge across all recursive nesting
+      levels.
+    counts: all nesting levels
+  - name: Modifier (Type M)
+    category: type-code
+    description: Connector that applies to a single existing hyperedge to create a
+      modified hyperedge of the same type.
+    subTypeOf: Connector
+    applies_to: single argument
+  - name: Trigger (Type T)
+    category: type-code
+    description: Connector introducing supplementary specifications such as temporal,
+      locative or conditional context.
+    subTypeOf: Connector
+    introduces: temporal|locative|conditional context
+  - name: Conjunction (Type J)
+    category: type-code
+    description: Connector joining or coordinating hyperedges (concepts or relations),
+      analogous to linguistic conjunctions.
+    subTypeOf: Connector
+    semantics: AND/OR depending on lemma
+  - name: Lexical Wildcard (‘*’)
+    category: notation
+    description: Symbol in pattern language matching any hyperedge of a specified
+      type.
+  - name: Sequence Wildcard ('...')
+    category: notation
+    description: Pattern notation allowing an arbitrary number of hyperedges at a
+      location.
+  - name: Arg-Role Set Notation ('{ }')
+    category: notation
+    description: Curly-brace syntax in patterns specifying order-indifferent collections
+      of argument roles.
+  modifiers_supported:
+  - modal
+  - temporal
+  truth_values_supported:
+  - 'true'
+  - 'false'
+  - inferred
+  - uncertain
+  operators_supported:
+  - Conjunction
+  - LexicalWildcard
+  - SequenceWildcard
+  - ArgRoleSetNotation

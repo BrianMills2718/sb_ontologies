@@ -1,0 +1,203 @@
+#!/usr/bin/env python3
+"""
+FallbackServer for APIEndpoint self-healing
+Provides minimal health check endpoint when component generation is incomplete
+"""
+import anyio
+import json
+from typing import Optional, Dict, Any
+import logging
+
+
+class FallbackServer:
+    """
+    Minimal fallback server for self-healing when APIEndpoint generation fails.
+    
+    Provides basic health check endpoint to keep system operational while
+    component healing occurs.
+    """
+    
+    def __init__(self, host: str, port: int, component_name: str, logger: logging.Logger):
+        self.host = host
+        self.port = port
+        self.component_name = component_name
+        self.logger = logger
+        self.should_exit = False
+        self._server_task = None
+        
+    async def start(self):
+        """Start the fallback server"""
+        self.logger.info(f"Starting fallback server for {self.component_name} on {self.host}:{self.port}")
+        # Server will be started in the serve() method called by APIEndpoint.process()
+        
+    async def stop(self):
+        """Stop the fallback server"""
+        self.should_exit = True
+        if self._server_task:
+            self._server_task.cancel()
+        self.logger.info(f"Fallback server stopped for {self.component_name}")
+        
+    async def serve(self):
+        """
+        Serve minimal health check endpoints using anyio networking.
+        
+        This provides basic HTTP responses without requiring FastAPI/uvicorn
+        to minimize dependencies for fallback mode.
+        """
+        try:
+            # Use anyio to create a TCP server
+            listener = await anyio.create_tcp_listener(
+                local_host=self.host,
+                local_port=self.port
+            )
+            
+            self.logger.info(f"🔧 Fallback server listening on {self.host}:{self.port}")
+            self.logger.info(f"   Available endpoints:")
+            self.logger.info(f"   GET /health - Health check")
+            self.logger.info(f"   GET /status - Component status")
+            
+            async with listener:
+                await listener.serve(self._handle_connection)
+                
+        except Exception as e:
+            if not self.should_exit:
+                self.logger.error(f"Fallback server error: {e}")
+            raise
+            
+    async def _handle_connection(self, stream):
+        """Handle incoming HTTP connections"""
+        try:
+            # Read the HTTP request
+            data = await stream.receive(1024)
+            request = data.decode('utf-8', errors='ignore')
+            
+            # Parse basic request info
+            lines = request.split('\n')
+            if not lines:
+                return
+                
+            request_line = lines[0].strip()
+            parts = request_line.split(' ')
+            if len(parts) < 2:
+                return
+                
+            method = parts[0]
+            path = parts[1]
+            
+            # Route the request
+            response = await self._route_request(method, path)
+            
+            # Send HTTP response
+            await stream.send(response.encode('utf-8'))
+            
+        except Exception as e:
+            self.logger.debug(f"Connection handling error: {e}")
+        finally:
+            try:
+                await stream.aclose()
+            except:
+                pass
+                
+    async def _route_request(self, method: str, path: str) -> str:
+        """Route HTTP requests to appropriate handlers"""
+        
+        if method == "GET":
+            if path == "/health" or path == "/health/":
+                return self._health_response()
+            elif path == "/status" or path == "/status/":
+                return self._status_response()
+            elif path == "/" or path == "":
+                return self._root_response()
+        
+        # Default 404 response
+        return self._not_found_response(path)
+        
+    def _health_response(self) -> str:
+        """Health check endpoint response"""
+        health_data = {
+            "status": "degraded",
+            "component": self.component_name,
+            "mode": "fallback_server",
+            "message": "Component generation incomplete - running in self-healing mode",
+            "timestamp": anyio.current_time()
+        }
+        
+        body = json.dumps(health_data, indent=2)
+        return (
+            "HTTP/1.1 200 OK\r\n"
+            "Content-Type: application/json\r\n"
+            f"Content-Length: {len(body)}\r\n"
+            "Connection: close\r\n"
+            "\r\n"
+            f"{body}"
+        )
+        
+    def _status_response(self) -> str:
+        """Component status endpoint response"""
+        status_data = {
+            "component_name": self.component_name,
+            "component_type": "APIEndpoint",
+            "status": "fallback_mode",
+            "generation_status": "incomplete",
+            "self_healing": "active",
+            "available_endpoints": ["/health", "/status"],
+            "message": "This component is running in fallback mode due to incomplete generation. "
+                      "The system continues to operate while self-healing mechanisms work to resolve the issue.",
+            "recommendations": [
+                "Check component generation logs",
+                "Verify component logic generation completed",
+                "Re-run system generation if needed"
+            ]
+        }
+        
+        body = json.dumps(status_data, indent=2)
+        return (
+            "HTTP/1.1 200 OK\r\n"
+            "Content-Type: application/json\r\n"
+            f"Content-Length: {len(body)}\r\n"
+            "Connection: close\r\n"
+            "\r\n"
+            f"{body}"
+        )
+        
+    def _root_response(self) -> str:
+        """Root endpoint response"""
+        root_data = {
+            "message": f"Fallback server for {self.component_name}",
+            "status": "operational",
+            "mode": "self_healing",
+            "endpoints": {
+                "/health": "Health check endpoint",
+                "/status": "Detailed component status"
+            }
+        }
+        
+        body = json.dumps(root_data, indent=2)
+        return (
+            "HTTP/1.1 200 OK\r\n"
+            "Content-Type: application/json\r\n"
+            f"Content-Length: {len(body)}\r\n"
+            "Connection: close\r\n"
+            "\r\n"
+            f"{body}"
+        )
+        
+    def _not_found_response(self, path: str) -> str:
+        """404 not found response"""
+        error_data = {
+            "error": "Not Found",
+            "path": path,
+            "message": f"Endpoint not available in fallback mode for {self.component_name}",
+            "available_endpoints": ["/health", "/status"],
+            "component_status": "fallback_mode"
+        }
+        
+        body = json.dumps(error_data, indent=2)
+        return (
+            "HTTP/1.1 404 Not Found\r\n"
+            "Content-Type: application/json\r\n"
+            f"Content-Length: {len(body)}\r\n"
+            "Connection: close\r\n"
+            "\r\n"
+            f"{body}"
+        )

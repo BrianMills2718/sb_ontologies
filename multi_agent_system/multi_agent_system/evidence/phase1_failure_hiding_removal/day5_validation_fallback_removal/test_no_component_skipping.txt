@@ -1,0 +1,20 @@
+COMPONENT SKIPPING ELIMINATION:
+
+The validation framework previously allowed "skipping" components with unsupported types and would return a failed ValidationResult but continue processing.
+
+NOW FAILS HARD:
+- When unsupported component types are encountered, ValidationFailureError is raised immediately
+- No partial system generation is allowed
+- Clear error message explains which components are unsupported
+- Forces developer to either add support for the component type or fix the blueprint
+
+This prevents the anti-pattern of hiding incomplete system generation behind "component skipping" logic.
+
+BEFORE: System would be marked as "failed" but processing would continue with partial components
+AFTER: System generation stops immediately with clear error about unsupported components
+
+This change ensures that:
+1. All components in a blueprint must be supported
+2. No partial/incomplete systems are generated
+3. Missing component support is immediately visible
+4. Developers get clear feedback about what needs to be implemented

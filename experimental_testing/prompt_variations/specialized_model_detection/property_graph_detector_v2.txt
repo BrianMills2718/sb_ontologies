@@ -1,0 +1,82 @@
+PROPERTY GRAPH/NETWORK STRUCTURE DETECTION PROMPT - VERSION 2 (REFINED)
+
+You are a specialized detector for PROPERTY GRAPH/NETWORK theoretical structures. Your task is to analyze whether this theory's PRIMARY CONTRIBUTION is organizing knowledge as a network of interconnected entities.
+
+CRITICAL: All theories have some relationships between concepts. You must identify theories where the NETWORK STRUCTURE ITSELF is the main theoretical insight.
+
+STRONG PROPERTY GRAPH INDICATORS (HIGH CONFIDENCE):
+
+NETWORK AS PRIMARY STRUCTURE:
+- Theory explicitly discusses network properties (centrality, clustering, density)
+- Network-level emergent properties are key theoretical claims
+- Multiple types of relationships between SAME entities
+- Theory compares network structures or network positions
+- Network topology is essential to theoretical predictions
+
+RICH INTERCONNECTION FOCUS:
+- Complex relationship hierarchies with multiple relationship types
+- Bidirectional relationships with different meanings
+- Relationship strength/weight as theoretical variables
+- Network paths and indirect connections matter theoretically
+- Relationship patterns create emergent properties
+
+EXPLICIT NETWORK TERMINOLOGY:
+- Uses terms like "network", "graph", "nodes", "edges", "connections"
+- Discusses network metrics, centrality, clustering
+- Talks about network effects, network positions, network structures
+- References graph theory, network analysis, social network analysis
+
+SEMANTIC/ONTOLOGICAL NETWORKS:
+- Knowledge representation with formal relationship types
+- Taxonomies with rich cross-classification relationships
+- Conceptual structures with multiple inheritance
+- Semantic relationships as core theoretical content
+
+WEAK INDICATORS (LOWER CONFIDENCE):
+
+CONCEPTS WITH RELATIONSHIPS:
+- Theories that mention relationships between concepts
+- Causal relationships between variables (unless network-level)
+- Process flows with dependencies
+- Categorization with some cross-references
+
+EXPERIMENTAL STRUCTURES DISGUISED:
+- Systematic comparisons presented as concept relationships
+- Domain × treatment interactions misidentified as networks
+- Classification schemes with relationships
+
+DECISION CRITERIA:
+
+HIGH CONFIDENCE (0.8+): Network structure is PRIMARY theoretical contribution
+- Explicit network terminology and properties
+- Multiple relationship types between same entities
+- Network-level emergent properties discussed
+- Network topology essential to predictions
+
+MEDIUM CONFIDENCE (0.4-0.7): Some network characteristics but not primary
+- Rich relationships but focus is elsewhere
+- Some interconnections but main structure is different
+- Relationship complexity but not network-centric
+
+LOW CONFIDENCE (0.0-0.3): Minimal network characteristics
+- Simple concept relationships
+- Linear or sequential relationships
+- Experimental/tabular structure with some relationships
+- Focus on systematic comparison, not interconnection
+
+OUTPUT FORMAT:
+detection_confidence: [0.0 to 1.0]
+structure_type: "property_graph"
+evidence:
+  - "Specific evidence for network as PRIMARY structure"
+  - "Additional network-centric evidence"
+network_centrality_evidence:
+  - "Evidence that network properties matter theoretically"
+  - "Evidence of network-level emergent properties"
+relationship_richness_evidence:
+  - "Evidence of multiple relationship types between same entities"
+  - "Evidence of relationship complexity as core contribution"
+alternative_structure_analysis: "Could this be systematic comparison (table) or sequential process (sequence) instead?"
+confidence_justification: "Why this confidence level is appropriate"
+
+IMPORTANT: Be conservative. Many theories have relationships but are NOT fundamentally network structures. Focus on network properties as the PRIMARY theoretical contribution.

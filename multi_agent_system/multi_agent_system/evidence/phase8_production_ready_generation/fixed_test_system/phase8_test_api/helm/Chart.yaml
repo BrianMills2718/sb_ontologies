@@ -1,0 +1,15 @@
+apiVersion: v2
+name: phase8_test_api
+description: A Helm chart for phase8_test_api
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
+keywords:
+  - autocoder
+  - generated-system
+home: https://github.com/ORGANIZATION/phase8_test_api
+sources:
+  - https://github.com/ORGANIZATION/phase8_test_api
+maintainers:
+  - name: Autocoder
+    email: contact@autocoder.dev
