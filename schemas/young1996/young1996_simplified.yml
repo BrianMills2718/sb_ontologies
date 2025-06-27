@@ -1,0 +1,169 @@
+model_type: network
+theory_name: young1996_cognitive_mapping
+extraction_method: simplified_meta_schema
+nodes:
+- id: concept
+  label: Concept
+  type: node-class
+  description: Any unique noun-phrase that appears in the text (e.g., united-states,
+    SALT, oil-pollution).
+- id: relationship
+  label: Relationship
+  type: node-class
+  description: A symbolic link between two concepts elevated to node status so it
+    can itself be the subject or object of other relationships.
+- id: conjunction
+  label: Conjunction
+  type: node-class
+  description: AND / OR nodes used to bundle multiple concepts that share the same
+    relationship (joint action or alternative sets).
+connections:
+- type: subject-of
+  description: 'Directed link: concept → relationship when the concept is the grammatical
+    subject.'
+  properties:
+    directed: true
+    arity: binary
+    ordered: true
+- type: object-of
+  description: 'Directed link: relationship → concept when the concept is the grammatical
+    object.'
+  properties:
+    directed: true
+    arity: binary
+    ordered: true
+- type: member-of-conjunction
+  description: Undirected link that places a concept inside an AND / OR bundle.
+  properties:
+    directed: false
+    arity: n-ary
+properties:
+  node_properties:
+  - type  {concept | relationship | conjunction}
+  - salience  (integer count, concepts inherit max salience of attached relationships)
+  connection_properties: []
+  measures:
+  - dependency  = ( Σ bridges / Σ relationships ) / Σ structures
+  - connectedness = Σ relationships / ( Σ relationships + Σ concepts )
+  - size = Σ concepts
+  - uniformity_of_salience = SD( salience(relationships) )
+  - transformation_cost = Σ[relationship-add | relationship-delete | salience±1 |
+    concept-add | concept-delete]
+  - 'concept_comparison  (lists: identical, shared-changed, unique)'
+  - incongruence  (change in common relationships only)
+modifiers:
+  truth_values:
+  - 'true'
+  - 'false'
+  - partial
+  - possible
+  - impossible
+  temporal:
+  - past
+  - present
+  - future
+  modal:
+  - goal
+  - hypothetical
+  - normative
+  other: []
+notation:
+  type_codes:
+    relationships:
+      '=': equal
+      +: positive-cause
+      '-': negative-cause
+      '>': preference / greater-than
+      attr: attribute
+      is-a: class-membership
+      if-then: condition
+      strategy: means-end link
+      possess: possession
+      location: spatial relation
+      know: knowledge
+      warrant-for: justification
+    actions:
+      accept: {}
+      allow: {}
+      assert: {}
+      attack: {}
+      cause: {}
+      confront: {}
+      consider: {}
+      consult: {}
+      control: {}
+      cooperate: {}
+      decide: {}
+      defend: {}
+      delay: {}
+      enforce: {}
+      enhance: {}
+      feel: {}
+      honor: {}
+      ignore: {}
+      influence: {}
+      intervene: {}
+      invade: {}
+      lead: {}
+      limit: {}
+      lose: {}
+      maintain: {}
+      meet: {}
+      monitor: {}
+      negotiate: {}
+      open: {}
+      order: {}
+      organize: {}
+      perform: {}
+      propose: {}
+      purchase: {}
+      ratify: {}
+      reduce: {}
+      release: {}
+      restore: {}
+      share: {}
+      sign: {}
+      stop: {}
+      support: {}
+      threaten: {}
+      use: {}
+      verify: {}
+      visit: {}
+      vote-on: {}
+      withdraw: {}
+      yield-to: {}
+  symbols:
+    AND: joint action conjunction
+    OR: alternative set conjunction
+  patterns:
+  - concept  relationship(truth,modifier)  concept
+  - conjunction( concept … )
+  - relationship as node can itself be linked by higher-order relationships
+rules:
+- name: Relationship-as-Node Rule
+  pattern: If a clause (R) is itself subject or object of another clause, elevate
+    R to a node so that it can link further.
+  result: Eliminates encapsulation; allows multi-level reasoning.
+- name: Truth-Value Precedence
+  pattern: impossible > false  |  true / partial > possible
+  result: Higher-precedence value overrides lower when both apply.
+- name: Goal-Hierarchy Construction
+  pattern: goal-modified relationship  ⟶  may become subject/object of strategy link
+  result: Builds multi-level chains of means and ends (Figure 4).
+- name: Dependency Calculation
+  pattern: D = ( bridges / relationships ) / structures
+  result: 0 ≤ D ≤ 1; vertical layering indicator.
+- name: Connectedness Calculation
+  pattern: C = relationships / ( relationships + concepts )
+  result: 0 ≤ C < 1; lateral density indicator.
+- name: Transformation-Cost Algorithm
+  pattern: Σ minimal add/delete/change operations to turn Map2 into Map1; each op
+    cost 1
+  result: Quantifies cognitive change across time or actors.
+- name: Incongruence Measure
+  pattern: Apply transformation-cost only to relationships common to both maps
+  result: Sharp indicator of substantive divergence.
+- name: Synonym Substitution
+  pattern: During compilation, replace concept with pre-specified synonym before node
+    creation
+  result: Allows sensitivity tests on conceptual coarseness.

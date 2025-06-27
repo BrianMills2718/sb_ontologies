@@ -1,0 +1,166 @@
+citation: "Menezes, Telmo & Roth, Camille (2021). 'Semantic Hypergraphs.' arXiv:1908.10784v2"
+annotation: "Recursive ordered hypergraph formalism for natural language understanding"
+model_type: hypergraph
+schema_blueprint:
+  title: Semantic Hypergraph - Properly Mapped to Meta-Schema
+  description: Mapping SH type system to our 8-category ontology through descriptions
+  
+  definitions:
+    # ENTITIES (Things that exist)
+    - term: "concept"
+      type: entity
+      definition: "Atomic hyperedge representing a lexical concept (type C)"
+      properties:
+        type_code: "C"
+        can_be: "atom or non-atom"
+        example: "apple/C"
+    
+    - term: "relation" 
+      type: entity
+      definition: "Non-atomic hyperedge expressing facts/statements (type R)"
+      properties:
+        type_code: "R"
+        can_be: "non-atom only"
+        result_of: "(P [CRS]+)"
+        example: "(is/P berlin/C nice/C)"
+    
+    - term: "specifier"
+      type: entity  
+      definition: "Non-atomic hyperedge for relation specifications (type S)"
+      properties:
+        type_code: "S"
+        can_be: "non-atom only"
+        result_of: "(T [CR])"
+        example: "(in/T 1976/C)"
+    
+    # RELATIONSHIPS (Note: These are actually operators that CREATE relationships)
+    - term: "predicate"
+      type: relationship
+      definition: "Connector building relations between arguments (type P)"
+      domain: ["concept", "relation", "specifier"]
+      range: ["relation"]
+      properties:
+        type_code: "P"
+        can_be: "atom only (as connector)"
+        inference_rule: "(P [CRS]+) → R"
+        argument_roles: ["s", "p", "a", "c", "o", "i", "t", "j", "x", "r"]
+        example: "is/P, likes/P, gave/P.sio"
+    
+    - term: "builder"
+      type: relationship
+      definition: "Connector building composite concepts (type B)"
+      domain: ["concept"]
+      range: ["concept"]
+      properties:
+        type_code: "B"
+        can_be: "atom only (as connector)"
+        inference_rule: "(B C C+) → C"
+        special_forms: {"+/B": "compound builder (no surface form)"}
+        argument_roles: ["m (main)", "a (auxiliary)"]
+        example: "of/B, +/B.am"
+    
+    # MODIFIERS
+    - term: "modifier"
+      type: modifier
+      definition: "Connector that modifies one hyperedge (type M)"
+      properties:
+        type_code: "M"
+        can_be: "atom only (as connector)"
+        inference_rule: "(M x) → x"
+        preserves_type: true
+        example: "red/M, very/M, not/M"
+    
+    - term: "trigger"
+      type: modifier
+      definition: "Connector for temporal/conditional specifications (type T)"
+      properties:
+        type_code: "T"
+        can_be: "atom only (as connector)"  
+        inference_rule: "(T [CR]) → S"
+        creates_specifier: true
+        example: "in/T, if/T, when/T"
+    
+    # OPERATORS
+    - term: "conjunction"
+      type: operator
+      definition: "Connector joining concepts or relations (type J)"
+      properties:
+        type_code: "J"
+        can_be: "atom only (as connector)"
+        inference_rule: "(J x y'+) → x"
+        special_forms: {":/J": "implicit sequence conjunction"}
+        example: "and/J, or/J, but/J"
+    
+    # PROPERTIES (Captured as notation/rules)
+    - term: "type_code"
+      type: property
+      definition: "Single-letter code indicating hyperedge type"
+      properties:
+        values: ["C", "P", "M", "B", "T", "J", "R", "S"]
+        
+    - term: "argument_role"
+      type: property
+      definition: "Code indicating semantic role in predicate"
+      properties:
+        values: ["s", "p", "a", "c", "o", "i", "t", "j", "x", "r"]
+        
+    - term: "ordering"
+      type: property
+      definition: "Position matters in hyperedge arguments"
+      
+    - term: "recursivity"
+      type: property  
+      definition: "Hyperedges can contain other hyperedges as arguments"
+
+  # TYPE INFERENCE RULES (as properties of the schema)
+  type_inference_rules:
+    - pattern: "(M x)"
+      result: "x"
+      description: "Modifier preserves argument type"
+      
+    - pattern: "(B C C+)"
+      result: "C"
+      description: "Builder with concepts creates concept"
+      
+    - pattern: "(T [CR])"
+      result: "S"
+      description: "Trigger creates specifier"
+      
+    - pattern: "(P [CRS]+)"
+      result: "R"
+      description: "Predicate creates relation"
+      
+    - pattern: "(J x y'+)"
+      result: "x"
+      description: "Junction takes first argument's type"
+
+  # NOTATION SYSTEM (as schema-level properties)
+  notation_system:
+    type_codes:
+      C: "concept - atomic concepts"
+      P: "predicate - builds relations"
+      M: "modifier - modifies anything"
+      B: "builder - builds concepts"
+      T: "trigger - builds specifiers"
+      J: "conjunction - joins/coordinates"
+      R: "relation - result of predicate"
+      S: "specifier - result of trigger"
+      
+    argument_roles:
+      s: "active subject"
+      p: "passive subject"
+      a: "agent (passive)"
+      c: "subject complement"
+      o: "direct object"
+      i: "indirect object"
+      t: "parataxis"
+      j: "interjection"
+      x: "specification"
+      r: "relative relation"
+      
+    special_symbols:
+      "+/B": "compound builder"
+      ":/J": "implicit sequence"
+      "/": "separates label from type"
+      ".": "separates connector from roles"
+      "()": "hyperedge boundaries"

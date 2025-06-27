@@ -1,0 +1,119 @@
+model_type: hypergraph
+theory_name: semantic_hypergraphs
+extraction_method: simplified_meta_schema
+nodes:
+- id: C
+  label: concept
+  type: atomic-hyperedge
+  description: 'Atomic lexical items that denote entities or ideas expressible with
+    one word. Example: (apple/C)'
+- id: P
+  label: predicate
+  type: connector-atom
+  description: 'Connects two or more arguments to state a relation/statement. Example:
+    (is/P berlin/C nice/C)'
+- id: M
+  label: modifier
+  type: connector-atom
+  description: 'Unary connector that produces a new hyperedge of the SAME type as
+    its single argument. Can modify concepts, predicates, other modifiers or triggers.
+    Examples: (nice/M shoes/C); (not/M is/P)'
+- id: B
+  label: builder
+  type: connector-atom
+  description: 'Combines ≥2 concepts into a NEW concept. Includes explicit builders
+    such as (of/B) and the special compound-builder (+/B). Example: (of/B capital/C
+    germany/C)'
+- id: T
+  label: trigger
+  type: connector-atom
+  description: 'Introduces specifications (conditions, time, place …) that attach
+    to a relation and return a Specifier hyperedge. Example: (in/T 1976/C)'
+- id: J
+  label: conjunction
+  type: connector-atom
+  description: 'Joins ≥2 concepts or relations into ordered sequences. Includes special
+    symbol (:/J) for implicit sequences. Examples: (and/J meat/C potatoes/C); (:/J
+    freud/C (the/M (famous/M psychiatrist/C)))'
+- id: R
+  label: relation
+  type: non-atomic hyperedge
+  description: 'Fact, statement, question, order … created by a predicate followed
+    by ≥1 arguments. Example: (is/P berlin/C nice/C)'
+- id: S
+  label: specifier
+  type: non-atomic hyperedge
+  description: Additional information (time, place, condition…) produced by triggers,
+    e.g. (in/T 1976/C)
+- id: ATOM
+  label: atomic hyperedge
+  type: primitive
+  description: Irreducible hyperedge of size one; any of C, P, M, B, T, J.
+- id: HYPEREDGE
+  label: hyperedge
+  type: composite node
+  description: Ordered, recursive list whose first element is a connector atom; may
+    itself be a vertex in higher-order hyperedges.
+connections:
+- type: ordered_recursive_hyperedge
+  description: A hyperedge connects its connector (first position) to every subsequent
+    argument, preserving order. Hyperedges themselves can appear as vertices inside
+    other hyperedges (recursion).
+  properties:
+    directed: true
+    arity: n-ary (n ≥ 1)
+    ordering: significant (position = role)
+    roles_string: optional per-argument codes appended to connector, e.g. .am, .sio
+properties:
+  node_properties:
+  - type (one of C,P,M,B,T,J,R,S)
+  - human_label (e.g. "berlin")
+  connection_properties:
+  - roles (per-argument semantic roles, e.g. s = active subject, p = passive subject,
+    a = agent(passive), c = subject complement, o = direct object, i = indirect object,
+    m = main, a = auxiliary)
+  - ordered (boolean, always true)
+  - recursive (boolean, always true)
+  measures: []
+modifiers:
+  truth_values:
+  - not/M  → negation of a predicate or concept
+  temporal:
+  - (in/T 1976/C)
+  modal: []
+  other:
+  - locative, conditional etc. expressed with Trigger (T) hyperedges
+notation:
+  type_codes:
+    C: concept
+    P: predicate
+    M: modifier
+    B: builder
+    T: trigger
+    J: conjunction
+    R: relation
+    S: specifier
+  symbols:
+    (+/B): special builder for compound nouns
+    (:/J): special conjunction for implicit sequences
+  patterns:
+  - 'Every non-atomic hyperedge: ( connector arguments… )'
+  - Connector may optionally receive a dot-prefixed roles string, e.g. (gave/P.sio
+    … )
+  - 'Builder roles: .m = main, .a = auxiliary (e.g. (+/B.am tennis/C ball/C))'
+rules:
+- name: Type inference – Modifier
+  pattern: (M x)
+  result: type(x)
+- name: Type inference – Builder
+  pattern: (B C C+)
+  result: C
+- name: Type inference – Trigger
+  pattern: (T [C|R])
+  result: S
+- name: Type inference – Predicate
+  pattern: (P [C|R|S]+)
+  result: R
+- name: Type inference – Conjunction
+  pattern: (J x y’+)
+  result: x

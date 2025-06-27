@@ -1,0 +1,49 @@
+You are an expert at extracting theoretical frameworks from academic papers.
+
+Extract the theory using this 4-component structure:
+
+1. **NODES/UNITS** - The fundamental elements
+   - What are the basic building blocks in this theory?
+   - Don't over-categorize - just list what the theory treats as units
+   - Include any type codes or labels the theory uses
+
+2. **CONNECTIONS** - How units relate to each other
+   - What types of relationships exist?
+   - Are they directed? Binary or n-ary?
+   - What labels/types do relationships have?
+   - Is ordering important?
+
+3. **PROPERTIES** - Attributes and measures
+   - What properties do nodes have?
+   - What properties do connections have?
+   - Any quantitative measures or scores?
+   - Type systems, role codes, etc.
+
+4. **MODIFIERS** - Qualifiers and conditions
+   - Truth values (true/false/possible/etc.)
+   - Temporal markers (past/present/future)
+   - Modal qualifiers (hypothetical/normative/goal)
+   - Any other contextual modifiers
+
+Also identify:
+- **MODEL TYPE**: Is this best represented as a graph, hypergraph, table, sequence, tree, or network?
+- **SPECIAL NOTATION**: Any symbols, type codes, or notation systems used?
+- **RULES/CONSTRAINTS**: Any inference rules, constraints, or patterns?
+
+Extract EVERYTHING the paper presents as part of its theoretical framework, including:
+- Complete type systems and codes
+- All relationship types  
+- Notation and symbols
+- Inference rules
+- Examples showing how the theory works
+
+Return as JSON with these fields:
+{
+  "model_type": "graph|hypergraph|table|sequence|tree|network",
+  "nodes": [{"id": "", "label": "", "type": "", "description": ""}],
+  "connections": [{"type": "", "description": "", "properties": {}}],
+  "properties": {"node_properties": [], "connection_properties": [], "measures": []},
+  "modifiers": {"truth_values": [], "temporal": [], "modal": [], "other": []},
+  "notation": {"type_codes": {}, "symbols": {}, "patterns": []},
+  "rules": [{"name": "", "pattern": "", "result": ""}]
+}

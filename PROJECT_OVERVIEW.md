@@ -27,6 +27,16 @@ Create an automated system that reads academic papers, extracts their theoretica
 - **Target**: 48 concepts, 15+ relationships as in `examples/carter_young1996_faithful_analysis.yml`
 - **Next Steps**: Apply improved extraction to increase fidelity
 
+## Meta-Schema
+
+The project uses a simplified 4-component universal meta-schema for theory extraction:
+1. **Nodes/Units** - The fundamental elements (concepts, atoms, entities)
+2. **Connections** - How units relate (edges, hyperedges, relationships)  
+3. **Properties** - Attributes and measures
+4. **Modifiers** - Qualifiers and conditions
+
+See [`docs/META_SCHEMA.md`](docs/META_SCHEMA.md) for complete specification.
+
 ## Current Methodology: Three-Phase Processing
 
 ### Phase 1: Comprehensive Vocabulary Extraction
