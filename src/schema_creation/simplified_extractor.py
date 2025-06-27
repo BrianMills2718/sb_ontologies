@@ -52,7 +52,7 @@ def extract_theory(paper_text: str) -> TheoryExtraction:
     with open(prompt_path, 'r') as f:
         prompt_template = f.read()
     
-    prompt = f"{prompt_template}\n\nPAPER TEXT:\n{paper_text[:40000]}"
+    prompt = f"{prompt_template}\n\nPAPER TEXT:\n{paper_text[:180000]}"
     
     print("Extracting theory with simplified meta-schema...")
     

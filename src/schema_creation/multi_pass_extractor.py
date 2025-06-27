@@ -97,7 +97,7 @@ Look especially in:
 - Footnotes
 
 PAPER TEXT:
-{paper_text[:30000]}
+{paper_text[:180000]}
 
 Be EXTREMELY thorough - capture every notation detail.
 
@@ -148,7 +148,7 @@ Look for:
 - Mathematical definitions
 
 PAPER TEXT:
-{paper_text[:30000]}
+{paper_text[:180000]}
 
 Preserve exact table structure and rule formulations.
 
@@ -191,7 +191,7 @@ Look for:
 - Complexity statements (O(n), etc.)
 
 PAPER TEXT:
-{paper_text[20000:40000]}
+{paper_text[:180000]}
 
 Include complete algorithm specifications.
 
@@ -235,7 +235,7 @@ Look in:
 - Comparison discussions
 
 PAPER TEXT:
-{paper_text[30000:50000]}
+{paper_text[:180000]}
 
 Include specific numbers and test conditions.
 
@@ -280,7 +280,7 @@ Look for:
 - Case study sections
 
 PAPER TEXT:
-{paper_text[10000:30000]}
+{paper_text[:180000]}
 
 Include complete examples with all steps.
 

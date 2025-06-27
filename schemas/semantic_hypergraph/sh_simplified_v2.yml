@@ -1,0 +1,197 @@
+model_type: hypergraph
+theory_name: semantic_hypergraphs
+extraction_method: simplified_meta_schema
+nodes:
+- id: atom
+  label: atom
+  type: unit
+  description: irreducible hyperedge of size one; basic building block
+- id: hyperedge
+  label: hyperedge
+  type: unit
+  description: ordered, recursive edge that can contain atoms or other hyperedges
+- id: C
+  label: concept
+  type: type-code
+  description: atomic concept such as (apple/C)
+- id: P
+  label: predicate
+  type: type-code
+  description: connector that makes relations, e.g. (is/P)
+- id: M
+  label: modifier
+  type: type-code
+  description: connector that modifies a single argument, e.g. (not/M) (very/M)
+- id: B
+  label: builder
+  type: type-code
+  description: connector that combines ≥2 concepts into a new concept, e.g. (of/B)  (+/B)
+- id: T
+  label: trigger
+  type: type-code
+  description: connector that builds specifications, e.g. (in/T) (with/T)
+- id: J
+  label: conjunction
+  type: type-code
+  description: connector that joins ≥2 concepts or relations, e.g. (and/J) (:/J)
+- id: R
+  label: relation
+  type: implicit-type
+  description: non-atomic hyperedge created by predicates
+- id: S
+  label: specifier
+  type: implicit-type
+  description: non-atomic hyperedge created by triggers
+- id: argument_roles
+  label: argument roles
+  type: meta
+  description: codes assigned to predicate arguments
+- id: role_s
+  label: s
+  type: role-code
+  description: active subject
+- id: role_p
+  label: p
+  type: role-code
+  description: passive subject
+- id: role_a
+  label: a
+  type: role-code
+  description: agent of passive
+- id: role_c
+  label: c
+  type: role-code
+  description: subject complement
+- id: role_o
+  label: o
+  type: role-code
+  description: direct object
+- id: role_i
+  label: i
+  type: role-code
+  description: indirect object
+- id: role_t
+  label: t
+  type: role-code
+  description: parataxis
+- id: role_j
+  label: j
+  type: role-code
+  description: interjection
+- id: role_x
+  label: x
+  type: role-code
+  description: specification
+- id: role_r
+  label: r
+  type: role-code
+  description: relative relation
+- id: d
+  label: degree
+  type: measure
+  description: ∑(|e_i|−1) over outer edges De
+- id: delta
+  label: deep degree
+  type: measure
+  description: ∑(|e_i|−1) over recursive neighborhood Δe
+connections:
+- type: hyperedge-membership
+  description: ordered participation of inner edges inside an outer hyperedge
+  properties:
+    ordered: true
+    recursive: true
+    arity: n
+- type: argument-role-assignment
+  description: maps predicate argument position to role codes (s,p,a,c,o,i,t,j,x,r)
+  properties:
+    directed: true
+properties:
+  node_properties:
+  - type-code (C,P,M,B,T,J,R,S)
+  - role string (e.g. .am, .sio)
+  - namespace (optional 3rd slash segment)
+  connection_properties:
+  - ordered index
+  - recursivity depth
+  measures:
+  - degree d(e)
+  - deep degree δ(e)
+modifiers:
+  truth_values:
+  - not/M
+  - n't/M
+  temporal:
+  - was/P (past)
+  - will/M (future)
+  modal:
+  - will/M
+  other:
+  - ellipsis '...'
+  - wildcard sequences X...
+notation:
+  type_codes:
+    C: concept
+    P: predicate
+    M: modifier
+    B: builder
+    T: trigger
+    J: conjunction
+    R: relation (inferred)
+    S: specifier (inferred)
+  symbols:
+    parentheses: delimit hyperedges/S-expressions
+    /: separates human label and machine code
+    .: follows connector to give argument-role string (e.g. .sio)
+    +/B: special builder for compound nouns
+    :/J: special conjunction for implicit sequence
+    '{ }': order-indifferent role set in patterns
+    '[ ]': single-choice role alternatives in patterns
+    '-': forbidden roles in patterns
+    '...': unspecified sequence (greedy)
+    X...: named unspecified sequence
+    '`': separates left and right sides of an inference rule
+    '*>': '">VAR" reaches innermost predicate atom'
+  patterns:
+  - Variables are CAPITAL (e.g. ACTOR)
+  - Wildcards annotated by */TYPE
+  - Patterns match hyperedges isomorphically ignoring order unless specified
+rules:
+- name: Type Inference Rules
+  pattern: (M x) | (B C C+) | (T [CR]) | (P [CRS]+) | (J x y'+)
+  result: respectively yields type x | C | S | R | x
+- name: Special (+/B) rule
+  pattern: (C C)
+  result: rewritten as (+/B C C)
+- name: Property-from-IS
+  pattern: (is/P.sc SUBJ PROP/C) ` (property/P PROP)
+  result: derives property assertions
+- name: Conjunction Decomposition 1
+  pattern: (*/J ... CONCEPT/C ...)
+  result: duplicates relation for each CONCEPT
+- name: Conjunction Decomposition 2
+  pattern: (*/J ... (PRED/P.{[sp]} X Y...) ...)
+  result: creates individual relations (PRED X Y...)
+- name: Conjunction Decomposition 3
+  pattern: (*/J (*/P.{[sp]} SUBJ/* ...) ... (PRED/P.-sp X...) ...)
+  result: adds subject SUBJ/* to following relations
+- name: OIE Pattern 1
+  pattern: (REL/P.{[sp][cora]x} ARG1/C ARG2 ARG3...)
+  result: extracts ⟨ARG1, REL, ARG2, ARG3...⟩
+- name: OIE Pattern 2
+  pattern: (+/B.{m[ma]} (ARG1/C...) (ARG2/C...))
+  result: extracts ontological ⟨ARG1, is, ARG2⟩
+- name: OIE Pattern 3
+  pattern: (REL1/P.{sx}-oc ARG1/C (REL2/T ARG2))
+  result: extracts ⟨ARG1, (REL1+REL2), ARG2⟩
+- name: OIE Pattern 4
+  pattern: (REL1/P.{px} ARG1/C (REL2/T ARG2))
+  result: same concatenation extraction
+- name: OIE Pattern 5
+  pattern: (REL1/P.{sc} ARG1/C (REL3/B REL2/C ARG2/C))
+  result: extracts ⟨ARG1, (REL1), (REL3 REL2 ARG2)⟩
+- name: α-stage Token Type Classifier
+  pattern: Random-Forest on features {TAG, DEP, HDEP, HPOS, POS_AFTER}
+  result: assigns atomic type code to each token
+- name: β-stage Hyperedge Builder
+  pattern: recursive application of type patterns with heuristic h(seq,pos,pat)
+  result: yields single well-formed semantic hyperedge
