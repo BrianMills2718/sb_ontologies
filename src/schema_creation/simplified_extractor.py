@@ -33,22 +33,30 @@ class Connection(BaseModel):
     type: str = Field(description="Relationship type/label")
     description: str = Field(description="What this connection represents")
     properties: Dict[str, Any] = Field(default_factory=dict, description="Additional properties")
+    vocabulary: List[str] = Field(default_factory=list, description="Complete vocabulary for this connection type")
+
+class Mechanism(BaseModel):
+    """How the theory works"""
+    name: str = Field(description="Mechanism name")
+    description: str = Field(description="What this mechanism does")
+    process: str = Field(description="How it works")
 
 class TheoryExtraction(BaseModel):
     """Complete theory extraction"""
     model_type: str = Field(description="graph, hypergraph, table, sequence, tree, or network")
     nodes: List[NodeUnit] = Field(description="All fundamental units")
     connections: List[Connection] = Field(description="All connection types")
-    properties: Dict[str, List[str]] = Field(description="Properties and measures")
-    modifiers: Dict[str, List[str]] = Field(description="Modifiers and qualifiers")
+    properties: Dict[str, Any] = Field(description="Properties, measures, and formulas")
+    modifiers: Dict[str, Any] = Field(description="Modifier categories and options")
+    mechanisms: List[Mechanism] = Field(default_factory=list, description="How the theory works")
     notation: Dict[str, Any] = Field(description="Notation systems and symbols")
     rules: List[Dict[str, str]] = Field(description="Inference rules or constraints")
 
 def extract_theory(paper_text: str) -> TheoryExtraction:
     """Extract theory using simplified meta-schema"""
     
-    # Load prompt
-    prompt_path = Path(__file__).parent / "prompts" / "simplified" / "extract_theory.txt"
+    # Load prompt - use v2 for better theory/application distinction
+    prompt_path = Path(__file__).parent / "prompts" / "simplified" / "extract_theory_v2.txt"
     with open(prompt_path, 'r') as f:
         prompt_template = f.read()
     
@@ -97,12 +105,20 @@ def extract_and_save(paper_path: str, output_path: str):
             {
                 "type": conn.type,
                 "description": conn.description,
-                "properties": conn.properties
+                "properties": conn.properties,
+                "vocabulary": conn.vocabulary
             } for conn in theory.connections
         ],
         
         "properties": theory.properties,
         "modifiers": theory.modifiers,
+        "mechanisms": [
+            {
+                "name": mech.name,
+                "description": mech.description,
+                "process": mech.process
+            } for mech in theory.mechanisms
+        ],
         "notation": theory.notation,
         "rules": theory.rules
     }

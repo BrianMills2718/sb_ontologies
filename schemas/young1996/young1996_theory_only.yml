@@ -1,0 +1,192 @@
+model_type: network
+theory_name: young1996_cognitive_mapping
+extraction_method: simplified_meta_schema
+nodes:
+- id: concept
+  label: Concept Node
+  type: concept
+  description: Any noun-phrase or idea extracted from text. One unique node is created
+    for every unique concept that appears in the data set.
+- id: relationship
+  label: Relationship Node
+  type: relationship
+  description: A symbol designating the link that holds between a subject-concept
+    and an object-concept. In WorldView relationships themselves are elevated to full
+    nodes so they, too, can become the subject or object of other relationships.
+- id: conjunction
+  label: Conjunction Node
+  type: conjunction
+  description: Either the AND or OR operator indicating multi-actor joint action (AND)
+    or sets of alternatives (OR). Like other nodes, conjunctions store their own lists
+    of subjects and objects.
+connections:
+- type: relationship_link
+  description: An ordered pair ⟨subject-concept , relationship-node , object-concept⟩.
+    Direction is always from subject toward object. Because relationship names are
+    themselves nodes, higher-order (n-ary) structures are supported.
+  properties:
+    directed: true
+    arity: binary at surface; n-ary once relationships are chained via elevation
+  vocabulary:
+  - equal (=)
+  - positive-cause (+)
+  - negative-cause (-)
+  - attribute
+  - component
+  - condition
+  - preference/greater-than (>)
+  - if-then
+  - possess
+  - is-a
+  - strategy
+  - know
+  - warrant-for
+  - location
+  - 'ACTION: accept'
+  - 'ACTION: allow'
+  - 'ACTION: assert'
+  - 'ACTION: attack'
+  - 'ACTION: assist'
+  - 'ACTION: cooperate'
+  - 'ACTION: control'
+  - 'ACTION: consult'
+  - 'ACTION: decide'
+  - 'ACTION: defend'
+  - 'ACTION: delay'
+  - 'ACTION: enforce'
+  - 'ACTION: enhance'
+  - 'ACTION: feel'
+  - 'ACTION: honor'
+  - 'ACTION: ignore'
+  - 'ACTION: influence'
+  - 'ACTION: intervene'
+  - 'ACTION: lead'
+  - 'ACTION: limit'
+  - 'ACTION: lose'
+  - 'ACTION: maintain'
+  - 'ACTION: meet'
+  - 'ACTION: monitor'
+  - 'ACTION: negotiate'
+  - 'ACTION: open'
+  - 'ACTION: order'
+  - 'ACTION: organize'
+  - 'ACTION: perform'
+  - 'ACTION: propose'
+  - 'ACTION: purchase'
+  - 'ACTION: ratify'
+  - 'ACTION: reduce'
+  - 'ACTION: release'
+  - 'ACTION: restore'
+  - 'ACTION: share'
+  - 'ACTION: sign'
+  - 'ACTION: stop'
+  - 'ACTION: support'
+  - 'ACTION: threaten'
+  - 'ACTION: use'
+  - 'ACTION: verify'
+  - 'ACTION: visit'
+  - 'ACTION: vote-on'
+  - 'ACTION: withdraw'
+  - 'ACTION: yield-to'
+properties:
+  node_properties:
+  - subject_list (concepts/relationships for which this node is subject)
+  - object_list (concepts/relationships for which this node is object)
+  connection_properties:
+  - truth_value
+  - modifier
+  - salience
+  measures:
+    dependency: number between 0 and 1 indicating proportion of bridge relationships
+      per structure
+    connectedness: number between 0 and 1 (asymptotic) reflecting density of relationship
+      links
+    size: count of concept nodes in the map
+    uniformity_of_salience: standard deviation of salience values across all relationship
+      nodes
+    transformation_cost: edit-distance count of discrete changes needed to convert
+      map A into map B
+    incongruence: combined index of transformation_cost and qualitative concept differences
+  formulas:
+    dependency: D_G = ( |bridges_G| / |relationships_G| ) / |structures_G|
+    connectedness: C_G = |relationships_G| / ( Σ concepts_G  +  Σ relationships_G|
+      )
+    uniformity_of_salience: σ_salience = sqrt( Σ (s_i − μ)^2 / N ) where s_i is salience
+      of relationship i
+    transformation_cost: 'TC(A,B) = min Σ cost(edit_k) ; cost(edit)=1 for each of:
+      relationship-addition, relationship-deletion, ±1 salience change, concept-addition,
+      concept-deletion'
+modifiers:
+  categories:
+    temporal:
+    - past
+    - present
+    - future
+    modal:
+    - goal
+    - hypothetical
+    - normative
+  options:
+    truth_values:
+    - 'true'
+    - 'false'
+    - partial
+    - possible
+    - impossible
+    truth_precedence:
+    - true & partial over possible
+    - impossible over false
+mechanisms:
+- name: Relationship Elevation
+  description: All relationship labels become nodes so that relationships themselves
+    can serve as subjects or objects of other relationships.
+  process: Transforms compound or nested propositions into fully connected sub-graphs
+    without information loss.
+- name: Synonym Substitution
+  description: At compilation time, user-defined synonym sets collapse multiple lexical
+    items into a single concept node.
+  process: Improves aggregation and allows sensitivity tests by varying synonym inclusiveness.
+- name: Salience Updating
+  description: Each occurrence of an identical relationship increments its salience
+    count.
+  process: Salience values feed search heuristics and provide data for uniformity_of_salience
+    computation.
+- name: Directed-Walk Reasoning
+  description: Explanation-based search that follows the most salient unprocessed
+    relationship from the current node.
+  process: 1) repeat or integrate new input; 2) select highest-salience available
+    link; 3) chain until no further progress; 4) output conclusion or integrate information.
+- name: Spreading Activation
+  description: Automatic activation flow from an accessed concept across adjacent
+    relationships proportionally to their salience.
+  process: Produces the definition–of–the–situation layer used by Directed-Walk.
+notation:
+  type_codes:
+    concept: plain string
+    relationship: symbol from vocabulary list
+    conjunction: AND | OR
+  symbols:
+    +: positive-cause
+    '-': negative-cause
+    '=': equal
+    '>': preference/greater-than
+  formal_notation:
+  - (subject  relationship  truth-value  modifier  object)
+  - 'Examples: (oil-pollution  +  true present  sea-birds)'
+  - 'Conjunctions: (AND concept1 concept2 …)'
+  - 'Nested: relationships may themselves occupy the subject or object slot.'
+rules:
+- name: Bridge Identification
+  description: A relationship is a bridge when only one pathway leads to its object
+    concept.
+  formula: bridge? (rel) = ( indegree(object(rel)) == 1 )
+- name: Truth-Value Precedence
+  description: When conflicting truth-values occur, apply precedence ordering.
+  formula: true/partial > possible   ;   impossible > false
+- name: Transformation Cost Edit Weights
+  description: All five edit operations are weighted equally.
+  formula: cost(edit_k)=1  ∀ k ∈ {rel_add, rel_del, salience±1, concept_add, concept_del}
+- name: Salience Heuristic for Directed-Walk
+  description: Select next relationship with maximum salience among unprocessed links
+    emanating from current node.
+  formula: next_rel = argmax_{r ∈ frontier} salience(r)
