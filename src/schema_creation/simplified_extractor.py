@@ -39,7 +39,7 @@ class Mechanism(BaseModel):
     """How the theory works"""
     name: str = Field(description="Mechanism name")
     description: str = Field(description="What this mechanism does")
-    process: str = Field(description="How it works")
+    process: str = Field(default="", description="How it works")
 
 class TheoryExtraction(BaseModel):
     """Complete theory extraction"""
@@ -50,7 +50,7 @@ class TheoryExtraction(BaseModel):
     modifiers: Dict[str, Any] = Field(description="Modifier categories and options")
     mechanisms: List[Mechanism] = Field(default_factory=list, description="How the theory works")
     notation: Dict[str, Any] = Field(description="Notation systems and symbols")
-    rules: List[Dict[str, str]] = Field(description="Inference rules or constraints")
+    rules: List[Dict[str, Any]] = Field(description="Inference rules or constraints")
 
 def extract_theory(paper_text: str) -> TheoryExtraction:
     """Extract theory using simplified meta-schema"""

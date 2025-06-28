@@ -1,0 +1,165 @@
+model_type: hypergraph
+theory_name: semantic_hypergraphs
+extraction_method: simplified_meta_schema
+nodes:
+- id: ATOM
+  label: Atom / Atomic Hyperedge
+  type: vertex
+  description: Irreducible hyperedge of size 1. Carrier of a human-readable string
+    plus an optional type-code and namespace.
+- id: C
+  label: Concept
+  type: atom-type
+  description: Single word (or built concept) that denotes an entity or idea.
+- id: P
+  label: Predicate
+  type: atom-type & connector
+  description: Connects arguments to form relations; first element of a relation hyperedge.
+- id: M
+  label: Modifier
+  type: atom-type & connector
+  description: Unary connector that builds a new hyperedge of the same type as its
+    single argument.
+- id: B
+  label: Builder
+  type: atom-type & connector
+  description: Connector that combines ≥2 concepts into a higher-order Concept hyperedge.
+- id: T
+  label: Trigger
+  type: atom-type & connector
+  description: Introduces a specification (time, location, condition, …) for a relation.
+- id: J
+  label: Conjunction
+  type: atom-type & connector
+  description: Connector that joins ≥2 concepts or relations into a coordinated structure.
+- id: R
+  label: Relation
+  type: non-atomic hyperedge
+  description: Hyperedge whose connector is a Predicate. Expresses facts, questions,
+    orders, …
+- id: S
+  label: Specifier
+  type: non-atomic hyperedge
+  description: Hyperedge whose connector is a Trigger; adds contextual information
+    to a Relation.
+connections:
+- type: hyperedge-membership
+  description: 'Ordered n-ary containment: the first element (position 0) is a connector,
+    subsequent elements are ordered arguments.'
+  properties:
+    ordered: true
+    recursive: true
+    arity: n ≥ 1
+  vocabulary:
+  - connector ∈ {P, M, B, T, J}
+  - 'argument-role codes: s,p,a,c,o,i,t,j,x,r'
+  - 'builder roles: m (main), a (auxiliary)'
+properties:
+  node_properties:
+  - label (human string)
+  - type_code (C,P,M,B,T,J,R,S)
+  - namespace (optional)
+  - role-string (for connectors, e.g. .sox)
+  connection_properties:
+  - order index
+  - argument_role
+  - depth (nesting level)
+  measures:
+    degree: d(e) = Σ_{ei ∈ D_e} (|ei| – 1)
+    deep_degree: δ(e) = Σ_{ei ∈ Δ_e} (|ei| – 1)
+  formulas:
+    type_inference:
+      (M x): → type(x)
+      (B C C+): → C
+      (T [C|R]): → S
+      (P [C|R|S]+): → R
+      (J x y’+): → x
+modifiers:
+  categories:
+    builder_role:
+    - m
+    - a
+    predicate_role:
+    - s
+    - p
+    - a
+    - c
+    - o
+    - i
+    - t
+    - j
+    - x
+    - r
+  options:
+    order_indifferent: '{roles}'
+    optional_sequence: '...'
+    variable_sequence: X...
+    forbidden_roles: -roles
+mechanisms:
+- name: α-Stage Classification
+  description: Supervised classifier assigns one of 6 atomic types (C,P,M,B,T,J) to
+    each input token.
+  process: Uses linguistic features (POS, dependency label, etc.) to output typed
+    atoms.
+- name: β-Stage Hypergraph Assembly
+  description: Bottom-up search applies type-inference patterns to the typed atom
+    sequence until a single syntactically valid hyperedge remains.
+  process: Iteratively matches patterns from Table 2, chooses candidate by heuristic
+    (dependency connectivity, depth, rule priority).
+- name: Pattern Matching / Rule Application
+  description: SH patterns with variables are matched against the hypergraph; matching
+    subedges are rewritten or duplicated according to rules (PAT1 ` PAT2).
+  process: Variables bind to hyperedges; wildcards, role constraints and ordering
+    controls govern match.
+- name: Argument-Role Inference
+  description: Roles s,p,a,c,o,i,t,j,x,r assigned from dependency labels; builder
+    hypernym determined via role m.
+  process: Mapping tables translate dependency tags to role codes.
+notation:
+  type_codes:
+    C: concept
+    P: predicate
+    M: modifier
+    B: builder
+    T: trigger
+    J: conjunction
+    R: relation
+    S: specifier
+  symbols:
+    ( … ): hyperedge brackets
+    /: separates label and type code, e.g. apple/C
+    .roleString: lists argument roles after connector, e.g. is/P.scx
+    +/B: special builder for compound nouns
+    :/J: generic conjunction
+    UPPER: variable
+    '`': rule separator PAT1 ` PAT2
+    '{ }': arguments may appear in any order
+    '...': optional unspecified sequence
+    X...: named variable sequence
+    '[ ]': one-of role options
+    '-': forbid roles inside pattern
+    '>': select innermost predicate atom through modifier layers
+  formal_notation:
+  - Hypergraph H=(V,E), E⊂E_V, recursive ordered edges
+  - Degree and deep-degree formulas (see properties.measures)
+rules:
+- name: 'Conjunction Decomposition #1'
+  description: Splits concept conjunctions inside a relation into multiple relations,
+    one per conjunct.
+  formula: (*/J ... CONCEPT/C ...)  `  (CONCEPT/C)
+- name: 'Conjunction Decomposition #2'
+  description: Splits conjunction of full relations having explicit subjects.
+  formula: (*/J ... (PRED/P.{[sp]} X Y...) ...)  `  (PRED/P.{[sp]} X Y...)
+- name: 'Conjunction Decomposition #3'
+  description: Propagates subject of first conjunct to following conjuncts that lack
+    a subject.
+  formula: (*/J (*/P.{[sp]} SUBJ/* ...) ... (PRED/P.-sp X...) ...)  `  (PRED/P.{s}
+    SUBJ/* X...)
+- name: Pattern–Rule Syntax
+  description: 'General replacement rule: any hyperedge matching PAT1 triggers creation
+    of PAT2 with same bindings.'
+  formula: PATTERN1  `  PATTERN2
+- name: Builder Role Hypernym
+  description: In builder hyperedge, argument with role m is hypernym of resulting
+    concept.
+  formula: (B.am C_main C_aux+) ⇒ hypernym(C_main, (B.am C_main C_aux+))

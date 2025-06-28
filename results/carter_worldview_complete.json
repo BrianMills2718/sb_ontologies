@@ -1,0 +1,210 @@
+{
+  "process_execution": {
+    "IdentifyBeliefs": [
+      {
+        "subject": "Jimmy Carter",
+        "relationship": "is-a",
+        "object": "President of the United States",
+        "modifiers": [
+          "past"
+        ],
+        "truth_value": "true",
+        "original_text": "Senator Hollings and Senator Eastland, Senator Stennis, Governor Edwards, Chairman Bragg, distinguished Members of Congress, those representatives from State government... It's not often that a President comes as a substitute speaker."
+      },
+      {
+        "subject": "United States",
+        "relationship": "assert",
+        "object": "shared responsibility in government",
+        "modifiers": [
+          "present"
+        ],
+        "truth_value": "true",
+        "original_text": "I think there's a genuine sense of sharing of responsibility and the burden of government..."
+      },
+      {
+        "subject": "Americans",
+        "relationship": "positive-cause",
+        "object": "pride in independence and local government",
+        "modifiers": [
+          "present"
+        ],
+        "truth_value": "true",
+        "original_text": "Our Southern States have a proud tradition of local, independent government..."
+      },
+      {
+        "subject": "United States",
+        "relationship": "assert",
+        "object": "global interdependence",
+        "modifiers": [
+          "present"
+        ],
+        "truth_value": "true",
+        "original_text": "And as Americans we cannot overlook the way that our fate is bound to that of other nations. This interdependence stretches from the health of our economy, through war and peace, to the security of our own energy supplies."
+      },
+      {
+        "subject": "United States",
+        "relationship": "assert",
+        "object": "need to pursue balanced and lasting solutions with Soviet Union",
+        "modifiers": [
+          "present"
+        ],
+        "truth_value": "true",
+        "original_text": "Our goal has not been to reach easy or transient agreements, but to find solutions that are meaningful, balanced, and lasting."
+      },
+      {
+        "subject": "US Government",
+        "relationship": "reduce",
+        "object": "nuclear arms",
+        "modifiers": [
+          "present",
+          "goal"
+        ],
+        "truth_value": "true",
+        "original_text": "In the talks on strategic arms limitations, the SALT talks, we advanced a comprehensive proposal for genuine reductions..."
+      },
+      {
+        "subject": "United States",
+        "relationship": "assert",
+        "object": "need for total ban on nuclear tests",
+        "modifiers": [
+          "present"
+        ],
+        "truth_value": "true",
+        "original_text": "We have urged a complete end to all nuclear tests, and these negotiations are now underway."
+      },
+      {
+        "subject": "United States",
+        "relationship": "assist",
+        "object": "reducing conventional arms transfers worldwide",
+        "modifiers": [
+          "present"
+        ],
+        "truth_value": "true",
+        "original_text": "We have proposed to curb the sales and transfers of conventional weapons to other countries..."
+      },
+      {
+        "subject": "United States",
+        "relationship": "assert",
+        "object": "commitment to human rights globally",
+        "modifiers": [
+          "present"
+        ],
+        "truth_value": "true",
+        "original_text": "Our policy is exactly what it appears to be: the positive and sincere expression of our deepest beliefs as a people."
+      },
+      {
+        "subject": "Jimmy Carter",
+        "relationship": "assert",
+        "object": "peace depends on cooperation with Soviet Union",
+        "modifiers": [
+          "present"
+        ],
+        "truth_value": "true",
+        "original_text": "We shape our own policies to accommodate a constantly changing world... Together we can give this change a positive direction."
+      }
+    ],
+    "RepresentBeliefs": {
+      "concept_nodes": [
+        "Jimmy Carter",
+        "President of the United States",
+        "United States",
+        "shared responsibility in government",
+        "Americans",
+        "pride in independence",
+        "local government",
+        "global interdependence",
+        "balanced and lasting solutions",
+        "Soviet Union",
+        "US Government",
+        "nuclear arms",
+        "ban on nuclear tests",
+        "conventional arms transfers",
+        "commitment to human rights",
+        "peace"
+      ],
+      "relationship_nodes": [
+        "is-a",
+        "assert",
+        "positive-cause",
+        "reduce",
+        "assist"
+      ],
+      "conjunction_nodes": [
+        "and",
+        "or"
+      ]
+    },
+    "SynonymAggregation": {
+      "synonyms_found": {
+        "nuclear arms": [
+          "nuclear weapons"
+        ],
+        "pride in independence": [
+          "sense of autonomy"
+        ],
+        "ban on nuclear tests": [
+          "complete end to nuclear tests"
+        ]
+      },
+      "aggregated_concepts": [
+        "Jimmy Carter",
+        "President of the United States",
+        "United States",
+        "shared responsibility in government",
+        "Americans",
+        "sense of autonomy",
+        "local government",
+        "global interdependence",
+        "balanced and lasting solutions",
+        "Soviet Union",
+        "US Government",
+        "nuclear weapons",
+        "complete end to nuclear tests",
+        "conventional arms transfers",
+        "commitment to human rights",
+        "peace"
+      ]
+    },
+    "ComputeMeasures": {
+      "dependency": "0.33 (approx.)",
+      "connectedness": "0.70 (approx.)",
+      "size": 16,
+      "key_concepts_by_salience": [
+        "United States",
+        "Soviet Union",
+        "nuclear weapons",
+        "commitment to human rights",
+        "peace"
+      ]
+    },
+    "ReasoningModel": {
+      "key_inferences": [
+        "Carter believes reducing nuclear threat increases global security.",
+        "U.S. global engagement is driven by moral principles (human rights) and self-interest.",
+        "International cooperation is necessary for peace and addressing mutual concerns."
+      ],
+      "predicted_decisions": [
+        "Pursue SALT agreements to limit and reduce nuclear arsenals.",
+        "Continue advocating a global ban on nuclear tests.",
+        "Encourage multilateral restraints on arms transfers.",
+        "Advance human rights discussions in diplomatic engagements."
+      ]
+    }
+  },
+  "semantic_network": {
+    "summary": "Jimmy Carter\u2019s foreign policy view emphasizes international cooperation (especially with the Soviet Union), arms control, and human rights as interconnected priorities. He sees global interdependence as guiding U.S. commitments and stresses partnership rather than unilateral dominance.",
+    "dominant_belief_patterns": [
+      "Emphasis on arms reduction (nuclear/conventional)",
+      "Assertion of mutual interdependence in global affairs",
+      "Commitment to human rights as a universal concern",
+      "Desire for balanced, reciprocal agreements with other nations"
+    ],
+    "foreign_policy_worldview": "Carter\u2019s worldview posits that genuine security comes from reducing the threat of war through diplomacy, moral leadership, and shared responsibilities among nations, especially the U.S. and the Soviet Union."
+  },
+  "success_criteria_met": {
+    "captures_belief_structure": true,
+    "enables_structural_analysis": true,
+    "enables_process_analysis": true,
+    "explanation": "The extracted beliefs and their semantic network illustrate Carter\u2019s key foreign policy concerns\u2014arms control, human rights, and cooperation. Structural properties (dependency, connectedness) can be measured, and the representation supports inference and further analysis."
+  }
+}

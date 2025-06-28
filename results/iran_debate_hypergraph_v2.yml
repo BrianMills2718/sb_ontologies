@@ -1,0 +1,100 @@
+theory: Semantic Hypergraph
+atoms:
+- id: a1
+  label: Iran
+  type: C
+  type_name: concept
+- id: a2
+  label: threat
+  type: C
+  type_name: concept
+- id: a3
+  label: is
+  type: P
+  type_name: predicate
+- id: a4
+  label: really
+  type: M
+  type_name: modifier
+- id: a5
+  label: United States
+  type: C
+  type_name: concept
+- id: a6
+  label: to
+  type: P
+  type_name: predicate
+- id: a7
+  label: debate
+  type: C
+  type_name: concept
+- id: a8
+  label: hawk
+  type: C
+  type_name: concept
+- id: a9
+  label: skeptic
+  type: C
+  type_name: concept
+- id: a10
+  label: 'on'
+  type: P
+  type_name: predicate
+- id: a11
+  label: hope
+  type: C
+  type_name: concept
+- id: a12
+  label: for
+  type: P
+  type_name: predicate
+- id: a13
+  label: shared
+  type: M
+  type_name: modifier
+hyperedges:
+- id: h1
+  connector: a6
+  arguments:
+  - a2
+  - a5
+  type: R
+  roles: so
+- id: h2
+  connector: a3
+  arguments:
+  - a1
+  - a2
+  type: R
+  roles: so
+- id: h3
+  connector: a10
+  arguments:
+  - a8
+  - a11
+  type: R
+  roles: so
+- id: h4
+  connector: a10
+  arguments:
+  - a9
+  - a11
+  type: R
+  roles: so
+- id: h5
+  connector: a12
+  arguments:
+  - a11
+  - a1
+  type: R
+  roles: so
+visualization: "(to/P.so\n  threat/C\n  United States/C\n)\n\n(is/P.so\n  Iran/C\n\
+  \  threat/C\n)\n\n(on/P.so\n  hawk/C\n  hope/C\n)\n\n(on/P.so\n  skeptic/C\n  hope/C\n\
+  )\n\n(for/P.so\n  hope/C\n  Iran/C\n)"
+summary:
+  total_atoms: 13
+  total_hyperedges: 5
+  type_distribution:
+    C: 7
+    P: 4
+    M: 2

@@ -1,0 +1,279 @@
+{
+  "cognitive_map": {
+    "concepts": [
+      {
+        "concept": "Jimmy Carter",
+        "type": "person",
+        "salience": 6
+      },
+      {
+        "concept": "Billy Carter",
+        "type": "person",
+        "salience": 2
+      },
+      {
+        "concept": "Southern Legislative Conference",
+        "type": "organization",
+        "salience": 2
+      },
+      {
+        "concept": "President",
+        "type": "role",
+        "salience": 5
+      },
+      {
+        "concept": "Congress",
+        "type": "organization",
+        "salience": 8
+      },
+      {
+        "concept": "Governor",
+        "type": "role",
+        "salience": 4
+      },
+      {
+        "concept": "Georgia",
+        "type": "location",
+        "salience": 3
+      },
+      {
+        "concept": "White House",
+        "type": "location",
+        "salience": 2
+      },
+      {
+        "concept": "Nation's Capitol",
+        "type": "location",
+        "salience": 2
+      },
+      {
+        "concept": "United States",
+        "type": "location",
+        "salience": 8
+      },
+      {
+        "concept": "Soviet Union",
+        "type": "nation",
+        "salience": 10
+      },
+      {
+        "concept": "peace",
+        "type": "concept",
+        "salience": 6
+      },
+      {
+        "concept": "nuclear weapons",
+        "type": "concept",
+        "salience": 5
+      },
+      {
+        "concept": "SALT",
+        "type": "concept",
+        "salience": 3
+      },
+      {
+        "concept": "human rights",
+        "type": "concept",
+        "salience": 3
+      },
+      {
+        "concept": "world",
+        "type": "location",
+        "salience": 10
+      },
+      {
+        "concept": "Africa",
+        "type": "location",
+        "salience": 2
+      },
+      {
+        "concept": "Middle East",
+        "type": "location",
+        "salience": 2
+      },
+      {
+        "concept": "Brezhnev",
+        "type": "person",
+        "salience": 2
+      },
+      {
+        "concept": "energy",
+        "type": "concept",
+        "salience": 2
+      }
+    ],
+    "statements": [
+      {
+        "subject": "Representatives from State Government",
+        "relationship": "component",
+        "object": "leadership of America",
+        "modifier": null,
+        "truth_value": "true",
+        "original_text": "those representatives from State government, who share the leadership of America"
+      },
+      {
+        "subject": "Southern Legislative Conference",
+        "relationship": "purchase",
+        "object": "Billy Carter\u2019s presence (negated: could not afford)",
+        "modifier": null,
+        "truth_value": "true",
+        "original_text": "I understand that the Southern Legislative Conference... couldn't afford Billy here."
+      },
+      {
+        "subject": "President",
+        "relationship": "visit",
+        "object": "Plains",
+        "modifier": "past",
+        "truth_value": "true",
+        "original_text": "I was going to go by Plains on this trip, but I couldn't get a room there."
+      },
+      {
+        "subject": "Congress",
+        "relationship": "attribute",
+        "object": "treated Carter as Governor of Georgia",
+        "modifier": null,
+        "truth_value": "true",
+        "original_text": "Very quickly I realized that the Congress was treating me like I was still Governor of Georgia."
+      },
+      {
+        "subject": "We",
+        "relationship": "organize",
+        "object": "relationship between the White House and the Nation\u2019s Capitol",
+        "modifier": "normative",
+        "truth_value": "true",
+        "original_text": "We've formed a kind of relationship that ought to exist between the White House and our Nation's Capitol."
+      },
+      {
+        "subject": "President + Congress + State Legislatures + Governors",
+        "relationship": "positive-cause",
+        "object": "government works",
+        "modifier": null,
+        "truth_value": "true",
+        "original_text": "I think there's a genuine sense of sharing of responsibility...making sure that our government works."
+      },
+      {
+        "subject": "Jimmy Carter",
+        "relationship": "feel",
+        "object": "pride about American identity and Southern identity",
+        "modifier": null,
+        "truth_value": "true",
+        "original_text": "I've become even more proud of being an American. And I have become even more proud of being a southerner, too."
+      },
+      {
+        "subject": "Our lives",
+        "relationship": "influence",
+        "object": "events in other cities, decisions in other states, tensions in other parts of the world",
+        "modifier": null,
+        "truth_value": "true",
+        "original_text": "More and more our own lives are shaped by events in other cities, decisions in other States, tensions in other parts of the world."
+      },
+      {
+        "subject": "We",
+        "relationship": "assert",
+        "object": "many difficult and controversial issues (addressed openly)",
+        "modifier": null,
+        "truth_value": "true",
+        "original_text": "We have openly and publicly addressed these and other many difficult and controversial issues..."
+      },
+      {
+        "subject": "Jimmy Carter",
+        "relationship": "goal",
+        "object": "restore the moral bearings of American foreign policy",
+        "modifier": null,
+        "truth_value": "true",
+        "original_text": "I felt that it was urgent to restore the moral bearings of American foreign policy."
+      },
+      {
+        "subject": "We",
+        "relationship": "propose",
+        "object": "Soviets engage further in international activities",
+        "modifier": null,
+        "truth_value": "true",
+        "original_text": "We want to see the Soviets further engaged in the growing pattern of international activities..."
+      },
+      {
+        "subject": "We",
+        "relationship": "propose",
+        "object": "comprehensive arms control (reductions, limitations, freeze) to maintain balanced strategic strength",
+        "modifier": null,
+        "truth_value": "true",
+        "original_text": "In the talks on strategic arms limitations... we advanced a comprehensive proposal for genuine reductions, limitations, and a freeze on new technology..."
+      },
+      {
+        "subject": "We",
+        "relationship": "cooperate",
+        "object": "ban on chemical and biological warfare, elimination of destructive materials",
+        "modifier": "present",
+        "truth_value": "true",
+        "original_text": "We are working together toward a ban on chemical and biological warfare and the elimination of inventories of these destructive materials."
+      },
+      {
+        "subject": "We",
+        "relationship": "if-then",
+        "object": "limit our own strategic programs",
+        "modifier": null,
+        "truth_value": "true",
+        "original_text": "If these threats can be controlled, then we are prepared to limit our own strategic programs."
+      },
+      {
+        "subject": "Jimmy Carter",
+        "relationship": "assert",
+        "object": "peace depends on US\u2013Soviet cooperation and arms control",
+        "modifier": null,
+        "truth_value": "true",
+        "original_text": "What matters ultimately is whether we can create a relationship of cooperation... It's up to all of us to help make that unspoken passion into something more than just a dream."
+      }
+    ],
+    "conjunctions": [
+      {
+        "type": "and",
+        "concepts": [
+          "Senator Hollings",
+          "Senator Eastland"
+        ],
+        "context": "list of individuals in the opening address"
+      },
+      {
+        "type": "and",
+        "concepts": [
+          "American identity",
+          "Southern identity"
+        ],
+        "context": "Carter expresses pride in both"
+      },
+      {
+        "type": "and",
+        "concepts": [
+          "events in other cities",
+          "decisions in other states",
+          "tensions in other parts of the world"
+        ],
+        "context": "multiple external factors influencing our lives"
+      }
+    ]
+  },
+  "structural_analysis": {
+    "dominant_relationships": [
+      "attribute",
+      "component",
+      "organize",
+      "positive-cause",
+      "feel",
+      "influence",
+      "assert",
+      "goal",
+      "propose",
+      "cooperate",
+      "if-then"
+    ],
+    "temporal_focus": "Mixed references to past, present, and future (frequent present and forward-looking statements)",
+    "key_concepts": [
+      "Soviet Union",
+      "United States",
+      "peace",
+      "nuclear weapons",
+      "human rights"
+    ],
+    "belief_certainty": "Most statements are presented as true or factual from the speaker\u2019s viewpoint"
+  }
+}

@@ -1,0 +1,223 @@
+────────────────────────────────────────────────────────────────────────
+STEP 1: IDENTIFY STATEMENTS (SUBJECT – RELATIONSHIP – OBJECT)
+────────────────────────────────────────────────────────────────────────
+Below is a densely coded extraction of Carter’s assertions. Each numbered item is one subject–relationship–object (or proposition) drawn from the text. Parenthetical notes in square brackets clarify context if needed.
+
+1. (President attribute “serves as a substitute speaker [rarely]”)  
+2. (Billy Carter is-a “first choice speaker” [for SLC])  
+3. (Southern Legislative Conference attribute “cannot afford Billy’s fees”)  
+4. (Carter negative-cause “lack of hotel rooms” for “visiting Plains”)  
+5. (Carter action “will go to Yazoo City”)  
+6. (Carter action “will go to New Orleans”)  
+7. (Carter attribute “grateful to be President”)  
+8. (Carter attribute “learned a lot in first 6 months”)  
+9. (Unidentified_advisor strategy “act like a President” directed-at Carter)  
+10. (Unidentified_advisor strategy “treat Congress like the Georgia Legislature” directed-at Carter)  
+11. (That recommended approach negative-cause “early success” [it did not work at first])  
+12. (Congress action “treated Carter as if he were still Governor of Georgia”)  
+13. (Friends_in_Congress positive-cause “improvement of Carter–Congress relationship”)  
+14. (White_House_and_Congress attribute “share responsibilities and burdens of government”)  
+15. (State_legislators attribute “circle of leaders” who join with the President and Congress)  
+16. (Carter attribute “pride in being American”)  
+17. (Carter attribute “pride in being Southerner”)  
+18. (Southerners_and_Americans attribute “shared hopes and problems”)  
+19. (Carter is-a “former Georgia Senator”)  
+20. (State_government attribute “closeness to the people”)  
+21. (Southern_States attribute “tradition of local, independent government”)  
+22. (Today’s_Southern_leaders is-a “heirs to that tradition”)  
+23. (South attribute “has felt rapid modern changes acutely”)  
+24. (Americans attribute “fate is interdependent with other nations”)  
+25. (Interdependence location “economy, war/peace, energy security”)  
+26. (We [Americans] normative “should not be narrow, short-sighted, or selfish in a new world”)  
+27. (Nation attribute “faced multiple global problems at start of Carter presidency”)  
+28. (Those_problems location “southern Africa, Middle East, NATO relations, nuclear proliferation, Panama Canal, human rights, world poverty”)  
+29. (Carter_administration action “openly addressed these difficult issues”)  
+30. (Previous_leadership negative-cause “skirted or postponed issues”)  
+31. (Carter_administration goal “find meaningful, balanced, lasting solutions”)  
+32. (Soviet–American_relationship attribute “directly shapes peace prospects”)  
+33. (US_foreign_policy_central_issue is-a “antagonism with Soviet-led coalition”)  
+34. (US_national_security attribute “historically defined by military competition with USSR”)  
+35. (Competition_with_USSR attribute “still critical but cannot be sole focus”)  
+36. (Nuclear_proliferation negative-cause “danger to the world if weapons spread widely”)  
+37. (United_States_and_Soviet_Union is-a “two industrial giants”)  
+38. (Both_sides face “long-term worldwide energy crisis”)  
+39. (US_and_USSR attribute “have many overlapping interests”)  
+40. (US negotiation-guiding-vision “gentler, freer, more bountiful world”)  
+41. (Carter action “decided on honest public discussions with Americans”)  
+42. (Carter strategy “restore moral bearings in US foreign policy”)  
+43. (Carter strategy “place US–Soviet ties on reciprocal, realistic, productive footing”)  
+44. (US goal “protect security + create constructive international order”)  
+45. (US foreign-policy approach “fresh perspective on Soviet–American relations”)  
+46. (US negotiation approach “bold, constructive proposals for concrete results”)  
+47. (Carter_admin_SALT proposal “genuine reductions, limits, freeze on new strategic technology”)  
+48. (Carter_admin action “urged complete ban on nuclear tests”)  
+49. (US_and_USSR action “working on ban of chemical and biological warfare”)  
+50. (Carter_admin action “proposed curbing conventional arms transfers worldwide”)  
+51. (Carter_admin action “attempting to halt nuclear proliferation”)  
+52. (US_and_USSR action “seeking to cooperate on world health & hunger relief”)  
+53. (SALT attribute “aim for genuine arms reductions + strategic balance”)  
+54. (Carter_admin if-then “If certain threats controlled, then US will limit own strategic programs”)  
+55. (Carter_admin if-then “If no SALT agreement, US will do whatever necessary to protect security”)  
+56. (Carter_admin action “pressed for Soviet and Cuban restraint in southern Africa”)  
+57. (US policy “expand realm of independent, self-reliant nations” in nonaligned world)  
+58. (Soviet_leaders attribute “incorrectly believe US human-rights focus targets them”)  
+59. (US_policy_human_rights attribute “applies equally to all nations (including the US itself)”)  
+60. (US normative “actions must reflect essential American values (realism + principle)”)  
+61. (Soviet_people attribute “strong yearning for peace” after past suffering)  
+62. (American_people attribute “yearn for real peace”)  
+63. (Global_leaders cause “making peace aspirations more than a dream”)  
+64. (Brezhnev statement “realism + detente will let humanity enter 21st century in stable peace”)  
+65. (Carter attribute “credits Brezhnev’s sincerity about peace”)  
+
+────────────────────────────────────────────────────────────────────────
+STEP 2: ASSIGN MODIFIERS AND TRUTH VALUES
+────────────────────────────────────────────────────────────────────────
+Below is a concise tagging of temporal (past, present, future), modal (goal, hypothetical), normative, or truth-value aspects. Each line references the item(s) from Step 1.
+
+• Statement 1: (President attribute “substitute speaker [rarely]”) → truth: true (observational), temporal: present.  
+• Statement 2: (Billy Carter is-a “first choice speaker”) → truth: true (past context).  
+• Statement 3: (SLC “cannot afford Billy’s fees”) → partial or possible truth; comedic context, temporal: past.  
+• Statement 4: (Carter negative-cause “lack of rooms” in Plains) → truth: possible, temporal: past.  
+• Statements 5–6: Travel to Yazoo City & New Orleans → truth: future intention, temporal: future.  
+• Statement 7: (Carter is “grateful to be President”) → truth: true, temporal: present.  
+• Statement 8: (Carter “learned a lot in 6 months”) → truth: true, temporal: present.  
+• Statements 9–10: (Advisor strategies to Carter) → truth: possible (advice given), no strong temporal, might be past iterative.  
+• Statement 11: (Strategy “did not work at first”) → truth: true, temporal: past.  
+• Statement 12: (Congress “treated Carter as Gov.”) → truth: true, temporal: past.  
+• Statement 13: (Friends_in_Congress caused improvement) → truth: true, temporal: present.  
+• Statements 14–15: (Sharing burdens of government and circle of leaders) → normative/present.  
+• Statements 16–17: (Carter’s pride) → truth: true, temporal: present (attitudinal).  
+• Statement 18: (Southerners+Americans share hopes) → truth: true.  
+• Statement 19: (Carter is-a former GA Senator) → truth: true, temporal: past.  
+• Statement 20: (State govt closeness to people) → truth: true, present.  
+• Statements 21–22: (Southern tradition & heirs) → truth: true, present.  
+• Statement 23: (South felt rapid changes) → truth: true, temporal: present/past.  
+• Statement 24: (US fate is interdependent) → truth: true, normative emphasis.  
+• Statement 25: (Interdependence scope) → truth: true.  
+• Statement 26: (We “should not be selfish”) → truth: normative.  
+• Statements 27–28: (Nation faced problems globally) → truth: true, temporal: past transitioning.  
+• Statement 29: (Carter admin “openly addressed issues”) → truth: true, temporal: present/past.  
+• Statement 30: (Previous leadership “postponed issues”) → truth: partial, temporal: past.  
+• Statement 31: (Goal: meaningful solutions) → truth: goal (modal).  
+• Statement 32: (Soviet–American ties shape peace) → truth: true.  
+• Statements 33–34: (Historical antagonism, competition) → truth: true, temporal: past and continuing.  
+• Statement 35: (Competition with USSR still critical) → truth: true, present.  
+• Statement 36: (Nuclear proliferation dangerous) → truth: true, normative caution.  
+• Statements 37–38: (US + USSR are industrial giants facing energy crisis) → truth: true.  
+• Statement 39: (Both sides share interests) → truth: true.  
+• Statement 40: (Guiding vision: gentler world) → truth: goal (modal), normative.  
+• Statements 41–43: (Carter’s open discussions, moral bearings, reciprocal ties) → truth: true, present strategies.  
+• Statement 44: (Goal: secure & constructive order) → goal (modal).  
+• Statements 45–46: (New approach, bold proposals) → truth: present.  
+• Statement 47: (SALT proposals: reductions/freeze) → truth: true, present.  
+• Statement 48: (Urge ban on nuclear tests) → truth: true, present, goal.  
+• Statement 49: (Work on banning chem/bio warfare) → truth: true, present.  
+• Statement 50: (Propose restricting arms transfers) → truth: true, present, goal.  
+• Statement 51: (Halt nuclear proliferation) → truth: goal, present.  
+• Statement 52: (Cooperate on health/hunger) → truth: goal, present.  
+• Statement 53: (SALT: genuine reductions balancing) → truth: goal, normative.  
+• Statement 54: (If threats controlled → US limits arms) → conditional (if-then).  
+• Statement 55: (If no SALT → US ensures security) → conditional (if-then).  
+• Statement 56: (Pressed Soviets/Cubans for restraint in Africa) → truth: true, present.  
+• Statement 57: (US wants “independent nations” in nonaligned world) → truth: goal, normative.  
+• Statement 58: (Soviet leaders incorrectly believe HR stance attacks them) → truth: partial guess.  
+• Statement 59: (Human rights apply to all equally) → truth: true, normative principle.  
+• Statement 60: (Actions must reflect US values) → normative, truth: goal.  
+• Statements 61–62: (Both Soviets & Americans yearn for peace) → truth: true.  
+• Statement 63: (Leaders “must convert peace aspirations into reality”) → normative, present.  
+• Statement 64: (Brezhnev statement “realism & detente lead to stable peace”) → quoting, truth: uncertain but credited sincere.  
+• Statement 65: (Carter “credits sincerity of Brezhnev’s vision”) → truth: present.  
+
+────────────────────────────────────────────────────────────────────────
+STEP 3: CONSTRUCT THE SEMANTIC NETWORK
+────────────────────────────────────────────────────────────────────────
+Below is a high-level schematic (not every node repeated) showing how concepts (CAPS) and reified relationships connect. In practice, each relationship can itself be a node if it has its own attributes or modifiers.
+
+ • CARTER  
+   ├─(attribute)─► PRESIDENT  
+   ├─(action: “learned a lot”)─► LEARNING_EXPERIENCE [past 6 months]  
+   ├─(strategy)─► OPEN_DISCUSSIONS_WITH_AMERICANS  
+   ├─(strategy)─► RESTORE_MORAL_BEARINGS  
+   ├─(strategy)─► BUILD_RECIPROCAL_US_SOVIET_TIES  
+
+ • CONGRESS  
+   ├─(action)─► TREATED_CARTER_AS_GA_GOV (temporal: past)  
+
+ • CARTER + CONGRESS  
+   └─(relationship)─► IMPROVED_RELATIONSHIP  
+       (modifiers: normative = “should exist”)  
+
+ • SOUTHERN_STATES  
+   ├─(attribute)─► TRADITION_OF_LOCAL_GOVERNMENT  
+   └─(attribute)─► FEEL_RAPID_CHANGES  
+
+ • US & USSR (“TWO_INDUSTRIAL_GIANTS”)  
+   ├─(overlapping_interests)─► SHARED_INTERESTS  
+   ├─(face)─► ENERGY_CRISIS  
+   └─(competition)─► MILITARY_BALANCE  
+
+ • SALT (STRATEGIC_ARMS_LIMITATION_TALKS)  
+   ├─(proposal_by_US)─► REDUCTIONS_LIMITS_FREEZE  
+   ├─(if-then)─► IF_THREATS_CONTROLLED_THEN_LIMIT_US_STRATEGIC_PROGRAMS  
+   └─(if-then)─► IF_NO_AGREEMENT_THEN_US_ENSURE_SECURITY  
+
+ • HUMAN_RIGHTS  
+   ├─(CARTER_ADMIN_position)─► APPLIES_TO_ALL_NATIONS  
+   └─(SOVIET_LEADERS_belief)─► “MISINTERPRETED_AS_TARGETING_USSR”  
+
+ • DESIRE_FOR_PEACE (reified concept)  
+   ├─(SOVIETS)─► YEARN_FOR_PEACE  
+   └─(AMERICANS)─► YEARN_FOR_PEACE  
+       (leaders have normative obligation to realize)  
+
+Note that “compounds” like IF-THEN statements can themselves be reified nodes. For instance, (IF_THREATS_CONTROLLED_THEN_LIMIT_ARMS) can be a node that “belongs to” SALT negotiations, with its own truth-value or temporal constraints.
+
+────────────────────────────────────────────────────────────────────────
+STEP 4: APPLY SYNONYM FACILITY
+────────────────────────────────────────────────────────────────────────
+• “Jimmy Carter,” “Carter,” “President Carter” → unify as CARTER.  
+• “USSR,” “Soviet Union,” “Soviets” → unify as USSR.  
+• “Southern Legislative Conference,” “SLC” → unify as SLC.  
+• “Human rights concern,” “human rights stance,” “commitment to human rights” → unify as HUMAN_RIGHTS_POLICY.  
+
+Likewise, “ban nuclear tests,” “halt nuclear proliferation,” “SALT proposals limiting nuclear arms” are all specialized subnodes under the broader category ARMS_CONTROL_POLICY but remain distinct concepts if needed for clarity.
+
+────────────────────────────────────────────────────────────────────────
+STEP 5: CONDUCT ANALYSIS / REASONING
+────────────────────────────────────────────────────────────────────────
+Below are illustrative metrics from the WorldView framework:
+
+1) SIZE  
+   • Count of unique concepts (nodes) in the network.  
+   • By cursory grouping, ~25–30 distinct concept-nodes appear (e.g., CARTER, CONGRESS, USSR, SLC, BILLY_CARTER, PRESIDENT, HUMAN_RIGHTS, SALT, etc.).  
+   • size(G) ≈ 30  
+
+2) CONNECTEDNESS  
+   • C(G) = (#relationships) / (#concepts + #relationships).  
+   • Roughly ~65 relationships extracted, ~30 concepts.  
+   • #concepts + #relationships = 30 + 65 = 95.  
+   • Then C(G) = 65 / 95 ≈ 0.68.  
+   • Interpretation: The map is fairly interconnected, showing many statements link overlapping concepts.  
+
+3) DEPENDENCY  
+   • D(G) = [(#bridges / #relationships)] / (#structures).  
+   • “Bridges” are relationships essential for linking subgraphs. Suppose ~10 relationships are bridging distinct sub-networks (e.g., SALT negotiations bridging “Carter” and “USSR”).  
+   • #relationships = 65, #structures (rough subgraphs) ~ 1 large subgraph and 2–3 smaller attachments, so #structures ≈ 3 or 4.  
+   • Estimate D(G) ≈ (10/65) / 3 = 10/65/3 ≈ 0.051.  
+   • Interpretation: Low–moderate dependency; the map is mostly integrated into a single cluster, with some bridging lines.  
+
+4) TRANSFORMATION COST (hypothetical comparison)  
+   • Not computed here since we have only one map. If we compared Carter’s map to (say) Brezhnev’s, we would count how many edits (add or remove edges/concepts) are needed.  
+
+5) NORMATIVE / MODAL STATEMENTS  
+   • Many references to “should,” “need to,” “responsibility.” These reflect the normative emphasis on peace, arms control, and moral grounding.  
+
+────────────────────────────────────────────────────────────────────────
+CONCLUDING INSIGHTS
+────────────────────────────────────────────────────────────────────────
+• Carter’s belief structure emphasizes open government, moral principles, arms control, and multilateral cooperation.  
+• Human-rights advocacy is portrayed as universal, not anti-Soviet.  
+• A major focus is the idea that US–USSR relations shape world peace, but are only one part of a broader global system also involving energy, development, and interdependence.  
+• The map’s moderate-to-high connectedness reflects Carter’s integrated worldview, linking domestic governance (Congress, state legislatures) to global arms control and human rights.  
+
+This completes the five-step WorldView analysis for President Carter’s Charleston speech, capturing dense subject–relationship–object statements in a semantic network, applying relevant modifiers, merging synonyms, and illustrating core structural and comparative metrics.

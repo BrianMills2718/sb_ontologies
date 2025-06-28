@@ -1,0 +1,532 @@
+theory: Young 1996 Cognitive Mapping
+stages_executed:
+- extraction
+- filtering
+- structuring
+- analysis
+final_output:
+  concepts:
+  - id: united_states
+    label: United States
+    salience: 13
+    salience_factors:
+      frequency: 1
+      relationships: 5
+      emphasis: high
+      centrality: central
+  - id: soviet_union
+    label: Soviet Union
+    salience: 13
+    salience_factors:
+      frequency: 1
+      relationships: 5
+      emphasis: high
+      centrality: central
+  - id: threat_of_nuclear_war
+    label: threat of nuclear war
+    salience: 9
+    salience_factors:
+      frequency: 1
+      relationships: 4
+      emphasis: high
+      centrality: important
+  - id: nuclear_war
+    label: nuclear war
+    salience: 2
+    salience_factors:
+      frequency: 1
+      relationships: 0
+      emphasis: low
+      centrality: peripheral
+  - id: president_carter
+    label: President Carter
+    salience: 6
+    salience_factors:
+      frequency: 1
+      relationships: 3
+      emphasis: high
+      centrality: supporting
+  - id: peace
+    label: peace
+    salience: 8
+    salience_factors:
+      frequency: 1
+      relationships: 4
+      emphasis: high
+      centrality: important
+  - id: genuine_cooperation
+    label: genuine cooperation
+    salience: 7
+    salience_factors:
+      frequency: 1
+      relationships: 3
+      emphasis: high
+      centrality: important
+  - id: cooperation
+    label: cooperation
+    salience: 6
+    salience_factors:
+      frequency: 2
+      relationships: 0
+      emphasis: medium
+      centrality: supporting
+  - id: salt_talks
+    label: SALT talks
+    salience: 10
+    salience_factors:
+      frequency: 1
+      relationships: 5
+      emphasis: medium
+      centrality: important
+  - id: arms_control
+    label: arms control
+    salience: 7
+    salience_factors:
+      frequency: 1
+      relationships: 3
+      emphasis: medium
+      centrality: important
+  - id: nuclear_arsenals
+    label: nuclear arsenals
+    salience: 6
+    salience_factors:
+      frequency: 1
+      relationships: 4
+      emphasis: medium
+      centrality: supporting
+  - id: both_superpowers
+    label: Both superpowers
+    salience: 14
+    salience_factors:
+      frequency: 1
+      relationships: 7
+      emphasis: high
+      centrality: central
+  - id: superpowers
+    label: superpowers
+    salience: 2
+    salience_factors:
+      frequency: 1
+      relationships: 0
+      emphasis: low
+      centrality: peripheral
+  - id: good_faith
+    label: good faith
+    salience: 6
+    salience_factors:
+      frequency: 1
+      relationships: 3
+      emphasis: high
+      centrality: supporting
+  - id: catastrophe
+    label: catastrophe
+    salience: 6
+    salience_factors:
+      frequency: 1
+      relationships: 2
+      emphasis: high
+      centrality: supporting
+  - id: soviet_leadership
+    label: Soviet leadership
+    salience: 5
+    salience_factors:
+      frequency: 1
+      relationships: 3
+      emphasis: medium
+      centrality: supporting
+  - id: brezhnev
+    label: Brezhnev
+    salience: 3
+    salience_factors:
+      frequency: 1
+      relationships: 1
+      emphasis: low
+      centrality: peripheral
+  - id: trust
+    label: trust
+    salience: 4
+    salience_factors:
+      frequency: 1
+      relationships: 2
+      emphasis: medium
+      centrality: supporting
+  - id: human_rights
+    label: Human rights
+    salience: 5
+    salience_factors:
+      frequency: 1
+      relationships: 2
+      emphasis: high
+      centrality: supporting
+  - id: lasting_agreement
+    label: lasting agreement
+    salience: 5
+    salience_factors:
+      frequency: 1
+      relationships: 2
+      emphasis: high
+      centrality: supporting
+  - id: trade_relations
+    label: Trade relations
+    salience: 4
+    salience_factors:
+      frequency: 1
+      relationships: 1
+      emphasis: medium
+      centrality: supporting
+  - id: arms_reduction
+    label: arms reduction
+    salience: 11
+    salience_factors:
+      frequency: 1
+      relationships: 5
+      emphasis: high
+      centrality: central
+  - id: us_soviet_cooperation
+    label: US-Soviet cooperation
+    salience: 13
+    salience_factors:
+      frequency: 1
+      relationships: 7
+      emphasis: high
+      centrality: central
+  - id: nato_allies
+    label: NATO allies
+    salience: 4
+    salience_factors:
+      frequency: 1
+      relationships: 2
+      emphasis: low
+      centrality: supporting
+  - id: negotiation_efforts
+    label: negotiation efforts
+    salience: 6
+    salience_factors:
+      frequency: 1
+      relationships: 4
+      emphasis: medium
+      centrality: supporting
+  - id: nuclear_proliferation
+    label: Nuclear proliferation
+    salience: 6
+    salience_factors:
+      frequency: 1
+      relationships: 3
+      emphasis: high
+      centrality: supporting
+  - id: global_stability
+    label: global stability
+    salience: 11
+    salience_factors:
+      frequency: 1
+      relationships: 6
+      emphasis: high
+      centrality: central
+  - id: detente
+    label: Détente
+    salience: 8
+    salience_factors:
+      frequency: 1
+      relationships: 4
+      emphasis: high
+      centrality: important
+  - id: sustained_commitment
+    label: sustained commitment
+    salience: 6
+    salience_factors:
+      frequency: 1
+      relationships: 3
+      emphasis: high
+      centrality: supporting
+  relationships:
+  - id: r1
+    subject: united_states
+    type: cooperate
+    object: soviet_union
+    truth_value: 'true'
+    modifiers:
+    - future
+    - goal
+    - normative
+    salience: 3
+    evidence: The United States and the Soviet Union must work together to reduce
+      the threat of nuclear war.
+  - id: r2
+    subject: united_states
+    type: oppose
+    object: threat_of_nuclear_war
+    truth_value: 'true'
+    modifiers:
+    - future
+    - goal
+    - normative
+    salience: 2
+    evidence: …work together to reduce the threat of nuclear war.
+  - id: r3
+    subject: soviet_union
+    type: oppose
+    object: threat_of_nuclear_war
+    truth_value: 'true'
+    modifiers:
+    - future
+    - goal
+    - normative
+    salience: 2
+    evidence: …work together to reduce the threat of nuclear war.
+  - id: r4
+    subject: president_carter
+    type: support
+    object: peace
+    truth_value: 'true'
+    modifiers:
+    - normative
+    salience: 2
+    evidence: President Carter believes that peace requires genuine cooperation…
+  - id: r5
+    subject: peace
+    type: component
+    object: genuine_cooperation
+    truth_value: 'true'
+    modifiers:
+    - definite
+    salience: 2
+    evidence: …peace requires genuine cooperation…
+  - id: r6
+    subject: president_carter
+    type: support
+    object: genuine_cooperation
+    truth_value: 'true'
+    modifiers:
+    - normative
+    salience: 1
+    evidence: President Carter believes that peace requires genuine cooperation…
+  - id: r7
+    subject: salt_talks
+    type: support
+    object: arms_control
+    truth_value: 'true'
+    modifiers:
+    - definite
+    salience: 3
+    evidence: The SALT talks represent our commitment to arms control…
+  - id: r8
+    subject: salt_talks
+    type: support
+    object: arms_reduction
+    truth_value: 'true'
+    modifiers:
+    - definite
+    salience: 2
+    evidence: …and reducing nuclear arsenals.
+  - id: r9
+    subject: arms_reduction
+    type: oppose
+    object: nuclear_arsenals
+    truth_value: 'true'
+    modifiers:
+    - goal
+    salience: 1
+    evidence: …reducing nuclear arsenals.
+  - id: r10
+    subject: both_superpowers
+    type: possess
+    object: nuclear_arsenals
+    truth_value: 'true'
+    modifiers:
+    - present
+    - definite
+    salience: 3
+    evidence: Both superpowers possess the capability to destroy civilization.
+  - id: r11
+    subject: both_superpowers
+    type: negotiate
+    object: good_faith
+    truth_value: 'true'
+    modifiers:
+    - goal
+    - normative
+    salience: 2
+    evidence: We must negotiate in good faith to prevent catastrophe.
+  - id: r12
+    subject: good_faith
+    type: oppose
+    object: catastrophe
+    truth_value: 'true'
+    modifiers:
+    - goal
+    salience: 1
+    evidence: …negotiate in good faith to prevent catastrophe.
+  - id: r13
+    subject: both_superpowers
+    type: oppose
+    object: catastrophe
+    truth_value: 'true'
+    modifiers:
+    - goal
+    salience: 1
+    evidence: …to prevent catastrophe.
+  - id: r14
+    subject: soviet_leadership
+    type: support
+    object: negotiation_efforts
+    truth_value: 'true'
+    modifiers:
+    - present
+    - definite
+    salience: 2
+    evidence: The Soviet leadership under Brezhnev has shown willingness to engage.
+  - id: r15
+    subject: brezhnev
+    type: component
+    object: soviet_leadership
+    truth_value: 'true'
+    modifiers:
+    - present
+    - definite
+    salience: 1
+    evidence: The Soviet leadership under Brezhnev…
+  - id: r16
+    subject: trust
+    type: attribute
+    object: us_soviet_cooperation
+    truth_value: 'true'
+    modifiers:
+    - present
+    - definite
+    salience: 2
+    evidence: However, trust between our nations remains fragile.
+  - id: r17
+    subject: lasting_agreement
+    type: component
+    object: human_rights
+    truth_value: 'true'
+    modifiers:
+    - goal
+    - normative
+    salience: 2
+    evidence: Human rights must be part of any lasting agreement.
+  - id: r18
+    subject: arms_reduction
+    type: support
+    object: trade_relations
+    truth_value: 'true'
+    modifiers:
+    - future
+    - conditional
+    salience: 2
+    evidence: Trade relations could improve if we make progress on arms reduction.
+  - id: r19
+    subject: us_soviet_cooperation
+    type: support
+    object: global_stability
+    truth_value: 'true'
+    modifiers:
+    - goal
+    - future
+    salience: 3
+    evidence: The future of humanity depends on US-Soviet cooperation.
+  - id: r20
+    subject: nato_allies
+    type: support
+    object: negotiation_efforts
+    truth_value: 'true'
+    modifiers:
+    - present
+    - definite
+    salience: 2
+    evidence: NATO allies support our negotiation efforts.
+  - id: r21
+    subject: nuclear_proliferation
+    type: 'ACTION: threaten'
+    object: global_stability
+    truth_value: 'true'
+    modifiers:
+    - present
+    - definite
+    salience: 3
+    evidence: Nuclear proliferation threatens global stability.
+  - id: r22
+    subject: detente
+    type: support
+    object: us_soviet_cooperation
+    truth_value: 'true'
+    modifiers:
+    - present
+    - definite
+    salience: 2
+    evidence: Détente offers hope…
+  - id: r23
+    subject: sustained_commitment
+    type: component
+    object: detente
+    truth_value: 'true'
+    modifiers:
+    - normative
+    salience: 2
+    evidence: …but requires sustained commitment from both sides.
+  - id: r24
+    subject: both_superpowers
+    type: support
+    object: sustained_commitment
+    truth_value: 'true'
+    modifiers:
+    - normative
+    salience: 1
+    evidence: …requires sustained commitment from both sides.
+  conjunctions:
+  - type: AND
+    members:
+    - united_states
+    - soviet_union
+    context: The United States and the Soviet Union must work together…
+  - type: AND
+    members:
+    - arms_control
+    - arms_reduction
+    context: …commitment to arms control and reducing nuclear arsenals.
+summary:
+  total_concepts: 29
+  total_relationships: 24
+  connectedness: 0.4528301886792453
+stage_details:
+- stage: extraction
+  metadata:
+    item_count: 54
+  sample_items:
+  - phrase: United States
+    count: 1
+    first_context: The United States and the Soviet Union must work together to reduce
+      the threat of nuclear war.
+    type: entity
+  - phrase: Soviet Union
+    count: 1
+    first_context: The United States and the Soviet Union must work together to reduce
+      the threat of nuclear war.
+    type: entity
+  - phrase: threat of nuclear war
+    count: 1
+    first_context: The United States and the Soviet Union must work together to reduce
+      the threat of nuclear war.
+    type: concept
+  total_items: 54
+- stage: filtering
+  metadata:
+    item_count: 29
+  sample_items:
+  - id: united_states
+    label: United States
+    included: true
+    rationale: Nation-state; central political actor in the speech.
+  - id: soviet_union
+    label: Soviet Union
+    included: true
+    rationale: Nation-state; counterpart in the diplomatic discussion.
+  - id: threat_of_nuclear_war
+    label: threat of nuclear war
+    included: true
+    rationale: Security/military threat driving the diplomacy.
+  total_items: 29
+- stage: structuring
+  metadata: {}
+- stage: analysis
+  metadata: {}

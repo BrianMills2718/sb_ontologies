@@ -1,0 +1,160 @@
+{
+  "A_Framework_for_Influence_Operations": {
+    "metadata": {
+      "citation": "Larson et al., \u201cA Framework for Influence Operations,\u201d in Foundations of Effective Influence Operations, RAND Corporation, Ch. 6\u20137.",
+      "annotation": "Proposes a multi-level framework for planning influence operations, emphasizing strategic objectives, key audiences, credible channels, and adaptive feedback to achieve desired changes in attitudes or behaviors."
+    },
+    "classification": {
+      "model_type": "Hybrid",
+      "reasoning_engine": "Hybrid_Engine",
+      "compatible_operators": [
+        "stakeholder_analysis",
+        "expected_utility_simulation",
+        "content_analysis",
+        "attitude_mapping",
+        "message_impact_assessment"
+      ],
+      "summary": "Offers an integrated planning approach combining rational-choice models, social power theories, and communication tactics to influence multiple levels (leaders, groups, mass publics)."
+    },
+    "schema": {
+      "Ontology": {
+        "entities": [
+          {
+            "indigenous_term": "actors or groups",
+            "description": "Organizations or collectives that significantly shape political-military outcomes and may be targeted or engaged by influence strategies.",
+            "name": "Actor_or_Stakeholder_Group"
+          },
+          {
+            "indigenous_term": "target audiences",
+            "description": "Groups or individuals identified for influence to achieve specified objectives.",
+            "name": "Target_Audience"
+          },
+          {
+            "indigenous_term": "leaders",
+            "description": "Individuals wielding authority or preeminent influence within a group who can shape follower attitudes and actions.",
+            "name": "Leader"
+          },
+          {
+            "indigenous_term": "mass publics",
+            "description": "Large population segments whose collective attitudes or behaviors can affect political or military outcomes.",
+            "name": "Mass_Public"
+          },
+          {
+            "indigenous_term": "messages",
+            "description": "Communications designed to shape or change attitudes, beliefs, or behaviors among target audiences.",
+            "name": "Message"
+          },
+          {
+            "indigenous_term": "information channels",
+            "description": "Means of delivering messages (e.g., TV, radio, print, digital platforms) that audiences use and find credible.",
+            "name": "Information_Channel"
+          },
+          {
+            "indigenous_term": "objectives",
+            "description": "Desired end states or goals that influence operations aim to achieve.",
+            "name": "Objective"
+          }
+        ],
+        "connections": [
+          {
+            "indigenous_term": "influence",
+            "description": "Describes how one entity\u2019s actions or leadership may shape another entity\u2019s attitudes or behaviors.",
+            "name": "Influence_Relationship"
+          },
+          {
+            "indigenous_term": "authority/influence",
+            "description": "Specifies how leaders maintain control or power over followers and shape their decisions.",
+            "name": "Authority_Relationship"
+          }
+        ],
+        "modifiers": [
+          {
+            "indigenous_term": "peacetime, crisis, major combat operations, stability operations",
+            "description": "Temporal contexts that affect the design, execution, and focus of influence operations.",
+            "name": "Conflict_Phase",
+            "category": "temporal",
+            "values": [
+              "peacetime",
+              "crisis",
+              "major_combat_operations",
+              "stability_operations"
+            ],
+            "applies_to": [
+              "Process"
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "indigenous_term": "predisposition to accept the message",
+            "description": "Audience\u2019s inherent inclination toward acceptance or rejection of communicated content.",
+            "name": "Predisposition",
+            "type": "categorical",
+            "values": [
+              "High",
+              "Medium",
+              "Low"
+            ],
+            "applies_to": [
+              "Target_Audience"
+            ]
+          },
+          {
+            "indigenous_term": "stability of attitudes",
+            "description": "Indicates whether an attitude is fixed and unalterable or receptive to change over time.",
+            "name": "Stability",
+            "type": "categorical",
+            "values": [
+              "Stable",
+              "Unstable"
+            ],
+            "applies_to": [
+              "Mass_Public",
+              "Target_Audience"
+            ]
+          }
+        ]
+      },
+      "Telos": {
+        "analytical_purpose": "Interventionary",
+        "level_of_analysis": "System",
+        "output_format": {},
+        "success_criteria": "Target audiences shift attitudes, beliefs, or behaviors in alignment with desired strategic objectives."
+      },
+      "Process": {
+        "mode": "sequential",
+        "steps": [
+          {
+            "stage_name": "Specify Objectives",
+            "objective": "Identify clear political and campaign goals directed by leadership.",
+            "completion_criteria": "Objectives are precisely defined and linked to feasible outcomes."
+          },
+          {
+            "stage_name": "Develop Influence Strategy",
+            "objective": "Determine target audiences, suitable channels, message design, and resource allocation.",
+            "completion_criteria": "Substrategies and themes are established for each identified audience."
+          },
+          {
+            "stage_name": "Execute Influence Strategy",
+            "objective": "Implement messaging, coordinate with operational activities, and synchronize timing.",
+            "completion_criteria": "Messages are delivered through identified channels in cooperation with broader policy and military actions."
+          },
+          {
+            "stage_name": "Monitor and Assess",
+            "objective": "Measure audience exposure, message acceptance, and shifts in attitudes or behaviors.",
+            "completion_criteria": "Data on audience responses and outcomes are collected and analyzed in a timely manner."
+          },
+          {
+            "stage_name": "Adapt",
+            "objective": "Refine targeting, messaging, and tactics based on assessment results.",
+            "completion_criteria": "Influence strategy is updated to address identified gaps and new insights."
+          }
+        ]
+      },
+      "components": {},
+      "Axioms": {},
+      "Analytics": {}
+    },
+    "schema_overrides": null
+  }
+}

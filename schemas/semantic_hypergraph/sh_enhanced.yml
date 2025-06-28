@@ -1,0 +1,205 @@
+theory_name: "Semantic Hypergraph"
+
+# Original theory elements
+nodes:
+  - type: "atom"
+    description: "Atomic hyperedge (single element)"
+    subtypes:
+      C: "concept (nouns, entities)"
+      P: "predicate (verbs, relations)"
+      M: "modifier (adjectives, adverbs)"
+      B: "builder (and, or, with)"
+      T: "trigger (if, when, because)"
+      J: "conjunction (punctuation, connectors)"
+      R: "relation (formed from P + args)"
+      S: "specifier (numbers, percentages)"
+
+connections:
+  - type: "hyperedge"
+    description: "Non-atomic hyperedge"
+    properties:
+      connector: "atom serving as connector"
+      arguments: "list of atoms or hyperedges"
+      roles: "argument role assignments"
+
+properties:
+  formulas:
+    type_inference:
+      - "(M x) → x": "Modifier attached to element"
+      - "(B C C+) → C": "Builder combines concepts"
+      - "(P args) → R": "Predicate with arguments"
+      - "(T R) → R": "Trigger conditions relation"
+      - "(J R R) → R": "Junction connects relations"
+  argument_roles:
+    s: "subject"
+    o: "object"
+    a: "attribute"
+    c: "condition"
+    i: "instrument"
+    t: "time"
+    p: "purpose"
+    r: "result"
+    x: "other"
+
+modifiers:
+  type: "recursive"
+  description: "Hyperedges can be arguments to other hyperedges"
+
+# NEW: Application stages
+application_stages:
+  - name: "alpha_typing"
+    description: "α-stage: Type every token"
+    prompt_template: |
+      Perform α-stage parsing of this {domain} text.
+      
+      TYPE CODES:
+      {node_types}
+      
+      For {domain} texts, pay attention to:
+      - Argument indicators (T): because, therefore, if...then
+      - Position markers (P): believe, argue, contend
+      - Qualifiers (M): possibly, certainly, allegedly
+      - Evidence markers (S): dates, statistics, percentages
+      
+      Type EVERY meaningful token.
+      
+      TEXT:
+      {text}
+      
+      Return as JSON:
+      {output_format}
+    output_format:
+      tokens:
+        - position: "number"
+          token: "string"
+          type: "C|P|M|B|T|J|R|S|null"
+          reason: "string"
+      type_distribution: "object"
+    metadata_fields: ["type_distribution"]
+
+  - name: "beta_construction"
+    description: "β-stage: Build basic hyperedges"
+    prompt_template: |
+      Perform β-stage construction using typed tokens.
+      
+      TYPE INFERENCE RULES:
+      {properties}
+      
+      TYPED TOKENS:
+      {previous.alpha_typing}
+      
+      Process:
+      1. Create atoms (a1, a2...) for each typed token
+      2. Apply inference rules bottom-up
+      3. Assign argument roles (s, o, a, c, i, t, p, r)
+      
+      Build ALL possible hyperedges.
+      
+      Return as JSON:
+      {output_format}
+    output_format:
+      atoms:
+        - id: "string"
+          label: "string"
+          type: "string"
+      basic_hyperedges:
+        - id: "string"
+          connector: "atom_id"
+          arguments: ["atom_or_edge_id"]
+          type: "R|S"
+          roles: "string"
+          derivation: "string"
+
+  - name: "recursive_composition"
+    description: "Compose recursive structures"
+    prompt_template: |
+      Complete parsing with recursive hyperedge composition.
+      
+      CURRENT STRUCTURES:
+      {previous.beta_construction}
+      
+      For {domain} texts, identify:
+      - Nested argument structures
+      - Conditional chains: (T condition consequence)
+      - Discourse patterns:
+        * Claim-Evidence: (P claim (S evidence))
+        * Argument-Counter: (J argument counterargument)
+        * Turn-taking: speaker positions
+      
+      Build recursive hyperedges where edges are arguments.
+      
+      TEXT (for reference):
+      {text}
+      
+      Return as JSON:
+      {output_format}
+    output_format:
+      atoms: "from_previous"
+      all_hyperedges:
+        - id: "string"
+          connector: "string"
+          arguments: ["string"]
+          type: "string"
+          roles: "string"
+          level: "basic|recursive"
+          interpretation: "string"
+      discourse_structures:
+        - pattern: "string"
+          components: "object"
+
+  - name: "analysis"
+    description: "Extract high-level patterns"
+    prompt_template: |
+      Analyze the complete hypergraph for {domain}-specific patterns.
+      
+      HYPERGRAPH:
+      {previous.recursive_composition}
+      
+      Identify:
+      - Main topics/themes (top-level hyperedges)
+      - Key arguments and their support
+      - Discourse flow and structure
+      - Complexity metrics
+      
+      Return as JSON:
+      {output_format}
+    output_format:
+      main_topics: ["hyperedge_id"]
+      argument_chains:
+        - claim: "hyperedge_id"
+          support: ["hyperedge_id"]
+          opposition: ["hyperedge_id"]
+      complexity:
+        max_nesting_depth: "number"
+        recursive_edges: "number"
+        total_edges: "number"
+
+# Output mapping
+output_mapping:
+  atoms:
+    from_stage: "recursive_composition"
+    from_field: "atoms"
+  hyperedges:
+    from_stage: "recursive_composition"
+    from_field: "all_hyperedges"
+  discourse_structures:
+    from_stage: "recursive_composition"
+    from_field: "discourse_structures"
+  analysis:
+    from_stage: "analysis"
+    from_field: "all"
+
+# Summary rules
+summary_rules:
+  - name: "total_atoms"
+    type: "count"
+    field: "atoms"
+  - name: "total_hyperedges"
+    type: "count"
+    field: "hyperedges"
+  - name: "recursive_hyperedges"
+    type: "count"
+    field: "hyperedges"
+    filter:
+      field: "level"
+      value: "recursive"

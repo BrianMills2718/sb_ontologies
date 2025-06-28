@@ -1,0 +1,552 @@
+theory: Young 1996 Cognitive Mapping
+concepts:
+- id: c1
+  label: Jimmy Carter
+  salience: 8
+- id: c2
+  label: President of the United States
+  salience: 12
+- id: c3
+  label: Congress
+  salience: 8
+- id: c4
+  label: Georgia Legislature
+  salience: 3
+- id: c5
+  label: White House
+  salience: 4
+- id: c6
+  label: Nation's Capitol
+  salience: 3
+- id: c7
+  label: Responsibility
+  salience: 6
+- id: c8
+  label: Burden of Government
+  salience: 2
+- id: c9
+  label: American people
+  salience: 11
+- id: c10
+  label: Southerners
+  salience: 4
+- id: c11
+  label: State legislators
+  salience: 5
+- id: c12
+  label: State government
+  salience: 4
+- id: c13
+  label: Southern States
+  salience: 4
+- id: c14
+  label: Local independent government
+  salience: 2
+- id: c15
+  label: Rapid changes
+  salience: 3
+- id: c16
+  label: Modern age
+  salience: 2
+- id: c17
+  label: Events in other cities
+  salience: 1
+- id: c18
+  label: Decisions in other States
+  salience: 1
+- id: c19
+  label: Tensions in other parts of the world
+  salience: 2
+- id: c20
+  label: Other nations
+  salience: 6
+- id: c21
+  label: Interdependence
+  salience: 3
+- id: c22
+  label: Health of the economy
+  salience: 2
+- id: c23
+  label: War
+  salience: 7
+- id: c24
+  label: Peace
+  salience: 10
+- id: c25
+  label: Security of energy supplies
+  salience: 2
+- id: c26
+  label: Vision
+  salience: 2
+- id: c27
+  label: Foresight
+  salience: 2
+- id: c28
+  label: Purpose
+  salience: 2
+- id: c29
+  label: Problems around the world
+  salience: 3
+- id: c30
+  label: Southern Africa
+  salience: 4
+- id: c31
+  label: Middle East
+  salience: 5
+- id: c32
+  label: NATO allies
+  salience: 4
+- id: c33
+  label: Nuclear proliferation
+  salience: 6
+- id: c34
+  label: Negotiations with former adversaries
+  salience: 2
+- id: c35
+  label: Panama Canal treaty
+  salience: 2
+- id: c36
+  label: Human rights
+  salience: 8
+- id: c37
+  label: World poverty
+  salience: 2
+- id: c38
+  label: Debate
+  salience: 3
+- id: c39
+  label: Disagreement
+  salience: 3
+- id: c40
+  label: Probing
+  salience: 2
+- id: c41
+  label: Solutions
+  salience: 5
+- id: c42
+  label: National policy
+  salience: 3
+- id: c43
+  label: Foreign relations
+  salience: 5
+- id: c44
+  label: Soviet Union
+  salience: 20
+- id: c45
+  label: Military competition
+  salience: 4
+- id: c46
+  label: Nuclear weapons
+  salience: 7
+- id: c47
+  label: Conventional arsenals
+  salience: 2
+- id: c48
+  label: Export of armaments
+  salience: 2
+- id: c49
+  label: Energy crises
+  salience: 3
+- id: c50
+  label: World energy
+  salience: 2
+- id: c51
+  label: Alternatives to oil and gas
+  salience: 2
+- id: c52
+  label: Responsibilities
+  salience: 4
+- id: c53
+  label: International relations
+  salience: 4
+- id: c54
+  label: Europe
+  salience: 3
+- id: c55
+  label: Japan
+  salience: 2
+- id: c56
+  label: Economic powers
+  salience: 2
+- id: c57
+  label: Communist parties
+  salience: 2
+- id: c58
+  label: Governments
+  salience: 2
+- id: c59
+  label: Independence
+  salience: 2
+- id: c60
+  label: Third World
+  salience: 2
+- id: c61
+  label: United States
+  salience: 22
+- id: c62
+  label: Technology
+  salience: 6
+- id: c63
+  label: Detente
+  salience: 5
+- id: c64
+  label: Confidence
+  salience: 3
+- id: c65
+  label: Moral bearings
+  salience: 2
+- id: c66
+  label: Security
+  salience: 7
+- id: c67
+  label: International order
+  salience: 3
+- id: c68
+  label: Strategy
+  salience: 2
+- id: c69
+  label: SALT talks
+  salience: 6
+- id: c70
+  label: Reductions
+  salience: 4
+- id: c71
+  label: Limitations
+  salience: 4
+- id: c72
+  label: Freeze on new technology
+  salience: 3
+- id: c73
+  label: End to nuclear tests
+  salience: 3
+- id: c74
+  label: Chemical and biological warfare
+  salience: 3
+- id: c75
+  label: Inventories of destructive materials
+  salience: 2
+- id: c76
+  label: Sales and transfers of conventional weapons
+  salience: 3
+- id: c77
+  label: Proliferation of nuclear weapons
+  salience: 4
+- id: c78
+  label: Arms limitations in the Indian Ocean
+  salience: 2
+- id: c79
+  label: Treaty of Tlatelolco
+  salience: 2
+- id: c80
+  label: Introduction of nuclear weapons into the Western Hemisphere
+  salience: 1
+- id: c81
+  label: Geneva conference
+  salience: 2
+- id: c82
+  label: Peace in the Middle East
+  salience: 3
+- id: c83
+  label: Allies
+  salience: 4
+- id: c84
+  label: Warsaw Pact nations
+  salience: 2
+- id: c85
+  label: Military forces in Europe
+  salience: 2
+- id: c86
+  label: Cooperation in science and technology
+  salience: 2
+- id: c87
+  label: Cooperation in outer space
+  salience: 2
+- id: c88
+  label: World health
+  salience: 2
+- id: c89
+  label: World hunger
+  salience: 2
+- id: c90
+  label: Vladivostok accords
+  salience: 3
+- id: c91
+  label: Cruise missile
+  salience: 3
+- id: c92
+  label: Large intercontinental ballistic missiles
+  salience: 2
+- id: c93
+  label: Deterrent capability
+  salience: 2
+- id: c94
+  label: Strategic posture
+  salience: 2
+- id: c95
+  label: Arms control
+  salience: 4
+- id: c96
+  label: Strategic balance
+  salience: 3
+- id: c97
+  label: Agreements
+  salience: 6
+- id: c98
+  label: Trade
+  salience: 3
+- id: c99
+  label: American-Soviet Joint Commercial Commission
+  salience: 1
+- id: c100
+  label: Human reality
+  salience: 2
+- id: c101
+  label: Yearning for peace
+  salience: 2
+- id: c102
+  label: Responsibility for peace
+  salience: 2
+- id: c103
+  label: Power to destroy human society
+  salience: 2
+- id: c104
+  label: President Brezhnev
+  salience: 3
+- id: c105
+  label: Realism
+  salience: 3
+- id: c106
+  label: Will for detente
+  salience: 2
+- id: c107
+  label: Progress
+  salience: 3
+- id: c108
+  label: 21st century
+  salience: 1
+- id: c109
+  label: Biblical injunction
+  salience: 1
+- id: c110
+  label: Things which make for peace
+  salience: 1
+relationships:
+- id: r1
+  subject: c1
+  type: is-a
+  object: c2
+  truth_value: 'true'
+  modifiers:
+  - present
+  salience: 1
+- id: r2
+  subject: c5
+  type: cooperate
+  object: c3
+  truth_value: 'true'
+  modifiers:
+  - present
+  salience: 2
+- id: r3
+  subject: c2
+  type: attribute
+  object: c7
+  truth_value: 'true'
+  modifiers:
+  - present
+  salience: 2
+- id: r4
+  subject: c2
+  type: positive-cause
+  object: c41
+  truth_value: 'true'
+  modifiers:
+  - goal
+  salience: 1
+- id: r5
+  subject: c61
+  type: negotiate
+  object: c44
+  truth_value: 'true'
+  modifiers:
+  - present
+  salience: 3
+- id: r6
+  subject: c61
+  type: propose
+  object: c73
+  truth_value: 'true'
+  modifiers:
+  - present
+  - goal
+  salience: 1
+- id: r7
+  subject: c61
+  type: propose
+  object: c76
+  truth_value: 'true'
+  modifiers:
+  - present
+  - goal
+  salience: 1
+- id: r8
+  subject: c61
+  type: propose
+  object: c74
+  truth_value: 'true'
+  modifiers:
+  - goal
+  salience: 1
+- id: r9
+  subject: c91
+  type: component
+  object: c62
+  truth_value: 'true'
+  modifiers: []
+  salience: 1
+- id: r10
+  subject: c66
+  type: positive-cause
+  object: c24
+  truth_value: 'true'
+  modifiers:
+  - goal
+  salience: 1
+- id: r11
+  subject: c69
+  type: strategy
+  object: c70
+  truth_value: 'true'
+  modifiers:
+  - goal
+  salience: 1
+- id: r12
+  subject: c69
+  type: strategy
+  object: c71
+  truth_value: 'true'
+  modifiers:
+  - goal
+  salience: 1
+- id: r13
+  subject: c69
+  type: strategy
+  object: c72
+  truth_value: 'true'
+  modifiers:
+  - goal
+  salience: 1
+- id: r14
+  subject: c44
+  type: warrant-for
+  object: c91
+  truth_value: possible
+  modifiers: []
+  salience: 1
+- id: r15
+  subject: c61
+  type: cooperate
+  object: c83
+  truth_value: 'true'
+  modifiers:
+  - present
+  salience: 1
+- id: r16
+  subject: c61
+  type: support
+  object: c30
+  truth_value: 'true'
+  modifiers:
+  - present
+  salience: 1
+- id: r17
+  subject: c61
+  type: support
+  object: c31
+  truth_value: 'true'
+  modifiers:
+  - present
+  salience: 1
+- id: r18
+  subject: c61
+  type: assert
+  object: c36
+  truth_value: 'true'
+  modifiers:
+  - present
+  salience: 1
+- id: r19
+  subject: c36
+  type: positive-cause
+  object: c24
+  truth_value: 'true'
+  modifiers:
+  - normative
+  - goal
+  salience: 1
+- id: r20
+  subject: c98
+  type: positive-cause
+  object: c24
+  truth_value: possible
+  modifiers:
+  - future
+  salience: 1
+- id: r21
+  subject: c104
+  type: assert
+  object: c105
+  truth_value: 'true'
+  modifiers:
+  - present
+  salience: 1
+- id: r22
+  subject: c104
+  type: assert
+  object: c106
+  truth_value: 'true'
+  modifiers:
+  - present
+  salience: 1
+- id: r23
+  subject: c106
+  type: positive-cause
+  object: c107
+  truth_value: 'true'
+  modifiers:
+  - future
+  salience: 1
+- id: r24
+  subject: c107
+  type: positive-cause
+  object: c24
+  truth_value: possible
+  modifiers:
+  - future
+  salience: 1
+- id: r25
+  subject: c109
+  type: warrant-for
+  object: c110
+  truth_value: 'true'
+  modifiers:
+  - normative
+  salience: 1
+conjunctions:
+- type: AND
+  members:
+  - c61
+  - c44
+- type: AND
+  members:
+  - c5
+  - c6
+structural_measures:
+  size: 110.0
+  num_relationships: 25.0
+  connectedness: 0.18518518518518517
+summary:
+  total_concepts: 110
+  total_relationships: 25
+  unique_relationship_types: 11
+  connectedness: 0.18518518518518517

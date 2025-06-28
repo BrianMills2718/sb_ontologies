@@ -5,6 +5,8 @@ Create an automated system that reads academic papers, extracts theoretical sche
 
 **Core Workflow**: Academic Paper → Schema Extraction → Data Application → Comparable Results
 
+**CRITICAL PRINCIPLE**: Theory extraction can have multiple iterations to improve fidelity, but text application must work in ONE SHOT. Never truncate input texts - the system must handle full documents in a single API call.
+
 ## 📂 **CODEBASE ORGANIZATION** (MANDATORY STRUCTURE)
 
 ### **Required Directory Structure**

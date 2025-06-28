@@ -1,0 +1,116 @@
+{
+  "belief_structure": {
+    "core_beliefs": [
+      {
+        "about": "World interdependence",
+        "belief": "Nations are increasingly interdependent, and the United States must not adopt a narrow or selfish vision in foreign policy.",
+        "evidence": "\u201c\u2026we cannot afford to be narrow in our vision, limited in our foresight, or selfish in our purpose.\u201d",
+        "certainty": "true"
+      },
+      {
+        "about": "Competition and cooperation with the Soviet Union",
+        "belief": "While deep ideological differences remain, both countries also share overlapping interests and can cooperate when it serves mutual self-interest.",
+        "evidence": "\u201c\u2026our two countries share many important overlapping interests. Our job\u2026is to explore those shared interests and use them to enlarge the areas of cooperation\u2026\u201d",
+        "certainty": "true"
+      },
+      {
+        "about": "Arms control as a path to peace",
+        "belief": "Reducing nuclear weapons and restricting dangerous technologies is essential to easing global tensions and preventing war.",
+        "evidence": "\u201c\u2026if we can relax this tension by reducing the nuclear threat\u2026we\u2019ll also free ourselves to concentrate on constructive action\u2026\u201d",
+        "certainty": "true"
+      },
+      {
+        "about": "Moral dimension of U.S. foreign policy",
+        "belief": "The United States must integrate moral values (e.g., human rights) alongside realism in its foreign policy decisions.",
+        "evidence": "\u201c\u2026I felt that it was urgent to restore the moral bearings of American foreign policy\u2026Our policy is exactly what it appears to be: the positive and sincere expression of our deepest beliefs\u2026\u201d",
+        "certainty": "true"
+      }
+    ],
+    "foreign_policy_positions": [
+      {
+        "topic": "SALT (Strategic Arms Limitation Talks)",
+        "position": "Supports genuine arms reductions, freezes on certain technologies, and balanced strategic strength with the Soviet Union.",
+        "reasoning": "If SALT only yields superficial or minimal agreements, public disillusionment will grow. Therefore, Carter pushes for deeper, verifiable reductions that stabilize the arms balance."
+      },
+      {
+        "topic": "Nuclear proliferation and testing",
+        "position": "Seeks a complete end to nuclear testing, curbs on sales, and preventing further dissemination of nuclear capabilities to new states.",
+        "reasoning": "If nuclear weapons spread to many new nations, global security erodes; thus ending tests and restricting transfers serve U.S. and common global interests."
+      },
+      {
+        "topic": "Human rights advocacy",
+        "position": "Champions universal human rights without targeting any one country, emphasizing moral principles and freedom.",
+        "reasoning": "If the U.S. fails to speak out on human rights, it undermines its moral standing. By maintaining a consistent, principled stance, it strengthens its credibility and fosters peaceful cooperation."
+      },
+      {
+        "topic": "Trade with the Soviet Union",
+        "position": "Favors expanded trade under suitable conditions, viewing economic ties as beneficial to both nations.",
+        "reasoning": "If the climate improves and each side respects mutual interests, greater economic exchanges can stabilize relations."
+      }
+    ],
+    "key_relationships": [
+      {
+        "subject": "United States",
+        "relationship": "strategy",
+        "object": "Soviet Union",
+        "modifier": "present/future",
+        "significance": "The U.S. aims for durable arms agreements and expanded cooperation, balancing national security with diplomatic engagement."
+      },
+      {
+        "subject": "United States and Soviet Union",
+        "relationship": "component",
+        "object": "Nuclear nonproliferation effort",
+        "modifier": "present",
+        "significance": "Both nations are key players whose cooperation is essential for controlling nuclear spread and global arms limitations."
+      },
+      {
+        "subject": "Human rights policy",
+        "relationship": "warrant-for",
+        "object": "U.S. moral leadership globally",
+        "modifier": "normative",
+        "significance": "Carter\u2019s insistence on human rights gives the U.S. moral credibility and shapes international perceptions of American foreign policy."
+      },
+      {
+        "subject": "Soviet Union",
+        "relationship": "know",
+        "object": "Differing ideological values",
+        "modifier": "present",
+        "significance": "Continued ideological differences require that agreements rest on mutual self-interest, not on presuming trust."
+      }
+    ],
+    "compound_statements": [
+      {
+        "structure": "if-then nested with alternative outcomes",
+        "components": [
+          "If we succeed in improving relations with the Soviet Union, we still face the risk of widespread nuclear proliferation.",
+          "Therefore, arms control must be broader than a single bilateral effort."
+        ],
+        "original_text": "\u201c\u2026if we succeed in relaxing tensions with the U.S.S.R., we could still awake one day to find that nuclear weapons have been spread to dozens of other nations\u2026\u201d"
+      },
+      {
+        "structure": "conditional willingness to adjust arms posture",
+        "components": [
+          "If Soviet threats can be controlled through SALT",
+          "Then the United States will limit its own strategic programs."
+        ],
+        "original_text": "\u201c\u2026If these threats can be controlled\u2026then we are prepared to limit our own strategic programs\u2026\u201d"
+      }
+    ]
+  },
+  "worldview_analysis": {
+    "dominant_concerns": [
+      "Limiting nuclear arms and technology",
+      "Establishing stable, reciprocal U.S.-Soviet relations",
+      "Maintaining moral leadership via human rights advocacy",
+      "Addressing global interdependence (energy, global security, trade)"
+    ],
+    "temporal_orientation": "Present and future focus, acknowledging past lessons but emphasizing ongoing negotiations and future stability",
+    "certainty_level": "High certainty in the need for mutual arms reductions and moral grounding, cautious about possible Soviet propaganda or mistrust",
+    "policy_implications": [
+      "Continued pursuit of SALT agreements with verifiable, genuine reductions",
+      "Emphasis on nonproliferation policies and comprehensive test bans",
+      "Integration of human rights concerns into diplomatic and trade engagements",
+      "Preparation to modernize U.S. strategic weapons if agreements fail"
+    ]
+  }
+}

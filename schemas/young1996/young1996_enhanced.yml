@@ -1,0 +1,218 @@
+theory_name: "Young 1996 Cognitive Mapping"
+
+# Original theory elements (from extraction)
+nodes:
+  - type: "concept"
+    description: "Politically relevant noun phrases"
+    vocabulary:
+      - "nations"
+      - "leaders" 
+      - "policies"
+      - "political entities"
+      - "international organizations"
+
+connections:
+  - type: "relationship"
+    description: "Links between concepts"
+    vocabulary:
+      - "cooperate"
+      - "conflict"
+      - "negotiate"
+      - "support"
+      - "oppose"
+      - "attribute"
+      - "possess"
+      - "produce"
+      - "consume"
+      - "is-a"
+      - "component"
+      - "ACTION: threaten"
+      - "ACTION: attack"
+      - "ACTION: defend"
+      - "ACTION: aid"
+
+properties:
+  - type: "salience"
+    description: "Importance score for concepts"
+    calculation: "frequency + structural_importance + rhetorical_emphasis"
+  - type: "truth_value"
+    options: ["true", "false", "possible", "unknown"]
+
+modifiers:
+  categories:
+    temporal: ["past", "present", "future"]
+    modal: ["definite", "conditional", "hypothetical", "goal", "normative"]
+
+# NEW: Application stages for universal applicator
+application_stages:
+  - name: "extraction"
+    description: "Extract all potential concepts from text"
+    prompt_template: |
+      Extract ALL noun phrases from this {domain} text as potential concepts.
+      
+      Include:
+      - Proper nouns (people, places, organizations)
+      - Common nouns (objects, ideas, abstractions)  
+      - Compound nouns
+      - Noun phrases with modifiers
+      
+      TEXT:
+      {text}
+      
+      Return as JSON:
+      {output_format}
+    output_format:
+      items:
+        - phrase: "string"
+          count: "number"
+          first_context: "string"
+          type: "entity|concept|event|other"
+    metadata_fields: ["total_extracted"]
+
+  - name: "filtering"
+    description: "Filter for politically/diplomatically relevant concepts"
+    prompt_template: |
+      Filter these concepts for POLITICAL/DIPLOMATIC relevance in this {domain} context.
+      
+      Apply these criteria:
+      {criteria}
+      
+      CONCEPTS TO FILTER:
+      {previous.extraction}
+      
+      Return as JSON with rationale:
+      {output_format}
+    criteria:
+      - "INCLUDE: Political entities (nations, governments, leaders, institutions)"
+      - "INCLUDE: Political concepts (policies, ideologies, political values)"
+      - "INCLUDE: International relations (alliances, conflicts, negotiations)"
+      - "INCLUDE: Security/military (weapons, defense, threats)"
+      - "INCLUDE: Economic-political (trade, sanctions, politically relevant resources)"
+      - "INCLUDE: Politically-charged abstractions (peace, freedom, human rights)"
+      - "EXCLUDE: Personal references (family, jokes)"
+      - "EXCLUDE: Logistical details (meeting locations, travel)"
+      - "EXCLUDE: Speech mechanics (speaking, mentioning)"
+      - "EXCLUDE: Generic terms without political significance"
+    output_format:
+      items:
+        - id: "string"
+          label: "string"
+          included: "boolean"
+          rationale: "string"
+    post_processing:
+      - type: "filter"
+        condition:
+          field: "included"
+          operator: "equals"
+          value: true
+
+  - name: "structuring"
+    description: "Extract relationships between filtered concepts"
+    prompt_template: |
+      Extract ALL relationships between these politically relevant concepts.
+      
+      CONCEPTS:
+      {previous.filtering}
+      
+      RELATIONSHIP TYPES:
+      {connection_types}
+      
+      MODIFIERS:
+      {modifiers}
+      
+      For each relationship identify:
+      - Subject concept (use ID)
+      - Relationship type
+      - Object concept (use ID)
+      - Truth value
+      - Temporal/modal modifiers
+      - Salience (1-3 based on emphasis)
+      
+      Also identify AND/OR conjunctions.
+      
+      TEXT:
+      {text}
+      
+      Return as JSON:
+      {output_format}
+    output_format:
+      relationships:
+        - id: "string"
+          subject: "concept_id"
+          type: "relationship_type"
+          object: "concept_id"
+          truth_value: "string"
+          modifiers: ["string"]
+          salience: "number"
+          evidence: "quote from text"
+      conjunctions:
+        - type: "AND|OR"
+          members: ["concept_id"]
+          context: "string"
+
+  - name: "analysis"
+    description: "Calculate final salience and measures"
+    prompt_template: |
+      Calculate FINAL salience scores using these factors:
+      
+      1. Raw frequency (from extraction stage)
+      2. Relationship participation
+      3. Relationship importance
+      4. Rhetorical emphasis
+      5. Structural position
+      
+      ORIGINAL COUNTS:
+      {previous.extraction}
+      
+      FILTERED CONCEPTS:
+      {previous.filtering}
+      
+      RELATIONSHIPS:
+      {previous.structuring}
+      
+      Assign salience 1-20+ where:
+      - 1-3: Peripheral mentions
+      - 4-6: Supporting concepts
+      - 7-10: Important concepts
+      - 11+: Central concepts
+      
+      Return complete map as JSON:
+      {output_format}
+    output_format:
+      concepts:
+        - id: "string"
+          label: "string"
+          salience: "number"
+          salience_factors:
+            frequency: "number"
+            relationships: "number"
+            emphasis: "string"
+            centrality: "string"
+      relationships: "from_previous"
+      conjunctions: "from_previous"
+
+# Output mapping for final result
+output_mapping:
+  concepts:
+    from_stage: "analysis"
+    from_field: "concepts"
+  relationships:
+    from_stage: "structuring"
+    from_field: "relationships"
+  conjunctions:
+    from_stage: "structuring"  
+    from_field: "conjunctions"
+
+# Summary calculations
+summary_rules:
+  - name: "total_concepts"
+    type: "count"
+    field: "concepts"
+  - name: "total_relationships"
+    type: "count"
+    field: "relationships"
+  - name: "connectedness"
+    type: "calculate"
+    operation: "connectedness"
+    nodes_field: "concepts"
+    edges_field: "relationships"

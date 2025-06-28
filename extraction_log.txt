@@ -1,0 +1,21 @@
+
+============================================================
+Processing: Cognitive Mapping Meets Semantic Networks.txt
+============================================================
+Sending to OpenAI...
+Traceback (most recent call last):
+  File "/home/brian/lit_review/src/schema_creation/test_meta_schema_8.py", line 139, in <module>
+    main()
+  File "/home/brian/lit_review/src/schema_creation/test_meta_schema_8.py", line 134, in main
+    extract_theory(paper_path, output_path, client, prompt)
+  File "/home/brian/lit_review/src/schema_creation/test_meta_schema_8.py", line 58, in extract_theory
+    response = client.chat.completions.create(
+  File "/home/brian/lit_review/venv_ui/lib/python3.10/site-packages/openai/_utils/_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "/home/brian/lit_review/venv_ui/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 925, in create
+    return self._post(
+  File "/home/brian/lit_review/venv_ui/lib/python3.10/site-packages/openai/_base_client.py", line 1249, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/brian/lit_review/venv_ui/lib/python3.10/site-packages/openai/_base_client.py", line 1037, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'max_tokens is too large: 180000. This model supports at most 100000 completion tokens, whereas you provided 180000.', 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'invalid_value'}}

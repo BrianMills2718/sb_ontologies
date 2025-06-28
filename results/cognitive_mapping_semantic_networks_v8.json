@@ -1,0 +1,230 @@
+{
+  "WorldView_Theory": {
+    "metadata": {
+      "citation": "Young, Michael D. 1996. 'Cognitive Mapping Meets Semantic Networks.' The Journal of Conflict Resolution 40(3): 395-414.",
+      "annotation": "Proposes WorldView, an enhanced cognitive mapping method using semantic networks, allowing richer relational, temporal, and truth-value coding than traditional causal maps."
+    },
+    "classification": {
+      "model_type": "Graph",
+      "reasoning_engine": "Graph_Engine",
+      "compatible_operators": [
+        "path_finding",
+        "centrality_analysis"
+      ],
+      "summary": "Represents belief structures as semantic networks of concepts and relationships, enabling structural and comparative analyses."
+    },
+    "schema": {
+      "Ontology": {
+        "entities": [
+          {
+            "indigenous_term": "concept",
+            "description": "A node in the cognitive map representing an idea, object, or entity."
+          },
+          {
+            "indigenous_term": "relationship",
+            "description": "A symbolic link (e.g., is-a, negative-cause) that connects concepts in the semantic network."
+          },
+          {
+            "indigenous_term": "conjunction",
+            "description": "Combines multiple concepts (e.g., 'and' or 'or') into a single compound statement."
+          },
+          {
+            "indigenous_term": "truth-value",
+            "description": "Specifies whether a statement is believed to be true, false, partial, possible, or impossible."
+          },
+          {
+            "indigenous_term": "modifier",
+            "description": "A qualifier indicating temporal or modal information (e.g., past, present, future, hypothetical, goal, normative)."
+          },
+          {
+            "indigenous_term": "semantic network",
+            "description": "A symbol-based formalism in which knowledge is stored as nodes and labeled relationships."
+          },
+          {
+            "indigenous_term": "cognitive map",
+            "description": "A representation of beliefs as a network of concepts and relationships."
+          },
+          {
+            "indigenous_term": "WorldView",
+            "description": "A method for enhanced cognitive mapping that encodes beliefs in semantic networks with differentiated relationships."
+          },
+          {
+            "indigenous_term": "synonym facility",
+            "description": "A mechanism for collapsing multiple related concepts into a single node for analysis."
+          },
+          {
+            "indigenous_term": "salience",
+            "description": "Indicates how often a relationship occurs, signifying its relative strength in the belief system."
+          }
+        ],
+        "connections": [
+          {
+            "indigenous_term": "positive-cause",
+            "description": "Represents a causal link that increases or contributes to the object concept."
+          },
+          {
+            "indigenous_term": "negative-cause",
+            "description": "Represents a causal link that decreases or hinders the object concept."
+          },
+          {
+            "indigenous_term": "attribute",
+            "description": "Indicates that the subject has a certain property or characteristic."
+          },
+          {
+            "indigenous_term": "if-then",
+            "description": "A conditional link specifying that if the subject holds true, then the object relationship is activated."
+          },
+          {
+            "indigenous_term": "is-a",
+            "description": "Defines a class or type relationship between subject and object."
+          }
+        ],
+        "modifiers": [
+          {
+            "indigenous_term": "past",
+            "description": "Indicates that the relationship held true in the past.",
+            "category": "temporal",
+            "values": [],
+            "applies_to": []
+          },
+          {
+            "indigenous_term": "present",
+            "description": "Indicates that the relationship currently holds true.",
+            "category": "temporal",
+            "values": [],
+            "applies_to": []
+          },
+          {
+            "indigenous_term": "future",
+            "description": "Indicates that the relationship is expected to hold true at a later time.",
+            "category": "temporal",
+            "values": [],
+            "applies_to": []
+          },
+          {
+            "indigenous_term": "goal",
+            "description": "Indicates that the statement is a desired outcome or objective.",
+            "category": "modal",
+            "values": [],
+            "applies_to": []
+          },
+          {
+            "indigenous_term": "hypothetical",
+            "description": "Indicates a statement that may become true under certain conditions.",
+            "category": "modal",
+            "values": [],
+            "applies_to": []
+          },
+          {
+            "indigenous_term": "normative",
+            "description": "Indicates that the statement expresses an ideal or obligation.",
+            "category": "normative",
+            "values": [],
+            "applies_to": []
+          }
+        ],
+        "properties": []
+      },
+      "Analytics": {
+        "analytical_primitives": [],
+        "focal_concepts": [],
+        "metrics": [
+          {
+            "name": "dependency",
+            "indigenous_term": "dependency",
+            "description": "Reflects how many relationships are unique bridges to concepts, indicating a hierarchical structure.",
+            "formula": "DG = (|bridges| / |relationships|) / |structures|",
+            "interpretation": "High values indicate more vertical organization and less lateral connectivity among concepts.",
+            "range": "0 to 1"
+          },
+          {
+            "name": "connectedness",
+            "indigenous_term": "connectedness",
+            "description": "Captures how interlinked the concepts are across a cognitive map.",
+            "formula": "CG = |relationships| / (|concepts| + |relationships|)",
+            "interpretation": "Higher values indicate more lateral links among concepts and potentially greater complexity.",
+            "range": "0 to 1 (asymptotic)"
+          },
+          {
+            "name": "size",
+            "indigenous_term": "size",
+            "description": "The total number of distinct concepts in a cognitive map.",
+            "formula": "",
+            "interpretation": "Correlates with domain expertise or familiarity.",
+            "range": "Positive integers"
+          },
+          {
+            "name": "uniformity of salience",
+            "indigenous_term": "uniformity of salience",
+            "description": "Standard deviation of relationship salience values, indicating how evenly beliefs are held.",
+            "formula": "",
+            "interpretation": "A lower standard deviation implies uniform strength among beliefs; high variance implies some beliefs dominate reasoning.",
+            "range": "[0, \u221e)"
+          },
+          {
+            "name": "concept comparison",
+            "indigenous_term": "concept comparison",
+            "description": "Identifies which concepts and relationships match or differ between two cognitive maps.",
+            "formula": "",
+            "interpretation": "Used to locate specific points of belief change between individuals or over time.",
+            "range": "Descriptive comparison"
+          },
+          {
+            "name": "transformation cost",
+            "indigenous_term": "transformation cost",
+            "description": "Minimal number of additions, deletions, or salience changes required to convert one cognitive map into another.",
+            "formula": "",
+            "interpretation": "Higher cost implies more cognitive work or more extensive belief system change.",
+            "range": "[0, \u221e)"
+          },
+          {
+            "name": "incongruence",
+            "indigenous_term": "incongruence",
+            "description": "Measures how different two cognitive maps are by comparing only the concepts common to both.",
+            "formula": "",
+            "interpretation": "Higher incongruence indicates belief structures differ substantially for shared concepts.",
+            "range": "[0, \u221e)"
+          }
+        ],
+        "triggers": []
+      },
+      "Process": {
+        "mode": "sequential",
+        "steps": [
+          {
+            "stage_name": "Identify Beliefs",
+            "objective": "Extract subject-relationship-object statements from the text using the WorldView coding categories.",
+            "completion_criteria": "All relevant text segments are coded for concepts, relationships, and modifiers."
+          },
+          {
+            "stage_name": "Construct Semantic Network",
+            "objective": "Compile coded statements into nodes and edges, creating a manipulable cognitive map in a semantic network structure.",
+            "completion_criteria": "All statements are represented as unique nodes (concepts or relationships) with appropriate connections."
+          },
+          {
+            "stage_name": "Apply Synonym Facility",
+            "objective": "Optionally merge concept nodes by identifying synonyms for more generalized or aggregated analysis.",
+            "completion_criteria": "All chosen synonyms are integrated into a final set of concept nodes."
+          },
+          {
+            "stage_name": "Compute Structural Measures",
+            "objective": "Derive measures (dependency, connectedness, etc.) for the constructed map to characterize overall structure.",
+            "completion_criteria": "Each measure is calculated for all relevant concepts or relationships in the map."
+          },
+          {
+            "stage_name": "Compare or Simulate",
+            "objective": "Apply comparative metrics or run reasoning procedures (e.g., directed-walk) to explore belief change or predictive reasoning.",
+            "completion_criteria": "Differences or outcomes are identified, highlighting policy implications or shifts in belief."
+          }
+        ]
+      },
+      "Telos": {
+        "analytical_purpose": "Explanatory",
+        "level_of_analysis": "Individual",
+        "output_format": {},
+        "success_criteria": "Accurate modeling of belief structures that supports meaningful analysis of decision processes."
+      }
+    },
+    "schema_overrides": null
+  }
+}

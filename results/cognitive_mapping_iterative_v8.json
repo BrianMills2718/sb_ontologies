@@ -1,0 +1,511 @@
+{
+  "CognitiveMappingMeetsSemanticNetworks": {
+    "metadata": {
+      "citation": "Michael D. Young. 1996. \u201cCognitive Mapping Meets Semantic Networks.\u201d The Journal of Conflict Resolution 40(3): 395-414.",
+      "annotation": "Presents an enhanced cognitive mapping method using semantic networks to represent and analyze the belief structures underlying political decision making."
+    },
+    "classification": {
+      "model_type": "Graph",
+      "reasoning_engine": "Graph_Engine",
+      "compatible_operators": [
+        "path_finding",
+        "centrality_analysis",
+        "community_detection",
+        "influence_propagation"
+      ],
+      "summary": "Represents beliefs as semantic networks (concepts and relationships), enabling deeper cognitive analysis through structural metrics and symbolic reasoning."
+    },
+    "schema": {
+      "components": {
+        "entities": [
+          {
+            "name": "Concept",
+            "indigenous_term": "concept",
+            "description": "A basic node in the semantic network representing an idea or object in the belief structure."
+          },
+          {
+            "name": "RelationshipNode",
+            "indigenous_term": "relationship",
+            "description": "A node that encodes an association (e.g., cause, is-a, action) between two or more concepts."
+          },
+          {
+            "name": "ConjunctionNode",
+            "indigenous_term": "conjunction",
+            "description": "A node that combines multiple concepts (subjects or objects) using 'and' or 'or.'"
+          }
+        ],
+        "relationships": [
+          {
+            "indigenous_term": "equal",
+            "description": "A relationship indicating equivalence or sameness of two concepts."
+          },
+          {
+            "indigenous_term": "condition",
+            "description": "A relationship indicating a requirement or constraint under which something holds."
+          },
+          {
+            "indigenous_term": "component",
+            "description": "Indicates that one concept is a constituent or part of another concept."
+          },
+          {
+            "indigenous_term": "preference/greater-than",
+            "description": "A relationship indicating a comparative preference among concepts."
+          },
+          {
+            "indigenous_term": "if-then",
+            "description": "A conditional relationship used to express hypothetical or contingent statements."
+          },
+          {
+            "indigenous_term": "possess",
+            "description": "A relationship indicating ownership or possession of one concept by another."
+          },
+          {
+            "indigenous_term": "positive-cause",
+            "description": "Indicates a causal link that increases or furthers the object concept."
+          },
+          {
+            "indigenous_term": "negative-cause",
+            "description": "Indicates a causal link that decreases or hinders the object concept."
+          },
+          {
+            "indigenous_term": "is-a",
+            "description": "A class membership or categorical relationship (e.g., X is-a Y)."
+          },
+          {
+            "indigenous_term": "attribute",
+            "description": "Used to express that a concept has a particular property or characteristic."
+          },
+          {
+            "indigenous_term": "location",
+            "description": "Indicates spatial relationship or placement of a concept."
+          },
+          {
+            "indigenous_term": "strategy",
+            "description": "Indicates that a particular relationship or action is a method or plan to achieve a goal."
+          },
+          {
+            "indigenous_term": "know",
+            "description": "A relationship indicating awareness or knowledge of one concept by another."
+          },
+          {
+            "indigenous_term": "warrant-for",
+            "description": "Justifies or provides grounds for another relationship or conclusion."
+          },
+          {
+            "indigenous_term": "cause",
+            "description": "A relationship producing a direct effect on another concept."
+          }
+        ],
+        "conjunctions": [
+          {
+            "indigenous_term": "and",
+            "description": "A conjunction connecting multiple subjects or objects jointly."
+          },
+          {
+            "indigenous_term": "or",
+            "description": "A conjunction connecting alternative subjects or objects."
+          }
+        ],
+        "actions": [
+          {
+            "indigenous_term": "accept",
+            "description": "An action signifying agreement to or receipt of something."
+          },
+          {
+            "indigenous_term": "feel",
+            "description": "An action describing an emotional state or perception."
+          },
+          {
+            "indigenous_term": "purchase",
+            "description": "An action denoting the acquisition of something by payment."
+          },
+          {
+            "indigenous_term": "allow",
+            "description": "An action granting permission or enabling another action."
+          },
+          {
+            "indigenous_term": "honor",
+            "description": "An action showing respect or adherence to an obligation."
+          },
+          {
+            "indigenous_term": "ratify",
+            "description": "An action formally confirming or approving a proposal or agreement."
+          },
+          {
+            "indigenous_term": "assert",
+            "description": "An action forcefully stating or declaring a viewpoint."
+          },
+          {
+            "indigenous_term": "ignore",
+            "description": "An action deliberately disregarding a concept or situation."
+          },
+          {
+            "indigenous_term": "reduce",
+            "description": "An action that decreases or lessens another concept."
+          },
+          {
+            "indigenous_term": "assist",
+            "description": "An action providing help or support to a concept or entity."
+          },
+          {
+            "indigenous_term": "influence",
+            "description": "An action exerting effect or sway on another concept."
+          },
+          {
+            "indigenous_term": "release",
+            "description": "An action freeing or making a concept available."
+          },
+          {
+            "indigenous_term": "attack",
+            "description": "An aggressive action aimed at harming or subduing another concept."
+          },
+          {
+            "indigenous_term": "intervene",
+            "description": "An action involving entry into a situation to alter its course."
+          },
+          {
+            "indigenous_term": "restore",
+            "description": "An action returning a concept to a previous or improved state."
+          },
+          {
+            "indigenous_term": "invade",
+            "description": "An action forcibly entering another agent's territory or domain."
+          },
+          {
+            "indigenous_term": "share",
+            "description": "An action involving distribution or joint use with others."
+          },
+          {
+            "indigenous_term": "lose",
+            "description": "An action denoting the deprivation or reduction of something previously possessed."
+          },
+          {
+            "indigenous_term": "lead",
+            "description": "An action guiding or directing the behavior of others."
+          },
+          {
+            "indigenous_term": "sign",
+            "description": "An action affixing a signature to endorse or finalize a document or agreement."
+          },
+          {
+            "indigenous_term": "confront",
+            "description": "An action challenging or opposing another concept or actor."
+          },
+          {
+            "indigenous_term": "limit",
+            "description": "An action restricting the extent or scope of something."
+          },
+          {
+            "indigenous_term": "stop",
+            "description": "An action ceasing or preventing a concept or event."
+          },
+          {
+            "indigenous_term": "consider",
+            "description": "An action deliberating or thinking about a concept or situation."
+          },
+          {
+            "indigenous_term": "maintain",
+            "description": "An action sustaining or preserving a state or relationship."
+          },
+          {
+            "indigenous_term": "support",
+            "description": "An action providing backing or assistance to another concept."
+          },
+          {
+            "indigenous_term": "consult",
+            "description": "An action seeking advice or discussion with another actor or concept."
+          },
+          {
+            "indigenous_term": "meet",
+            "description": "An action convening or coming together with others."
+          },
+          {
+            "indigenous_term": "threaten",
+            "description": "An action expressing an intention to inflict harm or punitive measures."
+          },
+          {
+            "indigenous_term": "control",
+            "description": "An action governing or overseeing the behavior of something."
+          },
+          {
+            "indigenous_term": "monitor",
+            "description": "An action observing or checking the progress of a concept."
+          },
+          {
+            "indigenous_term": "use",
+            "description": "An action employing or utilizing another concept for a purpose."
+          },
+          {
+            "indigenous_term": "cooperate",
+            "description": "An action working together with another actor or concept."
+          },
+          {
+            "indigenous_term": "negotiate",
+            "description": "An action discussing terms or reaching an agreement with others."
+          },
+          {
+            "indigenous_term": "verify",
+            "description": "An action confirming or validating information or compliance."
+          },
+          {
+            "indigenous_term": "decide",
+            "description": "An action making a choice or forming a resolution on a concept."
+          },
+          {
+            "indigenous_term": "open",
+            "description": "An action making something accessible or beginning a process."
+          },
+          {
+            "indigenous_term": "visit",
+            "description": "An action traveling to or meeting another location or concept."
+          },
+          {
+            "indigenous_term": "defend",
+            "description": "An action protecting or guarding against a threat."
+          },
+          {
+            "indigenous_term": "order",
+            "description": "An action instructing or commanding a concept or actor."
+          },
+          {
+            "indigenous_term": "vote-on",
+            "description": "An action making an official decision by ballot or consensus."
+          },
+          {
+            "indigenous_term": "delay",
+            "description": "An action postponing or deferring another concept or event."
+          },
+          {
+            "indigenous_term": "organize",
+            "description": "An action arranging or structuring resources or actors toward a goal."
+          },
+          {
+            "indigenous_term": "withdraw",
+            "description": "An action removing presence or participation from a situation."
+          },
+          {
+            "indigenous_term": "enforce",
+            "description": "An action compelling compliance or upholding a rule."
+          },
+          {
+            "indigenous_term": "perform",
+            "description": "An action carrying out a task or role."
+          },
+          {
+            "indigenous_term": "yield-to",
+            "description": "An action conceding or giving way to another concept."
+          },
+          {
+            "indigenous_term": "enhance",
+            "description": "An action increasing the value or level of a concept."
+          },
+          {
+            "indigenous_term": "propose",
+            "description": "An action suggesting a plan or idea for consideration."
+          }
+        ],
+        "modifiers": [
+          {
+            "indigenous_term": "past",
+            "description": "Indicates that the relationship or action is set in a previous time.",
+            "category": "temporal",
+            "values": [
+              "past"
+            ],
+            "applies_to": [
+              "relationship"
+            ]
+          },
+          {
+            "indigenous_term": "present",
+            "description": "Indicates that the relationship or action is ongoing or currently holds.",
+            "category": "temporal",
+            "values": [
+              "present"
+            ],
+            "applies_to": [
+              "relationship"
+            ]
+          },
+          {
+            "indigenous_term": "future",
+            "description": "Indicates that the relationship or action is anticipated or projected to hold in a future time.",
+            "category": "temporal",
+            "values": [
+              "future"
+            ],
+            "applies_to": [
+              "relationship"
+            ]
+          },
+          {
+            "indigenous_term": "goal",
+            "description": "Indicates that the statement is desired to hold true; the actor\u2019s aim or objective.",
+            "category": "other",
+            "values": [
+              "goal"
+            ],
+            "applies_to": [
+              "relationship"
+            ]
+          },
+          {
+            "indigenous_term": "hypothetical",
+            "description": "Indicates that the statement is conditional or potentially true given assumptions.",
+            "category": "modal",
+            "values": [
+              "hypothetical"
+            ],
+            "applies_to": [
+              "relationship"
+            ]
+          },
+          {
+            "indigenous_term": "normative",
+            "description": "Indicates that the statement has an ideal or moral/ethical evaluation.",
+            "category": "normative",
+            "values": [
+              "normative"
+            ],
+            "applies_to": [
+              "relationship"
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "name": "truthValue",
+            "indigenous_term": "truth-value",
+            "description": "Specifies the truth status a speaker attributes to a relationship (true, false, partial, possible, impossible).",
+            "type": "categorical",
+            "values": [
+              "true",
+              "false",
+              "partial",
+              "possible",
+              "impossible"
+            ],
+            "applies_to": [
+              "relationship"
+            ]
+          },
+          {
+            "name": "salience",
+            "indigenous_term": "salience",
+            "description": "Indicates how frequently a relationship or concept is mentioned or used, implying relative strength.",
+            "type": "numeric",
+            "values": [],
+            "applies_to": [
+              "concept",
+              "relationship"
+            ]
+          }
+        ]
+      },
+      "Ontology": {},
+      "Axioms": {},
+      "Analytics": {
+        "analytical_primitives": [],
+        "focal_concepts": [],
+        "metrics": [
+          {
+            "name": "Dependency",
+            "indigenous_term": "dependency",
+            "description": "Represents the vertical organization of relationships, measuring how many concepts rely on single-relationship paths.",
+            "formula": "D(G) = ( (number_of_bridges) / (number_of_relationships_in_G ) ) / (number_of_structures_in_G )",
+            "interpretation": "Higher values indicate that concepts are arranged in a more hierarchical (dependent) manner.",
+            "range": "0 to 1"
+          },
+          {
+            "name": "Connectedness",
+            "indigenous_term": "connectedness",
+            "description": "Captures overall interrelation: how many connections exist versus total concepts and relationships.",
+            "formula": "C(G) = ( number_of_relationships_in_G ) / ( number_of_concepts_in_G + number_of_relationships_in_G )",
+            "interpretation": "Higher values indicate more lateral links and greater integration among concepts.",
+            "range": "0 to 1 (asymptotic)"
+          },
+          {
+            "name": "Size",
+            "indigenous_term": "size",
+            "description": "Counts the number of distinct concepts in the cognitive map.",
+            "formula": "Size(G) = number_of_concepts_in_G",
+            "interpretation": "Represents the breadth or domain coverage of the map; more concepts can indicate deeper expertise.",
+            "range": ">= 0"
+          },
+          {
+            "name": "UniformityOfSalience",
+            "indigenous_term": "uniformity of salience",
+            "description": "Standard deviation of salience across relationships in the map.",
+            "formula": "stddev( salience_of_all_relationships )",
+            "interpretation": "Indicates how uniformly strong the relationships are. A higher deviation implies some beliefs are held more strongly than others.",
+            "range": ">= 0"
+          },
+          {
+            "name": "ConceptComparison",
+            "indigenous_term": "concept comparison",
+            "description": "Captures the similarity or overlap in the set of concepts used across two cognitive maps.",
+            "formula": "Uses the proportion of shared concepts relative to the union or intersection of concepts in both maps.",
+            "interpretation": "Higher values indicate a more similar conceptual vocabulary across the two maps.",
+            "range": ">= 0"
+          },
+          {
+            "name": "TransformationCost",
+            "indigenous_term": "transformation cost",
+            "description": "Measures the minimal number of discrete changes needed to convert one cognitive map into another (additions, deletions, salience changes).",
+            "formula": "A Levenshtein-style count of insertions/deletions/adjustments of relationships or concepts.",
+            "interpretation": "Higher cost indicates more extensive restructuring of beliefs over time or between different actors.",
+            "range": ">= 0 (integer scale)"
+          },
+          {
+            "name": "Incongruence",
+            "indigenous_term": "incongruence",
+            "description": "Captures the difference between two maps while adjusting for shared concepts. Focuses on changes in relationships for overlapping concepts.",
+            "formula": "No single closed-form is given; uses transformations among shared concepts only.",
+            "interpretation": "Higher values signal greater shifts in underlying beliefs about shared concepts.",
+            "range": ">= 0"
+          }
+        ],
+        "triggers": []
+      },
+      "Process": {
+        "mode": "sequential",
+        "steps": [
+          {
+            "stage_name": "IdentifyBeliefs",
+            "objective": "Locate subject-relationship-object statements in textual data using content-analysis rules.",
+            "completion_criteria": "All relevant text is converted into data statements reflecting the speaker's beliefs."
+          },
+          {
+            "stage_name": "RepresentBeliefs",
+            "objective": "Compile data statements into a semantic network representing concepts, relationships, and conjunctions as unique nodes.",
+            "completion_criteria": "All extracted statements are merged into a structured network data model."
+          },
+          {
+            "stage_name": "SynonymAggregation",
+            "objective": "Consolidate or merge equivalent concept nodes through a synonym facility.",
+            "completion_criteria": "Any discovered synonyms or near-equivalent references are unified if directed by the analyst."
+          },
+          {
+            "stage_name": "ComputeMeasures",
+            "objective": "Calculate structural and comparative metrics (dependency, connectedness, transformation cost, etc.).",
+            "completion_criteria": "All relevant numerical indicators are produced for subsequent analysis."
+          },
+          {
+            "stage_name": "ReasoningModel",
+            "objective": "Apply process models (e.g., directed-walk) that use the semantic network for simulating belief-driven inferences or decisions.",
+            "completion_criteria": "Model completes inference generation, producing predicted decisions or outcomes based on the network."
+          }
+        ]
+      },
+      "Telos": {
+        "analytical_purpose": "Explanatory",
+        "level_of_analysis": "Individual",
+        "output_format": {
+          "type": "SemanticNetworkRepresentation"
+        },
+        "success_criteria": "Captures the structure of an actor\u2019s beliefs in enough detail to allow meaningful structural and process analysis."
+      }
+    },
+    "schema_overrides": null
+  }
+}

@@ -1,0 +1,502 @@
+theory: Semantic Hypergraph
+atoms:
+- id: a1
+  label: Iran
+  type: C
+  type_name: concept
+- id: a2
+  label: United_States
+  type: C
+  type_name: concept
+- id: a3
+  label: threat
+  type: C
+  type_name: concept
+- id: a4
+  label: is
+  type: P
+  type_name: predicate
+- id: a5
+  label: really
+  type: M
+  type_name: modifier
+- id: a7
+  label: hawk
+  type: C
+  type_name: concept
+- id: a8
+  label: skeptic
+  type: C
+  type_name: concept
+- id: a9
+  label: shared
+  type: M
+  type_name: modifier
+- id: a10
+  label: hope
+  type: C
+  type_name: concept
+- id: a99
+  label: and
+  type: B
+  type_name: builder
+- id: a100
+  label: between
+  type: B
+  type_name: builder
+- id: a101
+  label: of
+  type: B
+  type_name: builder
+- id: a102
+  label: for
+  type: B
+  type_name: builder
+- id: a103
+  label: hawk_and_skeptic
+  type: C
+  type_name: concept
+- id: a104
+  label: have
+  type: P
+  type_name: predicate
+- id: a122
+  label: hope_for_Iran
+  type: C
+  type_name: concept
+- id: a11
+  label: episode
+  type: C
+  type_name: concept
+- id: a12
+  label: The_Opinions
+  type: C
+  type_name: concept
+- id: a105
+  label: episode_of_Opinions
+  type: C
+  type_name: concept
+- id: a13
+  label: director
+  type: C
+  type_name: concept
+- id: a14
+  label: editorial_board
+  type: C
+  type_name: concept
+- id: a106
+  label: director_of_editorial_board
+  type: C
+  type_name: concept
+- id: a15
+  label: David_Leonhardt
+  type: C
+  type_name: concept
+- id: a16
+  label: moderates
+  type: P
+  type_name: predicate
+- id: a17
+  label: discussion
+  type: C
+  type_name: concept
+- id: a19
+  label: Bret_Stephens
+  type: C
+  type_name: concept
+- id: a22
+  label: Rosemary_Kelanic
+  type: C
+  type_name: concept
+- id: a107
+  label: participants_Bret_Rosemary
+  type: C
+  type_name: concept
+- id: a20
+  label: applauds
+  type: P
+  type_name: predicate
+- id: a21
+  label: US_military_action
+  type: C
+  type_name: concept
+- id: a26
+  label: strike
+  type: P
+  type_name: predicate
+- id: a108
+  label: striking_Iran
+  type: C
+  type_name: concept
+- id: a25
+  label: warns
+  type: P
+  type_name: predicate
+- id: a28
+  label: Israel
+  type: C
+  type_name: concept
+- id: a110
+  label: Israel_and_US
+  type: C
+  type_name: concept
+- id: a66
+  label: achieve
+  type: P
+  type_name: predicate
+- id: a29
+  label: goals
+  type: C
+  type_name: concept
+- id: a30
+  label: nuclear_program
+  type: C
+  type_name: concept
+- id: a31
+  label: cease_fire
+  type: C
+  type_name: concept
+- id: a111
+  label: real
+  type: C
+  type_name: concept
+- id: a73
+  label: invite
+  type: P
+  type_name: predicate
+- id: a32
+  label: guest
+  type: C
+  type_name: concept
+- id: a46
+  label: agree
+  type: P
+  type_name: predicate
+- id: a118
+  label: hope
+  type: P
+  type_name: predicate
+- id: a112
+  label: hostilities_over
+  type: C
+  type_name: concept
+- id: a42
+  label: feel
+  type: P
+  type_name: predicate
+- id: a114
+  label: accomplished_goals
+  type: C
+  type_name: concept
+- id: a37
+  label: accomplished
+  type: P
+  type_name: predicate
+- id: a113
+  label: strategic_military_goals
+  type: C
+  type_name: concept
+- id: a38
+  label: degrade
+  type: P
+  type_name: predicate
+- id: a39
+  label: ballistic_missile_capabilities
+  type: C
+  type_name: concept
+- id: a40
+  label: facility_Fordo
+  type: C
+  type_name: concept
+- id: a34
+  label: President_Trump
+  type: C
+  type_name: concept
+- id: a41
+  label: think
+  type: P
+  type_name: predicate
+- id: a123
+  label: goal_accomplished
+  type: C
+  type_name: concept
+- id: a60
+  label: appear
+  type: P
+  type_name: predicate
+- id: a44
+  label: blowback
+  type: C
+  type_name: concept
+- id: a119
+  label: minimal
+  type: C
+  type_name: concept
+- id: a49
+  label: intelligence
+  type: C
+  type_name: concept
+- id: a50
+  label: assess
+  type: P
+  type_name: predicate
+- id: a124
+  label: Iran_not_engaged_weapons_research
+  type: C
+  type_name: concept
+- id: a54
+  label: build
+  type: P
+  type_name: predicate
+- id: a78
+  label: nuclear_weapon
+  type: C
+  type_name: concept
+- id: a56
+  label: interested
+  type: P
+  type_name: predicate
+- id: a58
+  label: look_back
+  type: P
+  type_name: predicate
+- id: a59
+  label: 12_day_war
+  type: C
+  type_name: concept
+hyperedges:
+- id: h1
+  connector: a4
+  arguments:
+  - a1
+  - a3
+  - a2
+  type: R
+  roles: sao
+- id: h2
+  connector: a99
+  arguments:
+  - a7
+  - a8
+  type: C
+  roles: null
+- id: h3
+  connector: a104
+  arguments:
+  - a103
+  - a10
+  type: R
+  roles: so
+- id: h3b
+  connector: a102
+  arguments:
+  - a10
+  - a1
+  type: C
+  roles: null
+- id: h4
+  connector: a101
+  arguments:
+  - a11
+  - a12
+  type: C
+  roles: null
+- id: h5
+  connector: a101
+  arguments:
+  - a13
+  - a14
+  type: C
+  roles: null
+- id: h6
+  connector: a4
+  arguments:
+  - a15
+  - a106
+  type: R
+  roles: so
+- id: h7a
+  connector: a100
+  arguments:
+  - a19
+  - a22
+  type: C
+  roles: null
+- id: h7
+  connector: a16
+  arguments:
+  - a15
+  - a17
+  - a107
+  type: R
+  roles: sop
+- id: h8
+  connector: a20
+  arguments:
+  - a19
+  - a21
+  - a1
+  type: R
+  roles: sot
+- id: h9
+  connector: a26
+  arguments:
+  - a2
+  - a1
+  type: R
+  roles: so
+- id: h10
+  connector: a25
+  arguments:
+  - a22
+  - a2
+  - a108
+  type: R
+  roles: sod
+- id: h11a
+  connector: a99
+  arguments:
+  - a28
+  - a2
+  type: C
+  roles: null
+- id: h11
+  connector: a66
+  arguments:
+  - a110
+  - a29
+  type: R
+  roles: so
+- id: h12
+  connector: a104
+  arguments:
+  - a1
+  - a30
+  type: R
+  roles: so
+- id: h13
+  connector: a4
+  arguments:
+  - a31
+  - a111
+  type: R
+  roles: so
+- id: h14
+  connector: a73
+  arguments:
+  - a15
+  - a32
+  type: R
+  roles: so
+- id: h15
+  connector: a46
+  arguments:
+  - a22
+  - a19
+  type: R
+  roles: so
+- id: h16
+  connector: a118
+  arguments:
+  - a19
+  - a112
+  type: R
+  roles: so
+- id: h17
+  connector: a42
+  arguments:
+  - a28
+  - a114
+  type: R
+  roles: so
+- id: h18
+  connector: a37
+  arguments:
+  - a28
+  - a113
+  type: R
+  roles: so
+- id: h19
+  connector: a38
+  arguments:
+  - a28
+  - a39
+  type: R
+  roles: so
+- id: h20
+  connector: a38
+  arguments:
+  - a2
+  - a40
+  type: R
+  roles: so
+- id: h21
+  connector: a41
+  arguments:
+  - a34
+  - a123
+  type: R
+  roles: so
+- id: h22
+  connector: a60
+  arguments:
+  - a44
+  - a119
+  type: R
+  roles: so
+- id: h23
+  connector: a50
+  arguments:
+  - a49
+  - a124
+  type: R
+  roles: so
+- id: h24
+  connector: a54
+  arguments:
+  - a1
+  - a78
+  type: R
+  roles: so
+- id: h25
+  connector: a56
+  arguments:
+  - a1
+  - a78
+  type: R
+  roles: so
+- id: h26
+  connector: a58
+  arguments:
+  - a15
+  - a59
+  type: R
+  roles: so
+visualization: "(is/P.sao\n  Iran/C\n  threat/C\n  United_States/C\n)\n\n(and/B\n\
+  \  hawk/C\n  skeptic/C\n)\n\n(have/P.so\n  hawk_and_skeptic/C\n  hope/C\n)\n\n(for/B\n\
+  \  hope/C\n  Iran/C\n)\n\n(of/B\n  episode/C\n  The_Opinions/C\n)\n\n(of/B\n  director/C\n\
+  \  editorial_board/C\n)\n\n(is/P.so\n  David_Leonhardt/C\n  director_of_editorial_board/C\n\
+  )\n\n(between/B\n  Bret_Stephens/C\n  Rosemary_Kelanic/C\n)\n\n(moderates/P.sop\n\
+  \  David_Leonhardt/C\n  discussion/C\n  participants_Bret_Rosemary/C\n)\n\n(applauds/P.sot\n\
+  \  Bret_Stephens/C\n  US_military_action/C\n  Iran/C\n)\n\n(strike/P.so\n  United_States/C\n\
+  \  Iran/C\n)\n\n(warns/P.sod\n  Rosemary_Kelanic/C\n  United_States/C\n  striking_Iran/C\n\
+  )\n\n(and/B\n  Israel/C\n  United_States/C\n)\n\n(achieve/P.so\n  Israel_and_US/C\n\
+  \  goals/C\n)\n\n(have/P.so\n  Iran/C\n  nuclear_program/C\n)\n\n(is/P.so\n  cease_fire/C\n\
+  \  real/C\n)\n\n(invite/P.so\n  David_Leonhardt/C\n  guest/C\n)\n\n(agree/P.so\n\
+  \  Rosemary_Kelanic/C\n  Bret_Stephens/C\n)\n\n(hope/P.so\n  Bret_Stephens/C\n \
+  \ hostilities_over/C\n)\n\n(feel/P.so\n  Israel/C\n  accomplished_goals/C\n)\n\n\
+  (accomplished/P.so\n  Israel/C\n  strategic_military_goals/C\n)\n\n(degrade/P.so\n\
+  \  Israel/C\n  ballistic_missile_capabilities/C\n)\n\n(degrade/P.so\n  United_States/C\n\
+  \  facility_Fordo/C\n)\n\n(think/P.so\n  President_Trump/C\n  goal_accomplished/C\n\
+  )\n\n(appear/P.so\n  blowback/C\n  minimal/C\n)\n\n(assess/P.so\n  intelligence/C\n\
+  \  Iran_not_engaged_weapons_research/C\n)\n\n(build/P.so\n  Iran/C\n  nuclear_weapon/C\n\
+  )\n\n(interested/P.so\n  Iran/C\n  nuclear_weapon/C\n)\n\n(look_back/P.so\n  David_Leonhardt/C\n\
+  \  12_day_war/C\n)"
+summary:
+  total_atoms: 66
+  total_hyperedges: 29
+  type_distribution:
+    C: 41
+    P: 19
+    M: 2
+    B: 4

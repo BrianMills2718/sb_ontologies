@@ -1,0 +1,276 @@
+{
+  "CognitiveMappingMeetsSemanticNetworks": {
+    "metadata": {
+      "citation": "Young, Michael D. 1996. \u201cCognitive Mapping Meets Semantic Networks.\u201d The Journal of Conflict Resolution 40(3): 395-414.",
+      "annotation": "Introduces an enhanced cognitive mapping framework called WorldView, which uses semantic networks to represent belief structures and supports richer relationship types, truth-values, and operational measures for analyzing and manipulating cognitive maps."
+    },
+    "classification": {
+      "model_type": "Graph",
+      "reasoning_engine": "Graph_Engine",
+      "compatible_operators": [
+        "relationship_extraction",
+        "map_merging",
+        "graph_edit_distance",
+        "structure_based_comparison"
+      ],
+      "summary": "Represents actors\u2019 beliefs as a semantic network (concepts linked by typed and reified relationships), enabling measures of dependency, connectedness, and transformation costs."
+    },
+    "schema": {
+      "Ontology": {
+        "entities": [
+          {
+            "indigenous_term": "concept",
+            "description": "A fundamental node representing an idea or object in the belief structure. Concepts can be subjects or objects in statements.",
+            "examples": [
+              "Examples in the text include \u201coil-pollution,\u201d \u201cseabirds,\u201d or \u201carms-control-process\u201d to illustrate distinct nodes."
+            ]
+          },
+          {
+            "indigenous_term": "relationship",
+            "description": "A reified link that connects concepts (and can itself be treated as a node). It carries a type (positive-cause, attribute, etc.) and potentially a truth-value or modifier."
+          },
+          {
+            "indigenous_term": "conjunction",
+            "description": "Used to join multiple concepts in subject or object positions (e.g., 'and' for joint actions, 'or' for alternatives)."
+          }
+        ],
+        "connections": [
+          {
+            "indigenous_term": "positive-cause (+)",
+            "description": "Indicates a causal relationship where the subject increases or furthers the object concept.",
+            "examples": [
+              "\u201coil-pollution threatens seabirds\u201d was often coded as (oil-pollution + sea-birds) in simpler causal maps."
+            ]
+          },
+          {
+            "indigenous_term": "negative-cause (-)",
+            "description": "Indicates a causal relationship where the subject decreases, hinders, or harms the object concept.",
+            "examples": [
+              "\u201crising-costs harm economic-growth\u201d \u2192 (rising-costs - economic-growth)."
+            ]
+          },
+          {
+            "indigenous_term": "attribute",
+            "description": "Assigns a property or characteristic to a concept, as in 'X has a property Y.'",
+            "examples": [
+              "\u201cSALT becomes lowest-common-denominator...\u201d \u2192 (SALT attribute lowest-common-denominator)."
+            ]
+          },
+          {
+            "indigenous_term": "is-a",
+            "description": "Specifies a classification or subtype relationship (X is an instance or sub-class of Y)."
+          },
+          {
+            "indigenous_term": "if-then",
+            "description": "Signals a conditional statement relating one proposition to another.",
+            "examples": [
+              "\u201cIf X, then Y\u201d used to represent hypothetical or conditional logic in the text."
+            ]
+          },
+          {
+            "indigenous_term": "equal (=)",
+            "description": "States that two concepts or values are identical or equivalent."
+          },
+          {
+            "indigenous_term": "componentpreference/greater-than (>)",
+            "description": "Compares or orders two concepts when one is valued more or is considered greater than the other."
+          },
+          {
+            "indigenous_term": "possess",
+            "description": "Indicates ownership or possession between subject and object."
+          },
+          {
+            "indigenous_term": "know",
+            "description": "Represents a knowledge relationship, i.e., the subject knows some fact or object."
+          },
+          {
+            "indigenous_term": "strategy",
+            "description": "Captures how a goal-subject serves as a means to achieve higher-level goals or outcomes."
+          },
+          {
+            "indigenous_term": "warrant-for",
+            "description": "Indicates support or justification linking subject to object."
+          },
+          {
+            "indigenous_term": "location",
+            "description": "Assigns a spatial context, e.g., X is located at Y."
+          },
+          {
+            "indigenous_term": "action (multiple WEIS-like codes)",
+            "description": "Represents agent-driven relationships: accept, allow, assert, reduce, negotiate, defend, etc. These are events or directed actions from a subject agent to an object."
+          }
+        ],
+        "modifiers": [
+          {
+            "indigenous_term": "truth-values",
+            "description": "Specifies the truth status of a relationship or statement.",
+            "category": "truth_value",
+            "values": [
+              "true",
+              "false",
+              "partial",
+              "possible",
+              "impossible"
+            ],
+            "applies_to": [
+              "relationships"
+            ]
+          },
+          {
+            "indigenous_term": "temporal modifiers",
+            "description": "Qualify the time reference of a relationship.",
+            "category": "temporal",
+            "values": [
+              "past",
+              "present",
+              "future"
+            ],
+            "applies_to": [
+              "relationships"
+            ]
+          },
+          {
+            "indigenous_term": "goal, hypothetical",
+            "description": "Mark the relationship as desired (goal) or conditional (hypothetical).",
+            "category": "modal",
+            "values": [
+              "goal",
+              "hypothetical"
+            ],
+            "applies_to": [
+              "relationships"
+            ]
+          },
+          {
+            "indigenous_term": "normative",
+            "description": "Indicates a value judgment or an idealized condition (\u2018should\u2019).",
+            "category": "normative",
+            "values": [
+              "normative"
+            ],
+            "applies_to": [
+              "relationships"
+            ]
+          },
+          {
+            "indigenous_term": "and, or",
+            "description": "Used to join multiple subjects or objects into compound constructs.",
+            "category": "other",
+            "values": [
+              "and",
+              "or"
+            ],
+            "applies_to": [
+              "concepts"
+            ]
+          }
+        ],
+        "properties": []
+      },
+      "Telos": {
+        "analytical_purpose": "Explanatory",
+        "level_of_analysis": "Individual",
+        "output_format": {},
+        "success_criteria": "Accurate modeling of an individual\u2019s belief structure, preserving relationship types, truth-values, and enabling structural or comparative analysis."
+      },
+      "Axioms": {
+        "principles": [
+          "Belief structures can be represented as networks of concepts and reified relationships.",
+          "Relationships can function as nodes, allowing nested or compound statements to be encoded."
+        ],
+        "rules": [],
+        "domain_of_applicability": "Intended for analyzing individual or collective belief systems through textual data."
+      },
+      "Analytics": {
+        "analytical_primitives": [
+          "semantic-network-construction",
+          "content-analysis"
+        ],
+        "focal_concepts": [
+          "belief-structure",
+          "decision-making"
+        ],
+        "metrics": [
+          {
+            "indigenous_term": "dependency",
+            "description": "Fraction of \u2018bridge\u2019 relationships that uniquely link to concepts, divided by total relationships and adjusted by number of structures in the map.",
+            "formula": "D(G) = (#bridges / #relationships) / (#structures)",
+            "interpretation": "High dependency indicates a vertical, single-threaded organization of concepts. Changes reflect reorganizations in the map\u2019s hierarchy.",
+            "range": "0 to 1"
+          },
+          {
+            "indigenous_term": "connectedness",
+            "description": "Measures interlinkage among concepts and relationships in the map.",
+            "formula": "C(G) = (#relationships) / (#concepts + #relationships)",
+            "interpretation": "High connectedness implies more lateral linkages and integrated reasoning. 0 indicates no links, values approach 1 for extremely dense interconnection.",
+            "range": "0 to 1 (asymptotic)"
+          },
+          {
+            "indigenous_term": "size",
+            "description": "Counts how many unique concepts appear in the map.",
+            "formula": "size(G) = number_of_concepts",
+            "interpretation": "Larger size can reflect greater expertise or complexity of the belief structure.",
+            "range": "0 to infinity"
+          },
+          {
+            "indigenous_term": "uniformity of salience",
+            "description": "Assesses the standard deviation of salience across all relationships in the map.",
+            "formula": "stddev of salience_i for relationships i in G",
+            "interpretation": "Zero standard deviation means all relationships hold equal strength.",
+            "range": "[0, +\u221e)"
+          },
+          {
+            "indigenous_term": "concept comparison",
+            "description": "Lists which concepts and relationships overlap or differ between two maps.",
+            "interpretation": "Helps identify domain overlap and qualitative differences in the sets of concepts used.",
+            "range": "Comparison-based outcome, no numeric limit"
+          },
+          {
+            "indigenous_term": "transformation cost",
+            "description": "Minimum number of discrete edits (add/delete concepts, add/delete relationships, increment/decrement salience) to transform map A into map B.",
+            "interpretation": "Higher values signify greater structural changes or cognitive reorganization; conceptually similar to an edit distance.",
+            "range": "[0, +\u221e)"
+          },
+          {
+            "indigenous_term": "incongruence",
+            "description": "Focuses on changes in relationships among concepts that appear in both maps, ignoring unshared concepts.",
+            "interpretation": "High incongruence indicates a major shift in how the same set of concepts interrelates.",
+            "range": "[0, +\u221e)"
+          }
+        ],
+        "triggers": []
+      },
+      "Process": {
+        "mode": "sequential",
+        "steps": [
+          {
+            "stage_name": "IdentifyStatements",
+            "objective": "Extract each subject-relationship-object assertion from the text.",
+            "completion_criteria": "All statements are parsed into data units matching Table 1 categories."
+          },
+          {
+            "stage_name": "AssignModifiersAndTruthValues",
+            "objective": "Determine any temporal or modal modifiers, as well as truth-values (true, false, partial, possible, impossible).",
+            "completion_criteria": "Each parsed relationship is tagged with relevant modifiers based on context."
+          },
+          {
+            "stage_name": "ConstructSemanticNetwork",
+            "objective": "Convert the coded statements into a node-and-relationship structure. Treat relationships as nodes where necessary to avoid hidden information.",
+            "completion_criteria": "All data statements compiled into an internally consistent semantic network with no orphan references."
+          },
+          {
+            "stage_name": "ApplySynonymFacility",
+            "objective": "Optionally unify concepts judged synonymous to reduce fragmentation in the map.",
+            "completion_criteria": "Concept synonyms are collapsed according to user-defined or dictionary-based rules."
+          },
+          {
+            "stage_name": "ConductAnalysisOrReasoning",
+            "objective": "Use structural measures (dependency, connectedness, etc.) or run inference routines (e.g., directed-walk).",
+            "completion_criteria": "Analytical measures computed or reasoning model produces an outcome (e.g., policy inference)."
+          }
+        ]
+      }
+    },
+    "schema_overrides": null
+  }
+}

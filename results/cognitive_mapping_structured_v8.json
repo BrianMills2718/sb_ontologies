@@ -1,0 +1,1046 @@
+{
+  "WorldView_Theory": {
+    "metadata": {
+      "citation": "Young, Michael D. 1996. 'Cognitive Mapping Meets Semantic Networks.' The Journal of Conflict Resolution 40(3): 395-414.",
+      "annotation": "Enhanced cognitive mapping using semantic networks for representing and analyzing belief structures"
+    },
+    "classification": {
+      "model_type": "Hypergraph",
+      "reasoning_engine": "Graph_Engine",
+      "compatible_operators": [
+        "concept comparison",
+        "synonym resolution",
+        "transformation cost analysis",
+        "dependency analysis",
+        "incongruence detection",
+        "connectedness measurement",
+        "size measurement",
+        "uniformity of salience measurement",
+        "bridge detection"
+      ],
+      "summary": "A semantic-network-based extension of cognitive mapping that encodes relationships, truth-values, and modifiers for more comprehensive modeling of belief structures."
+    },
+    "schema": {
+      "Ontology": {
+        "entities": [
+          {
+            "indigenous_term": "concept",
+            "name": "concept",
+            "description": "A discrete idea or object in the cognitive (semantic) network that can serve as a subject or object in a statement.",
+            "examples": [
+              "SALT",
+              "United States",
+              "arms-control-process",
+              "oil pollution",
+              "the nuclear threat"
+            ]
+          }
+        ],
+        "connections": [
+          {
+            "indigenous_term": "equal",
+            "description": "Represents that two concepts are considered the same or equivalent.",
+            "domain": [
+              "concept"
+            ],
+            "range": [
+              "concept"
+            ],
+            "notation": {
+              "symbol": "="
+            }
+          },
+          {
+            "indigenous_term": "condition",
+            "description": "Indicates a conditional statement (e.g., 'if X then Y').",
+            "domain": [
+              "concept"
+            ],
+            "range": [
+              "concept"
+            ]
+          },
+          {
+            "indigenous_term": "component",
+            "description": "Indicates that one concept is part of another concept.",
+            "domain": [
+              "concept"
+            ],
+            "range": [
+              "concept"
+            ]
+          },
+          {
+            "indigenous_term": "preference/greater-than",
+            "description": "Represents a comparative preference or ranking, where one concept is preferred over another.",
+            "domain": [
+              "concept"
+            ],
+            "range": [
+              "concept"
+            ],
+            "notation": {
+              "symbol": ">"
+            }
+          },
+          {
+            "indigenous_term": "if-then",
+            "description": "Represents hypothetical or conditional relationships; if one concept occurs, then another follows.",
+            "domain": [
+              "concept"
+            ],
+            "range": [
+              "concept"
+            ]
+          },
+          {
+            "indigenous_term": "possess",
+            "description": "Indicates that one concept is owned or possessed by another.",
+            "domain": [
+              "concept"
+            ],
+            "range": [
+              "concept"
+            ]
+          },
+          {
+            "indigenous_term": "positive-cause",
+            "description": "Represents a positive causal relationship where one concept increases or promotes another concept.",
+            "domain": [
+              "concept"
+            ],
+            "range": [
+              "concept"
+            ],
+            "notation": {
+              "symbol": "+"
+            }
+          },
+          {
+            "indigenous_term": "is-a",
+            "description": "Marks a class-membership or categorical relationship, indicating that the subject is of the type of the object.",
+            "domain": [
+              "concept"
+            ],
+            "range": [
+              "concept"
+            ],
+            "notation": {
+              "symbol": "is-a"
+            }
+          },
+          {
+            "indigenous_term": "strategy",
+            "description": "Represents that one concept (often a goal) leads to or is used as a means to another aim or outcome.",
+            "domain": [
+              "concept"
+            ],
+            "range": [
+              "concept"
+            ]
+          },
+          {
+            "indigenous_term": "negative-cause",
+            "description": "Represents a negative causal relationship where one concept reduces or hinders another concept.",
+            "domain": [
+              "concept"
+            ],
+            "range": [
+              "concept"
+            ],
+            "notation": {
+              "symbol": "-"
+            }
+          },
+          {
+            "indigenous_term": "know",
+            "description": "Represents a relationship in which the subject has knowledge of the object.",
+            "domain": [
+              "concept"
+            ],
+            "range": [
+              "concept"
+            ]
+          },
+          {
+            "indigenous_term": "warrant-for",
+            "description": "Captures the logical or evidentiary basis linking one concept as justification for another.",
+            "domain": [
+              "concept"
+            ],
+            "range": [
+              "concept"
+            ]
+          },
+          {
+            "indigenous_term": "attribute",
+            "description": "Specifies that one concept is an attribute or property of another concept.",
+            "domain": [
+              "concept"
+            ],
+            "range": [
+              "concept"
+            ]
+          },
+          {
+            "indigenous_term": "location",
+            "description": "Specifies the spatial relationship of one concept being located in or at another concept.",
+            "domain": [
+              "concept"
+            ],
+            "range": [
+              "concept"
+            ]
+          },
+          {
+            "indigenous_term": "accept",
+            "description": "Denotes that an actor accepts a proposal, situation, or object.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "feel",
+            "description": "Denotes that an actor expresses or experiences a feeling or emotion toward another actor or concept.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "purchase",
+            "description": "Denotes that an actor buys or acquires something from another actor or entity.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "allow",
+            "description": "Denotes that an actor permits another actor or concept to perform some action or exist in some state.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "honor",
+            "description": "Denotes that an actor shows respect or homage toward another actor or concept.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "ratify",
+            "description": "Denotes the formal approval of a treaty or agreement by an actor.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept",
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "assert",
+            "description": "Denotes that an actor declares or states a position or claim.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept",
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "ignore",
+            "description": "Denotes that an actor refrains from acknowledging or responding to another actor or concept.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "reduce",
+            "description": "Denotes that an actor decreases something (e.g., tension, arms, resources).",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept",
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "assist",
+            "description": "Denotes an actor helping or aiding another actor or concept.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "influence",
+            "description": "Denotes that an actor tries to shape or affect another actor\u2019s decisions or a concept\u2019s state.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "release",
+            "description": "Denotes that an actor frees or lets go of another actor or object.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "attack",
+            "description": "Denotes that an actor assaults or aggressively acts against another actor.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "intervene",
+            "description": "Denotes an actor entering into a situation to influence or alter it.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "restore",
+            "description": "Denotes that an actor brings something back to a prior state or returns it to another actor.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "cause",
+            "description": "Denotes that an actor brings about an effect or event (often used in a general sense).",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "invade",
+            "description": "Denotes that an actor enters another actor's domain forcibly or aggressively.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "share",
+            "description": "Denotes that an actor shares a resource, position, or concept with another actor.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "lose",
+            "description": "Denotes that an actor no longer retains possession or control of something.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept",
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "lead",
+            "description": "Denotes that an actor directs or guides another actor or initiative.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "sign",
+            "description": "Denotes that an actor signs a document or agreement (often treaties, contracts).",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "confront",
+            "description": "Denotes that an actor challenges or opposes another actor directly.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "limit",
+            "description": "Denotes that an actor imposes a restriction or boundary on another actor or concept.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "stop",
+            "description": "Denotes that an actor causes an action or process to cease.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "consider",
+            "description": "Denotes that an actor contemplates or regards a concept or possibility.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept",
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "maintain",
+            "description": "Denotes that an actor upholds or continues a state or object.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept",
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "support",
+            "description": "Denotes that an actor provides help or endorsement to another actor or concept.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "consult",
+            "description": "Denotes that an actor seeks advice or confers with another actor.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "meet",
+            "description": "Denotes that an actor comes into contact or convenes with another actor.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "threaten",
+            "description": "Denotes that an actor issues a threat or warning to another actor.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "control",
+            "description": "Denotes that an actor exercises authority or power over another actor or a concept.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "monitor",
+            "description": "Denotes that an actor observes or watches another actor or concept.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "use",
+            "description": "Denotes that an actor applies or employs a resource or concept.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "cooperate",
+            "description": "Denotes that two or more actors work together.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "negotiate",
+            "description": "Denotes that two or more actors engage in discussion to reach an agreement.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "verify",
+            "description": "Denotes that an actor checks or confirms the accuracy of something.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept",
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "decide",
+            "description": "Denotes that an actor makes a choice or forms a conclusion.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "open",
+            "description": "Denotes that an actor removes barriers or begins something (e.g., negotiations, door, border).",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept",
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "visit",
+            "description": "Denotes that an actor travels to meet another actor or attends a location concept.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "defend",
+            "description": "Denotes that an actor protects or guards another actor or concept from harm.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "order",
+            "description": "Denotes that an actor issues a command or directive to another actor.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "vote-on",
+            "description": "Denotes that actors formally register a choice regarding a concept or decision.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "delay",
+            "description": "Denotes that an actor postpones an action or event.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept",
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "organize",
+            "description": "Denotes that an actor arranges or structures a group, event, or concept.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept",
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "withdraw",
+            "description": "Denotes that an actor removes or pulls back from a situation or location.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept",
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "enforce",
+            "description": "Denotes that an actor compels compliance with rules or agreements.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept",
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "perform",
+            "description": "Denotes that an actor carries out or executes a task or role.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept",
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "yield-to",
+            "description": "Denotes that an actor gives way or surrenders to another actor or an external force.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "enhance",
+            "description": "Denotes that an actor increases or improves something (e.g., capability, relationship).",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "concept",
+              "actor"
+            ],
+            "subTypeOf": "action"
+          },
+          {
+            "indigenous_term": "propose",
+            "description": "Denotes that an actor puts forward an idea, plan, or suggestion for others to consider.",
+            "domain": [
+              "actor"
+            ],
+            "range": [
+              "actor",
+              "concept"
+            ],
+            "subTypeOf": "action"
+          }
+        ],
+        "properties": [
+          {
+            "indigenous_term": "synonym",
+            "description": "A label or alternate name used to unify references to the same concept in the network.",
+            "type": "string",
+            "applies_to": [
+              "concept"
+            ]
+          },
+          {
+            "indigenous_term": "category",
+            "description": "A classification or type assignment for a concept (e.g., actor, object, policy).",
+            "type": "string",
+            "applies_to": [
+              "concept"
+            ]
+          },
+          {
+            "indigenous_term": "salience",
+            "description": "Frequency or importance assigned to a relationship (how many times it appears)",
+            "type": "numeric"
+          },
+          {
+            "indigenous_term": "dependency",
+            "description": "Indicates the extent to which concepts are organized under a small set of bridges or superordinate ideas",
+            "type": "numeric"
+          },
+          {
+            "indigenous_term": "connectedness",
+            "description": "Indicates how interlinked the concepts are (ratio of relationships to total nodes)",
+            "type": "numeric"
+          },
+          {
+            "indigenous_term": "size",
+            "description": "Total number of unique concepts in the cognitive map",
+            "type": "numeric"
+          },
+          {
+            "indigenous_term": "uniformity of salience",
+            "description": "Extent to which relationships are held with equal strength (standard deviation of salience)",
+            "type": "numeric"
+          },
+          {
+            "indigenous_term": "transformation cost",
+            "description": "Number of additions, deletions, or salience adjustments required to convert one map to another",
+            "type": "numeric"
+          },
+          {
+            "indigenous_term": "incongruence",
+            "description": "Measures differences between two cognitive maps using shared concepts only",
+            "type": "numeric"
+          }
+        ],
+        "modifiers": [
+          {
+            "indigenous_term": "past",
+            "description": "Indicates the relationship or action occurred in the past",
+            "category": "temporal",
+            "applies_to": [
+              "connections",
+              "statements"
+            ]
+          },
+          {
+            "indigenous_term": "present",
+            "description": "Indicates the relationship or action currently holds or is ongoing",
+            "category": "temporal",
+            "applies_to": [
+              "connections",
+              "statements"
+            ]
+          },
+          {
+            "indigenous_term": "future",
+            "description": "Indicates the relationship or action is expected to hold at a future time",
+            "category": "temporal",
+            "applies_to": [
+              "connections",
+              "statements"
+            ]
+          },
+          {
+            "indigenous_term": "goal",
+            "description": "Indicates a desired end state or outcome (something the author wants to be true)",
+            "category": "modal",
+            "applies_to": [
+              "connections",
+              "statements"
+            ]
+          },
+          {
+            "indigenous_term": "hypothetical",
+            "description": "Indicates a condition or possibility that may or may not come true (if\u2013then reasoning)",
+            "category": "modal",
+            "applies_to": [
+              "connections",
+              "statements"
+            ]
+          },
+          {
+            "indigenous_term": "normative",
+            "description": "Indicates a sense of obligation, ideal, or moral preference (states what should or ought to be)",
+            "category": "modal",
+            "applies_to": [
+              "connections",
+              "statements"
+            ]
+          },
+          {
+            "indigenous_term": "and",
+            "description": "Connects two or more items in a joint statement (e.g., subjects performing a joint action)",
+            "category": "conjunction",
+            "applies_to": [
+              "compound concepts",
+              "statements"
+            ]
+          },
+          {
+            "indigenous_term": "or",
+            "description": "Connects two or more items in an alternative set (e.g., possible choices)",
+            "category": "conjunction",
+            "applies_to": [
+              "compound concepts",
+              "statements"
+            ]
+          },
+          {
+            "indigenous_term": "all",
+            "description": "Indicates the statement applies to the entire set of instances",
+            "category": "quantifier",
+            "applies_to": [
+              "concepts",
+              "statements"
+            ]
+          },
+          {
+            "indigenous_term": "none",
+            "description": "Indicates the statement applies to no instances of the set",
+            "category": "quantifier",
+            "applies_to": [
+              "concepts",
+              "statements"
+            ]
+          },
+          {
+            "indigenous_term": "some",
+            "description": "Indicates the statement applies to at least one instance but not necessarily all",
+            "category": "quantifier",
+            "applies_to": [
+              "concepts",
+              "statements"
+            ]
+          },
+          {
+            "indigenous_term": "not all",
+            "description": "Indicates the statement does not apply to every instance of the set",
+            "category": "quantifier",
+            "applies_to": [
+              "concepts",
+              "statements"
+            ]
+          }
+        ]
+      },
+      "Analytics": {
+        "metrics": [
+          {
+            "indigenous_term": "dependency",
+            "description": "Measures the vertical organization of concepts based on how many relationships are \u201cbridges.\u201d A bridge is a unique path to a concept. Higher dependency indicates fewer lateral (horizontal) connections between concepts/relationships.",
+            "formula": "DG = ( |bridgesG| / |relationshipsG| ) / ( |structuresG| )",
+            "interpretation": "Values near 1 indicate a single primary chain or superordinate concept from which most subordinate beliefs derive; values near 0 indicate less hierarchical dependence.",
+            "range": "[0, 1]"
+          },
+          {
+            "indigenous_term": "connectedness",
+            "description": "Indicates how interrelated the concepts are in the map. Higher connectedness means more internal linkages among concepts.",
+            "formula": "CG = |relationshipsG| / (|conceptsG| + |relationshipsG|)",
+            "interpretation": "Values approach 1 if relationships predominate over concepts; values near 0 suggest very loose or minimal connectivity.",
+            "range": "[0, 1]"
+          },
+          {
+            "indigenous_term": "size",
+            "description": "Counts all unique concept nodes in a cognitive map. Larger size usually corresponds to greater content breadth or expertise in a given domain.",
+            "formula": "Number of concepts in map G.",
+            "interpretation": "A straightforward measure of scope or domain coverage in the belief structure.",
+            "range": "[1, \u221e)"
+          },
+          {
+            "indigenous_term": "uniformity_of_salience",
+            "description": "Measures how evenly beliefs are emphasized/supported. Each relationship\u2019s salience is how often that belief reappears in the text.",
+            "formula": "Standard deviation of relationship salience across the map.",
+            "interpretation": "Zero standard deviation means all beliefs have the same salience; higher standard deviation implies a few dominant or strongly held beliefs stand out.",
+            "range": "[0, \u221e)"
+          },
+          {
+            "indigenous_term": "concept_comparison",
+            "description": "Identifies overlapping concepts, conflicting or differing connections, and unique areas in each map.",
+            "formula": "Qualitative check for concepts and relationships shared or missing between two maps (no numerical formula).",
+            "interpretation": "Used to isolate the specific differences or commonalities in beliefs, enabling targeted analysis of misperceptions or shifts in meaning.",
+            "range": "Not applicable"
+          },
+          {
+            "indigenous_term": "transformation_cost",
+            "description": "Analogous to string-edit distance, measuring the total discrete changes needed for one map to replicate another map fully.",
+            "formula": "Minimum number of concept-additions, concept-deletions, relationship-additions, relationship-deletions, or salience changes to convert map A into map B.",
+            "interpretation": "Higher cost indicates more content or structural dissimilarities, suggesting greater cognitive work for an individual adjusting to a new belief set.",
+            "range": "[0, \u221e)"
+          },
+          {
+            "indigenous_term": "incongruence",
+            "description": "Captures discrepancies specifically in overlapping areas of two cognitive maps, ignoring concepts that are not shared.",
+            "formula": "Focuses on shared concepts: total relationship changes (additions, deletions, salience changes) for the overlap of map A and B.",
+            "interpretation": "Zero indicates identical shared structures; higher values denote greater divergence of beliefs on the same topics.",
+            "range": "[0, \u221e)"
+          }
+        ],
+        "analytical_primitives": [
+          "compare",
+          "aggregate",
+          "measure"
+        ]
+      },
+      "Process": {
+        "mode": "sequential",
+        "steps": [
+          {
+            "stage_name": "Extract Propositions from Text",
+            "objective": "Capture a rich representation of beliefs, preserving nuances such as tense, conditionals, negations, and frequency of repetition.",
+            "completion_criteria": "All relevant text passages are coded into structured data statements with high inter-coder reliability."
+          },
+          {
+            "stage_name": "Differentiate Relationships and Apply Coding Categories",
+            "objective": "Retain richer meaning from the text while moving beyond binary cause\u2013effect representations.",
+            "completion_criteria": "Relationship annotations accurately reflect intended meaning in the source text, including temporal and modal information."
+          },
+          {
+            "stage_name": "Represent Belief Structures as Semantic Networks",
+            "objective": "Produce a manipulable knowledge structure that accommodates compound statements, multiple relationship types, and future reasoning or modeling needs.",
+            "completion_criteria": "All coded statements merge into a single structured network, with unique nodes linked by labeled relationships."
+          },
+          {
+            "stage_name": "Aggregate Multiple Sources and Resolve Synonyms",
+            "objective": "Generate a composite map of beliefs across time or text sources, allowing consistent references to the same ideas using a single node.",
+            "completion_criteria": "All overlapping/identical concepts are merged appropriately, ensuring a coherent and consolidated network."
+          },
+          {
+            "stage_name": "Apply Structural and Comparative Analyses",
+            "objective": "Gain insights into map complexity, level of integration, shifts in emphasis, or restructuring of beliefs over time or across sources.",
+            "completion_criteria": "Quantitative measures are computed without error, and results can be plausibly interpreted alongside qualitative evidence."
+          }
+        ]
+      },
+      "Telos": {
+        "analytical_purpose": "Descriptive",
+        "level_of_analysis": "Individual",
+        "output_format": {
+          "type": "object"
+        },
+        "success_criteria": "Accurate representation and analysis of belief structures, enabling systematic comparison and insights into how cognitive maps change over time or differ among actors."
+      }
+    }
+  }
+}

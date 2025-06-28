@@ -9,7 +9,7 @@ This document defines the simplified universal meta-schema used for extracting t
 The fundamental elements of the theory. These are the basic building blocks that the theory operates with.
 
 **Examples:**
-- Cognitive Mapping: All concepts/ideas extracted from text (e.g., "United States", "cooperate", "peace")
+- Cognitive Mapping: Concepts (political entities, policies) - nodes are things like "United States", connections include action types like "cooperate"
 - Semantic Hypergraph: Atoms with type codes (e.g., "berlin/C", "is/P", "very/M")
 - Social Networks: Actors, groups, institutions
 - Game Theory: Players, strategies, outcomes

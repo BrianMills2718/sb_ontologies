@@ -1,0 +1,472 @@
+{
+  "theory": "Cognitive Mapping Meets Semantic Networks (WorldView)",
+  "version": "v8.0",
+  "classification": {
+    "model_type": "Graph/Hypergraph",
+    "reasoning_engine": "Graph_Engine",
+    "compatible_operators": [
+      "path_finding",
+      "centrality_analysis",
+      "community_detection"
+    ]
+  },
+  "telos": "A symbolic, network-based approach to identify and represent belief structures (enhanced cognitive maps), enabling systematic content analysis, measurement of change, and model-based reasoning about decision making.",
+  "ontology": [
+    {
+      "indigenous_term": "equal =",
+      "description": "Represents an equality or identity relationship between two concepts."
+    },
+    {
+      "indigenous_term": "positive-cause +",
+      "description": "Symbolizes a positive causal relationship (e.g., one concept increases or supports another)."
+    },
+    {
+      "indigenous_term": "negative-cause -",
+      "description": "Symbolizes a negative causal relationship (e.g., one concept decreases or opposes another)."
+    },
+    {
+      "indigenous_term": "attribute",
+      "description": "Indicates that a concept has a property or characteristic (e.g., SALT has the property of 'lowest-common-denominator')."
+    },
+    {
+      "indigenous_term": "condition",
+      "description": "Specifies that one concept is a circumstance or prerequisite for another concept."
+    },
+    {
+      "indigenous_term": "componentpreference/greater-than >",
+      "description": "Marks that one concept is preferred over another or rated as 'greater-than' another."
+    },
+    {
+      "indigenous_term": "if-then",
+      "description": "Defines a conditional or hypothetical relationship between concepts (e.g., 'If X, then Y')."
+    },
+    {
+      "indigenous_term": "is-a",
+      "description": "Classifies a concept as belonging to a specific category or type (e.g., 'SALT is-a treaty')."
+    },
+    {
+      "indigenous_term": "know",
+      "description": "Indicates knowledge or awareness that one concept (subject) has about another (object)."
+    },
+    {
+      "indigenous_term": "location",
+      "description": "States a spatial or locational relationship between concepts."
+    },
+    {
+      "indigenous_term": "possess",
+      "description": "Specifies ownership or possession of one concept by another."
+    },
+    {
+      "indigenous_term": "strategy",
+      "description": "Points to a plan or method by which one concept is used to accomplish another (e.g., 'We use X as a strategy to achieve Y')."
+    },
+    {
+      "indigenous_term": "warrant-for",
+      "description": "Designates a justification or warrant that one concept provides for another concept or action."
+    },
+    {
+      "indigenous_term": "accept",
+      "description": "Conveys that an actor takes or receives something willingly."
+    },
+    {
+      "indigenous_term": "allow",
+      "description": "Indicates permission granted by one actor to another."
+    },
+    {
+      "indigenous_term": "assert",
+      "description": "States that an actor declares or affirms something strongly."
+    },
+    {
+      "indigenous_term": "assist",
+      "description": "Indicates offering help or support to another party."
+    },
+    {
+      "indigenous_term": "attack",
+      "description": "Signifies aggression or hostility directed from one actor to another."
+    },
+    {
+      "indigenous_term": "cause",
+      "description": "States that one actor or event brings about an effect in another entity."
+    },
+    {
+      "indigenous_term": "consider",
+      "description": "Implies deliberation or contemplation by an actor regarding a concept or action."
+    },
+    {
+      "indigenous_term": "consult",
+      "description": "Indicates seeking advice or information from another actor."
+    },
+    {
+      "indigenous_term": "confront",
+      "description": "Denotes challenging or opposing another actor directly."
+    },
+    {
+      "indigenous_term": "control",
+      "description": "Specifies dominating or regulating the behavior or fate of another entity."
+    },
+    {
+      "indigenous_term": "cooperate",
+      "description": "Indicates working together or collaborating with another actor for a shared purpose."
+    },
+    {
+      "indigenous_term": "decide",
+      "description": "Marks that an actor makes a determination or conclusion about an action or belief."
+    },
+    {
+      "indigenous_term": "defend",
+      "description": "Conveys protecting or guarding something from perceived threats."
+    },
+    {
+      "indigenous_term": "delay",
+      "description": "Specifies postponing or deferring an action or decision."
+    },
+    {
+      "indigenous_term": "enforce",
+      "description": "Indicates compelling compliance or upholding rules and regulations."
+    },
+    {
+      "indigenous_term": "enhance",
+      "description": "States that one concept improves or augments another."
+    },
+    {
+      "indigenous_term": "feel",
+      "description": "Represents an emotional stance or sentiment toward another concept or action."
+    },
+    {
+      "indigenous_term": "honor",
+      "description": "Conveys respect or recognition given to another actor or idea."
+    },
+    {
+      "indigenous_term": "ignore",
+      "description": "Indicates disregarding or paying no attention to another actor or concept."
+    },
+    {
+      "indigenous_term": "influence",
+      "description": "States that one actor affects or shapes the behavior, thinking, or outcomes of another."
+    },
+    {
+      "indigenous_term": "intervene",
+      "description": "Indicates stepping in or mediating in a situation to alter an outcome."
+    },
+    {
+      "indigenous_term": "invade",
+      "description": "Connotes forcibly entering or encroaching upon another actor's territory or domain."
+    },
+    {
+      "indigenous_term": "lead",
+      "description": "Denotes guiding or directing others, taking initiative."
+    },
+    {
+      "indigenous_term": "limit",
+      "description": "Specifies restricting or confining the extent of another action or concept."
+    },
+    {
+      "indigenous_term": "lose",
+      "description": "Indicates failing to keep or maintain possession or advantage."
+    },
+    {
+      "indigenous_term": "maintain",
+      "description": "Conveys continuing or preserving a certain state or condition."
+    },
+    {
+      "indigenous_term": "meet",
+      "description": "States that actors come together, often to discuss or negotiate."
+    },
+    {
+      "indigenous_term": "monitor",
+      "description": "Denotes watching or tracking something over time for changes or developments."
+    },
+    {
+      "indigenous_term": "negotiate",
+      "description": "Indicates discussion aimed at reaching an agreement or settlement."
+    },
+    {
+      "indigenous_term": "open",
+      "description": "Conveys making something accessible or beginning a process."
+    },
+    {
+      "indigenous_term": "order",
+      "description": "States that an actor commands or directs another to perform an action."
+    },
+    {
+      "indigenous_term": "organize",
+      "description": "Indicates structuring or arranging concepts or actors in a systematic way."
+    },
+    {
+      "indigenous_term": "perform",
+      "description": "Conveys carrying out or executing a task or function."
+    },
+    {
+      "indigenous_term": "propose",
+      "description": "Indicates putting forth an idea, plan, or suggestion."
+    },
+    {
+      "indigenous_term": "purchase",
+      "description": "Connotes buying or acquiring something in exchange for value."
+    },
+    {
+      "indigenous_term": "ratify",
+      "description": "Denotes formally approving or sanctioning a decision or document."
+    },
+    {
+      "indigenous_term": "reduce",
+      "description": "States that an actor decreases or diminishes something."
+    },
+    {
+      "indigenous_term": "release",
+      "description": "Indicates setting something or someone free or making it available."
+    },
+    {
+      "indigenous_term": "restore",
+      "description": "Conveys bringing something back to a former condition or status."
+    },
+    {
+      "indigenous_term": "share",
+      "description": "States that actors jointly use or possess a resource or concept."
+    },
+    {
+      "indigenous_term": "sign",
+      "description": "Indicates formally endorsing a document or agreement."
+    },
+    {
+      "indigenous_term": "stop",
+      "description": "Conveys ending or ceasing an action or process."
+    },
+    {
+      "indigenous_term": "support",
+      "description": "Denotes upholding or advocating for another actor or concept."
+    },
+    {
+      "indigenous_term": "threaten",
+      "description": "Indicates warning or attempting to coerce an actor by implying negative consequences."
+    },
+    {
+      "indigenous_term": "use",
+      "description": "Specifies employing or applying a resource, concept, or strategy."
+    },
+    {
+      "indigenous_term": "verify",
+      "description": "Conveys checking or validating the truth or accuracy of something."
+    },
+    {
+      "indigenous_term": "visit",
+      "description": "States that an actor goes to see another person or location."
+    },
+    {
+      "indigenous_term": "vote-on",
+      "description": "Indicates making a decision or choice through a voting process."
+    },
+    {
+      "indigenous_term": "withdraw",
+      "description": "Specifies removing oneself or one's forces from a position or commitment."
+    },
+    {
+      "indigenous_term": "yield-to",
+      "description": "Conveys giving way or conceding to another actor or concept."
+    },
+    {
+      "indigenous_term": "past",
+      "description": "A relationship modifier indicating that the statement or action occurred in the past."
+    },
+    {
+      "indigenous_term": "present",
+      "description": "A relationship modifier indicating that the statement or action currently holds or is ongoing."
+    },
+    {
+      "indigenous_term": "future",
+      "description": "A relationship modifier indicating that the statement or action will hold true at a future time."
+    },
+    {
+      "indigenous_term": "goal",
+      "description": "A relationship modifier expressing that the statement represents a desired or targeted outcome."
+    },
+    {
+      "indigenous_term": "hypothetical",
+      "description": "A relationship modifier conveying that the statement applies only in a conditional or proposed scenario."
+    },
+    {
+      "indigenous_term": "normative",
+      "description": "A relationship modifier for idealized or moral statements, as in 'the world should be X.'"
+    },
+    {
+      "indigenous_term": "true",
+      "description": "A truth-value signifying a statement is asserted to be fully correct or valid for all instances."
+    },
+    {
+      "indigenous_term": "false",
+      "description": "A truth-value signifying a statement is asserted to be incorrect or invalid for all instances."
+    },
+    {
+      "indigenous_term": "partial",
+      "description": "A qualified truth-value indicating the statement is true only for some instances of the relevant class."
+    },
+    {
+      "indigenous_term": "possible",
+      "description": "A truth-value indicating the statement could become true but is not guaranteed or expected."
+    },
+    {
+      "indigenous_term": "impossible",
+      "description": "A truth-value indicating the statement cannot become true under any circumstances."
+    },
+    {
+      "indigenous_term": "Structural measures (Dependency, Connectedness, Size, Uniformity of salience)",
+      "description": "Categories used to characterize individual cognitive maps' organization and salience patterns."
+    },
+    {
+      "indigenous_term": "Comparative measures (Concept comparison, Transformation cost, Incongruence)",
+      "description": "Categories used to compare how different cognitive maps diverge or change, focusing on specific concepts or the overall structure."
+    },
+    {
+      "indigenous_term": "Relationship-addition",
+      "description": "Creates a new link between two concepts, used to measure change in a cognitive map."
+    },
+    {
+      "indigenous_term": "Relationship-deletion",
+      "description": "Removes an existing link between two concepts, used to measure change in a cognitive map."
+    },
+    {
+      "indigenous_term": "Relationship salience increase or decrease",
+      "description": "Adjusts the strength of an existing relationship by one unit, used to measure incremental change."
+    },
+    {
+      "indigenous_term": "Concept-deletion",
+      "description": "Removes a concept (and all relationships involving it), used to measure change in a cognitive map."
+    },
+    {
+      "indigenous_term": "Concept-addition",
+      "description": "Introduces a new concept node into the map, typically accompanied by one or more relationship-additions."
+    }
+  ],
+  "axioms": [],
+  "analytics": [
+    {
+      "indigenous_term": "Dependency (D)",
+      "formula": "DG = (|bridges| / |relationshipsG|) / |structuresG|",
+      "interpretation": "Dependency measures how vertically organized a map is. If all relationships lead uniquely to their concepts (bridges), dependency is higher. Ranges from 0 to 1.",
+      "range": "0 to 1"
+    },
+    {
+      "indigenous_term": "Connectedness (C)",
+      "formula": "CG = (|relationshipsG|) / (\u2211 conceptsG + \u2211 relationshipsG)",
+      "interpretation": "Connectedness reflects how interlinked concepts are. Higher values indicate more lateral connections. Ranges from 0 to 1 (approaching 1 as relationships outnumber nodes).",
+      "range": "0 to 1"
+    },
+    {
+      "indigenous_term": "Size",
+      "formula": "Count of concepts",
+      "interpretation": "Simply the total number of distinct concept nodes in a cognitive map. Often correlated with expertise or breadth of coverage.",
+      "range": "N/A"
+    },
+    {
+      "indigenous_term": "Uniformity of salience",
+      "formula": "Standard deviation of relationship frequencies",
+      "interpretation": "Indicates how evenly beliefs are repeated or emphasized. 0 implies all relationships share the same frequency.",
+      "range": "\u2265 0"
+    },
+    {
+      "indigenous_term": "Concept comparison",
+      "formula": "No closed-form formula. Qualitative or list-based comparison of concepts and relationships across maps.",
+      "interpretation": "Checks for the presence and difference of specific concepts and their links across different cognitive maps.",
+      "range": "N/A"
+    },
+    {
+      "indigenous_term": "Transformation cost",
+      "formula": "Sum of discrete change operations (relationship-add, relationship-delete, concept-add, concept-delete, salience adjustment). Each operation has a cost of 1.",
+      "interpretation": "A measure of how much 'cognitive work' is required to transform one map into another. Higher cost = greater structural difference.",
+      "range": "\u2265 0"
+    },
+    {
+      "indigenous_term": "Incongruence",
+      "formula": "No single equation. Focuses on common concepts and measures changes in shared structure. 0 if maps are identical.",
+      "interpretation": "Highlights how much two maps diverge in their overlapping concepts and relationships, minimizing effects of incomplete overlap.",
+      "range": "\u2265 0"
+    }
+  ],
+  "process": [
+    {
+      "step_name": "EntityExtraction",
+      "description": "A human-coded content analysis identifies statements in subject-relationship-object form, appending modifiers and truth-values."
+    },
+    {
+      "step_name": "SynonymConsolidation",
+      "description": "A synonym facility merges concept nodes judged to be semantically equivalent, enabling flexible specificity in the resulting map."
+    },
+    {
+      "step_name": "NetworkConstruction",
+      "description": "Constructs a semantic network (cognitive map) from coded statements, creating nodes for concepts, relationships, and conjunctions."
+    },
+    {
+      "step_name": "SalienceComputation",
+      "description": "Counts the frequency of repeated statements, assigning a salience value to each unique relationship."
+    },
+    {
+      "step_name": "StructuralAnalysis",
+      "description": "Computes structural measures (Dependency, Connectedness, Size, Uniformity of Salience) for a single cognitive map."
+    },
+    {
+      "step_name": "ComparativeAnalysis",
+      "description": "Applies measures (Concept Comparison, Transformation Cost, Incongruence) to evaluate how maps differ or change over time."
+    },
+    {
+      "step_name": "ReasoningSimulation",
+      "description": "Models inference (e.g., using a 'directed-walk' approach), spreading activation from salient relationships to explore potential policy outcomes."
+    }
+  ],
+  "references": [
+    "Abelson, Robert P., and Milton J. Rosenberg. 1958. Symbolic psychologic: A model of attitudinal cognition. Behavioral Science 3:1-13.",
+    "Alker, Hayward R. 1975. Polimetrics: Its descriptive foundations. In Handbook of political science, vol. 7, edited by F. Greenstein and N. Polsby. Reading, MA: Addison-Wesley.",
+    "Axelrod, Robert. 1972a. Framework for a general theory of cognition. Berkeley, CA: Institute of International Studies.",
+    "Axelrod, Robert. 1972b. Psycho-algebra: A mathematical theory of cognition and choice with an application to the British Eastern Committee in 1918. Papers of the Peace Research Society (International) 18:113-131.",
+    "Axelrod, Robert, ed. 1976. The Structure of Decision: The Cognitive Maps of Political Elites. Princeton, NJ: Princeton University Press.",
+    "Axelrod, Robert. 1977. Argument in foreign policy settings: Britain in 1918, Munich in 1938, and Japan in 1970. Journal of Conflict Resolution 21:727-44.",
+    "Blalock, Herbert M. 1964. Causal inferences in non-experimental research. Chapel Hill: University of North Carolina Press.",
+    "Bonham, G. Matthew. 1993. Cognitive mapping as a technique for supporting international negotiation. Theory and Decision 34:255-73.",
+    "Bonham, G. Matthew, Daniel Heradstveit, Ove Narvessen, and Michael J. Shapiro. 1978. A cognitive model of decision-making: Application to Norwegian oil policy. Cooperation and Conflict 13:93-108.",
+    "Bonham, G. Matthew, Christer Jonsson, Stefan Persson, and Michael J. Shapiro. 1987. Cognition and international negotiation: The historical recovery of discursive space. Cooperation and Conflict 22:1-19.",
+    "Bonham, G. Matthew, and Michael J. Shapiro. 1976. Explanation of the unexpected: The Syrian intervention in Jordan in 1970. In Structure of Decision, edited by Robert Axelrod, 113-41. Princeton, NJ: Princeton University Press.",
+    "Bonham, G. Matthew, Michael J. Shapiro, and Thomas L. Trumble. 1979. The October war. International Studies Quarterly 23:3-44.",
+    "Carey, Susan. 1985. Conceptual change in childhood. Cambridge, MA: MIT Press.",
+    "Carter, Jimmy. 1977. Remarks at the 31st Annual Meeting of the Southern Legislative Conference, July 21. Weekly Compilation of Presidential Documents 13:1063-9.",
+    "Cartwright, Dorwin, and Frank Harary. 1965. Structural balance: A generalization of Heider's theory. Psychological Review 63:277-93.",
+    "Cutler, Robert M. 1982. Unifying the cognitive map and operational code approaches: An integrative framework with an illustrative example. In Cognitive dynamics and international politics, edited by Christer Jonsson, 91-121. London: Frances Pinter.",
+    "Daehler, Marvin W. 1985. Cognitive development. New York: Knopf.",
+    "Duffy, Gavan, and Seth A. Tucker. 1995. Political science: Artificial intelligence applications. Social Science Computer Review 13:1-20.",
+    "Dumbrell, John. 1993. The Carter presidency: A re-evaluation. Manchester, UK: Manchester University Press.",
+    "Estes, William K. 1991. Cognitive architectures from the standpoint of an experimental psychologist. Annual Review of Psychology 42:1-28.",
+    "Gerner, Deborah J., Philip A. Schrodt, Ronald A. Francisco, and Judith L. Weddle. 1994. Machine coding of event data using regional and international sources. International Studies Quarterly 38:91-119.",
+    "Harary, Frank, Robert Z. Norman, and Dorwin Cartwright. 1965. Structural models: An introduction to the theory of directed graphs. New York: John Wiley.",
+    "Holsti, Ole R. 1962. The belief system and national images: A case study. Journal of Conflict Resolution 6:3.",
+    "Hothersall, David. 1985. Psychology. Columbus, OH: Merrill.",
+    "Johnson-Laird, Philip N., Douglas Herrmann, and Roger Chaffin. 1984. Only connections: A critique of semantic networks. Psychological Bulletin 96:292-315.",
+    "Kegley, Charles, Jr. 1994. How did the cold war die? Principles for an autopsy. Mershon International Studies Review 38:11-41.",
+    "Keil, Frank C. 1989. Concepts, kinds, and cognitive development. Cambridge, MA: MIT Press.",
+    "Kruskal, Joseph B. 1983. An overview of sequence comparison. In Time warps, string edits and macromolecules: The theory and practice of sequence comparison, edited by David Sankoff and Joseph B. Kruskal, 1-44. Reading, MA: Addison-Wesley.",
+    "Lehman, Fritz, ed. 1992. Semantic networks in artificial intelligence. New York: Pergamon.",
+    "Levi, Ariel, and Philip Tetlock. 1980. A cognitive analysis of Japan's 1941 decision for war. Journal of Conflict Resolution 24:195-211.",
+    "Luce, Duncan R., and Howard Raiffa. 1957. Games and decisions. New York: John Wiley.",
+    "Maoz, Zeev, and Anat Shayer. 1987. The cognitive structure of peace and war argumentation: Israeli prime ministers versus the Knesset. Political Psychology 8:575-604.",
+    "Maruyama, Magoroh. 1963. The second cybernetics: Deviation-amplifying mutual causal processes. American Scientist 51:164-79.",
+    "Mayer, Richard E. 1992. Thinking, problem solving, cognition. New York: Freeman.",
+    "McClelland, Charles A. 1976. World event/interaction survey codebook (ICPSR 5211). Ann Arbor, MI: Inter-University Consortium for Political and Social Research.",
+    "Newell, Allen, and Herbert A. Simon. 1972. Human problem solving. Englewood Cliffs, NJ: Prentice Hall.",
+    "Newell, Allen, and Herbert A. Simon. 1976. Computer science as empirical enquiry: Symbols and search. Communications of the Association for Computing Machinery 19:113-26.",
+    "Osgood, Charles E., Sol Saporta, and Jum C. Nunnally. 1956. Evaluative assertion analysis. Litera 3:47-102.",
+    "Pennington, Nancy, and Reid Hastie. 1991. A cognitive theory of juror decision-making: The story model. Cardozo Law Review 13:519-57.",
+    "Piaget, Jean. 1982. The essential Piaget. Edited by Howard E. Gruber and Jacques J. Voneche. London: Routledge & Kegan Paul.",
+    "Quillian, M. Ross. 1968. Semantic memory. In Semantic information processing, edited by Marvin Minsky, 216-70. Cambridge, MA: MIT Press.",
+    "Roberts, Don D. 1973. The existential graphs of Charles S. Peirce. The Hague, The Netherlands: Mouton.",
+    "Rosati, Jerel A. 1987/91. The Carter administration\u2019s quest for global community. Columbia: University of South Carolina Press.",
+    "Rosati, Jerel A. 1993. Jimmy Carter, a man before his time? The emergence and collapse of the first post-cold war presidency. Presidential Studies Quarterly 23:459-75.",
+    "Sergeev, Victor M., V. P. Akimov, V. B. Lukov, and Pavel B. Parshin. 1990. A cognitive approach to modeling the Caribbean crisis. Journal of Conflict Resolution 34:179-207.",
+    "Shapiro, Michael J., and G. Matthew Bonham. 1973. Cognitive process and foreign policy decision-making. Journal of Conflict Resolution 17:147-74.",
+    "Sick, Gary. 1986. All fall down: America's tragic encounter with Iran. New York: Penguin.",
+    "Simon, Herbert A. 1957. Models of man. New York: John Wiley.",
+    "Simon, Herbert A. 1980. Cognitive science: The newest science of the artificial. Cognitive Science 4:33-46.",
+    "Simon, Herbert A. 1985 Human nature in politics: The dialogue of psychology with political science. American Political Science Review 79:293-304.",
+    "Simon, Herbert A. 1990. Invariants of human behavior. Annual Review of Psychology 41:1-19.",
+    "Walker, Stephen G., Mark Schafer, and Michael D. Young. 1996. Operational code analysis and the role identities of political leaders. Prepared for presentation at the Annual Meeting of the International Studies Association, San Diego, CA.",
+    "Young, Michael D. 1994. The foreign policy problem representation of President Carter. Ph.D. diss., The Ohio State University.",
+    "Young, Michael D. Forthcoming. Primitive language of foreign policy. In Problem Representation and Political Decision Making, edited by Donald A. Sylvan and James Voss. Cambridge: Cambridge University Press."
+  ],
+  "disclaimer": "This schema is a faithful extraction of the theory, concepts, and methods presented in Michael D. Young\u2019s article (1996). It is intended solely for scholarly use, with all intellectual property rights held by the original author and publisher."
+}

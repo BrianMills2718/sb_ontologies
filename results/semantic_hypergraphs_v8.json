@@ -1,0 +1,199 @@
+{
+  "semantic_hypergraphs": {
+    "metadata": {
+      "citation": "T. Menezes and C. Roth (2021). Semantic Hypergraphs. arXiv:1908.10784v2 [cs.IR].",
+      "annotation": "This paper introduces a new open-adaptive approach to knowledge representation called Semantic Hypergraphs (SH). It represents natural language structures as recursive, typed hyperedges to enable intelligible yet powerful pattern-based inference."
+    },
+    "classification": {
+      "model_type": "Hypergraph",
+      "reasoning_engine": "Graph_Engine",
+      "compatible_operators": [
+        "pattern_detection",
+        "open_information_extraction",
+        "co_reference_resolution",
+        "knowledge_inference"
+      ],
+      "summary": "Represents natural language syntax and semantics as a recursive, typed hypergraph structure, enabling pattern-based knowledge extraction."
+    },
+    "schema": {
+      "Ontology": {
+        "entities": [
+          {
+            "name": "Concept",
+            "indigenous_term": "concept (C)",
+            "description": "An atomic hyperedge that represents a discrete concept, typically corresponding to a single word or named entity in natural language."
+          },
+          {
+            "name": "Builder",
+            "indigenous_term": "builder (B)",
+            "description": "A connector used to construct new concept hyperedges by combining two or more existing concepts, allowing compound or recursive concepts."
+          },
+          {
+            "name": "Predicate",
+            "indigenous_term": "predicate (P)",
+            "description": "A connector that forms a relation among its arguments, enabling statements such as subject-verb-object patterns."
+          },
+          {
+            "name": "Trigger",
+            "indigenous_term": "trigger (T)",
+            "description": "A connector that creates a specifier hyperedge, often capturing temporal or conditional context such as 'in 2019' or 'if it rains.'"
+          },
+          {
+            "name": "Conjunction",
+            "indigenous_term": "conjunction (J)",
+            "description": "A connector used to join or coordinate multiple hyperedges (e.g., 'and'), producing a combined expression."
+          },
+          {
+            "name": "Relation",
+            "indigenous_term": "relation (R)",
+            "description": "A non-atomic hyperedge produced by a predicate, typically a statement or fact composed of subjects, objects, and optional specifications."
+          },
+          {
+            "name": "Specifier",
+            "indigenous_term": "specifier (S)",
+            "description": "A non-atomic hyperedge produced by a trigger, providing additional context (temporal, conditional, etc.) within a relation."
+          }
+        ],
+        "connections": [
+          {
+            "indigenous_term": "active subject (s)",
+            "description": "Predicate argument role marking the active subject of a statement.",
+            "notation": {
+              "symbol": "s"
+            }
+          },
+          {
+            "indigenous_term": "passive subject (p)",
+            "description": "Predicate argument role marking the passive subject of a statement.",
+            "notation": {
+              "symbol": "p"
+            }
+          },
+          {
+            "indigenous_term": "agent (a)",
+            "description": "Predicate argument role marking the agent in passive constructions.",
+            "notation": {
+              "symbol": "a"
+            }
+          },
+          {
+            "indigenous_term": "subject complement (c)",
+            "description": "Predicate argument role marking the complement to a subject in a relation.",
+            "notation": {
+              "symbol": "c"
+            }
+          },
+          {
+            "indigenous_term": "direct object (o)",
+            "description": "Predicate argument role marking the direct object of a statement.",
+            "notation": {
+              "symbol": "o"
+            }
+          },
+          {
+            "indigenous_term": "indirect object (i)",
+            "description": "Predicate argument role marking the indirect object of a statement.",
+            "notation": {
+              "symbol": "i"
+            }
+          },
+          {
+            "indigenous_term": "parataxis (t)",
+            "description": "Predicate argument role marking a loosely connected clause or phrase (parataxis).",
+            "notation": {
+              "symbol": "t"
+            }
+          },
+          {
+            "indigenous_term": "interjection (j)",
+            "description": "Predicate argument role marking an interjection.",
+            "notation": {
+              "symbol": "j"
+            }
+          },
+          {
+            "indigenous_term": "specification (x)",
+            "description": "Predicate argument role marking any specifier hyperedge that provides additional context (e.g., time, condition).",
+            "notation": {
+              "symbol": "x"
+            }
+          },
+          {
+            "indigenous_term": "relative relation (r)",
+            "description": "Predicate argument role denoting a nested relation inside a larger one, often used for embedded clauses.",
+            "notation": {
+              "symbol": "r"
+            }
+          }
+        ],
+        "properties": [],
+        "modifiers": [
+          {
+            "name": "Modifier",
+            "indigenous_term": "modifier (M)",
+            "description": "A connector that applies to one hyperedge, producing a refined hyperedge of the same type (e.g., adverbs, adjectives, negations).",
+            "category": "other",
+            "values": [],
+            "applies_to": [
+              "concept",
+              "predicate",
+              "modifier",
+              "trigger"
+            ]
+          }
+        ]
+      },
+      "Telos": {
+        "analytical_purpose": "Descriptive",
+        "level_of_analysis": "Text-as-Object",
+        "output_format": {
+          "description": "Produces typed semantic hyperedges representing text structure and meaning."
+        },
+        "success_criteria": "Successful application yields coherent hypergraph structures capturing the text's semantic relationships."
+      },
+      "Axioms": {
+        "principles": [
+          "Natural language is recursively structured and can be represented with typed hyperedges that encode n-ary relationships.",
+          "The first element of each non-atomic hyperedge must be a connector, establishing how subsequent arguments are associated."
+        ],
+        "rules": [
+          {
+            "description": "Type inference: a modifier hyperedge inherits its argument's type.",
+            "pattern": "(M x) \u2192 type(x)"
+          },
+          {
+            "description": "Type inference: a builder with two or more concepts yields a concept.",
+            "pattern": "(B C C+) \u2192 C"
+          },
+          {
+            "description": "Type inference: a trigger connecting concepts or relations yields a specifier.",
+            "pattern": "(T [C R]) \u2192 S"
+          },
+          {
+            "description": "Type inference: a predicate with one or more conceptual or relational arguments yields a relation.",
+            "pattern": "(P [C R S]+) \u2192 R"
+          },
+          {
+            "description": "Type inference: a conjunction with two or more arguments merges them under the same type.",
+            "pattern": "(J x x\u2019+) \u2192 type(x)"
+          }
+        ]
+      },
+      "Process": {
+        "mode": "sequential",
+        "steps": [
+          {
+            "stage_name": "Alpha Classification",
+            "objective": "Classify each token in a sentence as one of the atomic types (C, P, M, B, T, J) or discard.",
+            "completion_criteria": "All tokens in the sentence receive a type or are discarded."
+          },
+          {
+            "stage_name": "Beta Transformation",
+            "objective": "Combine typed tokens into a full semantic hyperedge using type inference rules and grammatical relations.",
+            "completion_criteria": "A single well-formed hyperedge representing the entire sentence is produced."
+          }
+        ]
+      }
+    }
+  }
+}

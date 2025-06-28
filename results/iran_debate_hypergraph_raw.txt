@@ -1,0 +1,213 @@
+Below are four illustrative “key statements” from the debate text, each analyzed using the 3-step Semantic Hypergraph process. For each statement, you will see:
+
+1) The original text excerpt.  
+2) Alpha (token‐level) classification.  
+3) Beta (hyperedge) transformation.  
+4) Any further decomposition if needed.  
+
+────────────────────────────────────────────────────────────────────────
+STATEMENT 1. (Iran’s nuclear program)
+────────────────────────────────────────────────────────────────────────
+
+1) Original Text  
+“U.S. intelligence had consistently assessed that Iran was not engaged in weapons research.”
+
+2) Alpha Classification  
+• U.S. → C  
+• intelligence → C  
+• had → (discarded: auxiliary)  
+• consistently → M  
+• assessed → P  
+• that → (discarded)  
+• Iran → C  
+• was → (discarded: auxiliary)  
+• not → M  
+• engaged → P  
+• in → T  
+• weapons → C  
+• research → C  
+
+3) Beta Transformation (Final Hyperedge)  
+
+Step-by-step assembly:
+
+a) Combine “weapons/C” and “research/C” into a multi-word concept:  
+   (+/B weapons/C research/C) ⇒ type C  
+
+b) Turn “in/T (+/B weapons/C research/C)” into a specifier (S), via (T [C]) → S:  
+   (in/T (+/B weapons/C research/C)) ⇒ S  
+
+c) Combine “not/M engaged/P,” with its arguments “Iran/C” and the specifier above.  
+   By rule (M x) → x, the modifier “not/M” attaches to “engaged/P” but does not change the overall type (still a predicate).  
+   Final subrelation: ((not/M engaged/P) iran/C (in/T (+/B weapons/C research/C))) ⇒ type R  
+
+d) Now “consistently/M assessed/P” is the top-level predicate with two arguments:  
+   – subject: (+/B u.s./C intelligence/C)  (a multi-word concept)  
+   – object: the subrelation above  
+
+Hence the final relation:
+
+( (consistently/M assessed/P)  
+   (+/B u.s./C intelligence/C)  
+   ((not/M engaged/P) iran/C (in/T (+/B weapons/C research/C)))  
+)
+
+→ This is of type R (predicate + arguments).
+
+4) Decomposed Relations  
+None further needed here.
+
+
+────────────────────────────────────────────────────────────────────────
+STATEMENT 2. (Policy position: Bret Stephens on Trump’s strikes)
+────────────────────────────────────────────────────────────────────────
+
+1) Original Text  
+“Bret Stephens applauds President Trump’s strikes in Iran.”
+
+2) Alpha Classification  
+• Bret → C  
+• Stephens → C  
+• applauds → P  
+• President → C  
+• Trump’s → (possessive folded into a builder/“of”)  
+• strikes → C  
+• in → T  
+• Iran → C  
+
+3) Beta Transformation (Final Hyperedge)
+
+a) Multi-word concept for person:  
+   (+/B bret/C stephens/C) ⇒ type C  
+
+b) “President Trump” as multi-word concept:  
+   (+/B president/C trump/C) ⇒ C  
+
+c) “strikes in Iran”:  
+   – “in/T iran/C” → by (T [C]) → S → (in/T iran/C)  
+   – Combine “strikes/C” with that specifier in a builder:  
+       (+/B strikes/C (in/T iran/C)) ⇒ type C  
+     (Builder + Concept + Specifier → Concept)  
+
+d) Possessive “President Trump’s strikes in Iran” modeled as a second builder (often “of/B” or “+/B” in this theory):  
+   (of/B (+/B president/C trump/C) (+/B strikes/C (in/T iran/C))) ⇒ type C  
+
+e) Main predicate “applauds/P,” with subject and object:  
+   (applauds/P  
+      (+/B bret/C stephens/C)  
+      (of/B (+/B president/C trump/C) (+/B strikes/C (in/T iran/C)))  
+   )  
+⇒ This whole structure is a relation (predicate + arguments).
+
+4) Decomposed Relations  
+No additional decomposition.
+
+
+────────────────────────────────────────────────────────────────────────
+STATEMENT 3. (Policy position: Rosemary Kelanic warns the U.S.)
+────────────────────────────────────────────────────────────────────────
+
+1) Original Text  
+“Rosemary Kelanic warns the United States against striking Iran.”
+
+2) Alpha Classification  
+• Rosemary → C  
+• Kelanic → C  
+• warns → P  
+• the → (discarded)  
+• United → C  
+• States → C  
+• against → T  (used as a ‘trigger‐like’ preposition here)  
+• striking → P  
+• Iran → C  
+
+3) Beta Transformation (Final Hyperedge)
+
+a) Combine “Rosemary/C” and “Kelanic/C”:  
+   (+/B rosemary/C kelanic/C) ⇒ C  
+
+b) Combine “United/C” and “States/C”:  
+   (+/B united/C states/C) ⇒ C  
+   (Often we keep "the" discarded.)
+
+c) “against/T” combined with “(strike/P iran/C)” → (T + R → specifier S).  
+   First form the sub-relation “(strike/P iran/C)”, which is R.  
+   Then combine with “against/T”: (against/T (strike/P iran/C)) ⇒ S  
+
+d) Main relation with “warns/P” having three arguments:  
+   (warns/P  
+      (+/B rosemary/C kelanic/C)  
+      (+/B united/C states/C)  
+      (against/T (strike/P iran/C))  
+   )  
+⇒ Type R (predicate + subject + object + specifier).
+
+4) Decomposed Relations  
+None further.
+
+
+────────────────────────────────────────────────────────────────────────
+STATEMENT 4. (Historical event: Netanyahu’s 1992 warning)
+────────────────────────────────────────────────────────────────────────
+
+1) Original Text  
+“Benjamin Netanyahu warned the Israeli Knesset in 1992 that Iran was a few years away from a nuclear bomb.”
+
+2) Alpha Classification  
+• Benjamin → C  
+• Netanyahu → C  
+• warned → P  
+• the → (discarded)  
+• Israeli → C  
+• Knesset → C  
+• in → T  
+• 1992 → C  
+• that → (discarded)  
+• Iran → C  
+• was → (discarded: auxiliary)  
+• a → (discarded)  
+• few → M  
+• years → C  
+• away → (often treated as an adverb or qualifier, can fold into a builder)  
+• from → T  
+• nuclear → C  
+• bomb → C  
+
+3) Beta Transformation (Final Hyperedge)
+
+a) Speaker: (+/B benjamin/C netanyahu/C) ⇒ C  
+b) Audience: (+/B israeli/C knesset/C) ⇒ C  
+c) Time specifier: (in/T 1992/C) ⇒ S  
+
+d) “Iran was a few years away from a nuclear bomb.”  
+   Let us treat “few → M,” “years → C,” and “away … from nuclear bomb” as a nested builder + specifier. One concise way:
+
+   i) Combine “nuclear/C” and “bomb/C”:  
+      (+/B nuclear/C bomb/C) ⇒ C  
+   ii) “from/T (+/B nuclear/C bomb/C)” ⇒ specifier (S)  
+   iii) “(+/B few/M years/C (from/T (+/B nuclear/C bomb/C)))” ⇒ treat this as a concept describing “(few years away from …).”  
+      • Because builder + concept + specifier still yields type C.  
+
+   iv) The main subrelation: (be/P iran/C (+/B few/M years/C (from/T (+/B nuclear/C bomb/C)))) ⇒ type R.  
+
+e) Full “warned/P” with four arguments (subject, object, time, content):  
+   (warned/P  
+     (+/B benjamin/C netanyahu/C)  
+     (+/B israeli/C knesset/C)  
+     (in/T 1992/C)  
+     (be/P iran/C (+/B few/M years/C (from/T (+/B nuclear/C bomb/C))))  
+   )  
+⇒ Type R.
+
+4) Decomposed Relations  
+No additional decomposition here, though in extended analyses one might split off time specifiers.
+
+────────────────────────────────────────────────────────────────────────
+
+SUMMARY  
+Each example follows the same pattern:  
+• Step 1 (Alpha): Assign every meaningful token an atomic type (C, P, B, T, J, M) or discard.  
+• Step 2 (Beta): Apply the type-inference rules and builders to form well‐typed hyperedges (R or S).  
+• Step 3 (Optional decomposition): If there were conjunctions (J) or further simplifications, we would add them here.
+
+In this way, the key claims about Iran’s nuclear program, international/diplomatic relations, policy arguments, and historical warnings are each represented as a recursive, ordered hypergraph.

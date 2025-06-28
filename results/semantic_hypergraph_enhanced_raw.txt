@@ -1,0 +1,195 @@
+{
+  "Semantic_Hypergraph_Theory": {
+    "metadata": {
+      "citation": "Menezes, T. & Roth, C. (2021). Semantic Hypergraphs. arXiv:1908.10784v2 [cs.IR].",
+      "annotation": "Proposes a formal, recursive hypergraph model for representing the hierarchical richness of natural language and enabling hybrid symbolic–ML approaches to pattern detection, knowledge inference, and explainable NLP tasks."
+    },
+    "classification": {
+      "model_type": "Hypergraph",
+      "reasoning_engine": "Graph_Engine",
+      "compatible_operators": [
+        "pattern_matching",
+        "knowledge_inference",
+        "open_information_extraction",
+        "co_reference_resolution",
+        "concept_taxonomy_inference"
+      ],
+      "summary": "Represents natural language semantics as recursive, ordered hypergraphs, allowing for pattern detection, inference, and interpretability."
+    },
+    "schema": {
+      "Ontology": {
+        "entities": [
+          {
+            "name": "concept",
+            "indigenous_term": "concept",
+            "description": "Atomic hyperedge type labeled (C). Serves as a fundamental lexical item, e.g. 'apple/C' or 'berlin/C'.",
+            "examples": [
+              "(apple/C)",
+              "(berlin/C)"
+            ]
+          },
+          {
+            "name": "predicate",
+            "indigenous_term": "predicate",
+            "description": "Atomic hyperedge type labeled (P). Connects arguments to form n-ary semantic relations (statements, facts).",
+            "examples": [
+              "(is/P berlin/C nice/C)"
+            ]
+          },
+          {
+            "name": "builder",
+            "indigenous_term": "builder",
+            "description": "Atomic hyperedge type labeled (B). Constructs and combines concepts, e.g. '(+/B barack/C obama/C)' or '(of/B capital/C germany/C)'.",
+            "examples": [
+              "(of/B capital/C germany/C)",
+              "(+/B barack/C obama/C)"
+            ]
+          },
+          {
+            "name": "trigger",
+            "indigenous_term": "trigger",
+            "description": "Atomic hyperedge type labeled (T). Introduces contextual specifications such as temporal or conditional clauses, e.g. '(in/T spain/C)'.",
+            "examples": [
+              "(in/T spain/C)"
+            ]
+          },
+          {
+            "name": "conjunction",
+            "indigenous_term": "conjunction",
+            "description": "Atomic hyperedge type labeled (J). Joins or coordinates multiple concepts or relations, e.g. '(and/J meat/C potatoes/C)'.",
+            "examples": [
+              "(and/J meat/C potatoes/C)"
+            ]
+          }
+        ],
+        "connections": [
+          {
+            "name": "relation",
+            "indigenous_term": "relation",
+            "description": "A non-atomic hyperedge of type (R) formed by a predicate (P) and its arguments. Used for expressing factual statements or assertions, e.g. '(is/P berlin/C nice/C)'.",
+            "examples": [
+              "(is/P berlin/C nice/C)"
+            ],
+            "domain": [
+              "concept",
+              "relation",
+              "specifier"
+            ],
+            "range": [
+              "concept",
+              "relation",
+              "specifier"
+            ]
+          },
+          {
+            "name": "specifier",
+            "indigenous_term": "specifier",
+            "description": "A non-atomic hyperedge of type (S) formed by a trigger (T) and its arguments, e.g. '(in/T 1976/C)'. Often serves as a temporal, local, or conditional qualifier to a relation.",
+            "examples": [
+              "(in/T 1976/C)"
+            ],
+            "domain": [
+              "concept",
+              "relation",
+              "specifier"
+            ],
+            "range": [
+              "concept",
+              "relation",
+              "specifier"
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "name": "modifier",
+            "indigenous_term": "modifier",
+            "description": "Atomic hyperedge type labeled (M). Qualifies or alters concepts, predicates, triggers, or other modifiers (e.g. '(not/M is/P)' or '(nice/M shoes/C)').",
+            "category": "other",
+            "values": [
+              "any contextual or descriptive word such as 'red', 'very', 'not', 'beautiful'"
+            ],
+            "applies_to": [
+              "concept",
+              "predicate",
+              "modifier",
+              "trigger"
+            ]
+          }
+        ],
+        "properties": [
+          {
+            "name": "argument_roles",
+            "indigenous_term": "predicate argument roles",
+            "description": "Categorical scheme specifying how arguments attach to predicates. Examples include subject, object, and other grammatical roles.",
+            "type": "categorical",
+            "values": [
+              "active subject (s)",
+              "passive subject (p)",
+              "agent (a)",
+              "subject complement (c)",
+              "direct object (o)",
+              "indirect object (i)",
+              "parataxis (t)",
+              "interjection (j)",
+              "specification (x)",
+              "relative relation (r)"
+            ],
+            "applies_to": [
+              "relation"
+            ]
+          }
+        ]
+      },
+      "Telos": {
+        "analytical_purpose": "Descriptive",
+        "level_of_analysis": "Text-as-Object",
+        "output_format": {
+          "description": "A recursively structured hypergraph capturing semantic relations."
+        },
+        "success_criteria": "High-fidelity mapping of text inputs into hypergraphs that preserve and clarify semantic structure."
+      },
+      "Axioms": {
+        "principles": [
+          "Natural language can be represented as a recursive, ordered hypergraph.",
+          "Atomic hyperedges are typed as: concept (C), predicate (P), builder (B), trigger (T), conjunction (J), or modifier (M).",
+          "Non-atomic hyperedges are typed as relation (R) or specifier (S), determined by the connector’s type and inference rules.",
+          "Ambiguities in language usage are accommodated by partial or multiple hyperedge parses."
+        ],
+        "rules": [
+          {
+            "type_inference_rules": [
+              "(M x) -> x",
+              "(B C C+) -> C",
+              "(T [C R]) -> S",
+              "(P [C R S]+) -> R",
+              "(J x y'+) -> x"
+            ]
+          }
+        ]
+      },
+      "Analytics": null,
+      "Process": {
+        "mode": "sequential",
+        "steps": [
+          {
+            "stage_name": "alpha_classification",
+            "objective": "Classify each token in a sentence into one of the six atomic hyperedge types or discard tokens such as punctuation.",
+            "completion_criteria": "Each token is assigned exactly one predicted type or is discarded."
+          },
+          {
+            "stage_name": "beta_transformation",
+            "objective": "Recursively apply type-inference and ordering rules to form valid hyperedges from typed tokens, guided by dependency parse heuristics.",
+            "completion_criteria": "A single, well-formed semantic hyperedge is produced for each sentence."
+          },
+          {
+            "stage_name": "pattern_inference_and_decomposition",
+            "objective": "Optionally apply conjunction decomposition rules and pattern-matching to infer simpler or additional hyperedges (e.g., for OpenIE).",
+            "completion_criteria": "Relations containing conjunctions or ambiguous forms are decomposed or supplemented with new derived edges."
+          }
+        ]
+      }
+    },
+    "schema_overrides": null
+  }
+}
